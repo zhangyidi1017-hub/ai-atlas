@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1" />
+  <meta name="theme-color" content="#050505" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="description" content="AI地图 · AI ATLAS — 按 LLM、视觉 AI、专业 Agent 分类，个人学习市面 AI 产品。" />
+  <title>AI地图 · AI ATLAS</title>
+  <link rel="icon" href="./logos/atlas-logo.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="./logos/atlas-logo.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="bg-mesh" aria-hidden="true">
+    <div class="glow glow-a" id="glowA"></div>
+    <div class="glow glow-b" id="glowB"></div>
+    <div class="grain"></div>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="topbar" id="topbar">
+      <button class="back-btn" id="backBtn" type="button" aria-label="返回" hidden>←</button>
+      <button class="brand-lockup" type="button" data-nav="home" aria-label="回到首页">
+        <img class="brand-mark" src="./logos/atlas-logo.svg" width="64" height="64" alt="" />
+        <span class="brand-name">
+          <span class="brand-cn">AI地图</span>
+          <em class="brand-en" aria-label="ATLAS"><span>A</span><span>T</span><span>L</span><span>A</span><span>S</span></em>
+        </span>
+      </button>
+      <nav class="desktop-nav" aria-label="主导航">
+        <button class="desk-link active" data-nav="home" type="button">地图</button>
+        <button class="desk-link" data-nav="news" type="button">快讯</button>
+      </nav>
+    </div>
+    <div class="top-search">
+      <input
+        id="searchInput"
+        class="top-search-input"
+        type="search"
+        placeholder="Search products, LLM, Agent…"
+        autocomplete="off"
+        aria-label="搜索"
+        aria-expanded="false"
+        aria-controls="searchResults"
+      />
+      <div class="search-panel" id="searchPanel" hidden>
+        <div class="search-results" id="searchResults"></div>
+      </div>
+    </div>
+  </header>
+
+  <main id="app">
+    <section class="view view-home" id="view-home" data-view="home">
+      <section class="hero">
+        <div class="hero-banner-row reveal" aria-label="精选产品">
+          <div class="hero-banner">
+            <div class="hero-banner-viewport" id="heroBannerViewport">
+              <div class="hero-banner-track" id="heroBanner"></div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-body reveal">
+          <div class="hero-copy">
+            <p class="hero-eyebrow reveal">AI ATLAS</p>
+            <h1 class="hero-title reveal">
+              <span class="hero-line">寻找你想要的</span>
+              <span class="hero-line-accent">AI工具</span>
+            </h1>
+            <p class="hero-sub reveal">像浏览精品数字作品集一样，系统学习市面上的 AI 产品——从对话大脑，到自动干活的智能体。</p>
+            <div class="hero-cta reveal">
+              <button class="btn btn-primary" data-scroll="#map" type="button">探索分类</button>
+              <button class="btn btn-ghost" data-nav="news" type="button">今日快讯</button>
+            </div>
+          </div>
+          <aside class="hero-sphere-col" aria-label="AI 产品球">
+            <div class="hero-stage" id="heroStage">
+              <div class="hero-sphere-wrap">
+                <div class="hero-sphere-panel">
+                  <canvas class="hero-sphere-canvas" id="heroSphereCanvas" aria-hidden="true"></canvas>
+                  <button class="hero-sphere-drag" id="heroSphereDrag" type="button" tabindex="-1" aria-hidden="true"></button>
+                  <div class="hero-sphere-scene" id="heroSphereScene">
+                    <div class="hero-sphere-products" id="heroSphereNodes"></div>
+                    <div class="hero-sphere-overlay">
+                      <span class="sphere-visit-hint" id="sphereVisitHint" hidden>↗ 访问网站</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+        <a class="scroll-hint reveal" href="#map" data-scroll="#map" aria-label="向下滚动">
+          <span>scroll to explore</span>
+          <span class="scroll-line"></span>
+        </a>
+      </section>
+
+      <section class="section section-split" id="map">
+        <div class="section-head reveal">
+          <div class="section-label">Featured Categories</div>
+          <h2>AI产品分类</h2>
+        </div>
+        <div class="scene-grid" id="sceneGrid"></div>
+      </section>
+
+      <section class="section section-news section-split">
+        <div class="section-head row reveal">
+          <div>
+            <div class="section-label">Latest Signals</div>
+            <h2>今日快讯</h2>
+          </div>
+          <button class="text-link" data-nav="news" type="button">View all →</button>
+        </div>
+        <div class="news-strip-bar reveal">
+          <div class="news-strip-list" id="newsPreview"></div>
+        </div>
+      </section>
+
+      <footer class="site-footer reveal">
+        <p>AI地图 · AI ATLAS</p>
+        <p class="footer-muted">个人 AI 产品学习笔记 — LLM · 视觉 · Agent · 垂直</p>
+      </footer>
+
+      <button class="feedback-fab" id="feedbackBtn" type="button" aria-haspopup="dialog" aria-controls="feedbackModal">反馈</button>
+    </section>
+
+    <section class="view" id="view-scene" data-view="scene" hidden>
+      <div class="page-intro reveal" id="sceneIntro"></div>
+      <div class="scene-products-wrap" id="sceneProducts"></div>
+    </section>
+
+    <section class="view" id="view-product" data-view="product" hidden>
+      <article class="product-page" id="productPage"></article>
+    </section>
+
+    <section class="view" id="view-news" data-view="news" hidden>
+      <div class="page-intro reveal">
+        <div class="section-label">Signal Feed</div>
+        <h1>快讯流</h1>
+        <p>新品、更新、价格变动——点击条目阅读全文。</p>
+      </div>
+      <div class="filter-chips" id="newsFilters"></div>
+      <div class="news-list" id="newsList"></div>
+    </section>
+
+    <section class="view" id="view-news-detail" data-view="news-detail" hidden>
+      <article class="news-detail" id="newsDetail"></article>
+    </section>
+  </main>
+
+  <nav class="tabbar" aria-label="底部导航">
+    <button class="tab active" data-nav="home" type="button">
+      <span class="tab-ico">◈</span>
+      <span>地图</span>
+    </button>
+    <button class="tab" data-nav="news" type="button">
+      <span class="tab-ico">◎</span>
+      <span>快讯</span>
+    </button>
+  </nav>
+
+  <div class="feedback-modal" id="feedbackModal" hidden>
+    <div class="feedback-backdrop" data-close-feedback tabindex="-1" aria-hidden="true"></div>
+    <div class="feedback-dialog" role="dialog" aria-modal="true" aria-labelledby="feedbackTitle">
+      <button class="feedback-close" type="button" data-close-feedback aria-label="关闭">×</button>
+      <h2 id="feedbackTitle">意见反馈</h2>
+      <p class="feedback-hint">欢迎提出产品建议、纠错或想收录的 AI 工具。</p>
+      <form class="feedback-form" id="feedbackForm">
+        <label class="field">
+          <span class="field-label">反馈内容</span>
+          <textarea id="feedbackContent" name="content" rows="5" placeholder="请描述你的意见或建议…" required></textarea>
+        </label>
+        <label class="field">
+          <span class="field-label">联系方式 <em>选填</em></span>
+          <input id="feedbackContact" name="contact" type="text" placeholder="邮箱 / 微信，方便回复时联系" autocomplete="email" />
+        </label>
+        <div class="feedback-actions">
+          <button class="btn btn-ghost" type="button" data-close-feedback>取消</button>
+          <button class="btn btn-primary" type="submit">提交反馈</button>
+        </div>
+      </form>
+      <div class="feedback-success" id="feedbackSuccess" hidden>
+        <p>感谢反馈，已收到。</p>
+        <button class="btn btn-primary btn-sm" type="button" data-close-feedback>关闭</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="./data.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
