@@ -1,0 +1,4316 @@
+{
+  "version": 2,
+  "updatedAt": "2026-07-27T07:37:16.289Z",
+  "pipeline": "ai-os-agent-v2",
+  "analyzed": false,
+  "itemCount": 64,
+  "brief": {
+    "date": "2026-07-27",
+    "generatedAt": "2026-07-27T07:37:16.288Z",
+    "totalCount": 64,
+    "todayCount": 0,
+    "headline": "今日 AI 信号 — 条 · 档案共 64 条",
+    "topUpdates": [
+      {
+        "id": "cur-openai-agentkit",
+        "title": "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排",
+        "stars": 5,
+        "oneLiner": "OpenAI 继续把「对话模型」升级为「可调用工具的 Agent 运行时」。",
+        "readMinutes": 5
+      },
+      {
+        "id": "cur-anthropic-mcp",
+        "title": "Anthropic 推动 MCP：让 Agent 统一连接外部工具与数据源",
+        "stars": 5,
+        "oneLiner": "MCP 正在成为 AI 工具互操作的「USB-C 标准」候选。",
+        "readMinutes": 6
+      },
+      {
+        "id": "cur-cursor-agent",
+        "title": "Cursor 0.4x：Background Agent 与多文件自主修改",
+        "stars": 5,
+        "oneLiner": "Cursor 把 Coding Agent 从「补全」推进到「自主完成小需求」。",
+        "readMinutes": 4
+      },
+      {
+        "id": "cur-memory-agents",
+        "title": "Memory 成为 Agent 标配：从 ChatGPT 到 Cursor 的长期记忆竞赛",
+        "stars": 5,
+        "oneLiner": "2026 年 Agent 产品纷纷上线「跨会话记忆」，Memory 从功能变成基础设施。",
+        "readMinutes": 5
+      },
+      {
+        "id": "cur-perplexity-search",
+        "title": "Perplexity 强化 Pro Search：多步推理 + 来源可追溯",
+        "stars": 4,
+        "oneLiner": "搜索 Agent 把「给答案」升级为「给调研过程 + 引用链」。",
+        "readMinutes": 4
+      }
+    ],
+    "sections": {
+      "topUpdates": [
+        "cur-openai-agentkit",
+        "cur-anthropic-mcp",
+        "cur-cursor-agent",
+        "cur-memory-agents",
+        "cur-perplexity-search",
+        "cur-gemini-multimodal"
+      ],
+      "newReleases": [
+        "cur-cursor-agent",
+        "sig-f83c24d415"
+      ],
+      "insights": [
+        "cur-openai-agentkit",
+        "cur-anthropic-mcp",
+        "cur-cursor-agent",
+        "cur-memory-agents",
+        "cur-perplexity-search",
+        "cur-gemini-multimodal",
+        "cur-tapnow-agent",
+        "cur-libtv-canvas"
+      ],
+      "emergingTrends": [
+        "cur-openai-agentkit",
+        "cur-anthropic-mcp",
+        "cur-cursor-agent",
+        "cur-perplexity-search",
+        "cur-gemini-multimodal",
+        "cur-tapnow-agent",
+        "cur-libtv-canvas",
+        "cur-memory-agents"
+      ],
+      "newApis": [
+        "cur-openai-agentkit",
+        "cur-anthropic-mcp",
+        "cur-byte-llm"
+      ],
+      "githubTrending": [
+        "sig-53958cf51f",
+        "sig-f7cfdfd7bc",
+        "sig-629c51aa89",
+        "sig-6b401487ed",
+        "sig-d98aa6f2dd",
+        "sig-8843f2689c"
+      ],
+      "productHunt": [],
+      "xDiscussions": []
+    },
+    "sectionLabels": {
+      "topUpdates": "🔥 Top Updates",
+      "newReleases": "🟢 New Releases",
+      "insights": "🧠 AI Insights",
+      "emergingTrends": "📈 Emerging Trends",
+      "newApis": "🏷 New APIs",
+      "githubTrending": "🚀 Github Trending",
+      "productHunt": "💼 Product Hunt",
+      "xDiscussions": "💬 X Discussions"
+    }
+  },
+  "whatsChanging": {
+    "periodDays": 30,
+    "generatedAt": "2026-07-27T07:37:16.289Z",
+    "summary": "近 30 天共 64 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "trends": [
+      {
+        "name": "Agent",
+        "signal": "近 30 天 10 条相关更新",
+        "examples": [
+          "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排",
+          "Anthropic 推动 MCP：让 Agent 统一连接外部工具与数据源"
+        ]
+      },
+      {
+        "name": "Product",
+        "signal": "近 30 天 4 条相关更新",
+        "examples": [
+          "Google Gemini 2.x：原生多模态与 Workspace 深度整合",
+          "LibTV 无限画布：LiblibAI 系视频 Agent 全链路"
+        ]
+      },
+      {
+        "name": "API",
+        "signal": "近 30 天 3 条相关更新",
+        "examples": [
+          "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排",
+          "Anthropic 推动 MCP：让 Agent 统一连接外部工具与数据源"
+        ]
+      },
+      {
+        "name": "Workflow",
+        "signal": "近 30 天 3 条相关更新",
+        "examples": [
+          "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排",
+          "Google Gemini 2.x：原生多模态与 Workspace 深度整合"
+        ]
+      },
+      {
+        "name": "Release",
+        "signal": "近 30 天 2 条相关更新",
+        "examples": [
+          "Cursor 0.4x：Background Agent 与多文件自主修改",
+          "Cursor 在 Slack 中的改进 · Cursor"
+        ]
+      },
+      {
+        "name": "Video",
+        "signal": "近 30 天 2 条相关更新",
+        "examples": [
+          "TapNow 智能体画布：国内视频 Agent 工作流新标杆",
+          "LibTV 无限画布：LiblibAI 系视频 Agent 全链路"
+        ]
+      },
+      {
+        "name": "MCP",
+        "signal": "近 30 天 1 条相关更新",
+        "examples": [
+          "Anthropic 推动 MCP：让 Agent 统一连接外部工具与数据源"
+        ]
+      },
+      {
+        "name": "Coding",
+        "signal": "近 30 天 1 条相关更新",
+        "examples": [
+          "Cursor 0.4x：Background Agent 与多文件自主修改"
+        ]
+      }
+    ],
+    "focusAreas": [
+      "Agent",
+      "Memory",
+      "MCP",
+      "Workflow"
+    ],
+    "risingTags": [
+      "Agent"
+    ]
+  },
+  "productUpdates": [
+    {
+      "id": "cur-openai-agentkit",
+      "title": "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排",
+      "oneLiner": "OpenAI 继续把「对话模型」升级为「可调用工具的 Agent 运行时」。",
+      "date": "2026-07-26",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [
+        "Agent",
+        "API",
+        "Workflow"
+      ],
+      "stars": 5
+    },
+    {
+      "id": "cur-anthropic-mcp",
+      "title": "Anthropic 推动 MCP：让 Agent 统一连接外部工具与数据源",
+      "oneLiner": "MCP 正在成为 AI 工具互操作的「USB-C 标准」候选。",
+      "date": "2026-07-25",
+      "productIds": [
+        "claude"
+      ],
+      "source": "Anthropic",
+      "tags": [
+        "MCP",
+        "Agent",
+        "API"
+      ],
+      "stars": 5
+    },
+    {
+      "id": "cur-cursor-agent",
+      "title": "Cursor 0.4x：Background Agent 与多文件自主修改",
+      "oneLiner": "Cursor 把 Coding Agent 从「补全」推进到「自主完成小需求」。",
+      "date": "2026-07-24",
+      "productIds": [
+        "cursor"
+      ],
+      "source": "Cursor",
+      "tags": [
+        "Coding",
+        "Agent",
+        "Release"
+      ],
+      "stars": 5
+    },
+    {
+      "id": "sig-7569338ee0",
+      "title": "Launching Health in ChatGPT",
+      "oneLiner": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their h",
+      "date": "2026-07-23",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI Blog",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "cur-gemini-multimodal",
+      "title": "Google Gemini 2.x：原生多模态与 Workspace 深度整合",
+      "oneLiner": "Gemini 继续押注「Workspace 里的默认 AI 同事」。",
+      "date": "2026-07-22",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google AI",
+      "tags": [
+        "Agent",
+        "Workflow",
+        "Product"
+      ],
+      "stars": 4
+    },
+    {
+      "id": "sig-bd6ce42035",
+      "title": "Building AI infrastructure with the Effingham County community",
+      "oneLiner": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+      "date": "2026-07-22",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI Blog",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-130e23c4bd",
+      "title": "How news organizations are using AI to advance their vital missions",
+      "oneLiner": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publisher",
+      "date": "2026-07-22",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI Blog",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-fc3528d001",
+      "title": "Advancing the next era of national science",
+      "oneLiner": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate disco",
+      "date": "2026-07-22",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI Blog",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-c54f46e53d",
+      "title": "Introducing OpenAI Presence",
+      "oneLiner": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workf",
+      "date": "2026-07-22",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI Blog",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-ce627deb99",
+      "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
+      "oneLiner": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
+      "date": "2026-07-22",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI Blog",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-fb87586911",
+      "title": "Cursor Router",
+      "oneLiner": "Auto mode is now powered by Cursor Router.",
+      "date": "2026-07-22",
+      "productIds": [
+        "cursor"
+      ],
+      "source": "Cursor Changelog",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "cur-tapnow-agent",
+      "title": "TapNow 智能体画布：国内视频 Agent 工作流新标杆",
+      "oneLiner": "TapNow 用节点画布 + Agent 对话统一调度多模型做影视级短片。",
+      "date": "2026-07-21",
+      "productIds": [
+        "tapnow"
+      ],
+      "source": "TapNow",
+      "tags": [
+        "Video",
+        "Agent",
+        "Workflow"
+      ],
+      "stars": 4
+    },
+    {
+      "id": "sig-d42362617c",
+      "title": "Introducing the ChatGPT for small business program",
+      "oneLiner": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
+      "date": "2026-07-21",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI Blog",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-20b0eb2d5c",
+      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+      "oneLiner": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, hi",
+      "date": "2026-07-21",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-40359dbf5a",
+      "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
+      "oneLiner": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing ",
+      "date": "2026-07-21",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "cur-libtv-canvas",
+      "title": "LibTV 无限画布：LiblibAI 系视频 Agent 全链路",
+      "oneLiner": "LibTV 用无限画布串联剧本→分镜→成片，面向专业创作者。",
+      "date": "2026-07-20",
+      "productIds": [
+        "libtv"
+      ],
+      "source": "LibTV",
+      "tags": [
+        "Video",
+        "Agent",
+        "Product"
+      ],
+      "stars": 4
+    },
+    {
+      "id": "sig-d4ff9ec891",
+      "title": "Safety and alignment in an era of long-horizon models",
+      "oneLiner": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed",
+      "date": "2026-07-20",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "cur-memory-agents",
+      "title": "Memory 成为 Agent 标配：从 ChatGPT 到 Cursor 的长期记忆竞赛",
+      "oneLiner": "2026 年 Agent 产品纷纷上线「跨会话记忆」，Memory 从功能变成基础设施。",
+      "date": "2026-07-19",
+      "productIds": [
+        "chatgpt",
+        "cursor",
+        "claude"
+      ],
+      "source": "Latent Space",
+      "tags": [
+        "Memory",
+        "Agent",
+        "Product"
+      ],
+      "stars": 5
+    },
+    {
+      "id": "cur-lovart-design",
+      "title": "Lovart 艺术 Agent：二次元与概念设计的 Agent 化探索",
+      "oneLiner": "Lovart 将风格模板 + Agent 对话结合，服务插画与二次元创作。",
+      "date": "2026-07-18",
+      "productIds": [
+        "lovart"
+      ],
+      "source": "Lovart",
+      "tags": [
+        "Image",
+        "Agent",
+        "Design"
+      ],
+      "stars": 3
+    },
+    {
+      "id": "cur-byte-llm",
+      "title": "字节跳动大模型矩阵：豆包 + 火山引擎 + Seed 系列",
+      "oneLiner": "字节以「豆包 C 端 + 火山 B 端 + Seed 模型」构建国内最完整 AI 栈之一。",
+      "date": "2026-07-17",
+      "productIds": [
+        "doubao",
+        "coze",
+        "jimeng"
+      ],
+      "source": "火山引擎",
+      "tags": [
+        "Agent",
+        "API",
+        "Product"
+      ],
+      "stars": 4
+    },
+    {
+      "id": "sig-f83c24d415",
+      "title": "Cursor 在 Slack 中的改进 · Cursor",
+      "oneLiner": "Cursor 现在会在开始前先分享规划，可在多代码仓库环境中运行，并能跨频道和讨论串开展工作。",
+      "date": "2026-07-17",
+      "productIds": [
+        "cursor"
+      ],
+      "source": "Cursor",
+      "tags": [
+        "Release"
+      ],
+      "stars": 4
+    },
+    {
+      "id": "sig-7898549b95",
+      "title": "Introducing Gemini 3.5 Flash Cyber",
+      "oneLiner": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulner",
+      "date": "2026-07-17",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google DeepMind",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-3ebda52fc8",
+      "title": "A scorecard for the AI age",
+      "oneLiner": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, ",
+      "date": "2026-07-17",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-8fe39edff7",
+      "title": "Why teens deserve access to safe AI",
+      "oneLiner": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools,",
+      "date": "2026-07-16",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
+    }
+  ],
+  "items": [
+    {
+      "id": "cur-openai-agentkit",
+      "title": "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排",
+      "oneLiner": "OpenAI 继续把「对话模型」升级为「可调用工具的 Agent 运行时」。",
+      "date": "2026-07-26",
+      "tags": [
+        "Agent",
+        "API",
+        "Workflow"
+      ],
+      "categoryIds": [
+        "agent",
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "importance": {
+        "stars": 5,
+        "reason": "影响所有基于 OpenAI 构建 Agent 的产品架构",
+        "readMinutes": 5
+      },
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/new-tools-for-building-agents/",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true
+      },
+      "summary": {
+        "oneSentence": "OpenAI 在 API 层统一 Agent 构建方式，强调工具调用、多步推理与可观测性。",
+        "bullets": [
+          "Responses API 整合对话与工具执行",
+          "内置 Web Search、File Search 等工具",
+          "降低自建 Agent 编排复杂度"
+        ],
+        "audience": "产品经理、全栈开发者、Agent 平台搭建者",
+        "readMinutes": 5,
+        "keywords": [
+          "Agent",
+          "API",
+          "Tool Use"
+        ]
+      },
+      "insight": {
+        "mainInsight": "大模型厂商正在把竞争从「模型智商」转向「Agent 运行时 + 工具生态」。",
+        "whyNow": "企业客户不再满足于 Chat，需要可落地的工作流自动化。",
+        "problem": "自建 Agent 编排层（规划、工具、记忆、重试）成本过高。",
+        "trend": "模型即 Agent OS",
+        "differentiation": "与 Anthropic MCP、Cursor Agent 形成不同抽象层竞争。",
+        "outlook": "未来半年更多产品会默认接入官方 Agent API 而非纯 Chat Completions。"
+      },
+      "learning": {
+        "whyImportant": "这是理解「专业 Agent」与「通用 LLM」分野的关键基础设施更新。",
+        "productDesign": "学习其如何把复杂编排藏在简单 API 后面，UI 上仅暴露「目标 + 工具开关」。",
+        "relevance": "直接关联 Agent、Workflow、MCP、AI Native 产品架构。",
+        "actionItems": [
+          "阅读 OpenAI Agents 官方文档",
+          "对比 Claude Tool Use 与 MCP 接入方式",
+          "在 Atlas 地图中查看 Coze / Dify 如何抽象同类能力"
+        ]
+      },
+      "content": [
+        "OpenAI 持续完善 Agent 构建工具，让开发者通过 Responses API 在单次调用中完成多步工具编排，而不必自己维护复杂的状态机。",
+        "对 AI 产品学习者来说，这意味着：评估一个「Agent 产品」时，除了看模型效果，还要看它的工具层、权限模型和失败重试策略。",
+        "建议把 ChatGPT 的 Agent 模式与 Cursor、Coze 的编排 UI 对照阅读，理解「可视化编排」与「API 编排」两种产品路径。"
+      ],
+      "highlights": [
+        "Agent 运行时竞争加剧",
+        "工具调用成为标配",
+        "API 层抽象是关键"
+      ]
+    },
+    {
+      "id": "sig-53958cf51f",
+      "title": "block/buzz",
+      "oneLiner": "<img src=\"https://opengraph.githubassets.com/da6f1ea8b1b8a2c55e872051c60dcbaeb44",
+      "summary": {
+        "oneSentence": "<img src=\"https://opengraph.githubassets.com/da6f1ea8b1b8a2c55e872051c60dcbaeb44911a75a40ba5226998d8ed9a43f9b/block/buzz",
+        "bullets": [
+          "<img src=\"https://opengraph.githubassets.com/da6f1ea8b1b8a2c55e872051c60dcbaeb44911a75a40ba5226998d8ed9a43f9b/block/buzz\" referrerpolicy=\"no-referrer\"><br>A hive mind communication platform<br><br>Lan"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "https://github.com/block/buzz"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "<img src=\"https://opengraph.githubassets.com/da6f1ea8b1b8a2c55e872051c60dcbaeb44911a75a40ba5226998d8ed9a43f9b/block/buzz\" referrerpolicy=\"no-referrer\"><br>A hive mind communication platform<br><br>Language: Rust<br>Stars: 12115<br>Forks: 974"
+      ],
+      "highlights": [],
+      "translated": false,
+      "date": "2026-07-26",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "github",
+        "group": "trending",
+        "name": "GitHub Trending",
+        "author": "GitHub",
+        "url": "https://github.com/block/buzz",
+        "home": "https://github.com/trending",
+        "lang": "en",
+        "translated": false
+      },
+      "raw": {
+        "title": "block/buzz",
+        "url": "https://github.com/block/buzz",
+        "savedAt": "2026-07-26T04:09:38.203Z"
+      }
+    },
+    {
+      "id": "sig-f7cfdfd7bc",
+      "title": "alibaba/open-code-review",
+      "oneLiner": "<img src=\"https://repository-images.githubusercontent.com/1241960226/27bf01cb-17",
+      "summary": {
+        "oneSentence": "<img src=\"https://repository-images.githubusercontent.com/1241960226/27bf01cb-17df-44d5-9b7b-bcf17c970c6d\" referrerpolic",
+        "bullets": [
+          "<img src=\"https://repository-images.githubusercontent.com/1241960226/27bf01cb-17df-44d5-9b7b-bcf17c970c6d\" referrerpolicy=\"no-referrer\"><br>Open-source &amp; free — Battle-tested at Alibaba's scale. H"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "https://github.com/alibaba/open-code-review"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "<img src=\"https://repository-images.githubusercontent.com/1241960226/27bf01cb-17df-44d5-9b7b-bcf17c970c6d\" referrerpolicy=\"no-referrer\"><br>Open-source &amp; free — Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI &amp; Anthropic compatible.<br><br>Language: Go<br>Stars: 13070<br>Forks: 889"
+      ],
+      "highlights": [],
+      "translated": false,
+      "date": "2026-07-26",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "github",
+        "group": "trending",
+        "name": "GitHub Trending",
+        "author": "GitHub",
+        "url": "https://github.com/alibaba/open-code-review",
+        "home": "https://github.com/trending",
+        "lang": "en",
+        "translated": false
+      },
+      "raw": {
+        "title": "alibaba/open-code-review",
+        "url": "https://github.com/alibaba/open-code-review",
+        "savedAt": "2026-07-26T04:09:38.204Z"
+      }
+    },
+    {
+      "id": "sig-629c51aa89",
+      "title": "citrolabs/ego-lite",
+      "oneLiner": "<img src=\"https://repository-images.githubusercontent.com/1212503250/1e62fd1c-4c",
+      "summary": {
+        "oneSentence": "<img src=\"https://repository-images.githubusercontent.com/1212503250/1e62fd1c-4ca2-40f1-aae4-6aec4614e726\" referrerpolic",
+        "bullets": [
+          "<img src=\"https://repository-images.githubusercontent.com/1212503250/1e62fd1c-4ca2-40f1-aae4-6aec4614e726\" referrerpolicy=\"no-referrer\"><br>The fastest browser for AI agents to run web automation, bui"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "https://github.com/citrolabs/ego-lite"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "<img src=\"https://repository-images.githubusercontent.com/1212503250/1e62fd1c-4ca2-40f1-aae4-6aec4614e726\" referrerpolicy=\"no-referrer\"><br>The fastest browser for AI agents to run web automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you. Zero cost, zero config.<br><br>Language: JavaScript<br>Stars: 3695<br>Forks: 182"
+      ],
+      "highlights": [],
+      "translated": false,
+      "date": "2026-07-26",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "github",
+        "group": "trending",
+        "name": "GitHub Trending",
+        "author": "GitHub",
+        "url": "https://github.com/citrolabs/ego-lite",
+        "home": "https://github.com/trending",
+        "lang": "en",
+        "translated": false
+      },
+      "raw": {
+        "title": "citrolabs/ego-lite",
+        "url": "https://github.com/citrolabs/ego-lite",
+        "savedAt": "2026-07-26T04:09:38.205Z"
+      }
+    },
+    {
+      "id": "sig-6b401487ed",
+      "title": "ComposioHQ/awesome-claude-skills",
+      "oneLiner": "<img src=\"https://opengraph.githubassets.com/93a239869a651214a9a369d14d0379e1070",
+      "summary": {
+        "oneSentence": "<img src=\"https://opengraph.githubassets.com/93a239869a651214a9a369d14d0379e1070357fa06f78dc5b549ba4f1eb03294/ComposioHQ",
+        "bullets": [
+          "<img src=\"https://opengraph.githubassets.com/93a239869a651214a9a369d14d0379e1070357fa06f78dc5b549ba4f1eb03294/ComposioHQ/awesome-claude-skills\" referrerpolicy=\"no-referrer\"><br>A curated list of aweso"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "https://github.com/ComposioHQ/awesome-claude-skills"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "<img src=\"https://opengraph.githubassets.com/93a239869a651214a9a369d14d0379e1070357fa06f78dc5b549ba4f1eb03294/ComposioHQ/awesome-claude-skills\" referrerpolicy=\"no-referrer\"><br>A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows<br><br>Language: Python<br>Stars: 70652<br>Forks: 7947"
+      ],
+      "highlights": [],
+      "translated": false,
+      "date": "2026-07-26",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "github",
+        "group": "trending",
+        "name": "GitHub Trending",
+        "author": "GitHub",
+        "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+        "home": "https://github.com/trending",
+        "lang": "en",
+        "translated": false
+      },
+      "raw": {
+        "title": "ComposioHQ/awesome-claude-skills",
+        "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+        "savedAt": "2026-07-26T04:09:38.205Z"
+      }
+    },
+    {
+      "id": "sig-d98aa6f2dd",
+      "title": "anthropics/claude-cookbooks",
+      "oneLiner": "<img src=\"https://opengraph.githubassets.com/d30e87d82ebdf5b5a2e63ed7095072cfaf8",
+      "summary": {
+        "oneSentence": "<img src=\"https://opengraph.githubassets.com/d30e87d82ebdf5b5a2e63ed7095072cfaf855b0dff175ef99c659dd2c57caa6d/anthropics",
+        "bullets": [
+          "<img src=\"https://opengraph.githubassets.com/d30e87d82ebdf5b5a2e63ed7095072cfaf855b0dff175ef99c659dd2c57caa6d/anthropics/claude-cookbooks\" referrerpolicy=\"no-referrer\"><br>A collection of notebooks/re"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "https://github.com/anthropics/claude-cookbooks"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "<img src=\"https://opengraph.githubassets.com/d30e87d82ebdf5b5a2e63ed7095072cfaf855b0dff175ef99c659dd2c57caa6d/anthropics/claude-cookbooks\" referrerpolicy=\"no-referrer\"><br>A collection of notebooks/recipes showcasing some fun and effective ways of using Claude.<br><br>Language: Jupyter Notebook<br>Stars: 49936<br>Forks: 5899"
+      ],
+      "highlights": [],
+      "translated": false,
+      "date": "2026-07-26",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "github",
+        "group": "trending",
+        "name": "GitHub Trending",
+        "author": "GitHub",
+        "url": "https://github.com/anthropics/claude-cookbooks",
+        "home": "https://github.com/trending",
+        "lang": "en",
+        "translated": false
+      },
+      "raw": {
+        "title": "anthropics/claude-cookbooks",
+        "url": "https://github.com/anthropics/claude-cookbooks",
+        "savedAt": "2026-07-26T04:09:38.206Z"
+      }
+    },
+    {
+      "id": "sig-8843f2689c",
+      "title": "Automattic/harper",
+      "oneLiner": "<img src=\"https://opengraph.githubassets.com/1f857a4f081abbf022cd9a34af502c3d134",
+      "summary": {
+        "oneSentence": "<img src=\"https://opengraph.githubassets.com/1f857a4f081abbf022cd9a34af502c3d134935a4dc58b8aa51813844c961b1ea/Automattic",
+        "bullets": [
+          "<img src=\"https://opengraph.githubassets.com/1f857a4f081abbf022cd9a34af502c3d134935a4dc58b8aa51813844c961b1ea/Automattic/harper\" referrerpolicy=\"no-referrer\"><br>Offline, privacy-first grammar checker"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "https://github.com/Automattic/harper"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "<img src=\"https://opengraph.githubassets.com/1f857a4f081abbf022cd9a34af502c3d134935a4dc58b8aa51813844c961b1ea/Automattic/harper\" referrerpolicy=\"no-referrer\"><br>Offline, privacy-first grammar checker. Fast, open-source, Rust-powered<br><br>Language: Rust<br>Stars: 13465<br>Forks: 512"
+      ],
+      "highlights": [],
+      "translated": false,
+      "date": "2026-07-26",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "github",
+        "group": "trending",
+        "name": "GitHub Trending",
+        "author": "GitHub",
+        "url": "https://github.com/Automattic/harper",
+        "home": "https://github.com/trending",
+        "lang": "en",
+        "translated": false
+      },
+      "raw": {
+        "title": "Automattic/harper",
+        "url": "https://github.com/Automattic/harper",
+        "savedAt": "2026-07-26T04:09:38.207Z"
+      }
+    },
+    {
+      "id": "sig-a16249fcac",
+      "title": "shiyu-coder/Kronos",
+      "oneLiner": "<img src=\"https://opengraph.githubassets.com/0fb8f7a9bf3fdb0481d22127af766463f1d",
+      "summary": {
+        "oneSentence": "<img src=\"https://opengraph.githubassets.com/0fb8f7a9bf3fdb0481d22127af766463f1dbdb01b77c35ab6925d520a065400f/shiyu-code",
+        "bullets": [
+          "<img src=\"https://opengraph.githubassets.com/0fb8f7a9bf3fdb0481d22127af766463f1dbdb01b77c35ab6925d520a065400f/shiyu-coder/Kronos\" referrerpolicy=\"no-referrer\"><br>Kronos: A Foundation Model for the La"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "https://github.com/shiyu-coder/Kronos"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "<img src=\"https://opengraph.githubassets.com/0fb8f7a9bf3fdb0481d22127af766463f1dbdb01b77c35ab6925d520a065400f/shiyu-coder/Kronos\" referrerpolicy=\"no-referrer\"><br>Kronos: A Foundation Model for the Language of Financial Markets<br><br>Language: Python<br>Stars: 33837<br>Forks: 5709"
+      ],
+      "highlights": [],
+      "translated": false,
+      "date": "2026-07-26",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "github",
+        "group": "trending",
+        "name": "GitHub Trending",
+        "author": "GitHub",
+        "url": "https://github.com/shiyu-coder/Kronos",
+        "home": "https://github.com/trending",
+        "lang": "en",
+        "translated": false
+      },
+      "raw": {
+        "title": "shiyu-coder/Kronos",
+        "url": "https://github.com/shiyu-coder/Kronos",
+        "savedAt": "2026-07-26T04:09:38.207Z"
+      }
+    },
+    {
+      "id": "sig-2046f5e50f",
+      "title": "obra/superpowers",
+      "oneLiner": "<img src=\"https://opengraph.githubassets.com/4882241785e298672f7ee9257feb1e61fe7",
+      "summary": {
+        "oneSentence": "<img src=\"https://opengraph.githubassets.com/4882241785e298672f7ee9257feb1e61fe7be27d919b88733a7c346121178e6d/obra/super",
+        "bullets": [
+          "<img src=\"https://opengraph.githubassets.com/4882241785e298672f7ee9257feb1e61fe7be27d919b88733a7c346121178e6d/obra/superpowers\" referrerpolicy=\"no-referrer\"><br>An agentic skills framework &amp; softw"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "https://github.com/obra/superpowers"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "<img src=\"https://opengraph.githubassets.com/4882241785e298672f7ee9257feb1e61fe7be27d919b88733a7c346121178e6d/obra/superpowers\" referrerpolicy=\"no-referrer\"><br>An agentic skills framework &amp; software development methodology that works.<br><br>Language: Shell<br>Stars: 261163<br>Forks: 23305"
+      ],
+      "highlights": [],
+      "translated": false,
+      "date": "2026-07-26",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "github",
+        "group": "trending",
+        "name": "GitHub Trending",
+        "author": "GitHub",
+        "url": "https://github.com/obra/superpowers",
+        "home": "https://github.com/trending",
+        "lang": "en",
+        "translated": false
+      },
+      "raw": {
+        "title": "obra/superpowers",
+        "url": "https://github.com/obra/superpowers",
+        "savedAt": "2026-07-26T04:09:38.208Z"
+      }
+    },
+    {
+      "id": "sig-3823b38bdf",
+      "title": "Pumpkin-MC/Pumpkin",
+      "oneLiner": "<img src=\"https://repository-images.githubusercontent.com/834966974/c4bf220d-a44",
+      "summary": {
+        "oneSentence": "<img src=\"https://repository-images.githubusercontent.com/834966974/c4bf220d-a446-4532-8c74-86df9695edd8\" referrerpolicy",
+        "bullets": [
+          "<img src=\"https://repository-images.githubusercontent.com/834966974/c4bf220d-a446-4532-8c74-86df9695edd8\" referrerpolicy=\"no-referrer\"><br>Empowering everyone to host fast and efficient Minecraft serv"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "https://github.com/Pumpkin-MC/Pumpkin"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "<img src=\"https://repository-images.githubusercontent.com/834966974/c4bf220d-a446-4532-8c74-86df9695edd8\" referrerpolicy=\"no-referrer\"><br>Empowering everyone to host fast and efficient Minecraft servers.<br><br>Language: Rust<br>Stars: 9741<br>Forks: 658"
+      ],
+      "highlights": [],
+      "translated": false,
+      "date": "2026-07-26",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "github",
+        "group": "trending",
+        "name": "GitHub Trending",
+        "author": "GitHub",
+        "url": "https://github.com/Pumpkin-MC/Pumpkin",
+        "home": "https://github.com/trending",
+        "lang": "en",
+        "translated": false
+      },
+      "raw": {
+        "title": "Pumpkin-MC/Pumpkin",
+        "url": "https://github.com/Pumpkin-MC/Pumpkin",
+        "savedAt": "2026-07-26T04:09:38.209Z"
+      }
+    },
+    {
+      "id": "sig-cc1e28286b",
+      "title": "permissionlesstech/bitchat",
+      "oneLiner": "<img src=\"https://opengraph.githubassets.com/98ce60758faf214c44da0d224efa8f336e9",
+      "summary": {
+        "oneSentence": "<img src=\"https://opengraph.githubassets.com/98ce60758faf214c44da0d224efa8f336e9ea8dd44c0e5c0c19da5a8e29f5bca/permission",
+        "bullets": [
+          "<img src=\"https://opengraph.githubassets.com/98ce60758faf214c44da0d224efa8f336e9ea8dd44c0e5c0c19da5a8e29f5bca/permissionlesstech/bitchat\" referrerpolicy=\"no-referrer\"><br>bluetooth mesh chat, IRC vibe"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "https://github.com/permissionlesstech/bitchat"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "<img src=\"https://opengraph.githubassets.com/98ce60758faf214c44da0d224efa8f336e9ea8dd44c0e5c0c19da5a8e29f5bca/permissionlesstech/bitchat\" referrerpolicy=\"no-referrer\"><br>bluetooth mesh chat, IRC vibes<br><br>Language: Swift<br>Stars: 28811<br>Forks: 4341"
+      ],
+      "highlights": [],
+      "translated": false,
+      "date": "2026-07-26",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "github",
+        "group": "trending",
+        "name": "GitHub Trending",
+        "author": "GitHub",
+        "url": "https://github.com/permissionlesstech/bitchat",
+        "home": "https://github.com/trending",
+        "lang": "en",
+        "translated": false
+      },
+      "raw": {
+        "title": "permissionlesstech/bitchat",
+        "url": "https://github.com/permissionlesstech/bitchat",
+        "savedAt": "2026-07-26T04:09:38.211Z"
+      }
+    },
+    {
+      "id": "cur-anthropic-mcp",
+      "title": "Anthropic 推动 MCP：让 Agent 统一连接外部工具与数据源",
+      "oneLiner": "MCP 正在成为 AI 工具互操作的「USB-C 标准」候选。",
+      "date": "2026-07-25",
+      "tags": [
+        "MCP",
+        "Agent",
+        "API"
+      ],
+      "categoryIds": [
+        "agent",
+        "llm"
+      ],
+      "productIds": [
+        "claude"
+      ],
+      "importance": {
+        "stars": 5,
+        "reason": "MCP 是 2026 年 Agent 产品必知协议",
+        "readMinutes": 6
+      },
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Anthropic",
+        "author": "Anthropic",
+        "url": "https://www.anthropic.com/news/model-context-protocol",
+        "home": "https://www.anthropic.com/news",
+        "lang": "en",
+        "translated": true
+      },
+      "summary": {
+        "oneSentence": "Model Context Protocol 定义 Agent 与工具/数据源的统一连接方式。",
+        "bullets": [
+          "开源协议，支持 IDE / 桌面 / 云端 Agent",
+          "已有 GitHub、Figma、数据库等 MCP Server",
+          "Cursor 等工具已原生支持"
+        ],
+        "audience": "开发者、Agent 平台设计者、关注 AI Native 的产品经理",
+        "readMinutes": 6,
+        "keywords": [
+          "MCP",
+          "Agent",
+          "Interoperability"
+        ]
+      },
+      "insight": {
+        "mainInsight": "MCP 解决的是 Agent 生态碎片化——每个产品各自对接 100 个 API 不可持续。",
+        "whyNow": "Agent 产品爆发，工具集成成为最大交付成本。",
+        "problem": "N×M 集成问题：每个 Agent 要接每个工具。",
+        "trend": "Agent 互操作协议标准化",
+        "differentiation": "Anthropic 走开放协议路线，与封闭生态形成对比。",
+        "outlook": "越来越多 SaaS 会提供官方 MCP Server；产品选型需检查 MCP 支持度。"
+      },
+      "learning": {
+        "whyImportant": "理解 MCP 就理解了为什么 Cursor、Claude Desktop 能快速扩展能力。",
+        "productDesign": "借鉴「Server 注册 + 权限声明 + 上下文注入」三层设计，思考你的 Agent 如何插件化。",
+        "relevance": "核心关注：MCP、Agent、Coding Agent、AI Native。",
+        "actionItems": [
+          "阅读 MCP 官方 spec",
+          "在 Cursor 中试用 Figma / 浏览器 MCP",
+          "查看 Claude Code 的 MCP 配置示例"
+        ]
+      },
+      "content": [
+        "Model Context Protocol（MCP）让 Agent 以统一方式发现、调用外部工具，开发者只需实现 MCP Server 即可被多个 Agent 客户端使用。",
+        "这与传统「每个 App 单独做 OAuth 集成」完全不同——产品层面应思考：你的能力是否值得做成 MCP Server 被其他 Agent 调用？",
+        "国内产品如 Coze、Dify 也在探索类似插件协议，建议横向对比其插件市场与 MCP 生态的差异。"
+      ],
+      "highlights": [
+        "Agent 互操作关键协议",
+        "Cursor 已支持",
+        "插件化架构值得学习"
+      ]
+    },
+    {
+      "id": "cur-cursor-agent",
+      "title": "Cursor 0.4x：Background Agent 与多文件自主修改",
+      "oneLiner": "Cursor 把 Coding Agent 从「补全」推进到「自主完成小需求」。",
+      "date": "2026-07-24",
+      "tags": [
+        "Coding",
+        "Agent",
+        "Release"
+      ],
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [
+        "cursor"
+      ],
+      "importance": {
+        "stars": 5,
+        "reason": "编程 Agent 赛道风向标",
+        "readMinutes": 4
+      },
+      "source": {
+        "type": "release",
+        "group": "company",
+        "name": "Cursor",
+        "author": "Cursor",
+        "url": "https://cursor.com/changelog",
+        "home": "https://cursor.com",
+        "lang": "en",
+        "translated": true
+      },
+      "summary": {
+        "oneSentence": "Cursor 更新 Background Agent，可在后台扫描仓库、提 PR 式修改建议。",
+        "bullets": [
+          "Background Agent 异步执行",
+          "更长的上下文窗口与代码库索引",
+          "与 MCP 工具链整合"
+        ],
+        "audience": "开发者、技术产品经理",
+        "readMinutes": 4,
+        "keywords": [
+          "Cursor",
+          "Coding Agent",
+          "IDE"
+        ]
+      },
+      "insight": {
+        "mainInsight": "IDE Agent 的竞争焦点从「写单行代码」转向「理解整个 Repo 并交付可合并改动」。",
+        "whyNow": "用户不再满足于 Copilot 式补全，需要端到端任务完成。",
+        "problem": "大仓库上下文管理与变更可信度。",
+        "trend": "Coding Agent + Workspace",
+        "differentiation": "与 GitHub Copilot Workspace、Devin 直接竞争。",
+        "outlook": "「提 Issue → Agent 出 PR」将成为开发者工作流默认环节。"
+      },
+      "learning": {
+        "whyImportant": "Coding Agent 是 Agent 品类中最快产生付费意愿的赛道之一。",
+        "productDesign": "学习其「Diff 预览 + 一键 Apply + 回滚」的信任设计，降低自主 Agent 的心理门槛。",
+        "relevance": "Coding Agent、Agent、MCP、Workflow。",
+        "actionItems": [
+          "阅读 Cursor Changelog",
+          "对比 Trae / Claude Code 的同类功能",
+          "试用 Background Agent 处理一个小 Bug"
+        ]
+      },
+      "content": [
+        "Cursor 持续迭代 Agent 模式，强调在真实代码库上的多文件编辑能力，而非 isolated snippet 生成。",
+        "产品学习者应关注：它如何展示 Agent 的「计划步骤」、如何让用户在 Apply 前审查 Diff、如何处理失败重试。",
+        "这类交互模式同样适用于非代码 Agent（如运营自动化、设计稿修改）。"
+      ],
+      "highlights": [
+        "Background Agent",
+        "Repo 级理解",
+        "Diff 信任设计"
+      ]
+    },
+    {
+      "id": "sig-328b19c381",
+      "title": "Vercel WAF for Blob is now in beta",
+      "oneLiner": "The Vercel WAF can now protect a Vercel Blob store. The same rules that guard your deployments (deny",
+      "summary": {
+        "oneSentence": "The Vercel WAF can now protect a Vercel Blob store. The same rules that guard your deployments (deny, challenge, rate li",
+        "bullets": [
+          "The Vercel WAF can now protect a Vercel Blob store. The same rules that guard your deployments (deny, challenge, rate limit) now apply to blob traffic with no changes to your code, blob URLs, or @verc"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "https://vercel.com/changelog/vercel-waf-for-blob-is-now-in-beta"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "The Vercel WAF can now protect a Vercel Blob store. The same rules that guard your deployments (deny, challenge, rate limit) now apply to blob traffic with no changes to your code, blob URLs, or @vercel/blob . Every blob is already served through Vercel's CDN , so protection is a switch on the store, not a new proxy. Stop scrapers, geo-restrict downloads, rate limit expensive assets, or block abusive IPs before a byte is served. Rules evaluate at the edge, matching on IP, country, path, and more : Deny returns a 403 and stops the request early, so no data transfer is incurred. Challenge serves the standard browser challenge, and a request that fails it is blocked. Rate limit returns a 429 when a client exceeds your limit. Redirect and log behave as they do for deployment traffic. The OWASP Core Ruleset is not supported, since it targets dynamic application traffic, not object delivery. Protecting a store Setup is a single switch in the dashboard: Open your Blob store , select Settings , then Protect your store . Vercel connects it to a shared vercel-blob-default-project on your team. You author its rules with the standard rule builder, and they take effect immediately. One rule set covers every protected store, so rules can't be scoped per store. During the beta, setup is dashboard-only, and challenges need a browser to solve, so server-side @vercel/blob requests matching a challenge rule are blocked. Use challenge rules for browser traffic. Vercel WAF for Blob is available in beta on all plans. See the documentation for the full setup. Read more"
+      ],
+      "highlights": [],
+      "translated": false,
+      "date": "2026-07-24",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-waf-for-blob-is-now-in-beta",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false
+      },
+      "raw": {
+        "title": "Vercel WAF for Blob is now in beta",
+        "url": "https://vercel.com/changelog/vercel-waf-for-blob-is-now-in-beta",
+        "savedAt": "2026-07-26T10:07:37.966Z"
+      }
+    },
+    {
+      "id": "sig-ba963310c6",
+      "title": "Workflow steps now support extended function durations",
+      "oneLiner": "Workflow steps on Pro and Enterprise plans can now run for up to 30 minutes (1800 seconds), up from ",
+      "summary": {
+        "oneSentence": "Workflow steps on Pro and Enterprise plans can now run for up to 30 minutes (1800 seconds), up from 800 seconds, using e",
+        "bullets": [
+          "Workflow steps on Pro and Enterprise plans can now run for up to 30 minutes (1800 seconds), up from 800 seconds, using extended function durations (in beta). To opt in, set VERCEL_ENABLE_WORKFLOW_EXTE"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "https://vercel.com/changelog/workflow-steps-now-support-extended-function-durations"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Workflow steps on Pro and Enterprise plans can now run for up to 30 minutes (1800 seconds), up from 800 seconds, using extended function durations (in beta). To opt in, set VERCEL_ENABLE_WORKFLOW_EXTENDED_MAX_DURATION to 1 in your project's Environment Variables, then redeploy. Requires Fluid compute and a supported Node.js or Python runtime. Extended durations are not available on Hobby plans, which remain limited to 5 minutes (300 seconds). See function duration limits by plan in the documentation. Read more"
+      ],
+      "highlights": [],
+      "translated": false,
+      "date": "2026-07-24",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/workflow-steps-now-support-extended-function-durations",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false
+      },
+      "raw": {
+        "title": "Workflow steps now support extended function durations",
+        "url": "https://vercel.com/changelog/workflow-steps-now-support-extended-function-durations",
+        "savedAt": "2026-07-26T10:07:37.967Z"
+      }
+    },
+    {
+      "id": "sig-9a1d7c56ff",
+      "title": "Claude Opus 5 now available on AI Gateway",
+      "oneLiner": "Claude Opus 5 from Anthropic is now available on AI Gateway. Opus 5 improves on previous Opus models",
+      "summary": {
+        "oneSentence": "Claude Opus 5 from Anthropic is now available on AI Gateway. Opus 5 improves on previous Opus models for long-horizon ag",
+        "bullets": [
+          "Claude Opus 5 from Anthropic is now available on AI Gateway. Opus 5 improves on previous Opus models for long-horizon agentic coding, handling multi-file features, larger refactors, and end-to-end fea"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "https://vercel.com/changelog/claude-opus-5-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Claude Opus 5 from Anthropic is now available on AI Gateway. Opus 5 improves on previous Opus models for long-horizon agentic coding, handling multi-file features, larger refactors, and end-to-end feature work, and completing full tasks rather than leaving stubs or placeholders. Opus 5 is effective at low and medium effort, which produce quality at a fraction of the tokens and latency of higher settings. Vision is stronger on charts, documents, diagrams, and UI replication, and Opus 5 makes effective use of tools to analyze, crop, and verify visual work. It also coordinates teams of subagents well, which suits multi-agent workflows. Reasoning is on by default. In AI SDK 7, set the reasoning effort with the top-level reasoning option, from minimal up to xhigh , or none : Like Fable 5, Opus 5 ships with elevated cybersecurity safeguards, so benign security work can occasionally trigger a safety classifier and get blocked. To add a backstop, use AI Gateway's model fallbacks. List backup models in a models array under providerOptions.gateway , and the gateway tries them in order when the primary model fails. The same option works across every AI Gateway API format. Opus 5 is compatible with Zero Data Retention . Fast mode To enable fast mode, pass speed: 'fast' in the anthropic provider options in AI SDK: Providers and endpoints Opus 5 can be served by more than one provider. To see every provider serving it, along with per-provider pricing, supported parameters, uptime, throughput, and latency, call the model endpoints API: Use Opus 5 in your coding agent Route your coding agent through AI Gateway to run Opus 5 with unified spend tracking, model fallbacks, and access to every model. Run vercel ai-gateway coding-agents setup to detect the agents on your machine, provision a key, and write their config. See how to set it up in Claude Code . Read more"
+      ],
+      "highlights": [],
+      "translated": false,
+      "date": "2026-07-24",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/claude-opus-5-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false
+      },
+      "raw": {
+        "title": "Claude Opus 5 now available on AI Gateway",
+        "url": "https://vercel.com/changelog/claude-opus-5-now-available-on-ai-gateway",
+        "savedAt": "2026-07-26T10:07:37.967Z"
+      }
+    },
+    {
+      "id": "sig-1651e28012",
+      "title": "[AINews] Black Forest Labs FLUX 3 - Multimodal Flow Models that beat Seedance 2.0, Gemini Omni and Grok Imagine, and FLUX-mimic video-action robotics model",
+      "summary": {
+        "oneSentence": "A HUGE win for BFL!",
+        "bullets": [],
+        "audience": "",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "date": "2026-07-24",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "content": [
+        "A HUGE win for BFL!"
+      ],
+      "highlights": [],
+      "source": {
+        "type": "blog",
+        "name": "Latent Space",
+        "author": "swyx & Alessio",
+        "url": "https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false
+      },
+      "oneLiner": "A HUGE win for BFL!",
+      "insight": {
+        "mainInsight": ""
+      },
+      "learning": {},
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "",
+        "readMinutes": 3
+      },
+      "affectedProductIds": []
+    },
+    {
+      "id": "cur-perplexity-search",
+      "title": "Perplexity 强化 Pro Search：多步推理 + 来源可追溯",
+      "oneLiner": "搜索 Agent 把「给答案」升级为「给调研过程 + 引用链」。",
+      "date": "2026-07-23",
+      "tags": [
+        "Search",
+        "Agent",
+        "Reasoning"
+      ],
+      "categoryIds": [
+        "agent-research",
+        "llm"
+      ],
+      "productIds": [],
+      "importance": {
+        "stars": 4,
+        "reason": "搜索 Agent 是 Research Agent 的 C 端范本",
+        "readMinutes": 4
+      },
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Perplexity",
+        "author": "Perplexity",
+        "url": "https://www.perplexity.ai/hub/blog",
+        "home": "https://www.perplexity.ai",
+        "lang": "en",
+        "translated": true
+      },
+      "summary": {
+        "oneSentence": "Perplexity Pro Search 展示多步检索、交叉验证与结构化输出。",
+        "bullets": [
+          "自动拆解复杂问题为子查询",
+          "每条结论附来源链接",
+          "适合快速行业扫描"
+        ],
+        "audience": "研究员、产品经理、需要快速调研的学习者",
+        "readMinutes": 4,
+        "keywords": [
+          "Search Agent",
+          "Citation",
+          "Research"
+        ]
+      },
+      "insight": {
+        "mainInsight": "搜索类 Agent 的护城河在「来源可信度 UI」而非模型本身。",
+        "whyNow": "LLM 幻觉问题让用户不敢直接用 Chat 做决策。",
+        "problem": "信息过载 + 无法验证。",
+        "trend": "Research Agent 产品化",
+        "differentiation": "与 ChatGPT Search、Gemini 深度搜索形成三足鼎立。",
+        "outlook": "B 端投研、法务、医疗都会复制「引用链 + 分步推理」交互。"
+      },
+      "learning": {
+        "whyImportant": "Atlas 中「科研调研 Agent」品类（Deep Research 等）都借鉴此类交互。",
+        "productDesign": "学习其「思考步骤可展开 + 来源卡片」如何建立信任。",
+        "relevance": "Search、Agent、Reasoning、Workflow。",
+        "actionItems": [
+          "试用 Perplexity Pro Search 做竞品扫描",
+          "对比 Kimi 联网与 ChatGPT Search",
+          "阅读 Deep Research 类产品设计"
+        ]
+      },
+      "content": [
+        "Perplexity 代表了一类「搜索优先」的 Agent：不追求最长对话，而追求可验证的调研结果。",
+        "做 AI 产品地图时，建议把「搜索 Agent」与「对话 LLM」分开评估——用户心智和使用场景完全不同。"
+      ],
+      "highlights": [
+        "引用链 UI",
+        "多步检索",
+        "Research Agent 范本"
+      ]
+    },
+    {
+      "id": "sig-aacffd8617",
+      "title": "How Figma stays ahead of vulnerabilities with agents",
+      "oneLiner": "For the past year, agents at Figma have guarded code as it's written, reviewed every pull request, a",
+      "summary": {
+        "oneSentence": "For the past year, agents at Figma have guarded code as it's written, reviewed every pull request, and audited a decade-",
+        "bullets": [
+          "For the past year, agents at Figma have guarded code as it's written, reviewed every pull request, and audited a decade-old monorepo, all on one policy."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "https://www.figma.com/blog/how-figma-stays-ahead-of-vulnerabilities-with-agents/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "For the past year, agents at Figma have guarded code as it's written, reviewed every pull request, and audited a decade-old monorepo, all on one policy."
+      ],
+      "highlights": [],
+      "translated": false,
+      "date": "2026-07-23",
+      "categoryIds": [
+        "visual-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/how-figma-stays-ahead-of-vulnerabilities-with-agents/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": false
+      },
+      "raw": {
+        "title": "How Figma stays ahead of vulnerabilities with agents",
+        "url": "https://www.figma.com/blog/how-figma-stays-ahead-of-vulnerabilities-with-agents/",
+        "savedAt": "2026-07-26T10:07:37.967Z"
+      }
+    },
+    {
+      "id": "sig-15f53509bf",
+      "title": "Evaluation metrics for Vercel Flags",
+      "oneLiner": "Vercel Flags now shows a live evaluation view on each flag's detail page. You can see evaluations pe",
+      "summary": {
+        "oneSentence": "Vercel Flags now shows a live evaluation view on each flag's detail page. You can see evaluations per minute charted ove",
+        "bullets": [
+          "Vercel Flags now shows a live evaluation view on each flag's detail page. You can see evaluations per minute charted over time, with each flag version marked in the chart so you can tie evaluation shi"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "https://vercel.com/changelog/evaluation-metrics-for-vercel-flags"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Flags now shows a live evaluation view on each flag's detail page. You can see evaluations per minute charted over time, with each flag version marked in the chart so you can tie evaluation shifts to specific configuration changes. You can group and filter evaluations by variant, reason, environment, SDK key, client, and reporting project. Custom clients can set the new clientName property on the client initializer to show up as their own group. This makes it straightforward to confirm rollout percentages match what's being served, separate targeted matches from default fallbacks, and see which projects are using a given flag. Upgrade to @vercel/flags-core 1.6.0 or later to get started. Metrics appear automatically with no additional configuration. Learn more in the evaluation metrics documentation . Read more"
+      ],
+      "highlights": [],
+      "translated": false,
+      "date": "2026-07-23",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/evaluation-metrics-for-vercel-flags",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false
+      },
+      "raw": {
+        "title": "Evaluation metrics for Vercel Flags",
+        "url": "https://vercel.com/changelog/evaluation-metrics-for-vercel-flags",
+        "savedAt": "2026-07-26T10:07:37.968Z"
+      }
+    },
+    {
+      "id": "sig-79b4737be4",
+      "title": "Connect to and manage Sandboxes from the dashboard",
+      "oneLiner": "You can now connect to any running Sandbox from the Vercel dashboard. Run commands, browse the files",
+      "summary": {
+        "oneSentence": "You can now connect to any running Sandbox from the Vercel dashboard. Run commands, browse the filesystem, upload and do",
+        "bullets": [
+          "You can now connect to any running Sandbox from the Vercel dashboard. Run commands, browse the filesystem, upload and download files, and inspect open ports without leaving the browser. From the same "
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "https://vercel.com/changelog/connect-to-and-manage-sandboxes-from-the-dashboard"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "You can now connect to any running Sandbox from the Vercel dashboard. Run commands, browse the filesystem, upload and download files, and inspect open ports without leaving the browser. From the same view, you can also manage the sandbox lifecycle: take snapshots, and stop or resume persistent sandboxes. Open the Connect tab on any sandbox to try it out. Learn more about Vercel Sandboxes in the documentation . Read more"
+      ],
+      "highlights": [],
+      "translated": false,
+      "date": "2026-07-23",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/connect-to-and-manage-sandboxes-from-the-dashboard",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false
+      },
+      "raw": {
+        "title": "Connect to and manage Sandboxes from the dashboard",
+        "url": "https://vercel.com/changelog/connect-to-and-manage-sandboxes-from-the-dashboard",
+        "savedAt": "2026-07-26T10:07:37.968Z"
+      }
+    },
+    {
+      "id": "sig-93370845f7",
+      "title": "Inspect feature flag history with Vercel CLI",
+      "oneLiner": "Vercel Flags version history can now be inspected from the Vercel CLI with the new vercel flags vers",
+      "summary": {
+        "oneSentence": "Vercel Flags version history can now be inspected from the Vercel CLI with the new vercel flags versions command. Run ve",
+        "bullets": [
+          "Vercel Flags version history can now be inspected from the Vercel CLI with the new vercel flags versions command. Run vercel flags versions to print the full revision history for a flag, with each rev"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "https://vercel.com/changelog/inspect-feature-flag-history-with-vercel-cli"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Flags version history can now be inspected from the Vercel CLI with the new vercel flags versions command. Run vercel flags versions to print the full revision history for a flag, with each revision's author, message, timestamp, and changed environments. Filter to a specific environment with --environment , paginate with --limit and --cursor , or add --json for scripting. To compare a revision against the one before it, run vercel flags versions diff --revision . The diff is semantic, surfacing field-level changes to targeting rules, rollout percentages, and conditions. Additions, removals, and modifications appear as colored + , - , and ~ . Update to the latest version of the Vercel CLI and learn more in the Vercel Flags CLI documentation to get started. Read more"
+      ],
+      "highlights": [],
+      "translated": false,
+      "date": "2026-07-23",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/inspect-feature-flag-history-with-vercel-cli",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false
+      },
+      "raw": {
+        "title": "Inspect feature flag history with Vercel CLI",
+        "url": "https://vercel.com/changelog/inspect-feature-flag-history-with-vercel-cli",
+        "savedAt": "2026-07-26T10:07:37.968Z"
+      }
+    },
+    {
+      "id": "sig-aeeb612d7f",
+      "title": "GitHub tools are now an installable eve extension",
+      "oneLiner": "You can now add GitHub tools to your eve agent as an extension . Add the package, drop one file in a",
+      "summary": {
+        "oneSentence": "You can now add GitHub tools to your eve agent as an extension . Add the package, drop one file in agent/extensions/ , a",
+        "bullets": [
+          "You can now add GitHub tools to your eve agent as an extension . Add the package, drop one file in agent/extensions/ , and your agent gets every tool with Vercel Connect auth, presets, and approval ru"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "https://vercel.com/changelog/github-tools-eve-extension"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "You can now add GitHub tools to your eve agent as an extension . Add the package, drop one file in agent/extensions/ , and your agent gets every tool with Vercel Connect auth, presets, and approval rules built in. Install @github-tools/eve-extension : Then register it from a file in agent/extensions/ : Connector-backed auth: Pass a Vercel Connect connector and the extension mints short-lived, scoped GitHub tokens at runtime. Presets scope the toolset: code-review , issue-triage , repo-explorer , ci-ops , and maintainer map to Connect scopes automatically, so tokens carry only the permissions the tools need. Approval rules travel with the config: Every write tool requires approval by default. Gate individual tools with always , once , or an input-dependent predicate, like approving comments only outside your own org. Namespaced and versioned: The filename sets the namespace, so tools run in the agent as github__addPullRequestComment . Upgrade the package to pick up new tools and fixes, and the config schema is validated on import. Get started by creating a GitHub connector and reading the documentation . Read more"
+      ],
+      "highlights": [],
+      "translated": false,
+      "date": "2026-07-23",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/github-tools-eve-extension",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false
+      },
+      "raw": {
+        "title": "GitHub tools are now an installable eve extension",
+        "url": "https://vercel.com/changelog/github-tools-eve-extension",
+        "savedAt": "2026-07-26T10:07:37.969Z"
+      }
+    },
+    {
+      "id": "sig-123313b48d",
+      "title": "Ling 3.0 Flash is now available on AI Gateway",
+      "oneLiner": "Ling 3.0 Flash from Ant Group is now available on AI Gateway. The model is free to use for the next ",
+      "summary": {
+        "oneSentence": "Ling 3.0 Flash from Ant Group is now available on AI Gateway. The model is free to use for the next three weeks, through",
+        "bullets": [
+          "Ling 3.0 Flash from Ant Group is now available on AI Gateway. The model is free to use for the next three weeks, through August 3rd. Ling 3.0 Flash is a Mixture-of-Experts model with 124B total parame"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "https://vercel.com/changelog/ling-3-0-flash-is-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Ling 3.0 Flash from Ant Group is now available on AI Gateway. The model is free to use for the next three weeks, through August 3rd. Ling 3.0 Flash is a Mixture-of-Experts model with 124B total parameters and about 5.1B active per token. It has a 256K token context window and runs in thinking and non-thinking modes. Ling 3.0 Flash is built for token-efficient agentic inference at production scale, doing more work within tighter token, latency, and cost budgets across multi-step agent runs. The model targets high-frequency agentic workflows, coding agents, document work, and long-context multi-turn interactions. To use Ling 3.0 Flash, set model to inclusionai/ling-3.0-flash-free in the AI SDK : AI Gateway provides a unified API for calling models, tracking usage and cost, and configuring retries, failover, and performance optimizations for higher-than-provider uptime. It includes built-in custom reporting , Zero Data Retention support , budgets for API keys , routing rules , and more. AI Gateway reflects provider pricing with no markup and does not charge a platform fee on inference, including on Bring Your Own Key (BYOK) requests. Try Ling 3.0 Flash in the model playground . Read more"
+      ],
+      "highlights": [],
+      "translated": false,
+      "date": "2026-07-23",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/ling-3-0-flash-is-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false
+      },
+      "raw": {
+        "title": "Ling 3.0 Flash is now available on AI Gateway",
+        "url": "https://vercel.com/changelog/ling-3-0-flash-is-now-available-on-ai-gateway",
+        "savedAt": "2026-07-26T10:07:37.969Z"
+      }
+    },
+    {
+      "id": "sig-f834153d50",
+      "title": "Vercel MCP can now deploy code",
+      "oneLiner": "The Vercel MCP server can now deploy code directly to a new or existing project. When your AI assist",
+      "summary": {
+        "oneSentence": "The Vercel MCP server can now deploy code directly to a new or existing project. When your AI assistant finishes buildin",
+        "bullets": [
+          "The Vercel MCP server can now deploy code directly to a new or existing project. When your AI assistant finishes building something, it can ship it to Vercel and hand back a shareable URL without leav"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "https://vercel.com/changelog/vercel-mcp-can-now-deploy-code"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "The Vercel MCP server can now deploy code directly to a new or existing project. When your AI assistant finishes building something, it can ship it to Vercel and hand back a shareable URL without leaving the chat. Point the deploy_to_vercel tool at your files and Vercel creates the project, detects the framework, installs dependencies, and builds. You get a URL you can open and share while the build finishes in the background. To get started, connect the Vercel MCP server to Claude, Cursor, or any supported MCP client , and ask it to deploy your project. Learn more about the Vercel MCP. Read more"
+      ],
+      "highlights": [],
+      "translated": false,
+      "date": "2026-07-23",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-mcp-can-now-deploy-code",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false
+      },
+      "raw": {
+        "title": "Vercel MCP can now deploy code",
+        "url": "https://vercel.com/changelog/vercel-mcp-can-now-deploy-code",
+        "savedAt": "2026-07-26T10:07:37.969Z"
+      }
+    },
+    {
+      "id": "sig-dc52ca5a9a",
+      "title": "The first known runaway AI agent - or a very bad marketing stunt?",
+      "summary": {
+        "oneSentence": "&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://martinalderson.com/posts/huggingface-openai-exploit/\"&gt;The first known runaway AI agent - or a very bad marketing s",
+        "bullets": [],
+        "audience": "",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "date": "2026-07-23",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "content": [
+        "&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://martinalderson.com/posts/huggingface-openai-exploit/\"&gt;The first known runaway AI agent - or a very bad marketing stunt?&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; Martin Alderson's commentary on the &lt;a href=\"https://simonwillison.net/2026/Jul/22/openai-cyberattack/\"&gt;OpenAI accidental cyberattack against Hugging Face&lt;/a&gt; includes a couple of details I hadn't considered.&lt;/p&gt; &lt;p&gt;First, Hugging Face offers a truly rich target if you're trying to find potential vulnerabilities that require executing arbitrary code:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Hugging Face has an &lt;em&gt;enormous&lt;/em&gt; attack surface. They have more interfaces than I can count which run untrusted models and code. While they definitely have invested in defences, by nature of their operating model they do have many more opportunities to be attacked than many other services. I certainly don't envy their cybersecurity teams.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Secondly, one of the things that has puzzled me is how OpenAI didn't notice that their sandbox had been so thoroughly breached by the agent. Surely they'd be monitoring network traffic closely?&lt;/p&gt; &lt;p&gt;Martin points out that:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;It's also likely they were running a huge amount of benchmarks simultaneously with ~unlimited token budgets - you want as many samples as possible to figure out how good a model is at a certain benchmark. It may also be they are testing various different checkpoints of the model too, understanding how the model is improving as it goes through the various training stages.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;The mistakes made by the OpenAI team running this benchmark are easier to imagine when you think about the scale at which benchmarks of this kind usually operate. For all we know they could have been subjecting a new model to dozens of benchmarks at the same time, in dozens of different environments. &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=\"https://lobste.rs/s/nsnb4j/first_known_runaway_ai_agent_very_bad\"&gt;Lobste.rs&lt;/a&gt;&lt;/small&gt;&lt;/p&gt; &lt;p&gt;Tags: &lt;a href=\"https://simonwillison.net/tags/security\"&gt;security&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/ai\"&gt;ai&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/openai\"&gt;openai&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/generative-ai\"&gt;generative-ai&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/llms\"&gt;llms&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/hugging-face\"&gt;hugging-face&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/ai-security-research\"&gt;ai-security-research&lt;/a&gt;&lt;/p&gt;"
+      ],
+      "highlights": [],
+      "source": {
+        "type": "blog",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false
+      },
+      "oneLiner": "&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://martinalderson.com/posts/huggingface-openai-exploit/\"&gt;The first known runaway AI agent - or a very bad marketing s",
+      "insight": {
+        "mainInsight": ""
+      },
+      "learning": {},
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "",
+        "readMinutes": 3
+      },
+      "affectedProductIds": []
+    },
+    {
+      "id": "sig-43429d78e1",
+      "title": "[AINews] \"Laguna S 2.1 Released: Cheaper than Deepseek v4 Flash, Better than V4 Pro\"",
+      "summary": {
+        "oneSentence": "a quiet day lets us highlight a new neolab win.",
+        "bullets": [],
+        "audience": "",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "date": "2026-07-23",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "content": [
+        "a quiet day lets us highlight a new neolab win."
+      ],
+      "highlights": [],
+      "source": {
+        "type": "blog",
+        "name": "Latent Space",
+        "author": "swyx & Alessio",
+        "url": "https://www.latent.space/p/ainews-laguna-s-21-released-cheaper",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false
+      },
+      "oneLiner": "a quiet day lets us highlight a new neolab win.",
+      "insight": {
+        "mainInsight": ""
+      },
+      "learning": {},
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "",
+        "readMinutes": 3
+      },
+      "affectedProductIds": []
+    },
+    {
+      "id": "sig-332d880765",
+      "title": "Inside the Model Factory — Eiso Kant, Poolside AI",
+      "summary": {
+        "oneSentence": "Poolside's co-CEO on how his small team of top researchers built a model factory capable of training Laguna S - a 118B MOE beating Thinky's ~1T open weights mod",
+        "bullets": [],
+        "audience": "",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "date": "2026-07-23",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "content": [
+        "Poolside's co-CEO on how his small team of top researchers built a model factory capable of training Laguna S - a 118B MOE beating Thinky's ~1T open weights model... and this is just the beginning."
+      ],
+      "highlights": [],
+      "source": {
+        "type": "blog",
+        "name": "Latent Space",
+        "author": "swyx & Alessio",
+        "url": "https://www.latent.space/p/poolside",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false
+      },
+      "oneLiner": "Poolside's co-CEO on how his small team of top researchers built a model factory capable of training Laguna S - a 118B MOE beating Thinky's ~1T open weights mod",
+      "insight": {
+        "mainInsight": ""
+      },
+      "learning": {},
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "",
+        "readMinutes": 3
+      },
+      "affectedProductIds": []
+    },
+    {
+      "id": "sig-d64f4f789a",
+      "title": "Quoting Seth Larson",
+      "summary": {
+        "oneSentence": "&lt;blockquote cite=\"https://blog.pypi.org/posts/2026-07-22-releases-now-reject-new-files-after-14-days/\"&gt;&lt;p&gt;The Python Package Index (PyPI) now reject",
+        "bullets": [],
+        "audience": "",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "date": "2026-07-23",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "content": [
+        "&lt;blockquote cite=\"https://blog.pypi.org/posts/2026-07-22-releases-now-reject-new-files-after-14-days/\"&gt;&lt;p&gt;The Python Package Index (PyPI) now rejects new files being uploaded to releases that are older than 14 days. This restriction was &lt;a href=\"https://github.com/pypi/warehouse/pull/19727\"&gt;put in place&lt;/a&gt; to prevent old and long-stable releases from being poisoned in case publishing tokens or workflows of PyPI projects were compromised. As far as we are aware this has not yet been abused, but there is no technical reason beyond that attackers weren't aware it was possible.&lt;/p&gt;&lt;/blockquote&gt; &lt;p class=\"cite\"&gt;&amp;mdash; &lt;a href=\"https://blog.pypi.org/posts/2026-07-22-releases-now-reject-new-files-after-14-days/\"&gt;Seth Larson&lt;/a&gt;, PyPI blog&lt;/p&gt; &lt;p&gt;Tags: &lt;a href=\"https://simonwillison.net/tags/packaging\"&gt;packaging&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/python\"&gt;python&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/supply-chain\"&gt;supply-chain&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/pypi\"&gt;pypi&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/seth-michael-larson\"&gt;seth-michael-larson&lt;/a&gt;&lt;/p&gt;"
+      ],
+      "highlights": [],
+      "source": {
+        "type": "blog",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false
+      },
+      "oneLiner": "&lt;blockquote cite=\"https://blog.pypi.org/posts/2026-07-22-releases-now-reject-new-files-after-14-days/\"&gt;&lt;p&gt;The Python Package Index (PyPI) now reject",
+      "insight": {
+        "mainInsight": ""
+      },
+      "learning": {},
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "",
+        "readMinutes": 3
+      },
+      "affectedProductIds": []
+    },
+    {
+      "id": "sig-7569338ee0",
+      "title": "Launching Health in ChatGPT",
+      "summary": {
+        "oneSentence": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their h",
+        "bullets": [],
+        "audience": "",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "date": "2026-07-23",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health."
+      ],
+      "highlights": [],
+      "source": {
+        "type": "blog",
+        "name": "OpenAI Blog",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/health-in-chatgpt",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false
+      },
+      "oneLiner": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their h",
+      "insight": {
+        "mainInsight": ""
+      },
+      "learning": {},
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "cur-gemini-multimodal",
+      "title": "Google Gemini 2.x：原生多模态与 Workspace 深度整合",
+      "oneLiner": "Gemini 继续押注「Workspace 里的默认 AI 同事」。",
+      "date": "2026-07-22",
+      "tags": [
+        "Agent",
+        "Workflow",
+        "Product"
+      ],
+      "categoryIds": [
+        "llm",
+        "agent-office"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "importance": {
+        "stars": 4,
+        "reason": "办公 Agent 生态的重要变量",
+        "readMinutes": 4
+      },
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/technology/ai/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": true
+      },
+      "summary": {
+        "oneSentence": "Gemini 在 Docs/Sheets/Meet 中提供上下文感知的 AI 辅助与自动化。",
+        "bullets": [
+          "Workspace 侧边栏统一入口",
+          "跨应用上下文（邮件→文档→表格）",
+          "长上下文视频理解"
+        ],
+        "audience": "办公白领、Google 生态用户",
+        "readMinutes": 4,
+        "keywords": [
+          "Gemini",
+          "Workspace",
+          "Multimodal"
+        ]
+      },
+      "insight": {
+        "mainInsight": "Google 的策略是把 Agent 嵌入已有工作流，而非单独做一个 Super App。",
+        "whyNow": "企业客户已有 Google 账号体系，迁移成本是最大壁垒。",
+        "problem": "工具碎片化，AI 需要在用户所在处出现。",
+        "trend": "Workspace Agent",
+        "differentiation": "与 Microsoft Copilot 正面对标。",
+        "outlook": "「AI 在侧边栏」将成为 Office 类产品的标准范式。"
+      },
+      "learning": {
+        "whyImportant": "理解「嵌入型 Agent」与「独立 Agent App」两种产品策略。",
+        "productDesign": "学习侧边栏如何保持轻量、不打断主任务，仅在需要时展开深度能力。",
+        "relevance": "Agent、Workflow、AI Native 办公场景。",
+        "actionItems": [
+          "试用 Gemini in Google Docs",
+          "对比 Copilot in Word 的交互差异",
+          "思考 DuMate / WorkBuddy 的国内对标"
+        ]
+      },
+      "content": [
+        "Gemini 的 Workspace 整合说明：Agent 产品不一定需要独立 App，嵌入高频场景可能更快获得留存。",
+        "评估办公 Agent 时，重点看：权限边界、跨文档上下文、与企业数据的连接深度。"
+      ],
+      "highlights": [
+        "Workspace 嵌入",
+        "跨应用上下文",
+        "办公 Agent 范式"
+      ]
+    },
+    {
+      "id": "sig-1c709fbdce",
+      "title": "Quoting Thomas Ptacek",
+      "summary": {
+        "oneSentence": "&lt;blockquote cite=\"https://twitter.com/tqbf/status/2080045032162173329\"&gt;&lt;p&gt;I genuinely believe that if you took an open weights model from 2025 and b",
+        "bullets": [],
+        "audience": "",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "date": "2026-07-22",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "content": [
+        "&lt;blockquote cite=\"https://twitter.com/tqbf/status/2080045032162173329\"&gt;&lt;p&gt;I genuinely believe that if you took an open weights model from 2025 and built a pentest harness for it, it could do this kind of sandbox escape and scan/hack in most networks. This is only surprising because you assume OpenAI has sounder sandboxes.&lt;/p&gt;&lt;/blockquote&gt; &lt;p class=\"cite\"&gt;&amp;mdash; &lt;a href=\"https://twitter.com/tqbf/status/2080045032162173329\"&gt;Thomas Ptacek&lt;/a&gt;, doesn't think &lt;a href=\"https://simonwillison.net/2026/Jul/22/openai-cyberattack/#resist-the-temptation-to-write-this-off-as-a-stunt\"&gt;this even needs&lt;/a&gt; a frontier model&lt;/p&gt; &lt;p&gt;Tags: &lt;a href=\"https://simonwillison.net/tags/thomas-ptacek\"&gt;thomas-ptacek&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/openai\"&gt;openai&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/security\"&gt;security&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/generative-ai\"&gt;generative-ai&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/ai-security-research\"&gt;ai-security-research&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/ai\"&gt;ai&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/llms\"&gt;llms&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/sandboxing\"&gt;sandboxing&lt;/a&gt;&lt;/p&gt;"
+      ],
+      "highlights": [],
+      "source": {
+        "type": "blog",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Jul/22/thomas-ptacek/#atom-everything",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false
+      },
+      "oneLiner": "&lt;blockquote cite=\"https://twitter.com/tqbf/status/2080045032162173329\"&gt;&lt;p&gt;I genuinely believe that if you took an open weights model from 2025 and b",
+      "insight": {
+        "mainInsight": ""
+      },
+      "learning": {},
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "",
+        "readMinutes": 3
+      },
+      "affectedProductIds": []
+    },
+    {
+      "id": "sig-4fecb70b0c",
+      "title": "OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened",
+      "summary": {
+        "oneSentence": "&lt;p&gt;This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model's guardrail features turned",
+        "bullets": [],
+        "audience": "",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "date": "2026-07-22",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "content": [
+        "&lt;p&gt;This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model's guardrail features turned off. Rather than solve the test, the model broke its way out of OpenAI's sandbox, then found exploits to break &lt;em&gt;in&lt;/em&gt; to Hugging Face, all so it could cheat on the test by stealing the answers.&lt;/p&gt; &lt;p&gt;Along the way it helped make the strongest case yet for how the imbalance of model availability is hurting our ability to secure our software.&lt;/p&gt; &lt;h4 id=\"here-s-what-happened\"&gt;Here's what happened&lt;/h4&gt; &lt;p&gt;We currently have three documents to help us understand what happened here.&lt;/p&gt; &lt;ol&gt; &lt;li&gt; &lt;a href=\"https://arxiv.org/abs/2605.11086\"&gt;ExploitGym: Can AI Agents Turn Security Vulnerabilities into Real Attacks?&lt;/a&gt; is a paper published on 11th May 2026 describing ExploitGym, a new eval suite for LLM-powered agent systems.&lt;/li&gt; &lt;li&gt; &lt;a href=\"https://huggingface.co/blog/security-incident-july-2026\"&gt;Security incident disclosure — July 2026&lt;/a&gt; by Hugging Face on 16th July 2026 describes how they detected an attack from an \"agentic security-research harness - used LLM still not known\" that breached some of their systems.&lt;/li&gt; &lt;li&gt; &lt;a href=\"https://openai.com/index/hugging-face-model-evaluation-security-incident/\"&gt;OpenAI and Hugging Face partner to address security incident during model evaluation&lt;/a&gt; from OpenAI on 21st July 2026 confesses that it was &lt;em&gt;their&lt;/em&gt; agent harness that did this, and that they're working with Hugging Face to clean up the mess.&lt;/li&gt; &lt;/ol&gt; &lt;h4 id=\"exploitgym\"&gt;ExploitGym&lt;/h4&gt; &lt;p&gt;I hadn't seen the &lt;a href=\"https://arxiv.org/abs/2605.11086\"&gt;ExploitGym paper&lt;/a&gt; before and it's a really interesting one. Authors from UC Berkeley, the Max Planck Institute, UC Santa Barbara, and Arizona State designed a new benchmark for evaluating models on their ability to turn a reported vulnerability into a concrete exploit. OpenAI, Anthropic, and Google provided feedback and helped run the benchmark against their models.&lt;/p&gt; &lt;p&gt;The benchmark \"comprises 898 instances derived from real-world vulnerabilities that affected popular software projects\" - including the Linux kernel and V8 JavaScript engine. The ExploitGym benchmark is &lt;a href=\"https://github.com/sunblaze-ucb/exploitgym\"&gt;available on GitHub&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Here's the paragraph that best represents their benchmark results:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Among all configurations, Claude Mythos Preview and GPT-5.5 achieve the highest success counts (157 and 120 successes, respectively), demonstrating that current frontier agents can exploit a substantial subset of real-world vulnerabilities under controlled conditions. GPT-5.4 also solves a notable 54 tasks, placing it in an intermediate tier. The remaining model–agent pairings solve fewer than 15 tasks each, underscoring that end-to-end exploitation remains challenging and sharply differentiates today’s frontier systems. Notably, Claude Opus 4.7 achieves fewer successes than Claude Opus 4.6 despite being a newer checkpoint, and does so at substantially lower cost on the full set. Trace inspection reveals that Claude Opus 4.7 and Gemini 3.1 Pro frequently conclude early after judging the target vulnerability non-exploitable.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;The paper also describes the approach they took to preventing the agents from cheating by going outside the parameters of the test. This becomes relevant in a moment!&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Outbound connections are restricted to a curated allowlist that permits routine package installation (Ubuntu apt repositories and PyPI) and fetching the toolchains required for building V8. All other external endpoints are blocked.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;The paper concludes with this (emphasis mine):&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Our results show that &lt;strong&gt;autonomous exploit development by frontier AI agents is no longer a hypothetical capability&lt;/strong&gt;. While current agents are not yet reliable across all targets, they already &lt;strong&gt;exploit a non-trivial fraction of real-world vulnerabilities&lt;/strong&gt;, including complex targets such as kernel components. This rapid emergence is itself a central finding, showing that capabilities that would have seemed implausible are now present in deployed frontier models.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;An important detail here: this paper isn't about discovering vulnerabilities; it's about being able to take those vulnerabilities and turn them into working exploits.&lt;/p&gt; &lt;p&gt;When Anthropic first restricted access to Mythos &lt;a href=\"https://simonwillison.net/2026/Apr/7/project-glasswing/\"&gt;back in April&lt;/a&gt; they talked about this capability as well. A model that can act on vulnerabilities is a lot more dangerous than one that can just discover them.&lt;/p&gt; &lt;p&gt;One of the ways Fable differs from Mythos is that it's more likely to refuse to weaponize vulnerabilities in this way. I get the impression the US government did not understand that distinction when they banned Fable &lt;a href=\"https://simonwillison.net/2026/Jun/16/fable-5-export-controls/\"&gt;last month&lt;/a&gt;.&lt;/p&gt; &lt;h4 id=\"the-hugging-face-incident\"&gt;The Hugging Face incident&lt;/h4&gt; &lt;p&gt;The first hint we got of the attack was in &lt;a href=\"https://huggingface.co/blog/security-incident-july-2026\"&gt;this blog post by Hugging Face&lt;/a&gt; on 16th July 2026:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;A malicious dataset abused two code-execution paths in our dataset processing (a remote-code dataset loader and a template-injection in a dataset configuration) to run code on a processing worker. From there, the actor escalated to node-level access, harvested cloud and cluster credentials, and moved laterally into several internal clusters over a weekend.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;I hope they release more details about the code that pulled this off. I'm assuming this means packages using the &lt;a href=\"https://github.com/huggingface/datasets\"&gt;datasets library&lt;/a&gt;, a Hugging Face project for bundling up and sharing datasets on their platform. That library used to execute arbitrary code but has been steadily locked down over time, with the &lt;a href=\"https://github.com/huggingface/datasets/releases/tag/4.0.0\"&gt;4.0.0 release&lt;/a&gt; in July 2025 removing the &lt;code&gt;trust_remote_code=True&lt;/code&gt; flag entirely.&lt;/p&gt; &lt;p&gt;Assuming the attack used that library it must have either abused pickle serialization in some way, found some other non-obvious code execution path, or (most likely) specified &lt;code&gt;datasets&amp;lt;4.0.0&lt;/code&gt; as the dependency.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;The campaign was run by an autonomous agent framework (appearing to be built on an agentic security-research harness - used LLM still not known) executing many thousands of individual actions across a swarm of short-lived sandboxes, with self-migrating command-and-control staged on public services.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;This was a sophisticated attack!&lt;/p&gt; &lt;p&gt;Then Hugging Face hit a wall: they tried to use \"frontier models behind commercial APIs\" - I'm guessing from Anthropic and OpenAI - to help analyze the attack, and were blocked:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;When we started the log analysis, we first used frontier models behind commercial APIs. This did not work: the analysis requires submitting large volumes of real attack commands, exploit payloads, and C2 artifacts, and these requests were blocked by the providers' safety guardrails, which cannot distinguish an incident responder from an attacker.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;They switched to their own self-hosted instance of MIT licensed GLM-5.2 and it helped them figure out what was going on.&lt;/p&gt; &lt;p&gt;This indicated a fundamental asymmetry between the defending team and the (so-far unknown) attacker:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;We do not know which model powered the attacker's agents, whether a jailbroken hosted model or an unrestricted open-weight one; either way, the attacker was bound by no usage policy, while our own forensic work was blocked by the guardrails of the hosted models we first tried.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;As a useful indicator of how seriously they took the attack:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;[...] Finally, we have also reported this incident to law enforcement agencies.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;So who was responsible for this \"autonomous agent framework\"? It turned out to be OpenAI themselves.&lt;/p&gt; &lt;h4 id=\"the-openai-confession\"&gt;The OpenAI confession&lt;/h4&gt; &lt;p&gt;Five days later, &lt;a href=\"https://openai.com/index/hugging-face-model-evaluation-security-incident/\"&gt;on July 21st&lt;/a&gt;, OpenAI revealed the culprit. They had been running the ExploitGym benchmark against a new, as-yet undisclosed model, and that model had been operating &lt;em&gt;way&lt;/em&gt; outside its intended parameters (emphasis mine):&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;After investigating, we now know &lt;strong&gt;that this particular incident was driven by a combination of OpenAI models&lt;/strong&gt; — including GPT‑5.6 Sol and an even more capable pre-release model, all with reduced cyber refusals for evaluation purposes — while being internally tested on a &lt;a href=\"https://arxiv.org/abs/2605.11086\"&gt;benchmark⁠&lt;/a&gt; [ExploitGym] of cyber capabilities. [...]&lt;/p&gt; &lt;p&gt;We estimate maximal cyber capabilities by &lt;strong&gt;running this evaluation without production classifiers used to prevent models from pursuing high-risk cyber activity&lt;/strong&gt;. Our benchmarks run in a highly isolated environment, with network access constrained to the ability to install packages through an internally hosted third-party software that acts as a proxy and cache for package registries.&lt;/p&gt; &lt;p&gt;The models &lt;strong&gt;identified and chained vulnerabilities across OpenAI’s research environment and Hugging Face’s production infrastructure&lt;/strong&gt; to obtain test solutions directly from Hugging Face’s production database. All evidence suggests that the models were hyperfocused on finding a solution for ExploitGym, going to extreme lengths to achieve a rather narrow testing goal.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;It's pretty clear what happened here. OpenAI removed safety filters for an in-progress model, locked it up in a sandbox and told it to solve the ExploitGym problems. Given the absence of guardrails there was nothing to prevent the model from attempting to break out of that sandbox, break into Hugging Face, and read the answers from there instead.&lt;/p&gt; &lt;p&gt;OpenAI's sandbox used the now common pattern of allowing access to an allow-list of sites related to installing additional packages via a controlled proxy. In OpenAI's words:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;While operating in our sandboxed testing environment, our models &lt;strong&gt;spent a substantial amount of inference compute finding a way to obtain open Internet access&lt;/strong&gt;, in pursuit of solving the evaluation problem. To gain access, the models identified and exploited &lt;strong&gt;a zero-day vulnerability (which we’ve now responsibly disclosed to the vendor) in the package registry cache proxy&lt;/strong&gt;. With this access, our models performed a series of privilege escalation and lateral movement actions in our research testing environment until the models reached a node with Internet access.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;So step one was to break out onto the public internet. The model then broke into Hugging Face to find the answers:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;After gaining Internet access, the models &lt;strong&gt;inferred that Hugging Face potentially hosted models, datasets and solutions&lt;/strong&gt; for ExploitGym. Knowing this, the model searched for and successfully found ways to gain access to secret information that it could use to cheat the evaluation. In one example, &lt;strong&gt;the model chained together multiple attack vectors, including using stolen credentials and zero-day vulnerabilities&lt;/strong&gt; to find a remote code execution path on the Hugging Face servers.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Chaining together multiple attack vectors is &lt;em&gt;exactly&lt;/em&gt; the kind of thing these new models can do, where previous generations of models might have failed.&lt;/p&gt; &lt;p&gt;I wrote last month about how &lt;a href=\"https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/\"&gt;Claude Fable is relentlessly proactive&lt;/a&gt;, when I noticed it spinning up custom web servers and deploying CORS tricks on my own laptop just to help debug a WebKit CSS issue. It turns out relentless proactivity is the defining trait of this new generation of Mythos-class models. If you set them a goal and give them a way to get there, even inadvertently, they &lt;em&gt;will figure it out&lt;/em&gt;.&lt;/p&gt; &lt;h4 id=\"resist-the-temptation-to-write-this-off-as-a-stunt\"&gt;Resist the temptation to write this off as a stunt&lt;/h4&gt; &lt;p&gt;There will inevitably be some people who dismiss this story as a dishonest marketing trick by OpenAI to make their models sound terrifyingly effective. I found 81 instances of the term \"marketing\" in &lt;a href=\"https://news.ycombinator.com/item?id=48997548\"&gt;the Hacker News discussion&lt;/a&gt; of the incident.&lt;/p&gt; &lt;p&gt;To those people I say &lt;em&gt;pull your heads out of the sand&lt;/em&gt; - you're now including Hugging Face in your conspiracy theories, just so you can deny the crescendo of evidence here!&lt;/p&gt; &lt;p&gt;The best models we have today have the ability to both find and exploit new vulnerabilities. The ExploitGym paper itself concludes that \"autonomous exploit development by frontier AI agents is no longer a hypothetical capability\", and this incident is a perfect example of exactly that.&lt;/p&gt; &lt;h4 id=\"the-asymmetry-is-increasingly-frustrating\"&gt;The asymmetry is increasingly frustrating&lt;/h4&gt; &lt;p&gt;One of the most infuriating details of this story is how Hugging Face, faced with an accidental and aggressive attack from one of OpenAI's models, were unable to then turn to OpenAI's models to help them fend off the attack.&lt;/p&gt; &lt;p&gt;The frontier models we have access to are increasingly being constrained in how much they can help us protect our software, heavily influenced by the US government's ongoing threat of export controls. Claude Fable 5 wouldn't even &lt;a href=\"https://simonwillison.net/guides/agentic-engineering-patterns/prompts/#proofreader\"&gt;proofread this article&lt;/a&gt; for me! It insisted on downgrading me to a less capable model.&lt;/p&gt; &lt;p&gt;Meanwhile open weight models from China such as GLM-5.2, Kimi 3 and the new Qwen 3.8 Max appear to have none of these restrictions - and any restrictions that &lt;em&gt;do&lt;/em&gt; exist can likely be fine-tuned out of them by modifying the weights&lt;/p&gt; &lt;p&gt;These constraints are meant to make us safer. I think there's a risk that they are having the opposite effect.&lt;/p&gt; &lt;p&gt;Tags: &lt;a href=\"https://simonwillison.net/tags/sandboxing\"&gt;sandboxing&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/security\"&gt;security&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/ai\"&gt;ai&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/openai\"&gt;openai&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/generative-ai\"&gt;generative-ai&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/llms\"&gt;llms&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/hugging-face\"&gt;hugging-face&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/anthropic\"&gt;anthropic&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/paper-review\"&gt;paper-review&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/ai-security-research\"&gt;ai-security-research&lt;/a&gt;&lt;/p&gt;"
+      ],
+      "highlights": [],
+      "source": {
+        "type": "blog",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-everything",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false
+      },
+      "oneLiner": "&lt;p&gt;This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model's guardrail features turned",
+      "insight": {
+        "mainInsight": ""
+      },
+      "learning": {},
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "",
+        "readMinutes": 3
+      },
+      "affectedProductIds": []
+    },
+    {
+      "id": "sig-3c1466c701",
+      "title": "Are AI labs pelicanmaxxing?",
+      "summary": {
+        "oneSentence": "&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://dylancastillo.co/posts/pelicanmaxxing.html\"&gt;Are AI labs pelicanmaxxing?&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; Excelle",
+        "bullets": [],
+        "audience": "",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "date": "2026-07-22",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "content": [
+        "&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://dylancastillo.co/posts/pelicanmaxxing.html\"&gt;Are AI labs pelicanmaxxing?&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; Excellent piece of work by Dylan Castillo, who took a deep-dive into the frequently pondered question of whether the AI labs have been deliberately training models to draw pelicans riding bicycles in response to my &lt;a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle/\"&gt;deeply unscientific benchmark&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;I've been randomly spot-checking this in the past by testing models against other animals riding other types of vehicle, but never with anything close to the diligence of Dylan's methodology here.&lt;/p&gt; &lt;p&gt;Dylan took 8 animals × 6 vehicles = 48 prompts and ran them three times each through 7 different models ( GPT-5.6 Terra, Claude Sonnet 5, Gemini 3.5 Flash, Grok 4.5, Qwen3.7-Max, GLM-5.2, and DeepSeek V4 Pro). He then used GPT-5.6 Luna and Gemini 3.1 Flash-Lite to help evaluate the results.&lt;/p&gt; &lt;p&gt;There's a neat filter view for exploring the results:&lt;/p&gt; &lt;p&gt;&lt;img alt=\"Screenshot of a grid for sample 1/3 of GLM-5.2, with pelicn and flamingo and heron riding bicycle, unicycle, skateboard, scooter, plane and boat\" src=\"https://static.simonwillison.net/static/2026/pelican-grid.webp\" /&gt;&lt;/p&gt; &lt;p&gt;For the models he tested he could find no evidence of pelimaxxing:&lt;/p&gt; &lt;blockquote&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=\"https://dylancastillo.co/posts/pelicanmaxxing.html#evidence-1-the-pelicans-on-bicycles-dont-look-any-better\"&gt;The pelicans on bicycles don’t look any better&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=\"https://dylancastillo.co/posts/pelicanmaxxing.html#evidence-2-labs-are-not-better-at-drawing-pelicans\"&gt;Labs are not better at drawing pelicans&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=\"https://dylancastillo.co/posts/pelicanmaxxing.html#evidence-3-labs-are-not-better-at-drawing-bicycles\"&gt;Labs are not better at drawing bicycles&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=\"https://dylancastillo.co/posts/pelicanmaxxing.html#evidence-4-labs-are-not-better-at-drawing-pelicans-on-bicycles-even-adjusting-for-difficulty\"&gt;Labs are not better at drawing pelicans on bicycles, even adjusting for difficulty&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=\"https://dylancastillo.co/posts/pelicanmaxxing.html#evidence-5-the-pelican-bicycle-scenes-dont-look-memorized\"&gt;The pelican-bicycle scenes don’t look memorized&lt;/a&gt; [...]&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Pelicans aren’t drawn any better than other animals. Bicycles aren’t drawn any better than other vehicles. And no lab draws the combination better than its pelicans and bicycles already predict. GLM-5.2 comes closest: it has the largest boost on the exact pelican-bicycle cell, and and its first pelican-on-bicycle sample caught my eye. But the effect is small and not significant, so I wouldn’t put too much weight on it.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=\"https://news.ycombinator.com/item?id=49010129\"&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt; &lt;p&gt;Tags: &lt;a href=\"https://simonwillison.net/tags/ai\"&gt;ai&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/generative-ai\"&gt;generative-ai&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/llms\"&gt;llms&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/evals\"&gt;evals&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\"&gt;pelican-riding-a-bicycle&lt;/a&gt;&lt;/p&gt;"
+      ],
+      "highlights": [],
+      "source": {
+        "type": "blog",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Jul/22/are-ai-labs-pelicanmaxxing/#atom-everything",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false
+      },
+      "oneLiner": "&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://dylancastillo.co/posts/pelicanmaxxing.html\"&gt;Are AI labs pelicanmaxxing?&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; Excelle",
+      "insight": {
+        "mainInsight": ""
+      },
+      "learning": {},
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "",
+        "readMinutes": 3
+      },
+      "affectedProductIds": []
+    },
+    {
+      "id": "sig-d07362b856",
+      "title": "Orchestrions",
+      "summary": {
+        "oneSentence": "&lt;p&gt;San Francisco tip: it only costs around $15 ($10 in quarters plus a $5 bill for the self-playing violin) to activate every single Orchestrion in &lt;a ",
+        "bullets": [],
+        "audience": "",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "date": "2026-07-22",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "content": [
+        "&lt;p&gt;San Francisco tip: it only costs around $15 ($10 in quarters plus a $5 bill for the self-playing violin) to activate every single Orchestrion in &lt;a href=\"https://en.wikipedia.org/wiki/Musée_Mécanique\"&gt;Musée Mécanique&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;And because most people are bad at allocating their funds you may well be the ONLY person activating the Orchestrions, which means you get to craft the soundscape for the entire museum.&lt;/p&gt; &lt;p&gt;Tags: &lt;a href=\"https://simonwillison.net/tags/san-francisco\"&gt;san-francisco&lt;/a&gt;&lt;/p&gt;"
+      ],
+      "highlights": [],
+      "source": {
+        "type": "blog",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Jul/22/all-the-orchestrions/#atom-everything",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false
+      },
+      "oneLiner": "&lt;p&gt;San Francisco tip: it only costs around $15 ($10 in quarters plus a $5 bill for the self-playing violin) to activate every single Orchestrion in &lt;a ",
+      "insight": {
+        "mainInsight": ""
+      },
+      "learning": {},
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "",
+        "readMinutes": 3
+      },
+      "affectedProductIds": []
+    },
+    {
+      "id": "sig-15eb5b1c41",
+      "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
+      "summary": {
+        "oneSentence": "Google commits $40M in AI tokens and credits for the Genesis Mission",
+        "bullets": [],
+        "audience": "",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "date": "2026-07-22",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [],
+      "content": [
+        "Google commits $40M in AI tokens and credits for the Genesis Mission"
+      ],
+      "highlights": [],
+      "source": {
+        "type": "blog",
+        "name": "Google DeepMind",
+        "author": "DeepMind",
+        "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
+        "home": "https://deepmind.google/blog/",
+        "lang": "en",
+        "translated": false
+      },
+      "oneLiner": "Google commits $40M in AI tokens and credits for the Genesis Mission",
+      "insight": {
+        "mainInsight": ""
+      },
+      "learning": {},
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "",
+        "readMinutes": 3
+      },
+      "affectedProductIds": []
+    },
+    {
+      "id": "sig-bd6ce42035",
+      "title": "Building AI infrastructure with the Effingham County community",
+      "summary": {
+        "oneSentence": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+        "bullets": [],
+        "audience": "",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "date": "2026-07-22",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex."
+      ],
+      "highlights": [],
+      "source": {
+        "type": "blog",
+        "name": "OpenAI Blog",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false
+      },
+      "oneLiner": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
+      "insight": {
+        "mainInsight": ""
+      },
+      "learning": {},
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "sig-130e23c4bd",
+      "title": "How news organizations are using AI to advance their vital missions",
+      "summary": {
+        "oneSentence": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publisher",
+        "bullets": [],
+        "audience": "",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "date": "2026-07-22",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide."
+      ],
+      "highlights": [],
+      "source": {
+        "type": "blog",
+        "name": "OpenAI Blog",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/how-news-organizations-are-using-ai",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false
+      },
+      "oneLiner": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publisher",
+      "insight": {
+        "mainInsight": ""
+      },
+      "learning": {},
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "sig-23fca7e728",
+      "title": "3 Google updates from Galaxy Unpacked 2026",
+      "summary": {
+        "oneSentence": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Unpacked_hero.max-600x600.format-webp.webp\"&gt;We shared how Samsung users can boos",
+        "bullets": [],
+        "audience": "",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "date": "2026-07-22",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [],
+      "content": [
+        "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Unpacked_hero.max-600x600.format-webp.webp\"&gt;We shared how Samsung users can boost productivity and get time back on new foldables, watches, and glasses coming soon."
+      ],
+      "highlights": [],
+      "source": {
+        "type": "blog",
+        "name": "Google AI Blog",
+        "author": "Google",
+        "url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": false
+      },
+      "oneLiner": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Unpacked_hero.max-600x600.format-webp.webp\"&gt;We shared how Samsung users can boos",
+      "insight": {
+        "mainInsight": ""
+      },
+      "learning": {},
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "",
+        "readMinutes": 3
+      },
+      "affectedProductIds": []
+    },
+    {
+      "id": "sig-fc3528d001",
+      "title": "Advancing the next era of national science",
+      "summary": {
+        "oneSentence": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate disco",
+        "bullets": [],
+        "audience": "",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "date": "2026-07-22",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery."
+      ],
+      "highlights": [],
+      "source": {
+        "type": "blog",
+        "name": "OpenAI Blog",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/advancing-the-next-era-of-national-science",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false
+      },
+      "oneLiner": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate disco",
+      "insight": {
+        "mainInsight": ""
+      },
+      "learning": {},
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "sig-c54f46e53d",
+      "title": "Introducing OpenAI Presence",
+      "summary": {
+        "oneSentence": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workf",
+        "bullets": [],
+        "audience": "",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "date": "2026-07-22",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows."
+      ],
+      "highlights": [],
+      "source": {
+        "type": "blog",
+        "name": "OpenAI Blog",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/introducing-openai-presence",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false
+      },
+      "oneLiner": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workf",
+      "insight": {
+        "mainInsight": ""
+      },
+      "learning": {},
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "sig-0a8336e800",
+      "title": "[AINews] AI Cybersecurity becomes top of mind",
+      "summary": {
+        "oneSentence": "Several new Cyber headlines make us observe a trend",
+        "bullets": [],
+        "audience": "",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "date": "2026-07-22",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "content": [
+        "Several new Cyber headlines make us observe a trend"
+      ],
+      "highlights": [],
+      "source": {
+        "type": "blog",
+        "name": "Latent Space",
+        "author": "swyx & Alessio",
+        "url": "https://www.latent.space/p/ainews-ai-cybersecurity-becomes-top",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false
+      },
+      "oneLiner": "Several new Cyber headlines make us observe a trend",
+      "insight": {
+        "mainInsight": ""
+      },
+      "learning": {},
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "",
+        "readMinutes": 3
+      },
+      "affectedProductIds": []
+    },
+    {
+      "id": "sig-ce627deb99",
+      "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
+      "summary": {
+        "oneSentence": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
+        "bullets": [],
+        "audience": "",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "date": "2026-07-22",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption."
+      ],
+      "highlights": [],
+      "source": {
+        "type": "blog",
+        "name": "OpenAI Blog",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/ntt-data",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false
+      },
+      "oneLiner": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
+      "insight": {
+        "mainInsight": ""
+      },
+      "learning": {},
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "sig-fb87586911",
+      "title": "Cursor Router",
+      "summary": {
+        "oneSentence": "Auto mode is now powered by Cursor Router.",
+        "bullets": [],
+        "audience": "",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "date": "2026-07-22",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [
+        "cursor"
+      ],
+      "content": [
+        "Auto mode is now powered by Cursor Router."
+      ],
+      "highlights": [],
+      "source": {
+        "type": "blog",
+        "name": "Cursor Changelog",
+        "author": "Cursor",
+        "url": "https://cursor.com/changelog/router",
+        "home": "https://cursor.com/changelog",
+        "lang": "en",
+        "translated": false
+      },
+      "oneLiner": "Auto mode is now powered by Cursor Router.",
+      "insight": {
+        "mainInsight": ""
+      },
+      "learning": {},
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "cursor"
+      ]
+    },
+    {
+      "id": "cur-tapnow-agent",
+      "title": "TapNow 智能体画布：国内视频 Agent 工作流新标杆",
+      "oneLiner": "TapNow 用节点画布 + Agent 对话统一调度多模型做影视级短片。",
+      "date": "2026-07-21",
+      "tags": [
+        "Video",
+        "Agent",
+        "Workflow"
+      ],
+      "categoryIds": [
+        "vertical-video",
+        "visual"
+      ],
+      "productIds": [
+        "tapnow"
+      ],
+      "importance": {
+        "stars": 4,
+        "reason": "国内视频 Agent 代表，已在 Atlas 收录",
+        "readMinutes": 4
+      },
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "TapNow",
+        "author": "TapNow",
+        "url": "https://www.tapnow.ai/zh",
+        "home": "https://www.tapnow.ai",
+        "lang": "zh",
+        "translated": true
+      },
+      "summary": {
+        "oneSentence": "TapNow 将脚本拆解、分镜、生成、剪辑串联为可复用 Agent 工作流。",
+        "bullets": [
+          "Agent 对话驱动节点流",
+          "多模型统一调度",
+          "支持广告/短片/电商视频"
+        ],
+        "audience": "短视频创作者、广告从业者、AI 产品学习者",
+        "readMinutes": 4,
+        "keywords": [
+          "Video Agent",
+          "Canvas",
+          "国内"
+        ]
+      },
+      "insight": {
+        "mainInsight": "视频 Agent 的差异化不在单模型画质，而在「分镜连续性 + 工作流可复用」。",
+        "whyNow": "可灵、Runway 等单点生成工具成熟，用户痛点转向全流程。",
+        "problem": "从创意到成片环节割裂。",
+        "trend": "Video Agent + Canvas Workflow",
+        "differentiation": "与 LibTV、Flova 等同属国内视频 Agent 新一批。",
+        "outlook": "视频品类会从「生成工具」进化为「制作 Agent」。"
+      },
+      "learning": {
+        "whyImportant": "已在 Atlas 视听觉 Agent → 视频分类收录，是理解国内视频 Agent 的样本。",
+        "productDesign": "节点画布 + Agent 对话双入口，降低专业用户与小白用户的上手差距。",
+        "relevance": "Video、Agent、Workflow、Multimodal。",
+        "actionItems": [
+          "打开 TapNow 试用社区工作流模板",
+          "对比 LibTV 无限画布方案",
+          "阅读即梦/可灵的「单点生成」差异"
+        ]
+      },
+      "content": [
+        "TapNow 代表国内视频 Agent 从「文生视频」向「制作流水线 Agent」的演进，值得与 Runway、Pika 等海外工具对照学习。",
+        "产品地图中建议把「视频生成模型」与「视频制作 Agent」分层理解。"
+      ],
+      "highlights": [
+        "节点 Agent 画布",
+        "国内视频 Agent",
+        "工作流可复用"
+      ]
+    },
+    {
+      "id": "sig-afd8a8808b",
+      "title": "California Sea Lion",
+      "summary": {
+        "oneSentence": "&lt;p&gt;&lt;img src=\"https://static.inaturalist.org/photos/702321069/large.jpg\" alt=\"California Sea Lion\"&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=\"https://static.ina",
+        "bullets": [],
+        "audience": "",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "date": "2026-07-21",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "content": [
+        "&lt;p&gt;&lt;img src=\"https://static.inaturalist.org/photos/702321069/large.jpg\" alt=\"California Sea Lion\"&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=\"https://static.inaturalist.org/photos/702321114/large.jpg\" alt=\"California Sea Lion\"&gt;&lt;/p&gt;&lt;p&gt;California Sea Lion, in San Francisco County, US, CA&lt;/p&gt;&lt;p&gt;We took some visiting family to Pier 39 to see the sea lions. They're somehow always even more fun than I remember them being last time.&lt;/p&gt; &lt;p&gt;Tags: &lt;a href=\"https://simonwillison.net/tags/san-francisco\"&gt;san-francisco&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/wildlife\"&gt;wildlife&lt;/a&gt;&lt;/p&gt;"
+      ],
+      "highlights": [],
+      "source": {
+        "type": "blog",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Jul/21/sighting-383713864/#atom-everything",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false
+      },
+      "oneLiner": "&lt;p&gt;&lt;img src=\"https://static.inaturalist.org/photos/702321069/large.jpg\" alt=\"California Sea Lion\"&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=\"https://static.ina",
+      "insight": {
+        "mainInsight": ""
+      },
+      "learning": {},
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "",
+        "readMinutes": 3
+      },
+      "affectedProductIds": []
+    },
+    {
+      "id": "sig-3f246cbfa8",
+      "title": "🔬Causal Models Need Causal Data - Xaira’s X-Cell model for Drug Discovery (Bo Wang & Ci Chu, Chief Discovery Officer & Chief AI Scientist)",
+      "summary": {
+        "oneSentence": "Xaira Therapeutics is all in on data generation for model building! We talk with Bo Wang and Ci Chu about how and why.",
+        "bullets": [],
+        "audience": "",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "date": "2026-07-21",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "content": [
+        "Xaira Therapeutics is all in on data generation for model building! We talk with Bo Wang and Ci Chu about how and why."
+      ],
+      "highlights": [],
+      "source": {
+        "type": "blog",
+        "name": "Latent Space",
+        "author": "swyx & Alessio",
+        "url": "https://www.latent.space/p/xaira",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false
+      },
+      "oneLiner": "Xaira Therapeutics is all in on data generation for model building! We talk with Bo Wang and Ci Chu about how and why.",
+      "insight": {
+        "mainInsight": ""
+      },
+      "learning": {},
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "",
+        "readMinutes": 3
+      },
+      "affectedProductIds": []
+    },
+    {
+      "id": "sig-d42362617c",
+      "title": "Introducing the ChatGPT for small business program",
+      "summary": {
+        "oneSentence": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
+        "bullets": [],
+        "audience": "",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "date": "2026-07-21",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work."
+      ],
+      "highlights": [],
+      "source": {
+        "type": "blog",
+        "name": "OpenAI Blog",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false
+      },
+      "oneLiner": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
+      "insight": {
+        "mainInsight": ""
+      },
+      "learning": {},
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ]
+    },
+    {
+      "id": "sig-8985407e5e",
+      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
+      "summary": {
+        "oneSentence": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
+        "bullets": [],
+        "audience": "",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "date": "2026-07-21",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [],
+      "content": [
+        "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber."
+      ],
+      "highlights": [],
+      "source": {
+        "type": "blog",
+        "name": "Google DeepMind",
+        "author": "DeepMind",
+        "url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
+        "home": "https://deepmind.google/blog/",
+        "lang": "en",
+        "translated": false
+      },
+      "oneLiner": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
+      "insight": {
+        "mainInsight": ""
+      },
+      "learning": {},
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "",
+        "readMinutes": 3
+      },
+      "affectedProductIds": []
+    },
+    {
+      "id": "sig-99e42382ba",
+      "title": "Nativ: Run AI models locally on your Mac",
+      "summary": {
+        "oneSentence": "&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://blaizzy.github.io/nativ/\"&gt;Nativ: Run AI models locally on your Mac&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; Prince Canum",
+        "bullets": [],
+        "audience": "",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "date": "2026-07-21",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "content": [
+        "&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://blaizzy.github.io/nativ/\"&gt;Nativ: Run AI models locally on your Mac&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; Prince Canuma is the developer behind the excellent &lt;a href=\"https://github.com/Blaizzy/mlx-vlm\"&gt;MLX-VLM&lt;/a&gt; Python library for running vision-LLMs using MLX on a Mac.&lt;/p&gt; &lt;p&gt;I'm really excited about his new project, which wraps MLX in a full macOS desktop application. It's similar in shape to LM Studio, providing both a chat interface and a localhost API server for accessing models.&lt;/p&gt; &lt;p&gt;The app picked up MLX models I had already tried that were present in my Hugging Face cache directory, which was a nice touch. &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=\"https://news.ycombinator.com/item?id=48982681\"&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt; &lt;p&gt;Tags: &lt;a href=\"https://simonwillison.net/tags/macos\"&gt;macos&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/python\"&gt;python&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/ai\"&gt;ai&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/generative-ai\"&gt;generative-ai&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/local-llms\"&gt;local-llms&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/llms\"&gt;llms&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/mlx\"&gt;mlx&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/prince-canuma\"&gt;prince-canuma&lt;/a&gt;&lt;/p&gt;"
+      ],
+      "highlights": [],
+      "source": {
+        "type": "blog",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Jul/21/nativ/#atom-everything",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false
+      },
+      "oneLiner": "&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://blaizzy.github.io/nativ/\"&gt;Nativ: Run AI models locally on your Mac&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; Prince Canum",
+      "insight": {
+        "mainInsight": ""
+      },
+      "learning": {},
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "",
+        "readMinutes": 3
+      },
+      "affectedProductIds": []
+    },
+    {
+      "id": "sig-20b0eb2d5c",
+      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+      "oneLiner": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, hi",
+      "summary": {
+        "oneSentence": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced ",
+        "bullets": [
+          "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/hugging-face-model-evaluation-security-incident"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+      "originalLang": "en",
+      "date": "2026-07-21",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "OpenAI and Hugging Face partner to address security incident during model evaluation"
+      },
+      "raw": {
+        "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+        "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+        "fetched": false,
+        "savedAt": "2026-07-27T07:32:45.029Z"
+      }
+    },
+    {
+      "id": "sig-40359dbf5a",
+      "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
+      "oneLiner": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing ",
+      "summary": {
+        "oneSentence": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in",
+        "bullets": [
+          "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/david-velez-robin-vince-join-openai-boards"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
+      "originalLang": "en",
+      "date": "2026-07-21",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC"
+      },
+      "raw": {
+        "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
+        "url": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
+        "fetched": false,
+        "savedAt": "2026-07-27T07:33:07.086Z"
+      }
+    },
+    {
+      "id": "cur-libtv-canvas",
+      "title": "LibTV 无限画布：LiblibAI 系视频 Agent 全链路",
+      "oneLiner": "LibTV 用无限画布串联剧本→分镜→成片，面向专业创作者。",
+      "date": "2026-07-20",
+      "tags": [
+        "Video",
+        "Agent",
+        "Product"
+      ],
+      "categoryIds": [
+        "vertical-video"
+      ],
+      "productIds": [
+        "libtv"
+      ],
+      "importance": {
+        "stars": 4,
+        "reason": "与 TapNow 并列的国内视频 Agent",
+        "readMinutes": 4
+      },
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "LibTV",
+        "author": "LiblibAI",
+        "url": "https://www.liblib.art/",
+        "home": "https://www.liblib.art/",
+        "lang": "zh",
+        "translated": true
+      },
+      "summary": {
+        "oneSentence": "LibTV 提供从剧本解析到镜头生成的 Agent 化视频制作体验。",
+        "bullets": [
+          "无限画布组织多镜头",
+          "与 Liblib 模型生态打通",
+          "支持分镜级微调"
+        ],
+        "audience": "视频博主、MCN、AI 创作者",
+        "readMinutes": 4,
+        "keywords": [
+          "LibTV",
+          "Video Agent",
+          "Canvas"
+        ]
+      },
+      "insight": {
+        "mainInsight": "国内视频 Agent 普遍选择「画布 + 节点」而非纯 Chat，因为视频是非线性资产。",
+        "whyNow": "单段 5 秒生成已 commoditize，竞争转向工作流。",
+        "problem": "多镜头一致性与流程管理。",
+        "trend": "Canvas-first Video Agent",
+        "differentiation": "Liblib 社区模型资源是生态优势。",
+        "outlook": "视频 Agent 将出现更多「模板市场」。"
+      },
+      "learning": {
+        "whyImportant": "Atlas 已收录，适合与 TapNow、可灵做三角对比。",
+        "productDesign": "无限画布适合非线性创作；学习其如何平衡「自由布局」与「新手引导」。",
+        "relevance": "Video、Agent、Workflow。",
+        "actionItems": [
+          "试用 LibTV 从剧本出分镜",
+          "对比 TapNow 节点流",
+          "关注 Liblib 社区模板"
+        ]
+      },
+      "content": [
+        "LibTV 与 TapNow 共同定义了国内「视频 Agent 2.0」——不只生成片段，而是管理整个制作项目。",
+        "建议学习者亲自跑通一个 15 秒短片项目，记录每一步 Agent 介入点。"
+      ],
+      "highlights": [
+        "无限画布",
+        "Liblib 生态",
+        "视频 Agent 2.0"
+      ]
+    },
+    {
+      "id": "sig-d4ff9ec891",
+      "title": "Safety and alignment in an era of long-horizon models",
+      "oneLiner": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed",
+      "summary": {
+        "oneSentence": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and impro",
+        "bullets": [
+          "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/safety-alignment-long-horizon-models"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Safety and alignment in an era of long-horizon models",
+      "originalLang": "en",
+      "date": "2026-07-20",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Safety and alignment in an era of long-horizon models"
+      },
+      "raw": {
+        "title": "Safety and alignment in an era of long-horizon models",
+        "url": "https://openai.com/index/safety-alignment-long-horizon-models",
+        "fetched": false,
+        "savedAt": "2026-07-27T07:33:29.157Z"
+      }
+    },
+    {
+      "id": "cur-memory-agents",
+      "title": "Memory 成为 Agent 标配：从 ChatGPT 到 Cursor 的长期记忆竞赛",
+      "oneLiner": "2026 年 Agent 产品纷纷上线「跨会话记忆」，Memory 从功能变成基础设施。",
+      "date": "2026-07-19",
+      "tags": [
+        "Memory",
+        "Agent",
+        "Product"
+      ],
+      "categoryIds": [
+        "agent",
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt",
+        "cursor",
+        "claude"
+      ],
+      "importance": {
+        "stars": 5,
+        "reason": "Memory 是 Agent 与 LLM 的核心分水岭",
+        "readMinutes": 5
+      },
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": true
+      },
+      "summary": {
+        "oneSentence": "ChatGPT、Claude、Cursor 等相继强化记忆能力，Agent 个性化与连续性提升。",
+        "bullets": [
+          "用户可控的记忆开关与删除",
+          "项目级 / 全局级记忆分层",
+          "隐私与合规成为产品卖点"
+        ],
+        "audience": "所有 Agent 产品学习者",
+        "readMinutes": 5,
+        "keywords": [
+          "Memory",
+          "Agent",
+          "Personalization"
+        ]
+      },
+      "insight": {
+        "mainInsight": "没有 Memory 的 Agent 每次对话都是「失忆的临时工」；Memory 决定 Agent 能否真正进入工作流。",
+        "whyNow": "用户已习惯 AI 助手，下一步需求是「它应该记得我」。",
+        "problem": "上下文窗口有限，无法塞入全部历史。",
+        "trend": "Memory Layer 成为 Agent OS 标准组件",
+        "differentiation": "各厂在「自动记忆 vs 用户显式记忆」策略上分化。",
+        "outlook": "Memory 管理 UI（查看、编辑、删除）将成为 Agent 产品必备设置页。"
+      },
+      "learning": {
+        "whyImportant": "你在 Atlas 学习 Agent 时，Memory 是区分「玩具 Chatbot」与「生产 Agent」的关键。",
+        "productDesign": "学习 ChatGPT Memory 的「透明 + 可控」设计，避免用户恐惧「AI 偷记隐私」。",
+        "relevance": "Memory、Agent、AI Native 核心关注领域。",
+        "actionItems": [
+          "打开 ChatGPT 记忆设置页体验",
+          "阅读 Claude Projects 的上下文设计",
+          "搜索「Mem0 / Zep」等开源 Memory 方案"
+        ]
+      },
+      "content": [
+        "Memory 赛道正在爆发：既有产品内置记忆，也有 Mem0、Zep 等 Memory 基础设施创业公司。",
+        "做 AI 产品调研时，建议为每个 Agent 产品记录：记忆粒度、用户控制权、跨设备同步策略。"
+      ],
+      "highlights": [
+        "Memory 成标配",
+        "隐私可控设计",
+        "Agent 分水岭"
+      ]
+    },
+    {
+      "id": "cur-lovart-design",
+      "title": "Lovart 艺术 Agent：二次元与概念设计的 Agent 化探索",
+      "oneLiner": "Lovart 将风格模板 + Agent 对话结合，服务插画与二次元创作。",
+      "date": "2026-07-18",
+      "tags": [
+        "Image",
+        "Agent",
+        "Design"
+      ],
+      "categoryIds": [
+        "visual-image"
+      ],
+      "productIds": [
+        "lovart"
+      ],
+      "importance": {
+        "stars": 3,
+        "reason": "Atlas 已收录的国内视觉 Agent 样本",
+        "readMinutes": 3
+      },
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Lovart",
+        "author": "Lovart",
+        "url": "https://www.lovart.ai/",
+        "home": "https://www.lovart.ai/",
+        "lang": "zh",
+        "translated": true
+      },
+      "summary": {
+        "oneSentence": "Lovart 专注艺术向与二次元风格，提供模板化 Agent 创作流程。",
+        "bullets": [
+          "风格模板降低 prompt 门槛",
+          "角色/场景/光影分步描述",
+          "社区作品可复用"
+        ],
+        "audience": "插画师、二次元创作者",
+        "readMinutes": 3,
+        "keywords": [
+          "Lovart",
+          "Image Agent",
+          "Art"
+        ]
+      },
+      "insight": {
+        "mainInsight": "垂直视觉 Agent 的竞争力在「风格预设 + 社区」而非通用文生图。",
+        "whyNow": "通用模型（MJ/SD）已足够强，细分人群需要更懂语境的产品。",
+        "problem": "通用工具对二次元/国风等风格理解不足。",
+        "trend": "Vertical Visual Agent",
+        "differentiation": "与即梦、通义万相的「全能型」形成差异。",
+        "outlook": "视觉 Agent 将更多按行业/风格垂直切分。"
+      },
+      "learning": {
+        "whyImportant": "理解「通用视觉 AI」与「垂直视觉 Agent」的产品边界。",
+        "productDesign": "模板 + Agent 对话组合，是降低非英语用户门槛的有效策略。",
+        "relevance": "Image、Agent、Design。",
+        "actionItems": [
+          "试用 Lovart 风格模板",
+          "对比 Midjourney 英文 prompt 路径",
+          "查看 Atlas 视觉分类"
+        ]
+      },
+      "content": [
+        "Lovart 已在 Atlas 视听觉 Agent 分类中，适合作为「垂直视觉 Agent」的学习样本。",
+        "建议记录：它如何用 UI 引导用户分步描述角色、场景、光影，而非一次性长 prompt。"
+      ],
+      "highlights": [
+        "垂直视觉 Agent",
+        "模板降门槛",
+        "二次元场景"
+      ]
+    },
+    {
+      "id": "cur-byte-llm",
+      "title": "字节跳动大模型矩阵：豆包 + 火山引擎 + Seed 系列",
+      "oneLiner": "字节以「豆包 C 端 + 火山 B 端 + Seed 模型」构建国内最完整 AI 栈之一。",
+      "date": "2026-07-17",
+      "tags": [
+        "Agent",
+        "API",
+        "Product"
+      ],
+      "categoryIds": [
+        "llm",
+        "agent-platform"
+      ],
+      "productIds": [
+        "doubao",
+        "coze",
+        "jimeng"
+      ],
+      "importance": {
+        "stars": 4,
+        "reason": "国内 LLM + Agent 生态关键玩家",
+        "readMinutes": 5
+      },
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "火山引擎",
+        "author": "ByteDance",
+        "url": "https://www.volcengine.com/product/doubao",
+        "home": "https://www.volcengine.com/",
+        "lang": "zh",
+        "translated": true
+      },
+      "summary": {
+        "oneSentence": "字节通过豆包、Coze、即梦、火山 API 覆盖 C 端体验到 B 端部署。",
+        "bullets": [
+          "豆包：多模态 C 端入口",
+          "Coze：Agent 搭建平台",
+          "Seedance/Seedream：视频与图像模型"
+        ],
+        "audience": "国内 AI 产品学习者、创业者",
+        "readMinutes": 5,
+        "keywords": [
+          "ByteDance",
+          "Doubao",
+          "Volcengine"
+        ]
+      },
+      "insight": {
+        "mainInsight": "字节策略是「模型 + 超级 App 场景 + 开发者平台」三位一体。",
+        "whyNow": "国内 B 端 Agent 需求爆发，火山引擎承接企业客户。",
+        "problem": "企业需要可私有化、可合规的 Agent 部署。",
+        "trend": "国内全栈 AI 平台竞争",
+        "differentiation": "与阿里通义、百度千帆形成国内三巨头格局。",
+        "outlook": "Coze + 火山 API 是国内做 Agent 产品的默认选型之一。"
+      },
+      "learning": {
+        "whyImportant": "Atlas 中多个产品（豆包、Coze、即梦）均来自字节生态，需整体理解。",
+        "productDesign": "学习其如何用同一模型能力支撑不同形态产品（Chat / Agent 平台 / 创作工具）。",
+        "relevance": "Agent、API、Workflow、Multimodal。",
+        "actionItems": [
+          "注册豆包体验多模态",
+          "在 Coze 搭建一个简单 Bot",
+          "阅读火山引擎 Agent 方案白皮书"
+        ]
+      },
+      "content": [
+        "评估国内 AI 产品时，建议把「字节系」作为一整组对照，而非孤立看豆包或 Coze。",
+        "Seedance 视频模型在即梦、小云雀等产品中的落地，是理解字节视频 Agent 战略的关键。"
+      ],
+      "highlights": [
+        "字节 AI 全栈",
+        "Coze Agent 平台",
+        "Seed 模型系列"
+      ]
+    },
+    {
+      "id": "sig-f83c24d415",
+      "title": "Cursor 在 Slack 中的改进 · Cursor",
+      "oneLiner": "Cursor 现在会在开始前先分享规划，可在多代码仓库环境中运行，并能跨频道和讨论串开展工作。",
+      "summary": {
+        "oneSentence": "Cursor 现在会在开始前先分享规划，可在多代码仓库环境中运行，并能跨频道和讨论串开展工作。",
+        "bullets": [
+          "Cursor 现在会在开始前先分享规划，可在多代码仓库环境中运行，并能跨频道和讨论串开展工作。",
+          "Cursor 现在会先给出一个规划再开始，这样您就可以尽早介入并调整方向。在执行过程中，它还会持续更新状态，让您可以跟踪每一步。",
+          "我们还优化了 Cursor 在 Slack 中的回复显示效果。消息内按钮已被移除，改为更紧凑的页脚链接。表格、PR 和工件现在的渲染也更加清晰。",
+          "从 Slack 中，Cursor 现在可以直接在指定的多代码仓库环境中启动，而不必再回退到单个默认代码仓库。如果你的前端、后端和共享代码分别位于不同的代码仓库中，Cursor 会读取你的请求，并将目标指向能访问所有这些代码仓库的环境。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Cursor 官网发布：Cursor 现在会在开始前先分享规划，可在多代码仓库环境中运行，并能跨频道和讨论串开展工作。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：cursor",
+        "actionItems": [
+          "阅读原文（中文）：https://cursor.com/changelog/slack-improvements"
+        ]
+      },
+      "tags": [
+        "Release"
+      ],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "cursor"
+      ],
+      "content": [
+        "Cursor 现在会在开始前先分享规划，可在多代码仓库环境中运行，并能跨频道和讨论串开展工作。",
+        "Cursor 现在会先给出一个规划再开始，这样您就可以尽早介入并调整方向。在执行过程中，它还会持续更新状态，让您可以跟踪每一步。",
+        "我们还优化了 Cursor 在 Slack 中的回复显示效果。消息内按钮已被移除，改为更紧凑的页脚链接。表格、PR 和工件现在的渲染也更加清晰。",
+        "从 Slack 中，Cursor 现在可以直接在指定的多代码仓库环境中启动，而不必再回退到单个默认代码仓库。如果你的前端、后端和共享代码分别位于不同的代码仓库中，Cursor 会读取你的请求，并将目标指向能访问所有这些代码仓库的环境。",
+        "在任务进行中，如果 Cursor 需要访问当前环境之外的代码仓库，它会提示你点击 切换代码仓库 按钮。点击后，选择相应的代码仓库或环境，Cursor 就会从刚才中断的地方继续。",
+        "Cursor 现在可以读取其他 Slack 频道和讨论串中的内容，并向其中发送消息。在处理任务时，它可以从工作区的其他位置提取上下文，并将更新发布回原始讨论串或相关频道。"
+      ],
+      "highlights": [
+        "Cursor 现在会在开始前先分享规划，可在多代码仓库环境中运行，并能跨频道和讨论串开展工作。",
+        "Cursor 现在会先给出一个规划再开始，这样您就可以尽早介入并调整方向。在执行过程中，它还会持续更新状态，让您可以跟踪每一步。",
+        "我们还优化了 Cursor 在 Slack 中的回复显示效果。消息内按钮已被移除，改为更紧凑的页脚链接。表格、PR 和工件现在的渲染也更加清晰。"
+      ],
+      "translated": false,
+      "translateMethod": "native",
+      "originalTitle": "Cursor 在 Slack 中的改进 · Cursor",
+      "originalLang": "zh",
+      "date": "2026-07-17",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [
+        "cursor"
+      ],
+      "source": {
+        "type": "release",
+        "group": "company",
+        "name": "Cursor",
+        "author": "Cursor",
+        "url": "https://cursor.com/changelog/slack-improvements",
+        "home": "https://cursor.com/changelog",
+        "lang": "zh",
+        "translated": false,
+        "translateMethod": "native",
+        "originalTitle": "Cursor 在 Slack 中的改进 · Cursor"
+      },
+      "raw": {
+        "title": "Improvements to Cursor in Slack",
+        "url": "https://cursor.com/changelog/slack-improvements",
+        "fetched": true,
+        "savedAt": "2026-07-27T07:34:20.673Z"
+      }
+    },
+    {
+      "id": "sig-7898549b95",
+      "title": "Introducing Gemini 3.5 Flash Cyber",
+      "oneLiner": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulner",
+      "summary": {
+        "oneSentence": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.",
+        "bullets": [
+          "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "Share Copied Google has invested in cybersecurity for years, pioneering automated vulnerability discovery to secure the world’s codebases. Tools like CodeMender , our code security agent, can automatically find and fix critical software vulnerabilities. But as AI agents become more capable at finding vulnerabilities faster than defenders can fix them, addressing this global threat requires a highly capable, affordable, and scalable approach.",
+        "Today, we’re expanding our longtime efforts to better prepare defenders by introducing Gemini 3.5 Flash Cyber, our lightweight cybersecurity model built on top of 3.5 Flash and fine-tuned to find, validate, and patch vulnerabilities quickly and efficiently, making it more effective at these tasks than Gemini’s mainline Flash models.",
+        "Flash’s performance and efficiency makes it an ideal foundation for our cybersecurity model efforts. By building on top of Flash, 3.5 Flash Cyber offers a cost-efficient and highly capable alternative to large, costly cybersecurity models.",
+        "Given the dual-use nature of this technology, we have taken an intentional approach to how we deploy 3.5 Flash Cyber. As part of a limited-access pilot program, 3.5 Flash Cyber will be exclusively available to governments and trusted partners via CodeMender soon, expanding over time. This will give frontline defenders a head start in finding and fixing critical vulnerabilities before they can be exploited, while mitigating against broader misuse.",
+        "Separately, we're also bringing CodeMender's foundational capabilities directly to customers with generally available Gemini models through the Gemini Enterprise Agent Platform .",
+        "Finding deep-seated flaws requires exploring an immense execution search space. Relying on a single, expensive call to a massive language model can create a bottleneck. 3.5 Flash Cyber is particularly suitable for finding vulnerabilities where the agent has to scan a large codebase and analyze a large number of codepaths.",
+        "CodeMender invokes 3.5 Flash Cyber multiple times, so agents can analyze vastly more code paths to discover and validate vulnerabilities. The sub-agents then produce a single, high-quality report.",
+        "Thanks to its speed and affordability, 3.5 Flash Cyber can be easily integrated into frequent scans, time-sensitive launch processes or commit scanning pipelines at scale.",
+        "We tested 3.5 Flash Cyber on a variety of benchmarks. In particular, we tested 3.5 Flash Cyber on the CyberGym benchmark, which evaluates AI agents against hundreds of real-world software vulnerabilities. Leveraging the low cost of 3.5 Flash Cyber by configuring CodeMender to call 3.5 Flash Cyber up to five times for a single, final report, the overall agent achieved competitive performance against significantly larger models on CyberGym*.",
+        "*Competitor results are sourced from provider self-reported scores",
+        "We also stress-tested the model’s capabilities beyond CyberGym without safety guardrails. Google’s Big Sleep team independently built an evaluation focused on finding critical and hard to find vulnerabilities in some of the world’s most complex codebases like Chrome and Safari. Here, 3.5 Flash Cyber significantly surpassed mainline 3.5 Flash and 3.6 Flash.",
+        "3.5 Flash Cyber was also evaluated on Google Chrome’s production commit scanning pipeline. The vulnerabilities were not publicly disclosed, which ensured this benchmark remained free of contamination for Gemini and competitor models.",
+        "The results showed a significant uplift from 3.5 Flash Cyber compared to 3.5 Flash. Note: More recent competitor model versions after Opus 4.6 refuse to fulfill the tasks due to built-in safety guardrails, and therefore are not shown.",
+        "Moreover, 3.5 Flash Cyber consistently discovered more unique vulnerabilities compared with mainline 3.5 Flash and Claude Opus 4.6. When tested on the highly complex V8 JavaScript Engine across a fixed number of invocations, 3.5 Flash Cyber found 55 unique confirmed issues, compared to 47 found by mainline 3.5 Flash and 36 found by Opus 4.6, including 10 issues that the other two models tested did not catch."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Introducing Gemini 3.5 Flash Cyber",
+      "originalLang": "en",
+      "date": "2026-07-17",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google DeepMind",
+        "author": "DeepMind",
+        "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
+        "home": "https://deepmind.google/blog/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Introducing Gemini 3.5 Flash Cyber"
+      },
+      "raw": {
+        "title": "Introducing Gemini 3.5 Flash Cyber",
+        "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
+        "fetched": true,
+        "savedAt": "2026-07-27T07:33:52.802Z"
+      }
+    },
+    {
+      "id": "sig-3ebda52fc8",
+      "title": "A scorecard for the AI age",
+      "oneLiner": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, ",
+      "summary": {
+        "oneSentence": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful ",
+        "bullets": [
+          "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/a-scorecard-for-the-ai-age"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "A scorecard for the AI age",
+      "originalLang": "en",
+      "date": "2026-07-17",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "A scorecard for the AI age"
+      },
+      "raw": {
+        "title": "A scorecard for the AI age",
+        "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
+        "fetched": false,
+        "savedAt": "2026-07-27T07:34:14.919Z"
+      }
+    },
+    {
+      "id": "sig-690a1f65b1",
+      "title": "Sightlines issue no.1: Insights from Config",
+      "oneLiner": "The conversations we’re still replaying from Config’s Leadership Collective.",
+      "summary": {
+        "oneSentence": "The conversations we’re still replaying from Config’s Leadership Collective.",
+        "bullets": [
+          "The conversations we’re still replaying from Config’s Leadership Collective."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.figma.com/blog/sightlines-issue-no1/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "The conversations we’re still replaying from Config’s Leadership Collective.",
+        "Sightlines is our newsletter for design, product, and engineering leaders. In each issue, we'll bring you the sharpest insights from senior leaders at companies like Cisco, OpenAI, Airbnb, and more on how they're navigating product development and design in the age of AI.",
+        "First up: everything we took away from leadership talks at Config.",
+        "We went into Leadership Collective with questions we were hoping our peers could answer. Questions like: How do you lead a change you're still figuring out for yourself? Which parts of how we worked before AI are worth keeping? And how should we be structuring our teams for the AI era?",
+        "The TL;DR: Most of us are still figuring it out. Everyone's working out how to fold AI into their products, teams, and systems, and how to harness its speed without sacrificing quality. But a few things are clear.",
+        "Go deeper on the insights from Leadership Collective at Config:",
+        "→ 7 questions we brought to Leadership Collective, and what leaders had to say 7 questions we had going into Config Leadership Collective We showed up to Leadership Collective hoping to learn how leaders are guiding their teams through change, what expertise means now, and how they're keeping quality high as the pace picks up. Here's what we heard.",
+        "→ How to lead design teams through the AI era How to keep design teams steady through constant change Drawing on her time at Patreon and Shopify, design leader Jen Dunnam offers her advice for this new age of AI—from building a strong team to how to think about speed.",
+        "“We'll go through a period where there's some bad work, some bad design—we'll be swimming in slop for a while. But the great work will always rise above it. The judgment, the great editing, and the ability to dream as creators will always matter.” Teo Connor, VP of Design, Airbnb",
+        "“I show up to my team as a designer and human first. There’s a high risk of chasing the tool, but fundamentally we’re designing for humans, and that's not changing.” Jen Dunnam, former VP of Design, Patreon",
+        "“As a leader, you need to learn how to let go—you can’t possibly keep track of every single thing going on. Hiring people you trust goes a long way.” Ian Silber, Head of Product Design, OpenAI",
+        "“Design is the ultimate way to show a customer that you care, because you sweat the details. If they feel you've taken meticulous care building something for them, you get an emotional reaction, not just a logical one.” Jeetu Patel, President and Chief Product Officer, Cisco",
+        "I agree to opt-in to Figma's mailing list. * By clicking “Subscribe” you agree to our TOS and Privacy Policy .",
+        "We showed up to Leadership Collective hoping to learn how leaders are guiding their teams through change, what expertise means now, and how they're keeping quality high as the pace picks up. Here's what we heard."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Sightlines Issue no.1: Insights from Config | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-07-16",
+      "categoryIds": [
+        "visual-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/sightlines-issue-no1/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Sightlines Issue no.1: Insights from Config | Figma Blog"
+      },
+      "raw": {
+        "title": "Sightlines issue no.1: Insights from Config",
+        "url": "https://www.figma.com/blog/sightlines-issue-no1/",
+        "fetched": true,
+        "savedAt": "2026-07-27T07:34:44.555Z"
+      }
+    },
+    {
+      "id": "sig-8fe39edff7",
+      "title": "Why teens deserve access to safe AI",
+      "oneLiner": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools,",
+      "summary": {
+        "oneSentence": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, ",
+        "bullets": [
+          "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/why-teens-deserve-access-safe-ai"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Why teens deserve access to safe AI",
+      "originalLang": "en",
+      "date": "2026-07-16",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Why teens deserve access to safe AI"
+      },
+      "raw": {
+        "title": "Why teens deserve access to safe AI",
+        "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
+        "fetched": false,
+        "savedAt": "2026-07-27T07:35:06.667Z"
+      }
+    },
+    {
+      "id": "sig-a564401bb8",
+      "title": "Connect more of your apps to Search",
+      "oneLiner": "You’ll be able to securely link and interact with your go-to services directly in AI Mode.",
+      "summary": {
+        "oneSentence": "You’ll be able to securely link and interact with your go-to services directly in AI Mode.",
+        "bullets": [
+          "You’ll be able to securely link and interact with your go-to services directly in AI Mode."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://blog.google/products-and-platforms/products/search/connected-apps/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "You’ll be able to securely link and interact with your go-to services directly in AI Mode.",
+        "Your browser does not support the audio element.",
+        "You can now connect your favorite apps directly to AI Mode in Search to get more done. Simply link services like Instacart, Canva, or YouTube Music to build lists, design projects, or curate playlists without leaving your search results. Head over to AI Mode in Search today to start using these new integrations.",
+        "You can now link your favorite apps directly to AI in Search to get things done faster. For example, you can add groceries to your cart or save music playlists without leaving the search page. It makes planning projects or parties way easier. Just head over to AI in Search to try it out.",
+        "You can already connect some of your favorite services to the Gemini app , and now, to help you get even more done, we’re enabling you to directly connect your apps in Search.",
+        "Starting to roll out this week in the U.S., you can securely link and interact with some of your go-to services right in AI Mode . Here’s a look at how these integrations in Search can streamline your day:",
+        "Let’s say you’re planning a barbecue and using AI Mode for help with your grocery list. If you connect Instacart, you can add the ingredients straight into your Instacart shopping cart and check out with just a few taps on their app or website.",
+        "With Personal Intelligence and your connected apps, Search can give even more tailored responses.",
+        "Or, if you’re working on a project where you need some design concepts – like creating a flyer – you can ask Canva to show you some template options.",
+        "Want to build the perfect soundtrack for your next party? You can use AI Mode to curate a playlist, instantly save it to YouTube Music and press play to start the celebration.",
+        "Head over to AI Mode in Search to try the new connected apps today. We're working with a range of partners and look forward to launching with more apps soon.",
+        "Sign up for our newsletters with product updates, event information, special offers, and more.",
+        "Check your inbox to confirm your subscription.",
+        "You can also subscribe with a different email address ."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Connect more of your apps to Search",
+      "originalLang": "en",
+      "date": "2026-07-16",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Connect more of your apps to Search"
+      },
+      "raw": {
+        "title": "Connect more of your apps to Search",
+        "url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
+        "fetched": true,
+        "savedAt": "2026-07-27T07:35:30.426Z"
+      }
+    },
+    {
+      "id": "sig-0199c9587e",
+      "title": "Create, edit and star in videos with two Google Vids updates",
+      "oneLiner": "Gemini Omni and personal avatars in Google Vids make video creation easier than ever.",
+      "summary": {
+        "oneSentence": "Gemini Omni and personal avatars in Google Vids make video creation easier than ever.",
+        "bullets": [
+          "Gemini Omni and personal avatars in Google Vids make video creation easier than ever."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "Gemini Omni and personal avatars in Google Vids make video creation easier than ever. Now you can generate and edit high-quality clips using everyday language, and create a custom digital avatar to star in your videos.",
+        "Your browser does not support the audio element.",
+        "Google Vids now features Gemini Omni, which lets you generate and edit high-quality videos using simple text prompts and image references. You can also create a digital avatar to deliver messages for you by uploading a selfie and a voice recording. Check your eligibility for these tools and start experimenting with your next video project today.",
+        "Google Vids now uses AI to help you make videos just by typing what you want to see. You can even edit your clips by simply describing the changes you need. If you don't want to be on camera, you can create a digital avatar that looks and sounds like you. Every AI-made video gets a special watermark so people know it was generated.",
+        "Today, we’re rolling out two new updates to Google Vids to make it easier than ever to create, edit and personalize your videos: Gemini Omni and personal avatars. Gemini Omni takes the hard work out of the editing process, so generating and refining high-quality clips is as easy as writing a simple prompt. And with personal avatars, you have an entirely new way to star in videos without setting up a camera.",
+        "Here’s a look at how these new tools transform video creation.",
+        "In the past year, you’ve created millions of videos in Google Vids to share your stories and bring your ideas to life. In February, we made the process simpler by rolling out Veo 3.1 to all users, helping everyone generate videos within Vids.",
+        "Now, we’re bringing Gemini Omni to Vids, so you can create and edit high-quality videos just by describing what you want to see. Start with a simple text prompt in natural language, and add image references — like a photo or a rough sketch — for more detail. Omni mixes your inputs to generate a video that matches your vision.",
+        "Getting a video exactly right often requires a few tweaks after that first draft — and making those edits is now as easy as describing what you want to see. Whether you're refining a video you generated with Omni or a clip you shot on your phone, you can use everyday language to prompt Vids to swap backgrounds, fix lighting or add effects.",
+        "Because Omni supports step-by-step edits, you can now make changes to your videos without starting from scratch.",
+        "Want to send a quick video update or personalized shout-out, but don't have time to get camera-ready? With new personal avatars, you can create a digital avatar that looks and sounds like you. Just upload a selfie and a short voice recording. From there, type what you want to say and your avatar will deliver the message — no recording required.",
+        "Gemini Omni and personal avatars are available in Google Vids for Google AI Pro and Ultra subscribers and Google Workspace business customers . Access to personal avatars is currently limited to users in certain regions who are 18 or older. Personal avatars are linked to a user’s Google Account and are restricted to the account holder’s likeness.",
+        "We want you to feel confident sharing what you create. To ensure content transparency, every generated clip includes an invisible SynthID digital watermark. This allows people to verify that a video was created with AI, so you can explore your creativity and share your AI videos responsibly.",
+        "Come see what you can create with Gemini Omni and personal avatars in Google Vids ."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Create, edit and star in videos with two Google Vids updates",
+      "originalLang": "en",
+      "date": "2026-07-16",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Create, edit and star in videos with two Google Vids updates"
+      },
+      "raw": {
+        "title": "Create, edit and star in videos with two Google Vids updates",
+        "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
+        "fetched": true,
+        "savedAt": "2026-07-27T07:35:53.991Z"
+      }
+    }
+  ]
+}

@@ -3,7 +3,7 @@ window.AI_DATA = {
     {
       id: "llm",
       name: "通用 LLM",
-      icon: "脑",
+      icon: "",
       parent: null,
       blurb: "文字推理、文档阅读、问答写作——AI 的基础大脑",
       audience: "小白入门、办公白领、学生",
@@ -12,18 +12,58 @@ window.AI_DATA = {
     },
     {
       id: "visual",
-      name: "视觉 AI",
-      icon: "画",
+      name: "视听觉 Agent",
+      icon: "",
       parent: null,
-      blurb: "文生图、插画、设计稿——以视觉产出为核心",
+      blurb: "文生图、视频、音频、3D——以视听觉产出为核心的 Agent 工具",
+      audience: "设计师、内容创作者、运营与 3D 爱好者",
+      tip: "先明确产出形式（图/片/音/模型），再选对应子类工具。",
+      concept: "核心产出图像、界面、视频、音频与 3D 资产，多具备 Agent 式工作流。"
+    },
+    {
+      id: "visual-image",
+      name: "文生图 / 插画",
+      icon: "图",
+      parent: "visual",
+      blurb: "文生图、插画、概念设计与图像编辑",
       audience: "设计师、运营、自媒体创作者",
       tip: "说清主体、风格、用途，比堆形容词更有效。",
-      concept: "核心产出图片与视觉素材，部分产品内置简易智能体。"
+      concept: "以静态图像生成为核心的 AIGC 工具。"
+    },
+    {
+      id: "vertical-video",
+      name: "AI 视频生成",
+      icon: "影",
+      parent: "visual",
+      blurb: "文生视频、镜头控制、短片与广告分镜",
+      audience: "短视频创作者、广告从业者",
+      tip: "先写脚本和分镜，再生成 3–5 秒镜头片段。",
+      concept: "用 AI 生成或辅助视频镜头与成片。"
+    },
+    {
+      id: "vertical-audio",
+      name: "AI 音频 / 音乐",
+      icon: "音",
+      parent: "visual",
+      blurb: "AI 作曲、配音、语音转写",
+      audience: "播客、视频博主、会议记录者",
+      tip: "音频类工具对中文场景要试发音和转写准确率。",
+      concept: "音乐创作、语音合成与转写类工具。"
+    },
+    {
+      id: "vertical-3d",
+      name: "AI 3D 建模",
+      icon: "立",
+      parent: "visual",
+      blurb: "文生 3D、图生模型、贴图与网格优化",
+      audience: "游戏美术、工业设计师、3D 打印爱好者",
+      tip: "先明确用途（游戏/打印/展示），再选支持对应导出格式的工具。",
+      concept: "从文字或图片快速生成可编辑的三维网格、贴图与场景资产。"
     },
     {
       id: "agent",
       name: "专业智能体 Agent",
-      icon: "动",
+      icon: "",
       parent: null,
       blurb: "自主规划、联网检索、多步骤自动执行复杂任务",
       audience: "想提效的职场人、创业者、开发者",
@@ -33,12 +73,12 @@ window.AI_DATA = {
     {
       id: "vertical",
       name: "垂直细分 AI",
-      icon: "垂",
+      icon: "",
       parent: null,
-      blurb: "视频、音频、3D 建模、行业专用——聚焦单一赛道的 AI 工具",
-      audience: "内容创作者、企业用户",
+      blurb: "建筑空间、电商、旅游、政务等行业专用——聚焦单一赛道的 AI 工具",
+      audience: "企业用户、行业从业者",
       tip: "垂直工具往往比通用模型在单点任务上更顺手。",
-      concept: "在视频、音频、3D 或特定行业流程中深度优化的 AI 产品。"
+      concept: "在特定行业流程中深度优化的 AI 产品。"
     },
     {
       id: "agent-platform",
@@ -81,36 +121,6 @@ window.AI_DATA = {
       concept: "多步骤检索与汇总，输出带来源的结构化报告。"
     },
     {
-      id: "vertical-video",
-      name: "AI 视频生成",
-      icon: "影",
-      parent: "vertical",
-      blurb: "文生视频、镜头控制、短片与广告分镜",
-      audience: "短视频创作者、广告从业者",
-      tip: "先写脚本和分镜，再生成 3–5 秒镜头片段。",
-      concept: "用 AI 生成或辅助视频镜头与成片。"
-    },
-    {
-      id: "vertical-audio",
-      name: "AI 音频 / 音乐",
-      icon: "音",
-      parent: "vertical",
-      blurb: "AI 作曲、配音、语音转写",
-      audience: "播客、视频博主、会议记录者",
-      tip: "音频类工具对中文场景要试发音和转写准确率。",
-      concept: "音乐创作、语音合成与转写类垂直工具。"
-    },
-    {
-      id: "vertical-3d",
-      name: "AI 3D 建模",
-      icon: "立",
-      parent: "vertical",
-      blurb: "文生 3D、图生模型、贴图与网格优化",
-      audience: "游戏美术、工业设计师、3D 打印爱好者",
-      tip: "先明确用途（游戏/打印/展示），再选支持对应导出格式的工具。",
-      concept: "从文字或图片快速生成可编辑的三维网格、贴图与场景资产。"
-    },
-    {
       id: "vertical-enterprise",
       name: "企业行业 Agent",
       icon: "企",
@@ -119,6 +129,106 @@ window.AI_DATA = {
       audience: "企业 IT、业务负责人",
       tip: "企业级产品通常需要对接现有系统与权限。",
       concept: "面向私域、团队或行业流程的定制 Agent。"
+    },
+    {
+      id: "vertical-space-design",
+      name: "建筑·室内·景观·规划",
+      icon: "空",
+      parent: "vertical",
+      blurb: "建筑方案、室内设计、景观彩平与城乡规划——空间设计全链路 AI",
+      audience: "建筑师、室内/景观/规划设计师、学生与 Studio",
+      tip: "上传 CAD/SU/户型图比纯文字描述更容易出可用方案；结构合规仍需专业复核。",
+      concept: "从平面布局、软装渲染到总图彩平与城市方案的空间设计垂直工具。"
+    },
+    {
+      id: "vertical-legal",
+      name: "法律 AI",
+      icon: "法",
+      parent: "vertical",
+      blurb: "法规检索、类案分析、合同审查与文书起草",
+      audience: "律师、法务、合规与司法辅助人员",
+      tip: "涉诉与对外文书务必人工核对引用，不可盲信 AI 输出。",
+      concept: "基于法律数据库与 Agent 工作流的行业专用法律智能体。"
+    },
+    {
+      id: "vertical-medical",
+      name: "医疗 AI",
+      icon: "医",
+      parent: "vertical",
+      blurb: "临床文档、问诊辅助、医学影像与运营提效",
+      audience: "医生、护士、医疗机构 IT 与健康管理团队",
+      tip: "医疗场景需确认 HIPAA/等保合规与 BAA 协议。",
+      concept: "嵌入临床与运营流程的医疗垂直 AI 助手。"
+    },
+    {
+      id: "vertical-finance",
+      name: "金融 AI",
+      icon: "金",
+      parent: "vertical",
+      blurb: "投研检索、财报分析、风控合规与智能投顾",
+      audience: "分析师、基金经理、券商与银行从业者",
+      tip: "金融决策需交叉验证数据源，AI 输出不能替代合规审批。",
+      concept: "面向资本市场与企业金融的专业检索与分析 AI。"
+    },
+    {
+      id: "vertical-education",
+      name: "教育 AI",
+      icon: "教",
+      parent: "vertical",
+      blurb: "个性化辅导、作业批改、课程生成与学习规划",
+      audience: "学生、教师、培训机构与在线教育团队",
+      tip: "把 AI 当「24 小时助教」，关键知识点仍要老师或家长把关。",
+      concept: "适配 K12、高等教育与职业培训的 AI 学习助手。"
+    },
+    {
+      id: "vertical-ecommerce",
+      name: "电商 AI",
+      icon: "商",
+      parent: "vertical",
+      blurb: "主图详情、Listing、智能客服与跨境选品运营",
+      audience: "淘宝/京东/跨境卖家、电商运营与设计",
+      tip: "先打通一个平台的全链路（图+文案+客服），再扩展多店。",
+      concept: "覆盖商品视觉、内容生成与售前售后自动化的电商垂直 AI。"
+    },
+    {
+      id: "vertical-hr",
+      name: "HR AI",
+      icon: "人",
+      parent: "vertical",
+      blurb: "简历解析、AI 面试、招聘流程与人事事务自动化",
+      audience: "HR、招聘负责人、成长期企业人才团队",
+      tip: "结构化评分卡 + AI 初筛，关键岗位仍要真人终面。",
+      concept: "嵌入 ATS/HCM 的招聘与人事垂直智能体。"
+    },
+    {
+      id: "vertical-government",
+      name: "政务 AI",
+      icon: "政",
+      parent: "vertical",
+      blurb: "一网通办、政策问答、城市治理与数字公务员",
+      audience: "政务 IT、数字政府集成商、央国企信息化",
+      tip: "政务场景需等保、国产化与数据不出域，选型先看合规。",
+      concept: "面向 G 端办事大厅、热线与城市运行的行业大模型与智能体。"
+    },
+    {
+      id: "vertical-travel",
+      name: "旅游 AI",
+      icon: "游",
+      parent: "vertical",
+      blurb: "行程规划、机票酒店比价、路书攻略与行中向导",
+      audience: "自由行游客、亲子/商务出行、定制游与 OTA 用户",
+      tip: "说清天数、预算与旅行风格；可预订的方案优先选接实时库存的平台。",
+      concept: "从灵感、排程到订票订房的一站式 AI 旅行助手。"
+    },
+    {
+      id: "vertical-ui",
+      name: "UI 设计",
+      icon: "界",
+      parent: "vertical",
+      blurb: "界面原型、设计系统与 AI 辅助 UX",
+      audience: "产品、设计师、需要快速出原型的团队",
+      tip: "先描述用户流程和页面结构，再微调组件细节。",
+      concept: "用自然语言或截图生成可协作的界面与设计稿。"
     }
   ],
 
@@ -134,6 +244,7 @@ window.AI_DATA = {
       pricing: "free",
       pricingLabel: "免费为主",
       categories: ["llm"],
+      appUri: "doubao://",
       links: [
         { label: "官网", url: "https://www.doubao.com/" },
         { label: "网页对话", url: "https://www.doubao.com/chat/" }
@@ -284,18 +395,24 @@ window.AI_DATA = {
       id: "jimeng",
       name: "即梦",
       region: "国内",
+      logo: "./logos/jimeng.svg",
       logoFallback: "./logos/jimeng.svg",
-      oneLiner: "字节出品，商用插画、实景、国风、海报，小白易上手。",
-      forWho: "不想写英文提示词的创作者和运营",
+      preview: "https://s0.wp.com/mshots/v1/https%3A%2F%2Fjimeng.jianying.com%2Fai-tool%2Fhome?w=960",
+      oneLiner: "字节剪映团队出品，文生图 / 文生视频 / 智能画布一站式创作，中文友好。",
+      forWho: "短视频创作者、设计师、不想写英文提示词的运营",
       pricing: "mix",
-      pricingLabel: "免费额度 + 付费",
-      categories: ["visual"],
+      pricingLabel: "每日免费积分 + 付费",
+      categories: ["visual-image"],
       links: [
-        { label: "官网", url: "https://jimeng.jianying.com/" },
-        { label: "创作入口", url: "https://jimeng.jianying.com/ai-tool/home" }
+        { label: "创作入口", url: "https://jimeng.jianying.com/ai-tool/home" },
+        { label: "官网", url: "https://jimeng.jianying.com/" }
       ],
-      steps: ["用中文写清画面里有什么。", "加风格词：扁平插画 / 写实 / 国风。", "保存满意结果后再局部修改。"],
-      alternatives: ["tongyi-wanxiang", "midjourney", "lovart"]
+      steps: [
+        "抖音或手机号登录网页版 jimeng.jianying.com，或下载「即梦 AI」App。",
+        "图片：用中文写清主体、风格与用途；视频：描述镜头动作、比例与时长。",
+        "智能画布可局部重绘、扩图；成片可导出或一键导入剪映继续剪辑。"
+      ],
+      alternatives: ["kling", "tongyi-wanxiang", "midjourney"]
     },
     {
       id: "lovart",
@@ -306,10 +423,10 @@ window.AI_DATA = {
       forWho: "插画师、二次元爱好者、概念设计入门者",
       pricing: "mix",
       pricingLabel: "免费试用 + 付费",
-      categories: ["visual"],
+      categories: ["visual-image"],
       links: [{ label: "官网", url: "https://www.lovart.ai/" }],
       steps: ["选择偏艺术/二次元的风格模板。", "描述角色、场景、光影氛围。", "多生成几版再精修方向。"],
-      alternatives: ["jimeng", "midjourney", "yige"]
+      alternatives: ["jimeng", "midjourney", "tongyi-wanxiang"]
     },
     {
       id: "tongyi-wanxiang",
@@ -320,24 +437,10 @@ window.AI_DATA = {
       forWho: "电商运营、需要商品图和海报的用户",
       pricing: "mix",
       pricingLabel: "免费额度 + 付费",
-      categories: ["visual"],
+      categories: ["visual-image"],
       links: [{ label: "通义万相", url: "https://tongyi.aliyun.com/wanxiang/" }],
       steps: ["明确用途：商品主图、海报还是人像。", "上传参考图可提升一致性。", "导出前检查文字与 Logo 是否正确。"],
-      alternatives: ["jimeng", "yige", "dalle3"]
-    },
-    {
-      id: "yige",
-      name: "文心一格",
-      region: "国内",
-      logoFallback: "./logos/yige.svg",
-      oneLiner: "百度出品，国风、国画、文创设计有优势。",
-      forWho: "文创、国风设计、传统文化相关创作",
-      pricing: "mix",
-      pricingLabel: "免费 + 付费",
-      categories: ["visual"],
-      links: [{ label: "文心一格", url: "https://yige.baidu.com/" }],
-      steps: ["选择国风/水墨等风格预设。", "描述主体与构图，避免过于抽象。", "商用前确认授权说明。"],
-      alternatives: ["jimeng", "tongyi-wanxiang", "lovart"]
+      alternatives: ["jimeng", "lovart", "dalle3"]
     },
     // ── 视觉 AI · 海外 ──
     {
@@ -349,7 +452,7 @@ window.AI_DATA = {
       forWho: "设计师、追求高质量视觉的用户",
       pricing: "paid",
       pricingLabel: "付费订阅",
-      categories: ["visual"],
+      categories: ["visual-image"],
       links: [
         { label: "官网", url: "https://www.midjourney.com/" },
         { label: "Web App", url: "https://www.midjourney.com/app/" }
@@ -366,7 +469,7 @@ window.AI_DATA = {
       forWho: "有显卡、想深度控图的技术用户",
       pricing: "free",
       pricingLabel: "开源免费",
-      categories: ["visual"],
+      categories: ["visual-image"],
       links: [
         { label: "Stability AI", url: "https://stability.ai/" },
         { label: "Hugging Face", url: "https://huggingface.co/stabilityai" }
@@ -383,7 +486,7 @@ window.AI_DATA = {
       forWho: "已用 ChatGPT、需要快速出产品图的用户",
       pricing: "mix",
       pricingLabel: "随 ChatGPT / API",
-      categories: ["visual"],
+      categories: ["visual-image"],
       links: [{ label: "ChatGPT 生图", url: "https://chatgpt.com/" }],
       steps: ["在 ChatGPT 中直接描述要生成的图。", "说明比例、风格、是否含文字。", "复杂构图分步描述。"],
       alternatives: ["midjourney", "tongyi-wanxiang", "jimeng"]
@@ -399,13 +502,13 @@ window.AI_DATA = {
       forWho: "运营、自媒体、想自建 Bot 的非程序员",
       pricing: "mix",
       pricingLabel: "免费 + 付费",
-      categories: ["agent-platform"],
+      categories: ["agent-platform", "agent-code"],
       links: [
         { label: "扣子", url: "https://www.coze.cn/" },
         { label: "Coze 国际版", url: "https://www.coze.com/" }
       ],
       steps: ["选一个接近需求的模板。", "填入知识库或 FAQ 文档。", "测试多轮对话后发布到微信/飞书等。"],
-      alternatives: ["dify", "qianfan", "bailian"]
+      alternatives: ["dify", "bailian", "miaoda"]
     },
     {
       id: "qianfan",
@@ -426,14 +529,14 @@ window.AI_DATA = {
       name: "阿里云百炼",
       region: "国内",
       logoFallback: "./logos/bailian.svg",
-      oneLiner: "海量行业 Agent 模板，对接高德、无影等阿里生态。",
-      forWho: "阿里云用户、需要行业模板的企业",
+      oneLiner: "阿里模型与应用开发平台，Agent 模板 + API，支持快速搭建智能体。",
+      forWho: "阿里云用户、开发者、需要 Agent 与模型 API 的团队",
       pricing: "mix",
       pricingLabel: "按量 / 企业",
-      categories: ["agent-platform"],
+      categories: ["agent-platform", "agent-code"],
       links: [{ label: "百炼平台", url: "https://bailian.console.aliyun.com/" }],
       steps: ["在控制台创建应用或 Agent。", "选择模型与知识库插件。", "通过 API 或页面嵌入业务。"],
-      alternatives: ["qianfan", "coze", "dify"]
+      alternatives: ["coze", "meoo", "qoder"]
     },
     {
       id: "dify",
@@ -487,14 +590,18 @@ window.AI_DATA = {
       name: "WorkBuddy",
       region: "国内",
       logoFallback: "./logos/workbuddy.svg",
-      oneLiner: "腾讯个人办公 Agent，自动写周报、整理资料、定时任务。",
-      forWho: "腾讯生态用户、需要个人办公助手的白领",
+      oneLiner: "腾讯全场景 AI 办公工作台，多 Agent 并行处理文档、表格、PPT 与本地文件。",
+      forWho: "白领、运营、HR、产品经理，需要 AI 同事完成跨工具办公任务",
       pricing: "mix",
-      pricingLabel: "内测 / 会员",
-      categories: ["agent-office"],
-      links: [{ label: "腾讯", url: "https://www.tencent.com/" }],
-      steps: ["关注官方内测或发布渠道。", "连接日历、文档等常用工具。", "从周报、纪要等高频场景试起。"],
-      alternatives: ["dumate", "lindy", "doubao"]
+      pricingLabel: "免费 + 订阅",
+      categories: ["agent-office", "agent-code"],
+      links: [
+        { label: "官网", url: "https://www.workbuddy.cn/" },
+        { label: "腾讯云", url: "https://cloud.tencent.com/product/workbuddy" },
+        { label: "下载", url: "https://www.codebuddy.cn/work/" }
+      ],
+      steps: ["下载桌面客户端并登录。", "用自然语言描述要完成的办公任务。", "授权本地文件夹，从周报、表格整理等场景试起。"],
+      alternatives: ["dumate", "qoder", "lingguang"]
     },
     {
       id: "lindy",
@@ -527,6 +634,23 @@ window.AI_DATA = {
 
     // ── Agent · 编程开发 ──
     {
+      id: "codex",
+      name: "OpenAI Codex",
+      region: "海外",
+      logoFallback: "./logos/codex.svg",
+      oneLiner: "OpenAI 云端编程 Agent，浏览器与 CLI 自主完成代码任务与 PR。",
+      forWho: "开发者、需要在云端跑长时编程任务的用户",
+      pricing: "mix",
+      pricingLabel: "ChatGPT 订阅",
+      categories: ["agent-code"],
+      links: [
+        { label: "Codex", url: "https://openai.com/codex/" },
+        { label: "ChatGPT", url: "https://chatgpt.com/" }
+      ],
+      steps: ["在 ChatGPT 或 Codex CLI 中连接代码仓库。", "描述任务目标与验收标准。", "Review 生成的 diff 与测试结果后合并。"],
+      alternatives: ["cursor", "claude-code", "devin"]
+    },
+    {
       id: "cursor",
       name: "Cursor",
       region: "海外",
@@ -536,12 +660,13 @@ window.AI_DATA = {
       pricing: "mix",
       pricingLabel: "免费 + Pro",
       categories: ["agent-code"],
+      appUri: "cursor://",
       links: [
         { label: "官网", url: "https://cursor.com/" },
         { label: "下载", url: "https://cursor.com/downloads" }
       ],
       steps: ["用 Cursor 打开现有项目。", "Cmd+K 局部编辑，Chat 问架构问题。", "Agent 模式让它跨文件完成小功能。"],
-      alternatives: ["trae", "claude-code", "devin"]
+      alternatives: ["codex", "claude-code", "devin"]
     },
     {
       id: "devin",
@@ -584,9 +709,137 @@ window.AI_DATA = {
       pricing: "free",
       pricingLabel: "免费为主",
       categories: ["agent-code"],
+      appUri: "trae-cn://",
       links: [{ label: "Trae", url: "https://www.trae.ai/" }],
       steps: ["下载 Trae IDE 并导入项目。", "用对话描述要实现的函数或页面。", "结合官方教程熟悉快捷键。"],
-      alternatives: ["cursor", "deepseek", "claude-code"]
+      alternatives: ["cursor", "qoder", "raccoon"]
+    },
+    {
+      id: "qoder",
+      name: "Qoder CN",
+      region: "国内",
+      logoFallback: "./logos/qoder.svg",
+      oneLiner: "原通义灵码升级版，IDE 插件 + 编程智能体，支持 Quest 多文件任务。",
+      forWho: "Java / Python / Go 等主流语言开发者",
+      pricing: "mix",
+      pricingLabel: "免费 + 专业版",
+      categories: ["agent-code"],
+      links: [
+        { label: "官网", url: "https://qoder.com.cn/" },
+        { label: "文档", url: "https://docs.qoder.cn/" }
+      ],
+      steps: ["在 VS Code / JetBrains 安装 Qoder 插件。", "用对话描述跨文件改动或新功能。", "Quest 模式让它自主拆解并完成工程级任务。"],
+      alternatives: ["trae", "cursor", "raccoon"]
+    },
+    {
+      id: "raccoon",
+      name: "代码小浣熊",
+      region: "国内",
+      logoFallback: "./logos/raccoon.svg",
+      oneLiner: "商汤 AI 编程助手，补全、生成、重构与测试，支持 VS Code / IDEA。",
+      forWho: "软件研发、编程学习、需要国产 IDE 插件的开发者",
+      pricing: "mix",
+      pricingLabel: "免费 + 企业版",
+      categories: ["agent-code"],
+      links: [
+        { label: "官网", url: "https://www.sensetime.com/cn/product-detail?categoryId=51134384" },
+        { label: "产品页", url: "https://raccoon.sensetime.com/" }
+      ],
+      steps: ["在 VS Code 或 JetBrains 安装 Raccoon 插件。", "用侧边栏对话解释代码或生成函数。", "结合补全与重构建议小步迭代。"],
+      alternatives: ["qoder", "trae", "cursor"]
+    },
+    {
+      id: "lingguang",
+      name: "灵光",
+      region: "国内",
+      logoFallback: "./logos/lingguang.svg",
+      oneLiner: "蚂蚁消费级 Coding Agent，30 秒用自然语言生成可交互闪应用。",
+      forWho: "非程序员、产品经理、想快速验证 App 想法的创作者",
+      pricing: "free",
+      pricingLabel: "免费",
+      categories: ["agent-code"],
+      links: [
+        { label: "灵光网页版", url: "https://lingguang.alipay.com/" },
+        { label: "App Store", url: "https://apps.apple.com/app/id6751496092" }
+      ],
+      steps: ["描述想要的工具或小游戏。", "在对话中预览并微调闪应用。", "发布到灵光圈或分享给他人体验。"],
+      alternatives: ["tusi", "qmuse", "weavefox"]
+    },
+    {
+      id: "miaoda",
+      name: "秒哒",
+      region: "国内",
+      logoFallback: "./logos/miaoda.svg",
+      oneLiner: "百度无代码应用开发，多智能体协作，对话生成 Web / App / 小程序。",
+      forWho: "运营、产品、中小企业快速搭业务系统",
+      pricing: "mix",
+      pricingLabel: "免费试用 + 按量",
+      categories: ["agent-code"],
+      links: [
+        { label: "秒哒", url: "https://cloud.baidu.com/product/miaoda.html" },
+        { label: "文档", url: "https://cloud.baidu.com/doc/MIAODA/index.html" }
+      ],
+      steps: ["用自然语言描述应用需求。", "与秒哒澄清功能细节。", "预览后一键发布 Web 或打包 App。"],
+      alternatives: ["meoo", "coze", "tusi"]
+    },
+    {
+      id: "meoo",
+      name: "秒悟 Meoo",
+      region: "国内",
+      logoFallback: "./logos/meoo.svg",
+      oneLiner: "阿里全栈 AI 开发平台，自然语言生成前后端并一键部署阿里云。",
+      forWho: "产品、运营、独立开发者，想 1 分钟上线全栈应用",
+      pricing: "mix",
+      pricingLabel: "公测免费 + 订阅",
+      categories: ["agent-code"],
+      links: [{ label: "官网", url: "https://meoo.com/" }],
+      steps: ["描述网站或工具需求，选择 Qwen / Kimi 等模型。", "在线预览并圈选修改界面。", "一键部署到阿里云或配合 Cursor 用 CLI 发布。"],
+      alternatives: ["miaoda", "weavefox", "bailian"]
+    },
+    {
+      id: "qmuse",
+      name: "QMuse 妙思",
+      region: "国内",
+      logoFallback: "./logos/qmuse.svg",
+      oneLiner: "蚂蚁 AI 团队空间，一句话生成可运行网页应用与协作工具。",
+      forWho: "团队产品、运营、需要轻量内部工具的非技术同学",
+      pricing: "mix",
+      pricingLabel: "内测",
+      categories: ["agent-code"],
+      links: [{ label: "官网", url: "https://www.qmusespace.com/" }],
+      steps: ["支付宝登录并输入邀请码。", "用中文描述网页或数据看板需求。", "点选页面区域继续对话微调。"],
+      alternatives: ["lingguang", "weavefox", "tusi"]
+    },
+    {
+      id: "tusi",
+      name: "腾讯吐司",
+      region: "国内",
+      logoFallback: "./logos/tusi.svg",
+      oneLiner: "Vibe Coding 造 App，自然语言生成原型并一键打包安卓 APK。",
+      forWho: "普通用户、创意爱好者、想在手机上直接用自建 App 的人",
+      pricing: "free",
+      pricingLabel: "公测免费",
+      categories: ["agent-code"],
+      links: [{ label: "官网", url: "https://tusi.qq.com/" }],
+      steps: ["用大白话描述想要的 App。", "多轮对话调整界面与功能。", "打包 APK 安装或分享到灵感广场。"],
+      alternatives: ["lingguang", "miaoda", "qmuse"]
+    },
+    {
+      id: "weavefox",
+      name: "WeaveFox",
+      region: "国内",
+      logoFallback: "./logos/weavefox.svg",
+      oneLiner: "蚂蚁免费 AI 应用创作平台，对话生成全栈 Web 应用并支持协作发布。",
+      forWho: "个人开发者、OPC、非技术创作者",
+      pricing: "free",
+      pricingLabel: "免费",
+      categories: ["agent-code"],
+      links: [
+        { label: "官网", url: "https://www.weavefox.cn/" },
+        { label: "文档", url: "https://docs.weavefox.ai/" }
+      ],
+      steps: ["描述落地页、工具或品牌站需求。", "接入技能扩展与云服务。", "预览后发布并绑定自定义域名。"],
+      alternatives: ["meoo", "qmuse", "lingguang"]
     },
 
     // ── Agent · 科研调研 ──
@@ -649,7 +902,7 @@ window.AI_DATA = {
         { label: "开始创作", url: "https://app.tapnow.ai/" }
       ],
       steps: ["新建画布或选用社区工作流模板。", "用 Agent 对话拆解脚本与分镜。", "逐节点生成并微调镜头、光影与连续性。"],
-      alternatives: ["libtv", "flova", "kling"]
+      alternatives: ["libtv", "flova", "kling", "wapoo"]
     },
     {
       id: "libtv",
@@ -666,7 +919,7 @@ window.AI_DATA = {
         { label: "LiblibAI", url: "https://www.liblib.art/" }
       ],
       steps: ["点击「开始创作」进入无限画布。", "串联剧本、分镜、图像与视频节点。", "需要全自动时可接入 LibTV Skill + Access Key。"],
-      alternatives: ["tapnow", "flova", "kling"]
+      alternatives: ["tapnow", "flova", "kling", "wapoo"]
     },
     {
       id: "flova",
@@ -683,7 +936,7 @@ window.AI_DATA = {
         { label: "文档", url: "https://www.flova.ai/docs/en/Getting-Started" }
       ],
       steps: ["用自然语言描述故事或上传参考素材。", "与 Agent 协作完成分镜与多模型生成。", "把常用流程保存为 Skill 复用。"],
-      alternatives: ["tapnow", "libtv", "runway"]
+      alternatives: ["tapnow", "libtv", "runway", "wapoo"]
     },
     {
       id: "kling",
@@ -742,7 +995,30 @@ window.AI_DATA = {
       categories: ["vertical-video"],
       links: [{ label: "OpenAI Sora", url: "https://openai.com/sora" }],
       steps: ["关注 OpenAI 官方开放政策。", "准备清晰的场景与运镜描述。", "与传统剪辑流程结合使用。"],
-      alternatives: ["tapnow", "libtv", "runway", "kling"]
+      alternatives: ["tapnow", "libtv", "runway", "kling", "wapoo"]
+    },
+
+    {
+      id: "wapoo",
+      name: "Wapoo",
+      region: "海外",
+      logoFallback: "./logos/wapoo.svg",
+      oneLiner: "Playable Video 互动视频平台，观众可选分支、Twist 剧情并共创续集。",
+      forWho: "互动短剧、UGC 叙事、社区共创型视频创作者",
+      pricing: "free",
+      pricingLabel: "App 免费",
+      categories: ["vertical-video"],
+      links: [
+        { label: "官网", url: "https://wapoo.video/" },
+        { label: "App Store", url: "https://apps.apple.com/us/app/wapoo-playable-video/id6752590312" },
+        { label: "Discord", url: "https://discord.gg/ZZByg4jMm7" }
+      ],
+      steps: [
+        "下载 iOS App 或访问官网了解 Playable Video 玩法。",
+        "观看 Seed 视频，在分支点选择 Twist 改变剧情走向。",
+        "发布 Seed 邀请社区续写，每条 Twist 可展开新的故事线。"
+      ],
+      alternatives: ["tapnow", "flova", "libtv"]
     },
 
     // ── 垂直 · 音频 ──
@@ -904,6 +1180,1041 @@ window.AI_DATA = {
       links: [{ label: "钉钉", url: "https://www.dingtalk.com/" }],
       steps: ["在钉钉应用市场了解悟空能力。", "梳理团队重复流程。", "小团队试点后推广。"],
       alternatives: ["tencent-yuanqi", "bailian", "workbuddy"]
+    },
+
+    // ── 垂直 · 建筑·室内·景观·规划 ──
+    {
+      id: "jianzhuxuezhang",
+      name: "建筑学长",
+      region: "国内",
+      logoFallback: "./logos/jianzhuxuezhang.svg",
+      preview: "https://s0.wp.com/mshots/v1/https%3A%2F%2Fwww.jianzhuxuezhang.com%2F?w=960",
+      oneLiner: "建筑|室内|景观|规划一站式 AI 创作平台，线稿上色、模型渲染、旧房改造、图生视频与 SU 插件。",
+      forWho: "建筑/景观/规划设计师、学生、需要快速出汇报图的 Studio",
+      pricing: "mix",
+      pricingLabel: "免费资源 + 会员",
+      categories: ["vertical-space-design"],
+      links: [
+        { label: "官网", url: "https://www.jianzhuxuezhang.com/" },
+        { label: "AI 工具", url: "https://www.jianzhuxuezhang.com/" }
+      ],
+      steps: [
+        "按场景选工具：建筑渲染、室内风格转换、彩平填色或旧房改造。",
+        "上传草图、SU 截图、现场照片或 CAD 导出图。",
+        "微调后导出效果图；需要深化时下载 SU/CAD 资源库素材。"
+      ],
+      alternatives: ["evai", "adai", "lookx", "promeai"]
+    },
+    {
+      id: "maket",
+      name: "Maket AI",
+      region: "海外",
+      logoFallback: "./logos/maket.svg",
+      preview: "https://s0.wp.com/mshots/v1/https%3A%2F%2Fwww.maket.ai%2F?w=960",
+      oneLiner: "对话生成住宅平面图，支持布局迭代与 3D 可视化，适合概念方案比选。",
+      forWho: "建筑师、自建房业主、住宅方案早期探索",
+      pricing: "mix",
+      pricingLabel: "免费 + 订阅",
+      categories: ["vertical-space-design"],
+      links: [
+        { label: "官网", url: "https://www.maket.ai/" },
+        { label: "功能介绍", url: "https://www.maket.ai/features" }
+      ],
+      steps: ["描述房间数量、面积与风格偏好。", "对比 AI 生成的多套平面方案。", "在画布上微调后导出或交给专业建筑师复核。"],
+      alternatives: ["autodesk-forma", "evai", "envisioneer"]
+    },
+    {
+      id: "autodesk-forma",
+      name: "Autodesk Forma",
+      region: "海外",
+      logoFallback: "./logos/autodesk-forma.svg",
+      oneLiner: "Autodesk 建筑前期设计平台，AI 辅助用地分析、体块与方案比选。",
+      forWho: "中大型设计团队、城市规划与建筑前期方案",
+      pricing: "mix",
+      pricingLabel: "订阅制",
+      categories: ["vertical-space-design"],
+      links: [
+        { label: "Forma", url: "https://www.autodesk.com/products/forma/" },
+        { label: "Autodesk", url: "https://www.autodesk.com/" }
+      ],
+      steps: ["导入地块与规划约束。", "用 AI 生成体块与方案变体。", "选定方向后衔接 Revit 等 BIM 深化。"],
+      alternatives: ["maket", "evai", "envisioneer"]
+    },
+    {
+      id: "evai",
+      name: "EVAI 建筑大师",
+      region: "国内",
+      logoFallback: "./logos/evai.svg",
+      oneLiner: "面向中国建筑室内行业的 AI 全流程平台，草图转效果图、视频与行业工作流。",
+      forWho: "设计院、建筑与景观设计师、国内项目团队",
+      pricing: "mix",
+      pricingLabel: "免费试用 + 会员",
+      categories: ["vertical-space-design"],
+      links: [{ label: "官网", url: "https://www.openevai.com/" }],
+      steps: ["上传草图、体块或参考图。", "选择建筑/室内/景观工作流模板。", "批量出图后在 CAD/SketchUp 中深化。"],
+      alternatives: ["maket", "spacely", "3vjia-ai"]
+    },
+    {
+      id: "envisioneer",
+      name: "易美迅迩",
+      region: "国内",
+      logoFallback: "./logos/envisioneer.svg",
+      oneLiner: "云端 BIM 建筑系统，AI 规划自建房/精装方案，实时 BOM 算量与 CAD 导出。",
+      forWho: "自建房、家装工程队、需要算量报价的施工团队",
+      pricing: "mix",
+      pricingLabel: "灵感版免费 + 专业版",
+      categories: ["vertical-space-design"],
+      links: [{ label: "官网", url: "http://envisioneer.cn/" }],
+      steps: ["输入宅基地或户型尺寸与风格。", "生成 3D 方案并查看物料清单。", "一键导出平立剖 CAD 用于施工对接。"],
+      alternatives: ["evai", "3vjia-ai", "maket"]
+    },
+    {
+      id: "lookx",
+      name: "LookX AI",
+      region: "国内",
+      logoFallback: "./logos/lookx.svg",
+      oneLiner: "建筑垂类 AI 云，自研模型 + SketchUp/Rhino 插件，支持风格训练与建筑词库。",
+      forWho: "建筑师、学生、需要插件内出图的建模用户",
+      pricing: "mix",
+      pricingLabel: "免费额度 + 订阅",
+      categories: ["vertical-space-design"],
+      links: [
+        { label: "官网", url: "https://www.lookx.ai/" },
+        { label: "Cloud", url: "https://www.lookx.ai/" }
+      ],
+      steps: ["在网页或 SU/Rhino 插件登录。", "用建筑词库模板写 prompt 或训练自定义风格。", "图生图深化方案体块与立面。"],
+      alternatives: ["jianzhuxuezhang", "veras", "evai"]
+    },
+    {
+      id: "veras",
+      name: "Veras",
+      region: "海外",
+      logoFallback: "./logos/veras.svg",
+      oneLiner: "Chaos 出品，Revit/SketchUp/Rhino 插件 + 网页版，白模秒变照片级渲染。",
+      forWho: "BIM 工作流设计师、用 SU/Revit 出方案的建筑师",
+      pricing: "mix",
+      pricingLabel: "Starter / Pro 订阅",
+      categories: ["vertical-space-design"],
+      links: [
+        { label: "Veras", url: "https://www.chaos.com/veras" },
+        { label: "EvolveLAB", url: "https://www.evolvelab.io/veras" }
+      ],
+      steps: ["在 SU/Revit 安装 Veras 插件或打开 Web App。", "调整 Geometry Slider 控制 AI 改动幅度。", "局部 Render Selection 替换家具或立面。"],
+      alternatives: ["lookx", "spacely", "jianzhuxuezhang"]
+    },
+    {
+      id: "finch3d",
+      name: "Finch 3D",
+      region: "海外",
+      logoFallback: "./logos/finch3d.svg",
+      oneLiner: "AI 原生建筑方案平台，自动生成平面图、面积统计与合规 test-fit。",
+      forWho: "需要快速比选体量与单元分布的建筑团队",
+      pricing: "mix",
+      pricingLabel: "团队订阅",
+      categories: ["vertical-space-design"],
+      links: [{ label: "官网", url: "https://www.finch3d.com/" }],
+      steps: ["输入地块与项目 brief。", "批量生成平面与面积指标。", "导出可编辑几何到既有 BIM 流程。"],
+      alternatives: ["maket", "testfit", "autodesk-forma"]
+    },
+    {
+      id: "testfit",
+      name: "TestFit",
+      region: "海外",
+      logoFallback: "./logos/testfit.svg",
+      oneLiner: "地产可行性 AI，自动生成 3D 排布并计算 zoning 与财务指标。",
+      forWho: "开发商、规划顾问、前期策划团队",
+      pricing: "paid",
+      pricingLabel: "企业订阅",
+      categories: ["vertical-space-design"],
+      links: [{ label: "官网", url: "https://testfit.io/" }],
+      steps: ["导入地块边界与规划约束。", "生成多种 building massing 方案。", "对比 FAR、停车与收益指标。"],
+      alternatives: ["archistar", "finch3d", "autodesk-forma"]
+    },
+    {
+      id: "archistar",
+      name: "Archistar",
+      region: "海外",
+      logoFallback: "./logos/archistar.svg",
+      oneLiner: "AI 分析 zoning、环境与地块约束，优化早期开发可行性。",
+      forWho: "地产开发、投资尽调、多地块比选团队",
+      pricing: "paid",
+      pricingLabel: "企业订阅",
+      categories: ["vertical-space-design"],
+      links: [{ label: "官网", url: "https://www.archistar.ai/" }],
+      steps: ["选定城市/地块数据库。", "运行合规与容量分析。", "导出方案给建筑师深化。"],
+      alternatives: ["testfit", "finch3d", "archai"]
+    },
+    {
+      id: "adai",
+      name: "ADAI",
+      region: "国内",
+      logoFallback: "./logos/adai.svg",
+      preview: "https://s0.wp.com/mshots/v1/https%3A%2F%2Fadai.archi%2F?w=960",
+      oneLiner: "建筑行业无限画布，CAD 填色、鸟瞰渲染、总图与旧房改造一体化。",
+      forWho: "建筑/规划设计师、需要彩平与鸟瞰同屏迭代者",
+      pricing: "mix",
+      pricingLabel: "免费试用 + 会员",
+      categories: ["vertical-space-design"],
+      links: [{ label: "官网", url: "https://adai.archi/" }],
+      steps: ["在无限画布上传 CAD/SU 截图或照片。", "选室外/鸟瞰/户型填色/总图渲染模式。", "局部重绘直到满足汇报需求。"],
+      alternatives: ["jianzhuxuezhang", "archai", "xkool"]
+    },
+    {
+      id: "archai",
+      name: "ArchAI",
+      region: "国内",
+      logoFallback: "./logos/archai.svg",
+      oneLiner: "建筑方案工作台：解析任务书 → 概念总图 → 鸟瞰/人视效果图一条龙。",
+      forWho: "产业园、城市设计、需要控规指标对齐的方案团队",
+      pricing: "mix",
+      pricingLabel: "免费试用 + 订阅",
+      categories: ["vertical-space-design"],
+      links: [{ label: "官网", url: "https://archai.art/" }],
+      steps: ["上传任务书、红线与场地资料建立项目上下文。", "AI 生成概念总平面并迭代分区。", "选鸟瞰/透视模板输出效果图入库。"],
+      alternatives: ["adai", "jianzhuxuezhang", "autodesk-forma"]
+    },
+    {
+      id: "xkool",
+      name: "小库科技",
+      region: "国内",
+      logoFallback: "./logos/xkool.svg",
+      oneLiner: "ColorMaster 一键彩总：CAD 识图、景观自动排布、分层 PSD 导出。",
+      forWho: "需要做彩色总图与景观深化的建筑/景观团队",
+      pricing: "mix",
+      pricingLabel: "免费试用 + 企业",
+      categories: ["vertical-space-design"],
+      links: [
+        { label: "ColorMaster", url: "https://www.xkool.ai/zh/ColorMaster" },
+        { label: "小库 AI", url: "https://www.xkool.ai/" }
+      ],
+      steps: ["导入建筑方案 CAD 图纸。", "AI 自动排布景观元素与阴影。", "导出分层 PSD 在 PS 中二次编辑。"],
+      alternatives: ["adai", "armox", "jianzhuxuezhang"]
+    },
+    {
+      id: "armox",
+      name: "Armox AI",
+      region: "海外",
+      logoFallback: "./logos/armox.svg",
+      oneLiner: "场地规划 AI 渲染，识别道路/建筑/开放空间，秒出彩平与 masterplan。",
+      forWho: "景观、规划、需要总图可视化汇报的设计师",
+      pricing: "mix",
+      pricingLabel: "免费试用 + 订阅",
+      categories: ["vertical-space-design"],
+      links: [
+        { label: "场地渲染", url: "https://armox.ai/zh/ai-architecture-rendering/site-plan-rendering" },
+        { label: "Armox", url: "https://armox.ai/" }
+      ],
+      steps: ["上传 CAD 总图或场地平面。", "选择写实/水彩/分析图风格。", "调整植被密度与道路材质后导出。"],
+      alternatives: ["xkool", "adai", "gstar-render"]
+    },
+    {
+      id: "gstar-render",
+      name: "GstarRender",
+      region: "国内",
+      logoFallback: "./logos/gstar-render.svg",
+      oneLiner: "浩辰 AI 渲染引擎，线稿转写实，覆盖建筑/景观/规划与城市更新。",
+      forWho: "用 CAD/浩辰生态的工程设计院与市政团队",
+      pricing: "mix",
+      pricingLabel: "免费试用 + 订阅",
+      categories: ["vertical-space-design"],
+      links: [{ label: "GstarRender", url: "https://www.gstarcad.com/ai/render/" }],
+      steps: ["上传规划线稿或方案草图。", "选择建筑/景观/规划渲染模式。", "批量出图用于投标与汇报。"],
+      alternatives: ["jianzhuxuezhang", "adai", "armox"]
+    },
+    {
+      id: "tudingai",
+      name: "图叮AI",
+      region: "国内",
+      logoFallback: "./logos/tudingai.svg",
+      oneLiner: "网页 + PS 插件，建筑线稿上色、白模图生图与局部重绘，学生党友好。",
+      forWho: "建筑学生、用 PS 工作流的设计师、快速出概念图者",
+      pricing: "mix",
+      pricingLabel: "免费试用 + 会员",
+      categories: ["vertical-space-design"],
+      links: [
+        { label: "官网", url: "https://tudingai.cn/" },
+        { label: "网页生图", url: "https://tudingai.cn/" }
+      ],
+      steps: ["上传清晰黑白线稿或 SU 白模截图。", "选线稿上色或图生图，控制重绘幅度。", "在 PS 插件中继续精修图层。"],
+      alternatives: ["jianzhuxuezhang", "promeai", "lookx"]
+    },
+
+    {
+      id: "spacely",
+      name: "Spacely AI",
+      region: "海外",
+      logoFallback: "./logos/spacely.svg",
+      preview: "https://s0.wp.com/mshots/v1/https%3A%2F%2Fwww.spacely.ai%2F?w=960",
+      oneLiner: "草图/3D/照片秒出室内效果图，SketchUp 插件内直接渲染。",
+      forWho: "室内设计师、软装团队、需要快速改稿的 Studio",
+      pricing: "mix",
+      pricingLabel: "免费额度 + 订阅",
+      categories: ["vertical-space-design"],
+      links: [
+        { label: "官网", url: "https://www.spacely.ai/" },
+        { label: "SketchUp 插件", url: "https://www.spacely.ai/tools" }
+      ],
+      steps: ["上传 SketchUp 场景或房间照片。", "用 prompt 调整灯光、材质与家具。", "秒级出图发给客户确认方向。"],
+      alternatives: ["interior-ai", "promeai", "3vjia-ai"]
+    },
+    {
+      id: "interior-ai",
+      name: "Interior AI",
+      region: "海外",
+      logoFallback: "./logos/interior-ai.svg",
+      oneLiner: "房间照片虚拟软装与风格改造，适合 staging 与灵感探索。",
+      forWho: "软装设计师、房产 staging、想快速看装修效果的业主",
+      pricing: "mix",
+      pricingLabel: "按次 / 订阅",
+      categories: ["vertical-space-design"],
+      links: [{ label: "官网", url: "https://interiorai.com/" }],
+      steps: ["上传空房或现有装修照片。", "选择现代、北欧等风格预设。", "对比多版效果图再定软装方向。"],
+      alternatives: ["spacely", "promeai", "3vjia-ai"]
+    },
+    {
+      id: "3vjia-ai",
+      name: "三维家 AI 轻设计",
+      region: "国内",
+      logoFallback: "./logos/3vjia-ai.svg",
+      oneLiner: "基于千万家装案例，AI 识户型、秒出全屋布局与 3D 渲染，导购也能出全案。",
+      forWho: "定制家居、家装门店导购、全屋定制设计师",
+      pricing: "mix",
+      pricingLabel: "企业订阅",
+      categories: ["vertical-space-design"],
+      links: [
+        { label: "AI 轻设计", url: "https://www.3vjia.com/solve/ailayout" },
+        { label: "三维家", url: "https://www.3vjia.com/" }
+      ],
+      steps: ["导入或选择户型，AI 自动识别分区。", "一键切换 18+ 风格套系与全屋配齐。", "现场渲染 3D 方案加速签单。"],
+      alternatives: ["envisioneer", "spacely", "evai"]
+    },
+    {
+      id: "promeai",
+      name: "PromeAI",
+      region: "国内",
+      logoFallback: "./logos/promeai.svg",
+      oneLiner: "草图转效果图、室内风格迁移与局部重绘，设计师社区活跃。",
+      forWho: "室内/建筑设计师、需要多方向比稿的创作者",
+      pricing: "mix",
+      pricingLabel: "免费 + Pro",
+      categories: ["vertical-space-design"],
+      links: [
+        { label: "官网", url: "https://www.promeai.pro/" },
+        { label: "室内渲染", url: "https://www.promeai.pro/sketch-rendering" }
+      ],
+      steps: ["上传线稿、Clay 模型或房间照片。", "选择写实/概念等渲染模式。", "局部重绘微调材质与家具。"],
+      alternatives: ["spacely", "interior-ai", "evai"]
+    },
+    {
+      id: "anke-ai",
+      name: "暗壳AI",
+      region: "国内",
+      logoFallback: "./logos/anke-ai.svg",
+      preview: "https://s0.wp.com/mshots/v1/https%3A%2F%2Fwww.ark.art%2F?w=960",
+      oneLiner: "泛家居空间设计 Agent，100+ Skills 技能库，打通方案到供应链采购落地。",
+      forWho: "软装/全屋定制、需要真实 SKU 落地的设计团队",
+      pricing: "mix",
+      pricingLabel: "免费试用 + 订阅",
+      categories: ["vertical-space-design"],
+      links: [{ label: "暗壳 AI", url: "https://www.ark.art/" }],
+      steps: ["在 Agent 画布描述空间需求或上传参考。", "一键调用软装/渲染/视频等 Skills。", "从生态库选真实在售产品完成方案。"],
+      alternatives: ["3vjia-ai", "jianzhuxuezhang", "spacely"]
+    },
+    {
+      id: "decai",
+      name: "DecAI",
+      region: "海外",
+      logoFallback: "./logos/decai.svg",
+      oneLiner: "30 秒室内/室外/花园 redesign，家具替换、墙面地板 AI 改造。",
+      forWho: "业主、软装灵感探索、轻量 staging 需求",
+      pricing: "mix",
+      pricingLabel: "免费 + 订阅",
+      categories: ["vertical-space-design"],
+      links: [
+        { label: "官网", url: "https://decai.ai/zh" },
+        { label: "室内设计", url: "https://decai.ai/zh/interior-design" }
+      ],
+      steps: ["上传空房或已装修照片。", "选现代/北欧等风格与房间类型。", "对比多版后下载或分享。"],
+      alternatives: ["interior-ai", "anke-ai", "3vjia-ai"]
+    },
+
+    // ── 垂直 · 法律 AI ──
+    {
+      id: "harvey",
+      name: "Harvey",
+      region: "海外",
+      logoFallback: "./logos/harvey.svg",
+      oneLiner: "面向大型律所的法律 Agent 平台，自定义工作流与机构知识库。",
+      forWho: "Am Law 100/200 大型律所、企业法务团队",
+      pricing: "paid",
+      pricingLabel: "企业订阅",
+      categories: ["vertical-legal"],
+      links: [{ label: "官网", url: "https://www.harvey.ai/" }],
+      steps: ["与 Harvey 销售对接开通企业账号。", "用 Agent Builder 封装所内研究/尽调流程。", "所有对外文书必须律师终审。"],
+      alternatives: ["cocounsel", "lexis-protege", "yuanadian-amicus"]
+    },
+    {
+      id: "cocounsel",
+      name: "CoCounsel",
+      region: "海外",
+      logoFallback: "./logos/cocounsel.svg",
+      oneLiner: "Thomson Reuters 法律 AI，深度集成 Westlaw，擅长检索、合同审查与尽调。",
+      forWho: "已用 Westlaw 的诉讼/交易律所与中大型团队",
+      pricing: "paid",
+      pricingLabel: "约 $225/用户/月起",
+      categories: ["vertical-legal"],
+      links: [
+        { label: "CoCounsel", url: "https://legal.thomsonreuters.com/en/cocounsel" },
+        { label: "Westlaw", url: "https://legal.thomsonreuters.com/en/westlaw" }
+      ],
+      steps: ["在 Westlaw 生态内启用 CoCounsel。", "用 Deep Research 提出结构化法律问题。", "核对 KeyCite 引证与结论后再用于文书。"],
+      alternatives: ["harvey", "lexis-protege", "spellbook"]
+    },
+    {
+      id: "lexis-protege",
+      name: "Lexis+ Protégé",
+      region: "海外",
+      logoFallback: "./logos/lexis-protege.svg",
+      oneLiner: "LexisNexis 法律 Agent 层，300+ 预置工作流，Shepard's 引证校验。",
+      forWho: "已订阅 Lexis+ 的律所与法务部门",
+      pricing: "paid",
+      pricingLabel: "随 Lexis+ 订阅",
+      categories: ["vertical-legal"],
+      links: [{ label: "Lexis+", url: "https://www.lexisnexis.com/en-us/products/lexis-plus.page" }],
+      steps: ["在 Lexis+ 账号中启用 Protégé。", "选择研究、起草或合规类工作流。", "用 Shepard's 验证案例仍有效。"],
+      alternatives: ["cocounsel", "harvey", "tongyi-farui"]
+    },
+    {
+      id: "spellbook",
+      name: "Spellbook",
+      region: "海外",
+      logoFallback: "./logos/spellbook.svg",
+      oneLiner: "Word 内 AI 合同起草与审查，适合交易律师快速改条款。",
+      forWho: "合同律师、并购/投融资交易团队",
+      pricing: "mix",
+      pricingLabel: "订阅制",
+      categories: ["vertical-legal"],
+      links: [{ label: "官网", url: "https://www.spellbook.legal/" }],
+      steps: ["安装 Word 插件并登录。", "上传合同模板或从零描述交易结构。", "逐条 review AI 建议的条款修改。"],
+      alternatives: ["cocounsel", "tongyi-farui", "yuanadian-amicus"]
+    },
+    {
+      id: "yuanadian-amicus",
+      name: "元典 Amicus",
+      region: "国内",
+      logoFallback: "./logos/yuanadian-amicus.svg",
+      oneLiner: "华宇元典法律智能体，法规/案例/企业信息检索，低幻觉中文法律研究。",
+      forWho: "中国执业律师、法官助理、企业法务",
+      pricing: "mix",
+      pricingLabel: "公测免费 + 订阅",
+      categories: ["vertical-legal"],
+      links: [
+        { label: "Amicus", url: "https://ami.ailaw.cn/" },
+        { label: "元典智库", url: "https://yuandian.ailaw.cn/" }
+      ],
+      steps: ["注册元典账号进入 Amicus。", "选择法律研究、案例检索或文书辅助。", "用幻觉校验接口复核关键法条引用。"],
+      alternatives: ["tongyi-farui", "cocounsel", "kimi"]
+    },
+    {
+      id: "tongyi-farui",
+      name: "通义法睿",
+      region: "国内",
+      logoFallback: "./logos/tongyi-farui.svg",
+      preview: "https://s0.wp.com/mshots/v1/https%3A%2F%2Ftongyi.aliyun.com%2Ffarui%2F?w=960",
+      oneLiner: "阿里云法律大模型，法律咨询、类案检索、合同审查与文书生成。",
+      forWho: "国内法务、律师、需要合同风控的企业",
+      pricing: "mix",
+      pricingLabel: "免费试用 + API",
+      categories: ["vertical-legal"],
+      links: [
+        { label: "法睿", url: "https://tongyi.aliyun.com/farui" },
+        { label: "API 文档", url: "https://help.aliyun.com/zh/model-studio/tongyi-farui/" }
+      ],
+      steps: ["登录通义法睿选择咨询/审查/文书模块。", "上传合同或描述案情。", "导出意见后由律师终审再对外使用。"],
+      alternatives: ["yuanadian-amicus", "kimi", "spellbook"]
+    },
+
+    // ── 垂直 · 医疗 AI ──
+    {
+      id: "abridge",
+      name: "Abridge",
+      region: "海外",
+      logoFallback: "./logos/abridge.svg",
+      oneLiner: "AI 临床对话转结构化病历，减轻医生写病历负担。",
+      forWho: "门诊医生、医院信息化团队",
+      pricing: "paid",
+      pricingLabel: "机构订阅",
+      categories: ["vertical-medical"],
+      links: [{ label: "官网", url: "https://www.abridge.com/" }],
+      steps: ["在支持的 EHR 环境部署或集成。", "问诊时开启 ambient 录音转写。", "医生 review 后一键写入病历系统。"],
+      alternatives: ["nuance-dax", "iflyhealth"]
+    },
+    {
+      id: "nuance-dax",
+      name: "Nuance DAX Copilot",
+      region: "海外",
+      logoFallback: "./logos/nuance-dax.svg",
+      oneLiner: "Microsoft 旗下 ambient 临床文档 AI，与 Epic 等 EHR 深度集成。",
+      forWho: "已用 Epic/Cerner 的大型医疗系统",
+      pricing: "paid",
+      pricingLabel: "机构许可",
+      categories: ["vertical-medical"],
+      links: [
+        { label: "DAX Copilot", url: "https://www.nuance.com/healthcare/dax-copilot.html" },
+        { label: "Microsoft", url: "https://www.microsoft.com/en-us/health-solutions/clinical-workflow" }
+      ],
+      steps: ["与 IT 部门评估 EHR 集成方案。", "试点科室启用 ambient 文档。", "建立医生 review 与合规审计流程。"],
+      alternatives: ["abridge", "iflyhealth"]
+    },
+    {
+      id: "iflyhealth",
+      name: "讯飞医疗",
+      region: "国内",
+      logoFallback: "./logos/iflyhealth.svg",
+      oneLiner: "科大讯飞医疗 AI，语音病历、辅诊、医学影像与医院运营智能化。",
+      forWho: "国内医院、基层医疗、健康管理机构",
+      pricing: "paid",
+      pricingLabel: "机构采购",
+      categories: ["vertical-medical"],
+      links: [
+        { label: "讯飞医疗", url: "https://www.iflyhealth.com/" },
+        { label: "讯飞开放平台", url: "https://www.xfyun.cn/" }
+      ],
+      steps: ["明确场景：病历、辅诊还是影像。", "与院方 IT 评估等保与部署方式。", "小科室试点后再全院推广。"],
+      alternatives: ["abridge", "doubao", "kimi"]
+    },
+
+    // ── 垂直 · 金融 AI ──
+    {
+      id: "alpha-sense",
+      name: "AlphaSense",
+      region: "海外",
+      logoFallback: "./logos/alpha-sense.svg",
+      oneLiner: "投行级 AI 投研搜索，财报、研报、电话会与新闻语义检索。",
+      forWho: "分析师、基金经理、企业战略与 IR 团队",
+      pricing: "paid",
+      pricingLabel: "企业订阅",
+      categories: ["vertical-finance"],
+      links: [{ label: "官网", url: "https://www.alpha-sense.com/" }],
+      steps: ["用自然语言提问替代关键词堆叠。", "设置 Watchlist 跟踪竞品与行业。", "导出带引用的研究摘要。"],
+      alternatives: ["iwencai", "wind-ai", "deep-research"]
+    },
+    {
+      id: "iwencai",
+      name: "同花顺 i问财",
+      region: "国内",
+      logoFallback: "./logos/iwencai.svg",
+      oneLiner: "自然语言选股与条件筛选，A 股数据查询国民级入口。",
+      forWho: "散户、研究员、需要快速筛股的金融从业者",
+      pricing: "mix",
+      pricingLabel: "免费 + 会员",
+      categories: ["vertical-finance"],
+      links: [
+        { label: "i问财", url: "https://www.iwencai.com/" },
+        { label: "同花顺", url: "https://www.10jqka.com.cn/" }
+      ],
+      steps: ["用中文描述选股条件（如「ROE>15% 且 PE<20」）。", "保存常用问句为模板。", "结合财报原文人工验证结论。"],
+      alternatives: ["wind-ai", "alpha-sense", "qwen"]
+    },
+    {
+      id: "wind-ai",
+      name: "Wind Alice",
+      region: "国内",
+      logoFallback: "./logos/wind-ai.svg",
+      oneLiner: "万得 Wind 内置 AI 助手，金融数据问答、研报摘要与 Excel 插件。",
+      forWho: "已用 Wind 终端的券商、基金与研究机构",
+      pricing: "paid",
+      pricingLabel: "随 Wind 终端",
+      categories: ["vertical-finance"],
+      links: [
+        { label: "Wind", url: "https://www.wind.com.cn/" },
+        { label: "Wind 金融终端", url: "https://www.wind.com.cn/NewSite/wft.html" }
+      ],
+      steps: ["在 Wind 终端打开 Alice 对话。", "提问宏观、行业或个股数据。", "导出数据到 Excel 做二次建模。"],
+      alternatives: ["iwencai", "alpha-sense", "metaso"]
+    },
+
+    // ── 垂直 · 教育 AI ──
+    {
+      id: "khanmigo",
+      name: "Khanmigo",
+      region: "海外",
+      logoFallback: "./logos/khanmigo.svg",
+      oneLiner: "Khan Academy AI 导师，苏格拉底式引导而非直接给答案。",
+      forWho: "K12 学生、家长、想练批判性思维的学习者",
+      pricing: "mix",
+      pricingLabel: "捐赠 / 订阅",
+      categories: ["vertical-education"],
+      links: [
+        { label: "Khanmigo", url: "https://www.khanacademy.org/khanmigo" },
+        { label: "Khan Academy", url: "https://www.khanacademy.org/" }
+      ],
+      steps: ["注册 Khan Academy 并开通 Khanmigo。", "描述卡点，让 AI 用提问引导思路。", "做完题后请 AI 讲解错因。"],
+      alternatives: ["squirrel-ai", "doubao", "chatgpt"]
+    },
+    {
+      id: "squirrel-ai",
+      name: "松鼠 AI",
+      region: "国内",
+      logoFallback: "./logos/squirrel-ai.svg",
+      oneLiner: "自适应学习系统，AI 诊断知识漏洞并推送个性化练习。",
+      forWho: "K12 学生、教培机构、想查漏补缺的家庭",
+      pricing: "paid",
+      pricingLabel: "课程 / 门店",
+      categories: ["vertical-education"],
+      links: [{ label: "官网", url: "https://www.squirrelai.com/" }],
+      steps: ["完成入学测评定位薄弱知识点。", "按系统推荐路径刷题。", "定期复测验证掌握度。"],
+      alternatives: ["khanmigo", "doubao", "kimi"]
+    },
+    {
+      id: "gradescope",
+      name: "Gradescope",
+      region: "海外",
+      logoFallback: "./logos/gradescope.svg",
+      oneLiner: "AI 辅助作业批改与 rubric 评分，高校教师减负利器。",
+      forWho: "高校教师、TA、在线教育平台",
+      pricing: "mix",
+      pricingLabel: "机构许可",
+      categories: ["vertical-education"],
+      links: [
+        { label: "Gradescope", url: "https://www.gradescope.com/" },
+        { label: "Turnitin", url: "https://www.turnitin.com/" }
+      ],
+      steps: ["创建作业并上传 rubric。", "批量扫描纸质答卷或在线提交。", "AI 分组相似答案，教师终审给分。"],
+      alternatives: ["khanmigo", "chatgpt", "claude"]
+    },
+
+    // ── 垂直 · 电商 AI ──
+    {
+      id: "xiaoduo",
+      name: "晓多语流 Agent",
+      region: "国内",
+      logoFallback: "./logos/xiaoduo.svg",
+      oneLiner: "多 Agent 协同电商客服，自动建商品知识库，售前售后全闭环。",
+      forWho: "天猫/京东/抖音等多店卖家、客服团队想降本增效",
+      pricing: "mix",
+      pricingLabel: "按店 / 按效果",
+      categories: ["vertical-ecommerce"],
+      links: [
+        { label: "语流 Agent", url: "https://www.xiaoduoai.com/app/detail/app_mindflow" },
+        { label: "晓多科技", url: "https://www.xiaoduoai.com/" }
+      ],
+      steps: ["授权店铺，系统自动解析商品详情建知识库。", "配置催付、尺码推荐、售后等 Agent 策略。", "监控人机协同报表，持续优化话术。"],
+      alternatives: ["pic-copilot", "linkfox", "coze"]
+    },
+    {
+      id: "pic-copilot",
+      name: "Pic Copilot",
+      region: "国内",
+      logoFallback: "./logos/pic-copilot.svg",
+      preview: "https://s0.wp.com/mshots/v1/https%3A%2F%2Fwww.piccopilot.com%2F?w=960",
+      oneLiner: "阿里国际出品，上传商品图一键生成高点击率营销主图与场景图。",
+      forWho: "跨境卖家、需要批量出主图详情页的电商设计",
+      pricing: "free",
+      pricingLabel: "免费为主",
+      categories: ["vertical-ecommerce"],
+      links: [{ label: "官网", url: "https://www.piccopilot.com/" }],
+      steps: ["上传白底或简单商品图。", "选行业模板与目标市场风格。", "批量导出主图、抠图与多语言图。"],
+      alternatives: ["duiyou", "linkfox", "tongyi-wanxiang"]
+    },
+    {
+      id: "linkfox",
+      name: "Linkfox",
+      region: "国内",
+      logoFallback: "./logos/linkfox.svg",
+      oneLiner: "跨境 AI Agent OS：选品洞察、Listing 文案、商品套图与 Claw 自动执行。",
+      forWho: "亚马逊/TikTok Shop/独立站跨境运营",
+      pricing: "mix",
+      pricingLabel: "免费试用 + 订阅",
+      categories: ["vertical-ecommerce"],
+      links: [
+        { label: "Linkfox", url: "https://www.linkfoxai.com/" },
+        { label: "Agent OS", url: "https://ai.linkfox.com/" }
+      ],
+      steps: ["用 Agent 拆解竞品评论找痛点。", "5 分钟生成 Listing 文案 + 场景套图。", "Claw 对话下达补货、调价等运营任务。"],
+      alternatives: ["pic-copilot", "xiaoduo", "chatgpt"]
+    },
+    {
+      id: "duiyou",
+      name: "堆友AI",
+      region: "国内",
+      logoFallback: "./logos/duiyou.svg",
+      oneLiner: "阿里设计出品，电商海报、AI 模特、商品图与视频一站式生成。",
+      forWho: "电商运营、平面设计师、需要中文电商素材的团队",
+      pricing: "mix",
+      pricingLabel: "堆豆免费 + 会员",
+      categories: ["vertical-ecommerce"],
+      links: [{ label: "堆友", url: "https://d.design/" }],
+      steps: ["注册领取堆豆，选海报/商品图/模特工具。", "输入卖点与风格或上传参考图。", "下载无水印素材用于店铺上架。"],
+      alternatives: ["pic-copilot", "jimeng", "lovart"]
+    },
+    {
+      id: "shopify-sidekick",
+      name: "Shopify Sidekick",
+      region: "海外",
+      logoFallback: "./logos/shopify-sidekick.svg",
+      oneLiner: "Shopify 内置 AI 助手，写商品描述、分析销售、生成营销建议。",
+      forWho: "Shopify 独立站卖家、DTC 品牌",
+      pricing: "mix",
+      pricingLabel: "随 Shopify 订阅",
+      categories: ["vertical-ecommerce"],
+      links: [
+        { label: "Shopify Magic", url: "https://www.shopify.com/magic" },
+        { label: "Shopify", url: "https://www.shopify.com/" }
+      ],
+      steps: ["在 Shopify Admin 打开 Sidekick。", "问「这周销量异常原因」或「写一段产品描述」。", "确认建议后再应用到店铺。"],
+      alternatives: ["linkfox", "gorgias", "chatgpt"]
+    },
+    {
+      id: "gorgias",
+      name: "Gorgias",
+      region: "海外",
+      logoFallback: "./logos/gorgias.svg",
+      oneLiner: "Shopify 生态 AI 客服，整合邮件/聊天/社媒，基于订单历史个性化回复。",
+      forWho: "Shopify 卖家、跨境 DTC 品牌客服团队",
+      pricing: "paid",
+      pricingLabel: "按工单量订阅",
+      categories: ["vertical-ecommerce"],
+      links: [{ label: "官网", url: "https://www.gorgias.com/" }],
+      steps: ["连接 Shopify 与邮件/聊天渠道。", "配置 AI 自动回复常见物流/退换问题。", "复杂工单转人工并沉淀宏模板。"],
+      alternatives: ["xiaoduo", "shopify-sidekick", "coze"]
+    },
+
+    // ── 垂直 · HR AI ──
+    {
+      id: "beisen",
+      name: "北森 Mavens",
+      region: "国内",
+      logoFallback: "./logos/beisen.svg",
+      oneLiner: "AI 原生 HR 专家平台，SenGPT + AI 招聘官/面试官/陪练等 15+ 数字 HR。",
+      forWho: "中大型企业 HR、重视测评与人才科学的管理团队",
+      pricing: "paid",
+      pricingLabel: "企业订阅",
+      categories: ["vertical-hr"],
+      links: [
+        { label: "北森 AI", url: "https://www.beisen.com/product/ai/ms" },
+        { label: "北森", url: "https://www.beisen.com/" }
+      ],
+      steps: ["梳理招聘/绩效/发展场景优先级。", "启用 AI 招聘官完成找简历到约面。", "AI 面试报告与真人评估交叉验证。"],
+      alternatives: ["moka", "feishu-hire", "greenhouse"]
+    },
+    {
+      id: "moka",
+      name: "Moka Eva",
+      region: "国内",
+      logoFallback: "./logos/moka.svg",
+      oneLiner: "招聘/人事/BP 三款 Eva，AI 简历解析、人才推荐与 70% 事务自动化。",
+      forWho: "200–1000 人快速成长公司、招聘量大的互联网团队",
+      pricing: "paid",
+      pricingLabel: "企业订阅",
+      categories: ["vertical-hr"],
+      links: [
+        { label: "Moka", url: "https://www.mokahr.com/" },
+        { label: "博客", url: "https://www.mokahr.com/blog/" }
+      ],
+      steps: ["接入多渠道简历到 Moka ATS。", "开 AI 推荐激活沉睡人才库。", "用人事 Eva 处理入转调离重复流程。"],
+      alternatives: ["beisen", "feishu-hire", "lever"]
+    },
+    {
+      id: "feishu-hire",
+      name: "飞书招聘",
+      region: "国内",
+      logoFallback: "./logos/feishu-hire.svg",
+      oneLiner: "字节系招聘系统，与飞书日历/音视频/审批深度打通，AI 简历解析领先。",
+      forWho: "已用飞书协作、希望招聘流程一体化的企业",
+      pricing: "mix",
+      pricingLabel: "随飞书套件",
+      categories: ["vertical-hr"],
+      links: [
+        { label: "飞书招聘", url: "https://www.feishu.cn/product/hire" },
+        { label: "飞书", url: "https://www.feishu.cn/" }
+      ],
+      steps: ["在飞书开通招聘模块并搭建职位。", "全员内推与视频面试走同一工作流。", "用 AI 解析附件简历并查重。"],
+      alternatives: ["moka", "beisen", "doubao"]
+    },
+    {
+      id: "greenhouse",
+      name: "Greenhouse",
+      region: "海外",
+      logoFallback: "./logos/greenhouse.svg",
+      oneLiner: "结构化招聘 ATS 标杆，AI 筛简历、排面试与分析漏斗数据。",
+      forWho: "追求流程标准化与数据驱动招聘的海外/外企团队",
+      pricing: "paid",
+      pricingLabel: "按席位订阅",
+      categories: ["vertical-hr"],
+      links: [{ label: "官网", url: "https://www.greenhouse.io/" }],
+      steps: ["为每个职位配置评分卡与面试计划。", "用 AI 辅助初筛与日程协调。", "复盘各阶段转化率优化 JD。"],
+      alternatives: ["lever", "moka", "beisen"]
+    },
+    {
+      id: "lever",
+      name: "Lever",
+      region: "海外",
+      logoFallback: "./logos/lever.svg",
+      oneLiner: "ATS + CRM 一体，擅长主动寻源与候选人长期关系管理。",
+      forWho: "Tech 公司、Outbound 招聘为主的团队",
+      pricing: "paid",
+      pricingLabel: "按席位订阅",
+      categories: ["vertical-hr"],
+      links: [{ label: "官网", url: "https://www.lever.co/" }],
+      steps: ["建立人才库标签与 nurture 序列。", "在 CRM 中跟踪所有历史互动。", "与 Greenhouse 类工具对比后选型。"],
+      alternatives: ["greenhouse", "moka", "beisen"]
+    },
+
+    // ── 垂直 · 政务 AI ──
+    {
+      id: "huawei-gov-ai",
+      name: "华为政务智能体",
+      region: "国内",
+      logoFallback: "./logos/huawei-gov-ai.svg",
+      oneLiner: "盘古政务大模型 + 一网智办，边聊边办、智能校验与热线 98% 接通实践。",
+      forWho: "省市级数字政府、政务云与一网通办集成项目",
+      pricing: "paid",
+      pricingLabel: "项目制",
+      categories: ["vertical-government"],
+      links: [
+        { label: "政务行业", url: "https://e.huawei.com/cn/industries/government" },
+        { label: "一网智办", url: "https://e.huawei.com/cn/news/2026/industries/government/global-public-service-solution" }
+      ],
+      steps: ["评估现有政务云与数据底座。", "试点智能客服 + 材料智能校验场景。", "区-街道-社区四级联动扩展。"],
+      alternatives: ["linewell-gov", "iflytek-city", "aliyun-gov"]
+    },
+    {
+      id: "linewell-gov",
+      name: "南威 WellWork",
+      region: "国内",
+      logoFallback: "./logos/linewell-gov.svg",
+      oneLiner: "政务智能体操作系统，数字公务员/民警，一网通办·协同·统管场景落地。",
+      forWho: "政务服务集成商、深耕数字政府 20 年的区域项目",
+      pricing: "paid",
+      pricingLabel: "项目制",
+      categories: ["vertical-government"],
+      links: [
+        { label: "南威软件", url: "https://www.linewell.com/" },
+        { label: "华为联合方案", url: "https://e.huawei.com/cn/news/2026/industries/government/linewell-launch-public-serviceai-agent-solution" }
+      ],
+      steps: ["对接现有审批与事项库。", "用 WellWork 孵化办事咨询 Agent。", "跨系统协同与组织级记忆持续运营。"],
+      alternatives: ["huawei-gov-ai", "aliyun-gov", "iflytek-city"]
+    },
+    {
+      id: "iflytek-city",
+      name: "讯飞城市智能体",
+      region: "国内",
+      logoFallback: "./logos/iflytek-city.svg",
+      oneLiner: "星火大模型 + 114N 城市智能体架构，治理/就业/园区等多场景 Agent。",
+      forWho: "智慧城市、城市大脑与全域数字化转型项目",
+      pricing: "paid",
+      pricingLabel: "项目制",
+      categories: ["vertical-government"],
+      links: [
+        { label: "科大讯飞", url: "https://www.iflytek.com/" },
+        { label: "星火认知", url: "https://xinghuo.xfyun.cn/" }
+      ],
+      steps: ["梳理城市算力与数据空间现状。", "在治理或政务大厅选 1 个高频场景试点。", "扩展虚拟人客服与多轮政策问答。"],
+      alternatives: ["huawei-gov-ai", "aliyun-gov", "zhipu"]
+    },
+    {
+      id: "aliyun-gov",
+      name: "阿里云政务百炼",
+      region: "国内",
+      logoFallback: "./logos/aliyun-gov.svg",
+      oneLiner: "百炼专属版 + 政务服务大模型，政策解析、证照识别与办事引导助手。",
+      forWho: "已上阿里云政务云、需要自建行业智能体的政企客户",
+      pricing: "paid",
+      pricingLabel: "项目 / 专属版",
+      categories: ["vertical-government"],
+      links: [
+        { label: "百炼专属版", url: "https://ue.aliyun.com/solution/dedicated-model-studio" },
+        { label: "政企业务", url: "https://ue.aliyun.com/" }
+      ],
+      steps: ["在 VPC 或专有云部署百炼专属版。", "导入政策库与事项知识。", "搭建咨询/办事 Agent 并联调钉钉。"],
+      alternatives: ["huawei-gov-ai", "qwen", "linewell-gov"]
+    },
+    {
+      id: "baidu-gov",
+      name: "百度智能云政务",
+      region: "国内",
+      logoFallback: "./logos/baidu-gov.svg",
+      oneLiner: "文心政务大模型，智能问答、公文辅助与城市运行监测场景方案。",
+      forWho: "百度生态政务云客户、需要 NLP 与搜索增强的 G 端项目",
+      pricing: "paid",
+      pricingLabel: "项目制",
+      categories: ["vertical-government"],
+      links: [
+        { label: "智能云", url: "https://cloud.baidu.com/" },
+        { label: "文心一言", url: "https://yiyan.baidu.com/" }
+      ],
+      steps: ["评估现有百度政务云资源。", "选用问答或公文类标准方案试点。", "对接本地事项库与身份核验。"],
+      alternatives: ["aliyun-gov", "huawei-gov-ai", "ernie"]
+    },
+
+    // ── 垂直 · 旅游 AI ──
+    {
+      id: "ctrip-planner",
+      name: "携程 AI 行程助手",
+      region: "国内",
+      logoFallback: "./logos/ctrip-planner.svg",
+      preview: "https://s0.wp.com/mshots/v1/https%3A%2F%2Fwww.ctrip.com%2Ftripplanner%2F?w=960",
+      oneLiner: "输入目的地与天数，AI 生成可拖拽地图行程，覆盖食住行游购，可直连预订。",
+      forWho: "国内/出境自由行、需要权威开放时间与交通预估的用户",
+      pricing: "free",
+      pricingLabel: "免费规划 + 预订",
+      categories: ["vertical-travel"],
+      links: [
+        { label: "Trip.Planner", url: "https://www.ctrip.com/tripplanner/" },
+        { label: "携程", url: "https://www.ctrip.com/" }
+      ],
+      steps: ["选目的地、游玩天数与旅行风格。", "在地图视图拖拽调整每日顺序。", "需要落地时转人工定制师或 App 内预订。"],
+      alternatives: ["fliggy-wenyiwen", "trip-com", "mafengwo-ai"]
+    },
+    {
+      id: "fliggy-wenyiwen",
+      name: "飞猪问一问",
+      region: "国内",
+      logoFallback: "./logos/fliggy-wenyiwen.svg",
+      oneLiner: "多智能体 OTA 助手，20 秒出方案 + 实时比价，支持语音/方言与手绘攻略分享。",
+      forWho: "阿里系用户、五一/长假家庭游、想一键订机票酒店者",
+      pricing: "free",
+      pricingLabel: "免费 + 平台预订",
+      categories: ["vertical-travel"],
+      links: [
+        { label: "飞猪", url: "https://www.fliggy.com/" },
+        { label: "阿里旅行", url: "https://www.alitrip.com/" }
+      ],
+      steps: ["在飞猪 App 底部行程栏点「问一问」。", "描述出发地、天数、人数与预算滑条。", "查看带商品卡片的方案并一键预订。"],
+      alternatives: ["ctrip-planner", "trip-com", "qwen"]
+    },
+    {
+      id: "trip-com",
+      name: "Trip.com Trip.Planner",
+      region: "海外",
+      logoFallback: "./logos/trip-com.svg",
+      oneLiner: "Trip.com 内置 AI 行程规划，整合全球 2000 万 POI 与实时机酒价格。",
+      forWho: "跨境/港澳台出行、习惯 Trip.com 预订的用户",
+      pricing: "free",
+      pricingLabel: "免费 + 预订",
+      categories: ["vertical-travel"],
+      links: [
+        { label: "Trip.com", url: "https://www.trip.com/" },
+        { label: "Trip Genie", url: "https://www.trip.com/" }
+      ],
+      steps: ["在 App 打开 Trip.Planner。", "输入目的地、天数与旅行风格三要素。", "在地图路线中直接预订机酒与门票。"],
+      alternatives: ["ctrip-planner", "layla", "mindtrip"]
+    },
+    {
+      id: "mafengwo-ai",
+      name: "马蜂窝 AI小蚂",
+      region: "国内",
+      logoFallback: "./logos/mafengwo-ai.svg",
+      oneLiner: "接入 DeepSeek 的垂直旅行助手，实时问答 + AI 路书深度定制攻略。",
+      forWho: "攻略党、小众目的地、需要互动式路书定制的旅行者",
+      pricing: "free",
+      pricingLabel: "免费为主",
+      categories: ["vertical-travel"],
+      links: [
+        { label: "马蜂窝", url: "https://www.mafengwo.cn/" },
+        { label: "App 下载", url: "https://www.mafengwo.cn/app/" }
+      ],
+      steps: ["在 App 首页搜索栏或 POI 页打开 AI 小蚂。", "用 AI 路书回答延展问题完善需求。", "导出含预算与贴士的完整路书。"],
+      alternatives: ["ctrip-planner", "fliggy-wenyiwen", "deepseek"]
+    },
+    {
+      id: "layla",
+      name: "Layla",
+      region: "海外",
+      logoFallback: "./logos/layla.svg",
+      preview: "https://s0.wp.com/mshots/v1/https%3A%2F%2Flayla.ai%2F?w=960",
+      oneLiner: "AI 旅行代理，实时票价生成逐日行程，可纯 AI 或与真人专家协同预订。",
+      forWho: "欧美自由行、多城联程/公路旅行、英文规划用户",
+      pricing: "mix",
+      pricingLabel: "免费 + $49/年 Pro",
+      categories: ["vertical-travel"],
+      links: [
+        { label: "官网", url: "https://layla.ai/" },
+        { label: "中文版", url: "https://layla.ai/zh" }
+      ],
+      steps: ["告诉 Layla 日期、目的地、预算与同行人。", "迭代 day-by-day 计划直到满意。", "需要时升级 Pro 或转真人代订。"],
+      alternatives: ["mindtrip", "trip-com", "chatgpt"]
+    },
+    {
+      id: "mindtrip",
+      name: "Mindtrip",
+      region: "海外",
+      logoFallback: "./logos/mindtrip.svg",
+      oneLiner: "聊天 + 地图 + 可编辑行程一体，支持 Sabre 机票与酒店/App 内一键结账。",
+      forWho: "想 plan & book 同一窗口完成的全球旅行者",
+      pricing: "free",
+      pricingLabel: "核心功能免费",
+      categories: ["vertical-travel"],
+      links: [
+        { label: "Mindtrip", url: "https://mindtrip.ai/" },
+        { label: "开始规划", url: "https://mindtrip.ai/chat" }
+      ],
+      steps: ["在 chat 描述偏好与复杂航班条件。", "在地图视图发现路线绕路问题并微调。", "机酒活动在对话内直接比价预订。"],
+      alternatives: ["layla", "trip-com", "ctrip-planner"]
+    },
+    {
+      id: "wanderlog",
+      name: "Wanderlog",
+      region: "海外",
+      logoFallback: "./logos/wanderlog.svg",
+      oneLiner: "协作行程本 + AI 推荐，多人共编、预算追踪与离线地图。",
+      forWho: "结伴出行、需要共享行程与费用分摊的小团体",
+      pricing: "mix",
+      pricingLabel: "免费 + Pro",
+      categories: ["vertical-travel"],
+      links: [
+        { label: "官网", url: "https://wanderlog.com/" },
+        { label: "AI 规划", url: "https://wanderlog.com/trip-plan/" }
+      ],
+      steps: ["用 AI 生成初版每日行程。", "邀请旅伴评论共编。", "导出离线地图与预订链接。"],
+      alternatives: ["mindtrip", "layla", "mafengwo-ai"]
+    },
+
+    // ── 垂直 · UI 设计 ──
+    {
+      id: "figma",
+      name: "Figma",
+      region: "海外",
+      logoFallback: "./logos/figma.svg",
+      preview: "https://s0.wp.com/mshots/v1/https%3A%2F%2Fwww.figma.com%2F?w=960",
+      oneLiner: "协作 UI/UX 设计行业标准，Figma AI 与 Make 支持自然语言生成界面与原型。",
+      forWho: "产品、设计师、需要高保真界面与团队协作的创作者",
+      pricing: "mix",
+      pricingLabel: "免费 + 专业版",
+      categories: ["vertical-ui"],
+      links: [
+        { label: "官网", url: "https://www.figma.com/" },
+        { label: "Figma AI", url: "https://www.figma.com/ai/" }
+      ],
+      steps: [
+        "注册 Figma 账号，新建 Design 或 FigJam 文件。",
+        "用 Figma AI 描述页面结构、组件风格，或从截图/线框图生成初稿。",
+        "组件化整理设计系统，与开发共享 Dev Mode 或导出给工程团队。"
+      ],
+      alternatives: ["google-stitch", "lovart", "dalle3"]
+    },
+    {
+      id: "google-stitch",
+      name: "Google Stitch",
+      region: "海外",
+      logoFallback: "./logos/google-stitch.svg",
+      preview: "https://s0.wp.com/mshots/v1/https%3A%2F%2Fstitch.withgoogle.com%2F?w=960",
+      oneLiner: "Google Labs 出品的 AI 原生 UI 画布，文字/语音/截图秒出多屏高保真界面，可导出 Figma 与 HTML。",
+      forWho: "想快速验证 App/网页界面、从想法到可交付原型的产品与设计入门者",
+      pricing: "free",
+      pricingLabel: "免费（Google 账号）",
+      categories: ["vertical-ui"],
+      links: [
+        { label: "Stitch", url: "https://stitch.withgoogle.com/" },
+        { label: "Google 博客", url: "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-ai-ui-design/" }
+      ],
+      steps: [
+        "用 Google 账号登录 stitch.withgoogle.com，无需安装。",
+        "用文字描述整段用户流程，或上传截图/线稿作为上下文，让 Agent 生成多屏界面。",
+        "在画布上语音微调配色与布局，导出 Figma 文件或 HTML/CSS 交给开发/编码 Agent。"
+      ],
+      alternatives: ["figma", "dalle3", "lovart"]
     }
   ],
 
@@ -952,24 +2263,24 @@ window.AI_DATA = {
     },
     {
       id: "n4",
-      title: "即梦开放更多免费积分，视觉 AI 入门门槛降低",
-      summary: "国产文生图练手首选之一。",
+      title: "即梦升级一站式 AI 创作：图片、视频与智能画布",
+      summary: "国产文生图 / 文生视频练手首选之一。",
       date: "2026-07-19",
-      categoryIds: ["visual"],
+      categoryIds: ["visual-image"],
       productIds: ["jimeng"],
       content: [
-        "即梦（字节）近期增加免费积分投放，降低新用户试玩 AI 绘图的门槛。中文提示词即可出图，适合海报、插画、封面等入门练习。",
-        "练手建议：同一主题连续改 3 版 prompt——分别强调「主体 / 风格 / 用途」，观察哪一项对结果影响最大。",
-        "与 Midjourney 相比，即梦上手更快、中文友好；若追求艺术质感上限，海外工具仍值得对比。"
+        "即梦 AI（字节剪映）现已覆盖文生图、文生视频、智能画布与 Agent 灵感检索，接入 Seedream 图像与 Seedance 视频模型，中文提示词友好。",
+        "练手建议：同一主题分别试「海报静图」和「5 秒镜头」，体会图片与视频 prompt 的写法差异。",
+        "与可灵、Midjourney 相比，即梦上手更快、与剪映/抖音生态打通；追求极致艺术质感时可横向对比海外工具。"
       ],
-      highlights: ["中文 prompt 友好", "免费积分适合练描述能力", "商用前确认授权条款"]
+      highlights: ["中文 prompt 友好", "图片 + 视频一体", "可导入剪映继续剪辑"]
     },
     {
       id: "n5",
       title: "Midjourney V7 风格控制增强",
       summary: "海外视觉 AI 艺术向仍是标杆。",
       date: "2026-07-18",
-      categoryIds: ["visual"],
+      categoryIds: ["visual-image"],
       productIds: ["midjourney"],
       content: [
         "Midjourney 新版本在风格一致性、细节控制和构图稳定性上继续改进，插画与概念设计领域仍是许多创作者的首选。",
@@ -1092,5 +2403,9 @@ window.AI_DATA = {
     }
   ],
 
-  featuredBanner: ["tapnow", "libtv", "flova", "kling", "runway", "jimeng", "cursor", "meshy"]
+  featuredBanner: ["tapnow", "libtv", "flova", "kling", "runway", "jimeng", "cursor", "meshy"],
+
+  categoryPins: {
+    agent: ["workbuddy", "codex", "cursor"]
+  }
 };

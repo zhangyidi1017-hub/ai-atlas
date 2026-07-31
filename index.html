@@ -5,13 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1" />
   <meta name="theme-color" content="#050505" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="description" content="AI地图 · AI ATLAS — 按 LLM、视觉 AI、专业 Agent 分类，个人学习市面 AI 产品。" />
-  <title>AI地图 · AI ATLAS</title>
+  <meta name="description" content="AI市场 · AI ATLAS — 按 LLM、视听觉 Agent、专业 Agent 分类，个人学习市面 AI 产品。" />
+  <title>AI市场 · AI ATLAS</title>
   <link rel="icon" href="./logos/atlas-logo.svg" type="image/svg+xml" />
   <link rel="apple-touch-icon" href="./logos/atlas-logo.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700;900&family=Syne:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
@@ -27,12 +27,12 @@
       <button class="brand-lockup" type="button" data-nav="home" aria-label="回到首页">
         <img class="brand-mark" src="./logos/atlas-logo.svg" width="64" height="64" alt="" />
         <span class="brand-name">
-          <span class="brand-cn">AI地图</span>
+          <span class="brand-cn">AI市场</span>
           <em class="brand-en" aria-label="ATLAS"><span>A</span><span>T</span><span>L</span><span>A</span><span>S</span></em>
         </span>
       </button>
       <nav class="desktop-nav" aria-label="主导航">
-        <button class="desk-link active" data-nav="home" type="button">地图</button>
+        <button class="desk-link active" data-nav="home" type="button">市场</button>
         <button class="desk-link" data-nav="news" type="button">快讯</button>
       </nav>
     </div>
@@ -57,6 +57,10 @@
     <section class="view view-home" id="view-home" data-view="home">
       <section class="hero">
         <div class="hero-banner-row reveal" aria-label="精选产品">
+          <button class="banner-settings-btn" id="bannerSettingsBtn" type="button" aria-haspopup="dialog" aria-controls="bannerSettingsModal">
+            <span class="banner-settings-ico" aria-hidden="true">⚙</span>
+            <span>设置</span>
+          </button>
           <div class="hero-banner">
             <div class="hero-banner-viewport" id="heroBannerViewport">
               <div class="hero-banner-track" id="heroBanner"></div>
@@ -70,7 +74,7 @@
               <span class="hero-line">寻找你想要的</span>
               <span class="hero-line-accent">AI工具</span>
             </h1>
-            <p class="hero-sub reveal">像浏览精品数字作品集一样，<br class="hero-sub-br" aria-hidden="true">系统学习市面上的 AI 产品——<br class="hero-sub-br" aria-hidden="true">从对话大脑，到自动干活的智能体。</p>
+            <p class="hero-sub reveal">AI应用市场；<br class="hero-sub-br" aria-hidden="true">快速触达你喜欢的AI应用，<br class="hero-sub-br" aria-hidden="true">全景视角学习AI、Agent、一起走向AGI;</p>
             <div class="hero-cta reveal">
               <button class="btn btn-primary" data-scroll="#map" type="button">探索分类</button>
               <button class="btn btn-ghost" data-nav="news" type="button">今日快讯</button>
@@ -104,7 +108,7 @@
           <div class="section-label">Featured Categories</div>
           <h2>AI产品分类</h2>
         </div>
-        <div class="scene-grid" id="sceneGrid"></div>
+        <div class="scene-sections" id="sceneSections"></div>
       </section>
 
       <section class="section section-news section-split">
@@ -121,7 +125,7 @@
       </section>
 
       <footer class="site-footer reveal">
-        <p>AI地图 · AI ATLAS</p>
+        <p>AI市场 · AI ATLAS</p>
         <p class="footer-muted">个人 AI 产品学习笔记 — LLM · 视觉 · Agent · 垂直</p>
       </footer>
 
@@ -129,7 +133,8 @@
     </section>
 
     <section class="view" id="view-scene" data-view="scene" hidden>
-      <div class="page-intro reveal" id="sceneIntro"></div>
+      <div class="page-intro scene-detail-intro reveal" id="sceneIntro"></div>
+      <div class="filter-chips scene-detail-filters" id="sceneFilters" hidden></div>
       <div class="scene-products-wrap" id="sceneProducts"></div>
     </section>
 
@@ -139,10 +144,12 @@
 
     <section class="view" id="view-news" data-view="news" hidden>
       <div class="page-intro reveal">
-        <div class="section-label">Signal Feed</div>
-        <h1>快讯流</h1>
-        <p>新品、更新、价格变动——点击条目阅读全文。</p>
+        <div class="section-label">AI OS</div>
+        <h1>今日快讯 · AI Brief</h1>
+        <p>Agent 流水线采集 → 自动打标 → 学习视角解读 → Dashboard 阅读</p>
       </div>
+      <div id="newsDashboard"></div>
+      <div id="newsProductUpdates"></div>
       <div class="filter-chips" id="newsFilters"></div>
       <div class="news-list" id="newsList"></div>
     </section>
@@ -155,13 +162,36 @@
   <nav class="tabbar" aria-label="底部导航">
     <button class="tab active" data-nav="home" type="button">
       <span class="tab-ico">◈</span>
-      <span>地图</span>
+      <span>市场</span>
     </button>
     <button class="tab" data-nav="news" type="button">
       <span class="tab-ico">◎</span>
       <span>快讯</span>
     </button>
   </nav>
+
+  <div class="banner-settings-modal" id="bannerSettingsModal" hidden>
+    <div class="feedback-backdrop" data-close-banner-settings tabindex="-1" aria-hidden="true"></div>
+    <div class="banner-settings-dialog" role="dialog" aria-modal="true" aria-label="页面显示设置">
+      <button class="feedback-close" type="button" data-close-banner-settings aria-label="关闭">×</button>
+      <div class="banner-settings-section">
+        <div class="banner-settings-section-head">
+          <span class="field-label" id="bannerSettingsTitle">页面显示设置</span>
+          <button class="text-link" id="bannerSelectDefault" type="button">恢复默认</button>
+        </div>
+        <div class="filter-chips banner-region-chips" id="bannerRegionChips">
+          <button class="chip" type="button" data-banner-region="all">全部</button>
+          <button class="chip" type="button" data-banner-region="domestic">国内</button>
+          <button class="chip" type="button" data-banner-region="overseas">国外</button>
+        </div>
+        <div class="banner-pick-list" id="bannerPickList"></div>
+      </div>
+      <div class="feedback-actions">
+        <button class="btn btn-ghost" type="button" data-close-banner-settings>取消</button>
+        <button class="btn btn-primary" id="bannerSettingsSave" type="button">保存</button>
+      </div>
+    </div>
+  </div>
 
   <div class="feedback-modal" id="feedbackModal" hidden>
     <div class="feedback-backdrop" data-close-feedback tabindex="-1" aria-hidden="true"></div>

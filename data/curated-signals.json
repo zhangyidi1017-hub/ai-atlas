@@ -1,0 +1,375 @@
+[
+  {
+    "id": "cur-openai-agentkit",
+    "title": "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排",
+    "oneLiner": "OpenAI 继续把「对话模型」升级为「可调用工具的 Agent 运行时」。",
+    "date": "2026-07-26",
+    "tags": ["Agent", "API", "Workflow"],
+    "categoryIds": ["agent", "llm"],
+    "productIds": ["chatgpt"],
+    "importance": { "stars": 5, "reason": "影响所有基于 OpenAI 构建 Agent 的产品架构", "readMinutes": 5 },
+    "source": { "type": "blog", "group": "company", "name": "OpenAI", "author": "OpenAI", "url": "https://openai.com/index/new-tools-for-building-agents/", "home": "https://openai.com/blog", "lang": "en", "translated": true },
+    "summary": {
+      "oneSentence": "OpenAI 在 API 层统一 Agent 构建方式，强调工具调用、多步推理与可观测性。",
+      "bullets": ["Responses API 整合对话与工具执行", "内置 Web Search、File Search 等工具", "降低自建 Agent 编排复杂度"],
+      "audience": "产品经理、全栈开发者、Agent 平台搭建者",
+      "readMinutes": 5,
+      "keywords": ["Agent", "API", "Tool Use"]
+    },
+    "insight": {
+      "mainInsight": "大模型厂商正在把竞争从「模型智商」转向「Agent 运行时 + 工具生态」。",
+      "whyNow": "企业客户不再满足于 Chat，需要可落地的工作流自动化。",
+      "problem": "自建 Agent 编排层（规划、工具、记忆、重试）成本过高。",
+      "trend": "模型即 Agent OS",
+      "differentiation": "与 Anthropic MCP、Cursor Agent 形成不同抽象层竞争。",
+      "outlook": "未来半年更多产品会默认接入官方 Agent API 而非纯 Chat Completions。"
+    },
+    "learning": {
+      "whyImportant": "这是理解「专业 Agent」与「通用 LLM」分野的关键基础设施更新。",
+      "productDesign": "学习其如何把复杂编排藏在简单 API 后面，UI 上仅暴露「目标 + 工具开关」。",
+      "relevance": "直接关联 Agent、Workflow、MCP、AI Native 产品架构。",
+      "actionItems": ["阅读 OpenAI Agents 官方文档", "对比 Claude Tool Use 与 MCP 接入方式", "在 Atlas 地图中查看 Coze / Dify 如何抽象同类能力"]
+    },
+    "content": [
+      "OpenAI 持续完善 Agent 构建工具，让开发者通过 Responses API 在单次调用中完成多步工具编排，而不必自己维护复杂的状态机。",
+      "对 AI 产品学习者来说，这意味着：评估一个「Agent 产品」时，除了看模型效果，还要看它的工具层、权限模型和失败重试策略。",
+      "建议把 ChatGPT 的 Agent 模式与 Cursor、Coze 的编排 UI 对照阅读，理解「可视化编排」与「API 编排」两种产品路径。"
+    ],
+    "highlights": ["Agent 运行时竞争加剧", "工具调用成为标配", "API 层抽象是关键"]
+  },
+  {
+    "id": "cur-anthropic-mcp",
+    "title": "Anthropic 推动 MCP：让 Agent 统一连接外部工具与数据源",
+    "oneLiner": "MCP 正在成为 AI 工具互操作的「USB-C 标准」候选。",
+    "date": "2026-07-25",
+    "tags": ["MCP", "Agent", "API"],
+    "categoryIds": ["agent", "llm"],
+    "productIds": ["claude"],
+    "importance": { "stars": 5, "reason": "MCP 是 2026 年 Agent 产品必知协议", "readMinutes": 6 },
+    "source": { "type": "blog", "group": "company", "name": "Anthropic", "author": "Anthropic", "url": "https://www.anthropic.com/news/model-context-protocol", "home": "https://www.anthropic.com/news", "lang": "en", "translated": true },
+    "summary": {
+      "oneSentence": "Model Context Protocol 定义 Agent 与工具/数据源的统一连接方式。",
+      "bullets": ["开源协议，支持 IDE / 桌面 / 云端 Agent", "已有 GitHub、Figma、数据库等 MCP Server", "Cursor 等工具已原生支持"],
+      "audience": "开发者、Agent 平台设计者、关注 AI Native 的产品经理",
+      "readMinutes": 6,
+      "keywords": ["MCP", "Agent", "Interoperability"]
+    },
+    "insight": {
+      "mainInsight": "MCP 解决的是 Agent 生态碎片化——每个产品各自对接 100 个 API 不可持续。",
+      "whyNow": "Agent 产品爆发，工具集成成为最大交付成本。",
+      "problem": "N×M 集成问题：每个 Agent 要接每个工具。",
+      "trend": "Agent 互操作协议标准化",
+      "differentiation": "Anthropic 走开放协议路线，与封闭生态形成对比。",
+      "outlook": "越来越多 SaaS 会提供官方 MCP Server；产品选型需检查 MCP 支持度。"
+    },
+    "learning": {
+      "whyImportant": "理解 MCP 就理解了为什么 Cursor、Claude Desktop 能快速扩展能力。",
+      "productDesign": "借鉴「Server 注册 + 权限声明 + 上下文注入」三层设计，思考你的 Agent 如何插件化。",
+      "relevance": "核心关注：MCP、Agent、Coding Agent、AI Native。",
+      "actionItems": ["阅读 MCP 官方 spec", "在 Cursor 中试用 Figma / 浏览器 MCP", "查看 Claude Code 的 MCP 配置示例"]
+    },
+    "content": [
+      "Model Context Protocol（MCP）让 Agent 以统一方式发现、调用外部工具，开发者只需实现 MCP Server 即可被多个 Agent 客户端使用。",
+      "这与传统「每个 App 单独做 OAuth 集成」完全不同——产品层面应思考：你的能力是否值得做成 MCP Server 被其他 Agent 调用？",
+      "国内产品如 Coze、Dify 也在探索类似插件协议，建议横向对比其插件市场与 MCP 生态的差异。"
+    ],
+    "highlights": ["Agent 互操作关键协议", "Cursor 已支持", "插件化架构值得学习"]
+  },
+  {
+    "id": "cur-cursor-agent",
+    "title": "Cursor 0.4x：Background Agent 与多文件自主修改",
+    "oneLiner": "Cursor 把 Coding Agent 从「补全」推进到「自主完成小需求」。",
+    "date": "2026-07-24",
+    "tags": ["Coding", "Agent", "Release"],
+    "categoryIds": ["agent-code"],
+    "productIds": ["cursor"],
+    "importance": { "stars": 5, "reason": "编程 Agent 赛道风向标", "readMinutes": 4 },
+    "source": { "type": "release", "group": "company", "name": "Cursor", "author": "Cursor", "url": "https://cursor.com/changelog", "home": "https://cursor.com", "lang": "en", "translated": true },
+    "summary": {
+      "oneSentence": "Cursor 更新 Background Agent，可在后台扫描仓库、提 PR 式修改建议。",
+      "bullets": ["Background Agent 异步执行", "更长的上下文窗口与代码库索引", "与 MCP 工具链整合"],
+      "audience": "开发者、技术产品经理",
+      "readMinutes": 4,
+      "keywords": ["Cursor", "Coding Agent", "IDE"]
+    },
+    "insight": {
+      "mainInsight": "IDE Agent 的竞争焦点从「写单行代码」转向「理解整个 Repo 并交付可合并改动」。",
+      "whyNow": "用户不再满足于 Copilot 式补全，需要端到端任务完成。",
+      "problem": "大仓库上下文管理与变更可信度。",
+      "trend": "Coding Agent + Workspace",
+      "differentiation": "与 GitHub Copilot Workspace、Devin 直接竞争。",
+      "outlook": "「提 Issue → Agent 出 PR」将成为开发者工作流默认环节。"
+    },
+    "learning": {
+      "whyImportant": "Coding Agent 是 Agent 品类中最快产生付费意愿的赛道之一。",
+      "productDesign": "学习其「Diff 预览 + 一键 Apply + 回滚」的信任设计，降低自主 Agent 的心理门槛。",
+      "relevance": "Coding Agent、Agent、MCP、Workflow。",
+      "actionItems": ["阅读 Cursor Changelog", "对比 Trae / Claude Code 的同类功能", "试用 Background Agent 处理一个小 Bug"]
+    },
+    "content": [
+      "Cursor 持续迭代 Agent 模式，强调在真实代码库上的多文件编辑能力，而非 isolated snippet 生成。",
+      "产品学习者应关注：它如何展示 Agent 的「计划步骤」、如何让用户在 Apply 前审查 Diff、如何处理失败重试。",
+      "这类交互模式同样适用于非代码 Agent（如运营自动化、设计稿修改）。"
+    ],
+    "highlights": ["Background Agent", "Repo 级理解", "Diff 信任设计"]
+  },
+  {
+    "id": "cur-perplexity-search",
+    "title": "Perplexity 强化 Pro Search：多步推理 + 来源可追溯",
+    "oneLiner": "搜索 Agent 把「给答案」升级为「给调研过程 + 引用链」。",
+    "date": "2026-07-23",
+    "tags": ["Search", "Agent", "Reasoning"],
+    "categoryIds": ["agent-research", "llm"],
+    "productIds": [],
+    "importance": { "stars": 4, "reason": "搜索 Agent 是 Research Agent 的 C 端范本", "readMinutes": 4 },
+    "source": { "type": "blog", "group": "company", "name": "Perplexity", "author": "Perplexity", "url": "https://www.perplexity.ai/hub/blog", "home": "https://www.perplexity.ai", "lang": "en", "translated": true },
+    "summary": {
+      "oneSentence": "Perplexity Pro Search 展示多步检索、交叉验证与结构化输出。",
+      "bullets": ["自动拆解复杂问题为子查询", "每条结论附来源链接", "适合快速行业扫描"],
+      "audience": "研究员、产品经理、需要快速调研的学习者",
+      "readMinutes": 4,
+      "keywords": ["Search Agent", "Citation", "Research"]
+    },
+    "insight": {
+      "mainInsight": "搜索类 Agent 的护城河在「来源可信度 UI」而非模型本身。",
+      "whyNow": "LLM 幻觉问题让用户不敢直接用 Chat 做决策。",
+      "problem": "信息过载 + 无法验证。",
+      "trend": "Research Agent 产品化",
+      "differentiation": "与 ChatGPT Search、Gemini 深度搜索形成三足鼎立。",
+      "outlook": "B 端投研、法务、医疗都会复制「引用链 + 分步推理」交互。"
+    },
+    "learning": {
+      "whyImportant": "Atlas 中「科研调研 Agent」品类（Deep Research 等）都借鉴此类交互。",
+      "productDesign": "学习其「思考步骤可展开 + 来源卡片」如何建立信任。",
+      "relevance": "Search、Agent、Reasoning、Workflow。",
+      "actionItems": ["试用 Perplexity Pro Search 做竞品扫描", "对比 Kimi 联网与 ChatGPT Search", "阅读 Deep Research 类产品设计"]
+    },
+    "content": [
+      "Perplexity 代表了一类「搜索优先」的 Agent：不追求最长对话，而追求可验证的调研结果。",
+      "做 AI 产品地图时，建议把「搜索 Agent」与「对话 LLM」分开评估——用户心智和使用场景完全不同。"
+    ],
+    "highlights": ["引用链 UI", "多步检索", "Research Agent 范本"]
+  },
+  {
+    "id": "cur-gemini-multimodal",
+    "title": "Google Gemini 2.x：原生多模态与 Workspace 深度整合",
+    "oneLiner": "Gemini 继续押注「Workspace 里的默认 AI 同事」。",
+    "date": "2026-07-22",
+    "tags": ["Agent", "Workflow", "Product"],
+    "categoryIds": ["llm", "agent-office"],
+    "productIds": ["gemini"],
+    "importance": { "stars": 4, "reason": "办公 Agent 生态的重要变量", "readMinutes": 4 },
+    "source": { "type": "blog", "group": "company", "name": "Google AI", "author": "Google", "url": "https://blog.google/technology/ai/", "home": "https://blog.google/technology/ai/", "lang": "en", "translated": true },
+    "summary": {
+      "oneSentence": "Gemini 在 Docs/Sheets/Meet 中提供上下文感知的 AI 辅助与自动化。",
+      "bullets": ["Workspace 侧边栏统一入口", "跨应用上下文（邮件→文档→表格）", "长上下文视频理解"],
+      "audience": "办公白领、Google 生态用户",
+      "readMinutes": 4,
+      "keywords": ["Gemini", "Workspace", "Multimodal"]
+    },
+    "insight": {
+      "mainInsight": "Google 的策略是把 Agent 嵌入已有工作流，而非单独做一个 Super App。",
+      "whyNow": "企业客户已有 Google 账号体系，迁移成本是最大壁垒。",
+      "problem": "工具碎片化，AI 需要在用户所在处出现。",
+      "trend": "Workspace Agent",
+      "differentiation": "与 Microsoft Copilot 正面对标。",
+      "outlook": "「AI 在侧边栏」将成为 Office 类产品的标准范式。"
+    },
+    "learning": {
+      "whyImportant": "理解「嵌入型 Agent」与「独立 Agent App」两种产品策略。",
+      "productDesign": "学习侧边栏如何保持轻量、不打断主任务，仅在需要时展开深度能力。",
+      "relevance": "Agent、Workflow、AI Native 办公场景。",
+      "actionItems": ["试用 Gemini in Google Docs", "对比 Copilot in Word 的交互差异", "思考 DuMate / WorkBuddy 的国内对标"]
+    },
+    "content": [
+      "Gemini 的 Workspace 整合说明：Agent 产品不一定需要独立 App，嵌入高频场景可能更快获得留存。",
+      "评估办公 Agent 时，重点看：权限边界、跨文档上下文、与企业数据的连接深度。"
+    ],
+    "highlights": ["Workspace 嵌入", "跨应用上下文", "办公 Agent 范式"]
+  },
+  {
+    "id": "cur-tapnow-agent",
+    "title": "TapNow 智能体画布：国内视频 Agent 工作流新标杆",
+    "oneLiner": "TapNow 用节点画布 + Agent 对话统一调度多模型做影视级短片。",
+    "date": "2026-07-21",
+    "tags": ["Video", "Agent", "Workflow"],
+    "categoryIds": ["vertical-video", "visual"],
+    "productIds": ["tapnow"],
+    "importance": { "stars": 4, "reason": "国内视频 Agent 代表，已在 Atlas 收录", "readMinutes": 4 },
+    "source": { "type": "blog", "group": "company", "name": "TapNow", "author": "TapNow", "url": "https://www.tapnow.ai/zh", "home": "https://www.tapnow.ai", "lang": "zh", "translated": true },
+    "summary": {
+      "oneSentence": "TapNow 将脚本拆解、分镜、生成、剪辑串联为可复用 Agent 工作流。",
+      "bullets": ["Agent 对话驱动节点流", "多模型统一调度", "支持广告/短片/电商视频"],
+      "audience": "短视频创作者、广告从业者、AI 产品学习者",
+      "readMinutes": 4,
+      "keywords": ["Video Agent", "Canvas", "国内"]
+    },
+    "insight": {
+      "mainInsight": "视频 Agent 的差异化不在单模型画质，而在「分镜连续性 + 工作流可复用」。",
+      "whyNow": "可灵、Runway 等单点生成工具成熟，用户痛点转向全流程。",
+      "problem": "从创意到成片环节割裂。",
+      "trend": "Video Agent + Canvas Workflow",
+      "differentiation": "与 LibTV、Flova 等同属国内视频 Agent 新一批。",
+      "outlook": "视频品类会从「生成工具」进化为「制作 Agent」。"
+    },
+    "learning": {
+      "whyImportant": "已在 Atlas 视听觉 Agent → 视频分类收录，是理解国内视频 Agent 的样本。",
+      "productDesign": "节点画布 + Agent 对话双入口，降低专业用户与小白用户的上手差距。",
+      "relevance": "Video、Agent、Workflow、Multimodal。",
+      "actionItems": ["打开 TapNow 试用社区工作流模板", "对比 LibTV 无限画布方案", "阅读即梦/可灵的「单点生成」差异"]
+    },
+    "content": [
+      "TapNow 代表国内视频 Agent 从「文生视频」向「制作流水线 Agent」的演进，值得与 Runway、Pika 等海外工具对照学习。",
+      "产品地图中建议把「视频生成模型」与「视频制作 Agent」分层理解。"
+    ],
+    "highlights": ["节点 Agent 画布", "国内视频 Agent", "工作流可复用"]
+  },
+  {
+    "id": "cur-libtv-canvas",
+    "title": "LibTV 无限画布：LiblibAI 系视频 Agent 全链路",
+    "oneLiner": "LibTV 用无限画布串联剧本→分镜→成片，面向专业创作者。",
+    "date": "2026-07-20",
+    "tags": ["Video", "Agent", "Product"],
+    "categoryIds": ["vertical-video"],
+    "productIds": ["libtv"],
+    "importance": { "stars": 4, "reason": "与 TapNow 并列的国内视频 Agent", "readMinutes": 4 },
+    "source": { "type": "blog", "group": "company", "name": "LibTV", "author": "LiblibAI", "url": "https://www.liblib.art/", "home": "https://www.liblib.art/", "lang": "zh", "translated": true },
+    "summary": {
+      "oneSentence": "LibTV 提供从剧本解析到镜头生成的 Agent 化视频制作体验。",
+      "bullets": ["无限画布组织多镜头", "与 Liblib 模型生态打通", "支持分镜级微调"],
+      "audience": "视频博主、MCN、AI 创作者",
+      "readMinutes": 4,
+      "keywords": ["LibTV", "Video Agent", "Canvas"]
+    },
+    "insight": {
+      "mainInsight": "国内视频 Agent 普遍选择「画布 + 节点」而非纯 Chat，因为视频是非线性资产。",
+      "whyNow": "单段 5 秒生成已 commoditize，竞争转向工作流。",
+      "problem": "多镜头一致性与流程管理。",
+      "trend": "Canvas-first Video Agent",
+      "differentiation": "Liblib 社区模型资源是生态优势。",
+      "outlook": "视频 Agent 将出现更多「模板市场」。"
+    },
+    "learning": {
+      "whyImportant": "Atlas 已收录，适合与 TapNow、可灵做三角对比。",
+      "productDesign": "无限画布适合非线性创作；学习其如何平衡「自由布局」与「新手引导」。",
+      "relevance": "Video、Agent、Workflow。",
+      "actionItems": ["试用 LibTV 从剧本出分镜", "对比 TapNow 节点流", "关注 Liblib 社区模板"]
+    },
+    "content": [
+      "LibTV 与 TapNow 共同定义了国内「视频 Agent 2.0」——不只生成片段，而是管理整个制作项目。",
+      "建议学习者亲自跑通一个 15 秒短片项目，记录每一步 Agent 介入点。"
+    ],
+    "highlights": ["无限画布", "Liblib 生态", "视频 Agent 2.0"]
+  },
+  {
+    "id": "cur-memory-agents",
+    "title": "Memory 成为 Agent 标配：从 ChatGPT 到 Cursor 的长期记忆竞赛",
+    "oneLiner": "2026 年 Agent 产品纷纷上线「跨会话记忆」，Memory 从功能变成基础设施。",
+    "date": "2026-07-19",
+    "tags": ["Memory", "Agent", "Product"],
+    "categoryIds": ["agent", "llm"],
+    "productIds": ["chatgpt", "cursor", "claude"],
+    "importance": { "stars": 5, "reason": "Memory 是 Agent 与 LLM 的核心分水岭", "readMinutes": 5 },
+    "source": { "type": "blog", "group": "community", "name": "Latent Space", "author": "swyx", "url": "https://www.latent.space/", "home": "https://www.latent.space/", "lang": "en", "translated": true },
+    "summary": {
+      "oneSentence": "ChatGPT、Claude、Cursor 等相继强化记忆能力，Agent 个性化与连续性提升。",
+      "bullets": ["用户可控的记忆开关与删除", "项目级 / 全局级记忆分层", "隐私与合规成为产品卖点"],
+      "audience": "所有 Agent 产品学习者",
+      "readMinutes": 5,
+      "keywords": ["Memory", "Agent", "Personalization"]
+    },
+    "insight": {
+      "mainInsight": "没有 Memory 的 Agent 每次对话都是「失忆的临时工」；Memory 决定 Agent 能否真正进入工作流。",
+      "whyNow": "用户已习惯 AI 助手，下一步需求是「它应该记得我」。",
+      "problem": "上下文窗口有限，无法塞入全部历史。",
+      "trend": "Memory Layer 成为 Agent OS 标准组件",
+      "differentiation": "各厂在「自动记忆 vs 用户显式记忆」策略上分化。",
+      "outlook": "Memory 管理 UI（查看、编辑、删除）将成为 Agent 产品必备设置页。"
+    },
+    "learning": {
+      "whyImportant": "你在 Atlas 学习 Agent 时，Memory 是区分「玩具 Chatbot」与「生产 Agent」的关键。",
+      "productDesign": "学习 ChatGPT Memory 的「透明 + 可控」设计，避免用户恐惧「AI 偷记隐私」。",
+      "relevance": "Memory、Agent、AI Native 核心关注领域。",
+      "actionItems": ["打开 ChatGPT 记忆设置页体验", "阅读 Claude Projects 的上下文设计", "搜索「Mem0 / Zep」等开源 Memory 方案"]
+    },
+    "content": [
+      "Memory 赛道正在爆发：既有产品内置记忆，也有 Mem0、Zep 等 Memory 基础设施创业公司。",
+      "做 AI 产品调研时，建议为每个 Agent 产品记录：记忆粒度、用户控制权、跨设备同步策略。"
+    ],
+    "highlights": ["Memory 成标配", "隐私可控设计", "Agent 分水岭"]
+  },
+  {
+    "id": "cur-lovart-design",
+    "title": "Lovart 艺术 Agent：二次元与概念设计的 Agent 化探索",
+    "oneLiner": "Lovart 将风格模板 + Agent 对话结合，服务插画与二次元创作。",
+    "date": "2026-07-18",
+    "tags": ["Image", "Agent", "Design"],
+    "categoryIds": ["visual-image"],
+    "productIds": ["lovart"],
+    "importance": { "stars": 3, "reason": "Atlas 已收录的国内视觉 Agent 样本", "readMinutes": 3 },
+    "source": { "type": "blog", "group": "company", "name": "Lovart", "author": "Lovart", "url": "https://www.lovart.ai/", "home": "https://www.lovart.ai/", "lang": "zh", "translated": true },
+    "summary": {
+      "oneSentence": "Lovart 专注艺术向与二次元风格，提供模板化 Agent 创作流程。",
+      "bullets": ["风格模板降低 prompt 门槛", "角色/场景/光影分步描述", "社区作品可复用"],
+      "audience": "插画师、二次元创作者",
+      "readMinutes": 3,
+      "keywords": ["Lovart", "Image Agent", "Art"]
+    },
+    "insight": {
+      "mainInsight": "垂直视觉 Agent 的竞争力在「风格预设 + 社区」而非通用文生图。",
+      "whyNow": "通用模型（MJ/SD）已足够强，细分人群需要更懂语境的产品。",
+      "problem": "通用工具对二次元/国风等风格理解不足。",
+      "trend": "Vertical Visual Agent",
+      "differentiation": "与即梦、通义万相的「全能型」形成差异。",
+      "outlook": "视觉 Agent 将更多按行业/风格垂直切分。"
+    },
+    "learning": {
+      "whyImportant": "理解「通用视觉 AI」与「垂直视觉 Agent」的产品边界。",
+      "productDesign": "模板 + Agent 对话组合，是降低非英语用户门槛的有效策略。",
+      "relevance": "Image、Agent、Design。",
+      "actionItems": ["试用 Lovart 风格模板", "对比 Midjourney 英文 prompt 路径", "查看 Atlas 视觉分类"]
+    },
+    "content": [
+      "Lovart 已在 Atlas 视听觉 Agent 分类中，适合作为「垂直视觉 Agent」的学习样本。",
+      "建议记录：它如何用 UI 引导用户分步描述角色、场景、光影，而非一次性长 prompt。"
+    ],
+    "highlights": ["垂直视觉 Agent", "模板降门槛", "二次元场景"]
+  },
+  {
+    "id": "cur-byte-llm",
+    "title": "字节跳动大模型矩阵：豆包 + 火山引擎 + Seed 系列",
+    "oneLiner": "字节以「豆包 C 端 + 火山 B 端 + Seed 模型」构建国内最完整 AI 栈之一。",
+    "date": "2026-07-17",
+    "tags": ["Agent", "API", "Product"],
+    "categoryIds": ["llm", "agent-platform"],
+    "productIds": ["doubao", "coze", "jimeng"],
+    "importance": { "stars": 4, "reason": "国内 LLM + Agent 生态关键玩家", "readMinutes": 5 },
+    "source": { "type": "blog", "group": "company", "name": "火山引擎", "author": "ByteDance", "url": "https://www.volcengine.com/product/doubao", "home": "https://www.volcengine.com/", "lang": "zh", "translated": true },
+    "summary": {
+      "oneSentence": "字节通过豆包、Coze、即梦、火山 API 覆盖 C 端体验到 B 端部署。",
+      "bullets": ["豆包：多模态 C 端入口", "Coze：Agent 搭建平台", "Seedance/Seedream：视频与图像模型"],
+      "audience": "国内 AI 产品学习者、创业者",
+      "readMinutes": 5,
+      "keywords": ["ByteDance", "Doubao", "Volcengine"]
+    },
+    "insight": {
+      "mainInsight": "字节策略是「模型 + 超级 App 场景 + 开发者平台」三位一体。",
+      "whyNow": "国内 B 端 Agent 需求爆发，火山引擎承接企业客户。",
+      "problem": "企业需要可私有化、可合规的 Agent 部署。",
+      "trend": "国内全栈 AI 平台竞争",
+      "differentiation": "与阿里通义、百度千帆形成国内三巨头格局。",
+      "outlook": "Coze + 火山 API 是国内做 Agent 产品的默认选型之一。"
+    },
+    "learning": {
+      "whyImportant": "Atlas 中多个产品（豆包、Coze、即梦）均来自字节生态，需整体理解。",
+      "productDesign": "学习其如何用同一模型能力支撑不同形态产品（Chat / Agent 平台 / 创作工具）。",
+      "relevance": "Agent、API、Workflow、Multimodal。",
+      "actionItems": ["注册豆包体验多模态", "在 Coze 搭建一个简单 Bot", "阅读火山引擎 Agent 方案白皮书"]
+    },
+    "content": [
+      "评估国内 AI 产品时，建议把「字节系」作为一整组对照，而非孤立看豆包或 Coze。",
+      "Seedance 视频模型在即梦、小云雀等产品中的落地，是理解字节视频 Agent 战略的关键。"
+    ],
+    "highlights": ["字节 AI 全栈", "Coze Agent 平台", "Seed 模型系列"]
+  }
+]

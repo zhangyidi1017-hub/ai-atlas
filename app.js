@@ -1,5 +1,10 @@
 (() => {
-  const { scenes, products, news, featuredBanner = [] } = window.AI_DATA;
+  const { scenes, products, news: fallbackNews, featuredBanner = [], categoryPins = {} } = window.AI_DATA;
+
+  let news = [...fallbackNews];
+  let newsBrief = null;
+  let newsWhatsChanging = null;
+  let newsProductUpdates = [];
 
   const els = {
     views: {
@@ -12,12 +17,16 @@
     backBtn: document.getElementById("backBtn"),
     topbar: document.getElementById("topbar"),
     siteHeader: document.getElementById("siteHeader"),
-    sceneGrid: document.getElementById("sceneGrid"),
+    sceneSections: document.getElementById("sceneSections"),
     newsPreview: document.getElementById("newsPreview"),
     sceneIntro: document.getElementById("sceneIntro"),
+    sceneFilters: document.getElementById("sceneFilters"),
     sceneProducts: document.getElementById("sceneProducts"),
     productPage: document.getElementById("productPage"),
     newsFilters: document.getElementById("newsFilters"),
+    newsBrief: document.getElementById("newsDashboard"),
+    newsWhatsChanging: null,
+    newsProductUpdates: document.getElementById("newsProductUpdates"),
     newsList: document.getElementById("newsList"),
     newsDetail: document.getElementById("newsDetail"),
     searchInput: document.getElementById("searchInput"),
@@ -28,6 +37,12 @@
     feedbackForm: document.getElementById("feedbackForm"),
     feedbackSuccess: document.getElementById("feedbackSuccess"),
     feedbackContent: document.getElementById("feedbackContent"),
+    bannerSettingsBtn: document.getElementById("bannerSettingsBtn"),
+    bannerSettingsModal: document.getElementById("bannerSettingsModal"),
+    bannerRegionChips: document.getElementById("bannerRegionChips"),
+    bannerPickList: document.getElementById("bannerPickList"),
+    bannerSelectDefault: document.getElementById("bannerSelectDefault"),
+    bannerSettingsSave: document.getElementById("bannerSettingsSave"),
     heroBanner: document.getElementById("heroBanner"),
     heroBannerViewport: document.getElementById("heroBannerViewport"),
     heroStage: document.getElementById("heroStage"),
@@ -41,19 +56,173 @@
   const state = {
     view: "home",
     sceneId: null,
+    sceneSubFilter: "all",
     productId: null,
     newsFilter: "all",
+    homeSubFilters: {},
+    homeSectionPages: {},
     newsId: null,
     history: [],
     searchOpen: false,
     feedbackOpen: false,
+    bannerSettingsOpen: false,
   };
 
   const FEEDBACK_KEY = "ai-atlas-feedback";
+  const BANNER_SETTINGS_KEY = "ai-atlas-banner-settings";
+  const HOME_SECTION_PAGE_SIZE = 20;
+
+  function defaultBannerSettings() {
+    return {
+      selectedIds: [...featuredBanner],
+      regionFilter: "all",
+    };
+  }
+
+  function loadBannerSettings() {
+    try {
+      const raw = localStorage.getItem(BANNER_SETTINGS_KEY);
+      if (!raw) return defaultBannerSettings();
+      const parsed = JSON.parse(raw);
+      const selectedIds = Array.isArray(parsed.selectedIds)
+        ? parsed.selectedIds.filter((id) => productMap[id])
+        : [...featuredBanner];
+      return {
+        selectedIds: selectedIds.length ? selectedIds : [...featuredBanner],
+        regionFilter: ["all", "domestic", "overseas"].includes(parsed.regionFilter)
+          ? parsed.regionFilter
+          : "all",
+      };
+    } catch {
+      return defaultBannerSettings();
+    }
+  }
+
+  let bannerSettings = loadBannerSettings();
+  let bannerSettingsDraft = null;
 
   const sceneMap = Object.fromEntries(scenes.map((s) => [s.id, s]));
   const productMap = Object.fromEntries(products.map((p) => [p.id, p]));
-  const newsMap = Object.fromEntries(news.map((n) => [n.id, n]));
+  let newsMap = Object.fromEntries(news.map((n) => [n.id, n]));
+
+  async function loadNewsFeed() {
+    try {
+      const res = await fetch(`./news.json?t=${Date.now()}`);
+      if (!res.ok) return;
+      const data = await res.json();
+      if (Array.isArray(data.items) && data.items.length) {
+        news = data.items.map(normalizeNewsItem);
+        newsMap = Object.fromEntries(news.map((n) => [n.id, n]));
+      }
+      newsBrief = data.brief || null;
+      newsWhatsChanging = data.whatsChanging || null;
+      newsProductUpdates = data.productUpdates || [];
+    } catch {
+      /* 使用 data.js 内置快讯 */
+    }
+  }
+
+  function normalizeNewsItem(n) {
+    if (n.summary && typeof n.summary === "object") return n;
+    const summaryText = typeof n.summary === "string" ? n.summary : "";
+    return {
+      ...n,
+      oneLiner: n.oneLiner || summaryText,
+      summary: {
+        oneSentence: summaryText,
+        bullets: n.highlights || [],
+        audience: "",
+        readMinutes: 3,
+        keywords: [],
+      },
+      insight: n.insight || { mainInsight: "" },
+      learning: n.learning || {},
+      tags: n.tags || [],
+      importance: n.importance || { stars: 3, reason: "", readMinutes: 3 },
+    };
+  }
+
+  function newsOneLiner(n) {
+    return n.oneLiner || n.summary?.oneSentence || (typeof n.summary === "string" ? n.summary : "");
+  }
+
+  function newsTagHtml(n) {
+    return (n.tags || [])
+      .map((t) => `<span class="tag tag-static">${t}</span>`)
+      .join("");
+  }
+
+  function newsSourceMeta(n) {
+    return n.source || null;
+  }
+
+  function newsDetailMeta(n) {
+    const parts = [n.date];
+    const src = newsSourceMeta(n);
+    if (src?.name) parts.push(src.name);
+    return parts.filter(Boolean).join(" · ");
+  }
+
+  function newsDetailNotes(n) {
+    const insight = n.insight || {};
+    const learning = n.learning || {};
+    const points = [
+      learning.whyImportant,
+      insight.mainInsight,
+      learning.productDesign,
+      learning.relevance,
+    ].filter(Boolean);
+    const actions = (learning.actionItems || []).filter(Boolean);
+    if (!points.length && !actions.length) return "";
+
+    return `
+      <div class="block reveal news-detail-notes">
+        <h2>学习笔记</h2>
+        ${points.length ? `<ul class="news-detail-points">${points.map((p) => `<li>${escapeHtml(p)}</li>`).join("")}</ul>` : ""}
+        ${
+          actions.length
+            ? `<div class="news-detail-actions">${actions
+                .map((a) => {
+                  const href = /^https?:\/\//i.test(a) ? a : null;
+                  return href
+                    ? `<a href="${href}" target="_blank" rel="noopener noreferrer">${escapeHtml(a)}</a>`
+                    : `<span>${escapeHtml(a)}</span>`;
+                })
+                .join("")}</div>`
+            : ""
+        }
+      </div>`;
+  }
+
+  function newsSourceLabel(n) {
+    const s = newsSourceMeta(n);
+    if (!s) return "";
+    const typeLabel =
+      s.type === "x" ? "X" : s.type === "release" ? "Release Notes" : s.type === "blog" ? "官网" : "来源";
+    return `${typeLabel} · ${s.author || s.name || "海外"}`;
+  }
+
+  function escapeHtml(text = "") {
+    return String(text)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+
+  function newsSourceLink(n) {
+    const s = newsSourceMeta(n);
+    return s?.url || s?.home || "";
+  }
+
+  function newsSourceHtml(n, compact = false) {
+    const s = newsSourceMeta(n);
+    if (!s) return "";
+    const label = newsSourceLabel(n);
+    const href = newsSourceLink(n);
+    if (!href) return `<span class="news-source ${compact ? "compact" : ""}">${label}</span>`;
+    return `<a class="news-source ${compact ? "compact" : ""}" href="${href}" target="_blank" rel="noopener noreferrer">${label} ↗</a>`;
+  }
 
   function topScenes() {
     return scenes.filter((s) => !s.parent);
@@ -67,6 +236,22 @@
     const ids = [rootId];
     childScenes(rootId).forEach((c) => ids.push(...descendantIds(c.id)));
     return ids;
+  }
+
+  function sortProductsList(list, pinKey) {
+    const pins = pinKey ? categoryPins[pinKey] || [] : [];
+    const featured = new Set(featuredBanner);
+    const pinRank = (id) => {
+      const i = pins.indexOf(id);
+      return i === -1 ? pins.length + 1 : i;
+    };
+    return [...list].sort((a, b) => {
+      if (pins.length) {
+        const dr = pinRank(a.id) - pinRank(b.id);
+        if (dr !== 0) return dr;
+      }
+      return (featured.has(a.id) ? 0 : 1) - (featured.has(b.id) ? 0 : 1);
+    });
   }
 
   function productsInCategory(catId) {
@@ -94,6 +279,54 @@
     return (p.links && p.links[0]) || null;
   }
 
+  function productAppUri(p) {
+    return p?.appUri || "";
+  }
+
+  function openProductTarget(p) {
+    if (!p) return;
+    const appUri = productAppUri(p);
+    const webUrl = primaryLink(p)?.url;
+    if (!appUri) {
+      if (webUrl) window.open(webUrl, "_blank", "noopener,noreferrer");
+      return;
+    }
+    if (!webUrl) {
+      window.location.href = appUri;
+      return;
+    }
+
+    let launched = false;
+    const markLaunched = () => {
+      launched = true;
+    };
+    window.addEventListener("blur", markLaunched, { once: true });
+    document.addEventListener(
+      "visibilitychange",
+      () => {
+        if (document.hidden) markLaunched();
+      },
+      { once: true }
+    );
+
+    const iframe = document.createElement("iframe");
+    iframe.style.display = "none";
+    iframe.setAttribute("aria-hidden", "true");
+    iframe.src = appUri;
+    document.body.appendChild(iframe);
+
+    window.setTimeout(() => {
+      iframe.remove();
+      if (!launched) {
+        window.open(webUrl, "_blank", "noopener,noreferrer");
+      }
+    }, 1600);
+  }
+
+  function openExternalLabel(p) {
+    return productAppUri(p) ? "打开应用" : "打开官网";
+  }
+
   function hostOf(url) {
     try {
       return new URL(url).host.replace(/^www\./, "");
@@ -107,22 +340,131 @@
     return `<span class="badge ${cls}">${p.pricingLabel}</span>`;
   }
 
-  function sceneCard(s, i = 0) {
+  function sceneIconHtml(s) {
+    if (!s?.icon) return "";
+    return `<span class="scene-module-ico" aria-hidden="true">${s.icon}</span>`;
+  }
+
+  function sceneModuleHead(s, i) {
     const count = productsInCategory(s.id).length;
     const num = String(i + 1).padStart(2, "0");
     return `
-      <button class="scene-card reveal" type="button" data-open-scene="${s.id}">
-        <div class="scene-card-top">
-          <span class="scene-index">${num}</span>
-          <span class="scene-ico">${s.icon}</span>
+      <header class="scene-module-head">
+        <button class="scene-module-hit" type="button" data-scroll="#scene-products-${s.id}">
+          <span class="scene-module-index">${num}</span>
+          ${sceneIconHtml(s)}
+          <div class="scene-module-copy">
+            <h3>${s.name}</h3>
+            <p>${s.blurb}</p>
+          </div>
+        </button>
+        <button class="scene-module-count" type="button" data-open-category="${s.id}" aria-label="查看 ${s.name} 全部 ${count} 款产品">
+          ${count} products
+        </button>
+      </header>`;
+  }
+
+  function sectionSubFilter(parentId) {
+    return state.homeSubFilters[parentId] || "all";
+  }
+
+  function sectionProducts(parentId) {
+    const children = childScenes(parentId);
+    const sub = sectionSubFilter(parentId);
+    let list;
+    if (children.length && sub !== "all") {
+      list = products.filter((p) => (p.categories || []).includes(sub));
+    } else {
+      list = productsInCategory(parentId);
+    }
+    return sortProductsList(list, parentId === "agent" ? "agent" : null);
+  }
+
+  function homeSectionPage(sceneId) {
+    return Math.max(1, Number(state.homeSectionPages[sceneId]) || 1);
+  }
+
+  function paginateSectionProducts(list, sceneId) {
+    const total = list.length;
+    const totalPages = Math.max(1, Math.ceil(total / HOME_SECTION_PAGE_SIZE));
+    const page = Math.min(homeSectionPage(sceneId), totalPages);
+    if (page !== homeSectionPage(sceneId)) {
+      state.homeSectionPages[sceneId] = page;
+    }
+    const start = (page - 1) * HOME_SECTION_PAGE_SIZE;
+    return {
+      items: list.slice(start, start + HOME_SECTION_PAGE_SIZE),
+      page,
+      totalPages,
+      total,
+    };
+  }
+
+  function sceneSectionPagerHtml(sceneId, page, totalPages, total) {
+    if (totalPages <= 1) return "";
+    return `
+      <nav class="scene-section-pager" aria-label="${sceneMap[sceneId]?.name || "分类"}产品分页">
+        <span class="scene-pager-meta">${page} / ${totalPages}</span>
+        <div class="scene-pager-nav">
+          <button
+            type="button"
+            class="scene-pager-btn"
+            data-home-section-page="${sceneId}"
+            data-page="${page - 1}"
+            aria-label="上一页"
+            ${page <= 1 ? "disabled" : ""}
+          >←</button>
+          <button
+            type="button"
+            class="scene-pager-btn"
+            data-home-section-page="${sceneId}"
+            data-page="${page + 1}"
+            aria-label="下一页"
+            ${page >= totalPages ? "disabled" : ""}
+          >→</button>
         </div>
-        <h3>${s.name}</h3>
-        <p>${s.blurb}</p>
-        <div class="scene-card-foot">
-          <span class="meta">${count} products</span>
-          <span class="scene-arrow" aria-hidden="true">→</span>
+      </nav>`;
+  }
+
+  function sceneSectionFiltersHtml(parentId) {
+    const children = childScenes(parentId);
+    if (!children.length) return "";
+
+    const sub = sectionSubFilter(parentId);
+    const chips = [{ id: "all", name: "全部" }, ...children.map((c) => ({ id: c.id, name: c.name }))];
+    return `<div class="filter-chips scene-sub-filters">${chips
+      .map(
+        (f) =>
+          `<button class="chip ${sub === f.id ? "active" : ""}" type="button" data-home-sub-filter="${f.id}" data-scene-parent="${parentId}">${f.name}</button>`
+      )
+      .join("")}</div>`;
+  }
+
+  function sceneSectionHtml(s, i) {
+    const list = sectionProducts(s.id);
+    const { items, page, totalPages, total } = paginateSectionProducts(list, s.id);
+    return `
+      <section class="scene-section scene-section--${s.id} reveal" data-scene-section="${s.id}" id="scene-section-${s.id}">
+        <div class="scene-section-layout">
+          <aside class="scene-section-side">
+            ${sceneModuleHead(s, i)}
+          </aside>
+          <div class="scene-section-main">
+            ${sceneSectionFiltersHtml(s.id)}
+            <div class="scene-section-products" id="scene-products-${s.id}">
+              ${
+                items.map((p) => productCard(p)).join("") ||
+                `<div class="empty reveal">该分类暂无产品</div>`
+              }
+            </div>
+            ${sceneSectionPagerHtml(s.id, page, totalPages, total)}
+          </div>
         </div>
-      </button>`;
+      </section>`;
+  }
+
+  function renderHomeMap() {
+    els.sceneSections.innerHTML = topScenes().map((s, i) => sceneSectionHtml(s, i)).join("");
   }
 
   function productLogo(p, sizeClass = "") {
@@ -167,9 +509,11 @@
       <div class="link-list">
         ${links
           .map(
-            (l) => `
-          <a class="ext-link" href="${l.url}" rel="noopener noreferrer">
-            <span class="ext-link-label">${l.label}</span>
+            (l, i) => `
+          <a class="ext-link" href="${l.url}" rel="noopener noreferrer" ${
+              i === 0 && productAppUri(p) ? `data-open-external="${p.id}"` : ""
+            }>
+            <span class="ext-link-label">${i === 0 && productAppUri(p) ? "打开应用" : l.label}</span>
             <span class="ext-link-host">${hostOf(l.url)} ↗</span>
           </a>`
           )
@@ -225,12 +569,12 @@
   function productCard(p) {
     return `
       <article class="mob-card reveal">
-        <button class="mob-card-hit" type="button" data-open-product="${p.id}" aria-label="查看 ${p.name}">
-          <div class="mob-card-shot">
-            ${productPreview(p)}
-          </div>
+        <button class="mob-card-shot" type="button" data-open-product="${p.id}" aria-label="查看 ${p.name} 介绍">
+          ${productPreview(p)}
+        </button>
+        <button class="mob-card-foot" type="button" data-open-external="${p.id}" aria-label="打开 ${p.name} 官网">
           <p class="mob-card-tags">${productTagLine(p)}</p>
-          <h3 class="mob-card-title"><span class="mob-card-arrow" aria-hidden="true">→</span>${p.name}</h3>
+          <h3 class="mob-card-title"><span class="mob-card-arrow" aria-hidden="true">→</span><span class="mob-card-name">${p.name}</span></h3>
         </button>
       </article>
     `;
@@ -240,6 +584,7 @@
     return `
       <button class="news-strip-item" type="button" data-open-news="${n.id}">
         <span class="news-strip-title">${n.title}</span>
+        ${newsSourceMeta(n) ? `<span class="news-strip-source">${newsSourceLabel(n)}</span>` : ""}
         <span class="news-strip-date">${n.date}</span>
         <span class="news-strip-arrow" aria-hidden="true">→</span>
       </button>
@@ -250,42 +595,311 @@
     return `
       <button class="news-item reveal ${compact ? "compact" : ""}" type="button" data-open-news="${n.id}">
         <div class="row-top">
+          <div class="news-card-meta">
+            ${newsSourceMeta(n) ? `<div class="news-card-source">${newsSourceHtml(n, true)}</div>` : ""}
+          </div>
           <h3>${n.title}</h3>
         </div>
-        <p class="summary">${n.summary}</p>
-        <div class="tags">${categoryTags(n.categoryIds, false)}</div>
+        <p class="summary">${newsOneLiner(n)}</p>
+        ${(n.tags || []).length ? `<div class="tags news-tags">${newsTagHtml(n)}</div>` : `<div class="tags">${categoryTags(n.categoryIds, false)}</div>`}
         <div class="news-item-foot">
           <p class="time">${n.date}</p>
-          <span class="news-read-more">阅读全文 →</span>
+          <span class="news-read-more">阅读 →</span>
         </div>
       </button>
     `;
+  }
+
+  function newsDashboardRow(n, compact = false) {
+    if (!n) return "";
+    return `
+      <button class="news-dash-row${compact ? " compact" : ""}" type="button" data-open-news="${n.id}">
+        <span class="news-dash-row-body">
+          <span class="news-dash-row-title">${n.title}</span>
+          ${compact ? "" : `<span class="news-dash-row-sub">${newsOneLiner(n)}</span>`}
+        </span>
+        <span class="news-dash-row-meta">${n.date || ""}</span>
+      </button>`;
+  }
+
+  function briefSectionStats(b, sectionDefs) {
+    return sectionDefs.map(({ key, fallback, icon }) => {
+      const ids = b.sections?.[key] || [];
+      const label = b.sectionLabels?.[key] || fallback;
+      const items = ids.map((id) => newsMap[id]).filter(Boolean);
+      const top = items[0];
+      return {
+        key,
+        label,
+        icon: icon || label.split(" ")[0],
+        shortLabel: label.replace(/^[^\s]+\s/, ""),
+        count: ids.length,
+        topTitle: top?.title || "",
+        topId: top?.id || ids[0] || "",
+      };
+    });
+  }
+
+  function renderBriefSummaryChart(b, sectionDefs, wc) {
+    const stats = briefSectionStats(b, sectionDefs);
+    const maxCount = Math.max(1, ...stats.map((s) => s.count));
+    const activeSections = stats.filter((s) => s.count > 0);
+    const topCount = (b.topUpdates || []).length;
+
+    const pipelineHtml = `
+      <div class="brief-chart-pipeline" aria-hidden="true">
+        <span class="brief-chart-node brief-chart-node--source">Source Agent</span>
+        <span class="brief-chart-arrow">→</span>
+        <span class="brief-chart-node brief-chart-node--tag">Tag Agent</span>
+        <span class="brief-chart-arrow">→</span>
+        <span class="brief-chart-node brief-chart-node--brief">AI Brief</span>
+        <span class="brief-chart-arrow">→</span>
+        <span class="brief-chart-node brief-chart-node--dash">Dashboard</span>
+      </div>`;
+
+    const structureHtml = `
+      <div class="brief-chart-structure">
+        <div class="brief-chart-hub">
+          <div class="brief-chart-hub-label">Today's Brief</div>
+          <div class="brief-chart-hub-stats">
+            <span class="brief-stat"><strong>${b.todayCount ?? "—"}</strong><em>今日</em></span>
+            <span class="brief-stat"><strong>${b.totalCount ?? news.length}</strong><em>档案</em></span>
+            <span class="brief-stat"><strong>${topCount}</strong><em>必读</em></span>
+            <span class="brief-stat"><strong>${activeSections.length}</strong><em>栏目</em></span>
+          </div>
+        </div>
+        <div class="brief-chart-branches" aria-label="Brief 栏目分布">
+          ${stats
+            .map((s) => {
+              const pct = Math.round((s.count / maxCount) * 100);
+              const inactive = s.count === 0;
+              return `
+                <button
+                  class="brief-chart-branch${inactive ? " is-empty" : ""}"
+                  type="button"
+                  data-brief-section="${s.key}"
+                  ${inactive ? "disabled" : ""}
+                  aria-label="${s.label} ${s.count} 条"
+                >
+                  <div class="brief-chart-branch-head">
+                    <span class="brief-chart-branch-icon">${s.icon}</span>
+                    <span class="brief-chart-branch-name">${s.shortLabel}</span>
+                    <span class="brief-chart-branch-count">${s.count}</span>
+                  </div>
+                  <div class="brief-chart-bar-track" aria-hidden="true">
+                    <div class="brief-chart-bar-fill" style="width:${inactive ? 0 : Math.max(pct, s.count ? 12 : 0)}%"></div>
+                  </div>
+                  ${s.topTitle ? `<p class="brief-chart-branch-top">${s.topTitle}</p>` : `<p class="brief-chart-branch-top muted">暂无信号</p>`}
+                </button>`;
+            })
+            .join("")}
+        </div>
+      </div>`;
+
+    const trendTags = wc?.risingTags || [];
+    const trendHtml =
+      wc?.summary || trendTags.length
+        ? `
+        <div class="brief-chart-trends">
+          <div class="brief-chart-trends-head">
+            <span>What's Changing · ${wc?.periodDays || 30} 天</span>
+          </div>
+          ${wc?.summary ? `<p class="brief-chart-trends-summary">${wc.summary}</p>` : ""}
+          ${
+            trendTags.length
+              ? `<div class="brief-chart-trend-tags">${trendTags.map((t) => `<span class="tag tag-static">✓ ${t}</span>`).join("")}</div>`
+              : ""
+          }
+        </div>`
+        : "";
+
+    return `
+      <div class="brief-summary-chart reveal">
+        <div class="brief-summary-chart-head">
+          <div>
+            <div class="section-label">Brief Overview</div>
+            <h3 class="brief-summary-chart-title">今日快讯总览</h3>
+          </div>
+          <span class="news-brief-meta">${b.date || ""} · ${b.headline || ""}</span>
+        </div>
+        ${pipelineHtml}
+        ${structureHtml}
+        ${trendHtml}
+      </div>`;
+  }
+
+  function renderNewsDashboard() {
+    if (!els.newsBrief) return;
+    const b = newsBrief;
+    if (!b) {
+      els.newsBrief.innerHTML = "";
+      return;
+    }
+
+    const sectionDefs = [
+      { key: "topUpdates", fallback: "🔥 Top Updates", icon: "🔥" },
+      { key: "newReleases", fallback: "🟢 New Releases", icon: "🟢" },
+      { key: "insights", fallback: "🧠 AI Insights", icon: "🧠" },
+      { key: "emergingTrends", fallback: "📈 Emerging Trends", icon: "📈" },
+      { key: "newApis", fallback: "🏷 New APIs", icon: "🏷" },
+      { key: "githubTrending", fallback: "🚀 Github Trending", icon: "🚀" },
+      { key: "productHunt", fallback: "💼 Product Hunt", icon: "💼" },
+      { key: "xDiscussions", fallback: "💬 X Discussions", icon: "💬" },
+    ];
+
+    const sectionsHtml = sectionDefs
+      .map(({ key, fallback }) => {
+        const ids = b.sections?.[key] || [];
+        if (!ids.length) return "";
+        const label = b.sectionLabels?.[key] || fallback;
+        const rows = ids
+          .map((id) => newsMap[id])
+          .filter(Boolean)
+          .slice(0, 5)
+          .map((n) => newsDashboardRow(n, true))
+          .join("");
+        if (!rows) return "";
+        return `
+          <div class="news-dash-section" id="brief-section-${key}">
+            <h3 class="news-dash-section-title">${label} <span class="news-dash-section-count">${ids.length}</span></h3>
+            <div class="news-dash-section-list">${rows}</div>
+          </div>`;
+      })
+      .filter(Boolean)
+      .join("");
+
+    const topRows = (b.topUpdates || [])
+      .map((u) => {
+        return `
+          <button class="news-brief-row" type="button" data-open-news="${u.id}">
+            <span class="news-brief-row-title">${u.title}</span>
+          </button>`;
+      })
+      .join("");
+
+    const wc = newsWhatsChanging;
+    const wcHtml =
+      wc?.summary || (wc?.trends || []).length
+        ? `
+      <section class="news-whats-changing reveal">
+        <h2>What's Changing · 近 ${wc.periodDays || 30} 天</h2>
+        ${wc.summary ? `<p class="news-wc-summary">${wc.summary}</p>` : ""}
+        ${
+          (wc.risingTags || []).length
+            ? `<div class="news-wc-rising">${wc.risingTags.map((t) => `<span class="tag tag-static">✓ ${t}</span>`).join("")}</div>`
+            : ""
+        }
+        ${
+          (wc.trends || []).length
+            ? `<ul class="news-wc-trends">${wc.trends
+                .map(
+                  (t) =>
+                    `<li><strong>${t.name}</strong>${t.signal ? ` — ${t.signal}` : ""}${
+                      t.examples?.length ? `<span class="news-wc-examples">${t.examples.slice(0, 2).join(" · ")}</span>` : ""
+                    }</li>`
+                )
+                .join("")}</ul>`
+            : ""
+        }
+      </section>`
+        : "";
+
+    els.newsBrief.innerHTML = `
+      <section class="news-dashboard reveal">
+        ${renderBriefSummaryChart(b, sectionDefs, wc)}
+        <div class="news-brief-head">
+          <h2>Today's Brief</h2>
+          <span class="news-brief-meta">${b.date || ""} · 今日 ${b.todayCount ?? "—"} 条 · 档案 ${b.totalCount ?? news.length} 条</span>
+        </div>
+        ${topRows ? `<div class="news-brief-list">${topRows}</div>` : ""}
+        ${sectionsHtml ? `<div class="news-dash-grid">${sectionsHtml}</div>` : ""}
+        ${wcHtml}
+      </section>`;
+  }
+
+  function renderProductUpdates() {
+    if (!els.newsProductUpdates) return;
+    const list = newsProductUpdates || [];
+    if (!list.length) {
+      els.newsProductUpdates.innerHTML = "";
+      return;
+    }
+
+    els.newsProductUpdates.innerHTML = `
+      <section class="news-product-updates reveal">
+        <div class="news-product-updates-head">
+          <h2>产品更新 Dashboard</h2>
+          <span class="news-brief-meta">${list.length} 条近期 Release / 产品动态</span>
+        </div>
+        <div class="news-product-grid">
+          ${list
+            .map((u) => {
+              const products = (u.productIds || [])
+                .map((id) => productMap[id]?.name)
+                .filter(Boolean)
+                .join(" · ");
+              return `
+            <button class="news-product-card" type="button" data-open-news="${u.id}">
+              <div class="news-product-card-top">
+                <span class="news-product-card-date">${u.date || ""}</span>
+              </div>
+              <h3>${u.title}</h3>
+              <p>${u.oneLiner || ""}</p>
+              <div class="news-product-card-foot">
+                ${products ? `<span class="news-product-card-prod">${products}</span>` : ""}
+                ${u.source ? `<span class="news-product-card-src">${u.source}</span>` : ""}
+              </div>
+            </button>`;
+            })
+            .join("")}
+        </div>
+      </section>`;
+  }
+
+  function renderNewsBrief() {
+    renderNewsDashboard();
+  }
+
+  function renderWhatsChanging() {
+    /* merged into renderNewsDashboard */
   }
 
   function renderNewsDetail(newsId) {
     const n = newsMap[newsId];
     if (!n) return;
     const relatedProducts = (n.productIds || []).map((id) => productMap[id]).filter(Boolean);
-    const paragraphs = (n.content || []).map((p) => `<p>${p}</p>`).join("");
-    const highlights = (n.highlights || []).length
-      ? `<div class="block"><h2>要点速览</h2><ul>${n.highlights.map((h) => `<li>${h}</li>`).join("")}</ul></div>`
-      : "";
+    const paragraphs = (n.content || [])
+      .map((p) => `<p>${escapeHtml(p)}</p>`)
+      .join("");
+    const bullets = (n.summary?.bullets || n.highlights || []).filter(Boolean);
+    const sourceUrl = n.source?.url || n.source?.home || "";
+    const lead = newsOneLiner(n);
 
     els.newsDetail.innerHTML = `
       <header class="news-detail-head reveal">
-        <div class="section-label">News Detail</div>
-        <p class="news-detail-date">${n.date}</p>
-        <h1>${n.title}</h1>
-        <p class="news-detail-lead">${n.summary}</p>
-        <div class="tags">${categoryTags(n.categoryIds, true)}</div>
+        <p class="news-detail-meta">
+          ${escapeHtml(newsDetailMeta(n))}
+          ${
+            sourceUrl
+              ? ` · <a href="${sourceUrl}" target="_blank" rel="noopener noreferrer">阅读原文</a>`
+              : ""
+          }
+        </p>
+        <h1>${escapeHtml(n.title)}</h1>
+        ${lead && lead !== n.title ? `<p class="news-detail-lead">${escapeHtml(lead)}</p>` : ""}
+        ${(n.tags || []).length || (n.categoryIds || []).length ? `<div class="tags">${(n.tags || []).length ? newsTagHtml(n) : ""}${categoryTags(n.categoryIds, true)}</div>` : ""}
       </header>
 
-      <div class="block reveal">
-        <h2>正文</h2>
-        <div class="news-detail-body">${paragraphs || `<p>${n.summary}</p>`}</div>
+      <div class="block reveal news-detail-main">
+        <div class="news-detail-body">${paragraphs || `<p>${escapeHtml(lead || n.title)}</p>`}</div>
+        ${
+          bullets.length
+            ? `<ul class="news-detail-bullets">${bullets.map((h) => `<li>${escapeHtml(h)}</li>`).join("")}</ul>`
+            : ""
+        }
       </div>
 
-      ${highlights}
+      ${newsDetailNotes(n)}
 
       ${
         relatedProducts.length
@@ -315,8 +929,114 @@
     showView("news-detail");
   }
 
+  function matchesBannerRegion(p) {
+    const region = p.region || "";
+    if (bannerSettings.regionFilter === "domestic") return region.includes("国内");
+    if (bannerSettings.regionFilter === "overseas") return region.includes("海外");
+    return true;
+  }
+
   function bannerProducts() {
-    return featuredBanner.map((id) => productMap[id]).filter(Boolean);
+    return bannerSettings.selectedIds
+      .map((id) => productMap[id])
+      .filter(Boolean)
+      .filter(matchesBannerRegion);
+  }
+
+  function primaryTopCategoryId(p) {
+    const topIds = topScenes().map((s) => s.id);
+    return (p.categories || []).find((id) => topIds.includes(id)) || (p.categories || [])[0] || "other";
+  }
+
+  function renderBannerPickList(draft) {
+    if (!els.bannerPickList) return;
+    const selected = new Set(draft.selectedIds);
+    const grouped = new Map();
+    products.forEach((p) => {
+      const key = primaryTopCategoryId(p);
+      if (!grouped.has(key)) grouped.set(key, []);
+      grouped.get(key).push(p);
+    });
+
+    const order = [...topScenes().map((s) => s.id), "other"];
+    els.bannerPickList.innerHTML = order
+      .filter((id) => grouped.has(id))
+      .map((id) => {
+        const title = sceneMap[id]?.name || "其他";
+        const items = grouped
+          .get(id)
+          .slice()
+          .sort((a, b) => a.name.localeCompare(b.name, "zh-CN"))
+          .map((p) => {
+            const checked = selected.has(p.id);
+            return `
+              <label class="banner-pick-item ${checked ? "is-checked" : ""}">
+                <input type="checkbox" name="banner-pick" value="${p.id}" ${checked ? "checked" : ""} />
+                ${productLogo(p, "product-logo-sm")}
+                <span class="banner-pick-name">${p.name}</span>
+                ${p.region ? `<span class="badge mix">${p.region}</span>` : ""}
+              </label>
+            `;
+          })
+          .join("");
+        return `
+          <div class="banner-pick-group">
+            <p class="banner-pick-group-title">${title}</p>
+            ${items}
+          </div>
+        `;
+      })
+      .join("");
+
+    els.bannerPickList.querySelectorAll(".banner-pick-item input").forEach((input) => {
+      input.addEventListener("change", () => {
+        input.closest(".banner-pick-item")?.classList.toggle("is-checked", input.checked);
+      });
+    });
+  }
+
+  function syncBannerRegionChips(regionFilter) {
+    if (!els.bannerRegionChips) return;
+    els.bannerRegionChips.querySelectorAll("[data-banner-region]").forEach((chip) => {
+      chip.classList.toggle("active", chip.dataset.bannerRegion === regionFilter);
+    });
+  }
+
+  function openBannerSettings() {
+    bannerSettingsDraft = {
+      selectedIds: [...bannerSettings.selectedIds],
+      regionFilter: bannerSettings.regionFilter,
+    };
+    syncBannerRegionChips(bannerSettingsDraft.regionFilter);
+    renderBannerPickList(bannerSettingsDraft);
+    els.bannerSettingsModal.hidden = false;
+    state.bannerSettingsOpen = true;
+    document.body.classList.add("banner-settings-open");
+    els.bannerSettingsBtn?.focus();
+  }
+
+  function closeBannerSettings() {
+    els.bannerSettingsModal.hidden = true;
+    state.bannerSettingsOpen = false;
+    bannerSettingsDraft = null;
+    document.body.classList.remove("banner-settings-open");
+    els.bannerSettingsBtn?.focus();
+  }
+
+  function saveBannerSettings() {
+    if (!bannerSettingsDraft) return;
+    const picked = [...els.bannerPickList.querySelectorAll('input[name="banner-pick"]:checked')].map(
+      (input) => input.value
+    );
+    bannerSettingsDraft.selectedIds = picked.length ? picked : [...featuredBanner];
+    bannerSettings = {
+      selectedIds: [...bannerSettingsDraft.selectedIds],
+      regionFilter: bannerSettingsDraft.regionFilter,
+    };
+    localStorage.setItem(BANNER_SETTINGS_KEY, JSON.stringify(bannerSettings));
+    renderSphere();
+    renderBanner();
+    closeBannerSettings();
   }
 
   function bannerSlot(p) {
@@ -330,7 +1050,7 @@
     `;
     if (link) {
       return `
-        <a class="banner-slot" href="${link.url}" rel="noopener noreferrer" aria-label="打开 ${p.name} 官网">
+        <a class="banner-slot" href="${link.url}" data-open-external="${p.id}" rel="noopener noreferrer" aria-label="打开 ${p.name}">
           ${inner}
         </a>
       `;
@@ -536,8 +1256,9 @@
     if (link) {
       return `
         <a class="sphere-node" href="${link.url}" rel="noopener noreferrer"
+          data-open-external="${p.id}"
           data-vertex-index="${vertexIndex}"
-          aria-label="打开 ${p.name} 官网"
+          aria-label="打开 ${p.name}"
           data-product-id="${p.id}">
           ${inner}
         </a>
@@ -853,7 +1574,7 @@
   function renderHome() {
     renderSphere();
     renderBanner();
-    els.sceneGrid.innerHTML = topScenes().map((s, i) => sceneCard(s, i)).join("");
+    renderHomeMap();
     const newsPreview = news.slice(0, 6);
     els.newsPreview.innerHTML = newsPreview.map((n) => newsStripItem(n)).join("");
     bindReveal();
@@ -862,20 +1583,55 @@
   function renderScene(sceneId) {
     const s = sceneMap[sceneId];
     if (!s) return;
+
+    els.views.scene.className = `view scene-detail-view scene-section--${sceneId}`;
+
+    const topIndex = topScenes().findIndex((item) => item.id === sceneId);
+    const num = topIndex >= 0 ? String(topIndex + 1).padStart(2, "0") : "";
+    const count = productsInCategory(sceneId).length;
     const children = childScenes(sceneId);
+    const sub = state.sceneSubFilter || "all";
+
+    els.sceneIntro.className = `page-intro scene-detail-intro scene-section scene-section--${sceneId} reveal`;
     els.sceneIntro.innerHTML = `
-      <h1>${s.name}</h1>
-      <p>${s.blurb}</p>
+      <div class="scene-detail-head">
+        ${num ? `<div class="section-label">Category ${num}</div>` : `<div class="section-label">Category</div>`}
+        <div class="scene-detail-title-row">
+          ${sceneIconHtml(s)}
+          <h1>${s.name}</h1>
+        </div>
+        <p>${s.blurb}</p>
+        <p class="scene-detail-meta">${count} 款产品</p>
+      </div>
     `;
 
     if (children.length) {
-      els.sceneProducts.className = "scene-grid scene-subgrid scene-products-wrap";
-      els.sceneProducts.innerHTML = children.map((c, i) => sceneCard(c, i)).join("");
+      els.sceneFilters.hidden = false;
+      const chips = [{ id: "all", name: "全部" }, ...children.map((c) => ({ id: c.id, name: c.name }))];
+      els.sceneFilters.innerHTML = chips
+        .map(
+          (f) =>
+            `<button class="chip ${sub === f.id ? "active" : ""}" type="button" data-scene-sub-filter="${f.id}">${f.name}</button>`
+        )
+        .join("");
     } else {
-      els.sceneProducts.className = "product-list scene-products-wrap";
-      const list = products.filter((p) => (p.categories || []).includes(sceneId));
-      els.sceneProducts.innerHTML = list.map(productCard).join("") || `<div class="empty reveal">该分类暂无产品</div>`;
+      els.sceneFilters.hidden = true;
+      els.sceneFilters.innerHTML = "";
     }
+
+    let list;
+    if (children.length && sub !== "all") {
+      list = products.filter((p) => (p.categories || []).includes(sub));
+    } else {
+      const ids = descendantIds(sceneId);
+      list = products.filter((p) => (p.categories || []).some((c) => ids.includes(c)));
+    }
+
+    list = sortProductsList(list, sceneId === "agent" ? "agent" : null);
+
+    els.sceneProducts.className = "product-list scene-products-wrap";
+    els.sceneProducts.innerHTML =
+      list.map((p) => productCard(p)).join("") || `<div class="empty reveal">该分类暂无产品</div>`;
     bindReveal();
   }
 
@@ -883,7 +1639,7 @@
     const p = productMap[productId];
     if (!p) return;
     const alts = (p.alternatives || []).map((id) => productMap[id]).filter(Boolean);
-    const related = news.filter((n) => n.productIds.includes(productId)).slice(0, 3);
+    const related = news.filter((n) => (n.productIds || []).includes(productId)).slice(0, 3);
 
     const main = primaryLink(p);
 
@@ -896,11 +1652,11 @@
       <div class="cover mob-detail-cover">
         ${
           main
-            ? `<a class="cover-shot-link" href="${main.url}" rel="noopener noreferrer" aria-label="打开 ${p.name} 官网">
+            ? `<a class="cover-shot-link" href="${main.url}" data-open-external="${p.id}" rel="noopener noreferrer" aria-label="打开 ${p.name}">
                 <div class="mob-shot-frame mob-shot-frame-detail">
                   ${productPreview(p)}
                 </div>
-                <span class="cover-shot-hint">点击访问官网 ↗</span>
+                <span class="cover-shot-hint">${productAppUri(p) ? "点击打开应用，未安装则跳转官网 ↗" : "点击访问官网 ↗"}</span>
               </a>`
             : `<div class="mob-shot-frame mob-shot-frame-detail">
                 ${productPreview(p)}
@@ -917,7 +1673,7 @@
           ${pricingBadge(p)}
           ${
             main
-              ? `<a class="btn btn-primary btn-sm" href="${main.url}" rel="noopener noreferrer">打开官网</a>`
+              ? `<button class="btn btn-primary btn-sm" type="button" data-open-external="${p.id}">${openExternalLabel(p)}</button>`
               : ""
           }
         </div>
@@ -942,7 +1698,7 @@
 
       <div class="block">
         <h2>3 步上手</h2>
-        <ol>${p.steps.map((step) => `<li>${step}</li>`).join("")}</ol>
+        <ol>${(p.steps || []).map((step) => `<li>${step}</li>`).join("")}</ol>
       </div>
 
       <div class="block">
@@ -1012,7 +1768,12 @@
   }
 
   function renderNews() {
-    const filters = [{ id: "all", name: "全部" }, ...topScenes().map((s) => ({ id: s.id, name: s.name }))];
+    const tagSet = new Set();
+    news.forEach((n) => (n.tags || []).forEach((t) => tagSet.add(t)));
+    const tagFilters = [...tagSet].sort().map((t) => ({ id: `tag:${t}`, name: t }));
+    const catFilters = topScenes().map((s) => ({ id: s.id, name: s.name }));
+    const filters = [{ id: "all", name: "全部" }, ...tagFilters.slice(0, 12), ...catFilters];
+
     els.newsFilters.innerHTML = filters
       .map(
         (f) =>
@@ -1020,14 +1781,21 @@
       )
       .join("");
 
-    const list =
-      state.newsFilter === "all"
-        ? news
-        : news.filter((n) => {
-            const ids = descendantIds(state.newsFilter);
-            return (n.categoryIds || []).some((c) => ids.includes(c));
-          });
+    let list = news;
+    if (state.newsFilter.startsWith("tag:")) {
+      const tag = state.newsFilter.slice(4);
+      list = news.filter((n) => (n.tags || []).includes(tag));
+    } else if (state.newsFilter !== "all") {
+      list = news.filter((n) => {
+        const ids = descendantIds(state.newsFilter);
+        return (n.categoryIds || []).some((c) => ids.includes(c));
+      });
+    }
 
+    list = [...list].sort((a, b) => new Date(b.date) - new Date(a.date));
+
+    renderNewsDashboard();
+    renderProductUpdates();
     els.newsList.innerHTML = list.map((n) => newsCard(n)).join("") || `<div class="empty reveal">该分类暂无快讯</div>`;
     bindReveal();
   }
@@ -1051,9 +1819,10 @@
       const blob = `${p.name} ${p.oneLiner} ${p.forWho} ${p.region || ""} ${catNames}`.toLowerCase();
       return blob.includes(query);
     });
-    const matchedNews = news.filter((n) =>
-      `${n.title} ${n.summary}`.toLowerCase().includes(query)
-    );
+    const matchedNews = news.filter((n) => {
+      const blob = `${n.title} ${newsOneLiner(n)} ${(n.tags || []).join(" ")}`.toLowerCase();
+      return blob.includes(query);
+    });
 
     let html = "";
     if (matchedScenes.length) {
@@ -1164,9 +1933,24 @@
     window.scrollTo({ top: 0, behavior: "instant" in window ? "instant" : "auto" });
   }
 
-  function openScene(id) {
+  function openCategoryPage(id) {
     clearSearch();
     state.sceneId = id;
+    state.sceneSubFilter = "all";
+    showView("scene");
+  }
+
+  function openScene(id) {
+    clearSearch();
+    const s = sceneMap[id];
+    if (!s) return;
+    if (s.parent) {
+      state.sceneId = s.parent;
+      state.sceneSubFilter = id;
+    } else {
+      state.sceneId = id;
+      state.sceneSubFilter = "all";
+    }
     showView("scene");
   }
 
@@ -1189,11 +1973,26 @@
   }
 
   document.body.addEventListener("click", (e) => {
-    // 外链直接跳转官网，不走站内路由
+    if (e.target.closest(".news-source")) return;
+
+    const ext = e.target.closest("[data-open-external]");
+    if (ext) {
+      e.preventDefault();
+      const p = productMap[ext.dataset.openExternal];
+      openProductTarget(p);
+      return;
+    }
+
+    // 其余外链仍直接跳转
     if (e.target.closest("a[href^='http']")) return;
 
-    const t = e.target.closest("[data-nav], [data-open-scene], [data-open-product], [data-open-news], [data-news-filter], [data-scroll]");
+    const t = e.target.closest("[data-nav], [data-open-scene], [data-open-category], [data-open-product], [data-open-news], [data-news-filter], [data-home-sub-filter], [data-scene-sub-filter], [data-home-section-page], [data-scroll], [data-brief-section]");
     if (!t) return;
+
+    if (t.dataset.briefSection) {
+      document.getElementById(`brief-section-${t.dataset.briefSection}`)?.scrollIntoView({ behavior: "smooth", block: "start" });
+      return;
+    }
 
     if (t.dataset.scroll) {
       document.querySelector(t.dataset.scroll)?.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -1209,6 +2008,35 @@
     }
     if (t.dataset.openScene) {
       openScene(t.dataset.openScene);
+      return;
+    }
+    if (t.dataset.openCategory) {
+      openCategoryPage(t.dataset.openCategory);
+      return;
+    }
+    if (t.dataset.sceneSubFilter !== undefined) {
+      state.sceneSubFilter = t.dataset.sceneSubFilter;
+      renderScene(state.sceneId);
+      bindReveal();
+      return;
+    }
+    if (t.dataset.homeSubFilter !== undefined) {
+      const parent = t.dataset.sceneParent;
+      if (!parent) return;
+      state.homeSubFilters[parent] = t.dataset.homeSubFilter;
+      state.homeSectionPages[parent] = 1;
+      renderHomeMap();
+      bindReveal();
+      return;
+    }
+    if (t.dataset.homeSectionPage !== undefined) {
+      const sceneId = t.dataset.homeSectionPage;
+      const page = Number(t.dataset.page);
+      if (!sceneId || !Number.isFinite(page) || page < 1) return;
+      state.homeSectionPages[sceneId] = page;
+      renderHomeMap();
+      bindReveal();
+      document.getElementById(`scene-section-${sceneId}`)?.scrollIntoView({ behavior: "smooth", block: "start" });
       return;
     }
     if (t.dataset.openProduct) {
@@ -1228,6 +2056,27 @@
   els.backBtn.addEventListener("click", goBack);
 
   els.feedbackBtn.addEventListener("click", openFeedback);
+
+  els.bannerSettingsBtn?.addEventListener("click", openBannerSettings);
+
+  els.bannerSettingsModal?.addEventListener("click", (e) => {
+    if (e.target.closest("[data-close-banner-settings]")) closeBannerSettings();
+  });
+
+  els.bannerRegionChips?.addEventListener("click", (e) => {
+    const chip = e.target.closest("[data-banner-region]");
+    if (!chip || !bannerSettingsDraft) return;
+    bannerSettingsDraft.regionFilter = chip.dataset.bannerRegion;
+    syncBannerRegionChips(bannerSettingsDraft.regionFilter);
+  });
+
+  els.bannerSelectDefault?.addEventListener("click", () => {
+    if (!bannerSettingsDraft) return;
+    bannerSettingsDraft.selectedIds = [...featuredBanner];
+    renderBannerPickList(bannerSettingsDraft);
+  });
+
+  els.bannerSettingsSave?.addEventListener("click", saveBannerSettings);
 
   els.feedbackModal.addEventListener("click", (e) => {
     if (e.target.closest("[data-close-feedback]")) closeFeedback();
@@ -1271,7 +2120,8 @@
 
   document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") {
-      if (state.feedbackOpen) closeFeedback();
+      if (state.bannerSettingsOpen) closeBannerSettings();
+      else if (state.feedbackOpen) closeFeedback();
       else clearSearch();
     }
   });
@@ -1291,6 +2141,13 @@
     { passive: true }
   );
 
-  showView("home", { push: false });
-  bindReveal();
+  async function boot() {
+    await loadNewsFeed();
+    news = news.map(normalizeNewsItem);
+    newsMap = Object.fromEntries(news.map((n) => [n.id, n]));
+    showView("home", { push: false });
+    bindReveal();
+  }
+
+  boot();
 })();
