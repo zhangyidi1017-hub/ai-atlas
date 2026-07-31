@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-27T07:37:16.289Z",
+  "updatedAt": "2026-07-31T10:22:10.220Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 64,
+  "itemCount": 74,
   "brief": {
-    "date": "2026-07-27",
-    "generatedAt": "2026-07-27T07:37:16.288Z",
-    "totalCount": 64,
-    "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 64 条",
+    "date": "2026-07-31",
+    "generatedAt": "2026-07-31T10:22:10.219Z",
+    "totalCount": 74,
+    "todayCount": 2,
+    "headline": "今日 AI 信号 2 条 · 档案共 74 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -40,11 +40,11 @@
         "readMinutes": 5
       },
       {
-        "id": "cur-perplexity-search",
-        "title": "Perplexity 强化 Pro Search：多步推理 + 来源可追溯",
+        "id": "sig-b86dc435d6",
+        "title": "在整个欧洲推进负责任的人工智能",
         "stars": 4,
-        "oneLiner": "搜索 Agent 把「给答案」升级为「给调研过程 + 引用链」。",
-        "readMinutes": 4
+        "oneLiner": "OpenAI 分享其安全、保障、透明度和来源实践如何支持欧洲负责任的人工智能治理。随着欧盟人工智能法案的进展，这项工作将继续进行。",
+        "readMinutes": 5
       }
     ],
     "sections": {
@@ -53,8 +53,8 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "cur-perplexity-search",
-        "cur-gemini-multimodal"
+        "sig-b86dc435d6",
+        "sig-4879819590"
       ],
       "newReleases": [
         "cur-cursor-agent",
@@ -65,10 +65,10 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "cur-perplexity-search",
-        "cur-gemini-multimodal",
-        "cur-tapnow-agent",
-        "cur-libtv-canvas"
+        "sig-b86dc435d6",
+        "sig-4879819590",
+        "sig-4da2001209",
+        "sig-06b8d0ad6f"
       ],
       "emergingTrends": [
         "cur-openai-agentkit",
@@ -109,8 +109,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-07-27T07:37:16.289Z",
-    "summary": "近 30 天共 64 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-07-31T10:22:10.220Z",
+    "summary": "近 30 天共 74 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Agent",
@@ -186,6 +186,66 @@
     ]
   },
   "productUpdates": [
+    {
+      "id": "sig-b86dc435d6",
+      "title": "在整个欧洲推进负责任的人工智能",
+      "oneLiner": "OpenAI 分享其安全、保障、透明度和来源实践如何支持欧洲负责任的人工智能治理。随着欧盟人工智能法案的进展，这项工作将继续进行。",
+      "date": "2026-07-31",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-4879819590",
+      "title": "Univé 打造一支人工智能就绪的员工队伍",
+      "oneLiner": "了解 Univé 如何通过 ChatGPT Enterprise 结合领导力、负责任的治理和员工主导的创新来建立人工智能就绪的员工队伍，以大规模改变工作。",
+      "date": "2026-07-31",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-06b8d0ad6f",
+      "title": "Gemini 机器人 ER 2 简介",
+      "oneLiner": "Gemini Robotics ER 2 代表了在视频理解、任务编排和多机器人协作方面为机器人提供动力的重大变革，使机器人能够在物理世界中提供更多帮助。",
+      "date": "2026-07-30",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google DeepMind",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-fc362ba711",
+      "title": "利用 GPT-5.6 推进性价比前沿",
+      "oneLiner": "探索 Luna 和 Terra 的更低 GPT-5.6 定价，以及 OpenAI 更高效的模型如何帮助企业大规模部署 AI 工作流程。",
+      "date": "2026-07-30",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-9146ff1756",
+      "title": "Avatarin 如何使用 GPT-Realtime 构建 24/7 零售代理",
+      "oneLiner": "avatarin 使用 OpenAI 的 GPT-Realtime 为 Yamada Denki 购物者提供 24/7 多语言支持。两周内，有 30,000 人使用了该代理，92% 的调查回复是积极的。",
+      "date": "2026-07-30",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
     {
       "id": "cur-openai-agentkit",
       "title": "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排",
@@ -447,77 +507,798 @@
         "Design"
       ],
       "stars": 3
-    },
-    {
-      "id": "cur-byte-llm",
-      "title": "字节跳动大模型矩阵：豆包 + 火山引擎 + Seed 系列",
-      "oneLiner": "字节以「豆包 C 端 + 火山 B 端 + Seed 模型」构建国内最完整 AI 栈之一。",
-      "date": "2026-07-17",
-      "productIds": [
-        "doubao",
-        "coze",
-        "jimeng"
-      ],
-      "source": "火山引擎",
-      "tags": [
-        "Agent",
-        "API",
-        "Product"
-      ],
-      "stars": 4
-    },
-    {
-      "id": "sig-f83c24d415",
-      "title": "Cursor 在 Slack 中的改进 · Cursor",
-      "oneLiner": "Cursor 现在会在开始前先分享规划，可在多代码仓库环境中运行，并能跨频道和讨论串开展工作。",
-      "date": "2026-07-17",
-      "productIds": [
-        "cursor"
-      ],
-      "source": "Cursor",
-      "tags": [
-        "Release"
-      ],
-      "stars": 4
-    },
-    {
-      "id": "sig-7898549b95",
-      "title": "Introducing Gemini 3.5 Flash Cyber",
-      "oneLiner": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulner",
-      "date": "2026-07-17",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google DeepMind",
-      "tags": [],
-      "stars": 3
-    },
-    {
-      "id": "sig-3ebda52fc8",
-      "title": "A scorecard for the AI age",
-      "oneLiner": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, ",
-      "date": "2026-07-17",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 3
-    },
-    {
-      "id": "sig-8fe39edff7",
-      "title": "Why teens deserve access to safe AI",
-      "oneLiner": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools,",
-      "date": "2026-07-16",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 3
     }
   ],
   "items": [
+    {
+      "id": "sig-b86dc435d6",
+      "title": "在整个欧洲推进负责任的人工智能",
+      "oneLiner": "OpenAI 分享其安全、保障、透明度和来源实践如何支持欧洲负责任的人工智能治理。随着欧盟人工智能法案的进展，这项工作将继续进行。",
+      "summary": {
+        "oneSentence": "OpenAI 分享其安全、保障、透明度和来源实践如何支持欧洲负责任的人工智能治理。随着欧盟人工智能法案的进展，这项工作将继续进行。",
+        "bullets": [
+          "OpenAI 分享其安全、保障、透明度和来源实践如何支持欧洲负责任的人工智能治理。随着欧盟人工智能法案的进展，这项工作将继续进行。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 分享其安全、保障、透明度和来源实践如何支持欧洲负责任的人工智能治理。随着欧盟人工智能法案的进展，这项工作将继续进行。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/advancing-responsible-ai-across-europe"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 分享其安全、保障、透明度和来源实践如何支持欧洲负责任的人工智能治理。随着欧盟人工智能法案的进展，这项工作将继续进行。"
+      ],
+      "highlights": [
+        "OpenAI 分享其安全、保障、透明度和来源实践如何支持欧洲负责任的人工智能治理。随着欧盟人工智能法案的进展，这项工作将继续进行。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Advancing responsible AI across Europe",
+      "originalLang": "en",
+      "date": "2026-07-31",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Advancing responsible AI across Europe"
+      },
+      "raw": {
+        "title": "Advancing responsible AI across Europe",
+        "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+        "fetched": false,
+        "savedAt": "2026-07-31T10:20:42.958Z"
+      }
+    },
+    {
+      "id": "sig-4879819590",
+      "title": "Univé 打造一支人工智能就绪的员工队伍",
+      "oneLiner": "了解 Univé 如何通过 ChatGPT Enterprise 结合领导力、负责任的治理和员工主导的创新来建立人工智能就绪的员工队伍，以大规模改变工作。",
+      "summary": {
+        "oneSentence": "了解 Univé 如何通过 ChatGPT Enterprise 结合领导力、负责任的治理和员工主导的创新来建立人工智能就绪的员工队伍，以大规模改变工作。",
+        "bullets": [
+          "了解 Univé 如何通过 ChatGPT Enterprise 结合领导力、负责任的治理和员工主导的创新来建立人工智能就绪的员工队伍，以大规模改变工作。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：了解 Univé 如何通过 ChatGPT Enterprise 结合领导力、负责任的治理和员工主导的创新来建立人工智能就绪的员工队伍，以大规模改变工作。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/unive"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "了解 Univé 如何通过 ChatGPT Enterprise 结合领导力、负责任的治理和员工主导的创新来建立人工智能就绪的员工队伍，以大规模改变工作。"
+      ],
+      "highlights": [
+        "了解 Univé 如何通过 ChatGPT Enterprise 结合领导力、负责任的治理和员工主导的创新来建立人工智能就绪的员工队伍，以大规模改变工作。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Univé builds an AI-ready workforce",
+      "originalLang": "en",
+      "date": "2026-07-31",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/unive",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Univé builds an AI-ready workforce"
+      },
+      "raw": {
+        "title": "Univé builds an AI-ready workforce",
+        "url": "https://openai.com/index/unive",
+        "fetched": false,
+        "savedAt": "2026-07-31T10:20:45.227Z"
+      }
+    },
+    {
+      "id": "sig-4da2001209",
+      "title": "Figma Make 中的属性面板和注释 | Figma 博客",
+      "oneLiner": "通过可视化编辑和注释，Figma Make 正在弥合设计和代码之间的差距。选择要更改的任何元素，直接在属性面板中调整它，或使用注释编写上下文提示。",
+      "summary": {
+        "oneSentence": "通过可视化编辑和注释，Figma Make 正在弥合设计和代码之间的差距。选择要更改的任何元素，直接在属性面板中调整它，或使用注释编写上下文提示。",
+        "bullets": [
+          "通过可视化编辑和注释，Figma Make 正在弥合设计和代码之间的差距。选择要更改的任何元素，直接在属性面板中调整它，或使用注释编写上下文提示。",
+          "今天，我们在 Figma Make 编辑器中引入属性面板和注释。无论您是从头开始还是编辑现有代码，这些功能都为您提供了一种交互式和可视化的直接编辑方式。",
+          "属性面板将熟悉的 Figma Design 控件（例如调整间距、排版、布局等）引入 Make 中。对于超出视觉属性的更改（例如交互或动画），注释可让您直接在设计中为代理提供上下文。因此，当编辑需要特定性时，您可以调整属性面板中的控件，或者在需要指向和提示时使用注释，同时保持连续的流程。",
+          "直接操作可以提供精确的目标，而不是文本提示所需的搜索和猜测。每次编辑使用的标记要少得多，并且比在提示中描述相同的更改更快地完成。编辑内容首先会堆积在聊天面板中，暂存且无信用，直到您应用它们为止。应用更改后，Make 会消耗积分并将您的文件更新到新版本。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Figma 官网发布：通过可视化编辑和注释，Figma Make 正在弥合设计和代码之间的差距。选择要更改的任何元素，直接在属性面板中调整它，或使用注释编写上下文提示。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://www.figma.com/blog/properties-panel-and-annotations-now-in-figma-make/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "通过可视化编辑和注释，Figma Make 正在弥合设计和代码之间的差距。选择要更改的任何元素，直接在属性面板中调整它，或使用注释编写上下文提示。",
+        "今天，我们在 Figma Make 编辑器中引入属性面板和注释。无论您是从头开始还是编辑现有代码，这些功能都为您提供了一种交互式和可视化的直接编辑方式。",
+        "属性面板将熟悉的 Figma Design 控件（例如调整间距、排版、布局等）引入 Make 中。对于超出视觉属性的更改（例如交互或动画），注释可让您直接在设计中为代理提供上下文。因此，当编辑需要特定性时，您可以调整属性面板中的控件，或者在需要指向和提示时使用注释，同时保持连续的流程。",
+        "直接操作可以提供精确的目标，而不是文本提示所需的搜索和猜测。每次编辑使用的标记要少得多，并且比在提示中描述相同的更改更快地完成。编辑内容首先会堆积在聊天面板中，暂存且无信用，直到您应用它们为止。应用更改后，Make 会消耗积分并将您的文件更新到新版本。",
+        "您可以在属性面板中使用可视控件进行详细编辑。您可以尝试不同的填充，测试一些角半径，调整字体粗细，然后拖动元素以重新排序，直到感觉合适为止。首先，选择右上角工具栏中的“编辑”，然后调整行高、字母间距、不透明度、z-index 和边框样式等内容。您还可以在工作时查看完整的 DOM 树（代码的图层面板），并一次选择元素的每个实例以将它们一起更新，而不是逐一单击。",
+        "现在，使用属性面板进行编辑使用代码库中已定义的颜色和版式标记。随着 Code Connect 即将推出，Make 还将链接到您的 Figma Design 组件，使它们在设计和代码之间保持一致。",
+        "直接操作会在提示框中进行每个编辑，以便您可以在提交之前查看每个更改，或丢弃任何看起来不正确的内容。一旦您满意，Make 就会应用更改并更新底层代码，因此您直观地构建的内容就是实际发布的内容。",
+        "对于超出视觉属性的编辑，注释可以为代理提供上下文，并且可以一次涵盖多个元素。它们对位置非常精确，但让您可以灵活地用自己的话解释变化。在工具栏中选择“为代理添加注释”，直接在画布上标记焦点区域，并描述要更新的内容，例如“当您将鼠标悬停在该缩略图上时，使其稍微放大”、“在 300 毫秒延迟后淡入此按钮”或“点击此按钮时添加微妙的按下效果”。然后，代理会读取您标记的确切上下文，并将您的更改应用于代码中的所有选定元素。",
+        "属性面板和注释比提示更能提高编辑代码的精确度。无论您是使用直接操作来更改元素，还是使用注释来描述更改并专门引导代理，您现在都可以使用直观且可视化的控件进行代码设计。代码层将提供相同的编辑体验 Figma 画布上的代码 通过 Figma Design 中的代码层，您可以与团队并肩探索代码的多个方向。",
+        "属性面板和注释现已推出，并将可供 Figma Make 中的所有席位和计划使用。这两个功能都会消耗积分。注意：属性面板仅适用于新的 Make 设计。任何以前创建的设计将继续使用旧的编辑工具。"
+      ],
+      "highlights": [
+        "通过可视化编辑和注释，Figma Make 正在弥合设计和代码之间的差距。选择要更改的任何元素，直接在属性面板中调整它，或使用注释编写上下文提示。",
+        "今天，我们在 Figma Make 编辑器中引入属性面板和注释。无论您是从头开始还是编辑现有代码，这些功能都为您提供了一种交互式和可视化的直接编辑方式。",
+        "属性面板将熟悉的 Figma Design 控件（例如调整间距、排版、布局等）引入 Make 中。对于超出视觉属性的更改（例如交互或动画），注释可让您直接在设计"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "A Properties Panel and Annotations, Now in Figma Make | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-07-30",
+      "categoryIds": [
+        "vertical-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/properties-panel-and-annotations-now-in-figma-make/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "A Properties Panel and Annotations, Now in Figma Make | Figma Blog"
+      },
+      "raw": {
+        "title": "A properties panel and annotations, now in Figma Make",
+        "url": "https://www.figma.com/blog/properties-panel-and-annotations-now-in-figma-make/",
+        "fetched": true,
+        "savedAt": "2026-07-31T10:20:53.925Z"
+      }
+    },
+    {
+      "id": "sig-06b8d0ad6f",
+      "title": "Gemini 机器人 ER 2 简介",
+      "oneLiner": "Gemini Robotics ER 2 代表了在视频理解、任务编排和多机器人协作方面为机器人提供动力的重大变革，使机器人能够在物理世界中提供更多帮助。",
+      "summary": {
+        "oneSentence": "Gemini Robotics ER 2 代表了在视频理解、任务编排和多机器人协作方面为机器人提供动力的重大变革，使机器人能够在物理世界中提供更多帮助。",
+        "bullets": [
+          "Gemini Robotics ER 2 代表了在视频理解、任务编排和多机器人协作方面为机器人提供动力的重大变革，使机器人能够在物理世界中提供更多帮助。",
+          "我们正在推出 Gemini Robotics ER 2，这是一种旨在充当机器人高级大脑的新模型。它可以实现实时空间推理、多步骤任务规划以及不同机器人之间的协作。您现在可以通过 Gemini API、Google AI Studio 或 Gemini Enterprise Agent Platform 访问该模型，开始构",
+          "谷歌刚刚推出了 Gemini Robotics ER 2，它的作用就像机器人的智能大脑。它可以帮助他们快速思考、规划多步骤任务，甚至与其他机器人一起工作。该模型让机器人观看视频来跟踪自己的进度并实时修复错误。它旨在使机器人在现实世界中更安全、更有帮助。",
+          "对于在日常环境中协助人类的机器人来说，准确的空间推理是不够的。机器人还必须快速思考，根据物理世界的实时速度进行决策和推理。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google DeepMind 官网发布：Gemini Robotics ER 2 代表了在视频理解、任务编排和多机器人协作方面为机器人提供动力的重大变革，使机器人能够在物理世界中提供更多帮助。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "Gemini Robotics ER 2 代表了在视频理解、任务编排和多机器人协作方面为机器人提供动力的重大变革，使机器人能够在物理世界中提供更多帮助。",
+        "我们正在推出 Gemini Robotics ER 2，这是一种旨在充当机器人高级大脑的新模型。它可以实现实时空间推理、多步骤任务规划以及不同机器人之间的协作。您现在可以通过 Gemini API、Google AI Studio 或 Gemini Enterprise Agent Platform 访问该模型，开始构建您自己的物理 AI 代理。",
+        "谷歌刚刚推出了 Gemini Robotics ER 2，它的作用就像机器人的智能大脑。它可以帮助他们快速思考、规划多步骤任务，甚至与其他机器人一起工作。该模型让机器人观看视频来跟踪自己的进度并实时修复错误。它旨在使机器人在现实世界中更安全、更有帮助。",
+        "对于在日常环境中协助人类的机器人来说，准确的空间推理是不够的。机器人还必须快速思考，根据物理世界的实时速度进行决策和推理。",
+        "这就是为什么今天我们推出 Gemini Robotics ER 2，这是我们最强大的机器人“具身推理”模型。将 Gemini Robotics ER 2 视为机器人的高级大脑。它允许机器人与人类聊天、了解物理世界并规划多步骤任务。然后，它将运动执行交给任何给定的较低级别的视觉语言动作 (VLA) 模型。 Gemini Robotics ER 2 还可以本地调用 Google 搜索等工具来查找信息，或任何其他用户定义的功能。 Gemini Robotics ER 2 的设计允许机器人在执行动作的同时“思考”接下来会发生什么。",
+        "Gemini Robotics ER 2 是对 Gemini Robotics ER 1.6 的重大升级。通过观看连续的视频源，机器人现在可以跟踪自己的进度，在出现问题时进行调整，并准确地知道何时继续下一步。我们还引入了多机器人协作，使机器人能够在共享空间中协同工作，并完成单个机器人无法单独完成的复杂工作流程。",
+        "Gemini Robotics ER 2 现已通过 Gemini API、Google AI Studio 向开发人员公开提供，并在 Gemini Enterprise Agent Platform 上提供私人预览版。为了帮助您入门，我们将分享如何配置模型并提示其支持更有用的物理 AI 任务的示例。",
+        "现实世界中的大多数任务都很复杂，需要多个步骤才能完成。 Gemini Robotics ER 2 是一个物理代理，为机器人编排步骤并使其能够自我纠正，并推广到更新颖的情况。为了构建代理设置，开发人员可以将低级控制接口（例如视觉-语言-操作 (VLA) 模型或导航 API）声明为工具，并将多模式视频、音频或文本直接流式传输到模型中。",
+        "Gemini Robotics ER 2 改进了该工具编排工作流程。我们可以使用现实世界的机器人控制，在模拟中评估其与机器人的性能，甚至将其与远程控制机器人的人类配对。",
+        "Gemini Robotics ER 2 在三种控制模式的工具编排方面始终优于 ER 1.6：真实 VLA、模拟 VLA 和人类远程操作。"
+      ],
+      "highlights": [
+        "Gemini Robotics ER 2 代表了在视频理解、任务编排和多机器人协作方面为机器人提供动力的重大变革，使机器人能够在物理世界中提供更多帮助。",
+        "我们正在推出 Gemini Robotics ER 2，这是一种旨在充当机器人高级大脑的新模型。它可以实现实时空间推理、多步骤任务规划以及不同机器人之间的协作。",
+        "谷歌刚刚推出了 Gemini Robotics ER 2，它的作用就像机器人的智能大脑。它可以帮助他们快速思考、规划多步骤任务，甚至与其他机器人一起工作。该模型"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Introducing Gemini Robotics ER 2",
+      "originalLang": "en",
+      "date": "2026-07-30",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google DeepMind",
+        "author": "DeepMind",
+        "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+        "home": "https://deepmind.google/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Introducing Gemini Robotics ER 2"
+      },
+      "raw": {
+        "title": "Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration",
+        "url": "https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/",
+        "fetched": true,
+        "savedAt": "2026-07-31T10:20:59.362Z"
+      }
+    },
+    {
+      "id": "sig-be1b2c4a17",
+      "title": "服务器计时响应标头将传递到客户端 - Vercel",
+      "oneLiner": "2026 年 8 月 10 日，Vercel 的 CDN 将停止剥离 Server-Timing 响应标头并开始将其传递给客户端。",
+      "summary": {
+        "oneSentence": "2026 年 8 月 10 日，Vercel 的 CDN 将停止剥离 Server-Timing 响应标头并开始将其传递给客户端。",
+        "bullets": [
+          "2026 年 8 月 10 日，Vercel 的 CDN 将停止剥离 Server-Timing 响应标头并开始将其传递给客户端。",
+          "使用 Server-Timing 报告数据库查询时间和缓存命中等后端指标。这些值显示在浏览器的网络面板中，并通过 Performance API 作为 PerformanceServerTiming 条目。",
+          "1 服务器计时：db;desc=\"Database\";dur=53,cache;desc=\"Cache\";dur=4.2",
+          "如果您想保留当前行为，即从每个响应中删除标头，您可以在 vercel.json 中添加转换："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：2026 年 8 月 10 日，Vercel 的 CDN 将停止剥离 Server-Timing 响应标头并开始将其传递给客户端。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/server-timing-header"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "2026 年 8 月 10 日，Vercel 的 CDN 将停止剥离 Server-Timing 响应标头并开始将其传递给客户端。",
+        "使用 Server-Timing 报告数据库查询时间和缓存命中等后端指标。这些值显示在浏览器的网络面板中，并通过 Performance API 作为 PerformanceServerTiming 条目。",
+        "1 服务器计时：db;desc=\"Database\";dur=53,cache;desc=\"Cache\";dur=4.2",
+        "如果您想保留当前行为，即从每个响应中删除标头，您可以在 vercel.json 中添加转换：",
+        "1 { 2 \"$schema\" : \"https://openapi.vercel.sh/vercel.json\" , 3 \"路由\" : [ 4 { 5 \"src\" : \"/(.*)\" , 6 \"转换\" : [ 7 { 8 \"类型\" : \"response.headers\" , 9 \"op\" : \"删除\" , 10 \"目标\" : { 11 “关键”：“服务器计时” 12 } 13 } 14 ] 15 } 16 ] 17 }",
+        "了解有关性能 API 和服务器计时的更多信息。"
+      ],
+      "highlights": [
+        "2026 年 8 月 10 日，Vercel 的 CDN 将停止剥离 Server-Timing 响应标头并开始将其传递给客户端。",
+        "使用 Server-Timing 报告数据库查询时间和缓存命中等后端指标。这些值显示在浏览器的网络面板中，并通过 Performance API 作为 Perf",
+        "1 服务器计时：db;desc=\"Database\";dur=53,cache;desc=\"Cache\";dur=4.2"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Server-Timing response headers will pass through to the client - Vercel",
+      "originalLang": "en",
+      "date": "2026-07-30",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/server-timing-header",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Server-Timing response headers will pass through to the client - Vercel"
+      },
+      "raw": {
+        "title": "Server-Timing response headers will pass through to the client",
+        "url": "https://vercel.com/changelog/server-timing-header",
+        "fetched": true,
+        "savedAt": "2026-07-31T10:21:05.131Z"
+      }
+    },
+    {
+      "id": "sig-fc362ba711",
+      "title": "利用 GPT-5.6 推进性价比前沿",
+      "oneLiner": "探索 Luna 和 Terra 的更低 GPT-5.6 定价，以及 OpenAI 更高效的模型如何帮助企业大规模部署 AI 工作流程。",
+      "summary": {
+        "oneSentence": "探索 Luna 和 Terra 的更低 GPT-5.6 定价，以及 OpenAI 更高效的模型如何帮助企业大规模部署 AI 工作流程。",
+        "bullets": [
+          "探索 Luna 和 Terra 的更低 GPT-5.6 定价，以及 OpenAI 更高效的模型如何帮助企业大规模部署 AI 工作流程。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：探索 Luna 和 Terra 的更低 GPT-5.6 定价，以及 OpenAI 更高效的模型如何帮助企业大规模部署 AI 工作流程。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "探索 Luna 和 Terra 的更低 GPT-5.6 定价，以及 OpenAI 更高效的模型如何帮助企业大规模部署 AI 工作流程。"
+      ],
+      "highlights": [
+        "探索 Luna 和 Terra 的更低 GPT-5.6 定价，以及 OpenAI 更高效的模型如何帮助企业大规模部署 AI 工作流程。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Advancing the price-performance frontier with GPT-5.6",
+      "originalLang": "en",
+      "date": "2026-07-30",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Advancing the price-performance frontier with GPT-5.6"
+      },
+      "raw": {
+        "title": "Advancing the price-performance frontier with GPT-5.6",
+        "url": "https://openai.com/index/advancing-the-price-performance-frontier-with-gpt-5-6",
+        "fetched": false,
+        "savedAt": "2026-07-31T10:21:06.350Z"
+      }
+    },
+    {
+      "id": "sig-2c8d17afa6",
+      "title": "Shopify 和 Vercel 正在重建 Hydrogen 以实现更快的店面 |客户 |韦尔塞尔",
+      "oneLiner": "将链接复制到标题 Shopify 和 Vercel 开源且与运行时无关，可在任何 JavaScript 运行的地方运行",
+      "summary": {
+        "oneSentence": "将链接复制到标题 Shopify 和 Vercel 开源且与运行时无关，可在任何 JavaScript 运行的地方运行",
+        "bullets": [
+          "将链接复制到标题 Shopify 和 Vercel 开源且与运行时无关，可在任何 JavaScript 运行的地方运行",
+          "标准行动将代理商务带到每个店面",
+          "全球零售品牌等零售商的功能开发时间从几个月缩短到一周",
+          "Shopify 为全球数百万商家提供商业支持，Hydrogen 是其构建无头店面的框架。 Shopify 团队正在与 Vercel 合作，从头开始重建 Hydrogen。新版本是开源且与运行时无关的，因此开发人员可以使用 Next.js、Nuxt、Svelte 或他们选择的任何框架进行构建。因此，曾经需要自定义粘合代码"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：将链接复制到标题 Shopify 和 Vercel 开源且与运行时无关，可在任何 JavaScript 运行的地方运行",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/shopify-and-vercel-are-rebuilding-hydrogen-for-faster-storefronts"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "将链接复制到标题 Shopify 和 Vercel 开源且与运行时无关，可在任何 JavaScript 运行的地方运行",
+        "标准行动将代理商务带到每个店面",
+        "全球零售品牌等零售商的功能开发时间从几个月缩短到一周",
+        "Shopify 为全球数百万商家提供商业支持，Hydrogen 是其构建无头店面的框架。 Shopify 团队正在与 Vercel 合作，从头开始重建 Hydrogen。新版本是开源且与运行时无关的，因此开发人员可以使用 Next.js、Nuxt、Svelte 或他们选择的任何框架进行构建。因此，曾经需要自定义粘合代码的店面现在附带了内置的最佳实践，从类型安全的 API 客户端到单次导入中的购物车状态。"
+      ],
+      "highlights": [
+        "将链接复制到标题 Shopify 和 Vercel 开源且与运行时无关，可在任何 JavaScript 运行的地方运行",
+        "标准行动将代理商务带到每个店面",
+        "全球零售品牌等零售商的功能开发时间从几个月缩短到一周"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Shopify and Vercel are rebuilding Hydrogen for faster storefronts | Customers | Vercel",
+      "originalLang": "en",
+      "date": "2026-07-30",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/shopify-and-vercel-are-rebuilding-hydrogen-for-faster-storefronts",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Shopify and Vercel are rebuilding Hydrogen for faster storefronts | Customers | Vercel"
+      },
+      "raw": {
+        "title": "Shopify and Vercel are rebuilding Hydrogen for faster storefronts",
+        "url": "https://vercel.com/blog/shopify-and-vercel-are-rebuilding-hydrogen-for-faster-storefronts",
+        "fetched": true,
+        "savedAt": "2026-07-31T10:21:10.465Z"
+      }
+    },
+    {
+      "id": "sig-fb423aadb9",
+      "title": "在单个沙箱中运行多个独立的代理 - Vercel",
+      "oneLiner": "@vercel/sandbox SDK 现在支持多个 Linux 用户和组，因此您可以在单个沙箱中并行运行代理。",
+      "summary": {
+        "oneSentence": "@vercel/sandbox SDK 现在支持多个 Linux 用户和组，因此您可以在单个沙箱中并行运行代理。",
+        "bullets": [
+          "@vercel/sandbox SDK 现在支持多个 Linux 用户和组，因此您可以在单个沙箱中并行运行代理。",
+          "每个代理都以自己的用户身份运行，并具有私有主目录。当团队需要协作时，他们会打开共享工作区。这使得多代理系统更容易构建。",
+          "为每个代理调用createUser；其命令和文件操作以该用户身份运行，并且用户无法读取、写入或列出彼此的文件。要设置共享目录，请调用 createGroup 并向其中添加用户。",
+          "1 const sandbox =等待Sandbox。创造 （ ） ; 2 3 const coder = 等待沙箱。创建用户（“编码器”）； 4 const reviewer = 等待沙箱。创建用户(“审阅者”); 5 6 // 每个用户都隔离到自己的主目录 7 const cmd = wait coder .运行命"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：@vercel/sandbox SDK 现在支持多个 Linux 用户和组，因此您可以在单个沙箱中并行运行代理。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/run-multiple-isolated-agents-in-a-single-sandbox"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "@vercel/sandbox SDK 现在支持多个 Linux 用户和组，因此您可以在单个沙箱中并行运行代理。",
+        "每个代理都以自己的用户身份运行，并具有私有主目录。当团队需要协作时，他们会打开共享工作区。这使得多代理系统更容易构建。",
+        "为每个代理调用createUser；其命令和文件操作以该用户身份运行，并且用户无法读取、写入或列出彼此的文件。要设置共享目录，请调用 createGroup 并向其中添加用户。",
+        "1 const sandbox =等待Sandbox。创造 （ ） ; 2 3 const coder = 等待沙箱。创建用户（“编码器”）； 4 const reviewer = 等待沙箱。创建用户(“审阅者”); 5 6 // 每个用户都隔离到自己的主目录 7 const cmd = wait coder .运行命令（“whoami”）； 8 控制台。日志（等待cmd。输出（））； 9 10 // 通过组目录共享工作 11 wait sandbox .创建组（“项目”）； 12 等待编码员。 addToGroup(“项目”); 13等待审稿人。 addToGroup(“项目”);在单个沙箱中运行多个独立的代理。",
+        "请参阅 Vercel Sandbox 文档了解更多信息。"
+      ],
+      "highlights": [
+        "@vercel/sandbox SDK 现在支持多个 Linux 用户和组，因此您可以在单个沙箱中并行运行代理。",
+        "每个代理都以自己的用户身份运行，并具有私有主目录。当团队需要协作时，他们会打开共享工作区。这使得多代理系统更容易构建。",
+        "为每个代理调用createUser；其命令和文件操作以该用户身份运行，并且用户无法读取、写入或列出彼此的文件。要设置共享目录，请调用 createGroup 并"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Run multiple isolated agents in a single Sandbox - Vercel",
+      "originalLang": "en",
+      "date": "2026-07-30",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/run-multiple-isolated-agents-in-a-single-sandbox",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Run multiple isolated agents in a single Sandbox - Vercel"
+      },
+      "raw": {
+        "title": "Run multiple isolated agents in a single Sandbox",
+        "url": "https://vercel.com/changelog/run-multiple-isolated-agents-in-a-single-sandbox",
+        "fetched": true,
+        "savedAt": "2026-07-31T10:21:15.555Z"
+      }
+    },
+    {
+      "id": "sig-9146ff1756",
+      "title": "Avatarin 如何使用 GPT-Realtime 构建 24/7 零售代理",
+      "oneLiner": "avatarin 使用 OpenAI 的 GPT-Realtime 为 Yamada Denki 购物者提供 24/7 多语言支持。两周内，有 30,000 人使用了该代理，92% 的调查回复是积极的。",
+      "summary": {
+        "oneSentence": "avatarin 使用 OpenAI 的 GPT-Realtime 为 Yamada Denki 购物者提供 24/7 多语言支持。两周内，有 30,000 人使用了该代理，92% 的调查回复是积极的。",
+        "bullets": [
+          "avatarin 使用 OpenAI 的 GPT-Realtime 为 Yamada Denki 购物者提供 24/7 多语言支持。两周内，有 30,000 人使用了该代理，92% 的调查回复是积极的。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：avatarin 使用 OpenAI 的 GPT-Realtime 为 Yamada Denki 购物者提供 24/7 多语言支持。两周内，有 30,000 人使用了该代理，92% 的调查回复是积极的。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/avatarin"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "avatarin 使用 OpenAI 的 GPT-Realtime 为 Yamada Denki 购物者提供 24/7 多语言支持。两周内，有 30,000 人使用了该代理，92% 的调查回复是积极的。"
+      ],
+      "highlights": [
+        "avatarin 使用 OpenAI 的 GPT-Realtime 为 Yamada Denki 购物者提供 24/7 多语言支持。两周内，有 30,000 人"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+      "originalLang": "en",
+      "date": "2026-07-30",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/avatarin",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How avatarin built a 24/7 retail agent with GPT-Realtime"
+      },
+      "raw": {
+        "title": "How avatarin built a 24/7 retail agent with GPT-Realtime",
+        "url": "https://openai.com/index/avatarin",
+        "fetched": false,
+        "savedAt": "2026-07-31T10:21:16.762Z"
+      }
+    },
+    {
+      "id": "sig-821f1950a6",
+      "title": "MiniMax H3 现已在 AI Gateway 上推出 - Vercel",
+      "oneLiner": "MiniMax H3 现已在 AI Gateway 上提供。",
+      "summary": {
+        "oneSentence": "MiniMax H3 现已在 AI Gateway 上提供。",
+        "bullets": [
+          "MiniMax H3 现已在 AI Gateway 上提供。",
+          "H3 根据文本提示、起始图像、一对第一帧和最后一帧或参考材料生成 2K 视频。",
+          "除了文本到视频和第一帧图像到视频之外，该模型还支持从第一个到最后一个关键帧转换和多模式参考到视频，在单个请求中调节参考图像、视频或音频的生成。参考和关键帧模式是互斥的。输出为 2K 分辨率的 mp4，时长为 5 至 15 秒，宽高比包括 21:9、16:9、4:3、1:1、3:4 和 9:16，或自适应提供的图像。",
+          "要使用 MiniMax H3，请在 AI SDK 中将模型设置为 minimax/minimax-h3："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：MiniMax H3 现已在 AI Gateway 上提供。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/minimax-h3-now-available-on-vercel-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "MiniMax H3 现已在 AI Gateway 上提供。",
+        "H3 根据文本提示、起始图像、一对第一帧和最后一帧或参考材料生成 2K 视频。",
+        "除了文本到视频和第一帧图像到视频之外，该模型还支持从第一个到最后一个关键帧转换和多模式参考到视频，在单个请求中调节参考图像、视频或音频的生成。参考和关键帧模式是互斥的。输出为 2K 分辨率的 mp4，时长为 5 至 15 秒，宽高比包括 21:9、16:9、4:3、1:1、3:4 和 9:16，或自适应提供的图像。",
+        "要使用 MiniMax H3，请在 AI SDK 中将模型设置为 minimax/minimax-h3：",
+        "1 从'ai'导入{experimental_generateVideo asgenerateVideo}； 2 3 const {videos}=awaitgenerateVideo({4model:'minimax/minimax-h3',5prompt:'一只白色小猫在阳光明媚的花园里追逐一只蝴蝶。',6aspectRatio:'16:9',7duration:5,8providerOptions:{9minimax:{10pollTimeoutMs:600000 , 11 } , 12 } , 13 } );使用 MiniMax H3 将文本转为视频",
+        "传递带有提示的起始图像，模型会根据图像的长宽比对其进行动画处理。",
+        "1 从'ai'导入{experimental_generateVideo asgenerateVideo}； 2 3 const {videos}=awaitgenerateVideo({4model:'minimax/minimax-h3',5prompt:{6image:firstFrameUrl,7text:'相机慢慢拉回以显示完整的风景。',8},9duration:5,10});使用图像作为该模型的起始框架。",
+        "提供参考图像、视频或音频作为源材料，并按提示中的顺序引用每个内容以参考视频输出。",
+        "1 从'ai'导入{experimental_generateVideo asgenerateVideo}； 2 3 const {videos}=awaitgenerateVideo({4model:'minimax/minimax-h3',5prompt:'当他们走过阳光明媚的花园时，保持图像1中的主题一致。',6duration:5,7inputReferences:[imageUrl],8}); MiniMax H3 的参考图像和视频来指导输出。",
+        "查看AI Gateway上的所有视频模型。在模型游乐场尝试 MiniMax H3。"
+      ],
+      "highlights": [
+        "MiniMax H3 现已在 AI Gateway 上提供。",
+        "H3 根据文本提示、起始图像、一对第一帧和最后一帧或参考材料生成 2K 视频。",
+        "除了文本到视频和第一帧图像到视频之外，该模型还支持从第一个到最后一个关键帧转换和多模式参考到视频，在单个请求中调节参考图像、视频或音频的生成。参考和关键帧模式是"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "MiniMax H3 now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-07-30",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/minimax-h3-now-available-on-vercel-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "MiniMax H3 now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "MiniMax H3 now available on AI Gateway",
+        "url": "https://vercel.com/changelog/minimax-h3-now-available-on-vercel-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-07-31T10:21:26.391Z"
+      }
+    },
     {
       "id": "cur-openai-agentkit",
       "title": "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排",
@@ -1367,19 +2148,22 @@
     },
     {
       "id": "sig-328b19c381",
-      "title": "Vercel WAF for Blob is now in beta",
-      "oneLiner": "The Vercel WAF can now protect a Vercel Blob store. The same rules that guard your deployments (deny",
+      "title": "适用于 Blob 的 Vercel WAF 现已处于测试阶段 - Vercel",
+      "oneLiner": "Vercel WAF 现在可以保护 Vercel Blob 存储。保护部署的相同规则（拒绝、质询、速率限制）现在适用于 blob 流量，无需更改代码、blob URL 或 @vercel/blob 。",
       "summary": {
-        "oneSentence": "The Vercel WAF can now protect a Vercel Blob store. The same rules that guard your deployments (deny, challenge, rate li",
+        "oneSentence": "Vercel WAF 现在可以保护 Vercel Blob 存储。保护部署的相同规则（拒绝、质询、速率限制）现在适用于 blob 流量，无需更改代码、blob URL 或 @vercel/blob 。",
         "bullets": [
-          "The Vercel WAF can now protect a Vercel Blob store. The same rules that guard your deployments (deny, challenge, rate limit) now apply to blob traffic with no changes to your code, blob URLs, or @verc"
+          "Vercel WAF 现在可以保护 Vercel Blob 存储。保护部署的相同规则（拒绝、质询、速率限制）现在适用于 blob 流量，无需更改代码、blob URL 或 @vercel/blob 。",
+          "每个 blob 都已通过 Vercel 的 CDN 提供服务，因此保护是存储上的开关，而不是新的代理。在提供字节之前停止抓取工具、地理限制下载、限制昂贵资产的速率或阻止滥用 IP。",
+          "规则在边缘进行评估，匹配 IP、国家/地区、路径等：",
+          "Deny 返回 403 并提前停止请求，因此不会发生数据传输。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：Vercel WAF 现在可以保护 Vercel Blob 存储。保护部署的相同规则（拒绝、质询、速率限制）现在适用于 blob 流量，无需更改代码、blob URL 或 @vercel/blob 。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -1387,25 +2171,38 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "https://vercel.com/changelog/vercel-waf-for-blob-is-now-in-beta"
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-waf-for-blob-is-now-in-beta"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "The Vercel WAF can now protect a Vercel Blob store. The same rules that guard your deployments (deny, challenge, rate limit) now apply to blob traffic with no changes to your code, blob URLs, or @vercel/blob . Every blob is already served through Vercel's CDN , so protection is a switch on the store, not a new proxy. Stop scrapers, geo-restrict downloads, rate limit expensive assets, or block abusive IPs before a byte is served. Rules evaluate at the edge, matching on IP, country, path, and more : Deny returns a 403 and stops the request early, so no data transfer is incurred. Challenge serves the standard browser challenge, and a request that fails it is blocked. Rate limit returns a 429 when a client exceeds your limit. Redirect and log behave as they do for deployment traffic. The OWASP Core Ruleset is not supported, since it targets dynamic application traffic, not object delivery. Protecting a store Setup is a single switch in the dashboard: Open your Blob store , select Settings , then Protect your store . Vercel connects it to a shared vercel-blob-default-project on your team. You author its rules with the standard rule builder, and they take effect immediately. One rule set covers every protected store, so rules can't be scoped per store. During the beta, setup is dashboard-only, and challenges need a browser to solve, so server-side @vercel/blob requests matching a challenge rule are blocked. Use challenge rules for browser traffic. Vercel WAF for Blob is available in beta on all plans. See the documentation for the full setup. Read more"
+        "Vercel WAF 现在可以保护 Vercel Blob 存储。保护部署的相同规则（拒绝、质询、速率限制）现在适用于 blob 流量，无需更改代码、blob URL 或 @vercel/blob 。",
+        "每个 blob 都已通过 Vercel 的 CDN 提供服务，因此保护是存储上的开关，而不是新的代理。在提供字节之前停止抓取工具、地理限制下载、限制昂贵资产的速率或阻止滥用 IP。",
+        "规则在边缘进行评估，匹配 IP、国家/地区、路径等：",
+        "Deny 返回 403 并提前停止请求，因此不会发生数据传输。",
+        "挑战服务于标准浏览器挑战，失败的请求将被阻止。",
+        "当客户端超出您的限制时，速率限制会返回 429。",
+        "重定向和日志的行为与部署流量的行为相同。",
+        "不支持 OWASP 核心规则集，因为它的目标是动态应用程序流量，而不是对象传递。",
+        "将链接复制到标题保护商店设置是仪表板中的单个开关：",
+        "打开您的 Blob 商店，选择“设置”，然后选择“保护您的商店”。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "Vercel WAF 现在可以保护 Vercel Blob 存储。保护部署的相同规则（拒绝、质询、速率限制）现在适用于 blob 流量，无需更改代码、blob ",
+        "每个 blob 都已通过 Vercel 的 CDN 提供服务，因此保护是存储上的开关，而不是新的代理。在提供字节之前停止抓取工具、地理限制下载、限制昂贵资产的速",
+        "规则在边缘进行评估，匹配 IP、国家/地区、路径等："
+      ],
+      "translated": true,
       "date": "2026-07-24",
       "categoryIds": [
         "agent-code"
@@ -1419,29 +2216,39 @@
         "url": "https://vercel.com/changelog/vercel-waf-for-blob-is-now-in-beta",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel WAF for Blob is now in beta - Vercel"
       },
       "raw": {
         "title": "Vercel WAF for Blob is now in beta",
         "url": "https://vercel.com/changelog/vercel-waf-for-blob-is-now-in-beta",
-        "savedAt": "2026-07-26T10:07:37.966Z"
-      }
+        "savedAt": "2026-07-26T10:07:37.966Z",
+        "retranslatedAt": "2026-07-31T10:21:35.859Z",
+        "fetched": true
+      },
+      "translateMethod": "google",
+      "originalTitle": "Vercel WAF for Blob is now in beta - Vercel",
+      "originalLang": "en"
     },
     {
       "id": "sig-ba963310c6",
-      "title": "Workflow steps now support extended function durations",
-      "oneLiner": "Workflow steps on Pro and Enterprise plans can now run for up to 30 minutes (1800 seconds), up from ",
+      "title": "工作流程步骤现在支持延长功能持续时间 - Vercel",
+      "oneLiner": "现在，使用延长的功能持续时间（测试版），Pro 和 Enterprise 计划上的工作流程步骤可以运行长达 30 分钟（1800 秒），而不是 800 秒。",
       "summary": {
-        "oneSentence": "Workflow steps on Pro and Enterprise plans can now run for up to 30 minutes (1800 seconds), up from 800 seconds, using e",
+        "oneSentence": "现在，使用延长的功能持续时间（测试版），Pro 和 Enterprise 计划上的工作流程步骤可以运行长达 30 分钟（1800 秒），而不是 800 秒。",
         "bullets": [
-          "Workflow steps on Pro and Enterprise plans can now run for up to 30 minutes (1800 seconds), up from 800 seconds, using extended function durations (in beta). To opt in, set VERCEL_ENABLE_WORKFLOW_EXTE"
+          "现在，使用延长的功能持续时间（测试版），Pro 和 Enterprise 计划上的工作流程步骤可以运行长达 30 分钟（1800 秒），而不是 800 秒。",
+          "要选择加入，请在项目的环境变量中将 VERCEL_ENABLE_WORKFLOW_EXTENDED_MAX_DURATION 设置为 1，然后重新部署。需要流畅的计算和受支持的 Node.js 或 Python 运行时。",
+          "爱好计划不提供延长持续时间，该计划仍限制为 5 分钟（300 秒）。",
+          "请参阅文档中计划的功能持续时间限制。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：现在，使用延长的功能持续时间（测试版），Pro 和 Enterprise 计划上的工作流程步骤可以运行长达 30 分钟（1800 秒），而不是 800 秒。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -1449,25 +2256,32 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "https://vercel.com/changelog/workflow-steps-now-support-extended-function-durations"
+          "阅读原文（英文）：https://vercel.com/changelog/workflow-steps-now-support-extended-function-durations"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "Workflow steps on Pro and Enterprise plans can now run for up to 30 minutes (1800 seconds), up from 800 seconds, using extended function durations (in beta). To opt in, set VERCEL_ENABLE_WORKFLOW_EXTENDED_MAX_DURATION to 1 in your project's Environment Variables, then redeploy. Requires Fluid compute and a supported Node.js or Python runtime. Extended durations are not available on Hobby plans, which remain limited to 5 minutes (300 seconds). See function duration limits by plan in the documentation. Read more"
+        "现在，使用延长的功能持续时间（测试版），Pro 和 Enterprise 计划上的工作流程步骤可以运行长达 30 分钟（1800 秒），而不是 800 秒。",
+        "要选择加入，请在项目的环境变量中将 VERCEL_ENABLE_WORKFLOW_EXTENDED_MAX_DURATION 设置为 1，然后重新部署。需要流畅的计算和受支持的 Node.js 或 Python 运行时。",
+        "爱好计划不提供延长持续时间，该计划仍限制为 5 分钟（300 秒）。",
+        "请参阅文档中计划的功能持续时间限制。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "现在，使用延长的功能持续时间（测试版），Pro 和 Enterprise 计划上的工作流程步骤可以运行长达 30 分钟（1800 秒），而不是 800 秒。",
+        "要选择加入，请在项目的环境变量中将 VERCEL_ENABLE_WORKFLOW_EXTENDED_MAX_DURATION 设置为 1，然后重新部署。需要流畅",
+        "爱好计划不提供延长持续时间，该计划仍限制为 5 分钟（300 秒）。"
+      ],
+      "translated": true,
       "date": "2026-07-24",
       "categoryIds": [
         "agent-code"
@@ -1481,29 +2295,39 @@
         "url": "https://vercel.com/changelog/workflow-steps-now-support-extended-function-durations",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Workflow steps now support extended function durations - Vercel"
       },
       "raw": {
         "title": "Workflow steps now support extended function durations",
         "url": "https://vercel.com/changelog/workflow-steps-now-support-extended-function-durations",
-        "savedAt": "2026-07-26T10:07:37.967Z"
-      }
+        "savedAt": "2026-07-26T10:07:37.967Z",
+        "retranslatedAt": "2026-07-31T10:21:40.933Z",
+        "fetched": true
+      },
+      "translateMethod": "google",
+      "originalTitle": "Workflow steps now support extended function durations - Vercel",
+      "originalLang": "en"
     },
     {
       "id": "sig-9a1d7c56ff",
-      "title": "Claude Opus 5 now available on AI Gateway",
-      "oneLiner": "Claude Opus 5 from Anthropic is now available on AI Gateway. Opus 5 improves on previous Opus models",
+      "title": "Claude Opus 5 现已在 AI Gateway 上可用 - Vercel",
+      "oneLiner": "Anthropic 的 Claude Opus 5 现已在 AI Gateway 上提供。",
       "summary": {
-        "oneSentence": "Claude Opus 5 from Anthropic is now available on AI Gateway. Opus 5 improves on previous Opus models for long-horizon ag",
+        "oneSentence": "Anthropic 的 Claude Opus 5 现已在 AI Gateway 上提供。",
         "bullets": [
-          "Claude Opus 5 from Anthropic is now available on AI Gateway. Opus 5 improves on previous Opus models for long-horizon agentic coding, handling multi-file features, larger refactors, and end-to-end fea"
+          "Anthropic 的 Claude Opus 5 现已在 AI Gateway 上提供。",
+          "Opus 5 改进了以前的 Opus 模型，可实现长范围代理编码、处理多文件功能、更大的重构和端到端功能工作，并完成完整任务而不是留下存根或占位符。",
+          "Opus 5 在低强度和中等强度的情况下是有效的，它可以以较高设置的一小部分令牌和延迟来产生质量。视觉在图表、文档、图表和 UI 复制上更加强大，Opus 5 有效利用工具来分析、裁剪和验证视觉作品。它还可以很好地协调子代理团队，这适合多代理工作流程。",
+          "默认情况下推理处于启用状态。在 AI SDK 7 中，使用顶级推理选项设置推理工作，从最小到 xhigh 或 none ："
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：Anthropic 的 Claude Opus 5 现已在 AI Gateway 上提供。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -1511,25 +2335,38 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "https://vercel.com/changelog/claude-opus-5-now-available-on-ai-gateway"
+          "阅读原文（英文）：https://vercel.com/changelog/claude-opus-5-now-available-on-ai-gateway"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "Claude Opus 5 from Anthropic is now available on AI Gateway. Opus 5 improves on previous Opus models for long-horizon agentic coding, handling multi-file features, larger refactors, and end-to-end feature work, and completing full tasks rather than leaving stubs or placeholders. Opus 5 is effective at low and medium effort, which produce quality at a fraction of the tokens and latency of higher settings. Vision is stronger on charts, documents, diagrams, and UI replication, and Opus 5 makes effective use of tools to analyze, crop, and verify visual work. It also coordinates teams of subagents well, which suits multi-agent workflows. Reasoning is on by default. In AI SDK 7, set the reasoning effort with the top-level reasoning option, from minimal up to xhigh , or none : Like Fable 5, Opus 5 ships with elevated cybersecurity safeguards, so benign security work can occasionally trigger a safety classifier and get blocked. To add a backstop, use AI Gateway's model fallbacks. List backup models in a models array under providerOptions.gateway , and the gateway tries them in order when the primary model fails. The same option works across every AI Gateway API format. Opus 5 is compatible with Zero Data Retention . Fast mode To enable fast mode, pass speed: 'fast' in the anthropic provider options in AI SDK: Providers and endpoints Opus 5 can be served by more than one provider. To see every provider serving it, along with per-provider pricing, supported parameters, uptime, throughput, and latency, call the model endpoints API: Use Opus 5 in your coding agent Route your coding agent through AI Gateway to run Opus 5 with unified spend tracking, model fallbacks, and access to every model. Run vercel ai-gateway coding-agents setup to detect the agents on your machine, provision a key, and write their config. See how to set it up in Claude Code . Read more"
+        "Anthropic 的 Claude Opus 5 现已在 AI Gateway 上提供。",
+        "Opus 5 改进了以前的 Opus 模型，可实现长范围代理编码、处理多文件功能、更大的重构和端到端功能工作，并完成完整任务而不是留下存根或占位符。",
+        "Opus 5 在低强度和中等强度的情况下是有效的，它可以以较高设置的一小部分令牌和延迟来产生质量。视觉在图表、文档、图表和 UI 复制上更加强大，Opus 5 有效利用工具来分析、裁剪和验证视觉作品。它还可以很好地协调子代理团队，这适合多代理工作流程。",
+        "默认情况下推理处于启用状态。在 AI SDK 7 中，使用顶级推理选项设置推理工作，从最小到 xhigh 或 none ：",
+        "1 从 'ai' 导入 {streamText} ； 2 3 const result = StreamText({ 4 model : 'anthropic/claude-opus-5' , 5prompt : '实现本期描述的多文件重构。' , 6reasoning : 'medium' , 7 } ) ;",
+        "与《神鬼寓言 5》一样，《Opus 5》配备了更高的网络安全保障措施，因此良性的安全工作偶尔会触发安全分类器并被阻止。要添加后备方案，请使用 AI Gateway 的模型后备方案。在providerOptions.gateway下的models数组中列出备份模型，当主模型失败时，网关会按顺序尝试它们。相同的选项适用于所有 AI Gateway API 格式。",
+        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText ( { 4 model : 'anthropic/claude-opus-5' , 5 提示 : '审核此脚本是否存在漏洞。' , 6 providerOptions : { 7 gateway : { 8 models : [ 'anthropic/claude-opus-4.8' , 'anthropic/claude-sonnet-5' ] , 9 } , 10 } , 11 } );",
+        "Opus 5 与零数据保留兼容。",
+        "将链接复制到标题快速模式要启用快速模式，请在 AI SDK 的人类提供程序选项中传递 speed: 'fast'：",
+        "1 从“ai”导入{streamText}； 2 3 const { text } =等待streamText（{4模型：'anthropic/claude-opus-5'，5提示，6providerOptions：{7anthropic：{8速度：'fast'，9}，10}，11}）；"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "Anthropic 的 Claude Opus 5 现已在 AI Gateway 上提供。",
+        "Opus 5 改进了以前的 Opus 模型，可实现长范围代理编码、处理多文件功能、更大的重构和端到端功能工作，并完成完整任务而不是留下存根或占位符。",
+        "Opus 5 在低强度和中等强度的情况下是有效的，它可以以较高设置的一小部分令牌和延迟来产生质量。视觉在图表、文档、图表和 UI 复制上更加强大，Opus 5 "
+      ],
+      "translated": true,
       "date": "2026-07-24",
       "categoryIds": [
         "agent-code"
@@ -1543,13 +2380,20 @@
         "url": "https://vercel.com/changelog/claude-opus-5-now-available-on-ai-gateway",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Claude Opus 5 now available on AI Gateway - Vercel"
       },
       "raw": {
         "title": "Claude Opus 5 now available on AI Gateway",
         "url": "https://vercel.com/changelog/claude-opus-5-now-available-on-ai-gateway",
-        "savedAt": "2026-07-26T10:07:37.967Z"
-      }
+        "savedAt": "2026-07-26T10:07:37.967Z",
+        "retranslatedAt": "2026-07-31T10:21:50.604Z",
+        "fetched": true
+      },
+      "translateMethod": "google",
+      "originalTitle": "Claude Opus 5 now available on AI Gateway - Vercel",
+      "originalLang": "en"
     },
     {
       "id": "sig-1651e28012",
@@ -1668,19 +2512,22 @@
     },
     {
       "id": "sig-aacffd8617",
-      "title": "How Figma stays ahead of vulnerabilities with agents",
-      "oneLiner": "For the past year, agents at Figma have guarded code as it's written, reviewed every pull request, a",
+      "title": "Figma 如何与代理一起领先于漏洞 | Figma 博客",
+      "oneLiner": "在过去的一年里，Figma 的代理在编写代码时对其进行了保护，审查了每个拉取请求，并审核了十年前的单一存储库，所有这些都基于一个策略。",
       "summary": {
-        "oneSentence": "For the past year, agents at Figma have guarded code as it's written, reviewed every pull request, and audited a decade-",
+        "oneSentence": "在过去的一年里，Figma 的代理在编写代码时对其进行了保护，审查了每个拉取请求，并审核了十年前的单一存储库，所有这些都基于一个策略。",
         "bullets": [
-          "For the past year, agents at Figma have guarded code as it's written, reviewed every pull request, and audited a decade-old monorepo, all on one policy."
+          "在过去的一年里，Figma 的代理在编写代码时对其进行了保护，审查了每个拉取请求，并审核了十年前的单一存储库，所有这些都基于一个策略。",
+          "精确度是指所报告的发现中真正存在漏洞的比例。高精度意味着误报率低。",
+          "召回率是系统捕获的真实漏洞的比例。高召回率意味着低假阴性。",
+          "将编码代理指向代码库并要求他们查找漏洞很简单。获得组织所需的精确度和召回率仍然是一项艰巨的工程：有多少发现是合法的，系统捕获了多少实际错误？"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Figma 官网发布：在过去的一年里，Figma 的代理在编写代码时对其进行了保护，审查了每个拉取请求，并审核了十年前的单一存储库，所有这些都基于一个策略。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -1688,25 +2535,38 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "https://www.figma.com/blog/how-figma-stays-ahead-of-vulnerabilities-with-agents/"
+          "阅读原文（英文）：https://www.figma.com/blog/how-figma-stays-ahead-of-vulnerabilities-with-agents/"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "For the past year, agents at Figma have guarded code as it's written, reviewed every pull request, and audited a decade-old monorepo, all on one policy."
+        "在过去的一年里，Figma 的代理在编写代码时对其进行了保护，审查了每个拉取请求，并审核了十年前的单一存储库，所有这些都基于一个策略。",
+        "精确度是指所报告的发现中真正存在漏洞的比例。高精度意味着误报率低。",
+        "召回率是系统捕获的真实漏洞的比例。高召回率意味着低假阴性。",
+        "将编码代理指向代码库并要求他们查找漏洞很简单。获得组织所需的精确度和召回率仍然是一项艰巨的工程：有多少发现是合法的，系统捕获了多少实际错误？",
+        "这篇文章将介绍我们在为 Figma 代码库运行代理安全性时如何实现精确度、召回率和信任度。我们使用代理在三个阶段预防、检测和修复漏洞：代码生成、拉取请求审查和历史代码审核。",
+        "我们将分享这些阶段的经验教训，将大部分时间花在 PR 审查上——这是我们构建的第一件事，它通过帮助我们开发和自动改进所有安全代理所遵循的策略来解锁安全代码生成和审计。",
+        "我们首先建立审查，因为它的改进循环比生成或审核的循环更快。三个属性使该循环起作用：",
+        "精确信号是作者的评级：在少数提出发现的 PR 中，作者给出了赞成或反对的意见，通常会说明原因。为了衡量召回率，我们针对我们已经知道有错误的提交运行审阅者，并计算它错过的内容。",
+        "目前，我们在 xhigh（超高）工作量设置下运行带有 Opus 4.8 的 Claude Code，并在高工作量设置下运行带有 GPT-5.6 Sol 的 Codex，因为它们错过了不同的错误。如果任一模型得出了结论，我们就会将其冒泡出来。",
+        "成本并不是每次 PR 审核的限制因素。对于我们使用的两种模型，拉取请求审查的平均支出约为 0.50 美元，很少更多，因为大多数 PR 没有什么可标记的。这种方法可以避免赏金支出，更不用说避免对我们的用户造成影响，从而获得数倍的回报。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "在过去的一年里，Figma 的代理在编写代码时对其进行了保护，审查了每个拉取请求，并审核了十年前的单一存储库，所有这些都基于一个策略。",
+        "精确度是指所报告的发现中真正存在漏洞的比例。高精度意味着误报率低。",
+        "召回率是系统捕获的真实漏洞的比例。高召回率意味着低假阴性。"
+      ],
+      "translated": true,
       "date": "2026-07-23",
       "categoryIds": [
         "visual-ui"
@@ -1720,29 +2580,39 @@
         "url": "https://www.figma.com/blog/how-figma-stays-ahead-of-vulnerabilities-with-agents/",
         "home": "https://www.figma.com/blog/",
         "lang": "en",
-        "translated": false
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How Figma Stays Ahead of Vulnerabilities With Agents | Figma Blog"
       },
       "raw": {
         "title": "How Figma stays ahead of vulnerabilities with agents",
         "url": "https://www.figma.com/blog/how-figma-stays-ahead-of-vulnerabilities-with-agents/",
-        "savedAt": "2026-07-26T10:07:37.967Z"
-      }
+        "savedAt": "2026-07-26T10:07:37.967Z",
+        "retranslatedAt": "2026-07-31T10:22:01.828Z",
+        "fetched": true
+      },
+      "translateMethod": "google",
+      "originalTitle": "How Figma Stays Ahead of Vulnerabilities With Agents | Figma Blog",
+      "originalLang": "en"
     },
     {
       "id": "sig-15f53509bf",
-      "title": "Evaluation metrics for Vercel Flags",
-      "oneLiner": "Vercel Flags now shows a live evaluation view on each flag's detail page. You can see evaluations pe",
+      "title": "Vercel 标志的评估指标 - Vercel",
+      "oneLiner": "Vercel Flags 现在在每个标志的详细信息页面上显示实时评估视图。您可以查看随着时间的推移绘制的每分钟评估情况，图表中标记了每个标志版本，以便您可以将评估变化与特定的配置更改联系起来。",
       "summary": {
-        "oneSentence": "Vercel Flags now shows a live evaluation view on each flag's detail page. You can see evaluations per minute charted ove",
+        "oneSentence": "Vercel Flags 现在在每个标志的详细信息页面上显示实时评估视图。您可以查看随着时间的推移绘制的每分钟评估情况，图表中标记了每个标志版本，以便您可以将评估变化与特定的配置更改联系起来。",
         "bullets": [
-          "Vercel Flags now shows a live evaluation view on each flag's detail page. You can see evaluations per minute charted over time, with each flag version marked in the chart so you can tie evaluation shi"
+          "Vercel Flags 现在在每个标志的详细信息页面上显示实时评估视图。您可以查看随着时间的推移绘制的每分钟评估情况，图表中标记了每个标志版本，以便您可以将评估变化与特定的配置更改联系起来。",
+          "您可以按变体、原因、环境、SDK 密钥、客户和报告项目对评估进行分组和筛选。自定义客户端可以在客户端初始值设定项上设置新的 clientName 属性，以显示为自己的组。这使得确认推出百分比与所提供的服务相匹配、将目标匹配与默认回退分开以及查看哪些项目正在使用给定标志变得更加简单。",
+          "升级到 @vercel/flags-core 1.6.0 或更高版本以开始使用。指标会自动显示，无需额外配置。",
+          "在评估指标文档中了解更多信息。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：Vercel Flags 现在在每个标志的详细信息页面上显示实时评估视图。您可以查看随着时间的推移绘制的每分钟评估情况，图表中标记了每个标志版本，以便您可以将评估变化与特定的配置更改联系起来。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -1750,25 +2620,32 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "https://vercel.com/changelog/evaluation-metrics-for-vercel-flags"
+          "阅读原文（英文）：https://vercel.com/changelog/evaluation-metrics-for-vercel-flags"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "Vercel Flags now shows a live evaluation view on each flag's detail page. You can see evaluations per minute charted over time, with each flag version marked in the chart so you can tie evaluation shifts to specific configuration changes. You can group and filter evaluations by variant, reason, environment, SDK key, client, and reporting project. Custom clients can set the new clientName property on the client initializer to show up as their own group. This makes it straightforward to confirm rollout percentages match what's being served, separate targeted matches from default fallbacks, and see which projects are using a given flag. Upgrade to @vercel/flags-core 1.6.0 or later to get started. Metrics appear automatically with no additional configuration. Learn more in the evaluation metrics documentation . Read more"
+        "Vercel Flags 现在在每个标志的详细信息页面上显示实时评估视图。您可以查看随着时间的推移绘制的每分钟评估情况，图表中标记了每个标志版本，以便您可以将评估变化与特定的配置更改联系起来。",
+        "您可以按变体、原因、环境、SDK 密钥、客户和报告项目对评估进行分组和筛选。自定义客户端可以在客户端初始值设定项上设置新的 clientName 属性，以显示为自己的组。这使得确认推出百分比与所提供的服务相匹配、将目标匹配与默认回退分开以及查看哪些项目正在使用给定标志变得更加简单。",
+        "升级到 @vercel/flags-core 1.6.0 或更高版本以开始使用。指标会自动显示，无需额外配置。",
+        "在评估指标文档中了解更多信息。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "Vercel Flags 现在在每个标志的详细信息页面上显示实时评估视图。您可以查看随着时间的推移绘制的每分钟评估情况，图表中标记了每个标志版本，以便您可以将评",
+        "您可以按变体、原因、环境、SDK 密钥、客户和报告项目对评估进行分组和筛选。自定义客户端可以在客户端初始值设定项上设置新的 clientName 属性，以显示为",
+        "升级到 @vercel/flags-core 1.6.0 或更高版本以开始使用。指标会自动显示，无需额外配置。"
+      ],
+      "translated": true,
       "date": "2026-07-23",
       "categoryIds": [
         "agent-code"
@@ -1782,29 +2659,38 @@
         "url": "https://vercel.com/changelog/evaluation-metrics-for-vercel-flags",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Evaluation metrics for Vercel Flags - Vercel"
       },
       "raw": {
         "title": "Evaluation metrics for Vercel Flags",
         "url": "https://vercel.com/changelog/evaluation-metrics-for-vercel-flags",
-        "savedAt": "2026-07-26T10:07:37.968Z"
-      }
+        "savedAt": "2026-07-26T10:07:37.968Z",
+        "retranslatedAt": "2026-07-31T10:22:06.076Z",
+        "fetched": true
+      },
+      "translateMethod": "google",
+      "originalTitle": "Evaluation metrics for Vercel Flags - Vercel",
+      "originalLang": "en"
     },
     {
       "id": "sig-79b4737be4",
-      "title": "Connect to and manage Sandboxes from the dashboard",
-      "oneLiner": "You can now connect to any running Sandbox from the Vercel dashboard. Run commands, browse the files",
+      "title": "从仪表板连接到沙箱并管理沙箱 - Vercel",
+      "oneLiner": "您现在可以从 Vercel 仪表板连接到任何正在运行的 Sandbox。无需离开浏览器即可运行命令、浏览文件系统、上传和下载文件以及检查开放端口。",
       "summary": {
-        "oneSentence": "You can now connect to any running Sandbox from the Vercel dashboard. Run commands, browse the filesystem, upload and do",
+        "oneSentence": "您现在可以从 Vercel 仪表板连接到任何正在运行的 Sandbox。无需离开浏览器即可运行命令、浏览文件系统、上传和下载文件以及检查开放端口。",
         "bullets": [
-          "You can now connect to any running Sandbox from the Vercel dashboard. Run commands, browse the filesystem, upload and download files, and inspect open ports without leaving the browser. From the same "
+          "您现在可以从 Vercel 仪表板连接到任何正在运行的 Sandbox。无需离开浏览器即可运行命令、浏览文件系统、上传和下载文件以及检查开放端口。",
+          "从同一视图中，您还可以管理沙箱生命周期：拍摄快照以及停止或恢复持久沙箱。打开任何沙箱上的“连接”选项卡进行尝试。",
+          "在文档中了解有关 Vercel 沙箱的更多信息。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：您现在可以从 Vercel 仪表板连接到任何正在运行的 Sandbox。无需离开浏览器即可运行命令、浏览文件系统、上传和下载文件以及检查开放端口。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -1812,25 +2698,31 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "https://vercel.com/changelog/connect-to-and-manage-sandboxes-from-the-dashboard"
+          "阅读原文（英文）：https://vercel.com/changelog/connect-to-and-manage-sandboxes-from-the-dashboard"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "You can now connect to any running Sandbox from the Vercel dashboard. Run commands, browse the filesystem, upload and download files, and inspect open ports without leaving the browser. From the same view, you can also manage the sandbox lifecycle: take snapshots, and stop or resume persistent sandboxes. Open the Connect tab on any sandbox to try it out. Learn more about Vercel Sandboxes in the documentation . Read more"
+        "您现在可以从 Vercel 仪表板连接到任何正在运行的 Sandbox。无需离开浏览器即可运行命令、浏览文件系统、上传和下载文件以及检查开放端口。",
+        "从同一视图中，您还可以管理沙箱生命周期：拍摄快照以及停止或恢复持久沙箱。打开任何沙箱上的“连接”选项卡进行尝试。",
+        "在文档中了解有关 Vercel 沙箱的更多信息。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "您现在可以从 Vercel 仪表板连接到任何正在运行的 Sandbox。无需离开浏览器即可运行命令、浏览文件系统、上传和下载文件以及检查开放端口。",
+        "从同一视图中，您还可以管理沙箱生命周期：拍摄快照以及停止或恢复持久沙箱。打开任何沙箱上的“连接”选项卡进行尝试。",
+        "在文档中了解有关 Vercel 沙箱的更多信息。"
+      ],
+      "translated": true,
       "date": "2026-07-23",
       "categoryIds": [
         "agent-code"
@@ -1844,13 +2736,20 @@
         "url": "https://vercel.com/changelog/connect-to-and-manage-sandboxes-from-the-dashboard",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Connect to and manage Sandboxes from the dashboard - Vercel"
       },
       "raw": {
         "title": "Connect to and manage Sandboxes from the dashboard",
         "url": "https://vercel.com/changelog/connect-to-and-manage-sandboxes-from-the-dashboard",
-        "savedAt": "2026-07-26T10:07:37.968Z"
-      }
+        "savedAt": "2026-07-26T10:07:37.968Z",
+        "retranslatedAt": "2026-07-31T10:22:09.418Z",
+        "fetched": true
+      },
+      "translateMethod": "google",
+      "originalTitle": "Connect to and manage Sandboxes from the dashboard - Vercel",
+      "originalLang": "en"
     },
     {
       "id": "sig-93370845f7",
