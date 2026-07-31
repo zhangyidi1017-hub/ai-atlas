@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-31T10:22:10.220Z",
+  "updatedAt": "2026-07-31T22:58:41.841Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 74,
+  "itemCount": 84,
   "brief": {
     "date": "2026-07-31",
-    "generatedAt": "2026-07-31T10:22:10.219Z",
-    "totalCount": 74,
-    "todayCount": 2,
-    "headline": "今日 AI 信号 2 条 · 档案共 74 条",
+    "generatedAt": "2026-07-31T22:58:41.841Z",
+    "totalCount": 84,
+    "todayCount": 12,
+    "headline": "今日 AI 信号 12 条 · 档案共 84 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -67,8 +67,8 @@
         "cur-memory-agents",
         "sig-b86dc435d6",
         "sig-4879819590",
-        "sig-4da2001209",
-        "sig-06b8d0ad6f"
+        "sig-7ae76eb905",
+        "sig-f9c8132320"
       ],
       "emergingTrends": [
         "cur-openai-agentkit",
@@ -109,8 +109,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-07-31T10:22:10.220Z",
-    "summary": "近 30 天共 74 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-07-31T22:58:41.841Z",
+    "summary": "近 30 天共 84 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Agent",
@@ -202,6 +202,30 @@
       "id": "sig-4879819590",
       "title": "Univé 打造一支人工智能就绪的员工队伍",
       "oneLiner": "了解 Univé 如何通过 ChatGPT Enterprise 结合领导力、负责任的治理和员工主导的创新来建立人工智能就绪的员工队伍，以大规模改变工作。",
+      "date": "2026-07-31",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-6e145b017b",
+      "title": "构建丰富的智能",
+      "oneLiner": "一种全栈方法，使先进的人工智能功能更强大、价格更便宜、用途更广泛。",
+      "date": "2026-07-31",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-c5ad624a6f",
+      "title": "破坏刑事诈骗行动",
+      "oneLiner": "OpenAI 使用 ChatGPT 破坏了柬埔寨的一个诈骗活动，以支持投资、恋爱、赌博和冒充计划。",
       "date": "2026-07-31",
       "productIds": [
         "chatgpt"
@@ -411,6 +435,30 @@
       "stars": 4
     },
     {
+      "id": "sig-20b0eb2d5c",
+      "title": "OpenAI 与 Hugging Face 合作解决模型评估期间的安全事件",
+      "oneLiner": "OpenAI 和 Hugging Face 分享了人工智能模型评估期间安全事件的早期发现，强调了先进的网络功能和防御者的经验教训。",
+      "date": "2026-07-21",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-40359dbf5a",
+      "title": "David Vélez 和 Robin Vince 加入 OpenAI 基金会和 OpenAI Group PBC 董事会",
+      "oneLiner": "David Vélez 和 Robin Vince 加入 OpenAI 基金会和 OpenAI Group PBC 的董事会，带来了金融、技术和治理领域的全球领导力。",
+      "date": "2026-07-21",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
       "id": "sig-d42362617c",
       "title": "Introducing the ChatGPT for small business program",
       "oneLiner": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
@@ -419,30 +467,6 @@
         "chatgpt"
       ],
       "source": "OpenAI Blog",
-      "tags": [],
-      "stars": 3
-    },
-    {
-      "id": "sig-20b0eb2d5c",
-      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
-      "oneLiner": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, hi",
-      "date": "2026-07-21",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 3
-    },
-    {
-      "id": "sig-40359dbf5a",
-      "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
-      "oneLiner": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing ",
-      "date": "2026-07-21",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
       "tags": [],
       "stars": 3
     },
@@ -472,40 +496,6 @@
       ],
       "source": "OpenAI",
       "tags": [],
-      "stars": 3
-    },
-    {
-      "id": "cur-memory-agents",
-      "title": "Memory 成为 Agent 标配：从 ChatGPT 到 Cursor 的长期记忆竞赛",
-      "oneLiner": "2026 年 Agent 产品纷纷上线「跨会话记忆」，Memory 从功能变成基础设施。",
-      "date": "2026-07-19",
-      "productIds": [
-        "chatgpt",
-        "cursor",
-        "claude"
-      ],
-      "source": "Latent Space",
-      "tags": [
-        "Memory",
-        "Agent",
-        "Product"
-      ],
-      "stars": 5
-    },
-    {
-      "id": "cur-lovart-design",
-      "title": "Lovart 艺术 Agent：二次元与概念设计的 Agent 化探索",
-      "oneLiner": "Lovart 将风格模板 + Agent 对话结合，服务插画与二次元创作。",
-      "date": "2026-07-18",
-      "productIds": [
-        "lovart"
-      ],
-      "source": "Lovart",
-      "tags": [
-        "Image",
-        "Agent",
-        "Design"
-      ],
       "stars": 3
     }
   ],
@@ -656,6 +646,812 @@
         "url": "https://openai.com/index/unive",
         "fetched": false,
         "savedAt": "2026-07-31T10:20:45.227Z"
+      }
+    },
+    {
+      "id": "sig-7ae76eb905",
+      "title": "AI 流畅度并不是终点线 | Figma 博客",
+      "oneLiner": "超过 90% 的产品制造商表示，人工智能技能对于他们未来的成功至关重要。但如果我们把注意力集中在错误的事情上怎么办？",
+      "summary": {
+        "oneSentence": "超过 90% 的产品制造商表示，人工智能技能对于他们未来的成功至关重要。但如果我们把注意力集中在错误的事情上怎么办？",
+        "bullets": [
+          "超过 90% 的产品制造商表示，人工智能技能对于他们未来的成功至关重要。但如果我们把注意力集中在错误的事情上怎么办？",
+          "的产品制造商表示，学习使用人工智能对于他们未来在岗位上取得成功至关重要。了解 Figma 的人工智能报告中他们还说了些什么。",
+          "我的 LinkedIn 和 X 提要充满了有关人工智能的帖子，内容如下：学习工具，否则就会落后。当然，工具的流畅性很重要——它可以帮助您找到工作、更快地工作，并在不断变化的环境中更加自信。 Figma 的 2026 年 AI 报告明确指出：我们调查的绝大多数设计师、开发人员和产品经理都表示，学习良好地使用 AI 工具至",
+          "下载 Figma 的 2026 年人工智能报告，了解有关设计和人工智能的更多见解。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Figma 官网发布：超过 90% 的产品制造商表示，人工智能技能对于他们未来的成功至关重要。但如果我们把注意力集中在错误的事情上怎么办？",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://www.figma.com/blog/ai-fluency-isnt-the-finish-line/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "超过 90% 的产品制造商表示，人工智能技能对于他们未来的成功至关重要。但如果我们把注意力集中在错误的事情上怎么办？",
+        "的产品制造商表示，学习使用人工智能对于他们未来在岗位上取得成功至关重要。了解 Figma 的人工智能报告中他们还说了些什么。",
+        "我的 LinkedIn 和 X 提要充满了有关人工智能的帖子，内容如下：学习工具，否则就会落后。当然，工具的流畅性很重要——它可以帮助您找到工作、更快地工作，并在不断变化的环境中更加自信。 Figma 的 2026 年 AI 报告明确指出：我们调查的绝大多数设计师、开发人员和产品经理都表示，学习良好地使用 AI 工具至关重要。但是除了工具之外的所有工作部分又如何呢？构建每个人都可以使用的共享系统。与合适的人一起推动和拉动想法。为共同的目标而共同努力。随着人工智能重塑我们的工作方式，这些技能变得更加重要。以下是如何磨练它们。",
+        "下载 Figma 的 2026 年人工智能报告，了解有关设计和人工智能的更多见解。",
+        "人工智能工具可以帮助个人比以往更快地行动，但当整个团队共同前进时，速度变得更加重要。这就是定制内部工具的用武之地。通过构建原型代理、品牌插件或共享提示库，一个人的知识可以变成整个团队可以理解、信任和构建的知识。",
+        "例如，当我们开发人工智能报告时，Figma 研究员 Shane Johnston 编写了一个交互式网站来托管调查数据，使跨职能的利益相关者更容易探索它。 “上下文和数据不仅仅锁在我的脑海中或我的机器上，”他说。 “我们利用人工智能来加速团队的协作能力。” Figma Brand Studio 团队今年为 Config 设计了新的视觉效果 数字工具，人类表达：Config 2026 背后的视觉标识 Figma Brand Studio 设计了一场会议，捕捉了我们在使用 AI 工具时重新混合和重塑的非常人性化的方式。",
+        "发现人们陷入困境的地方、提出解决方案并消除摩擦是优秀产品工作始终需要的本能。借助人工智能，更多的人可以利用这些直觉来构建自定义工具，帮助他们的队友在整个团队中产生真正的影响。整个团队可以一起将移动速度提高 10 倍，而不是一个人单独移动速度提高 10 倍。",
+        "当人工智能可以轻松生成数十个方向时，将这些方向转化为决策本身就成为一种技能。能够促进关键对话一直很重要，但现在比以往任何时候都更加重要。这意味着在整个组织中引入合适的人员，而不仅仅是项目负责人。哪些利益相关者有相反的意见可以推动工作朝着更强有力的方向发展？谁的历史背景可能会完全消除一个方向？谁能在风险发生之前发现它们？我采访了一位领导者，他的团队对一个内部应用程序进行了氛围编码，然后注意到员工知道他们不应该知道的公司项目。这就是团队意识到该应用程序正在暴露敏感信息的原因，并且尽早引入数据治理专家可能会发现它。",
+        "但知道谁应该参与只是良好引导的一部分。决定交付什么需要将正确的选项摆在利益相关者面前，并为他们提供所需的背景。 原型是新的 PRD 越来越多的产品经理发现，最快的清晰方法就是构建。在 Figma Make 内部，他们尽早对假设进行压力测试，建立动力，并围绕切实可行的事情团结团队。",
+        "在会议期间，任务是推动团队做出决定，而不是让谈话绕圈子而没有达成一致。如果人们还没有发言，则提示他们发言。双击不清楚的建议。提出能够推动讨论的问题。在会议结束之前，确保每个人都知道接下来的步骤。这些都不是什么新鲜事，但当选择无限时，基本面就更重要。"
+      ],
+      "highlights": [
+        "超过 90% 的产品制造商表示，人工智能技能对于他们未来的成功至关重要。但如果我们把注意力集中在错误的事情上怎么办？",
+        "的产品制造商表示，学习使用人工智能对于他们未来在岗位上取得成功至关重要。了解 Figma 的人工智能报告中他们还说了些什么。",
+        "我的 LinkedIn 和 X 提要充满了有关人工智能的帖子，内容如下：学习工具，否则就会落后。当然，工具的流畅性很重要——它可以帮助您找到工作、更快地工作，并"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "AI Fluency Isn’t the Finish Line | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-07-31",
+      "categoryIds": [
+        "vertical-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/ai-fluency-isnt-the-finish-line/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "AI Fluency Isn’t the Finish Line | Figma Blog"
+      },
+      "raw": {
+        "title": "AI fluency isn't the finish line",
+        "url": "https://www.figma.com/blog/ai-fluency-isnt-the-finish-line/",
+        "fetched": true,
+        "savedAt": "2026-07-31T22:57:11.038Z"
+      }
+    },
+    {
+      "id": "sig-f9c8132320",
+      "title": "AI Gateway 现在支持团队和项目支出预算 - Vercel",
+      "oneLiner": "除了单个 API 密钥之外，AI 网关支出预算现在还可以涵盖团队或项目。对范围设置美元限制，网关会根据该限制计量支出，并在达到限制后停止进一步的请求，直到预算重置或您提高预算。",
+      "summary": {
+        "oneSentence": "除了单个 API 密钥之外，AI 网关支出预算现在还可以涵盖团队或项目。对范围设置美元限制，网关会根据该限制计量支出，并在达到限制后停止进一步的请求，直到预算重置或您提高预算。",
+        "bullets": [
+          "除了单个 API 密钥之外，AI 网关支出预算现在还可以涵盖团队或项目。对范围设置美元限制，网关会根据该限制计量支出，并在达到限制后停止进一步的请求，直到预算重置或您提高预算。",
+          "将链接复制到标题范围 预算附加到三个范围之一。一项请求可能属于多个预算，并且必须通过所有预算：如果任何一个超出其限制，则该请求将被拒绝，即使其他请求还有剩余空间。",
+          "您的团队通过网关运行的每个请求",
+          "所有请求都归因于单个项目"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：除了单个 API 密钥之外，AI 网关支出预算现在还可以涵盖团队或项目。对范围设置美元限制，网关会根据该限制计量支出，并在达到限制后停止进一步的请求，直到预算重置或您提高预算。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/ai-gateway-spend-budgets-and-alerts"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "除了单个 API 密钥之外，AI 网关支出预算现在还可以涵盖团队或项目。对范围设置美元限制，网关会根据该限制计量支出，并在达到限制后停止进一步的请求，直到预算重置或您提高预算。",
+        "将链接复制到标题范围 预算附加到三个范围之一。一项请求可能属于多个预算，并且必须通过所有预算：如果任何一个超出其限制，则该请求将被拒绝，即使其他请求还有剩余空间。",
+        "您的团队通过网关运行的每个请求",
+        "所有请求都归因于单个项目",
+        "默认情况下，BYOK 支出不计入预算。",
+        "将链接复制到标题 在仪表板中管理预算 从 AI Gateway 预算选项卡设置和跟踪预算。概述根据其限制细分了每个范围的支出，因此您可以在开始拒绝请求之前查看接近或超过的支出。",
+        "打开电子邮件支出警报，以便在刷新期内使用量超过限制的 50%、75% 或 100% 时通知您团队的使用量通知收件人。警报默认处于关闭状态并提供信息：它们从不阻止请求，只有预算限制才会阻止。",
+        "为项目或 API 密钥设置默认预算，每个没有明确预算的项目或 API 密钥都会自动继承它。明确的预算总是会覆盖默认的预算。",
+        "将链接复制到标题从 CLI 管理预算 从 CLI 设置、检查和删除团队和项目预算。刷新周期为每日、每周、每月（默认）或无累积上限。",
+        "1 # 设置团队预算 2 vercel ai-gateway Budgets set team --limit 500 --refresh-period Monthly 3 4 # 将预算范围限定为单个项目 5 vercel ai-gateway Budgets set project my-project --limit 200 --refresh-period Monthly 6 7 # 为没有自己预算的项目或密钥设置默认值 8 vercel ai-gateway Budgets defaults set project --limit 200 --refresh-period Monthly 9 10 # 列出每个预算 11 vercel ai-gateway 预算列表 12 13 # 删除预算 14 vercel ai-gateway 预算删除团队"
+      ],
+      "highlights": [
+        "除了单个 API 密钥之外，AI 网关支出预算现在还可以涵盖团队或项目。对范围设置美元限制，网关会根据该限制计量支出，并在达到限制后停止进一步的请求，直到预算重",
+        "将链接复制到标题范围 预算附加到三个范围之一。一项请求可能属于多个预算，并且必须通过所有预算：如果任何一个超出其限制，则该请求将被拒绝，即使其他请求还有剩余空间",
+        "您的团队通过网关运行的每个请求"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "AI Gateway now supports team and project spend budgets - Vercel",
+      "originalLang": "en",
+      "date": "2026-07-31",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/ai-gateway-spend-budgets-and-alerts",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "AI Gateway now supports team and project spend budgets - Vercel"
+      },
+      "raw": {
+        "title": "AI Gateway now supports team and project spend budgets",
+        "url": "https://vercel.com/changelog/ai-gateway-spend-budgets-and-alerts",
+        "fetched": true,
+        "savedAt": "2026-07-31T22:57:21.473Z"
+      }
+    },
+    {
+      "id": "sig-6e145b017b",
+      "title": "构建丰富的智能",
+      "oneLiner": "一种全栈方法，使先进的人工智能功能更强大、价格更便宜、用途更广泛。",
+      "summary": {
+        "oneSentence": "一种全栈方法，使先进的人工智能功能更强大、价格更便宜、用途更广泛。",
+        "bullets": [
+          "一种全栈方法，使先进的人工智能功能更强大、价格更便宜、用途更广泛。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：一种全栈方法，使先进的人工智能功能更强大、价格更便宜、用途更广泛。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/building-abundant-intelligence"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "一种全栈方法，使先进的人工智能功能更强大、价格更便宜、用途更广泛。"
+      ],
+      "highlights": [
+        "一种全栈方法，使先进的人工智能功能更强大、价格更便宜、用途更广泛。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Building abundant intelligence",
+      "originalLang": "en",
+      "date": "2026-07-31",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/building-abundant-intelligence",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Building abundant intelligence"
+      },
+      "raw": {
+        "title": "Building abundant intelligence",
+        "url": "https://openai.com/index/building-abundant-intelligence",
+        "fetched": false,
+        "savedAt": "2026-07-31T22:57:22.710Z"
+      }
+    },
+    {
+      "id": "sig-1e05bcab84",
+      "title": "DeepSeek V4 Flash 现在在 AI Gateway 上运行更新的权重 - Vercel",
+      "oneLiner": "DeepSeek V4 Flash 现在默认在 AI Gateway 上运行更新的权重，具有明显更强的代理功能。在 Terminal-Bench 上，它的得分为 82.7，比 4 月份预览版的 56.9 分上升了 25.8 分。",
+      "summary": {
+        "oneSentence": "DeepSeek V4 Flash 现在默认在 AI Gateway 上运行更新的权重，具有明显更强的代理功能。在 Terminal-Bench 上，它的得分为 82.7，比 4 月份预览版的 56.9 分上升了 25.8 分。",
+        "bullets": [
+          "DeepSeek V4 Flash 现在默认在 AI Gateway 上运行更新的权重，具有明显更强的代理功能。在 Terminal-Bench 上，它的得分为 82.7，比 4 月份预览版的 56.9 分上升了 25.8 分。",
+          "对 deepseek/deepseek-v4-flash 的请求会自动获取新权重，无需更改模型 ID 或代码。",
+          "目前，DeepSeek 是唯一提供更新权重的提供商。其他提供商，包括零数据保留的提供商，将于下周推出。",
+          "如需使用更新后的 DeepSeek V4 Flash，请在 AI SDK 中将 model 设置为 deepseek/deepseek-v4-flash 。默认情况下，AI Gateway 将路由到具有新权重的提供商："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：DeepSeek V4 Flash 现在默认在 AI Gateway 上运行更新的权重，具有明显更强的代理功能。在 Terminal-Bench 上，它的得分为 82.7，比 4 月份预览版的 56.9 分上升了 25.8 分。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/deepseek-v4-flash-now-runs-updated-weights-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "DeepSeek V4 Flash 现在默认在 AI Gateway 上运行更新的权重，具有明显更强的代理功能。在 Terminal-Bench 上，它的得分为 82.7，比 4 月份预览版的 56.9 分上升了 25.8 分。",
+        "对 deepseek/deepseek-v4-flash 的请求会自动获取新权重，无需更改模型 ID 或代码。",
+        "目前，DeepSeek 是唯一提供更新权重的提供商。其他提供商，包括零数据保留的提供商，将于下周推出。",
+        "如需使用更新后的 DeepSeek V4 Flash，请在 AI SDK 中将 model 设置为 deepseek/deepseek-v4-flash 。默认情况下，AI Gateway 将路由到具有新权重的提供商：",
+        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText({ 4 model: 'deepseek/deepseek-v4-flash', 5prompt: '修复此存储库中失败的测试并打开 PR。', 6}) ;",
+        "要在编码代理中运行 V4 Flash，请使用 vercel ai-gatewaycoding-agents setup 将代理连接到 AI Gateway，然后在代理的模型配置中选择 deepseek/deepseek-v4-flash。请参阅编码剂指南。",
+        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。了解有关 AI Gateway 的更多信息、查看 AI Gateway 模型排行榜或在我们的模型游乐场中尝试。"
+      ],
+      "highlights": [
+        "DeepSeek V4 Flash 现在默认在 AI Gateway 上运行更新的权重，具有明显更强的代理功能。在 Terminal-Bench 上，它的得分为",
+        "对 deepseek/deepseek-v4-flash 的请求会自动获取新权重，无需更改模型 ID 或代码。",
+        "目前，DeepSeek 是唯一提供更新权重的提供商。其他提供商，包括零数据保留的提供商，将于下周推出。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "DeepSeek V4 Flash now runs updated weights on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-07-31",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/deepseek-v4-flash-now-runs-updated-weights-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "DeepSeek V4 Flash now runs updated weights on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "DeepSeek V4 Flash now runs updated weights on AI Gateway",
+        "url": "https://vercel.com/changelog/deepseek-v4-flash-now-runs-updated-weights-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-07-31T22:57:29.850Z"
+      }
+    },
+    {
+      "id": "sig-c5ad624a6f",
+      "title": "破坏刑事诈骗行动",
+      "oneLiner": "OpenAI 使用 ChatGPT 破坏了柬埔寨的一个诈骗活动，以支持投资、恋爱、赌博和冒充计划。",
+      "summary": {
+        "oneSentence": "OpenAI 使用 ChatGPT 破坏了柬埔寨的一个诈骗活动，以支持投资、恋爱、赌博和冒充计划。",
+        "bullets": [
+          "OpenAI 使用 ChatGPT 破坏了柬埔寨的一个诈骗活动，以支持投资、恋爱、赌博和冒充计划。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 使用 ChatGPT 破坏了柬埔寨的一个诈骗活动，以支持投资、恋爱、赌博和冒充计划。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 使用 ChatGPT 破坏了柬埔寨的一个诈骗活动，以支持投资、恋爱、赌博和冒充计划。"
+      ],
+      "highlights": [
+        "OpenAI 使用 ChatGPT 破坏了柬埔寨的一个诈骗活动，以支持投资、恋爱、赌博和冒充计划。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Disrupting a Criminal Scam Operation",
+      "originalLang": "en",
+      "date": "2026-07-31",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Disrupting a Criminal Scam Operation"
+      },
+      "raw": {
+        "title": "Disrupting a Criminal Scam Operation",
+        "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-criminal-scam-operation",
+        "fetched": false,
+        "savedAt": "2026-07-31T22:57:31.068Z"
+      }
+    },
+    {
+      "id": "sig-c01743000e",
+      "title": "Vercel MCP 现在支持 2026-07-28 MCP 规范 - Vercel",
+      "oneLiner": "Vercel MCP 现在支持 2026-07-28 MCP 规范，为新客户端提供无状态请求模型和更新的授权行为，而客户端无需进行任何更改。",
+      "summary": {
+        "oneSentence": "Vercel MCP 现在支持 2026-07-28 MCP 规范，为新客户端提供无状态请求模型和更新的授权行为，而客户端无需进行任何更改。",
+        "bullets": [
+          "Vercel MCP 现在支持 2026-07-28 MCP 规范，为新客户端提供无状态请求模型和更新的授权行为，而客户端无需进行任何更改。",
+          "为 2025 协议构建的客户端将继续像以前一样工作，并且了解新规范的客户端会自动选择它。",
+          "两个协议版本均通过官方 MCP SDK v2 和 mcp-handler 2.x 从同一端点提供服务，这增加了对最新规范的支持，因此单个连接可以处理任一协议。",
+          "与设置无关的任何更改。按照一贯的方式添加服务器。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel MCP 现在支持 2026-07-28 MCP 规范，为新客户端提供无状态请求模型和更新的授权行为，而客户端无需进行任何更改。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-mcp-now-supports-the-2026-07-28-mcp-specification"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel MCP 现在支持 2026-07-28 MCP 规范，为新客户端提供无状态请求模型和更新的授权行为，而客户端无需进行任何更改。",
+        "为 2025 协议构建的客户端将继续像以前一样工作，并且了解新规范的客户端会自动选择它。",
+        "两个协议版本均通过官方 MCP SDK v2 和 mcp-handler 2.x 从同一端点提供服务，这增加了对最新规范的支持，因此单个连接可以处理任一协议。",
+        "与设置无关的任何更改。按照一贯的方式添加服务器。",
+        "您还可以运行 vercel mcp 。请参阅 Vercel MCP 文档以连接您的客户端。有关协议变更的完整列表，请阅读 2026 规范变更日志和授权公告。"
+      ],
+      "highlights": [
+        "Vercel MCP 现在支持 2026-07-28 MCP 规范，为新客户端提供无状态请求模型和更新的授权行为，而客户端无需进行任何更改。",
+        "为 2025 协议构建的客户端将继续像以前一样工作，并且了解新规范的客户端会自动选择它。",
+        "两个协议版本均通过官方 MCP SDK v2 和 mcp-handler 2.x 从同一端点提供服务，这增加了对最新规范的支持，因此单个连接可以处理任一协议。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel MCP now supports the 2026-07-28 MCP specification - Vercel",
+      "originalLang": "en",
+      "date": "2026-07-31",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-mcp-now-supports-the-2026-07-28-mcp-specification",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel MCP now supports the 2026-07-28 MCP specification - Vercel"
+      },
+      "raw": {
+        "title": "Vercel MCP now supports the 2026-07-28 MCP specification",
+        "url": "https://vercel.com/changelog/vercel-mcp-now-supports-the-2026-07-28-mcp-specification",
+        "fetched": true,
+        "savedAt": "2026-07-31T22:57:37.574Z"
+      }
+    },
+    {
+      "id": "sig-ae789ae5d2",
+      "title": "Vercel Observability 中工作流程运行的扩展搜索 - Vercel",
+      "oneLiner": "可观察性中 Vercel 工作流程的运行列表现在具有结构化搜索，为您提供更多查找和调查运行的方法。",
+      "summary": {
+        "oneSentence": "可观察性中 Vercel 工作流程的运行列表现在具有结构化搜索，为您提供更多查找和调查运行的方法。",
+        "bullets": [
+          "可观察性中 Vercel 工作流程的运行列表现在具有结构化搜索，为您提供更多查找和调查运行的方法。",
+          "结构化过滤器：按工作流、环境、部署 ID、区域或任何自定义运行属性过滤运行。粘贴运行 ID 以获取确切的运行。",
+          "更智能的建议：搜索栏会在您键入时建议项目运行数据中的过滤器和值，并且每个项目都会保存最近的搜索。",
+          "可编辑查询：应用的过滤器显示为合并在一个查询中的可移动芯片，并且查询位于 URL 中，因此过滤后的视图可以作为链接共享并在加载时恢复。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：可观察性中 Vercel 工作流程的运行列表现在具有结构化搜索，为您提供更多查找和调查运行的方法。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/expanded-search-for-workflow-runs-in-vercel-observability"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "可观察性中 Vercel 工作流程的运行列表现在具有结构化搜索，为您提供更多查找和调查运行的方法。",
+        "结构化过滤器：按工作流、环境、部署 ID、区域或任何自定义运行属性过滤运行。粘贴运行 ID 以获取确切的运行。",
+        "更智能的建议：搜索栏会在您键入时建议项目运行数据中的过滤器和值，并且每个项目都会保存最近的搜索。",
+        "可编辑查询：应用的过滤器显示为合并在一个查询中的可移动芯片，并且查询位于 URL 中，因此过滤后的视图可以作为链接共享并在加载时恢复。",
+        "例如，工作流：sendEmail 环境：预览区域：iad1 会在一个区域中拉出一个工作流的预览运行，因为该列表否则会显示生产运行。",
+        "从 Vercel Observability 中的“工作流程”选项卡搜索您的运行。"
+      ],
+      "highlights": [
+        "可观察性中 Vercel 工作流程的运行列表现在具有结构化搜索，为您提供更多查找和调查运行的方法。",
+        "结构化过滤器：按工作流、环境、部署 ID、区域或任何自定义运行属性过滤运行。粘贴运行 ID 以获取确切的运行。",
+        "更智能的建议：搜索栏会在您键入时建议项目运行数据中的过滤器和值，并且每个项目都会保存最近的搜索。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Expanded search for workflow runs in Vercel Observability - Vercel",
+      "originalLang": "en",
+      "date": "2026-07-31",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/expanded-search-for-workflow-runs-in-vercel-observability",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Expanded search for workflow runs in Vercel Observability - Vercel"
+      },
+      "raw": {
+        "title": "Expanded search for workflow runs in Vercel Observability",
+        "url": "https://vercel.com/changelog/expanded-search-for-workflow-runs-in-vercel-observability",
+        "fetched": true,
+        "savedAt": "2026-07-31T22:57:43.669Z"
+      }
+    },
+    {
+      "id": "sig-337163c05c",
+      "title": "AI Gateway 上的 Laguna S 2.1 容量增加 10 倍 - Vercel",
+      "oneLiner": "Poolside 的 Laguna S 2.1 现在 AI Gateway 的容量增加了 10 倍。这一增长适用于付费版本 poolside/laguna-s-2.1 和免费版本 poolside/laguna-s-2.1-free ，因此",
+      "summary": {
+        "oneSentence": "Poolside 的 Laguna S 2.1 现在 AI Gateway 的容量增加了 10 倍。这一增长适用于付费版本 poolside/laguna-s-2.1 和免费版本 poolside/laguna-s-2.1-free ，因此",
+        "bullets": [
+          "Poolside 的 Laguna S 2.1 现在 AI Gateway 的容量增加了 10 倍。这一增长适用于付费版本 poolside/laguna-s-2.1 和免费版本 poolside/laguna-s-2.1-free ，因此您可以发送更多请求，适合大容量代理编码和长时间运行的任务。",
+          "要使用 Laguna S 2.1，请在 AI SDK 中将模型设置为 poolside/laguna-s-2.1-free 或 poolside/laguna-s-2.1 ：",
+          "1 从 'ai' 导入 {streamText} ； 2 3 const result =streamText({4 model: 'poolside/laguna-s-2.1', 5prompt: '修复支付套件中的不稳定测试。', 6});",
+          "要在编码代理中运行它，请使用 vercel ai-gatewaycoding-agents setup 将代理连接到 AI Gateway，然后在代理的模型配置中选择 poolside/laguna-s-2.1 或 poolside/laguna-s-2.1-free。请参阅编码剂指南。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Poolside 的 Laguna S 2.1 现在 AI Gateway 的容量增加了 10 倍。这一增长适用于付费版本 poolside/laguna-s-2.1 和免费版本 poolside/laguna-s-2.1-free ，因此",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/10x-more-capacity-for-laguna-s-2-1-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Poolside 的 Laguna S 2.1 现在 AI Gateway 的容量增加了 10 倍。这一增长适用于付费版本 poolside/laguna-s-2.1 和免费版本 poolside/laguna-s-2.1-free ，因此您可以发送更多请求，适合大容量代理编码和长时间运行的任务。",
+        "要使用 Laguna S 2.1，请在 AI SDK 中将模型设置为 poolside/laguna-s-2.1-free 或 poolside/laguna-s-2.1 ：",
+        "1 从 'ai' 导入 {streamText} ； 2 3 const result =streamText({4 model: 'poolside/laguna-s-2.1', 5prompt: '修复支付套件中的不稳定测试。', 6});",
+        "要在编码代理中运行它，请使用 vercel ai-gatewaycoding-agents setup 将代理连接到 AI Gateway，然后在代理的模型配置中选择 poolside/laguna-s-2.1 或 poolside/laguna-s-2.1-free。请参阅编码剂指南。",
+        "AI Gateway 为您提供数百个模型的一个 API，内置使用情况跟踪、重试、故障转移和高于提供商的正常运行时间。它反映了提供商的定价，没有加价，也没有平台费用，包括自带密钥请求。",
+        "在模型游乐场中尝试 Laguna S 2.1。",
+        "AI Gateway：按使用情况跟踪顶级 AI 模型",
+        "AI Gateway 模型排行榜跟踪一段时间内最流行的模型，并根据所有网关流量处理的代币总量对它们进行排名。"
+      ],
+      "highlights": [
+        "Poolside 的 Laguna S 2.1 现在 AI Gateway 的容量增加了 10 倍。这一增长适用于付费版本 poolside/laguna-s-",
+        "要使用 Laguna S 2.1，请在 AI SDK 中将模型设置为 poolside/laguna-s-2.1-free 或 poolside/laguna-",
+        "1 从 'ai' 导入 {streamText} ； 2 3 const result =streamText({4 model: 'poolside/lagu"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "10x more capacity for Laguna S 2.1 on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-07-31",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/10x-more-capacity-for-laguna-s-2-1-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "10x more capacity for Laguna S 2.1 on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "10x more capacity for Laguna S 2.1 on AI Gateway",
+        "url": "https://vercel.com/changelog/10x-more-capacity-for-laguna-s-2-1-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-07-31T22:57:51.537Z"
+      }
+    },
+    {
+      "id": "sig-af395d9333",
+      "title": "Vercel 护照现已全面上市 - Vercel",
+      "oneLiner": "Vercel Passport 现已全面上市。",
+      "summary": {
+        "oneSentence": "Vercel Passport 现已全面上市。",
+        "bullets": [
+          "Vercel Passport 现已全面上市。",
+          "Passport 允许您使用自己的身份提供商保护您的 Vercel 部署。访问者在查看受保护的部署之前通过 Okta、Microsoft Entra ID 或任何 OIDC 提供商进行身份验证，Vercel 将签名的身份令牌转发到部署，以便应用程序代码可以根据访问者身份进行构建。",
+          "将链接复制到标题 读取应用程序代码中的访问者身份 @vercel/passport 中的 getIdentity() 帮助程序读取 Vercel 请求上下文并返回经过身份验证的访问者。 Vercel 会删除客户端提供的 x-vercel-oidc-passport-token 标头值，并在 Passport 验证会话后",
+          "pnpm add @vercel/passport 读取并验证Passport身份的包"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel Passport 现已全面上市。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-passport-generally-available"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Passport 现已全面上市。",
+        "Passport 允许您使用自己的身份提供商保护您的 Vercel 部署。访问者在查看受保护的部署之前通过 Okta、Microsoft Entra ID 或任何 OIDC 提供商进行身份验证，Vercel 将签名的身份令牌转发到部署，以便应用程序代码可以根据访问者身份进行构建。",
+        "将链接复制到标题 读取应用程序代码中的访问者身份 @vercel/passport 中的 getIdentity() 帮助程序读取 Vercel 请求上下文并返回经过身份验证的访问者。 Vercel 会删除客户端提供的 x-vercel-oidc-passport-token 标头值，并在 Passport 验证会话后注入经过验证的令牌，因此您的代码收到的身份已经过验证。",
+        "pnpm add @vercel/passport 读取并验证Passport身份的包",
+        "主题字段是访问者的稳定标识符，范围仅限于您的团队和将 Passport 链接到您的身份提供商的 Vercel Connect 应用程序，externalSubject 是访问者在提供商本身中的 ID。仅当请求在没有 Passport 会话的情况下到达时，帮助程序才会返回 null，因为未经身份验证的浏览器访问者在到达您的代码之前会被重定向到身份提供者。",
+        "app/api/me/route.ts 1 从 '@vercel/passport' 导入 { getIdentity } ； 2 导出异步函数 GET() { 3 constidentity=await getIdentity(); 4 if (!identity) { 5 返回响应。 json({错误:'未经授权'},{状态:401}); 6 } 7 返回响应。 json（身份）； 8 } 在路由处理程序中读取经过身份验证的访问者",
+        "在本地开发中， getIdentity() 返回一个可配置的开发身份，因此相同的代码路径无需真正的身份提供者即可工作。",
+        "将链接复制到标题 通过您的身份提供商的组进行授权 签名的 Passport 令牌现在可以携带来自您的提供商的其他身份声明，例如组成员身份。请求组范围并将 Passport 使用的 Vercel Connect 应用程序中的声明列入白名单，然后从身份负载中读取它：",
+        "app/api/admin/route.ts 1 从 '@vercel/passport' 导入 { getIdentity } ； 2 导出异步函数 GET() { 3 constidentity=await getIdentity(); 4 个常量组 = 同一性？有效负载。团体？？ [ ] ; 5 if (!groups.includes('engineering')) { 6 return Response 。 json({错误:'禁止'},{状态:403}); 7 } 8 返回响应。 json({组}); 9 } 使用 Passport 令牌中的组授权请求",
+        "其他身份范围文档涵盖提供程序配置，包括完整的 Okta 演练。"
+      ],
+      "highlights": [
+        "Vercel Passport 现已全面上市。",
+        "Passport 允许您使用自己的身份提供商保护您的 Vercel 部署。访问者在查看受保护的部署之前通过 Okta、Microsoft Entra ID 或任",
+        "将链接复制到标题 读取应用程序代码中的访问者身份 @vercel/passport 中的 getIdentity() 帮助程序读取 Vercel 请求上下文并返"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Passport is now generally available - Vercel",
+      "originalLang": "en",
+      "date": "2026-07-31",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-passport-generally-available",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Passport is now generally available - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Passport is now generally available",
+        "url": "https://vercel.com/changelog/vercel-passport-generally-available",
+        "fetched": true,
+        "savedAt": "2026-07-31T22:58:01.755Z"
+      }
+    },
+    {
+      "id": "sig-39ac0574f8",
+      "title": "AI网关增加统一快速模式支持 - Vercel",
+      "oneLiner": "AI Gateway 具有统一的快速模式抽象，目前处于测试阶段。",
+      "summary": {
+        "oneSentence": "AI Gateway 具有统一的快速模式抽象，目前处于测试阶段。",
+        "bullets": [
+          "AI Gateway 具有统一的快速模式抽象，目前处于测试阶段。",
+          "现在，您可以以相同的方式为 AI Gateway 上的每个模型请求快速模式。将速度设置为 fast ，网关在快速层可用时提供服务，在不可用时回落到标准速度。",
+          "快速模式以更高的每个令牌成本换取更低的延迟或更高的吞吐量。您可以在任何可用的地方获得它，而无需固定提供商或自行连接任何东西。",
+          "将链接复制到标题请求快速模式在providerOptions.gateway下将速度设置为快速，以便在可路由时将模型升级到其快速服务路径："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：AI Gateway 具有统一的快速模式抽象，目前处于测试阶段。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/ai-gateway-adds-unified-fast-mode-support"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "AI Gateway 具有统一的快速模式抽象，目前处于测试阶段。",
+        "现在，您可以以相同的方式为 AI Gateway 上的每个模型请求快速模式。将速度设置为 fast ，网关在快速层可用时提供服务，在不可用时回落到标准速度。",
+        "快速模式以更高的每个令牌成本换取更低的延迟或更高的吞吐量。您可以在任何可用的地方获得它，而无需固定提供商或自行连接任何东西。",
+        "将链接复制到标题请求快速模式在providerOptions.gateway下将速度设置为快速，以便在可路由时将模型升级到其快速服务路径：",
+        "1 从 'ai' 导入 {generateText} ； 2 3 const {text,providerMetadata}=awaitgenerateText({4model:'anthropic/claude-opus-5',5prompt:'用两句话解释量子计算。',6providerOptions:{7gateway:{8speed:'fast',9},10},11}); 12 控制台。 log('服务速度：',providerMetadata?.网关?.路由?.速度);",
+        "您还可以直接使用其快速 slug 来处理快速变体，例如 anthropic/claude-opus-5-fast ，这与在基本模型上设置 speed: 'fast' 相同。",
+        "当您想要保持基本模型 ID 并回退到标准速度时，请使用速度选项。当您想要直接命名快速变体时（例如在 gateway.models 后备列表中），请使用快速 slug。速度选项适用于所有 AI Gateway API 格式。",
+        "快速模式可用于越来越多的模型。在模型列表中找到它们，并在弹头旁边有一个闪电。在没有快速层的模型上请求快速模式没有任何效果，并且请求以标准速度运行。模型的快速变体通常比基本模型更昂贵：查看定价以了解更多详细信息。",
+        "将链接复制到标题 在编码代理中使用快速模式 在 Claude Code 中，设置后使用 /fast 为 Anthropic Opus 模型切换快速模式。对于其他代理，请在模型配置中选择快速 slug，例如 anthropic/claude-opus-5-fast 。",
+        "有关快速模式的更多信息，请阅读文档。"
+      ],
+      "highlights": [
+        "AI Gateway 具有统一的快速模式抽象，目前处于测试阶段。",
+        "现在，您可以以相同的方式为 AI Gateway 上的每个模型请求快速模式。将速度设置为 fast ，网关在快速层可用时提供服务，在不可用时回落到标准速度。",
+        "快速模式以更高的每个令牌成本换取更低的延迟或更高的吞吐量。您可以在任何可用的地方获得它，而无需固定提供商或自行连接任何东西。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "AI Gateway adds unified fast mode support - Vercel",
+      "originalLang": "en",
+      "date": "2026-07-31",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/ai-gateway-adds-unified-fast-mode-support",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "AI Gateway adds unified fast mode support - Vercel"
+      },
+      "raw": {
+        "title": "AI Gateway adds unified fast mode support",
+        "url": "https://vercel.com/changelog/ai-gateway-adds-unified-fast-mode-support",
+        "fetched": true,
+        "savedAt": "2026-07-31T22:58:11.035Z"
       }
     },
     {
@@ -2753,19 +3549,22 @@
     },
     {
       "id": "sig-93370845f7",
-      "title": "Inspect feature flag history with Vercel CLI",
-      "oneLiner": "Vercel Flags version history can now be inspected from the Vercel CLI with the new vercel flags vers",
+      "title": "使用 Vercel CLI 检查功能标志历史记录 - Vercel",
+      "oneLiner": "现在可以使用新的 vercel flags versions 命令从 Vercel CLI 检查 Vercel Flags 版本历史记录。",
       "summary": {
-        "oneSentence": "Vercel Flags version history can now be inspected from the Vercel CLI with the new vercel flags versions command. Run ve",
+        "oneSentence": "现在可以使用新的 vercel flags versions 命令从 Vercel CLI 检查 Vercel Flags 版本历史记录。",
         "bullets": [
-          "Vercel Flags version history can now be inspected from the Vercel CLI with the new vercel flags versions command. Run vercel flags versions to print the full revision history for a flag, with each rev"
+          "现在可以使用新的 vercel flags versions 命令从 Vercel CLI 检查 Vercel Flags 版本历史记录。",
+          "运行 vercel flags versions <flag> 以打印标志的完整修订历史记录，其中包含每个修订的作者、消息、时间戳和更改的环境。使用 --environment 过滤到特定环境，使用 --limit 和 --cursor 分页，或添加 --json 用于脚本编写。",
+          "vercel flags versions my-flag vercel flags versions my-flag --environment production 打印标志的修订历史记录，可以选择过滤到一个环境",
+          "要将修订版与之前的修订版进行比较，请运行 vercel flags versions diff <flag> --revision <n> 。差异是语义性的，显示了定位规则、推出百分比和条件的字段级更改。添加、删除和修改显示为彩色 + 、 - 和 ~ 。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：现在可以使用新的 vercel flags versions 命令从 Vercel CLI 检查 Vercel Flags 版本历史记录。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -2773,25 +3572,34 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "https://vercel.com/changelog/inspect-feature-flag-history-with-vercel-cli"
+          "阅读原文（英文）：https://vercel.com/changelog/inspect-feature-flag-history-with-vercel-cli"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "Vercel Flags version history can now be inspected from the Vercel CLI with the new vercel flags versions command. Run vercel flags versions to print the full revision history for a flag, with each revision's author, message, timestamp, and changed environments. Filter to a specific environment with --environment , paginate with --limit and --cursor , or add --json for scripting. To compare a revision against the one before it, run vercel flags versions diff --revision . The diff is semantic, surfacing field-level changes to targeting rules, rollout percentages, and conditions. Additions, removals, and modifications appear as colored + , - , and ~ . Update to the latest version of the Vercel CLI and learn more in the Vercel Flags CLI documentation to get started. Read more"
+        "现在可以使用新的 vercel flags versions 命令从 Vercel CLI 检查 Vercel Flags 版本历史记录。",
+        "运行 vercel flags versions <flag> 以打印标志的完整修订历史记录，其中包含每个修订的作者、消息、时间戳和更改的环境。使用 --environment 过滤到特定环境，使用 --limit 和 --cursor 分页，或添加 --json 用于脚本编写。",
+        "vercel flags versions my-flag vercel flags versions my-flag --environment production 打印标志的修订历史记录，可以选择过滤到一个环境",
+        "要将修订版与之前的修订版进行比较，请运行 vercel flags versions diff <flag> --revision <n> 。差异是语义性的，显示了定位规则、推出百分比和条件的字段级更改。添加、删除和修改显示为彩色 + 、 - 和 ~ 。",
+        "vercel flags versions diff my-flag --revision 42 将修订版 42 与之前的修订版进行比较",
+        "更新到最新版本的 Vercel CLI 并在 Vercel Flags CLI 文档中了解更多信息以开始使用。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "现在可以使用新的 vercel flags versions 命令从 Vercel CLI 检查 Vercel Flags 版本历史记录。",
+        "运行 vercel flags versions <flag> 以打印标志的完整修订历史记录，其中包含每个修订的作者、消息、时间戳和更改的环境。使用 --env",
+        "vercel flags versions my-flag vercel flags versions my-flag --environment produc"
+      ],
+      "translated": true,
       "date": "2026-07-23",
       "categoryIds": [
         "agent-code"
@@ -2805,29 +3613,39 @@
         "url": "https://vercel.com/changelog/inspect-feature-flag-history-with-vercel-cli",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Inspect feature flag history with Vercel CLI - Vercel"
       },
       "raw": {
         "title": "Inspect feature flag history with Vercel CLI",
         "url": "https://vercel.com/changelog/inspect-feature-flag-history-with-vercel-cli",
-        "savedAt": "2026-07-26T10:07:37.968Z"
-      }
+        "savedAt": "2026-07-26T10:07:37.968Z",
+        "retranslatedAt": "2026-07-31T22:58:18.104Z",
+        "fetched": true
+      },
+      "translateMethod": "google",
+      "originalTitle": "Inspect feature flag history with Vercel CLI - Vercel",
+      "originalLang": "en"
     },
     {
       "id": "sig-aeeb612d7f",
-      "title": "GitHub tools are now an installable eve extension",
-      "oneLiner": "You can now add GitHub tools to your eve agent as an extension . Add the package, drop one file in a",
+      "title": "GitHub 工具现在是可安装的 eve 扩展 - Vercel",
+      "oneLiner": "您现在可以将 GitHub 工具作为扩展添加到您的 eve 代理中。",
       "summary": {
-        "oneSentence": "You can now add GitHub tools to your eve agent as an extension . Add the package, drop one file in agent/extensions/ , a",
+        "oneSentence": "您现在可以将 GitHub 工具作为扩展添加到您的 eve 代理中。",
         "bullets": [
-          "You can now add GitHub tools to your eve agent as an extension . Add the package, drop one file in agent/extensions/ , and your agent gets every tool with Vercel Connect auth, presets, and approval ru"
+          "您现在可以将 GitHub 工具作为扩展添加到您的 eve 代理中。",
+          "添加软件包，在 agent/extensions/ 中放置一个文件，然后您的代理即可获得内置 Vercel Connect 身份验证、预设和审批规则的所有工具。",
+          "然后从 agent/extensions/ 中的文件注册它：",
+          "agent/extensions/github.ts 1 从 '@github-tools/eve-extension' 导入 githubExtension 2 3 导出默认 githubExtension ( { 4 连接器 : 'github/my-connector' , 5 预设 : 'code-review"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：您现在可以将 GitHub 工具作为扩展添加到您的 eve 代理中。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -2835,25 +3653,38 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "https://vercel.com/changelog/github-tools-eve-extension"
+          "阅读原文（英文）：https://vercel.com/changelog/github-tools-eve-extension"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "You can now add GitHub tools to your eve agent as an extension . Add the package, drop one file in agent/extensions/ , and your agent gets every tool with Vercel Connect auth, presets, and approval rules built in. Install @github-tools/eve-extension : Then register it from a file in agent/extensions/ : Connector-backed auth: Pass a Vercel Connect connector and the extension mints short-lived, scoped GitHub tokens at runtime. Presets scope the toolset: code-review , issue-triage , repo-explorer , ci-ops , and maintainer map to Connect scopes automatically, so tokens carry only the permissions the tools need. Approval rules travel with the config: Every write tool requires approval by default. Gate individual tools with always , once , or an input-dependent predicate, like approving comments only outside your own org. Namespaced and versioned: The filename sets the namespace, so tools run in the agent as github__addPullRequestComment . Upgrade the package to pick up new tools and fixes, and the config schema is validated on import. Get started by creating a GitHub connector and reading the documentation . Read more"
+        "您现在可以将 GitHub 工具作为扩展添加到您的 eve 代理中。",
+        "添加软件包，在 agent/extensions/ 中放置一个文件，然后您的代理即可获得内置 Vercel Connect 身份验证、预设和审批规则的所有工具。",
+        "然后从 agent/extensions/ 中的文件注册它：",
+        "agent/extensions/github.ts 1 从 '@github-tools/eve-extension' 导入 githubExtension 2 3 导出默认 githubExtension ( { 4 连接器 : 'github/my-connector' , 5 预设 : 'code-review' , 6 requireApproval : { 7 addPullRequestComment : ( { toolInput } ) => toolInput ?.owner !== 'vercel-labs' , 8 } , 9 } ) 10 一个文件注册代码审查工具集，在您自己的组织之外发表评论之前需要获得批准。",
+        "连接器支持的身份验证：传递 Vercel Connect 连接器，扩展程序会在运行时生成短暂的、限定范围的 GitHub 令牌。",
+        "预设工具集范围： code-review 、 issues-triage 、 repo-explorer 、 ci-ops 和维护者自动映射到 Connect 范围，因此令牌仅携带工具所需的权限。",
+        "批准规则随配置一起变化：默认情况下，每个写入工具都需要批准。使用 Always 、 Once 或依赖于输入的谓词来控制各个工具，例如仅批准您自己的组织外部的评论。",
+        "命名空间和版本：文件名设置命名空间，因此工具在代理中作为 github__addPullRequestComment 运行。升级包以获取新工具和修复，并在导入时验证配置架构。",
+        "首先创建 GitHub 连接器并阅读文档。",
+        "选择一个模板，在几分钟内完成部署，并从第一次运行开始就在 Vercel 仪表板中调试每个代理会话。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "您现在可以将 GitHub 工具作为扩展添加到您的 eve 代理中。",
+        "添加软件包，在 agent/extensions/ 中放置一个文件，然后您的代理即可获得内置 Vercel Connect 身份验证、预设和审批规则的所有工具。",
+        "然后从 agent/extensions/ 中的文件注册它："
+      ],
+      "translated": true,
       "date": "2026-07-23",
       "categoryIds": [
         "agent-code"
@@ -2867,29 +3698,39 @@
         "url": "https://vercel.com/changelog/github-tools-eve-extension",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "GitHub tools are now an installable eve extension - Vercel"
       },
       "raw": {
         "title": "GitHub tools are now an installable eve extension",
         "url": "https://vercel.com/changelog/github-tools-eve-extension",
-        "savedAt": "2026-07-26T10:07:37.969Z"
-      }
+        "savedAt": "2026-07-26T10:07:37.969Z",
+        "retranslatedAt": "2026-07-31T22:58:27.192Z",
+        "fetched": true
+      },
+      "translateMethod": "google",
+      "originalTitle": "GitHub tools are now an installable eve extension - Vercel",
+      "originalLang": "en"
     },
     {
       "id": "sig-123313b48d",
-      "title": "Ling 3.0 Flash is now available on AI Gateway",
-      "oneLiner": "Ling 3.0 Flash from Ant Group is now available on AI Gateway. The model is free to use for the next ",
+      "title": "Ling 3.0 Flash现已在AI网关上可用 - Vercel",
+      "oneLiner": "蚂蚁集团Ling 3.0 Flash现已登陆AI Gateway。",
       "summary": {
-        "oneSentence": "Ling 3.0 Flash from Ant Group is now available on AI Gateway. The model is free to use for the next three weeks, through",
+        "oneSentence": "蚂蚁集团Ling 3.0 Flash现已登陆AI Gateway。",
         "bullets": [
-          "Ling 3.0 Flash from Ant Group is now available on AI Gateway. The model is free to use for the next three weeks, through August 3rd. Ling 3.0 Flash is a Mixture-of-Experts model with 124B total parame"
+          "蚂蚁集团Ling 3.0 Flash现已登陆AI Gateway。",
+          "该模型在接下来的三周（即 8 月 3 日）内免费使用。",
+          "Ling 3.0 Flash 是一个混合专家模型，总参数为 124B，每个代币活跃量约为 5.1B。它有一个 256K 的 token 上下文窗口，并以思考和非思考模式运行。",
+          "Ling 3.0 Flash 专为生产规模的令牌高效代理推理而构建，在多步骤代理运行中在更严格的令牌、延迟和成本预算内完成更多工作。该模型针对高频代理工作流程、编码代理、文档工作和长上下文多轮交互。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：蚂蚁集团Ling 3.0 Flash现已登陆AI Gateway。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -2897,25 +3738,37 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "https://vercel.com/changelog/ling-3-0-flash-is-now-available-on-ai-gateway"
+          "阅读原文（英文）：https://vercel.com/changelog/ling-3-0-flash-is-now-available-on-ai-gateway"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "Ling 3.0 Flash from Ant Group is now available on AI Gateway. The model is free to use for the next three weeks, through August 3rd. Ling 3.0 Flash is a Mixture-of-Experts model with 124B total parameters and about 5.1B active per token. It has a 256K token context window and runs in thinking and non-thinking modes. Ling 3.0 Flash is built for token-efficient agentic inference at production scale, doing more work within tighter token, latency, and cost budgets across multi-step agent runs. The model targets high-frequency agentic workflows, coding agents, document work, and long-context multi-turn interactions. To use Ling 3.0 Flash, set model to inclusionai/ling-3.0-flash-free in the AI SDK : AI Gateway provides a unified API for calling models, tracking usage and cost, and configuring retries, failover, and performance optimizations for higher-than-provider uptime. It includes built-in custom reporting , Zero Data Retention support , budgets for API keys , routing rules , and more. AI Gateway reflects provider pricing with no markup and does not charge a platform fee on inference, including on Bring Your Own Key (BYOK) requests. Try Ling 3.0 Flash in the model playground . Read more"
+        "蚂蚁集团Ling 3.0 Flash现已登陆AI Gateway。",
+        "该模型在接下来的三周（即 8 月 3 日）内免费使用。",
+        "Ling 3.0 Flash 是一个混合专家模型，总参数为 124B，每个代币活跃量约为 5.1B。它有一个 256K 的 token 上下文窗口，并以思考和非思考模式运行。",
+        "Ling 3.0 Flash 专为生产规模的令牌高效代理推理而构建，在多步骤代理运行中在更严格的令牌、延迟和成本预算内完成更多工作。该模型针对高频代理工作流程、编码代理、文档工作和长上下文多轮交互。",
+        "要使用Ling 3.0 Flash，请在AI SDK中将模型设置为inclusionai/ling-3.0-flash-free：",
+        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText ({ 4 model : 'inclusionai/ling-3.0-flash-free' , 5prompt : '分类此存储库中的未决问题并按主题分组。' , 6 } ) ; 7",
+        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本，以及配置重试、故障转移和性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、零数据保留支持、API 密钥预算、路由规则等。",
+        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。",
+        "在模型游乐场尝试 Ling 3.0 Flash。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "蚂蚁集团Ling 3.0 Flash现已登陆AI Gateway。",
+        "该模型在接下来的三周（即 8 月 3 日）内免费使用。",
+        "Ling 3.0 Flash 是一个混合专家模型，总参数为 124B，每个代币活跃量约为 5.1B。它有一个 256K 的 token 上下文窗口，并以思考和非"
+      ],
+      "translated": true,
       "date": "2026-07-23",
       "categoryIds": [
         "agent-code"
@@ -2929,29 +3782,38 @@
         "url": "https://vercel.com/changelog/ling-3-0-flash-is-now-available-on-ai-gateway",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Ling 3.0 Flash is now available on AI Gateway - Vercel"
       },
       "raw": {
         "title": "Ling 3.0 Flash is now available on AI Gateway",
         "url": "https://vercel.com/changelog/ling-3-0-flash-is-now-available-on-ai-gateway",
-        "savedAt": "2026-07-26T10:07:37.969Z"
-      }
+        "savedAt": "2026-07-26T10:07:37.969Z",
+        "retranslatedAt": "2026-07-31T22:58:35.041Z",
+        "fetched": true
+      },
+      "translateMethod": "google",
+      "originalTitle": "Ling 3.0 Flash is now available on AI Gateway - Vercel",
+      "originalLang": "en"
     },
     {
       "id": "sig-f834153d50",
-      "title": "Vercel MCP can now deploy code",
-      "oneLiner": "The Vercel MCP server can now deploy code directly to a new or existing project. When your AI assist",
+      "title": "Vercel MCP 现在可以部署代码 - Vercel",
+      "oneLiner": "Vercel MCP 服务器现在可以将代码直接部署到新的或现有的项目。当您的 AI 助手完成构建某些内容后，它可以将其发送给 Vercel 并返回可共享的 URL，而无需离开聊天室。",
       "summary": {
-        "oneSentence": "The Vercel MCP server can now deploy code directly to a new or existing project. When your AI assistant finishes buildin",
+        "oneSentence": "Vercel MCP 服务器现在可以将代码直接部署到新的或现有的项目。当您的 AI 助手完成构建某些内容后，它可以将其发送给 Vercel 并返回可共享的 URL，而无需离开聊天室。",
         "bullets": [
-          "The Vercel MCP server can now deploy code directly to a new or existing project. When your AI assistant finishes building something, it can ship it to Vercel and hand back a shareable URL without leav"
+          "Vercel MCP 服务器现在可以将代码直接部署到新的或现有的项目。当您的 AI 助手完成构建某些内容后，它可以将其发送给 Vercel 并返回可共享的 URL，而无需离开聊天室。",
+          "将deploy_to_vercel 工具指向您的文件，Vercel 将创建项目、检测框架、安装依赖项并进行构建。当构建在后台完成时，您将获得一个可以打开和共享的 URL。",
+          "首先，将 Vercel MCP 服务器连接到 Claude、Cursor 或任何受支持的 MCP 客户端，并要求其部署您的项目。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：Vercel MCP 服务器现在可以将代码直接部署到新的或现有的项目。当您的 AI 助手完成构建某些内容后，它可以将其发送给 Vercel 并返回可共享的 URL，而无需离开聊天室。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -2959,25 +3821,31 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "https://vercel.com/changelog/vercel-mcp-can-now-deploy-code"
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-mcp-can-now-deploy-code"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "The Vercel MCP server can now deploy code directly to a new or existing project. When your AI assistant finishes building something, it can ship it to Vercel and hand back a shareable URL without leaving the chat. Point the deploy_to_vercel tool at your files and Vercel creates the project, detects the framework, installs dependencies, and builds. You get a URL you can open and share while the build finishes in the background. To get started, connect the Vercel MCP server to Claude, Cursor, or any supported MCP client , and ask it to deploy your project. Learn more about the Vercel MCP. Read more"
+        "Vercel MCP 服务器现在可以将代码直接部署到新的或现有的项目。当您的 AI 助手完成构建某些内容后，它可以将其发送给 Vercel 并返回可共享的 URL，而无需离开聊天室。",
+        "将deploy_to_vercel 工具指向您的文件，Vercel 将创建项目、检测框架、安装依赖项并进行构建。当构建在后台完成时，您将获得一个可以打开和共享的 URL。",
+        "首先，将 Vercel MCP 服务器连接到 Claude、Cursor 或任何受支持的 MCP 客户端，并要求其部署您的项目。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "Vercel MCP 服务器现在可以将代码直接部署到新的或现有的项目。当您的 AI 助手完成构建某些内容后，它可以将其发送给 Vercel 并返回可共享的 UR",
+        "将deploy_to_vercel 工具指向您的文件，Vercel 将创建项目、检测框架、安装依赖项并进行构建。当构建在后台完成时，您将获得一个可以打开和共享的",
+        "首先，将 Vercel MCP 服务器连接到 Claude、Cursor 或任何受支持的 MCP 客户端，并要求其部署您的项目。"
+      ],
+      "translated": true,
       "date": "2026-07-23",
       "categoryIds": [
         "agent-code"
@@ -2991,13 +3859,20 @@
         "url": "https://vercel.com/changelog/vercel-mcp-can-now-deploy-code",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel MCP can now deploy code - Vercel"
       },
       "raw": {
         "title": "Vercel MCP can now deploy code",
         "url": "https://vercel.com/changelog/vercel-mcp-can-now-deploy-code",
-        "savedAt": "2026-07-26T10:07:37.969Z"
-      }
+        "savedAt": "2026-07-26T10:07:37.969Z",
+        "retranslatedAt": "2026-07-31T22:58:38.560Z",
+        "fetched": true
+      },
+      "translateMethod": "google",
+      "originalTitle": "Vercel MCP can now deploy code - Vercel",
+      "originalLang": "en"
     },
     {
       "id": "sig-dc52ca5a9a",
@@ -3925,6 +4800,156 @@
       ]
     },
     {
+      "id": "sig-20b0eb2d5c",
+      "title": "OpenAI 与 Hugging Face 合作解决模型评估期间的安全事件",
+      "oneLiner": "OpenAI 和 Hugging Face 分享了人工智能模型评估期间安全事件的早期发现，强调了先进的网络功能和防御者的经验教训。",
+      "summary": {
+        "oneSentence": "OpenAI 和 Hugging Face 分享了人工智能模型评估期间安全事件的早期发现，强调了先进的网络功能和防御者的经验教训。",
+        "bullets": [
+          "OpenAI 和 Hugging Face 分享了人工智能模型评估期间安全事件的早期发现，强调了先进的网络功能和防御者的经验教训。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 和 Hugging Face 分享了人工智能模型评估期间安全事件的早期发现，强调了先进的网络功能和防御者的经验教训。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/hugging-face-model-evaluation-security-incident"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 和 Hugging Face 分享了人工智能模型评估期间安全事件的早期发现，强调了先进的网络功能和防御者的经验教训。"
+      ],
+      "highlights": [
+        "OpenAI 和 Hugging Face 分享了人工智能模型评估期间安全事件的早期发现，强调了先进的网络功能和防御者的经验教训。"
+      ],
+      "translated": true,
+      "originalTitle": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+      "originalLang": "en",
+      "date": "2026-07-21",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "OpenAI and Hugging Face partner to address security incident during model evaluation"
+      },
+      "raw": {
+        "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
+        "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
+        "fetched": false,
+        "savedAt": "2026-07-27T07:32:45.029Z",
+        "retranslatedAt": "2026-07-31T22:58:39.793Z"
+      },
+      "translateMethod": "google"
+    },
+    {
+      "id": "sig-40359dbf5a",
+      "title": "David Vélez 和 Robin Vince 加入 OpenAI 基金会和 OpenAI Group PBC 董事会",
+      "oneLiner": "David Vélez 和 Robin Vince 加入 OpenAI 基金会和 OpenAI Group PBC 的董事会，带来了金融、技术和治理领域的全球领导力。",
+      "summary": {
+        "oneSentence": "David Vélez 和 Robin Vince 加入 OpenAI 基金会和 OpenAI Group PBC 的董事会，带来了金融、技术和治理领域的全球领导力。",
+        "bullets": [
+          "David Vélez 和 Robin Vince 加入 OpenAI 基金会和 OpenAI Group PBC 的董事会，带来了金融、技术和治理领域的全球领导力。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：David Vélez 和 Robin Vince 加入 OpenAI 基金会和 OpenAI Group PBC 的董事会，带来了金融、技术和治理领域的全球领导力。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/david-velez-robin-vince-join-openai-boards"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "David Vélez 和 Robin Vince 加入 OpenAI 基金会和 OpenAI Group PBC 的董事会，带来了金融、技术和治理领域的全球领导力。"
+      ],
+      "highlights": [
+        "David Vélez 和 Robin Vince 加入 OpenAI 基金会和 OpenAI Group PBC 的董事会，带来了金融、技术和治理领域的全球领"
+      ],
+      "translated": true,
+      "originalTitle": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
+      "originalLang": "en",
+      "date": "2026-07-21",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC"
+      },
+      "raw": {
+        "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
+        "url": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
+        "fetched": false,
+        "savedAt": "2026-07-27T07:33:07.086Z",
+        "retranslatedAt": "2026-07-31T22:58:41.039Z"
+      },
+      "translateMethod": "google"
+    },
+    {
       "id": "sig-afd8a8808b",
       "title": "California Sea Lion",
       "summary": {
@@ -4135,148 +5160,6 @@
         "readMinutes": 3
       },
       "affectedProductIds": []
-    },
-    {
-      "id": "sig-20b0eb2d5c",
-      "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
-      "oneLiner": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, hi",
-      "summary": {
-        "oneSentence": "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced ",
-        "bullets": [
-          "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders."
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://openai.com/index/hugging-face-model-evaluation-security-incident"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "OpenAI and Hugging Face share early findings from a security incident during AI model evaluation, highlighting advanced cyber capabilities and lessons for defenders."
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "OpenAI and Hugging Face partner to address security incident during model evaluation",
-      "originalLang": "en",
-      "date": "2026-07-21",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "OpenAI and Hugging Face partner to address security incident during model evaluation"
-      },
-      "raw": {
-        "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
-        "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-        "fetched": false,
-        "savedAt": "2026-07-27T07:32:45.029Z"
-      }
-    },
-    {
-      "id": "sig-40359dbf5a",
-      "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
-      "oneLiner": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing ",
-      "summary": {
-        "oneSentence": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in",
-        "bullets": [
-          "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance."
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://openai.com/index/david-velez-robin-vince-join-openai-boards"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC, bringing global leadership in finance, technology, and governance."
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
-      "originalLang": "en",
-      "date": "2026-07-21",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC"
-      },
-      "raw": {
-        "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
-        "url": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
-        "fetched": false,
-        "savedAt": "2026-07-27T07:33:07.086Z"
-      }
     },
     {
       "id": "cur-libtv-canvas",
