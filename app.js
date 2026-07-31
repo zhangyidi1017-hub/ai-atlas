@@ -1,4 +1,9 @@
 (() => {
+  if (!window.AI_DATA) {
+    console.error("AI_DATA 未加载，请检查 data.js");
+    return;
+  }
+
   const { scenes, products, news: fallbackNews, featuredBanner = [], categoryPins = {} } = window.AI_DATA;
 
   let news = [...fallbackNews];
@@ -1749,6 +1754,14 @@
 
   let revealObserver;
   function bindReveal() {
+    const targets = document.querySelectorAll(".reveal:not(.is-visible)");
+    if (!targets.length) return;
+
+    if (typeof IntersectionObserver === "undefined") {
+      targets.forEach((el) => el.classList.add("is-visible"));
+      return;
+    }
+
     if (!revealObserver) {
       revealObserver = new IntersectionObserver(
         (entries) => {
@@ -1762,7 +1775,7 @@
         { threshold: 0.08, rootMargin: "0px 0px -24px 0px" }
       );
     }
-    document.querySelectorAll(".reveal:not(.is-visible)").forEach((el) => {
+    targets.forEach((el) => {
       revealObserver.observe(el);
     });
   }
@@ -2142,11 +2155,22 @@
   );
 
   async function boot() {
-    await loadNewsFeed();
-    news = news.map(normalizeNewsItem);
-    newsMap = Object.fromEntries(news.map((n) => [n.id, n]));
-    showView("home", { push: false });
-    bindReveal();
+    try {
+      await loadNewsFeed();
+      news = news.map(normalizeNewsItem);
+      newsMap = Object.fromEntries(news.map((n) => [n.id, n]));
+      showView("home", { push: false });
+      bindReveal();
+    } catch (err) {
+      console.error("页面初始化失败", err);
+      const app = document.getElementById("app");
+      if (app) {
+        app.insertAdjacentHTML(
+          "afterbegin",
+          `<div class="boot-error" role="alert">页面加载异常，请刷新或稍后再试。</div>`
+        );
+      }
+    }
   }
 
   boot();
