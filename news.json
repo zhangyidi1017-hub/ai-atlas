@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-07-31T22:58:41.841Z",
+  "updatedAt": "2026-08-01T22:53:38.918Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 84,
+  "itemCount": 94,
   "brief": {
-    "date": "2026-07-31",
-    "generatedAt": "2026-07-31T22:58:41.841Z",
-    "totalCount": 84,
-    "todayCount": 12,
-    "headline": "今日 AI 信号 12 条 · 档案共 84 条",
+    "date": "2026-08-01",
+    "generatedAt": "2026-08-01T22:53:38.917Z",
+    "totalCount": 94,
+    "todayCount": 1,
+    "headline": "今日 AI 信号 1 条 · 档案共 94 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -40,10 +40,10 @@
         "readMinutes": 5
       },
       {
-        "id": "sig-b86dc435d6",
-        "title": "在整个欧洲推进负责任的人工智能",
+        "id": "sig-6d58997b46",
+        "title": "数学和理论计算机科学的十大进展",
         "stars": 4,
-        "oneLiner": "OpenAI 分享其安全、保障、透明度和来源实践如何支持欧洲负责任的人工智能治理。随着欧盟人工智能法案的进展，这项工作将继续进行。",
+        "oneLiner": "OpenAI 分享了数学和理论计算机科学中长期存在的开放问题的新成果，包括几何、密码学和复杂性方面的进展。",
         "readMinutes": 5
       }
     ],
@@ -53,8 +53,8 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "sig-b86dc435d6",
-        "sig-4879819590"
+        "sig-6d58997b46",
+        "sig-b86dc435d6"
       ],
       "newReleases": [
         "cur-cursor-agent",
@@ -65,10 +65,10 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
+        "sig-6d58997b46",
         "sig-b86dc435d6",
         "sig-4879819590",
-        "sig-7ae76eb905",
-        "sig-f9c8132320"
+        "sig-7ae76eb905"
       ],
       "emergingTrends": [
         "cur-openai-agentkit",
@@ -109,8 +109,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-07-31T22:58:41.841Z",
-    "summary": "近 30 天共 84 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-08-01T22:53:38.918Z",
+    "summary": "近 30 天共 94 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Agent",
@@ -186,6 +186,18 @@
     ]
   },
   "productUpdates": [
+    {
+      "id": "sig-6d58997b46",
+      "title": "数学和理论计算机科学的十大进展",
+      "oneLiner": "OpenAI 分享了数学和理论计算机科学中长期存在的开放问题的新成果，包括几何、密码学和复杂性方面的进展。",
+      "date": "2026-08-01",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
     {
       "id": "sig-b86dc435d6",
       "title": "在整个欧洲推进负责任的人工智能",
@@ -485,21 +497,83 @@
         "Product"
       ],
       "stars": 4
-    },
-    {
-      "id": "sig-d4ff9ec891",
-      "title": "Safety and alignment in an era of long-horizon models",
-      "oneLiner": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed",
-      "date": "2026-07-20",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 3
     }
   ],
   "items": [
+    {
+      "id": "sig-6d58997b46",
+      "title": "数学和理论计算机科学的十大进展",
+      "oneLiner": "OpenAI 分享了数学和理论计算机科学中长期存在的开放问题的新成果，包括几何、密码学和复杂性方面的进展。",
+      "summary": {
+        "oneSentence": "OpenAI 分享了数学和理论计算机科学中长期存在的开放问题的新成果，包括几何、密码学和复杂性方面的进展。",
+        "bullets": [
+          "OpenAI 分享了数学和理论计算机科学中长期存在的开放问题的新成果，包括几何、密码学和复杂性方面的进展。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 分享了数学和理论计算机科学中长期存在的开放问题的新成果，包括几何、密码学和复杂性方面的进展。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/ten-advances-in-mathematics"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 分享了数学和理论计算机科学中长期存在的开放问题的新成果，包括几何、密码学和复杂性方面的进展。"
+      ],
+      "highlights": [
+        "OpenAI 分享了数学和理论计算机科学中长期存在的开放问题的新成果，包括几何、密码学和复杂性方面的进展。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Ten advances in mathematics and theoretical computer science",
+      "originalLang": "en",
+      "date": "2026-08-01",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/ten-advances-in-mathematics",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Ten advances in mathematics and theoretical computer science"
+      },
+      "raw": {
+        "title": "Ten advances in mathematics and theoretical computer science",
+        "url": "https://openai.com/index/ten-advances-in-mathematics",
+        "fetched": false,
+        "savedAt": "2026-08-01T22:52:23.049Z"
+      }
+    },
     {
       "id": "sig-b86dc435d6",
       "title": "在整个欧洲推进负责任的人工智能",
@@ -1455,6 +1529,170 @@
       }
     },
     {
+      "id": "sig-5ae5416067",
+      "title": "聊天 SDK 现在支持 Teams 上的反应和临时消息 - Vercel",
+      "oneLiner": "Chat SDK 的 Microsoft Teams 适配器现在通过与其他适配器相同的 API 支持反应和临时消息。",
+      "summary": {
+        "oneSentence": "Chat SDK 的 Microsoft Teams 适配器现在通过与其他适配器相同的 API 支持反应和临时消息。",
+        "bullets": [
+          "Chat SDK 的 Microsoft Teams 适配器现在通过与其他适配器相同的 API 支持反应和临时消息。",
+          "机器人可以添加和删除对 Teams 消息的反应，并调用 thread.postEphemeral() 或 channel.postEphemeral() 来发送只有目标用户才能看到的本机、有针对性的消息，例如权限提示。",
+          "lib/bot.ts 1 从“聊天”导入{聊天，表情符号}； 2 从“@chat-adapter/teams”导入{createTeamsAdapter}； 3 4 const bot = new Chat ({ 5 userName : \"mybot\" , 6 适配器 : { 7 团队 : createTeamsAd",
+          "作者电子邮件：传入的 Teams 消息包括作者的 Microsoft Graph 电子邮件，及其用户主体名称作为后备。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Chat SDK 的 Microsoft Teams 适配器现在通过与其他适配器相同的 API 支持反应和临时消息。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/chat-sdk-reactions-and-ephemeral-messages-on-teams"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Chat SDK 的 Microsoft Teams 适配器现在通过与其他适配器相同的 API 支持反应和临时消息。",
+        "机器人可以添加和删除对 Teams 消息的反应，并调用 thread.postEphemeral() 或 channel.postEphemeral() 来发送只有目标用户才能看到的本机、有针对性的消息，例如权限提示。",
+        "lib/bot.ts 1 从“聊天”导入{聊天，表情符号}； 2 从“@chat-adapter/teams”导入{createTeamsAdapter}； 3 4 const bot = new Chat ({ 5 userName : \"mybot\" , 6 适配器 : { 7 团队 : createTeamsAdapter ( ) , 8 } , 9 } ) ; 10 11 机器人。 onSubscribedMessage ( async ( thread , message ) => { 12 13 // 确认并做出反应，然后在完成后清除它 14 const sent = wait thread . post ( \"Working on it...\" ) ; 15 wait sent . addReaction ( emoji . check ) ; 16 wait sent .removeReaction ( emoji . check ) ; 17 18 // 仅回复消息作者看到它 19 wait thread . postEphemeral ( message .author , \"只有你可以看到这个\" , { 20 FallbackToDM : true , 21 } ) ;",
+        "作者电子邮件：传入的 Teams 消息包括作者的 Microsoft Graph 电子邮件，及其用户主体名称作为后备。",
+        "自定义令牌工厂：在 TeamsAdapterConfig 中传递令牌函数以提供自己的访问令牌，以便在没有 Azure IMDS 的运行时上的机器人可以在没有静态客户端密钥的情况下进行身份验证。",
+        "本机 DM 状态：进度消息现在在直接消息中显示为本机 Teams 状态。",
+        "对话路由：群组对话不再被误识别为直接消息，因此它们始终得到正确处理。",
+        "提及转换：电子邮件地址、URL 内的 @handles 以及代码跨度内的提及不再转换为 Teams 提及。",
+        "请阅读 Teams 适配器文档以开始使用，或了解有关临时消息和反应的更多信息。",
+        "特别感谢 onmax 对此版本的贡献。"
+      ],
+      "highlights": [
+        "Chat SDK 的 Microsoft Teams 适配器现在通过与其他适配器相同的 API 支持反应和临时消息。",
+        "机器人可以添加和删除对 Teams 消息的反应，并调用 thread.postEphemeral() 或 channel.postEphemeral() 来发送",
+        "lib/bot.ts 1 从“聊天”导入{聊天，表情符号}； 2 从“@chat-adapter/teams”导入{createTeamsAdapter}； 3"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Chat SDK now supports reactions and ephemeral messages on Teams - Vercel",
+      "originalLang": "en",
+      "date": "2026-07-31",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/chat-sdk-reactions-and-ephemeral-messages-on-teams",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Chat SDK now supports reactions and ephemeral messages on Teams - Vercel"
+      },
+      "raw": {
+        "title": "Chat SDK now supports reactions and ephemeral messages on Teams",
+        "url": "https://vercel.com/changelog/chat-sdk-reactions-and-ephemeral-messages-on-teams",
+        "fetched": true,
+        "savedAt": "2026-08-01T22:52:29.973Z"
+      }
+    },
+    {
+      "id": "sig-179f4fe13f",
+      "title": "AI 网关日志现在有一个专用页面 - Vercel",
+      "oneLiner": "AI Gateway 现在有一个专门的日志页面，列出了您的团队通过网关发送的每个请求（最新的在前），以及成本、令牌计数、持续时间以及为其提供服务的模型、提供商和区域。打开任何请求以查看其路由方式。它可在团队范围内和每个项目中使用。",
+      "summary": {
+        "oneSentence": "AI Gateway 现在有一个专门的日志页面，列出了您的团队通过网关发送的每个请求（最新的在前），以及成本、令牌计数、持续时间以及为其提供服务的模型、提供商和区域。打开任何请求以查看其路由方式。它可在团队范围内和每个项目中使用。",
+        "bullets": [
+          "AI Gateway 现在有一个专门的日志页面，列出了您的团队通过网关发送的每个请求（最新的在前），以及成本、令牌计数、持续时间以及为其提供服务的模型、提供商和区域。打开任何请求以查看其路由方式。它可在团队范围内和每个项目中使用。",
+          "将链接复制到标题过滤并搜索按提供商、型号、模式、凭证或状态进行过滤，或按型号、提供商或请求 ID 进行搜索以直接跳转到一个请求。每个过滤器都存储在 URL 中，因此您可以通过复制地址来共享过滤视图。表格上方的图表显示所选范围内的请求计数，您可以在其上拖动以放大到更窄的窗口。",
+          "您还可以将当前视图导出为 CSV 或 JSON ，并应用您的过滤器。",
+          "将链接复制到标题 钻取请求 单击任意行可打开列表旁边的详细信息：总成本、输入、输出、推理和缓存读取和写入的令牌细分、持续时间、第一个令牌的时间以及是否应用零数据保留和区域限制。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：AI Gateway 现在有一个专门的日志页面，列出了您的团队通过网关发送的每个请求（最新的在前），以及成本、令牌计数、持续时间以及为其提供服务的模型、提供商和区域。打开任何请求以查看其路由方式。它可在团队范围内和每个项目中使用。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/ai-gateway-logs"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "AI Gateway 现在有一个专门的日志页面，列出了您的团队通过网关发送的每个请求（最新的在前），以及成本、令牌计数、持续时间以及为其提供服务的模型、提供商和区域。打开任何请求以查看其路由方式。它可在团队范围内和每个项目中使用。",
+        "将链接复制到标题过滤并搜索按提供商、型号、模式、凭证或状态进行过滤，或按型号、提供商或请求 ID 进行搜索以直接跳转到一个请求。每个过滤器都存储在 URL 中，因此您可以通过复制地址来共享过滤视图。表格上方的图表显示所选范围内的请求计数，您可以在其上拖动以放大到更窄的窗口。",
+        "您还可以将当前视图导出为 CSV 或 JSON ，并应用您的过滤器。",
+        "将链接复制到标题 钻取请求 单击任意行可打开列表旁边的详细信息：总成本、输入、输出、推理和缓存读取和写入的令牌细分、持续时间、第一个令牌的时间以及是否应用零数据保留和区域限制。",
+        "后备路径按顺序列出了每个提供商对请求的尝试。每次尝试都会显示模型、提供程序、状态代码、凭据以及花费的时间，失败的尝试包括原因，例如提供程序超时或路由预算耗尽。",
+        "要了解有关 AI Gateway 日志的更多信息，请阅读文档 。"
+      ],
+      "highlights": [
+        "AI Gateway 现在有一个专门的日志页面，列出了您的团队通过网关发送的每个请求（最新的在前），以及成本、令牌计数、持续时间以及为其提供服务的模型、提供商和",
+        "将链接复制到标题过滤并搜索按提供商、型号、模式、凭证或状态进行过滤，或按型号、提供商或请求 ID 进行搜索以直接跳转到一个请求。每个过滤器都存储在 URL 中，",
+        "您还可以将当前视图导出为 CSV 或 JSON ，并应用您的过滤器。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "AI Gateway logs now have a dedicated page - Vercel",
+      "originalLang": "en",
+      "date": "2026-07-31",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/ai-gateway-logs",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "AI Gateway logs now have a dedicated page - Vercel"
+      },
+      "raw": {
+        "title": "AI Gateway logs now have a dedicated page",
+        "url": "https://vercel.com/changelog/ai-gateway-logs",
+        "fetched": true,
+        "savedAt": "2026-08-01T22:52:35.470Z"
+      }
+    },
+    {
       "id": "sig-4da2001209",
       "title": "Figma Make 中的属性面板和注释 | Figma 博客",
       "oneLiner": "通过可视化编辑和注释，Figma Make 正在弥合设计和代码之间的差距。选择要更改的任何元素，直接在属性面板中调整它，或使用注释编写上下文提示。",
@@ -2093,6 +2331,578 @@
         "url": "https://vercel.com/changelog/minimax-h3-now-available-on-vercel-ai-gateway",
         "fetched": true,
         "savedAt": "2026-07-31T10:21:26.391Z"
+      }
+    },
+    {
+      "id": "sig-cfb87043b6",
+      "title": "Thinking Machines 的 Inkling Small 现已在 AI Gateway 上推出 - Vercel",
+      "oneLiner": "Thinking Machines 的 Inkling Small 现已在 AI Gateway 上提供。",
+      "summary": {
+        "oneSentence": "Thinking Machines 的 Inkling Small 现已在 AI Gateway 上提供。",
+        "bullets": [
+          "Thinking Machines 的 Inkling Small 现已在 AI Gateway 上提供。",
+          "Inkling Small 的性能可与较大的 Inkling 模型相媲美，而尺寸仅为其四分之一，每个任务使用的计算量要少得多。它是一个广泛的通才，具有对音频和图像的本机推理，并且在推理、代理编码和工具使用方面表现良好。可控的思维工作让您可以在质量与成本和延迟之间进行权衡，从最小推理到最大推理。",
+          "对于视觉任务，它可以以编程方式裁剪、缩放和检查图像，这有助于处理相关细节较少的文档和图表。",
+          "要使用 Inkling，请在 AI SDK 中将模型设置为thinkingmachines/inkling-small："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Thinking Machines 的 Inkling Small 现已在 AI Gateway 上提供。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/inkling-small-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Thinking Machines 的 Inkling Small 现已在 AI Gateway 上提供。",
+        "Inkling Small 的性能可与较大的 Inkling 模型相媲美，而尺寸仅为其四分之一，每个任务使用的计算量要少得多。它是一个广泛的通才，具有对音频和图像的本机推理，并且在推理、代理编码和工具使用方面表现良好。可控的思维工作让您可以在质量与成本和延迟之间进行权衡，从最小推理到最大推理。",
+        "对于视觉任务，它可以以编程方式裁剪、缩放和检查图像，这有助于处理相关细节较少的文档和图表。",
+        "要使用 Inkling，请在 AI SDK 中将模型设置为thinkingmachines/inkling-small：",
+        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText({ 4 model: 'thinkingmachines/inkling-small' , 5prompt : '总结本报告并列出主要风险。' , 6 }) ;",
+        "Inkling-Small 与零数据保留兼容。从仪表板在整个团队范围内打开它，或者使用 ZeroDataRetention: true 按请求打开它，AI Gateway 仅路由到在每个请求后删除提示和响应的提供商。",
+        "Inkling-Small 也是编码和工具使用工作流程的经济高效选择。运行 vercel ai-gatewaycoding-agents setup 将编码代理连接到 AI Gateway，然后在代理的模型配置中选择 Thinkingmachines/inkling-small。请参阅编码剂指南。",
+        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。在模型游乐场尝试 Inkling Small。",
+        "AI Gateway：按使用情况跟踪顶级 AI 模型",
+        "AI Gateway 模型排行榜跟踪一段时间内最流行的模型，并根据所有网关流量处理的代币总量对它们进行排名。"
+      ],
+      "highlights": [
+        "Thinking Machines 的 Inkling Small 现已在 AI Gateway 上提供。",
+        "Inkling Small 的性能可与较大的 Inkling 模型相媲美，而尺寸仅为其四分之一，每个任务使用的计算量要少得多。它是一个广泛的通才，具有对音频和图",
+        "对于视觉任务，它可以以编程方式裁剪、缩放和检查图像，这有助于处理相关细节较少的文档和图表。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Inkling Small from Thinking Machines is now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-07-30",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/inkling-small-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Inkling Small from Thinking Machines is now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Inkling Small from Thinking Machines is now available on AI Gateway",
+        "url": "https://vercel.com/changelog/inkling-small-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-08-01T22:52:43.332Z"
+      }
+    },
+    {
+      "id": "sig-d8e1e16d96",
+      "title": "Turborepo 和 Vercel 远程缓存现在支持 OpenID Connect (OIDC) - Vercel",
+      "oneLiner": "您现在可以将 CI/CD 工作流程（包括 GitHub 工作流程）中的 OIDC 令牌交换为短期 Turborepo 访问令牌。",
+      "summary": {
+        "oneSentence": "您现在可以将 CI/CD 工作流程（包括 GitHub 工作流程）中的 OIDC 令牌交换为短期 Turborepo 访问令牌。",
+        "bullets": [
+          "您现在可以将 CI/CD 工作流程（包括 GitHub 工作流程）中的 OIDC 令牌交换为短期 Turborepo 访问令牌。",
+          "这些令牌授予对 Vercel 远程缓存的访问权限，是长期个人访问令牌 (PAT) 的更安全的替代方案。 OIDC 令牌是短暂的，仅授予对 Vercel 远程缓存的访问权限，并且与您的 Vercel 团队相关联，而不是与特定团队成员相关联。",
+          "我们建议所有客户将其 CI/CD 工作流程从 PAT 迁移到 OIDC。",
+          "首先在“设置”→“构建和部署”→“用于 CLI 访问的 OIDC 策略”下添加 Turborepo OIDC 策略，并在文档中了解更多信息。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：您现在可以将 CI/CD 工作流程（包括 GitHub 工作流程）中的 OIDC 令牌交换为短期 Turborepo 访问令牌。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/turborepo-and-remote-cache-now-support-openid-connect-oidc"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "您现在可以将 CI/CD 工作流程（包括 GitHub 工作流程）中的 OIDC 令牌交换为短期 Turborepo 访问令牌。",
+        "这些令牌授予对 Vercel 远程缓存的访问权限，是长期个人访问令牌 (PAT) 的更安全的替代方案。 OIDC 令牌是短暂的，仅授予对 Vercel 远程缓存的访问权限，并且与您的 Vercel 团队相关联，而不是与特定团队成员相关联。",
+        "我们建议所有客户将其 CI/CD 工作流程从 PAT 迁移到 OIDC。",
+        "首先在“设置”→“构建和部署”→“用于 CLI 访问的 OIDC 策略”下添加 Turborepo OIDC 策略，并在文档中了解更多信息。"
+      ],
+      "highlights": [
+        "您现在可以将 CI/CD 工作流程（包括 GitHub 工作流程）中的 OIDC 令牌交换为短期 Turborepo 访问令牌。",
+        "这些令牌授予对 Vercel 远程缓存的访问权限，是长期个人访问令牌 (PAT) 的更安全的替代方案。 OIDC 令牌是短暂的，仅授予对 Vercel 远程缓存",
+        "我们建议所有客户将其 CI/CD 工作流程从 PAT 迁移到 OIDC。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Turborepo and Vercel Remote Cache now support OpenID Connect (OIDC) - Vercel",
+      "originalLang": "en",
+      "date": "2026-07-30",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/turborepo-and-remote-cache-now-support-openid-connect-oidc",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Turborepo and Vercel Remote Cache now support OpenID Connect (OIDC) - Vercel"
+      },
+      "raw": {
+        "title": "Turborepo and Vercel Remote Cache now support OpenID Connect (OIDC)",
+        "url": "https://vercel.com/changelog/turborepo-and-remote-cache-now-support-openid-connect-oidc",
+        "fetched": true,
+        "savedAt": "2026-08-01T22:52:47.387Z"
+      }
+    },
+    {
+      "id": "sig-8976a580a6",
+      "title": "AI 网关：GPT-5.6 定价和速度更新 - Vercel",
+      "oneLiner": "在 AI Gateway 上，GPT-5.6 Luna 和 GPT-5.6 Terra 现在更便宜，GPT-5.6 Sol 更快。",
+      "summary": {
+        "oneSentence": "在 AI Gateway 上，GPT-5.6 Luna 和 GPT-5.6 Terra 现在更便宜，GPT-5.6 Sol 更快。",
+        "bullets": [
+          "在 AI Gateway 上，GPT-5.6 Luna 和 GPT-5.6 Terra 现在更便宜，GPT-5.6 Sol 更快。",
+          "AI Gateway 不会对代币定价添加加价，因此这些变化会以上游速率到达您。",
+          "这些变化适用于短期和长期上下文定价。",
+          "相同价格，快速模式现在速度提高 2.5 倍（原为 1.5 倍）"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：在 AI Gateway 上，GPT-5.6 Luna 和 GPT-5.6 Terra 现在更便宜，GPT-5.6 Sol 更快。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/ai-gateway-gpt-5-6-pricing-speed-updates"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "在 AI Gateway 上，GPT-5.6 Luna 和 GPT-5.6 Terra 现在更便宜，GPT-5.6 Sol 更快。",
+        "AI Gateway 不会对代币定价添加加价，因此这些变化会以上游速率到达您。",
+        "这些变化适用于短期和长期上下文定价。",
+        "相同价格，快速模式现在速度提高 2.5 倍（原为 1.5 倍）",
+        "GPT-5.6 Sol 价格不变；其快速模式现在的运行速度从 1.5 倍提高到 2.5 倍。模型 ID 保持不变，因此现有请求无需更改代码即可获得新的速率和速度。"
+      ],
+      "highlights": [
+        "在 AI Gateway 上，GPT-5.6 Luna 和 GPT-5.6 Terra 现在更便宜，GPT-5.6 Sol 更快。",
+        "AI Gateway 不会对代币定价添加加价，因此这些变化会以上游速率到达您。",
+        "这些变化适用于短期和长期上下文定价。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "AI Gateway: GPT-5.6 pricing and speed updates - Vercel",
+      "originalLang": "en",
+      "date": "2026-07-30",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/ai-gateway-gpt-5-6-pricing-speed-updates",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "AI Gateway: GPT-5.6 pricing and speed updates - Vercel"
+      },
+      "raw": {
+        "title": "AI Gateway: GPT-5.6 pricing and speed updates",
+        "url": "https://vercel.com/changelog/ai-gateway-gpt-5-6-pricing-speed-updates",
+        "fetched": true,
+        "savedAt": "2026-08-01T22:52:51.307Z"
+      }
+    },
+    {
+      "id": "sig-ba0252e3ac",
+      "title": "部署速度现在加快了 7 秒 - Vercel",
+      "oneLiner": "在过去的几个月里，我们的端到端部署速度提高了 7 秒。我们从每个构建中消除了最多 5 秒的固定平台开销，并且从最新的 Vercel CLI 进行部署最多可节省 2 秒。这些改进在较小的构建中最为明显，其中编排占总构建时间的较大份额。",
+      "summary": {
+        "oneSentence": "在过去的几个月里，我们的端到端部署速度提高了 7 秒。我们从每个构建中消除了最多 5 秒的固定平台开销，并且从最新的 Vercel CLI 进行部署最多可节省 2 秒。这些改进在较小的构建中最为明显，其中编排占总构建时间的较大份额。",
+        "bullets": [
+          "在过去的几个月里，我们的端到端部署速度提高了 7 秒。我们从每个构建中消除了最多 5 秒的固定平台开销，并且从最新的 Vercel CLI 进行部署最多可节省 2 秒。这些改进在较小的构建中最为明显，其中编排占总构建时间的较大份额。",
+          "~2.2s：内部构建流程关闭现在发生在部署准备就绪的关键路径之外",
+          "~930ms：Vercel CLI 在安全、隔离的构建环境中提前准备好，从关键路径中删除启动工作",
+          "~413ms：部署完成更早开始，与其他工作同时处理路由和输出元数据"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：在过去的几个月里，我们的端到端部署速度提高了 7 秒。我们从每个构建中消除了最多 5 秒的固定平台开销，并且从最新的 Vercel CLI 进行部署最多可节省 2 秒。这些改进在较小的构建中最为明显，其中编排占总构建时间的较大份额。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/deployments-are-now-up-to-7-seconds-faster"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "在过去的几个月里，我们的端到端部署速度提高了 7 秒。我们从每个构建中消除了最多 5 秒的固定平台开销，并且从最新的 Vercel CLI 进行部署最多可节省 2 秒。这些改进在较小的构建中最为明显，其中编排占总构建时间的较大份额。",
+        "~2.2s：内部构建流程关闭现在发生在部署准备就绪的关键路径之外",
+        "~930ms：Vercel CLI 在安全、隔离的构建环境中提前准备好，从关键路径中删除启动工作",
+        "~413ms：部署完成更早开始，与其他工作同时处理路由和输出元数据",
+        "~900ms：在构建开始和结束期间消除了冗余 API 和存储请求，包括在构建的同时获取部署配置以及直接通过 ID 加载构建记录",
+        "这些自动适用于通过 Git、仪表板或 Vercel CLI 触发的构建。最新 CLI 的部署最多可提前 2.1 秒完成：",
+        "~1s ：一旦事件流报告分配了域别名，CLI 就会完成，而不是等待下一个轮询间隔",
+        "~650ms ：直接解析部署的团队，而不是加载完整的团队列表",
+        "~500ms ：重复使用已返回到 CLI 的部署和项目信息，而不是发出两个最终 API 请求",
+        "总而言之，从最新 CLI 部署的小型构建的端到端速度加快了 7 秒。运行 vercel Upgrade 进行更新。"
+      ],
+      "highlights": [
+        "在过去的几个月里，我们的端到端部署速度提高了 7 秒。我们从每个构建中消除了最多 5 秒的固定平台开销，并且从最新的 Vercel CLI 进行部署最多可节省 ",
+        "~2.2s：内部构建流程关闭现在发生在部署准备就绪的关键路径之外",
+        "~930ms：Vercel CLI 在安全、隔离的构建环境中提前准备好，从关键路径中删除启动工作"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Deployments are now up to 7 seconds faster - Vercel",
+      "originalLang": "en",
+      "date": "2026-07-30",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/deployments-are-now-up-to-7-seconds-faster",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Deployments are now up to 7 seconds faster - Vercel"
+      },
+      "raw": {
+        "title": "Deployments are now up to 7 seconds faster",
+        "url": "https://vercel.com/changelog/deployments-are-now-up-to-7-seconds-faster",
+        "fetched": true,
+        "savedAt": "2026-08-01T22:52:58.633Z"
+      }
+    },
+    {
+      "id": "sig-63c15c1441",
+      "title": "mcp-handler 现已支持最新的 MCP 规范 - Vercel",
+      "oneLiner": "mcp-handler@2.0.0 现已推出，支持 2026-07-28 模型上下文协议规范和 MCP TypeScript SDK v2 。",
+      "summary": {
+        "oneSentence": "mcp-handler@2.0.0 现已推出，支持 2026-07-28 模型上下文协议规范和 MCP TypeScript SDK v2 。",
+        "bullets": [
+          "mcp-handler@2.0.0 现已推出，支持 2026-07-28 模型上下文协议规范和 MCP TypeScript SDK v2 。",
+          "我们最初构建 mcp-handler 是为了更轻松地在流行的 Web 框架（包括 Next、Nuxt、Svelte 等）上启动 MCP 服务器。",
+          "在新的 2.0 版本中，处理程序现在支持：",
+          "无状态 2026-07-28 协议，本机提供服务，包括每个请求元数据和服务器/发现"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：mcp-handler@2.0.0 现已推出，支持 2026-07-28 模型上下文协议规范和 MCP TypeScript SDK v2 。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/latest-mcp-spec-now-supported-in-mcp-handler"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "mcp-handler@2.0.0 现已推出，支持 2026-07-28 模型上下文协议规范和 MCP TypeScript SDK v2 。",
+        "我们最初构建 mcp-handler 是为了更轻松地在流行的 Web 框架（包括 Next、Nuxt、Svelte 等）上启动 MCP 服务器。",
+        "在新的 2.0 版本中，处理程序现在支持：",
+        "无状态 2026-07-28 协议，本机提供服务，包括每个请求元数据和服务器/发现",
+        "使用 2025 时代 Streamable HTTP 的客户端的无状态兼容层",
+        "两种协议都不依赖 Redis 或会话存储",
+        "当服务器采用最新协议时，现有的无状态 Streamable HTTP 客户端可以继续连接到相同的 /mcp 端点。",
+        "npm 安装 mcp-handler@^2 @modelcontextprotocol/server@^2 zod@^4",
+        "app/api/mcp/route.ts 1 从“mcp-handler”导入 { createMcpHandler } ； 2 从“zod”导入{z}； 3 const handler = createMcpHandler ( ( server ) => { 4 server . registerTool ( 5 \"roll_dice\" , 6 { 7 描述 : \"掷 N 面骰子\" , 8 inputSchema : z . object ( { 9 面 : z . number ( ) . int ( ) . min ( 2 ) , 10 } ) , 11 } , 12 async ( { Side } ) => { 13 const value = 1 + Math . Floor ( Math . random ( ) * Sides ) ; 14 return { 15 content : [ 16 { 17 type : \"text\" , 18 text : ` 🎲 你滚动了 ${ value } ! ` , 19 } , 20 ] , 21 } ; , 23) ; 24});",
+        "开始使用 Next.js MCP 服务器模板（已针对 mcp-handler 2.0 进行更新）。"
+      ],
+      "highlights": [
+        "mcp-handler@2.0.0 现已推出，支持 2026-07-28 模型上下文协议规范和 MCP TypeScript SDK v2 。",
+        "我们最初构建 mcp-handler 是为了更轻松地在流行的 Web 框架（包括 Next、Nuxt、Svelte 等）上启动 MCP 服务器。",
+        "在新的 2.0 版本中，处理程序现在支持："
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Latest MCP spec now supported in mcp-handler - Vercel",
+      "originalLang": "en",
+      "date": "2026-07-30",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/latest-mcp-spec-now-supported-in-mcp-handler",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Latest MCP spec now supported in mcp-handler - Vercel"
+      },
+      "raw": {
+        "title": "Latest MCP spec now supported in mcp-handler",
+        "url": "https://vercel.com/changelog/latest-mcp-spec-now-supported-in-mcp-handler",
+        "fetched": true,
+        "savedAt": "2026-08-01T22:53:05.498Z"
+      }
+    },
+    {
+      "id": "sig-81ca752a4e",
+      "title": "为 Vercel Marketplace 引入企业灵活承诺 - Vercel",
+      "oneLiner": "企业客户现在可以将部分灵活承诺应用于通过 Vercel Marketplace 购买的合格资源。",
+      "summary": {
+        "oneSentence": "企业客户现在可以将部分灵活承诺应用于通过 Vercel Marketplace 购买的合格资源。",
+        "bullets": [
+          "企业客户现在可以将部分灵活承诺应用于通过 Vercel Marketplace 购买的合格资源。",
+          "借助 Flex Commit 支持，符合条件的 Marketplace 成本可以直接从您现有的承诺中提取，从而更轻松地配置您的应用程序所需的基础设施和服务。",
+          "我们正在与首批 Marketplace 合作伙伴（包括 Neon 、 Supabase 和 Redis ）一起推出此功能，并为更多提供商提供支持。",
+          "合格的集成在其市场页面上标有“灵活承诺合格”徽章。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：企业客户现在可以将部分灵活承诺应用于通过 Vercel Marketplace 购买的合格资源。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/introducing-enterprise-flexible-commitment-for-vercel-marketplace"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "企业客户现在可以将部分灵活承诺应用于通过 Vercel Marketplace 购买的合格资源。",
+        "借助 Flex Commit 支持，符合条件的 Marketplace 成本可以直接从您现有的承诺中提取，从而更轻松地配置您的应用程序所需的基础设施和服务。",
+        "我们正在与首批 Marketplace 合作伙伴（包括 Neon 、 Supabase 和 Redis ）一起推出此功能，并为更多提供商提供支持。",
+        "合格的集成在其市场页面上标有“灵活承诺合格”徽章。",
+        "使用承诺的企业支出来获取符合条件的市场资源",
+        "消除单独的信用卡或采购工作流程",
+        "直接从 Vercel Marketplace 提供和管理第三方服务",
+        "跟踪市场使用情况以及企业承诺的其余部分",
+        "这是使 Marketplace 成为企业体验的无缝部分的第一步。要了解更多信息，请阅读我们的定价页面文档并联系您的客户经理。"
+      ],
+      "highlights": [
+        "企业客户现在可以将部分灵活承诺应用于通过 Vercel Marketplace 购买的合格资源。",
+        "借助 Flex Commit 支持，符合条件的 Marketplace 成本可以直接从您现有的承诺中提取，从而更轻松地配置您的应用程序所需的基础设施和服务。",
+        "我们正在与首批 Marketplace 合作伙伴（包括 Neon 、 Supabase 和 Redis ）一起推出此功能，并为更多提供商提供支持。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Introducing Enterprise Flexible Commitment for Vercel Marketplace - Vercel",
+      "originalLang": "en",
+      "date": "2026-07-30",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/introducing-enterprise-flexible-commitment-for-vercel-marketplace",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Introducing Enterprise Flexible Commitment for Vercel Marketplace - Vercel"
+      },
+      "raw": {
+        "title": "Introducing Enterprise Flexible Commitment for Vercel Marketplace",
+        "url": "https://vercel.com/changelog/introducing-enterprise-flexible-commitment-for-vercel-marketplace",
+        "fetched": true,
+        "savedAt": "2026-08-01T22:53:12.056Z"
+      }
+    },
+    {
+      "id": "sig-160f6a1d3f",
+      "title": "项目范围的代币 - Vercel",
+      "oneLiner": "您现在可以创建仅限于项目的 Vercel 访问令牌来验证和使用 Vercel API。",
+      "summary": {
+        "oneSentence": "您现在可以创建仅限于项目的 Vercel 访问令牌来验证和使用 Vercel API。",
+        "bullets": [
+          "您现在可以创建仅限于项目的 Vercel 访问令牌来验证和使用 Vercel API。",
+          "项目范围的令牌只能读取和写入属于该令牌范围内的项目的资源。对任何其他项目、用户级资源或团队级资源的请求都将被拒绝。这可确保作业、工具或工作流程仅访问其范围内的项目。",
+          "将链接复制到标题创建项目范围的令牌导航到帐户令牌页面，该页面位于您帐户的设置区域下。",
+          "打开“范围”下拉列表并选择拥有该项目的团队，然后单击该团队以深入查看其项目列表"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：您现在可以创建仅限于项目的 Vercel 访问令牌来验证和使用 Vercel API。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/project-scoped-tokens"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "您现在可以创建仅限于项目的 Vercel 访问令牌来验证和使用 Vercel API。",
+        "项目范围的令牌只能读取和写入属于该令牌范围内的项目的资源。对任何其他项目、用户级资源或团队级资源的请求都将被拒绝。这可确保作业、工具或工作流程仅访问其范围内的项目。",
+        "将链接复制到标题创建项目范围的令牌导航到帐户令牌页面，该页面位于您帐户的设置区域下。",
+        "打开“范围”下拉列表并选择拥有该项目的团队，然后单击该团队以深入查看其项目列表",
+        "选择您想要限制代币的项目",
+        "记下创建的令牌，因为它不会再次显示"
+      ],
+      "highlights": [
+        "您现在可以创建仅限于项目的 Vercel 访问令牌来验证和使用 Vercel API。",
+        "项目范围的令牌只能读取和写入属于该令牌范围内的项目的资源。对任何其他项目、用户级资源或团队级资源的请求都将被拒绝。这可确保作业、工具或工作流程仅访问其范围内的项",
+        "将链接复制到标题创建项目范围的令牌导航到帐户令牌页面，该页面位于您帐户的设置区域下。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Project-scoped Tokens - Vercel",
+      "originalLang": "en",
+      "date": "2026-07-30",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/project-scoped-tokens",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Project-scoped Tokens - Vercel"
+      },
+      "raw": {
+        "title": "Project-scoped Tokens",
+        "url": "https://vercel.com/changelog/project-scoped-tokens",
+        "fetched": true,
+        "savedAt": "2026-08-01T22:53:16.376Z"
       }
     },
     {
@@ -5237,19 +6047,19 @@
     },
     {
       "id": "sig-d4ff9ec891",
-      "title": "Safety and alignment in an era of long-horizon models",
-      "oneLiner": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed",
+      "title": "长视野模型时代的安全性和对准",
+      "oneLiner": "OpenAI 分享了部署长期运行的人工智能模型的经验教训，强调了新的安全风险、观察到的故障以及通过迭代部署改进的保障措施。",
       "summary": {
-        "oneSentence": "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and impro",
+        "oneSentence": "OpenAI 分享了部署长期运行的人工智能模型的经验教训，强调了新的安全风险、观察到的故障以及通过迭代部署改进的保障措施。",
         "bullets": [
-          "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment."
+          "OpenAI 分享了部署长期运行的人工智能模型的经验教训，强调了新的安全风险、观察到的故障以及通过迭代部署改进的保障措施。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "OpenAI 官网发布：OpenAI 分享了部署长期运行的人工智能模型的经验教训，强调了新的安全风险、观察到的故障以及通过迭代部署改进的保障措施。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -5257,27 +6067,29 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
-        "relevance": "",
+        "relevance": "关联产品：chatgpt",
         "actionItems": [
-          "阅读原文：https://openai.com/index/safety-alignment-long-horizon-models"
+          "阅读原文（英文）：https://openai.com/index/safety-alignment-long-horizon-models"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [
         "chatgpt"
       ],
       "content": [
-        "OpenAI shares lessons from deploying long-running AI models, highlighting new safety risks, observed failures, and improved safeguards through iterative deployment."
+        "OpenAI 分享了部署长期运行的人工智能模型的经验教训，强调了新的安全风险、观察到的故障以及通过迭代部署改进的保障措施。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "OpenAI 分享了部署长期运行的人工智能模型的经验教训，强调了新的安全风险、观察到的故障以及通过迭代部署改进的保障措施。"
+      ],
+      "translated": true,
       "originalTitle": "Safety and alignment in an era of long-horizon models",
       "originalLang": "en",
       "date": "2026-07-20",
@@ -5295,16 +6107,18 @@
         "url": "https://openai.com/index/safety-alignment-long-horizon-models",
         "home": "https://openai.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Safety and alignment in an era of long-horizon models"
       },
       "raw": {
         "title": "Safety and alignment in an era of long-horizon models",
         "url": "https://openai.com/index/safety-alignment-long-horizon-models",
         "fetched": false,
-        "savedAt": "2026-07-27T07:33:29.157Z"
-      }
+        "savedAt": "2026-07-27T07:33:29.157Z",
+        "retranslatedAt": "2026-08-01T22:53:17.991Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "cur-memory-agents",
@@ -5617,24 +6431,28 @@
         "title": "Improvements to Cursor in Slack",
         "url": "https://cursor.com/changelog/slack-improvements",
         "fetched": true,
-        "savedAt": "2026-07-27T07:34:20.673Z"
+        "savedAt": "2026-07-27T07:34:20.673Z",
+        "retranslatedAt": "2026-08-01T22:53:19.057Z"
       }
     },
     {
       "id": "sig-7898549b95",
-      "title": "Introducing Gemini 3.5 Flash Cyber",
-      "oneLiner": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulner",
+      "title": "Gemini 3.5 Flash Cyber​​ 简介",
+      "oneLiner": "谷歌多年来一直投资于网络安全，开创了自动漏洞发现的先河，以保护全球代码库的安全。我们的代码安全代理 CodeMender 等工具可以自动查找并修复关键软件漏洞。但随着人工智能代理发现漏洞的速度比防御者修复漏洞的速度越来越快，解决这一全球威胁",
       "summary": {
-        "oneSentence": "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities.",
+        "oneSentence": "谷歌多年来一直投资于网络安全，开创了自动漏洞发现的先河，以保护全球代码库的安全。我们的代码安全代理 CodeMender 等工具可以自动查找并修复关键软件漏洞。但随着人工智能代理发现漏洞的速度比防御者修复漏洞的速度越来越快，解决这一全球威胁",
         "bullets": [
-          "Google introduces Gemini 3.5 Flash Cyber, a lightweight cybersecurity model to find and patch vulnerabilities."
+          "谷歌多年来一直投资于网络安全，开创了自动漏洞发现的先河，以保护全球代码库的安全。我们的代码安全代理 CodeMender 等工具可以自动查找并修复关键软件漏洞。但随着人工智能代理发现漏洞的速度比防御者修复漏洞的速度越来越快，解决这一全球威胁需要一种功能强大、价格实惠且可扩展的方法。",
+          "今天，我们通过推出 Gemini 3.5 Flash Cyber​​ 来扩展我们长期以来为防御者做好准备的努力，这是我们基于 3.5 Flash 构建的轻量级网络安全模型，经过微调，可以快速高效地查找、验证和修补漏洞，使其比 Gemini 的主线 Flash 模型更有效地执行这些任务。",
+          "Flash 的性能和效率使其成为我们网络安全模型工作的理想基础。通过构建在 Flash 之上，3.5 Flash Cyber​​ 为大型、昂贵的网络安全模型提供了一种经济高效且功能强大的替代方案。",
+          "鉴于该技术的双重用途性质，我们对如何部署 3.5 Flash Cyber​​ 采用了有意的方法。作为有限访问试点计划的一部分，3.5 Flash Cyber​​ 将很快通过 CodeMender 专门向政府和值得信赖的合作伙伴开放，并随着时间的推移不断扩展。这将使一线防御者在关键漏洞被利用之前抢先发现并修复这些漏洞，同"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Google DeepMind 官网发布：谷歌多年来一直投资于网络安全，开创了自动漏洞发现的先河，以保护全球代码库的安全。我们的代码安全代理 CodeMender 等工具可以自动查找并修复关键软件漏洞。但随着人工智能代理发现漏洞的速度比防御者修复漏洞的速度越来越快，解决这一全球威胁",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -5642,40 +6460,40 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
-        "relevance": "",
+        "relevance": "关联产品：gemini",
         "actionItems": [
-          "阅读原文：https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/"
+          "阅读原文（英文）：https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [
         "gemini"
       ],
       "content": [
-        "Share Copied Google has invested in cybersecurity for years, pioneering automated vulnerability discovery to secure the world’s codebases. Tools like CodeMender , our code security agent, can automatically find and fix critical software vulnerabilities. But as AI agents become more capable at finding vulnerabilities faster than defenders can fix them, addressing this global threat requires a highly capable, affordable, and scalable approach.",
-        "Today, we’re expanding our longtime efforts to better prepare defenders by introducing Gemini 3.5 Flash Cyber, our lightweight cybersecurity model built on top of 3.5 Flash and fine-tuned to find, validate, and patch vulnerabilities quickly and efficiently, making it more effective at these tasks than Gemini’s mainline Flash models.",
-        "Flash’s performance and efficiency makes it an ideal foundation for our cybersecurity model efforts. By building on top of Flash, 3.5 Flash Cyber offers a cost-efficient and highly capable alternative to large, costly cybersecurity models.",
-        "Given the dual-use nature of this technology, we have taken an intentional approach to how we deploy 3.5 Flash Cyber. As part of a limited-access pilot program, 3.5 Flash Cyber will be exclusively available to governments and trusted partners via CodeMender soon, expanding over time. This will give frontline defenders a head start in finding and fixing critical vulnerabilities before they can be exploited, while mitigating against broader misuse.",
-        "Separately, we're also bringing CodeMender's foundational capabilities directly to customers with generally available Gemini models through the Gemini Enterprise Agent Platform .",
-        "Finding deep-seated flaws requires exploring an immense execution search space. Relying on a single, expensive call to a massive language model can create a bottleneck. 3.5 Flash Cyber is particularly suitable for finding vulnerabilities where the agent has to scan a large codebase and analyze a large number of codepaths.",
-        "CodeMender invokes 3.5 Flash Cyber multiple times, so agents can analyze vastly more code paths to discover and validate vulnerabilities. The sub-agents then produce a single, high-quality report.",
-        "Thanks to its speed and affordability, 3.5 Flash Cyber can be easily integrated into frequent scans, time-sensitive launch processes or commit scanning pipelines at scale.",
-        "We tested 3.5 Flash Cyber on a variety of benchmarks. In particular, we tested 3.5 Flash Cyber on the CyberGym benchmark, which evaluates AI agents against hundreds of real-world software vulnerabilities. Leveraging the low cost of 3.5 Flash Cyber by configuring CodeMender to call 3.5 Flash Cyber up to five times for a single, final report, the overall agent achieved competitive performance against significantly larger models on CyberGym*.",
-        "*Competitor results are sourced from provider self-reported scores",
-        "We also stress-tested the model’s capabilities beyond CyberGym without safety guardrails. Google’s Big Sleep team independently built an evaluation focused on finding critical and hard to find vulnerabilities in some of the world’s most complex codebases like Chrome and Safari. Here, 3.5 Flash Cyber significantly surpassed mainline 3.5 Flash and 3.6 Flash.",
-        "3.5 Flash Cyber was also evaluated on Google Chrome’s production commit scanning pipeline. The vulnerabilities were not publicly disclosed, which ensured this benchmark remained free of contamination for Gemini and competitor models.",
-        "The results showed a significant uplift from 3.5 Flash Cyber compared to 3.5 Flash. Note: More recent competitor model versions after Opus 4.6 refuse to fulfill the tasks due to built-in safety guardrails, and therefore are not shown.",
-        "Moreover, 3.5 Flash Cyber consistently discovered more unique vulnerabilities compared with mainline 3.5 Flash and Claude Opus 4.6. When tested on the highly complex V8 JavaScript Engine across a fixed number of invocations, 3.5 Flash Cyber found 55 unique confirmed issues, compared to 47 found by mainline 3.5 Flash and 36 found by Opus 4.6, including 10 issues that the other two models tested did not catch."
+        "谷歌多年来一直投资于网络安全，开创了自动漏洞发现的先河，以保护全球代码库的安全。我们的代码安全代理 CodeMender 等工具可以自动查找并修复关键软件漏洞。但随着人工智能代理发现漏洞的速度比防御者修复漏洞的速度越来越快，解决这一全球威胁需要一种功能强大、价格实惠且可扩展的方法。",
+        "今天，我们通过推出 Gemini 3.5 Flash Cyber​​ 来扩展我们长期以来为防御者做好准备的努力，这是我们基于 3.5 Flash 构建的轻量级网络安全模型，经过微调，可以快速高效地查找、验证和修补漏洞，使其比 Gemini 的主线 Flash 模型更有效地执行这些任务。",
+        "Flash 的性能和效率使其成为我们网络安全模型工作的理想基础。通过构建在 Flash 之上，3.5 Flash Cyber​​ 为大型、昂贵的网络安全模型提供了一种经济高效且功能强大的替代方案。",
+        "鉴于该技术的双重用途性质，我们对如何部署 3.5 Flash Cyber​​ 采用了有意的方法。作为有限访问试点计划的一部分，3.5 Flash Cyber​​ 将很快通过 CodeMender 专门向政府和值得信赖的合作伙伴开放，并随着时间的推移不断扩展。这将使一线防御者在关键漏洞被利用之前抢先发现并修复这些漏洞，同时减少更广泛的滥用。",
+        "另外，我们还通过 Gemini Enterprise Agent Platform 将 CodeMender 的基础功能直接提供给具有通用 Gemini 模型的客户。",
+        "寻找深层次的缺陷需要探索巨大的执行搜索空间。依赖对大规模语言模型的一次昂贵的调用可能会造成瓶颈。 3.5 Flash Cyber​​ 特别适合查找代理必须扫描大型代码库并分析大量代码路径的漏洞。",
+        "CodeMender 多次调用 3.5 Flash Cyber​​，因此代理可以分析更多的代码路径来发现和验证漏洞。然后，子代理会生成一份高质量的报告。",
+        "由于其速度快且经济实惠，3.5 Flash Cyber​​ 可以轻松集成到频繁扫描、时间敏感的启动流程或大规模提交扫描管道中。",
+        "我们在各种基准测试中测试了 3.5 Flash Cyber​​。特别是，我们在 Cyber​​Gym 基准测试中测试了 3.5 Flash Cyber​​，该基准测试针对数百个现实世界的软件漏洞来评估 AI 代理。通过配置 CodeMender 为单个最终报告调用 3.5 Flash Cyber​​ 最多五次，利用 3.5 Flash Cyber​​ 的低成本，整体代理实现了与 Cyber​​Gym* 上更大的模型相比的竞争性能。",
+        "*竞争对手的结果来自提供商自我报告的分数"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "谷歌多年来一直投资于网络安全，开创了自动漏洞发现的先河，以保护全球代码库的安全。我们的代码安全代理 CodeMender 等工具可以自动查找并修复关键软件漏洞。",
+        "今天，我们通过推出 Gemini 3.5 Flash Cyber​​ 来扩展我们长期以来为防御者做好准备的努力，这是我们基于 3.5 Flash 构建的轻量级网",
+        "Flash 的性能和效率使其成为我们网络安全模型工作的理想基础。通过构建在 Flash 之上，3.5 Flash Cyber​​ 为大型、昂贵的网络安全模型提供"
+      ],
+      "translated": true,
       "originalTitle": "Introducing Gemini 3.5 Flash Cyber",
       "originalLang": "en",
       "date": "2026-07-17",
@@ -5693,32 +6511,34 @@
         "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
         "home": "https://deepmind.google/blog/",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Introducing Gemini 3.5 Flash Cyber"
       },
       "raw": {
         "title": "Introducing Gemini 3.5 Flash Cyber",
         "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
         "fetched": true,
-        "savedAt": "2026-07-27T07:33:52.802Z"
-      }
+        "savedAt": "2026-07-27T07:33:52.802Z",
+        "retranslatedAt": "2026-08-01T22:53:25.906Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-3ebda52fc8",
-      "title": "A scorecard for the AI age",
-      "oneLiner": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, ",
+      "title": "人工智能时代的记分卡",
+      "oneLiner": "OpenAI 首席财务官 Sarah Friar 推出了实用的 AI 记分卡，通过有用的工作、每项成功任务的成本、可靠性和计算回报来衡量投资回报率。",
       "summary": {
-        "oneSentence": "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful ",
+        "oneSentence": "OpenAI 首席财务官 Sarah Friar 推出了实用的 AI 记分卡，通过有用的工作、每项成功任务的成本、可靠性和计算回报来衡量投资回报率。",
         "bullets": [
-          "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute."
+          "OpenAI 首席财务官 Sarah Friar 推出了实用的 AI 记分卡，通过有用的工作、每项成功任务的成本、可靠性和计算回报来衡量投资回报率。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "OpenAI 官网发布：OpenAI 首席财务官 Sarah Friar 推出了实用的 AI 记分卡，通过有用的工作、每项成功任务的成本、可靠性和计算回报来衡量投资回报率。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -5726,27 +6546,29 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
-        "relevance": "",
+        "relevance": "关联产品：chatgpt",
         "actionItems": [
-          "阅读原文：https://openai.com/index/a-scorecard-for-the-ai-age"
+          "阅读原文（英文）：https://openai.com/index/a-scorecard-for-the-ai-age"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [
         "chatgpt"
       ],
       "content": [
-        "Sarah Friar, CFO of OpenAI, introduces a practical AI scorecard to measure ROI through useful work, cost per successful task, dependability, and return on compute."
+        "OpenAI 首席财务官 Sarah Friar 推出了实用的 AI 记分卡，通过有用的工作、每项成功任务的成本、可靠性和计算回报来衡量投资回报率。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "OpenAI 首席财务官 Sarah Friar 推出了实用的 AI 记分卡，通过有用的工作、每项成功任务的成本、可靠性和计算回报来衡量投资回报率。"
+      ],
+      "translated": true,
       "originalTitle": "A scorecard for the AI age",
       "originalLang": "en",
       "date": "2026-07-17",
@@ -5764,32 +6586,37 @@
         "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
         "home": "https://openai.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "A scorecard for the AI age"
       },
       "raw": {
         "title": "A scorecard for the AI age",
         "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
         "fetched": false,
-        "savedAt": "2026-07-27T07:34:14.919Z"
-      }
+        "savedAt": "2026-07-27T07:34:14.919Z",
+        "retranslatedAt": "2026-08-01T22:53:27.939Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-690a1f65b1",
-      "title": "Sightlines issue no.1: Insights from Config",
-      "oneLiner": "The conversations we’re still replaying from Config’s Leadership Collective.",
+      "title": "Sightlines 第 1 期：来自配置的见解 | Figma 博客",
+      "oneLiner": "我们仍在重播 Config 领导集体的对话。",
       "summary": {
-        "oneSentence": "The conversations we’re still replaying from Config’s Leadership Collective.",
+        "oneSentence": "我们仍在重播 Config 领导集体的对话。",
         "bullets": [
-          "The conversations we’re still replaying from Config’s Leadership Collective."
+          "我们仍在重播 Config 领导集体的对话。",
+          "Sightlines 是我们面向设计、产品和工程领导者的时事通讯。在每一期中，我们都会为您带来来自 Cisco、OpenAI、Airbnb 等公司的高级领导者的最敏锐的见解，以及他们如何在人工智能时代引导产品开发和设计的更多信息。",
+          "首先：我们从 Config 领导力演讲中得到的一切。",
+          "我们带着希望同行能够回答的问题走进了领导力集体。诸如此类的问题：您如何领导您自己仍在摸索的变革？在人工智能出现之前，我们的哪些工作方式值得保留？人工智能时代我们应该如何构建我们的团队？"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Figma 官网发布：我们仍在重播 Config 领导集体的对话。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -5797,38 +6624,38 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://www.figma.com/blog/sightlines-issue-no1/"
+          "阅读原文（英文）：https://www.figma.com/blog/sightlines-issue-no1/"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "The conversations we’re still replaying from Config’s Leadership Collective.",
-        "Sightlines is our newsletter for design, product, and engineering leaders. In each issue, we'll bring you the sharpest insights from senior leaders at companies like Cisco, OpenAI, Airbnb, and more on how they're navigating product development and design in the age of AI.",
-        "First up: everything we took away from leadership talks at Config.",
-        "We went into Leadership Collective with questions we were hoping our peers could answer. Questions like: How do you lead a change you're still figuring out for yourself? Which parts of how we worked before AI are worth keeping? And how should we be structuring our teams for the AI era?",
-        "The TL;DR: Most of us are still figuring it out. Everyone's working out how to fold AI into their products, teams, and systems, and how to harness its speed without sacrificing quality. But a few things are clear.",
-        "Go deeper on the insights from Leadership Collective at Config:",
-        "→ 7 questions we brought to Leadership Collective, and what leaders had to say 7 questions we had going into Config Leadership Collective We showed up to Leadership Collective hoping to learn how leaders are guiding their teams through change, what expertise means now, and how they're keeping quality high as the pace picks up. Here's what we heard.",
-        "→ How to lead design teams through the AI era How to keep design teams steady through constant change Drawing on her time at Patreon and Shopify, design leader Jen Dunnam offers her advice for this new age of AI—from building a strong team to how to think about speed.",
-        "“We'll go through a period where there's some bad work, some bad design—we'll be swimming in slop for a while. But the great work will always rise above it. The judgment, the great editing, and the ability to dream as creators will always matter.” Teo Connor, VP of Design, Airbnb",
-        "“I show up to my team as a designer and human first. There’s a high risk of chasing the tool, but fundamentally we’re designing for humans, and that's not changing.” Jen Dunnam, former VP of Design, Patreon",
-        "“As a leader, you need to learn how to let go—you can’t possibly keep track of every single thing going on. Hiring people you trust goes a long way.” Ian Silber, Head of Product Design, OpenAI",
-        "“Design is the ultimate way to show a customer that you care, because you sweat the details. If they feel you've taken meticulous care building something for them, you get an emotional reaction, not just a logical one.” Jeetu Patel, President and Chief Product Officer, Cisco",
-        "I agree to opt-in to Figma's mailing list. * By clicking “Subscribe” you agree to our TOS and Privacy Policy .",
-        "We showed up to Leadership Collective hoping to learn how leaders are guiding their teams through change, what expertise means now, and how they're keeping quality high as the pace picks up. Here's what we heard."
+        "我们仍在重播 Config 领导集体的对话。",
+        "Sightlines 是我们面向设计、产品和工程领导者的时事通讯。在每一期中，我们都会为您带来来自 Cisco、OpenAI、Airbnb 等公司的高级领导者的最敏锐的见解，以及他们如何在人工智能时代引导产品开发和设计的更多信息。",
+        "首先：我们从 Config 领导力演讲中得到的一切。",
+        "我们带着希望同行能够回答的问题走进了领导力集体。诸如此类的问题：您如何领导您自己仍在摸索的变革？在人工智能出现之前，我们的哪些工作方式值得保留？人工智能时代我们应该如何构建我们的团队？",
+        "TL;DR：我们大多数人仍在弄清楚。每个人都在研究如何将人工智能融入到他们的产品、团队和系统中，以及如何在不牺牲质量的情况下利用其速度。但有几件事是明确的。",
+        "深入了解 Config 领导集体的见解：",
+        "→ 我们向 Leadership Collective 提出的 7 个问题，以及领导者不得不说的 7 我们向 Config Leadership Collective 提出的 7 个问题 我们来到 Leadership Collective，希望了解领导者如何指导他们的团队完成变革、专业知识现在意味着什么，以及随着步伐的加快，他们如何保持高品质。这是我们听到的。",
+        "→ 如何领导设计团队度过 AI 时代 如何通过不断的变化保持设计团队稳定 设计领导者 Jen Dunnam 借鉴她在 Patreon 和 Shopify 的经历，为 AI 新时代提供了建议 - 从建立强大的团队到如何考虑速度。",
+        "“我们会经历一段时期，其中会有一些糟糕的作品，一些糟糕的设计——我们会在污水中游泳一段时间。但伟大的作品总是会超越它。作为创作者的判断力、出色的剪辑和梦想能力永远很重要。” Teo Connor，Airbnb 设计副总裁",
+        "“我以设计师和人的身份出现在我的团队中。追逐工具的风险很高，但从根本上说，我们是为人设计的，这一点不会改变。” Jen Dunnam，Patreon 前设计副总裁"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "我们仍在重播 Config 领导集体的对话。",
+        "Sightlines 是我们面向设计、产品和工程领导者的时事通讯。在每一期中，我们都会为您带来来自 Cisco、OpenAI、Airbnb 等公司的高级领导者的",
+        "首先：我们从 Config 领导力演讲中得到的一切。"
+      ],
+      "translated": true,
       "originalTitle": "Sightlines Issue no.1: Insights from Config | Figma Blog",
       "originalLang": "en",
       "date": "2026-07-16",
@@ -5844,32 +6671,34 @@
         "url": "https://www.figma.com/blog/sightlines-issue-no1/",
         "home": "https://www.figma.com/blog/",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Sightlines Issue no.1: Insights from Config | Figma Blog"
       },
       "raw": {
         "title": "Sightlines issue no.1: Insights from Config",
         "url": "https://www.figma.com/blog/sightlines-issue-no1/",
         "fetched": true,
-        "savedAt": "2026-07-27T07:34:44.555Z"
-      }
+        "savedAt": "2026-07-27T07:34:44.555Z",
+        "retranslatedAt": "2026-08-01T22:53:36.665Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-8fe39edff7",
-      "title": "Why teens deserve access to safe AI",
-      "oneLiner": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools,",
+      "title": "为什么青少年应该获得安全的人工智能",
+      "oneLiner": "了解 OpenAI 如何通过适合年龄的保护、学习工具、家长控制和专家合作伙伴关系，让 ChatGPT 对青少年来说更安全。",
       "summary": {
-        "oneSentence": "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, ",
+        "oneSentence": "了解 OpenAI 如何通过适合年龄的保护、学习工具、家长控制和专家合作伙伴关系，让 ChatGPT 对青少年来说更安全。",
         "bullets": [
-          "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships."
+          "了解 OpenAI 如何通过适合年龄的保护、学习工具、家长控制和专家合作伙伴关系，让 ChatGPT 对青少年来说更安全。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "OpenAI 官网发布：了解 OpenAI 如何通过适合年龄的保护、学习工具、家长控制和专家合作伙伴关系，让 ChatGPT 对青少年来说更安全。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -5877,27 +6706,29 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
-        "relevance": "",
+        "relevance": "关联产品：chatgpt",
         "actionItems": [
-          "阅读原文：https://openai.com/index/why-teens-deserve-access-safe-ai"
+          "阅读原文（英文）：https://openai.com/index/why-teens-deserve-access-safe-ai"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [
         "chatgpt"
       ],
       "content": [
-        "Learn how OpenAI is making ChatGPT safer for teens with age-appropriate protections, learning tools, parental controls, and expert partnerships."
+        "了解 OpenAI 如何通过适合年龄的保护、学习工具、家长控制和专家合作伙伴关系，让 ChatGPT 对青少年来说更安全。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "了解 OpenAI 如何通过适合年龄的保护、学习工具、家长控制和专家合作伙伴关系，让 ChatGPT 对青少年来说更安全。"
+      ],
+      "translated": true,
       "originalTitle": "Why teens deserve access to safe AI",
       "originalLang": "en",
       "date": "2026-07-16",
@@ -5915,16 +6746,18 @@
         "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
         "home": "https://openai.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Why teens deserve access to safe AI"
       },
       "raw": {
         "title": "Why teens deserve access to safe AI",
         "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
         "fetched": false,
-        "savedAt": "2026-07-27T07:35:06.667Z"
-      }
+        "savedAt": "2026-07-27T07:35:06.667Z",
+        "retranslatedAt": "2026-08-01T22:53:38.115Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-a564401bb8",
