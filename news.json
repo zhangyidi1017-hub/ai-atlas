@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-01T22:53:38.918Z",
+  "updatedAt": "2026-08-02T22:54:52.732Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 94,
+  "itemCount": 104,
   "brief": {
-    "date": "2026-08-01",
-    "generatedAt": "2026-08-01T22:53:38.917Z",
-    "totalCount": 94,
-    "todayCount": 1,
-    "headline": "今日 AI 信号 1 条 · 档案共 94 条",
+    "date": "2026-08-02",
+    "generatedAt": "2026-08-02T22:54:52.731Z",
+    "totalCount": 104,
+    "todayCount": 0,
+    "headline": "今日 AI 信号 — 条 · 档案共 104 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -57,6 +57,7 @@
         "sig-b86dc435d6"
       ],
       "newReleases": [
+        "sig-ff7bff38a4",
         "cur-cursor-agent",
         "sig-f83c24d415"
       ],
@@ -109,8 +110,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-08-01T22:53:38.918Z",
-    "summary": "近 30 天共 94 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-08-02T22:54:52.732Z",
+    "summary": "近 30 天共 104 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Agent",
@@ -129,6 +130,14 @@
         ]
       },
       {
+        "name": "Release",
+        "signal": "近 30 天 3 条相关更新",
+        "examples": [
+          "iPad 版 Cursor 现已登陆 iPad · Cursor",
+          "Cursor 0.4x：Background Agent 与多文件自主修改"
+        ]
+      },
+      {
         "name": "API",
         "signal": "近 30 天 3 条相关更新",
         "examples": [
@@ -142,14 +151,6 @@
         "examples": [
           "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排",
           "Google Gemini 2.x：原生多模态与 Workspace 深度整合"
-        ]
-      },
-      {
-        "name": "Release",
-        "signal": "近 30 天 2 条相关更新",
-        "examples": [
-          "Cursor 0.4x：Background Agent 与多文件自主修改",
-          "Cursor 在 Slack 中的改进 · Cursor"
         ]
       },
       {
@@ -280,6 +281,68 @@
       ],
       "source": "OpenAI",
       "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-705bd6c095",
+      "title": "我们将在 Google Flow Music 中推出 Lyria 3.5，该版本在音乐性、歌词、人声和创意控制方面都取得了进步。",
+      "oneLiner": "我们最新的音乐生成模型 Lyria 3.5 在音乐性、歌词和声音质量方面取得了显着进步，使您能够制作更丰富的曲目。我们今天在 Google Flow Music 中推出了它，我们希望帮助您通过创意控制来创作您喜欢的歌曲。",
+      "date": "2026-07-29",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google DeepMind",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-cc8e132c61",
+      "title": "启用两种设置如何使我们在 ARC-AGI-3 基准测试中的得分增加两倍",
+      "oneLiner": "两种 API 设置如何提高 ARC-AGI-3 上的 GPT-5.6 性能，通过保留推理和启用压缩来提高分数和效率。",
+      "date": "2026-07-29",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-14fd05ad34",
+      "title": "通过 ChatGPT 为学术研究人员加速科学发现",
+      "oneLiner": "OpenAI 为 100,000 名学术研究人员免费提供 ChatGPT 最先进的 AI 模型，以加速科学研究、协作和发现。",
+      "date": "2026-07-29",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-6d964f10c3",
+      "title": "GPT-5.6 如何融合前沿智能与前沿效率",
+      "oneLiner": "GPT-5.6 提高了跨模型、推理和代理工作流程的人工智能效率，有助于以每一美元提供更有用的智能。",
+      "date": "2026-07-29",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-ff7bff38a4",
+      "title": "iPad 版 Cursor 现已登陆 iPad · Cursor",
+      "oneLiner": "iPhone 和 iPad 新增收件箱，助您井井有条；同时提供覆盖完整 PR 的代码审查体验。随时随地创建、审查和合并。",
+      "date": "2026-07-29",
+      "productIds": [
+        "cursor"
+      ],
+      "source": "Cursor",
+      "tags": [
+        "Release"
+      ],
       "stars": 4
     },
     {
@@ -429,74 +492,6 @@
       "source": "Cursor Changelog",
       "tags": [],
       "stars": 3
-    },
-    {
-      "id": "cur-tapnow-agent",
-      "title": "TapNow 智能体画布：国内视频 Agent 工作流新标杆",
-      "oneLiner": "TapNow 用节点画布 + Agent 对话统一调度多模型做影视级短片。",
-      "date": "2026-07-21",
-      "productIds": [
-        "tapnow"
-      ],
-      "source": "TapNow",
-      "tags": [
-        "Video",
-        "Agent",
-        "Workflow"
-      ],
-      "stars": 4
-    },
-    {
-      "id": "sig-20b0eb2d5c",
-      "title": "OpenAI 与 Hugging Face 合作解决模型评估期间的安全事件",
-      "oneLiner": "OpenAI 和 Hugging Face 分享了人工智能模型评估期间安全事件的早期发现，强调了先进的网络功能和防御者的经验教训。",
-      "date": "2026-07-21",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-40359dbf5a",
-      "title": "David Vélez 和 Robin Vince 加入 OpenAI 基金会和 OpenAI Group PBC 董事会",
-      "oneLiner": "David Vélez 和 Robin Vince 加入 OpenAI 基金会和 OpenAI Group PBC 的董事会，带来了金融、技术和治理领域的全球领导力。",
-      "date": "2026-07-21",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-d42362617c",
-      "title": "Introducing the ChatGPT for small business program",
-      "oneLiner": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
-      "date": "2026-07-21",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI Blog",
-      "tags": [],
-      "stars": 3
-    },
-    {
-      "id": "cur-libtv-canvas",
-      "title": "LibTV 无限画布：LiblibAI 系视频 Agent 全链路",
-      "oneLiner": "LibTV 用无限画布串联剧本→分镜→成片，面向专业创作者。",
-      "date": "2026-07-20",
-      "productIds": [
-        "libtv"
-      ],
-      "source": "LibTV",
-      "tags": [
-        "Video",
-        "Agent",
-        "Product"
-      ],
-      "stars": 4
     }
   ],
   "items": [
@@ -2903,6 +2898,805 @@
         "url": "https://vercel.com/changelog/project-scoped-tokens",
         "fetched": true,
         "savedAt": "2026-08-01T22:53:16.376Z"
+      }
+    },
+    {
+      "id": "sig-9231b3649d",
+      "title": "我们如何通过代理保护 Figma 的内部系统 | Figma 博客",
+      "oneLiner": "我们的安全团队构建了一个人工智能代理，可以对警报进行分类、进行取证调查、查询我们的安全数据湖、编写代码来解决问题，并记住所学到的内容。以下是我们如何将警报解决时间缩短 71%，并从根本上改变我们待命工程师的工作方式。",
+      "summary": {
+        "oneSentence": "我们的安全团队构建了一个人工智能代理，可以对警报进行分类、进行取证调查、查询我们的安全数据湖、编写代码来解决问题，并记住所学到的内容。以下是我们如何将警报解决时间缩短 71%，并从根本上改变我们待命工程师的工作方式。",
+        "bullets": [
+          "我们的安全团队构建了一个人工智能代理，可以对警报进行分类、进行取证调查、查询我们的安全数据湖、编写代码来解决问题，并记住所学到的内容。以下是我们如何将警报解决时间缩短 71%，并从根本上改变我们待命工程师的工作方式。",
+          "在保护我们的内部平台时，Figma 安全工程团队所防御的威胁正在不断变化。云基础设施经常变化，开发人员采用新工具，人们在笔记本电脑上安装和运行的内容每个季度都会有所不同（例如，当您的 Designer Advocates 团队开始对自己的应用程序和自动化进行 Vive 编码时，我们使用 Figma 的 MCP 服务器的",
+          "我们的 SIEM Panther 通过对我们的云基础设施、端点、SaaS 应用程序和身份系统进行广泛的检查，帮助我们领先于所有这些威胁。当它检测到潜在问题时，它会将警报发布到 Slack 中，并创建 Asana 票证供待命工程师接听。从历史上看，随叫随到需要大量的体力工作。收集背景是主要的挑战。我们必须弄清楚该警报是否",
+          "与许多团队一样，我们看到 LLM 模型能力在过去一年中迅速提升。我们最近分享了 Figma 如何通过代理保持漏洞领先 在过去的一年中，Figma 的代理在编写代码时对其进行了保护，审查了每个拉取请求，并审核了十年前的单一存储库，所有这些都基于一个策略。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 4,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Figma 官网发布：我们的安全团队构建了一个人工智能代理，可以对警报进行分类、进行取证调查、查询我们的安全数据湖、编写代码来解决问题，并记住所学到的内容。以下是我们如何将警报解决时间缩短 71%，并从根本上改变我们待命工程师的工作方式。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://www.figma.com/blog/how-we-secure-figmas-internal-systems-with-agents/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "我们的安全团队构建了一个人工智能代理，可以对警报进行分类、进行取证调查、查询我们的安全数据湖、编写代码来解决问题，并记住所学到的内容。以下是我们如何将警报解决时间缩短 71%，并从根本上改变我们待命工程师的工作方式。",
+        "在保护我们的内部平台时，Figma 安全工程团队所防御的威胁正在不断变化。云基础设施经常变化，开发人员采用新工具，人们在笔记本电脑上安装和运行的内容每个季度都会有所不同（例如，当您的 Designer Advocates 团队开始对自己的应用程序和自动化进行 Vive 编码时，我们使用 Figma 的 MCP 服务器的 4 种方式 Figma MCP 服务器比以往任何时候都更广泛地覆盖平台。从更新生活平台到将设计交付到生产，这就是实践中的情况。",
+        "我们的 SIEM Panther 通过对我们的云基础设施、端点、SaaS 应用程序和身份系统进行广泛的检查，帮助我们领先于所有这些威胁。当它检测到潜在问题时，它会将警报发布到 Slack 中，并创建 Asana 票证供待命工程师接听。从历史上看，随叫随到需要大量的体力工作。收集背景是主要的挑战。我们必须弄清楚该警报是否与我们上周刚刚看到的类似，是否有可能解决该问题的待处理 PR，Slack 线程是否提到了相关内容，等等。",
+        "与许多团队一样，我们看到 LLM 模型能力在过去一年中迅速提升。我们最近分享了 Figma 如何通过代理保持漏洞领先 在过去的一年中，Figma 的代理在编写代码时对其进行了保护，审查了每个拉取请求，并审核了十年前的单一存储库，所有这些都基于一个策略。",
+        "我们从一个狭窄的目标开始，即构建一个检索层，以便在新警报触发时可以显示先前待命工程师的推理。该项目最终发展成为一个完整的代理系统，可以调查警报、查询审核日志、编写代码更改、打开 PR，并通过自己的内存随着时间的推移变得更好。它彻底改变了我们安全团队的工作方式。",
+        "我们首先构建的是基于 AWS Bedrock 知识库和 Amazon Kendra 的检索增强分类系统。同样，我们最初的目标只是显示有关上次触发同一警报时发生的情况的历史背景，并可能抑制重复的警报。",
+        "当 Panther 警报触发时，我们的 Lambda 处理程序会将其转换为标准化文档并将其索引到 Kendra 中。我们从原始警报负载中提取结构化字段：来自 p_any_ip_addresses 的 IP、来自 p_any_usernames 的参与者和各种特定于提供商的用户字段、来自 ARN 的 AWS 账户 ID。这些成为可搜索的 Kendra 文档属性以及警报标题、严重性、标签和时间戳：",
+        "const attrs: DocumentAttribute[] = [ { Key : 'alert_id' , Value : { StringValue : doc.alert_id } }, { Key : 'alert_type' , Value : { StringValue : doc.alert_type } }, { Key : 'severity' , Value : { StringValue : doc.severity } }, { Key : 'status' , Value : { StringValue : doc.status } }, { Key : 'created_at' , Value : { DateValue : doc.created_at } }, { Key : 'has_investigation_context' , Value : { LongValue : doc.has_investigation_context } }, ] 当下一个类似警报触发时，我们使用警报标题（通常是检测名称，后跟参与者用户名）作为主要向量：",
+        "function buildQueryFromAlert (alert: Alert): string { return ` ${alert.data.title} \\n\\nhas_investigation_context=1` } 改进建议的另一件事是偏向最近的结果。两天前的类似警报比六个月前的完全相同的警报有用得多，因为我们对警报进行分类的方式也在不断发展。",
+        "我们偏向于检索具有调查上下文的警报，这些警报是 Slack 中的值班工程师对他们发现的内容留下的评论。 （没有评论的关闭警报几乎不会告诉您任何信息。）我们在不改变工程师现有工作流程的情况下捕获调查背景。当有人在 Slack 警报线程中留下注释时（我们对 Asana 票证有类似的程序），我们会将该评论索引回 Kendra，作为原始警报的调查上下文："
+      ],
+      "highlights": [
+        "我们的安全团队构建了一个人工智能代理，可以对警报进行分类、进行取证调查、查询我们的安全数据湖、编写代码来解决问题，并记住所学到的内容。以下是我们如何将警报解决时",
+        "在保护我们的内部平台时，Figma 安全工程团队所防御的威胁正在不断变化。云基础设施经常变化，开发人员采用新工具，人们在笔记本电脑上安装和运行的内容每个季度都会",
+        "我们的 SIEM Panther 通过对我们的云基础设施、端点、SaaS 应用程序和身份系统进行广泛的检查，帮助我们领先于所有这些威胁。当它检测到潜在问题时，它"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How We Secure Figma’s Internal Systems With Agents | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-07-29",
+      "categoryIds": [
+        "vertical-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/how-we-secure-figmas-internal-systems-with-agents/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How We Secure Figma’s Internal Systems With Agents | Figma Blog"
+      },
+      "raw": {
+        "title": "How we secure Figma’s internal systems with agents",
+        "url": "https://www.figma.com/blog/how-we-secure-figmas-internal-systems-with-agents/",
+        "fetched": true,
+        "savedAt": "2026-08-02T22:53:43.379Z"
+      }
+    },
+    {
+      "id": "sig-705bd6c095",
+      "title": "我们将在 Google Flow Music 中推出 Lyria 3.5，该版本在音乐性、歌词、人声和创意控制方面都取得了进步。",
+      "oneLiner": "我们最新的音乐生成模型 Lyria 3.5 在音乐性、歌词和声音质量方面取得了显着进步，使您能够制作更丰富的曲目。我们今天在 Google Flow Music 中推出了它，我们希望帮助您通过创意控制来创作您喜欢的歌曲。",
+      "summary": {
+        "oneSentence": "我们最新的音乐生成模型 Lyria 3.5 在音乐性、歌词和声音质量方面取得了显着进步，使您能够制作更丰富的曲目。我们今天在 Google Flow Music 中推出了它，我们希望帮助您通过创意控制来创作您喜欢的歌曲。",
+        "bullets": [
+          "我们最新的音乐生成模型 Lyria 3.5 在音乐性、歌词和声音质量方面取得了显着进步，使您能够制作更丰富的曲目。我们今天在 Google Flow Music 中推出了它，我们希望帮助您通过创意控制来创作您喜欢的歌曲。",
+          "· 改善音乐性：创造更丰富、更复杂的旋律结构，听起来更自然。",
+          "· 增强歌词：生成更高质量的歌词，并提高提示依从性和结构意识。",
+          "· 改进的声音：通过更真实和情感细腻的声音以及改进的发音，为您的歌曲带来更多的表达和情感。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google DeepMind 官网发布：我们最新的音乐生成模型 Lyria 3.5 在音乐性、歌词和声音质量方面取得了显着进步，使您能够制作更丰富的曲目。我们今天在 Google Flow Music 中推出了它，我们希望帮助您通过创意控制来创作您喜欢的歌曲。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "我们最新的音乐生成模型 Lyria 3.5 在音乐性、歌词和声音质量方面取得了显着进步，使您能够制作更丰富的曲目。我们今天在 Google Flow Music 中推出了它，我们希望帮助您通过创意控制来创作您喜欢的歌曲。",
+        "· 改善音乐性：创造更丰富、更复杂的旋律结构，听起来更自然。",
+        "· 增强歌词：生成更高质量的歌词，并提高提示依从性和结构意识。",
+        "· 改进的声音：通过更真实和情感细腻的声音以及改进的发音，为您的歌曲带来更多的表达和情感。",
+        "· 创意控制：更轻松地控制输出的节奏和持续时间。"
+      ],
+      "highlights": [
+        "我们最新的音乐生成模型 Lyria 3.5 在音乐性、歌词和声音质量方面取得了显着进步，使您能够制作更丰富的曲目。我们今天在 Google Flow Music",
+        "· 改善音乐性：创造更丰富、更复杂的旋律结构，听起来更自然。",
+        "· 增强歌词：生成更高质量的歌词，并提高提示依从性和结构意识。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control.",
+      "originalLang": "en",
+      "date": "2026-07-29",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google DeepMind",
+        "author": "DeepMind",
+        "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+        "home": "https://deepmind.google/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control."
+      },
+      "raw": {
+        "title": "We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control",
+        "url": "https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/",
+        "fetched": true,
+        "savedAt": "2026-08-02T22:53:48.231Z"
+      }
+    },
+    {
+      "id": "sig-cc8e132c61",
+      "title": "启用两种设置如何使我们在 ARC-AGI-3 基准测试中的得分增加两倍",
+      "oneLiner": "两种 API 设置如何提高 ARC-AGI-3 上的 GPT-5.6 性能，通过保留推理和启用压缩来提高分数和效率。",
+      "summary": {
+        "oneSentence": "两种 API 设置如何提高 ARC-AGI-3 上的 GPT-5.6 性能，通过保留推理和启用压缩来提高分数和效率。",
+        "bullets": [
+          "两种 API 设置如何提高 ARC-AGI-3 上的 GPT-5.6 性能，通过保留推理和启用压缩来提高分数和效率。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：两种 API 设置如何提高 ARC-AGI-3 上的 GPT-5.6 性能，通过保留推理和启用压缩来提高分数和效率。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "两种 API 设置如何提高 ARC-AGI-3 上的 GPT-5.6 性能，通过保留推理和启用压缩来提高分数和效率。"
+      ],
+      "highlights": [
+        "两种 API 设置如何提高 ARC-AGI-3 上的 GPT-5.6 性能，通过保留推理和启用压缩来提高分数和效率。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+      "originalLang": "en",
+      "date": "2026-07-29",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark"
+      },
+      "raw": {
+        "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
+        "url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
+        "fetched": false,
+        "savedAt": "2026-08-02T22:53:49.484Z"
+      }
+    },
+    {
+      "id": "sig-14fd05ad34",
+      "title": "通过 ChatGPT 为学术研究人员加速科学发现",
+      "oneLiner": "OpenAI 为 100,000 名学术研究人员免费提供 ChatGPT 最先进的 AI 模型，以加速科学研究、协作和发现。",
+      "summary": {
+        "oneSentence": "OpenAI 为 100,000 名学术研究人员免费提供 ChatGPT 最先进的 AI 模型，以加速科学研究、协作和发现。",
+        "bullets": [
+          "OpenAI 为 100,000 名学术研究人员免费提供 ChatGPT 最先进的 AI 模型，以加速科学研究、协作和发现。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 为 100,000 名学术研究人员免费提供 ChatGPT 最先进的 AI 模型，以加速科学研究、协作和发现。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/chatgpt-for-academic-researchers"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 为 100,000 名学术研究人员免费提供 ChatGPT 最先进的 AI 模型，以加速科学研究、协作和发现。"
+      ],
+      "highlights": [
+        "OpenAI 为 100,000 名学术研究人员免费提供 ChatGPT 最先进的 AI 模型，以加速科学研究、协作和发现。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+      "originalLang": "en",
+      "date": "2026-07-29",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/chatgpt-for-academic-researchers",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Accelerating scientific discovery with ChatGPT for Academic Researchers"
+      },
+      "raw": {
+        "title": "Accelerating scientific discovery with ChatGPT for Academic Researchers",
+        "url": "https://openai.com/index/chatgpt-for-academic-researchers",
+        "fetched": false,
+        "savedAt": "2026-08-02T22:53:50.717Z"
+      }
+    },
+    {
+      "id": "sig-6d964f10c3",
+      "title": "GPT-5.6 如何融合前沿智能与前沿效率",
+      "oneLiner": "GPT-5.6 提高了跨模型、推理和代理工作流程的人工智能效率，有助于以每一美元提供更有用的智能。",
+      "summary": {
+        "oneSentence": "GPT-5.6 提高了跨模型、推理和代理工作流程的人工智能效率，有助于以每一美元提供更有用的智能。",
+        "bullets": [
+          "GPT-5.6 提高了跨模型、推理和代理工作流程的人工智能效率，有助于以每一美元提供更有用的智能。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：GPT-5.6 提高了跨模型、推理和代理工作流程的人工智能效率，有助于以每一美元提供更有用的智能。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "GPT-5.6 提高了跨模型、推理和代理工作流程的人工智能效率，有助于以每一美元提供更有用的智能。"
+      ],
+      "highlights": [
+        "GPT-5.6 提高了跨模型、推理和代理工作流程的人工智能效率，有助于以每一美元提供更有用的智能。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+      "originalLang": "en",
+      "date": "2026-07-29",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How GPT-5.6 fuses frontier intelligence with frontier efficiency"
+      },
+      "raw": {
+        "title": "How GPT-5.6 fuses frontier intelligence with frontier efficiency",
+        "url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency",
+        "fetched": false,
+        "savedAt": "2026-08-02T22:53:51.964Z"
+      }
+    },
+    {
+      "id": "sig-ff7bff38a4",
+      "title": "iPad 版 Cursor 现已登陆 iPad · Cursor",
+      "oneLiner": "iPhone 和 iPad 新增收件箱，助您井井有条；同时提供覆盖完整 PR 的代码审查体验。随时随地创建、审查和合并。",
+      "summary": {
+        "oneSentence": "iPhone 和 iPad 新增收件箱，助您井井有条；同时提供覆盖完整 PR 的代码审查体验。随时随地创建、审查和合并。",
+        "bullets": [
+          "iPhone 和 iPad 新增收件箱，助您井井有条；同时提供覆盖完整 PR 的代码审查体验。随时随地创建、审查和合并。",
+          "iPad 布局针对更大的屏幕空间重新设计。侧边栏中的聊天会保持固定，方便您同时查看多个智能体运行。分屏模式可让审查与聊天并排显示，文件差异也能完整呈现。",
+          "标注功能也拥有更多施展空间。附上截图后，轻点即可在指定位置添加评论，或使用 Apple Pencil 直接在图像上绘制。",
+          "在 iPhone 和 iPad 上，审查界面现已涵盖整个 PR：评论、检查和审批。您可以添加或更改审查者、查看评论，并让智能体解决其中的问题。从智能体输出到 PR 合并的整个流程，如今都可随时随地进行。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Cursor 官网发布：iPhone 和 iPad 新增收件箱，助您井井有条；同时提供覆盖完整 PR 的代码审查体验。随时随地创建、审查和合并。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：cursor",
+        "actionItems": [
+          "阅读原文（中文）：https://cursor.com/changelog/ipad"
+        ]
+      },
+      "tags": [
+        "Release"
+      ],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "cursor"
+      ],
+      "content": [
+        "iPhone 和 iPad 新增收件箱，助您井井有条；同时提供覆盖完整 PR 的代码审查体验。随时随地创建、审查和合并。",
+        "iPad 布局针对更大的屏幕空间重新设计。侧边栏中的聊天会保持固定，方便您同时查看多个智能体运行。分屏模式可让审查与聊天并排显示，文件差异也能完整呈现。",
+        "标注功能也拥有更多施展空间。附上截图后，轻点即可在指定位置添加评论，或使用 Apple Pencil 直接在图像上绘制。",
+        "在 iPhone 和 iPad 上，审查界面现已涵盖整个 PR：评论、检查和审批。您可以添加或更改审查者、查看评论，并让智能体解决其中的问题。从智能体输出到 PR 合并的整个流程，如今都可随时随地进行。",
+        "收件箱可帮助您和您的智能体保持井然有序。查看正在进行的事项、需要您关注的内容，以及正在审查中的 PR。"
+      ],
+      "highlights": [
+        "iPhone 和 iPad 新增收件箱，助您井井有条；同时提供覆盖完整 PR 的代码审查体验。随时随地创建、审查和合并。",
+        "iPad 布局针对更大的屏幕空间重新设计。侧边栏中的聊天会保持固定，方便您同时查看多个智能体运行。分屏模式可让审查与聊天并排显示，文件差异也能完整呈现。",
+        "标注功能也拥有更多施展空间。附上截图后，轻点即可在指定位置添加评论，或使用 Apple Pencil 直接在图像上绘制。"
+      ],
+      "translated": false,
+      "translateMethod": "native",
+      "originalTitle": "iPad 版 Cursor 现已登陆 iPad · Cursor",
+      "originalLang": "zh",
+      "date": "2026-07-29",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [
+        "cursor"
+      ],
+      "source": {
+        "type": "release",
+        "group": "company",
+        "name": "Cursor",
+        "author": "Cursor",
+        "url": "https://cursor.com/changelog/ipad",
+        "home": "https://cursor.com/changelog",
+        "lang": "zh",
+        "translated": false,
+        "translateMethod": "native",
+        "originalTitle": "iPad 版 Cursor 现已登陆 iPad · Cursor"
+      },
+      "raw": {
+        "title": "Cursor, now on iPad",
+        "url": "https://cursor.com/changelog/ipad",
+        "fetched": true,
+        "savedAt": "2026-08-02T22:53:52.935Z"
+      }
+    },
+    {
+      "id": "sig-f365082e32",
+      "title": "Grok Voice Think Fast 2.0 现已在 AI Gateway 上推出 - Vercel",
+      "oneLiner": "xAI 的 Grok Voice Think Fast 2.0 现已在 AI Gateway 上提供。它是一种语音到语音的语音模型，可接收音频输入和音频输出，在推理、转录准确性和对话方面改进了之前的 Grok 语音模型。",
+      "summary": {
+        "oneSentence": "xAI 的 Grok Voice Think Fast 2.0 现已在 AI Gateway 上提供。它是一种语音到语音的语音模型，可接收音频输入和音频输出，在推理、转录准确性和对话方面改进了之前的 Grok 语音模型。",
+        "bullets": [
+          "xAI 的 Grok Voice Think Fast 2.0 现已在 AI Gateway 上提供。它是一种语音到语音的语音模型，可接收音频输入和音频输出，在推理、转录准确性和对话方面改进了之前的 Grok 语音模型。",
+          "该模型与语音并行推理，因此它可以在说话时思考查询，而不会增加延迟。它还经过训练，可以使用比以前更少的推理标记，因此工具可以更快地调用火灾，通常是在代理的第一句话结束之前。转录在现实条件下仍然有效，包括背景噪音和电话压缩。",
+          "通过 AI SDK 的实时 API 使用 xai/grok-voice-think-fast-2.0。在服务器上创建一个短期令牌，这样您的 API 密钥就永远不会到达客户端：",
+          "app/api/realtime/token/route.ts 1 从 \"@ai-sdk/gateway\" 导入 { gateway } ； 2 3 导出异步函数 POST() { 4 const { 令牌, url } = 等待网关。实验实时。 getToken ( { 5 模型 : \"xai/grok-voice-"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：xAI 的 Grok Voice Think Fast 2.0 现已在 AI Gateway 上提供。它是一种语音到语音的语音模型，可接收音频输入和音频输出，在推理、转录准确性和对话方面改进了之前的 Grok 语音模型。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/grok-voice-think-fast-2-0-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "xAI 的 Grok Voice Think Fast 2.0 现已在 AI Gateway 上提供。它是一种语音到语音的语音模型，可接收音频输入和音频输出，在推理、转录准确性和对话方面改进了之前的 Grok 语音模型。",
+        "该模型与语音并行推理，因此它可以在说话时思考查询，而不会增加延迟。它还经过训练，可以使用比以前更少的推理标记，因此工具可以更快地调用火灾，通常是在代理的第一句话结束之前。转录在现实条件下仍然有效，包括背景噪音和电话压缩。",
+        "通过 AI SDK 的实时 API 使用 xai/grok-voice-think-fast-2.0。在服务器上创建一个短期令牌，这样您的 API 密钥就永远不会到达客户端：",
+        "app/api/realtime/token/route.ts 1 从 \"@ai-sdk/gateway\" 导入 { gateway } ； 2 3 导出异步函数 POST() { 4 const { 令牌, url } = 等待网关。实验实时。 getToken ( { 5 模型 : \"xai/grok-voice-think-fast-2.0\" , 6 } ) ; 7 返回响应。 json ( { 令牌 , url , 工具 : [ ] } ) ; 8}",
+        "请参阅实时文档，以使用 Grok Voice Think Fast 2.0 构建语音代理。在 AI Gateway 游乐场中试用该模型。"
+      ],
+      "highlights": [
+        "xAI 的 Grok Voice Think Fast 2.0 现已在 AI Gateway 上提供。它是一种语音到语音的语音模型，可接收音频输入和音频输出，在",
+        "该模型与语音并行推理，因此它可以在说话时思考查询，而不会增加延迟。它还经过训练，可以使用比以前更少的推理标记，因此工具可以更快地调用火灾，通常是在代理的第一句话",
+        "通过 AI SDK 的实时 API 使用 xai/grok-voice-think-fast-2.0。在服务器上创建一个短期令牌，这样您的 API 密钥就永远不"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Grok Voice Think Fast 2.0 now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-07-29",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/grok-voice-think-fast-2-0-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Grok Voice Think Fast 2.0 now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Grok Voice Think Fast 2.0 now available on AI Gateway",
+        "url": "https://vercel.com/changelog/grok-voice-think-fast-2-0-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-08-02T22:54:02.429Z"
+      }
+    },
+    {
+      "id": "sig-d4bbf2732c",
+      "title": "边缘配置现已成为全局配置 - Vercel",
+      "oneLiner": "边缘配置现在是全局配置。此重命名更好地反映了它是一个全局复制的数据存储，每个区域的读取时间约为 1 毫秒，专为应用程序在运行时读取的配置而构建，例如功能标志、重定向和实验设置。",
+      "summary": {
+        "oneSentence": "边缘配置现在是全局配置。此重命名更好地反映了它是一个全局复制的数据存储，每个区域的读取时间约为 1 毫秒，专为应用程序在运行时读取的配置而构建，例如功能标志、重定向和实验设置。",
+        "bullets": [
+          "边缘配置现在是全局配置。此重命名更好地反映了它是一个全局复制的数据存储，每个区域的读取时间约为 1 毫秒，专为应用程序在运行时读取的配置而构建，例如功能标志、重定向和实验设置。",
+          "全局配置存储现在每个计划最多可容纳 1 MB，专业团队和企业团队可以创建无限的存储，每天进行更多写入。重命名还附带了新的服务器端 SDK @vercel/global-config 和新的环境变量。",
+          "将链接复制到标题 更改内容 名称：全局配置是边缘配置的新名称。商店本身没有变化。",
+          "软件包：@vercel/global-config 替代 @vercel/edge-config 作为直接替代品。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：边缘配置现在是全局配置。此重命名更好地反映了它是一个全局复制的数据存储，每个区域的读取时间约为 1 毫秒，专为应用程序在运行时读取的配置而构建，例如功能标志、重定向和实验设置。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/edge-config-is-now-global-config"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "边缘配置现在是全局配置。此重命名更好地反映了它是一个全局复制的数据存储，每个区域的读取时间约为 1 毫秒，专为应用程序在运行时读取的配置而构建，例如功能标志、重定向和实验设置。",
+        "全局配置存储现在每个计划最多可容纳 1 MB，专业团队和企业团队可以创建无限的存储，每天进行更多写入。重命名还附带了新的服务器端 SDK @vercel/global-config 和新的环境变量。",
+        "将链接复制到标题 更改内容 名称：全局配置是边缘配置的新名称。商店本身没有变化。",
+        "软件包：@vercel/global-config 替代 @vercel/edge-config 作为直接替代品。",
+        "环境变量：将全局配置存储连接到项目会创建 GLOBAL_CONFIG 环境变量而不是 EDGE_CONFIG 。",
+        "限制：每个计划都有限制。定价不变。",
+        "将链接复制到标题 您需要执行的操作 现有项目：无需执行任何操作。部署、连接的存储和 EDGE_CONFIG 环境变量继续工作。",
+        "主动升级是安全的。新的 SDK 默认读取 GLOBAL_CONFIG 并回退到 EDGE_CONFIG ，因此它可以与重命名之前和之后连接的存储一起使用。您今天就可以更换套餐，而无需接触您的商店。",
+        "创建商店和推送新的配置值无需升级即可工作。两者都不取决于您的项目使用哪个 SDK 版本。",
+        "在将新商店连接到项目之前进行升级。连接商店现在会创建一个 GLOBAL_CONFIG 环境变量，而旧版 SDK 默认情况下仅读取 EDGE_CONFIG。仍在 @vercel/edge-config 上的项目无法读取新连接的存储。"
+      ],
+      "highlights": [
+        "边缘配置现在是全局配置。此重命名更好地反映了它是一个全局复制的数据存储，每个区域的读取时间约为 1 毫秒，专为应用程序在运行时读取的配置而构建，例如功能标志、重",
+        "全局配置存储现在每个计划最多可容纳 1 MB，专业团队和企业团队可以创建无限的存储，每天进行更多写入。重命名还附带了新的服务器端 SDK @vercel/glo",
+        "将链接复制到标题 更改内容 名称：全局配置是边缘配置的新名称。商店本身没有变化。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Edge Config is now Global Config - Vercel",
+      "originalLang": "en",
+      "date": "2026-07-29",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/edge-config-is-now-global-config",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Edge Config is now Global Config - Vercel"
+      },
+      "raw": {
+        "title": "Edge Config is now Global Config",
+        "url": "https://vercel.com/changelog/edge-config-is-now-global-config",
+        "fetched": true,
+        "savedAt": "2026-08-02T22:54:13.311Z"
+      }
+    },
+    {
+      "id": "sig-08d41baffc",
+      "title": "Vercel 现已支持使用 ChatGPT 登录 - Vercel",
+      "oneLiner": "使用 ChatGPT 登录会将您的 ChatGPT 帐户添加为 Vercel 的身份验证选项。将 Vercel 插件添加到 ChatGPT 以及登录 Vercel 或 v0 时可用。",
+      "summary": {
+        "oneSentence": "使用 ChatGPT 登录会将您的 ChatGPT 帐户添加为 Vercel 的身份验证选项。将 Vercel 插件添加到 ChatGPT 以及登录 Vercel 或 v0 时可用。",
+        "bullets": [
+          "使用 ChatGPT 登录会将您的 ChatGPT 帐户添加为 Vercel 的身份验证选项。将 Vercel 插件添加到 ChatGPT 以及登录 Vercel 或 v0 时可用。",
+          "当您将 Vercel 插件添加到 ChatGPT 时，您可以轻松登录 Vercel 并授予团队和项目权限，而无需离开 ChatGPT。",
+          "“继续 ChatGPT”也会作为登录选项出现在 Vercel 和 v0 登录和注册页面上。 2FA 和 SSO 等团队要求仍然适用。您可以在您的帐户 身份验证设置 中重新验证或断开 ChatGPT 登录方法。",
+          "使用 Chat 登录 GPT 处于测试阶段。将 Vercel 插件添加到 ChatGPT 中进行尝试，并阅读 OpenAI 的变更日志以了解更多信息。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：使用 ChatGPT 登录会将您的 ChatGPT 帐户添加为 Vercel 的身份验证选项。将 Vercel 插件添加到 ChatGPT 以及登录 Vercel 或 v0 时可用。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/sign-in-with-chatgpt-is-now-available-on-vercel"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "使用 ChatGPT 登录会将您的 ChatGPT 帐户添加为 Vercel 的身份验证选项。将 Vercel 插件添加到 ChatGPT 以及登录 Vercel 或 v0 时可用。",
+        "当您将 Vercel 插件添加到 ChatGPT 时，您可以轻松登录 Vercel 并授予团队和项目权限，而无需离开 ChatGPT。",
+        "“继续 ChatGPT”也会作为登录选项出现在 Vercel 和 v0 登录和注册页面上。 2FA 和 SSO 等团队要求仍然适用。您可以在您的帐户 身份验证设置 中重新验证或断开 ChatGPT 登录方法。",
+        "使用 Chat 登录 GPT 处于测试阶段。将 Vercel 插件添加到 ChatGPT 中进行尝试，并阅读 OpenAI 的变更日志以了解更多信息。"
+      ],
+      "highlights": [
+        "使用 ChatGPT 登录会将您的 ChatGPT 帐户添加为 Vercel 的身份验证选项。将 Vercel 插件添加到 ChatGPT 以及登录 Verce",
+        "当您将 Vercel 插件添加到 ChatGPT 时，您可以轻松登录 Vercel 并授予团队和项目权限，而无需离开 ChatGPT。",
+        "“继续 ChatGPT”也会作为登录选项出现在 Vercel 和 v0 登录和注册页面上。 2FA 和 SSO 等团队要求仍然适用。您可以在您的帐户 身份验证设"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Sign in with ChatGPT is now available on Vercel - Vercel",
+      "originalLang": "en",
+      "date": "2026-07-29",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/sign-in-with-chatgpt-is-now-available-on-vercel",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Sign in with ChatGPT is now available on Vercel - Vercel"
+      },
+      "raw": {
+        "title": "Sign in with ChatGPT is now available on Vercel",
+        "url": "https://vercel.com/changelog/sign-in-with-chatgpt-is-now-available-on-vercel",
+        "fetched": true,
+        "savedAt": "2026-08-02T22:54:21.341Z"
+      }
+    },
+    {
+      "id": "sig-e92adffdcd",
+      "title": "现在可以购买其他自定义环境 - Vercel",
+      "oneLiner": "专业团队和企业团队现在可以购买额外的自定义环境容量，而无需联系销售人员。",
+      "summary": {
+        "oneSentence": "专业团队和企业团队现在可以购买额外的自定义环境容量，而无需联系销售人员。",
+        "bullets": [
+          "专业团队和企业团队现在可以购买额外的自定义环境容量，而无需联系销售人员。",
+          "自定义环境让您可以在 Vercel 上对团队的发布流程进行建模。您可以在 Preview 和 Production 之间添加 staging 、 qa 或任何命名阶段，并且每个环境都有自己的分支跟踪、环境变量和域。",
+          "您可以从仪表板、API 或 CLI 购买或调整容量。",
+          "API POST /v1/projects/custom-environments/settings"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：专业团队和企业团队现在可以购买额外的自定义环境容量，而无需联系销售人员。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/additional-custom-environments-can-now-be-purchased"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "专业团队和企业团队现在可以购买额外的自定义环境容量，而无需联系销售人员。",
+        "自定义环境让您可以在 Vercel 上对团队的发布流程进行建模。您可以在 Preview 和 Production 之间添加 staging 、 qa 或任何命名阶段，并且每个环境都有自己的分支跟踪、环境变量和域。",
+        "您可以从仪表板、API 或 CLI 购买或调整容量。",
+        "API POST /v1/projects/custom-environments/settings",
+        "CLI vercel 购买插件自定义环境 <packs>",
+        "容量以 5 个环境为一包出售。只要项目使用的环境不超过新限制允许的数量，您也可以减少容量。当您确认更改时，帐单会更新。",
+        "将链接复制到标题 定价和限制 专业版和企业版计划提供自定义环境。每包 5 个环境可以每月 50 美元购买额外容量。",
+        "每个项目包含 1 个自定义环境（每个项目最多 16 个）",
+        "每个项目包含 12 个自定义环境（每个项目总共最多 22 个）",
+        "购买需要有效的专业版或企业版计划、计费权限和有效的付款方式。容量是按项目配置的，您的团队订阅反映了跨项目购买的环境总数。了解更多"
+      ],
+      "highlights": [
+        "专业团队和企业团队现在可以购买额外的自定义环境容量，而无需联系销售人员。",
+        "自定义环境让您可以在 Vercel 上对团队的发布流程进行建模。您可以在 Preview 和 Production 之间添加 staging 、 qa 或任何命",
+        "您可以从仪表板、API 或 CLI 购买或调整容量。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Additional custom environments can now be purchased - Vercel",
+      "originalLang": "en",
+      "date": "2026-07-29",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/additional-custom-environments-can-now-be-purchased",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Additional custom environments can now be purchased - Vercel"
+      },
+      "raw": {
+        "title": "Additional custom environments can now be purchased",
+        "url": "https://vercel.com/changelog/additional-custom-environments-can-now-be-purchased",
+        "fetched": true,
+        "savedAt": "2026-08-02T22:54:33.014Z"
       }
     },
     {
@@ -6432,7 +7226,7 @@
         "url": "https://cursor.com/changelog/slack-improvements",
         "fetched": true,
         "savedAt": "2026-07-27T07:34:20.673Z",
-        "retranslatedAt": "2026-08-01T22:53:19.057Z"
+        "retranslatedAt": "2026-08-02T22:54:34.046Z"
       }
     },
     {
@@ -6761,19 +7555,22 @@
     },
     {
       "id": "sig-a564401bb8",
-      "title": "Connect more of your apps to Search",
-      "oneLiner": "You’ll be able to securely link and interact with your go-to services directly in AI Mode.",
+      "title": "将更多应用程序连接到搜索",
+      "oneLiner": "您将能够直接在 AI 模式下安全地链接您的首选服务并与之交互。",
       "summary": {
-        "oneSentence": "You’ll be able to securely link and interact with your go-to services directly in AI Mode.",
+        "oneSentence": "您将能够直接在 AI 模式下安全地链接您的首选服务并与之交互。",
         "bullets": [
-          "You’ll be able to securely link and interact with your go-to services directly in AI Mode."
+          "您将能够直接在 AI 模式下安全地链接您的首选服务并与之交互。",
+          "您的浏览器不支持音频元素。",
+          "现在，您可以将您喜爱的应用程序直接连接到搜索中的 AI 模式，以完成更多工作。只需链接 Instacart、Canva 或 YouTube Music 等服务即可构建列表、设计项目或管理播放列表，而无需留下搜索结果。立即前往搜索中的 AI 模式开始使用这些新集成。",
+          "现在，您可以将您喜爱的应用程序直接链接到搜索中的 AI，以更快地完成工作。例如，您可以将杂货添加到购物车或保存音乐播放列表，而无需离开搜索页面。它使规划项目或聚会变得更加容易。只需前往 AI in Search 进行尝试即可。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Google AI 官网发布：您将能够直接在 AI 模式下安全地链接您的首选服务并与之交互。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -6781,40 +7578,40 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
-        "relevance": "",
+        "relevance": "关联产品：gemini",
         "actionItems": [
-          "阅读原文：https://blog.google/products-and-platforms/products/search/connected-apps/"
+          "阅读原文（英文）：https://blog.google/products-and-platforms/products/search/connected-apps/"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [
         "gemini"
       ],
       "content": [
-        "You’ll be able to securely link and interact with your go-to services directly in AI Mode.",
-        "Your browser does not support the audio element.",
-        "You can now connect your favorite apps directly to AI Mode in Search to get more done. Simply link services like Instacart, Canva, or YouTube Music to build lists, design projects, or curate playlists without leaving your search results. Head over to AI Mode in Search today to start using these new integrations.",
-        "You can now link your favorite apps directly to AI in Search to get things done faster. For example, you can add groceries to your cart or save music playlists without leaving the search page. It makes planning projects or parties way easier. Just head over to AI in Search to try it out.",
-        "You can already connect some of your favorite services to the Gemini app , and now, to help you get even more done, we’re enabling you to directly connect your apps in Search.",
-        "Starting to roll out this week in the U.S., you can securely link and interact with some of your go-to services right in AI Mode . Here’s a look at how these integrations in Search can streamline your day:",
-        "Let’s say you’re planning a barbecue and using AI Mode for help with your grocery list. If you connect Instacart, you can add the ingredients straight into your Instacart shopping cart and check out with just a few taps on their app or website.",
-        "With Personal Intelligence and your connected apps, Search can give even more tailored responses.",
-        "Or, if you’re working on a project where you need some design concepts – like creating a flyer – you can ask Canva to show you some template options.",
-        "Want to build the perfect soundtrack for your next party? You can use AI Mode to curate a playlist, instantly save it to YouTube Music and press play to start the celebration.",
-        "Head over to AI Mode in Search to try the new connected apps today. We're working with a range of partners and look forward to launching with more apps soon.",
-        "Sign up for our newsletters with product updates, event information, special offers, and more.",
-        "Check your inbox to confirm your subscription.",
-        "You can also subscribe with a different email address ."
+        "您将能够直接在 AI 模式下安全地链接您的首选服务并与之交互。",
+        "您的浏览器不支持音频元素。",
+        "现在，您可以将您喜爱的应用程序直接连接到搜索中的 AI 模式，以完成更多工作。只需链接 Instacart、Canva 或 YouTube Music 等服务即可构建列表、设计项目或管理播放列表，而无需留下搜索结果。立即前往搜索中的 AI 模式开始使用这些新集成。",
+        "现在，您可以将您喜爱的应用程序直接链接到搜索中的 AI，以更快地完成工作。例如，您可以将杂货添加到购物车或保存音乐播放列表，而无需离开搜索页面。它使规划项目或聚会变得更加容易。只需前往 AI in Search 进行尝试即可。",
+        "您已经可以将一些您喜欢的服务连接到 Gemini 应用程序，现在，为了帮助您完成更多工作，我们允许您直接在搜索中连接您的应用程序。",
+        "本周开始在美国推出，您可以在 AI 模式下安全地链接一些常用服务并进行交互。以下是搜索中的这些集成如何简化您的一天：",
+        "假设您正在计划烧烤并使用人工智能模式来帮助您制定购物清单。如果您连接 Instacart，您可以将原料直接添加到您的 Instacart 购物车中，只需在其应用程序或网站上轻按几下即可结账。",
+        "借助个人智能和连接的应用程序，搜索可以提供更加量身定制的响应。",
+        "或者，如果您正在开展的项目需要一些设计概念（例如创建传单），您可以要求 Canva 向您展示一些模板选项。",
+        "想为您的下一场聚会制作完美的配乐吗？您可以使用 AI 模式来策划播放列表，立即将其保存到 YouTube Music，然后按播放按钮开始庆祝活动。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "您将能够直接在 AI 模式下安全地链接您的首选服务并与之交互。",
+        "您的浏览器不支持音频元素。",
+        "现在，您可以将您喜爱的应用程序直接连接到搜索中的 AI 模式，以完成更多工作。只需链接 Instacart、Canva 或 YouTube Music 等服务即"
+      ],
+      "translated": true,
       "originalTitle": "Connect more of your apps to Search",
       "originalLang": "en",
       "date": "2026-07-16",
@@ -6832,32 +7629,37 @@
         "url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
         "home": "https://blog.google/technology/ai/",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Connect more of your apps to Search"
       },
       "raw": {
         "title": "Connect more of your apps to Search",
         "url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
         "fetched": true,
-        "savedAt": "2026-07-27T07:35:30.426Z"
-      }
+        "savedAt": "2026-07-27T07:35:30.426Z",
+        "retranslatedAt": "2026-08-02T22:54:42.355Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-0199c9587e",
-      "title": "Create, edit and star in videos with two Google Vids updates",
-      "oneLiner": "Gemini Omni and personal avatars in Google Vids make video creation easier than ever.",
+      "title": "通过两项 Google Vids 更新创建、编辑视频并为其加注星标",
+      "oneLiner": "Gemini Omni 和 Google Vids 中的个人头像让视频创作变得比以往更容易。现在，您可以使用日常语言生成和编辑高质量剪辑，并创建自定义数字化身来在您的视频中担任主角。",
       "summary": {
-        "oneSentence": "Gemini Omni and personal avatars in Google Vids make video creation easier than ever.",
+        "oneSentence": "Gemini Omni 和 Google Vids 中的个人头像让视频创作变得比以往更容易。现在，您可以使用日常语言生成和编辑高质量剪辑，并创建自定义数字化身来在您的视频中担任主角。",
         "bullets": [
-          "Gemini Omni and personal avatars in Google Vids make video creation easier than ever."
+          "Gemini Omni 和 Google Vids 中的个人头像让视频创作变得比以往更容易。现在，您可以使用日常语言生成和编辑高质量剪辑，并创建自定义数字化身来在您的视频中担任主角。",
+          "您的浏览器不支持音频元素。",
+          "Google Vids 现在提供 Gemini Omni，让您可以使用简单的文本提示和图像参考来生成和编辑高质量视频。您还可以创建数字化身，通过上传自拍照和录音来为您传递消息。检查您是否有资格使用这些工具，并立即开始尝试您的下一个视频项目。",
+          "Google Vids 现在使用 AI 来帮助您制作视频，只需输入您想看的内容即可。您甚至可以通过简单地描述所需的更改来编辑剪辑。如果您不想出现在镜头前，您可以创建一个看起来和听起来都像您的数字化身。每个人工智能制作的视频都会有一个特殊的水印，这样人们就知道它是生成的。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Google AI 官网发布：Gemini Omni 和 Google Vids 中的个人头像让视频创作变得比以往更容易。现在，您可以使用日常语言生成和编辑高质量剪辑，并创建自定义数字化身来在您的视频中担任主角。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -6865,40 +7667,40 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
-        "relevance": "",
+        "relevance": "关联产品：gemini",
         "actionItems": [
-          "阅读原文：https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/"
+          "阅读原文（英文）：https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [
         "gemini"
       ],
       "content": [
-        "Gemini Omni and personal avatars in Google Vids make video creation easier than ever. Now you can generate and edit high-quality clips using everyday language, and create a custom digital avatar to star in your videos.",
-        "Your browser does not support the audio element.",
-        "Google Vids now features Gemini Omni, which lets you generate and edit high-quality videos using simple text prompts and image references. You can also create a digital avatar to deliver messages for you by uploading a selfie and a voice recording. Check your eligibility for these tools and start experimenting with your next video project today.",
-        "Google Vids now uses AI to help you make videos just by typing what you want to see. You can even edit your clips by simply describing the changes you need. If you don't want to be on camera, you can create a digital avatar that looks and sounds like you. Every AI-made video gets a special watermark so people know it was generated.",
-        "Today, we’re rolling out two new updates to Google Vids to make it easier than ever to create, edit and personalize your videos: Gemini Omni and personal avatars. Gemini Omni takes the hard work out of the editing process, so generating and refining high-quality clips is as easy as writing a simple prompt. And with personal avatars, you have an entirely new way to star in videos without setting up a camera.",
-        "Here’s a look at how these new tools transform video creation.",
-        "In the past year, you’ve created millions of videos in Google Vids to share your stories and bring your ideas to life. In February, we made the process simpler by rolling out Veo 3.1 to all users, helping everyone generate videos within Vids.",
-        "Now, we’re bringing Gemini Omni to Vids, so you can create and edit high-quality videos just by describing what you want to see. Start with a simple text prompt in natural language, and add image references — like a photo or a rough sketch — for more detail. Omni mixes your inputs to generate a video that matches your vision.",
-        "Getting a video exactly right often requires a few tweaks after that first draft — and making those edits is now as easy as describing what you want to see. Whether you're refining a video you generated with Omni or a clip you shot on your phone, you can use everyday language to prompt Vids to swap backgrounds, fix lighting or add effects.",
-        "Because Omni supports step-by-step edits, you can now make changes to your videos without starting from scratch.",
-        "Want to send a quick video update or personalized shout-out, but don't have time to get camera-ready? With new personal avatars, you can create a digital avatar that looks and sounds like you. Just upload a selfie and a short voice recording. From there, type what you want to say and your avatar will deliver the message — no recording required.",
-        "Gemini Omni and personal avatars are available in Google Vids for Google AI Pro and Ultra subscribers and Google Workspace business customers . Access to personal avatars is currently limited to users in certain regions who are 18 or older. Personal avatars are linked to a user’s Google Account and are restricted to the account holder’s likeness.",
-        "We want you to feel confident sharing what you create. To ensure content transparency, every generated clip includes an invisible SynthID digital watermark. This allows people to verify that a video was created with AI, so you can explore your creativity and share your AI videos responsibly.",
-        "Come see what you can create with Gemini Omni and personal avatars in Google Vids ."
+        "Gemini Omni 和 Google Vids 中的个人头像让视频创作变得比以往更容易。现在，您可以使用日常语言生成和编辑高质量剪辑，并创建自定义数字化身来在您的视频中担任主角。",
+        "您的浏览器不支持音频元素。",
+        "Google Vids 现在提供 Gemini Omni，让您可以使用简单的文本提示和图像参考来生成和编辑高质量视频。您还可以创建数字化身，通过上传自拍照和录音来为您传递消息。检查您是否有资格使用这些工具，并立即开始尝试您的下一个视频项目。",
+        "Google Vids 现在使用 AI 来帮助您制作视频，只需输入您想看的内容即可。您甚至可以通过简单地描述所需的更改来编辑剪辑。如果您不想出现在镜头前，您可以创建一个看起来和听起来都像您的数字化身。每个人工智能制作的视频都会有一个特殊的水印，这样人们就知道它是生成的。",
+        "今天，我们推出了 Google Vids 的两项新更新，让您比以往更轻松地创建、编辑和个性化您的视频：Gemini Omni 和个人头像。 Gemini Omni 消除了编辑过程中的艰苦工作，因此生成和精炼高质量剪辑就像编写简单的提示一样简单。借助个人化身，您可以以全新的方式在视频中担任主演，而无需设置相机。",
+        "以下是这些新工具如何改变视频创作的方式。",
+        "去年，您在 Google 视频中制作了数百万个视频来分享您的故事并将您的想法变为现实。 2 月份，我们向所有用户推出 Veo 3.1，帮助每个人在 Vids 中生成视频，从而简化了流程。",
+        "现在，我们将 Gemini Omni 引入 Vids，因此您只需描述您想看的内容即可创建和编辑高质量视频。从自然语言的简单文本提示开始，然后添加图像参考（例如照片或草图）以获取更多详细信息。 Omni 混合您的输入以生成符合您愿景的视频。",
+        "要获得完全正确的视频通常需要在初稿之后进行一些调整 - 现在进行这些编辑就像描述您想看到的内容一样简单。无论您是要优化使用 Omni 生成的视频还是在手机上拍摄的剪辑，您都可以使用日常语言来提示视频交换背景、修复灯光或添加效果。",
+        "由于 Omni 支持逐步编辑，因此您现在无需从头开始即可更改视频。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "Gemini Omni 和 Google Vids 中的个人头像让视频创作变得比以往更容易。现在，您可以使用日常语言生成和编辑高质量剪辑，并创建自定义数字化身来",
+        "您的浏览器不支持音频元素。",
+        "Google Vids 现在提供 Gemini Omni，让您可以使用简单的文本提示和图像参考来生成和编辑高质量视频。您还可以创建数字化身，通过上传自拍照和录音"
+      ],
+      "translated": true,
       "originalTitle": "Create, edit and star in videos with two Google Vids updates",
       "originalLang": "en",
       "date": "2026-07-16",
@@ -6916,16 +7718,18 @@
         "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
         "home": "https://blog.google/technology/ai/",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Create, edit and star in videos with two Google Vids updates"
       },
       "raw": {
         "title": "Create, edit and star in videos with two Google Vids updates",
         "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
         "fetched": true,
-        "savedAt": "2026-07-27T07:35:53.991Z"
-      }
+        "savedAt": "2026-07-27T07:35:53.991Z",
+        "retranslatedAt": "2026-08-02T22:54:51.928Z"
+      },
+      "translateMethod": "google"
     }
   ]
 }
