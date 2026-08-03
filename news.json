@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-02T22:54:52.732Z",
+  "updatedAt": "2026-08-03T22:58:32.213Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 104,
+  "itemCount": 114,
   "brief": {
-    "date": "2026-08-02",
-    "generatedAt": "2026-08-02T22:54:52.731Z",
-    "totalCount": 104,
-    "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 104 条",
+    "date": "2026-08-03",
+    "generatedAt": "2026-08-03T22:58:32.212Z",
+    "totalCount": 114,
+    "todayCount": 6,
+    "headline": "今日 AI 信号 6 条 · 档案共 114 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -40,10 +40,10 @@
         "readMinutes": 5
       },
       {
-        "id": "sig-6d58997b46",
-        "title": "数学和理论计算机科学的十大进展",
+        "id": "sig-f806378380",
+        "title": "适用于 Blob 的 Vercel WAF 现已全面推出 - Vercel",
         "stars": 4,
-        "oneLiner": "OpenAI 分享了数学和理论计算机科学中长期存在的开放问题的新成果，包括几何、密码学和复杂性方面的进展。",
+        "oneLiner": "Vercel WAF for Blob 现已全面上市，并支持所有计划的生产使用。如果您在测试期间保护了商店，则不会发生任何变化：您的规则和设置将完全保持原样。",
         "readMinutes": 5
       }
     ],
@@ -53,10 +53,11 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "sig-6d58997b46",
-        "sig-b86dc435d6"
+        "sig-f806378380",
+        "sig-83fb5f249e"
       ],
       "newReleases": [
+        "sig-468f50ae5e",
         "sig-ff7bff38a4",
         "cur-cursor-agent",
         "sig-f83c24d415"
@@ -66,10 +67,10 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "sig-6d58997b46",
-        "sig-b86dc435d6",
-        "sig-4879819590",
-        "sig-7ae76eb905"
+        "sig-f806378380",
+        "sig-83fb5f249e",
+        "sig-d04cc35bd3",
+        "sig-0da67e7514"
       ],
       "emergingTrends": [
         "cur-openai-agentkit",
@@ -110,8 +111,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-08-02T22:54:52.732Z",
-    "summary": "近 30 天共 104 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-08-03T22:58:32.213Z",
+    "summary": "近 30 天共 114 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Agent",
@@ -122,19 +123,19 @@
         ]
       },
       {
+        "name": "Release",
+        "signal": "近 30 天 4 条相关更新",
+        "examples": [
+          "Google Workspace 插件 · Cursor",
+          "iPad 版 Cursor 现已登陆 iPad · Cursor"
+        ]
+      },
+      {
         "name": "Product",
         "signal": "近 30 天 4 条相关更新",
         "examples": [
           "Google Gemini 2.x：原生多模态与 Workspace 深度整合",
           "LibTV 无限画布：LiblibAI 系视频 Agent 全链路"
-        ]
-      },
-      {
-        "name": "Release",
-        "signal": "近 30 天 3 条相关更新",
-        "examples": [
-          "iPad 版 Cursor 现已登陆 iPad · Cursor",
-          "Cursor 0.4x：Background Agent 与多文件自主修改"
         ]
       },
       {
@@ -187,6 +188,32 @@
     ]
   },
   "productUpdates": [
+    {
+      "id": "sig-d04cc35bd3",
+      "title": "我们如何在六个月内构建响应式语音 AI 实时系统",
+      "oneLiner": "GPT-Live 使用无轮语音模型和低延迟架构实现与 AI 的连续语音交互，从而实现更快、更自然的对话。",
+      "date": "2026-08-03",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-468f50ae5e",
+      "title": "Google Workspace 插件 · Cursor",
+      "oneLiner": "Cursor 现可在您的 Google Workspace 中读取、写入并执行操作。",
+      "date": "2026-08-03",
+      "productIds": [
+        "cursor"
+      ],
+      "source": "Cursor",
+      "tags": [
+        "Release"
+      ],
+      "stars": 4
+    },
     {
       "id": "sig-6d58997b46",
       "title": "数学和理论计算机科学的十大进展",
@@ -346,6 +373,30 @@
       "stars": 4
     },
     {
+      "id": "sig-df22037e3e",
+      "title": "代理人工智能时代的科学计算",
+      "oneLiner": "一份新的现场报告展示了科学家如何使用人工智能编码代理实现科学计算现代化，加速基因组学及其他领域的软件开发和发现。",
+      "date": "2026-07-28",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-be3ca53745",
+      "title": "Gemini API 托管代理：3.6 Flash、挂钩等",
+      "oneLiner": "Gemini API 中的托管代理现在默认为 Gemini 3.6 Flash。新的环境挂钩允许您阻止、检查或审核沙箱内的工具调用。此外，我们还添加了预算控制、计划触发器和免费套餐访问。",
+      "date": "2026-07-28",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google AI",
+      "tags": [],
+      "stars": 4
+    },
+    {
       "id": "cur-openai-agentkit",
       "title": "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排",
       "oneLiner": "OpenAI 继续把「对话模型」升级为「可调用工具的 Agent 运行时」。",
@@ -444,57 +495,577 @@
       "source": "OpenAI Blog",
       "tags": [],
       "stars": 3
-    },
-    {
-      "id": "sig-fc3528d001",
-      "title": "Advancing the next era of national science",
-      "oneLiner": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate disco",
-      "date": "2026-07-22",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI Blog",
-      "tags": [],
-      "stars": 3
-    },
-    {
-      "id": "sig-c54f46e53d",
-      "title": "Introducing OpenAI Presence",
-      "oneLiner": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workf",
-      "date": "2026-07-22",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI Blog",
-      "tags": [],
-      "stars": 3
-    },
-    {
-      "id": "sig-ce627deb99",
-      "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
-      "oneLiner": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
-      "date": "2026-07-22",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI Blog",
-      "tags": [],
-      "stars": 3
-    },
-    {
-      "id": "sig-fb87586911",
-      "title": "Cursor Router",
-      "oneLiner": "Auto mode is now powered by Cursor Router.",
-      "date": "2026-07-22",
-      "productIds": [
-        "cursor"
-      ],
-      "source": "Cursor Changelog",
-      "tags": [],
-      "stars": 3
     }
   ],
   "items": [
+    {
+      "id": "sig-f806378380",
+      "title": "适用于 Blob 的 Vercel WAF 现已全面推出 - Vercel",
+      "oneLiner": "Vercel WAF for Blob 现已全面上市，并支持所有计划的生产使用。如果您在测试期间保护了商店，则不会发生任何变化：您的规则和设置将完全保持原样。",
+      "summary": {
+        "oneSentence": "Vercel WAF for Blob 现已全面上市，并支持所有计划的生产使用。如果您在测试期间保护了商店，则不会发生任何变化：您的规则和设置将完全保持原样。",
+        "bullets": [
+          "Vercel WAF for Blob 现已全面上市，并支持所有计划的生产使用。如果您在测试期间保护了商店，则不会发生任何变化：您的规则和设置将完全保持原样。",
+          "Vercel WAF 使用自定义规则保护 Blob 存储，这与您用来保护部署的类型相同。与 IP 地址、国家/地区和路径等属性匹配的规则可以拒绝、质询或限制对存储对象的请求。这不需要更改您的代码、blob URL 或使用 @vercel/blob 的方式。",
+          "规则在 Vercel 的边缘进行评估，因此在任何数据传输发生之前拒绝的请求都会被拒绝。人工智能生成的媒体、用户上传或付费下载的不需要的流量永远不会到达您的商店，也永远不会产生账单。",
+          "要启用保护，请打开 Blob 存储区的“设置”选项卡，然后在“防火墙”部分中选择“保护你的存储区”，然后选择“启用防火墙”。这会将商店连接到一个专用的团队范围项目，其中存在您的 Blob 防火墙规则，并由您保护的每个商店共享。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel WAF for Blob 现已全面上市，并支持所有计划的生产使用。如果您在测试期间保护了商店，则不会发生任何变化：您的规则和设置将完全保持原样。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-waf-for-blob-is-now-generally-available"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel WAF for Blob 现已全面上市，并支持所有计划的生产使用。如果您在测试期间保护了商店，则不会发生任何变化：您的规则和设置将完全保持原样。",
+        "Vercel WAF 使用自定义规则保护 Blob 存储，这与您用来保护部署的类型相同。与 IP 地址、国家/地区和路径等属性匹配的规则可以拒绝、质询或限制对存储对象的请求。这不需要更改您的代码、blob URL 或使用 @vercel/blob 的方式。",
+        "规则在 Vercel 的边缘进行评估，因此在任何数据传输发生之前拒绝的请求都会被拒绝。人工智能生成的媒体、用户上传或付费下载的不需要的流量永远不会到达您的商店，也永远不会产生账单。",
+        "要启用保护，请打开 Blob 存储区的“设置”选项卡，然后在“防火墙”部分中选择“保护你的存储区”，然后选择“启用防火墙”。这会将商店连接到一个专用的团队范围项目，其中存在您的 Blob 防火墙规则，并由您保护的每个商店共享。",
+        "阅读 Blob 安全文档以保护存储。"
+      ],
+      "highlights": [
+        "Vercel WAF for Blob 现已全面上市，并支持所有计划的生产使用。如果您在测试期间保护了商店，则不会发生任何变化：您的规则和设置将完全保持原样。",
+        "Vercel WAF 使用自定义规则保护 Blob 存储，这与您用来保护部署的类型相同。与 IP 地址、国家/地区和路径等属性匹配的规则可以拒绝、质询或限制对存",
+        "规则在 Vercel 的边缘进行评估，因此在任何数据传输发生之前拒绝的请求都会被拒绝。人工智能生成的媒体、用户上传或付费下载的不需要的流量永远不会到达您的商店，"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel WAF for Blob is now generally available - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-03",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-waf-for-blob-is-now-generally-available",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel WAF for Blob is now generally available - Vercel"
+      },
+      "raw": {
+        "title": "Vercel WAF for Blob is now generally available",
+        "url": "https://vercel.com/changelog/vercel-waf-for-blob-is-now-generally-available",
+        "fetched": true,
+        "savedAt": "2026-08-03T22:57:30.152Z"
+      }
+    },
+    {
+      "id": "sig-83fb5f249e",
+      "title": "代码、工艺和嵌套文件夹的制作 | Figma 博客",
+      "oneLiner": "从将代码视为提案到将交接转变为对话，以下是我们如何塑造一种交付嵌套文件夹的新工作方式。",
+      "summary": {
+        "oneSentence": "从将代码视为提案到将交接转变为对话，以下是我们如何塑造一种交付嵌套文件夹的新工作方式。",
+        "bullets": [
+          "从将代码视为提案到将交接转变为对话，以下是我们如何塑造一种交付嵌套文件夹的新工作方式。",
+          "今天，我们很高兴推出嵌套文件夹，这是一项长期要求的功能，可帮助成长中的团队在扩展内容和处理复杂项目时保持文件井井有条。嵌套文件夹听起来像是一个简单的生活质量改进，但构建它们需要从头开始重新思考Figma的底层内容和权限模型——从文件浏览器和管理控制到共享、权限和核心基础设施的一切。",
+          "一年前，当我们开始这个项目时，我们遵循传统的产品开发流程：产品满足需求，设计映射经验，一旦想法得到解决，工程就开始构建。在项目进行到一半时，环境发生了变化。一方面，我们的团队正在追求新的人工智能原生功能，从而划分我们的资源。另一方面，Figma Make 等工具属性面板和注释现在已在Figma Make 中通过可视化编",
+          "Figma MCP 服务器比以往更广泛地覆盖平台。从更新生活甲板到将设计交付到生产——这就是实际情况。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Figma 官网发布：从将代码视为提案到将交接转变为对话，以下是我们如何塑造一种交付嵌套文件夹的新工作方式。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://www.figma.com/blog/code-craft-and-the-making-of-nested-folders/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "从将代码视为提案到将交接转变为对话，以下是我们如何塑造一种交付嵌套文件夹的新工作方式。",
+        "今天，我们很高兴推出嵌套文件夹，这是一项长期要求的功能，可帮助成长中的团队在扩展内容和处理复杂项目时保持文件井井有条。嵌套文件夹听起来像是一个简单的生活质量改进，但构建它们需要从头开始重新思考Figma的底层内容和权限模型——从文件浏览器和管理控制到共享、权限和核心基础设施的一切。",
+        "一年前，当我们开始这个项目时，我们遵循传统的产品开发流程：产品满足需求，设计映射经验，一旦想法得到解决，工程就开始构建。在项目进行到一半时，环境发生了变化。一方面，我们的团队正在追求新的人工智能原生功能，从而划分我们的资源。另一方面，Figma Make 等工具属性面板和注释现在已在Figma Make 中通过可视化编辑和注释，Figma Make 正在弥合设计和代码之间的差距。选择要更改的任何元素，直接在属性面板中调整它，或使用注释编写上下文提示。",
+        "Figma MCP 服务器比以往更广泛地覆盖平台。从更新生活甲板到将设计交付到生产——这就是实际情况。",
+        "从分享您的最佳想法到从团队的首选提示中学习，以下是 Figma 代理中可以解锁的技能。",
+        "从可视化编辑到上下文提示和协作，Figma Make 正在扩展团队使用代码进行设计的方式。",
+        "提示让您开始。定制工具、真实背景和技能让设计代理走得更远——因此画布上的最终效果实际上看起来就像你一样。",
+        "为了匹配这些班次并发送嵌套文件夹，我们采用了一种新的工作方式：",
+        "以下是从工程、设计和产品三个角度来看这些变化的情况。它们共同展示了我们的团队如何找到加深支持工作的关系、组合技能并始终专注于提供正确的体验或解决方案的方法。",
+        "在这个项目进行几个月后，我意识到典型的产品开发过程会花费太长的时间。这就像期末考试进行到一半，抬头一看，发现时间只剩下五分钟了——我们必须加快速度。"
+      ],
+      "highlights": [
+        "从将代码视为提案到将交接转变为对话，以下是我们如何塑造一种交付嵌套文件夹的新工作方式。",
+        "今天，我们很高兴推出嵌套文件夹，这是一项长期要求的功能，可帮助成长中的团队在扩展内容和处理复杂项目时保持文件井井有条。嵌套文件夹听起来像是一个简单的生活质量改进",
+        "一年前，当我们开始这个项目时，我们遵循传统的产品开发流程：产品满足需求，设计映射经验，一旦想法得到解决，工程就开始构建。在项目进行到一半时，环境发生了变化。一方"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Code, Craft, and the Making of Nested Folders | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-08-03",
+      "categoryIds": [
+        "vertical-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/code-craft-and-the-making-of-nested-folders/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Code, Craft, and the Making of Nested Folders | Figma Blog"
+      },
+      "raw": {
+        "title": "Code, craft, and the making of nested folders",
+        "url": "https://www.figma.com/blog/code-craft-and-the-making-of-nested-folders/",
+        "fetched": true,
+        "savedAt": "2026-08-03T22:57:42.563Z"
+      }
+    },
+    {
+      "id": "sig-d04cc35bd3",
+      "title": "我们如何在六个月内构建响应式语音 AI 实时系统",
+      "oneLiner": "GPT-Live 使用无轮语音模型和低延迟架构实现与 AI 的连续语音交互，从而实现更快、更自然的对话。",
+      "summary": {
+        "oneSentence": "GPT-Live 使用无轮语音模型和低延迟架构实现与 AI 的连续语音交互，从而实现更快、更自然的对话。",
+        "bullets": [
+          "GPT-Live 使用无轮语音模型和低延迟架构实现与 AI 的连续语音交互，从而实现更快、更自然的对话。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：GPT-Live 使用无轮语音模型和低延迟架构实现与 AI 的连续语音交互，从而实现更快、更自然的对话。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/continuous-voice-interaction-with-gpt-live"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "GPT-Live 使用无轮语音模型和低延迟架构实现与 AI 的连续语音交互，从而实现更快、更自然的对话。"
+      ],
+      "highlights": [
+        "GPT-Live 使用无轮语音模型和低延迟架构实现与 AI 的连续语音交互，从而实现更快、更自然的对话。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How we built a realtime system for responsive voice AI in six months",
+      "originalLang": "en",
+      "date": "2026-08-03",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How we built a realtime system for responsive voice AI in six months"
+      },
+      "raw": {
+        "title": "How we built a realtime system for responsive voice AI in six months",
+        "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+        "fetched": false,
+        "savedAt": "2026-08-03T22:57:43.774Z"
+      }
+    },
+    {
+      "id": "sig-0da67e7514",
+      "title": "Factory 如何将其云后端扩展到 Vercel 上的每日数千万个请求",
+      "oneLiner": "将链接复制到 Vercel 上的标题 Factory 每天处理数千万个后端 API 请求",
+      "summary": {
+        "oneSentence": "将链接复制到 Vercel 上的标题 Factory 每天处理数千万个后端 API 请求",
+        "bullets": [
+          "将链接复制到 Vercel 上的标题 Factory 每天处理数千万个后端 API 请求",
+          "无需专门的基础设施团队即可扩展后端、内部工具和安全性",
+          "Factory 的使命是为软件开发生命周期的每个阶段（从信号到生产）带来自主性。不是要取代工程判断，而是要自动化围绕它的重复性工作，让工程师有更多时间专注于最重要的决策。为了提供这个企业级平台，Factory 在内部采用了他们理想的运营模式：通过部署 Droid 来管理日常工作负载，保持精益和敏捷，这样他们的工程师就可",
+          "随着 Factory 从简单的 Web 应用程序扩展到多界面平台，为从个人开发人员到拥有数万名工程师的企业的所有人提供服务，他们的后端也随之扩展。如今，Vercel 上的单个 Next.js 后端为每个界面提供支持，通过 API 路由、中间件和 Webhook 处理程序处理数千万个日常请求，而无需成为单独的工程项目。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：将链接复制到 Vercel 上的标题 Factory 每天处理数千万个后端 API 请求",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/how-factory-scaled-its-cloud-backend-to-tens-of-millions-of-daily-requests"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "将链接复制到 Vercel 上的标题 Factory 每天处理数千万个后端 API 请求",
+        "无需专门的基础设施团队即可扩展后端、内部工具和安全性",
+        "Factory 的使命是为软件开发生命周期的每个阶段（从信号到生产）带来自主性。不是要取代工程判断，而是要自动化围绕它的重复性工作，让工程师有更多时间专注于最重要的决策。为了提供这个企业级平台，Factory 在内部采用了他们理想的运营模式：通过部署 Droid 来管理日常工作负载，保持精益和敏捷，这样他们的工程师就可以专注于构建产品。",
+        "随着 Factory 从简单的 Web 应用程序扩展到多界面平台，为从个人开发人员到拥有数万名工程师的企业的所有人提供服务，他们的后端也随之扩展。如今，Vercel 上的单个 Next.js 后端为每个界面提供支持，通过 API 路由、中间件和 Webhook 处理程序处理数千万个日常请求，而无需成为单独的工程项目。",
+        "将链接复制到标题 Next.js 作为云 SaaS 的全栈后端：大规模 API 路由、中间件和后端逻辑 大多数团队将 Next.js 视为前端框架。 Factory 在其上运行其整个云后端：",
+        "API 路由处理面向客户的 API，该 API 在 Next.js 应用程序的自己的部分中启动",
+        "中间件管理每个表面的身份验证和路由逻辑",
+        "Webhook 处理程序和日志排出管道与 Web 平台一起运行，为下游提供分析",
+        "随着 Factory 的快速发展，同一个后端吸收了每一个新的工作负载。这些都不需要建立单独的基础设施或做出新的供应商决定。唯一需要调整的区域是内存限制和函数持续时间。两者都顺利扩大规模。流畅的计算使函数在请求之间保持温暖，消除了冷启动损失，冷启动损失使传统的无服务器成为延迟敏感工作负载的负担。结果是 p95 响应时间为 350ms 或更低。",
+        "三年来，增长轨迹一直平稳，没有通常伴随的管理费用。"
+      ],
+      "highlights": [
+        "将链接复制到 Vercel 上的标题 Factory 每天处理数千万个后端 API 请求",
+        "无需专门的基础设施团队即可扩展后端、内部工具和安全性",
+        "Factory 的使命是为软件开发生命周期的每个阶段（从信号到生产）带来自主性。不是要取代工程判断，而是要自动化围绕它的重复性工作，让工程师有更多时间专注于最重"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How Factory scaled its cloud backend to tens of millions of daily requests on Vercel",
+      "originalLang": "en",
+      "date": "2026-08-03",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/how-factory-scaled-its-cloud-backend-to-tens-of-millions-of-daily-requests",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How Factory scaled its cloud backend to tens of millions of daily requests on Vercel"
+      },
+      "raw": {
+        "title": "How Factory scaled its cloud backend to tens of millions of daily requests on Vercel",
+        "url": "https://vercel.com/blog/how-factory-scaled-its-cloud-backend-to-tens-of-millions-of-daily-requests",
+        "fetched": true,
+        "savedAt": "2026-08-03T22:57:49.255Z"
+      }
+    },
+    {
+      "id": "sig-468f50ae5e",
+      "title": "Google Workspace 插件 · Cursor",
+      "oneLiner": "Cursor 现可在您的 Google Workspace 中读取、写入并执行操作。",
+      "summary": {
+        "oneSentence": "Cursor 现可在您的 Google Workspace 中读取、写入并执行操作。",
+        "bullets": [
+          "Cursor 现可在您的 Google Workspace 中读取、写入并执行操作。",
+          "新插件让编程智能体能够直接访问 Gmail、Google Drive、Calendar、Docs 和 Sheets，因此您无需离开 Cursor，即可获取上下文、起草和更新文件，以及管理收件箱和日历。",
+          "在 Cursor 应用市场 浏览新插件，或在 Cursor 的自定义页面安装。更多信息请参阅我们的 文档 。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Cursor 官网发布：Cursor 现可在您的 Google Workspace 中读取、写入并执行操作。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：cursor",
+        "actionItems": [
+          "阅读原文（中文）：https://cursor.com/changelog/google-workspace-plugins"
+        ]
+      },
+      "tags": [
+        "Release"
+      ],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "cursor"
+      ],
+      "content": [
+        "Cursor 现可在您的 Google Workspace 中读取、写入并执行操作。",
+        "新插件让编程智能体能够直接访问 Gmail、Google Drive、Calendar、Docs 和 Sheets，因此您无需离开 Cursor，即可获取上下文、起草和更新文件，以及管理收件箱和日历。",
+        "在 Cursor 应用市场 浏览新插件，或在 Cursor 的自定义页面安装。更多信息请参阅我们的 文档 。"
+      ],
+      "highlights": [
+        "Cursor 现可在您的 Google Workspace 中读取、写入并执行操作。",
+        "新插件让编程智能体能够直接访问 Gmail、Google Drive、Calendar、Docs 和 Sheets，因此您无需离开 Cursor，即可获取上下文",
+        "在 Cursor 应用市场 浏览新插件，或在 Cursor 的自定义页面安装。更多信息请参阅我们的 文档 。"
+      ],
+      "translated": false,
+      "translateMethod": "native",
+      "originalTitle": "Google Workspace 插件 · Cursor",
+      "originalLang": "zh",
+      "date": "2026-08-03",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [
+        "cursor"
+      ],
+      "source": {
+        "type": "release",
+        "group": "company",
+        "name": "Cursor",
+        "author": "Cursor",
+        "url": "https://cursor.com/changelog/google-workspace-plugins",
+        "home": "https://cursor.com/changelog",
+        "lang": "zh",
+        "translated": false,
+        "translateMethod": "native",
+        "originalTitle": "Google Workspace 插件 · Cursor"
+      },
+      "raw": {
+        "title": "Google Workspace Plugins",
+        "url": "https://cursor.com/changelog/google-workspace-plugins",
+        "fetched": true,
+        "savedAt": "2026-08-03T22:57:50.365Z"
+      }
+    },
+    {
+      "id": "sig-bd54a38b23",
+      "title": "跨团队共享 Vercel 容器注册表存储库 - Vercel",
+      "oneLiner": "Vercel 容器注册表现在允许您与其他 Vercel 团队共享存储库，以授予对其映像的读取访问权限。",
+      "summary": {
+        "oneSentence": "Vercel 容器注册表现在允许您与其他 Vercel 团队共享存储库，以授予对其映像的读取访问权限。",
+        "bullets": [
+          "Vercel 容器注册表现在允许您与其他 Vercel 团队共享存储库，以授予对其映像的读取访问权限。",
+          "共享是只读的并且覆盖整个存储库。收件人可以拉取和使用每个图像，但不能推送、删除或重新共享。您还可以与自己的团队共享存储库。每个存储库最多可以与 100 个团队共享。",
+          "从项目仪表板的图像 → 存储库 → 设置 → 存储库共享下进行共享，或使用 Vercel CLI 进行共享：",
+          "terminal # 与团队共享存储库 vercel vcr 权限 my-repository add other-team # 列出具有访问 vercel vcr 权限的团队 my-repository ls # 撤销团队的访问 vercel vcr 权限 my-repository rm other-team # "
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel 容器注册表现在允许您与其他 Vercel 团队共享存储库，以授予对其映像的读取访问权限。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/share-vercel-container-registry-repositories-across-teams"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel 容器注册表现在允许您与其他 Vercel 团队共享存储库，以授予对其映像的读取访问权限。",
+        "共享是只读的并且覆盖整个存储库。收件人可以拉取和使用每个图像，但不能推送、删除或重新共享。您还可以与自己的团队共享存储库。每个存储库最多可以与 100 个团队共享。",
+        "从项目仪表板的图像 → 存储库 → 设置 → 存储库共享下进行共享，或使用 Vercel CLI 进行共享：",
+        "terminal # 与团队共享存储库 vercel vcr 权限 my-repository add other-team # 列出具有访问 vercel vcr 权限的团队 my-repository ls # 撤销团队的访问 vercel vcr 权限 my-repository rm other-team # 删除所有共享访问 vercel vcr 权限 my-repository clear",
+        "共享图像可以在 Vercel Sandbox 中使用，在 Sandbox.create() 中接受团队范围的图像引用：",
+        "从 '@vercel/sandbox' 导入 { Sandbox } ； const sandbox = 等待 Sandbox 。创建 ( { image : 'other-team/their-project/shared-repository:latest' , } ) ;",
+        "所有计划都提供存储库共享。使用 npm i -g vercel@latest 将 Vercel CLI 更新到 v58.3.0 或更高版本以开始使用，并参阅 Vercel 容器注册表文档以了解更多信息。"
+      ],
+      "highlights": [
+        "Vercel 容器注册表现在允许您与其他 Vercel 团队共享存储库，以授予对其映像的读取访问权限。",
+        "共享是只读的并且覆盖整个存储库。收件人可以拉取和使用每个图像，但不能推送、删除或重新共享。您还可以与自己的团队共享存储库。每个存储库最多可以与 100 个团队共",
+        "从项目仪表板的图像 → 存储库 → 设置 → 存储库共享下进行共享，或使用 Vercel CLI 进行共享："
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Share Vercel Container Registry repositories across teams - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-03",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/share-vercel-container-registry-repositories-across-teams",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Share Vercel Container Registry repositories across teams - Vercel"
+      },
+      "raw": {
+        "title": "Share Vercel Container Registry repositories across teams",
+        "url": "https://vercel.com/changelog/share-vercel-container-registry-repositories-across-teams",
+        "fetched": true,
+        "savedAt": "2026-08-03T22:57:57.924Z"
+      }
+    },
+    {
+      "id": "sig-61a5584a35",
+      "title": "Qwen 3.8 Max 现已在 Vercel AI Gateway 上可用 - Vercel",
+      "oneLiner": "Qwen 3.8 Max 现已在 AI Gateway 上架。",
+      "summary": {
+        "oneSentence": "Qwen 3.8 Max 现已在 AI Gateway 上架。",
+        "bullets": [
+          "Qwen 3.8 Max 现已在 AI Gateway 上架。",
+          "Qwen 3.8 Max 在一个模型中处理纯文本和视觉语言工作，具有 2.4 万亿个参数和最多 100 万个标记的上下文窗口。该模型适用于软件工程和办公生产力，以及视觉工作，例如将屏幕截图或设计文件转换为工作页面、为视频添加字幕以及回答基于图像的问题。",
+          "要使用 Qwen 3.8 Max，请将 model 设置为 alibaba/qwen3.8-max 。",
+          "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText({ 4 model: 'alibaba/qwen3.8-max', 5prompt: '为结果端点添加分页。', 6});"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Qwen 3.8 Max 现已在 AI Gateway 上架。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/qwen-3-8-max-now-available-on-vercel-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Qwen 3.8 Max 现已在 AI Gateway 上架。",
+        "Qwen 3.8 Max 在一个模型中处理纯文本和视觉语言工作，具有 2.4 万亿个参数和最多 100 万个标记的上下文窗口。该模型适用于软件工程和办公生产力，以及视觉工作，例如将屏幕截图或设计文件转换为工作页面、为视频添加字幕以及回答基于图像的问题。",
+        "要使用 Qwen 3.8 Max，请将 model 设置为 alibaba/qwen3.8-max 。",
+        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText({ 4 model: 'alibaba/qwen3.8-max', 5prompt: '为结果端点添加分页。', 6});",
+        "在模型游乐场中尝试 Qwen 3.8 Max。",
+        "要在编码代理中使用它，请运行 vercel ai-gatewaycoding-agents setup 以连接 Claude Code、Codex、OpenCode 或 Pi，然后在代理内选择 alibaba/qwen3.8-max。",
+        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本，以及配置重试、故障转移和性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、零数据保留支持、API 密钥预算、路由规则等。",
+        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。",
+        "AI Gateway：按使用情况跟踪顶级 AI 模型",
+        "AI Gateway 模型排行榜跟踪一段时间内最流行的模型，并根据所有网关流量处理的代币总量对它们进行排名。"
+      ],
+      "highlights": [
+        "Qwen 3.8 Max 现已在 AI Gateway 上架。",
+        "Qwen 3.8 Max 在一个模型中处理纯文本和视觉语言工作，具有 2.4 万亿个参数和最多 100 万个标记的上下文窗口。该模型适用于软件工程和办公生产力，",
+        "要使用 Qwen 3.8 Max，请将 model 设置为 alibaba/qwen3.8-max 。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Qwen 3.8 Max now available on Vercel AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-02",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/qwen-3-8-max-now-available-on-vercel-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Qwen 3.8 Max now available on Vercel AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Qwen 3.8 Max now available on Vercel AI Gateway",
+        "url": "https://vercel.com/changelog/qwen-3-8-max-now-available-on-vercel-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-08-03T22:58:04.914Z"
+      }
+    },
     {
       "id": "sig-6d58997b46",
       "title": "数学和理论计算机科学的十大进展",
@@ -3371,7 +3942,8 @@
         "title": "Cursor, now on iPad",
         "url": "https://cursor.com/changelog/ipad",
         "fetched": true,
-        "savedAt": "2026-08-02T22:53:52.935Z"
+        "savedAt": "2026-08-02T22:53:52.935Z",
+        "retranslatedAt": "2026-08-03T22:58:30.347Z"
       }
     },
     {
@@ -3697,6 +4269,252 @@
         "url": "https://vercel.com/changelog/additional-custom-environments-can-now-be-purchased",
         "fetched": true,
         "savedAt": "2026-08-02T22:54:33.014Z"
+      }
+    },
+    {
+      "id": "sig-257ab808d5",
+      "title": "从 CLI 发现并安装 eve 集成 - Vercel",
+      "oneLiner": "您现在可以直接从 eve CLI 发现并安装 eve 代理的集成。集成来自官方 eve 目录和第三方来源。",
+      "summary": {
+        "oneSentence": "您现在可以直接从 eve CLI 发现并安装 eve 代理的集成。集成来自官方 eve 目录和第三方来源。",
+        "bullets": [
+          "您现在可以直接从 eve CLI 发现并安装 eve 代理的集成。集成来自官方 eve 目录和第三方来源。",
+          "从您的 eve 项目运行 eve add 来安装集成：",
+          "eve add 扩展/代理浏览器 eve add 通道/slack eve 添加连接/vercel eve 添加检测/braintrust 添加代理浏览器扩展、Slack 通道、Vercel MCP 连接和 Braintrust 检测",
+          "集成将其文件直接写入您的项目，并可以添加 eve 代理使用的任何内容，从单个工具到通道再到完整的扩展。在运行代理之前查看生成的文件并添加任何所需的配置。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：您现在可以直接从 eve CLI 发现并安装 eve 代理的集成。集成来自官方 eve 目录和第三方来源。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/discover-and-install-eve-integrations-from-the-cli"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "您现在可以直接从 eve CLI 发现并安装 eve 代理的集成。集成来自官方 eve 目录和第三方来源。",
+        "从您的 eve 项目运行 eve add 来安装集成：",
+        "eve add 扩展/代理浏览器 eve add 通道/slack eve 添加连接/vercel eve 添加检测/braintrust 添加代理浏览器扩展、Slack 通道、Vercel MCP 连接和 Braintrust 检测",
+        "集成将其文件直接写入您的项目，并可以添加 eve 代理使用的任何内容，从单个工具到通道再到完整的扩展。在运行代理之前查看生成的文件并添加任何所需的配置。",
+        "查找与新 eve 注册表命令的集成：",
+        "eve 注册表列表：列出可用的集成。",
+        "everegistrysearch<term>：在目录中搜索功能，例如浏览器。",
+        "everegistry view <name> ：在安装集成之前检查它。",
+        "您还可以浏览集成目录以查看官方目录。",
+        "添加具有命名空间和 URL 模板的第三方源："
+      ],
+      "highlights": [
+        "您现在可以直接从 eve CLI 发现并安装 eve 代理的集成。集成来自官方 eve 目录和第三方来源。",
+        "从您的 eve 项目运行 eve add 来安装集成：",
+        "eve add 扩展/代理浏览器 eve add 通道/slack eve 添加连接/vercel eve 添加检测/braintrust 添加代理浏览器扩展、"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Discover and install eve integrations from the CLI - Vercel",
+      "originalLang": "en",
+      "date": "2026-07-29",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/discover-and-install-eve-integrations-from-the-cli",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Discover and install eve integrations from the CLI - Vercel"
+      },
+      "raw": {
+        "title": "Discover and install eve integrations from the CLI",
+        "url": "https://vercel.com/changelog/discover-and-install-eve-integrations-from-the-cli",
+        "fetched": true,
+        "savedAt": "2026-08-03T22:58:16.076Z"
+      }
+    },
+    {
+      "id": "sig-df22037e3e",
+      "title": "代理人工智能时代的科学计算",
+      "oneLiner": "一份新的现场报告展示了科学家如何使用人工智能编码代理实现科学计算现代化，加速基因组学及其他领域的软件开发和发现。",
+      "summary": {
+        "oneSentence": "一份新的现场报告展示了科学家如何使用人工智能编码代理实现科学计算现代化，加速基因组学及其他领域的软件开发和发现。",
+        "bullets": [
+          "一份新的现场报告展示了科学家如何使用人工智能编码代理实现科学计算现代化，加速基因组学及其他领域的软件开发和发现。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：一份新的现场报告展示了科学家如何使用人工智能编码代理实现科学计算现代化，加速基因组学及其他领域的软件开发和发现。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/scientific-computing-agentic-ai"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "一份新的现场报告展示了科学家如何使用人工智能编码代理实现科学计算现代化，加速基因组学及其他领域的软件开发和发现。"
+      ],
+      "highlights": [
+        "一份新的现场报告展示了科学家如何使用人工智能编码代理实现科学计算现代化，加速基因组学及其他领域的软件开发和发现。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Scientific computing in the age of agentic AI",
+      "originalLang": "en",
+      "date": "2026-07-28",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/scientific-computing-agentic-ai",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Scientific computing in the age of agentic AI"
+      },
+      "raw": {
+        "title": "Scientific computing in the age of agentic AI",
+        "url": "https://openai.com/index/scientific-computing-agentic-ai",
+        "fetched": false,
+        "savedAt": "2026-08-03T22:58:17.294Z"
+      }
+    },
+    {
+      "id": "sig-be3ca53745",
+      "title": "Gemini API 托管代理：3.6 Flash、挂钩等",
+      "oneLiner": "Gemini API 中的托管代理现在默认为 Gemini 3.6 Flash。新的环境挂钩允许您阻止、检查或审核沙箱内的工具调用。此外，我们还添加了预算控制、计划触发器和免费套餐访问。",
+      "summary": {
+        "oneSentence": "Gemini API 中的托管代理现在默认为 Gemini 3.6 Flash。新的环境挂钩允许您阻止、检查或审核沙箱内的工具调用。此外，我们还添加了预算控制、计划触发器和免费套餐访问。",
+        "bullets": [
+          "Gemini API 中的托管代理现在默认为 Gemini 3.6 Flash。新的环境挂钩允许您阻止、检查或审核沙箱内的工具调用。此外，我们还添加了预算控制、计划触发器和免费套餐访问。",
+          "谷歌 DeepMind 技术人员",
+          "您的浏览器不支持音频元素。",
+          "Gemini API 中的托管代理可以获得环境挂钩、模型选择和免费层访问权限。这些功能建立在我们之前版本的基础上，引入了后台任务和远程 MCP 服务器集成。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google AI 官网发布：Gemini API 中的托管代理现在默认为 Gemini 3.6 Flash。新的环境挂钩允许您阻止、检查或审核沙箱内的工具调用。此外，我们还添加了预算控制、计划触发器和免费套餐访问。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "Gemini API 中的托管代理现在默认为 Gemini 3.6 Flash。新的环境挂钩允许您阻止、检查或审核沙箱内的工具调用。此外，我们还添加了预算控制、计划触发器和免费套餐访问。",
+        "谷歌 DeepMind 技术人员",
+        "您的浏览器不支持音频元素。",
+        "Gemini API 中的托管代理可以获得环境挂钩、模型选择和免费层访问权限。这些功能建立在我们之前版本的基础上，引入了后台任务和远程 MCP 服务器集成。",
+        "通过 Gemini Interactions API 中的托管代理，单个 API 调用可以在隔离的云沙箱内协调、推理、代码执行、包安装、文件管理和 Web 检索。",
+        "如果您使用的是 AI 编码助手，请将其放入终端中以使其能够访问交互 API 技能：npx Skills add google-gemini/gemini-skills --skill gemini-interactions-api。",
+        "以下是使用 @google/genai TypeScript/JavaScript SDK 的示例。对于 Python 或 cURL，请查看反重力代理文档 。",
+        "npm install @google/genai Gemini 3.6 Flash 现在是默认设置 antigravity-preview-05-2026 代理现在默认运行 Gemini 3.6 Flash。无需更改代码。您的下一次互动会自动选择它。",
+        "您还可以在创建交互或托管代理时通过传递 agent_config.model 来显式选择模型。使用 Gemini 3.5 Flash-Lite 可以降低成本，或固定到您偏好的型号。",
+        "从“@google/genai”导入 { GoogleGenAI }； const client = new GoogleGenAI({}); const交互=等待client.interactions.create（{代理：“antigravity-preview-05-2026”，输入：“审核package.json中的所有依赖项，升级过时的包，并通过运行npm测试验证​​构建。”，环境：“remote”，agent_config：{类型：“antigravity”，模型：“gemini-3.5-flash-lite”，}，}）; console.log(interaction.output_text);支持的型号包括："
+      ],
+      "highlights": [
+        "Gemini API 中的托管代理现在默认为 Gemini 3.6 Flash。新的环境挂钩允许您阻止、检查或审核沙箱内的工具调用。此外，我们还添加了预算控制、",
+        "谷歌 DeepMind 技术人员",
+        "您的浏览器不支持音频元素。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+      "originalLang": "en",
+      "date": "2026-07-28",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Gemini API Managed Agents: 3.6 Flash, hooks, and more"
+      },
+      "raw": {
+        "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+        "fetched": true,
+        "savedAt": "2026-08-03T22:58:29.184Z"
       }
     },
     {
@@ -7226,7 +8044,7 @@
         "url": "https://cursor.com/changelog/slack-improvements",
         "fetched": true,
         "savedAt": "2026-07-27T07:34:20.673Z",
-        "retranslatedAt": "2026-08-02T22:54:34.046Z"
+        "retranslatedAt": "2026-08-03T22:58:31.409Z"
       }
     },
     {
