@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-03T22:58:32.213Z",
+  "updatedAt": "2026-08-04T23:00:54.751Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 114,
+  "itemCount": 124,
   "brief": {
-    "date": "2026-08-03",
-    "generatedAt": "2026-08-03T22:58:32.212Z",
-    "totalCount": 114,
-    "todayCount": 6,
-    "headline": "今日 AI 信号 6 条 · 档案共 114 条",
+    "date": "2026-08-04",
+    "generatedAt": "2026-08-04T23:00:54.750Z",
+    "totalCount": 124,
+    "todayCount": 8,
+    "headline": "今日 AI 信号 8 条 · 档案共 124 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -40,10 +40,10 @@
         "readMinutes": 5
       },
       {
-        "id": "sig-f806378380",
-        "title": "适用于 Blob 的 Vercel WAF 现已全面推出 - Vercel",
+        "id": "sig-977f60f7e5",
+        "title": "涉及 OpenAI 模型的第三方网络评估",
         "stars": 4,
-        "oneLiner": "Vercel WAF for Blob 现已全面上市，并支持所有计划的生产使用。如果您在测试期间保护了商店，则不会发生任何变化：您的规则和设置将完全保持原样。",
+        "oneLiner": "OpenAI 解释了最近发生的第三方网络安全评估事件，并概述了加强人工智能模型测试和评估的新保障措施。",
         "readMinutes": 5
       }
     ],
@@ -53,8 +53,8 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "sig-f806378380",
-        "sig-83fb5f249e"
+        "sig-977f60f7e5",
+        "sig-2a0a276054"
       ],
       "newReleases": [
         "sig-468f50ae5e",
@@ -67,10 +67,10 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "sig-f806378380",
-        "sig-83fb5f249e",
-        "sig-d04cc35bd3",
-        "sig-0da67e7514"
+        "sig-977f60f7e5",
+        "sig-2a0a276054",
+        "sig-35c7ec064e",
+        "sig-d967e4e720"
       ],
       "emergingTrends": [
         "cur-openai-agentkit",
@@ -111,8 +111,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-08-03T22:58:32.213Z",
-    "summary": "近 30 天共 114 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-08-04T23:00:54.751Z",
+    "summary": "近 30 天共 124 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Agent",
@@ -189,6 +189,42 @@
   },
   "productUpdates": [
     {
+      "id": "sig-977f60f7e5",
+      "title": "涉及 OpenAI 模型的第三方网络评估",
+      "oneLiner": "OpenAI 解释了最近发生的第三方网络安全评估事件，并概述了加强人工智能模型测试和评估的新保障措施。",
+      "date": "2026-08-04",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-2a0a276054",
+      "title": "我们于 2026 年 7 月公布的最新 AI 新闻",
+      "oneLiner": "以下是我们 7 月份以来一些最大的 AI 更新的回顾，包括用于大规模构建 AI 代理的三个新 Gemini 模型，以及用于帮助机器人推理、协作和解决现实世界任务的 Gemini Robotics ER 2。",
+      "date": "2026-08-04",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google AI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-b274d6785e",
+      "title": "使用 ChatGPT Work 和 Codex 进行学习和教学的新方法",
+      "oneLiner": "探索 ChatGPT Work 和 Codex 的新教育插件，帮助 K-12 教师、大学教育工作者和学生学习、教学、研究和构建。",
+      "date": "2026-08-04",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
       "id": "sig-d04cc35bd3",
       "title": "我们如何在六个月内构建响应式语音 AI 实时系统",
       "oneLiner": "GPT-Live 使用无轮语音模型和低延迟架构实现与 AI 的连续语音交互，从而实现更快、更自然的对话。",
@@ -212,6 +248,30 @@
       "tags": [
         "Release"
       ],
+      "stars": 4
+    },
+    {
+      "id": "sig-2163b41330",
+      "title": "苹果在这个问题上犯了错误",
+      "oneLiner": "OpenAI 解决了苹果公司毫无根据的诉讼，纠正了对其员工的指控，并分享了记录所发生事件的信息。",
+      "date": "2026-08-03",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-928c08785b",
+      "title": "深入了解我们 353,000 人的氛围编码课程",
+      "oneLiner": "Google 和 Kaggle 的“AI 代理：强化 Vibe 编码”课程包含专家主导的会议、技术白皮书和笔记本以及顶点项目。",
+      "date": "2026-08-03",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google AI",
+      "tags": [],
       "stars": 4
     },
     {
@@ -427,77 +487,623 @@
         "API"
       ],
       "stars": 5
-    },
-    {
-      "id": "cur-cursor-agent",
-      "title": "Cursor 0.4x：Background Agent 与多文件自主修改",
-      "oneLiner": "Cursor 把 Coding Agent 从「补全」推进到「自主完成小需求」。",
-      "date": "2026-07-24",
-      "productIds": [
-        "cursor"
-      ],
-      "source": "Cursor",
-      "tags": [
-        "Coding",
-        "Agent",
-        "Release"
-      ],
-      "stars": 5
-    },
-    {
-      "id": "sig-7569338ee0",
-      "title": "Launching Health in ChatGPT",
-      "oneLiner": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their h",
-      "date": "2026-07-23",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI Blog",
-      "tags": [],
-      "stars": 3
-    },
-    {
-      "id": "cur-gemini-multimodal",
-      "title": "Google Gemini 2.x：原生多模态与 Workspace 深度整合",
-      "oneLiner": "Gemini 继续押注「Workspace 里的默认 AI 同事」。",
-      "date": "2026-07-22",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google AI",
-      "tags": [
-        "Agent",
-        "Workflow",
-        "Product"
-      ],
-      "stars": 4
-    },
-    {
-      "id": "sig-bd6ce42035",
-      "title": "Building AI infrastructure with the Effingham County community",
-      "oneLiner": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
-      "date": "2026-07-22",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI Blog",
-      "tags": [],
-      "stars": 3
-    },
-    {
-      "id": "sig-130e23c4bd",
-      "title": "How news organizations are using AI to advance their vital missions",
-      "oneLiner": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publisher",
-      "date": "2026-07-22",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI Blog",
-      "tags": [],
-      "stars": 3
     }
   ],
   "items": [
+    {
+      "id": "sig-977f60f7e5",
+      "title": "涉及 OpenAI 模型的第三方网络评估",
+      "oneLiner": "OpenAI 解释了最近发生的第三方网络安全评估事件，并概述了加强人工智能模型测试和评估的新保障措施。",
+      "summary": {
+        "oneSentence": "OpenAI 解释了最近发生的第三方网络安全评估事件，并概述了加强人工智能模型测试和评估的新保障措施。",
+        "bullets": [
+          "OpenAI 解释了最近发生的第三方网络安全评估事件，并概述了加强人工智能模型测试和评估的新保障措施。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 解释了最近发生的第三方网络安全评估事件，并概述了加强人工智能模型测试和评估的新保障措施。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/third-party-cyber-evaluations-involving-openai-models"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 解释了最近发生的第三方网络安全评估事件，并概述了加强人工智能模型测试和评估的新保障措施。"
+      ],
+      "highlights": [
+        "OpenAI 解释了最近发生的第三方网络安全评估事件，并概述了加强人工智能模型测试和评估的新保障措施。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Third-party cyber evaluations involving OpenAI models",
+      "originalLang": "en",
+      "date": "2026-08-04",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Third-party cyber evaluations involving OpenAI models"
+      },
+      "raw": {
+        "title": "Third-party cyber evaluations involving OpenAI models",
+        "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+        "fetched": false,
+        "savedAt": "2026-08-04T23:00:00.712Z"
+      }
+    },
+    {
+      "id": "sig-2a0a276054",
+      "title": "我们于 2026 年 7 月公布的最新 AI 新闻",
+      "oneLiner": "以下是我们 7 月份以来一些最大的 AI 更新的回顾，包括用于大规模构建 AI 代理的三个新 Gemini 模型，以及用于帮助机器人推理、协作和解决现实世界任务的 Gemini Robotics ER 2。",
+      "summary": {
+        "oneSentence": "以下是我们 7 月份以来一些最大的 AI 更新的回顾，包括用于大规模构建 AI 代理的三个新 Gemini 模型，以及用于帮助机器人推理、协作和解决现实世界任务的 Gemini Robotics ER 2。",
+        "bullets": [
+          "以下是我们 7 月份以来一些最大的 AI 更新的回顾，包括用于大规模构建 AI 代理的三个新 Gemini 模型，以及用于帮助机器人推理、协作和解决现实世界任务的 Gemini Robotics ER 2。",
+          "您的浏览器不支持音频元素。",
+          "谷歌 7 月的更新引入了更快的 Gemini 模型、先进的机器人技术以及用于视频和音乐制作的新创意工具。现在，您可以使用 Gemini Spark 自动执行网络任务、将您喜爱的应用程序链接到搜索，以及轻松地将数据传输到新的 Android 设备。我们还通过新的野火探测卫星和合作伙伴关系来支持熟练的行业劳动力，扩大我们的",
+          "谷歌在 7 月份发布了一系列新的人工智能更新，让你的设备变得更智能、更有用。他们推出了更快的 Gemini 模型、更好的音乐和视频制作工具，以及帮助您管理日常任务的新功能。他们还利用人工智能来做一些重要的事情，比如追踪野火和改善天气预报。这些更新旨在使技术更易于使用，同时帮助解决现实世界的问题。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google AI 官网发布：以下是我们 7 月份以来一些最大的 AI 更新的回顾，包括用于大规模构建 AI 代理的三个新 Gemini 模型，以及用于帮助机器人推理、协作和解决现实世界任务的 Gemini Robotics ER 2。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "以下是我们 7 月份以来一些最大的 AI 更新的回顾，包括用于大规模构建 AI 代理的三个新 Gemini 模型，以及用于帮助机器人推理、协作和解决现实世界任务的 Gemini Robotics ER 2。",
+        "您的浏览器不支持音频元素。",
+        "谷歌 7 月的更新引入了更快的 Gemini 模型、先进的机器人技术以及用于视频和音乐制作的新创意工具。现在，您可以使用 Gemini Spark 自动执行网络任务、将您喜爱的应用程序链接到搜索，以及轻松地将数据传输到新的 Android 设备。我们还通过新的野火探测卫星和合作伙伴关系来支持熟练的行业劳动力，扩大我们的影响力。",
+        "谷歌在 7 月份发布了一系列新的人工智能更新，让你的设备变得更智能、更有用。他们推出了更快的 Gemini 模型、更好的音乐和视频制作工具，以及帮助您管理日常任务的新功能。他们还利用人工智能来做一些重要的事情，比如追踪野火和改善天气预报。这些更新旨在使技术更易于使用，同时帮助解决现实世界的问题。",
+        "20 多年来，我们投资于机器学习和人工智能研究、工具和基础设施，以打造让更多人的日常生活变得更美好的产品。 Google 的团队正在研究如何释放人工智能在医疗保健、危机应对和教育等广泛领域的优势。为了让您及时了解我们的进展，我们定期汇总 Google 的最新人工智能新闻。",
+        "以下是我们 7 月份发布的一些人工智能公告的回顾。",
+        "7 月带来了人工智能进步浪潮，以支持开发人员、简化日常生活并保护当地社区。我们为开发人员提供了更快、更高效的 Gemini 模型，用于扩展生产代理和推进机器人技术。我们还通过下一代音乐和视频工具扩展了我们的创意套件，并使搜索和 Gemini Spark 与您的日常应用程序更加紧密地联系在一起。此外，我们还宣布了一个新的技术贸易联盟和用于早期野火检测的新卫星——Google DeepMind 联合创始人兼首席执行官 Demis Hassabis 分享了他对这一历史关键时刻的愿景。我们 7 月份的更新共同展示了人工智能如何比以往任何时候都更加实用、更具创造性和更有帮助。",
+        "查看三款新 Gemini 型号。构建生产型人工智能代理的开发人员和客户需要更高的代币效率、更低的延迟和更可靠的性能。 Gemini 3.6 Flash、3.5 Flash-Lite 和 3.5 Flash Cyber​​ 旨在满足效率和质量的最佳点，以实现扩展代理工作流程。",
+        "了解机器人如何使用 Gemini Robotics ER 2 进行装备。我们推出了 Gemini Robotics ER 2，这是我们迄今为止最强大的“具身推理”模型。 ER 2 专为开发人员打造真正有用的机器而打造，弥合了数字智能与物理世界之间的差距。它让系统能够与人们自然地聊天，了解周围的环境，并完成复杂的多步骤任务。",
+        "开始在 Galaxy Unpacked 2026 的最新设备上使用 Gemini Intelligence。随着三星 Galaxy Z Fold8 Ultra、Fold8 和 Flip8 的推出，我们让 Android 入门变得前所未有的简单，同时也推出了 Gemini Intelligence 的首批功能。 1"
+      ],
+      "highlights": [
+        "以下是我们 7 月份以来一些最大的 AI 更新的回顾，包括用于大规模构建 AI 代理的三个新 Gemini 模型，以及用于帮助机器人推理、协作和解决现实世界任务",
+        "您的浏览器不支持音频元素。",
+        "谷歌 7 月的更新引入了更快的 Gemini 模型、先进的机器人技术以及用于视频和音乐制作的新创意工具。现在，您可以使用 Gemini Spark 自动执行网络"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "The latest AI news we announced in July 2026",
+      "originalLang": "en",
+      "date": "2026-08-04",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "The latest AI news we announced in July 2026"
+      },
+      "raw": {
+        "title": "The latest AI news we announced in July 2026",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-july-2026/",
+        "fetched": true,
+        "savedAt": "2026-08-04T23:00:05.471Z"
+      }
+    },
+    {
+      "id": "sig-35c7ec064e",
+      "title": "Vercel 支持 Next.js 16.3",
+      "oneLiner": "昨天，Next.js 团队宣布发布 Next.js 16.3，具有更精简的预取、不可变的静态资源和即时导航。作为此版本的一部分，我们与 Next.js 团队合作，在 Vercel 上完全支持 16.3，包括更好的性能和额外的可观察性。已升级",
+      "summary": {
+        "oneSentence": "昨天，Next.js 团队宣布发布 Next.js 16.3，具有更精简的预取、不可变的静态资源和即时导航。作为此版本的一部分，我们与 Next.js 团队合作，在 Vercel 上完全支持 16.3，包括更好的性能和额外的可观察性。已升级",
+        "bullets": [
+          "昨天，Next.js 团队宣布发布 Next.js 16.3，具有更精简的预取、不可变的静态资源和即时导航。作为此版本的一部分，我们与 Next.js 团队合作，在 Vercel 上完全支持 16.3，包括更好的性能和额外的可观察性。已升级的应用程序已看到：",
+          "更少的预取请求：从 16.2 升级到 16.3 的应用程序的预取请求平均减少了 45%，其中一些减少了 70% 以上。",
+          "更低的静态资产成本：借助不可变的静态资产，升级后的应用程序的 CDN 请求减少了 17%，静态内容传输的字节数减少了 24%，频繁部署的项目的全局 TTFB 减少了高达 60%。",
+          "大规模更快的路由：关键服务路径中的路由元数据改进为大型站点提供约 2 倍更快的 p99 路由解析速度。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：昨天，Next.js 团队宣布发布 Next.js 16.3，具有更精简的预取、不可变的静态资源和即时导航。作为此版本的一部分，我们与 Next.js 团队合作，在 Vercel 上完全支持 16.3，包括更好的性能和额外的可观察性。已升级",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/vercel-supports-next-js-16-3"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "昨天，Next.js 团队宣布发布 Next.js 16.3，具有更精简的预取、不可变的静态资源和即时导航。作为此版本的一部分，我们与 Next.js 团队合作，在 Vercel 上完全支持 16.3，包括更好的性能和额外的可观察性。已升级的应用程序已看到：",
+        "更少的预取请求：从 16.2 升级到 16.3 的应用程序的预取请求平均减少了 45%，其中一些减少了 70% 以上。",
+        "更低的静态资产成本：借助不可变的静态资产，升级后的应用程序的 CDN 请求减少了 17%，静态内容传输的字节数减少了 24%，频繁部署的项目的全局 TTFB 减少了高达 60%。",
+        "大规模更快的路由：关键服务路径中的路由元数据改进为大型站点提供约 2 倍更快的 p99 路由解析速度。",
+        "将链接复制到标题平台改进 Next.js 16.3 提供更精简的预取，并默认启用不可变的静态资产。支持两者也意味着改变平台，包括如何缓存静态资产、解析路由以及显示生产中发生的情况。",
+        "将链接复制到标题 不可变静态资产 Vercel 现在支持在 Next.js 的部署中重用不可变静态资产。不可变的静态资产不会受到版本偏差的影响，即使对于未启用偏差保护的项目也是如此，并且浏览器缓存可以在重新部署后继续存在。由于 Next.js 使用基于查询参数的倾斜保护，因此此更改将静态内容的 CDN 请求减少了 17%，传输的字节数减少了 24%。由于未更改的资产会跳过重新上传，因此部署完成速度平均可提高 30%。在 Next.js 16.3 中，默认启用不可变静态资源。",
+        "Next.js 16.3 在公共路径 /_next/static/immutable/* 下输出不可变的内容寻址静态资产。 Vercel CDN 使用此前缀来区分不可变静态资产和其他静态资产。",
+        "如果您是框架作者并希望在自己的工具链中实现此功能，请参阅构建输出 API 文档的不可变静态文件部分。",
+        "将链接复制到标题 大规模更快的路由 Next.js 16 引入了一项优化，其中应用程序的公共部分会预取一次并在导航中重复使用，而不是为每个链接再次获取。为了实现重用，每个共享段都必须能够自行获取，因此 Next.js 会为同一应用程序生成更多路径。",
+        "这些额外的路径会在平台端加起来。 Next.js 等框架通过构建输出 API 部署到 Vercel，并且框架为每个路径生成一个元数据文件，描述如何为其提供服务，例如其预渲染配置。 Vercel CDN 会在每个请求的路径中读取元数据，因此每次查找都必须在几毫秒或更短的时间内完成，并且它会缓存元数据以保持在该预算之内。在全球范围内，每秒有 500 万次查找。随着 Next.js 16 应用程序传送更多路径，缓存容纳更多条目，命中率下降，并且我们看到大型应用程序的 p99 TTFB 增加。"
+      ],
+      "highlights": [
+        "昨天，Next.js 团队宣布发布 Next.js 16.3，具有更精简的预取、不可变的静态资源和即时导航。作为此版本的一部分，我们与 Next.js 团队合作",
+        "更少的预取请求：从 16.2 升级到 16.3 的应用程序的预取请求平均减少了 45%，其中一些减少了 70% 以上。",
+        "更低的静态资产成本：借助不可变的静态资产，升级后的应用程序的 CDN 请求减少了 17%，静态内容传输的字节数减少了 24%，频繁部署的项目的全局 TTFB 减"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel supports Next.js 16.3",
+      "originalLang": "en",
+      "date": "2026-08-04",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/vercel-supports-next-js-16-3",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel supports Next.js 16.3"
+      },
+      "raw": {
+        "title": "Vercel supports Next.js 16.3",
+        "url": "https://vercel.com/blog/vercel-supports-next-js-16-3",
+        "fetched": true,
+        "savedAt": "2026-08-04T23:00:22.324Z"
+      }
+    },
+    {
+      "id": "sig-d967e4e720",
+      "title": "对于具有许多 ISR 页面的应用程序，部署速度现在提高了 33% - Vercel",
+      "oneLiner": "现在，使用增量静态再生 (ISR) 的应用程序的部署速度提高了 33%。您拥有的预渲染页面越多，您可能节省的费用就越多。",
+      "summary": {
+        "oneSentence": "现在，使用增量静态再生 (ISR) 的应用程序的部署速度提高了 33%。您拥有的预渲染页面越多，您可能节省的费用就越多。",
+        "bullets": [
+          "现在，使用增量静态再生 (ISR) 的应用程序的部署速度提高了 33%。您拥有的预渲染页面越多，您可能节省的费用就越多。",
+          "ISR 将静态生成的速度与动态渲染的灵活性相结合，让站点无需完全重建即可更新内容。每个 ISR 页面都有附带的路由元数据。以前，当元数据变得太大时，它会分成单独的上传，从而为每个部署增加工作量。现在它总是在一次上传中发送。这同样适用于其他预渲染页面，包括部分预渲染。",
+          "这会自动应用于每次部署，无需配置。在文档中了解有关构建的更多信息。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：现在，使用增量静态再生 (ISR) 的应用程序的部署速度提高了 33%。您拥有的预渲染页面越多，您可能节省的费用就越多。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/deploys-are-now-up-to-33-faster-for-apps-with-many-isr-pages"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "现在，使用增量静态再生 (ISR) 的应用程序的部署速度提高了 33%。您拥有的预渲染页面越多，您可能节省的费用就越多。",
+        "ISR 将静态生成的速度与动态渲染的灵活性相结合，让站点无需完全重建即可更新内容。每个 ISR 页面都有附带的路由元数据。以前，当元数据变得太大时，它会分成单独的上传，从而为每个部署增加工作量。现在它总是在一次上传中发送。这同样适用于其他预渲染页面，包括部分预渲染。",
+        "这会自动应用于每次部署，无需配置。在文档中了解有关构建的更多信息。"
+      ],
+      "highlights": [
+        "现在，使用增量静态再生 (ISR) 的应用程序的部署速度提高了 33%。您拥有的预渲染页面越多，您可能节省的费用就越多。",
+        "ISR 将静态生成的速度与动态渲染的灵活性相结合，让站点无需完全重建即可更新内容。每个 ISR 页面都有附带的路由元数据。以前，当元数据变得太大时，它会分成单独",
+        "这会自动应用于每次部署，无需配置。在文档中了解有关构建的更多信息。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Deploys are now up to 33% faster for apps with many ISR pages - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-04",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/deploys-are-now-up-to-33-faster-for-apps-with-many-isr-pages",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Deploys are now up to 33% faster for apps with many ISR pages - Vercel"
+      },
+      "raw": {
+        "title": "Deploys are now up to 33% faster for apps with many ISR pages",
+        "url": "https://vercel.com/changelog/deploys-are-now-up-to-33-faster-for-apps-with-many-isr-pages",
+        "fetched": true,
+        "savedAt": "2026-08-04T23:00:35.368Z"
+      }
+    },
+    {
+      "id": "sig-b274d6785e",
+      "title": "使用 ChatGPT Work 和 Codex 进行学习和教学的新方法",
+      "oneLiner": "探索 ChatGPT Work 和 Codex 的新教育插件，帮助 K-12 教师、大学教育工作者和学生学习、教学、研究和构建。",
+      "summary": {
+        "oneSentence": "探索 ChatGPT Work 和 Codex 的新教育插件，帮助 K-12 教师、大学教育工作者和学生学习、教学、研究和构建。",
+        "bullets": [
+          "探索 ChatGPT Work 和 Codex 的新教育插件，帮助 K-12 教师、大学教育工作者和学生学习、教学、研究和构建。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：探索 ChatGPT Work 和 Codex 的新教育插件，帮助 K-12 教师、大学教育工作者和学生学习、教学、研究和构建。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/learn-teach-chatgpt-work-codex"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "探索 ChatGPT Work 和 Codex 的新教育插件，帮助 K-12 教师、大学教育工作者和学生学习、教学、研究和构建。"
+      ],
+      "highlights": [
+        "探索 ChatGPT Work 和 Codex 的新教育插件，帮助 K-12 教师、大学教育工作者和学生学习、教学、研究和构建。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "New ways to learn and teach with ChatGPT Work and Codex",
+      "originalLang": "en",
+      "date": "2026-08-04",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "New ways to learn and teach with ChatGPT Work and Codex"
+      },
+      "raw": {
+        "title": "New ways to learn and teach with ChatGPT Work and Codex",
+        "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+        "fetched": false,
+        "savedAt": "2026-08-04T23:00:40.280Z"
+      }
+    },
+    {
+      "id": "sig-f5eec579d4",
+      "title": "Skill packs are now available on skills.sh",
+      "oneLiner": "You can now bundle multiple agent skills into a shareable pack on skills.sh . Hand anyone a curated ",
+      "summary": {
+        "oneSentence": "You can now bundle multiple agent skills into a shareable pack on skills.sh . Hand anyone a curated set via a single URL",
+        "bullets": [
+          "You can now bundle multiple agent skills into a shareable pack on skills.sh . Hand anyone a curated set via a single URL, or share it with your GitHub organization to standardize the skills your team'"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/skill-packs-are-now-available"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "You can now bundle multiple agent skills into a shareable pack on skills.sh .",
+        "Hand anyone a curated set via a single URL, or share it with your GitHub organization to standardize the skills your team's agents use across any project.",
+        "Create a pack from community skills on skills.sh , or your own from local folders, zips, or GitHub repositories. Install any pack with one command:",
+        "npx skills add https://skills.sh/p/ < pack-id >",
+        "Run npx skills update to update a pack to its latest version.",
+        "Explore and create packs at skills.sh/packs ."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Skill packs are now available on skills.sh - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-04",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/skill-packs-are-now-available",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Skill packs are now available on skills.sh - Vercel"
+      },
+      "raw": {
+        "title": "Skill packs are now available on skills.sh",
+        "url": "https://vercel.com/changelog/skill-packs-are-now-available",
+        "fetched": true,
+        "savedAt": "2026-08-04T23:00:30.360Z"
+      }
+    },
+    {
+      "id": "sig-3704ef5de9",
+      "title": "Give your eve agent a browser",
+      "oneLiner": "Your eve agent can now navigate the web like a human with agent-browser . The @agent-browser/eve ext",
+      "summary": {
+        "oneSentence": "Your eve agent can now navigate the web like a human with agent-browser . The @agent-browser/eve extension gives any eve",
+        "bullets": [
+          "Your eve agent can now navigate the web like a human with agent-browser . The @agent-browser/eve extension gives any eve agent a full set of browser tools: navigate pages, read content, click, fill fo"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/give-your-eve-agent-a-browser"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Your eve agent can now navigate the web like a human with agent-browser .",
+        "The @agent-browser/eve extension gives any eve agent a full set of browser tools: navigate pages, read content, click, fill forms, take screenshots, and inspect console and network activity. Everything runs inside the agent's sandbox.",
+        "agent/extensions/browser.ts 1 import browser from \"@agent-browser/eve\" ; 2 3 export default browser ( { 4 allowedDomains : [ \"example.com\" , \"*.example.com\" ] , 5 maxOutputChars : 50000 , 6 } ) ;",
+        "Your agent gets namespaced tools like browser__navigate , browser__snapshot , browser__click , browser__fill , and browser__screenshot . Snapshot refs such as [ref=e12] become @e12 selectors, so the agent can inspect a page, then act on exactly what it saw.",
+        "Sandbox isolation: Chromium and agent-browser run in the eve sandbox, not your app. Pre-install them in your sandbox template so sessions start warm, or let the extension install them on first use.",
+        "Domain allowlist: Restrict navigation and subresources with allowedDomains , and control output size, screenshot handling, proxy use, and session naming through extension options.",
+        "Credential protection: Cookie, storage, and saved-auth-state commands are never exposed to the model. Use eve extension overrides to disable tools, require approvals, or add app-specific guarded tools.",
+        "See a complete Next.js eve app with the extension mounted in the example , or read the documentation to get started.",
+        "Pick a template, deploy in minutes, and debug every agent session in the Vercel dashboard from the first run."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Give your eve agent a browser - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-04",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/give-your-eve-agent-a-browser",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Give your eve agent a browser - Vercel"
+      },
+      "raw": {
+        "title": "Give your eve agent a browser",
+        "url": "https://vercel.com/changelog/give-your-eve-agent-a-browser",
+        "fetched": true,
+        "savedAt": "2026-08-04T23:00:39.075Z"
+      }
+    },
+    {
+      "id": "sig-7a75d09ae5",
+      "title": "DeepSeek V4 Flash is 90% off through Novita on AI Gateway",
+      "oneLiner": "DeepSeek v4 Flash is 90% off on AI Gateway when you route to Novita. The discount is available to Ve",
+      "summary": {
+        "oneSentence": "DeepSeek v4 Flash is 90% off on AI Gateway when you route to Novita. The discount is available to Vercel Pro customers t",
+        "bullets": [
+          "DeepSeek v4 Flash is 90% off on AI Gateway when you route to Novita. The discount is available to Vercel Pro customers through August 11. To get the discounted rate, set the model to deepseek/deepseek"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/deepseek-v4-flash-is-90-off-through-novita"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "DeepSeek v4 Flash is 90% off on AI Gateway when you route to Novita. The discount is available to Vercel Pro customers through August 11.",
+        "To get the discounted rate, set the model to deepseek/deepseek-v4-flash or deepseek/deepseek-v4-flash-0731 and put Novita first with the order option:",
+        "1 import { streamText } from 'ai' ; 2 3 const result = streamText ( { 4 model : 'deepseek/deepseek-v4-flash' , // or 'deepseek/deepseek-v4-flash-0731' 5 prompt : 'Fix the failing tests in this repo.' , 6 providerOptions : { 7 gateway : { 8 order : [ 'novita' ] , 9 } , 10 } , 11 } ) ;",
+        "If Novita can't serve the request, it falls back to other providers at the standard rate. After August 11, the model stays available at standard rates with no markup.",
+        "Create an API key in the AI Gateway section of your dashboard, or try the model first in its playground ."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "DeepSeek V4 Flash is 90% off through Novita on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-04",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/deepseek-v4-flash-is-90-off-through-novita",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "DeepSeek V4 Flash is 90% off through Novita on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "DeepSeek V4 Flash is 90% off through Novita on AI Gateway",
+        "url": "https://vercel.com/changelog/deepseek-v4-flash-is-90-off-through-novita",
+        "fetched": true,
+        "savedAt": "2026-08-04T23:00:41.759Z"
+      }
+    },
     {
       "id": "sig-f806378380",
       "title": "适用于 Blob 的 Vercel WAF 现已全面推出 - Vercel",
@@ -827,7 +1433,7 @@
         "oneSentence": "Cursor 现可在您的 Google Workspace 中读取、写入并执行操作。",
         "bullets": [
           "Cursor 现可在您的 Google Workspace 中读取、写入并执行操作。",
-          "新插件让编程智能体能够直接访问 Gmail、Google Drive、Calendar、Docs 和 Sheets，因此您无需离开 Cursor，即可获取上下文、起草和更新文件，以及管理收件箱和日历。",
+          "新插件让编程智能体能够直接访问 Gmail、Google Drive 和 Calendar，因此您无需离开 Cursor，即可获取上下文、起草和更新文件，以及管理收件箱和日历。",
           "在 Cursor 应用市场 浏览新插件，或在 Cursor 的自定义页面安装。更多信息请参阅我们的 文档 。"
         ],
         "audience": "AI 产品学习者",
@@ -863,12 +1469,12 @@
       ],
       "content": [
         "Cursor 现可在您的 Google Workspace 中读取、写入并执行操作。",
-        "新插件让编程智能体能够直接访问 Gmail、Google Drive、Calendar、Docs 和 Sheets，因此您无需离开 Cursor，即可获取上下文、起草和更新文件，以及管理收件箱和日历。",
+        "新插件让编程智能体能够直接访问 Gmail、Google Drive 和 Calendar，因此您无需离开 Cursor，即可获取上下文、起草和更新文件，以及管理收件箱和日历。",
         "在 Cursor 应用市场 浏览新插件，或在 Cursor 的自定义页面安装。更多信息请参阅我们的 文档 。"
       ],
       "highlights": [
         "Cursor 现可在您的 Google Workspace 中读取、写入并执行操作。",
-        "新插件让编程智能体能够直接访问 Gmail、Google Drive、Calendar、Docs 和 Sheets，因此您无需离开 Cursor，即可获取上下文",
+        "新插件让编程智能体能够直接访问 Gmail、Google Drive 和 Calendar，因此您无需离开 Cursor，即可获取上下文、起草和更新文件，以及管",
         "在 Cursor 应用市场 浏览新插件，或在 Cursor 的自定义页面安装。更多信息请参阅我们的 文档 。"
       ],
       "translated": false,
@@ -898,7 +1504,8 @@
         "title": "Google Workspace Plugins",
         "url": "https://cursor.com/changelog/google-workspace-plugins",
         "fetched": true,
-        "savedAt": "2026-08-03T22:57:50.365Z"
+        "savedAt": "2026-08-03T22:57:50.365Z",
+        "retranslatedAt": "2026-08-04T23:00:51.577Z"
       }
     },
     {
@@ -980,6 +1587,168 @@
         "url": "https://vercel.com/changelog/share-vercel-container-registry-repositories-across-teams",
         "fetched": true,
         "savedAt": "2026-08-03T22:57:57.924Z"
+      }
+    },
+    {
+      "id": "sig-2163b41330",
+      "title": "苹果在这个问题上犯了错误",
+      "oneLiner": "OpenAI 解决了苹果公司毫无根据的诉讼，纠正了对其员工的指控，并分享了记录所发生事件的信息。",
+      "summary": {
+        "oneSentence": "OpenAI 解决了苹果公司毫无根据的诉讼，纠正了对其员工的指控，并分享了记录所发生事件的信息。",
+        "bullets": [
+          "OpenAI 解决了苹果公司毫无根据的诉讼，纠正了对其员工的指控，并分享了记录所发生事件的信息。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 解决了苹果公司毫无根据的诉讼，纠正了对其员工的指控，并分享了记录所发生事件的信息。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/apple-is-getting-this-wrong"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 解决了苹果公司毫无根据的诉讼，纠正了对其员工的指控，并分享了记录所发生事件的信息。"
+      ],
+      "highlights": [
+        "OpenAI 解决了苹果公司毫无根据的诉讼，纠正了对其员工的指控，并分享了记录所发生事件的信息。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Apple is getting this wrong",
+      "originalLang": "en",
+      "date": "2026-08-03",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/apple-is-getting-this-wrong",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Apple is getting this wrong"
+      },
+      "raw": {
+        "title": "Apple is getting this wrong",
+        "url": "https://openai.com/index/apple-is-getting-this-wrong",
+        "fetched": false,
+        "savedAt": "2026-08-04T23:00:42.986Z"
+      }
+    },
+    {
+      "id": "sig-928c08785b",
+      "title": "深入了解我们 353,000 人的氛围编码课程",
+      "oneLiner": "Google 和 Kaggle 的“AI 代理：强化 Vibe 编码”课程包含专家主导的会议、技术白皮书和笔记本以及顶点项目。",
+      "summary": {
+        "oneSentence": "Google 和 Kaggle 的“AI 代理：强化 Vibe 编码”课程包含专家主导的会议、技术白皮书和笔记本以及顶点项目。",
+        "bullets": [
+          "Google 和 Kaggle 的“AI 代理：强化 Vibe 编码”课程包含专家主导的会议、技术白皮书和笔记本以及顶点项目。",
+          "集团AI产品经理、GenAI强化创始人",
+          "您的浏览器不支持音频元素。",
+          "最近，超过 353,000 名开发人员参加了我们为期五天的强化课程，以掌握使用自然语言构建和部署 AI 代理。参与者在 Discord 上合作调试代码，并提交了 6,000 多个令人印象深刻的顶点项目，范围从历史转录工具到太空天气研究系统。您仍然可以访问 Kaggle Learn 网站上的所有课程材料，按照自己的进度提"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google AI 官网发布：Google 和 Kaggle 的“AI 代理：强化 Vibe 编码”课程包含专家主导的会议、技术白皮书和笔记本以及顶点项目。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "Google 和 Kaggle 的“AI 代理：强化 Vibe 编码”课程包含专家主导的会议、技术白皮书和笔记本以及顶点项目。",
+        "集团AI产品经理、GenAI强化创始人",
+        "您的浏览器不支持音频元素。",
+        "最近，超过 353,000 名开发人员参加了我们为期五天的强化课程，以掌握使用自然语言构建和部署 AI 代理。参与者在 Discord 上合作调试代码，并提交了 6,000 多个令人印象深刻的顶点项目，范围从历史转录工具到太空天气研究系统。您仍然可以访问 Kaggle Learn 网站上的所有课程材料，按照自己的进度提高您的技能。",
+        "谷歌和 Kaggle 举办了一个大型在线课程，教人们如何使用简单的语言构建人工智能代理。超过 350,000 人加入学习如何将他们的想法转化为实际可行的项目。参与者在 Discord 上合作解决问题并共同创建令人印象深刻的工具。如果您想自己学习这些技能，您仍然可以在线查看课程。",
+        "人工智能的发展速度比传统的学习和教学方法更能跟上。随着新概念、技能、想法和工具几乎每天都会出现，我们需要一种新的方法来教授和学习这些新技术。",
+        "自 Google 和 Kaggle 于 2024 年推出首个“5 天强化”课程以来，已有超过 200 万学习者和开发人员参加了多模式免费课程。我们最新的合作项目是与 Google 合作的为期 5 天的 AI 代理：强化 Vibe 编码课程，已有超过 353,000 名注册参与者。我们一起探索了氛围编码的前沿，即人们通过自然语言进行编程。我们的课程涵盖了在云中设计、保护和部署生产级人工智能代理的整个生命周期。这一回应证明，开发人员已准备好将他们的原型“从氛围变为现实”。",
+        "数十万学习者聚集在代码实验室和技术白皮书中进行实时协作。此次合作的核心是 Kaggle 的 Discord，超过 392,000 名活跃参与者交换代码、一起调试并组成研究小组。",
+        "顶点项目将本周的学习付诸实践。我们收到了 12,000 多名活跃的 Capstone 参与者提交的 6,000 多个项目。",
+        "这些项目展示了全球人工智能开发者社区的巨大创造力、技术能力和想象力。从先进的数字人文工具（如历史手稿转录管道 Palimpsest），到复杂的太空天气研究系统（如 Project ARIES），提交的作品质量使得缩小顶级条目的范围变得异常困难。您可以在我们的网站上探索所有获胜团队及其顶点项目。"
+      ],
+      "highlights": [
+        "Google 和 Kaggle 的“AI 代理：强化 Vibe 编码”课程包含专家主导的会议、技术白皮书和笔记本以及顶点项目。",
+        "集团AI产品经理、GenAI强化创始人",
+        "您的浏览器不支持音频元素。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Inside our 353,000-person vibe coding course",
+      "originalLang": "en",
+      "date": "2026-08-03",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Inside our 353,000-person vibe coding course"
+      },
+      "raw": {
+        "title": "Inside our 353,000-person vibe coding course",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+        "fetched": true,
+        "savedAt": "2026-08-04T23:00:50.154Z"
       }
     },
     {
@@ -3943,7 +4712,7 @@
         "url": "https://cursor.com/changelog/ipad",
         "fetched": true,
         "savedAt": "2026-08-02T22:53:52.935Z",
-        "retranslatedAt": "2026-08-03T22:58:30.347Z"
+        "retranslatedAt": "2026-08-04T23:00:52.763Z"
       }
     },
     {
@@ -8044,7 +8813,7 @@
         "url": "https://cursor.com/changelog/slack-improvements",
         "fetched": true,
         "savedAt": "2026-07-27T07:34:20.673Z",
-        "retranslatedAt": "2026-08-03T22:58:31.409Z"
+        "retranslatedAt": "2026-08-04T23:00:53.949Z"
       }
     },
     {
