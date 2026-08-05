@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-04T23:00:54.751Z",
+  "updatedAt": "2026-08-05T22:57:14.098Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 124,
+  "itemCount": 134,
   "brief": {
-    "date": "2026-08-04",
-    "generatedAt": "2026-08-04T23:00:54.750Z",
-    "totalCount": 124,
-    "todayCount": 8,
-    "headline": "今日 AI 信号 8 条 · 档案共 124 条",
+    "date": "2026-08-05",
+    "generatedAt": "2026-08-05T22:57:14.097Z",
+    "totalCount": 134,
+    "todayCount": 10,
+    "headline": "今日 AI 信号 10 条 · 档案共 134 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -40,10 +40,10 @@
         "readMinutes": 5
       },
       {
-        "id": "sig-977f60f7e5",
-        "title": "涉及 OpenAI 模型的第三方网络评估",
+        "id": "sig-59626f6f22",
+        "title": "更好的代码，更少的代币：MCP 中 Code Connect 的优势 | Figma 博客",
         "stars": 4,
-        "oneLiner": "OpenAI 解释了最近发生的第三方网络安全评估事件，并概述了加强人工智能模型测试和评估的新保障措施。",
+        "oneLiner": "当从设计到代码时，代理缺乏生产组件的上下文。通过 Figma 的 MCP 中的 Code Connect，他们可以获得该上下文。我们测量了它对令牌使用、任务持续时间和代码质量的影响。",
         "readMinutes": 5
       }
     ],
@@ -53,8 +53,8 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "sig-977f60f7e5",
-        "sig-2a0a276054"
+        "sig-59626f6f22",
+        "sig-f50fcbc451"
       ],
       "newReleases": [
         "sig-468f50ae5e",
@@ -67,10 +67,10 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "sig-977f60f7e5",
-        "sig-2a0a276054",
-        "sig-35c7ec064e",
-        "sig-d967e4e720"
+        "sig-59626f6f22",
+        "sig-f50fcbc451",
+        "sig-44e98341b2",
+        "sig-f135e53828"
       ],
       "emergingTrends": [
         "cur-openai-agentkit",
@@ -111,8 +111,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-08-04T23:00:54.751Z",
-    "summary": "近 30 天共 124 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-08-05T22:57:14.098Z",
+    "summary": "近 30 天共 134 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Agent",
@@ -490,6 +490,811 @@
     }
   ],
   "items": [
+    {
+      "id": "sig-59626f6f22",
+      "title": "更好的代码，更少的代币：MCP 中 Code Connect 的优势 | Figma 博客",
+      "oneLiner": "当从设计到代码时，代理缺乏生产组件的上下文。通过 Figma 的 MCP 中的 Code Connect，他们可以获得该上下文。我们测量了它对令牌使用、任务持续时间和代码质量的影响。",
+      "summary": {
+        "oneSentence": "当从设计到代码时，代理缺乏生产组件的上下文。通过 Figma 的 MCP 中的 Code Connect，他们可以获得该上下文。我们测量了它对令牌使用、任务持续时间和代码质量的影响。",
+        "bullets": [
+          "当从设计到代码时，代理缺乏生产组件的上下文。通过 Figma 的 MCP 中的 Code Connect，他们可以获得该上下文。我们测量了它对令牌使用、任务持续时间和代码质量的影响。",
+          "编码代理在将设计转化为代码方面做得越来越好。但如果没有正确的上下文 为什么您应该关心设计上下文 随着开发人员越来越多地使用代理编码工具，设计文件的结构和清晰度比以往任何时候都更加重要。通过深思熟虑地组织您的工作，您可以帮助您的开发人员同行更高效、更准确地构建。",
+          "当代理使用Figma MCP服务器时，Code Connect可以通过将Figma组件连接到代码库中的真实组件来为他们提供额外的上下文。如果设置了 Code Connect，代理会在 MCP 响应中接收与生产相关的代码片段，而不仅仅是视觉设计的 React 表示。",
+          "我们最初构建 Code Connect 是为了改进人类开发人员的设计到代码流程。但如今，许多团队和角色类型都在与编码代理一起进行此类工作。因此，我们开始衡量 Code Connect 是否能够提高代理的绩效以及提高的程度。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Figma 官网发布：当从设计到代码时，代理缺乏生产组件的上下文。通过 Figma 的 MCP 中的 Code Connect，他们可以获得该上下文。我们测量了它对令牌使用、任务持续时间和代码质量的影响。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://www.figma.com/blog/the-benefits-of-code-connect-in-mcp/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "当从设计到代码时，代理缺乏生产组件的上下文。通过 Figma 的 MCP 中的 Code Connect，他们可以获得该上下文。我们测量了它对令牌使用、任务持续时间和代码质量的影响。",
+        "编码代理在将设计转化为代码方面做得越来越好。但如果没有正确的上下文 为什么您应该关心设计上下文 随着开发人员越来越多地使用代理编码工具，设计文件的结构和清晰度比以往任何时候都更加重要。通过深思熟虑地组织您的工作，您可以帮助您的开发人员同行更高效、更准确地构建。",
+        "当代理使用Figma MCP服务器时，Code Connect可以通过将Figma组件连接到代码库中的真实组件来为他们提供额外的上下文。如果设置了 Code Connect，代理会在 MCP 响应中接收与生产相关的代码片段，而不仅仅是视觉设计的 React 表示。",
+        "我们最初构建 Code Connect 是为了改进人类开发人员的设计到代码流程。但如今，许多团队和角色类型都在与编码代理一起进行此类工作。因此，我们开始衡量 Code Connect 是否能够提高代理的绩效以及提高的程度。",
+        "在我们的评估中，我们发现就像人类开发人员一样，Code Connect 可以帮助代理遵守公司的设计系统并更快地产生更好的输出。我们使用 Figma 的 MCP 服务器测试了代理的设计到代码任务，无论是否设置了 Code Connect 模板。",
+        "这篇文章将介绍 Code Connect 如何为代理提供上下文、我们如何运行评估以及我们在此过程中学到了什么。",
+        "Coinbase 设计系统 (CDS) 团队构建并维护核心设计组件、代币和基础设施，以推动 Coinbase 最大消费产品的一致性和效率。随着工程师转向代理驱动的开发，他们投资了 Code Connect，以便代理使用正确的组件进行构建，而不是重新发明它们。",
+        "为了衡量影响，前端工程师 Erich Kuerschner 在使用和不使用 Code Connect 的情况下运行了相同的设计、提示和模型。 “如果没有 Code Connect，代理有时会制造自己版本的组件：例如，用进度条构建一个步进器，”Erich 说。 “有了它，代理可以将设计的准确表示视为代码和文字导入语句，直接指向要使用的正确 CDS 组件，因此输出代码质量大大提高，同时我们节省了代币。”",
+        "Figma 的 MCP 服务器 MCP 的长话短说：为什么上下文很重要以及如何让它发挥作用 Figma 的 MCP 服务器将您的设计决策带入编写代码的工具中，因此构建的内容实际上与设计的内容相匹配。以下是每个构建产品的人可以解锁的东西。",
+        "设置 Code Connect 模板后，Figma MCP 服务器会用生产准确的代码片段替换生成的 React 的部分内容。代理现在可以使用您的代码库中的真实代码，而不是猜测。它准确地告知要导入哪个组件以及要传入哪些属性值。"
+      ],
+      "highlights": [
+        "当从设计到代码时，代理缺乏生产组件的上下文。通过 Figma 的 MCP 中的 Code Connect，他们可以获得该上下文。我们测量了它对令牌使用、任务持续",
+        "编码代理在将设计转化为代码方面做得越来越好。但如果没有正确的上下文 为什么您应该关心设计上下文 随着开发人员越来越多地使用代理编码工具，设计文件的结构和清晰度比",
+        "当代理使用Figma MCP服务器时，Code Connect可以通过将Figma组件连接到代码库中的真实组件来为他们提供额外的上下文。如果设置了 Code C"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Better Code, Fewer Tokens: The Benefits of Code Connect in MCP | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-08-05",
+      "categoryIds": [
+        "vertical-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/the-benefits-of-code-connect-in-mcp/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Better Code, Fewer Tokens: The Benefits of Code Connect in MCP | Figma Blog"
+      },
+      "raw": {
+        "title": "Better code, fewer tokens: The benefits of Code Connect in MCP",
+        "url": "https://www.figma.com/blog/the-benefits-of-code-connect-in-mcp/",
+        "fetched": true,
+        "savedAt": "2026-08-05T22:56:05.234Z"
+      }
+    },
+    {
+      "id": "sig-f50fcbc451",
+      "title": "设置您自己的项目头像 - Vercel",
+      "oneLiner": "您现在可以从 Vercel 仪表板中的设置来设置项目的头像。到目前为止，Vercel 使用项目生产部署中的图标自动设置它。如果您尚未设置，这仍然是默认值。",
+      "summary": {
+        "oneSentence": "您现在可以从 Vercel 仪表板中的设置来设置项目的头像。到目前为止，Vercel 使用项目生产部署中的图标自动设置它。如果您尚未设置，这仍然是默认值。",
+        "bullets": [
+          "您现在可以从 Vercel 仪表板中的设置来设置项目的头像。到目前为止，Vercel 使用项目生产部署中的图标自动设置它。如果您尚未设置，这仍然是默认值。",
+          "头像在仪表板和 GitHub 中的 Vercel 机器人评论上呈现。共享一个图标的微前端项目现在可以获得不同的头像，而没有要检测的图标的后端项目可以显式设置一个头像。",
+          "您可以从 Vercel 仪表板中的设置更改项目的头像，或使用 REST API 上传头像。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：您现在可以从 Vercel 仪表板中的设置来设置项目的头像。到目前为止，Vercel 使用项目生产部署中的图标自动设置它。如果您尚未设置，这仍然是默认值。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/project-avatars"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "您现在可以从 Vercel 仪表板中的设置来设置项目的头像。到目前为止，Vercel 使用项目生产部署中的图标自动设置它。如果您尚未设置，这仍然是默认值。",
+        "头像在仪表板和 GitHub 中的 Vercel 机器人评论上呈现。共享一个图标的微前端项目现在可以获得不同的头像，而没有要检测的图标的后端项目可以显式设置一个头像。",
+        "您可以从 Vercel 仪表板中的设置更改项目的头像，或使用 REST API 上传头像。"
+      ],
+      "highlights": [
+        "您现在可以从 Vercel 仪表板中的设置来设置项目的头像。到目前为止，Vercel 使用项目生产部署中的图标自动设置它。如果您尚未设置，这仍然是默认值。",
+        "头像在仪表板和 GitHub 中的 Vercel 机器人评论上呈现。共享一个图标的微前端项目现在可以获得不同的头像，而没有要检测的图标的后端项目可以显式设置一个",
+        "您可以从 Vercel 仪表板中的设置更改项目的头像，或使用 REST API 上传头像。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Set your own project avatars - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-05",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/project-avatars",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Set your own project avatars - Vercel"
+      },
+      "raw": {
+        "title": "Set your own project avatars",
+        "url": "https://vercel.com/changelog/project-avatars",
+        "fetched": true,
+        "savedAt": "2026-08-05T22:56:07.789Z"
+      }
+    },
+    {
+      "id": "sig-44e98341b2",
+      "title": "域结帐后的新设置页面 - Vercel",
+      "oneLiner": "现在，在 Vercel 上购买域名会将您带到一个实时跟踪注册的设置页面，其中包含部署新项目、连接现有项目、代理或重定向已运行的网站或设置电子邮件的直接路径。",
+      "summary": {
+        "oneSentence": "现在，在 Vercel 上购买域名会将您带到一个实时跟踪注册的设置页面，其中包含部署新项目、连接现有项目、代理或重定向已运行的网站或设置电子邮件的直接路径。",
+        "bullets": [
+          "现在，在 Vercel 上购买域名会将您带到一个实时跟踪注册的设置页面，其中包含部署新项目、连接现有项目、代理或重定向已运行的网站或设置电子邮件的直接路径。",
+          "注册可能需要几分钟时间。一旦域准备就绪，每个设置操作都会解锁。如果注册失败，页面会显示问题所在以及退款状态。",
+          "将链接复制到标题部署新项目或连接现有项目部署某些内容将打开项目创建并预先选择域。连接 Git 存储库，使用 v0 提示，或从模板启动，并在项目部署时附加域。",
+          "连接现有项目将域附加到您从团队中选择的项目。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：现在，在 Vercel 上购买域名会将您带到一个实时跟踪注册的设置页面，其中包含部署新项目、连接现有项目、代理或重定向已运行的网站或设置电子邮件的直接路径。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/new-setup-page-after-domain-checkout"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "现在，在 Vercel 上购买域名会将您带到一个实时跟踪注册的设置页面，其中包含部署新项目、连接现有项目、代理或重定向已运行的网站或设置电子邮件的直接路径。",
+        "注册可能需要几分钟时间。一旦域准备就绪，每个设置操作都会解锁。如果注册失败，页面会显示问题所在以及退款状态。",
+        "将链接复制到标题部署新项目或连接现有项目部署某些内容将打开项目创建并预先选择域。连接 Git 存储库，使用 v0 提示，或从模板启动，并在项目部署时附加域。",
+        "连接现有项目将域附加到您从团队中选择的项目。",
+        "将链接复制到标题代理或重定向您已运行的站点 输入代理源，域流量将通过 Vercel 的 CDN 和防火墙路由到您的现有站点。输入要重定向的 URL，访客将被转发到那里。在这两种情况下，Vercel 都会创建一个项目来处理路由并为您进行配置。",
+        "将链接复制到标题 使用 DNS 预设设置电子邮件 选择您的电子邮件提供商，Vercel 将添加其所需的 DNS 记录。预设适用于 Google Workspace、Outlook、iCloud、Proton Mail、Zoho、Mailgun 和 ImprovMX。还有一个预设，可将域名用作 Bluesky 句柄。",
+        "如果您想自己配置记录，管理 DNS 记录会打开域的 DNS 记录页面。在 vercel.com/domains 中搜索域名以开始使用。"
+      ],
+      "highlights": [
+        "现在，在 Vercel 上购买域名会将您带到一个实时跟踪注册的设置页面，其中包含部署新项目、连接现有项目、代理或重定向已运行的网站或设置电子邮件的直接路径。",
+        "注册可能需要几分钟时间。一旦域准备就绪，每个设置操作都会解锁。如果注册失败，页面会显示问题所在以及退款状态。",
+        "将链接复制到标题部署新项目或连接现有项目部署某些内容将打开项目创建并预先选择域。连接 Git 存储库，使用 v0 提示，或从模板启动，并在项目部署时附加域。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "New setup page after domain checkout - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-05",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/new-setup-page-after-domain-checkout",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "New setup page after domain checkout - Vercel"
+      },
+      "raw": {
+        "title": "New setup page after domain checkout",
+        "url": "https://vercel.com/changelog/new-setup-page-after-domain-checkout",
+        "fetched": true,
+        "savedAt": "2026-08-05T22:56:13.847Z"
+      }
+    },
+    {
+      "id": "sig-f135e53828",
+      "title": "引入新的 v0 API",
+      "oneLiner": "今天，我们将介绍新的 v0 API：以编程方式无头访问 v0 的应用程序构建代理。发送提示，v0 会生成一个应用程序，在 Vercel Sandbox 中启动开发服务器，并为您提供一个可以嵌入到您自己的 UI 中的预览 URL。",
+      "summary": {
+        "oneSentence": "今天，我们将介绍新的 v0 API：以编程方式无头访问 v0 的应用程序构建代理。发送提示，v0 会生成一个应用程序，在 Vercel Sandbox 中启动开发服务器，并为您提供一个可以嵌入到您自己的 UI 中的预览 URL。",
+        "bullets": [
+          "今天，我们将介绍新的 v0 API：以编程方式无头访问 v0 的应用程序构建代理。发送提示，v0 会生成一个应用程序，在 Vercel Sandbox 中启动开发服务器，并为您提供一个可以嵌入到您自己的 UI 中的预览 URL。",
+          "每个聊天都是一个应用程序的独立工作区，v0 可以在其中读取、编辑和运行文件。后续消息从当前状态继续。 v0 验证沙盒中运行的代码，因此它可以实时捕获并修复应用程序中的错误。",
+          "将链接复制到标题 工作原理 从提示创建聊天、流式传输其工作并呈现实时预览，所有这些都可以通过您自己的界面进行。首先，安装 v0 SDK。",
+          "然后，创建聊天。发送提示，v0 会生成您的应用程序。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：今天，我们将介绍新的 v0 API：以编程方式无头访问 v0 的应用程序构建代理。发送提示，v0 会生成一个应用程序，在 Vercel Sandbox 中启动开发服务器，并为您提供一个可以嵌入到您自己的 UI 中的预览 URL。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/introducing-the-new-v0-api"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "今天，我们将介绍新的 v0 API：以编程方式无头访问 v0 的应用程序构建代理。发送提示，v0 会生成一个应用程序，在 Vercel Sandbox 中启动开发服务器，并为您提供一个可以嵌入到您自己的 UI 中的预览 URL。",
+        "每个聊天都是一个应用程序的独立工作区，v0 可以在其中读取、编辑和运行文件。后续消息从当前状态继续。 v0 验证沙盒中运行的代码，因此它可以实时捕获并修复应用程序中的错误。",
+        "将链接复制到标题 工作原理 从提示创建聊天、流式传输其工作并呈现实时预览，所有这些都可以通过您自己的界面进行。首先，安装 v0 SDK。",
+        "然后，创建聊天。发送提示，v0 会生成您的应用程序。",
+        "1 从 'v0' 导入 { v0 } 2 3 const 结果 = 等待 v0 。聊天。 create ({ 4 message: '为支持团队构建问题分类应用程序。', 5 }) 6 7 if ( result . error ) { 8 throw new Error ( result . error . message ) 9 } 10 11 const chatId = result .数据 。聊天 。 id 创建聊天并为以后的每个请求保留其 ID。",
+        "将后续消息发送到同一个聊天室以继续构建。每一项都从当前状态继续。",
+        "1 个 const 消息 = 等待 v0 。消息。 send ( { 2 chatId , 3 message : '添加优先级过滤器和受让人列。' , 4 } ) 5 6 if ( message . error ) { 7 throw new Error ( message . error . message ) 8 } 发送后续消息； v0 就地编辑现有应用程序。",
+        "< iframe src = \"/api/v0-preview/chat_abc123/\" /> 通过将 iframe 指向您的代理路由来嵌入应用程序。",
+        "出现提示，出现正在运行的应用程序。 v0 运行沙盒、开发服务器及其背后的预览。准备就绪后，通过一次 API 调用即可部署到 Vercel。 v0 管理整个管道。",
+        "将链接复制到标题这将解锁什么新的 API 允许您在自己的产品或管道中运行 v0 的应用程序构建器。这将打开如下用例："
+      ],
+      "highlights": [
+        "今天，我们将介绍新的 v0 API：以编程方式无头访问 v0 的应用程序构建代理。发送提示，v0 会生成一个应用程序，在 Vercel Sandbox 中启动开",
+        "每个聊天都是一个应用程序的独立工作区，v0 可以在其中读取、编辑和运行文件。后续消息从当前状态继续。 v0 验证沙盒中运行的代码，因此它可以实时捕获并修复应用程",
+        "将链接复制到标题 工作原理 从提示创建聊天、流式传输其工作并呈现实时预览，所有这些都可以通过您自己的界面进行。首先，安装 v0 SDK。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Introducing the new v0 API",
+      "originalLang": "en",
+      "date": "2026-08-05",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/introducing-the-new-v0-api",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Introducing the new v0 API"
+      },
+      "raw": {
+        "title": "Introducing the new v0 API",
+        "url": "https://vercel.com/blog/introducing-the-new-v0-api",
+        "fetched": true,
+        "savedAt": "2026-08-05T22:56:21.972Z"
+      }
+    },
+    {
+      "id": "sig-7b9163d1fd",
+      "title": "AI Gateway 现已在 AWS Marketplace 上推出 - Vercel",
+      "oneLiner": "AI Gateway 现已在 AWS Marketplace 上推出。",
+      "summary": {
+        "oneSentence": "AI Gateway 现已在 AWS Marketplace 上推出。",
+        "bullets": [
+          "AI Gateway 现已在 AWS Marketplace 上推出。",
+          "团队可以通过现有的 AWS 账户采购 AI Gateway，将推理支出合并到 AWS 账单中并简化采购。购买可以以私人优惠的形式进行，并附有年度合同条款，以及超出合同的基于使用情况的定价。",
+          "AI Gateway 为您提供通过单个端点访问数百个模型的一个 API。内置可靠性、成本控制和治理，包括自动回退、区域推理和零数据保留。您无需加价即可向提供商支付价格；通过 AWS 购买不会改变您为每个代币支付的费用。",
+          "查看 AWS Marketplace 上的列表了解详细信息。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：AI Gateway 现已在 AWS Marketplace 上推出。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/ai-gateway-is-now-available-on-aws-marketplace"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "AI Gateway 现已在 AWS Marketplace 上推出。",
+        "团队可以通过现有的 AWS 账户采购 AI Gateway，将推理支出合并到 AWS 账单中并简化采购。购买可以以私人优惠的形式进行，并附有年度合同条款，以及超出合同的基于使用情况的定价。",
+        "AI Gateway 为您提供通过单个端点访问数百个模型的一个 API。内置可靠性、成本控制和治理，包括自动回退、区域推理和零数据保留。您无需加价即可向提供商支付价格；通过 AWS 购买不会改变您为每个代币支付的费用。",
+        "查看 AWS Marketplace 上的列表了解详细信息。"
+      ],
+      "highlights": [
+        "AI Gateway 现已在 AWS Marketplace 上推出。",
+        "团队可以通过现有的 AWS 账户采购 AI Gateway，将推理支出合并到 AWS 账单中并简化采购。购买可以以私人优惠的形式进行，并附有年度合同条款，以及超",
+        "AI Gateway 为您提供通过单个端点访问数百个模型的一个 API。内置可靠性、成本控制和治理，包括自动回退、区域推理和零数据保留。您无需加价即可向提供商支"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "AI Gateway is now available on AWS Marketplace - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-05",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/ai-gateway-is-now-available-on-aws-marketplace",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "AI Gateway is now available on AWS Marketplace - Vercel"
+      },
+      "raw": {
+        "title": "AI Gateway is now available on AWS Marketplace",
+        "url": "https://vercel.com/changelog/ai-gateway-is-now-available-on-aws-marketplace",
+        "fetched": true,
+        "savedAt": "2026-08-05T22:56:25.138Z"
+      }
+    },
+    {
+      "id": "sig-6cf2318eda",
+      "title": "Muse Spark 1.2 现已在 Vercel AI Gateway 上推出 - Vercel",
+      "oneLiner": "Meta 的 Muse Spark 1.2 现已在 AI Gateway 上提供。这是对之前的 Muse Spark 模型的以编码为中心的更新。在保留其一般功能的同时，1.2 在代码生成、复杂调试、代码库理解和端到端开发人员工作流程方面进行",
+      "summary": {
+        "oneSentence": "Meta 的 Muse Spark 1.2 现已在 AI Gateway 上提供。这是对之前的 Muse Spark 模型的以编码为中心的更新。在保留其一般功能的同时，1.2 在代码生成、复杂调试、代码库理解和端到端开发人员工作流程方面进行",
+        "bullets": [
+          "Meta 的 Muse Spark 1.2 现已在 AI Gateway 上提供。这是对之前的 Muse Spark 模型的以编码为中心的更新。在保留其一般功能的同时，1.2 在代码生成、复杂调试、代码库理解和端到端开发人员工作流程方面进行了改进。",
+          "该模型是为长期工作而构建的，例如生成整个存储库、端到端构建大型项目以及在多轮中编写、编译、分析和改进代码的情况下维持迭代循环。",
+          "要使用Muse Spark 1.2，请在AI SDK中将模型设置为meta/muse-spark-1.2：",
+          "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText ({ 4 model: 'meta/muse-spark-1.2', 5prompt: '将此服务从已弃用的 API 中迁移出去。', 6 }) ;"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Meta 的 Muse Spark 1.2 现已在 AI Gateway 上提供。这是对之前的 Muse Spark 模型的以编码为中心的更新。在保留其一般功能的同时，1.2 在代码生成、复杂调试、代码库理解和端到端开发人员工作流程方面进行",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/muse-spark-1-2-is-now-available-on-vercel-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Meta 的 Muse Spark 1.2 现已在 AI Gateway 上提供。这是对之前的 Muse Spark 模型的以编码为中心的更新。在保留其一般功能的同时，1.2 在代码生成、复杂调试、代码库理解和端到端开发人员工作流程方面进行了改进。",
+        "该模型是为长期工作而构建的，例如生成整个存储库、端到端构建大型项目以及在多轮中编写、编译、分析和改进代码的情况下维持迭代循环。",
+        "要使用Muse Spark 1.2，请在AI SDK中将模型设置为meta/muse-spark-1.2：",
+        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText ({ 4 model: 'meta/muse-spark-1.2', 5prompt: '将此服务从已弃用的 API 中迁移出去。', 6 }) ;",
+        "要在编码代理中使用 Muse Spark，请运行 vercel ai-gatewaycoding-agents setup 以连接 Claude Code、Codex、OpenCode 或 Pi，然后在代理内选择 meta/muse-spark-1.2。",
+        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本，以及配置重试、故障转移和性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、零数据保留支持、API 密钥预算、路由规则等。",
+        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。",
+        "在模型游乐场中尝试 Muse Spark 1.2。",
+        "AI Gateway：按使用情况跟踪顶级 AI 模型",
+        "AI Gateway 模型排行榜跟踪一段时间内最流行的模型，并根据所有网关流量处理的代币总量对它们进行排名。"
+      ],
+      "highlights": [
+        "Meta 的 Muse Spark 1.2 现已在 AI Gateway 上提供。这是对之前的 Muse Spark 模型的以编码为中心的更新。在保留其一般功能",
+        "该模型是为长期工作而构建的，例如生成整个存储库、端到端构建大型项目以及在多轮中编写、编译、分析和改进代码的情况下维持迭代循环。",
+        "要使用Muse Spark 1.2，请在AI SDK中将模型设置为meta/muse-spark-1.2："
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Muse Spark 1.2 is now available on Vercel AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-05",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/muse-spark-1-2-is-now-available-on-vercel-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Muse Spark 1.2 is now available on Vercel AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Muse Spark 1.2 is now available on Vercel AI Gateway",
+        "url": "https://vercel.com/changelog/muse-spark-1-2-is-now-available-on-vercel-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-08-05T22:56:35.179Z"
+      }
+    },
+    {
+      "id": "sig-3cc3940dd5",
+      "title": "Vercel Sandbox 现在支持每分钟 10,000 个并发沙箱和 5,000 个 vCPU - Vercel",
+      "oneLiner": "我们增加了 Pro 和 Enterprise 计划上 Vercel Sandbox 的默认配额：",
+      "summary": {
+        "oneSentence": "我们增加了 Pro 和 Enterprise 计划上 Vercel Sandbox 的默认配额：",
+        "bullets": [
+          "我们增加了 Pro 和 Enterprise 计划上 Vercel Sandbox 的默认配额：",
+          "得益于新的动态配额，允许的速率不再是固定限制，而是随着持续使用而增加：从每分钟 150 个 vCPU 开始，随着您继续创建沙箱，每分钟增加 500 个 vCPU，最高达到每分钟 5,000 个 vCPU",
+          "新配额自动适用于所有专业版和企业版团队。如果您需要更高的配额，请联系销售人员。",
+          "了解有关沙盒定价和动态配额的更多信息。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：我们增加了 Pro 和 Enterprise 计划上 Vercel Sandbox 的默认配额：",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-sandbox-now-supports-10-000-concurrent-sandboxes-and-5-000-vcpus-per-minute"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "我们增加了 Pro 和 Enterprise 计划上 Vercel Sandbox 的默认配额：",
+        "得益于新的动态配额，允许的速率不再是固定限制，而是随着持续使用而增加：从每分钟 150 个 vCPU 开始，随着您继续创建沙箱，每分钟增加 500 个 vCPU，最高达到每分钟 5,000 个 vCPU",
+        "新配额自动适用于所有专业版和企业版团队。如果您需要更高的配额，请联系销售人员。",
+        "了解有关沙盒定价和动态配额的更多信息。"
+      ],
+      "highlights": [
+        "我们增加了 Pro 和 Enterprise 计划上 Vercel Sandbox 的默认配额：",
+        "得益于新的动态配额，允许的速率不再是固定限制，而是随着持续使用而增加：从每分钟 150 个 vCPU 开始，随着您继续创建沙箱，每分钟增加 500 个 vCPU",
+        "新配额自动适用于所有专业版和企业版团队。如果您需要更高的配额，请联系销售人员。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Sandbox now supports 10,000 concurrent sandboxes and 5,000 vCPUs per minute - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-05",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-sandbox-now-supports-10-000-concurrent-sandboxes-and-5-000-vcpus-per-minute",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Sandbox now supports 10,000 concurrent sandboxes and 5,000 vCPUs per minute - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Sandbox now supports 10,000 concurrent sandboxes and 5,000 vCPUs per minute",
+        "url": "https://vercel.com/changelog/vercel-sandbox-now-supports-10-000-concurrent-sandboxes-and-5-000-vcpus-per-minute",
+        "fetched": true,
+        "savedAt": "2026-08-05T22:56:38.761Z"
+      }
+    },
+    {
+      "id": "sig-6629ae786f",
+      "title": "在仪表板中搜索和购买域名 - Vercel",
+      "oneLiner": "您现在可以从 Vercel 仪表板搜索和购买域名。",
+      "summary": {
+        "oneSentence": "您现在可以从 Vercel 仪表板搜索和购买域名。",
+        "bullets": [
+          "您现在可以从 Vercel 仪表板搜索和购买域名。",
+          "通过域设置中的“购买”按钮或项目概述中的“+”按钮打开域搜索面板。",
+          "名称服务器会自动为您的项目配置，因此无需设置 DNS 记录。",
+          "请阅读使用域文档以开始使用。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：您现在可以从 Vercel 仪表板搜索和购买域名。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/search-and-buy-domains-in-the-dashboard"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "您现在可以从 Vercel 仪表板搜索和购买域名。",
+        "通过域设置中的“购买”按钮或项目概述中的“+”按钮打开域搜索面板。",
+        "名称服务器会自动为您的项目配置，因此无需设置 DNS 记录。",
+        "请阅读使用域文档以开始使用。"
+      ],
+      "highlights": [
+        "您现在可以从 Vercel 仪表板搜索和购买域名。",
+        "通过域设置中的“购买”按钮或项目概述中的“+”按钮打开域搜索面板。",
+        "名称服务器会自动为您的项目配置，因此无需设置 DNS 记录。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Search and buy domains in the dashboard - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-05",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/search-and-buy-domains-in-the-dashboard",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Search and buy domains in the dashboard - Vercel"
+      },
+      "raw": {
+        "title": "Search and buy domains in the dashboard",
+        "url": "https://vercel.com/changelog/search-and-buy-domains-in-the-dashboard",
+        "fetched": true,
+        "savedAt": "2026-08-05T22:56:42.155Z"
+      }
+    },
+    {
+      "id": "sig-dfec421de9",
+      "title": "测量 Vercel 工作流程中步骤之间的时间 - Vercel",
+      "oneLiner": "现在，您可以在 Vercel Workflows 和 Workflow SDK 的跟踪查看器中测量任意两个步骤之间的时间。",
+      "summary": {
+        "oneSentence": "现在，您可以在 Vercel Workflows 和 Workflow SDK 的跟踪查看器中测量任意两个步骤之间的时间。",
+        "bullets": [
+          "现在，您可以在 Vercel Workflows 和 Workflow SDK 的跟踪查看器中测量任意两个步骤之间的时间。",
+          "选择一个步骤，按住 macOS 上的 Option 或 Windows 和 Linux 上的 Alt，然后将鼠标悬停在另一个步骤上以查看它们之间的测量线：",
+          "在连续步骤之间，该线测量从较早步骤的结束到较晚步骤的开始。",
+          "在重叠或嵌套步骤之间，它测量它们开始时间之间的差异。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：现在，您可以在 Vercel Workflows 和 Workflow SDK 的跟踪查看器中测量任意两个步骤之间的时间。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/measure-time-between-steps-in-vercel-workflows"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "现在，您可以在 Vercel Workflows 和 Workflow SDK 的跟踪查看器中测量任意两个步骤之间的时间。",
+        "选择一个步骤，按住 macOS 上的 Option 或 Windows 和 Linux 上的 Alt，然后将鼠标悬停在另一个步骤上以查看它们之间的测量线：",
+        "在连续步骤之间，该线测量从较早步骤的结束到较晚步骤的开始。",
+        "在重叠或嵌套步骤之间，它测量它们开始时间之间的差异。",
+        "在未选择任何步骤的情况下，按住修改器可查看时间线上的间隙，现在使用相同的测量线绘制。",
+        "当运行时间比其步骤所占的时间长时，这对于发现延迟启动和队列等待非常有用。",
+        "首先，从 Vercel Observability 中的“工作流程”选项卡打开工作流程运行，或使用 npxworkflow@beta web 在本地打开工作流程运行。"
+      ],
+      "highlights": [
+        "现在，您可以在 Vercel Workflows 和 Workflow SDK 的跟踪查看器中测量任意两个步骤之间的时间。",
+        "选择一个步骤，按住 macOS 上的 Option 或 Windows 和 Linux 上的 Alt，然后将鼠标悬停在另一个步骤上以查看它们之间的测量线：",
+        "在连续步骤之间，该线测量从较早步骤的结束到较晚步骤的开始。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Measure time between steps in Vercel Workflows - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-05",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/measure-time-between-steps-in-vercel-workflows",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Measure time between steps in Vercel Workflows - Vercel"
+      },
+      "raw": {
+        "title": "Measure time between steps in Vercel Workflows",
+        "url": "https://vercel.com/changelog/measure-time-between-steps-in-vercel-workflows",
+        "fetched": true,
+        "savedAt": "2026-08-05T22:56:47.172Z"
+      }
+    },
+    {
+      "id": "sig-1468c34735",
+      "title": "完整的沙盒出口防火墙现已在 Hobby 计划中提供 - Vercel",
+      "oneLiner": "所有 Vercel Sandbox 防火墙功能现已在 Hobby 计划中提供。",
+      "summary": {
+        "oneSentence": "所有 Vercel Sandbox 防火墙功能现已在 Hobby 计划中提供。",
+        "bullets": [
+          "所有 Vercel Sandbox 防火墙功能现已在 Hobby 计划中提供。",
+          "这为免费层带来了保护生产工作负载的相同网络隔离，使业余爱好构建者能够准确控制离开沙箱的内容，同时完全保密代码。由于防火墙本身将机密附加到出站请求，因此沙盒代码可以调用经过身份验证的服务（例如 AI Gateway），而无需查看令牌。",
+          "使用基于域和 IP 的规则定义allow-all、deny-all或自定义网络策略，使用匹配器按路径、方法、查询字符串或标头确定每个规则的范围。自定义策略可以通过您控制的基础设施安全地代理凭据或代理请求。首先，在创建沙箱时传递一个网络策略。",
+          "sandbox.ts 1 从 '@vercel/sandbox' 导入 { Sandbox } ； 2 const sandbox =等待Sandbox。创建 ( { 3 networkPolicy : { 4 允许 : { 5 \"ai-gateway.vercel.sh\" : [ { 6 转换 : [ { 7 hea"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：所有 Vercel Sandbox 防火墙功能现已在 Hobby 计划中提供。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/full-sandbox-egress-firewall-now-available-on-hobby-plan"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "所有 Vercel Sandbox 防火墙功能现已在 Hobby 计划中提供。",
+        "这为免费层带来了保护生产工作负载的相同网络隔离，使业余爱好构建者能够准确控制离开沙箱的内容，同时完全保密代码。由于防火墙本身将机密附加到出站请求，因此沙盒代码可以调用经过身份验证的服务（例如 AI Gateway），而无需查看令牌。",
+        "使用基于域和 IP 的规则定义allow-all、deny-all或自定义网络策略，使用匹配器按路径、方法、查询字符串或标头确定每个规则的范围。自定义策略可以通过您控制的基础设施安全地代理凭据或代理请求。首先，在创建沙箱时传递一个网络策略。",
+        "sandbox.ts 1 从 '@vercel/sandbox' 导入 { Sandbox } ； 2 const sandbox =等待Sandbox。创建 ( { 3 networkPolicy : { 4 允许 : { 5 \"ai-gateway.vercel.sh\" : [ { 6 转换 : [ { 7 headers : { 8 \"授权\" : ` 承载 ${ process . env . AI_GATEWAY_TOKEN } ` 9 } 10 } ] , 11 } ] , 12 \"*\" : [ ] 13 } 14 } 15 } );将 AI Gateway 令牌代理到出站请求的自定义策略。",
+        "Sandbox CLI 管理相同的策略，让您无需重新启动沙箱即可实时更新它们。",
+        "# 创建一个出口限制为 Vercel AI Gateway 的沙箱 sandbox create --name my-sandbox --allowed-domain ai-gateway.vercel.sh # 实时更新策略，无需重新启动沙箱 sandbox config network-policy my-sandbox --network-policy Deny-all 从终端创建锁定的沙箱，然后动态拒绝所有出口。",
+        "网络策略可降低运行不受信任或人工智能生成的代码时的数据泄露风险。请参阅沙箱防火墙文档了解更多信息。"
+      ],
+      "highlights": [
+        "所有 Vercel Sandbox 防火墙功能现已在 Hobby 计划中提供。",
+        "这为免费层带来了保护生产工作负载的相同网络隔离，使业余爱好构建者能够准确控制离开沙箱的内容，同时完全保密代码。由于防火墙本身将机密附加到出站请求，因此沙盒代码可",
+        "使用基于域和 IP 的规则定义allow-all、deny-all或自定义网络策略，使用匹配器按路径、方法、查询字符串或标头确定每个规则的范围。自定义策略可以通"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Full Sandbox egress firewall now available on Hobby plan - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-05",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/full-sandbox-egress-firewall-now-available-on-hobby-plan",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Full Sandbox egress firewall now available on Hobby plan - Vercel"
+      },
+      "raw": {
+        "title": "Full Sandbox egress firewall now available on Hobby plan",
+        "url": "https://vercel.com/changelog/full-sandbox-egress-firewall-now-available-on-hobby-plan",
+        "fetched": true,
+        "savedAt": "2026-08-05T22:56:53.193Z"
+      }
+    },
     {
       "id": "sig-977f60f7e5",
       "title": "涉及 OpenAI 模型的第三方网络评估",
@@ -888,19 +1693,22 @@
     },
     {
       "id": "sig-f5eec579d4",
-      "title": "Skill packs are now available on skills.sh",
-      "oneLiner": "You can now bundle multiple agent skills into a shareable pack on skills.sh . Hand anyone a curated ",
+      "title": "技能包现已在 Skills.sh 上提供 - Vercel",
+      "oneLiner": "您现在可以将多个代理技能捆绑到 Skills.sh 上的可共享包中。",
       "summary": {
-        "oneSentence": "You can now bundle multiple agent skills into a shareable pack on skills.sh . Hand anyone a curated set via a single URL",
+        "oneSentence": "您现在可以将多个代理技能捆绑到 Skills.sh 上的可共享包中。",
         "bullets": [
-          "You can now bundle multiple agent skills into a shareable pack on skills.sh . Hand anyone a curated set via a single URL, or share it with your GitHub organization to standardize the skills your team'"
+          "您现在可以将多个代理技能捆绑到 Skills.sh 上的可共享包中。",
+          "通过单个 URL 向任何人提供精选集，或与您的 GitHub 组织共享，以标准化您的团队代理在任何项目中使用的技能。",
+          "从 Skills.sh 上的社区技能创建包，或者从本地文件夹、zip 或 GitHub 存储库创建您自己的包。使用一个命令安装任何包：",
+          "npx 技能添加 https://skills.sh/p/ <pack-id>"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：您现在可以将多个代理技能捆绑到 Skills.sh 上的可共享包中。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -908,30 +1716,34 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://vercel.com/changelog/skill-packs-are-now-available"
+          "阅读原文（英文）：https://vercel.com/changelog/skill-packs-are-now-available"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "You can now bundle multiple agent skills into a shareable pack on skills.sh .",
-        "Hand anyone a curated set via a single URL, or share it with your GitHub organization to standardize the skills your team's agents use across any project.",
-        "Create a pack from community skills on skills.sh , or your own from local folders, zips, or GitHub repositories. Install any pack with one command:",
-        "npx skills add https://skills.sh/p/ < pack-id >",
-        "Run npx skills update to update a pack to its latest version.",
-        "Explore and create packs at skills.sh/packs ."
+        "您现在可以将多个代理技能捆绑到 Skills.sh 上的可共享包中。",
+        "通过单个 URL 向任何人提供精选集，或与您的 GitHub 组织共享，以标准化您的团队代理在任何项目中使用的技能。",
+        "从 Skills.sh 上的社区技能创建包，或者从本地文件夹、zip 或 GitHub 存储库创建您自己的包。使用一个命令安装任何包：",
+        "npx 技能添加 https://skills.sh/p/ <pack-id>",
+        "运行 npx Skills Update 将包更新到最新版本。",
+        "在 Skills.sh/packs 中探索并创建包。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "您现在可以将多个代理技能捆绑到 Skills.sh 上的可共享包中。",
+        "通过单个 URL 向任何人提供精选集，或与您的 GitHub 组织共享，以标准化您的团队代理在任何项目中使用的技能。",
+        "从 Skills.sh 上的社区技能创建包，或者从本地文件夹、zip 或 GitHub 存储库创建您自己的包。使用一个命令安装任何包："
+      ],
+      "translated": true,
       "originalTitle": "Skill packs are now available on skills.sh - Vercel",
       "originalLang": "en",
       "date": "2026-08-04",
@@ -947,32 +1759,37 @@
         "url": "https://vercel.com/changelog/skill-packs-are-now-available",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Skill packs are now available on skills.sh - Vercel"
       },
       "raw": {
         "title": "Skill packs are now available on skills.sh",
         "url": "https://vercel.com/changelog/skill-packs-are-now-available",
         "fetched": true,
-        "savedAt": "2026-08-04T23:00:30.360Z"
-      }
+        "savedAt": "2026-08-04T23:00:30.360Z",
+        "retranslatedAt": "2026-08-05T22:56:58.726Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-3704ef5de9",
-      "title": "Give your eve agent a browser",
-      "oneLiner": "Your eve agent can now navigate the web like a human with agent-browser . The @agent-browser/eve ext",
+      "title": "为您的 eve 代理提供一个浏览器 - Vercel",
+      "oneLiner": "您的 eve 代理现在可以使用 agent-browser 像人类一样浏览网络。",
       "summary": {
-        "oneSentence": "Your eve agent can now navigate the web like a human with agent-browser . The @agent-browser/eve extension gives any eve",
+        "oneSentence": "您的 eve 代理现在可以使用 agent-browser 像人类一样浏览网络。",
         "bullets": [
-          "Your eve agent can now navigate the web like a human with agent-browser . The @agent-browser/eve extension gives any eve agent a full set of browser tools: navigate pages, read content, click, fill fo"
+          "您的 eve 代理现在可以使用 agent-browser 像人类一样浏览网络。",
+          "@agent-browser/eve 扩展为任何 eve 代理提供了一整套浏览器工具：导航页面、阅读内容、单击、填写表单、截取屏幕截图以及检查控制台和网络活动。一切都在代理的沙箱内运行。",
+          "agent/extensions/browser.ts 1 从“@agent-browser/eve”导入浏览器； 2 3 导出默认浏览器( { 4 allowedDomains : [ \"example.com\" , \"*.example.com\" ] , 5 maxOutputChars : 50000 , 6 }",
+          "您的代理获得命名空间工具，例如 browser__navigate 、 browser__snapshot 、 browser__click 、 browser__fill 和 browser__screenshot 。诸如 [ref=e12] 之类的快照引用成为 @e12 选择器，因此代理可以检查页面，然后根据所看到"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：您的 eve 代理现在可以使用 agent-browser 像人类一样浏览网络。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -980,33 +1797,37 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://vercel.com/changelog/give-your-eve-agent-a-browser"
+          "阅读原文（英文）：https://vercel.com/changelog/give-your-eve-agent-a-browser"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "Your eve agent can now navigate the web like a human with agent-browser .",
-        "The @agent-browser/eve extension gives any eve agent a full set of browser tools: navigate pages, read content, click, fill forms, take screenshots, and inspect console and network activity. Everything runs inside the agent's sandbox.",
-        "agent/extensions/browser.ts 1 import browser from \"@agent-browser/eve\" ; 2 3 export default browser ( { 4 allowedDomains : [ \"example.com\" , \"*.example.com\" ] , 5 maxOutputChars : 50000 , 6 } ) ;",
-        "Your agent gets namespaced tools like browser__navigate , browser__snapshot , browser__click , browser__fill , and browser__screenshot . Snapshot refs such as [ref=e12] become @e12 selectors, so the agent can inspect a page, then act on exactly what it saw.",
-        "Sandbox isolation: Chromium and agent-browser run in the eve sandbox, not your app. Pre-install them in your sandbox template so sessions start warm, or let the extension install them on first use.",
-        "Domain allowlist: Restrict navigation and subresources with allowedDomains , and control output size, screenshot handling, proxy use, and session naming through extension options.",
-        "Credential protection: Cookie, storage, and saved-auth-state commands are never exposed to the model. Use eve extension overrides to disable tools, require approvals, or add app-specific guarded tools.",
-        "See a complete Next.js eve app with the extension mounted in the example , or read the documentation to get started.",
-        "Pick a template, deploy in minutes, and debug every agent session in the Vercel dashboard from the first run."
+        "您的 eve 代理现在可以使用 agent-browser 像人类一样浏览网络。",
+        "@agent-browser/eve 扩展为任何 eve 代理提供了一整套浏览器工具：导航页面、阅读内容、单击、填写表单、截取屏幕截图以及检查控制台和网络活动。一切都在代理的沙箱内运行。",
+        "agent/extensions/browser.ts 1 从“@agent-browser/eve”导入浏览器； 2 3 导出默认浏览器( { 4 allowedDomains : [ \"example.com\" , \"*.example.com\" ] , 5 maxOutputChars : 50000 , 6 } ) ;",
+        "您的代理获得命名空间工具，例如 browser__navigate 、 browser__snapshot 、 browser__click 、 browser__fill 和 browser__screenshot 。诸如 [ref=e12] 之类的快照引用成为 @e12 选择器，因此代理可以检查页面，然后根据所看到的内容采取行动。",
+        "沙箱隔离：Chromium 和代理浏览器在 eve 沙箱中运行，而不是在您的应用程序中运行。将它们预先安装在您的沙箱模板中，以便会话启动，或者让扩展在首次使用时安装它们。",
+        "域白名单：使用 allowedDomains 限制导航和子资源，并通过扩展选项控制输出大小、屏幕截图处理、代理使用和会话命名。",
+        "凭证保护：Cookie、存储和保存的身份验证状态命令永远不会暴露给模型。使用 eve 扩展覆盖来禁用工具、需要批准或添加特定于应用程序的受保护工具。",
+        "请参阅示例中安装的扩展的完整 Next.js eve 应用程序，或阅读文档以开始使用。",
+        "选择一个模板，在几分钟内完成部署，并从第一次运行开始就在 Vercel 仪表板中调试每个代理会话。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "您的 eve 代理现在可以使用 agent-browser 像人类一样浏览网络。",
+        "@agent-browser/eve 扩展为任何 eve 代理提供了一整套浏览器工具：导航页面、阅读内容、单击、填写表单、截取屏幕截图以及检查控制台和网络活动。",
+        "agent/extensions/browser.ts 1 从“@agent-browser/eve”导入浏览器； 2 3 导出默认浏览器( { 4 allow"
+      ],
+      "translated": true,
       "originalTitle": "Give your eve agent a browser - Vercel",
       "originalLang": "en",
       "date": "2026-08-04",
@@ -1022,32 +1843,37 @@
         "url": "https://vercel.com/changelog/give-your-eve-agent-a-browser",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Give your eve agent a browser - Vercel"
       },
       "raw": {
         "title": "Give your eve agent a browser",
         "url": "https://vercel.com/changelog/give-your-eve-agent-a-browser",
         "fetched": true,
-        "savedAt": "2026-08-04T23:00:39.075Z"
-      }
+        "savedAt": "2026-08-04T23:00:39.075Z",
+        "retranslatedAt": "2026-08-05T22:57:05.846Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-7a75d09ae5",
-      "title": "DeepSeek V4 Flash is 90% off through Novita on AI Gateway",
-      "oneLiner": "DeepSeek v4 Flash is 90% off on AI Gateway when you route to Novita. The discount is available to Ve",
+      "title": "DeepSeek V4 Flash 通过 AI Gateway 上的 Novita 享受 90% 折扣 - Vercel",
+      "oneLiner": "当您路由至 Novita 时，DeepSeek v4 Flash 在 AI Gateway 上可享受 90% 的折扣。 8 月 11 日之前，Vercel Pro 客户均可享受此折扣。",
       "summary": {
-        "oneSentence": "DeepSeek v4 Flash is 90% off on AI Gateway when you route to Novita. The discount is available to Vercel Pro customers t",
+        "oneSentence": "当您路由至 Novita 时，DeepSeek v4 Flash 在 AI Gateway 上可享受 90% 的折扣。 8 月 11 日之前，Vercel Pro 客户均可享受此折扣。",
         "bullets": [
-          "DeepSeek v4 Flash is 90% off on AI Gateway when you route to Novita. The discount is available to Vercel Pro customers through August 11. To get the discounted rate, set the model to deepseek/deepseek"
+          "当您路由至 Novita 时，DeepSeek v4 Flash 在 AI Gateway 上可享受 90% 的折扣。 8 月 11 日之前，Vercel Pro 客户均可享受此折扣。",
+          "要获得折扣率，请将模型设置为 deepseek/deepseek-v4-flash 或 deepseek/deepseek-v4-flash-0731 并使用 order 选项将 Novita 放在第一位：",
+          "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText ( { 4 model : 'deepseek/deepseek-v4-flash' , // 或 'deepseek/deepseek-v4-flash-0731' 5prompt : '修复此存储库中的",
+          "如果 Novita 无法满足请求，则会按标准费率转交给其他提供商。 8 月 11 日之后，该型号仍按标准价格提供，不加价。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：当您路由至 Novita 时，DeepSeek v4 Flash 在 AI Gateway 上可享受 90% 的折扣。 8 月 11 日之前，Vercel Pro 客户均可享受此折扣。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -1055,29 +1881,33 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://vercel.com/changelog/deepseek-v4-flash-is-90-off-through-novita"
+          "阅读原文（英文）：https://vercel.com/changelog/deepseek-v4-flash-is-90-off-through-novita"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "DeepSeek v4 Flash is 90% off on AI Gateway when you route to Novita. The discount is available to Vercel Pro customers through August 11.",
-        "To get the discounted rate, set the model to deepseek/deepseek-v4-flash or deepseek/deepseek-v4-flash-0731 and put Novita first with the order option:",
-        "1 import { streamText } from 'ai' ; 2 3 const result = streamText ( { 4 model : 'deepseek/deepseek-v4-flash' , // or 'deepseek/deepseek-v4-flash-0731' 5 prompt : 'Fix the failing tests in this repo.' , 6 providerOptions : { 7 gateway : { 8 order : [ 'novita' ] , 9 } , 10 } , 11 } ) ;",
-        "If Novita can't serve the request, it falls back to other providers at the standard rate. After August 11, the model stays available at standard rates with no markup.",
-        "Create an API key in the AI Gateway section of your dashboard, or try the model first in its playground ."
+        "当您路由至 Novita 时，DeepSeek v4 Flash 在 AI Gateway 上可享受 90% 的折扣。 8 月 11 日之前，Vercel Pro 客户均可享受此折扣。",
+        "要获得折扣率，请将模型设置为 deepseek/deepseek-v4-flash 或 deepseek/deepseek-v4-flash-0731 并使用 order 选项将 Novita 放在第一位：",
+        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText ( { 4 model : 'deepseek/deepseek-v4-flash' , // 或 'deepseek/deepseek-v4-flash-0731' 5prompt : '修复此存储库中的失败测试。' , 6providerOptions : { 7 gateway : { 8 order : [ 'novita' ] , 9 } , 10 } , 11 } );",
+        "如果 Novita 无法满足请求，则会按标准费率转交给其他提供商。 8 月 11 日之后，该型号仍按标准价格提供，不加价。",
+        "在仪表板的 AI 网关部分创建 API 密钥，或者首先在其 Playground 中尝试该模型。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "当您路由至 Novita 时，DeepSeek v4 Flash 在 AI Gateway 上可享受 90% 的折扣。 8 月 11 日之前，Vercel Pr",
+        "要获得折扣率，请将模型设置为 deepseek/deepseek-v4-flash 或 deepseek/deepseek-v4-flash-0731 并使用 ",
+        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText ( { 4 model : 'deepseek"
+      ],
+      "translated": true,
       "originalTitle": "DeepSeek V4 Flash is 90% off through Novita on AI Gateway - Vercel",
       "originalLang": "en",
       "date": "2026-08-04",
@@ -1093,16 +1923,18 @@
         "url": "https://vercel.com/changelog/deepseek-v4-flash-is-90-off-through-novita",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "DeepSeek V4 Flash is 90% off through Novita on AI Gateway - Vercel"
       },
       "raw": {
         "title": "DeepSeek V4 Flash is 90% off through Novita on AI Gateway",
         "url": "https://vercel.com/changelog/deepseek-v4-flash-is-90-off-through-novita",
         "fetched": true,
-        "savedAt": "2026-08-04T23:00:41.759Z"
-      }
+        "savedAt": "2026-08-04T23:00:41.759Z",
+        "retranslatedAt": "2026-08-05T22:57:10.165Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-f806378380",
@@ -1505,7 +2337,7 @@
         "url": "https://cursor.com/changelog/google-workspace-plugins",
         "fetched": true,
         "savedAt": "2026-08-03T22:57:50.365Z",
-        "retranslatedAt": "2026-08-04T23:00:51.577Z"
+        "retranslatedAt": "2026-08-05T22:57:11.122Z"
       }
     },
     {
@@ -4712,7 +5544,7 @@
         "url": "https://cursor.com/changelog/ipad",
         "fetched": true,
         "savedAt": "2026-08-02T22:53:52.935Z",
-        "retranslatedAt": "2026-08-04T23:00:52.763Z"
+        "retranslatedAt": "2026-08-05T22:57:12.215Z"
       }
     },
     {
@@ -8813,7 +9645,7 @@
         "url": "https://cursor.com/changelog/slack-improvements",
         "fetched": true,
         "savedAt": "2026-07-27T07:34:20.673Z",
-        "retranslatedAt": "2026-08-04T23:00:53.949Z"
+        "retranslatedAt": "2026-08-05T22:57:13.293Z"
       }
     },
     {
