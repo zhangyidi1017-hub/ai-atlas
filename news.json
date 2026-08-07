@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-07T01:30:26.752Z",
+  "updatedAt": "2026-08-07T22:32:21.607Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 144,
+  "itemCount": 154,
   "brief": {
     "date": "2026-08-07",
-    "generatedAt": "2026-08-07T01:30:26.751Z",
-    "totalCount": 144,
-    "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 144 条",
+    "generatedAt": "2026-08-07T22:32:21.606Z",
+    "totalCount": 154,
+    "todayCount": 5,
+    "headline": "今日 AI 信号 5 条 · 档案共 154 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -40,10 +40,10 @@
         "readMinutes": 5
       },
       {
-        "id": "sig-7fa201e30c",
-        "title": "WeatherNext：人工智能模型在预测气旋方面取得突破",
+        "id": "sig-2d835273fe",
+        "title": "Vercel 容器注册表存储库现已公开 - Vercel",
         "stars": 4,
-        "oneLiner": "分享 复制的 WeatherNext 可实现准确的气旋预报，从而提供额外一天的警告。现在我们正在开源该模型。",
+        "oneLiner": "Vercel 容器注册表现在允许您公开存储库，因此拥有 Vercel 帐户的任何人都可以提取并使用其映像。",
         "readMinutes": 5
       }
     ],
@@ -53,8 +53,8 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "sig-7fa201e30c",
-        "sig-0f0c1961f9"
+        "sig-2d835273fe",
+        "sig-833934ee3b"
       ],
       "newReleases": [
         "sig-468f50ae5e",
@@ -67,10 +67,10 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "sig-7fa201e30c",
-        "sig-0f0c1961f9",
-        "sig-6da5f2d271",
-        "sig-fea9ae47eb"
+        "sig-2d835273fe",
+        "sig-833934ee3b",
+        "sig-2ee94000fe",
+        "sig-32a9e6dcf4"
       ],
       "emergingTrends": [
         "cur-openai-agentkit",
@@ -111,8 +111,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-08-07T01:30:26.752Z",
-    "summary": "近 30 天共 144 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-08-07T22:32:21.607Z",
+    "summary": "近 30 天共 154 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Agent",
@@ -188,6 +188,30 @@
     ]
   },
   "productUpdates": [
+    {
+      "id": "sig-833934ee3b",
+      "title": "应对关键网络能力的下一个前沿",
+      "oneLiner": "OpenAI 正在分享对 Astra 的初步网络安全评估以及我们为加强保障和安全控制而采取的步骤。",
+      "date": "2026-08-07",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-2ee94000fe",
+      "title": "HSP GRUPPE 如何构建税务咨询人工智能功能",
+      "oneLiner": "了解 HSP GRUPPE 如何使用 ChatGPT Enterprise 来提高生产力、提高工作质量并创造更多税务咨询和客户服务能力。",
+      "date": "2026-08-07",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
     {
       "id": "sig-7fa201e30c",
       "title": "WeatherNext：人工智能模型在预测气旋方面取得突破",
@@ -323,6 +347,18 @@
       "stars": 4
     },
     {
+      "id": "sig-54e616a32e",
+      "title": "Circles 利用 OpenAI 技术推动电信个性化",
+      "oneLiner": "Circles 使用 OpenAI API 和 Codex 来增强 AI 原生电信体验，将 ARPU 提高 22%，减少客户流失率 9%，并提高开发效率。",
+      "date": "2026-08-03",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
       "id": "sig-6d58997b46",
       "title": "数学和理论计算机科学的十大进展",
       "oneLiner": "OpenAI 分享了数学和理论计算机科学中长期存在的开放问题的新成果，包括几何、密码学和复杂性方面的进展。",
@@ -441,47 +477,396 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-14fd05ad34",
-      "title": "通过 ChatGPT 为学术研究人员加速科学发现",
-      "oneLiner": "OpenAI 为 100,000 名学术研究人员免费提供 ChatGPT 最先进的 AI 模型，以加速科学研究、协作和发现。",
-      "date": "2026-07-29",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-6d964f10c3",
-      "title": "GPT-5.6 如何融合前沿智能与前沿效率",
-      "oneLiner": "GPT-5.6 提高了跨模型、推理和代理工作流程的人工智能效率，有助于以每一美元提供更有用的智能。",
-      "date": "2026-07-29",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-ff7bff38a4",
-      "title": "iPad 版 Cursor 现已登陆 iPad · Cursor",
-      "oneLiner": "iPhone 和 iPad 新增收件箱，助您井井有条；同时提供覆盖完整 PR 的代码审查体验。随时随地创建、审查和合并。",
-      "date": "2026-07-29",
-      "productIds": [
-        "cursor"
-      ],
-      "source": "Cursor",
-      "tags": [
-        "Release"
-      ],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-2d835273fe",
+      "title": "Vercel 容器注册表存储库现已公开 - Vercel",
+      "oneLiner": "Vercel 容器注册表现在允许您公开存储库，因此拥有 Vercel 帐户的任何人都可以提取并使用其映像。",
+      "summary": {
+        "oneSentence": "Vercel 容器注册表现在允许您公开存储库，因此拥有 Vercel 帐户的任何人都可以提取并使用其映像。",
+        "bullets": [
+          "Vercel 容器注册表现在允许您公开存储库，因此拥有 Vercel 帐户的任何人都可以提取并使用其映像。",
+          "共享已向最多 100 个团队授予读取权限，并且将存储库公开为每个 Vercel 团队（而不是命名集）提供访问权限。公共访问是只读的，因此任何人都可以拉取和使用图像，但不能推送、删除或以其他方式更改存储库。默认情况下，存储库保持私有状态。",
+          "从项目仪表板的图像 → 存储库 → 设置 → 公共访问下公开存储库，其中确认需要输入存储库名称。您还可以从 Vercel CLI 设置可见性：",
+          "1 vercel vcr config <存储库> --public true 2 vercel vcr config <存储库> --public false"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel 容器注册表现在允许您公开存储库，因此拥有 Vercel 帐户的任何人都可以提取并使用其映像。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-container-registry-repositories-can-now-be-made-public"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel 容器注册表现在允许您公开存储库，因此拥有 Vercel 帐户的任何人都可以提取并使用其映像。",
+        "共享已向最多 100 个团队授予读取权限，并且将存储库公开为每个 Vercel 团队（而不是命名集）提供访问权限。公共访问是只读的，因此任何人都可以拉取和使用图像，但不能推送、删除或以其他方式更改存储库。默认情况下，存储库保持私有状态。",
+        "从项目仪表板的图像 → 存储库 → 设置 → 公共访问下公开存储库，其中确认需要输入存储库名称。您还可以从 Vercel CLI 设置可见性：",
+        "1 vercel vcr config <存储库> --public true 2 vercel vcr config <存储库> --public false",
+        "公共图像的工作方式类似于 Vercel Sandbox 中的共享图像，它接受 Sandbox.create() 中的团队范围的图像引用：",
+        "1 从 '@vercel/sandbox' 导入 { Sandbox } ； 2 const sandbox =等待Sandbox。创建 ({ 3 image : '他们的团队/他们的项目/他们的存储库:最新', 4 } ) ;",
+        "从仪表板、CLI 或 REST API 更新存储库可见性，并参阅 Vercel 容器注册表文档以了解更多信息。"
+      ],
+      "highlights": [
+        "Vercel 容器注册表现在允许您公开存储库，因此拥有 Vercel 帐户的任何人都可以提取并使用其映像。",
+        "共享已向最多 100 个团队授予读取权限，并且将存储库公开为每个 Vercel 团队（而不是命名集）提供访问权限。公共访问是只读的，因此任何人都可以拉取和使用图",
+        "从项目仪表板的图像 → 存储库 → 设置 → 公共访问下公开存储库，其中确认需要输入存储库名称。您还可以从 Vercel CLI 设置可见性："
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Container Registry repositories can now be made public - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-07",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-container-registry-repositories-can-now-be-made-public",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Container Registry repositories can now be made public - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Container Registry repositories can now be made public",
+        "url": "https://vercel.com/changelog/vercel-container-registry-repositories-can-now-be-made-public",
+        "fetched": true,
+        "savedAt": "2026-08-07T22:31:37.052Z"
+      }
+    },
+    {
+      "id": "sig-833934ee3b",
+      "title": "应对关键网络能力的下一个前沿",
+      "oneLiner": "OpenAI 正在分享对 Astra 的初步网络安全评估以及我们为加强保障和安全控制而采取的步骤。",
+      "summary": {
+        "oneSentence": "OpenAI 正在分享对 Astra 的初步网络安全评估以及我们为加强保障和安全控制而采取的步骤。",
+        "bullets": [
+          "OpenAI 正在分享对 Astra 的初步网络安全评估以及我们为加强保障和安全控制而采取的步骤。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 正在分享对 Astra 的初步网络安全评估以及我们为加强保障和安全控制而采取的步骤。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/responding-next-frontier-critical-cyber-capabilities"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 正在分享对 Astra 的初步网络安全评估以及我们为加强保障和安全控制而采取的步骤。"
+      ],
+      "highlights": [
+        "OpenAI 正在分享对 Astra 的初步网络安全评估以及我们为加强保障和安全控制而采取的步骤。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Responding to the next frontier of critical cyber capabilities",
+      "originalLang": "en",
+      "date": "2026-08-07",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Responding to the next frontier of critical cyber capabilities"
+      },
+      "raw": {
+        "title": "Responding to the next frontier of critical cyber capabilities",
+        "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
+        "fetched": false,
+        "savedAt": "2026-08-07T22:31:38.308Z"
+      }
+    },
+    {
+      "id": "sig-2ee94000fe",
+      "title": "HSP GRUPPE 如何构建税务咨询人工智能功能",
+      "oneLiner": "了解 HSP GRUPPE 如何使用 ChatGPT Enterprise 来提高生产力、提高工作质量并创造更多税务咨询和客户服务能力。",
+      "summary": {
+        "oneSentence": "了解 HSP GRUPPE 如何使用 ChatGPT Enterprise 来提高生产力、提高工作质量并创造更多税务咨询和客户服务能力。",
+        "bullets": [
+          "了解 HSP GRUPPE 如何使用 ChatGPT Enterprise 来提高生产力、提高工作质量并创造更多税务咨询和客户服务能力。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：了解 HSP GRUPPE 如何使用 ChatGPT Enterprise 来提高生产力、提高工作质量并创造更多税务咨询和客户服务能力。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/hsp-gruppe"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "了解 HSP GRUPPE 如何使用 ChatGPT Enterprise 来提高生产力、提高工作质量并创造更多税务咨询和客户服务能力。"
+      ],
+      "highlights": [
+        "了解 HSP GRUPPE 如何使用 ChatGPT Enterprise 来提高生产力、提高工作质量并创造更多税务咨询和客户服务能力。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How HSP GRUPPE builds AI capabilities for tax advisory",
+      "originalLang": "en",
+      "date": "2026-08-07",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/hsp-gruppe",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How HSP GRUPPE builds AI capabilities for tax advisory"
+      },
+      "raw": {
+        "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
+        "url": "https://openai.com/index/hsp-gruppe",
+        "fetched": false,
+        "savedAt": "2026-08-07T22:31:39.553Z"
+      }
+    },
+    {
+      "id": "sig-32a9e6dcf4",
+      "title": "审核日志 Drains 现在支持 Datadog、Splunk 和 Panther - Vercel",
+      "oneLiner": "审计日志 Drains 现在将您团队的审计事件流式传输到 Datadog 、 Splunk 和 Panther 中，加入现有的自定义 HTTPS 终端节点和 Amazon S3 目标。",
+      "summary": {
+        "oneSentence": "审计日志 Drains 现在将您团队的审计事件流式传输到 Datadog 、 Splunk 和 Panther 中，加入现有的自定义 HTTPS 终端节点和 Amazon S3 目标。",
+        "bullets": [
+          "审计日志 Drains 现在将您团队的审计事件流式传输到 Datadog 、 Splunk 和 Panther 中，加入现有的自定义 HTTPS 终端节点和 Amazon S3 目标。",
+          "审核日志排出将团队活动日志中的每个事件以及其他审核元数据转发到您选择的目的地。它们在企业计划中可用。",
+          "要创建一个，请转到团队设置中的 Drains。单击“添加排水”，选择“审核日志”作为数据类型，然后选择一个目标。",
+          "审核日志删除取代了自定义 SIEM 日志流。如果您已将审核日志流式传输到 SIEM，请按照迁移指南移动集成。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：审计日志 Drains 现在将您团队的审计事件流式传输到 Datadog 、 Splunk 和 Panther 中，加入现有的自定义 HTTPS 终端节点和 Amazon S3 目标。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/audit-log-drains-now-support-datadog-splunk-and-panther"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "审计日志 Drains 现在将您团队的审计事件流式传输到 Datadog 、 Splunk 和 Panther 中，加入现有的自定义 HTTPS 终端节点和 Amazon S3 目标。",
+        "审核日志排出将团队活动日志中的每个事件以及其他审核元数据转发到您选择的目的地。它们在企业计划中可用。",
+        "要创建一个，请转到团队设置中的 Drains。单击“添加排水”，选择“审核日志”作为数据类型，然后选择一个目标。",
+        "审核日志删除取代了自定义 SIEM 日志流。如果您已将审核日志流式传输到 SIEM，请按照迁移指南移动集成。",
+        "在文档中了解有关 Drain 的更多信息。"
+      ],
+      "highlights": [
+        "审计日志 Drains 现在将您团队的审计事件流式传输到 Datadog 、 Splunk 和 Panther 中，加入现有的自定义 HTTPS 终端节点和 A",
+        "审核日志排出将团队活动日志中的每个事件以及其他审核元数据转发到您选择的目的地。它们在企业计划中可用。",
+        "要创建一个，请转到团队设置中的 Drains。单击“添加排水”，选择“审核日志”作为数据类型，然后选择一个目标。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Audit Log Drains now support Datadog, Splunk, and Panther - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-07",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/audit-log-drains-now-support-datadog-splunk-and-panther",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Audit Log Drains now support Datadog, Splunk, and Panther - Vercel"
+      },
+      "raw": {
+        "title": "Audit Log Drains now support Datadog, Splunk, and Panther",
+        "url": "https://vercel.com/changelog/audit-log-drains-now-support-datadog-splunk-and-panther",
+        "fetched": true,
+        "savedAt": "2026-08-07T22:31:43.776Z"
+      }
+    },
+    {
+      "id": "sig-2266e6b144",
+      "title": "新的 Pro 订阅现已包含免费域名 - Vercel",
+      "oneLiner": "新的专业版订阅现在包含第一年免费的域名。",
+      "summary": {
+        "oneSentence": "新的专业版订阅现在包含第一年免费的域名。",
+        "bullets": [
+          "新的专业版订阅现在包含第一年免费的域名。",
+          ".在线 .网站 .空间 .商店 .技术 .网站",
+          "每个团队在订阅后有 30 天的时间来申领一个域名，无论是在结帐时还是稍后通过仪表板中的域名搜索。",
+          "第一年后，您的域名将按照您领取域名时结账时显示的正常价格自动续订。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：新的专业版订阅现在包含第一年免费的域名。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/free-domain-now-included-with-new-pro-subscriptions"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "新的专业版订阅现在包含第一年免费的域名。",
+        ".在线 .网站 .空间 .商店 .技术 .网站",
+        "每个团队在订阅后有 30 天的时间来申领一个域名，无论是在结帐时还是稍后通过仪表板中的域名搜索。",
+        "第一年后，您的域名将按照您领取域名时结账时显示的正常价格自动续订。",
+        "请参阅免费域名常见问题解答以了解完整条款。"
+      ],
+      "highlights": [
+        "新的专业版订阅现在包含第一年免费的域名。",
+        ".在线 .网站 .空间 .商店 .技术 .网站",
+        "每个团队在订阅后有 30 天的时间来申领一个域名，无论是在结帐时还是稍后通过仪表板中的域名搜索。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Free domain now included with new Pro subscriptions - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-07",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/free-domain-now-included-with-new-pro-subscriptions",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Free domain now included with new Pro subscriptions - Vercel"
+      },
+      "raw": {
+        "title": "Free domain now included with new Pro subscriptions",
+        "url": "https://vercel.com/changelog/free-domain-now-included-with-new-pro-subscriptions",
+        "fetched": true,
+        "savedAt": "2026-08-07T22:31:48.175Z"
+      }
+    },
     {
       "id": "sig-7fa201e30c",
       "title": "WeatherNext：人工智能模型在预测气旋方面取得突破",
@@ -1198,6 +1583,174 @@
         "url": "https://vercel.com/changelog/chat-sdk-durable-approvals",
         "fetched": true,
         "savedAt": "2026-08-07T01:30:17.372Z"
+      }
+    },
+    {
+      "id": "sig-a4e0b3b563",
+      "title": "为 Herdr 中的每个代理提供自己的 Vercel 沙盒 - Vercel",
+      "oneLiner": "像 Claude Code、Codex 和 OpenCode 这样的终端编码代理现在都可以在自己独立的 Vercel Sandbox 中运行，由 Herdr 编排，Herdr 是一个 tmux 风格的管理器，可以在窗格中并排运行它们。代理运",
+      "summary": {
+        "oneSentence": "像 Claude Code、Codex 和 OpenCode 这样的终端编码代理现在都可以在自己独立的 Vercel Sandbox 中运行，由 Herdr 编排，Herdr 是一个 tmux 风格的管理器，可以在窗格中并排运行它们。代理运",
+        "bullets": [
+          "像 Claude Code、Codex 和 OpenCode 这样的终端编码代理现在都可以在自己独立的 Vercel Sandbox 中运行，由 Herdr 编排，Herdr 是一个 tmux 风格的管理器，可以在窗格中并排运行它们。代理运行或编辑的任何内容都不会影响您的计算机。",
+          "当您启动代理时，该插件会将您的项目文件上传到新的沙箱中，在其中安装代理，并打开与其连接的窗格。",
+          "该窗格的工作方式类似于本地终端；您向代理输入内容并观察其工作情况。但它存在于沙箱中，而不是在您的计算机上，因此您可以同时运行多个代理，而不会减慢任何速度。",
+          "该插件所做的一切都是机器可读的。每个操作都会以 JSON 形式返回其结果，因此无论您可以从窗格中执行什么操作，例如启动代理、检查其状态或应用其更改，脚本或其他代理也可以执行此操作。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：像 Claude Code、Codex 和 OpenCode 这样的终端编码代理现在都可以在自己独立的 Vercel Sandbox 中运行，由 Herdr 编排，Herdr 是一个 tmux 风格的管理器，可以在窗格中并排运行它们。代理运",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/give-every-agent-in-herdr-its-own-vercel-sandbox"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "像 Claude Code、Codex 和 OpenCode 这样的终端编码代理现在都可以在自己独立的 Vercel Sandbox 中运行，由 Herdr 编排，Herdr 是一个 tmux 风格的管理器，可以在窗格中并排运行它们。代理运行或编辑的任何内容都不会影响您的计算机。",
+        "当您启动代理时，该插件会将您的项目文件上传到新的沙箱中，在其中安装代理，并打开与其连接的窗格。",
+        "该窗格的工作方式类似于本地终端；您向代理输入内容并观察其工作情况。但它存在于沙箱中，而不是在您的计算机上，因此您可以同时运行多个代理，而不会减慢任何速度。",
+        "该插件所做的一切都是机器可读的。每个操作都会以 JSON 形式返回其结果，因此无论您可以从窗格中执行什么操作，例如启动代理、检查其状态或应用其更改，脚本或其他代理也可以执行此操作。",
+        "内置了一些保护措施。该插件会在第一次上传之前显示每个文件，将远程更改作为仅在您选择时应用的 Git 补丁返回，并且需要人工输入 DELETE 才能永久删除沙箱。",
+        "Claude Code (2.1.220)、Codex (0.146.0) 和 OpenCode (1.18.9) 均经过验证且默认可用。",
+        "herdr 插件安装 vercel-labs/herdr-vercel-sandbox-plugin",
+        "在您希望代理运行的存储库中运行 vercel 链接，然后从 Herdr 的操作菜单启动代理。",
+        "启动需要两次调用。第一个是试运行：它列出了要上传的每个文件，并且不创建任何内容。再次运行它，插件会创建沙箱并在窗格中打开代理。要将代理的工作拉回您的计算机，请运行 apply 操作，其更改将作为 Git 补丁到达。",
+        "使用量按标准沙箱费率计费。在文档中了解更多信息。"
+      ],
+      "highlights": [
+        "像 Claude Code、Codex 和 OpenCode 这样的终端编码代理现在都可以在自己独立的 Vercel Sandbox 中运行，由 Herdr 编",
+        "当您启动代理时，该插件会将您的项目文件上传到新的沙箱中，在其中安装代理，并打开与其连接的窗格。",
+        "该窗格的工作方式类似于本地终端；您向代理输入内容并观察其工作情况。但它存在于沙箱中，而不是在您的计算机上，因此您可以同时运行多个代理，而不会减慢任何速度。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Give every agent in Herdr its own Vercel Sandbox - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-06",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/give-every-agent-in-herdr-its-own-vercel-sandbox",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Give every agent in Herdr its own Vercel Sandbox - Vercel"
+      },
+      "raw": {
+        "title": "Give every agent in Herdr its own Vercel Sandbox",
+        "url": "https://vercel.com/changelog/give-every-agent-in-herdr-its-own-vercel-sandbox",
+        "fetched": true,
+        "savedAt": "2026-08-07T22:31:55.653Z"
+      }
+    },
+    {
+      "id": "sig-30285f5ab1",
+      "title": "Seedance 2.5 现已在 Vercel AI Gateway 上推出 - Vercel",
+      "oneLiner": "字节跳动的 Seedance 2.5 现已在 AI Gateway 上提供。它在单个剪辑中生成长达 30 秒的时间，保持摄像机的移动和连续性，而无需在后期将镜头拼接在一起。短剪辑还可以通过保留角色、场景和摄像机的移动来进行扩展。",
+      "summary": {
+        "oneSentence": "字节跳动的 Seedance 2.5 现已在 AI Gateway 上提供。它在单个剪辑中生成长达 30 秒的时间，保持摄像机的移动和连续性，而无需在后期将镜头拼接在一起。短剪辑还可以通过保留角色、场景和摄像机的移动来进行扩展。",
+        "bullets": [
+          "字节跳动的 Seedance 2.5 现已在 AI Gateway 上提供。它在单个剪辑中生成长达 30 秒的时间，保持摄像机的移动和连续性，而无需在后期将镜头拼接在一起。短剪辑还可以通过保留角色、场景和摄像机的移动来进行扩展。",
+          "Seedance 2.5 支持文本、视频、图像和音频作为同一请求中的输入，遵循一项资产中的主题外观和另一项资产中的动作或摄像机工作。在完成的视频中，它会在本地进行编辑，交换背景、产品或角色，同时框架、摄像机和节奏保持不变，这就是一个剪辑变成多个版本的方式。以十多种语言提示工作。",
+          "将链接复制到标题生成视频将模型设置为 bytedance/seedance-2.5 并从 AI SDK 调用generateVideo：",
+          "1 从'ai'导入{experimental_generateVideo asgenerateVideo}； 2 从 'node:fs' 导入 fs ； 3 4 const {videos}=awaitgenerateVideo({5model:'bytedance/seedance-2.5',6prompt:'90年"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：字节跳动的 Seedance 2.5 现已在 AI Gateway 上提供。它在单个剪辑中生成长达 30 秒的时间，保持摄像机的移动和连续性，而无需在后期将镜头拼接在一起。短剪辑还可以通过保留角色、场景和摄像机的移动来进行扩展。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/seedance-2-5-now-available-on-vercel-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "字节跳动的 Seedance 2.5 现已在 AI Gateway 上提供。它在单个剪辑中生成长达 30 秒的时间，保持摄像机的移动和连续性，而无需在后期将镜头拼接在一起。短剪辑还可以通过保留角色、场景和摄像机的移动来进行扩展。",
+        "Seedance 2.5 支持文本、视频、图像和音频作为同一请求中的输入，遵循一项资产中的主题外观和另一项资产中的动作或摄像机工作。在完成的视频中，它会在本地进行编辑，交换背景、产品或角色，同时框架、摄像机和节奏保持不变，这就是一个剪辑变成多个版本的方式。以十多种语言提示工作。",
+        "将链接复制到标题生成视频将模型设置为 bytedance/seedance-2.5 并从 AI SDK 调用generateVideo：",
+        "1 从'ai'导入{experimental_generateVideo asgenerateVideo}； 2 从 'node:fs' 导入 fs ； 3 4 const {videos}=awaitgenerateVideo({5model:'bytedance/seedance-2.5',6prompt:'90年代动漫风格的飞向夕阳的鸡',7分辨率:'1920x1080',8duration:30,9}); 10 11 飞秒。 writeFileSync('output.mp4',视频[0].uint8Array);",
+        "将链接复制到标题图像引用在referenceImages 下传递图像URL，并在提示中使用 [Image 1] 、 [Image 2] 指向它们。",
+        "1 const {videos} =awaitgenerateVideo({2model:'bytedance/seedance-2.5',3prompt:'[图1]中的男孩在日落时牵着[图2]中的柯基犬穿过公园',4分辨率:'1920x1080',5duration:10,6generateAudio:true,7inputReferences: [ 8 { 数据: boyUrl , mediaType : 'image/jpeg' } , 9 { 数据 : corgiUrl , mediaType : 'image/jpeg' } , 10 ] , 11 } ) ;",
+        "将链接复制到标题视频编辑和参考referenceVideos 与图像分开编号，因此[视频1] 和[图像1] 可以出现在同一提示中：来自一项资产的动作，来自另一项资产的外观。",
+        "1 const {videos}=awaitgenerateVideo({2model:'bytedance/seedance-2.5',3prompt:'跟随[视频1]的摄像机移动和节奏，产品来自[图像1]',4分辨率:'1920x1080',5duration:15,6inputReferences:[7{data: ClipUrl , mediaType : 'video/mp4' } , 8 { 数据 : ProductUrl , mediaType : 'image/jpeg' } , 9 ] , 10 } ) ;",
+        "参考为新一代提供了动力，为模型从头开始构建的东西提供了动作、摄影工作或节奏。编辑对已完成的视频进行适当更改。在一个提示中混合使用两个角色会产生不太稳定的结果，因此请明确每个源资产的用途。",
+        "如需了解更多详细信息，并尝试 Seedance 2.5 Playground 和 API 参考，请访问模型页面 。 AI网关更多视频模型，查看所有视频模型。"
+      ],
+      "highlights": [
+        "字节跳动的 Seedance 2.5 现已在 AI Gateway 上提供。它在单个剪辑中生成长达 30 秒的时间，保持摄像机的移动和连续性，而无需在后期将镜头",
+        "Seedance 2.5 支持文本、视频、图像和音频作为同一请求中的输入，遵循一项资产中的主题外观和另一项资产中的动作或摄像机工作。在完成的视频中，它会在本地进",
+        "将链接复制到标题生成视频将模型设置为 bytedance/seedance-2.5 并从 AI SDK 调用generateVideo："
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Seedance 2.5 now available on Vercel AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-06",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/seedance-2-5-now-available-on-vercel-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Seedance 2.5 now available on Vercel AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Seedance 2.5 now available on Vercel AI Gateway",
+        "url": "https://vercel.com/changelog/seedance-2-5-now-available-on-vercel-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-08-07T22:32:03.322Z"
       }
     },
     {
@@ -2728,6 +3281,87 @@
       "translateMethod": "google"
     },
     {
+      "id": "sig-8f9af5631b",
+      "title": "Vercel Sandbox 现在支持 Devin Outposts - Vercel",
+      "oneLiner": "Vercel Sandbox 现在支持 Devin Outposts 。每个 Devin 会话都在其自己的隔离 Sandbox microVM 中执行，无需本地 Outpost 工作人员保持在线。",
+      "summary": {
+        "oneSentence": "Vercel Sandbox 现在支持 Devin Outposts 。每个 Devin 会话都在其自己的隔离 Sandbox microVM 中执行，无需本地 Outpost 工作人员保持在线。",
+        "bullets": [
+          "Vercel Sandbox 现在支持 Devin Outposts 。每个 Devin 会话都在其自己的隔离 Sandbox microVM 中执行，无需本地 Outpost 工作人员保持在线。",
+          "Devin 控制平面与 Cognition 保持一致，其中代理循环处理推理和规划。会话编排和命令执行在您的 Vercel 项目中运行，持久的工作流程管理每个会话的生命周期。",
+          "使用沙箱快照保留会话状态。",
+          "通过沙盒防火墙规则应用 Devin 网络策略。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel Sandbox 现在支持 Devin Outposts 。每个 Devin 会话都在其自己的隔离 Sandbox microVM 中执行，无需本地 Outpost 工作人员保持在线。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-sandbox-now-supports-devin-outposts"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Sandbox 现在支持 Devin Outposts 。每个 Devin 会话都在其自己的隔离 Sandbox microVM 中执行，无需本地 Outpost 工作人员保持在线。",
+        "Devin 控制平面与 Cognition 保持一致，其中代理循环处理推理和规划。会话编排和命令执行在您的 Vercel 项目中运行，持久的工作流程管理每个会话的生命周期。",
+        "使用沙箱快照保留会话状态。",
+        "通过沙盒防火墙规则应用 Devin 网络策略。",
+        "首先，部署快速入门并以 Devin 管理员身份批准连接。加密的凭据会自动添加到您的项目中，无需复制令牌或 API 密钥。然后在 Devin 中启动会话并选择新的 Vercel 前哨站作为其虚拟环境。",
+        "启用了 Devin Outposts 的专业团队和企业团队都可以使用该集成。在知识库指南中了解更多信息。",
+        "哈普里特·阿罗拉、本·萨比克、凯文·科贝特"
+      ],
+      "highlights": [
+        "Vercel Sandbox 现在支持 Devin Outposts 。每个 Devin 会话都在其自己的隔离 Sandbox microVM 中执行，无需本地",
+        "Devin 控制平面与 Cognition 保持一致，其中代理循环处理推理和规划。会话编排和命令执行在您的 Vercel 项目中运行，持久的工作流程管理每个会话",
+        "使用沙箱快照保留会话状态。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Sandbox now supports Devin Outposts - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-04",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-sandbox-now-supports-devin-outposts",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Sandbox now supports Devin Outposts - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Sandbox now supports Devin Outposts",
+        "url": "https://vercel.com/changelog/vercel-sandbox-now-supports-devin-outposts",
+        "fetched": true,
+        "savedAt": "2026-08-07T22:32:08.918Z"
+      }
+    },
+    {
       "id": "sig-f806378380",
       "title": "适用于 Blob 的 Vercel WAF 现已全面推出 - Vercel",
       "oneLiner": "Vercel WAF for Blob 现已全面上市，并支持所有计划的生产使用。如果您在测试期间保护了商店，则不会发生任何变化：您的规则和设置将完全保持原样。",
@@ -3128,7 +3762,7 @@
         "url": "https://cursor.com/changelog/google-workspace-plugins",
         "fetched": true,
         "savedAt": "2026-08-03T22:57:50.365Z",
-        "retranslatedAt": "2026-08-07T01:30:23.975Z"
+        "retranslatedAt": "2026-08-07T22:32:18.755Z"
       }
     },
     {
@@ -3372,6 +4006,164 @@
         "url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
         "fetched": true,
         "savedAt": "2026-08-04T23:00:50.154Z"
+      }
+    },
+    {
+      "id": "sig-975cd39dd0",
+      "title": "Factory 如何将 Vercel 上的云后端扩展到每月 10 亿个请求 |客户 |韦尔塞尔",
+      "oneLiner": "将链接复制到标题 Factory on Vercel 每天处理 10 亿个后端 API 请求",
+      "summary": {
+        "oneSentence": "将链接复制到标题 Factory on Vercel 每天处理 10 亿个后端 API 请求",
+        "bullets": [
+          "将链接复制到标题 Factory on Vercel 每天处理 10 亿个后端 API 请求",
+          "无需专门的基础设施团队即可扩展后端、内部工具和安全性",
+          "Factory 的使命是为软件开发生命周期的每个阶段（从信号到生产）带来自主性。不是要取代工程判断，而是将其周围的重复工作自动化，让工程师有更多时间专注于最重要的决策。为了提供这个企业级平台，Factory 在内部采用了他们理想的运营模式：通过部署 Droid 来管理日常工作负载，保持精益和敏捷，这样他们的工程师就可以",
+          "随着 Factory 从简单的 Web 应用程序扩展到多界面平台，为从个人开发人员到拥有数万名工程师的企业的所有人提供服务，他们的后端也随之扩展。如今，Vercel 上的单个 Next.js 后端为每个表面提供支持，每天处理 10 亿个跨 API 路由、中间件和 Webhook 处理程序的请求，而无需成为一个单独的工程"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：将链接复制到标题 Factory on Vercel 每天处理 10 亿个后端 API 请求",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/how-factory-scaled-its-cloud-backend-to-one-billion-monthly-requests-on-vercel"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "将链接复制到标题 Factory on Vercel 每天处理 10 亿个后端 API 请求",
+        "无需专门的基础设施团队即可扩展后端、内部工具和安全性",
+        "Factory 的使命是为软件开发生命周期的每个阶段（从信号到生产）带来自主性。不是要取代工程判断，而是将其周围的重复工作自动化，让工程师有更多时间专注于最重要的决策。为了提供这个企业级平台，Factory 在内部采用了他们理想的运营模式：通过部署 Droid 来管理日常工作负载，保持精益和敏捷，这样他们的工程师就可以专注于构建产品。",
+        "随着 Factory 从简单的 Web 应用程序扩展到多界面平台，为从个人开发人员到拥有数万名工程师的企业的所有人提供服务，他们的后端也随之扩展。如今，Vercel 上的单个 Next.js 后端为每个表面提供支持，每天处理 10 亿个跨 API 路由、中间件和 Webhook 处理程序的请求，而无需成为一个单独的工程项目。",
+        "将链接复制到标题 Next.js 作为云 SaaS 的全栈后端：大规模 API 路由、中间件和后端逻辑 大多数团队将 Next.js 视为前端框架。 Factory 在其上运行其整个云后端：",
+        "API 路由处理面向客户的 API，该 API 在 Next.js 应用程序的自己的部分中启动",
+        "中间件管理每个表面的身份验证和路由逻辑",
+        "Webhook 处理程序和日志排出管道与 Web 平台一起运行，为下游提供分析",
+        "随着 Factory 的快速发展，同一个后端吸收了每一个新的工作负载。这些都不需要建立单独的基础设施或做出新的供应商决定。唯一需要调整的区域是内存限制和函数持续时间。两者都顺利扩大规模。流畅的计算使函数在请求之间保持温暖，消除了冷启动损失，冷启动损失使传统的无服务器成为延迟敏感工作负载的负担。结果是 p95 响应时间为 350ms 或更低。",
+        "三年来，增长轨迹一直平稳，没有通常伴随的管理费用。"
+      ],
+      "highlights": [
+        "将链接复制到标题 Factory on Vercel 每天处理 10 亿个后端 API 请求",
+        "无需专门的基础设施团队即可扩展后端、内部工具和安全性",
+        "Factory 的使命是为软件开发生命周期的每个阶段（从信号到生产）带来自主性。不是要取代工程判断，而是将其周围的重复工作自动化，让工程师有更多时间专注于最重要"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How Factory scaled its cloud backend to one billion monthly requests on Vercel | Customers | Vercel",
+      "originalLang": "en",
+      "date": "2026-08-03",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/how-factory-scaled-its-cloud-backend-to-one-billion-monthly-requests-on-vercel",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How Factory scaled its cloud backend to one billion monthly requests on Vercel | Customers | Vercel"
+      },
+      "raw": {
+        "title": "How Factory scaled its cloud backend to one billion monthly requests on Vercel",
+        "url": "https://vercel.com/blog/how-factory-scaled-its-cloud-backend-to-one-billion-monthly-requests-on-vercel",
+        "fetched": true,
+        "savedAt": "2026-08-07T22:32:16.394Z"
+      }
+    },
+    {
+      "id": "sig-54e616a32e",
+      "title": "Circles 利用 OpenAI 技术推动电信个性化",
+      "oneLiner": "Circles 使用 OpenAI API 和 Codex 来增强 AI 原生电信体验，将 ARPU 提高 22%，减少客户流失率 9%，并提高开发效率。",
+      "summary": {
+        "oneSentence": "Circles 使用 OpenAI API 和 Codex 来增强 AI 原生电信体验，将 ARPU 提高 22%，减少客户流失率 9%，并提高开发效率。",
+        "bullets": [
+          "Circles 使用 OpenAI API 和 Codex 来增强 AI 原生电信体验，将 ARPU 提高 22%，减少客户流失率 9%，并提高开发效率。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：Circles 使用 OpenAI API 和 Codex 来增强 AI 原生电信体验，将 ARPU 提高 22%，减少客户流失率 9%，并提高开发效率。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/circles"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Circles 使用 OpenAI API 和 Codex 来增强 AI 原生电信体验，将 ARPU 提高 22%，减少客户流失率 9%，并提高开发效率。"
+      ],
+      "highlights": [
+        "Circles 使用 OpenAI API 和 Codex 来增强 AI 原生电信体验，将 ARPU 提高 22%，减少客户流失率 9%，并提高开发效率。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Circles powers telco personalization with OpenAI technology",
+      "originalLang": "en",
+      "date": "2026-08-03",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/circles",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Circles powers telco personalization with OpenAI technology"
+      },
+      "raw": {
+        "title": "Circles powers telco personalization with OpenAI technology",
+        "url": "https://openai.com/index/circles",
+        "fetched": false,
+        "savedAt": "2026-08-07T22:32:17.623Z"
       }
     },
     {
@@ -6335,7 +7127,7 @@
         "url": "https://cursor.com/changelog/ipad",
         "fetched": true,
         "savedAt": "2026-08-02T22:53:52.935Z",
-        "retranslatedAt": "2026-08-07T01:30:24.951Z"
+        "retranslatedAt": "2026-08-07T22:32:19.761Z"
       }
     },
     {
@@ -10436,7 +11228,7 @@
         "url": "https://cursor.com/changelog/slack-improvements",
         "fetched": true,
         "savedAt": "2026-07-27T07:34:20.673Z",
-        "retranslatedAt": "2026-08-07T01:30:25.950Z"
+        "retranslatedAt": "2026-08-07T22:32:20.805Z"
       }
     },
     {
