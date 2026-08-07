@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-05T22:57:14.098Z",
+  "updatedAt": "2026-08-07T01:30:26.752Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 134,
+  "itemCount": 144,
   "brief": {
-    "date": "2026-08-05",
-    "generatedAt": "2026-08-05T22:57:14.097Z",
-    "totalCount": 134,
-    "todayCount": 10,
-    "headline": "今日 AI 信号 10 条 · 档案共 134 条",
+    "date": "2026-08-07",
+    "generatedAt": "2026-08-07T01:30:26.751Z",
+    "totalCount": 144,
+    "todayCount": 0,
+    "headline": "今日 AI 信号 — 条 · 档案共 144 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -40,10 +40,10 @@
         "readMinutes": 5
       },
       {
-        "id": "sig-59626f6f22",
-        "title": "更好的代码，更少的代币：MCP 中 Code Connect 的优势 | Figma 博客",
+        "id": "sig-7fa201e30c",
+        "title": "WeatherNext：人工智能模型在预测气旋方面取得突破",
         "stars": 4,
-        "oneLiner": "当从设计到代码时，代理缺乏生产组件的上下文。通过 Figma 的 MCP 中的 Code Connect，他们可以获得该上下文。我们测量了它对令牌使用、任务持续时间和代码质量的影响。",
+        "oneLiner": "分享 复制的 WeatherNext 可实现准确的气旋预报，从而提供额外一天的警告。现在我们正在开源该模型。",
         "readMinutes": 5
       }
     ],
@@ -53,8 +53,8 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "sig-59626f6f22",
-        "sig-f50fcbc451"
+        "sig-7fa201e30c",
+        "sig-0f0c1961f9"
       ],
       "newReleases": [
         "sig-468f50ae5e",
@@ -67,10 +67,10 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "sig-59626f6f22",
-        "sig-f50fcbc451",
-        "sig-44e98341b2",
-        "sig-f135e53828"
+        "sig-7fa201e30c",
+        "sig-0f0c1961f9",
+        "sig-6da5f2d271",
+        "sig-fea9ae47eb"
       ],
       "emergingTrends": [
         "cur-openai-agentkit",
@@ -111,8 +111,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-08-05T22:57:14.098Z",
-    "summary": "近 30 天共 134 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-08-07T01:30:26.752Z",
+    "summary": "近 30 天共 144 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Agent",
@@ -188,6 +188,54 @@
     ]
   },
   "productUpdates": [
+    {
+      "id": "sig-7fa201e30c",
+      "title": "WeatherNext：人工智能模型在预测气旋方面取得突破",
+      "oneLiner": "分享 复制的 WeatherNext 可实现准确的气旋预报，从而提供额外一天的警告。现在我们正在开源该模型。",
+      "date": "2026-08-06",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google DeepMind",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-0f0c1961f9",
+      "title": "改进 ChatGPT 中的 GPT-5.6 Sol，并扩大免费用户对 GPT-5.6 Luna 的访问",
+      "oneLiner": "ChatGPT 引入了改进的 GPT-5.6 Sol，具有更好的准确性和一致性，此外还扩大了免费用户的访问范围，并与 GPT-5.6 Luna 进行无限制的日常聊天。",
+      "date": "2026-08-06",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-6da5f2d271",
+      "title": "与美国心理学会合作研究青少年心理健康和人工智能",
+      "oneLiner": "OpenAI 和美国心理学会为负责任的人工智能使用和青少年心理健康推进循证指导、资源和保障措施。",
+      "date": "2026-08-06",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-fea9ae47eb",
+      "title": "从要求到行动：世界如何让 ChatGPT 发挥作用",
+      "oneLiner": "新的 OpenAI Signals 数据显示了世界各地人们如何使用 ChatGPT，并提供了有关采用情况、使用趋势和不断变化的行为的国家级见解。",
+      "date": "2026-08-06",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
     {
       "id": "sig-977f60f7e5",
       "title": "涉及 OpenAI 模型的第三方网络评估",
@@ -431,65 +479,727 @@
         "Release"
       ],
       "stars": 4
-    },
-    {
-      "id": "sig-df22037e3e",
-      "title": "代理人工智能时代的科学计算",
-      "oneLiner": "一份新的现场报告展示了科学家如何使用人工智能编码代理实现科学计算现代化，加速基因组学及其他领域的软件开发和发现。",
-      "date": "2026-07-28",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-be3ca53745",
-      "title": "Gemini API 托管代理：3.6 Flash、挂钩等",
-      "oneLiner": "Gemini API 中的托管代理现在默认为 Gemini 3.6 Flash。新的环境挂钩允许您阻止、检查或审核沙箱内的工具调用。此外，我们还添加了预算控制、计划触发器和免费套餐访问。",
-      "date": "2026-07-28",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google AI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "cur-openai-agentkit",
-      "title": "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排",
-      "oneLiner": "OpenAI 继续把「对话模型」升级为「可调用工具的 Agent 运行时」。",
-      "date": "2026-07-26",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [
-        "Agent",
-        "API",
-        "Workflow"
-      ],
-      "stars": 5
-    },
-    {
-      "id": "cur-anthropic-mcp",
-      "title": "Anthropic 推动 MCP：让 Agent 统一连接外部工具与数据源",
-      "oneLiner": "MCP 正在成为 AI 工具互操作的「USB-C 标准」候选。",
-      "date": "2026-07-25",
-      "productIds": [
-        "claude"
-      ],
-      "source": "Anthropic",
-      "tags": [
-        "MCP",
-        "Agent",
-        "API"
-      ],
-      "stars": 5
     }
   ],
   "items": [
+    {
+      "id": "sig-7fa201e30c",
+      "title": "WeatherNext：人工智能模型在预测气旋方面取得突破",
+      "oneLiner": "分享 复制的 WeatherNext 可实现准确的气旋预报，从而提供额外一天的警告。现在我们正在开源该模型。",
+      "summary": {
+        "oneSentence": "分享 复制的 WeatherNext 可实现准确的气旋预报，从而提供额外一天的警告。现在我们正在开源该模型。",
+        "bullets": [
+          "分享 复制的 WeatherNext 可实现准确的气旋预报，从而提供额外一天的警告。现在我们正在开源该模型。",
+          "预测气旋的危险程度是一项长期挑战，每一个小时都至关重要。热带气旋（也称为飓风或台风）是地球上最具破坏性的天气现象之一，在过去 50 年中造成全球超过 70 万人死亡和 1.4 万亿美元的经济损失。对于预报员来说，及时、准确地发出预警就是一场与时间的持续赛跑。",
+          "今天，在《自然》杂志上发表的一篇论文中，我们展示了我们的 WeatherNext AI 模型在预测气旋路径、强度和风结构方面达到了最先进的精度。平均而言，我们的模型为预测者提供了额外一天的预测准确性：我们对三天的预测与之前的模型只能在接下来的两天提供的预测一样好。这种改进规模大致相当于十年的气象进步。",
+          "这项合作工作汇集了 Google DeepMind 和 Google Research 的人工智能研究人员和工程师，以及国家飓风中心 (NHC)、大气合作研究所 (CIRA)、英国气象局和世界各地气象机构的专家预报员。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google DeepMind 官网发布：分享 复制的 WeatherNext 可实现准确的气旋预报，从而提供额外一天的警告。现在我们正在开源该模型。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "分享 复制的 WeatherNext 可实现准确的气旋预报，从而提供额外一天的警告。现在我们正在开源该模型。",
+        "预测气旋的危险程度是一项长期挑战，每一个小时都至关重要。热带气旋（也称为飓风或台风）是地球上最具破坏性的天气现象之一，在过去 50 年中造成全球超过 70 万人死亡和 1.4 万亿美元的经济损失。对于预报员来说，及时、准确地发出预警就是一场与时间的持续赛跑。",
+        "今天，在《自然》杂志上发表的一篇论文中，我们展示了我们的 WeatherNext AI 模型在预测气旋路径、强度和风结构方面达到了最先进的精度。平均而言，我们的模型为预测者提供了额外一天的预测准确性：我们对三天的预测与之前的模型只能在接下来的两天提供的预测一样好。这种改进规模大致相当于十年的气象进步。",
+        "这项合作工作汇集了 Google DeepMind 和 Google Research 的人工智能研究人员和工程师，以及国家飓风中心 (NHC)、大气合作研究所 (CIRA)、英国气象局和世界各地气象机构的专家预报员。",
+        "我们的研究已经对现实世界产生了影响。在 2025 年飓风季节，我们的模型通过预测风暴的快速增强和登陆牙买加，帮助 NHC 对飓风梅丽莎做出了历史性预测。这使得 NHC 能够发出提前警告，为现场团队提供了关键的准备时间。今年，我们继续合作，目前正在预测每个气旋的 1,000 种可能情景，以帮助支持预报员的决策。",
+        "天气影响着每个人。鉴于这种广泛的影响，我们现在开源飓风季节期间使用的 WeatherNext 2 和 WeatherNext Cyclones 模型。通过公开这项技术，我们希望增强研究社区的能力，并扩大人工智能在建设更具复原力的社区方面的影响——无论是为当地预报员提供应对自然灾害所需的工具、支持可再生能源的增长，还是预测极端天气。",
+        "从飓风米尔顿（2024 年 10 月）期间的全球大气状况开始，WeatherNext Cyclone 可提前 15 天迭代预测全球天气模式和细尺度气旋路径。运行一个由 1,000 名成员组成的集合可以生成热带风暴到飓风级风力的局部概率图。",
+        "预测气旋通常会迫使需要两种不同的建模技术进行权衡。气旋的轨迹（它所去的地方）是由巨大的全球大气流引导的，而在此之前，最好是通过更粗糙的全球模型来模拟。然而，气旋的强度（它的强度）是由其核心周围高度局部化、精细尺度的热力学物理过程驱动的，这些过程最好通过专门的、更高分辨率的局部模型来模拟。",
+        "我们的 WeatherNext 模型通过改进对全球天气整体以及气旋的预测来弥补这一差距。它是一个单一的人工智能模型，可以以最先进的精度预测热带气旋的路径、强度和风结构。它通过训练、架构和低分辨率输入方法的独特组合实现了这一突破。",
+        "我们根据 2023 年至 2024 年的历史气旋评估了 WeatherNext Cyclones，将其确定性和概率性能与其他顶级天气模型进行了基准测试。平均而言，WeatherNext Cyclone 在预测气旋路径、强度和风力结构方面获得超过一整天（24 小时）的提前时间优势。"
+      ],
+      "highlights": [
+        "分享 复制的 WeatherNext 可实现准确的气旋预报，从而提供额外一天的警告。现在我们正在开源该模型。",
+        "预测气旋的危险程度是一项长期挑战，每一个小时都至关重要。热带气旋（也称为飓风或台风）是地球上最具破坏性的天气现象之一，在过去 50 年中造成全球超过 70 万人",
+        "今天，在《自然》杂志上发表的一篇论文中，我们展示了我们的 WeatherNext AI 模型在预测气旋路径、强度和风结构方面达到了最先进的精度。平均而言，我们的"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+      "originalLang": "en",
+      "date": "2026-08-06",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google DeepMind",
+        "author": "DeepMind",
+        "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+        "home": "https://deepmind.google/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "WeatherNext: AI model achieves breakthrough in forecasting cyclones"
+      },
+      "raw": {
+        "title": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+        "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+        "fetched": true,
+        "savedAt": "2026-08-07T01:29:44.320Z"
+      }
+    },
+    {
+      "id": "sig-0f0c1961f9",
+      "title": "改进 ChatGPT 中的 GPT-5.6 Sol，并扩大免费用户对 GPT-5.6 Luna 的访问",
+      "oneLiner": "ChatGPT 引入了改进的 GPT-5.6 Sol，具有更好的准确性和一致性，此外还扩大了免费用户的访问范围，并与 GPT-5.6 Luna 进行无限制的日常聊天。",
+      "summary": {
+        "oneSentence": "ChatGPT 引入了改进的 GPT-5.6 Sol，具有更好的准确性和一致性，此外还扩大了免费用户的访问范围，并与 GPT-5.6 Luna 进行无限制的日常聊天。",
+        "bullets": [
+          "ChatGPT 引入了改进的 GPT-5.6 Sol，具有更好的准确性和一致性，此外还扩大了免费用户的访问范围，并与 GPT-5.6 Luna 进行无限制的日常聊天。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：ChatGPT 引入了改进的 GPT-5.6 Sol，具有更好的准确性和一致性，此外还扩大了免费用户的访问范围，并与 GPT-5.6 Luna 进行无限制的日常聊天。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "ChatGPT 引入了改进的 GPT-5.6 Sol，具有更好的准确性和一致性，此外还扩大了免费用户的访问范围，并与 GPT-5.6 Luna 进行无限制的日常聊天。"
+      ],
+      "highlights": [
+        "ChatGPT 引入了改进的 GPT-5.6 Sol，具有更好的准确性和一致性，此外还扩大了免费用户的访问范围，并与 GPT-5.6 Luna 进行无限制的日常"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+      "originalLang": "en",
+      "date": "2026-08-06",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users"
+      },
+      "raw": {
+        "title": "Improving GPT‑5.6 Sol in ChatGPT—and expanding access to GPT-5.6 Luna for free users",
+        "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt",
+        "fetched": false,
+        "savedAt": "2026-08-07T01:29:45.573Z"
+      }
+    },
+    {
+      "id": "sig-6da5f2d271",
+      "title": "与美国心理学会合作研究青少年心理健康和人工智能",
+      "oneLiner": "OpenAI 和美国心理学会为负责任的人工智能使用和青少年心理健康推进循证指导、资源和保障措施。",
+      "summary": {
+        "oneSentence": "OpenAI 和美国心理学会为负责任的人工智能使用和青少年心理健康推进循证指导、资源和保障措施。",
+        "bullets": [
+          "OpenAI 和美国心理学会为负责任的人工智能使用和青少年心理健康推进循证指导、资源和保障措施。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 和美国心理学会为负责任的人工智能使用和青少年心理健康推进循证指导、资源和保障措施。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 和美国心理学会为负责任的人工智能使用和青少年心理健康推进循证指导、资源和保障措施。"
+      ],
+      "highlights": [
+        "OpenAI 和美国心理学会为负责任的人工智能使用和青少年心理健康推进循证指导、资源和保障措施。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Working with the American Psychological Association on youth mental health and AI",
+      "originalLang": "en",
+      "date": "2026-08-06",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Working with the American Psychological Association on youth mental health and AI"
+      },
+      "raw": {
+        "title": "Working with the American Psychological Association on youth mental health and AI",
+        "url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai",
+        "fetched": false,
+        "savedAt": "2026-08-07T01:29:46.806Z"
+      }
+    },
+    {
+      "id": "sig-fea9ae47eb",
+      "title": "从要求到行动：世界如何让 ChatGPT 发挥作用",
+      "oneLiner": "新的 OpenAI Signals 数据显示了世界各地人们如何使用 ChatGPT，并提供了有关采用情况、使用趋势和不断变化的行为的国家级见解。",
+      "summary": {
+        "oneSentence": "新的 OpenAI Signals 数据显示了世界各地人们如何使用 ChatGPT，并提供了有关采用情况、使用趋势和不断变化的行为的国家级见解。",
+        "bullets": [
+          "新的 OpenAI Signals 数据显示了世界各地人们如何使用 ChatGPT，并提供了有关采用情况、使用趋势和不断变化的行为的国家级见解。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：新的 OpenAI Signals 数据显示了世界各地人们如何使用 ChatGPT，并提供了有关采用情况、使用趋势和不断变化的行为的国家级见解。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/how-the-world-is-putting-chatgpt-to-work"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "新的 OpenAI Signals 数据显示了世界各地人们如何使用 ChatGPT，并提供了有关采用情况、使用趋势和不断变化的行为的国家级见解。"
+      ],
+      "highlights": [
+        "新的 OpenAI Signals 数据显示了世界各地人们如何使用 ChatGPT，并提供了有关采用情况、使用趋势和不断变化的行为的国家级见解。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "From asking to doing: How the world is putting ChatGPT to work",
+      "originalLang": "en",
+      "date": "2026-08-06",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "From asking to doing: How the world is putting ChatGPT to work"
+      },
+      "raw": {
+        "title": "From asking to doing: How the world is putting ChatGPT to work",
+        "url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work",
+        "fetched": false,
+        "savedAt": "2026-08-07T01:29:48.058Z"
+      }
+    },
+    {
+      "id": "sig-755f03fda7",
+      "title": "代理插件简介",
+      "oneLiner": "将代理技能和 MCP 服务器打包到可分发插件中的通用格式",
+      "summary": {
+        "oneSentence": "将代理技能和 MCP 服务器打包到可分发插件中的通用格式",
+        "bullets": [
+          "将代理技能和 MCP 服务器打包到可分发插件中的通用格式",
+          "今天，代理插件 1.0.0 已公开发布。代理插件是一个开放的、供应商中立的标准，适用于扩展人工智能代理的插件。",
+          "代理技能为人工智能代理提供可重用的指令和资源。 MCP 服务器将代理连接到工具和服务。两者都可以在客户端之间重用，但客户端通常会以不同的方式打包和发现它们。",
+          "代理插件为兼容的客户端提供了一种通用格式：带有plugin.json 清单及其组件固定位置的目录。该格式有意设计得较小且易于实施，并将安装、分发、策略、用户体验和特定于客户端的功能留给每个客户端。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：将代理技能和 MCP 服务器打包到可分发插件中的通用格式",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/introducing-agent-plugins"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "将代理技能和 MCP 服务器打包到可分发插件中的通用格式",
+        "今天，代理插件 1.0.0 已公开发布。代理插件是一个开放的、供应商中立的标准，适用于扩展人工智能代理的插件。",
+        "代理技能为人工智能代理提供可重用的指令和资源。 MCP 服务器将代理连接到工具和服务。两者都可以在客户端之间重用，但客户端通常会以不同的方式打包和发现它们。",
+        "代理插件为兼容的客户端提供了一种通用格式：带有plugin.json 清单及其组件固定位置的目录。该格式有意设计得较小且易于实施，并将安装、分发、策略、用户体验和特定于客户端的功能留给每个客户端。",
+        "将链接复制到标题 便携式部件的一个包 扩展作者经常将同一组件改编为多种客户端格式。尽管底层 Skill 或 MCP 服务器相同，但客户端通常期望不同的顶级元数据、发现路径或 MCP 配置。",
+        "代理插件为这些共享组件提供了一个可预测的结构化主页：",
+        "my-plugin/ ├──plugin.json ├──技能/ │ └──汇总/ │ ├── SKILL.md │ ├── 脚本/ │ └── 引用/ ├── mcp.json └── com.example.client/",
+        "最小的 JSON 清单 (plugin.json) 标识规范版本并命名插件：",
+        "plugin.json 1 { 2 \"$schema\" : \"https://agent-plugins.org/schemas/1.0.0/plugin.schema.json\" , 3 \"名称\" : \"my-plugin\" 4 }",
+        "这两个字段是清单的最低要求，合同的其余部分在目录本身的文件结构中表示。可重用组件不需要为每个客户端重新打包，因此格式仅指定客户端需要发现和加载内部内容的内容。"
+      ],
+      "highlights": [
+        "将代理技能和 MCP 服务器打包到可分发插件中的通用格式",
+        "今天，代理插件 1.0.0 已公开发布。代理插件是一个开放的、供应商中立的标准，适用于扩展人工智能代理的插件。",
+        "代理技能为人工智能代理提供可重用的指令和资源。 MCP 服务器将代理连接到工具和服务。两者都可以在客户端之间重用，但客户端通常会以不同的方式打包和发现它们。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Introducing Agent Plugins",
+      "originalLang": "en",
+      "date": "2026-08-06",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/introducing-agent-plugins",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Introducing Agent Plugins"
+      },
+      "raw": {
+        "title": "Introducing Agent Plugins",
+        "url": "https://vercel.com/blog/introducing-agent-plugins",
+        "fetched": true,
+        "savedAt": "2026-08-07T01:29:55.629Z"
+      }
+    },
+    {
+      "id": "sig-7557f116db",
+      "title": "市场集成现在安装提供商技能 - Vercel",
+      "oneLiner": "当您从 Vercel CLI 安装 Vercel Marketplace 集成时，它现在还会从 Skills.sh 安装该提供商的代理技能，以便您的代理知道如何使用它：",
+      "summary": {
+        "oneSentence": "当您从 Vercel CLI 安装 Vercel Marketplace 集成时，它现在还会从 Skills.sh 安装该提供商的代理技能，以便您的代理知道如何使用它：",
+        "bullets": [
+          "当您从 Vercel CLI 安装 Vercel Marketplace 集成时，它现在还会从 Skills.sh 安装该提供商的代理技能，以便您的代理知道如何使用它：",
+          "vercel Integration add neon 一步配置 Neon 集成并安装其代理技能。",
+          "对于任何发布技能的提供商来说，这种情况都会自动发生。",
+          "您还可以在不离开终端的情况下找到集成："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：当您从 Vercel CLI 安装 Vercel Marketplace 集成时，它现在还会从 Skills.sh 安装该提供商的代理技能，以便您的代理知道如何使用它：",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-marketplace-agent-skills"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "当您从 Vercel CLI 安装 Vercel Marketplace 集成时，它现在还会从 Skills.sh 安装该提供商的代理技能，以便您的代理知道如何使用它：",
+        "vercel Integration add neon 一步配置 Neon 集成并安装其代理技能。",
+        "对于任何发布技能的提供商来说，这种情况都会自动发生。",
+        "您还可以在不离开终端的情况下找到集成：",
+        "vercel 集成发现浏览可用的提供商。",
+        "vercel 集成类别列出了它们分组的所有 Marketplace 类别，例如数据库、AI 和可观察性。",
+        "使用 npm i -g vercel@latest 更新到最新的 Vercel CLI，然后阅读集成文档以开始使用。",
+        "迈克尔·托特、赫迪·赞迪、乔·萨多斯基、本·萨比克"
+      ],
+      "highlights": [
+        "当您从 Vercel CLI 安装 Vercel Marketplace 集成时，它现在还会从 Skills.sh 安装该提供商的代理技能，以便您的代理知道如何",
+        "vercel Integration add neon 一步配置 Neon 集成并安装其代理技能。",
+        "对于任何发布技能的提供商来说，这种情况都会自动发生。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Marketplace integrations now install provider skills - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-06",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-marketplace-agent-skills",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Marketplace integrations now install provider skills - Vercel"
+      },
+      "raw": {
+        "title": "Marketplace integrations now install provider skills",
+        "url": "https://vercel.com/changelog/vercel-marketplace-agent-skills",
+        "fetched": true,
+        "savedAt": "2026-08-07T01:30:01.380Z"
+      }
+    },
+    {
+      "id": "sig-bae492d3db",
+      "title": "Ling 3.0 Tiny 现已在 AI Gateway 上可用 - Vercel",
+      "oneLiner": "ANT Group 的 Ling 3.0 Tiny 现已登陆 AI Gateway，免费使用至太平洋时间 8 月 14 日上午 8:00。 Ling 3.0 Tiny 抢走了Ling 3.0 Flash 的空闲插槽。",
+      "summary": {
+        "oneSentence": "ANT Group 的 Ling 3.0 Tiny 现已登陆 AI Gateway，免费使用至太平洋时间 8 月 14 日上午 8:00。 Ling 3.0 Tiny 抢走了Ling 3.0 Flash 的空闲插槽。",
+        "bullets": [
+          "ANT Group 的 Ling 3.0 Tiny 现已登陆 AI Gateway，免费使用至太平洋时间 8 月 14 日上午 8:00。 Ling 3.0 Tiny 抢走了Ling 3.0 Flash 的空闲插槽。",
+          "Ling 3.0 Tiny 是一个 MOE 模型，总参数为 7.9B，每个 token 约 1.3B active，256K token 上下文窗口，最多 32K 输出 token。该模型是为响应式代理、指令遵循和多轮对话而构建的，具有本机函数调用和提示缓存。",
+          "如需使用Ling 3.0 Tiny，请在AI SDK中将模型设置为inclusionai/ling-3.0-tiny-free。 8 月 14 日，新型号名称将为 Includeai/ling-3.0-tiny 。",
+          "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText ({ 4 model : 'inclusionai/ling-3.0-tiny-free' , 5prompt : '总结此帖子并起草回复。' , 6 } ) ;"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：ANT Group 的 Ling 3.0 Tiny 现已登陆 AI Gateway，免费使用至太平洋时间 8 月 14 日上午 8:00。 Ling 3.0 Tiny 抢走了Ling 3.0 Flash 的空闲插槽。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/ling-3-0-tiny-is-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "ANT Group 的 Ling 3.0 Tiny 现已登陆 AI Gateway，免费使用至太平洋时间 8 月 14 日上午 8:00。 Ling 3.0 Tiny 抢走了Ling 3.0 Flash 的空闲插槽。",
+        "Ling 3.0 Tiny 是一个 MOE 模型，总参数为 7.9B，每个 token 约 1.3B active，256K token 上下文窗口，最多 32K 输出 token。该模型是为响应式代理、指令遵循和多轮对话而构建的，具有本机函数调用和提示缓存。",
+        "如需使用Ling 3.0 Tiny，请在AI SDK中将模型设置为inclusionai/ling-3.0-tiny-free。 8 月 14 日，新型号名称将为 Includeai/ling-3.0-tiny 。",
+        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText ({ 4 model : 'inclusionai/ling-3.0-tiny-free' , 5prompt : '总结此帖子并起草回复。' , 6 } ) ;",
+        "在模型游乐场尝试 Ling 3.0 Tiny。",
+        "要在编码代理中使用它，请运行 vercel ai-gatewaycoding-agents setup 并在代理内选择clusionai/ling-3.0-tiny-free。",
+        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本，以及配置重试、故障转移和性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、零数据保留支持、API 密钥预算、路由规则等。",
+        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。"
+      ],
+      "highlights": [
+        "ANT Group 的 Ling 3.0 Tiny 现已登陆 AI Gateway，免费使用至太平洋时间 8 月 14 日上午 8:00。 Ling 3.0 T",
+        "Ling 3.0 Tiny 是一个 MOE 模型，总参数为 7.9B，每个 token 约 1.3B active，256K token 上下文窗口，最多 32",
+        "如需使用Ling 3.0 Tiny，请在AI SDK中将模型设置为inclusionai/ling-3.0-tiny-free。 8 月 14 日，新型号名称将"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Ling 3.0 Tiny is now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-06",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/ling-3-0-tiny-is-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Ling 3.0 Tiny is now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Ling 3.0 Tiny is now available on AI Gateway",
+        "url": "https://vercel.com/changelog/ling-3-0-tiny-is-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-08-07T01:30:07.347Z"
+      }
+    },
+    {
+      "id": "sig-f9712fa7d6",
+      "title": "介绍代理插件 1.0.0 - Vercel",
+      "oneLiner": "代理插件 1.0.0 现已推出。它是一个开放的、供应商中立的标准，用于将代理技能和 MCP 服务器打包到便携式插件中。兼容的代理客户端可以发现并加载它们。",
+      "summary": {
+        "oneSentence": "代理插件 1.0.0 现已推出。它是一个开放的、供应商中立的标准，用于将代理技能和 MCP 服务器打包到便携式插件中。兼容的代理客户端可以发现并加载它们。",
+        "bullets": [
+          "代理插件 1.0.0 现已推出。它是一个开放的、供应商中立的标准，用于将代理技能和 MCP 服务器打包到便携式插件中。兼容的代理客户端可以发现并加载它们。",
+          "代理插件定义了一种通用格式：根plugin.json清单，以及可移植组件的固定位置。每个客户端都可以控制安装、分发、策略、用户体验和特定于客户端的功能。",
+          "启动时，以下客户端支持代理插件：",
+          "阅读规范和实施指南，在公告帖子中了解更多信息，并按照我们的指南在新标准上构建插件。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：代理插件 1.0.0 现已推出。它是一个开放的、供应商中立的标准，用于将代理技能和 MCP 服务器打包到便携式插件中。兼容的代理客户端可以发现并加载它们。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/introducing-agent-plugins-1-0-0"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "代理插件 1.0.0 现已推出。它是一个开放的、供应商中立的标准，用于将代理技能和 MCP 服务器打包到便携式插件中。兼容的代理客户端可以发现并加载它们。",
+        "代理插件定义了一种通用格式：根plugin.json清单，以及可移植组件的固定位置。每个客户端都可以控制安装、分发、策略、用户体验和特定于客户端的功能。",
+        "启动时，以下客户端支持代理插件：",
+        "阅读规范和实施指南，在公告帖子中了解更多信息，并按照我们的指南在新标准上构建插件。"
+      ],
+      "highlights": [
+        "代理插件 1.0.0 现已推出。它是一个开放的、供应商中立的标准，用于将代理技能和 MCP 服务器打包到便携式插件中。兼容的代理客户端可以发现并加载它们。",
+        "代理插件定义了一种通用格式：根plugin.json清单，以及可移植组件的固定位置。每个客户端都可以控制安装、分发、策略、用户体验和特定于客户端的功能。",
+        "启动时，以下客户端支持代理插件："
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Introducing Agent Plugins 1.0.0 - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-06",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/introducing-agent-plugins-1-0-0",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Introducing Agent Plugins 1.0.0 - Vercel"
+      },
+      "raw": {
+        "title": "Introducing Agent Plugins 1.0.0",
+        "url": "https://vercel.com/changelog/introducing-agent-plugins-1-0-0",
+        "fetched": true,
+        "savedAt": "2026-08-07T01:30:11.282Z"
+      }
+    },
+    {
+      "id": "sig-2dd1524bd8",
+      "title": "使用 Chat SDK 暂停工作流程以进行批准 - Vercel",
+      "oneLiner": "您可以通过新的聊天/工作流子路径使用聊天 SDK 构建人机交互批准。一次 requestApproval 调用会发布一张带有“批准”和“拒绝”按钮的卡片，并暂停 Workflow SDK 工作流程，直到有人做出决定。",
+      "summary": {
+        "oneSentence": "您可以通过新的聊天/工作流子路径使用聊天 SDK 构建人机交互批准。一次 requestApproval 调用会发布一张带有“批准”和“拒绝”按钮的卡片，并暂停 Workflow SDK 工作流程，直到有人做出决定。",
+        "bullets": [
+          "您可以通过新的聊天/工作流子路径使用聊天 SDK 构建人机交互批准。一次 requestApproval 调用会发布一张带有“批准”和“拒绝”按钮的卡片，并暂停 Workflow SDK 工作流程，直到有人做出决定。",
+          "等待可能会持续几秒钟或几天，并且在部署和重新启动后仍然存在。您不需要批准表、onAction 处理程序或轮询循环：",
+          "lib/bot.ts 1 从“聊天/工作流程”导入 { requestApproval } ； 2 从“聊天”导入类型{Thread}； 3 4 导出异步函数deployApproval ( opts : { thread : Thread ; version : string } ) { 5 \"使用工作流程\" ; 6",
+          "从任何处理程序启动工作流，线程实例会自动跨工作流边界进行序列化。该卡处理其余的事情："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：您可以通过新的聊天/工作流子路径使用聊天 SDK 构建人机交互批准。一次 requestApproval 调用会发布一张带有“批准”和“拒绝”按钮的卡片，并暂停 Workflow SDK 工作流程，直到有人做出决定。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/chat-sdk-durable-approvals"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "您可以通过新的聊天/工作流子路径使用聊天 SDK 构建人机交互批准。一次 requestApproval 调用会发布一张带有“批准”和“拒绝”按钮的卡片，并暂停 Workflow SDK 工作流程，直到有人做出决定。",
+        "等待可能会持续几秒钟或几天，并且在部署和重新启动后仍然存在。您不需要批准表、onAction 处理程序或轮询循环：",
+        "lib/bot.ts 1 从“聊天/工作流程”导入 { requestApproval } ； 2 从“聊天”导入类型{Thread}； 3 4 导出异步函数deployApproval ( opts : { thread : Thread ; version : string } ) { 5 \"使用工作流程\" ; 6 7 const {approved,user,timedOut}=awaitrequestApproval(opts.thread,{8标题:`部署网站?`,9个字段:{版本:opts.version},10超时:\"24h\",11}); 12 13 if（已批准）{ 14 等待部署（选择版本）； 15 } 16 } 发送卡片以请求批准部署",
+        "从任何处理程序启动工作流，线程实例会自动跨工作流边界进行序列化。该卡处理其余的事情：",
+        "范围批准者：传递批准者以限制谁可以做出决定。其他人的点击会发布通知，工作流程会一直等待。",
+        "经过验证的决策：Chat SDK 会在每次点击时检查平台的签名，因此结果中的 user.id 就是决策者。",
+        "审核跟踪：一旦做出决定或超时，卡片就会在适当的位置进行编辑，并显示结果行，以防止出现过时的点击。",
+        "首先阅读批准文档。"
+      ],
+      "highlights": [
+        "您可以通过新的聊天/工作流子路径使用聊天 SDK 构建人机交互批准。一次 requestApproval 调用会发布一张带有“批准”和“拒绝”按钮的卡片，并暂停",
+        "等待可能会持续几秒钟或几天，并且在部署和重新启动后仍然存在。您不需要批准表、onAction 处理程序或轮询循环：",
+        "lib/bot.ts 1 从“聊天/工作流程”导入 { requestApproval } ； 2 从“聊天”导入类型{Thread}； 3 4 导出异步函数d"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Pause workflows for approval with Chat SDK - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-06",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/chat-sdk-durable-approvals",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Pause workflows for approval with Chat SDK - Vercel"
+      },
+      "raw": {
+        "title": "Pause workflows for approval with Chat SDK",
+        "url": "https://vercel.com/changelog/chat-sdk-durable-approvals",
+        "fetched": true,
+        "savedAt": "2026-08-07T01:30:17.372Z"
+      }
+    },
     {
       "id": "sig-59626f6f22",
       "title": "更好的代码，更少的代币：MCP 中 Code Connect 的优势 | Figma 博客",
@@ -1293,6 +2003,87 @@
         "url": "https://vercel.com/changelog/full-sandbox-egress-firewall-now-available-on-hobby-plan",
         "fetched": true,
         "savedAt": "2026-08-05T22:56:53.193Z"
+      }
+    },
+    {
+      "id": "sig-1ff8acc348",
+      "title": "使用 Vercel Drains 导出 AI Gateway 跟踪 - Vercel",
+      "oneLiner": "AI Gateway 现在为每个请求生成 OpenTelemetry 跟踪。专业团队和企业团队可以通过 Vercel Drains 将这些跟踪发送到任何 OTLP/HTTP 兼容端点，包括 Braintrust、Dash0、Kubiks、S",
+      "summary": {
+        "oneSentence": "AI Gateway 现在为每个请求生成 OpenTelemetry 跟踪。专业团队和企业团队可以通过 Vercel Drains 将这些跟踪发送到任何 OTLP/HTTP 兼容端点，包括 Braintrust、Dash0、Kubiks、S",
+        "bullets": [
+          "AI Gateway 现在为每个请求生成 OpenTelemetry 跟踪。专业团队和企业团队可以通过 Vercel Drains 将这些跟踪发送到任何 OTLP/HTTP 兼容端点，包括 Braintrust、Dash0、Kubiks、Sentry 和 Statsig 的本机集成。",
+          "每个跟踪都显示完整的请求生命周期，包括：",
+          "第一个令牌的时间、请求持续时间和响应状态",
+          "项目、部署、API 密钥、环境和自定义标签归属"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：AI Gateway 现在为每个请求生成 OpenTelemetry 跟踪。专业团队和企业团队可以通过 Vercel Drains 将这些跟踪发送到任何 OTLP/HTTP 兼容端点，包括 Braintrust、Dash0、Kubiks、S",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/export-ai-gateway-traces-with-vercel-drains"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "AI Gateway 现在为每个请求生成 OpenTelemetry 跟踪。专业团队和企业团队可以通过 Vercel Drains 将这些跟踪发送到任何 OTLP/HTTP 兼容端点，包括 Braintrust、Dash0、Kubiks、Sentry 和 Statsig 的本机集成。",
+        "每个跟踪都显示完整的请求生命周期，包括：",
+        "第一个令牌的时间、请求持续时间和响应状态",
+        "项目、部署、API 密钥、环境和自定义标签归属",
+        "Trace Drains 不包含提示或完成内容。采样控制允许您选择导出到每个排水沟的流量量。",
+        "AI Gateway 跟踪的成本为每 1,000 条跟踪传送到每个 Drain 的成本为 0.05 美元，加上标准 Drains 费率为每 GB 传输数据 0.50 美元。即使 AI Gateway 进行了多次提供商尝试，每次成功的引流传输都会对请求计数一次。失败的递送不会产生追踪费用。",
+        "从团队的 Drain 设置中设置 Trace Drain，或在 AI Gateway 文档中了解更多信息。"
+      ],
+      "highlights": [
+        "AI Gateway 现在为每个请求生成 OpenTelemetry 跟踪。专业团队和企业团队可以通过 Vercel Drains 将这些跟踪发送到任何 OTL",
+        "每个跟踪都显示完整的请求生命周期，包括：",
+        "第一个令牌的时间、请求持续时间和响应状态"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Export AI Gateway traces with Vercel Drains - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-05",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/export-ai-gateway-traces-with-vercel-drains",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Export AI Gateway traces with Vercel Drains - Vercel"
+      },
+      "raw": {
+        "title": "Export AI Gateway traces with Vercel Drains",
+        "url": "https://vercel.com/changelog/export-ai-gateway-traces-with-vercel-drains",
+        "fetched": true,
+        "savedAt": "2026-08-07T01:30:23.014Z"
       }
     },
     {
@@ -2337,7 +3128,7 @@
         "url": "https://cursor.com/changelog/google-workspace-plugins",
         "fetched": true,
         "savedAt": "2026-08-03T22:57:50.365Z",
-        "retranslatedAt": "2026-08-05T22:57:11.122Z"
+        "retranslatedAt": "2026-08-07T01:30:23.975Z"
       }
     },
     {
@@ -5544,7 +6335,7 @@
         "url": "https://cursor.com/changelog/ipad",
         "fetched": true,
         "savedAt": "2026-08-02T22:53:52.935Z",
-        "retranslatedAt": "2026-08-05T22:57:12.215Z"
+        "retranslatedAt": "2026-08-07T01:30:24.951Z"
       }
     },
     {
@@ -9645,7 +10436,7 @@
         "url": "https://cursor.com/changelog/slack-improvements",
         "fetched": true,
         "savedAt": "2026-07-27T07:34:20.673Z",
-        "retranslatedAt": "2026-08-05T22:57:13.293Z"
+        "retranslatedAt": "2026-08-07T01:30:25.950Z"
       }
     },
     {
