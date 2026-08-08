@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-07T22:32:21.607Z",
+  "updatedAt": "2026-08-08T22:26:08.291Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 154,
+  "itemCount": 164,
   "brief": {
-    "date": "2026-08-07",
-    "generatedAt": "2026-08-07T22:32:21.606Z",
-    "totalCount": 154,
-    "todayCount": 5,
-    "headline": "今日 AI 信号 5 条 · 档案共 154 条",
+    "date": "2026-08-08",
+    "generatedAt": "2026-08-08T22:26:08.290Z",
+    "totalCount": 164,
+    "todayCount": 0,
+    "headline": "今日 AI 信号 — 条 · 档案共 164 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -59,6 +59,7 @@
       "newReleases": [
         "sig-468f50ae5e",
         "sig-ff7bff38a4",
+        "sig-3fac1f8e14",
         "cur-cursor-agent",
         "sig-f83c24d415"
       ],
@@ -111,8 +112,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-08-07T22:32:21.607Z",
-    "summary": "近 30 天共 154 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-08-08T22:26:08.291Z",
+    "summary": "近 30 天共 164 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Agent",
@@ -124,7 +125,7 @@
       },
       {
         "name": "Release",
-        "signal": "近 30 天 4 条相关更新",
+        "signal": "近 30 天 5 条相关更新",
         "examples": [
           "Google Workspace 插件 · Cursor",
           "iPad 版 Cursor 现已登陆 iPad · Cursor"
@@ -865,6 +866,86 @@
         "url": "https://vercel.com/changelog/free-domain-now-included-with-new-pro-subscriptions",
         "fetched": true,
         "savedAt": "2026-08-07T22:31:48.175Z"
+      }
+    },
+    {
+      "id": "sig-2d0efa94a2",
+      "title": "Vercel AI Gateway 和 Vercel Sandbox 现已在 Hermes Agent 上提供 - Vercel",
+      "oneLiner": "Hermes Agent 现在可以使用 Vercel AI Gateway 作为其推理层，并在隔离的 Vercel Sandbox microVM 中运行其代理命令。通过 AI Gateway 访问 200 多个模型，无需标记代币，每个请求",
+      "summary": {
+        "oneSentence": "Hermes Agent 现在可以使用 Vercel AI Gateway 作为其推理层，并在隔离的 Vercel Sandbox microVM 中运行其代理命令。通过 AI Gateway 访问 200 多个模型，无需标记代币，每个请求",
+        "bullets": [
+          "Hermes Agent 现在可以使用 Vercel AI Gateway 作为其推理层，并在隔离的 Vercel Sandbox microVM 中运行其代理命令。通过 AI Gateway 访问 200 多个模型，无需标记代币，每个请求都会显示在您的 AI Gateway 仪表板中，并显示您的其余使用情况和支出。",
+          "将链接复制到标题设置安装 Hermes，然后在设置向导中选择 Vercel AI Gateway：",
+          "# 安装 Hermes curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash # 在设置向导中：选择 Vercel AI Gateway，粘贴您的密钥 # 选择 V​​ercel Sandbox 以在 microVM 中运行每个代理命令 #",
+          "选择器从 AI Gateway 获取实时模型可用性和当前定价。有关完整演练，请参阅配置 Hermes 。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Hermes Agent 现在可以使用 Vercel AI Gateway 作为其推理层，并在隔离的 Vercel Sandbox microVM 中运行其代理命令。通过 AI Gateway 访问 200 多个模型，无需标记代币，每个请求",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-ai-gateway-and-vercel-sandbox-now-available-on-hermes-agent"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Hermes Agent 现在可以使用 Vercel AI Gateway 作为其推理层，并在隔离的 Vercel Sandbox microVM 中运行其代理命令。通过 AI Gateway 访问 200 多个模型，无需标记代币，每个请求都会显示在您的 AI Gateway 仪表板中，并显示您的其余使用情况和支出。",
+        "将链接复制到标题设置安装 Hermes，然后在设置向导中选择 Vercel AI Gateway：",
+        "# 安装 Hermes curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash # 在设置向导中：选择 Vercel AI Gateway，粘贴您的密钥 # 选择 V​​ercel Sandbox 以在 microVM 中运行每个代理命令 # 已经有了 Hermes？先更新，然后切换其中一个：hermes update hermes setup model # pick Vercel AI Gateway hermes setupterminal # pick Vercel Sandbox # verify hermes doctor",
+        "选择器从 AI Gateway 获取实时模型可用性和当前定价。有关完整演练，请参阅配置 Hermes 。",
+        "将链接复制到标题 在 Vercel Sandbox 中运行命令 Vercel Sandbox 后端是可选的。命令在本地运行，直到将terminal.backend设置为vercel_sandbox；启用后，代理命令将在工作区根目录为 /vercel/sandbox 的云 microVM 中运行，而不是在您的计算机上运行。后端支持node24（默认）、node22和python3.13运行时。对于本地开发，请使用 VERCEL_OIDC_TOKEN。运行 vercel link 和 vercel env pull 以获取开发令牌。",
+        "首先，请阅读 Hermes 文档和 Vercel Sandbox 文档，或浏览 AI Gateway 模型。"
+      ],
+      "highlights": [
+        "Hermes Agent 现在可以使用 Vercel AI Gateway 作为其推理层，并在隔离的 Vercel Sandbox microVM 中运行其代理",
+        "将链接复制到标题设置安装 Hermes，然后在设置向导中选择 Vercel AI Gateway：",
+        "# 安装 Hermes curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash #"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel AI Gateway and Vercel Sandbox now available on Hermes Agent - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-07",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-ai-gateway-and-vercel-sandbox-now-available-on-hermes-agent",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel AI Gateway and Vercel Sandbox now available on Hermes Agent - Vercel"
+      },
+      "raw": {
+        "title": "Vercel AI Gateway and Vercel Sandbox now available on Hermes Agent",
+        "url": "https://vercel.com/changelog/vercel-ai-gateway-and-vercel-sandbox-now-available-on-hermes-agent",
+        "fetched": true,
+        "savedAt": "2026-08-08T22:24:57.304Z"
       }
     },
     {
@@ -3762,7 +3843,7 @@
         "url": "https://cursor.com/changelog/google-workspace-plugins",
         "fetched": true,
         "savedAt": "2026-08-03T22:57:50.365Z",
-        "retranslatedAt": "2026-08-07T22:32:18.755Z"
+        "retranslatedAt": "2026-08-08T22:26:05.279Z"
       }
     },
     {
@@ -7127,7 +7208,7 @@
         "url": "https://cursor.com/changelog/ipad",
         "fetched": true,
         "savedAt": "2026-08-02T22:53:52.935Z",
-        "retranslatedAt": "2026-08-07T22:32:19.761Z"
+        "retranslatedAt": "2026-08-08T22:26:06.392Z"
       }
     },
     {
@@ -7699,6 +7780,765 @@
         "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
         "fetched": true,
         "savedAt": "2026-08-03T22:58:29.184Z"
+      }
+    },
+    {
+      "id": "sig-7909c61394",
+      "title": "Gemini Robotics 2 为机器人带来全身智能",
+      "oneLiner": "分享 已复制 您的浏览器不支持 video 标签。从脚到指尖——我们正在教授机器人智能全身控制、精细的灵活性和团队合作，以完成各种复杂的任务",
+      "summary": {
+        "oneSentence": "分享 已复制 您的浏览器不支持 video 标签。从脚到指尖——我们正在教授机器人智能全身控制、精细的灵活性和团队合作，以完成各种复杂的任务",
+        "bullets": [
+          "分享 已复制 您的浏览器不支持 video 标签。从脚到指尖——我们正在教授机器人智能全身控制、精细的灵活性和团队合作，以完成各种复杂的任务",
+          "几十年来，我们一直梦想着机器人能够无缝地走进我们的世界并伸出援手。现在，这一愿景向前迈出了一大步。",
+          "大多数机器人都经过预先编程或远程操作，以执行狭窄的重复性任务序列。他们缺乏真正自学或适应不可预测环境的能力。此外，将学到的技能从一个机器人身体转移到另一个机器人身体仍然非常困难。为了大规模解决最困难的问题，各种形状和大小的机器人都需要人工智能模型，使它们能够智能地思考、行动和交互，以安全地完成任务。",
+          "我们展示了 Gemini 的多模式理解如何通过 Gemini Robotics 推动现实世界的行动。今天，我们推出 Gemini Robotics 2 - 为下一代真正适应性强的机器人提供动力的智能层。当它迈出真正的第一步时，这一重大进步解锁了智能全身控制、高级灵活性和多机器人协作。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google DeepMind 官网发布：分享 已复制 您的浏览器不支持 video 标签。从脚到指尖——我们正在教授机器人智能全身控制、精细的灵活性和团队合作，以完成各种复杂的任务",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "分享 已复制 您的浏览器不支持 video 标签。从脚到指尖——我们正在教授机器人智能全身控制、精细的灵活性和团队合作，以完成各种复杂的任务",
+        "几十年来，我们一直梦想着机器人能够无缝地走进我们的世界并伸出援手。现在，这一愿景向前迈出了一大步。",
+        "大多数机器人都经过预先编程或远程操作，以执行狭窄的重复性任务序列。他们缺乏真正自学或适应不可预测环境的能力。此外，将学到的技能从一个机器人身体转移到另一个机器人身体仍然非常困难。为了大规模解决最困难的问题，各种形状和大小的机器人都需要人工智能模型，使它们能够智能地思考、行动和交互，以安全地完成任务。",
+        "我们展示了 Gemini 的多模式理解如何通过 Gemini Robotics 推动现实世界的行动。今天，我们推出 Gemini Robotics 2 - 为下一代真正适应性强的机器人提供动力的智能层。当它迈出真正的第一步时，这一重大进步解锁了智能全身控制、高级灵活性和多机器人协作。",
+        "Gemini Robotics 2 使机器人能够对每一个动作进行推理，从而解锁广泛的任务。例如，它可以使人形机器人能够行走、蹲伏、伸展和操纵物体来清理杂乱的房间。它甚至可以与其他机器人合作，更快地完成工作。这种深刻的智能还可以在设备上本地运行，同时在短短几个小时内无缝适应全新的机器人身体。",
+        "我们通过三个高性能模型使这成为可能：",
+        "Gemini Robotics 2 使用相同的模型检查点（配备 SharpaWave 手的 Apptronik Apollo 2 机器人、配备 Inspire 手的 Apollo 2 机器人以及配备 Robotiq 抓手的 Franka Duo）控制三个不同的实施例，执行各种全身和灵巧的操作任务。每个条形代表同一技能类别内多个任务的平均成功率。对于多指任务，我们显示个人任务表现。虽然 Gemini Robotics 2 在全身和基于夹具的灵巧任务中实现了中等到高的成功率，但多手指灵巧操作仍然具有挑战性。",
+        "我们的推理模型 Gemini Robotics ER 2 现已在 Google AI Studio 上提供，并在 Gemini Enterprise Agent Platform 上提供私人预览版。我们的 VLA 和设备上模型可供抢先体验的合作伙伴使用。在我们的开发者博客上了解如何将这些模型引入您的硬件。",
+        "世界是为人类运动而建立的；它要求我们在狭窄、杂乱的空间中伸展、弯曲和保持平衡。我们之前的模型控制人形机器人的上半身来完成桌面任务，而 Gemini Robotics 2 将物理 AI 扩展到全身运动。",
+        "我们的模型现在第一次可以控制整个人形机器人，将意图转化为智能全身控制。例如，当控制Apptronik的Apollo 2人形机器人时，我们可以要求它“将喷壶放入最底层架子的绿色垃圾桶中。”Apollo处理指令，走到桌子旁，拿起喷壶，几步走到架子上，并将其精确地放置在目的地。虽然我们的机器人在移动速度方面还有更多进步，但这是朝着完成需要全身协调的更复杂、现实世界任务所需的技能迈出的重要一步。"
+      ],
+      "highlights": [
+        "分享 已复制 您的浏览器不支持 video 标签。从脚到指尖——我们正在教授机器人智能全身控制、精细的灵活性和团队合作，以完成各种复杂的任务",
+        "几十年来，我们一直梦想着机器人能够无缝地走进我们的世界并伸出援手。现在，这一愿景向前迈出了一大步。",
+        "大多数机器人都经过预先编程或远程操作，以执行狭窄的重复性任务序列。他们缺乏真正自学或适应不可预测环境的能力。此外，将学到的技能从一个机器人身体转移到另一个机器人"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Gemini Robotics 2 brings whole body intelligence to robots",
+      "originalLang": "en",
+      "date": "2026-07-28",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google DeepMind",
+        "author": "DeepMind",
+        "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+        "home": "https://deepmind.google/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Gemini Robotics 2 brings whole body intelligence to robots"
+      },
+      "raw": {
+        "title": "Gemini Robotics 2 brings whole body intelligence to robots",
+        "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+        "fetched": true,
+        "savedAt": "2026-08-08T22:25:05.758Z"
+      }
+    },
+    {
+      "id": "sig-7c8ae2784e",
+      "title": "搜索中的 AI 模式可帮助您享受现实世界的 5 种方式",
+      "oneLiner": "无论您是想预订音乐会门票还是寻找完美的登山靴，Search 的人工智能工具都可以通过以下方式帮助您充分利用离线时间。",
+      "summary": {
+        "oneSentence": "无论您是想预订音乐会门票还是寻找完美的登山靴，Search 的人工智能工具都可以通过以下方式帮助您充分利用离线时间。",
+        "bullets": [
+          "无论您是想预订音乐会门票还是寻找完美的登山靴，Search 的人工智能工具都可以通过以下方式帮助您充分利用离线时间。",
+          "您的浏览器不支持音频元素。",
+          "Google 的 AI 模式可简化您计划活动和事件的方式，帮助您花更多时间离线。您可以使用它来查找适合您日程安排的本地课程、购买特定装备、练习新爱好以及预订门票。尝试连接您的应用程序以生成自定义设计或组织您的日历，以便您可以专注于享受现实世界。",
+          "人们正在寻找越来越多的离线方式，体验现实世界，“摸草”。今年，人们比以往任何时候都更多地搜索“成人网球课程”、“越野跑”、“徒步旅行”和“跑步俱乐部”。人们还在搜索诸如“如何进行数字排毒”（自年初以来增加了 110%）和“如何结识附近与我同龄的人”等问题。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google AI 官网发布：无论您是想预订音乐会门票还是寻找完美的登山靴，Search 的人工智能工具都可以通过以下方式帮助您充分利用离线时间。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "无论您是想预订音乐会门票还是寻找完美的登山靴，Search 的人工智能工具都可以通过以下方式帮助您充分利用离线时间。",
+        "您的浏览器不支持音频元素。",
+        "Google 的 AI 模式可简化您计划活动和事件的方式，帮助您花更多时间离线。您可以使用它来查找适合您日程安排的本地课程、购买特定装备、练习新爱好以及预订门票。尝试连接您的应用程序以生成自定义设计或组织您的日历，以便您可以专注于享受现实世界。",
+        "人们正在寻找越来越多的离线方式，体验现实世界，“摸草”。今年，人们比以往任何时候都更多地搜索“成人网球课程”、“越野跑”、“徒步旅行”和“跑步俱乐部”。人们还在搜索诸如“如何进行数字排毒”（自年初以来增加了 110%）和“如何结识附近与我同龄的人”等问题。",
+        "为了充分享受现实生活中的乐趣，Google 搜索中的 AI 模式提供了一些工具来帮助您找到所需的信息。方法如下：",
+        "准备好尝试新事物但不知道从哪里开始？使用人工智能模式，通过询问诸如“我如何开始打网球？附近有我可以轻松参加的初学者诊所或课程吗？”之类的问题来开始学习。",
+        "个人智能可让您安全地连接 Google 应用程序中的各个点，以便 AI 模式的响应对您来说更加个性化。例如，假设您希望提高烹饪水平，并希望找到适合您下个月日程安排的课程。如果您选择连接 Google 日历，您将获得适合您现有日程安排的建议。",
+        "到户外去是放松身心的好方法，但对于徒步旅行和越野跑等活动，您需要确保在出发前做好充分准备。您可以在 AI 模式下轻松购物，以确保您拥有完全符合您需求的商品。试着问：“你能帮我找到一些价格实惠、脚踝支撑良好的登山靴吗？” AI 模式将帮助您选择符合您需求的产品。您还可以通过在搜索中添加“附近”或“我附近”来查看该地区有哪些库存，甚至可以要求 Google 致电附近的商店以获取您的产品库存情况。",
+        "如果您今年开始接触桌游，您可以使用 AI 模式下的 Canvas 创建指南来帮助您记住一些核心游戏策略。前往人工智能模式，点击加号菜单，选择“画布”，然后问它类似这样的问题：“我知道下棋的基础知识以及不同棋子的作用，但我想提高我的游戏水平。用一些易于记忆的策略制作一个指南，我可以立即开始使用，以便在与朋友对弈时获得优势。”一旦掌握了关键动作，您甚至可以使用 Canvas 构建与计算机对战的游戏模拟来进行练习。",
+        "如果您喜欢离线参加现场活动，请使用 AI 模式帮助您查找和预订附近活动的门票，例如音乐会和体育赛事。分享您的预算、您想要多少张门票以及您想参加什么活动等详细信息。 AI 模式将整理一系列选项，以便您可以在您喜欢的平台上完成预订，以确保您的席位。"
+      ],
+      "highlights": [
+        "无论您是想预订音乐会门票还是寻找完美的登山靴，Search 的人工智能工具都可以通过以下方式帮助您充分利用离线时间。",
+        "您的浏览器不支持音频元素。",
+        "Google 的 AI 模式可简化您计划活动和事件的方式，帮助您花更多时间离线。您可以使用它来查找适合您日程安排的本地课程、购买特定装备、练习新爱好以及预订门票"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "5 ways AI Mode in Search helps you enjoy the real world",
+      "originalLang": "en",
+      "date": "2026-07-28",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "5 ways AI Mode in Search helps you enjoy the real world"
+      },
+      "raw": {
+        "title": "5 ways AI Mode in Search helps you enjoy the real world",
+        "url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
+        "fetched": true,
+        "savedAt": "2026-08-08T22:25:13.816Z"
+      }
+    },
+    {
+      "id": "sig-61b149676f",
+      "title": "利用 Google 搜索举办终极晚宴的 5 种方式",
+      "oneLiner": "这些人工智能功能可以帮助您制作菜单、设计桌面景观以及处理其他派对策划任务。",
+      "summary": {
+        "oneSentence": "这些人工智能功能可以帮助您制作菜单、设计桌面景观以及处理其他派对策划任务。",
+        "bullets": [
+          "这些人工智能功能可以帮助您制作菜单、设计桌面景观以及处理其他派对策划任务。",
+          "您的浏览器不支持音频元素。",
+          "Google 搜索现在提供人工智能驱动的工具来简化您的晚宴计划，从可视化桌面景观到设计自定义菜单。您可以使用这些功能集思广益食谱、寻找饮料搭配以及策划直接与您喜爱的应用程序同步的音乐播放列表。使用这些工具来处理后勤工作，以便您可以花更多时间与客人相处。",
+          "策划完美的晚宴是一门艺术。即使您喜欢主持，但处理诸如制作菜单和设计桌面景观之类的后勤事务可能会带来压力。幸运的是，搜索可以提供帮助。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google AI 官网发布：这些人工智能功能可以帮助您制作菜单、设计桌面景观以及处理其他派对策划任务。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "这些人工智能功能可以帮助您制作菜单、设计桌面景观以及处理其他派对策划任务。",
+        "您的浏览器不支持音频元素。",
+        "Google 搜索现在提供人工智能驱动的工具来简化您的晚宴计划，从可视化桌面景观到设计自定义菜单。您可以使用这些功能集思广益食谱、寻找饮料搭配以及策划直接与您喜爱的应用程序同步的音乐播放列表。使用这些工具来处理后勤工作，以便您可以花更多时间与客人相处。",
+        "策划完美的晚宴是一门艺术。即使您喜欢主持，但处理诸如制作菜单和设计桌面景观之类的后勤事务可能会带来压力。幸运的是，搜索可以提供帮助。",
+        "随着越来越多的人寻求在现实生活中建立联系的方式，与晚宴相关的查询也成为趋势。人们开始寻求灵感、具体规划方面的帮助等等：",
+        "借助 Google 最新的人工智能搜索工具，您可以通过更多方式将您的晚宴提升到新的水平。以下是搜索可以让您成为流量最多的房东的一些主要方法。",
+        "招待的一半乐趣在于设计美丽的主题桌面景观和装饰品来为用餐奠定基础。如果您需要一些关于如何改造您的空间的建议，您可以在搜索中的 AI 模式下使用 Nano Banana，以可视化您的桌子的外观。",
+        "膳食是每次晚宴的中心。但是，打造一份让您的客人感到惊喜和愉悦的独特菜单可能就像制作完美的舒芙蕾一样棘手。您可以使用人工智能模式来帮助您想出适合您聚会氛围的食物主题或集思广益菜单选项。现在，您可以在人工智能模式下尝试我们新的视觉处理，让您更轻松地发现菜谱创建者的菜肴。当您搜索菜谱时，响应的顶部会出现显着的链接，其中包含图像和有用的详细信息，例如创建者的姓名、菜谱评级和成分数量。",
+        "一旦你选定了菜品，你就可以转向人工智能模式来推荐饮料。例如，如果您询问 AI 模式，“我需要为我的晚宴搭配饮品方面的帮助。我应该买什么来搭配味噌鲑鱼？我还会提供奶酪拼盘和酸橙派”，您会得到一些关于您应该购买什么以及为什么它可以补充您的膳食的建议。",
+        "现在您可以将一些常用应用程序直接连接到搜索，还有更多方法可以让您的晚宴大放异彩。例如，您可以使用 AI 模式来策划适合您氛围的播放列表，立即将其保存到 YouTube Music 中，然后按播放开始为您的派对定下基调。"
+      ],
+      "highlights": [
+        "这些人工智能功能可以帮助您制作菜单、设计桌面景观以及处理其他派对策划任务。",
+        "您的浏览器不支持音频元素。",
+        "Google 搜索现在提供人工智能驱动的工具来简化您的晚宴计划，从可视化桌面景观到设计自定义菜单。您可以使用这些功能集思广益食谱、寻找饮料搭配以及策划直接与您喜"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "5 ways to host the ultimate dinner party with Google Search",
+      "originalLang": "en",
+      "date": "2026-07-28",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "5 ways to host the ultimate dinner party with Google Search"
+      },
+      "raw": {
+        "title": "5 ways to host the ultimate dinner party with Google Search",
+        "url": "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/",
+        "fetched": true,
+        "savedAt": "2026-08-08T22:25:21.358Z"
+      }
+    },
+    {
+      "id": "sig-3fac1f8e14",
+      "title": "Cursor Start · Cursor",
+      "oneLiner": "我们推出了 Cursor Start ：这是一项面向印度开发者、每月 ₹649 的全新方案，通过本地定价和 UPI，让日常智能体式开发更易普及、支付也更便捷。",
+      "summary": {
+        "oneSentence": "我们推出了 Cursor Start ：这是一项面向印度开发者、每月 ₹649 的全新方案，通过本地定价和 UPI，让日常智能体式开发更易普及、支付也更便捷。",
+        "bullets": [
+          "我们推出了 Cursor Start ：这是一项面向印度开发者、每月 ₹649 的全新方案，通过本地定价和 UPI，让日常智能体式开发更易普及、支付也更便捷。",
+          "印度现有的免费用户可以通过 仪表盘 升级其方案。印度新用户可以访问 cursor.com/signup ，并在入门引导流程中选择 Start 方案。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Cursor 官网发布：我们推出了 Cursor Start ：这是一项面向印度开发者、每月 ₹649 的全新方案，通过本地定价和 UPI，让日常智能体式开发更易普及、支付也更便捷。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：cursor",
+        "actionItems": [
+          "阅读原文（中文）：https://cursor.com/changelog/cursor-start"
+        ]
+      },
+      "tags": [
+        "Release"
+      ],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "cursor"
+      ],
+      "content": [
+        "我们推出了 Cursor Start ：这是一项面向印度开发者、每月 ₹649 的全新方案，通过本地定价和 UPI，让日常智能体式开发更易普及、支付也更便捷。",
+        "印度现有的免费用户可以通过 仪表盘 升级其方案。印度新用户可以访问 cursor.com/signup ，并在入门引导流程中选择 Start 方案。"
+      ],
+      "highlights": [
+        "我们推出了 Cursor Start ：这是一项面向印度开发者、每月 ₹649 的全新方案，通过本地定价和 UPI，让日常智能体式开发更易普及、支付也更便捷。",
+        "印度现有的免费用户可以通过 仪表盘 升级其方案。印度新用户可以访问 cursor.com/signup ，并在入门引导流程中选择 Start 方案。"
+      ],
+      "translated": false,
+      "translateMethod": "native",
+      "originalTitle": "Cursor Start · Cursor",
+      "originalLang": "zh",
+      "date": "2026-07-28",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [
+        "cursor"
+      ],
+      "source": {
+        "type": "release",
+        "group": "company",
+        "name": "Cursor",
+        "author": "Cursor",
+        "url": "https://cursor.com/changelog/cursor-start",
+        "home": "https://cursor.com/changelog",
+        "lang": "zh",
+        "translated": false,
+        "translateMethod": "native",
+        "originalTitle": "Cursor Start · Cursor"
+      },
+      "raw": {
+        "title": "Cursor Start",
+        "url": "https://cursor.com/changelog/cursor-start",
+        "fetched": true,
+        "savedAt": "2026-08-08T22:25:22.586Z"
+      }
+    },
+    {
+      "id": "sig-6c420a6769",
+      "title": "Vercel Sandbox 支持分叉 - Vercel",
+      "oneLiner": "Vercel Sandbox 现在支持使用 Sandbox.fork() 进行分叉。",
+      "summary": {
+        "oneSentence": "Vercel Sandbox 现在支持使用 Sandbox.fork() 进行分叉。",
+        "bullets": [
+          "Vercel Sandbox 现在支持使用 Sandbox.fork() 进行分叉。",
+          "分叉从源的当前快照开始并继承其配置和环境变量。如果源正在运行，它会分叉最新保存的状态，而不是实时的内存状态。如果源没有快照，它将使用源的运行时和配置回退到全新创建。您传递的任何参数都会覆盖继承的值。",
+          "分叉与创建沙箱所需的时间大致相同，并且具有相同的限制。使用它从共享基础中分支代理，为每个租户提供自己的模板副本，或并行运行一个设置的变体。",
+          "1 从 '@vercel/sandbox' 导入 { Sandbox } ； 2 // 继承源快照中的每个字段 3 const fork = wait Sandbox . fork({4sourceSandbox:'产品代理',5}); 6 // 覆盖特定字段；其余的都继承了 7 constcustomized=awa"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel Sandbox 现在支持使用 Sandbox.fork() 进行分叉。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-sandbox-supports-forking"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Sandbox 现在支持使用 Sandbox.fork() 进行分叉。",
+        "分叉从源的当前快照开始并继承其配置和环境变量。如果源正在运行，它会分叉最新保存的状态，而不是实时的内存状态。如果源没有快照，它将使用源的运行时和配置回退到全新创建。您传递的任何参数都会覆盖继承的值。",
+        "分叉与创建沙箱所需的时间大致相同，并且具有相同的限制。使用它从共享基础中分支代理，为每个租户提供自己的模板副本，或并行运行一个设置的变体。",
+        "1 从 '@vercel/sandbox' 导入 { Sandbox } ； 2 // 继承源快照中的每个字段 3 const fork = wait Sandbox . fork({4sourceSandbox:'产品代理',5}); 6 // 覆盖特定字段；其余的都继承了 7 constcustomized=awaitSandbox 。 fork ( { 8 sourceSandbox : 'prod-agent' , 9 名称 : 'forked-prod-agent' , 10 资源 : { 11 vcpu : 4 , 12 } 13 } ) ;",
+        "沙盒 fork prod-agent --name forked-prod-agent --vcpus 4",
+        "首先，请升级到最新版本：",
+        "pnpm install @vercel/sandbox@latest # SDK",
+        "在沙盒文档中了解更多信息。"
+      ],
+      "highlights": [
+        "Vercel Sandbox 现在支持使用 Sandbox.fork() 进行分叉。",
+        "分叉从源的当前快照开始并继承其配置和环境变量。如果源正在运行，它会分叉最新保存的状态，而不是实时的内存状态。如果源没有快照，它将使用源的运行时和配置回退到全新创",
+        "分叉与创建沙箱所需的时间大致相同，并且具有相同的限制。使用它从共享基础中分支代理，为每个租户提供自己的模板副本，或并行运行一个设置的变体。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Sandbox supports forking - Vercel",
+      "originalLang": "en",
+      "date": "2026-07-28",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-sandbox-supports-forking",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Sandbox supports forking - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Sandbox supports forking",
+        "url": "https://vercel.com/changelog/vercel-sandbox-supports-forking",
+        "fetched": true,
+        "savedAt": "2026-08-08T22:25:29.853Z"
+      }
+    },
+    {
+      "id": "sig-37ad6a46e5",
+      "title": "Vercel Connect 现在支持自定义环境 - Vercel",
+      "oneLiner": "Vercel Connect 现在允许您将连接器链接到自定义环境，以便那里的部署可以请求提供程序令牌并接收转发的 Webhooks。",
+      "summary": {
+        "oneSentence": "Vercel Connect 现在允许您将连接器链接到自定义环境，以便那里的部署可以请求提供程序令牌并接收转发的 Webhooks。",
+        "bullets": [
+          "Vercel Connect 现在允许您将连接器链接到自定义环境，以便那里的部署可以请求提供程序令牌并接收转发的 Webhooks。",
+          "当您在仪表板中的连接器上添加或编辑项目时，自定义环境会与生产、预览和开发一起显示。",
+          "从 CLI 中，将环境的 slug 传递给 --environment ：",
+          "vercel connect Attach slack/acme-slack --environment qa 仅在 qa 环境中连接 Slack 连接器。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel Connect 现在允许您将连接器链接到自定义环境，以便那里的部署可以请求提供程序令牌并接收转发的 Webhooks。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-connect-now-supports-custom-environments"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Connect 现在允许您将连接器链接到自定义环境，以便那里的部署可以请求提供程序令牌并接收转发的 Webhooks。",
+        "当您在仪表板中的连接器上添加或编辑项目时，自定义环境会与生产、预览和开发一起显示。",
+        "从 CLI 中，将环境的 slug 传递给 --environment ：",
+        "vercel connect Attach slack/acme-slack --environment qa 仅在 qa 环境中连接 Slack 连接器。",
+        "传递 --environment 会替换默认环境。",
+        "链接后，该环境中的部署可以像往常一样使用 getToken 请求令牌。如果调用环境不在项目链接上，则请求将失败并显示 ClientNotEnabledForEnvironmentError 。",
+        "触发目标还可以针对自定义环境：",
+        "vercel connect Attach slack/acme-slack --environment qa --triggers \\ --trigger-environment qa --trigger-path /api/slack-events 将已验证的 webhook 转发到 qa 环境。",
+        "在使用触发器定位自定义环境之前，请对其进行部署并为其分配经过验证的域。 Vercel Connect 通过该域转发事件。",
+        "项目链接控制哪些部署可以请求令牌，并且它们在颁发后不会限制提供者令牌。当环境需要提供程序级别的隔离时，请为每个环境创建一个单独的连接器，并仅请求其所需的范围。"
+      ],
+      "highlights": [
+        "Vercel Connect 现在允许您将连接器链接到自定义环境，以便那里的部署可以请求提供程序令牌并接收转发的 Webhooks。",
+        "当您在仪表板中的连接器上添加或编辑项目时，自定义环境会与生产、预览和开发一起显示。",
+        "从 CLI 中，将环境的 slug 传递给 --environment ："
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Connect now supports Custom Environments - Vercel",
+      "originalLang": "en",
+      "date": "2026-07-28",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-connect-now-supports-custom-environments",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Connect now supports Custom Environments - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Connect now supports Custom Environments",
+        "url": "https://vercel.com/changelog/vercel-connect-now-supports-custom-environments",
+        "fetched": true,
+        "savedAt": "2026-08-08T22:25:38.035Z"
+      }
+    },
+    {
+      "id": "sig-f5decee344",
+      "title": "AI Gateway 现已提供区域推理 - Vercel",
+      "oneLiner": "AI网关现已支持区域推理。根据请求设置 inferenceRegion 以将其固定到美国或欧盟。每个支持所选区域的模型提供商都以相同的方式处理它。推理在那里运行，提供者保留的任何数据都存储在那里。",
+      "summary": {
+        "oneSentence": "AI网关现已支持区域推理。根据请求设置 inferenceRegion 以将其固定到美国或欧盟。每个支持所选区域的模型提供商都以相同的方式处理它。推理在那里运行，提供者保留的任何数据都存储在那里。",
+        "bullets": [
+          "AI网关现已支持区域推理。根据请求设置 inferenceRegion 以将其固定到美国或欧盟。每个支持所选区域的模型提供商都以相同的方式处理它。推理在那里运行，提供者保留的任何数据都存储在那里。",
+          "AI Gateway 支持两个固定区域以及全局路由：",
+          "如果没有模型提供者可以为其提供服务，则请求将失败而不是在其他地方运行。每个响应都会报告为其提供服务的区域，因此您可以确认每个请求的运行位置。",
+          "以下是使用 AI SDK 固定到美国的请求："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：AI网关现已支持区域推理。根据请求设置 inferenceRegion 以将其固定到美国或欧盟。每个支持所选区域的模型提供商都以相同的方式处理它。推理在那里运行，提供者保留的任何数据都存储在那里。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/regional-inference-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "AI网关现已支持区域推理。根据请求设置 inferenceRegion 以将其固定到美国或欧盟。每个支持所选区域的模型提供商都以相同的方式处理它。推理在那里运行，提供者保留的任何数据都存储在那里。",
+        "AI Gateway 支持两个固定区域以及全局路由：",
+        "如果没有模型提供者可以为其提供服务，则请求将失败而不是在其他地方运行。每个响应都会报告为其提供服务的区域，因此您可以确认每个请求的运行位置。",
+        "以下是使用 AI SDK 固定到美国的请求：",
+        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText ( { 4 model : 'moonshotai/kimi-k3' , 5prompt : '总结此内部文档。' , 6providerOptions : { 7gateway : { 8inferenceRegion : {scope : 'zone' , geoRegion : 'us' } , 9 } , 10 } , 11 } ) ;",
+        "到目前为止，具有数据驻留或合规性要求的团队必须为每个提供商单独配置区域路由，并且没有可靠的方法来确认请求实际运行的位置。区域推理将其替换为在任何地方都表现相同的单个字段以及告诉您每个请求的服务位置的响应。",
+        "过滤美国或欧盟可用型号的型号列表，或从 /v1/models 读取区域数组。如果没有 inferenceRegion ，则请求全局路由，没有驻留保证，因此驻留是选择加入的。",
+        "固定一个区域可能会花费更多。提供商设定区域费率，通常比标准高出 10% 左右，AI Gateway 会在不加价的情况下通过。对于每个提供商的覆盖、响应验证、定价和 BYOK 行为，请阅读区域推理文档。"
+      ],
+      "highlights": [
+        "AI网关现已支持区域推理。根据请求设置 inferenceRegion 以将其固定到美国或欧盟。每个支持所选区域的模型提供商都以相同的方式处理它。推理在那里运行",
+        "AI Gateway 支持两个固定区域以及全局路由：",
+        "如果没有模型提供者可以为其提供服务，则请求将失败而不是在其他地方运行。每个响应都会报告为其提供服务的区域，因此您可以确认每个请求的运行位置。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Regional inference now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-07-27",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/regional-inference-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Regional inference now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Regional inference now available on AI Gateway",
+        "url": "https://vercel.com/changelog/regional-inference-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-08-08T22:25:45.727Z"
+      }
+    },
+    {
+      "id": "sig-c421e27f23",
+      "title": "eve 添加了新的 Slack 事件挂钩和会话控件 - Vercel",
+      "oneLiner": "Slack 上的 eve 代理现在可以在线程中继续回复而无需重复提及，取消正在进行的响应或完全重置对话，并对您的 Slack 应用程序订阅的任何事件做出反应。",
+      "summary": {
+        "oneSentence": "Slack 上的 eve 代理现在可以在线程中继续回复而无需重复提及，取消正在进行的响应或完全重置对话，并对您的 Slack 应用程序订阅的任何事件做出反应。",
+        "bullets": [
+          "Slack 上的 eve 代理现在可以在线程中继续回复而无需重复提及，取消正在进行的响应或完全重置对话，并对您的 Slack 应用程序订阅的任何事件做出反应。",
+          "将链接复制到标题 继续对话而不重复提及 提及不再需要进行对话。一旦线程有活动会话，您的代理就可以自行回复。",
+          "新的 onMessage 挂钩接收传入的 Slack 消息，并由两个帮助程序决定处理哪些消息：ctx.isBotMentioned() 检测显式提及，ctx.isSubscribed() 检查消息是否属于具有活动 eve 会话的线程：",
+          "agent/channels/slack.ts 1 导出默认 slackChannel ( { 2 凭证 : connectSlackCredentials ( \"slack/my-agent\" ) , 3 async onMessage ( ctx , message ) { 4 5 if ( message .au"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Slack 上的 eve 代理现在可以在线程中继续回复而无需重复提及，取消正在进行的响应或完全重置对话，并对您的 Slack 应用程序订阅的任何事件做出反应。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/eve-adds-new-slack-event-hooks-and-session-controls"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Slack 上的 eve 代理现在可以在线程中继续回复而无需重复提及，取消正在进行的响应或完全重置对话，并对您的 Slack 应用程序订阅的任何事件做出反应。",
+        "将链接复制到标题 继续对话而不重复提及 提及不再需要进行对话。一旦线程有活动会话，您的代理就可以自行回复。",
+        "新的 onMessage 挂钩接收传入的 Slack 消息，并由两个帮助程序决定处理哪些消息：ctx.isBotMentioned() 检测显式提及，ctx.isSubscribed() 检查消息是否属于具有活动 eve 会话的线程：",
+        "agent/channels/slack.ts 1 导出默认 slackChannel ( { 2 凭证 : connectSlackCredentials ( \"slack/my-agent\" ) , 3 async onMessage ( ctx , message ) { 4 5 if ( message .author ?. isBot ) return null ; 6 7 const isDirectMessage = message . raw .channel_type === \"im\" ; 8 return isDirectMessage || ctx . isBotMentioned ( ) || ( 等待 ctx . isSubscribed ( ) ) 9 ? { auth : null } 10 : null ;在具有活动会话的线程中分派 DM、明确提及和后续行动。",
+        "当路由取决于谁加入了线程时，新的 ctx.thread.listParticipants() 帮助程序会按首次出现的顺序返回唯一的人类 Slack 用户 ID。公共通道消息需要 message.channels 触发事件类型和channels:history 机器人作用域；私人频道还需要 message.groups 和 groups:history 。",
+        "将链接复制到标题取消回合或重置对话消息挂钩还接收两个线程绑定的会话帮助程序。",
+        "ctx.cancel() 在保持会话的同时停止当前回合：在返回 { auth } 之前调用它，将新消息作为替换输入排队，因此中间回合修正会删除陈旧的工作，并且代理响应最新消息。",
+        "当对话应该重新开始时，ctx.reset() 最终会退出拥有该线程的会话。下一条传送的消息将开始一个具有新历史记录、状态和沙箱的新会话。在 onMessage 调度逻辑中，重置命令需要三行：",
+        "agent/channels/slack.ts 1 导出默认 slackChannel ( { 2 3凭据 : connectSlackCredentials ( \"slack/my-agent\" ) , 4 async onMessage ( ctx , message ) { 5 6 if ( message . text . trim ( ) !== \"!new\" ) return null ; 7 wait ctx .reset ( { Reason : \"Slack user请求！new\" } ) ; 8 wait ctx . thread . post ( \"开始新的对话。\" ) ; 9 return null ; 10 11 } , 12 } ) ;退出会话并重新开始下一条消息。",
+        "将链接复制到标题处理任何事件 API 回调您的代理现在可以对您的 Slack 应用程序订阅的任何事件做出反应。"
+      ],
+      "highlights": [
+        "Slack 上的 eve 代理现在可以在线程中继续回复而无需重复提及，取消正在进行的响应或完全重置对话，并对您的 Slack 应用程序订阅的任何事件做出反应。",
+        "将链接复制到标题 继续对话而不重复提及 提及不再需要进行对话。一旦线程有活动会话，您的代理就可以自行回复。",
+        "新的 onMessage 挂钩接收传入的 Slack 消息，并由两个帮助程序决定处理哪些消息：ctx.isBotMentioned() 检测显式提及，ctx.i"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "eve adds new Slack event hooks and session controls - Vercel",
+      "originalLang": "en",
+      "date": "2026-07-27",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/eve-adds-new-slack-event-hooks-and-session-controls",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "eve adds new Slack event hooks and session controls - Vercel"
+      },
+      "raw": {
+        "title": "eve adds new Slack event hooks and session controls",
+        "url": "https://vercel.com/changelog/eve-adds-new-slack-event-hooks-and-session-controls",
+        "fetched": true,
+        "savedAt": "2026-08-08T22:25:54.672Z"
+      }
+    },
+    {
+      "id": "sig-4823a989fe",
+      "title": "数字工具，人类表达：Config 2026 背后的视觉识别 | Figma 博客",
+      "oneLiner": "Figma 的 Brand Studio 是如何设计一场会议的，它捕捉到了我们在使用人工智能工具时重新组合和重塑的非常人性化的方式。",
+      "summary": {
+        "oneSentence": "Figma 的 Brand Studio 是如何设计一场会议的，它捕捉到了我们在使用人工智能工具时重新组合和重塑的非常人性化的方式。",
+        "bullets": [
+          "Figma 的 Brand Studio 是如何设计一场会议的，它捕捉到了我们在使用人工智能工具时重新组合和重塑的非常人性化的方式。",
+          "摄影：Alex Roulette、Acronym、Desmond Studios、Relay 和 Ross Mantle",
+          "6 月 23 日至 25 日，Config 2026 接管了旧金山莫斯康中心。",
+          "现在是成为创客的好时机。借助当今的工具，人们可以从任何地方开始 Start Anywhere，Figma 的杂志 新的工具和材料使构建任何东西并从任何地方开始变得更加容易。现在的问题是，你想去哪里？"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Figma 官网发布：Figma 的 Brand Studio 是如何设计一场会议的，它捕捉到了我们在使用人工智能工具时重新组合和重塑的非常人性化的方式。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://www.figma.com/blog/the-visual-identity-behind-config-2026/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Figma 的 Brand Studio 是如何设计一场会议的，它捕捉到了我们在使用人工智能工具时重新组合和重塑的非常人性化的方式。",
+        "摄影：Alex Roulette、Acronym、Desmond Studios、Relay 和 Ross Mantle",
+        "6 月 23 日至 25 日，Config 2026 接管了旧金山莫斯康中心。",
+        "现在是成为创客的好时机。借助当今的工具，人们可以从任何地方开始 Start Anywhere，Figma 的杂志 新的工具和材料使构建任何东西并从任何地方开始变得更加容易。现在的问题是，你想去哪里？",
+        "通过代码层、Figma Motion、着色器、生成插件和 Weave 工具，一切都在画布上，超越您的想象。",
+        "“我们希望展示这种新的人工智能功能，它非常复杂和强大，同时强调工艺并保持非常人性化的观点，”Figma 品牌设计师 Chelsea White 说道，他是 Config 2026 的创意主管。在此基础上，团队使用字形构建了一个视觉系统，字形是表达形状，范围从粗略到生成，再到清晰提示的纹理和结构化构图。他们共同演绎了想法如何演变和繁殖。 “有趣的对比是，结果让人感觉古怪和独特，但也是程序化的、明显数字化的，”切尔西说。以下是从数字资产到旧金山物理环境的所有 Config 界面的表现方式。",
+        "为了创造能够捕捉与人工智能合作的偶然性的视觉效果，该团队恰当地转向了人工智能。他们在 Figma Make 中构建了工具来帮助编码他们知道自己想要的低保真效果，并出现了三种核心纹理：潦草的线条、模糊的渐变和椭圆形粒子。然后，他们可以将图像输入到工具中，以获得令人惊讶的手绘作品。 “当我们拥有可以让我们实现更多自动化并创造完美视觉效果的工具时，我们想要欣赏不完美的感觉，”品牌设计师 Maria Chimishkyan 说道。",
+        "他们还创建了一个抖动工具，可以为数百个演讲者头像提供一致的视觉处理，而无需进行数小时的繁琐工作。品牌设计师 Deanna Sperrazza 表示：“这种效果具有精细的比例、点画风格，既带来了人性化的感觉，又给人一种数字化编码的感觉。”",
+        "该团队并没有仅仅交付动画视觉效果，而是并行处理静态和动态资产。 “这是一次很好的交流，”品牌动作设计师本·希尔 (Ben Hill) 说道。 “运动影响设计，设计影响运动。”例如，当团队看到早期的字形焕发活力时，那是一个“恍然大悟”的时刻：虽然这是一个简单的构图，但看到它是多么原始和出人意料，让他们相信自己正在朝着正确的方向前进。",
+        "“我们本可以依靠清晰的字形动画，”Ben 说，“但相反，我们让一切变得更宽松、更具拼贴风格和表现力。它以一种 Figma 独特的方式呈现出固执己见。”"
+      ],
+      "highlights": [
+        "Figma 的 Brand Studio 是如何设计一场会议的，它捕捉到了我们在使用人工智能工具时重新组合和重塑的非常人性化的方式。",
+        "摄影：Alex Roulette、Acronym、Desmond Studios、Relay 和 Ross Mantle",
+        "6 月 23 日至 25 日，Config 2026 接管了旧金山莫斯康中心。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Digital Tools, Human Expression: The Visual Identity Behind Config 2026 | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-07-27",
+      "categoryIds": [
+        "vertical-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/the-visual-identity-behind-config-2026/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Digital Tools, Human Expression: The Visual Identity Behind Config 2026 | Figma Blog"
+      },
+      "raw": {
+        "title": "Digital tools, human expression: The visual identity behind Config 2026",
+        "url": "https://www.figma.com/blog/the-visual-identity-behind-config-2026/",
+        "fetched": true,
+        "savedAt": "2026-08-08T22:26:04.026Z"
       }
     },
     {
@@ -11228,7 +12068,7 @@
         "url": "https://cursor.com/changelog/slack-improvements",
         "fetched": true,
         "savedAt": "2026-07-27T07:34:20.673Z",
-        "retranslatedAt": "2026-08-07T22:32:20.805Z"
+        "retranslatedAt": "2026-08-08T22:26:07.488Z"
       }
     },
     {
