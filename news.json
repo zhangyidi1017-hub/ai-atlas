@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-09T22:28:42.683Z",
+  "updatedAt": "2026-08-10T22:34:32.153Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 174,
+  "itemCount": 184,
   "brief": {
-    "date": "2026-08-09",
-    "generatedAt": "2026-08-09T22:28:42.682Z",
-    "totalCount": 174,
-    "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 174 条",
+    "date": "2026-08-10",
+    "generatedAt": "2026-08-10T22:34:32.152Z",
+    "totalCount": 184,
+    "todayCount": 9,
+    "headline": "今日 AI 信号 9 条 · 档案共 184 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -40,10 +40,10 @@
         "readMinutes": 5
       },
       {
-        "id": "sig-045b7da0ac",
-        "title": "Grok Imagine Image 2.0 现已在 Vercel AI Gateway 上提供 - Vercel",
+        "id": "sig-e41ad55864",
+        "title": "没有网络边界的沙箱只是沙箱的一半",
         "stars": 4,
-        "oneLiner": "xAI 的 Grok Imagine Image 2.0 预览版现已在 AI Gateway 上提供。",
+        "oneLiner": "安全地运行不受信任的代码需要的不仅仅是将其与主机分离。您还必须控制该代码可以达到的范围。",
         "readMinutes": 5
       }
     ],
@@ -53,8 +53,8 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "sig-045b7da0ac",
-        "sig-2d835273fe"
+        "sig-e41ad55864",
+        "sig-e5b07415f2"
       ],
       "newReleases": [
         "sig-468f50ae5e",
@@ -68,10 +68,10 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "sig-045b7da0ac",
-        "sig-2d835273fe",
-        "sig-833934ee3b",
-        "sig-2ee94000fe"
+        "sig-e41ad55864",
+        "sig-e5b07415f2",
+        "sig-7a678e9a26",
+        "sig-ae2292bf45"
       ],
       "emergingTrends": [
         "cur-openai-agentkit",
@@ -112,8 +112,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-08-09T22:28:42.683Z",
-    "summary": "近 30 天共 174 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-08-10T22:34:32.153Z",
+    "summary": "近 30 天共 184 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Agent",
@@ -189,6 +189,90 @@
     ]
   },
   "productUpdates": [
+    {
+      "id": "sig-7a678e9a26",
+      "title": "构建人工智能原生财务功能教会了我什么",
+      "oneLiner": "OpenAI 首席财务官 Sarah Friar 分享了构建 AI 原生财务功能的五个经验教训，从自动预测到更强的控制和 AI 投资回报率。",
+      "date": "2026-08-10",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-ae2292bf45",
+      "title": "使用新的人工智能工具发展您的营销",
+      "oneLiner": "我们正在 Google Ads 和 Google Analytics 中添加人工智能和代理体验，以简化您的工作流程并加快您的业务增长之路。",
+      "date": "2026-08-10",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google AI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-61282b7420",
+      "title": "OpenAI 致州长阿博特关于德克萨斯州负责任的人工智能基础设施的信函",
+      "oneLiner": "OpenAI 向州长 Greg Abbott 发送了一封信，概述了其对德克萨斯州负责任的人工智能基础设施的承诺。这封信支持有利于德克萨斯人的可靠、透明的增长。",
+      "date": "2026-08-10",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-c7b962b1d9",
+      "title": "Model ML借助GPT-5.6 Sol更高效地完成财务工作",
+      "oneLiner": "Model ML 使用 GPT-5.6 Sol 通过可编辑、可追踪的 PowerPoint 演示文稿和 Excel 工作簿进行研究和分析等财务工作。",
+      "date": "2026-08-10",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-3a8585570c",
+      "title": "随着网络防御窗口的缩小，黎明时间的扩大",
+      "oneLiner": "了解 GPT-5.6-Cyber​​，这是 OpenAI 的网络安全特定模型，可通过 Daybreak Red 进行授权漏洞研究、漏洞利用验证和安全测试。",
+      "date": "2026-08-10",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-7f776d7829",
+      "title": "将前沿网络模型交给更值得信赖的人",
+      "oneLiner": "经批准的 Daybreak 合作伙伴可以使用 OpenAI 的前沿网络模型为客户提供授权、受监管的网络安全服务。",
+      "date": "2026-08-10",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-ee449db47d",
+      "title": "ChatGPT Business 即将推出高级席位",
+      "oneLiner": "ChatGPT Business 即将推出高级席位。在 8 月 20 日之前注册即可获得 100 美元的工作空间积分，并为您的团队最苛刻的工作解锁更高的使用率。",
+      "date": "2026-08-10",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
     {
       "id": "sig-833934ee3b",
       "title": "应对关键网络能力的下一个前沿",
@@ -394,93 +478,790 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-6e145b017b",
-      "title": "构建丰富的智能",
-      "oneLiner": "一种全栈方法，使先进的人工智能功能更强大、价格更便宜、用途更广泛。",
-      "date": "2026-07-31",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-c5ad624a6f",
-      "title": "破坏刑事诈骗行动",
-      "oneLiner": "OpenAI 使用 ChatGPT 破坏了柬埔寨的一个诈骗活动，以支持投资、恋爱、赌博和冒充计划。",
-      "date": "2026-07-31",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-06b8d0ad6f",
-      "title": "Gemini 机器人 ER 2 简介",
-      "oneLiner": "Gemini Robotics ER 2 代表了在视频理解、任务编排和多机器人协作方面为机器人提供动力的重大变革，使机器人能够在物理世界中提供更多帮助。",
-      "date": "2026-07-30",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google DeepMind",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-fc362ba711",
-      "title": "利用 GPT-5.6 推进性价比前沿",
-      "oneLiner": "探索 Luna 和 Terra 的更低 GPT-5.6 定价，以及 OpenAI 更高效的模型如何帮助企业大规模部署 AI 工作流程。",
-      "date": "2026-07-30",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-9146ff1756",
-      "title": "Avatarin 如何使用 GPT-Realtime 构建 24/7 零售代理",
-      "oneLiner": "avatarin 使用 OpenAI 的 GPT-Realtime 为 Yamada Denki 购物者提供 24/7 多语言支持。两周内，有 30,000 人使用了该代理，92% 的调查回复是积极的。",
-      "date": "2026-07-30",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-705bd6c095",
-      "title": "我们将在 Google Flow Music 中推出 Lyria 3.5，该版本在音乐性、歌词、人声和创意控制方面都取得了进步。",
-      "oneLiner": "我们最新的音乐生成模型 Lyria 3.5 在音乐性、歌词和声音质量方面取得了显着进步，使您能够制作更丰富的曲目。我们今天在 Google Flow Music 中推出了它，我们希望帮助您通过创意控制来创作您喜欢的歌曲。",
-      "date": "2026-07-29",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google DeepMind",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-cc8e132c61",
-      "title": "启用两种设置如何使我们在 ARC-AGI-3 基准测试中的得分增加两倍",
-      "oneLiner": "两种 API 设置如何提高 ARC-AGI-3 上的 GPT-5.6 性能，通过保留推理和启用压缩来提高分数和效率。",
-      "date": "2026-07-29",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-e41ad55864",
+      "title": "没有网络边界的沙箱只是沙箱的一半",
+      "oneLiner": "安全地运行不受信任的代码需要的不仅仅是将其与主机分离。您还必须控制该代码可以达到的范围。",
+      "summary": {
+        "oneSentence": "安全地运行不受信任的代码需要的不仅仅是将其与主机分离。您还必须控制该代码可以达到的范围。",
+        "bullets": [
+          "安全地运行不受信任的代码需要的不仅仅是将其与主机分离。您还必须控制该代码可以达到的范围。",
+          "随着人工智能代理获得读取文件、执行命令、安装包和生成自己的程序的能力，这一点更加重要。 microVM 可以阻止该代码访问主机或其他工作负载。它本身无法阻止代码窃取数据、探测内部服务、攻击互联网上其他地方的系统或使用环境内可用的凭据。",
+          "没有出口控制的隔离包含过程，而不是结果。",
+          "因此，完整的沙箱既需要计算隔离，又需要控制通过其网络提供的权限：代码可以连接到哪里、可以使用哪些凭据，以及这些权限在工作负载的生命周期中如何变化。这些控制是安全边界的一部分，而不是稍后附加的保护。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：安全地运行不受信任的代码需要的不仅仅是将其与主机分离。您还必须控制该代码可以达到的范围。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/a-sandbox-without-a-network-boundary-is-only-half-a-sandbox"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "安全地运行不受信任的代码需要的不仅仅是将其与主机分离。您还必须控制该代码可以达到的范围。",
+        "随着人工智能代理获得读取文件、执行命令、安装包和生成自己的程序的能力，这一点更加重要。 microVM 可以阻止该代码访问主机或其他工作负载。它本身无法阻止代码窃取数据、探测内部服务、攻击互联网上其他地方的系统或使用环境内可用的凭据。",
+        "没有出口控制的隔离包含过程，而不是结果。",
+        "因此，完整的沙箱既需要计算隔离，又需要控制通过其网络提供的权限：代码可以连接到哪里、可以使用哪些凭据，以及这些权限在工作负载的生命周期中如何变化。这些控制是安全边界的一部分，而不是稍后附加的保护。",
+        "将链接复制到标题 沙箱有多个边界 计算隔离回答了一个重要问题：该程序可以在其运行的计算机上访问什么？网络隔离回答了另一个问题：它可以通过网络访问或攻击什么？",
+        "考虑一个读取存储库并运行生成的代码的代理。隐藏在问题、日志条目、依赖项或源文件中的提示注入可能会指示它上传私有数据。生成的程序不需要转义其 microVM。通过不受限制的出站流量，它可以简单地将其可以读取的任何内容发送到外部服务器。",
+        "相同的访问权限可用于扫描内部网络、窃取数据和凭据，或调用经过身份验证的 API。从攻击者的角度来看，跨越虚拟机边界可能是不必要的。没有网络边界，它只是半个沙箱。",
+        "将链接复制到标题网络旁路可以是沙箱逃逸最近的安全研究已经明确了一种模式：不受信任的代码不需要跨越虚拟机边界来逃脱遏制。它只需要一条安全模型未能考虑到的网络路径。",
+        "该路径可能是在断开连接的环境中可用的 DNS 解析器、无法打开的空白名单、由策略引擎和代理以不同方式解释的主机名，或者变成中继的可信包服务。其中任何一个都可以为不受信任的代码提供泄露数据、接收指令或转向更敏感的基础设施的渠道。",
+        "这些不是计算转义。内核、虚拟机或容器边界可能会继续完全按照设计工作，但遏制仍然会失败。实际的安全边界还包括 DNS、代理、身份服务、内部网络以及每个有意允许的目的地。"
+      ],
+      "highlights": [
+        "安全地运行不受信任的代码需要的不仅仅是将其与主机分离。您还必须控制该代码可以达到的范围。",
+        "随着人工智能代理获得读取文件、执行命令、安装包和生成自己的程序的能力，这一点更加重要。 microVM 可以阻止该代码访问主机或其他工作负载。它本身无法阻止代码",
+        "没有出口控制的隔离包含过程，而不是结果。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "A sandbox without a network boundary is only half a sandbox",
+      "originalLang": "en",
+      "date": "2026-08-11",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/a-sandbox-without-a-network-boundary-is-only-half-a-sandbox",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "A sandbox without a network boundary is only half a sandbox"
+      },
+      "raw": {
+        "title": "A sandbox without a network boundary is only half a sandbox",
+        "url": "https://vercel.com/blog/a-sandbox-without-a-network-boundary-is-only-half-a-sandbox",
+        "fetched": true,
+        "savedAt": "2026-08-10T22:33:59.577Z"
+      }
+    },
+    {
+      "id": "sig-e5b07415f2",
+      "title": "Vercel 沙箱现在在 Vercel 托管映像上运行 - Vercel",
+      "oneLiner": "今天，我们推出 Vercel 托管映像 (VMI)，这是一组版本化的开源基础映像，您可以按原样使用或扩展。每个图像的源都位于公共 vercel/sandbox 存储库中。",
+      "summary": {
+        "oneSentence": "今天，我们推出 Vercel 托管映像 (VMI)，这是一组版本化的开源基础映像，您可以按原样使用或扩展。每个图像的源都位于公共 vercel/sandbox 存储库中。",
+        "bullets": [
+          "今天，我们推出 Vercel 托管映像 (VMI)，这是一组版本化的开源基础映像，您可以按原样使用或扩展。每个图像的源都位于公共 vercel/sandbox 存储库中。",
+          "托管映像取代了沙箱运行时，后者现已弃用。从 Sandbox SDK 版本 3 开始，新沙箱默认为 vercel/sandbox/universal:latest 。它附带 Node.js、Python、通用编码代理和标准实用程序，因此大多数用户从不构建自定义映像或在启动时安装软件包。",
+          "通用映像将我们的默认操作系统从 Amazon Linux 切换到 Ubuntu，这是一个更轻且在整个行业中使用更广泛的系统。",
+          "将链接复制到标题 默认安全 每个托管映像都会每晚发布一次。滚动标签（例如最新版本和主要版本标签）会自动获取操作系统和依赖项更新，包括安全补丁和 Node.js、Python 的新版本以及预安装的编码代理。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：今天，我们推出 Vercel 托管映像 (VMI)，这是一组版本化的开源基础映像，您可以按原样使用或扩展。每个图像的源都位于公共 vercel/sandbox 存储库中。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-sandbox-managed-images"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "今天，我们推出 Vercel 托管映像 (VMI)，这是一组版本化的开源基础映像，您可以按原样使用或扩展。每个图像的源都位于公共 vercel/sandbox 存储库中。",
+        "托管映像取代了沙箱运行时，后者现已弃用。从 Sandbox SDK 版本 3 开始，新沙箱默认为 vercel/sandbox/universal:latest 。它附带 Node.js、Python、通用编码代理和标准实用程序，因此大多数用户从不构建自定义映像或在启动时安装软件包。",
+        "通用映像将我们的默认操作系统从 Amazon Linux 切换到 Ubuntu，这是一个更轻且在整个行业中使用更广泛的系统。",
+        "将链接复制到标题 默认安全 每个托管映像都会每晚发布一次。滚动标签（例如最新版本和主要版本标签）会自动获取操作系统和依赖项更新，包括安全补丁和 Node.js、Python 的新版本以及预安装的编码代理。",
+        "在每个版本中，依赖项尽可能固定到特定版本，因此给定的映像版本保持一致。",
+        "如果您需要一个完全不可变、可重现的环境，请固定到图像摘要 (SHA)。摘要固定图像选择退出自动更新。",
+        "将链接复制到标题 从目录中选择托管映像 每个托管映像都有不同的起点：",
+        "vercel/sandbox/universal:latest 是新的默认值，是在 Ubuntu 26.04 上滚动发布的 Node.js 24、Python 3.14 上的 uv 、 opencode 、 claude-code 、 codex 和 pi 编码代理，以及实用程序，包括 git 、 vim 、 nano 、 tmux 、 ripgrep 、 jq 和 fzf 。",
+        "vercel/sandbox/node:22 、 node:24 和 node:26 在 Ubuntu 26.04 上提供 Node.js 版本。",
+        "vercel/sandbox/python:3.14 在 Ubuntu 26.04 上提供 Python。"
+      ],
+      "highlights": [
+        "今天，我们推出 Vercel 托管映像 (VMI)，这是一组版本化的开源基础映像，您可以按原样使用或扩展。每个图像的源都位于公共 vercel/sandbox ",
+        "托管映像取代了沙箱运行时，后者现已弃用。从 Sandbox SDK 版本 3 开始，新沙箱默认为 vercel/sandbox/universal:latest",
+        "通用映像将我们的默认操作系统从 Amazon Linux 切换到 Ubuntu，这是一个更轻且在整个行业中使用更广泛的系统。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Sandbox now runs on Vercel Managed Images - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-10",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-sandbox-managed-images",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Sandbox now runs on Vercel Managed Images - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Sandbox now runs on Vercel Managed Images",
+        "url": "https://vercel.com/changelog/vercel-sandbox-managed-images",
+        "fetched": true,
+        "savedAt": "2026-08-10T22:34:06.880Z"
+      }
+    },
+    {
+      "id": "sig-7a678e9a26",
+      "title": "构建人工智能原生财务功能教会了我什么",
+      "oneLiner": "OpenAI 首席财务官 Sarah Friar 分享了构建 AI 原生财务功能的五个经验教训，从自动预测到更强的控制和 AI 投资回报率。",
+      "summary": {
+        "oneSentence": "OpenAI 首席财务官 Sarah Friar 分享了构建 AI 原生财务功能的五个经验教训，从自动预测到更强的控制和 AI 投资回报率。",
+        "bullets": [
+          "OpenAI 首席财务官 Sarah Friar 分享了构建 AI 原生财务功能的五个经验教训，从自动预测到更强的控制和 AI 投资回报率。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 首席财务官 Sarah Friar 分享了构建 AI 原生财务功能的五个经验教训，从自动预测到更强的控制和 AI 投资回报率。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/building-an-ai-native-finance-function"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 首席财务官 Sarah Friar 分享了构建 AI 原生财务功能的五个经验教训，从自动预测到更强的控制和 AI 投资回报率。"
+      ],
+      "highlights": [
+        "OpenAI 首席财务官 Sarah Friar 分享了构建 AI 原生财务功能的五个经验教训，从自动预测到更强的控制和 AI 投资回报率。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "What building an AI-native finance function taught me",
+      "originalLang": "en",
+      "date": "2026-08-10",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/building-an-ai-native-finance-function",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "What building an AI-native finance function taught me"
+      },
+      "raw": {
+        "title": "What building an AI-native finance function taught me",
+        "url": "https://openai.com/index/building-an-ai-native-finance-function",
+        "fetched": false,
+        "savedAt": "2026-08-10T22:34:08.102Z"
+      }
+    },
+    {
+      "id": "sig-ae2292bf45",
+      "title": "使用新的人工智能工具发展您的营销",
+      "oneLiner": "我们正在 Google Ads 和 Google Analytics 中添加人工智能和代理体验，以简化您的工作流程并加快您的业务增长之路。",
+      "summary": {
+        "oneSentence": "我们正在 Google Ads 和 Google Analytics 中添加人工智能和代理体验，以简化您的工作流程并加快您的业务增长之路。",
+        "bullets": [
+          "我们正在 Google Ads 和 Google Analytics 中添加人工智能和代理体验，以简化您的工作流程并加快您的业务增长之路。",
+          "您的浏览器不支持音频元素。",
+          "Google 正在 Google Ads 和 Google Analytics 中推出新的人工智能工具，以帮助您发现见解并更快采取行动。您现在可以在主页上使用人工智能驱动的摘要，使用简单的文本提示创建可视化报告，并根据类似业务对您的绩效进行基准测试。立即登录您的帐户，探索这些新功能并完善您的营销策略。",
+          "谷歌正在其营销平台中添加新的人工智能工具，以帮助人们更快、更智能地工作。这些工具会自动汇总数据并提出改进广告活动的方法。您甚至可以使用简单的文本提示来创建自定义报告或将您的绩效与其他企业进行比较。这一切都是为了帮助您做出更好的决策，而不会迷失在数字中。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google AI 官网发布：我们正在 Google Ads 和 Google Analytics 中添加人工智能和代理体验，以简化您的工作流程并加快您的业务增长之路。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "我们正在 Google Ads 和 Google Analytics 中添加人工智能和代理体验，以简化您的工作流程并加快您的业务增长之路。",
+        "您的浏览器不支持音频元素。",
+        "Google 正在 Google Ads 和 Google Analytics 中推出新的人工智能工具，以帮助您发现见解并更快采取行动。您现在可以在主页上使用人工智能驱动的摘要，使用简单的文本提示创建可视化报告，并根据类似业务对您的绩效进行基准测试。立即登录您的帐户，探索这些新功能并完善您的营销策略。",
+        "谷歌正在其营销平台中添加新的人工智能工具，以帮助人们更快、更智能地工作。这些工具会自动汇总数据并提出改进广告活动的方法。您甚至可以使用简单的文本提示来创建自定义报告或将您的绩效与其他企业进行比较。这一切都是为了帮助您做出更好的决策，而不会迷失在数字中。",
+        "出色的营销始终需要深厚的测量专业知识来揭示“原因”，并需要战略敏捷性来执行“如何”。这就是为什么我们推出 Ask Advisor 1——我们在 Google 营销平台上的产品内人工智能代理——将这些答案和行动直接交到营销人员手中。今天，我们宣布在 Google Ads 和 Google Analytics（分析）中推出新的代理功能，旨在增强您的专业知识，帮助您更快地发现见解，做出更明智的业务决策，并在您规划成长之路时牢牢掌握主动权。",
+        "对于分析师团队来说，及时掌握绩效变化的情况至关重要。现在，Google Analytics（分析）使这一切变得比以往任何时候都更容易，主页顶部的新人工智能概述可以为您提供自上次登录以来的重要更新的即时摘要。从季节性销售高峰到流量变化，您可以快速了解当前重要的事情，更重要的是，您应该采取哪些措施。当数据卡引起您的注意时，只需单击一下即可将该上下文直接带入“询问顾问”以进行进一步分析。现在，您可以按照自己的节奏选择通过电话或电子邮件以适合您的频率接收通知，以随时了解这些智能摘要的最新情况。",
+        "我们还改进了 Google Ads 主页，以及时显示针对您的业务进行个性化的人工智能驱动的洞察卡 1 。您现在拥有自信地调整策略所需的背景，确保您在新需求出现时就抓住它。想要了解竞争对手如何影响您的展示份额或哪些趋势可以改善您的广告系列？使用见解卡上方的提示框根据首要想法生成自定义见解。",
+        "当需要评估您的绩效时，报告应该直观且简单。借助 Google Ads 中的新仪表板 1（即将在 Google Analytics 中推出），您可以通过简单的文本提示将原始数据转换为清晰的可视化效果。每份报告都会自动生成实时摘要，解释数据背后的“原因”，帮助您轻松了解自己的绩效或为新的营销活动创意提供理由。",
+        "确定自己在哪些方面有成长空间始终很重要。现在，您可以使用 Ask Advisor 在 Google Analytics 中更深入地了解您的营销活动效果。我们推出了一项新的基准测试功能，可将您的广告系列效果与类似企业的匿名平均值进行比较，帮助您自信地完善策略。",
+        "“Ask Advisor 已成为我对付费媒体性能进行定向检查的首选……速度很重要，因为它让我有时间进行更深入的挖掘并做出更快地提高性能的转变。”"
+      ],
+      "highlights": [
+        "我们正在 Google Ads 和 Google Analytics 中添加人工智能和代理体验，以简化您的工作流程并加快您的业务增长之路。",
+        "您的浏览器不支持音频元素。",
+        "Google 正在 Google Ads 和 Google Analytics 中推出新的人工智能工具，以帮助您发现见解并更快采取行动。您现在可以在主页上使用人"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Evolve your marketing with new AI tools",
+      "originalLang": "en",
+      "date": "2026-08-10",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Evolve your marketing with new AI tools"
+      },
+      "raw": {
+        "title": "Evolve your marketing with new AI tools",
+        "url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
+        "fetched": true,
+        "savedAt": "2026-08-10T22:34:15.631Z"
+      }
+    },
+    {
+      "id": "sig-61282b7420",
+      "title": "OpenAI 致州长阿博特关于德克萨斯州负责任的人工智能基础设施的信函",
+      "oneLiner": "OpenAI 向州长 Greg Abbott 发送了一封信，概述了其对德克萨斯州负责任的人工智能基础设施的承诺。这封信支持有利于德克萨斯人的可靠、透明的增长。",
+      "summary": {
+        "oneSentence": "OpenAI 向州长 Greg Abbott 发送了一封信，概述了其对德克萨斯州负责任的人工智能基础设施的承诺。这封信支持有利于德克萨斯人的可靠、透明的增长。",
+        "bullets": [
+          "OpenAI 向州长 Greg Abbott 发送了一封信，概述了其对德克萨斯州负责任的人工智能基础设施的承诺。这封信支持有利于德克萨斯人的可靠、透明的增长。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 向州长 Greg Abbott 发送了一封信，概述了其对德克萨斯州负责任的人工智能基础设施的承诺。这封信支持有利于德克萨斯人的可靠、透明的增长。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/responsible-ai-infrastructure-texas"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 向州长 Greg Abbott 发送了一封信，概述了其对德克萨斯州负责任的人工智能基础设施的承诺。这封信支持有利于德克萨斯人的可靠、透明的增长。"
+      ],
+      "highlights": [
+        "OpenAI 向州长 Greg Abbott 发送了一封信，概述了其对德克萨斯州负责任的人工智能基础设施的承诺。这封信支持有利于德克萨斯人的可靠、透明的增长。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+      "originalLang": "en",
+      "date": "2026-08-10",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas"
+      },
+      "raw": {
+        "title": "OpenAI’s letter to Governor Abbott on responsible AI infrastructure in Texas",
+        "url": "https://openai.com/index/responsible-ai-infrastructure-texas",
+        "fetched": false,
+        "savedAt": "2026-08-10T22:34:16.816Z"
+      }
+    },
+    {
+      "id": "sig-c7b962b1d9",
+      "title": "Model ML借助GPT-5.6 Sol更高效地完成财务工作",
+      "oneLiner": "Model ML 使用 GPT-5.6 Sol 通过可编辑、可追踪的 PowerPoint 演示文稿和 Excel 工作簿进行研究和分析等财务工作。",
+      "summary": {
+        "oneSentence": "Model ML 使用 GPT-5.6 Sol 通过可编辑、可追踪的 PowerPoint 演示文稿和 Excel 工作簿进行研究和分析等财务工作。",
+        "bullets": [
+          "Model ML 使用 GPT-5.6 Sol 通过可编辑、可追踪的 PowerPoint 演示文稿和 Excel 工作簿进行研究和分析等财务工作。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：Model ML 使用 GPT-5.6 Sol 通过可编辑、可追踪的 PowerPoint 演示文稿和 Excel 工作簿进行研究和分析等财务工作。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/model-ml"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Model ML 使用 GPT-5.6 Sol 通过可编辑、可追踪的 PowerPoint 演示文稿和 Excel 工作簿进行研究和分析等财务工作。"
+      ],
+      "highlights": [
+        "Model ML 使用 GPT-5.6 Sol 通过可编辑、可追踪的 PowerPoint 演示文稿和 Excel 工作簿进行研究和分析等财务工作。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+      "originalLang": "en",
+      "date": "2026-08-10",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/model-ml",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Model ML completes finance work more efficiently with GPT-5.6 Sol"
+      },
+      "raw": {
+        "title": "Model ML completes finance work more efficiently with GPT-5.6 Sol",
+        "url": "https://openai.com/index/model-ml",
+        "fetched": false,
+        "savedAt": "2026-08-10T22:34:18.011Z"
+      }
+    },
+    {
+      "id": "sig-3a8585570c",
+      "title": "随着网络防御窗口的缩小，黎明时间的扩大",
+      "oneLiner": "了解 GPT-5.6-Cyber​​，这是 OpenAI 的网络安全特定模型，可通过 Daybreak Red 进行授权漏洞研究、漏洞利用验证和安全测试。",
+      "summary": {
+        "oneSentence": "了解 GPT-5.6-Cyber​​，这是 OpenAI 的网络安全特定模型，可通过 Daybreak Red 进行授权漏洞研究、漏洞利用验证和安全测试。",
+        "bullets": [
+          "了解 GPT-5.6-Cyber​​，这是 OpenAI 的网络安全特定模型，可通过 Daybreak Red 进行授权漏洞研究、漏洞利用验证和安全测试。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：了解 GPT-5.6-Cyber​​，这是 OpenAI 的网络安全特定模型，可通过 Daybreak Red 进行授权漏洞研究、漏洞利用验证和安全测试。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "了解 GPT-5.6-Cyber​​，这是 OpenAI 的网络安全特定模型，可通过 Daybreak Red 进行授权漏洞研究、漏洞利用验证和安全测试。"
+      ],
+      "highlights": [
+        "了解 GPT-5.6-Cyber​​，这是 OpenAI 的网络安全特定模型，可通过 Daybreak Red 进行授权漏洞研究、漏洞利用验证和安全测试。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Expanding Daybreak as the Cyber Defense Window Narrows",
+      "originalLang": "en",
+      "date": "2026-08-10",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Expanding Daybreak as the Cyber Defense Window Narrows"
+      },
+      "raw": {
+        "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
+        "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
+        "fetched": false,
+        "savedAt": "2026-08-10T22:34:19.192Z"
+      }
+    },
+    {
+      "id": "sig-7f776d7829",
+      "title": "将前沿网络模型交给更值得信赖的人",
+      "oneLiner": "经批准的 Daybreak 合作伙伴可以使用 OpenAI 的前沿网络模型为客户提供授权、受监管的网络安全服务。",
+      "summary": {
+        "oneSentence": "经批准的 Daybreak 合作伙伴可以使用 OpenAI 的前沿网络模型为客户提供授权、受监管的网络安全服务。",
+        "bullets": [
+          "经批准的 Daybreak 合作伙伴可以使用 OpenAI 的前沿网络模型为客户提供授权、受监管的网络安全服务。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：经批准的 Daybreak 合作伙伴可以使用 OpenAI 的前沿网络模型为客户提供授权、受监管的网络安全服务。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "经批准的 Daybreak 合作伙伴可以使用 OpenAI 的前沿网络模型为客户提供授权、受监管的网络安全服务。"
+      ],
+      "highlights": [
+        "经批准的 Daybreak 合作伙伴可以使用 OpenAI 的前沿网络模型为客户提供授权、受监管的网络安全服务。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Putting frontier cyber models in more trusted hands",
+      "originalLang": "en",
+      "date": "2026-08-10",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Putting frontier cyber models in more trusted hands"
+      },
+      "raw": {
+        "title": "Putting frontier cyber models in more trusted hands",
+        "url": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+        "fetched": false,
+        "savedAt": "2026-08-10T22:34:20.378Z"
+      }
+    },
+    {
+      "id": "sig-ee449db47d",
+      "title": "ChatGPT Business 即将推出高级席位",
+      "oneLiner": "ChatGPT Business 即将推出高级席位。在 8 月 20 日之前注册即可获得 100 美元的工作空间积分，并为您的团队最苛刻的工作解锁更高的使用率。",
+      "summary": {
+        "oneSentence": "ChatGPT Business 即将推出高级席位。在 8 月 20 日之前注册即可获得 100 美元的工作空间积分，并为您的团队最苛刻的工作解锁更高的使用率。",
+        "bullets": [
+          "ChatGPT Business 即将推出高级席位。在 8 月 20 日之前注册即可获得 100 美元的工作空间积分，并为您的团队最苛刻的工作解锁更高的使用率。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：ChatGPT Business 即将推出高级席位。在 8 月 20 日之前注册即可获得 100 美元的工作空间积分，并为您的团队最苛刻的工作解锁更高的使用率。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/premium-seats-chatgpt-business"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "ChatGPT Business 即将推出高级席位。在 8 月 20 日之前注册即可获得 100 美元的工作空间积分，并为您的团队最苛刻的工作解锁更高的使用率。"
+      ],
+      "highlights": [
+        "ChatGPT Business 即将推出高级席位。在 8 月 20 日之前注册即可获得 100 美元的工作空间积分，并为您的团队最苛刻的工作解锁更高的使用率。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Premium seats are coming to ChatGPT Business",
+      "originalLang": "en",
+      "date": "2026-08-10",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/premium-seats-chatgpt-business",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Premium seats are coming to ChatGPT Business"
+      },
+      "raw": {
+        "title": "Premium seats are coming to ChatGPT Business",
+        "url": "https://openai.com/index/premium-seats-chatgpt-business",
+        "fetched": false,
+        "savedAt": "2026-08-10T22:34:21.568Z"
+      }
+    },
+    {
+      "id": "sig-0adacc8f31",
+      "title": "Vercel 函数的 Bun 运行时现在接受 Bun.serve 作为入口点 - Vercel",
+      "oneLiner": "Vercel Functions 的 Bun 运行时现在支持 Bun.serve() 作为函数入口点，包括 WebSocket 处理程序。您使用 Bun 本地运行的服务器按原样部署，无需包装在框架中。",
+      "summary": {
+        "oneSentence": "Vercel Functions 的 Bun 运行时现在支持 Bun.serve() 作为函数入口点，包括 WebSocket 处理程序。您使用 Bun 本地运行的服务器按原样部署，无需包装在框架中。",
+        "bullets": [
+          "Vercel Functions 的 Bun 运行时现在支持 Bun.serve() 作为函数入口点，包括 WebSocket 处理程序。您使用 Bun 本地运行的服务器按原样部署，无需包装在框架中。",
+          "通过在 vercel.json 中设置 \"bunVersion\": \"1.x\" 来启用运行时。",
+          "将链接复制到标题部署基于路由的服务器在项目根目录下的 server.ts 中创建带有路由映射的服务器。",
+          "1 包子。 serve ( { 2 路由 : { 3 \"/api/boolean\" : ( ) => Response .json ( { success : true } ) , 4 \"/api/users/:id\" : ( request ) => Response .json ( { user : request"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel Functions 的 Bun 运行时现在支持 Bun.serve() 作为函数入口点，包括 WebSocket 处理程序。您使用 Bun 本地运行的服务器按原样部署，无需包装在框架中。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/bun-serve-entrypoint-for-vercel-functions"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Functions 的 Bun 运行时现在支持 Bun.serve() 作为函数入口点，包括 WebSocket 处理程序。您使用 Bun 本地运行的服务器按原样部署，无需包装在框架中。",
+        "通过在 vercel.json 中设置 \"bunVersion\": \"1.x\" 来启用运行时。",
+        "将链接复制到标题部署基于路由的服务器在项目根目录下的 server.ts 中创建带有路由映射的服务器。",
+        "1 包子。 serve ( { 2 路由 : { 3 \"/api/boolean\" : ( ) => Response .json ( { success : true } ) , 4 \"/api/users/:id\" : ( request ) => Response .json ( { user : request . params . id } ) , 5 \"/*\" : ( ) => new Response ( \"api catch-all\" ) , 6 } , 7 } );使用静态、动态和通配符路由部署到 Vercel 的 Bun.serve 服务器",
+        "将链接复制到标题接受 WebSocket 连接 添加 websocket 处理程序并在 fetch 中调用 server.upgrade(request) 来升级匹配的请求。服务器的其余部分保持不变。",
+        "1 包子。 serve ( { 2 路由 : { 3 \"/health\" : Response .json ( { status : \"ok\" } ) , 4 } , 5 fetch ( request , server ) { 6 const { pathname } = new URL ( request . url ) ; 7 if ( pathname === \"/ws\" && server .upgrade ( request ) ) { 8 return ; 9 } 10 return new响应（“未找到”，{状态：404}）；11}，12websocket：{13消息（套接字，消息）{14套接字.发送（消息）；15}，16}，17}）； Websocket 处理程序回显消息，并 fetch 将请求升级到 /ws 并回退到 404",
+        "WebSocket 连接在具有活动 CPU 定价的流体计算上运行，因此您只需为处理消息所花费的时间付费，而不是为空闲连接时间付费。一个连接在其生命周期内固定到一个函数实例，并且单个实例可以处理多个并发连接。使用外部数据存储来协调实例之间的消息。"
+      ],
+      "highlights": [
+        "Vercel Functions 的 Bun 运行时现在支持 Bun.serve() 作为函数入口点，包括 WebSocket 处理程序。您使用 Bun 本地运",
+        "通过在 vercel.json 中设置 \"bunVersion\": \"1.x\" 来启用运行时。",
+        "将链接复制到标题部署基于路由的服务器在项目根目录下的 server.ts 中创建带有路由映射的服务器。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Bun runtime for Vercel Functions now accepts Bun.serve as an entrypoint - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-10",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/bun-serve-entrypoint-for-vercel-functions",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Bun runtime for Vercel Functions now accepts Bun.serve as an entrypoint - Vercel"
+      },
+      "raw": {
+        "title": "Bun runtime for Vercel Functions now accepts Bun.serve as an entrypoint",
+        "url": "https://vercel.com/changelog/bun-serve-entrypoint-for-vercel-functions",
+        "fetched": true,
+        "savedAt": "2026-08-10T22:34:27.032Z"
+      }
+    },
     {
       "id": "sig-045b7da0ac",
       "title": "Grok Imagine Image 2.0 现已在 Vercel AI Gateway 上提供 - Vercel",
@@ -4062,7 +4843,7 @@
         "url": "https://cursor.com/changelog/google-workspace-plugins",
         "fetched": true,
         "savedAt": "2026-08-03T22:57:50.365Z",
-        "retranslatedAt": "2026-08-09T22:28:38.589Z"
+        "retranslatedAt": "2026-08-10T22:34:28.160Z"
       }
     },
     {
@@ -7427,7 +8208,7 @@
         "url": "https://cursor.com/changelog/ipad",
         "fetched": true,
         "savedAt": "2026-08-02T22:53:52.935Z",
-        "retranslatedAt": "2026-08-09T22:28:39.698Z"
+        "retranslatedAt": "2026-08-10T22:34:29.243Z"
       }
     },
     {
@@ -8342,7 +9123,7 @@
         "url": "https://cursor.com/changelog/cursor-start",
         "fetched": true,
         "savedAt": "2026-08-08T22:25:22.586Z",
-        "retranslatedAt": "2026-08-09T22:28:40.807Z"
+        "retranslatedAt": "2026-08-10T22:34:30.295Z"
       }
     },
     {
@@ -12860,7 +13641,7 @@
         "url": "https://cursor.com/changelog/slack-improvements",
         "fetched": true,
         "savedAt": "2026-07-27T07:34:20.673Z",
-        "retranslatedAt": "2026-08-09T22:28:41.880Z"
+        "retranslatedAt": "2026-08-10T22:34:31.349Z"
       }
     },
     {
