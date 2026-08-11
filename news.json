@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-10T22:34:32.153Z",
+  "updatedAt": "2026-08-11T22:39:07.673Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 184,
+  "itemCount": 194,
   "brief": {
-    "date": "2026-08-10",
-    "generatedAt": "2026-08-10T22:34:32.152Z",
-    "totalCount": 184,
-    "todayCount": 9,
-    "headline": "今日 AI 信号 9 条 · 档案共 184 条",
+    "date": "2026-08-11",
+    "generatedAt": "2026-08-11T22:39:07.672Z",
+    "totalCount": 194,
+    "todayCount": 10,
+    "headline": "今日 AI 信号 10 条 · 档案共 194 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -54,7 +54,7 @@
         "cur-cursor-agent",
         "cur-memory-agents",
         "sig-e41ad55864",
-        "sig-e5b07415f2"
+        "sig-1c2489bdbc"
       ],
       "newReleases": [
         "sig-468f50ae5e",
@@ -69,9 +69,9 @@
         "cur-cursor-agent",
         "cur-memory-agents",
         "sig-e41ad55864",
-        "sig-e5b07415f2",
-        "sig-7a678e9a26",
-        "sig-ae2292bf45"
+        "sig-1c2489bdbc",
+        "sig-7cefeac27c",
+        "sig-8e2920982f"
       ],
       "emergingTrends": [
         "cur-openai-agentkit",
@@ -112,8 +112,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-08-10T22:34:32.153Z",
-    "summary": "近 30 天共 184 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-08-11T22:39:07.673Z",
+    "summary": "近 30 天共 194 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Agent",
@@ -190,6 +190,42 @@
   },
   "productUpdates": [
     {
+      "id": "sig-dbc30e8614",
+      "title": "我们的研究型医疗人工智能系统 AMIE 在首次研究中展示了实时临床视频咨询功能。",
+      "oneLiner": "当你去看医生时，咨询的内容远远超出了言语的范围——医生会注意到咳嗽、观察步态或记录明显的不适迹象。如今，Google Research 和 Google DeepMind 正在将我们的研究型医疗 AI 系统 AMIE 推向实时临床视频咨询，",
+      "date": "2026-08-11",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google AI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-de2ca3d757",
+      "title": "在 ChatGPT 中测试广告",
+      "oneLiner": "OpenAI 开始在 ChatGPT 中测试广告，以支持免费访问，具有清晰的标签、答案独立性、强大的隐私保护和用户控制。",
+      "date": "2026-08-11",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-b274e00978",
+      "title": "Daybreak 模型现已在 AWS 上提供",
+      "oneLiner": "OpenAI 和 AWS 正在通过 Amazon Bedrock 提供 Daybreak 网络安全功能，以支持企业安全工作流程。",
+      "date": "2026-08-11",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
       "id": "sig-7a678e9a26",
       "title": "构建人工智能原生财务功能教会了我什么",
       "oneLiner": "OpenAI 首席财务官 Sarah Friar 分享了构建 AI 原生财务功能的五个经验教训，从自动预测到更强的控制和 AI 投资回报率。",
@@ -265,6 +301,18 @@
       "id": "sig-ee449db47d",
       "title": "ChatGPT Business 即将推出高级席位",
       "oneLiner": "ChatGPT Business 即将推出高级席位。在 8 月 20 日之前注册即可获得 100 美元的工作空间积分，并为您的团队最苛刻的工作解锁更高的使用率。",
+      "date": "2026-08-10",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-1ea3eea3d9",
+      "title": "Zapier 如何利用 ChatGPT Work 改变核心营销流程",
+      "oneLiner": "Zapier 的企业营销团队使用 ChatGPT Work 来减少其潜在客户漏斗中的流失数量、构建营销活动资产并自动生成报告。",
       "date": "2026-08-10",
       "productIds": [
         "chatgpt"
@@ -430,54 +478,6 @@
       "source": "Google AI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-54e616a32e",
-      "title": "Circles 利用 OpenAI 技术推动电信个性化",
-      "oneLiner": "Circles 使用 OpenAI API 和 Codex 来增强 AI 原生电信体验，将 ARPU 提高 22%，减少客户流失率 9%，并提高开发效率。",
-      "date": "2026-08-03",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-6d58997b46",
-      "title": "数学和理论计算机科学的十大进展",
-      "oneLiner": "OpenAI 分享了数学和理论计算机科学中长期存在的开放问题的新成果，包括几何、密码学和复杂性方面的进展。",
-      "date": "2026-08-01",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-b86dc435d6",
-      "title": "在整个欧洲推进负责任的人工智能",
-      "oneLiner": "OpenAI 分享其安全、保障、透明度和来源实践如何支持欧洲负责任的人工智能治理。随着欧盟人工智能法案的进展，这项工作将继续进行。",
-      "date": "2026-07-31",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-4879819590",
-      "title": "Univé 打造一支人工智能就绪的员工队伍",
-      "oneLiner": "了解 Univé 如何通过 ChatGPT Enterprise 结合领导力、负责任的治理和员工主导的创新来建立人工智能就绪的员工队伍，以大规模改变工作。",
-      "date": "2026-07-31",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
@@ -563,6 +563,730 @@
         "url": "https://vercel.com/blog/a-sandbox-without-a-network-boundary-is-only-half-a-sandbox",
         "fetched": true,
         "savedAt": "2026-08-10T22:33:59.577Z"
+      }
+    },
+    {
+      "id": "sig-1c2489bdbc",
+      "title": "Vercel Connect 增加了可观察性支持 - Vercel",
+      "oneLiner": "Vercel Connect 现在为团队提供了代币生命周期的线路级可见性。查看谁创建了令牌、哪个应用程序或项目使用了它、何时以及它是否仍然处于活动状态。",
+      "summary": {
+        "oneSentence": "Vercel Connect 现在为团队提供了代币生命周期的线路级可见性。查看谁创建了令牌、哪个应用程序或项目使用了它、何时以及它是否仍然处于活动状态。",
+        "bullets": [
+          "Vercel Connect 现在为团队提供了代币生命周期的线路级可见性。查看谁创建了令牌、哪个应用程序或项目使用了它、何时以及它是否仍然处于活动状态。",
+          "每个连接器的详细信息页面都包含一个新的可观察性选项卡：",
+          "运行时事件：每个令牌请求、授权、刷新、撤销和触发器传递，可按类型过滤。",
+          "关联ID：稳定的tokenId和authorizationId值链接每个令牌的事件，因此您可以将连接事件与您自己的系统相匹配。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel Connect 现在为团队提供了代币生命周期的线路级可见性。查看谁创建了令牌、哪个应用程序或项目使用了它、何时以及它是否仍然处于活动状态。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-connect-adds-observability-support"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Connect 现在为团队提供了代币生命周期的线路级可见性。查看谁创建了令牌、哪个应用程序或项目使用了它、何时以及它是否仍然处于活动状态。",
+        "每个连接器的详细信息页面都包含一个新的可观察性选项卡：",
+        "运行时事件：每个令牌请求、授权、刷新、撤销和触发器传递，可按类型过滤。",
+        "关联ID：稳定的tokenId和authorizationId值链接每个令牌的事件，因此您可以将连接事件与您自己的系统相匹配。",
+        "活动：活动过滤器按钮可打开预先过滤连接器配置事件的活动页面，以便您可以查看其更改的时间和方式。",
+        "连接可观察性适用于所有计划。事件在 Hobby 上保留 12 小时，在 Pro 上保留 3 天，在 Enterprise 上保留 30 天。要更长时间地保留事件，请通过在 Pro 和 Enterprise 计划上添加 Drain 将它们转发到自定义 Webhook 端点。企业团队还可以获得基于角色的访问控制和审核日志。",
+        "从连接器上的“可观测性”选项卡开始，或阅读文档。",
+        "Vercel Connect 处于测试阶段，适用于所有计划。功能和行为（包括可用的连接器和触发转发）可能会在全面上市之前发生变化。使用须遵守 Beta 协议和 Vercel Connect 条款。"
+      ],
+      "highlights": [
+        "Vercel Connect 现在为团队提供了代币生命周期的线路级可见性。查看谁创建了令牌、哪个应用程序或项目使用了它、何时以及它是否仍然处于活动状态。",
+        "每个连接器的详细信息页面都包含一个新的可观察性选项卡：",
+        "运行时事件：每个令牌请求、授权、刷新、撤销和触发器传递，可按类型过滤。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Connect adds observability support - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-11",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-connect-adds-observability-support",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Connect adds observability support - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Connect adds observability support",
+        "url": "https://vercel.com/changelog/vercel-connect-adds-observability-support",
+        "fetched": true,
+        "savedAt": "2026-08-11T22:38:05.724Z"
+      }
+    },
+    {
+      "id": "sig-7cefeac27c",
+      "title": "企业托管用户现已全面推出 - Vercel",
+      "oneLiner": "企业托管用户 (EMU) 使组织能够完全控制与其经过验证的域关联的 Vercel 帐户。它使组织的身份提供商成为身份验证和帐户生命周期的单一事实来源，因此公司域上的帐户受到集中管理，而不是由个人拥有。",
+      "summary": {
+        "oneSentence": "企业托管用户 (EMU) 使组织能够完全控制与其经过验证的域关联的 Vercel 帐户。它使组织的身份提供商成为身份验证和帐户生命周期的单一事实来源，因此公司域上的帐户受到集中管理，而不是由个人拥有。",
+        "bullets": [
+          "企业托管用户 (EMU) 使组织能够完全控制与其经过验证的域关联的 Vercel 帐户。它使组织的身份提供商成为身份验证和帐户生命周期的单一事实来源，因此公司域上的帐户受到集中管理，而不是由个人拥有。",
+          "IdP 强制登录：托管用户仅通过 SAML SSO 登录。所有其他登录方法（包括电子邮件 OTP、GitHub、Google 和 GitLab）不再适用于托管帐户。",
+          "SCIM 配置和生命周期：Directory Sync 自动创建、更新和取消配置托管用户，使帐户与您的 IdP 保持同步。",
+          "由您的组织拥有：配置文件设置通过您的 IdP 而不是由个人管理。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：企业托管用户 (EMU) 使组织能够完全控制与其经过验证的域关联的 Vercel 帐户。它使组织的身份提供商成为身份验证和帐户生命周期的单一事实来源，因此公司域上的帐户受到集中管理，而不是由个人拥有。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/enterprise-managed-users"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "企业托管用户 (EMU) 使组织能够完全控制与其经过验证的域关联的 Vercel 帐户。它使组织的身份提供商成为身份验证和帐户生命周期的单一事实来源，因此公司域上的帐户受到集中管理，而不是由个人拥有。",
+        "IdP 强制登录：托管用户仅通过 SAML SSO 登录。所有其他登录方法（包括电子邮件 OTP、GitHub、Google 和 GitLab）不再适用于托管帐户。",
+        "SCIM 配置和生命周期：Directory Sync 自动创建、更新和取消配置托管用户，使帐户与您的 IdP 保持同步。",
+        "由您的组织拥有：配置文件设置通过您的 IdP 而不是由个人管理。",
+        "自助服务启用：在“安全和隐私”下的“团队设置”中为已验证的域启用 EMU，并一步将其扩展到多个符合条件的团队。",
+        "需要企业计划、强制 SAML SSO、Active Directory 同步和至少一个经过验证的域。",
+        "爱好团队过渡：在新管理的域上拥有现有个人帐户的成员将被引导添加个人电子邮件（保留他们的爱好项目）或删除帐户，然后通过 SSO 继续工作。",
+        "自动转换：没有内容或活动的个人帐户会自动存档，其所有者在下次 SSO 登录时会进入新的托管帐户。",
+        "要请求访问权限，请联系您的客户团队。",
+        "请参阅企业托管用户和业余爱好团队过渡文档了解更多信息。"
+      ],
+      "highlights": [
+        "企业托管用户 (EMU) 使组织能够完全控制与其经过验证的域关联的 Vercel 帐户。它使组织的身份提供商成为身份验证和帐户生命周期的单一事实来源，因此公司域",
+        "IdP 强制登录：托管用户仅通过 SAML SSO 登录。所有其他登录方法（包括电子邮件 OTP、GitHub、Google 和 GitLab）不再适用于托管帐",
+        "SCIM 配置和生命周期：Directory Sync 自动创建、更新和取消配置托管用户，使帐户与您的 IdP 保持同步。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Enterprise Managed Users is now generally available - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-11",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/enterprise-managed-users",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Enterprise Managed Users is now generally available - Vercel"
+      },
+      "raw": {
+        "title": "Enterprise Managed Users is now generally available",
+        "url": "https://vercel.com/changelog/enterprise-managed-users",
+        "fetched": true,
+        "savedAt": "2026-08-11T22:38:17.014Z"
+      }
+    },
+    {
+      "id": "sig-8e2920982f",
+      "title": "测量 Figma Make 节省的时间 | Figma 博客",
+      "oneLiner": "Figma 数据科学团队认为人工智能可以节省用户时间，但量化它需要一种新的研究设计方法。",
+      "summary": {
+        "oneSentence": "Figma 数据科学团队认为人工智能可以节省用户时间，但量化它需要一种新的研究设计方法。",
+        "bullets": [
+          "Figma 数据科学团队认为人工智能可以节省用户时间，但量化它需要一种新的研究设计方法。",
+          "Figma Make 等 AI 工具 Prompt、原型、完美：Figma Make 现已向所有用户开放 今天，所有 Figma AI 功能和产品都已退出测试版，包括 Figma Make，现在可供所有人试用。以下是团队如何使用提示应用程序工具来实现更大的梦想、更快地行动并更好地合作。",
+          "总体而言，使用 Figma Make，设计工作速度加快了 20%，轻松了 16%。产品经理看到了最大的好处：任务速度加快了 23%，轻松了 37%。",
+          "因此，我们设计了一项随机对照试验，要求 100 名参与者在使用和不使用 Figma Make 的情况下完成任务。在这里，我们分享更多关于我们如何设计这项研究以及我们发现的结果的细节。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Figma 官网发布：Figma 数据科学团队认为人工智能可以节省用户时间，但量化它需要一种新的研究设计方法。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://www.figma.com/blog/measuring-time-savings-from-figma-make/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Figma 数据科学团队认为人工智能可以节省用户时间，但量化它需要一种新的研究设计方法。",
+        "Figma Make 等 AI 工具 Prompt、原型、完美：Figma Make 现已向所有用户开放 今天，所有 Figma AI 功能和产品都已退出测试版，包括 Figma Make，现在可供所有人试用。以下是团队如何使用提示应用程序工具来实现更大的梦想、更快地行动并更好地合作。",
+        "总体而言，使用 Figma Make，设计工作速度加快了 20%，轻松了 16%。产品经理看到了最大的好处：任务速度加快了 23%，轻松了 37%。",
+        "因此，我们设计了一项随机对照试验，要求 100 名参与者在使用和不使用 Figma Make 的情况下完成任务。在这里，我们分享更多关于我们如何设计这项研究以及我们发现的结果的细节。",
+        "由于存在混杂因素，衡量人工智能使用所节省的时间之类的事情很棘手：其他变量也会影响任务所需的时间。工作任期、职业经验和任务复杂性都是例子。无论人工智能如何，每个人都会影响一个人的工作速度。大多数日常统计方法无法解释此类混杂因素。因此，如果不控制它们，我们就无法判断生产力的变化有多少真正是由于人工智能而不是其他因素造成的。",
+        "当谈到混杂因素时，两种常见的数据科学方法——在线 A/B 测试和数据日志因果推理——都有其局限性。",
+        "想象一下，我们为一组测试用户提供了Figma Make，并为另一组关闭了它。然后，我们将测量 A 组与 B 组完成设计任务所需的时间。但是，即使这在理论上随机化了混杂因素，但主要问题是我们无法控制每个用户正在执行的特定任务以确保它们同样复杂。",
+        "因果推断是一组统计方法，用于确定一个变量是否确实导致另一个变量的变化，而不仅仅是与之相关。",
+        "或者，想象一下，我们想要回顾日志数据，看看用户在使用人工智能功能时和不使用人工智能功能时平均花在设计任务上的时间有多少。我们可以使用几种因果推理方法来尝试确定人工智能的使用对结果的影响程度，同时控制混杂因素。但这两者都没有真正达到我们的目的。",
+        "倾向得分匹配（PSM）是一种根据观察数据估计因果效应的方法。对于每个数据点（在我们的例子中，是日志中的每个设计任务），您可以估计“倾向得分”：考虑到其观察到的特征，它属于治疗体验（在我们的例子中是人工智能使用）的概率。但这依赖于日志数据中包含所有混杂因素。我们的情况并非如此；例如，匿名用户 ID 无法告诉我们有关某人的主观设计体验的任何信息。"
+      ],
+      "highlights": [
+        "Figma 数据科学团队认为人工智能可以节省用户时间，但量化它需要一种新的研究设计方法。",
+        "Figma Make 等 AI 工具 Prompt、原型、完美：Figma Make 现已向所有用户开放 今天，所有 Figma AI 功能和产品都已退出测试版",
+        "总体而言，使用 Figma Make，设计工作速度加快了 20%，轻松了 16%。产品经理看到了最大的好处：任务速度加快了 23%，轻松了 37%。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Measuring Time Savings From Figma Make | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-08-11",
+      "categoryIds": [
+        "vertical-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/measuring-time-savings-from-figma-make/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Measuring Time Savings From Figma Make | Figma Blog"
+      },
+      "raw": {
+        "title": "Measuring time savings from Figma Make",
+        "url": "https://www.figma.com/blog/measuring-time-savings-from-figma-make/",
+        "fetched": true,
+        "savedAt": "2026-08-11T22:38:26.403Z"
+      }
+    },
+    {
+      "id": "sig-9aeb050f5a",
+      "title": "Vercel Connect 现在支持 100 多个连接器的 CLI 设置 - Vercel",
+      "oneLiner": "您现在可以从 CLI 通过 Vercel Connect 集成 100 多种服务。以前，vercel connect 在终端中为某些服务创建完整的设置，并为其他所有内容打开仪表板。",
+      "summary": {
+        "oneSentence": "您现在可以从 CLI 通过 Vercel Connect 集成 100 多种服务。以前，vercel connect 在终端中为某些服务创建完整的设置，并为其他所有内容打开仪表板。",
+        "bullets": [
+          "您现在可以从 CLI 通过 Vercel Connect 集成 100 多种服务。以前，vercel connect 在终端中为某些服务创建完整的设置，并为其他所有内容打开仪表板。",
+          "传递服务名称以创建连接器，然后将其附加到您的项目：",
+          "vercel connect create shopify -- name acme - shop vercel connect Attach shopify / acme - shop --project my-app --environment production 使用 Vercel CLI 添加 Shopify",
+          "CLI 预先填充品牌名称、图标、身份验证类型和 MCP 或发现 URL，然后提示输入服务所需的任何凭据并创建连接器。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：您现在可以从 CLI 通过 Vercel Connect 集成 100 多种服务。以前，vercel connect 在终端中为某些服务创建完整的设置，并为其他所有内容打开仪表板。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-cli-100-services"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "您现在可以从 CLI 通过 Vercel Connect 集成 100 多种服务。以前，vercel connect 在终端中为某些服务创建完整的设置，并为其他所有内容打开仪表板。",
+        "传递服务名称以创建连接器，然后将其附加到您的项目：",
+        "vercel connect create shopify -- name acme - shop vercel connect Attach shopify / acme - shop --project my-app --environment production 使用 Vercel CLI 添加 Shopify 连接器",
+        "CLI 预先填充品牌名称、图标、身份验证类型和 MCP 或发现 URL，然后提示输入服务所需的任何凭据并创建连接器。",
+        "连接连接器后，使用其 UID ( service/name ) 调用 getToken 来向提供者请求一个短期的、有作用域的令牌：",
+        "1 从 '@vercel/connect' 导入 { getToken } ； 2 3 const token = wait getToken( 'shopify/acme-shop' , { 4 主题 : { type : 'app' } , 5 范围 : [ 'write_products' ] , 6 } ) ; 7 8 等待获取 ( ` https://acme.myshopify.com/admin/api/2026-01/graphql.json ` , { 9 方法 : 'POST' , 10 headers : { 11 'X-Shopify-Access-Token' : token , 12 'Content-Type' : 'application/json' , 13 } , 14 body : JSON 。 stringify ( { 15 查询 : ` 突变 { 16 ProductUpdate(产品: { id: \"gid://shopify/Product/123\", title: \"补货: Acme Mug\" }) { 17 产品 { id } 18 } 19 } ` , 20 } ) , 21 } ) ;使用 Vercel Connect 凭证更新 Shopify 商店中的产品",
+        "通过浏览连接器目录或阅读 CLI 参考开始。",
+        "Vercel Connect 处于测试阶段，适用于所有计划。功能和行为（包括可用的连接器和触发转发）可能会在全面上市之前发生变化。使用须遵守 Beta 协议和 Vercel Connect 条款。"
+      ],
+      "highlights": [
+        "您现在可以从 CLI 通过 Vercel Connect 集成 100 多种服务。以前，vercel connect 在终端中为某些服务创建完整的设置，并为其他",
+        "传递服务名称以创建连接器，然后将其附加到您的项目：",
+        "vercel connect create shopify -- name acme - shop vercel connect Attach shopify "
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Connect now supports CLI setup for 100+ connectors - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-11",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-cli-100-services",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Connect now supports CLI setup for 100+ connectors - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Connect now supports CLI setup for 100+ connectors",
+        "url": "https://vercel.com/changelog/vercel-cli-100-services",
+        "fetched": true,
+        "savedAt": "2026-08-11T22:38:36.176Z"
+      }
+    },
+    {
+      "id": "sig-dbc30e8614",
+      "title": "我们的研究型医疗人工智能系统 AMIE 在首次研究中展示了实时临床视频咨询功能。",
+      "oneLiner": "当你去看医生时，咨询的内容远远超出了言语的范围——医生会注意到咳嗽、观察步态或记录明显的不适迹象。如今，Google Research 和 Google DeepMind 正在将我们的研究型医疗 AI 系统 AMIE 推向实时临床视频咨询，",
+      "summary": {
+        "oneSentence": "当你去看医生时，咨询的内容远远超出了言语的范围——医生会注意到咳嗽、观察步态或记录明显的不适迹象。如今，Google Research 和 Google DeepMind 正在将我们的研究型医疗 AI 系统 AMIE 推向实时临床视频咨询，",
+        "bullets": [
+          "当你去看医生时，咨询的内容远远超出了言语的范围——医生会注意到咳嗽、观察步态或记录明显的不适迹象。如今，Google Research 和 Google DeepMind 正在将我们的研究型医疗 AI 系统 AMIE 推向实时临床视频咨询，并在此环境中首次展示了专家级 AI 功能。 AMIE 基于 Gemini 和 P",
+          "在一项使用与患者参与者和一组初级保健医生进行模拟咨询的随机研究中，临床评估人员对 AMIE 的核心临床能力进行了积极评价，包括病史采集的彻底性、诊断的准确性、管理的适当性和沟通质量。与文字聊天相比，耐心的演员也更喜欢视频体验。",
+          "AMIE 仍然是一个研究系统，在负责任的实际临床部署之前还需要进行更多研究，但它为健康人工智能的未来提供了令人兴奋的一瞥。在 Google 研究博客上了解更多信息。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google AI 官网发布：当你去看医生时，咨询的内容远远超出了言语的范围——医生会注意到咳嗽、观察步态或记录明显的不适迹象。如今，Google Research 和 Google DeepMind 正在将我们的研究型医疗 AI 系统 AMIE 推向实时临床视频咨询，",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "当你去看医生时，咨询的内容远远超出了言语的范围——医生会注意到咳嗽、观察步态或记录明显的不适迹象。如今，Google Research 和 Google DeepMind 正在将我们的研究型医疗 AI 系统 AMIE 推向实时临床视频咨询，并在此环境中首次展示了专家级 AI 功能。 AMIE 基于 Gemini 和 Project Astra 使用多代理架构构建，现在可以解释视觉和听觉线索，指导虚拟体检，并实时进行诊断推理。",
+        "在一项使用与患者参与者和一组初级保健医生进行模拟咨询的随机研究中，临床评估人员对 AMIE 的核心临床能力进行了积极评价，包括病史采集的彻底性、诊断的准确性、管理的适当性和沟通质量。与文字聊天相比，耐心的演员也更喜欢视频体验。",
+        "AMIE 仍然是一个研究系统，在负责任的实际临床部署之前还需要进行更多研究，但它为健康人工智能的未来提供了令人兴奋的一瞥。在 Google 研究博客上了解更多信息。"
+      ],
+      "highlights": [
+        "当你去看医生时，咨询的内容远远超出了言语的范围——医生会注意到咳嗽、观察步态或记录明显的不适迹象。如今，Google Research 和 Google Dee",
+        "在一项使用与患者参与者和一组初级保健医生进行模拟咨询的随机研究中，临床评估人员对 AMIE 的核心临床能力进行了积极评价，包括病史采集的彻底性、诊断的准确性、管",
+        "AMIE 仍然是一个研究系统，在负责任的实际临床部署之前还需要进行更多研究，但它为健康人工智能的未来提供了令人兴奋的一瞥。在 Google 研究博客上了解更多信"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
+      "originalLang": "en",
+      "date": "2026-08-11",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study."
+      },
+      "raw": {
+        "title": "AMIE, our research medical AI system, demonstrates real-time clinical video consultation capabilities in a first-of-its-kind study.",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations/",
+        "fetched": true,
+        "savedAt": "2026-08-11T22:38:39.146Z"
+      }
+    },
+    {
+      "id": "sig-de2ca3d757",
+      "title": "在 ChatGPT 中测试广告",
+      "oneLiner": "OpenAI 开始在 ChatGPT 中测试广告，以支持免费访问，具有清晰的标签、答案独立性、强大的隐私保护和用户控制。",
+      "summary": {
+        "oneSentence": "OpenAI 开始在 ChatGPT 中测试广告，以支持免费访问，具有清晰的标签、答案独立性、强大的隐私保护和用户控制。",
+        "bullets": [
+          "OpenAI 开始在 ChatGPT 中测试广告，以支持免费访问，具有清晰的标签、答案独立性、强大的隐私保护和用户控制。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 开始在 ChatGPT 中测试广告，以支持免费访问，具有清晰的标签、答案独立性、强大的隐私保护和用户控制。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/testing-ads-in-chatgpt"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 开始在 ChatGPT 中测试广告，以支持免费访问，具有清晰的标签、答案独立性、强大的隐私保护和用户控制。"
+      ],
+      "highlights": [
+        "OpenAI 开始在 ChatGPT 中测试广告，以支持免费访问，具有清晰的标签、答案独立性、强大的隐私保护和用户控制。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Testing ads in ChatGPT",
+      "originalLang": "en",
+      "date": "2026-08-11",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/testing-ads-in-chatgpt",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Testing ads in ChatGPT"
+      },
+      "raw": {
+        "title": "Testing ads in ChatGPT",
+        "url": "https://openai.com/index/testing-ads-in-chatgpt",
+        "fetched": false,
+        "savedAt": "2026-08-11T22:38:40.336Z"
+      }
+    },
+    {
+      "id": "sig-b274e00978",
+      "title": "Daybreak 模型现已在 AWS 上提供",
+      "oneLiner": "OpenAI 和 AWS 正在通过 Amazon Bedrock 提供 Daybreak 网络安全功能，以支持企业安全工作流程。",
+      "summary": {
+        "oneSentence": "OpenAI 和 AWS 正在通过 Amazon Bedrock 提供 Daybreak 网络安全功能，以支持企业安全工作流程。",
+        "bullets": [
+          "OpenAI 和 AWS 正在通过 Amazon Bedrock 提供 Daybreak 网络安全功能，以支持企业安全工作流程。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 和 AWS 正在通过 Amazon Bedrock 提供 Daybreak 网络安全功能，以支持企业安全工作流程。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/daybreak-models-are-now-available-on-aws"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 和 AWS 正在通过 Amazon Bedrock 提供 Daybreak 网络安全功能，以支持企业安全工作流程。"
+      ],
+      "highlights": [
+        "OpenAI 和 AWS 正在通过 Amazon Bedrock 提供 Daybreak 网络安全功能，以支持企业安全工作流程。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Daybreak models are now available on AWS",
+      "originalLang": "en",
+      "date": "2026-08-11",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Daybreak models are now available on AWS"
+      },
+      "raw": {
+        "title": "Daybreak models are now available on AWS",
+        "url": "https://openai.com/index/daybreak-models-are-now-available-on-aws",
+        "fetched": false,
+        "savedAt": "2026-08-11T22:38:41.536Z"
+      }
+    },
+    {
+      "id": "sig-27f5596243",
+      "title": "一切可被黑客攻击的东西都会被黑客攻击",
+      "oneLiner": "在过去的一年里，人工智能模型执行网络安全工作的能力大大增强。这些变化正在重塑网络面临的威胁以及可用于防御网络的工具。目前，防守者具有优势，因为他们可以使用比广泛用于进攻研究的开放权重模型更强大的模型来进行防守工作。但这种优势不会永远持续下去",
+      "summary": {
+        "oneSentence": "在过去的一年里，人工智能模型执行网络安全工作的能力大大增强。这些变化正在重塑网络面临的威胁以及可用于防御网络的工具。目前，防守者具有优势，因为他们可以使用比广泛用于进攻研究的开放权重模型更强大的模型来进行防守工作。但这种优势不会永远持续下去",
+        "bullets": [
+          "在过去的一年里，人工智能模型执行网络安全工作的能力大大增强。这些变化正在重塑网络面临的威胁以及可用于防御网络的工具。目前，防守者具有优势，因为他们可以使用比广泛用于进攻研究的开放权重模型更强大的模型来进行防守工作。但这种优势不会永远持续下去。差距很快就会缩小。",
+          "我有好消息和坏消息，但这两个消息都尚未在社区中得到广泛理解。",
+          "坏消息：执行进攻性安全研究的近前沿开放重量模型现已推出。 Kimi K3是Opus 4.X级型号，没有相关的网络安全保障措施。",
+          "好消息：您无需等待“Mythos access”或 OpenAI 的网络程序即可开始防御性网络安全工作。除了《神鬼寓言 5》之外，前沿模型今天都将执行防御性网络安全任务。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：在过去的一年里，人工智能模型执行网络安全工作的能力大大增强。这些变化正在重塑网络面临的威胁以及可用于防御网络的工具。目前，防守者具有优势，因为他们可以使用比广泛用于进攻研究的开放权重模型更强大的模型来进行防守工作。但这种优势不会永远持续下去",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/everything-hackable-will-get-hacked"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "在过去的一年里，人工智能模型执行网络安全工作的能力大大增强。这些变化正在重塑网络面临的威胁以及可用于防御网络的工具。目前，防守者具有优势，因为他们可以使用比广泛用于进攻研究的开放权重模型更强大的模型来进行防守工作。但这种优势不会永远持续下去。差距很快就会缩小。",
+        "我有好消息和坏消息，但这两个消息都尚未在社区中得到广泛理解。",
+        "坏消息：执行进攻性安全研究的近前沿开放重量模型现已推出。 Kimi K3是Opus 4.X级型号，没有相关的网络安全保障措施。",
+        "好消息：您无需等待“Mythos access”或 OpenAI 的网络程序即可开始防御性网络安全工作。除了《神鬼寓言 5》之外，前沿模型今天都将执行防御性网络安全任务。",
+        "Mythos 5 发布的不确定性似乎在维护者中造成了某种瘫痪，他们中的许多人没有充分利用当今可用的强大工具。这篇文章旨在让读者深入了解我们如何思考 Vercel 支持人工智能的防御性网络安全，以及为什么我们认为团队应该更加紧迫地采取行动。",
+        "将链接复制到标题 OpenAI/Hugging Face 安全事件 OpenAI 研究人员制作的这段 YouTube 视频涉及广泛报道的涉及 Hugging Face 的安全事件，对于任何关心网络安全的人来说，绝对是必看的。它澄清了存在两起利用大多数计算机系统中存在的漏洞的独立安全事件。"
+      ],
+      "highlights": [
+        "在过去的一年里，人工智能模型执行网络安全工作的能力大大增强。这些变化正在重塑网络面临的威胁以及可用于防御网络的工具。目前，防守者具有优势，因为他们可以使用比广泛",
+        "我有好消息和坏消息，但这两个消息都尚未在社区中得到广泛理解。",
+        "坏消息：执行进攻性安全研究的近前沿开放重量模型现已推出。 Kimi K3是Opus 4.X级型号，没有相关的网络安全保障措施。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Everything hackable will get hacked",
+      "originalLang": "en",
+      "date": "2026-08-11",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/everything-hackable-will-get-hacked",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Everything hackable will get hacked"
+      },
+      "raw": {
+        "title": "Everything hackable will get hacked",
+        "url": "https://vercel.com/blog/everything-hackable-will-get-hacked",
+        "fetched": true,
+        "savedAt": "2026-08-11T22:38:49.843Z"
+      }
+    },
+    {
+      "id": "sig-eaebbcb03f",
+      "title": "LaunchDarkly 现已在 Vercel 市场上提供 - Vercel",
+      "oneLiner": "LaunchDarkly 现已在 Vercel Marketplace 上提供，让您无需额外设置即可快速开始使用功能标志。你可以：",
+      "summary": {
+        "oneSentence": "LaunchDarkly 现已在 Vercel Marketplace 上提供，让您无需额外设置即可快速开始使用功能标志。你可以：",
+        "bullets": [
+          "LaunchDarkly 现已在 Vercel Marketplace 上提供，让您无需额外设置即可快速开始使用功能标志。你可以：",
+          "将标志同步到全局配置并在本地评估它们",
+          "按用户、属性或细分进行目标发布",
+          "使用指标运行实验，并使用终止开关回滚"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：LaunchDarkly 现已在 Vercel Marketplace 上提供，让您无需额外设置即可快速开始使用功能标志。你可以：",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/launchdarkly-is-now-available-on-the-vercel-marketplace"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "LaunchDarkly 现已在 Vercel Marketplace 上提供，让您无需额外设置即可快速开始使用功能标志。你可以：",
+        "将标志同步到全局配置并在本地评估它们",
+        "按用户、属性或细分进行目标发布",
+        "使用指标运行实验，并使用终止开关回滚",
+        "使用标志资源管理器查看和覆盖 Vercel 工具栏中的标志",
+        "首先，运行 vercel install launchdarkly ，添加 @flags-sdk/launchdarkly 适配器，并使用 Flags SDK 声明一个标志：",
+        "flags.ts 1 从 \"flags/next\" 导入 { flag } ； 2 从“@flags-sdk/launchdarkly”导入{ ldAdapter , type LDContext } ； 3 4 导出 const exampleFlag = flag < boolean , LDContext > ( { 5 key : \"example-flag\" , 6 识别 : ( ) => ( { key : \"user-123\" } ) , 7 适配器​​ : ldAdapter .variation ( ) , 8 } ) ;使用 LaunchDarkly 适配器声明的功能标志",
+        "使用编码剂？递给它这个提示：",
+        "复制提示 使用 Vercel 的 Flags SDK 在此项目中设置 LaunchDarkly 功能标志。参考：https://flags-sdk.dev/providers/launchdarkly 该项目通过 Vercel Marketplace 集成连接到 LaunchDarkly。适配器从环境中读取 LAUNCHDARKLY_CLIENT_SIDE_ID、LAUNCHDARKLY_PROJECT_SLUG 和 EXPERIMENTATION_CONFIG。运行 vercel env pull 以在本地获取它们，并使用 LaunchDarkly 仪表板中的值设置任何缺少的内容。安装@flags-sdk/launchdarkly。使用 flags/next 中的 flag() 和适配器 ldAdapter.variation() 声明 flags.ts 中的每个标志，以及一个从 cookie 或标头构建 LDContext 的识别函数，而无需进行网络调用。标志键必须与 LaunchDarkly 中存在的标志相匹配。通过在服务器组件或路由处理程序中等待标志来评估服务器端标志，并将新功能置于标志后面。",
+        "从 Vercel Marketplace 添加 LaunchDarkly，或阅读适配器文档 。"
+      ],
+      "highlights": [
+        "LaunchDarkly 现已在 Vercel Marketplace 上提供，让您无需额外设置即可快速开始使用功能标志。你可以：",
+        "将标志同步到全局配置并在本地评估它们",
+        "按用户、属性或细分进行目标发布"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "LaunchDarkly is now available on the Vercel Marketplace - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-11",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/launchdarkly-is-now-available-on-the-vercel-marketplace",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "LaunchDarkly is now available on the Vercel Marketplace - Vercel"
+      },
+      "raw": {
+        "title": "LaunchDarkly is now available on the Vercel Marketplace",
+        "url": "https://vercel.com/changelog/launchdarkly-is-now-available-on-the-vercel-marketplace",
+        "fetched": true,
+        "savedAt": "2026-08-11T22:39:01.035Z"
       }
     },
     {
@@ -1260,6 +1984,80 @@
         "url": "https://vercel.com/changelog/bun-serve-entrypoint-for-vercel-functions",
         "fetched": true,
         "savedAt": "2026-08-10T22:34:27.032Z"
+      }
+    },
+    {
+      "id": "sig-1ea3eea3d9",
+      "title": "Zapier 如何利用 ChatGPT Work 改变核心营销流程",
+      "oneLiner": "Zapier 的企业营销团队使用 ChatGPT Work 来减少其潜在客户漏斗中的流失数量、构建营销活动资产并自动生成报告。",
+      "summary": {
+        "oneSentence": "Zapier 的企业营销团队使用 ChatGPT Work 来减少其潜在客户漏斗中的流失数量、构建营销活动资产并自动生成报告。",
+        "bullets": [
+          "Zapier 的企业营销团队使用 ChatGPT Work 来减少其潜在客户漏斗中的流失数量、构建营销活动资产并自动生成报告。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：Zapier 的企业营销团队使用 ChatGPT Work 来减少其潜在客户漏斗中的流失数量、构建营销活动资产并自动生成报告。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/zapier"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Zapier 的企业营销团队使用 ChatGPT Work 来减少其潜在客户漏斗中的流失数量、构建营销活动资产并自动生成报告。"
+      ],
+      "highlights": [
+        "Zapier 的企业营销团队使用 ChatGPT Work 来减少其潜在客户漏斗中的流失数量、构建营销活动资产并自动生成报告。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How Zapier transformed core marketing processes with ChatGPT Work",
+      "originalLang": "en",
+      "date": "2026-08-10",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/zapier",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How Zapier transformed core marketing processes with ChatGPT Work"
+      },
+      "raw": {
+        "title": "How Zapier transformed core marketing processes with ChatGPT Work",
+        "url": "https://openai.com/index/zapier",
+        "fetched": false,
+        "savedAt": "2026-08-11T22:39:02.221Z"
       }
     },
     {
@@ -4843,7 +5641,7 @@
         "url": "https://cursor.com/changelog/google-workspace-plugins",
         "fetched": true,
         "savedAt": "2026-08-03T22:57:50.365Z",
-        "retranslatedAt": "2026-08-10T22:34:28.160Z"
+        "retranslatedAt": "2026-08-11T22:39:03.567Z"
       }
     },
     {
@@ -8208,7 +9006,7 @@
         "url": "https://cursor.com/changelog/ipad",
         "fetched": true,
         "savedAt": "2026-08-02T22:53:52.935Z",
-        "retranslatedAt": "2026-08-10T22:34:29.243Z"
+        "retranslatedAt": "2026-08-11T22:39:04.731Z"
       }
     },
     {
@@ -9123,7 +9921,7 @@
         "url": "https://cursor.com/changelog/cursor-start",
         "fetched": true,
         "savedAt": "2026-08-08T22:25:22.586Z",
-        "retranslatedAt": "2026-08-10T22:34:30.295Z"
+        "retranslatedAt": "2026-08-11T22:39:05.862Z"
       }
     },
     {
@@ -13641,7 +14439,7 @@
         "url": "https://cursor.com/changelog/slack-improvements",
         "fetched": true,
         "savedAt": "2026-07-27T07:34:20.673Z",
-        "retranslatedAt": "2026-08-10T22:34:31.349Z"
+        "retranslatedAt": "2026-08-11T22:39:06.870Z"
       }
     },
     {
