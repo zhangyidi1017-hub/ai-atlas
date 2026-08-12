@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-11T22:39:07.673Z",
+  "updatedAt": "2026-08-12T22:37:57.178Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 194,
+  "itemCount": 204,
   "brief": {
-    "date": "2026-08-11",
-    "generatedAt": "2026-08-11T22:39:07.672Z",
-    "totalCount": 194,
-    "todayCount": 10,
-    "headline": "今日 AI 信号 10 条 · 档案共 194 条",
+    "date": "2026-08-12",
+    "generatedAt": "2026-08-12T22:37:57.177Z",
+    "totalCount": 204,
+    "todayCount": 8,
+    "headline": "今日 AI 信号 8 条 · 档案共 204 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -40,10 +40,10 @@
         "readMinutes": 5
       },
       {
-        "id": "sig-e41ad55864",
-        "title": "没有网络边界的沙箱只是沙箱的一半",
+        "id": "sig-f5d9b5f669",
+        "title": "将手语人工智能交到用户手中",
         "stars": 4,
-        "oneLiner": "安全地运行不受信任的代码需要的不仅仅是将其与主机分离。您还必须控制该代码可以达到的范围。",
+        "oneLiner": "推出手语转文本 (SL2T)，这是我们的突破性模型，为聋哑和听力障碍用户提供新的手语功能。",
         "readMinutes": 5
       }
     ],
@@ -53,8 +53,8 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "sig-e41ad55864",
-        "sig-1c2489bdbc"
+        "sig-f5d9b5f669",
+        "sig-df84a063a1"
       ],
       "newReleases": [
         "sig-468f50ae5e",
@@ -68,10 +68,10 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "sig-e41ad55864",
-        "sig-1c2489bdbc",
-        "sig-7cefeac27c",
-        "sig-8e2920982f"
+        "sig-f5d9b5f669",
+        "sig-df84a063a1",
+        "sig-fb21820d80",
+        "sig-53427c0161"
       ],
       "emergingTrends": [
         "cur-openai-agentkit",
@@ -112,8 +112,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-08-11T22:39:07.673Z",
-    "summary": "近 30 天共 194 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-08-12T22:37:57.178Z",
+    "summary": "近 30 天共 204 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Agent",
@@ -189,6 +189,42 @@
     ]
   },
   "productUpdates": [
+    {
+      "id": "sig-f5d9b5f669",
+      "title": "将手语人工智能交到用户手中",
+      "oneLiner": "推出手语转文本 (SL2T)，这是我们的突破性模型，为聋哑和听力障碍用户提供新的手语功能。",
+      "date": "2026-08-12",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google DeepMind",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-fb21820d80",
+      "title": "从协助到执行：企业如何让AI发挥作用",
+      "oneLiner": "OpenAI 研究揭示了企业如何利用 ChatGPT 和 Codex 采用代理人工智能，以及前沿公司如何在人工智能采用方面取得领先。",
+      "date": "2026-08-12",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-cad35e6294",
+      "title": "RingCentral 如何构建从工程到运营的 AI 原生工作",
+      "oneLiner": "了解 RingCentral 如何使用 ChatGPT Work 和 Codex 来加速 AI 产品开发并集中整个工程和运营的运营智能。",
+      "date": "2026-08-12",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
     {
       "id": "sig-dbc30e8614",
       "title": "我们的研究型医疗人工智能系统 AMIE 在首次研究中展示了实时临床视频咨询功能。",
@@ -440,47 +476,648 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-468f50ae5e",
-      "title": "Google Workspace 插件 · Cursor",
-      "oneLiner": "Cursor 现可在您的 Google Workspace 中读取、写入并执行操作。",
-      "date": "2026-08-03",
-      "productIds": [
-        "cursor"
-      ],
-      "source": "Cursor",
-      "tags": [
-        "Release"
-      ],
-      "stars": 4
-    },
-    {
-      "id": "sig-2163b41330",
-      "title": "苹果在这个问题上犯了错误",
-      "oneLiner": "OpenAI 解决了苹果公司毫无根据的诉讼，纠正了对其员工的指控，并分享了记录所发生事件的信息。",
-      "date": "2026-08-03",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-928c08785b",
-      "title": "深入了解我们 353,000 人的氛围编码课程",
-      "oneLiner": "Google 和 Kaggle 的“AI 代理：强化 Vibe 编码”课程包含专家主导的会议、技术白皮书和笔记本以及顶点项目。",
-      "date": "2026-08-03",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google AI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-f5d9b5f669",
+      "title": "将手语人工智能交到用户手中",
+      "oneLiner": "推出手语转文本 (SL2T)，这是我们的突破性模型，为聋哑和听力障碍用户提供新的手语功能。",
+      "summary": {
+        "oneSentence": "推出手语转文本 (SL2T)，这是我们的突破性模型，为聋哑和听力障碍用户提供新的手语功能。",
+        "bullets": [
+          "推出手语转文本 (SL2T)，这是我们的突破性模型，为聋哑和听力障碍用户提供新的手语功能。",
+          "近几十年来，人工智能处理口语的能力迅速进步，实现了自动翻译、听写和对话界面，让听力正常的用户感觉毫不费力。然而，这场技术革命尚未波及世界上 200 多种手语，以及估计有 7000 万手语使用者。",
+          "今天，我们推出大规模多语言手语到文本 (SL2T) 翻译模型，该模型标志着质量和通用性方面的突破。借助它，我们首次将手语人工智能带出实验室并引入消费产品：SL2T 支持 Gboard 中的手语到文本听写以及 Pixel 11 上的 Live Transcribe，从美国手语 (ASL) 到英语开始。更多设备即将推出，更",
+          "与听力正常的用户可以使用听写代替打字类似，此功能使聋哑用户可以在他们通常打字的任何地方对手机进行手势。您可以通过签名来搜索网络、起草消息或文档，并要求 Gemini 解决查询或执行任务。在 Live Transcribe 中，您可以在对话中签署回复，而不必来回打字。根据我们的测试人员的说法，用 ASL 打字比用英语打字"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google DeepMind 官网发布：推出手语转文本 (SL2T)，这是我们的突破性模型，为聋哑和听力障碍用户提供新的手语功能。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "推出手语转文本 (SL2T)，这是我们的突破性模型，为聋哑和听力障碍用户提供新的手语功能。",
+        "近几十年来，人工智能处理口语的能力迅速进步，实现了自动翻译、听写和对话界面，让听力正常的用户感觉毫不费力。然而，这场技术革命尚未波及世界上 200 多种手语，以及估计有 7000 万手语使用者。",
+        "今天，我们推出大规模多语言手语到文本 (SL2T) 翻译模型，该模型标志着质量和通用性方面的突破。借助它，我们首次将手语人工智能带出实验室并引入消费产品：SL2T 支持 Gboard 中的手语到文本听写以及 Pixel 11 上的 Live Transcribe，从美国手语 (ASL) 到英语开始。更多设备即将推出，更多语言也将随之推出。",
+        "与听力正常的用户可以使用听写代替打字类似，此功能使聋哑用户可以在他们通常打字的任何地方对手机进行手势。您可以通过签名来搜索网络、起草消息或文档，并要求 Gemini 解决查询或执行任务。在 Live Transcribe 中，您可以在对话中签署回复，而不必来回打字。根据我们的测试人员的说法，用 ASL 打字比用英语打字更快、更自然、更令人愉快。",
+        "由 SL2T 提供支持的手写文本功能使用户能够在手机上任何通常打字的地方进行手写签名。",
+        "手语是世界各地聋人社区的主要语言，也是聋人文化认同的基石。聋人在手语、口语、阅读和写作方面的熟练程度存在很大差异，因此支持所有形式的无障碍获取非常重要。聋人可以从手语处理中受益，就像听力正常的人从口语处理中受益一样，而且该技术为弥合聋人和听力社区之间的沟通鸿沟开辟了新的可能性。尽管有机会产生积极的社会影响，但手语人工智能的进展却很缓慢——这既是因为为手语构建人工智能带来了复杂的挑战，也因为人们对语言本身的工作方式存在广泛的误解。",
+        "与口语转录相比，手语翻译面临两个核心挑战。首先，转录语音是用同一语言执行从声音到文本的顺序映射，而手语是独立的自然语言，具有自己独特的语法和词汇。因此，它们需要真正的机器翻译，而不是符号到单词转换的顺序过程。其次，模型必须学会“看到”并理解物理运动。手语通过手、手臂、躯干、头和脸的同时运动来传达意义。以高帧速率准确跟踪这些是一项困难且计算要求较高的计算机视觉任务。",
+        "鉴于这种背景，很容易理解为什么手语技术的一些早期尝试（例如手语手套）从根本上受到限制：手语不仅仅是“手上的英语”。它们需要精细的全身运动的复杂视觉感知和成熟的语言翻译。 SL2T 旨在实现这两者。",
+        "SL2T 将手语输入视为手语者身体上的点，并将其转换为流文本输出。 FLEURS-ASL 基准测试的示例。",
+        "我们通过将以用户为中心、文化丰富的方法与大规模数据扩展相结合来构建 SL2T。该模型接受了超过 100,000 个小时的跨 50 多种手语数据的训练，其中大约四分之一的数据是 ASL 数据。对不同语言、方言和熟练程度的联合训练使模型能够学习共享的底层结构，在我们的实验中优于单语言模型。"
+      ],
+      "highlights": [
+        "推出手语转文本 (SL2T)，这是我们的突破性模型，为聋哑和听力障碍用户提供新的手语功能。",
+        "近几十年来，人工智能处理口语的能力迅速进步，实现了自动翻译、听写和对话界面，让听力正常的用户感觉毫不费力。然而，这场技术革命尚未波及世界上 200 多种手语，以",
+        "今天，我们推出大规模多语言手语到文本 (SL2T) 翻译模型，该模型标志着质量和通用性方面的突破。借助它，我们首次将手语人工智能带出实验室并引入消费产品：SL2"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Putting sign language AI into users’ hands",
+      "originalLang": "en",
+      "date": "2026-08-12",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google DeepMind",
+        "author": "DeepMind",
+        "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+        "home": "https://deepmind.google/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Putting sign language AI into users’ hands"
+      },
+      "raw": {
+        "title": "Putting sign language AI into users’ hands",
+        "url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+        "fetched": true,
+        "savedAt": "2026-08-12T22:37:03.478Z"
+      }
+    },
+    {
+      "id": "sig-df84a063a1",
+      "title": "DeepSeek V4 Pro 现在在 AI Gateway 上运行更新的权重 - Vercel",
+      "oneLiner": "DeepSeek V4 Pro 现在在 AI Gateway 上运行更新的权重。当您调用 deepseek/deepseek-v4-pro 时，默认情况下会使用它们，因此现有请求会选择它们，而无需更改模型 ID 或代码。",
+      "summary": {
+        "oneSentence": "DeepSeek V4 Pro 现在在 AI Gateway 上运行更新的权重。当您调用 deepseek/deepseek-v4-pro 时，默认情况下会使用它们，因此现有请求会选择它们，而无需更改模型 ID 或代码。",
+        "bullets": [
+          "DeepSeek V4 Pro 现在在 AI Gateway 上运行更新的权重。当您调用 deepseek/deepseek-v4-pro 时，默认情况下会使用它们，因此现有请求会选择它们，而无需更改模型 ID 或代码。",
+          "如需使用更新后的 DeepSeek V4 Pro，请在 AI SDK 中将 model 设置为 deepseek/deepseek-v4-pro-0813 。 AI Gateway 将路由至具有新权重的提供商：",
+          "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText({ 4 model: 'deepseek/deepseek-v4-pro-0831', 5prompt: '修复此存储库中失败的测试并打开 PR。', 6 });",
+          "要在编码代理中运行 V4 Pro，请使用 vercel ai-gatewaycoding-agents setup 将代理连接到 AI Gateway，然后在代理的模型配置中选择 deepseek/deepseek-v4-pro-0813。请参阅编码剂指南。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：DeepSeek V4 Pro 现在在 AI Gateway 上运行更新的权重。当您调用 deepseek/deepseek-v4-pro 时，默认情况下会使用它们，因此现有请求会选择它们，而无需更改模型 ID 或代码。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/deepseek-v4-pro-now-runs-updated-weights-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "DeepSeek V4 Pro 现在在 AI Gateway 上运行更新的权重。当您调用 deepseek/deepseek-v4-pro 时，默认情况下会使用它们，因此现有请求会选择它们，而无需更改模型 ID 或代码。",
+        "如需使用更新后的 DeepSeek V4 Pro，请在 AI SDK 中将 model 设置为 deepseek/deepseek-v4-pro-0813 。 AI Gateway 将路由至具有新权重的提供商：",
+        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText({ 4 model: 'deepseek/deepseek-v4-pro-0831', 5prompt: '修复此存储库中失败的测试并打开 PR。', 6 });",
+        "要在编码代理中运行 V4 Pro，请使用 vercel ai-gatewaycoding-agents setup 将代理连接到 AI Gateway，然后在代理的模型配置中选择 deepseek/deepseek-v4-pro-0813。请参阅编码剂指南。",
+        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。了解有关 AI Gateway 的更多信息、查看 AI Gateway 模型排行榜或在我们的模型游乐场中尝试。"
+      ],
+      "highlights": [
+        "DeepSeek V4 Pro 现在在 AI Gateway 上运行更新的权重。当您调用 deepseek/deepseek-v4-pro 时，默认情况下会使用",
+        "如需使用更新后的 DeepSeek V4 Pro，请在 AI SDK 中将 model 设置为 deepseek/deepseek-v4-pro-0813 。 ",
+        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText({ 4 model: 'deepseek/de"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "DeepSeek V4 Pro now runs updated weights on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-12",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/deepseek-v4-pro-now-runs-updated-weights-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "DeepSeek V4 Pro now runs updated weights on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "DeepSeek V4 Pro now runs updated weights on AI Gateway",
+        "url": "https://vercel.com/changelog/deepseek-v4-pro-now-runs-updated-weights-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-08-12T22:37:11.222Z"
+      }
+    },
+    {
+      "id": "sig-fb21820d80",
+      "title": "从协助到执行：企业如何让AI发挥作用",
+      "oneLiner": "OpenAI 研究揭示了企业如何利用 ChatGPT 和 Codex 采用代理人工智能，以及前沿公司如何在人工智能采用方面取得领先。",
+      "summary": {
+        "oneSentence": "OpenAI 研究揭示了企业如何利用 ChatGPT 和 Codex 采用代理人工智能，以及前沿公司如何在人工智能采用方面取得领先。",
+        "bullets": [
+          "OpenAI 研究揭示了企业如何利用 ChatGPT 和 Codex 采用代理人工智能，以及前沿公司如何在人工智能采用方面取得领先。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 研究揭示了企业如何利用 ChatGPT 和 Codex 采用代理人工智能，以及前沿公司如何在人工智能采用方面取得领先。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/how-enterprises-put-ai-to-work"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 研究揭示了企业如何利用 ChatGPT 和 Codex 采用代理人工智能，以及前沿公司如何在人工智能采用方面取得领先。"
+      ],
+      "highlights": [
+        "OpenAI 研究揭示了企业如何利用 ChatGPT 和 Codex 采用代理人工智能，以及前沿公司如何在人工智能采用方面取得领先。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "From assistance to execution: How enterprises put AI to work",
+      "originalLang": "en",
+      "date": "2026-08-12",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "From assistance to execution: How enterprises put AI to work"
+      },
+      "raw": {
+        "title": "From assistance to execution: How enterprises put AI to work",
+        "url": "https://openai.com/index/how-enterprises-put-ai-to-work",
+        "fetched": false,
+        "savedAt": "2026-08-12T22:37:12.415Z"
+      }
+    },
+    {
+      "id": "sig-53427c0161",
+      "title": "Exa 网络搜索免费至 8 月 31 日，AI Gateway 和 eve - Vercel",
+      "oneLiner": "Exa 网络搜索现已在 AI Gateway 上免费，截止时间为 8 月 31 日，并且它现在是 eve 代理的默认网络搜索。",
+      "summary": {
+        "oneSentence": "Exa 网络搜索现已在 AI Gateway 上免费，截止时间为 8 月 31 日，并且它现在是 eve 代理的默认网络搜索。",
+        "bullets": [
+          "Exa 网络搜索现已在 AI Gateway 上免费，截止时间为 8 月 31 日，并且它现在是 eve 代理的默认网络搜索。",
+          "该工具适用于任何 AI 网关模型，无需单独的 Exa API 密钥。当模型调用它时，AI Gateway 将请求路由到 Exa 的搜索 API，返回 Web 结果和提取的页面内容，并支持域过滤器、日期过滤器和令牌高效摘录。",
+          "当模型通过 AI Gateway 提供服务时，eve 中的内置 web_search 工具现在默认使用 Exa。请参阅 eve 文档 中的其他支持的搜索配置。",
+          "要将其与 AI SDK 一起使用，请将 gateway.tools.exaSearch() 传递给generateText调用的tools参数："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Exa 网络搜索现已在 AI Gateway 上免费，截止时间为 8 月 31 日，并且它现在是 eve 代理的默认网络搜索。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/exa-web-search-free-through-august-31-on-ai-gateway-and-eve"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Exa 网络搜索现已在 AI Gateway 上免费，截止时间为 8 月 31 日，并且它现在是 eve 代理的默认网络搜索。",
+        "该工具适用于任何 AI 网关模型，无需单独的 Exa API 密钥。当模型调用它时，AI Gateway 将请求路由到 Exa 的搜索 API，返回 Web 结果和提取的页面内容，并支持域过滤器、日期过滤器和令牌高效摘录。",
+        "当模型通过 AI Gateway 提供服务时，eve 中的内置 web_search 工具现在默认使用 Exa。请参阅 eve 文档 中的其他支持的搜索配置。",
+        "要将其与 AI SDK 一起使用，请将 gateway.tools.exaSearch() 传递给generateText调用的tools参数：",
+        "web-search.ts 1 从 'ai' 导入 { gateway ,generateText , stepCountIs } ； 2 const { text } = waitgenerateText({ 3 model : 'openai/gpt-5.6-terra' , 4prompt : '本周人工智能有哪些最新进展？' , 5tools : { 6 exa_search : gateway.tools.exaSearch( ) , 7 } , 8 stopWhen : stepCountIs( 3 ) , 9 } ) ;通过多个工具步骤使用 Exa Web 搜索回答提示",
+        "阅读网络搜索文档以了解更多信息并开始使用。"
+      ],
+      "highlights": [
+        "Exa 网络搜索现已在 AI Gateway 上免费，截止时间为 8 月 31 日，并且它现在是 eve 代理的默认网络搜索。",
+        "该工具适用于任何 AI 网关模型，无需单独的 Exa API 密钥。当模型调用它时，AI Gateway 将请求路由到 Exa 的搜索 API，返回 Web 结",
+        "当模型通过 AI Gateway 提供服务时，eve 中的内置 web_search 工具现在默认使用 Exa。请参阅 eve 文档 中的其他支持的搜索配置。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Exa web search free through August 31 on AI Gateway and eve - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-12",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/exa-web-search-free-through-august-31-on-ai-gateway-and-eve",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Exa web search free through August 31 on AI Gateway and eve - Vercel"
+      },
+      "raw": {
+        "title": "Exa web search free through August 31 on AI Gateway and eve",
+        "url": "https://vercel.com/changelog/exa-web-search-free-through-august-31-on-ai-gateway-and-eve",
+        "fetched": true,
+        "savedAt": "2026-08-12T22:37:18.449Z"
+      }
+    },
+    {
+      "id": "sig-cad35e6294",
+      "title": "RingCentral 如何构建从工程到运营的 AI 原生工作",
+      "oneLiner": "了解 RingCentral 如何使用 ChatGPT Work 和 Codex 来加速 AI 产品开发并集中整个工程和运营的运营智能。",
+      "summary": {
+        "oneSentence": "了解 RingCentral 如何使用 ChatGPT Work 和 Codex 来加速 AI 产品开发并集中整个工程和运营的运营智能。",
+        "bullets": [
+          "了解 RingCentral 如何使用 ChatGPT Work 和 Codex 来加速 AI 产品开发并集中整个工程和运营的运营智能。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：了解 RingCentral 如何使用 ChatGPT Work 和 Codex 来加速 AI 产品开发并集中整个工程和运营的运营智能。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/ringcentral"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "了解 RingCentral 如何使用 ChatGPT Work 和 Codex 来加速 AI 产品开发并集中整个工程和运营的运营智能。"
+      ],
+      "highlights": [
+        "了解 RingCentral 如何使用 ChatGPT Work 和 Codex 来加速 AI 产品开发并集中整个工程和运营的运营智能。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How RingCentral builds AI-native work from engineering to ops",
+      "originalLang": "en",
+      "date": "2026-08-12",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/ringcentral",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How RingCentral builds AI-native work from engineering to ops"
+      },
+      "raw": {
+        "title": "How RingCentral builds AI-native work from engineering to ops",
+        "url": "https://openai.com/index/ringcentral",
+        "fetched": false,
+        "savedAt": "2026-08-12T22:37:19.718Z"
+      }
+    },
+    {
+      "id": "sig-73fc37ffd6",
+      "title": "构建AI SDK软件工厂",
+      "oneLiner": "AI SDK是世界上最受欢迎的开源人工智能项目之一。它每周提供超过 2000 万次 npm 下载，并且该存储库拥有超过 26,000 颗星。维护代码库意味着同时跟踪四个移动目标：",
+      "summary": {
+        "oneSentence": "AI SDK是世界上最受欢迎的开源人工智能项目之一。它每周提供超过 2000 万次 npm 下载，并且该存储库拥有超过 26,000 颗星。维护代码库意味着同时跟踪四个移动目标：",
+        "bullets": [
+          "AI SDK是世界上最受欢迎的开源人工智能项目之一。它每周提供超过 2000 万次 npm 下载，并且该存储库拥有超过 26,000 颗星。维护代码库意味着同时跟踪四个移动目标：",
+          "模型提供者：新提供者、新功能和新错误",
+          "UI 框架：React、Next.js、Svelte、Vue 等的绑定",
+          "沙箱：代理运行代码的执行环境"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：AI SDK是世界上最受欢迎的开源人工智能项目之一。它每周提供超过 2000 万次 npm 下载，并且该存储库拥有超过 26,000 颗星。维护代码库意味着同时跟踪四个移动目标：",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/building-a-software-factory-for-ai-sdk"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "AI SDK是世界上最受欢迎的开源人工智能项目之一。它每周提供超过 2000 万次 npm 下载，并且该存储库拥有超过 26,000 颗星。维护代码库意味着同时跟踪四个移动目标：",
+        "模型提供者：新提供者、新功能和新错误",
+        "UI 框架：React、Next.js、Svelte、Vue 等的绑定",
+        "沙箱：代理运行代码的执行环境",
+        "线束：适用于 Codex、Claude Code、Pi 等的适配器",
+        "经过多年的增长，回购协议每月都会有 100 多个新问题，当 Anthropic 的 Opus 4.6 模型发布时，PR 遇到了拐点。到 6 月底，这种复合已经累积了 1,000 多个开放问题和近 800 个拉取请求。",
+        "积压不是纪律问题。任何维护者，无论多么优秀，都无法通过更加努力地工作来缩小这一差距，而且由于生成代码很便宜，因此它只会增长。",
+        "我们没有尝试扩大规模，而是建立了一个软件工厂。四个星期后，它撰写了我们合并的 25% 到 35% 的 PR，并解决了 70-80% 的问题。",
+        "将链接复制到标题 决定建造什么类型的工厂 在建造任何东西之前，我们必须回答三个问题：",
+        "为什么我们现有的使用代理的方法还不够"
+      ],
+      "highlights": [
+        "AI SDK是世界上最受欢迎的开源人工智能项目之一。它每周提供超过 2000 万次 npm 下载，并且该存储库拥有超过 26,000 颗星。维护代码库意味着同时",
+        "模型提供者：新提供者、新功能和新错误",
+        "UI 框架：React、Next.js、Svelte、Vue 等的绑定"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Building a software factory for AI SDK",
+      "originalLang": "en",
+      "date": "2026-08-12",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/building-a-software-factory-for-ai-sdk",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Building a software factory for AI SDK"
+      },
+      "raw": {
+        "title": "Building a software factory for AI SDK",
+        "url": "https://vercel.com/blog/building-a-software-factory-for-ai-sdk",
+        "fetched": true,
+        "savedAt": "2026-08-12T22:37:24.831Z"
+      }
+    },
+    {
+      "id": "sig-941d757da9",
+      "title": "一年免费域名，现面向所有专业团队 - Vercel",
+      "oneLiner": "我们最近宣布，新的专业团队有资格在第一年申请免费域名。我们现在将此优惠扩展到所有专业团队。",
+      "summary": {
+        "oneSentence": "我们最近宣布，新的专业团队有资格在第一年申请免费域名。我们现在将此优惠扩展到所有专业团队。",
+        "bullets": [
+          "我们最近宣布，新的专业团队有资格在第一年申请免费域名。我们现在将此优惠扩展到所有专业团队。",
+          "现有的专业团队现在也可以申请一年的免费域名。该优惠涵盖六个 TLD 中每个团队的一个合格域名： .online 、 .site 、 .space 、 .store 、 .tech 和 .website 。第一年后，您的域名将按照您领取域名时结账时显示的正常价格自动续订。",
+          "在 vercel.com/domains 申领您的域名，并查看免费域名常见问题解答以了解完整条款。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：我们最近宣布，新的专业团队有资格在第一年申请免费域名。我们现在将此优惠扩展到所有专业团队。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/free-domain-for-one-year-now-for-all-pro-teams"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "我们最近宣布，新的专业团队有资格在第一年申请免费域名。我们现在将此优惠扩展到所有专业团队。",
+        "现有的专业团队现在也可以申请一年的免费域名。该优惠涵盖六个 TLD 中每个团队的一个合格域名： .online 、 .site 、 .space 、 .store 、 .tech 和 .website 。第一年后，您的域名将按照您领取域名时结账时显示的正常价格自动续订。",
+        "在 vercel.com/domains 申领您的域名，并查看免费域名常见问题解答以了解完整条款。"
+      ],
+      "highlights": [
+        "我们最近宣布，新的专业团队有资格在第一年申请免费域名。我们现在将此优惠扩展到所有专业团队。",
+        "现有的专业团队现在也可以申请一年的免费域名。该优惠涵盖六个 TLD 中每个团队的一个合格域名： .online 、 .site 、 .space 、 .stor",
+        "在 vercel.com/domains 申领您的域名，并查看免费域名常见问题解答以了解完整条款。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Free domain for one year, now for all Pro teams - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-12",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/free-domain-for-one-year-now-for-all-pro-teams",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Free domain for one year, now for all Pro teams - Vercel"
+      },
+      "raw": {
+        "title": "Free domain for one year, now for all Pro teams",
+        "url": "https://vercel.com/changelog/free-domain-for-one-year-now-for-all-pro-teams",
+        "fetched": true,
+        "savedAt": "2026-08-12T22:37:29.030Z"
+      }
+    },
+    {
+      "id": "sig-2563967bad",
+      "title": "Grok 4.6 现已在 AI Gateway 上可用 - Vercel",
+      "oneLiner": "SpaceXAI 的 Grok 4.6 现已在 AI Gateway 上提供。",
+      "summary": {
+        "oneSentence": "SpaceXAI 的 Grok 4.6 现已在 AI Gateway 上提供。",
+        "bullets": [
+          "SpaceXAI 的 Grok 4.6 现已在 AI Gateway 上提供。",
+          "该模型有一个 500K 令牌上下文窗口，接受文本和图像输入。 Grok 4.6 支持低、中、高和 xhigh 推理级别，默认为高。",
+          "要使用 Grok 4.6，请在 AI SDK 中将模型设置为 xai/grok-4.6 ：",
+          "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText({ 4 model : 'xai/grok-4.6' , 5 Reasoning : 'xhigh' , 6prompt : '分析此数据集并总结关键趋势。' , 7 }) ;"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：SpaceXAI 的 Grok 4.6 现已在 AI Gateway 上提供。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/grok-4-6-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "SpaceXAI 的 Grok 4.6 现已在 AI Gateway 上提供。",
+        "该模型有一个 500K 令牌上下文窗口，接受文本和图像输入。 Grok 4.6 支持低、中、高和 xhigh 推理级别，默认为高。",
+        "要使用 Grok 4.6，请在 AI SDK 中将模型设置为 xai/grok-4.6 ：",
+        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText({ 4 model : 'xai/grok-4.6' , 5 Reasoning : 'xhigh' , 6prompt : '分析此数据集并总结关键趋势。' , 7 }) ;",
+        "要在编码代理中使用它，请运行 vercel ai-gatewaycoding-agents setup 以连接 Claude Code、Codex、OpenCode 或 Pi，然后在代理内选择 xai/grok-4.6。",
+        "要在没有代码的情况下尝试 Grok 4.5，请尝试模型游乐场中的模型。",
+        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本，以及配置重试、故障转移和性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、零数据保留支持、API 密钥预算、路由规则等。",
+        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。",
+        "AI Gateway：按使用情况跟踪顶级 AI 模型",
+        "AI Gateway 模型排行榜跟踪一段时间内最流行的模型，并根据所有网关流量处理的代币总量对它们进行排名。"
+      ],
+      "highlights": [
+        "SpaceXAI 的 Grok 4.6 现已在 AI Gateway 上提供。",
+        "该模型有一个 500K 令牌上下文窗口，接受文本和图像输入。 Grok 4.6 支持低、中、高和 xhigh 推理级别，默认为高。",
+        "要使用 Grok 4.6，请在 AI SDK 中将模型设置为 xai/grok-4.6 ："
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Grok 4.6 now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-12",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/grok-4-6-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Grok 4.6 now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Grok 4.6 now available on AI Gateway",
+        "url": "https://vercel.com/changelog/grok-4-6-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-08-12T22:37:38.818Z"
+      }
+    },
     {
       "id": "sig-e41ad55864",
       "title": "没有网络边界的沙箱只是沙箱的一半",
@@ -1287,6 +1924,174 @@
         "url": "https://vercel.com/changelog/launchdarkly-is-now-available-on-the-vercel-marketplace",
         "fetched": true,
         "savedAt": "2026-08-11T22:39:01.035Z"
+      }
+    },
+    {
+      "id": "sig-8d4d8200ff",
+      "title": "我们如何在每个 Vercel 构建背后迁移数据库",
+      "oneLiner": "Vercel 上的每个构建都在构建热池中开始，这是一组备用容器，可以让构建开始而无需等待新的计算。该池运行的状态跟踪哪些容器已准备就绪、每个容器用于身份验证的令牌以及将每个正在运行的构建与为其计费的部署联系起来的映射。当我们构建池时，我们将",
+      "summary": {
+        "oneSentence": "Vercel 上的每个构建都在构建热池中开始，这是一组备用容器，可以让构建开始而无需等待新的计算。该池运行的状态跟踪哪些容器已准备就绪、每个容器用于身份验证的令牌以及将每个正在运行的构建与为其计费的部署联系起来的映射。当我们构建池时，我们将",
+        "bullets": [
+          "Vercel 上的每个构建都在构建热池中开始，这是一组备用容器，可以让构建开始而无需等待新的计算。该池运行的状态跟踪哪些容器已准备就绪、每个容器用于身份验证的令牌以及将每个正在运行的构建与为其计费的部署联系起来的映射。当我们构建池时，我们将所有这些都放在 Redis 中，这在当时速度很快且有意义。",
+          "然而，多年来，这种状态变成了一种负担。如果令牌和容器状态丢失，可以重建，但计费映射不能，并且所有这些都位于我们作为临时缓存运行的存储中。该状态需要持久存在于某个地方，这就是我们决定将其迁移到 DynamoDB 的原因。",
+          "问题是池永远不会停止。容器昼夜不停地出现、轮询、接收工作并过期，这意味着我们无法暂停世界、复制数据并重新启动。迁移必须在生产流量下分阶段实时进行，每个阶段都在一个标志后面，如果我们需要的话，可以准备好回滚。",
+          "将链接复制到标题 临时存储中的持久状态 Redis 最初是它的好家。对于池开始时的访问模式来说，它是快速、熟悉且高效的。但随着时间的推移，国家变得比拥有它的商店更重要。如果 Redis 不可用或丢失数据，池将无法再可靠地验证容器、跟踪哪些容器已准备就绪或解决正在进行的工作。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel 上的每个构建都在构建热池中开始，这是一组备用容器，可以让构建开始而无需等待新的计算。该池运行的状态跟踪哪些容器已准备就绪、每个容器用于身份验证的令牌以及将每个正在运行的构建与为其计费的部署联系起来的映射。当我们构建池时，我们将",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/how-we-migrated-the-database-behind-every-vercel-build"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel 上的每个构建都在构建热池中开始，这是一组备用容器，可以让构建开始而无需等待新的计算。该池运行的状态跟踪哪些容器已准备就绪、每个容器用于身份验证的令牌以及将每个正在运行的构建与为其计费的部署联系起来的映射。当我们构建池时，我们将所有这些都放在 Redis 中，这在当时速度很快且有意义。",
+        "然而，多年来，这种状态变成了一种负担。如果令牌和容器状态丢失，可以重建，但计费映射不能，并且所有这些都位于我们作为临时缓存运行的存储中。该状态需要持久存在于某个地方，这就是我们决定将其迁移到 DynamoDB 的原因。",
+        "问题是池永远不会停止。容器昼夜不停地出现、轮询、接收工作并过期，这意味着我们无法暂停世界、复制数据并重新启动。迁移必须在生产流量下分阶段实时进行，每个阶段都在一个标志后面，如果我们需要的话，可以准备好回滚。",
+        "将链接复制到标题 临时存储中的持久状态 Redis 最初是它的好家。对于池开始时的访问模式来说，它是快速、熟悉且高效的。但随着时间的推移，国家变得比拥有它的商店更重要。如果 Redis 不可用或丢失数据，池将无法再可靠地验证容器、跟踪哪些容器已准备就绪或解决正在进行的工作。",
+        "丢失一个代币，矿池会在大约十分钟内重建它。丢失映射并且构建永远不会计费，因为没有其他记录它属于哪个部署。",
+        "我们希望将其存储在持久存储中，因此选择了 DynamoDB。按需扩展适合突发部署流量，TTL是原生的，高并发时无需管理连接。但它没有承诺的是Redis的延迟。",
+        "将链接复制到标题 Redis 的便宜之处 在 Redis 内部，池的状态如下所示：",
+        "令牌存在于一个集合中，以便我们可以检查成员资格，并且存在于一个排序集合中，以便我们可以使它们过期",
+        "每个生命周期状态（待定、轮询、构建）都有自己的排序集，这意味着状态更改是从一个集合中删除并添加到下一个集合",
+        "用一根绳子将每个工作容器与其部署联系起来"
+      ],
+      "highlights": [
+        "Vercel 上的每个构建都在构建热池中开始，这是一组备用容器，可以让构建开始而无需等待新的计算。该池运行的状态跟踪哪些容器已准备就绪、每个容器用于身份验证的令",
+        "然而，多年来，这种状态变成了一种负担。如果令牌和容器状态丢失，可以重建，但计费映射不能，并且所有这些都位于我们作为临时缓存运行的存储中。该状态需要持久存在于某个",
+        "问题是池永远不会停止。容器昼夜不停地出现、轮询、接收工作并过期，这意味着我们无法暂停世界、复制数据并重新启动。迁移必须在生产流量下分阶段实时进行，每个阶段都在一"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How we migrated the database behind every Vercel build",
+      "originalLang": "en",
+      "date": "2026-08-11",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/how-we-migrated-the-database-behind-every-vercel-build",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How we migrated the database behind every Vercel build"
+      },
+      "raw": {
+        "title": "How we migrated the database behind every Vercel build",
+        "url": "https://vercel.com/blog/how-we-migrated-the-database-behind-every-vercel-build",
+        "fetched": true,
+        "savedAt": "2026-08-12T22:37:44.620Z"
+      }
+    },
+    {
+      "id": "sig-6590d3660c",
+      "title": "DeepSeek 数量超过 Google，每个代币成本下降 13.6%",
+      "oneLiner": "AI网关生产指数——2026年8月",
+      "summary": {
+        "oneSentence": "AI网关生产指数——2026年8月",
+        "bullets": [
+          "AI网关生产指数——2026年8月",
+          "每个月，AI Gateway 在生产应用程序和 AI 实验室之间传送数十万亿个代币。这些流量让我们了解了当今企业中人工智能的实际使用情况，我们每月在此发布一次。请参阅五月、六月和七月的生产指数报告。",
+          "将链接复制到标题 2026 年 8 月 摘要 8 月指数报告了截至 2026 年 7 月收集的 AI 网关数据。",
+          "每个代币支付的平均价格在 5 月份上涨近 20% 并在 6 月份保持稳定后，7 月份下降了 13.6%。代币消费增长如此之快，即使支出增长了 37%，每个代币的成本却出现了两位数的下降。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：AI网关生产指数——2026年8月",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/deepseek-overtakes-google-on-volume-cost-per-token-falls"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "AI网关生产指数——2026年8月",
+        "每个月，AI Gateway 在生产应用程序和 AI 实验室之间传送数十万亿个代币。这些流量让我们了解了当今企业中人工智能的实际使用情况，我们每月在此发布一次。请参阅五月、六月和七月的生产指数报告。",
+        "将链接复制到标题 2026 年 8 月 摘要 8 月指数报告了截至 2026 年 7 月收集的 AI 网关数据。",
+        "每个代币支付的平均价格在 5 月份上涨近 20% 并在 6 月份保持稳定后，7 月份下降了 13.6%。代币消费增长如此之快，即使支出增长了 37%，每个代币的成本却出现了两位数的下降。",
+        "按代币数量计算，DeepSeek 成为第二大实验室，目前运行量是 Google 的两倍多。",
+        "Anthropic 以 30% 的代币数量收取了 65% 的网关支出，价格是其他实验室代币平均价格的 4.4 倍。",
+        "两家媒体排行榜均易主。谷歌的 Nano Banana 在图像数量上领先于 OpenAI 的 GPT Image，字节跳动的 Seedance 在数量和金额上都领先视频。",
+        "Kimi K3 投入代理工作 Moonshot 于 7 月 16 日发布了 Kimi K3。与 6 月份发布的 Z.ai 的 GLM 5.2 一样，它是为长期代理工作而构建的，因此它的使用量从一开始就很高，每个请求的代币数量是其前身 K2.5 的大约 12 倍。",
+        "它规模迅速扩大。从发布周到 7 月最后一周，K3 的每日交易量增加了两倍，到月底其请求量与 Claude Opus 4.8 的请求量一样多。在 7 月的最后一天，按代币交易量计算，它在网关上排名第八。",
+        "这种需求是新的，而不是转移的。 K3 在两周内处理了近三分之二的 Kimi 代币，到最后一周处理了 82%，而该系列其余代币的交易量仅略有下降。"
+      ],
+      "highlights": [
+        "AI网关生产指数——2026年8月",
+        "每个月，AI Gateway 在生产应用程序和 AI 实验室之间传送数十万亿个代币。这些流量让我们了解了当今企业中人工智能的实际使用情况，我们每月在此发布一次。",
+        "将链接复制到标题 2026 年 8 月 摘要 8 月指数报告了截至 2026 年 7 月收集的 AI 网关数据。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "DeepSeek overtakes Google on volume, cost per token falls 13.6%",
+      "originalLang": "en",
+      "date": "2026-08-11",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/deepseek-overtakes-google-on-volume-cost-per-token-falls",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "DeepSeek overtakes Google on volume, cost per token falls 13.6%"
+      },
+      "raw": {
+        "title": "DeepSeek overtakes Google on volume, cost per token falls 13.6%",
+        "url": "https://vercel.com/blog/deepseek-overtakes-google-on-volume-cost-per-token-falls",
+        "fetched": true,
+        "savedAt": "2026-08-12T22:37:52.321Z"
       }
     },
     {
@@ -5641,7 +6446,7 @@
         "url": "https://cursor.com/changelog/google-workspace-plugins",
         "fetched": true,
         "savedAt": "2026-08-03T22:57:50.365Z",
-        "retranslatedAt": "2026-08-11T22:39:03.567Z"
+        "retranslatedAt": "2026-08-12T22:37:53.291Z"
       }
     },
     {
@@ -9006,7 +9811,7 @@
         "url": "https://cursor.com/changelog/ipad",
         "fetched": true,
         "savedAt": "2026-08-02T22:53:52.935Z",
-        "retranslatedAt": "2026-08-11T22:39:04.731Z"
+        "retranslatedAt": "2026-08-12T22:37:54.206Z"
       }
     },
     {
@@ -9921,7 +10726,7 @@
         "url": "https://cursor.com/changelog/cursor-start",
         "fetched": true,
         "savedAt": "2026-08-08T22:25:22.586Z",
-        "retranslatedAt": "2026-08-11T22:39:05.862Z"
+        "retranslatedAt": "2026-08-12T22:37:55.287Z"
       }
     },
     {
@@ -14439,7 +15244,7 @@
         "url": "https://cursor.com/changelog/slack-improvements",
         "fetched": true,
         "savedAt": "2026-07-27T07:34:20.673Z",
-        "retranslatedAt": "2026-08-11T22:39:06.870Z"
+        "retranslatedAt": "2026-08-12T22:37:56.375Z"
       }
     },
     {
