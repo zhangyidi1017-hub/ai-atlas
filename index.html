@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1" />
   <meta name="theme-color" content="#050505" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="description" content="AI市场 · AI ATLAS — 按 LLM、视听觉 Agent、专业 Agent 分类，个人学习市面 AI 产品。" />
-  <title>AI市场 · AI ATLAS</title>
+  <meta name="description" content="AI市场 · AI Bazaar — 按 LLM、视听觉 Agent、专业 Agent 分类，个人学习市面 AI 产品。" />
+  <title>AI市场 · AI Bazaar</title>
   <link rel="icon" href="./logos/atlas-logo.svg" type="image/svg+xml" />
   <link rel="apple-touch-icon" href="./logos/atlas-logo.svg" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,7 +28,7 @@
         <img class="brand-mark" src="./logos/atlas-logo.svg" width="64" height="64" alt="" />
         <span class="brand-name">
           <span class="brand-cn">AI市场</span>
-          <em class="brand-en" aria-label="ATLAS"><span>A</span><span>T</span><span>L</span><span>A</span><span>S</span></em>
+          <em class="brand-en" aria-label="Bazaar"><span>B</span><span>a</span><span>z</span><span>a</span><span>a</span><span>r</span></em>
         </span>
       </button>
       <nav class="desktop-nav" aria-label="主导航">
@@ -69,7 +69,7 @@
         </div>
         <div class="hero-body reveal">
           <div class="hero-copy">
-            <p class="hero-eyebrow reveal">AI ATLAS</p>
+            <p class="hero-eyebrow reveal">AI Bazaar</p>
             <h1 class="hero-title reveal">
               <span class="hero-line">寻找你想要的</span>
               <span class="hero-line-accent">AI工具</span>
@@ -111,21 +111,23 @@
         <div class="scene-sections" id="sceneSections"></div>
       </section>
 
-      <section class="section section-news section-split">
+      <section class="section section-aihot section-split">
         <div class="section-head row reveal">
           <div>
-            <div class="section-label">Latest Signals</div>
-            <h2>今日快讯</h2>
+            <div class="section-label">AI HOT · 精选</div>
+            <h2>精选快讯时间轴</h2>
+            <p class="section-sub">同步 <a href="https://aihot.virxact.com/" target="_blank" rel="noopener noreferrer">AI HOT</a> 最新精选，按时间倒序</p>
           </div>
-          <button class="text-link" data-nav="news" type="button">View all →</button>
+          <button class="text-link" data-nav="news" type="button">查看全部 →</button>
         </div>
-        <div class="news-strip-bar reveal">
-          <div class="news-strip-list" id="newsPreview"></div>
+        <div class="aihot-timeline-panel reveal">
+          <div class="aihot-timeline-meta" id="aihotTimelineMeta"></div>
+          <div class="aihot-timeline" id="aihotTimeline" aria-label="AI HOT 精选时间轴"></div>
         </div>
       </section>
 
       <footer class="site-footer reveal">
-        <p>AI市场 · AI ATLAS</p>
+        <p>AI市场 · AI Bazaar</p>
         <p class="footer-muted">个人 AI 产品学习笔记 — LLM · 视觉 · Agent · 垂直</p>
       </footer>
 
@@ -144,12 +146,18 @@
 
     <section class="view" id="view-news" data-view="news" hidden>
       <div class="page-intro reveal">
-        <div class="section-label">AI OS</div>
-        <h1>今日快讯 · AI Brief</h1>
-        <p>Agent 流水线采集 → 自动打标 → 学习视角解读 → Dashboard 阅读</p>
+        <div class="section-label">AI HOT · 精选</div>
+        <h1>精选快讯 · 时间轴</h1>
+        <p>来自 <a href="https://aihot.virxact.com/" target="_blank" rel="noopener noreferrer">AI HOT</a> 的实时精选与推荐理由</p>
       </div>
-      <div id="newsDashboard"></div>
-      <div id="newsProductUpdates"></div>
+      <div class="aihot-timeline-panel aihot-timeline-panel--page reveal">
+        <div class="aihot-timeline" id="aihotTimelineFull" aria-label="AI HOT 精选时间轴"></div>
+      </div>
+      <section class="section section-aihot-categories reveal">
+        <div class="filter-chips aihot-category-filters" id="aihotCategoryFilters"></div>
+        <div class="aihot-category-meta" id="aihotCategoryMeta"></div>
+        <div class="aihot-detail-grid" id="aihotCategoryDetail" aria-label="AI HOT 分类详情"></div>
+      </section>
       <div class="filter-chips" id="newsFilters"></div>
       <div class="news-list" id="newsList"></div>
     </section>
@@ -221,6 +229,8 @@
   </div>
 
   <script src="./data.js"></script>
+  <script src="./analytics-config.js"></script>
+  <script src="./analytics.js"></script>
   <script src="./app.js"></script>
 </body>
 </html>

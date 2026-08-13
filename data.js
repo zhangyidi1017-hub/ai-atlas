@@ -885,6 +885,20 @@ window.AI_DATA = {
       steps: ["定义要采集的网站与字段。", "设置清洗与导出规则。", "合规前提下控制频率与范围。"],
       alternatives: ["multion", "gpt-researcher", "deep-research"]
     },
+    {
+      id: "ai-hot",
+      name: "AI HOT",
+      region: "国内",
+      logoFallback: "./logos/ai-hot.svg",
+      oneLiner: "AI 行业动态聚合，每日热点、精选解读与 AI 日报。",
+      forWho: "产品经理、开发者、关注 AI 趋势的学习者与从业者",
+      pricing: "free",
+      pricingLabel: "免费",
+      categories: ["agent-research"],
+      links: [{ label: "官网", url: "https://aihot.virxact.com/" }],
+      steps: ["打开首页查看「今日热点」与热度排行。", "浏览最新精选动态与每条推荐理由。", "用搜索筛选特定公司、模型或话题。"],
+      alternatives: ["deep-research", "gpt-researcher", "kimi"]
+    },
 
     // ── 垂直 · 视频 ──
     {

@@ -8,7 +8,8 @@
     "start": "serve . -l 8765",
     "news:fetch": "node scripts/run-news-pipeline.mjs",
     "news:pipeline": "node scripts/run-news-pipeline.mjs",
-    "news:build": "node scripts/run-news-pipeline.mjs"
+    "news:build": "node scripts/run-news-pipeline.mjs",
+    "aihot:fetch": "node scripts/fetch-aihot-feed.mjs"
   },
   "devDependencies": {
     "serve": "^14.2.4"

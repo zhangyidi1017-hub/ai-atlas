@@ -1,9 +1,9 @@
 name: Daily News Fetch
 
-# 北京时间 06:00 = UTC 22:00（前一日）
+# 北京时间 08:00 = UTC 00:00
 on:
   schedule:
-    - cron: "0 22 * * *"
+    - cron: "0 0 * * *"
   workflow_dispatch:
 
 jobs:
@@ -24,10 +24,13 @@ jobs:
           RSSHUB_BASE: ${{ vars.RSSHUB_BASE }}
         run: npm run news:pipeline
 
+      - name: Sync AI HOT curated feed
+        run: npm run aihot:fetch
+
       - name: Commit news.json
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add news.json data/news-db/
+          git add news.json data/news-db/ aihot-feed.json
           git diff --staged --quiet || git commit -m "chore: daily news brief $(date -u +%F)"
           git push

@@ -11,14 +11,14 @@ npx serve . -l 8765
 
 浏览器访问：http://127.0.0.1:8765
 
-## 快讯每日 6:00 自动更新（静态站方案）
+## 快讯每日 8:00 自动更新（静态站方案）
 
 站点是**静态网页**，快讯数据存在根目录 `news.json`。前端打开时会 `fetch('./news.json')`，因此只要定时重新生成并发布 `news.json`，用户刷新即可看到新内容——**不需要后端服务器**。
 
 ### 推荐：GitHub Actions + GitHub Pages
 
 ```
-每天 06:00（北京时间）
+每天 08:00（北京时间）
     ↓
 GitHub Actions 跑 npm run news:pipeline
     ↓
@@ -39,7 +39,7 @@ GitHub Pages 静态托管（约 1 分钟生效）
    - `DEEPSEEK_API_KEY` — 启用完整 Agent 分析 + 高质量中译
 4. **Settings → Variables → Actions**（可选）：
    - `RSSHUB_BASE` — 如 `https://rsshub.app`
-5. 定时任务已配置：`.github/workflows/daily-news.yml`（cron `0 22 * * *` = 北京时间 6:00）
+5. 定时任务已配置：`.github/workflows/daily-news.yml`（cron `0 0 * * *` = 北京时间 8:00）
 
 **手动试跑：** GitHub 仓库 → **Actions** → **Daily News Fetch** → **Run workflow**
 
@@ -54,7 +54,7 @@ npm run dev
 
 | 方案 | 做法 |
 |------|------|
-| Windows 计划任务 | 每天 6:00 运行 `npm run news:pipeline`，再把 `news.json` 同步到托管目录 |
+| Windows 计划任务 | 每天 8:00 运行 `npm run news:pipeline`，再把 `news.json` 同步到托管目录 |
 | 云函数 + 对象存储 | 定时触发脚本，输出 `news.json` 到 OSS/COS，CDN 回源 |
 | Vercel Cron | `vercel.json` 配 cron 调用 Serverless 函数跑 pipeline 并写文件（需适配） |
 

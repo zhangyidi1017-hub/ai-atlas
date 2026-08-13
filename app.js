@@ -7,9 +7,7 @@
   const { scenes, products, news: fallbackNews, featuredBanner = [], categoryPins = {} } = window.AI_DATA;
 
   let news = [...fallbackNews];
-  let newsBrief = null;
-  let newsWhatsChanging = null;
-  let newsProductUpdates = [];
+  let aihotFeed = null;
 
   const els = {
     views: {
@@ -23,15 +21,18 @@
     topbar: document.getElementById("topbar"),
     siteHeader: document.getElementById("siteHeader"),
     sceneSections: document.getElementById("sceneSections"),
-    newsPreview: document.getElementById("newsPreview"),
+    newsPreview: null,
+    aihotTimeline: document.getElementById("aihotTimeline"),
+    aihotTimelineFull: document.getElementById("aihotTimelineFull"),
+    aihotTimelineMeta: document.getElementById("aihotTimelineMeta"),
+    aihotCategoryFilters: document.getElementById("aihotCategoryFilters"),
+    aihotCategoryMeta: document.getElementById("aihotCategoryMeta"),
+    aihotCategoryDetail: document.getElementById("aihotCategoryDetail"),
     sceneIntro: document.getElementById("sceneIntro"),
     sceneFilters: document.getElementById("sceneFilters"),
     sceneProducts: document.getElementById("sceneProducts"),
     productPage: document.getElementById("productPage"),
     newsFilters: document.getElementById("newsFilters"),
-    newsBrief: document.getElementById("newsDashboard"),
-    newsWhatsChanging: null,
-    newsProductUpdates: document.getElementById("newsProductUpdates"),
     newsList: document.getElementById("newsList"),
     newsDetail: document.getElementById("newsDetail"),
     searchInput: document.getElementById("searchInput"),
@@ -64,6 +65,7 @@
     sceneSubFilter: "all",
     productId: null,
     newsFilter: "all",
+    aihotCategoryFilter: "all",
     homeSubFilters: {},
     homeSectionPages: {},
     newsId: null,
@@ -76,6 +78,64 @@
   const FEEDBACK_KEY = "ai-atlas-feedback";
   const BANNER_SETTINGS_KEY = "ai-atlas-banner-settings";
   const HOME_SECTION_PAGE_SIZE = 20;
+
+  function routeForState() {
+    if (state.view === "scene" && state.sceneId) {
+      const parts = ["scene", state.sceneId];
+      if (state.sceneSubFilter && state.sceneSubFilter !== "all") parts.push(state.sceneSubFilter);
+      return `#/${parts.map(encodeURIComponent).join("/")}`;
+    }
+    if (state.view === "product" && state.productId) {
+      return `#/product/${encodeURIComponent(state.productId)}`;
+    }
+    if (state.view === "news-detail" && state.newsId) {
+      return `#/news/${encodeURIComponent(state.newsId)}`;
+    }
+    if (state.view === "news") return "#/news";
+    return "#/home";
+  }
+
+  function syncRoute() {
+    const route = routeForState();
+    if (window.location.hash !== route) {
+      window.history.replaceState(null, "", route);
+    }
+  }
+
+  function restoreRouteFromHash() {
+    const parts = window.location.hash
+      .replace(/^#\/?/, "")
+      .split("/")
+      .filter(Boolean)
+      .map((part) => decodeURIComponent(part));
+    const [view, id, subId] = parts;
+
+    if (view === "scene" && sceneMap[id]) {
+      state.sceneId = id;
+      state.sceneSubFilter = subId && sceneMap[subId] ? subId : "all";
+      showView("scene", { push: false, sync: false });
+      return true;
+    }
+    if (view === "product" && productMap[id]) {
+      state.productId = id;
+      showView("product", { push: false, sync: false });
+      return true;
+    }
+    if (view === "news" && id && newsMap[id]) {
+      state.newsId = id;
+      showView("news-detail", { push: false, sync: false });
+      return true;
+    }
+    if (view === "news") {
+      showView("news", { push: false, sync: false });
+      return true;
+    }
+    if (view === "home") {
+      showView("home", { push: false, sync: false });
+      return true;
+    }
+    return false;
+  }
 
   function defaultBannerSettings() {
     return {
@@ -119,9 +179,6 @@
         news = data.items.map(normalizeNewsItem);
         newsMap = Object.fromEntries(news.map((n) => [n.id, n]));
       }
-      newsBrief = data.brief || null;
-      newsWhatsChanging = data.whatsChanging || null;
-      newsProductUpdates = data.productUpdates || [];
     } catch {
       /* 使用 data.js 内置快讯 */
     }
@@ -148,12 +205,12 @@
   }
 
   function newsOneLiner(n) {
-    return n.oneLiner || n.summary?.oneSentence || (typeof n.summary === "string" ? n.summary : "");
+    return cleanNewsText(n.oneLiner || n.summary?.oneSentence || (typeof n.summary === "string" ? n.summary : ""));
   }
 
   function newsTagHtml(n) {
     return (n.tags || [])
-      .map((t) => `<span class="tag tag-static">${t}</span>`)
+      .map((t) => `<span class="tag tag-static">${escapeHtml(cleanNewsText(t))}</span>`)
       .join("");
   }
 
@@ -203,7 +260,7 @@
     const s = newsSourceMeta(n);
     if (!s) return "";
     const typeLabel =
-      s.type === "x" ? "X" : s.type === "release" ? "Release Notes" : s.type === "blog" ? "官网" : "来源";
+      s.type === "x" ? "X" : s.type === "release" ? "发布说明" : s.type === "blog" ? "官网" : "来源";
     return `${typeLabel} · ${s.author || s.name || "海外"}`;
   }
 
@@ -213,6 +270,22 @@
       .replace(/</g, "&lt;")
       .replace(/>/g, "&gt;")
       .replace(/"/g, "&quot;");
+  }
+
+  function cleanNewsText(text = "") {
+    return String(text)
+      .replace(/<img\b[^>]*>/gi, " ")
+      .replace(/<br\s*\/?>/gi, " ")
+      .replace(/<\/p>|<\/div>|<\/li>|<\/h[1-6]>/gi, " ")
+      .replace(/<[^>]+>/g, " ")
+      .replace(/&nbsp;/gi, " ")
+      .replace(/&amp;/gi, "&")
+      .replace(/&lt;/gi, "<")
+      .replace(/&gt;/gi, ">")
+      .replace(/&quot;/gi, '"')
+      .replace(/&#39;|&apos;/gi, "'")
+      .replace(/\s+/g, " ")
+      .trim();
   }
 
   function newsSourceLink(n) {
@@ -243,6 +316,13 @@
     return ids;
   }
 
+  function isBaiduProduct(p) {
+    if (!p) return false;
+    if ((p.name || "").includes("百度")) return true;
+    if ((p.oneLiner || "").includes("百度")) return true;
+    return (p.links || []).some((l) => /baidu\.com/i.test(l.url || ""));
+  }
+
   function sortProductsList(list, pinKey) {
     const pins = pinKey ? categoryPins[pinKey] || [] : [];
     const featured = new Set(featuredBanner);
@@ -255,7 +335,9 @@
         const dr = pinRank(a.id) - pinRank(b.id);
         if (dr !== 0) return dr;
       }
-      return (featured.has(a.id) ? 0 : 1) - (featured.has(b.id) ? 0 : 1);
+      const feat = (featured.has(a.id) ? 0 : 1) - (featured.has(b.id) ? 0 : 1);
+      if (feat !== 0) return feat;
+      return (isBaiduProduct(a) ? 1 : 0) - (isBaiduProduct(b) ? 1 : 0);
     });
   }
 
@@ -585,11 +667,236 @@
     `;
   }
 
+  async function loadAihotFeed() {
+    try {
+      const res = await fetch(`./aihot-feed.json?t=${Date.now()}`);
+      if (!res.ok) return;
+      const data = await res.json();
+      if (Array.isArray(data.items) && data.items.length) {
+        aihotFeed = data;
+      }
+    } catch {
+      /* 忽略，显示空状态 */
+    }
+  }
+
+  function aihotSourceInitial(source) {
+    const s = String(source || "?").trim();
+    const ch = s.replace(/^[^\p{L}\p{N}]+/u, "").charAt(0);
+    return (ch || "?").toUpperCase();
+  }
+
+  function shortenProductName(name) {
+    return String(name || "")
+      .replace(/^([A-Za-z]+\d+\.\d+)-[\w]+$/i, "$1")
+      .replace(/\s+(Flash|Max|Pro|Ultra|Mini|Nano|Turbo)\b.*$/i, "")
+      .trim();
+  }
+
+  function aihotProductLabel(item) {
+    const title = (item.title || "").trim();
+    const titleEn = (item.titleEn || "").trim();
+    if (!title && !titleEn) return aihotSourceInitial(item.source);
+
+    let m =
+      title.match(/^([A-Za-z][\w.\-]*(?:\s[A-Za-z][\w.\-]*)?)\s*(?:发布|[：:])/u) ||
+      title.match(/^([A-Za-z][\w.\-]+(?:\s[\w.\-]+)?)\s+(?:用|支持|助|以|开源)/u) ||
+      titleEn.match(/^([A-Za-z][\w.\-]*(?:\s[A-Za-z][\w.\-]*)?)\s*[：:]/u);
+    if (m) return shortenProductName(m[1]);
+
+    m = title.match(/^(OpenAI|Anthropic|Google|Meta|Microsoft|DeepSeek)\s+(?:新模型\s+)?([A-Za-z][\w.\-]+)/u);
+    if (m) return shortenProductName(m[2] || m[1]);
+
+    m = title.match(
+      /(Claude(?:\s[\w.\-]+)?|GPT[\w.\-]*|Gemini[\w.\-]*|Qwen[\w.\-]*|Grok|Codex|GLM[\w.\s.\-]*|DeepSeek[\w.\s.\-]*|Suno|Copilot[\w.\-]*|Replit[\w.\-]*)/iu
+    );
+    if (m) return shortenProductName(m[1]);
+
+    m = title.match(/^([^\s：:，,。]{2,18})/u);
+    if (m) return shortenProductName(m[1]);
+
+    return aihotSourceInitial(item.source);
+  }
+
+  function aihotTimelineItemHtml(item, side) {
+    const productLabel = aihotProductLabel(item);
+    const originalUrl = item.url || "";
+    const linkHtml = originalUrl
+      ? `<a class="ms-link" href="${originalUrl}" target="_blank" rel="noopener noreferrer">阅读原文 ↗</a>`
+      : item.aihotUrl
+        ? `<a class="ms-link" href="${item.aihotUrl}" target="_blank" rel="noopener noreferrer">AI HOT 详情 ↗</a>`
+        : "";
+    return `
+      <article class="ms-item ms-item--${side} reveal">
+        <div class="ms-card">
+          <div class="ms-card-head">
+            <time class="ms-time">${item.time || ""}</time>
+            <span class="ms-score">${item.score || ""}</span>
+          </div>
+          <h3 class="ms-title">${escapeHtml(item.title || "")}</h3>
+          <p class="ms-source">${escapeHtml(item.source || "")}</p>
+          <p class="ms-summary">${escapeHtml(item.summary || "")}</p>
+          ${item.reason ? `<p class="ms-reason"><em>推荐理由</em>${escapeHtml(item.reason)}</p>` : ""}
+          ${linkHtml}
+        </div>
+        <div class="ms-media" aria-hidden="true">
+          <div class="ms-media-ring"></div>
+          <div class="ms-product-name">${escapeHtml(productLabel)}</div>
+        </div>
+      </article>`;
+  }
+
+  function renderAihotTimeline(container, metaEl, { limit = 12 } = {}) {
+    if (!container) return;
+
+    if (!aihotFeed?.items?.length) {
+      if (metaEl) metaEl.textContent = "精选快讯加载中或暂无数据";
+      container.innerHTML = `<div class="ms-empty reveal">暂无 AI HOT 精选，请稍后刷新或运行 npm run aihot:fetch</div>`;
+      return;
+    }
+
+    const updated = aihotFeed.updatedAt
+      ? new Date(aihotFeed.updatedAt).toLocaleString("zh-CN", { hour12: false })
+      : "";
+    if (metaEl) {
+      metaEl.innerHTML = `更新于 ${updated} · 共 ${aihotFeed.itemCount} 条 · 来源 <a href="https://aihot.virxact.com/" target="_blank" rel="noopener noreferrer">AI HOT</a>`;
+    }
+
+    const groups = aihotFeed.groups || [];
+    let shown = 0;
+    let globalIndex = 0;
+    const parts = ['<div class="ms-axis" aria-hidden="true"></div>'];
+
+    for (const group of groups) {
+      if (shown >= limit) break;
+      parts.push(`
+        <header class="ms-day reveal">
+          <div class="ms-day-badge">
+            <span class="ms-day-main">${escapeHtml(group.dateLabel || "")}</span>
+            <span class="ms-day-sub">${escapeHtml(group.weekday || "")}</span>
+          </div>
+        </header>`);
+
+      for (const item of group.items || []) {
+        if (shown >= limit) break;
+        const side = globalIndex % 2 === 0 ? "left" : "right";
+        parts.push(aihotTimelineItemHtml(item, side));
+        globalIndex += 1;
+        shown += 1;
+      }
+    }
+
+    container.innerHTML = parts.join("");
+    bindReveal();
+  }
+
+  function aihotDetailCardHtml(item) {
+    const tags = (item.tags || [])
+      .map((t) => `<span class="aihot-detail-tag">${escapeHtml(t)}</span>`)
+      .join("");
+    const dateTime = [item.dateLabel, item.time].filter(Boolean).join(" ");
+    const originalUrl = item.url || item.aihotUrl || "";
+    const aihotUrl = item.aihotUrl || item.url || "";
+
+    return `
+      <article class="aihot-detail-card reveal">
+        <div class="aihot-detail-head">
+          <span class="aihot-detail-cat">${escapeHtml(item.categoryName || "行业")}</span>
+          ${item.score ? `<span class="aihot-detail-score">${item.score}</span>` : ""}
+          ${dateTime ? `<time class="aihot-detail-time">${escapeHtml(dateTime)}</time>` : ""}
+        </div>
+        <h3 class="aihot-detail-title">${escapeHtml(item.title || "")}</h3>
+        ${item.source ? `<p class="aihot-detail-source">${escapeHtml(item.source)}</p>` : ""}
+        ${item.summary ? `<p class="aihot-detail-summary">${escapeHtml(item.summary)}</p>` : ""}
+        ${item.reason ? `<blockquote class="aihot-detail-reason"><span class="aihot-detail-reason-label">推荐理由</span>${escapeHtml(item.reason)}</blockquote>` : ""}
+        ${tags ? `<div class="aihot-detail-tags">${tags}</div>` : ""}
+        <div class="aihot-detail-actions">
+          ${originalUrl ? `<a class="aihot-detail-link" href="${originalUrl}" target="_blank" rel="noopener noreferrer">阅读原文 ↗</a>` : ""}
+          ${aihotUrl ? `<a class="aihot-detail-link aihot-detail-link--muted" href="${aihotUrl}" target="_blank" rel="noopener noreferrer">AI HOT 详情 ↗</a>` : ""}
+        </div>
+      </article>`;
+  }
+
+  function renderAihotCategoryDetail() {
+    const { aihotCategoryFilters, aihotCategoryMeta, aihotCategoryDetail } = els;
+    if (!aihotCategoryDetail) return;
+
+    if (!aihotFeed?.items?.length) {
+      if (aihotCategoryFilters) aihotCategoryFilters.innerHTML = "";
+      if (aihotCategoryMeta) aihotCategoryMeta.textContent = "";
+      aihotCategoryDetail.innerHTML = `<div class="ms-empty reveal">暂无分类数据，请运行 npm run aihot:fetch</div>`;
+      return;
+    }
+
+    const categories = aihotFeed.categories || [{ id: "all", name: "全部" }];
+    const filter = state.aihotCategoryFilter || "all";
+
+    if (aihotCategoryFilters) {
+      aihotCategoryFilters.innerHTML = categories
+        .map((cat) => {
+          const count =
+            cat.id === "all"
+              ? aihotFeed.itemCount
+              : (aihotFeed.categorySections || []).find((s) => s.id === cat.id)?.count ||
+                aihotFeed.items.filter((i) => i.categoryId === cat.id).length;
+          return `<button class="chip ${filter === cat.id ? "active" : ""}" type="button" data-aihot-category-filter="${cat.id}">${escapeHtml(cat.name)}${count ? ` · ${count}` : ""}</button>`;
+        })
+        .join("");
+    }
+
+    let html = "";
+    let visibleCount = 0;
+
+    if (filter === "all") {
+      const sections = aihotFeed.categorySections || [];
+      if (sections.length) {
+        html = sections
+          .map((section) => {
+            visibleCount += section.items.length;
+            return `
+              <div class="aihot-category-group reveal">
+                <header class="aihot-category-group-head">
+                  <h3 class="aihot-category-group-title">${escapeHtml(section.name)}</h3>
+                  <span class="aihot-category-group-count">${section.count} 条</span>
+                </header>
+                <div class="aihot-detail-grid aihot-detail-grid--group">
+                  ${section.items.map((item) => aihotDetailCardHtml(item)).join("")}
+                </div>
+              </div>`;
+          })
+          .join("");
+      } else {
+        visibleCount = aihotFeed.items.length;
+        html = `<div class="aihot-detail-grid aihot-detail-grid--group">${aihotFeed.items.map((item) => aihotDetailCardHtml(item)).join("")}</div>`;
+      }
+    } else {
+      const items = aihotFeed.items.filter((i) => i.categoryId === filter);
+      visibleCount = items.length;
+      const catName = categories.find((c) => c.id === filter)?.name || filter;
+      html = items.length
+        ? `<div class="aihot-detail-grid aihot-detail-grid--group">${items.map((item) => aihotDetailCardHtml(item)).join("")}</div>`
+        : `<div class="ms-empty reveal">${escapeHtml(catName)} 分类暂无快讯</div>`;
+    }
+
+    if (aihotCategoryMeta) {
+      aihotCategoryMeta.textContent = filter === "all" ? `共 ${visibleCount} 条精选` : `当前分类 ${visibleCount} 条`;
+    }
+
+    aihotCategoryDetail.innerHTML = html;
+    bindReveal();
+  }
+
+  function renderAihotSections() {
+    renderAihotTimeline(els.aihotTimeline, els.aihotTimelineMeta, { limit: 10 });
+    renderAihotTimeline(els.aihotTimelineFull, null, { limit: 12 });
+    renderAihotCategoryDetail();
+  }
+
   function newsStripItem(n) {
     return `
       <button class="news-strip-item" type="button" data-open-news="${n.id}">
-        <span class="news-strip-title">${n.title}</span>
-        ${newsSourceMeta(n) ? `<span class="news-strip-source">${newsSourceLabel(n)}</span>` : ""}
+        <span class="news-strip-title">${escapeHtml(cleanNewsText(n.title))}</span>
+        ${newsSourceMeta(n) ? `<span class="news-strip-source">${escapeHtml(cleanNewsText(newsSourceLabel(n)))}</span>` : ""}
         <span class="news-strip-date">${n.date}</span>
         <span class="news-strip-arrow" aria-hidden="true">→</span>
       </button>
@@ -603,9 +910,9 @@
           <div class="news-card-meta">
             ${newsSourceMeta(n) ? `<div class="news-card-source">${newsSourceHtml(n, true)}</div>` : ""}
           </div>
-          <h3>${n.title}</h3>
+          <h3>${escapeHtml(cleanNewsText(n.title))}</h3>
         </div>
-        <p class="summary">${newsOneLiner(n)}</p>
+        <p class="summary">${escapeHtml(newsOneLiner(n))}</p>
         ${(n.tags || []).length ? `<div class="tags news-tags">${newsTagHtml(n)}</div>` : `<div class="tags">${categoryTags(n.categoryIds, false)}</div>`}
         <div class="news-item-foot">
           <p class="time">${n.date}</p>
@@ -628,9 +935,8 @@
   }
 
   function briefSectionStats(b, sectionDefs) {
-    return sectionDefs.map(({ key, fallback, icon }) => {
+    return sectionDefs.map(({ key, label, icon }) => {
       const ids = b.sections?.[key] || [];
-      const label = b.sectionLabels?.[key] || fallback;
       const items = ids.map((id) => newsMap[id]).filter(Boolean);
       const top = items[0];
       return {
@@ -653,19 +959,19 @@
 
     const pipelineHtml = `
       <div class="brief-chart-pipeline" aria-hidden="true">
-        <span class="brief-chart-node brief-chart-node--source">Source Agent</span>
+        <span class="brief-chart-node brief-chart-node--source">来源 Agent</span>
         <span class="brief-chart-arrow">→</span>
-        <span class="brief-chart-node brief-chart-node--tag">Tag Agent</span>
+        <span class="brief-chart-node brief-chart-node--tag">标签 Agent</span>
         <span class="brief-chart-arrow">→</span>
-        <span class="brief-chart-node brief-chart-node--brief">AI Brief</span>
+        <span class="brief-chart-node brief-chart-node--brief">AI 简报</span>
         <span class="brief-chart-arrow">→</span>
-        <span class="brief-chart-node brief-chart-node--dash">Dashboard</span>
+        <span class="brief-chart-node brief-chart-node--dash">数据看板</span>
       </div>`;
 
     const structureHtml = `
       <div class="brief-chart-structure">
         <div class="brief-chart-hub">
-          <div class="brief-chart-hub-label">Today's Brief</div>
+          <div class="brief-chart-hub-label">今日简报</div>
           <div class="brief-chart-hub-stats">
             <span class="brief-stat"><strong>${b.todayCount ?? "—"}</strong><em>今日</em></span>
             <span class="brief-stat"><strong>${b.totalCount ?? news.length}</strong><em>档案</em></span>
@@ -707,7 +1013,7 @@
         ? `
         <div class="brief-chart-trends">
           <div class="brief-chart-trends-head">
-            <span>What's Changing · ${wc?.periodDays || 30} 天</span>
+            <span>近期变化 · ${wc?.periodDays || 30} 天</span>
           </div>
           ${wc?.summary ? `<p class="brief-chart-trends-summary">${wc.summary}</p>` : ""}
           ${
@@ -722,7 +1028,7 @@
       <div class="brief-summary-chart reveal">
         <div class="brief-summary-chart-head">
           <div>
-            <div class="section-label">Brief Overview</div>
+            <div class="section-label">简报总览</div>
             <h3 class="brief-summary-chart-title">今日快讯总览</h3>
           </div>
           <span class="news-brief-meta">${b.date || ""} · ${b.headline || ""}</span>
@@ -742,21 +1048,20 @@
     }
 
     const sectionDefs = [
-      { key: "topUpdates", fallback: "🔥 Top Updates", icon: "🔥" },
-      { key: "newReleases", fallback: "🟢 New Releases", icon: "🟢" },
-      { key: "insights", fallback: "🧠 AI Insights", icon: "🧠" },
-      { key: "emergingTrends", fallback: "📈 Emerging Trends", icon: "📈" },
-      { key: "newApis", fallback: "🏷 New APIs", icon: "🏷" },
-      { key: "githubTrending", fallback: "🚀 Github Trending", icon: "🚀" },
-      { key: "productHunt", fallback: "💼 Product Hunt", icon: "💼" },
-      { key: "xDiscussions", fallback: "💬 X Discussions", icon: "💬" },
+      { key: "topUpdates", label: "🔥 重点更新", icon: "🔥" },
+      { key: "newReleases", label: "🟢 最新发布", icon: "🟢" },
+      { key: "insights", label: "🧠 AI 洞察", icon: "🧠" },
+      { key: "emergingTrends", label: "📈 新兴趋势", icon: "📈" },
+      { key: "newApis", label: "🏷 最新 API", icon: "🏷" },
+      { key: "githubTrending", label: "🚀 GitHub 热门", icon: "🚀" },
+      { key: "productHunt", label: "💼 Product Hunt 热门", icon: "💼" },
+      { key: "xDiscussions", label: "💬 X 热议", icon: "💬" },
     ];
 
     const sectionsHtml = sectionDefs
-      .map(({ key, fallback }) => {
+      .map(({ key, label }) => {
         const ids = b.sections?.[key] || [];
         if (!ids.length) return "";
-        const label = b.sectionLabels?.[key] || fallback;
         const rows = ids
           .map((id) => newsMap[id])
           .filter(Boolean)
@@ -783,42 +1088,16 @@
       .join("");
 
     const wc = newsWhatsChanging;
-    const wcHtml =
-      wc?.summary || (wc?.trends || []).length
-        ? `
-      <section class="news-whats-changing reveal">
-        <h2>What's Changing · 近 ${wc.periodDays || 30} 天</h2>
-        ${wc.summary ? `<p class="news-wc-summary">${wc.summary}</p>` : ""}
-        ${
-          (wc.risingTags || []).length
-            ? `<div class="news-wc-rising">${wc.risingTags.map((t) => `<span class="tag tag-static">✓ ${t}</span>`).join("")}</div>`
-            : ""
-        }
-        ${
-          (wc.trends || []).length
-            ? `<ul class="news-wc-trends">${wc.trends
-                .map(
-                  (t) =>
-                    `<li><strong>${t.name}</strong>${t.signal ? ` — ${t.signal}` : ""}${
-                      t.examples?.length ? `<span class="news-wc-examples">${t.examples.slice(0, 2).join(" · ")}</span>` : ""
-                    }</li>`
-                )
-                .join("")}</ul>`
-            : ""
-        }
-      </section>`
-        : "";
 
     els.newsBrief.innerHTML = `
       <section class="news-dashboard reveal">
         ${renderBriefSummaryChart(b, sectionDefs, wc)}
         <div class="news-brief-head">
-          <h2>Today's Brief</h2>
+          <h2>今日简报</h2>
           <span class="news-brief-meta">${b.date || ""} · 今日 ${b.todayCount ?? "—"} 条 · 档案 ${b.totalCount ?? news.length} 条</span>
         </div>
         ${topRows ? `<div class="news-brief-list">${topRows}</div>` : ""}
         ${sectionsHtml ? `<div class="news-dash-grid">${sectionsHtml}</div>` : ""}
-        ${wcHtml}
       </section>`;
   }
 
@@ -833,8 +1112,8 @@
     els.newsProductUpdates.innerHTML = `
       <section class="news-product-updates reveal">
         <div class="news-product-updates-head">
-          <h2>产品更新 Dashboard</h2>
-          <span class="news-brief-meta">${list.length} 条近期 Release / 产品动态</span>
+          <h2>产品更新看板</h2>
+          <span class="news-brief-meta">${list.length} 条近期发布 / 产品动态</span>
         </div>
         <div class="news-product-grid">
           ${list
@@ -1076,6 +1355,147 @@
     }
     const loop = [...list, ...list];
     els.heroBanner.innerHTML = loop.map((p) => bannerSlot(p)).join("");
+    initBannerInteraction();
+  }
+
+  let bannerInited = false;
+  let bannerResizeObs = null;
+  const bannerState = {
+    offset: 0,
+    dragging: false,
+    lastX: 0,
+    lastTime: 0,
+    autoScroll: true,
+    dragMoved: 0,
+    suppressClick: false,
+    halfWidth: 0,
+    reduceMotion: false,
+  };
+
+  function measureBannerLoop() {
+    const track = els.heroBanner;
+    if (!track) return 0;
+    return track.scrollWidth / 2;
+  }
+
+  function normalizeBannerOffset() {
+    const half = bannerState.halfWidth;
+    if (half <= 0) return;
+    while (bannerState.offset <= -half) bannerState.offset += half;
+    while (bannerState.offset > 0) bannerState.offset -= half;
+  }
+
+  function applyBannerTransform() {
+    if (!els.heroBanner) return;
+    els.heroBanner.style.transform = `translate3d(${bannerState.offset}px, 0, 0)`;
+  }
+
+  function bannerTick(now) {
+    if (!els.heroBanner?.children.length) {
+      requestAnimationFrame(bannerTick);
+      return;
+    }
+    if (bannerState.halfWidth <= 0) {
+      bannerState.halfWidth = measureBannerLoop();
+    }
+    if (
+      !bannerState.reduceMotion &&
+      bannerState.autoScroll &&
+      !bannerState.dragging &&
+      bannerState.halfWidth > 0
+    ) {
+      const dt = bannerState.lastTime ? Math.min(now - bannerState.lastTime, 48) : 16;
+      bannerState.offset -= (bannerState.halfWidth / 48000) * dt;
+      normalizeBannerOffset();
+      applyBannerTransform();
+    }
+    bannerState.lastTime = now;
+    requestAnimationFrame(bannerTick);
+  }
+
+  function initBannerInteraction() {
+    const viewport = els.heroBannerViewport;
+    const track = els.heroBanner;
+    if (!viewport || !track || !track.children.length) return;
+
+    track.classList.add("is-js-scroll");
+    viewport.classList.add("is-js-scroll-ready");
+    bannerState.halfWidth = measureBannerLoop();
+    bannerState.reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    applyBannerTransform();
+
+    if (!bannerInited) {
+      bannerInited = true;
+
+      viewport.addEventListener("pointerdown", (e) => {
+        if (e.button !== 0) return;
+        bannerState.dragging = true;
+        bannerState.autoScroll = false;
+        bannerState.lastX = e.clientX;
+        bannerState.dragMoved = 0;
+        viewport.classList.add("is-dragging");
+        viewport.setPointerCapture(e.pointerId);
+      });
+
+      viewport.addEventListener("pointermove", (e) => {
+        if (!bannerState.dragging) return;
+        const dx = e.clientX - bannerState.lastX;
+        bannerState.dragMoved += Math.abs(dx);
+        bannerState.offset += dx;
+        bannerState.lastX = e.clientX;
+        normalizeBannerOffset();
+        applyBannerTransform();
+      });
+
+      const endDrag = (e) => {
+        if (!bannerState.dragging) return;
+        bannerState.dragging = false;
+        viewport.classList.remove("is-dragging");
+        if (viewport.hasPointerCapture(e.pointerId)) {
+          viewport.releasePointerCapture(e.pointerId);
+        }
+        if (bannerState.dragMoved > 8) {
+          bannerState.suppressClick = true;
+          window.setTimeout(() => {
+            bannerState.suppressClick = false;
+          }, 120);
+        }
+        window.setTimeout(() => {
+          if (!bannerState.dragging) bannerState.autoScroll = true;
+        }, 2200);
+      };
+
+      viewport.addEventListener("pointerup", endDrag);
+      viewport.addEventListener("pointercancel", endDrag);
+
+      track.addEventListener(
+        "click",
+        (e) => {
+          if (!bannerState.suppressClick) return;
+          const slot = e.target.closest(".banner-slot");
+          if (slot) e.preventDefault();
+        },
+        true
+      );
+
+      viewport.addEventListener("mouseenter", () => {
+        if (!bannerState.dragging) bannerState.autoScroll = false;
+      });
+      viewport.addEventListener("mouseleave", () => {
+        if (!bannerState.dragging) bannerState.autoScroll = true;
+      });
+
+      if (!bannerResizeObs) {
+        bannerResizeObs = new ResizeObserver(() => {
+          bannerState.halfWidth = measureBannerLoop();
+          normalizeBannerOffset();
+          applyBannerTransform();
+        });
+        bannerResizeObs.observe(track);
+      }
+
+      requestAnimationFrame(bannerTick);
+    }
   }
 
   const SPHERE_PHI = (1 + Math.sqrt(5)) / 2;
@@ -1580,8 +2000,7 @@
     renderSphere();
     renderBanner();
     renderHomeMap();
-    const newsPreview = news.slice(0, 6);
-    els.newsPreview.innerHTML = newsPreview.map((n) => newsStripItem(n)).join("");
+    renderAihotSections();
     bindReveal();
   }
 
@@ -1741,7 +2160,7 @@
               ? related
                   .map(
                     (n) =>
-                      `<button type="button" data-open-news="${n.id}"><strong>${n.title}</strong><span>${n.date}</span></button>`
+                      `<button type="button" data-open-news="${n.id}"><strong>${escapeHtml(cleanNewsText(n.title))}</strong><span>${n.date}</span></button>`
                   )
                   .join("")
               : "<p>暂无相关快讯</p>"
@@ -1781,6 +2200,7 @@
   }
 
   function renderNews() {
+    renderAihotSections();
     const tagSet = new Set();
     news.forEach((n) => (n.tags || []).forEach((t) => tagSet.add(t)));
     const tagFilters = [...tagSet].sort().map((t) => ({ id: `tag:${t}`, name: t }));
@@ -1807,8 +2227,6 @@
 
     list = [...list].sort((a, b) => new Date(b.date) - new Date(a.date));
 
-    renderNewsDashboard();
-    renderProductUpdates();
     els.newsList.innerHTML = list.map((n) => newsCard(n)).join("") || `<div class="empty reveal">该分类暂无快讯</div>`;
     bindReveal();
   }
@@ -1920,7 +2338,7 @@
     });
   }
 
-  function showView(view, { push = true } = {}) {
+  function showView(view, { push = true, sync = true } = {}) {
     if (push && state.view !== view) {
       state.history.push({
         view: state.view,
@@ -1944,6 +2362,13 @@
 
     setTab(view === "scene" || view === "product" ? "home" : view);
     window.scrollTo({ top: 0, behavior: "instant" in window ? "instant" : "auto" });
+
+    let analyticsView = view;
+    if (view === "product" && state.productId) analyticsView = `product:${state.productId}`;
+    else if (view === "scene" && state.sceneId) analyticsView = `scene:${state.sceneId}`;
+    else if (view === "news-detail" && state.newsId) analyticsView = `news-detail:${state.newsId}`;
+    window.AIAnalytics?.logVisit?.({ view: analyticsView });
+    if (sync) syncRoute();
   }
 
   function openCategoryPage(id) {
@@ -1999,7 +2424,7 @@
     // 其余外链仍直接跳转
     if (e.target.closest("a[href^='http']")) return;
 
-    const t = e.target.closest("[data-nav], [data-open-scene], [data-open-category], [data-open-product], [data-open-news], [data-news-filter], [data-home-sub-filter], [data-scene-sub-filter], [data-home-section-page], [data-scroll], [data-brief-section]");
+    const t = e.target.closest("[data-nav], [data-open-scene], [data-open-category], [data-open-product], [data-open-news], [data-news-filter], [data-aihot-category-filter], [data-home-sub-filter], [data-scene-sub-filter], [data-home-section-page], [data-scroll], [data-brief-section]");
     if (!t) return;
 
     if (t.dataset.briefSection) {
@@ -2030,6 +2455,7 @@
     if (t.dataset.sceneSubFilter !== undefined) {
       state.sceneSubFilter = t.dataset.sceneSubFilter;
       renderScene(state.sceneId);
+      syncRoute();
       bindReveal();
       return;
     }
@@ -2063,6 +2489,12 @@
     if (t.dataset.newsFilter) {
       state.newsFilter = t.dataset.newsFilter;
       renderNews();
+      syncRoute();
+      return;
+    }
+    if (t.dataset.aihotCategoryFilter !== undefined) {
+      state.aihotCategoryFilter = t.dataset.aihotCategoryFilter;
+      renderAihotCategoryDetail();
     }
   });
 
@@ -2154,12 +2586,19 @@
     { passive: true }
   );
 
+  window.addEventListener("hashchange", () => {
+    if (restoreRouteFromHash()) {
+      state.history = [];
+      bindReveal();
+    }
+  });
+
   async function boot() {
     try {
-      await loadNewsFeed();
+      await Promise.all([loadNewsFeed(), loadAihotFeed()]);
       news = news.map(normalizeNewsItem);
       newsMap = Object.fromEntries(news.map((n) => [n.id, n]));
-      showView("home", { push: false });
+      if (!restoreRouteFromHash()) showView("home", { push: false, sync: false });
       bindReveal();
     } catch (err) {
       console.error("页面初始化失败", err);
