@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-14T01:23:43.314Z",
+  "updatedAt": "2026-08-15T00:54:40.950Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 214,
+  "itemCount": 224,
   "brief": {
-    "date": "2026-08-14",
-    "generatedAt": "2026-08-14T01:23:43.312Z",
-    "totalCount": 214,
+    "date": "2026-08-15",
+    "generatedAt": "2026-08-15T00:54:40.949Z",
+    "totalCount": 224,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 214 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 224 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -40,10 +40,10 @@
         "readMinutes": 5
       },
       {
-        "id": "sig-068e562e05",
-        "title": "Gemini 3.7 闪存简介",
+        "id": "sig-d4d5059386",
+        "title": "Vercel CDN 现已支持加密客户端 Hello (ECH) - Vercel",
         "stars": 4,
-        "oneLiner": "我们迄今为止最智能的编码和代理主力模型。",
+        "oneLiner": "Vercel CDN 现在支持 Vercel DNS 管理的域的加密客户端 Hello (ECH)。 ECH 对 TLS 握手中的服务器名称指示 (SNI) 进行加密，这是 HTTPS 连接的最后一部分，用于显示客户端正在连接的主机名。通过",
         "readMinutes": 5
       }
     ],
@@ -53,8 +53,8 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "sig-068e562e05",
-        "sig-4cbb438f4f"
+        "sig-d4d5059386",
+        "sig-068e562e05"
       ],
       "newReleases": [
         "sig-1e5183cd6f",
@@ -69,10 +69,10 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
+        "sig-d4d5059386",
         "sig-068e562e05",
         "sig-4cbb438f4f",
-        "sig-85cb850f2e",
-        "sig-855fa77e93"
+        "sig-85cb850f2e"
       ],
       "emergingTrends": [
         "cur-openai-agentkit",
@@ -113,8 +113,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-08-14T01:23:43.313Z",
-    "summary": "近 30 天共 214 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-08-15T00:54:40.950Z",
+    "summary": "近 30 天共 220 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Agent",
@@ -433,6 +433,18 @@
       "stars": 4
     },
     {
+      "id": "sig-8f3f7b5717",
+      "title": "维珍航空通过 ChatGPT Work 提升客户旅程",
+      "oneLiner": "维珍航空正在利用 ChatGPT Work 加速研究、产品规划和决策，帮助团队在整个客户旅程中连接信号。",
+      "date": "2026-08-10",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
       "id": "sig-833934ee3b",
       "title": "应对关键网络能力的下一个前沿",
       "oneLiner": "OpenAI 正在分享对 Astra 的初步网络安全评估以及我们为加强保障和安全控制而采取的步骤。",
@@ -467,21 +479,153 @@
       "source": "Google DeepMind",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-0f0c1961f9",
-      "title": "改进 ChatGPT 中的 GPT-5.6 Sol，并扩大免费用户对 GPT-5.6 Luna 的访问",
-      "oneLiner": "ChatGPT 引入了改进的 GPT-5.6 Sol，具有更好的准确性和一致性，此外还扩大了免费用户的访问范围，并与 GPT-5.6 Luna 进行无限制的日常聊天。",
-      "date": "2026-08-06",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-d4d5059386",
+      "title": "Vercel CDN 现已支持加密客户端 Hello (ECH) - Vercel",
+      "oneLiner": "Vercel CDN 现在支持 Vercel DNS 管理的域的加密客户端 Hello (ECH)。 ECH 对 TLS 握手中的服务器名称指示 (SNI) 进行加密，这是 HTTPS 连接的最后一部分，用于显示客户端正在连接的主机名。通过",
+      "summary": {
+        "oneSentence": "Vercel CDN 现在支持 Vercel DNS 管理的域的加密客户端 Hello (ECH)。 ECH 对 TLS 握手中的服务器名称指示 (SNI) 进行加密，这是 HTTPS 连接的最后一部分，用于显示客户端正在连接的主机名。通过",
+        "bullets": [
+          "Vercel CDN 现在支持 Vercel DNS 管理的域的加密客户端 Hello (ECH)。 ECH 对 TLS 握手中的服务器名称指示 (SNI) 进行加密，这是 HTTPS 连接的最后一部分，用于显示客户端正在连接的主机名。通过 ECH，网络观察者可以看到与 Vercel 的共享 ECH 主机名 verce",
+          "ECH 在平台级别进行管理，并在支持的情况下自动启用。最新版本的 Chrome、Edge 和 Firefox 支持 Encrypted Client Hello 。",
+          "在 CDN 加密文档中了解有关 ECH 以及 Vercel CDN 如何保护您的应用程序的更多信息。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel CDN 现在支持 Vercel DNS 管理的域的加密客户端 Hello (ECH)。 ECH 对 TLS 握手中的服务器名称指示 (SNI) 进行加密，这是 HTTPS 连接的最后一部分，用于显示客户端正在连接的主机名。通过",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/encrypted-client-hello-now-supported-on-vercel-cdn"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel CDN 现在支持 Vercel DNS 管理的域的加密客户端 Hello (ECH)。 ECH 对 TLS 握手中的服务器名称指示 (SNI) 进行加密，这是 HTTPS 连接的最后一部分，用于显示客户端正在连接的主机名。通过 ECH，网络观察者可以看到与 Vercel 的共享 ECH 主机名 vercel-ech.com 的连接。",
+        "ECH 在平台级别进行管理，并在支持的情况下自动启用。最新版本的 Chrome、Edge 和 Firefox 支持 Encrypted Client Hello 。",
+        "在 CDN 加密文档中了解有关 ECH 以及 Vercel CDN 如何保护您的应用程序的更多信息。"
+      ],
+      "highlights": [
+        "Vercel CDN 现在支持 Vercel DNS 管理的域的加密客户端 Hello (ECH)。 ECH 对 TLS 握手中的服务器名称指示 (SNI) 进",
+        "ECH 在平台级别进行管理，并在支持的情况下自动启用。最新版本的 Chrome、Edge 和 Firefox 支持 Encrypted Client Hello",
+        "在 CDN 加密文档中了解有关 ECH 以及 Vercel CDN 如何保护您的应用程序的更多信息。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Encrypted Client Hello (ECH) is now supported on Vercel CDN - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-14",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/encrypted-client-hello-now-supported-on-vercel-cdn",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Encrypted Client Hello (ECH) is now supported on Vercel CDN - Vercel"
+      },
+      "raw": {
+        "title": "Encrypted Client Hello (ECH) is now supported on Vercel CDN",
+        "url": "https://vercel.com/changelog/encrypted-client-hello-now-supported-on-vercel-cdn",
+        "fetched": true,
+        "savedAt": "2026-08-15T00:53:41.742Z"
+      }
+    },
+    {
+      "id": "sig-77478ebfda",
+      "title": "Don't classify. Hallucinate!",
+      "oneLiner": "Don't classify. Hallucinate! I still have quite a bit of older content on my blog that I never got r",
+      "summary": {
+        "oneSentence": "Don't classify. Hallucinate! I still have quite a bit of older content on my blog that I never got round to tagging. My ",
+        "bullets": [
+          "Don't classify. Hallucinate! I still have quite a bit of older content on my blog that I never got round to tagging. My blog has 1,856 tags - likely too many to feed to an LLM in one go and say \"which"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Don't classify. Hallucinate! I still have quite a bit of older content on my blog that I never got round to tagging. My blog has 1,856 tags - likely too many to feed to an LLM in one go and say \"which of these tags match the following content\". Doug Turnbull has a neat solution. Tell the model to output tags without any details of the existing vocabulary, then use vector embeddings against the existing corpus to find the concrete tags that are closest to the ones the model imagined might fit! His example prompt suggests including an example of the shape of your tags to help the model make a more useful guess: Your task is to create novel, never seen before, furniture, home goods, or hardware classification that best fit a search query. Product classifications might look like: Furniture / Living Room Furniture / Coffee Tables & End Tables / Coffee Tables Décor & Pillows / Decorative Pillows & Blankets / Throw Pillows Furniture / Bedroom Furniture / Dressers & Chests Kitchen & Tabletop / Kitchen Organization / Food Storage & Canisters School Furniture and Supplies / School Furniture / School Chairs & Seating / Stackable Chairs Baby & Kids / Toddler & Kids Bedroom Furniture / Kids Beds Here's the query to generate classifications for: brown coffee table Tags: search , ai , generative-ai , llms , embeddings , doug-turnbull"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Don't classify. Hallucinate!",
+      "originalLang": "en",
+      "date": "2026-08-14",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Don't classify. Hallucinate!"
+      },
+      "raw": {
+        "title": "Don't classify. Hallucinate!",
+        "url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
+        "fetched": false,
+        "savedAt": "2026-08-15T00:54:34.198Z"
+      }
+    },
     {
       "id": "sig-068e562e05",
       "title": "Gemini 3.7 闪存简介",
@@ -1133,7 +1277,8 @@
         "title": "Cloud Agents Start 3x Faster with Builds",
         "url": "https://cursor.com/changelog/08-13-26",
         "fetched": true,
-        "savedAt": "2026-08-14T01:23:26.394Z"
+        "savedAt": "2026-08-14T01:23:26.394Z",
+        "retranslatedAt": "2026-08-15T00:54:35.521Z"
       }
     },
     {
@@ -1299,6 +1444,407 @@
         "url": "https://vercel.com/changelog/gemini-3-7-flash-now-available-on-ai-gateway-for-50-off",
         "fetched": true,
         "savedAt": "2026-08-14T01:23:37.902Z"
+      }
+    },
+    {
+      "id": "sig-fe1f297418",
+      "title": "如何快速朝着正确的方向前进| Figma 博客",
+      "oneLiner": "有了人工智能，速度就变得容易了，但技术债务也变得容易了。这就是为什么最好的团队不仅能快速交付产品，而且能快速交付产品。他们仔细考虑，高效构建，并使其脱颖而出。",
+      "summary": {
+        "oneSentence": "有了人工智能，速度就变得容易了，但技术债务也变得容易了。这就是为什么最好的团队不仅能快速交付产品，而且能快速交付产品。他们仔细考虑，高效构建，并使其脱颖而出。",
+        "bullets": [
+          "有了人工智能，速度就变得容易了，但技术债务也变得容易了。这就是为什么最好的团队不仅能快速交付产品，而且能快速交付产品。他们仔细考虑，高效构建，并使其脱颖而出。",
+          "在软件历史的大部分时间里，代码是产品构建的大门，而开发人员掌握着钥匙。有了人工智能，那扇门就消失了。现在，从未打开过 IDE 的人也可以发布工作软件。但这是有代价的：当你可以构建任何东西时，构建正确的东西当任何人都可以构建时最重要的是如果人工智能可以使任何人成为产品构建者，那么真正的优势是知道什么值得交付。",
+          "很容易提示您获得看起来精美且可投入生产的输出。我们被训练相信这种润色，因为在人工智能出现之前的世界中，它反映了专家们来之不易的决策和深思熟虑的权衡——比如系统的行为方式，以及哪些约束很重要。今天，我们可以快速构建原型，但法学硕士填补了我们的空白，使我们能够生成表面上看起来很棒，但实际上却分崩离析的东西。",
+          "认知投降是 Steven D. Shaw 和 Gideon Nave 在他们的论文《思考——快、慢和人工：人工智能如何重塑人类推理和认知投降的兴起》中创造的一个术语。它指的是当有人不加审查地接受人工智能输出、超越自己的直觉和深思熟虑时会发生什么。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Figma 官网发布：有了人工智能，速度就变得容易了，但技术债务也变得容易了。这就是为什么最好的团队不仅能快速交付产品，而且能快速交付产品。他们仔细考虑，高效构建，并使其脱颖而出。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://www.figma.com/blog/how-to-move-fast-toward-the-right-thing/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "有了人工智能，速度就变得容易了，但技术债务也变得容易了。这就是为什么最好的团队不仅能快速交付产品，而且能快速交付产品。他们仔细考虑，高效构建，并使其脱颖而出。",
+        "在软件历史的大部分时间里，代码是产品构建的大门，而开发人员掌握着钥匙。有了人工智能，那扇门就消失了。现在，从未打开过 IDE 的人也可以发布工作软件。但这是有代价的：当你可以构建任何东西时，构建正确的东西当任何人都可以构建时最重要的是如果人工智能可以使任何人成为产品构建者，那么真正的优势是知道什么值得交付。",
+        "很容易提示您获得看起来精美且可投入生产的输出。我们被训练相信这种润色，因为在人工智能出现之前的世界中，它反映了专家们来之不易的决策和深思熟虑的权衡——比如系统的行为方式，以及哪些约束很重要。今天，我们可以快速构建原型，但法学硕士填补了我们的空白，使我们能够生成表面上看起来很棒，但实际上却分崩离析的东西。",
+        "认知投降是 Steven D. Shaw 和 Gideon Nave 在他们的论文《思考——快、慢和人工：人工智能如何重塑人类推理和认知投降的兴起》中创造的一个术语。它指的是当有人不加审查地接受人工智能输出、超越自己的直觉和深思熟虑时会发生什么。",
+        "考虑意味着摩擦，而让人工智能完全消除这种摩擦是很诱人的。它有一个名字：“认知投降”，或者当我们让人工智能承担验证一个想法或形成独特观点的负担时会发生什么。我发现自己一直在这样做——将法学硕士的判断当作我自己的判断。快速行动，并在第一时间接受输出。但你必须从意图开始。我称之为“考虑的必要性”：面对问题并明确什么是值得构建的，而不是交付看起来合理的第一个选项。",
+        "在其白皮书《The New SDLC With Vibe Coding》中，Google 领导者 Addy Osmani、Shubham Saboo 和 Sokratis Kartakis 博士介绍了代理工程的理念：将开发人员的角色从编写代码转变为表达意图，并使用 AI 将意图转化为软件。",
+        "谷歌最近发布的一份关于代理编码的白皮书描述了省力的氛围编码如何导致技术债务。该论文认为，开发人员的重点需要从编写代码转向通过以下方式构建意图：",
+        "当从设计到代码时，代理缺乏生产组件的上下文。 Figma 的 MCP 中的 Code Connect 为他们提供了真正的生产代码（包括道具和变体），而不是让他们从像素重建组件。",
+        "这种类型的“代理工程”意味着开发人员需要做更多的前期工作，但当他们拥有更容易维护的软件时，最终会得到回报。对于设计来说也是如此。如果您投入时间和精力来构建强大的设计系统，您就可以编写决策，为代理提供精确的词汇和清晰的工作护栏。这种精度可以带来一致的输出、更简洁的代码和更少的技术债务。",
+        "考虑因素和背景可以帮助您更快地朝着正确的方向前进，但您仍然需要确保您所构建的内容脱颖而出。这就是人工智能对你不利的地方。模型是根据大量数据进行训练的。他们了解每一种趋势、风格和模式，并在一系列已经存在的事物中趋向平均值——用机器学习的术语来说，就是“分布中的事物”。"
+      ],
+      "highlights": [
+        "有了人工智能，速度就变得容易了，但技术债务也变得容易了。这就是为什么最好的团队不仅能快速交付产品，而且能快速交付产品。他们仔细考虑，高效构建，并使其脱颖而出。",
+        "在软件历史的大部分时间里，代码是产品构建的大门，而开发人员掌握着钥匙。有了人工智能，那扇门就消失了。现在，从未打开过 IDE 的人也可以发布工作软件。但这是有代",
+        "很容易提示您获得看起来精美且可投入生产的输出。我们被训练相信这种润色，因为在人工智能出现之前的世界中，它反映了专家们来之不易的决策和深思熟虑的权衡——比如系统的"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How To Move Fast Toward the Right Thing | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-08-13",
+      "categoryIds": [
+        "vertical-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/how-to-move-fast-toward-the-right-thing/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How To Move Fast Toward the Right Thing | Figma Blog"
+      },
+      "raw": {
+        "title": "How to move fast toward the right thing",
+        "url": "https://www.figma.com/blog/how-to-move-fast-toward-the-right-thing/",
+        "fetched": true,
+        "savedAt": "2026-08-15T00:53:54.886Z"
+      }
+    },
+    {
+      "id": "sig-647c1f36eb",
+      "title": "一键升级已弃用的 Node.js 版本 - Vercel",
+      "oneLiner": "团队所有者和成员现在可以通过 Vercel 仪表板一键将使用 Node.js 20 或更早版本的所有项目升级到 Node.js 24。",
+      "summary": {
+        "oneSentence": "团队所有者和成员现在可以通过 Vercel 仪表板一键将使用 Node.js 20 或更早版本的所有项目升级到 Node.js 24。",
+        "bullets": [
+          "团队所有者和成员现在可以通过 Vercel 仪表板一键将使用 Node.js 20 或更早版本的所有项目升级到 Node.js 24。",
+          "这会更新项目设置中的 Node.js 版本。如果您的项目还在 package.json 中定义了版本，则需要手动更新它。现有部署不受影响。",
+          "立即查看和升级已弃用的 Node.js 项目。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：团队所有者和成员现在可以通过 Vercel 仪表板一键将使用 Node.js 20 或更早版本的所有项目升级到 Node.js 24。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/one-click-upgrade-for-deprecated-node-js-versions"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "团队所有者和成员现在可以通过 Vercel 仪表板一键将使用 Node.js 20 或更早版本的所有项目升级到 Node.js 24。",
+        "这会更新项目设置中的 Node.js 版本。如果您的项目还在 package.json 中定义了版本，则需要手动更新它。现有部署不受影响。",
+        "立即查看和升级已弃用的 Node.js 项目。"
+      ],
+      "highlights": [
+        "团队所有者和成员现在可以通过 Vercel 仪表板一键将使用 Node.js 20 或更早版本的所有项目升级到 Node.js 24。",
+        "这会更新项目设置中的 Node.js 版本。如果您的项目还在 package.json 中定义了版本，则需要手动更新它。现有部署不受影响。",
+        "立即查看和升级已弃用的 Node.js 项目。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "One-click upgrade for deprecated Node.js versions - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-13",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/one-click-upgrade-for-deprecated-node-js-versions",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "One-click upgrade for deprecated Node.js versions - Vercel"
+      },
+      "raw": {
+        "title": "One-click upgrade for deprecated Node.js versions",
+        "url": "https://vercel.com/changelog/one-click-upgrade-for-deprecated-node-js-versions",
+        "fetched": true,
+        "savedAt": "2026-08-15T00:53:58.161Z"
+      }
+    },
+    {
+      "id": "sig-d074e76def",
+      "title": "Grok Build 现已在 AI SDK 线束层中可用 - Vercel",
+      "oneLiner": "AI SDK 利用层可让您通过一个统一的接口运行已建立的编码代理运行时，因此您可以在不更改应用程序代码的情况下切换运行时。今天，我们添加了 Grok Build，它与所有其他受支持的线束一样通过相同的 HarnessAgent 接口运行。",
+      "summary": {
+        "oneSentence": "AI SDK 利用层可让您通过一个统一的接口运行已建立的编码代理运行时，因此您可以在不更改应用程序代码的情况下切换运行时。今天，我们添加了 Grok Build，它与所有其他受支持的线束一样通过相同的 HarnessAgent 接口运行。",
+        "bullets": [
+          "AI SDK 利用层可让您通过一个统一的接口运行已建立的编码代理运行时，因此您可以在不更改应用程序代码的情况下切换运行时。今天，我们添加了 Grok Build，它与所有其他受支持的线束一样通过相同的 HarnessAgent 接口运行。",
+          "@ai-sdk/harness-grok-build 是 Grok Build 的官方线束适配器，构建在 ACP 线束适配器 (@ai-sdk/harness-acp) 之上。",
+          "1 从 '@ai-sdk/harness/agent' 导入 { HarnessAgent } ； 2 从 '@ai-sdk/harness-grok-build' 导入 { grokBuild } ； 3 4 const agent = new HarnessAgent ({ 5harness: grokBuild,",
+          "阅读 Grok Build 工具文档以开始使用。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：AI SDK 利用层可让您通过一个统一的接口运行已建立的编码代理运行时，因此您可以在不更改应用程序代码的情况下切换运行时。今天，我们添加了 Grok Build，它与所有其他受支持的线束一样通过相同的 HarnessAgent 接口运行。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/grok-build-harness-adapter"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "AI SDK 利用层可让您通过一个统一的接口运行已建立的编码代理运行时，因此您可以在不更改应用程序代码的情况下切换运行时。今天，我们添加了 Grok Build，它与所有其他受支持的线束一样通过相同的 HarnessAgent 接口运行。",
+        "@ai-sdk/harness-grok-build 是 Grok Build 的官方线束适配器，构建在 ACP 线束适配器 (@ai-sdk/harness-acp) 之上。",
+        "1 从 '@ai-sdk/harness/agent' 导入 { HarnessAgent } ； 2 从 '@ai-sdk/harness-grok-build' 导入 { grokBuild } ； 3 4 const agent = new HarnessAgent ({ 5harness: grokBuild, 6 });将 Grok Build 与 HarnessAgent 结合使用的基本示例",
+        "阅读 Grok Build 工具文档以开始使用。",
+        "现在，完整支持的工具列表是：Claude Code、Codex、Deep Agents、Grok Build、OpenCode、Pi，更多工具即将推出。"
+      ],
+      "highlights": [
+        "AI SDK 利用层可让您通过一个统一的接口运行已建立的编码代理运行时，因此您可以在不更改应用程序代码的情况下切换运行时。今天，我们添加了 Grok Build",
+        "@ai-sdk/harness-grok-build 是 Grok Build 的官方线束适配器，构建在 ACP 线束适配器 (@ai-sdk/harness-",
+        "1 从 '@ai-sdk/harness/agent' 导入 { HarnessAgent } ； 2 从 '@ai-sdk/harness-grok-buil"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Grok Build is now available in the AI SDK harness layer - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-13",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/grok-build-harness-adapter",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Grok Build is now available in the AI SDK harness layer - Vercel"
+      },
+      "raw": {
+        "title": "Grok Build is now available in the AI SDK harness layer",
+        "url": "https://vercel.com/changelog/grok-build-harness-adapter",
+        "fetched": true,
+        "savedAt": "2026-08-15T00:54:02.585Z"
+      }
+    },
+    {
+      "id": "sig-a44214149b",
+      "title": "将 ACP 兼容线束与 AI SDK 线束层结合使用 - Vercel",
+      "oneLiner": "AI SDK 线束层现在通过新的 @ai-sdk/harness-acp 包支持任何与 HarnessAgent 兼容的代理客户端协议 (ACP) 线束。",
+      "summary": {
+        "oneSentence": "AI SDK 线束层现在通过新的 @ai-sdk/harness-acp 包支持任何与 HarnessAgent 兼容的代理客户端协议 (ACP) 线束。",
+        "bullets": [
+          "AI SDK 线束层现在通过新的 @ai-sdk/harness-acp 包支持任何与 HarnessAgent 兼容的代理客户端协议 (ACP) 线束。",
+          "以前，每个线束适配器都包装一个特定的运行时（Claude Code、Codex、Pi、Deep Agents、OpenCode）。 @ai-sdk/harness-acp 包装了协议。它是一个元适配器：它不是适应单个线束，而是让您为任何附带 ACP 兼容包的线束构建适配器。",
+          "通过将该包传递给 createACP 并配置基本线束映射来实现线束。",
+          "1 从 '@ai-sdk/harness-acp' 导入 { createACP } ； 2 3 导出函数 createCodexACP ( ) { 4 return createACP ( { 5harnessId : 'codex-acp' , 6 源 : { 7 类型 : 'npm-simple' , 8 pac"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：AI SDK 线束层现在通过新的 @ai-sdk/harness-acp 包支持任何与 HarnessAgent 兼容的代理客户端协议 (ACP) 线束。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/use-acp-compatible-harnesses-with-the-ai-sdk-harness-layer"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "AI SDK 线束层现在通过新的 @ai-sdk/harness-acp 包支持任何与 HarnessAgent 兼容的代理客户端协议 (ACP) 线束。",
+        "以前，每个线束适配器都包装一个特定的运行时（Claude Code、Codex、Pi、Deep Agents、OpenCode）。 @ai-sdk/harness-acp 包装了协议。它是一个元适配器：它不是适应单个线束，而是让您为任何附带 ACP 兼容包的线束构建适配器。",
+        "通过将该包传递给 createACP 并配置基本线束映射来实现线束。",
+        "1 从 '@ai-sdk/harness-acp' 导入 { createACP } ； 2 3 导出函数 createCodexACP ( ) { 4 return createACP ( { 5harnessId : 'codex-acp' , 6 源 : { 7 类型 : 'npm-simple' , 8 packageName : '@agentclientprotocol/codex-acp' , 9 } , 10 可执行文件 : 'codex-acp' , 11forwardEnv : [ 'CODEX_API_KEY' , 'OPENAI_API_KEY' ] , 12permissionModeMapping : { 13 'allow-reads' : null , 14 'allow-edits' : null , 15 'allow-all' : { type : 'session-mode' , modeId : 'agent-full-access' } , 16 } , 17 身份验证: { 18 methodId : 'api-key' , 19 } , 20 } ) ; 21 } 在 ACP 元工具之上实现 Codex 的基本 ACP 工具示例",
+        "然后像任何其他线束一样将其传递给 HarnessAgent：",
+        "1 从 '@ai-sdk/harness/agent' 导入 { HarnessAgent } ； 2 从 './codex-acp-harness' 导入 { createCodexACP } ； 3 4 const agent = new HarnessAgent({5harness:createCodexACP(),6});将上述 Codex ACP 线束与 HarnessAgent 结合使用的基本示例",
+        "ACP 是对编码工具的抽象，但 AI SDK 工具层故意与其分离。并非每个线束都支持 ACP，对于某些线束，ACP 限制或改变它们暴露内部行为的程度，因此直接适配器可以产生更紧密的集成。",
+        "对于 Claude Code 和 Codex，更喜欢直接 @ai-sdk/harness-claude-code 和 @ai-sdk/harness-codex 适配器，而不是基于 ACP 的实现；当线束没有直接适配器但附带 ACP 兼容包时，请使用 @ai-sdk/harness-acp。",
+        "请阅读 ACP 线束文档以开始使用。"
+      ],
+      "highlights": [
+        "AI SDK 线束层现在通过新的 @ai-sdk/harness-acp 包支持任何与 HarnessAgent 兼容的代理客户端协议 (ACP) 线束。",
+        "以前，每个线束适配器都包装一个特定的运行时（Claude Code、Codex、Pi、Deep Agents、OpenCode）。 @ai-sdk/harnes",
+        "通过将该包传递给 createACP 并配置基本线束映射来实现线束。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Use ACP-compatible harnesses with the AI SDK harness layer - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-13",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/use-acp-compatible-harnesses-with-the-ai-sdk-harness-layer",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Use ACP-compatible harnesses with the AI SDK harness layer - Vercel"
+      },
+      "raw": {
+        "title": "Use ACP-compatible harnesses with the AI SDK harness layer",
+        "url": "https://vercel.com/changelog/use-acp-compatible-harnesses-with-the-ai-sdk-harness-layer",
+        "fetched": true,
+        "savedAt": "2026-08-15T00:54:11.142Z"
+      }
+    },
+    {
+      "id": "sig-90317655c2",
+      "title": "Exa 加入 Vercel 代理市场 - Vercel",
+      "oneLiner": "Exa 现已作为本机集成在 Vercel Agent Marketplace 上提供。",
+      "summary": {
+        "oneSentence": "Exa 现已作为本机集成在 Vercel Agent Marketplace 上提供。",
+        "bullets": [
+          "Exa 现已作为本机集成在 Vercel Agent Marketplace 上提供。",
+          "Exa 的神经搜索引擎以新鲜、当前的信息为基础人工智能提供高质量、相关的结果。在几秒钟内将 Exa 添加到您的 Vercel 应用程序中，以支持搜索、研究代理和上下文感知功能。 Vercel 集成提供了适用于所有 Exa 产品的单一 API 密钥，并直接通过您的 Vercel 帐户处理计费。",
+          "1 从“exa-js”导入Exa； 2 从“next/server”导入{NextResponse}； 3 const apiKey = 进程 .环境。 EXA_API_KEY ; 4 if (!apiKey) { 5 throw new Error(\"缺少 EXA_API_KEY\"); 6 } 7 const exa",
+          "从 Marketplace 安装 Exa 或部署 Next.js 搜索模板，以查看 Exa 的即时搜索、深度答案以及与 Vercel 集成的内容提取。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Exa 现已作为本机集成在 Vercel Agent Marketplace 上提供。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/exa-joins-the-vercel-agent-marketplace"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Exa 现已作为本机集成在 Vercel Agent Marketplace 上提供。",
+        "Exa 的神经搜索引擎以新鲜、当前的信息为基础人工智能提供高质量、相关的结果。在几秒钟内将 Exa 添加到您的 Vercel 应用程序中，以支持搜索、研究代理和上下文感知功能。 Vercel 集成提供了适用于所有 Exa 产品的单一 API 密钥，并直接通过您的 Vercel 帐户处理计费。",
+        "1 从“exa-js”导入Exa； 2 从“next/server”导入{NextResponse}； 3 const apiKey = 进程 .环境。 EXA_API_KEY ; 4 if (!apiKey) { 5 throw new Error(\"缺少 EXA_API_KEY\"); 6 } 7 const exa = new Exa ( apiKey ) ; 8 导出异步函数 GET(request:Request) { 9 const { searchParams} = new URL(request.url); 10 常量查询 = searchParams 。得到（“q”）？？ 《最新AI基础设施新闻》； 11 const { 结果 } = 等待 exa . search ( query , { 12 类型 : \"即时\" , 13 numResults : 5 , 14 内容 : { 15 亮点 : true , 16 } , 17 } ) ; 18 返回 NextResponse 。 json ( { 19 results : results .map ( ( result ) => ( { 20 title : result . title , 21 url : result . url , 22highlights : result .highlights , 23 } ) ) , 24 } ) ; 25 } 在几分钟内执行您的第一个 API 调用",
+        "从 Marketplace 安装 Exa 或部署 Next.js 搜索模板，以查看 Exa 的即时搜索、深度答案以及与 Vercel 集成的内容提取。",
+        "关于 Exa：对于在 Vercel 上构建 AI 功能的开发人员来说，Exa 为代理提供了为他们组织的网络。无论您是在回答问题、监控变化还是提取结构化数据，Exa 的一种用于搜索、爬行和研究的 API 都会返回带有接地引文的标记高效的亮点，因此您的代理可以通过更少的往返、更低的成本和更低的延迟获得所需的上下文。"
+      ],
+      "highlights": [
+        "Exa 现已作为本机集成在 Vercel Agent Marketplace 上提供。",
+        "Exa 的神经搜索引擎以新鲜、当前的信息为基础人工智能提供高质量、相关的结果。在几秒钟内将 Exa 添加到您的 Vercel 应用程序中，以支持搜索、研究代理和",
+        "1 从“exa-js”导入Exa； 2 从“next/server”导入{NextResponse}； 3 const apiKey = 进程 .环境。 EXA"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Exa joins the Vercel Agent Marketplace - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-13",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/exa-joins-the-vercel-agent-marketplace",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Exa joins the Vercel Agent Marketplace - Vercel"
+      },
+      "raw": {
+        "title": "Exa joins the Vercel Agent Marketplace",
+        "url": "https://vercel.com/changelog/exa-joins-the-vercel-agent-marketplace",
+        "fetched": true,
+        "savedAt": "2026-08-15T00:54:15.482Z"
       }
     },
     {
@@ -1938,6 +2484,90 @@
         "url": "https://vercel.com/changelog/grok-4-6-now-available-on-ai-gateway",
         "fetched": true,
         "savedAt": "2026-08-12T22:37:38.818Z"
+      }
+    },
+    {
+      "id": "sig-710e435bc4",
+      "title": "使用 AI Gateway - Vercel 在一个命令中设置编码代理",
+      "oneLiner": "使用编码代理意味着设置多个帐户、配置 API 密钥以及分散可观察性和计费。现在，您可以通过 AI Gateway 路由它们，以集中所有这些并添加控件，并通过一个命令进行设置：",
+      "summary": {
+        "oneSentence": "使用编码代理意味着设置多个帐户、配置 API 密钥以及分散可观察性和计费。现在，您可以通过 AI Gateway 路由它们，以集中所有这些并添加控件，并通过一个命令进行设置：",
+        "bullets": [
+          "使用编码代理意味着设置多个帐户、配置 API 密钥以及分散可观察性和计费。现在，您可以通过 AI Gateway 路由它们，以集中所有这些并添加控件，并通过一个命令进行设置：",
+          "任何代理中的 200 多个模型中的任何一个，包括代理没有本机支持的模型。网关将请求路由到您选择的任何模型，并自动回退。",
+          "代理流量的一个仪表板：跨代理使用的模型的支出、性能、令牌等。",
+          "代理用于控制支出的密钥的预算、重置和到期。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：使用编码代理意味着设置多个帐户、配置 API 密钥以及分散可观察性和计费。现在，您可以通过 AI Gateway 路由它们，以集中所有这些并添加控件，并通过一个命令进行设置：",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/set-up-coding-agents-in-one-command-with-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "使用编码代理意味着设置多个帐户、配置 API 密钥以及分散可观察性和计费。现在，您可以通过 AI Gateway 路由它们，以集中所有这些并添加控件，并通过一个命令进行设置：",
+        "任何代理中的 200 多个模型中的任何一个，包括代理没有本机支持的模型。网关将请求路由到您选择的任何模型，并自动回退。",
+        "代理流量的一个仪表板：跨代理使用的模型的支出、性能、令牌等。",
+        "代理用于控制支出的密钥的预算、重置和到期。",
+        "您的代理无法绕过的团队范围策略：打开零数据保留或限制哪些提供商可以服务请求，并且它适用于每个代理请求，而无需编辑代理的配置。",
+        "请求跟踪，以及每个请求背后的成本、令牌和模型。",
+        "# 升级到最新版本的 Vercel CLI pnpm i -g vercel@latest # 运行编码代理设置命令 vercel ai-gatewaycoding-agents setup",
+        "vercel ai-gatewaycoding-agents 设置通过一个命令连接 Claude Code、Codex、OpenCode 等。它会查找您计算机上的代理，创建 API 密钥，并将网关 URL 和您的凭据写入每个代理自己的配置格式。",
+        "/model 或 /model <slug> ，如 /model anthropic/claude-opus-5",
+        "/models ，然后选择 vercel/<creator>/<model>"
+      ],
+      "highlights": [
+        "使用编码代理意味着设置多个帐户、配置 API 密钥以及分散可观察性和计费。现在，您可以通过 AI Gateway 路由它们，以集中所有这些并添加控件，并通过一个",
+        "任何代理中的 200 多个模型中的任何一个，包括代理没有本机支持的模型。网关将请求路由到您选择的任何模型，并自动回退。",
+        "代理流量的一个仪表板：跨代理使用的模型的支出、性能、令牌等。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Set up coding agents in one command with AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-12",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/set-up-coding-agents-in-one-command-with-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Set up coding agents in one command with AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Set up coding agents in one command with AI Gateway",
+        "url": "https://vercel.com/changelog/set-up-coding-agents-in-one-command-with-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-08-15T00:54:23.607Z"
       }
     },
     {
@@ -3685,6 +4315,164 @@
         "url": "https://openai.com/index/zapier",
         "fetched": false,
         "savedAt": "2026-08-11T22:39:02.221Z"
+      }
+    },
+    {
+      "id": "sig-8f3f7b5717",
+      "title": "维珍航空通过 ChatGPT Work 提升客户旅程",
+      "oneLiner": "维珍航空正在利用 ChatGPT Work 加速研究、产品规划和决策，帮助团队在整个客户旅程中连接信号。",
+      "summary": {
+        "oneSentence": "维珍航空正在利用 ChatGPT Work 加速研究、产品规划和决策，帮助团队在整个客户旅程中连接信号。",
+        "bullets": [
+          "维珍航空正在利用 ChatGPT Work 加速研究、产品规划和决策，帮助团队在整个客户旅程中连接信号。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：维珍航空正在利用 ChatGPT Work 加速研究、产品规划和决策，帮助团队在整个客户旅程中连接信号。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/virgin-atlantic/chatgpt-work"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "维珍航空正在利用 ChatGPT Work 加速研究、产品规划和决策，帮助团队在整个客户旅程中连接信号。"
+      ],
+      "highlights": [
+        "维珍航空正在利用 ChatGPT Work 加速研究、产品规划和决策，帮助团队在整个客户旅程中连接信号。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
+      "originalLang": "en",
+      "date": "2026-08-10",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Virgin Atlantic sharpens customer journeys with ChatGPT Work"
+      },
+      "raw": {
+        "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
+        "url": "https://openai.com/index/virgin-atlantic/chatgpt-work",
+        "fetched": false,
+        "savedAt": "2026-08-15T00:54:24.816Z"
+      }
+    },
+    {
+      "id": "sig-9d8157ac1b",
+      "title": "简化的 deepsec 入门 - Vercel",
+      "oneLiner": "Deepsec 是 Vercel 的开源安全审查工具，现在允许您设置存储库并使用单个命令运行其首次安全审查。",
+      "summary": {
+        "oneSentence": "Deepsec 是 Vercel 的开源安全审查工具，现在允许您设置存储库并使用单个命令运行其首次安全审查。",
+        "bullets": [
+          "Deepsec 是 Vercel 的开源安全审查工具，现在允许您设置存储库并使用单个命令运行其首次安全审查。",
+          "npx deepsec init 从存储库根初始化 deepsec",
+          "init 命令现在可以自动执行标准设置过程：",
+          "创建隔离的 .deepsec/ 工作区，这是添加到存储库中的唯一内容，并安装其依赖项"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Deepsec 是 Vercel 的开源安全审查工具，现在允许您设置存储库并使用单个命令运行其首次安全审查。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/simplified-onboarding-for-deepsec"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Deepsec 是 Vercel 的开源安全审查工具，现在允许您设置存储库并使用单个命令运行其首次安全审查。",
+        "npx deepsec init 从存储库根初始化 deepsec",
+        "init 命令现在可以自动执行标准设置过程：",
+        "创建隔离的 .deepsec/ 工作区，这是添加到存储库中的唯一内容，并安装其依赖项",
+        "通过 Vercel AI Gateway 或您自己的提供商密钥配置模型访问",
+        "生成代码库及其攻击面的描述，以后的每次审查都依赖于此",
+        "运行模式扫描，在内置集留下覆盖间隙的地方生成额外的扫描模式",
+        "开始对标记的文件进行 AI 审查",
+        "每个步骤后都会对设置进行检查点。如果运行停止，无论是由于关闭进程、失败的步骤还是达到成本或持续时间限制，重新运行 init 都会从最后完成的步骤恢复。",
+        "运行 npx deepsec init 开始第一次扫描，或阅读文档以了解更多信息。"
+      ],
+      "highlights": [
+        "Deepsec 是 Vercel 的开源安全审查工具，现在允许您设置存储库并使用单个命令运行其首次安全审查。",
+        "npx deepsec init 从存储库根初始化 deepsec",
+        "init 命令现在可以自动执行标准设置过程："
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Simplified onboarding for deepsec - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-10",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/simplified-onboarding-for-deepsec",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Simplified onboarding for deepsec - Vercel"
+      },
+      "raw": {
+        "title": "Simplified onboarding for deepsec",
+        "url": "https://vercel.com/changelog/simplified-onboarding-for-deepsec",
+        "fetched": true,
+        "savedAt": "2026-08-15T00:54:33.397Z"
       }
     },
     {
@@ -7268,7 +8056,7 @@
         "url": "https://cursor.com/changelog/google-workspace-plugins",
         "fetched": true,
         "savedAt": "2026-08-03T22:57:50.365Z",
-        "retranslatedAt": "2026-08-14T01:23:39.114Z"
+        "retranslatedAt": "2026-08-15T00:54:36.634Z"
       }
     },
     {
@@ -10633,7 +11421,7 @@
         "url": "https://cursor.com/changelog/ipad",
         "fetched": true,
         "savedAt": "2026-08-02T22:53:52.935Z",
-        "retranslatedAt": "2026-08-14T01:23:40.243Z"
+        "retranslatedAt": "2026-08-15T00:54:37.909Z"
       }
     },
     {
@@ -11548,7 +12336,7 @@
         "url": "https://cursor.com/changelog/cursor-start",
         "fetched": true,
         "savedAt": "2026-08-08T22:25:22.586Z",
-        "retranslatedAt": "2026-08-14T01:23:41.355Z"
+        "retranslatedAt": "2026-08-15T00:54:39.053Z"
       }
     },
     {
@@ -16066,7 +16854,7 @@
         "url": "https://cursor.com/changelog/slack-improvements",
         "fetched": true,
         "savedAt": "2026-07-27T07:34:20.673Z",
-        "retranslatedAt": "2026-08-14T01:23:42.510Z"
+        "retranslatedAt": "2026-08-15T00:54:40.147Z"
       }
     },
     {
