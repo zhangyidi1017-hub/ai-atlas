@@ -743,7 +743,7 @@ window.AI_DATA = {
       categories: ["agent-code"],
       links: [
         { label: "官网", url: "https://www.sensetime.com/cn/product-detail?categoryId=51134384" },
-        { label: "产品页", url: "https://raccoon.sensetime.com/" }
+        { label: "小浣熊家族", url: "https://xiaohuanxiong.com/login" }
       ],
       steps: ["在 VS Code 或 JetBrains 安装 Raccoon 插件。", "用侧边栏对话解释代码或生成函数。", "结合补全与重构建议小步迭代。"],
       alternatives: ["qoder", "trae", "cursor"]
@@ -759,7 +759,7 @@ window.AI_DATA = {
       pricingLabel: "免费",
       categories: ["agent-code"],
       links: [
-        { label: "灵光网页版", url: "https://lingguang.alipay.com/" },
+        { label: "灵光官网", url: "https://www.lingguang.com/" },
         { label: "App Store", url: "https://apps.apple.com/app/id6751496092" }
       ],
       steps: ["描述想要的工具或小游戏。", "在对话中预览并微调闪应用。", "发布到灵光圈或分享给他人体验。"],
@@ -776,7 +776,7 @@ window.AI_DATA = {
       pricingLabel: "免费试用 + 按量",
       categories: ["agent-code"],
       links: [
-        { label: "秒哒", url: "https://cloud.baidu.com/product/miaoda.html" },
+        { label: "秒哒", url: "https://cloud.baidu.com/product-s/miaoda_home" },
         { label: "文档", url: "https://cloud.baidu.com/doc/MIAODA/index.html" }
       ],
       steps: ["用自然语言描述应用需求。", "与秒哒澄清功能细节。", "预览后一键发布 Web 或打包 App。"],
@@ -906,6 +906,7 @@ window.AI_DATA = {
       name: "TapNow",
       region: "国内",
       logoFallback: "./logos/tapnow.svg",
+      preview: "./previews/tapnow-home.png",
       oneLiner: "智能体创意画布，统一调度多模型，从脚本到影视级成片一站式。",
       forWho: "广告、短片、电商视频创作者，想用节点工作流控全流程的人",
       pricing: "mix",
@@ -923,6 +924,7 @@ window.AI_DATA = {
       name: "LibTV",
       region: "国内",
       logoFallback: "./logos/libtv.svg",
+      preview: "./previews/libtv-home.png",
       oneLiner: "LiblibAI 出品，无限画布 + 节点流，从剧本到成片全自动。",
       forWho: "短剧、漫剧、广告分镜与 Agent 自动拍片创作者",
       pricing: "mix",
@@ -1578,7 +1580,7 @@ window.AI_DATA = {
       pricingLabel: "约 $225/用户/月起",
       categories: ["vertical-legal"],
       links: [
-        { label: "CoCounsel", url: "https://legal.thomsonreuters.com/en/cocounsel" },
+        { label: "CoCounsel", url: "https://legal.thomsonreuters.com/en/products/cocounsel-legal/corp" },
         { label: "Westlaw", url: "https://legal.thomsonreuters.com/en/westlaw" }
       ],
       steps: ["在 Westlaw 生态内启用 CoCounsel。", "用 Deep Research 提出结构化法律问题。", "核对 KeyCite 引证与结论后再用于文书。"],
@@ -1742,7 +1744,7 @@ window.AI_DATA = {
       categories: ["vertical-finance"],
       links: [
         { label: "Wind", url: "https://www.wind.com.cn/" },
-        { label: "Wind 金融终端", url: "https://www.wind.com.cn/NewSite/wft.html" }
+        { label: "Wind 金融终端", url: "https://www.wind.com.cn/portal/zh/WFT/index.html" }
       ],
       steps: ["在 Wind 终端打开 Alice 对话。", "提问宏观、行业或个股数据。", "导出数据到 Excel 做二次建模。"],
       alternatives: ["iwencai", "alpha-sense", "metaso"]
@@ -1940,7 +1942,7 @@ window.AI_DATA = {
       pricingLabel: "随飞书套件",
       categories: ["vertical-hr"],
       links: [
-        { label: "飞书招聘", url: "https://www.feishu.cn/product/hire" },
+        { label: "飞书招聘", url: "https://hire.feishu.cn/" },
         { label: "飞书", url: "https://www.feishu.cn/" }
       ],
       steps: ["在飞书开通招聘模块并搭建职位。", "全员内推与视频面试走同一工作流。", "用 AI 解析附件简历并查重。"],
@@ -2127,7 +2129,7 @@ window.AI_DATA = {
       categories: ["vertical-travel"],
       links: [
         { label: "马蜂窝", url: "https://www.mafengwo.cn/" },
-        { label: "App 下载", url: "https://www.mafengwo.cn/app/" }
+        { label: "马蜂窝官网", url: "https://www.mafengwo.cn/" }
       ],
       steps: ["在 App 首页搜索栏或 POI 页打开 AI 小蚂。", "用 AI 路书回答延展问题完善需求。", "导出含预算与贴士的完整路书。"],
       alternatives: ["ctrip-planner", "fliggy-wenyiwen", "deepseek"]
@@ -2179,7 +2181,7 @@ window.AI_DATA = {
       categories: ["vertical-travel"],
       links: [
         { label: "官网", url: "https://wanderlog.com/" },
-        { label: "AI 规划", url: "https://wanderlog.com/trip-plan/" }
+        { label: "Wanderlog", url: "https://wanderlog.com/home" }
       ],
       steps: ["用 AI 生成初版每日行程。", "邀请旅伴评论共编。", "导出离线地图与预订链接。"],
       alternatives: ["mindtrip", "layla", "mafengwo-ai"]

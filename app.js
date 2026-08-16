@@ -16,6 +16,7 @@
       product: document.getElementById("view-product"),
       news: document.getElementById("view-news"),
       "news-detail": document.getElementById("view-news-detail"),
+      skills: document.getElementById("view-skills"),
     },
     backBtn: document.getElementById("backBtn"),
     topbar: document.getElementById("topbar"),
@@ -35,6 +36,9 @@
     newsFilters: document.getElementById("newsFilters"),
     newsList: document.getElementById("newsList"),
     newsDetail: document.getElementById("newsDetail"),
+    skillsCategories: document.getElementById("skillsCategories"),
+    skillsLibrary: document.getElementById("skillsLibrary"),
+    skillsDocPanel: document.getElementById("skillsDocPanel"),
     searchInput: document.getElementById("searchInput"),
     searchPanel: document.getElementById("searchPanel"),
     searchResults: document.getElementById("searchResults"),
@@ -66,6 +70,8 @@
     productId: null,
     newsFilter: "all",
     aihotCategoryFilter: "all",
+    skillCategory: "visual-video",
+    skillId: null,
     homeSubFilters: {},
     homeSectionPages: {},
     newsId: null,
@@ -78,6 +84,181 @@
   const FEEDBACK_KEY = "ai-atlas-feedback";
   const BANNER_SETTINGS_KEY = "ai-atlas-banner-settings";
   const HOME_SECTION_PAGE_SIZE = 20;
+  const SKILL_CATEGORIES = [
+    { id: "visual-video", name: "视觉和视频", description: "图像生成、视频生成、视觉风格、UI 原型和品牌素材。" },
+    { id: "work-experience", name: "工作经验", description: "复盘、研究、汇报、项目推进和个人知识工作流。" },
+  ];
+  const SKILL_ITEMS = [
+    {
+      id: "visual-direction",
+      category: "visual-video",
+      name: "视觉方向 Skill",
+      intro: "把模糊想法变成可执行的视觉方向：风格、色彩、构图、参考和负面约束。",
+      bestFor: ["封面", "海报", "品牌调性"],
+      source: "Midjourney / ChatGPT Image / Firefly",
+      doc: [
+        "目标：根据主题产出 3 个视觉方向，每个方向包含风格关键词、构图建议、色彩方案和禁用元素。",
+        "输入：项目主题、受众、使用场景、尺寸、已有品牌元素、参考图或参考链接。",
+        "流程：先拆解情绪和受众，再给出方向 A/B/C，最后生成可直接复制到图像模型的提示词。",
+        "输出：方向名称、适用场景、主提示词、负面提示词、二次迭代建议。"
+      ],
+    },
+    {
+      id: "image-editing",
+      category: "visual-video",
+      name: "图片精修 Skill",
+      intro: "用于局部修改、扩图、换背景、统一风格，让图片从可用变成可发布。",
+      bestFor: ["局部改图", "扩图", "统一风格"],
+      source: "ChatGPT Image / Adobe Firefly",
+      doc: [
+        "目标：在不破坏主体识别度的前提下完成图片编辑，并保留原有构图逻辑。",
+        "检查项：主体、背景、光线、文字、边缘、比例、品牌色、是否有多余元素。",
+        "编辑顺序：先修结构，再修光影和颜色，最后处理文字、边缘和小瑕疵。",
+        "输出：编辑指令、保留项、允许修改项、验收标准。"
+      ],
+    },
+    {
+      id: "video-shot",
+      category: "visual-video",
+      name: "视频镜头 Skill",
+      intro: "把一句视频想法拆成镜头语言、动作、节奏和生成提示词。",
+      bestFor: ["短视频", "分镜", "动态广告"],
+      source: "Runway / Kling / Pika",
+      doc: [
+        "目标：把创意描述转成 5 到 8 秒的视频镜头方案。",
+        "输入：主体、动作、场景、镜头运动、情绪、画幅、时长、参考风格。",
+        "流程：先确定镜头类型，再写主体动作和环境变化，最后补充光线、材质和运动节奏。",
+        "输出：镜头描述、视频提示词、避免事项、下一镜头衔接建议。"
+      ],
+    },
+    {
+      id: "ui-prototype",
+      category: "visual-video",
+      name: "UI 原型 Skill",
+      intro: "把产品想法整理成页面结构、组件清单和可交互原型描述。",
+      bestFor: ["Figma Make", "v0", "落地页面"],
+      source: "Figma Make / v0 / Codex",
+      doc: [
+        "目标：将需求转成一个可实现的单页或多页原型。",
+        "输入：目标用户、核心任务、页面数量、信息层级、品牌调性、限制条件。",
+        "流程：先列主流程，再定义页面模块和状态，最后输出给设计或代码生成工具的指令。",
+        "输出：页面地图、组件列表、交互状态、首屏文案和验收清单。"
+      ],
+    },
+    {
+      id: "brand-asset",
+      category: "visual-video",
+      name: "品牌素材 Skill",
+      intro: "快速生成一套统一的 Logo 草案、配色、字体方向和社媒素材说明。",
+      bestFor: ["品牌启动", "社媒图", "Logo 草案"],
+      source: "Ideogram / Midjourney / Firefly",
+      doc: [
+        "目标：为一个新项目建立基础视觉识别方向。",
+        "输入：品牌名、行业、关键词、禁用风格、目标人群、输出尺寸。",
+        "流程：先确定品牌人格，再生成 3 套视觉路线，每套包含色彩、字体、图形和应用场景。",
+        "输出：品牌关键词、Logo 提示词、社媒封面提示词、统一规范。"
+      ],
+    },
+    {
+      id: "visual-review",
+      category: "visual-video",
+      name: "视觉评审 Skill",
+      intro: "用固定标准检查图片、页面或视频是否专业、清晰、有辨识度。",
+      bestFor: ["设计评审", "发布前检查", "改版建议"],
+      source: "Multimodal review",
+      doc: [
+        "目标：对视觉稿做结构化评审，指出最影响质量的 3 到 5 个问题。",
+        "检查维度：层级、对比、留白、文字可读性、主体清晰度、品牌一致性、移动端适配。",
+        "输出方式：先给结论，再列问题、影响、修改建议和优先级。",
+        "限制：不要只给审美评价，必须落到具体修改动作。"
+      ],
+    },
+    {
+      id: "weekly-review",
+      category: "work-experience",
+      name: "周复盘 Skill",
+      intro: "把一周工作整理成成果、问题、学习和下周行动，适合个人复盘。",
+      bestFor: ["周报", "个人成长", "管理汇报"],
+      source: "Claude Skills / Codex Skills",
+      doc: [
+        "目标：把零散记录整理成可读的周复盘。",
+        "输入：本周任务、完成结果、遇到的问题、关键数据、下周计划。",
+        "结构：本周成果、关键判断、阻塞问题、经验教训、下周 3 个重点。",
+        "输出要求：语言具体，不写空泛总结，每个结论都对应事实或例子。"
+      ],
+    },
+    {
+      id: "project-brief",
+      category: "work-experience",
+      name: "项目简报 Skill",
+      intro: "把项目状态压缩成一页简报，让他人快速知道进度、风险和下一步。",
+      bestFor: ["项目同步", "老板汇报", "团队对齐"],
+      source: "Docs / Slides workflow",
+      doc: [
+        "目标：输出一页项目状态简报。",
+        "输入：目标、当前进展、关键里程碑、风险、需要决策的问题。",
+        "结构：一句话状态、完成了什么、还差什么、风险等级、需要谁做什么决定。",
+        "输出要求：避免流水账，突出状态变化和下一步动作。"
+      ],
+    },
+    {
+      id: "research-brief",
+      category: "work-experience",
+      name: "资料研究 Skill",
+      intro: "把资料、链接和笔记整理成可判断的研究摘要，而不是单纯摘录。",
+      bestFor: ["竞品研究", "行业资料", "学习笔记"],
+      source: "Research agent workflow",
+      doc: [
+        "目标：将多来源资料整理成可执行判断。",
+        "输入：研究问题、资料链接、已有假设、需要输出的格式。",
+        "流程：先归类事实，再提炼模式，最后写出结论、证据和不确定性。",
+        "输出：摘要、关键证据、反例、可行动建议、后续问题。"
+      ],
+    },
+    {
+      id: "meeting-to-action",
+      category: "work-experience",
+      name: "会议转行动 Skill",
+      intro: "把会议记录转成清晰的决策、负责人、截止时间和待确认问题。",
+      bestFor: ["会议纪要", "行动项", "跨团队协作"],
+      source: "Work assistant workflow",
+      doc: [
+        "目标：从会议记录里提取可执行事项。",
+        "输入：会议文本、参会人、项目背景、时间要求。",
+        "输出：已决策事项、行动项、负责人、截止时间、待确认问题、风险提醒。",
+        "规则：没有负责人或时间的信息必须标记为待确认，不要自行编造。"
+      ],
+    },
+    {
+      id: "decision-log",
+      category: "work-experience",
+      name: "决策日志 Skill",
+      intro: "记录为什么这么选，保留背景、选项、取舍和复盘点。",
+      bestFor: ["产品决策", "技术选型", "团队知识库"],
+      source: "Knowledge workflow",
+      doc: [
+        "目标：沉淀一条可追溯的决策记录。",
+        "输入：问题背景、候选方案、约束条件、参与人、最终选择。",
+        "结构：决策结论、为什么现在决策、备选方案、取舍、风险、复盘时间。",
+        "输出要求：让三个月后的自己能看懂当时为什么这样做。"
+      ],
+    },
+    {
+      id: "career-story",
+      category: "work-experience",
+      name: "经验故事 Skill",
+      intro: "把工作经历整理成面试、述职或作品集里可讲清楚的案例。",
+      bestFor: ["面试", "述职", "作品集"],
+      source: "Career narrative workflow",
+      doc: [
+        "目标：把一段经历整理成有冲突、有行动、有结果的故事。",
+        "输入：项目背景、你的角色、难点、行动、结果数据、学到的东西。",
+        "结构：场景、任务、行动、结果、反思；如果缺数据，要补充可验证证据。",
+        "输出：30 秒版本、2 分钟版本、作品集版本。"
+      ],
+    },
+  ];
+  const skillMap = Object.fromEntries(SKILL_ITEMS.map((item) => [item.id, item]));
 
   function routeForState() {
     if (state.view === "scene" && state.sceneId) {
@@ -92,6 +273,9 @@
       return `#/news/${encodeURIComponent(state.newsId)}`;
     }
     if (state.view === "news") return "#/news";
+    if (state.view === "skills") {
+      return state.skillId ? `#/skills/${encodeURIComponent(state.skillId)}` : "#/skills";
+    }
     return "#/home";
   }
 
@@ -128,6 +312,17 @@
     }
     if (view === "news") {
       showView("news", { push: false, sync: false });
+      return true;
+    }
+    if (view === "skills" && id && skillMap[id]) {
+      state.skillId = id;
+      state.skillCategory = skillMap[id].category;
+      showView("skills", { push: false, sync: false });
+      return true;
+    }
+    if (view === "skills") {
+      state.skillId = null;
+      showView("skills", { push: false, sync: false });
       return true;
     }
     if (view === "home") {
@@ -1146,6 +1341,93 @@
 
   function renderWhatsChanging() {
     /* merged into renderNewsDashboard */
+  }
+
+  function renderSkills() {
+    if (!els.skillsCategories || !els.skillsLibrary || !els.skillsDocPanel) return;
+    if (!SKILL_CATEGORIES.some((cat) => cat.id === state.skillCategory)) {
+      state.skillCategory = "visual-video";
+    }
+    const currentItems = SKILL_ITEMS.filter((item) => item.category === state.skillCategory);
+    if (!state.skillId || !currentItems.some((item) => item.id === state.skillId)) {
+      state.skillId = currentItems[0]?.id || null;
+    }
+    const currentCategory = SKILL_CATEGORIES.find((cat) => cat.id === state.skillCategory);
+
+    els.skillsCategories.innerHTML = SKILL_CATEGORIES.map(
+      (cat) =>
+        `<button class="chip ${state.skillCategory === cat.id ? "active" : ""}" type="button" data-skill-category="${cat.id}">
+          ${escapeHtml(cat.name)}
+        </button>`
+    ).join("");
+
+    els.skillsLibrary.innerHTML = `
+      <div class="skills-library-head">
+        <div>
+          <div class="section-label">${escapeHtml(currentCategory?.name || "Skills")}</div>
+          <h2>${escapeHtml(currentCategory?.description || "")}</h2>
+        </div>
+        <span>${currentItems.length} 条</span>
+      </div>
+      <div class="skills-grid skills-grid--library">
+        ${currentItems.map(skillCard).join("")}
+      </div>
+    `;
+    renderSkillDoc();
+    bindReveal();
+  }
+
+  function skillCard(item) {
+    const isActive = state.skillId === item.id;
+    return `
+      <button class="skill-card ${isActive ? "active" : ""}" type="button" data-open-skill="${item.id}">
+        <span class="skill-card-type">${escapeHtml(item.source)}</span>
+        <h3>${escapeHtml(item.name)}</h3>
+        <p>${escapeHtml(item.intro)}</p>
+        <div class="skill-tags">
+          ${item.bestFor.map((tag) => `<span>${escapeHtml(tag)}</span>`).join("")}
+        </div>
+      </button>
+    `;
+  }
+
+  function renderSkillDoc() {
+    const item = skillMap[state.skillId] || SKILL_ITEMS.find((skill) => skill.category === state.skillCategory);
+    if (!item) {
+      els.skillsDocPanel.innerHTML = `<div class="empty reveal">暂无 Skill 文档</div>`;
+      return;
+    }
+    els.skillsDocPanel.innerHTML = `
+      <div class="skills-doc-sticky reveal">
+        <div class="skills-doc-top">
+          <span class="skill-card-type">${escapeHtml(SKILL_CATEGORIES.find((cat) => cat.id === item.category)?.name || "")}</span>
+          <h2>${escapeHtml(item.name)}</h2>
+          <p>${escapeHtml(item.intro)}</p>
+        </div>
+        <div class="skills-doc-block">
+          <div class="section-label">Skill 文档片段</div>
+          <pre><code>${escapeHtml(skillDocMarkdown(item))}</code></pre>
+        </div>
+      </div>
+    `;
+  }
+
+  function skillDocMarkdown(item) {
+    return [
+      `# ${item.name}`,
+      "",
+      `## 简介`,
+      item.intro,
+      "",
+      `## 适合场景`,
+      item.bestFor.map((tag) => `- ${tag}`).join("\n"),
+      "",
+      `## 文档片段`,
+      item.doc.map((line) => `- ${line}`).join("\n"),
+      "",
+      `## 使用方式`,
+      "把上面的文档片段复制到你的 SKILL.md 或提示词模板中，再补充你的项目背景、输入样例和输出格式。"
+    ].join("\n");
   }
 
   function renderNewsDetail(newsId) {
@@ -2359,6 +2641,7 @@
     if (view === "product") renderProduct(state.productId);
     if (view === "news") renderNews();
     if (view === "news-detail") renderNewsDetail(state.newsId);
+    if (view === "skills") renderSkills();
 
     setTab(view === "scene" || view === "product" ? "home" : view);
     window.scrollTo({ top: 0, behavior: "instant" in window ? "instant" : "auto" });
@@ -2424,7 +2707,7 @@
     // 其余外链仍直接跳转
     if (e.target.closest("a[href^='http']")) return;
 
-    const t = e.target.closest("[data-nav], [data-open-scene], [data-open-category], [data-open-product], [data-open-news], [data-news-filter], [data-aihot-category-filter], [data-home-sub-filter], [data-scene-sub-filter], [data-home-section-page], [data-scroll], [data-brief-section]");
+    const t = e.target.closest("[data-nav], [data-open-scene], [data-open-category], [data-open-product], [data-open-news], [data-open-skill], [data-skill-category], [data-news-filter], [data-aihot-category-filter], [data-home-sub-filter], [data-scene-sub-filter], [data-home-section-page], [data-scroll], [data-brief-section]");
     if (!t) return;
 
     if (t.dataset.briefSection) {
@@ -2437,11 +2720,31 @@
       return;
     }
     if (t.dataset.nav) {
-      if (t.dataset.nav === "home" || t.dataset.nav === "news") {
+      if (t.dataset.nav === "home" || t.dataset.nav === "news" || t.dataset.nav === "skills") {
         state.history = [];
         clearSearch();
       }
+      if (t.dataset.nav === "skills") {
+        state.skillId = null;
+      }
       showView(t.dataset.nav, { push: t.dataset.nav === "news" && state.view === "product" });
+      return;
+    }
+    if (t.dataset.skillCategory) {
+      state.skillCategory = t.dataset.skillCategory;
+      state.skillId = null;
+      renderSkills();
+      syncRoute();
+      return;
+    }
+    if (t.dataset.openSkill) {
+      const skill = skillMap[t.dataset.openSkill];
+      if (!skill) return;
+      state.skillId = skill.id;
+      state.skillCategory = skill.category;
+      renderSkills();
+      syncRoute();
+      els.skillsDocPanel?.scrollIntoView({ behavior: "smooth", block: "start" });
       return;
     }
     if (t.dataset.openScene) {
