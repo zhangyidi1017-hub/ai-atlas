@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-15T00:54:40.950Z",
+  "updatedAt": "2026-08-16T00:56:53.916Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 224,
+  "itemCount": 234,
   "brief": {
-    "date": "2026-08-15",
-    "generatedAt": "2026-08-15T00:54:40.949Z",
-    "totalCount": 224,
+    "date": "2026-08-16",
+    "generatedAt": "2026-08-16T00:56:53.914Z",
+    "totalCount": 234,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 224 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 234 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -113,12 +113,12 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-08-15T00:54:40.950Z",
-    "summary": "近 30 天共 220 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-08-16T00:56:53.916Z",
+    "summary": "近 30 天共 226 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Agent",
-        "signal": "近 30 天 10 条相关更新",
+        "signal": "近 30 天 9 条相关更新",
         "examples": [
           "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排",
           "Anthropic 推动 MCP：让 Agent 统一连接外部工具与数据源"
@@ -126,26 +126,10 @@
       },
       {
         "name": "Release",
-        "signal": "近 30 天 6 条相关更新",
+        "signal": "近 30 天 5 条相关更新",
         "examples": [
           "借助构建，云端智能体启动速度提升 3 倍 · Cursor",
           "Google Workspace 插件 · Cursor"
-        ]
-      },
-      {
-        "name": "Product",
-        "signal": "近 30 天 4 条相关更新",
-        "examples": [
-          "Google Gemini 2.x：原生多模态与 Workspace 深度整合",
-          "LibTV 无限画布：LiblibAI 系视频 Agent 全链路"
-        ]
-      },
-      {
-        "name": "API",
-        "signal": "近 30 天 3 条相关更新",
-        "examples": [
-          "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排",
-          "Anthropic 推动 MCP：让 Agent 统一连接外部工具与数据源"
         ]
       },
       {
@@ -154,6 +138,22 @@
         "examples": [
           "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排",
           "Google Gemini 2.x：原生多模态与 Workspace 深度整合"
+        ]
+      },
+      {
+        "name": "Product",
+        "signal": "近 30 天 3 条相关更新",
+        "examples": [
+          "Google Gemini 2.x：原生多模态与 Workspace 深度整合",
+          "LibTV 无限画布：LiblibAI 系视频 Agent 全链路"
+        ]
+      },
+      {
+        "name": "API",
+        "signal": "近 30 天 2 条相关更新",
+        "examples": [
+          "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排",
+          "Anthropic 推动 MCP：让 Agent 统一连接外部工具与数据源"
         ]
       },
       {
@@ -483,6 +483,142 @@
   ],
   "items": [
     {
+      "id": "sig-73924d397f",
+      "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
+      "oneLiner": "Flue 2 takes its inspiration from React. Creator Fred Schott, of Astro fame, tells Latent Space why ",
+      "summary": {
+        "oneSentence": "Flue 2 takes its inspiration from React. Creator Fred Schott, of Astro fame, tells Latent Space why he added hooks and w",
+        "bullets": [
+          "Flue 2 takes its inspiration from React. Creator Fred Schott, of Astro fame, tells Latent Space why he added hooks and why agents are defined by their harnesses."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.latent.space/p/flue-2"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Flue 2 takes its inspiration from React. Creator Fred Schott, of Astro fame, tells Latent Space why he added hooks and why agents are defined by their harnesses."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
+      "originalLang": "en",
+      "date": "2026-08-15",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/p/flue-2",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue"
+      },
+      "raw": {
+        "title": "React for Agents: Astro Creator Brings Hooks to his Meta-Harness, Flue",
+        "url": "https://www.latent.space/p/flue-2",
+        "fetched": false,
+        "savedAt": "2026-08-16T00:56:40.881Z"
+      }
+    },
+    {
+      "id": "sig-69a56244fe",
+      "title": "Northern Gannet",
+      "oneLiner": "Northern Gannet, in Pillar Point Harbor, CA, US This is Morris. Morris is a local celebrity: the onl",
+      "summary": {
+        "oneSentence": "Northern Gannet, in Pillar Point Harbor, CA, US This is Morris. Morris is a local celebrity: the only known Northern Gan",
+        "bullets": [
+          "Northern Gannet, in Pillar Point Harbor, CA, US This is Morris. Morris is a local celebrity: the only known Northern Gannet ( Morus bassanus ) in the entire Pacific Ocean. They showed up in the Farall"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Aug/15/sighting-391300422/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Northern Gannet, in Pillar Point Harbor, CA, US This is Morris. Morris is a local celebrity: the only known Northern Gannet ( Morus bassanus ) in the entire Pacific Ocean. They showed up in the Farallon Islands off the coast of San Francisco 14 years ago . They have since made Pillar Point harbor their home, where they are quite easy to spot: the only white bird with a yellow head, usually hanging out with the smaller black Brandt’s cormorants near the harbor sign visible from the end of the commercial pier. Tags: photography , wildlife , half-moon-bay"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Northern Gannet",
+      "originalLang": "en",
+      "date": "2026-08-15",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/15/sighting-391300422/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Northern Gannet"
+      },
+      "raw": {
+        "title": "Northern Gannet",
+        "url": "https://simonwillison.net/2026/Aug/15/sighting-391300422/",
+        "fetched": false,
+        "savedAt": "2026-08-16T00:56:41.682Z"
+      }
+    },
+    {
       "id": "sig-d4d5059386",
       "title": "Vercel CDN 现已支持加密客户端 Hello (ECH) - Vercel",
       "oneLiner": "Vercel CDN 现在支持 Vercel DNS 管理的域的加密客户端 Hello (ECH)。 ECH 对 TLS 握手中的服务器名称指示 (SNI) 进行加密，这是 HTTPS 连接的最后一部分，用于显示客户端正在连接的主机名。通过",
@@ -624,6 +760,74 @@
         "url": "https://simonwillison.net/2026/Aug/14/dont-classify-hallucinate/",
         "fetched": false,
         "savedAt": "2026-08-15T00:54:34.198Z"
+      }
+    },
+    {
+      "id": "sig-086ace1c21",
+      "title": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront",
+      "oneLiner": "Down, but not out!",
+      "summary": {
+        "oneSentence": "Down, but not out!",
+        "bullets": [
+          "Down, but not out!"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Down, but not out!"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront",
+      "originalLang": "en",
+      "date": "2026-08-14",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront"
+      },
+      "raw": {
+        "title": "[AINews] Gemini 3.7 Flash brings GDM back to the forefront",
+        "url": "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm",
+        "fetched": false,
+        "savedAt": "2026-08-16T00:56:42.483Z"
       }
     },
     {
@@ -1278,7 +1482,7 @@
         "url": "https://cursor.com/changelog/08-13-26",
         "fetched": true,
         "savedAt": "2026-08-14T01:23:26.394Z",
-        "retranslatedAt": "2026-08-15T00:54:35.521Z"
+        "retranslatedAt": "2026-08-16T00:56:49.163Z"
       }
     },
     {
@@ -1845,6 +2049,346 @@
         "url": "https://vercel.com/changelog/exa-joins-the-vercel-agent-marketplace",
         "fetched": true,
         "savedAt": "2026-08-15T00:54:15.482Z"
+      }
+    },
+    {
+      "id": "sig-3a85f23ac3",
+      "title": "sqlite-utils 4.2.1",
+      "oneLiner": "Release: sqlite-utils 4.2.1 Fixes a crashing bug in sqlite-utils 4.2 . I'd introduced code that look",
+      "summary": {
+        "oneSentence": "Release: sqlite-utils 4.2.1 Fixes a crashing bug in sqlite-utils 4.2 . I'd introduced code that looks like this: from ty",
+        "bullets": [
+          "Release: sqlite-utils 4.2.1 Fixes a crashing bug in sqlite-utils 4.2 . I'd introduced code that looks like this: from typing_extensions import Self It turned out the typing-extensions package was not "
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Aug/13/sqlite-utils-2/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Release: sqlite-utils 4.2.1 Fixes a crashing bug in sqlite-utils 4.2 . I'd introduced code that looks like this: from typing_extensions import Self It turned out the typing-extensions package was not listed as a dependency for sqlite-utils - it was installed by one of the other dependencies in the dev dependency group , but when you uvx sqlite-utils directly you don't get those dependencies. As part of fixing this I figured out how to run a smoke test to ensure the CLI tool still works even without those dev dependencies, which can be run from the project checkout: uv run --isolated --no-default-groups sqlite-utils --help The --no-default-groups argument prevents it from installing that default dev group, and --isolated means that even if there is a .venv/ folder containing extra dependencies they will be ignored for the duration of that uv run command. Tags: packaging , python , sqlite-utils , uv"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "sqlite-utils 4.2.1",
+      "originalLang": "en",
+      "date": "2026-08-13",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "sqlite-utils 4.2.1"
+      },
+      "raw": {
+        "title": "sqlite-utils 4.2.1",
+        "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/",
+        "fetched": false,
+        "savedAt": "2026-08-16T00:56:43.284Z"
+      }
+    },
+    {
+      "id": "sig-9ae5cf1d71",
+      "title": "sqlite-utils 4.2",
+      "oneLiner": "Release: sqlite-utils 4.2 Lots of improvements in this one relating to the table.transform() feature",
+      "summary": {
+        "oneSentence": "Release: sqlite-utils 4.2 Lots of improvements in this one relating to the table.transform() feature , which adds suppor",
+        "bullets": [
+          "Release: sqlite-utils 4.2 Lots of improvements in this one relating to the table.transform() feature , which adds support for complex alter table operations by creating a fresh table, copying across t"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Aug/13/sqlite-utils/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Release: sqlite-utils 4.2 Lots of improvements in this one relating to the table.transform() feature , which adds support for complex alter table operations by creating a fresh table, copying across the data and then dropping and replacing the old one. transform() now preserves a much larger array of edge-case schema definitions, including check constraints, unique constraints and even comments describing the columns. There are also new introspection properties for check constraints, and a whole lot of other smaller changes. Includes contributions from Bunlong Heng , ethanhawkes-gif , Rami Abdelrazzaq , nyxst4ck , and ikatyal2110 . (It later turned out 4.2 had a crashing bug , fixed in 4.2.1 .) Tags: releases , sqlite , sqlite-utils"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "sqlite-utils 4.2",
+      "originalLang": "en",
+      "date": "2026-08-13",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "sqlite-utils 4.2"
+      },
+      "raw": {
+        "title": "sqlite-utils 4.2",
+        "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils/",
+        "fetched": false,
+        "savedAt": "2026-08-16T00:56:44.086Z"
+      }
+    },
+    {
+      "id": "sig-6d7f7c3a03",
+      "title": "llm-gemini 0.33",
+      "oneLiner": "Release: llm-gemini 0.33 It's been a while since the last llm-gemini release. This version of the pl",
+      "summary": {
+        "oneSentence": "Release: llm-gemini 0.33 It's been a while since the last llm-gemini release. This version of the plugin adds support fo",
+        "bullets": [
+          "Release: llm-gemini 0.33 It's been a while since the last llm-gemini release. This version of the plugin adds support for today's Gemini 3.7 Flash release, plus gemini-3.6-flash , gemini-3.5-flash-lit"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Aug/13/llm-gemini/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Release: llm-gemini 0.33 It's been a while since the last llm-gemini release. This version of the plugin adds support for today's Gemini 3.7 Flash release, plus gemini-3.6-flash , gemini-3.5-flash-lite and two embedding models gemini-embedding-2 and gemini-embedding-001 . The plugin is also upgraded for compatibility with LLM 0.32, which means you can now see reasoning traces and you can also enable server-side tools using this pattern: llm -m gemini-3.7-flash -T CodeExecution \\ 'use python to calculate (factorial of 13) * 3' I had Gemini 3.7 Flash draw me some pelicans riding bicycles at high, medium, and low thinking efforts (minimal, which was an option in 3.6 Flash, has been removed in 3.7.) Here's the high level one, which is pretty great: Update 14th August 2026 : I had originally said that the SVG rendered incorrectly in Chrome and Firefox, and blamed Gemini 3.7 Flash for producing invalid SVG. That was entirely incorrect: the rendering glitch was my fault, caused by a bug In my rendering tool . I've now fixed that bug. Tags: google , ai , generative-ai , llms , llm , gemini , pelican-riding-a-bicycle , llm-release"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "llm-gemini 0.33",
+      "originalLang": "en",
+      "date": "2026-08-13",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "llm-gemini 0.33"
+      },
+      "raw": {
+        "title": "llm-gemini 0.33",
+        "url": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
+        "fetched": false,
+        "savedAt": "2026-08-16T00:56:44.887Z"
+      }
+    },
+    {
+      "id": "sig-1294320a3f",
+      "title": "alchemy-utils 0.1a1",
+      "oneLiner": "Release: alchemy-utils 0.1a1 Performance boost for DuckDB exports and CSV imports, see here .",
+      "summary": {
+        "oneSentence": "Release: alchemy-utils 0.1a1 Performance boost for DuckDB exports and CSV imports, see here .",
+        "bullets": [
+          "Release: alchemy-utils 0.1a1 Performance boost for DuckDB exports and CSV imports, see here ."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Aug/13/alchemy-utils/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Release: alchemy-utils 0.1a1 Performance boost for DuckDB exports and CSV imports, see here ."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "alchemy-utils 0.1a1",
+      "originalLang": "en",
+      "date": "2026-08-13",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/13/alchemy-utils/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "alchemy-utils 0.1a1"
+      },
+      "raw": {
+        "title": "alchemy-utils 0.1a1",
+        "url": "https://simonwillison.net/2026/Aug/13/alchemy-utils/",
+        "fetched": false,
+        "savedAt": "2026-08-16T00:56:45.688Z"
+      }
+    },
+    {
+      "id": "sig-814632afac",
+      "title": "[AINews] SpaceXAI Grok 4.6 and Grok @Bot",
+      "oneLiner": "AI teammate category just had its most significant new entrant yet",
+      "summary": {
+        "oneSentence": "AI teammate category just had its most significant new entrant yet",
+        "bullets": [
+          "AI teammate category just had its most significant new entrant yet"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.latent.space/p/ainews-spacexai-grok-46-and-grok"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "AI teammate category just had its most significant new entrant yet"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "[AINews] SpaceXAI Grok 4.6 and Grok @Bot",
+      "originalLang": "en",
+      "date": "2026-08-13",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/p/ainews-spacexai-grok-46-and-grok",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "[AINews] SpaceXAI Grok 4.6 and Grok @Bot"
+      },
+      "raw": {
+        "title": "[AINews] SpaceXAI Grok 4.6 and Grok @Bot",
+        "url": "https://www.latent.space/p/ainews-spacexai-grok-46-and-grok",
+        "fetched": false,
+        "savedAt": "2026-08-16T00:56:46.489Z"
       }
     },
     {
@@ -2568,6 +3112,142 @@
         "url": "https://vercel.com/changelog/set-up-coding-agents-in-one-command-with-ai-gateway",
         "fetched": true,
         "savedAt": "2026-08-15T00:54:23.607Z"
+      }
+    },
+    {
+      "id": "sig-04d6256519",
+      "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
+      "oneLiner": "DeepSeek V4 Pro 0813 (on OpenRouter) The latest DeepSeek Pro model is now available, via API only. I",
+      "summary": {
+        "oneSentence": "DeepSeek V4 Pro 0813 (on OpenRouter) The latest DeepSeek Pro model is now available, via API only. I had to link to Open",
+        "bullets": [
+          "DeepSeek V4 Pro 0813 (on OpenRouter) The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new m"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "DeepSeek V4 Pro 0813 (on OpenRouter) The latest DeepSeek Pro model is now available, via API only. I had to link to OpenRouter because DeepSeek don't have any obvious announcement page for their new model. I haven't been able to confirm if they plan to release the open weights, but given the weights are available for both April's deepseek-ai/DeepSeek-V4-Pro and July's deepseek-ai/DeepSeek-V4-Flash-0731 it seems likely. Update : the weights are now available on Hugging Face, 1.7T parameters, 893 GB. Interestingly I got very different looking pelicans for the three different reasoning levels of low, medium, and high. I've not noticed this kind of difference from any other model: Low: Medium: High: In terms of benchmarks... as far as I can tell those were released to the Official DeepSeek WeChat Group, then copied and pasted into a post on Reddit which was deleted by the moderators for being \"low-effort\", then copied into this ASCII-art table on Hacker News . Tags: ai , generative-ai , llms , pelican-riding-a-bicycle , deepseek , llm-release , ai-in-china"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "DeepSeek V4 Pro 0813 (on OpenRouter)",
+      "originalLang": "en",
+      "date": "2026-08-12",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "DeepSeek V4 Pro 0813 (on OpenRouter)"
+      },
+      "raw": {
+        "title": "DeepSeek V4 Pro 0813 (on OpenRouter)",
+        "url": "https://simonwillison.net/2026/Aug/12/deepseek-v4-pro-0813/",
+        "fetched": false,
+        "savedAt": "2026-08-16T00:56:47.291Z"
+      }
+    },
+    {
+      "id": "sig-96d1d535cf",
+      "title": "alchemy-utils 0.1a0",
+      "oneLiner": "Release: alchemy-utils 0.1a0 I've long pondered what a database agnostic version of my sqlite-utils ",
+      "summary": {
+        "oneSentence": "Release: alchemy-utils 0.1a0 I've long pondered what a database agnostic version of my sqlite-utils Python library and C",
+        "bullets": [
+          "Release: alchemy-utils 0.1a0 I've long pondered what a database agnostic version of my sqlite-utils Python library and CLI utility might look like. This morning (literally a shower project) I tasked C"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Aug/12/alchemy-utils/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Release: alchemy-utils 0.1a0 I've long pondered what a database agnostic version of my sqlite-utils Python library and CLI utility might look like. This morning (literally a shower project) I tasked Codex and GPT-5.6 Sol Ultra with building a prototype: Do a research spike to see what it would take to build a library with the same core API as SQLite-utils - in particular the insert and upsert and insert_all and upsert_all and create and update methods, and the table introspection stuff - but backed by SQLalchemy so it works for multiple database engines Test against PostgreSQL and SQLite and duckdb Use ~/dev/sqlite-utils for reference Create a git repo for this and commit and early and often - use uv init to start the project - use red/green TDD and pytest, see ~/dev/django-sql-dashboard for one idea as to how the PostgreSQL tests could work It took very few follow-up prompts to produce this project in a state good enough to release as an alpha. Here's a one-liner I can use to list the rows in a table in my local PostgreSQL copy of my blog's database: uvx --with 'alchemy-utils[postgresql]' alchemy-utils rows 'postgresql+psycopg://simon@localhost:5432/simonwillisonblog' redirects_redirect The output from that starts like this: [ { \"id\": 2328, \"domain\": \"simonwillison.net\", \"path\": \"2020/May/21/apple-photos-sqlite/\", \"target\": \"/2020/May/21/dogsheep-photos/\", \"created\": \"2020-05-21T13:03:46.591692-07:00\" }, { \"id\": 3, \"domain\": \"feeds.simonwillison.net\", \"path\": \"swn-links\", \"target\": \"https://simonwillison.net/atom/links/\", \"created\": \"2017-10-01T14:12:54.820729-07:00\" } Or if you'd like a DuckDB database with every tree in San Francisco , schema created automatically to match the file: curl 'https://raw.githubusercontent.com/simonw/sf-tree-history/refs/heads/main/Street_Tree_List.csv' | uvx --with 'alchemy-utils[duckdb]' alchemy-utils insert 'duckdb:////tmp/trees.db' trees - --csv (That one took nearly an hour the first time I ran it, so I had Codex optimize it and got it down to around 35 seconds.) Tags: databases , postgresql , projects , python , sql , sqlalchemy , sqlite , sqlite-utils , duckdb , coding-agents , codex"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "alchemy-utils 0.1a0",
+      "originalLang": "en",
+      "date": "2026-08-12",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/12/alchemy-utils/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "alchemy-utils 0.1a0"
+      },
+      "raw": {
+        "title": "alchemy-utils 0.1a0",
+        "url": "https://simonwillison.net/2026/Aug/12/alchemy-utils/",
+        "fetched": false,
+        "savedAt": "2026-08-16T00:56:48.093Z"
       }
     },
     {
@@ -8056,7 +8736,7 @@
         "url": "https://cursor.com/changelog/google-workspace-plugins",
         "fetched": true,
         "savedAt": "2026-08-03T22:57:50.365Z",
-        "retranslatedAt": "2026-08-15T00:54:36.634Z"
+        "retranslatedAt": "2026-08-16T00:56:50.175Z"
       }
     },
     {
@@ -11421,7 +12101,7 @@
         "url": "https://cursor.com/changelog/ipad",
         "fetched": true,
         "savedAt": "2026-08-02T22:53:52.935Z",
-        "retranslatedAt": "2026-08-15T00:54:37.909Z"
+        "retranslatedAt": "2026-08-16T00:56:51.117Z"
       }
     },
     {
@@ -12336,7 +13016,7 @@
         "url": "https://cursor.com/changelog/cursor-start",
         "fetched": true,
         "savedAt": "2026-08-08T22:25:22.586Z",
-        "retranslatedAt": "2026-08-15T00:54:39.053Z"
+        "retranslatedAt": "2026-08-16T00:56:52.077Z"
       }
     },
     {
@@ -16854,7 +17534,7 @@
         "url": "https://cursor.com/changelog/slack-improvements",
         "fetched": true,
         "savedAt": "2026-07-27T07:34:20.673Z",
-        "retranslatedAt": "2026-08-15T00:54:40.147Z"
+        "retranslatedAt": "2026-08-16T00:56:53.112Z"
       }
     },
     {
