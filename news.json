@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-17T00:55:12.340Z",
+  "updatedAt": "2026-08-18T00:54:19.313Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 244,
+  "itemCount": 254,
   "brief": {
-    "date": "2026-08-17",
-    "generatedAt": "2026-08-17T00:55:12.340Z",
-    "totalCount": 244,
+    "date": "2026-08-18",
+    "generatedAt": "2026-08-18T00:54:19.312Z",
+    "totalCount": 254,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 244 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 254 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -40,10 +40,10 @@
         "readMinutes": 5
       },
       {
-        "id": "sig-d4d5059386",
-        "title": "Vercel CDN 现已支持加密客户端 Hello (ECH) - Vercel",
+        "id": "sig-ef87e3b0ab",
+        "title": "与 Gemini 和 Pixel 一起近距离接触游戏",
         "stars": 4,
-        "oneLiner": "Vercel CDN 现在支持 Vercel DNS 管理的域的加密客户端 Hello (ECH)。 ECH 对 TLS 握手中的服务器名称指示 (SNI) 进行加密，这是 HTTPS 连接的最后一部分，用于显示客户端正在连接的主机名。通过",
+        "oneLiner": "Gemini 和 Pixel 宣布与阿森纳足球俱乐部、巴塞罗那足球俱乐部、拜仁慕尼黑足球俱乐部、利物浦足球俱乐部和巴黎圣日耳曼足球俱乐部建立新的长期合作伙伴关系，通过人工智能个人智能和智能手机技术让球迷更接近比赛。",
         "readMinutes": 5
       }
     ],
@@ -53,10 +53,11 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "sig-d4d5059386",
-        "sig-068e562e05"
+        "sig-ef87e3b0ab",
+        "sig-f137d9ea2f"
       ],
       "newReleases": [
+        "sig-39d537a07a",
         "sig-1e5183cd6f",
         "sig-468f50ae5e",
         "sig-ff7bff38a4",
@@ -69,10 +70,10 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "sig-d4d5059386",
-        "sig-068e562e05",
-        "sig-4cbb438f4f",
-        "sig-85cb850f2e"
+        "sig-ef87e3b0ab",
+        "sig-f137d9ea2f",
+        "sig-ad5623d5cc",
+        "sig-96670aeff6"
       ],
       "emergingTrends": [
         "cur-openai-agentkit",
@@ -113,12 +114,12 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-08-17T00:55:12.340Z",
-    "summary": "近 30 天共 235 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-08-18T00:54:19.313Z",
+    "summary": "近 30 天共 244 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Agent",
-        "signal": "近 30 天 8 条相关更新",
+        "signal": "近 30 天 7 条相关更新",
         "examples": [
           "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排",
           "Anthropic 推动 MCP：让 Agent 统一连接外部工具与数据源"
@@ -126,10 +127,10 @@
       },
       {
         "name": "Release",
-        "signal": "近 30 天 5 条相关更新",
+        "signal": "近 30 天 6 条相关更新",
         "examples": [
-          "借助构建，云端智能体启动速度提升 3 倍 · Cursor",
-          "Google Workspace 插件 · Cursor"
+          "Origin 代码托管 · Cursor",
+          "借助构建，云端智能体启动速度提升 3 倍 · Cursor"
         ]
       },
       {
@@ -141,19 +142,19 @@
         ]
       },
       {
-        "name": "Product",
-        "signal": "近 30 天 3 条相关更新",
-        "examples": [
-          "Google Gemini 2.x：原生多模态与 Workspace 深度整合",
-          "LibTV 无限画布：LiblibAI 系视频 Agent 全链路"
-        ]
-      },
-      {
         "name": "API",
         "signal": "近 30 天 2 条相关更新",
         "examples": [
           "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排",
           "Anthropic 推动 MCP：让 Agent 统一连接外部工具与数据源"
+        ]
+      },
+      {
+        "name": "Product",
+        "signal": "近 30 天 2 条相关更新",
+        "examples": [
+          "Google Gemini 2.x：原生多模态与 Workspace 深度整合",
+          "LibTV 无限画布：LiblibAI 系视频 Agent 全链路"
         ]
       },
       {
@@ -181,7 +182,6 @@
     ],
     "focusAreas": [
       "Agent",
-      "Memory",
       "MCP",
       "Workflow"
     ],
@@ -190,6 +190,68 @@
     ]
   },
   "productUpdates": [
+    {
+      "id": "sig-ef87e3b0ab",
+      "title": "与 Gemini 和 Pixel 一起近距离接触游戏",
+      "oneLiner": "Gemini 和 Pixel 宣布与阿森纳足球俱乐部、巴塞罗那足球俱乐部、拜仁慕尼黑足球俱乐部、利物浦足球俱乐部和巴黎圣日耳曼足球俱乐部建立新的长期合作伙伴关系，通过人工智能个人智能和智能手机技术让球迷更接近比赛。",
+      "date": "2026-08-17",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google AI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-f137d9ea2f",
+      "title": "防守者之窗",
+      "oneLiner": "人工智能正在重塑攻击者和防御者的网络安全。了解 OpenAI 如何加强防御以及安全团队现在可以做什么。",
+      "date": "2026-08-17",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-ad5623d5cc",
+      "title": "OpenAI 加入 PORTS-Pike 项目",
+      "oneLiner": "OpenAI 加入 PORTS-Pike 项目，扩大社区投资并支持俄亥俄州南部数千个就业岗位",
+      "date": "2026-08-17",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-96670aeff6",
+      "title": "情报时代的新政策理念",
+      "oneLiner": "OpenAI 资助了 14 个独立项目，探索新的人工智能政策理念，以扩大智能时代的经济机会并增强社会复原力。",
+      "date": "2026-08-17",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-39d537a07a",
+      "title": "Origin 代码托管 · Cursor",
+      "oneLiner": "Origin 自即日起在所有付费方案中逐步推出早期 Beta 版。我们首先提供专为智能体规模化而打造的核心功能：代码仓库、PR、代码浏览和 GitHub 同步。智能体原生功能即将推出。",
+      "date": "2026-08-17",
+      "productIds": [
+        "cursor"
+      ],
+      "source": "Cursor",
+      "tags": [
+        "Release"
+      ],
+      "stars": 4
+    },
     {
       "id": "sig-068e562e05",
       "title": "Gemini 3.7 闪存简介",
@@ -419,69 +481,777 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-1ea3eea3d9",
-      "title": "Zapier 如何利用 ChatGPT Work 改变核心营销流程",
-      "oneLiner": "Zapier 的企业营销团队使用 ChatGPT Work 来减少其潜在客户漏斗中的流失数量、构建营销活动资产并自动生成报告。",
-      "date": "2026-08-10",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-8f3f7b5717",
-      "title": "维珍航空通过 ChatGPT Work 提升客户旅程",
-      "oneLiner": "维珍航空正在利用 ChatGPT Work 加速研究、产品规划和决策，帮助团队在整个客户旅程中连接信号。",
-      "date": "2026-08-10",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-833934ee3b",
-      "title": "应对关键网络能力的下一个前沿",
-      "oneLiner": "OpenAI 正在分享对 Astra 的初步网络安全评估以及我们为加强保障和安全控制而采取的步骤。",
-      "date": "2026-08-07",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-2ee94000fe",
-      "title": "HSP GRUPPE 如何构建税务咨询人工智能功能",
-      "oneLiner": "了解 HSP GRUPPE 如何使用 ChatGPT Enterprise 来提高生产力、提高工作质量并创造更多税务咨询和客户服务能力。",
-      "date": "2026-08-07",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-7fa201e30c",
-      "title": "WeatherNext：人工智能模型在预测气旋方面取得突破",
-      "oneLiner": "分享 复制的 WeatherNext 可实现准确的气旋预报，从而提供额外一天的警告。现在我们正在开源该模型。",
-      "date": "2026-08-06",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google DeepMind",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-ef87e3b0ab",
+      "title": "与 Gemini 和 Pixel 一起近距离接触游戏",
+      "oneLiner": "Gemini 和 Pixel 宣布与阿森纳足球俱乐部、巴塞罗那足球俱乐部、拜仁慕尼黑足球俱乐部、利物浦足球俱乐部和巴黎圣日耳曼足球俱乐部建立新的长期合作伙伴关系，通过人工智能个人智能和智能手机技术让球迷更接近比赛。",
+      "summary": {
+        "oneSentence": "Gemini 和 Pixel 宣布与阿森纳足球俱乐部、巴塞罗那足球俱乐部、拜仁慕尼黑足球俱乐部、利物浦足球俱乐部和巴黎圣日耳曼足球俱乐部建立新的长期合作伙伴关系，通过人工智能个人智能和智能手机技术让球迷更接近比赛。",
+        "bullets": [
+          "Gemini 和 Pixel 宣布与阿森纳足球俱乐部、巴塞罗那足球俱乐部、拜仁慕尼黑足球俱乐部、利物浦足球俱乐部和巴黎圣日耳曼足球俱乐部建立新的长期合作伙伴关系，通过人工智能个人智能和智能手机技术让球迷更接近比赛。",
+          "UKI 和 EMEA 设备与服务营销副总裁",
+          "您的浏览器不支持音频元素。",
+          "Google 正在与五个标志性足球俱乐部（阿森纳、巴塞罗那足球俱乐部、拜仁慕尼黑足球俱乐部、利物浦和巴黎圣日耳曼足球俱乐部）合作，让球迷更近距离地观看比赛。现在，您可以使用 Gemini 获取深入的比赛洞察，使用 Pixel 摄像头获取突出男子和女子球队的独家幕后内容。关注官方俱乐部和谷歌社交媒体渠道即可查看新内容并访"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google AI 官网发布：Gemini 和 Pixel 宣布与阿森纳足球俱乐部、巴塞罗那足球俱乐部、拜仁慕尼黑足球俱乐部、利物浦足球俱乐部和巴黎圣日耳曼足球俱乐部建立新的长期合作伙伴关系，通过人工智能个人智能和智能手机技术让球迷更接近比赛。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "Gemini 和 Pixel 宣布与阿森纳足球俱乐部、巴塞罗那足球俱乐部、拜仁慕尼黑足球俱乐部、利物浦足球俱乐部和巴黎圣日耳曼足球俱乐部建立新的长期合作伙伴关系，通过人工智能个人智能和智能手机技术让球迷更接近比赛。",
+        "UKI 和 EMEA 设备与服务营销副总裁",
+        "您的浏览器不支持音频元素。",
+        "Google 正在与五个标志性足球俱乐部（阿森纳、巴塞罗那足球俱乐部、拜仁慕尼黑足球俱乐部、利物浦和巴黎圣日耳曼足球俱乐部）合作，让球迷更近距离地观看比赛。现在，您可以使用 Gemini 获取深入的比赛洞察，使用 Pixel 摄像头获取突出男子和女子球队的独家幕后内容。关注官方俱乐部和谷歌社交媒体渠道即可查看新内容并访问独家球队壁纸。",
+        "Google 正在与五家著名足球俱乐部合作，让球迷更近距离地观看比赛。您可以使用 Gemini 快速获取有关您喜爱的球队的统计数据和见解。他们还使用 Pixel 摄像头分享男子和女子比赛的精彩幕后内容。此次合作旨在给予女子足球应有的额外关注。",
+        "我们将与世界上最具标志性的五家足球俱乐部建立新的长期合作伙伴关系：阿森纳足球俱乐部、巴塞罗那足球俱乐部、拜仁慕尼黑足球俱乐部、利物浦足球俱乐部和巴黎圣日耳曼足球俱乐部。作为官方消费者人工智能和官方智能手机合作伙伴，Gemini 和 Pixel 携手合作，帮助粉丝成为行动的核心。",
+        "足球文化是由场内场外定义比赛的故事推动的。通过 Gemini 作为他们的私人助理，支持者可以更深入地了解比赛和俱乐部的见解，并与最重要的时刻保持联系。",
+        "无论您是在欧洲俱乐部冲突中剖析比赛中的阵型变化，还是通过精确的交锋历史记录解决赛后辩论，Gemini 先进的代理能力都会代表您主动处理任务，并将答案交到您手中，让您始终处于行动的中心。",
+        "作为官方智能手机合作伙伴，Google Pixel 正在与俱乐部媒体团队合作，捕捉比赛幕后所有原始、未经过滤的时刻和情感。",
+        "通过我们标志性的“Shot on Pixel”系列，俱乐部社交团队将使用 Pixel 的摄像头和我们的 AI 工具来分享新鲜、真实的观点。此外，您还可以通过使用官方俱乐部壁纸自定义 Pixel 11 设备来展示您的颜色。"
+      ],
+      "highlights": [
+        "Gemini 和 Pixel 宣布与阿森纳足球俱乐部、巴塞罗那足球俱乐部、拜仁慕尼黑足球俱乐部、利物浦足球俱乐部和巴黎圣日耳曼足球俱乐部建立新的长期合作伙伴关系",
+        "UKI 和 EMEA 设备与服务营销副总裁",
+        "您的浏览器不支持音频元素。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Get closer to the game with Gemini and Pixel",
+      "originalLang": "en",
+      "date": "2026-08-17",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Get closer to the game with Gemini and Pixel"
+      },
+      "raw": {
+        "title": "Get closer to the game with Gemini and Pixel",
+        "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
+        "fetched": true,
+        "savedAt": "2026-08-18T00:53:45.577Z"
+      }
+    },
+    {
+      "id": "sig-f137d9ea2f",
+      "title": "防守者之窗",
+      "oneLiner": "人工智能正在重塑攻击者和防御者的网络安全。了解 OpenAI 如何加强防御以及安全团队现在可以做什么。",
+      "summary": {
+        "oneSentence": "人工智能正在重塑攻击者和防御者的网络安全。了解 OpenAI 如何加强防御以及安全团队现在可以做什么。",
+        "bullets": [
+          "人工智能正在重塑攻击者和防御者的网络安全。了解 OpenAI 如何加强防御以及安全团队现在可以做什么。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：人工智能正在重塑攻击者和防御者的网络安全。了解 OpenAI 如何加强防御以及安全团队现在可以做什么。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/the-defenders-window"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "人工智能正在重塑攻击者和防御者的网络安全。了解 OpenAI 如何加强防御以及安全团队现在可以做什么。"
+      ],
+      "highlights": [
+        "人工智能正在重塑攻击者和防御者的网络安全。了解 OpenAI 如何加强防御以及安全团队现在可以做什么。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "The Defender’s Window",
+      "originalLang": "en",
+      "date": "2026-08-17",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/the-defenders-window",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "The Defender’s Window"
+      },
+      "raw": {
+        "title": "The Defender’s Window",
+        "url": "https://openai.com/index/the-defenders-window",
+        "fetched": false,
+        "savedAt": "2026-08-18T00:53:46.925Z"
+      }
+    },
+    {
+      "id": "sig-ad5623d5cc",
+      "title": "OpenAI 加入 PORTS-Pike 项目",
+      "oneLiner": "OpenAI 加入 PORTS-Pike 项目，扩大社区投资并支持俄亥俄州南部数千个就业岗位",
+      "summary": {
+        "oneSentence": "OpenAI 加入 PORTS-Pike 项目，扩大社区投资并支持俄亥俄州南部数千个就业岗位",
+        "bullets": [
+          "OpenAI 加入 PORTS-Pike 项目，扩大社区投资并支持俄亥俄州南部数千个就业岗位"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 加入 PORTS-Pike 项目，扩大社区投资并支持俄亥俄州南部数千个就业岗位",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/openai-joins-ports-pike-project"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 加入 PORTS-Pike 项目，扩大社区投资并支持俄亥俄州南部数千个就业岗位"
+      ],
+      "highlights": [
+        "OpenAI 加入 PORTS-Pike 项目，扩大社区投资并支持俄亥俄州南部数千个就业岗位"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "OpenAI joins PORTS-Pike project",
+      "originalLang": "en",
+      "date": "2026-08-17",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/openai-joins-ports-pike-project",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "OpenAI joins PORTS-Pike project"
+      },
+      "raw": {
+        "title": "OpenAI joins PORTS-Pike project",
+        "url": "https://openai.com/index/openai-joins-ports-pike-project",
+        "fetched": false,
+        "savedAt": "2026-08-18T00:53:48.282Z"
+      }
+    },
+    {
+      "id": "sig-96670aeff6",
+      "title": "情报时代的新政策理念",
+      "oneLiner": "OpenAI 资助了 14 个独立项目，探索新的人工智能政策理念，以扩大智能时代的经济机会并增强社会复原力。",
+      "summary": {
+        "oneSentence": "OpenAI 资助了 14 个独立项目，探索新的人工智能政策理念，以扩大智能时代的经济机会并增强社会复原力。",
+        "bullets": [
+          "OpenAI 资助了 14 个独立项目，探索新的人工智能政策理念，以扩大智能时代的经济机会并增强社会复原力。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 资助了 14 个独立项目，探索新的人工智能政策理念，以扩大智能时代的经济机会并增强社会复原力。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/new-policy-ideas-for-the-intelligence-age"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 资助了 14 个独立项目，探索新的人工智能政策理念，以扩大智能时代的经济机会并增强社会复原力。"
+      ],
+      "highlights": [
+        "OpenAI 资助了 14 个独立项目，探索新的人工智能政策理念，以扩大智能时代的经济机会并增强社会复原力。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "New policy ideas for the Intelligence Age",
+      "originalLang": "en",
+      "date": "2026-08-17",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "New policy ideas for the Intelligence Age"
+      },
+      "raw": {
+        "title": "New policy ideas for the Intelligence Age",
+        "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+        "fetched": false,
+        "savedAt": "2026-08-18T00:53:49.654Z"
+      }
+    },
+    {
+      "id": "sig-39d537a07a",
+      "title": "Origin 代码托管 · Cursor",
+      "oneLiner": "Origin 自即日起在所有付费方案中逐步推出早期 Beta 版。我们首先提供专为智能体规模化而打造的核心功能：代码仓库、PR、代码浏览和 GitHub 同步。智能体原生功能即将推出。",
+      "summary": {
+        "oneSentence": "Origin 自即日起在所有付费方案中逐步推出早期 Beta 版。我们首先提供专为智能体规模化而打造的核心功能：代码仓库、PR、代码浏览和 GitHub 同步。智能体原生功能即将推出。",
+        "bullets": [
+          "Origin 自即日起在所有付费方案中逐步推出早期 Beta 版。我们首先提供专为智能体规模化而打造的核心功能：代码仓库、PR、代码浏览和 GitHub 同步。智能体原生功能即将推出。",
+          "点击 +新建 以创建新的代码仓库并为其命名。随后，页面会显示如何安装 CLI，以及克隆代码仓库或推送本地项目所需的命令。推送后，您的代码便会托管在 Origin 上。",
+          "创建第一个代码仓库时，需要为代码库命名。该名称将成为每个代码仓库 URL 的一部分：cursor.com/codebase/ acme-corp 。",
+          "您的 GitHub 代码仓库可以与 Cursor 托管的代码仓库并存。将 GitHub 连接到 Cursor，选择您的组织后，即可看到可同步的代码仓库。选择一个代码仓库，Cursor 就会将其拉取进来。您可以决定同步哪些内容，也可以随时断开代码仓库连接。任何对已同步代码仓库拥有读取或写入权限的人员，也可以在 Curso"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Cursor 官网发布：Origin 自即日起在所有付费方案中逐步推出早期 Beta 版。我们首先提供专为智能体规模化而打造的核心功能：代码仓库、PR、代码浏览和 GitHub 同步。智能体原生功能即将推出。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：cursor",
+        "actionItems": [
+          "阅读原文（中文）：https://cursor.com/changelog/origin-code-hosting"
+        ]
+      },
+      "tags": [
+        "Release"
+      ],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "cursor"
+      ],
+      "content": [
+        "Origin 自即日起在所有付费方案中逐步推出早期 Beta 版。我们首先提供专为智能体规模化而打造的核心功能：代码仓库、PR、代码浏览和 GitHub 同步。智能体原生功能即将推出。",
+        "点击 +新建 以创建新的代码仓库并为其命名。随后，页面会显示如何安装 CLI，以及克隆代码仓库或推送本地项目所需的命令。推送后，您的代码便会托管在 Origin 上。",
+        "创建第一个代码仓库时，需要为代码库命名。该名称将成为每个代码仓库 URL 的一部分：cursor.com/codebase/ acme-corp 。",
+        "您的 GitHub 代码仓库可以与 Cursor 托管的代码仓库并存。将 GitHub 连接到 Cursor，选择您的组织后，即可看到可同步的代码仓库。选择一个代码仓库，Cursor 就会将其拉取进来。您可以决定同步哪些内容，也可以随时断开代码仓库连接。任何对已同步代码仓库拥有读取或写入权限的人员，也可以在 Cursor 中查看该代码仓库。",
+        "已同步的代码仓库会实时更新。您可以浏览、搜索并从 Origin 中的副本拉取。推送仍会发送到 GitHub。对于在 GitHub 中发起的任何内容，GitHub 始终是权威来源。每个代码仓库名称旁的图标会标明哪些代码仓库由 Cursor 托管，哪些来自 GitHub。",
+        "每个代码仓库都有 PR。打开 PR，即可查看时间线、提交记录、检查项和已更改的文件。审查 diff、添加评论并合并。",
+        "已同步的代码仓库中的 PR 支持双向同步：在 Cursor 中发表评论会同步发布到 GitHub；在 GitHub 上添加表情回应或回复，几秒内即可显示在 Cursor 中。GitHub 上有分配给您的代码审查？可直接在 Cursor 中审查并合并。",
+        "您的代码、PR 和智能体现在都集中在同一处。您可以向 Cursor 询问正在浏览的代码。它可以回答问题、修改代码、更新 PR，或推送分支。",
+        "我们正在构建应用生态系统，让您的整个技术栈都能与 Origin 无缝协作。现已提供 Vercel、Depot 和 Buildkite 集成，更多集成即将推出。",
+        "在代码仓库的 Apps 选项卡中连接 Vercel 后，每个 PR 都会获得预览部署，您可以在其中进行测试和评论。合并后，即可部署到生产环境。如需 CI，可连接 Depot 或 Buildkite。两者均可运行您现有的 GitHub Actions 工作流，Buildkite 还可运行其原生流水线。"
+      ],
+      "highlights": [
+        "Origin 自即日起在所有付费方案中逐步推出早期 Beta 版。我们首先提供专为智能体规模化而打造的核心功能：代码仓库、PR、代码浏览和 GitHub 同步。",
+        "点击 +新建 以创建新的代码仓库并为其命名。随后，页面会显示如何安装 CLI，以及克隆代码仓库或推送本地项目所需的命令。推送后，您的代码便会托管在 Origin",
+        "创建第一个代码仓库时，需要为代码库命名。该名称将成为每个代码仓库 URL 的一部分：cursor.com/codebase/ acme-corp 。"
+      ],
+      "translated": false,
+      "translateMethod": "native",
+      "originalTitle": "Origin 代码托管 · Cursor",
+      "originalLang": "zh",
+      "date": "2026-08-17",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [
+        "cursor"
+      ],
+      "source": {
+        "type": "release",
+        "group": "company",
+        "name": "Cursor",
+        "author": "Cursor",
+        "url": "https://cursor.com/changelog/origin-code-hosting",
+        "home": "https://cursor.com/changelog",
+        "lang": "zh",
+        "translated": false,
+        "translateMethod": "native",
+        "originalTitle": "Origin 代码托管 · Cursor"
+      },
+      "raw": {
+        "title": "Origin Code Hosting",
+        "url": "https://cursor.com/changelog/origin-code-hosting",
+        "fetched": true,
+        "savedAt": "2026-08-18T00:53:50.883Z"
+      }
+    },
+    {
+      "id": "sig-edf437e215",
+      "title": "在公开测试版中使用 Vercel 部署 Cursor Origin 存储库 - Vercel",
+      "oneLiner": "Pro 客户现在可以将 Origin 存储库连接到 Vercel。",
+      "summary": {
+        "oneSentence": "Pro 客户现在可以将 Origin 存储库连接到 Vercel。",
+        "bullets": [
+          "Pro 客户现在可以将 Origin 存储库连接到 Vercel。",
+          "连接后，Origin 上的拉取请求将自动在 Vercel 上生成预览部署，合并将触发生产部署。",
+          "您可以通过团队设置、项目设置或创建新项目时单击“继续使用 Origin”来连接 Origin。",
+          "您还可以通过在存储库的“应用程序”选项卡中添加 Vercel，将 Vercel 连接到 Origin 内的存储库。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Pro 客户现在可以将 Origin 存储库连接到 Vercel。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/deploy-cursor-origin-repositories-with-vercel-in-public-beta"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Pro 客户现在可以将 Origin 存储库连接到 Vercel。",
+        "连接后，Origin 上的拉取请求将自动在 Vercel 上生成预览部署，合并将触发生产部署。",
+        "您可以通过团队设置、项目设置或创建新项目时单击“继续使用 Origin”来连接 Origin。",
+        "您还可以通过在存储库的“应用程序”选项卡中添加 Vercel，将 Vercel 连接到 Origin 内的存储库。",
+        "Vercel 的集成处于公开测试阶段，Origin 处于早期测试阶段。原始存储库受 Vercel 现有的私有存储库政策的约束。",
+        "在 Git 集成文档中了解有关连接 Origin 的更多信息。"
+      ],
+      "highlights": [
+        "Pro 客户现在可以将 Origin 存储库连接到 Vercel。",
+        "连接后，Origin 上的拉取请求将自动在 Vercel 上生成预览部署，合并将触发生产部署。",
+        "您可以通过团队设置、项目设置或创建新项目时单击“继续使用 Origin”来连接 Origin。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Deploy Cursor Origin repositories with Vercel in public beta - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-17",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/deploy-cursor-origin-repositories-with-vercel-in-public-beta",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Deploy Cursor Origin repositories with Vercel in public beta - Vercel"
+      },
+      "raw": {
+        "title": "Deploy Cursor Origin repositories with Vercel in public beta",
+        "url": "https://vercel.com/changelog/deploy-cursor-origin-repositories-with-vercel-in-public-beta",
+        "fetched": true,
+        "savedAt": "2026-08-18T00:53:58.622Z"
+      }
+    },
+    {
+      "id": "sig-cb6d86598f",
+      "title": "GPT-5.6 Sol 下个月在 AI Gateway 上享受 50% 的折扣 - Vercel",
+      "oneLiner": "GPT-5.6 Sol 是 OpenAI GPT-5.6 系列的旗舰产品，截至 9 月 18 日，在 AI Gateway 上可享受 50% 的折扣。该折扣适用于 OpenAI 提供商的所有代币类型、层级、区域和模式，并且仅适用于直接通过 ",
+      "summary": {
+        "oneSentence": "GPT-5.6 Sol 是 OpenAI GPT-5.6 系列的旗舰产品，截至 9 月 18 日，在 AI Gateway 上可享受 50% 的折扣。该折扣适用于 OpenAI 提供商的所有代币类型、层级、区域和模式，并且仅适用于直接通过 ",
+        "bullets": [
+          "GPT-5.6 Sol 是 OpenAI GPT-5.6 系列的旗舰产品，截至 9 月 18 日，在 AI Gateway 上可享受 50% 的折扣。该折扣适用于 OpenAI 提供商的所有代币类型、层级、区域和模式，并且仅适用于直接通过 AI Gateway（而非 BYOK）运行的请求。",
+          "将链接复制到标题 定价：服务等级 50% 折扣",
+          "每 M 代币的原始价格（输入/输出）",
+          "折扣适用于模型定价的所有其他地方的相同条款：跨每个服务层，包括快速模式，以及缓存令牌、缓存写入、长上下文请求和不同区域。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：GPT-5.6 Sol 是 OpenAI GPT-5.6 系列的旗舰产品，截至 9 月 18 日，在 AI Gateway 上可享受 50% 的折扣。该折扣适用于 OpenAI 提供商的所有代币类型、层级、区域和模式，并且仅适用于直接通过 ",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/gpt-5-6-sol-is-50-off-on-ai-gateway-for-the-next-month"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "GPT-5.6 Sol 是 OpenAI GPT-5.6 系列的旗舰产品，截至 9 月 18 日，在 AI Gateway 上可享受 50% 的折扣。该折扣适用于 OpenAI 提供商的所有代币类型、层级、区域和模式，并且仅适用于直接通过 AI Gateway（而非 BYOK）运行的请求。",
+        "将链接复制到标题 定价：服务等级 50% 折扣",
+        "每 M 代币的原始价格（输入/输出）",
+        "折扣适用于模型定价的所有其他地方的相同条款：跨每个服务层，包括快速模式，以及缓存令牌、缓存写入、长上下文请求和不同区域。",
+        "它涵盖通过 OpenAI 提供商的 AI Gateway 计费的请求。 BYOK 请求在您自己的提供商帐户上运行，并按照您与他们的任何费率计费。",
+        "型号 ID 未更改，因此请求您已发送提货折扣率且代码未更改：",
+        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText ({ 4 model: 'openai/gpt-5.6-sol', 5prompt: '调查失败的测试并打开 PR 并进行修复。', 6 }) ;",
+        "Sol 对最困难的问题进行最大程度的推理，接受文本、图像和 PDF 输入，并带有一个长上下文窗口。",
+        "要在编码代理中使用它，请运行 vercel ai-gatewaycoding-agents setup 以连接 Claude Code、Codex、OpenCode 或 Pi，然后在代理内选择 openai/gpt-5.6-sol。 50% 的折扣将适用于那里。",
+        "将链接复制到标题 开始 在仪表板的 AI 网关部分中创建 API 密钥，或者首先在浏览器中从 Playground 页面尝试该模型。"
+      ],
+      "highlights": [
+        "GPT-5.6 Sol 是 OpenAI GPT-5.6 系列的旗舰产品，截至 9 月 18 日，在 AI Gateway 上可享受 50% 的折扣。该折扣适用",
+        "将链接复制到标题 定价：服务等级 50% 折扣",
+        "每 M 代币的原始价格（输入/输出）"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "GPT-5.6 Sol is 50% off on AI Gateway for the next month - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-17",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/gpt-5-6-sol-is-50-off-on-ai-gateway-for-the-next-month",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "GPT-5.6 Sol is 50% off on AI Gateway for the next month - Vercel"
+      },
+      "raw": {
+        "title": "GPT-5.6 Sol is 50% off on AI Gateway for the next month",
+        "url": "https://vercel.com/changelog/gpt-5-6-sol-is-50-off-on-ai-gateway-for-the-next-month",
+        "fetched": true,
+        "savedAt": "2026-08-18T00:54:10.342Z"
+      }
+    },
+    {
+      "id": "sig-1999067b96",
+      "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
+      "oneLiner": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index That's the same score as GPT-5.",
+      "summary": {
+        "oneSentence": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index That's the same score as GPT-5.6 Luna (max), and ju",
+        "bullets": [
+          "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 7"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 753B and that DeepSeek is 1.6B parameters, and Luna is size unknown but presumably a whole lot bigger than 27B. Qwen 3.8 27B is a truly astonishing model . Via Hacker News Tags: ai , generative-ai , llms , qwen , ai-in-china , artificial-analysis"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
+      "originalLang": "en",
+      "date": "2026-08-17",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index"
+      },
+      "raw": {
+        "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
+        "url": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
+        "fetched": false,
+        "savedAt": "2026-08-18T00:54:11.143Z"
+      }
+    },
+    {
+      "id": "sig-9757553db8",
+      "title": "[AINews] Stripe buys OpenRouter for $7B",
+      "oneLiner": "No GPUs, no Agents, just really, really, really good infra and distribution.",
+      "summary": {
+        "oneSentence": "No GPUs, no Agents, just really, really, really good infra and distribution.",
+        "bullets": [
+          "No GPUs, no Agents, just really, really, really good infra and distribution."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.latent.space/p/ainews-stripe-buys-openrouter-for"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "No GPUs, no Agents, just really, really, really good infra and distribution."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "[AINews] Stripe buys OpenRouter for $7B",
+      "originalLang": "en",
+      "date": "2026-08-17",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "[AINews] Stripe buys OpenRouter for $7B"
+      },
+      "raw": {
+        "title": "[AINews] Stripe buys OpenRouter for $7B",
+        "url": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
+        "fetched": false,
+        "savedAt": "2026-08-18T00:54:11.944Z"
+      }
+    },
+    {
+      "id": "sig-8933d03c7e",
+      "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+      "oneLiner": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility Excellent piece of r",
+      "summary": {
+        "oneSentence": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility Excellent piece of reporting from 404 Me",
+        "bullets": [
+          "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility Excellent piece of reporting from 404 Media. For a while now there have been stories of book dealers receiving orders fo"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility Excellent piece of reporting from 404 Media. For a while now there have been stories of book dealers receiving orders for large volumes of books from apparently price-insensitive anonymous customers, widely suspected to be companies looking to scan them for AI training (see my previous coverage of Anthropic's book scanning from June 2025.) 404 Media investigated with an AirTag! In July, one bookseller told me they received a very large order of around 1,000 books on Biblio, one of these marketplaces. The seller agreed to put an Apple AirTag provided by 404 Media in one of the books included in this order so we could see where the book was going. And by extension, which company, AI or otherwise, was behind this massive order. The book ended up delivered to the VGT3 corner of the LAS8 Amazon facility in the north east of Las Vegas, where the entrance carried this on-the-nose logo of a dinosaur with a book! Photo credit: 404 Media Online forum discussions between Amazon workers confirmed that VGT3 destructively scans large volumes of books. Tags: amazon , journalism , ai , training-data , ai-ethics , 404-media"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+      "originalLang": "en",
+      "date": "2026-08-17",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility"
+      },
+      "raw": {
+        "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+        "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
+        "fetched": false,
+        "savedAt": "2026-08-18T00:54:12.745Z"
+      }
+    },
     {
       "id": "sig-5d80ce7e11",
       "title": "Markdown SVG upgrades",
@@ -1754,7 +2524,7 @@
         "url": "https://cursor.com/changelog/08-13-26",
         "fetched": true,
         "savedAt": "2026-08-14T01:23:26.394Z",
-        "retranslatedAt": "2026-08-17T00:55:07.247Z"
+        "retranslatedAt": "2026-08-18T00:54:13.937Z"
       }
     },
     {
@@ -9416,7 +10186,7 @@
         "url": "https://cursor.com/changelog/google-workspace-plugins",
         "fetched": true,
         "savedAt": "2026-08-03T22:57:50.365Z",
-        "retranslatedAt": "2026-08-17T00:55:08.346Z"
+        "retranslatedAt": "2026-08-18T00:54:14.945Z"
       }
     },
     {
@@ -12781,7 +13551,7 @@
         "url": "https://cursor.com/changelog/ipad",
         "fetched": true,
         "savedAt": "2026-08-02T22:53:52.935Z",
-        "retranslatedAt": "2026-08-17T00:55:09.366Z"
+        "retranslatedAt": "2026-08-18T00:54:15.950Z"
       }
     },
     {
@@ -13696,7 +14466,7 @@
         "url": "https://cursor.com/changelog/cursor-start",
         "fetched": true,
         "savedAt": "2026-08-08T22:25:22.586Z",
-        "retranslatedAt": "2026-08-17T00:55:10.459Z"
+        "retranslatedAt": "2026-08-18T00:54:17.104Z"
       }
     },
     {
@@ -18214,7 +18984,7 @@
         "url": "https://cursor.com/changelog/slack-improvements",
         "fetched": true,
         "savedAt": "2026-07-27T07:34:20.673Z",
-        "retranslatedAt": "2026-08-17T00:55:11.538Z"
+        "retranslatedAt": "2026-08-18T00:54:18.510Z"
       }
     },
     {
