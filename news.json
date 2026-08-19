@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-18T00:54:19.313Z",
+  "updatedAt": "2026-08-19T00:54:32.294Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 254,
+  "itemCount": 264,
   "brief": {
-    "date": "2026-08-18",
-    "generatedAt": "2026-08-18T00:54:19.312Z",
-    "totalCount": 254,
-    "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 254 条",
+    "date": "2026-08-19",
+    "generatedAt": "2026-08-19T00:54:32.293Z",
+    "totalCount": 264,
+    "todayCount": 1,
+    "headline": "今日 AI 信号 1 条 · 档案共 264 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -40,10 +40,10 @@
         "readMinutes": 5
       },
       {
-        "id": "sig-ef87e3b0ab",
-        "title": "与 Gemini 和 Pixel 一起近距离接触游戏",
+        "id": "sig-9009000832",
+        "title": "聊天 SDK 添加了 Instagram 适配器 - Vercel",
         "stars": 4,
-        "oneLiner": "Gemini 和 Pixel 宣布与阿森纳足球俱乐部、巴塞罗那足球俱乐部、拜仁慕尼黑足球俱乐部、利物浦足球俱乐部和巴黎圣日耳曼足球俱乐部建立新的长期合作伙伴关系，通过人工智能个人智能和智能手机技术让球迷更接近比赛。",
+        "oneLiner": "您现在可以使用适用于聊天 SDK 的新 Instagram 适配器为 Instagram 构建机器人。",
         "readMinutes": 5
       }
     ],
@@ -53,8 +53,8 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "sig-ef87e3b0ab",
-        "sig-f137d9ea2f"
+        "sig-9009000832",
+        "sig-67f37d861d"
       ],
       "newReleases": [
         "sig-39d537a07a",
@@ -70,10 +70,10 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "sig-ef87e3b0ab",
-        "sig-f137d9ea2f",
-        "sig-ad5623d5cc",
-        "sig-96670aeff6"
+        "sig-9009000832",
+        "sig-67f37d861d",
+        "sig-0cd1eaeccd",
+        "sig-ae6b3c0347"
       ],
       "emergingTrends": [
         "cur-openai-agentkit",
@@ -114,23 +114,23 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-08-18T00:54:19.313Z",
-    "summary": "近 30 天共 244 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-08-19T00:54:32.294Z",
+    "summary": "近 30 天共 252 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
-      {
-        "name": "Agent",
-        "signal": "近 30 天 7 条相关更新",
-        "examples": [
-          "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排",
-          "Anthropic 推动 MCP：让 Agent 统一连接外部工具与数据源"
-        ]
-      },
       {
         "name": "Release",
         "signal": "近 30 天 6 条相关更新",
         "examples": [
           "Origin 代码托管 · Cursor",
           "借助构建，云端智能体启动速度提升 3 倍 · Cursor"
+        ]
+      },
+      {
+        "name": "Agent",
+        "signal": "近 30 天 6 条相关更新",
+        "examples": [
+          "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排",
+          "Anthropic 推动 MCP：让 Agent 统一连接外部工具与数据源"
         ]
       },
       {
@@ -150,22 +150,6 @@
         ]
       },
       {
-        "name": "Product",
-        "signal": "近 30 天 2 条相关更新",
-        "examples": [
-          "Google Gemini 2.x：原生多模态与 Workspace 深度整合",
-          "LibTV 无限画布：LiblibAI 系视频 Agent 全链路"
-        ]
-      },
-      {
-        "name": "Video",
-        "signal": "近 30 天 2 条相关更新",
-        "examples": [
-          "TapNow 智能体画布：国内视频 Agent 工作流新标杆",
-          "LibTV 无限画布：LiblibAI 系视频 Agent 全链路"
-        ]
-      },
-      {
         "name": "MCP",
         "signal": "近 30 天 1 条相关更新",
         "examples": [
@@ -177,6 +161,20 @@
         "signal": "近 30 天 1 条相关更新",
         "examples": [
           "Cursor 0.4x：Background Agent 与多文件自主修改"
+        ]
+      },
+      {
+        "name": "Search",
+        "signal": "近 30 天 1 条相关更新",
+        "examples": [
+          "Perplexity 强化 Pro Search：多步推理 + 来源可追溯"
+        ]
+      },
+      {
+        "name": "Reasoning",
+        "signal": "近 30 天 1 条相关更新",
+        "examples": [
+          "Perplexity 强化 Pro Search：多步推理 + 来源可追溯"
         ]
       }
     ],
@@ -190,6 +188,78 @@
     ]
   },
   "productUpdates": [
+    {
+      "id": "sig-67f37d861d",
+      "title": "加强国家安全民主监督",
+      "oneLiner": "OpenAI 发起了一项倡议，加强对国家安全领域人工智能的民主监督，为政府机构提供工具、培训和专业知识。",
+      "date": "2026-08-18",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-9765648ad5",
+      "title": "与 CodeAI 合作，准备第一代 AI",
+      "oneLiner": "OpenAI 和 CodeAI 正在合作，帮助学生培养人工智能素养，批判性地思考人工智能，并培养负责任地使用和塑造人工智能的技能。",
+      "date": "2026-08-18",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-68c52c8131",
+      "title": "网络关键能力时代的模型开发节奏",
+      "oneLiner": "OpenAI 正在加强对前沿人工智能模型的监控、协调和安全。了解新的保障措施如何指导模型开发的步伐。",
+      "date": "2026-08-18",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-01003c6680",
+      "title": "推出面向青少年的 ChatGPT：专为学习而打造，以保护为后盾",
+      "oneLiner": "ChatGPT for Teens 可帮助青少年自信地学习、批判性思考和使用人工智能，并提供更强大的内置保护、健康使用功能以及针对家长的额外控制。",
+      "date": "2026-08-18",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-7d7eacff40",
+      "title": "Asana 通过 Codex 在 2 周内完成了 5 年的工程工作",
+      "oneLiner": "Asana 使用 OpenAI Codex 在两周内替换了过时的测试系统，以约 12000 美元的价格完成了预计需要五年的工作。",
+      "date": "2026-08-18",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-dfcf73efa3",
+      "title": "NVIDIA 如何通过 ChatGPT Work 扩展专业知识",
+      "oneLiner": "NVIDIA 团队使用 ChatGPT Work 来减少手动任务、连接快速移动的信号并在全球范围内扩展成功的工作流程。",
+      "date": "2026-08-18",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
     {
       "id": "sig-ef87e3b0ab",
       "title": "与 Gemini 和 Pixel 一起近距离接触游戏",
@@ -409,81 +479,773 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-ae2292bf45",
-      "title": "使用新的人工智能工具发展您的营销",
-      "oneLiner": "我们正在 Google Ads 和 Google Analytics 中添加人工智能和代理体验，以简化您的工作流程并加快您的业务增长之路。",
-      "date": "2026-08-10",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google AI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-61282b7420",
-      "title": "OpenAI 致州长阿博特关于德克萨斯州负责任的人工智能基础设施的信函",
-      "oneLiner": "OpenAI 向州长 Greg Abbott 发送了一封信，概述了其对德克萨斯州负责任的人工智能基础设施的承诺。这封信支持有利于德克萨斯人的可靠、透明的增长。",
-      "date": "2026-08-10",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-c7b962b1d9",
-      "title": "Model ML借助GPT-5.6 Sol更高效地完成财务工作",
-      "oneLiner": "Model ML 使用 GPT-5.6 Sol 通过可编辑、可追踪的 PowerPoint 演示文稿和 Excel 工作簿进行研究和分析等财务工作。",
-      "date": "2026-08-10",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-3a8585570c",
-      "title": "随着网络防御窗口的缩小，黎明时间的扩大",
-      "oneLiner": "了解 GPT-5.6-Cyber​​，这是 OpenAI 的网络安全特定模型，可通过 Daybreak Red 进行授权漏洞研究、漏洞利用验证和安全测试。",
-      "date": "2026-08-10",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-7f776d7829",
-      "title": "将前沿网络模型交给更值得信赖的人",
-      "oneLiner": "经批准的 Daybreak 合作伙伴可以使用 OpenAI 的前沿网络模型为客户提供授权、受监管的网络安全服务。",
-      "date": "2026-08-10",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-ee449db47d",
-      "title": "ChatGPT Business 即将推出高级席位",
-      "oneLiner": "ChatGPT Business 即将推出高级席位。在 8 月 20 日之前注册即可获得 100 美元的工作空间积分，并为您的团队最苛刻的工作解锁更高的使用率。",
-      "date": "2026-08-10",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-9009000832",
+      "title": "聊天 SDK 添加了 Instagram 适配器 - Vercel",
+      "oneLiner": "您现在可以使用适用于聊天 SDK 的新 Instagram 适配器为 Instagram 构建机器人。",
+      "summary": {
+        "oneSentence": "您现在可以使用适用于聊天 SDK 的新 Instagram 适配器为 Instagram 构建机器人。",
+        "bullets": [
+          "您现在可以使用适用于聊天 SDK 的新 Instagram 适配器为 Instagram 构建机器人。",
+          "机器人可以发送和接收 DM 和媒体、将卡片呈现为快速回复和链接按钮、显示打字指示器、接收反应以及处理故事回复。",
+          "lib/bot.ts 1 从“聊天”导入{聊天}； 2 从“@chat-adapter/instagram”导入{createInstagramAdapter}； 3 4 导出 const bot = new Chat ({ 5 userName : \"mybot\" , 6 适配器 : { 7 instagram : ",
+          "该适配器通过 Meta 的 Instagram Messaging API 进行连接，并且需要专业的 Business 或 Creator 帐户。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：您现在可以使用适用于聊天 SDK 的新 Instagram 适配器为 Instagram 构建机器人。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/chat-sdk-adds-instagram-adapter"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "您现在可以使用适用于聊天 SDK 的新 Instagram 适配器为 Instagram 构建机器人。",
+        "机器人可以发送和接收 DM 和媒体、将卡片呈现为快速回复和链接按钮、显示打字指示器、接收反应以及处理故事回复。",
+        "lib/bot.ts 1 从“聊天”导入{聊天}； 2 从“@chat-adapter/instagram”导入{createInstagramAdapter}； 3 4 导出 const bot = new Chat ({ 5 userName : \"mybot\" , 6 适配器 : { 7 instagram : createInstagramAdapter ( ) , 8 } , 9 } ) ; 10 11 机器人。 onDirectMessage ( async ( thread , message ) => { 12 wait thread .post ( \"来自 Instagram 的你好！\" ) ; 13 } ) ;回复 Instagram 上的直接消息",
+        "该适配器通过 Meta 的 Instagram Messaging API 进行连接，并且需要专业的 Business 或 Creator 帐户。",
+        "消息被缓冲，因此流式响应在流完成时作为一条消息发送。 Meta 强制执行 24 小时消息传递窗口，因此机器人只能在用户最后一条消息后的一天内回复。",
+        "阅读文档以开始使用或浏览适配器目录。"
+      ],
+      "highlights": [
+        "您现在可以使用适用于聊天 SDK 的新 Instagram 适配器为 Instagram 构建机器人。",
+        "机器人可以发送和接收 DM 和媒体、将卡片呈现为快速回复和链接按钮、显示打字指示器、接收反应以及处理故事回复。",
+        "lib/bot.ts 1 从“聊天”导入{聊天}； 2 从“@chat-adapter/instagram”导入{createInstagramAdapter}"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Chat SDK adds Instagram adapter - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-19",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/chat-sdk-adds-instagram-adapter",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Chat SDK adds Instagram adapter - Vercel"
+      },
+      "raw": {
+        "title": "Chat SDK adds Instagram adapter",
+        "url": "https://vercel.com/changelog/chat-sdk-adds-instagram-adapter",
+        "fetched": true,
+        "savedAt": "2026-08-19T00:54:02.840Z"
+      }
+    },
+    {
+      "id": "sig-67f37d861d",
+      "title": "加强国家安全民主监督",
+      "oneLiner": "OpenAI 发起了一项倡议，加强对国家安全领域人工智能的民主监督，为政府机构提供工具、培训和专业知识。",
+      "summary": {
+        "oneSentence": "OpenAI 发起了一项倡议，加强对国家安全领域人工智能的民主监督，为政府机构提供工具、培训和专业知识。",
+        "bullets": [
+          "OpenAI 发起了一项倡议，加强对国家安全领域人工智能的民主监督，为政府机构提供工具、培训和专业知识。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 发起了一项倡议，加强对国家安全领域人工智能的民主监督，为政府机构提供工具、培训和专业知识。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/strengthening-democratic-oversight-in-national-security"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 发起了一项倡议，加强对国家安全领域人工智能的民主监督，为政府机构提供工具、培训和专业知识。"
+      ],
+      "highlights": [
+        "OpenAI 发起了一项倡议，加强对国家安全领域人工智能的民主监督，为政府机构提供工具、培训和专业知识。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Strengthening democratic oversight in national security",
+      "originalLang": "en",
+      "date": "2026-08-18",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Strengthening democratic oversight in national security"
+      },
+      "raw": {
+        "title": "Strengthening democratic oversight in national security",
+        "url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security",
+        "fetched": false,
+        "savedAt": "2026-08-19T00:54:04.192Z"
+      }
+    },
+    {
+      "id": "sig-0cd1eaeccd",
+      "title": "Vercel for Platforms 现在可以从用户的 GitHub 存储库进行部署 - Vercel",
+      "oneLiner": "在 Vercel for Platforms 上构建的团队现在可以直接从用户的 GitHub 存储库创建部署，无需安装 Vercel GitHub 应用程序。创建部署时，将 gitAccessToken 与 gitSource 一起传递。 ",
+      "summary": {
+        "oneSentence": "在 Vercel for Platforms 上构建的团队现在可以直接从用户的 GitHub 存储库创建部署，无需安装 Vercel GitHub 应用程序。创建部署时，将 gitAccessToken 与 gitSource 一起传递。 ",
+        "bullets": [
+          "在 Vercel for Platforms 上构建的团队现在可以直接从用户的 GitHub 存储库创建部署，无需安装 Vercel GitHub 应用程序。创建部署时，将 gitAccessToken 与 gitSource 一起传递。 Vercel 使用令牌来检索源并构建部署。",
+          "令牌应该是只读的，范围仅限于所请求的存储库，并且有效期为 24 小时或更短。 Vercel 以加密形式临时存储令牌，以便完成源检索。令牌永远不会存储在部署中。",
+          "了解有关使用 GitHub 访问令牌的更多信息。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：在 Vercel for Platforms 上构建的团队现在可以直接从用户的 GitHub 存储库创建部署，无需安装 Vercel GitHub 应用程序。创建部署时，将 gitAccessToken 与 gitSource 一起传递。 ",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-for-platforms-can-now-deploy-from-your-users-github-repositories"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "在 Vercel for Platforms 上构建的团队现在可以直接从用户的 GitHub 存储库创建部署，无需安装 Vercel GitHub 应用程序。创建部署时，将 gitAccessToken 与 gitSource 一起传递。 Vercel 使用令牌来检索源并构建部署。",
+        "令牌应该是只读的，范围仅限于所请求的存储库，并且有效期为 24 小时或更短。 Vercel 以加密形式临时存储令牌，以便完成源检索。令牌永远不会存储在部署中。",
+        "了解有关使用 GitHub 访问令牌的更多信息。"
+      ],
+      "highlights": [
+        "在 Vercel for Platforms 上构建的团队现在可以直接从用户的 GitHub 存储库创建部署，无需安装 Vercel GitHub 应用程序。创",
+        "令牌应该是只读的，范围仅限于所请求的存储库，并且有效期为 24 小时或更短。 Vercel 以加密形式临时存储令牌，以便完成源检索。令牌永远不会存储在部署中。",
+        "了解有关使用 GitHub 访问令牌的更多信息。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel for Platforms can now deploy from your users' GitHub repositories - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-18",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-for-platforms-can-now-deploy-from-your-users-github-repositories",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel for Platforms can now deploy from your users' GitHub repositories - Vercel"
+      },
+      "raw": {
+        "title": "Vercel for Platforms can now deploy from your users' GitHub repositories",
+        "url": "https://vercel.com/changelog/vercel-for-platforms-can-now-deploy-from-your-users-github-repositories",
+        "fetched": true,
+        "savedAt": "2026-08-19T00:54:07.292Z"
+      }
+    },
+    {
+      "id": "sig-ae6b3c0347",
+      "title": "Vercel Sandbox 面临 100 万美元的黑客挑战",
+      "oneLiner": "代理需要运行不受信任的代码，而 microVM 已成为执行此操作的标准方式：每个工作负载一个专用的来宾内核，与主机以及同一台计算机上的所有其他工作负载隔离。",
+      "summary": {
+        "oneSentence": "代理需要运行不受信任的代码，而 microVM 已成为执行此操作的标准方式：每个工作负载一个专用的来宾内核，与主机以及同一台计算机上的所有其他工作负载隔离。",
+        "bullets": [
+          "代理需要运行不受信任的代码，而 microVM 已成为执行此操作的标准方式：每个工作负载一个专用的来宾内核，与主机以及同一台计算机上的所有其他工作负载隔离。",
+          "但最近的安全研究和现实世界的事件表明，运行不受信任代码的代理不需要跨越虚拟机边界来逃脱遏制；他们只需要一条安全模型未能考虑到的网络路径，我们在文章《没有网络边界的沙箱只是沙箱的一半》中对此进行了解释。",
+          "仅当其双方都成立时，隔离才成立：Firecracker microVM 和主机端网络控制。最近，我们的首席技术官在 Vercel Sandbox 上指出了一个没有任何保障措施的开放权重模型。它没有逃脱，但它映射了客户内核，构建了一个虚拟机来重现其想法，并编写了一个模糊器。",
+          "防御者拥有先发优势，但它不会永远持续下去，选择是何时测试边界（我们强烈鼓励构建扫描程序，您可以使用 Deepsec 和 AI Gateway 等开源工具以任何预算来完成）。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：代理需要运行不受信任的代码，而 microVM 已成为执行此操作的标准方式：每个工作负载一个专用的来宾内核，与主机以及同一台计算机上的所有其他工作负载隔离。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/one-million-dollar-hacker-challenge-for-vercel-sandbox"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "代理需要运行不受信任的代码，而 microVM 已成为执行此操作的标准方式：每个工作负载一个专用的来宾内核，与主机以及同一台计算机上的所有其他工作负载隔离。",
+        "但最近的安全研究和现实世界的事件表明，运行不受信任代码的代理不需要跨越虚拟机边界来逃脱遏制；他们只需要一条安全模型未能考虑到的网络路径，我们在文章《没有网络边界的沙箱只是沙箱的一半》中对此进行了解释。",
+        "仅当其双方都成立时，隔离才成立：Firecracker microVM 和主机端网络控制。最近，我们的首席技术官在 Vercel Sandbox 上指出了一个没有任何保障措施的开放权重模型。它没有逃脱，但它映射了客户内核，构建了一个虚拟机来重现其想法，并编写了一个模糊器。",
+        "防御者拥有先发优势，但它不会永远持续下去，选择是何时测试边界（我们强烈鼓励构建扫描程序，您可以使用 Deepsec 和 AI Gateway 等开源工具以任何预算来完成）。",
+        "我们主动选择按照我们自己的时间表（而不是攻击者的时间表）测试 Vercel Sandbox，并且我们与世界上最优秀的研究人员一起公开进行测试。",
+        "因此，在两周内，我们将向能够逃脱 Vercel 沙箱的研究人员支付高达 1,000,000 美元的费用。",
+        "将链接复制到标题 挑战 从今天开始，Vercel 将运行为期两周的公共 HackerOne 计划，重点关注 Vercel 沙盒隔离。",
+        "计划：公共 HackerOne 计划，向所有符合条件的研究人员开放",
+        "窗口期：8 月 18 日星期二至 2026 年 9 月 1 日星期二，如果奖励池已用完，则更早",
+        "每份报告的最高赔偿金额：50,000 美元，针对允许威胁行为者读取或修改其他 Vercel 租户数据的漏洞"
+      ],
+      "highlights": [
+        "代理需要运行不受信任的代码，而 microVM 已成为执行此操作的标准方式：每个工作负载一个专用的来宾内核，与主机以及同一台计算机上的所有其他工作负载隔离。",
+        "但最近的安全研究和现实世界的事件表明，运行不受信任代码的代理不需要跨越虚拟机边界来逃脱遏制；他们只需要一条安全模型未能考虑到的网络路径，我们在文章《没有网络边界",
+        "仅当其双方都成立时，隔离才成立：Firecracker microVM 和主机端网络控制。最近，我们的首席技术官在 Vercel Sandbox 上指出了一个没"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "$1 million hacker challenge for Vercel Sandbox",
+      "originalLang": "en",
+      "date": "2026-08-18",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/one-million-dollar-hacker-challenge-for-vercel-sandbox",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "$1 million hacker challenge for Vercel Sandbox"
+      },
+      "raw": {
+        "title": "$1 million hacker challenge for Vercel Sandbox",
+        "url": "https://vercel.com/blog/one-million-dollar-hacker-challenge-for-vercel-sandbox",
+        "fetched": true,
+        "savedAt": "2026-08-19T00:54:13.396Z"
+      }
+    },
+    {
+      "id": "sig-9765648ad5",
+      "title": "与 CodeAI 合作，准备第一代 AI",
+      "oneLiner": "OpenAI 和 CodeAI 正在合作，帮助学生培养人工智能素养，批判性地思考人工智能，并培养负责任地使用和塑造人工智能的技能。",
+      "summary": {
+        "oneSentence": "OpenAI 和 CodeAI 正在合作，帮助学生培养人工智能素养，批判性地思考人工智能，并培养负责任地使用和塑造人工智能的技能。",
+        "bullets": [
+          "OpenAI 和 CodeAI 正在合作，帮助学生培养人工智能素养，批判性地思考人工智能，并培养负责任地使用和塑造人工智能的技能。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 和 CodeAI 正在合作，帮助学生培养人工智能素养，批判性地思考人工智能，并培养负责任地使用和塑造人工智能的技能。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/partnering-with-codeai"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 和 CodeAI 正在合作，帮助学生培养人工智能素养，批判性地思考人工智能，并培养负责任地使用和塑造人工智能的技能。"
+      ],
+      "highlights": [
+        "OpenAI 和 CodeAI 正在合作，帮助学生培养人工智能素养，批判性地思考人工智能，并培养负责任地使用和塑造人工智能的技能。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Partnering with CodeAI to prepare the first AI generation",
+      "originalLang": "en",
+      "date": "2026-08-18",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/partnering-with-codeai",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Partnering with CodeAI to prepare the first AI generation"
+      },
+      "raw": {
+        "title": "Partnering with CodeAI to prepare the first AI generation",
+        "url": "https://openai.com/index/partnering-with-codeai",
+        "fetched": false,
+        "savedAt": "2026-08-19T00:54:14.663Z"
+      }
+    },
+    {
+      "id": "sig-68c52c8131",
+      "title": "网络关键能力时代的模型开发节奏",
+      "oneLiner": "OpenAI 正在加强对前沿人工智能模型的监控、协调和安全。了解新的保障措施如何指导模型开发的步伐。",
+      "summary": {
+        "oneSentence": "OpenAI 正在加强对前沿人工智能模型的监控、协调和安全。了解新的保障措施如何指导模型开发的步伐。",
+        "bullets": [
+          "OpenAI 正在加强对前沿人工智能模型的监控、协调和安全。了解新的保障措施如何指导模型开发的步伐。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 正在加强对前沿人工智能模型的监控、协调和安全。了解新的保障措施如何指导模型开发的步伐。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/pacing-model-development-cyber-capabilities"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 正在加强对前沿人工智能模型的监控、协调和安全。了解新的保障措施如何指导模型开发的步伐。"
+      ],
+      "highlights": [
+        "OpenAI 正在加强对前沿人工智能模型的监控、协调和安全。了解新的保障措施如何指导模型开发的步伐。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Pacing model development in an era of cyber-critical capabilities",
+      "originalLang": "en",
+      "date": "2026-08-18",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Pacing model development in an era of cyber-critical capabilities"
+      },
+      "raw": {
+        "title": "Pacing model development in an era of cyber-critical capabilities",
+        "url": "https://openai.com/index/pacing-model-development-cyber-capabilities",
+        "fetched": false,
+        "savedAt": "2026-08-19T00:54:15.946Z"
+      }
+    },
+    {
+      "id": "sig-01003c6680",
+      "title": "推出面向青少年的 ChatGPT：专为学习而打造，以保护为后盾",
+      "oneLiner": "ChatGPT for Teens 可帮助青少年自信地学习、批判性思考和使用人工智能，并提供更强大的内置保护、健康使用功能以及针对家长的额外控制。",
+      "summary": {
+        "oneSentence": "ChatGPT for Teens 可帮助青少年自信地学习、批判性思考和使用人工智能，并提供更强大的内置保护、健康使用功能以及针对家长的额外控制。",
+        "bullets": [
+          "ChatGPT for Teens 可帮助青少年自信地学习、批判性思考和使用人工智能，并提供更强大的内置保护、健康使用功能以及针对家长的额外控制。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：ChatGPT for Teens 可帮助青少年自信地学习、批判性思考和使用人工智能，并提供更强大的内置保护、健康使用功能以及针对家长的额外控制。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/chatgpt-for-teens"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "ChatGPT for Teens 可帮助青少年自信地学习、批判性思考和使用人工智能，并提供更强大的内置保护、健康使用功能以及针对家长的额外控制。"
+      ],
+      "highlights": [
+        "ChatGPT for Teens 可帮助青少年自信地学习、批判性思考和使用人工智能，并提供更强大的内置保护、健康使用功能以及针对家长的额外控制。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+      "originalLang": "en",
+      "date": "2026-08-18",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/chatgpt-for-teens",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Introducing ChatGPT for Teens: Built for learning, backed by protections"
+      },
+      "raw": {
+        "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections",
+        "url": "https://openai.com/index/chatgpt-for-teens",
+        "fetched": false,
+        "savedAt": "2026-08-19T00:54:17.257Z"
+      }
+    },
+    {
+      "id": "sig-7d7eacff40",
+      "title": "Asana 通过 Codex 在 2 周内完成了 5 年的工程工作",
+      "oneLiner": "Asana 使用 OpenAI Codex 在两周内替换了过时的测试系统，以约 12000 美元的价格完成了预计需要五年的工作。",
+      "summary": {
+        "oneSentence": "Asana 使用 OpenAI Codex 在两周内替换了过时的测试系统，以约 12000 美元的价格完成了预计需要五年的工作。",
+        "bullets": [
+          "Asana 使用 OpenAI Codex 在两周内替换了过时的测试系统，以约 12000 美元的价格完成了预计需要五年的工作。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：Asana 使用 OpenAI Codex 在两周内替换了过时的测试系统，以约 12000 美元的价格完成了预计需要五年的工作。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/asana"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Asana 使用 OpenAI Codex 在两周内替换了过时的测试系统，以约 12000 美元的价格完成了预计需要五年的工作。"
+      ],
+      "highlights": [
+        "Asana 使用 OpenAI Codex 在两周内替换了过时的测试系统，以约 12000 美元的价格完成了预计需要五年的工作。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+      "originalLang": "en",
+      "date": "2026-08-18",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/asana",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Asana cleared 5 years of engineering work in 2 weeks with Codex"
+      },
+      "raw": {
+        "title": "Asana cleared 5 years of engineering work in 2 weeks with Codex",
+        "url": "https://openai.com/index/asana",
+        "fetched": false,
+        "savedAt": "2026-08-19T00:54:18.573Z"
+      }
+    },
+    {
+      "id": "sig-dfcf73efa3",
+      "title": "NVIDIA 如何通过 ChatGPT Work 扩展专业知识",
+      "oneLiner": "NVIDIA 团队使用 ChatGPT Work 来减少手动任务、连接快速移动的信号并在全球范围内扩展成功的工作流程。",
+      "summary": {
+        "oneSentence": "NVIDIA 团队使用 ChatGPT Work 来减少手动任务、连接快速移动的信号并在全球范围内扩展成功的工作流程。",
+        "bullets": [
+          "NVIDIA 团队使用 ChatGPT Work 来减少手动任务、连接快速移动的信号并在全球范围内扩展成功的工作流程。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：NVIDIA 团队使用 ChatGPT Work 来减少手动任务、连接快速移动的信号并在全球范围内扩展成功的工作流程。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/nvidia/chatgpt-work"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "NVIDIA 团队使用 ChatGPT Work 来减少手动任务、连接快速移动的信号并在全球范围内扩展成功的工作流程。"
+      ],
+      "highlights": [
+        "NVIDIA 团队使用 ChatGPT Work 来减少手动任务、连接快速移动的信号并在全球范围内扩展成功的工作流程。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How NVIDIA scales expertise with ChatGPT Work",
+      "originalLang": "en",
+      "date": "2026-08-18",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/nvidia/chatgpt-work",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How NVIDIA scales expertise with ChatGPT Work"
+      },
+      "raw": {
+        "title": "How NVIDIA scales expertise with ChatGPT Work",
+        "url": "https://openai.com/index/nvidia/chatgpt-work",
+        "fetched": false,
+        "savedAt": "2026-08-19T00:54:19.883Z"
+      }
+    },
+    {
+      "id": "sig-45e13769ed",
+      "title": "Cline 现已在 AI SDK 线束层 - Vercel 中可用",
+      "oneLiner": "AI SDK 利用层可让您通过一个统一的接口运行已建立的编码代理运行时，因此您可以在不更改应用程序代码的情况下切换运行时。今天，我们添加了 Cline，它与其他受支持的线束一样通过相同的 HarnessAgent 接口运行。",
+      "summary": {
+        "oneSentence": "AI SDK 利用层可让您通过一个统一的接口运行已建立的编码代理运行时，因此您可以在不更改应用程序代码的情况下切换运行时。今天，我们添加了 Cline，它与其他受支持的线束一样通过相同的 HarnessAgent 接口运行。",
+        "bullets": [
+          "AI SDK 利用层可让您通过一个统一的接口运行已建立的编码代理运行时，因此您可以在不更改应用程序代码的情况下切换运行时。今天，我们添加了 Cline，它与其他受支持的线束一样通过相同的 HarnessAgent 接口运行。",
+          "@ai-sdk/harness-cline 是 Cline 的官方线束适配器，与 Cline 团队合作实施。",
+          "1 从 '@ai-sdk/harness/agent' 导入 { HarnessAgent } ； 2 从 '@ai-sdk/harness-cline' 导入 {cline} ； 3 4 const agent = new HarnessAgent ({ 5 Harness: cline, 6 });将 Cline ",
+          "Cline 完全在主机进程中运行，并使用沙箱作为远程文件系统和 shell，因此只有其工具在沙箱中运行。沙箱内没有安装任何桥接进程，类似于现有的 Pi 线束。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：AI SDK 利用层可让您通过一个统一的接口运行已建立的编码代理运行时，因此您可以在不更改应用程序代码的情况下切换运行时。今天，我们添加了 Cline，它与其他受支持的线束一样通过相同的 HarnessAgent 接口运行。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/cline-harness-adapter"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "AI SDK 利用层可让您通过一个统一的接口运行已建立的编码代理运行时，因此您可以在不更改应用程序代码的情况下切换运行时。今天，我们添加了 Cline，它与其他受支持的线束一样通过相同的 HarnessAgent 接口运行。",
+        "@ai-sdk/harness-cline 是 Cline 的官方线束适配器，与 Cline 团队合作实施。",
+        "1 从 '@ai-sdk/harness/agent' 导入 { HarnessAgent } ； 2 从 '@ai-sdk/harness-cline' 导入 {cline} ； 3 4 const agent = new HarnessAgent ({ 5 Harness: cline, 6 });将 Cline 与 HarnessAgent 结合使用的基本示例",
+        "Cline 完全在主机进程中运行，并使用沙箱作为远程文件系统和 shell，因此只有其工具在沙箱中运行。沙箱内没有安装任何桥接进程，类似于现有的 Pi 线束。",
+        "请阅读 Cline 线束文档以开始使用。",
+        "现在，完整支持的工具列表如下：Claude Code、Cline、Codex、Deep Agents、Grok Build、OpenCode 和 Pi，更多工具即将推出。"
+      ],
+      "highlights": [
+        "AI SDK 利用层可让您通过一个统一的接口运行已建立的编码代理运行时，因此您可以在不更改应用程序代码的情况下切换运行时。今天，我们添加了 Cline，它与其他",
+        "@ai-sdk/harness-cline 是 Cline 的官方线束适配器，与 Cline 团队合作实施。",
+        "1 从 '@ai-sdk/harness/agent' 导入 { HarnessAgent } ； 2 从 '@ai-sdk/harness-cline' 导入"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Cline is now available in the AI SDK harness layer - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-18",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/cline-harness-adapter",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Cline is now available in the AI SDK harness layer - Vercel"
+      },
+      "raw": {
+        "title": "Cline is now available in the AI SDK harness layer",
+        "url": "https://vercel.com/changelog/cline-harness-adapter",
+        "fetched": true,
+        "savedAt": "2026-08-19T00:54:24.955Z"
+      }
+    },
     {
       "id": "sig-ef87e3b0ab",
       "title": "与 Gemini 和 Pixel 一起近距离接触游戏",
@@ -881,7 +1643,8 @@
         "title": "Origin Code Hosting",
         "url": "https://cursor.com/changelog/origin-code-hosting",
         "fetched": true,
-        "savedAt": "2026-08-18T00:53:50.883Z"
+        "savedAt": "2026-08-18T00:53:50.883Z",
+        "retranslatedAt": "2026-08-19T00:54:26.115Z"
       }
     },
     {
@@ -2524,7 +3287,7 @@
         "url": "https://cursor.com/changelog/08-13-26",
         "fetched": true,
         "savedAt": "2026-08-14T01:23:26.394Z",
-        "retranslatedAt": "2026-08-18T00:54:13.937Z"
+        "retranslatedAt": "2026-08-19T00:54:27.232Z"
       }
     },
     {
@@ -10186,7 +10949,7 @@
         "url": "https://cursor.com/changelog/google-workspace-plugins",
         "fetched": true,
         "savedAt": "2026-08-03T22:57:50.365Z",
-        "retranslatedAt": "2026-08-18T00:54:14.945Z"
+        "retranslatedAt": "2026-08-19T00:54:28.362Z"
       }
     },
     {
@@ -13551,7 +14314,7 @@
         "url": "https://cursor.com/changelog/ipad",
         "fetched": true,
         "savedAt": "2026-08-02T22:53:52.935Z",
-        "retranslatedAt": "2026-08-18T00:54:15.950Z"
+        "retranslatedAt": "2026-08-19T00:54:29.331Z"
       }
     },
     {
@@ -14466,7 +15229,7 @@
         "url": "https://cursor.com/changelog/cursor-start",
         "fetched": true,
         "savedAt": "2026-08-08T22:25:22.586Z",
-        "retranslatedAt": "2026-08-18T00:54:17.104Z"
+        "retranslatedAt": "2026-08-19T00:54:30.329Z"
       }
     },
     {
@@ -18984,7 +19747,7 @@
         "url": "https://cursor.com/changelog/slack-improvements",
         "fetched": true,
         "savedAt": "2026-07-27T07:34:20.673Z",
-        "retranslatedAt": "2026-08-18T00:54:18.510Z"
+        "retranslatedAt": "2026-08-19T00:54:31.493Z"
       }
     },
     {
