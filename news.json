@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-19T00:54:32.294Z",
+  "updatedAt": "2026-08-20T00:54:57.806Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 264,
+  "itemCount": 274,
   "brief": {
-    "date": "2026-08-19",
-    "generatedAt": "2026-08-19T00:54:32.293Z",
-    "totalCount": 264,
-    "todayCount": 1,
-    "headline": "今日 AI 信号 1 条 · 档案共 264 条",
+    "date": "2026-08-20",
+    "generatedAt": "2026-08-20T00:54:57.805Z",
+    "totalCount": 274,
+    "todayCount": 0,
+    "headline": "今日 AI 信号 — 条 · 档案共 274 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -54,9 +54,10 @@
         "cur-cursor-agent",
         "cur-memory-agents",
         "sig-9009000832",
-        "sig-67f37d861d"
+        "sig-ef913e9fda"
       ],
       "newReleases": [
+        "sig-d822bd91a1",
         "sig-39d537a07a",
         "sig-1e5183cd6f",
         "sig-468f50ae5e",
@@ -71,9 +72,9 @@
         "cur-cursor-agent",
         "cur-memory-agents",
         "sig-9009000832",
-        "sig-67f37d861d",
-        "sig-0cd1eaeccd",
-        "sig-ae6b3c0347"
+        "sig-ef913e9fda",
+        "sig-a874149274",
+        "sig-9ac0643f24"
       ],
       "emergingTrends": [
         "cur-openai-agentkit",
@@ -114,31 +115,23 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-08-19T00:54:32.294Z",
-    "summary": "近 30 天共 252 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-08-20T00:54:57.806Z",
+    "summary": "近 30 天共 254 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
-        "signal": "近 30 天 6 条相关更新",
+        "signal": "近 30 天 7 条相关更新",
         "examples": [
-          "Origin 代码托管 · Cursor",
-          "借助构建，云端智能体启动速度提升 3 倍 · Cursor"
+          "云端智能体和 Cursor Harness 改进 · Cursor",
+          "Origin 代码托管 · Cursor"
         ]
       },
       {
         "name": "Agent",
-        "signal": "近 30 天 6 条相关更新",
+        "signal": "近 30 天 5 条相关更新",
         "examples": [
           "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排",
           "Anthropic 推动 MCP：让 Agent 统一连接外部工具与数据源"
-        ]
-      },
-      {
-        "name": "Workflow",
-        "signal": "近 30 天 3 条相关更新",
-        "examples": [
-          "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排",
-          "Google Gemini 2.x：原生多模态与 Workspace 深度整合"
         ]
       },
       {
@@ -147,6 +140,14 @@
         "examples": [
           "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排",
           "Anthropic 推动 MCP：让 Agent 统一连接外部工具与数据源"
+        ]
+      },
+      {
+        "name": "Workflow",
+        "signal": "近 30 天 2 条相关更新",
+        "examples": [
+          "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排",
+          "Google Gemini 2.x：原生多模态与 Workspace 深度整合"
         ]
       },
       {
@@ -188,6 +189,56 @@
     ]
   },
   "productUpdates": [
+    {
+      "id": "sig-ef913e9fda",
+      "title": "为前沿模型提供零数据保留",
+      "oneLiner": "OpenAI 重申对符合条件的 API 客户实行零数据保留，并预览私人安全处理，以在不损害数据隐私的情况下实现高级 AI 安全。",
+      "date": "2026-08-19",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-a874149274",
+      "title": "通过搜索提升学习水平的 5 种新方法",
+      "oneLiner": "我们推出的工具可帮助您学习新概念、解决棘手的主题，并利用 AI in Search 组织您的学习课程。",
+      "date": "2026-08-19",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google AI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-9ac0643f24",
+      "title": "Replit 使用 GPT-5.6 Luna 扩展了软件创建的范围",
+      "oneLiner": "Replit 引入了由 GPT-5.6 Luna 提供支持的免费模式，因此任何人都可以将想法转化为工作软件，而无需担心代币成本。",
+      "date": "2026-08-19",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-d822bd91a1",
+      "title": "云端智能体和 Cursor Harness 改进 · Cursor",
+      "oneLiner": "我们持续改进云端智能体和 Cursor harness，让始终运行的智能体能够作为一个系统协同运作，自主构建和发布软件，无需在每个循环中人工干预。",
+      "date": "2026-08-19",
+      "productIds": [
+        "cursor"
+      ],
+      "source": "Cursor",
+      "tags": [
+        "Release"
+      ],
+      "stars": 4
+    },
     {
       "id": "sig-67f37d861d",
       "title": "加强国家安全民主监督",
@@ -431,54 +482,6 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-dbc30e8614",
-      "title": "我们的研究型医疗人工智能系统 AMIE 在首次研究中展示了实时临床视频咨询功能。",
-      "oneLiner": "当你去看医生时，咨询的内容远远超出了言语的范围——医生会注意到咳嗽、观察步态或记录明显的不适迹象。如今，Google Research 和 Google DeepMind 正在将我们的研究型医疗 AI 系统 AMIE 推向实时临床视频咨询，",
-      "date": "2026-08-11",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google AI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-de2ca3d757",
-      "title": "在 ChatGPT 中测试广告",
-      "oneLiner": "OpenAI 开始在 ChatGPT 中测试广告，以支持免费访问，具有清晰的标签、答案独立性、强大的隐私保护和用户控制。",
-      "date": "2026-08-11",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-b274e00978",
-      "title": "Daybreak 模型现已在 AWS 上提供",
-      "oneLiner": "OpenAI 和 AWS 正在通过 Amazon Bedrock 提供 Daybreak 网络安全功能，以支持企业安全工作流程。",
-      "date": "2026-08-11",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-7a678e9a26",
-      "title": "构建人工智能原生财务功能教会了我什么",
-      "oneLiner": "OpenAI 首席财务官 Sarah Friar 分享了构建 AI 原生财务功能的五个经验教训，从自动预测到更强的控制和 AI 投资回报率。",
-      "date": "2026-08-10",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
@@ -560,6 +563,816 @@
         "url": "https://vercel.com/changelog/chat-sdk-adds-instagram-adapter",
         "fetched": true,
         "savedAt": "2026-08-19T00:54:02.840Z"
+      }
+    },
+    {
+      "id": "sig-ef913e9fda",
+      "title": "为前沿模型提供零数据保留",
+      "oneLiner": "OpenAI 重申对符合条件的 API 客户实行零数据保留，并预览私人安全处理，以在不损害数据隐私的情况下实现高级 AI 安全。",
+      "summary": {
+        "oneSentence": "OpenAI 重申对符合条件的 API 客户实行零数据保留，并预览私人安全处理，以在不损害数据隐私的情况下实现高级 AI 安全。",
+        "bullets": [
+          "OpenAI 重申对符合条件的 API 客户实行零数据保留，并预览私人安全处理，以在不损害数据隐私的情况下实现高级 AI 安全。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 重申对符合条件的 API 客户实行零数据保留，并预览私人安全处理，以在不损害数据隐私的情况下实现高级 AI 安全。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/offering-zero-data-retention-for-frontier-models"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 重申对符合条件的 API 客户实行零数据保留，并预览私人安全处理，以在不损害数据隐私的情况下实现高级 AI 安全。"
+      ],
+      "highlights": [
+        "OpenAI 重申对符合条件的 API 客户实行零数据保留，并预览私人安全处理，以在不损害数据隐私的情况下实现高级 AI 安全。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Offering Zero Data Retention for frontier models",
+      "originalLang": "en",
+      "date": "2026-08-19",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Offering Zero Data Retention for frontier models"
+      },
+      "raw": {
+        "title": "Offering Zero Data Retention for frontier models",
+        "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+        "fetched": false,
+        "savedAt": "2026-08-20T00:54:05.824Z"
+      }
+    },
+    {
+      "id": "sig-a874149274",
+      "title": "通过搜索提升学习水平的 5 种新方法",
+      "oneLiner": "我们推出的工具可帮助您学习新概念、解决棘手的主题，并利用 AI in Search 组织您的学习课程。",
+      "summary": {
+        "oneSentence": "我们推出的工具可帮助您学习新概念、解决棘手的主题，并利用 AI in Search 组织您的学习课程。",
+        "bullets": [
+          "我们推出的工具可帮助您学习新概念、解决棘手的主题，并利用 AI in Search 组织您的学习课程。",
+          "您的浏览器不支持音频元素。",
+          "新学年是升级你的日常习惯的终极机会——无论你是在学习困难的新科目、准备考试，还是试图在课堂上保持井井有条。拥有正确的工具会让一切变得不同。",
+          "为了帮助您充满信心地开始新学期，我们推出了新的方法，通过人工智能搜索来提高您的学习水平，并使用设计安全的教育工具。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google AI 官网发布：我们推出的工具可帮助您学习新概念、解决棘手的主题，并利用 AI in Search 组织您的学习课程。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "我们推出的工具可帮助您学习新概念、解决棘手的主题，并利用 AI in Search 组织您的学习课程。",
+        "您的浏览器不支持音频元素。",
+        "新学年是升级你的日常习惯的终极机会——无论你是在学习困难的新科目、准备考试，还是试图在课堂上保持井井有条。拥有正确的工具会让一切变得不同。",
+        "为了帮助您充满信心地开始新学期，我们推出了新的方法，通过人工智能搜索来提高您的学习水平，并使用设计安全的教育工具。",
+        "有时，阅读静态教科书页面不足以产生概念点击。搜索现在可以生成自定义工具和模拟，以帮助您查看实际的复杂主题。假设您正在了解 pH 值。您可以进行“ph 值”等搜索，并在 AI 概述中快速获得交互式视觉效果，以帮助您了解基础知识。",
+        "更进一步，您可以跟进并要求查看更专业的内容，例如在 pH 值范围内绘制柑橘类水果的图，AI 模式将为您的问题创建定制体验。或者，如果您已经有了一个非常具体的问题，请直接进入 AI 模式并描述您需要的工具或视觉效果。生成式 UI 功能已在 AI 模式下以英语向全球推出，并开始在 AI 概述中推出。",
+        "想要确保您真正记住了所学内容吗？现在，您可以直接在搜索任何主题中获得定制的练习测验，从科学和数学到人文、外语等等。您还可以要求测验来帮助您准备以下标准化考试：ACT、AP、ENEM、GRE、JEE、LSAT、MCAT、NEET 和 SAT。由于我们与领先的教育公司 The Princeton Review、Careers360、PhysicsWallah 和 Akira Enem 合作，这些测验利用了备考专家提供的值得信赖的权威内容，因此您知道自己正在学习与考试相关的材料。",
+        "只需搜索“使用最常测试的词汇创建一个测验来帮助我准备 SAT”之类的内容即可。搜索将为您提供一个交互式测验，其中包括每个答案的解释和了解更多信息的链接，以便您可以真正掌握材料。练习测验现已在全球范围内免费提供英文版本，包括 AI 概述和 AI 模式。",
+        "陷入棘手的步骤或想仔细检查您的工作？在接下来的几周内，Lens in Search 将提供全新的交互式学习体验，帮助您分解困难的概念并确认您是否走在正确的道路上。只需点击 Google 应用程序（Android 和 iOS）中的镜头相机图标，然后拍摄您正在处理的照片。您将获得人工智能概述，其中提供有用的解释、查明您可能犯了错误的地方，并在您遇到问题时为您提供指导。",
+        "需要额外说明吗？当您探索网络上的相关网站时，提出后续问题并在 AI 模式下继续对话。 Lens 的这一新体验将在未来几周内以英语向全球推出。"
+      ],
+      "highlights": [
+        "我们推出的工具可帮助您学习新概念、解决棘手的主题，并利用 AI in Search 组织您的学习课程。",
+        "您的浏览器不支持音频元素。",
+        "新学年是升级你的日常习惯的终极机会——无论你是在学习困难的新科目、准备考试，还是试图在课堂上保持井井有条。拥有正确的工具会让一切变得不同。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "5 new ways to level up your learning with Search",
+      "originalLang": "en",
+      "date": "2026-08-19",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "5 new ways to level up your learning with Search"
+      },
+      "raw": {
+        "title": "5 new ways to level up your learning with Search",
+        "url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
+        "fetched": true,
+        "savedAt": "2026-08-20T00:54:12.559Z"
+      }
+    },
+    {
+      "id": "sig-9ac0643f24",
+      "title": "Replit 使用 GPT-5.6 Luna 扩展了软件创建的范围",
+      "oneLiner": "Replit 引入了由 GPT-5.6 Luna 提供支持的免费模式，因此任何人都可以将想法转化为工作软件，而无需担心代币成本。",
+      "summary": {
+        "oneSentence": "Replit 引入了由 GPT-5.6 Luna 提供支持的免费模式，因此任何人都可以将想法转化为工作软件，而无需担心代币成本。",
+        "bullets": [
+          "Replit 引入了由 GPT-5.6 Luna 提供支持的免费模式，因此任何人都可以将想法转化为工作软件，而无需担心代币成本。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：Replit 引入了由 GPT-5.6 Luna 提供支持的免费模式，因此任何人都可以将想法转化为工作软件，而无需担心代币成本。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/replit"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Replit 引入了由 GPT-5.6 Luna 提供支持的免费模式，因此任何人都可以将想法转化为工作软件，而无需担心代币成本。"
+      ],
+      "highlights": [
+        "Replit 引入了由 GPT-5.6 Luna 提供支持的免费模式，因此任何人都可以将想法转化为工作软件，而无需担心代币成本。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Replit expands access to software creation with GPT-5.6 Luna",
+      "originalLang": "en",
+      "date": "2026-08-19",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/replit",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Replit expands access to software creation with GPT-5.6 Luna"
+      },
+      "raw": {
+        "title": "Replit expands access to software creation with GPT-5.6 Luna",
+        "url": "https://openai.com/index/replit",
+        "fetched": false,
+        "savedAt": "2026-08-20T00:54:14.361Z"
+      }
+    },
+    {
+      "id": "sig-0645d41f7f",
+      "title": "Algolia 加入 Vercel 市场 - Vercel",
+      "oneLiner": "您现在可以直接从 Vercel Marketplace 供应和管理 Algolia。",
+      "summary": {
+        "oneSentence": "您现在可以直接从 Vercel Marketplace 供应和管理 Algolia。",
+        "bullets": [
+          "您现在可以直接从 Vercel Marketplace 供应和管理 Algolia。",
+          "Algolia 是一个托管搜索平台。您向其发送您的内容，它会构建索引，并且您的应用程序查询该索引而不是数据库。结果在几毫秒内返回，并内置了拼写错误容忍度、同义词和构面计数。",
+          "索引产品目录、文档或任何其他内容",
+          "添加推荐和 AI 排名以显示最相关的结果"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：您现在可以直接从 Vercel Marketplace 供应和管理 Algolia。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/algolia-vercel-marketplace"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "您现在可以直接从 Vercel Marketplace 供应和管理 Algolia。",
+        "Algolia 是一个托管搜索平台。您向其发送您的内容，它会构建索引，并且您的应用程序查询该索引而不是数据库。结果在几毫秒内返回，并内置了拼写错误容忍度、同义词和构面计数。",
+        "索引产品目录、文档或任何其他内容",
+        "添加推荐和 AI 排名以显示最相关的结果",
+        "将 Algolia Crawler 指向 Vercel 域以自动为您的网站编制索引",
+        "使用 Algolia 的 InstantSearch 库构建搜索界面",
+        "安装会将您的 Algolia 凭据添加到项目的环境变量中；重新部署去接他们。 Algolia 的代理技能也会安装，因此您的编码代理知道如何使用开箱即用的 API。",
+        "在 Vercel Marketplace 上或使用 Vercel CLI 安装 Algolia： vc i algolia 。"
+      ],
+      "highlights": [
+        "您现在可以直接从 Vercel Marketplace 供应和管理 Algolia。",
+        "Algolia 是一个托管搜索平台。您向其发送您的内容，它会构建索引，并且您的应用程序查询该索引而不是数据库。结果在几毫秒内返回，并内置了拼写错误容忍度、同义词",
+        "索引产品目录、文档或任何其他内容"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Algolia joins the Vercel Marketplace - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-19",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/algolia-vercel-marketplace",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Algolia joins the Vercel Marketplace - Vercel"
+      },
+      "raw": {
+        "title": "Algolia joins the Vercel Marketplace",
+        "url": "https://vercel.com/changelog/algolia-vercel-marketplace",
+        "fetched": true,
+        "savedAt": "2026-08-20T00:54:19.875Z"
+      }
+    },
+    {
+      "id": "sig-d822bd91a1",
+      "title": "云端智能体和 Cursor Harness 改进 · Cursor",
+      "oneLiner": "我们持续改进云端智能体和 Cursor harness，让始终运行的智能体能够作为一个系统协同运作，自主构建和发布软件，无需在每个循环中人工干预。",
+      "summary": {
+        "oneSentence": "我们持续改进云端智能体和 Cursor harness，让始终运行的智能体能够作为一个系统协同运作，自主构建和发布软件，无需在每个循环中人工干预。",
+        "bullets": [
+          "我们持续改进云端智能体和 Cursor harness，让始终运行的智能体能够作为一个系统协同运作，自主构建和发布软件，无需在每个循环中人工干预。",
+          "通过此版本，云端智能体可以响应事件自动识别并接手工作，坚持目标直至达成，并在长时间运行的会话中保持正轨。",
+          "Cursor 现在可以监控您的 PR、关注 Slack 讨论串，或运行定时任务。Cursor Agent 会订阅事件源 (讨论串或对话) ，并在有新动态时恢复运行。目前，订阅功能仅适用于云端智能体。",
+          "云端智能体会自动订阅自己创建的 PR，并持续推进直至完成，修复 CI 问题并处理 bot 评论。在 Slack 中，输入 @cursor check back in an hour and keep going until that feedback is in 。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Cursor 官网发布：我们持续改进云端智能体和 Cursor harness，让始终运行的智能体能够作为一个系统协同运作，自主构建和发布软件，无需在每个循环中人工干预。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：cursor",
+        "actionItems": [
+          "阅读原文（中文）：https://cursor.com/changelog/08-19-26"
+        ]
+      },
+      "tags": [
+        "Release"
+      ],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "cursor"
+      ],
+      "content": [
+        "我们持续改进云端智能体和 Cursor harness，让始终运行的智能体能够作为一个系统协同运作，自主构建和发布软件，无需在每个循环中人工干预。",
+        "通过此版本，云端智能体可以响应事件自动识别并接手工作，坚持目标直至达成，并在长时间运行的会话中保持正轨。",
+        "Cursor 现在可以监控您的 PR、关注 Slack 讨论串，或运行定时任务。Cursor Agent 会订阅事件源 (讨论串或对话) ，并在有新动态时恢复运行。目前，订阅功能仅适用于云端智能体。",
+        "云端智能体会自动订阅自己创建的 PR，并持续推进直至完成，修复 CI 问题并处理 bot 评论。在 Slack 中，输入 @cursor check back in an hour and keep going until that feedback is in 。",
+        "将任意技能用作自定义模式：该技能会始终固定在聊天中。自定义模式可让智能体专注于某项技能，类似于“始终开启”的技能。",
+        "输入 / 后，选择一项技能并按 ⌥⏎ (Mac) 或 Alt+Enter (Windows)，或者选择 用作模式 。",
+        "子智能体现在可以在各自的虚拟机上运行。每个子智能体都会在自己的云环境中获得一份隔离的项目副本，以及干净的上下文。",
+        "让子智能体在全新的环境中测试父智能体的更改，或以蜂群方式并行修复互不冲突的问题。试试 run a swarm of subagents to test my app for bugs, each in its own environment 。",
+        "使用 /goal 为智能体设定一个长期目标，智能体会持续朝着该目标努力，直至彻底完成。",
+        "在新的聊天中试试 /goal 修复所有不稳定测试并让 CI 通过 。可将其与自定义模式搭配使用来遵循操作手册，或搭配 /loop 进行定期检查。"
+      ],
+      "highlights": [
+        "我们持续改进云端智能体和 Cursor harness，让始终运行的智能体能够作为一个系统协同运作，自主构建和发布软件，无需在每个循环中人工干预。",
+        "通过此版本，云端智能体可以响应事件自动识别并接手工作，坚持目标直至达成，并在长时间运行的会话中保持正轨。",
+        "Cursor 现在可以监控您的 PR、关注 Slack 讨论串，或运行定时任务。Cursor Agent 会订阅事件源 (讨论串或对话) ，并在有新动态时恢复运"
+      ],
+      "translated": false,
+      "translateMethod": "native",
+      "originalTitle": "云端智能体和 Cursor Harness 改进 · Cursor",
+      "originalLang": "zh",
+      "date": "2026-08-19",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [
+        "cursor"
+      ],
+      "source": {
+        "type": "release",
+        "group": "company",
+        "name": "Cursor",
+        "author": "Cursor",
+        "url": "https://cursor.com/changelog/08-19-26",
+        "home": "https://cursor.com/changelog",
+        "lang": "zh",
+        "translated": false,
+        "translateMethod": "native",
+        "originalTitle": "云端智能体和 Cursor Harness 改进 · Cursor"
+      },
+      "raw": {
+        "title": "Cloud Agents and Cursor Harness Improvements",
+        "url": "https://cursor.com/changelog/08-19-26",
+        "fetched": true,
+        "savedAt": "2026-08-20T00:54:20.982Z"
+      }
+    },
+    {
+      "id": "sig-bcb38ee4a1",
+      "title": "推出 Vercel for Slack",
+      "oneLiner": "Vercel Agent 现在可以在 Slack 中工作。以将队友拉入线程的方式提及它，它会读取讨论，并根据运行应用程序的平台上下文进行回答，并将团队的决策转变为您批准的更改。 Vercel for Slack 现已在面向专业团队和企业团队",
+      "summary": {
+        "oneSentence": "Vercel Agent 现在可以在 Slack 中工作。以将队友拉入线程的方式提及它，它会读取讨论，并根据运行应用程序的平台上下文进行回答，并将团队的决策转变为您批准的更改。 Vercel for Slack 现已在面向专业团队和企业团队",
+        "bullets": [
+          "Vercel Agent 现在可以在 Slack 中工作。以将队友拉入线程的方式提及它，它会读取讨论，并根据运行应用程序的平台上下文进行回答，并将团队的决策转变为您批准的更改。 Vercel for Slack 现已在面向专业团队和企业团队的公共测试版中推出。",
+          "工作从谈话开始。在频道中注意到警报，在线程中就修复达成一致，然后有人离开 Slack 来完成工作。借助 Vercel Agent，您可以将其标记为有关您的基础设施的答案或将工作交给它，所有这些都无需离开对话。",
+          "将链接复制到标题 什么是 Vercel Agent？当我们推出 Vercel Agent 时，我们称其为您开发工作流程的 AI 队友。今天，它是您生产应用程序的第一响应者。当某些情况发生变化时，它通常会在任何人打开笔记本电脑之前调查您的日志、指标和部署，找到根本原因并提出修复建议。给它一个 PR，它会标记出通过 CI "
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel Agent 现在可以在 Slack 中工作。以将队友拉入线程的方式提及它，它会读取讨论，并根据运行应用程序的平台上下文进行回答，并将团队的决策转变为您批准的更改。 Vercel for Slack 现已在面向专业团队和企业团队",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/introducing-vercel-for-slack"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Agent 现在可以在 Slack 中工作。以将队友拉入线程的方式提及它，它会读取讨论，并根据运行应用程序的平台上下文进行回答，并将团队的决策转变为您批准的更改。 Vercel for Slack 现已在面向专业团队和企业团队的公共测试版中推出。",
+        "工作从谈话开始。在频道中注意到警报，在线程中就修复达成一致，然后有人离开 Slack 来完成工作。借助 Vercel Agent，您可以将其标记为有关您的基础设施的答案或将工作交给它，所有这些都无需离开对话。",
+        "将链接复制到标题 什么是 Vercel Agent？当我们推出 Vercel Agent 时，我们称其为您开发工作流程的 AI 队友。今天，它是您生产应用程序的第一响应者。当某些情况发生变化时，它通常会在任何人打开笔记本电脑之前调查您的日志、指标和部署，找到根本原因并提出修复建议。给它一个 PR，它会标记出通过 CI 运行不会显示的回归和危险变化。"
+      ],
+      "highlights": [
+        "Vercel Agent 现在可以在 Slack 中工作。以将队友拉入线程的方式提及它，它会读取讨论，并根据运行应用程序的平台上下文进行回答，并将团队的决策转变",
+        "工作从谈话开始。在频道中注意到警报，在线程中就修复达成一致，然后有人离开 Slack 来完成工作。借助 Vercel Agent，您可以将其标记为有关您的基础设",
+        "将链接复制到标题 什么是 Vercel Agent？当我们推出 Vercel Agent 时，我们称其为您开发工作流程的 AI 队友。今天，它是您生产应用程序的"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Introducing Vercel for Slack",
+      "originalLang": "en",
+      "date": "2026-08-19",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/introducing-vercel-for-slack",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Introducing Vercel for Slack"
+      },
+      "raw": {
+        "title": "Introducing Vercel for Slack",
+        "url": "https://vercel.com/blog/introducing-vercel-for-slack",
+        "fetched": true,
+        "savedAt": "2026-08-20T00:54:23.992Z"
+      }
+    },
+    {
+      "id": "sig-e71fba0f99",
+      "title": "合规文档现已在团队设置中提供 - Vercel",
+      "oneLiner": "团队设置中的新合规性部分可让您直接在仪表板中预览和下载 Vercel 的合规性文档。其中包括 SOC 2 Type 2 等证明、安全策略以及可通过信任中心获取的其他安全文档。",
+      "summary": {
+        "oneSentence": "团队设置中的新合规性部分可让您直接在仪表板中预览和下载 Vercel 的合规性文档。其中包括 SOC 2 Type 2 等证明、安全策略以及可通过信任中心获取的其他安全文档。",
+        "bullets": [
+          "团队设置中的新合规性部分可让您直接在仪表板中预览和下载 Vercel 的合规性文档。其中包括 SOC 2 Type 2 等证明、安全策略以及可通过信任中心获取的其他安全文档。",
+          "您可以选择单个文档、整个证明或多个文档，并将它们作为单个 zip 存档一起下载。每次下载和预览都带有您的用户和团队信息的水印。有些条目会链接到外部资源，例如审计员的公共证书目录。",
+          "信任中心仍可提供其他安全信息。 Vercel 的合规性文档适用于 Pro 和 Enterprise 计划。在合规性文档中了解更多信息。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：团队设置中的新合规性部分可让您直接在仪表板中预览和下载 Vercel 的合规性文档。其中包括 SOC 2 Type 2 等证明、安全策略以及可通过信任中心获取的其他安全文档。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/compliance-documents-are-now-available-in-team-settings"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "团队设置中的新合规性部分可让您直接在仪表板中预览和下载 Vercel 的合规性文档。其中包括 SOC 2 Type 2 等证明、安全策略以及可通过信任中心获取的其他安全文档。",
+        "您可以选择单个文档、整个证明或多个文档，并将它们作为单个 zip 存档一起下载。每次下载和预览都带有您的用户和团队信息的水印。有些条目会链接到外部资源，例如审计员的公共证书目录。",
+        "信任中心仍可提供其他安全信息。 Vercel 的合规性文档适用于 Pro 和 Enterprise 计划。在合规性文档中了解更多信息。"
+      ],
+      "highlights": [
+        "团队设置中的新合规性部分可让您直接在仪表板中预览和下载 Vercel 的合规性文档。其中包括 SOC 2 Type 2 等证明、安全策略以及可通过信任中心获取的",
+        "您可以选择单个文档、整个证明或多个文档，并将它们作为单个 zip 存档一起下载。每次下载和预览都带有您的用户和团队信息的水印。有些条目会链接到外部资源，例如审计",
+        "信任中心仍可提供其他安全信息。 Vercel 的合规性文档适用于 Pro 和 Enterprise 计划。在合规性文档中了解更多信息。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Compliance documents are now available in Team settings - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-19",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/compliance-documents-are-now-available-in-team-settings",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Compliance documents are now available in Team settings - Vercel"
+      },
+      "raw": {
+        "title": "Compliance documents are now available in Team settings",
+        "url": "https://vercel.com/changelog/compliance-documents-are-now-available-in-team-settings",
+        "fetched": true,
+        "savedAt": "2026-08-20T00:54:27.984Z"
+      }
+    },
+    {
+      "id": "sig-bd8784e69d",
+      "title": "Fish Audio 模型现已在 Vercel AI Gateway 上免费提供 - Vercel",
+      "oneLiner": "Fish Audio 的音频模型现已在 AI Gateway 上提供。为了庆祝发布，AI Gateway 上的所有 Fish Audio 型号在接下来的 30 天内（截至 9 月 18 日）都是免费的。",
+      "summary": {
+        "oneSentence": "Fish Audio 的音频模型现已在 AI Gateway 上提供。为了庆祝发布，AI Gateway 上的所有 Fish Audio 型号在接下来的 30 天内（截至 9 月 18 日）都是免费的。",
+        "bullets": [
+          "Fish Audio 的音频模型现已在 AI Gateway 上提供。为了庆祝发布，AI Gateway 上的所有 Fish Audio 型号在接下来的 30 天内（截至 9 月 18 日）都是免费的。",
+          "Fish Audio 提供四种模型，包括最新的文本转语音模型：",
+          "Fish-audio/s2.1-pro（文本转语音）：专为低延迟流媒体而设计；从参考录音中克隆声音。",
+          "Fish-audio/transcribe-1（转录）：返回文本以及音频和时间戳片段的持续时间，直至单个单词。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Fish Audio 的音频模型现已在 AI Gateway 上提供。为了庆祝发布，AI Gateway 上的所有 Fish Audio 型号在接下来的 30 天内（截至 9 月 18 日）都是免费的。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Fish Audio 的音频模型现已在 AI Gateway 上提供。为了庆祝发布，AI Gateway 上的所有 Fish Audio 型号在接下来的 30 天内（截至 9 月 18 日）都是免费的。",
+        "Fish Audio 提供四种模型，包括最新的文本转语音模型：",
+        "Fish-audio/s2.1-pro（文本转语音）：专为低延迟流媒体而设计；从参考录音中克隆声音。",
+        "Fish-audio/transcribe-1（转录）：返回文本以及音频和时间戳片段的持续时间，直至单个单词。",
+        "Fish-audio/s2-pro（文本转语音）：涵盖大约 80 种语言，并采用内联标签、将简单语言说明写入文本本身，因此您可以更改单个单词或短语的传递方式，而不是为整个请求设置一种样式。",
+        "Fish-audio/s1（文本转语音）：读取带有情感、语气和声音效果标记的文本。",
+        "优惠期间如何使用模型",
+        "使用标准型号名称（即 Fish-audio/s2.1-pro ）是免费的，但在优惠期结束时将自动开始计费。",
+        "为确保免费期结束后不会向您收费，请在标准名称中添加 -free 后缀，并且该模型将在优惠结束时停止服务（即 Fish-audio/s2.1-pro-free ）。",
+        "当前的 AI SDK 7 版本中提供了语音和转录功能。"
+      ],
+      "highlights": [
+        "Fish Audio 的音频模型现已在 AI Gateway 上提供。为了庆祝发布，AI Gateway 上的所有 Fish Audio 型号在接下来的 30 ",
+        "Fish Audio 提供四种模型，包括最新的文本转语音模型：",
+        "Fish-audio/s2.1-pro（文本转语音）：专为低延迟流媒体而设计；从参考录音中克隆声音。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Fish Audio models now available on Vercel AI Gateway for free - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-19",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Fish Audio models now available on Vercel AI Gateway for free - Vercel"
+      },
+      "raw": {
+        "title": "Fish Audio models now available on Vercel AI Gateway for free",
+        "url": "https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free",
+        "fetched": true,
+        "savedAt": "2026-08-20T00:54:35.453Z"
+      }
+    },
+    {
+      "id": "sig-e36bf37205",
+      "title": "Vercel for Slack 现已推出公开测试版 - Vercel",
+      "oneLiner": "Vercel Agent 现已在 Slack 中提供。在任何频道或线程中提及 @Vercel，Agent 就会加入与 Vercel 项目中的相关上下文的对话，包括部署、构建、日志、指标、配置和连接的存储库。",
+      "summary": {
+        "oneSentence": "Vercel Agent 现已在 Slack 中提供。在任何频道或线程中提及 @Vercel，Agent 就会加入与 Vercel 项目中的相关上下文的对话，包括部署、构建、日志、指标、配置和连接的存储库。",
+        "bullets": [
+          "Vercel Agent 现已在 Slack 中提供。在任何频道或线程中提及 @Vercel，Agent 就会加入与 Vercel 项目中的相关上下文的对话，包括部署、构建、日志、指标、配置和连接的存储库。",
+          "调查事件：询问部署失败的原因或导致运行时错误的原因。它调查并解释了它的发现。",
+          "编写和审查代码：与您的团队和代理合作修复构建和 CI 故障，使用生产上下文审查拉取请求，或将线程中的决策转变为经过测试的 PR。",
+          "经批准后采取行动：告诉它进行更改，例如回滚部署或更新配置。代理人起草计划并等待您的批准。一旦获得批准，它将获得临时访问权限来执行该计划，然后返回只读状态。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel Agent 现已在 Slack 中提供。在任何频道或线程中提及 @Vercel，Agent 就会加入与 Vercel 项目中的相关上下文的对话，包括部署、构建、日志、指标、配置和连接的存储库。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-for-slack-now-in-public-beta"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Agent 现已在 Slack 中提供。在任何频道或线程中提及 @Vercel，Agent 就会加入与 Vercel 项目中的相关上下文的对话，包括部署、构建、日志、指标、配置和连接的存储库。",
+        "调查事件：询问部署失败的原因或导致运行时错误的原因。它调查并解释了它的发现。",
+        "编写和审查代码：与您的团队和代理合作修复构建和 CI 故障，使用生产上下文审查拉取请求，或将线程中的决策转变为经过测试的 PR。",
+        "经批准后采取行动：告诉它进行更改，例如回滚部署或更新配置。代理人起草计划并等待您的批准。一旦获得批准，它将获得临时访问权限来执行该计划，然后返回只读状态。",
+        "Vercel Agent 通过自己的身份行事。默认情况下它是只读的，永远不会超出请求者的权限，未经批准不得进行更改。每个操作都归因于代理、请求者和批准者。",
+        "Vercel for Slack 遵循 Vercel Agent 定价。在测试期间，有限数量的简单请求是免费的。有偿工作按要求计费。",
+        "公开测试版向专业团队和企业团队开放。从 Vercel Marketplace 安装 Agent for Slack、阅读文档或了解我们如何使用它。",
+        "阿米莉亚·查尔斯、凯瑟琳·米德尔顿、亨利·赫夫南、艾伦·黄"
+      ],
+      "highlights": [
+        "Vercel Agent 现已在 Slack 中提供。在任何频道或线程中提及 @Vercel，Agent 就会加入与 Vercel 项目中的相关上下文的对话，包",
+        "调查事件：询问部署失败的原因或导致运行时错误的原因。它调查并解释了它的发现。",
+        "编写和审查代码：与您的团队和代理合作修复构建和 CI 故障，使用生产上下文审查拉取请求，或将线程中的决策转变为经过测试的 PR。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel for Slack now in public beta - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-19",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-for-slack-now-in-public-beta",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel for Slack now in public beta - Vercel"
+      },
+      "raw": {
+        "title": "Vercel for Slack now in public beta",
+        "url": "https://vercel.com/changelog/vercel-for-slack-now-in-public-beta",
+        "fetched": true,
+        "savedAt": "2026-08-20T00:54:42.107Z"
+      }
+    },
+    {
+      "id": "sig-9ab068f884",
+      "title": "Vercel Connect 现在支持 Microsoft - Vercel",
+      "oneLiner": "Vercel Connect 现在包含适用于 Microsoft 的托管连接器，因此您的应用程序和代理可以访问所有 Microsoft 产品，例如 Teams、OneDrive 等。",
+      "summary": {
+        "oneSentence": "Vercel Connect 现在包含适用于 Microsoft 的托管连接器，因此您的应用程序和代理可以访问所有 Microsoft 产品，例如 Teams、OneDrive 等。",
+        "bullets": [
+          "Vercel Connect 现在包含适用于 Microsoft 的托管连接器，因此您的应用程序和代理可以访问所有 Microsoft 产品，例如 Teams、OneDrive 等。",
+          "作为 Vercel 托管连接器 ，Vercel 注册 Entra 应用程序并为其配置联合凭据，因此您不必自己创建应用程序注册或管理客户端机密。为您的 Microsoft 租户授权应用程序一次，然后将连接器附加到其所需的项目和环境。",
+          "从仪表板或 Vercel CLI 创建连接器：",
+          "# 创建 Microsoft 连接器 vc connect create microsoft --name acme-msft # 将其附加到项目 vc connect Attach microsoft/acme-msft --project my-app --environment production 创建 Mic"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 4,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel Connect 现在包含适用于 Microsoft 的托管连接器，因此您的应用程序和代理可以访问所有 Microsoft 产品，例如 Teams、OneDrive 等。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-connect-supports-microsoft"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Connect 现在包含适用于 Microsoft 的托管连接器，因此您的应用程序和代理可以访问所有 Microsoft 产品，例如 Teams、OneDrive 等。",
+        "作为 Vercel 托管连接器 ，Vercel 注册 Entra 应用程序并为其配置联合凭据，因此您不必自己创建应用程序注册或管理客户端机密。为您的 Microsoft 租户授权应用程序一次，然后将连接器附加到其所需的项目和环境。",
+        "从仪表板或 Vercel CLI 创建连接器：",
+        "# 创建 Microsoft 连接器 vc connect create microsoft --name acme-msft # 将其附加到项目 vc connect Attach microsoft/acme-msft --project my-app --environment production 创建 Microsoft 连接器并将其附加到项目的生产环境。",
+        "连接连接器后，您的代码仅在需要令牌时才请求令牌。 @vercel/connect SDK 使用您的部署的 OIDC 身份进行身份验证，并使用管理员授予的应用程序权限返回应用程序本身的短期令牌：",
+        "app/lib/send-email.ts 1 从 '@vercel/connect' 导入 { getToken } ； 2 3 const token = wait getToken( 'microsoft/acme-msft' , { 4 主题 : { type : 'app' } , 5 范围 : [ 'https://graph.microsoft.com/.default' ] , 6 } ) ; 7 8 wait fetch ( 'https://graph.microsoft.com/v1.0/users/releases@acme.com/sendMail' , { 9 方法 : 'POST' , 10 headers : { 11 授权 : ` Bearer ${ token } ` , 12 'Content-Type' : 'application/json' , 13 } , 14 body : JSON . stringify ( { 15 message : { 16 subject : '部署完成' , 17 body : { contentType : 'Text' , content : '生产已上线 ✅' } , 18 toRecipients : [ { emailAddress : { address : 'eng@acme.com' } } ] , 19 } , 20 } ) , 21 } ) ;请求应用令牌并通过 Microsoft Graph API 发送电子邮件。",
+        "每个令牌的范围都符合您的请求并自动刷新，因此不会泄漏或轮换任何内容。要充当特定人员，请将该用户作为主题传递，并且令牌携带其委托的权限：",
+        "app/lib/act-as-user.ts 1 const token = wait getToken ( 'microsoft/acme-msft' , { 2 主题 : { type : 'user' , id : userId } , 3 范围 : [ 'User.Read' ] , 4 } ) ;令牌充当该用户，仅限于他们授​​权的范围。",
+        "阅读 Vercel Connect 文档并创建 Microsoft 连接器以开始使用。",
+        "Vercel Connect 处于测试阶段，适用于所有计划。功能和行为（包括可用的连接器和触发转发）可能会在全面上市之前发生变化。使用须遵守 Beta 协议和 Vercel Connect 条款。"
+      ],
+      "highlights": [
+        "Vercel Connect 现在包含适用于 Microsoft 的托管连接器，因此您的应用程序和代理可以访问所有 Microsoft 产品，例如 Teams、",
+        "作为 Vercel 托管连接器 ，Vercel 注册 Entra 应用程序并为其配置联合凭据，因此您不必自己创建应用程序注册或管理客户端机密。为您的 Micro",
+        "从仪表板或 Vercel CLI 创建连接器："
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Connect now supports Microsoft - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-19",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-connect-supports-microsoft",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Connect now supports Microsoft - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Connect now supports Microsoft",
+        "url": "https://vercel.com/changelog/vercel-connect-supports-microsoft",
+        "fetched": true,
+        "savedAt": "2026-08-20T00:54:50.320Z"
       }
     },
     {
@@ -1644,7 +2457,7 @@
         "url": "https://cursor.com/changelog/origin-code-hosting",
         "fetched": true,
         "savedAt": "2026-08-18T00:53:50.883Z",
-        "retranslatedAt": "2026-08-19T00:54:26.115Z"
+        "retranslatedAt": "2026-08-20T00:54:51.429Z"
       }
     },
     {
@@ -3287,7 +4100,7 @@
         "url": "https://cursor.com/changelog/08-13-26",
         "fetched": true,
         "savedAt": "2026-08-14T01:23:26.394Z",
-        "retranslatedAt": "2026-08-19T00:54:27.232Z"
+        "retranslatedAt": "2026-08-20T00:54:52.423Z"
       }
     },
     {
@@ -10949,7 +11762,7 @@
         "url": "https://cursor.com/changelog/google-workspace-plugins",
         "fetched": true,
         "savedAt": "2026-08-03T22:57:50.365Z",
-        "retranslatedAt": "2026-08-19T00:54:28.362Z"
+        "retranslatedAt": "2026-08-20T00:54:53.412Z"
       }
     },
     {
@@ -14314,7 +15127,7 @@
         "url": "https://cursor.com/changelog/ipad",
         "fetched": true,
         "savedAt": "2026-08-02T22:53:52.935Z",
-        "retranslatedAt": "2026-08-19T00:54:29.331Z"
+        "retranslatedAt": "2026-08-20T00:54:54.727Z"
       }
     },
     {
@@ -15229,7 +16042,7 @@
         "url": "https://cursor.com/changelog/cursor-start",
         "fetched": true,
         "savedAt": "2026-08-08T22:25:22.586Z",
-        "retranslatedAt": "2026-08-19T00:54:30.329Z"
+        "retranslatedAt": "2026-08-20T00:54:55.888Z"
       }
     },
     {
@@ -19747,7 +20560,7 @@
         "url": "https://cursor.com/changelog/slack-improvements",
         "fetched": true,
         "savedAt": "2026-07-27T07:34:20.673Z",
-        "retranslatedAt": "2026-08-19T00:54:31.493Z"
+        "retranslatedAt": "2026-08-20T00:54:57.004Z"
       }
     },
     {
