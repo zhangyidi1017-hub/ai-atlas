@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-20T00:54:57.806Z",
+  "updatedAt": "2026-08-21T00:58:42.913Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 274,
+  "itemCount": 284,
   "brief": {
-    "date": "2026-08-20",
-    "generatedAt": "2026-08-20T00:54:57.805Z",
-    "totalCount": 274,
+    "date": "2026-08-21",
+    "generatedAt": "2026-08-21T00:58:42.912Z",
+    "totalCount": 284,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 274 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 284 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -40,10 +40,10 @@
         "readMinutes": 5
       },
       {
-        "id": "sig-9009000832",
-        "title": "聊天 SDK 添加了 Instagram 适配器 - Vercel",
+        "id": "sig-38119b55b5",
+        "title": "视线第 2 期：领导者需要了解的有关建筑代理的知识 | Figma 博客",
         "stars": 4,
-        "oneLiner": "您现在可以使用适用于聊天 SDK 的新 Instagram 适配器为 Instagram 构建机器人。",
+        "oneLiner": "Agentic 产品带来了一系列独特的设计挑战。如何构建一个功能强大且知识丰富的工具，足以成为真正的合作伙伴，同时保持信任和安全为核心？以下是我们从领导人那里听到的内容。",
         "readMinutes": 5
       }
     ],
@@ -53,8 +53,8 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "sig-9009000832",
-        "sig-ef913e9fda"
+        "sig-38119b55b5",
+        "sig-33fa81b462"
       ],
       "newReleases": [
         "sig-d822bd91a1",
@@ -71,10 +71,10 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "sig-9009000832",
-        "sig-ef913e9fda",
-        "sig-a874149274",
-        "sig-9ac0643f24"
+        "sig-38119b55b5",
+        "sig-33fa81b462",
+        "sig-39431571ac",
+        "sig-027379c084"
       ],
       "emergingTrends": [
         "cur-openai-agentkit",
@@ -115,8 +115,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-08-20T00:54:57.806Z",
-    "summary": "近 30 天共 254 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-08-21T00:58:42.913Z",
+    "summary": "近 30 天共 250 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -128,7 +128,7 @@
       },
       {
         "name": "Agent",
-        "signal": "近 30 天 5 条相关更新",
+        "signal": "近 30 天 4 条相关更新",
         "examples": [
           "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排",
           "Anthropic 推动 MCP：让 Agent 统一连接外部工具与数据源"
@@ -144,10 +144,9 @@
       },
       {
         "name": "Workflow",
-        "signal": "近 30 天 2 条相关更新",
+        "signal": "近 30 天 1 条相关更新",
         "examples": [
-          "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排",
-          "Google Gemini 2.x：原生多模态与 Workspace 深度整合"
+          "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排"
         ]
       },
       {
@@ -189,6 +188,30 @@
     ]
   },
   "productUpdates": [
+    {
+      "id": "sig-027379c084",
+      "title": "介绍人工智能期货",
+      "oneLiner": "隆重推出 AI Futures，这是一个新的 OpenAI 博客，探讨变革性人工智能如何重塑权力、治理、经济和个人自由。",
+      "date": "2026-08-20",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-cb030de2dd",
+      "title": "Stampli 使用 ChatGPT Work 将启动时间缩短了 68%",
+      "oneLiner": "由于有固定的截止日期和在其他地方投入的设计资源，Stampli 使用 Codex 和 ChatGPT Work 将数周的发布生产压缩为数天。",
+      "date": "2026-08-20",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
     {
       "id": "sig-ef913e9fda",
       "title": "为前沿模型提供零数据保留",
@@ -303,6 +326,18 @@
       "id": "sig-dfcf73efa3",
       "title": "NVIDIA 如何通过 ChatGPT Work 扩展专业知识",
       "oneLiner": "NVIDIA 团队使用 ChatGPT Work 来减少手动任务、连接快速移动的信号并在全球范围内扩展成功的工作流程。",
+      "date": "2026-08-18",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-e456387186",
+      "title": "ChatGPT 广告扩展到整个欧洲",
+      "oneLiner": "ChatGPT 广告正在扩展到 31 个欧洲市场。了解广告商如何在人们探索、比较选项和做出决策时吸引他们。",
       "date": "2026-08-18",
       "productIds": [
         "chatgpt"
@@ -446,45 +481,735 @@
         "Release"
       ],
       "stars": 4
-    },
-    {
-      "id": "sig-f5d9b5f669",
-      "title": "将手语人工智能交到用户手中",
-      "oneLiner": "推出手语转文本 (SL2T)，这是我们的突破性模型，为聋哑和听力障碍用户提供新的手语功能。",
-      "date": "2026-08-12",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google DeepMind",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-fb21820d80",
-      "title": "从协助到执行：企业如何让AI发挥作用",
-      "oneLiner": "OpenAI 研究揭示了企业如何利用 ChatGPT 和 Codex 采用代理人工智能，以及前沿公司如何在人工智能采用方面取得领先。",
-      "date": "2026-08-12",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-cad35e6294",
-      "title": "RingCentral 如何构建从工程到运营的 AI 原生工作",
-      "oneLiner": "了解 RingCentral 如何使用 ChatGPT Work 和 Codex 来加速 AI 产品开发并集中整个工程和运营的运营智能。",
-      "date": "2026-08-12",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-38119b55b5",
+      "title": "视线第 2 期：领导者需要了解的有关建筑代理的知识 | Figma 博客",
+      "oneLiner": "Agentic 产品带来了一系列独特的设计挑战。如何构建一个功能强大且知识丰富的工具，足以成为真正的合作伙伴，同时保持信任和安全为核心？以下是我们从领导人那里听到的内容。",
+      "summary": {
+        "oneSentence": "Agentic 产品带来了一系列独特的设计挑战。如何构建一个功能强大且知识丰富的工具，足以成为真正的合作伙伴，同时保持信任和安全为核心？以下是我们从领导人那里听到的内容。",
+        "bullets": [
+          "Agentic 产品带来了一系列独特的设计挑战。如何构建一个功能强大且知识丰富的工具，足以成为真正的合作伙伴，同时保持信任和安全为核心？以下是我们从领导人那里听到的内容。",
+          "Sightlines 是我们面向设计、产品和工程领导者的时事通讯。在每一期中，我们都会为您带来来自 Cisco、OpenAI、Airbnb 等公司的高级领导者的最敏锐的见解，以及他们如何在人工智能时代引导产品开发和设计的更多信息。",
+          "在最近的活动中，从我们在芝加哥举行的 Leadership Collective 演讲到我们在 Config Leadership Collective 中提出的 Config 7 问题，我们参加了 Leadership Collective，希望了解领导者如何指导他们的团队进行变革、专业知识现在意味着什么，以及随着步",
+          "更深入：领导者的经验教训：编写代理设计规则"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Figma 官网发布：Agentic 产品带来了一系列独特的设计挑战。如何构建一个功能强大且知识丰富的工具，足以成为真正的合作伙伴，同时保持信任和安全为核心？以下是我们从领导人那里听到的内容。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://www.figma.com/blog/sightlines-issue-no2/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Agentic 产品带来了一系列独特的设计挑战。如何构建一个功能强大且知识丰富的工具，足以成为真正的合作伙伴，同时保持信任和安全为核心？以下是我们从领导人那里听到的内容。",
+        "Sightlines 是我们面向设计、产品和工程领导者的时事通讯。在每一期中，我们都会为您带来来自 Cisco、OpenAI、Airbnb 等公司的高级领导者的最敏锐的见解，以及他们如何在人工智能时代引导产品开发和设计的更多信息。",
+        "在最近的活动中，从我们在芝加哥举行的 Leadership Collective 演讲到我们在 Config Leadership Collective 中提出的 Config 7 问题，我们参加了 Leadership Collective，希望了解领导者如何指导他们的团队进行变革、专业知识现在意味着什么，以及随着步伐的加快，他们如何保持高品质。这是我们听到的。",
+        "更深入：领导者的经验教训：编写代理设计规则",
+        "“[设计代理时]我们的目标不是确保我们设计人工智能可以做什么，而是为系统的一致行为创造条件和规则。” Thomas Vidal，雅高公司产品设计副总裁",
+        "“你不会在第一天就推出完美的东西，因为这不是构建代理的工作方式。你需要通过实际使用和执行来学习很多东西。测试和发布的严格性很重要。” Rachel Been，Expedia 设计高级副总裁",
+        "“很快，我们将给予代理对工作流程越来越多的自主控制。我们需要确保有人对这些代理的行为负责。” Charlie Sutton，Atlassian 首席设计官",
+        "“领导者的工作不是推动你的团队更加努力。而是重新定义好的真正含义，以便人们能够看到他们自己无法看到的差距。” Jake Albaugh，Figma 开发倡导者",
+        "有了人工智能，速度就变得容易了，但技术债务也变得容易了。这就是为什么最好的团队不仅能快速交付产品，而且能快速交付产品。他们仔细考虑，高效构建，并使其脱颖而出。",
+        "我们仍在重播 Config 领导集体的对话。"
+      ],
+      "highlights": [
+        "Agentic 产品带来了一系列独特的设计挑战。如何构建一个功能强大且知识丰富的工具，足以成为真正的合作伙伴，同时保持信任和安全为核心？以下是我们从领导人那里听",
+        "Sightlines 是我们面向设计、产品和工程领导者的时事通讯。在每一期中，我们都会为您带来来自 Cisco、OpenAI、Airbnb 等公司的高级领导者的",
+        "在最近的活动中，从我们在芝加哥举行的 Leadership Collective 演讲到我们在 Config Leadership Collective 中提出"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Sightlines Issue No. 2: What Leaders Need to Know About Building Agents | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-08-20",
+      "categoryIds": [
+        "vertical-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/sightlines-issue-no2/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Sightlines Issue No. 2: What Leaders Need to Know About Building Agents | Figma Blog"
+      },
+      "raw": {
+        "title": "Sightlines issue no.2: What leaders need to know about building agents",
+        "url": "https://www.figma.com/blog/sightlines-issue-no2/",
+        "fetched": true,
+        "savedAt": "2026-08-21T00:57:51.734Z"
+      }
+    },
+    {
+      "id": "sig-33fa81b462",
+      "title": "从 CLI 管理 Vercel 工具栏注释 - Vercel",
+      "oneLiner": "您现在可以使用 Vercel CLI 来管理 Vercel 工具栏注释。 vercel 注释涵盖了完整的分类循环：",
+      "summary": {
+        "oneSentence": "您现在可以使用 Vercel CLI 来管理 Vercel 工具栏注释。 vercel 注释涵盖了完整的分类循环：",
+        "bullets": [
+          "您现在可以使用 Vercel CLI 来管理 Vercel 工具栏注释。 vercel 注释涵盖了完整的分类循环：",
+          "列出并过滤链接项目的未解决评论，范围仅限于当前的 Git 分支",
+          "检查每条消息及其 ID 的完整线程",
+          "从终端回复、解决、重新打开、编辑或删除"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：您现在可以使用 Vercel CLI 来管理 Vercel 工具栏注释。 vercel 注释涵盖了完整的分类循环：",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/manage-vercel-toolbar-comments-from-the-cli"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "您现在可以使用 Vercel CLI 来管理 Vercel 工具栏注释。 vercel 注释涵盖了完整的分类循环：",
+        "列出并过滤链接项目的未解决评论，范围仅限于当前的 Git 分支",
+        "检查每条消息及其 ID 的完整线程",
+        "从终端回复、解决、重新打开、编辑或删除",
+        "--格式化脚本和代理的 json 输出",
+        "将链接复制到标题 常见工作流程 首先列出当前分支中所有未解决的评论：",
+        "$ vercel comments 我的项目中的评论 · feat/checkout ● icZ9BnPPINuK 3h Ana Ruiz /checkout “促销代码字段在应用折扣后失去焦点” → 4 条回复 · Maria, v0 ( app ) · 最后 20m 前 1 条未解决的评论 要阅读线程，请运行 ` vercel comments inform < id > `",
+        "$ vercel comments 检查 icZ9BnPPINuK icZ9BnPPINuK · 未解决 · feat/checkout /checkout — “Acme Site — Checkout” Element body > main > form > div.promo-container Ana Ruiz · 3 小时前 · 9V777h5b5B56aYUUk12jb 应用折扣后促销代码字段失去焦点 Maria · 3 小时前 · JEcplTszDY1Gme8cs7DK6 让我快速检查一下......",
+        "$ vercel 评论回复 icZ9BnPPINuK -m “已在最新推送中修复，现在焦点仍然放在重新渲染上。” $ vercel 注释解析 icZ9BnPPINuK -m“正在发货。如果出现问题，请重新打开。” $ vercel comments edit icZ9BnPPINuK VvkhYF6dTqbpm7K -m“在预览时修复，在暂存时验证。”",
+        "将链接复制到标题 开始 更新到最新的 Vercel CLI 版本并运行 vercel comments 。或者只是提示您的编码代理："
+      ],
+      "highlights": [
+        "您现在可以使用 Vercel CLI 来管理 Vercel 工具栏注释。 vercel 注释涵盖了完整的分类循环：",
+        "列出并过滤链接项目的未解决评论，范围仅限于当前的 Git 分支",
+        "检查每条消息及其 ID 的完整线程"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Manage Vercel Toolbar comments from the CLI - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-20",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/manage-vercel-toolbar-comments-from-the-cli",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Manage Vercel Toolbar comments from the CLI - Vercel"
+      },
+      "raw": {
+        "title": "Manage Vercel Toolbar comments from the CLI",
+        "url": "https://vercel.com/changelog/manage-vercel-toolbar-comments-from-the-cli",
+        "fetched": true,
+        "savedAt": "2026-08-21T00:57:59.648Z"
+      }
+    },
+    {
+      "id": "sig-39431571ac",
+      "title": "Vercel Observability 现在支持自定义指标 - Vercel",
+      "oneLiner": "现在，您可以直接从 Vercel 函数发出自己的指标，并将其与 Vercel 的内置可观测性数据一起进行分析。",
+      "summary": {
+        "oneSentence": "现在，您可以直接从 Vercel 函数发出自己的指标，并将其与 Vercel 的内置可观测性数据一起进行分析。",
+        "bullets": [
+          "现在，您可以直接从 Vercel 函数发出自己的指标，并将其与 Vercel 的内置可观测性数据一起进行分析。",
+          "使用 @vercel/functions 包中的 metric() 函数来记录您关心的任何值，例如请求延迟或业务事件，并附加属性以进行过滤和分组：",
+          "1 从“@vercel/functions”导入{metric}； 2 3 metric ( \"database.query_ms\" , 120 , { 4 table : \"my-table\" , 5 db : \"my-database\" 6 } ) ;",
+          "发出后，您的自定义指标可在整个 Observability 中使用： • 查询构建器：动态切片和聚合指标。 • 笔记本：构建和共享仪表板。 • CLI：使用vcmetrics 命令进行查询。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：现在，您可以直接从 Vercel 函数发出自己的指标，并将其与 Vercel 的内置可观测性数据一起进行分析。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/custom-metrics-are-now-supported-in-vercel-observability"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "现在，您可以直接从 Vercel 函数发出自己的指标，并将其与 Vercel 的内置可观测性数据一起进行分析。",
+        "使用 @vercel/functions 包中的 metric() 函数来记录您关心的任何值，例如请求延迟或业务事件，并附加属性以进行过滤和分组：",
+        "1 从“@vercel/functions”导入{metric}； 2 3 metric ( \"database.query_ms\" , 120 , { 4 table : \"my-table\" , 5 db : \"my-database\" 6 } ) ;",
+        "发出后，您的自定义指标可在整个 Observability 中使用： • 查询构建器：动态切片和聚合指标。 • 笔记本：构建和共享仪表板。 • CLI：使用vcmetrics 命令进行查询。",
+        "Vercel 会自动添加有用的属性，例如源部署和功能区域。自定义指标作为可观察性事件进行计费，并可在具有 Observability Plus 的专业版和企业版上使用。"
+      ],
+      "highlights": [
+        "现在，您可以直接从 Vercel 函数发出自己的指标，并将其与 Vercel 的内置可观测性数据一起进行分析。",
+        "使用 @vercel/functions 包中的 metric() 函数来记录您关心的任何值，例如请求延迟或业务事件，并附加属性以进行过滤和分组：",
+        "1 从“@vercel/functions”导入{metric}； 2 3 metric ( \"database.query_ms\" , 120 , { 4 t"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Custom metrics are now supported in Vercel Observability - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-20",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/custom-metrics-are-now-supported-in-vercel-observability",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Custom metrics are now supported in Vercel Observability - Vercel"
+      },
+      "raw": {
+        "title": "Custom metrics are now supported in Vercel Observability",
+        "url": "https://vercel.com/changelog/custom-metrics-are-now-supported-in-vercel-observability",
+        "fetched": true,
+        "savedAt": "2026-08-21T00:58:04.170Z"
+      }
+    },
+    {
+      "id": "sig-027379c084",
+      "title": "介绍人工智能期货",
+      "oneLiner": "隆重推出 AI Futures，这是一个新的 OpenAI 博客，探讨变革性人工智能如何重塑权力、治理、经济和个人自由。",
+      "summary": {
+        "oneSentence": "隆重推出 AI Futures，这是一个新的 OpenAI 博客，探讨变革性人工智能如何重塑权力、治理、经济和个人自由。",
+        "bullets": [
+          "隆重推出 AI Futures，这是一个新的 OpenAI 博客，探讨变革性人工智能如何重塑权力、治理、经济和个人自由。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：隆重推出 AI Futures，这是一个新的 OpenAI 博客，探讨变革性人工智能如何重塑权力、治理、经济和个人自由。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/introducing-ai-futures"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "隆重推出 AI Futures，这是一个新的 OpenAI 博客，探讨变革性人工智能如何重塑权力、治理、经济和个人自由。"
+      ],
+      "highlights": [
+        "隆重推出 AI Futures，这是一个新的 OpenAI 博客，探讨变革性人工智能如何重塑权力、治理、经济和个人自由。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Introducing AI Futures",
+      "originalLang": "en",
+      "date": "2026-08-20",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/introducing-ai-futures",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Introducing AI Futures"
+      },
+      "raw": {
+        "title": "Introducing AI Futures",
+        "url": "https://openai.com/index/introducing-ai-futures",
+        "fetched": false,
+        "savedAt": "2026-08-21T00:58:05.374Z"
+      }
+    },
+    {
+      "id": "sig-f1ce199f56",
+      "title": "v0 如何在不暴露用户 OAuth 令牌的情况下对 Snowflake 进行身份验证",
+      "oneLiner": "人工智能生成的应用程序通常需要代表其用户向外部服务进行身份验证。这就产生了一个问题：生成的代码不应该访问用户的凭据。",
+      "summary": {
+        "oneSentence": "人工智能生成的应用程序通常需要代表其用户向外部服务进行身份验证。这就产生了一个问题：生成的代码不应该访问用户的凭据。",
+        "bullets": [
+          "人工智能生成的应用程序通常需要代表其用户向外部服务进行身份验证。这就产生了一个问题：生成的代码不应该访问用户的凭据。",
+          "我们在构建 v0 Snowflake 集成时面临着这个决定。它允许用户连接 Snowflake、检查架构、查询数据并生成针对其仓库运行的应用程序。生成的代码必须对 Snowflake 进行身份验证，但它是由模型编写的，无需人工审查即可运行，并且提示注入可以引导它泄露它可以读取的任何内容，因此用户的 OAuth 令牌永远",
+          "我们使用基于 Vercel 沙箱防火墙构建的 v0 沙箱 Snowflake 请求代理解决了这个问题。沙箱可以运行普通的 Snowflake 客户端，但真正的凭据是在请求时在沙箱运行时之外的服务器代理中解析的。这使得现有的 Snowflake 客户端可以在沙箱内工作，而无需将用户的凭据暴露给生成的代码。",
+          "更困难的问题是决定代理可以在哪里安全地注入凭证。明显的实现是替换出现在任何地方的占位符令牌，这会引入另一个凭证泄漏。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：人工智能生成的应用程序通常需要代表其用户向外部服务进行身份验证。这就产生了一个问题：生成的代码不应该访问用户的凭据。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/how-v0-authenticates-to-snowflake-without-exposing-the-users-oauth-token"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "人工智能生成的应用程序通常需要代表其用户向外部服务进行身份验证。这就产生了一个问题：生成的代码不应该访问用户的凭据。",
+        "我们在构建 v0 Snowflake 集成时面临着这个决定。它允许用户连接 Snowflake、检查架构、查询数据并生成针对其仓库运行的应用程序。生成的代码必须对 Snowflake 进行身份验证，但它是由模型编写的，无需人工审查即可运行，并且提示注入可以引导它泄露它可以读取的任何内容，因此用户的 OAuth 令牌永远不应该进入代码运行的环境。",
+        "我们使用基于 Vercel 沙箱防火墙构建的 v0 沙箱 Snowflake 请求代理解决了这个问题。沙箱可以运行普通的 Snowflake 客户端，但真正的凭据是在请求时在沙箱运行时之外的服务器代理中解析的。这使得现有的 Snowflake 客户端可以在沙箱内工作，而无需将用户的凭据暴露给生成的代码。",
+        "更困难的问题是决定代理可以在哪里安全地注入凭证。明显的实现是替换出现在任何地方的占位符令牌，这会引入另一个凭证泄漏。",
+        "将链接复制到标题隔离不保护机密 v0 在隔离的沙箱中运行生成的应用程序。隔离可以保护系统的其余部分免受不受信任的代码的影响，但它不能保护沙箱内的秘密。",
+        "如果生成的应用程序可以从文件系统读取令牌，则可以将该令牌复制到日志中、在 API 响应中返回、嵌入到生成的客户端代码中或发送到另一个主机。沙箱隔离限制了应用程序可以访问的内容，但一旦凭证本身在沙箱内可用，它就没有帮助。",
+        "对于 Snowflake，凭证代表用户连接的 Snowflake 角色。 v0 应该能够帮助用户探索和使用他们有权访问的数据进行构建，但生成的代码不应仅仅因为需要原始提供者凭据而接收原始提供者凭据。",
+        "将链接复制到标题 每个 Snowflake 请求都会通过代理 沙箱无法直接与 Snowflake 通信。当其中的代码向用户的 Snowflake 帐户主机发送请求时，沙箱防火墙会将该请求转发到 v0 Snowflake 代理：",
+        "防火墙使用每个沙箱唯一的证书颁发机构终止 TLS，这使得代理可以读取和重写本来会加密的流量。沙箱自动信任该证书颁发机构，因此 Snowflake SDK 和 CLI 以其默认证书验证（包括 OCSP）运行。然后，代理验证沙箱的 OIDC 令牌，查找沙箱所属的 v0 聊天，恢复绑定到该聊天的用户会话，并检索该用户的新 Snowflake 凭证。",
+        "network-policy/index.ts 1 return { 2 [ host ] : [ 3 // 绝对 URL，例如https://v0.app/chat/api/sandbox-proxy/snowflake 4 { forwardURL : getSandboxRequestProxyForwardURL ( 'snowflake' ) } , 5 ] , 6 } 从内部 v0 转发配置简化"
+      ],
+      "highlights": [
+        "人工智能生成的应用程序通常需要代表其用户向外部服务进行身份验证。这就产生了一个问题：生成的代码不应该访问用户的凭据。",
+        "我们在构建 v0 Snowflake 集成时面临着这个决定。它允许用户连接 Snowflake、检查架构、查询数据并生成针对其仓库运行的应用程序。生成的代码必须",
+        "我们使用基于 Vercel 沙箱防火墙构建的 v0 沙箱 Snowflake 请求代理解决了这个问题。沙箱可以运行普通的 Snowflake 客户端，但真正的凭"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How v0 authenticates to Snowflake without exposing the user's OAuth token",
+      "originalLang": "en",
+      "date": "2026-08-20",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/how-v0-authenticates-to-snowflake-without-exposing-the-users-oauth-token",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How v0 authenticates to Snowflake without exposing the user's OAuth token"
+      },
+      "raw": {
+        "title": "How v0 authenticates to Snowflake without exposing the user's OAuth token",
+        "url": "https://vercel.com/blog/how-v0-authenticates-to-snowflake-without-exposing-the-users-oauth-token",
+        "fetched": true,
+        "savedAt": "2026-08-21T00:58:12.616Z"
+      }
+    },
+    {
+      "id": "sig-cb030de2dd",
+      "title": "Stampli 使用 ChatGPT Work 将启动时间缩短了 68%",
+      "oneLiner": "由于有固定的截止日期和在其他地方投入的设计资源，Stampli 使用 Codex 和 ChatGPT Work 将数周的发布生产压缩为数天。",
+      "summary": {
+        "oneSentence": "由于有固定的截止日期和在其他地方投入的设计资源，Stampli 使用 Codex 和 ChatGPT Work 将数周的发布生产压缩为数天。",
+        "bullets": [
+          "由于有固定的截止日期和在其他地方投入的设计资源，Stampli 使用 Codex 和 ChatGPT Work 将数周的发布生产压缩为数天。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：由于有固定的截止日期和在其他地方投入的设计资源，Stampli 使用 Codex 和 ChatGPT Work 将数周的发布生产压缩为数天。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/stampli"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "由于有固定的截止日期和在其他地方投入的设计资源，Stampli 使用 Codex 和 ChatGPT Work 将数周的发布生产压缩为数天。"
+      ],
+      "highlights": [
+        "由于有固定的截止日期和在其他地方投入的设计资源，Stampli 使用 Codex 和 ChatGPT Work 将数周的发布生产压缩为数天。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Stampli cuts launch hours by 68% using ChatGPT Work",
+      "originalLang": "en",
+      "date": "2026-08-20",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/stampli",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Stampli cuts launch hours by 68% using ChatGPT Work"
+      },
+      "raw": {
+        "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
+        "url": "https://openai.com/index/stampli",
+        "fetched": false,
+        "savedAt": "2026-08-21T00:58:13.830Z"
+      }
+    },
+    {
+      "id": "sig-d5909483f3",
+      "title": "Vercel Agent 现已在 Slack 代码通道中可用 - Vercel",
+      "oneLiner": "Vercel Agent 现在可以在 Slack 代码通道中工作，这是今天推出的一种与编码代理配合使用的新型通道。频道中的任何人都可以关注该工作，向 Agent 提供新指令，并查看其编写的代码。",
+      "summary": {
+        "oneSentence": "Vercel Agent 现在可以在 Slack 代码通道中工作，这是今天推出的一种与编码代理配合使用的新型通道。频道中的任何人都可以关注该工作，向 Agent 提供新指令，并查看其编写的代码。",
+        "bullets": [
+          "Vercel Agent 现在可以在 Slack 代码通道中工作，这是今天推出的一种与编码代理配合使用的新型通道。频道中的任何人都可以关注该工作，向 Agent 提供新指令，并查看其编写的代码。",
+          "从 Slack 侧栏中选择创建代码通道，选择 Vercel 作为代理，并描述开始时需要什么。您还可以要求代理从现有通道或线程创建一个。它将这种背景带到了新渠道。",
+          "使用代码通道调查事件、作为团队编写和审查代码，或管理正在进行的工作，例如依赖项升级和迁移。",
+          "跟踪工作：代理在工作时在通道中发布相关部署、日志、错误和差异。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel Agent 现在可以在 Slack 代码通道中工作，这是今天推出的一种与编码代理配合使用的新型通道。频道中的任何人都可以关注该工作，向 Agent 提供新指令，并查看其编写的代码。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-agent-is-now-available-in-slack-code-channels"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Agent 现在可以在 Slack 代码通道中工作，这是今天推出的一种与编码代理配合使用的新型通道。频道中的任何人都可以关注该工作，向 Agent 提供新指令，并查看其编写的代码。",
+        "从 Slack 侧栏中选择创建代码通道，选择 Vercel 作为代理，并描述开始时需要什么。您还可以要求代理从现有通道或线程创建一个。它将这种背景带到了新渠道。",
+        "使用代码通道调查事件、作为团队编写和审查代码，或管理正在进行的工作，例如依赖项升级和迁移。",
+        "跟踪工作：代理在工作时在通道中发布相关部署、日志、错误和差异。",
+        "不重复 @Vercel 提及的对话：代理跟踪对话，识别哪些消息是针对它的，并在团队给予它更多工作时继续。",
+        "审查拉取请求：要求 Agent 进行 PR 审查，它会将其结果发布在频道中。它可以找到差异之外的错误，并解释失败的检查及其根本原因。",
+        "批准每项更改：代理默认情况下是只读的，并且永远不会超出请求者的权限。在做出改变之前，它会起草一份计划并等待批准。对于每项操作，Vercel 都会记录谁请求并批准该操作以及代理运行的内容。",
+        "随时停止工作：创建代码通道的人可以取消活动任务。",
+        "Slack 代码通道中的 Vercel Agent 现已推出面向 Pro 和 Enterprise 团队的公开测试版。将 Vercel 添加到 Slack、了解 Slack 代码或阅读文档。",
+        "亨利·赫夫南、艾伦·黄、阿米莉亚·查尔斯"
+      ],
+      "highlights": [
+        "Vercel Agent 现在可以在 Slack 代码通道中工作，这是今天推出的一种与编码代理配合使用的新型通道。频道中的任何人都可以关注该工作，向 Agent",
+        "从 Slack 侧栏中选择创建代码通道，选择 Vercel 作为代理，并描述开始时需要什么。您还可以要求代理从现有通道或线程创建一个。它将这种背景带到了新渠道。",
+        "使用代码通道调查事件、作为团队编写和审查代码，或管理正在进行的工作，例如依赖项升级和迁移。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Agent is now available in Slack code channels - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-20",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-agent-is-now-available-in-slack-code-channels",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Agent is now available in Slack code channels - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Agent is now available in Slack code channels",
+        "url": "https://vercel.com/changelog/vercel-agent-is-now-available-in-slack-code-channels",
+        "fetched": true,
+        "savedAt": "2026-08-21T00:58:21.828Z"
+      }
+    },
+    {
+      "id": "sig-c008408466",
+      "title": "使用 Vercel CLI 管理 Vercel 容器注册表 - Vercel",
+      "oneLiner": "您现在可以使用 Vercel CLI 管理 Vercel 容器注册表。新的 vercel vcr 命令组可让您：",
+      "summary": {
+        "oneSentence": "您现在可以使用 Vercel CLI 管理 Vercel 容器注册表。新的 vercel vcr 命令组可让您：",
+        "bullets": [
+          "您现在可以使用 Vercel CLI 管理 Vercel 容器注册表。新的 vercel vcr 命令组可让您：",
+          "创建和检查存储库、图像和标签",
+          "使用项目范围内的短期令牌来验证您的容器工具，例如 Docker、Podman 或 Buildah。然后构建并推送：",
+          "# 使用注册表对 Docker 进行身份验证 vercel vcr login docker # 构建当前目录并一步推送 vercel vcr build docker --push # 使用存储库进行构建并推送，并标记 vercel vcr build docker ./app my-api:1.2.3 --push"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：您现在可以使用 Vercel CLI 管理 Vercel 容器注册表。新的 vercel vcr 命令组可让您：",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/manage-vercel-container-registry-with-vercel-cli"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "您现在可以使用 Vercel CLI 管理 Vercel 容器注册表。新的 vercel vcr 命令组可让您：",
+        "创建和检查存储库、图像和标签",
+        "使用项目范围内的短期令牌来验证您的容器工具，例如 Docker、Podman 或 Buildah。然后构建并推送：",
+        "# 使用注册表对 Docker 进行身份验证 vercel vcr login docker # 构建当前目录并一步推送 vercel vcr build docker --push # 使用存储库进行构建并推送，并标记 vercel vcr build docker ./app my-api:1.2.3 --push 对 Docker 进行身份验证，然后构建镜像并将其推送到注册表。",
+        "凭证会发送到 Docker 本身，因此您现有的工具可以使用标准命令推送到 VCR：",
+        "docker push vcr.vercel.com/my-team/my-project/my-repository:latest 使用标准 Docker CLI 将映像推送到注册表。",
+        "存储库会在您第一次推送时自动创建，或者使用 vercel vcr add 显式创建。从那里，您可以列出存储的内容并检查单个图像和标签：",
+        "# 创建并列出存储库 vercel vcr add my-repository vercel vcr ls # 列出存储库中的图像，或仅列出未标记的图像 vercel vcr image ls my-repository vercel vcr image ls my-repository --untagged # 检查标签 vercel vcr tag 检查 my-repository vercel vcr 组中最新的存储库、图像和标签命令。",
+        "使用 pnpm i -g vercel@latest 更新到最新的 Vercel CLI 并阅读容器注册表文档以开始使用。"
+      ],
+      "highlights": [
+        "您现在可以使用 Vercel CLI 管理 Vercel 容器注册表。新的 vercel vcr 命令组可让您：",
+        "创建和检查存储库、图像和标签",
+        "使用项目范围内的短期令牌来验证您的容器工具，例如 Docker、Podman 或 Buildah。然后构建并推送："
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Manage Vercel Container Registry with Vercel CLI - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-20",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/manage-vercel-container-registry-with-vercel-cli",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Manage Vercel Container Registry with Vercel CLI - Vercel"
+      },
+      "raw": {
+        "title": "Manage Vercel Container Registry with Vercel CLI",
+        "url": "https://vercel.com/changelog/manage-vercel-container-registry-with-vercel-cli",
+        "fetched": true,
+        "savedAt": "2026-08-21T00:58:29.730Z"
+      }
+    },
+    {
+      "id": "sig-45a48ca604",
+      "title": "Bun 1.4 现已在 Vercel Functions 中提供 - Vercel",
+      "oneLiner": "Vercel Functions 现在支持新的 Bun 1.4 版本，将 Bun 从 Zig 重写为 Rust，解决了 2,900 多个问题，通过了 1,500 多个额外的 Node.js 兼容性测试，并提供了新功能和性能改进。",
+      "summary": {
+        "oneSentence": "Vercel Functions 现在支持新的 Bun 1.4 版本，将 Bun 从 Zig 重写为 Rust，解决了 2,900 多个问题，通过了 1,500 多个额外的 Node.js 兼容性测试，并提供了新功能和性能改进。",
+        "bullets": [
+          "Vercel Functions 现在支持新的 Bun 1.4 版本，将 Bun 从 Zig 重写为 Rust，解决了 2,900 多个问题，通过了 1,500 多个额外的 Node.js 兼容性测试，并提供了新功能和性能改进。",
+          "在具有活动 CPU 定价的流体计算上运行",
+          "支持Next.js、Elysia、Hono等常用框架",
+          "要从以前的 Bun 版本更新，请在 vercel.json 中将 BunVersion 设置为 1.4.x 。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel Functions 现在支持新的 Bun 1.4 版本，将 Bun 从 Zig 重写为 Rust，解决了 2,900 多个问题，通过了 1,500 多个额外的 Node.js 兼容性测试，并提供了新功能和性能改进。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/bun-1-4-is-now-available-in-vercel-functions"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Functions 现在支持新的 Bun 1.4 版本，将 Bun 从 Zig 重写为 Rust，解决了 2,900 多个问题，通过了 1,500 多个额外的 Node.js 兼容性测试，并提供了新功能和性能改进。",
+        "在具有活动 CPU 定价的流体计算上运行",
+        "支持Next.js、Elysia、Hono等常用框架",
+        "要从以前的 Bun 版本更新，请在 vercel.json 中将 BunVersion 设置为 1.4.x 。",
+        "升级是一个明确的选择，因为 Bun 1.4 有几个重大更改。在升级之前查看重大更改并更新您的应用程序。",
+        "在运行时文档中了解有关在 Vercel 上使用 Bun 的更多信息。"
+      ],
+      "highlights": [
+        "Vercel Functions 现在支持新的 Bun 1.4 版本，将 Bun 从 Zig 重写为 Rust，解决了 2,900 多个问题，通过了 1,500",
+        "在具有活动 CPU 定价的流体计算上运行",
+        "支持Next.js、Elysia、Hono等常用框架"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Bun 1.4 is now available in Vercel Functions - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-20",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/bun-1-4-is-now-available-in-vercel-functions",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Bun 1.4 is now available in Vercel Functions - Vercel"
+      },
+      "raw": {
+        "title": "Bun 1.4 is now available in Vercel Functions",
+        "url": "https://vercel.com/changelog/bun-1-4-is-now-available-in-vercel-functions",
+        "fetched": true,
+        "savedAt": "2026-08-21T00:58:34.983Z"
+      }
+    },
     {
       "id": "sig-9009000832",
       "title": "聊天 SDK 添加了 Instagram 适配器 - Vercel",
@@ -970,7 +1695,8 @@
         "title": "Cloud Agents and Cursor Harness Improvements",
         "url": "https://cursor.com/changelog/08-19-26",
         "fetched": true,
-        "savedAt": "2026-08-20T00:54:20.982Z"
+        "savedAt": "2026-08-20T00:54:20.982Z",
+        "retranslatedAt": "2026-08-21T00:58:37.150Z"
       }
     },
     {
@@ -2060,6 +2786,80 @@
       }
     },
     {
+      "id": "sig-e456387186",
+      "title": "ChatGPT 广告扩展到整个欧洲",
+      "oneLiner": "ChatGPT 广告正在扩展到 31 个欧洲市场。了解广告商如何在人们探索、比较选项和做出决策时吸引他们。",
+      "summary": {
+        "oneSentence": "ChatGPT 广告正在扩展到 31 个欧洲市场。了解广告商如何在人们探索、比较选项和做出决策时吸引他们。",
+        "bullets": [
+          "ChatGPT 广告正在扩展到 31 个欧洲市场。了解广告商如何在人们探索、比较选项和做出决策时吸引他们。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：ChatGPT 广告正在扩展到 31 个欧洲市场。了解广告商如何在人们探索、比较选项和做出决策时吸引他们。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/chatgpt-ads-expands-across-europe"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "ChatGPT 广告正在扩展到 31 个欧洲市场。了解广告商如何在人们探索、比较选项和做出决策时吸引他们。"
+      ],
+      "highlights": [
+        "ChatGPT 广告正在扩展到 31 个欧洲市场。了解广告商如何在人们探索、比较选项和做出决策时吸引他们。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "ChatGPT Ads expands across Europe",
+      "originalLang": "en",
+      "date": "2026-08-18",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "ChatGPT Ads expands across Europe"
+      },
+      "raw": {
+        "title": "ChatGPT Ads expands across Europe",
+        "url": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+        "fetched": false,
+        "savedAt": "2026-08-21T00:58:36.188Z"
+      }
+    },
+    {
       "id": "sig-ef87e3b0ab",
       "title": "与 Gemini 和 Pixel 一起近距离接触游戏",
       "oneLiner": "Gemini 和 Pixel 宣布与阿森纳足球俱乐部、巴塞罗那足球俱乐部、拜仁慕尼黑足球俱乐部、利物浦足球俱乐部和巴黎圣日耳曼足球俱乐部建立新的长期合作伙伴关系，通过人工智能个人智能和智能手机技术让球迷更接近比赛。",
@@ -2457,7 +3257,7 @@
         "url": "https://cursor.com/changelog/origin-code-hosting",
         "fetched": true,
         "savedAt": "2026-08-18T00:53:50.883Z",
-        "retranslatedAt": "2026-08-20T00:54:51.429Z"
+        "retranslatedAt": "2026-08-21T00:58:38.080Z"
       }
     },
     {
@@ -4100,7 +4900,7 @@
         "url": "https://cursor.com/changelog/08-13-26",
         "fetched": true,
         "savedAt": "2026-08-14T01:23:26.394Z",
-        "retranslatedAt": "2026-08-20T00:54:52.423Z"
+        "retranslatedAt": "2026-08-21T00:58:39.020Z"
       }
     },
     {
@@ -11762,7 +12562,7 @@
         "url": "https://cursor.com/changelog/google-workspace-plugins",
         "fetched": true,
         "savedAt": "2026-08-03T22:57:50.365Z",
-        "retranslatedAt": "2026-08-20T00:54:53.412Z"
+        "retranslatedAt": "2026-08-21T00:58:40.041Z"
       }
     },
     {
@@ -15127,7 +15927,7 @@
         "url": "https://cursor.com/changelog/ipad",
         "fetched": true,
         "savedAt": "2026-08-02T22:53:52.935Z",
-        "retranslatedAt": "2026-08-20T00:54:54.727Z"
+        "retranslatedAt": "2026-08-21T00:58:41.088Z"
       }
     },
     {
@@ -16042,7 +16842,7 @@
         "url": "https://cursor.com/changelog/cursor-start",
         "fetched": true,
         "savedAt": "2026-08-08T22:25:22.586Z",
-        "retranslatedAt": "2026-08-20T00:54:55.888Z"
+        "retranslatedAt": "2026-08-21T00:58:42.111Z"
       }
     },
     {
