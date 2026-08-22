@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-21T00:58:42.913Z",
+  "updatedAt": "2026-08-22T00:55:43.067Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 284,
+  "itemCount": 294,
   "brief": {
-    "date": "2026-08-21",
-    "generatedAt": "2026-08-21T00:58:42.912Z",
-    "totalCount": 284,
+    "date": "2026-08-22",
+    "generatedAt": "2026-08-22T00:55:43.066Z",
+    "totalCount": 294,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 284 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 294 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -40,10 +40,10 @@
         "readMinutes": 5
       },
       {
-        "id": "sig-38119b55b5",
-        "title": "视线第 2 期：领导者需要了解的有关建筑代理的知识 | Figma 博客",
+        "id": "sig-31820cf2de",
+        "title": "Ora 如何在 Vercel 上对每个主要 AI 代理进行基准测试 |客户 |韦尔塞尔",
         "stars": 4,
-        "oneLiner": "Agentic 产品带来了一系列独特的设计挑战。如何构建一个功能强大且知识丰富的工具，足以成为真正的合作伙伴，同时保持信任和安全为核心？以下是我们从领导人那里听到的内容。",
+        "oneLiner": "将链接复制到标题 Ora on Vercel 一个平台上的前端、后端和代理运行时",
         "readMinutes": 5
       }
     ],
@@ -53,8 +53,8 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "sig-38119b55b5",
-        "sig-33fa81b462"
+        "sig-31820cf2de",
+        "sig-06daba08af"
       ],
       "newReleases": [
         "sig-d822bd91a1",
@@ -71,10 +71,10 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "sig-38119b55b5",
-        "sig-33fa81b462",
-        "sig-39431571ac",
-        "sig-027379c084"
+        "sig-31820cf2de",
+        "sig-06daba08af",
+        "sig-06e8632196",
+        "sig-084c45658e"
       ],
       "emergingTrends": [
         "cur-openai-agentkit",
@@ -115,8 +115,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-08-21T00:58:42.913Z",
-    "summary": "近 30 天共 250 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-08-22T00:55:43.067Z",
+    "summary": "近 30 天共 247 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -128,7 +128,7 @@
       },
       {
         "name": "Agent",
-        "signal": "近 30 天 4 条相关更新",
+        "signal": "近 30 天 3 条相关更新",
         "examples": [
           "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排",
           "Anthropic 推动 MCP：让 Agent 统一连接外部工具与数据源"
@@ -162,20 +162,6 @@
         "examples": [
           "Cursor 0.4x：Background Agent 与多文件自主修改"
         ]
-      },
-      {
-        "name": "Search",
-        "signal": "近 30 天 1 条相关更新",
-        "examples": [
-          "Perplexity 强化 Pro Search：多步推理 + 来源可追溯"
-        ]
-      },
-      {
-        "name": "Reasoning",
-        "signal": "近 30 天 1 条相关更新",
-        "examples": [
-          "Perplexity 强化 Pro Search：多步推理 + 来源可追溯"
-        ]
       }
     ],
     "focusAreas": [
@@ -188,6 +174,18 @@
     ]
   },
   "productUpdates": [
+    {
+      "id": "sig-06daba08af",
+      "title": "从 Atari 到 EVE Online：基于 15 年游戏人工智能研究",
+      "oneLiner": "从雅达利 (Atari) 到《星际争霸》(StarCraft)，游戏推动了人工智能领域的一些最大突破。现在，我们正在与游戏开发商合作，打造新的游戏体验原型，推动游戏和人工智能的发展。",
+      "date": "2026-08-21",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google DeepMind",
+      "tags": [],
+      "stars": 4
+    },
     {
       "id": "sig-027379c084",
       "title": "介绍人工智能期货",
@@ -467,23 +465,674 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-1e5183cd6f",
-      "title": "借助构建，云端智能体启动速度提升 3 倍 · Cursor",
-      "oneLiner": "智能体在准备就绪的环境中启动时，能够发挥最佳表现：仓库已克隆、依赖项已安装，安装脚本也已运行。",
-      "date": "2026-08-13",
-      "productIds": [
-        "cursor"
-      ],
-      "source": "Cursor",
-      "tags": [
-        "Release"
-      ],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-31820cf2de",
+      "title": "Ora 如何在 Vercel 上对每个主要 AI 代理进行基准测试 |客户 |韦尔塞尔",
+      "oneLiner": "将链接复制到标题 Ora on Vercel 一个平台上的前端、后端和代理运行时",
+      "summary": {
+        "oneSentence": "将链接复制到标题 Ora on Vercel 一个平台上的前端、后端和代理运行时",
+        "bullets": [
+          "将链接复制到标题 Ora on Vercel 一个平台上的前端、后端和代理运行时",
+          "每个主要代理都在现场进行并排测试",
+          "16 人的工程团队每天进行数百次提交",
+          "Ora 将代理发送到实时网站，并提供注册产品、集成产品和付款的说明。代理经常会失败，根据 Ora 的估计，99% 的网络还没有为代理做好准备。该平台向客户展示代理失败的地点和原因，以及需要改变的内容。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：将链接复制到标题 Ora on Vercel 一个平台上的前端、后端和代理运行时",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/how-ora-benchmarks-every-major-ai-agent-on-vercel"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "将链接复制到标题 Ora on Vercel 一个平台上的前端、后端和代理运行时",
+        "每个主要代理都在现场进行并排测试",
+        "16 人的工程团队每天进行数百次提交",
+        "Ora 将代理发送到实时网站，并提供注册产品、集成产品和付款的说明。代理经常会失败，根据 Ora 的估计，99% 的网络还没有为代理做好准备。该平台向客户展示代理失败的地点和原因，以及需要改变的内容。",
+        "Ora 联合创始人阿萨夫·埃洛维奇 (Assaf Elovic) 花了数年时间帮助代理商发现网络。他之前的公司 Tavily 为人工智能代理构建了一个网络搜索引擎，并于今年早些时候被 Nebius 收购。搜索解决了一半的问题，但找到产品的代理商仍然必须实际使用它。他和联合创始人利亚德·约瑟夫 (Liad Yosef) 创办了 Ora，旨在衡量网络对代理的准备程度，并修复尚未准备就绪的部分。",
+        "如今，这意味着要针对来自旅程.ora.ai 的实时客户站点生成代理，Ora 在其中运行旅程并记录代理完成任务所需的成本、延迟和步骤。该平台在 Vercel 上运行，包括代理运行时。",
+        "复制链接到标题 并排对每个主要代理进行基准测试 复制链接到标题 每个工具都期望有自己的基础设施 代理分解为两部分：一个模型，用于进行推理；以及一个工具，它是为模型提供工具并逐步驱动模型的软件。 Ora 的产品阵容涵盖了客户最常使用的代理：Claude Code、ChatGPT、Gemini、Hermes、OpenClaw 以及 Vercel 的代理框架 eve。 Ora 在客户的网站上运行每个代理，并观察它如何处理常见的工作流程。",
+        "没有两个线束需要相同的基础设施。每个都期望有自己的环境并以不同的方式公开其步骤，因此 Ora 为每个工具运行单独的运行时并跟踪每个步骤。 Ora 工程部门的负责人 Ido Finder 称这种并行覆盖是 ora 为客户带来的最有价值的东西之一。",
+        "当代理在注册流程中停滞时，客户会看到哪个步骤以及尝试了什么。没有痕迹，结果就是一个没有任何内容的分数。",
+        "将链接复制到标题 每个线束下都有一个平台 Ora 完全在 Vercel 上构建了此测试系统。前端、后端和代理运行时共享相同的部署路径、日志和身份验证。代理运行时不是单独运行的基础设施；它位于产品其余部分所在的位置。"
+      ],
+      "highlights": [
+        "将链接复制到标题 Ora on Vercel 一个平台上的前端、后端和代理运行时",
+        "每个主要代理都在现场进行并排测试",
+        "16 人的工程团队每天进行数百次提交"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How Ora benchmarks every major AI agent on Vercel | Customers | Vercel",
+      "originalLang": "en",
+      "date": "2026-08-21",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/how-ora-benchmarks-every-major-ai-agent-on-vercel",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How Ora benchmarks every major AI agent on Vercel | Customers | Vercel"
+      },
+      "raw": {
+        "title": "How Ora benchmarks every major AI agent on Vercel",
+        "url": "https://vercel.com/blog/how-ora-benchmarks-every-major-ai-agent-on-vercel",
+        "fetched": true,
+        "savedAt": "2026-08-22T00:54:02.322Z"
+      }
+    },
+    {
+      "id": "sig-06daba08af",
+      "title": "从 Atari 到 EVE Online：基于 15 年游戏人工智能研究",
+      "oneLiner": "从雅达利 (Atari) 到《星际争霸》(StarCraft)，游戏推动了人工智能领域的一些最大突破。现在，我们正在与游戏开发商合作，打造新的游戏体验原型，推动游戏和人工智能的发展。",
+      "summary": {
+        "oneSentence": "从雅达利 (Atari) 到《星际争霸》(StarCraft)，游戏推动了人工智能领域的一些最大突破。现在，我们正在与游戏开发商合作，打造新的游戏体验原型，推动游戏和人工智能的发展。",
+        "bullets": [
+          "从雅达利 (Atari) 到《星际争霸》(StarCraft)，游戏推动了人工智能领域的一些最大突破。现在，我们正在与游戏开发商合作，打造新的游戏体验原型，推动游戏和人工智能的发展。",
+          "自 DeepMind 于 2010 年成立以来，有限但丰富的游戏世界在理解智能方面发挥了关键作用。它们推动了我们一些最大的人工智能突破，从掌握 Atari 到帮助解决蛋白质结构预测 - 它们仍然是我们工作的核心。",
+          "游戏是 GDM 的基因。 Demis Hassabis 是 Google DeepMind 的创始人之一，他本人也是一名前游戏开发者，GDM 团队中的许多人也是如此。我们在游戏开发方面拥有数十年的实践经验，并对游戏制作工艺怀有深深的敬意。",
+          "我们一直很清楚，用游戏进行人工智能研究需要与游戏开发商建立深入的合作关系——比如我们与 Fenris Creations 和今年早些时候推出的 EVE Universe 的主要新研究合作伙伴关系，以及我们与 Hello Games、Coffee Stain Studios、Foulball Hangover 等广受好评"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google DeepMind 官网发布：从雅达利 (Atari) 到《星际争霸》(StarCraft)，游戏推动了人工智能领域的一些最大突破。现在，我们正在与游戏开发商合作，打造新的游戏体验原型，推动游戏和人工智能的发展。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "从雅达利 (Atari) 到《星际争霸》(StarCraft)，游戏推动了人工智能领域的一些最大突破。现在，我们正在与游戏开发商合作，打造新的游戏体验原型，推动游戏和人工智能的发展。",
+        "自 DeepMind 于 2010 年成立以来，有限但丰富的游戏世界在理解智能方面发挥了关键作用。它们推动了我们一些最大的人工智能突破，从掌握 Atari 到帮助解决蛋白质结构预测 - 它们仍然是我们工作的核心。",
+        "游戏是 GDM 的基因。 Demis Hassabis 是 Google DeepMind 的创始人之一，他本人也是一名前游戏开发者，GDM 团队中的许多人也是如此。我们在游戏开发方面拥有数十年的实践经验，并对游戏制作工艺怀有深深的敬意。",
+        "我们一直很清楚，用游戏进行人工智能研究需要与游戏开发商建立深入的合作关系——比如我们与 Fenris Creations 和今年早些时候推出的 EVE Universe 的主要新研究合作伙伴关系，以及我们与 Hello Games、Coffee Stain Studios、Foulball Hangover 等广受好评的工作室合作完成的工作。",
+        "我们的旅程始于一个小团队训练深度神经网络直接从原始像素玩 Atari 2600 游戏。 Deep Q-Network (DQN) 学会了玩 49 种不同的游戏——从 Pong 到 Breakout 到 Space Invaders——无需任何特定于游戏的工程。 2015 年《自然》杂志上有关 DQN 的论文帮助推动了深度强化学习的现代时代。",
+        "从那时起，我们尝试掌握更复杂的游戏，每个里程碑都会产生更强大和更通用的系统。 AlphaGo 在 2016 年击败了世界围棋冠军李世石，许多专家认为这一壮举还需要十年的时间。 AlphaGo Zero 完全通过自我对弈学习，完全没有人类数据，从而超越了之前的所有版本。 AlphaZero 将这种方法推广到用一种算法来掌握国际象棋、将棋和围棋，而 MuZero 甚至在不知道规则的情况下就学会了下棋。 2019 年，AlphaStar 在《星际争霸 II》中达到了大师级别，能够应对实时复杂性和不完美信息。",
+        "对于每一款游戏，人工智能都丰富了游戏体验。 AlphaGo著名的第37步棋出乎意料，以至于专业评论员最初认为这是一个错误，颠覆了围棋几个世纪以来的公认智慧，并激励专家探索新的策略。 AlphaZero 同样激发了国际象棋中全新的玩法。至关重要的是，游戏中成功的探索精神对其他人工智能系统产生了深远的影响：AlphaFold 应用这些基础来帮助解决蛋白质结构预测的 50 年来的重大挑战，这一突破获得了 2024 年诺贝尔化学奖。",
+        "我们早期的工作表明，只要有明确的目标和足够的训练，人工智能就可以掌握任何游戏。但现实世界并没有分数和规则手册——这让我们提出了一个根本不同的问题：人工智能能否像人那样理解任何游戏世界并与之互动？",
+        "这是我们的可扩展、可指导的多世界代理 SIMA 背后的挑战。 SIMA 并不是为了获得高分而进行优化，而是一个多面手代理，它可以“看到”玩家在屏幕上看到的内容，理解自然语言指令，并通过普通键盘和鼠标控制进行操作，无需 API 或源代码访问。",
+        "SIMA 2 由我们的前沿人工智能模型 Gemini 提供支持，可充当能够实时推理和对话的交互式伴侣。它可以在复杂的 3D 研究环境和视频游戏（包括《No Man's Sky》、《Valheim》、《Hydroneer》等）中实现类似人类的游戏。"
+      ],
+      "highlights": [
+        "从雅达利 (Atari) 到《星际争霸》(StarCraft)，游戏推动了人工智能领域的一些最大突破。现在，我们正在与游戏开发商合作，打造新的游戏体验原型，推动",
+        "自 DeepMind 于 2010 年成立以来，有限但丰富的游戏世界在理解智能方面发挥了关键作用。它们推动了我们一些最大的人工智能突破，从掌握 Atari 到帮",
+        "游戏是 GDM 的基因。 Demis Hassabis 是 Google DeepMind 的创始人之一，他本人也是一名前游戏开发者，GDM 团队中的许多人也是"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+      "originalLang": "en",
+      "date": "2026-08-21",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google DeepMind",
+        "author": "DeepMind",
+        "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+        "home": "https://deepmind.google/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "From Atari to EVE Online: Building on 15 Years of AI Research in Games"
+      },
+      "raw": {
+        "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+        "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+        "fetched": true,
+        "savedAt": "2026-08-22T00:54:09.406Z"
+      }
+    },
+    {
+      "id": "sig-06e8632196",
+      "title": "部署存储让您的​​部署做好回滚准备 - Vercel",
+      "oneLiner": "每次部署都会生成一组文件，包括 Vercel 提供的页面、函数和资产。部署存储使这些文件保持可用，以便您可以检查以前的部署并在需要时回滚。",
+      "summary": {
+        "oneSentence": "每次部署都会生成一组文件，包括 Vercel 提供的页面、函数和资产。部署存储使这些文件保持可用，以便您可以检查以前的部署并在需要时回滚。",
+        "bullets": [
+          "每次部署都会生成一组文件，包括 Vercel 提供的页面、函数和资产。部署存储使这些文件保持可用，以便您可以检查以前的部署并在需要时回滚。",
+          "在几秒钟内立即回滚到之前的部署",
+          "如果生产部署出现错误或您想要撤消的更改，则回滚可在几秒钟内恢复以前的版本。打开您的项目，单击“生产部署”磁贴上的“即时回滚”，然后选择较早的生产部署。 Vercel 会立即将您的域重新指向该部署，无需重建。",
+          "部署存储按每月每 GB 0.10 美元计费"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：每次部署都会生成一组文件，包括 Vercel 提供的页面、函数和资产。部署存储使这些文件保持可用，以便您可以检查以前的部署并在需要时回滚。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/deployment-storage-keeps-your-deployments-rollback-ready"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "每次部署都会生成一组文件，包括 Vercel 提供的页面、函数和资产。部署存储使这些文件保持可用，以便您可以检查以前的部署并在需要时回滚。",
+        "在几秒钟内立即回滚到之前的部署",
+        "如果生产部署出现错误或您想要撤消的更改，则回滚可在几秒钟内恢复以前的版本。打开您的项目，单击“生产部署”磁贴上的“即时回滚”，然后选择较早的生产部署。 Vercel 会立即将您的域重新指向该部署，无需重建。",
+        "部署存储按每月每 GB 0.10 美元计费",
+        "现有团队继续采用当前定价，目前账单没有变化。",
+        "控制您保留多少部署存储：",
+        "编辑部署保留策略以设置预生产、生产、已取消和错误部署保持可用的时间。较短的保留意味着较少的存储空间，但您无法回滚到已删除的部署",
+        "使用页面按项目显示部署存储和功能存储",
+        "通过修剪输出目录、将大文件移动到 Vercel Blob 以及减小函数包大小，使未来的部署更小",
+        "在此处了解有关部署存储的更多信息。"
+      ],
+      "highlights": [
+        "每次部署都会生成一组文件，包括 Vercel 提供的页面、函数和资产。部署存储使这些文件保持可用，以便您可以检查以前的部署并在需要时回滚。",
+        "在几秒钟内立即回滚到之前的部署",
+        "如果生产部署出现错误或您想要撤消的更改，则回滚可在几秒钟内恢复以前的版本。打开您的项目，单击“生产部署”磁贴上的“即时回滚”，然后选择较早的生产部署。 Verc"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Deployment Storage keeps your deployments rollback-ready - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-21",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/deployment-storage-keeps-your-deployments-rollback-ready",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Deployment Storage keeps your deployments rollback-ready - Vercel"
+      },
+      "raw": {
+        "title": "Deployment Storage keeps your deployments rollback-ready",
+        "url": "https://vercel.com/changelog/deployment-storage-keeps-your-deployments-rollback-ready",
+        "fetched": true,
+        "savedAt": "2026-08-22T00:54:21.175Z"
+      }
+    },
+    {
+      "id": "sig-084c45658e",
+      "title": "Vercel CLI 扩展了对 DNS、域和项目命令的支持 - Vercel",
+      "oneLiner": "Vercel CLI 现在提供用于管理 DNS 记录、域和项目的专用命令。这将通过 Vercel 仪表板和 API 提供给终端的更多功能，可以在脚本中或由代理以交互方式使用。",
+      "summary": {
+        "oneSentence": "Vercel CLI 现在提供用于管理 DNS 记录、域和项目的专用命令。这将通过 Vercel 仪表板和 API 提供给终端的更多功能，可以在脚本中或由代理以交互方式使用。",
+        "bullets": [
+          "Vercel CLI 现在提供用于管理 DNS 记录、域和项目的专用命令。这将通过 Vercel 仪表板和 API 提供给终端的更多功能，可以在脚本中或由代理以交互方式使用。",
+          "将链接复制到标题 检查和更新 DNS 记录 检索 DNS 记录的完整配置或使用其记录 ID 对其进行更新。",
+          "vercel dns 更新支持更改记录名称、类型、值、TTL、MX 优先级和注释。 SRV 记录还可以使用其优先级、权重、端口和目标字段进行更新。",
+          "将链接复制到标题续订在 Vercel 上购买的域名 按需续订域名或控制是否自动续订。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel CLI 现在提供用于管理 DNS 记录、域和项目的专用命令。这将通过 Vercel 仪表板和 API 提供给终端的更多功能，可以在脚本中或由代理以交互方式使用。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-cli-expands-support-for-dns-domains-and-project-commands"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel CLI 现在提供用于管理 DNS 记录、域和项目的专用命令。这将通过 Vercel 仪表板和 API 提供给终端的更多功能，可以在脚本中或由代理以交互方式使用。",
+        "将链接复制到标题 检查和更新 DNS 记录 检索 DNS 记录的完整配置或使用其记录 ID 对其进行更新。",
+        "vercel dns 更新支持更改记录名称、类型、值、TTL、MX 优先级和注释。 SRV 记录还可以使用其优先级、权重、端口和目标字段进行更新。",
+        "将链接复制到标题续订在 Vercel 上购买的域名 按需续订域名或控制是否自动续订。",
+        "续订命令显示当前续订价格并在完成购买之前要求确认。",
+        "将链接复制到标题 控制项目状态和可观察性 暂停或恢复项目并直接从 CLI 配置其可观察性功能。 Web Analytics 和 Speed Insights 已经可以从 CLI 启用；现在也可以禁用它们。",
+        "将链接复制到标题 添加和删除项目成员 添加具有特定角色的项目成员或删除现有成员。",
+        "所有新命令都支持脚本和代理的结构化 JSON 输出。可计费或破坏性行为需要明确确认。",
+        "更新到最新版本的 Vercel CLI 即可开始使用：",
+        "请参阅 Vercel CLI 文档了解更多信息。"
+      ],
+      "highlights": [
+        "Vercel CLI 现在提供用于管理 DNS 记录、域和项目的专用命令。这将通过 Vercel 仪表板和 API 提供给终端的更多功能，可以在脚本中或由代理以",
+        "将链接复制到标题 检查和更新 DNS 记录 检索 DNS 记录的完整配置或使用其记录 ID 对其进行更新。",
+        "vercel dns 更新支持更改记录名称、类型、值、TTL、MX 优先级和注释。 SRV 记录还可以使用其优先级、权重、端口和目标字段进行更新。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel CLI expands support for DNS, domains, and project commands - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-21",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-cli-expands-support-for-dns-domains-and-project-commands",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel CLI expands support for DNS, domains, and project commands - Vercel"
+      },
+      "raw": {
+        "title": "Vercel CLI expands support for DNS, domains, and project commands",
+        "url": "https://vercel.com/changelog/vercel-cli-expands-support-for-dns-domains-and-project-commands",
+        "fetched": true,
+        "savedAt": "2026-08-22T00:54:32.262Z"
+      }
+    },
+    {
+      "id": "sig-2fb9ce914e",
+      "title": "GPT-5.6 Sol 现在价格更低 50% - Vercel",
+      "oneLiner": "OpenAI 降低了 GPT-5.6 Sol 的标价，并且 50% AI Gateway 折扣现在适用于 9 月 18 日之前的新的较低价格。输入下降 20%，输出下降三分之一。",
+      "summary": {
+        "oneSentence": "OpenAI 降低了 GPT-5.6 Sol 的标价，并且 50% AI Gateway 折扣现在适用于 9 月 18 日之前的新的较低价格。输入下降 20%，输出下降三分之一。",
+        "bullets": [
+          "OpenAI 降低了 GPT-5.6 Sol 的标价，并且 50% AI Gateway 折扣现在适用于 9 月 18 日之前的新的较低价格。输入下降 20%，输出下降三分之一。",
+          "折扣适用于每个 OpenAI 服务级别：",
+          "对于最多 272K 代币的请求，费率按每百万代币计算。缓存令牌、缓存写入、272K 以上的长上下文请求以及美国区域速率均按相同比例变化。有关所有型号的价格，请参阅定价页面。",
+          "型号 ID 未更改，因此要求您已自动以新价格发送账单。 BYOK 通过 OpenAI 按您自己的费率请求账单。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：OpenAI 降低了 GPT-5.6 Sol 的标价，并且 50% AI Gateway 折扣现在适用于 9 月 18 日之前的新的较低价格。输入下降 20%，输出下降三分之一。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/gpt-5-6-sol-is-now-50-percent-off-a-lower-price"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "OpenAI 降低了 GPT-5.6 Sol 的标价，并且 50% AI Gateway 折扣现在适用于 9 月 18 日之前的新的较低价格。输入下降 20%，输出下降三分之一。",
+        "折扣适用于每个 OpenAI 服务级别：",
+        "对于最多 272K 代币的请求，费率按每百万代币计算。缓存令牌、缓存写入、272K 以上的长上下文请求以及美国区域速率均按相同比例变化。有关所有型号的价格，请参阅定价页面。",
+        "型号 ID 未更改，因此要求您已自动以新价格发送账单。 BYOK 通过 OpenAI 按您自己的费率请求账单。",
+        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText ({ 4 model: 'openai/gpt-5.6-sol', 5prompt: '调查失败的测试并打开 PR 并进行修复。', 6 }) ;相同的 AI SDK 调用，但速率较低。",
+        "要在编码代理中使用 Sol，请运行 vercel ai-gatewaycoding-agents setup 将代理连接到 AI Gateway，然后在代理的模型设置中选择 openai/gpt-5.6-sol。有关设置详细信息，请参阅编码代理指南。",
+        "在 Playground 上尝试一下，或者浏览 AI Gateway 上的每种语言模型。"
+      ],
+      "highlights": [
+        "OpenAI 降低了 GPT-5.6 Sol 的标价，并且 50% AI Gateway 折扣现在适用于 9 月 18 日之前的新的较低价格。输入下降 20%，",
+        "折扣适用于每个 OpenAI 服务级别：",
+        "对于最多 272K 代币的请求，费率按每百万代币计算。缓存令牌、缓存写入、272K 以上的长上下文请求以及美国区域速率均按相同比例变化。有关所有型号的价格，请参"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "GPT-5.6 Sol is now 50% off a lower price - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-21",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/gpt-5-6-sol-is-now-50-percent-off-a-lower-price",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "GPT-5.6 Sol is now 50% off a lower price - Vercel"
+      },
+      "raw": {
+        "title": "GPT-5.6 Sol is now 50% off a lower price",
+        "url": "https://vercel.com/changelog/gpt-5-6-sol-is-now-50-percent-off-a-lower-price",
+        "fetched": true,
+        "savedAt": "2026-08-22T00:54:42.313Z"
+      }
+    },
+    {
+      "id": "sig-1c4006ddea",
+      "title": "DeepSeek V4 Flash Vision Experimental 现已在 AI Gateway 上推出 - Vercel",
+      "oneLiner": "具有视觉功能的 DeepSeek V4 Flash 现已在 AI Gateway 上提供。",
+      "summary": {
+        "oneSentence": "具有视觉功能的 DeepSeek V4 Flash 现已在 AI Gateway 上提供。",
+        "bullets": [
+          "具有视觉功能的 DeepSeek V4 Flash 现已在 AI Gateway 上提供。",
+          "该模型是一个实验版本，可以接受图像和文本。您可以要求它描述图片，从屏幕截图中读取文本，或者在与提示相同的请求中处理图表。 DeepSeek V4 Flash Vision Experimental 现已在 AI Gateway 上提供。工具使用、推理和缓存的工作方式都与以前相同。",
+          "使用 deepseek/deepseek-v4-flash-vision-exp 开始：",
+          "1 从 'ai' 导入 {generateText} ； 2 从 'node:fs' 导入 fs ； 3 4 const { text } =等待generateText ( { 5 model : 'deepseek/deepseek-v4-flash-vision-exp' , 6 messages : [ 7 {"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：具有视觉功能的 DeepSeek V4 Flash 现已在 AI Gateway 上提供。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/deepseek-v4-flash-with-vision-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "具有视觉功能的 DeepSeek V4 Flash 现已在 AI Gateway 上提供。",
+        "该模型是一个实验版本，可以接受图像和文本。您可以要求它描述图片，从屏幕截图中读取文本，或者在与提示相同的请求中处理图表。 DeepSeek V4 Flash Vision Experimental 现已在 AI Gateway 上提供。工具使用、推理和缓存的工作方式都与以前相同。",
+        "使用 deepseek/deepseek-v4-flash-vision-exp 开始：",
+        "1 从 'ai' 导入 {generateText} ； 2 从 'node:fs' 导入 fs ； 3 4 const { text } =等待generateText ( { 5 model : 'deepseek/deepseek-v4-flash-vision-exp' , 6 messages : [ 7 { 8 role : 'user' , 9 content : [ 10 { type : 'text' , text : '这张截图里有什么？' } , 11 { 12 type : 'file' , 13 mediaType : 'image/png' , 14 data : fs . readFileSync ( './example.png' ) , 15 } , 16 ] , 17 } , 18 ] , 19 } );",
+        "图像可以是 JPEG、PNG、GIF 或 WebP。该格式是从文件自己的字节读取的，而不是从文件的名称或您声明的媒体类型中读取的，因此标签错误的文件仍然会通过。",
+        "模型 ID 中的 -exp 将其标记为实验版本。预计行为会发生变化，并在生产路径上保留备用模型的配置。",
+        "要在编码代理中使用它，请运行 vercel ai-gatewaycoding-agents setup 以连接 Claude Code、Codex、OpenCode、Cursor 和 Pi 等代理，然后在代理内选择 deepseek/deepseek-v4-flash-vision-exp。",
+        "在模型游乐场中尝试 Deepseek V4 Flash Vision Experimental。",
+        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括 BYOK 请求）收取平台费用。查看 AI Gateway 上的所有语言模型以了解更多信息。"
+      ],
+      "highlights": [
+        "具有视觉功能的 DeepSeek V4 Flash 现已在 AI Gateway 上提供。",
+        "该模型是一个实验版本，可以接受图像和文本。您可以要求它描述图片，从屏幕截图中读取文本，或者在与提示相同的请求中处理图表。 DeepSeek V4 Flash V",
+        "使用 deepseek/deepseek-v4-flash-vision-exp 开始："
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "DeepSeek V4 Flash Vision Experimental now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-21",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/deepseek-v4-flash-with-vision-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "DeepSeek V4 Flash Vision Experimental now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "DeepSeek V4 Flash Vision Experimental now available on AI Gateway",
+        "url": "https://vercel.com/changelog/deepseek-v4-flash-with-vision-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-08-22T00:54:53.233Z"
+      }
+    },
+    {
+      "id": "sig-cc41a8d849",
+      "title": "将 v0 应用程序连接到 Slack、Google 和 100 多个其他服务 - Vercel",
+      "oneLiner": "v0 中内置的应用程序和代理现在可以通过 Vercel Connect 安全地连接到 100 多个第三方服务，包括 Slack、Google、Notion、GitHub 和 Salesforce。",
+      "summary": {
+        "oneSentence": "v0 中内置的应用程序和代理现在可以通过 Vercel Connect 安全地连接到 100 多个第三方服务，包括 Slack、Google、Notion、GitHub 和 Salesforce。",
+        "bullets": [
+          "v0 中内置的应用程序和代理现在可以通过 Vercel Connect 安全地连接到 100 多个第三方服务，包括 Slack、Google、Notion、GitHub 和 Salesforce。",
+          "提示 v0 将您的应用程序连接到服务，它会引导您为其设置连接器。",
+          "连接器属于您的团队，因此您只需设置一次即可在应用程序中重复使用它。",
+          "对于 Slack 和 GitHub 等某些连接器，Vercel 负责处理应用程序注册，因此提供商方面无需进行任何设置。对于其他服务，您可以提供自己的凭据。无论哪种方式，每个连接都会生成一个短期令牌，因此没有需要存储或轮换的长期秘密。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：v0 中内置的应用程序和代理现在可以通过 Vercel Connect 安全地连接到 100 多个第三方服务，包括 Slack、Google、Notion、GitHub 和 Salesforce。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/connect-v0-apps-to-slack-google-and-100-other-services"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "v0 中内置的应用程序和代理现在可以通过 Vercel Connect 安全地连接到 100 多个第三方服务，包括 Slack、Google、Notion、GitHub 和 Salesforce。",
+        "提示 v0 将您的应用程序连接到服务，它会引导您为其设置连接器。",
+        "连接器属于您的团队，因此您只需设置一次即可在应用程序中重复使用它。",
+        "对于 Slack 和 GitHub 等某些连接器，Vercel 负责处理应用程序注册，因此提供商方面无需进行任何设置。对于其他服务，您可以提供自己的凭据。无论哪种方式，每个连接都会生成一个短期令牌，因此没有需要存储或轮换的长期秘密。",
+        "借助 v0 和 Vercel Connect，KERNEL 团队的 Danny 构建了一个语音驱动的浏览器代理，该代理使用即时生成的 Playwright 代码来驱动真正的浏览器。我们构建了一个个人仪表板，在一个视图中包含 Slack 消息、Gmail 收件箱和线性问题，以及需要注意的内容的摘要。",
+        "为我构建一个个人仪表板，将 Slack 消息、Gmail 收件箱和线性票证整合到一个视图中，并提供重要通知的摘要。根据是否有人在等我来对项目进行排名，例如直接提及、向我提出的问题、分配给我的即将到期日的问题以及我所在的已安静的线程。对于每一项，显示其出现的一行原因以及返回源的链接。"
+      ],
+      "highlights": [
+        "v0 中内置的应用程序和代理现在可以通过 Vercel Connect 安全地连接到 100 多个第三方服务，包括 Slack、Google、Notion、Gi",
+        "提示 v0 将您的应用程序连接到服务，它会引导您为其设置连接器。",
+        "连接器属于您的团队，因此您只需设置一次即可在应用程序中重复使用它。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Connect v0 apps to Slack, Google, and 100+ other services - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-21",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/connect-v0-apps-to-slack-google-and-100-other-services",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Connect v0 apps to Slack, Google, and 100+ other services - Vercel"
+      },
+      "raw": {
+        "title": "Connect v0 apps to Slack, Google, and 100+ other services",
+        "url": "https://vercel.com/changelog/connect-v0-apps-to-slack-google-and-100-other-services",
+        "fetched": true,
+        "savedAt": "2026-08-22T00:55:01.797Z"
+      }
+    },
+    {
+      "id": "sig-f4e2f94b8b",
+      "title": "始终在线跟踪生产和预览流量 - Vercel",
+      "oneLiner": "通过始终在线跟踪，您现在可以调试真实的用户请求，而无需重现它们。",
+      "summary": {
+        "oneSentence": "通过始终在线跟踪，您现在可以调试真实的用户请求，而无需重现它们。",
+        "bullets": [
+          "通过始终在线跟踪，您现在可以调试真实的用户请求，而无需重现它们。",
+          "始终在线跟踪持续收集生产和预览流量的跟踪。与会话跟踪不同，会话跟踪仅捕获来自您自己的浏览器的请求，它对您的实时流量进行采样。",
+          "您可以通过采样规则控制收集的内容。每个规则设置一个环境（全部、生产或预览）的跟踪率，可以选择将范围限定为 /checkout 等路径前缀。在您添加规则之前，不会收集任何内容，因此您只需为选择跟踪的内容付费。",
+          "自动捕获基础设施和出站获取范围。要添加框架和自定义跨度，请使用 @vercel/otel 检测您的应用程序。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：通过始终在线跟踪，您现在可以调试真实的用户请求，而无需重现它们。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/always-on-tracing-for-production-and-preview-traffic"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "通过始终在线跟踪，您现在可以调试真实的用户请求，而无需重现它们。",
+        "始终在线跟踪持续收集生产和预览流量的跟踪。与会话跟踪不同，会话跟踪仅捕获来自您自己的浏览器的请求，它对您的实时流量进行采样。",
+        "您可以通过采样规则控制收集的内容。每个规则设置一个环境（全部、生产或预览）的跟踪率，可以选择将范围限定为 /checkout 等路径前缀。在您添加规则之前，不会收集任何内容，因此您只需为选择跟踪的内容付费。",
+        "自动捕获基础设施和出站获取范围。要添加框架和自定义跨度，请使用 @vercel/otel 检测您的应用程序。",
+        "要查看跟踪，请打开日志或运行 vercel traces get <request-id> 。",
+        "始终在线跟踪现已处于测试阶段，所有计划的团队都可以使用。跟踪定价为每 100 万跨度单位 0.50 美元。跟踪会跟随您的运行时日志保留：Hobby 为 1 小时，Pro 为 1 天，Enterprise 为 3 天。",
+        "首先在“设置”→“跟踪”中添加规则，或从“日志”中的设置图标添加规则。在文档中了解更多信息。"
+      ],
+      "highlights": [
+        "通过始终在线跟踪，您现在可以调试真实的用户请求，而无需重现它们。",
+        "始终在线跟踪持续收集生产和预览流量的跟踪。与会话跟踪不同，会话跟踪仅捕获来自您自己的浏览器的请求，它对您的实时流量进行采样。",
+        "您可以通过采样规则控制收集的内容。每个规则设置一个环境（全部、生产或预览）的跟踪率，可以选择将范围限定为 /checkout 等路径前缀。在您添加规则之前，不会"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Always-on tracing for production and preview traffic - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-21",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/always-on-tracing-for-production-and-preview-traffic",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Always-on tracing for production and preview traffic - Vercel"
+      },
+      "raw": {
+        "title": "Always-on tracing for production and preview traffic",
+        "url": "https://vercel.com/changelog/always-on-tracing-for-production-and-preview-traffic",
+        "fetched": true,
+        "savedAt": "2026-08-22T00:55:10.572Z"
+      }
+    },
     {
       "id": "sig-38119b55b5",
       "title": "视线第 2 期：领导者需要了解的有关建筑代理的知识 | Figma 博客",
@@ -1696,7 +2345,7 @@
         "url": "https://cursor.com/changelog/08-19-26",
         "fetched": true,
         "savedAt": "2026-08-20T00:54:20.982Z",
-        "retranslatedAt": "2026-08-21T00:58:37.150Z"
+        "retranslatedAt": "2026-08-22T00:55:36.111Z"
       }
     },
     {
@@ -2860,6 +3509,174 @@
       }
     },
     {
+      "id": "sig-a9a3162f52",
+      "title": "Vercel Sandbox CLI 现在对代理更加友好 - Vercel",
+      "oneLiner": "Sandbox CLI 版本 4.0.1 提供了四项输出和错误改进：",
+      "summary": {
+        "oneSentence": "Sandbox CLI 版本 4.0.1 提供了四项输出和错误改进：",
+        "bullets": [
+          "Sandbox CLI 版本 4.0.1 提供了四项输出和错误改进：",
+          "新的沙箱引导用户如何连接到它们。",
+          "未找到沙箱错误显示在哪里查找现有沙箱。",
+          "常见错误，例如在 sh 之后键入命令，重定向到预期的命令。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Sandbox CLI 版本 4.0.1 提供了四项输出和错误改进：",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/the-vercel-sandbox-cli-is-now-more-agent-friendly"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Sandbox CLI 版本 4.0.1 提供了四项输出和错误改进：",
+        "新的沙箱引导用户如何连接到它们。",
+        "未找到沙箱错误显示在哪里查找现有沙箱。",
+        "常见错误，例如在 sh 之后键入命令，重定向到预期的命令。",
+        "过时的安装在创建新沙箱时会显示更新通知。",
+        "现在，每条消息都包含下一步要采取的操作，而不是让您自行解决。",
+        "将链接复制到标题新沙箱告诉您如何连接创建和分叉输出现在以连接提示结束，因此新沙箱永远不会让您想知道接下来要输入什么。",
+        "1 $ sandbox create --name my-sandbox 2 ✅ 已创建沙箱 my-sandbox。 3 │ 团队：my-team 4 │ 项目：my-project 5 ╰ 连接：sandbox ssh my-sandbox",
+        "将链接复制到标题“未找到”错误将您指向沙箱 当命令引用不存在的沙箱时，该错误是安静且可操作的，而不是原始 API 转储。设置 DEBUG=sandbox:errors 可恢复调试的请求详细信息。",
+        "1 $ sandbox connect my-sandbox 2 未找到此项目的名为“my-sandbox”的沙箱。 3 ├▶ 状态码：404 Not Found 4 ╰▶ 提示：运行 sandbox ls --all 查看该项目中的沙箱。"
+      ],
+      "highlights": [
+        "Sandbox CLI 版本 4.0.1 提供了四项输出和错误改进：",
+        "新的沙箱引导用户如何连接到它们。",
+        "未找到沙箱错误显示在哪里查找现有沙箱。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "The Vercel Sandbox CLI is now more agent-friendly - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-18",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/the-vercel-sandbox-cli-is-now-more-agent-friendly",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "The Vercel Sandbox CLI is now more agent-friendly - Vercel"
+      },
+      "raw": {
+        "title": "The Vercel Sandbox CLI is now more agent-friendly",
+        "url": "https://vercel.com/changelog/the-vercel-sandbox-cli-is-now-more-agent-friendly",
+        "fetched": true,
+        "savedAt": "2026-08-22T00:55:22.763Z"
+      }
+    },
+    {
+      "id": "sig-2086be83a8",
+      "title": "GLM 5.3 现已在 AI 网关上可用 - Vercel",
+      "oneLiner": "Z.ai 的 GLM 5.3 现已在 AI Gateway 上提供。",
+      "summary": {
+        "oneSentence": "Z.ai 的 GLM 5.3 现已在 AI Gateway 上提供。",
+        "bullets": [
+          "Z.ai 的 GLM 5.3 现已在 AI Gateway 上提供。",
+          "与 GLM 5.2 相比，GLM 5.3 在复杂的软件工程和跨多个步骤运行的代理任务方面有所改进，并且在达到这些结果的同时，在相同的工作水平下，产生的输出令牌比 GLM 5.2 少。",
+          "Z.ai 还报告了更强大的漏洞发现，包括对漏洞利用链的连续阶段进行推理。 DeepsecBench 直接进行测量，对模型发现应用程序代码中的安全漏洞的可靠性以及运行成本进行评分，并且它涵盖了 GLM-5.3 的高强度和最大强度。",
+          "GLM 5.3 采用文本输入，具有 1M 令牌上下文窗口和最大输出 128K 令牌，两者与 GLM 5.2 相比没有变化。它支持函数调用、结构化输出、流式传输和上下文缓存。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Z.ai 的 GLM 5.3 现已在 AI Gateway 上提供。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/glm-5-3-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Z.ai 的 GLM 5.3 现已在 AI Gateway 上提供。",
+        "与 GLM 5.2 相比，GLM 5.3 在复杂的软件工程和跨多个步骤运行的代理任务方面有所改进，并且在达到这些结果的同时，在相同的工作水平下，产生的输出令牌比 GLM 5.2 少。",
+        "Z.ai 还报告了更强大的漏洞发现，包括对漏洞利用链的连续阶段进行推理。 DeepsecBench 直接进行测量，对模型发现应用程序代码中的安全漏洞的可靠性以及运行成本进行评分，并且它涵盖了 GLM-5.3 的高强度和最大强度。",
+        "GLM 5.3 采用文本输入，具有 1M 令牌上下文窗口和最大输出 128K 令牌，两者与 GLM 5.2 相比没有变化。它支持函数调用、结构化输出、流式传输和上下文缓存。",
+        "要使用该模型，slug 是 zai/glm-5.3 ：",
+        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText({ 4 model: 'zai/glm-5.3', 5prompt: '将错误恢复添加到数据摄取管道。', 6});",
+        "要在编码代理中使用它，请运行 vercel ai-gatewaycoding-agents setup 以连接 Claude Code、Codex、OpenCode、Cursor、Pi 等代理，然后在代理内选择 zai/glm-5.3。",
+        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本，以及配置重试、故障转移和性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、零数据保留支持、API 密钥预算、路由规则等。",
+        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。",
+        "AI Gateway：按使用情况跟踪顶级 AI 模型"
+      ],
+      "highlights": [
+        "Z.ai 的 GLM 5.3 现已在 AI Gateway 上提供。",
+        "与 GLM 5.2 相比，GLM 5.3 在复杂的软件工程和跨多个步骤运行的代理任务方面有所改进，并且在达到这些结果的同时，在相同的工作水平下，产生的输出令牌比",
+        "Z.ai 还报告了更强大的漏洞发现，包括对漏洞利用链的连续阶段进行推理。 DeepsecBench 直接进行测量，对模型发现应用程序代码中的安全漏洞的可靠性以及"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "GLM 5.3 now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-18",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/glm-5-3-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "GLM 5.3 now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "GLM 5.3 now available on AI Gateway",
+        "url": "https://vercel.com/changelog/glm-5-3-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-08-22T00:55:34.745Z"
+      }
+    },
+    {
       "id": "sig-ef87e3b0ab",
       "title": "与 Gemini 和 Pixel 一起近距离接触游戏",
       "oneLiner": "Gemini 和 Pixel 宣布与阿森纳足球俱乐部、巴塞罗那足球俱乐部、拜仁慕尼黑足球俱乐部、利物浦足球俱乐部和巴黎圣日耳曼足球俱乐部建立新的长期合作伙伴关系，通过人工智能个人智能和智能手机技术让球迷更接近比赛。",
@@ -3257,7 +4074,7 @@
         "url": "https://cursor.com/changelog/origin-code-hosting",
         "fetched": true,
         "savedAt": "2026-08-18T00:53:50.883Z",
-        "retranslatedAt": "2026-08-21T00:58:38.080Z"
+        "retranslatedAt": "2026-08-22T00:55:37.301Z"
       }
     },
     {
@@ -4900,7 +5717,7 @@
         "url": "https://cursor.com/changelog/08-13-26",
         "fetched": true,
         "savedAt": "2026-08-14T01:23:26.394Z",
-        "retranslatedAt": "2026-08-21T00:58:39.020Z"
+        "retranslatedAt": "2026-08-22T00:55:38.654Z"
       }
     },
     {
@@ -12562,7 +13379,7 @@
         "url": "https://cursor.com/changelog/google-workspace-plugins",
         "fetched": true,
         "savedAt": "2026-08-03T22:57:50.365Z",
-        "retranslatedAt": "2026-08-21T00:58:40.041Z"
+        "retranslatedAt": "2026-08-22T00:55:39.730Z"
       }
     },
     {
@@ -15927,7 +16744,7 @@
         "url": "https://cursor.com/changelog/ipad",
         "fetched": true,
         "savedAt": "2026-08-02T22:53:52.935Z",
-        "retranslatedAt": "2026-08-21T00:58:41.088Z"
+        "retranslatedAt": "2026-08-22T00:55:40.855Z"
       }
     },
     {
@@ -16842,7 +17659,7 @@
         "url": "https://cursor.com/changelog/cursor-start",
         "fetched": true,
         "savedAt": "2026-08-08T22:25:22.586Z",
-        "retranslatedAt": "2026-08-21T00:58:42.111Z"
+        "retranslatedAt": "2026-08-22T00:55:42.265Z"
       }
     },
     {
