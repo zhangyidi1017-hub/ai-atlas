@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-23T00:58:01.327Z",
+  "updatedAt": "2026-08-24T00:55:49.230Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 304,
+  "itemCount": 314,
   "brief": {
-    "date": "2026-08-23",
-    "generatedAt": "2026-08-23T00:58:01.326Z",
-    "totalCount": 304,
+    "date": "2026-08-24",
+    "generatedAt": "2026-08-24T00:55:49.228Z",
+    "totalCount": 314,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 304 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 314 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -115,8 +115,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-08-23T00:58:01.327Z",
-    "summary": "近 30 天共 252 条 AI 信号。上升趋势：Agent。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-08-24T00:55:49.230Z",
+    "summary": "近 30 天共 261 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -128,18 +128,16 @@
       },
       {
         "name": "Agent",
-        "signal": "近 30 天 2 条相关更新",
+        "signal": "近 30 天 1 条相关更新",
         "examples": [
-          "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排",
-          "Anthropic 推动 MCP：让 Agent 统一连接外部工具与数据源"
+          "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排"
         ]
       },
       {
         "name": "API",
-        "signal": "近 30 天 2 条相关更新",
+        "signal": "近 30 天 1 条相关更新",
         "examples": [
-          "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排",
-          "Anthropic 推动 MCP：让 Agent 统一连接外部工具与数据源"
+          "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排"
         ]
       },
       {
@@ -148,23 +146,13 @@
         "examples": [
           "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排"
         ]
-      },
-      {
-        "name": "MCP",
-        "signal": "近 30 天 1 条相关更新",
-        "examples": [
-          "Anthropic 推动 MCP：让 Agent 统一连接外部工具与数据源"
-        ]
       }
     ],
     "focusAreas": [
       "Agent",
-      "MCP",
       "Workflow"
     ],
-    "risingTags": [
-      "Agent"
-    ]
+    "risingTags": []
   },
   "productUpdates": [
     {
@@ -461,6 +449,142 @@
     }
   ],
   "items": [
+    {
+      "id": "sig-fc0f17557a",
+      "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
+      "oneLiner": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive A few interesting numbe",
+      "summary": {
+        "oneSentence": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive A few interesting numbers in this FT story ",
+        "bullets": [
+          "Anthropic’s best AI model struggles to attract users as cheaper tools thrive A few interesting numbers in this FT story gathered from \"people with knowledge of the matter\": Anthropic's \"annualized rev"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Anthropic’s best AI model struggles to attract users as cheaper tools thrive A few interesting numbers in this FT story gathered from \"people with knowledge of the matter\": Anthropic's \"annualized revenue\" for July is up to $65bn - it was $47bn in May, and I collected more historic numbers here . Anthropic expect Q3 to be profitable according to the same model they used to declare Q2 profitable. \"It also told investors that it had 6,000 customers that spend $100,000 annually or more.\" As for OpenAI, \"annualised revenue has jumped 35 per cent in the quarter to date and is now over $40bn, with the launch of GPT 5.6 in July jolting the company’s performance after a sluggish start to the year\". This article also introduced me to the Ramp AI index , which uses billing data from 70,000 Ramp credit card using companies to estimate model adoption. Here's Ramp's breakdown of Anthropic model spend for July 2026, which looks reasonable given that Opus 5 was only released on July 24th, and supports the idea that Fable's cost has made it a less popular model: Opus 4.8: 28.0% Sonnet 4.6: 8.3% Fable 5: 8.0% Opus 4.6: 6.9% Sonnet 5: 3.6% Opus 5: 3.5% Opus 4.7: 1.7% Sonnet 4.5: 1.3% Haiku 4.5: 1.0% Opus 4.5: 0.7% Via Hacker News Tags: ai , openai , generative-ai , llms , anthropic , claude , claude-mythos-fable"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
+      "originalLang": "en",
+      "date": "2026-08-23",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive"
+      },
+      "raw": {
+        "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
+        "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
+        "fetched": false,
+        "savedAt": "2026-08-24T00:55:33.953Z"
+      }
+    },
+    {
+      "id": "sig-0e890f2df3",
+      "title": "Quoting Drew Breunig",
+      "oneLiner": "Prior to Fable, it felt silly to waste too much time improving your coding harness or context strate",
+      "summary": {
+        "oneSentence": "Prior to Fable, it felt silly to waste too much time improving your coding harness or context strategies. A new model wo",
+        "bullets": [
+          "Prior to Fable, it felt silly to waste too much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Aug/23/drew-breunig/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Prior to Fable, it felt silly to waste too much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems. But then Fable landed. It was (and still is!) incredible . But the cost was so high and Opus was good enough (as was 5.6, K3, and even GLM) for most of the code we needed. So we started to think about what work went where. &mdash; Drew Breunig , Fable & The End of the Free Lunch Tags: drew-breunig , anthropic , claude , llm-pricing , ai , llms , generative-ai , claude-mythos-fable"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Quoting Drew Breunig",
+      "originalLang": "en",
+      "date": "2026-08-23",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/23/drew-breunig/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Quoting Drew Breunig"
+      },
+      "raw": {
+        "title": "Quoting Drew Breunig",
+        "url": "https://simonwillison.net/2026/Aug/23/drew-breunig/",
+        "fetched": false,
+        "savedAt": "2026-08-24T00:55:34.754Z"
+      }
+    },
     {
       "id": "sig-d17933d435",
       "title": "Quoting Linus Torvalds",
@@ -1739,6 +1863,142 @@
       }
     },
     {
+      "id": "sig-16d33351d8",
+      "title": "Quoting Matt Webb",
+      "oneLiner": "After I released version 1.0, I figured I would have to do the rotations myself. So I sat down with ",
+      "summary": {
+        "oneSentence": "After I released version 1.0, I figured I would have to do the rotations myself. So I sat down with ChatGPT and I didn’t",
+        "bullets": [
+          "After I released version 1.0, I figured I would have to do the rotations myself. So I sat down with ChatGPT and I didn’t get it to write the code, but I got it to educate me. With a patient, interacti"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Aug/21/matt-webb/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "After I released version 1.0, I figured I would have to do the rotations myself. So I sat down with ChatGPT and I didn’t get it to write the code, but I got it to educate me. With a patient, interactive tutor, I was able to finally do what I hadn’t by reading books and asking mathematician friends – I learnt how to use quaternions just enough to make the app work. So learning doesn’t stop just because I outsource a bunch of thinking to AI. It pushes me to learn more. I like that as an outcome. &mdash; Matt Webb , Galactic Compass 2: now with new augmented reality mode Tags: matt-webb , generative-ai , chatgpt , education , ai , llms"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Quoting Matt Webb",
+      "originalLang": "en",
+      "date": "2026-08-21",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/21/matt-webb/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Quoting Matt Webb"
+      },
+      "raw": {
+        "title": "Quoting Matt Webb",
+        "url": "https://simonwillison.net/2026/Aug/21/matt-webb/",
+        "fetched": false,
+        "savedAt": "2026-08-24T00:55:35.554Z"
+      }
+    },
+    {
+      "id": "sig-9a19920264",
+      "title": "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud",
+      "oneLiner": "Yes, we’re confused too.",
+      "summary": {
+        "oneSentence": "Yes, we’re confused too.",
+        "bullets": [
+          "Yes, we’re confused too."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.latent.space/p/ainews-poolside-gets-12b-reverse"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Yes, we’re confused too."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud",
+      "originalLang": "en",
+      "date": "2026-08-21",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud"
+      },
+      "raw": {
+        "title": "[AINews] Poolside gets $12B reverse-execuhire to NVIDIA; founders stay for $1B, employees go for $6B, Infraco scaling to 7GW neocloud",
+        "url": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse",
+        "fetched": false,
+        "savedAt": "2026-08-24T00:55:36.355Z"
+      }
+    },
+    {
       "id": "sig-38119b55b5",
       "title": "视线第 2 期：领导者需要了解的有关建筑代理的知识 | Figma 博客",
       "oneLiner": "Agentic 产品带来了一系列独特的设计挑战。如何构建一个功能强大且知识丰富的工具，足以成为真正的合作伙伴，同时保持信任和安全为核心？以下是我们从领导人那里听到的内容。",
@@ -2465,6 +2725,278 @@
       }
     },
     {
+      "id": "sig-d58dda0fce",
+      "title": "ChatGPT search now uses the site:operator at scale",
+      "oneLiner": "ChatGPT search now uses the site:operator at scale Promptwatch is part of the emerging \"GEO\" space, ",
+      "summary": {
+        "oneSentence": "ChatGPT search now uses the site:operator at scale Promptwatch is part of the emerging \"GEO\" space, for Generative Engin",
+        "bullets": [
+          "ChatGPT search now uses the site:operator at scale Promptwatch is part of the emerging \"GEO\" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and con"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "ChatGPT search now uses the site:operator at scale Promptwatch is part of the emerging \"GEO\" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and consulting to help your site increase its presence in replies to prompts inside tools like ChatGPT. The Promptwatch product uses automation to track responses to prompts across end-user chat products like ChatGPT, Claude, and Gemini. They publish aggregate reports on this as part of their own content marketing strategy, which do seem to provide credible hints as to otherwise invisible design changes to those products. Their own tracking shows a notable change aligned with the GPT-5.6 rollout earlier this month: The percentage of all ChatGPT Search fanout queries that contain the site:operator, per day. The share hovered between 0.3% and 0.5% for weeks, dipped briefly to 0.15% on August 3 to 5 (consistent with a staged rollout or pre-launch experiment), then jumped to 16-17% on August 8. It's important to note that these figures only reflect the prompts for which they have automated tracking enabled. This corresponds to OpenAI's somewhat vague August 6th announcement : For Plus and Pro users, we’re updating GPT‑5.6 Sol in Chat to be more reliable with facts and provide more focused answers. Once again I am hampered by OpenAI's decision to actively obscure their system prompts, but from poking at ChatGPT I believe their latest search tool has a shape like search(query, recency, domains) rather than encouraging a site: operator directly. In a follow-up on August 18th Promptwatch reported that ChatGPT appeared to have greatly reduced the likelihood of Reddit being used in those searches. My own attempts to ascertain if the system prompt has been updated to discourage Reddit sourcing have been unsuccessful - the most thorough leaked system prompt collection I know of doesn't yet show any relevant changes. Tags: reddit , seo , openai , chatgpt , ai-assisted-search , system-prompts"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "ChatGPT search now uses the site:operator at scale",
+      "originalLang": "en",
+      "date": "2026-08-20",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "ChatGPT search now uses the site:operator at scale"
+      },
+      "raw": {
+        "title": "ChatGPT search now uses the site:operator at scale",
+        "url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
+        "fetched": false,
+        "savedAt": "2026-08-24T00:55:37.156Z"
+      }
+    },
+    {
+      "id": "sig-e791424eb1",
+      "title": "The /wayfinder Skill: Navigating the “Fog of War” of Planning",
+      "oneLiner": "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward",
+      "summary": {
+        "oneSentence": "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear.",
+        "bullets": [
+          "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.latent.space/p/wayfinder-skill"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "The /wayfinder Skill: Navigating the “Fog of War” of Planning",
+      "originalLang": "en",
+      "date": "2026-08-20",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/p/wayfinder-skill",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "The /wayfinder Skill: Navigating the “Fog of War” of Planning"
+      },
+      "raw": {
+        "title": "The /wayfinder Skill: Navigating the “Fog of War” of Planning",
+        "url": "https://www.latent.space/p/wayfinder-skill",
+        "fetched": false,
+        "savedAt": "2026-08-24T00:55:37.956Z"
+      }
+    },
+    {
+      "id": "sig-4b6d1b0e0d",
+      "title": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
+      "oneLiner": "Research: A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView Today saw the long awaited rele",
+      "summary": {
+        "oneSentence": "Research: A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView Today saw the long awaited release of Bun 1.4 , the",
+        "bullets": [
+          "Research: A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView Today saw the long awaited release of Bun 1.4 , the first stable version since the infamous Rust rewrite a few months ago . Interes"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Aug/20/bun-webview-json-api/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Research: A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView Today saw the long awaited release of Bun 1.4 , the first stable version since the infamous Rust rewrite a few months ago . Interestingly, the Rust rewrite was downplayed in the release notes, which introduced a bewildering array of new features and claimed 2,900 additional bug fixes: Bun 1.4 adds +1,517 tests from the Node.js test suite - our biggest jump in Node.js compatibility since Bun 1.0. Bun v1.4 also fixes over 2,900 issues. It reduces idle CPU usage by 5x, reduces memory usage by up to 35%, and starts 50% faster on Linux. It adds Bun.Image , Bun.WebView , Bun.markdown , Bun.cron() , Bun.Terminal , bun run --parallel , bun test --parallel , bun audit fix , bun dedupe , and bun prune . And it rewrites Bun from Zig to Rust. Of these the one that most caught my eye was Bun.WebView , which adds first class support for browser automation to Bun core using either macOS WebKit or control of a local Chromium process via the Chrome DevTools Protocol (CDP). I had Claude Code for web build a prototype of a web API providing the ability to load a web page and then execute JavaScript against it, inspired by my shot-scraper javascript CLI tool - partly to see how much RAM would be needed by such a service. Here's that TypeScript server implementation , which appears to need a 192MB-256MB container to run a full Chrome against complex web pages - tested using cgroups. Tags: browsers , javascript , ai , rust , typescript , generative-ai , llms , coding-agents , bun"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
+      "originalLang": "en",
+      "date": "2026-08-20",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/20/bun-webview-json-api/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView"
+      },
+      "raw": {
+        "title": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
+        "url": "https://simonwillison.net/2026/Aug/20/bun-webview-json-api/",
+        "fetched": false,
+        "savedAt": "2026-08-24T00:55:38.757Z"
+      }
+    },
+    {
+      "id": "sig-5759140205",
+      "title": "[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law",
+      "oneLiner": "Every lab CEO is on X now",
+      "summary": {
+        "oneSentence": "Every lab CEO is on X now",
+        "bullets": [
+          "Every lab CEO is on X now"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Every lab CEO is on X now"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law",
+      "originalLang": "en",
+      "date": "2026-08-20",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law"
+      },
+      "raw": {
+        "title": "[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law",
+        "url": "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie",
+        "fetched": false,
+        "savedAt": "2026-08-24T00:55:39.559Z"
+      }
+    },
+    {
       "id": "sig-9009000832",
       "title": "聊天 SDK 添加了 Instagram 适配器 - Vercel",
       "oneLiner": "您现在可以使用适用于聊天 SDK 的新 Instagram 适配器为 Instagram 构建机器人。",
@@ -2950,7 +3482,7 @@
         "url": "https://cursor.com/changelog/08-19-26",
         "fetched": true,
         "savedAt": "2026-08-20T00:54:20.982Z",
-        "retranslatedAt": "2026-08-23T00:57:54.705Z"
+        "retranslatedAt": "2026-08-24T00:55:42.427Z"
       }
     },
     {
@@ -3353,6 +3885,142 @@
         "url": "https://vercel.com/changelog/vercel-connect-supports-microsoft",
         "fetched": true,
         "savedAt": "2026-08-20T00:54:50.320Z"
+      }
+    },
+    {
+      "id": "sig-5cb86b7b06",
+      "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
+      "oneLiner": "Research: smolmachines / smolvm as a sandbox for untrusted Python & JavaScript I tasked Claude Fable",
+      "summary": {
+        "oneSentence": "Research: smolmachines / smolvm as a sandbox for untrusted Python & JavaScript I tasked Claude Fable 5 running in Claude",
+        "bullets": [
+          "Research: smolmachines / smolvm as a sandbox for untrusted Python & JavaScript I tasked Claude Fable 5 running in Claude Code for web with the following research task: Put https://smolmachines.com thr"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Research: smolmachines / smolvm as a sandbox for untrusted Python & JavaScript I tasked Claude Fable 5 running in Claude Code for web with the following research task: Put https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use this to run untrusted Python and JavaScript code in a way that is limited in what RAM and CPU time it can take up (protection against \"while true\") with no network access and filesystem access only to designated files Goal is to be able to use this to execute user-provided tasks for things like data transformations It quickly ran into a problem: the Claude Code for web environment can't run smol machines . Quoting the notes it wrote : This Claude Code container: Linux 6.18.5-fc-v20 (itself a Firecracker guest), 4 vCPU, 15GB RAM. No /dev/kvm, no vmx/svm CPU flags → no nested virt. smolvm machine run fails as expected: \"kvm not available\". Plan B: GitHub Actions ubuntu runners DO expose /dev/kvm → run the real test battery via a temporary workflow on this branch, collect logs, remove workflow in final commit. And Plan B is what it did , installing smolvm and running these tests directly in a GitHub Actions runner against that branch. That was a creative solution to the environmental limits posed by Claude Code for web. Another example of Fable being relentlessly proactive . Tags: research , sandboxing , ai , github-actions , generative-ai , llms , coding-agents , claude-mythos-fable"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
+      "originalLang": "en",
+      "date": "2026-08-19",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript"
+      },
+      "raw": {
+        "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
+        "url": "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/",
+        "fetched": false,
+        "savedAt": "2026-08-24T00:55:40.360Z"
+      }
+    },
+    {
+      "id": "sig-287e3b9089",
+      "title": "Quoting Jeremy Morrell",
+      "oneLiner": "My hypothesis is that there is a new opportunity for Extensible Software on the web . LLMs radically",
+      "summary": {
+        "oneSentence": "My hypothesis is that there is a new opportunity for Extensible Software on the web . LLMs radically lower the cost of a",
+        "bullets": [
+          "My hypothesis is that there is a new opportunity for Extensible Software on the web . LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Aug/19/jeremy-morrell/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "My hypothesis is that there is a new opportunity for Extensible Software on the web . LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good security boundaries. We can build our app as a solid, accountable core, and allow users to safely extend it in many directions by having LLMs fill in the missing pieces. We can give our users super powers. &mdash; Jeremy Morrell , Extensible Software in the age of LLMs Tags: sandboxing , llms , ai , generative-ai"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Quoting Jeremy Morrell",
+      "originalLang": "en",
+      "date": "2026-08-19",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/19/jeremy-morrell/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Quoting Jeremy Morrell"
+      },
+      "raw": {
+        "title": "Quoting Jeremy Morrell",
+        "url": "https://simonwillison.net/2026/Aug/19/jeremy-morrell/",
+        "fetched": false,
+        "savedAt": "2026-08-24T00:55:41.162Z"
       }
     },
     {
@@ -4759,7 +5427,7 @@
         "url": "https://cursor.com/changelog/origin-code-hosting",
         "fetched": true,
         "savedAt": "2026-08-18T00:53:50.883Z",
-        "retranslatedAt": "2026-08-23T00:57:55.763Z"
+        "retranslatedAt": "2026-08-24T00:55:44.951Z"
       }
     },
     {
@@ -6402,7 +7070,7 @@
         "url": "https://cursor.com/changelog/08-13-26",
         "fetched": true,
         "savedAt": "2026-08-14T01:23:26.394Z",
-        "retranslatedAt": "2026-08-23T00:57:57.248Z"
+        "retranslatedAt": "2026-08-24T00:55:46.114Z"
       }
     },
     {
@@ -14064,7 +14732,7 @@
         "url": "https://cursor.com/changelog/google-workspace-plugins",
         "fetched": true,
         "savedAt": "2026-08-03T22:57:50.365Z",
-        "retranslatedAt": "2026-08-23T00:57:58.257Z"
+        "retranslatedAt": "2026-08-24T00:55:47.249Z"
       }
     },
     {
@@ -17429,7 +18097,7 @@
         "url": "https://cursor.com/changelog/ipad",
         "fetched": true,
         "savedAt": "2026-08-02T22:53:52.935Z",
-        "retranslatedAt": "2026-08-23T00:57:59.450Z"
+        "retranslatedAt": "2026-08-24T00:55:48.425Z"
       }
     },
     {
