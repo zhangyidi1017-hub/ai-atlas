@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-24T00:55:49.230Z",
+  "updatedAt": "2026-08-25T00:55:49.609Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 314,
+  "itemCount": 324,
   "brief": {
-    "date": "2026-08-24",
-    "generatedAt": "2026-08-24T00:55:49.228Z",
-    "totalCount": 314,
+    "date": "2026-08-25",
+    "generatedAt": "2026-08-25T00:55:49.608Z",
+    "totalCount": 324,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 314 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 324 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -115,8 +115,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-08-24T00:55:49.230Z",
-    "summary": "近 30 天共 261 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-08-25T00:55:49.609Z",
+    "summary": "近 30 天共 260 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -125,36 +125,24 @@
           "云端智能体和 Cursor Harness 改进 · Cursor",
           "Origin 代码托管 · Cursor"
         ]
-      },
-      {
-        "name": "Agent",
-        "signal": "近 30 天 1 条相关更新",
-        "examples": [
-          "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排"
-        ]
-      },
-      {
-        "name": "API",
-        "signal": "近 30 天 1 条相关更新",
-        "examples": [
-          "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排"
-        ]
-      },
-      {
-        "name": "Workflow",
-        "signal": "近 30 天 1 条相关更新",
-        "examples": [
-          "OpenAI 强化 Agent 工具链：Responses API 与内置工具编排"
-        ]
       }
     ],
-    "focusAreas": [
-      "Agent",
-      "Workflow"
-    ],
+    "focusAreas": [],
     "risingTags": []
   },
   "productUpdates": [
+    {
+      "id": "sig-df01500376",
+      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+      "oneLiner": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with bet",
+      "date": "2026-08-24",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
+    },
     {
       "id": "sig-06daba08af",
       "title": "从 Atari 到 EVE Online：基于 15 年游戏人工智能研究",
@@ -434,21 +422,515 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-9e022b7caa",
-      "title": "OpenAI 任命 Dali Rajic 为首席营收官",
-      "oneLiner": "OpenAI 任命 Dali Rajic 为首席营收官，领导其全球营收组织，帮助企业实现人工智能的全部价值。",
-      "date": "2026-08-13",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-205ee244c2",
+      "title": "Elastic build machines now use Turborepo cache hits to prevent downgrades",
+      "oneLiner": "Elastic build machines now consider Turborepo cache hits when deciding whether to use a smaller buil",
+      "summary": {
+        "oneSentence": "Elastic build machines now consider Turborepo cache hits when deciding whether to use a smaller build machine. A warm-ca",
+        "bullets": [
+          "Elastic build machines now consider Turborepo cache hits when deciding whether to use a smaller build machine. A warm-cache build no longer triggers a downgrade. A warm-cache build can use less CPU an"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/elastic-build-machines-now-use-turborepo-cache-hits-to-prevent-downgrades"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Elastic build machines now consider Turborepo cache hits when deciding whether to use a smaller build machine. A warm-cache build no longer triggers a downgrade.",
+        "A warm-cache build can use less CPU and memory than the same build with a cold cache. Downgrading based on that lower usage could leave a later cold-cache build without enough resources to complete successfully.",
+        "This change applies automatically to all builds using elastic build machines. No action is required. Learn more in the build documentation ."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Elastic build machines now use Turborepo cache hits to prevent downgrades - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-24",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/elastic-build-machines-now-use-turborepo-cache-hits-to-prevent-downgrades",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Elastic build machines now use Turborepo cache hits to prevent downgrades - Vercel"
+      },
+      "raw": {
+        "title": "Elastic build machines now use Turborepo cache hits to prevent downgrades",
+        "url": "https://vercel.com/changelog/elastic-build-machines-now-use-turborepo-cache-hits-to-prevent-downgrades",
+        "fetched": true,
+        "savedAt": "2026-08-25T00:55:28.509Z"
+      }
+    },
+    {
+      "id": "sig-df01500376",
+      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+      "oneLiner": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with bet",
+      "summary": {
+        "oneSentence": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performanc",
+        "bullets": [
+          "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/gpt-5-6-in-kiro"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with better price-performance."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+      "originalLang": "en",
+      "date": "2026-08-24",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/gpt-5-6-in-kiro",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Advancing price-performance for developers with GPT‑5.6 in Kiro"
+      },
+      "raw": {
+        "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
+        "url": "https://openai.com/index/gpt-5-6-in-kiro",
+        "fetched": false,
+        "savedAt": "2026-08-25T00:55:29.912Z"
+      }
+    },
+    {
+      "id": "sig-8cd0bf87c8",
+      "title": "Vercel Sandbox is now globally available",
+      "oneLiner": "Vercel Sandbox now runs globally, starting with four regions: iad1 (Washington, D.C.), sfo1 (San Fra",
+      "summary": {
+        "oneSentence": "Vercel Sandbox now runs globally, starting with four regions: iad1 (Washington, D.C.), sfo1 (San Francisco), cle1 (Cleve",
+        "bullets": [
+          "Vercel Sandbox now runs globally, starting with four regions: iad1 (Washington, D.C.), sfo1 (San Francisco), cle1 (Cleveland), and cdg1 (Paris). iad1 remains the default. Support for all Vercel region"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/vercel-sandbox-is-now-globally-available"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Sandbox now runs globally, starting with four regions: iad1 (Washington, D.C.), sfo1 (San Francisco), cle1 (Cleveland), and cdg1 (Paris).",
+        "iad1 remains the default. Support for all Vercel regions is coming soon.",
+        "Choose a region close to the databases, object storage, and other services your sandboxes access to reduce latency. Region selection is available on all plans.",
+        "Pro and Enterprise teams can also configure failover regions. If the primary region is unavailable, new sandboxes start in the closest configured failover region. Failover only applies to regions you configure; without it, a sandbox starts in its selected region, or the project default.",
+        "Snapshots stay in the region where they were created and can't be moved. To create or resume a sandbox from a snapshot, both must be in the same region. During failover, Vercel handles this automatically by loading the snapshot across regions.",
+        "Update the SDK or CLI you use to the latest version:",
+        "pnpm install @vercel/sandbox@latest # Sandbox SDK pnpm install -g sandbox@latest # Sandbox CLI pnpm install -g vercel@latest # Vercel CLI",
+        "Configure the default region and failover regions from Settings > Sandboxes in your project, or with the Vercel CLI:",
+        "vercel project update my-project --sandbox-region cdg1 --sandbox-failover-regions iad1,cle1 Configure Sandbox defaults with the CLI.",
+        "Those defaults apply to every sandbox. To override them for a single sandbox, pass region and optionally failoverRegions at create time with the SDK:",
+        "index.ts 1 import { Sandbox } from \"@vercel/sandbox\" ; 2 3 const sandbox = await Sandbox . create ( { 4 region : \"cdg1\" , 5 failoverRegions : [ \"iad1\" , \"cle1\" ] , 6 } ) ; Create a Sandbox in cdg1 with iad1 as a failover region using the SDK.",
+        "sandbox create --name my-sandbox --region cdg1 --failover-regions iad1,cle1 Create a Sandbox in cdg1 with iad1 as a failover region using the CLI.",
+        "Learn more in the Sandbox regions documentation ."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Vercel Sandbox is now globally available - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-24",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-sandbox-is-now-globally-available",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Vercel Sandbox is now globally available - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Sandbox is now globally available",
+        "url": "https://vercel.com/changelog/vercel-sandbox-is-now-globally-available",
+        "fetched": true,
+        "savedAt": "2026-08-25T00:55:31.941Z"
+      }
+    },
+    {
+      "id": "sig-f45c4221cc",
+      "title": "Environment variables now use Config and Secret types",
+      "oneLiner": "When you add or edit an environment variable in Vercel, you now choose Config or Secret instead of u",
+      "summary": {
+        "oneSentence": "When you add or edit an environment variable in Vercel, you now choose Config or Secret instead of using the Sensitive t",
+        "bullets": [
+          "When you add or edit an environment variable in Vercel, you now choose Config or Secret instead of using the Sensitive toggle. Config: The value remains readable after saving for members with access. "
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/environment-variables-now-use-config-and-secret-types"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "When you add or edit an environment variable in Vercel, you now choose Config or Secret instead of using the Sensitive toggle.",
+        "Config: The value remains readable after saving for members with access. Use Config for non-sensitive values you may need to inspect later, such as variables with a public framework prefix.",
+        "Secret: The value remains available to your deployments and can be replaced, but members cannot view or retrieve it after saving. Use Secret for passwords, API keys, and tokens.",
+        "Existing variables marked Sensitive are automatically treated as Secrets and continue to work without migration.",
+        "You can select an environment or Preview branch for each value. The environment variable list in the dashboard shows each variable’s type and where it applies.",
+        "Copy link to heading Team policy changes The Enforce Sensitive Environment Variables team policy is deprecated with this update. When enabled, it required every environment variable created by a team member to be Sensitive, including non-sensitive configuration. With Config and Secret types, members can choose the appropriate type for each variable.",
+        "A new Separate Production Secret Values policy is available in your Security settings . When enabled, the Production value for a Secret must differ from the values used for the same key in Preview, Development, and custom environments.",
+        "If your team had the legacy policy enabled, confirm whether the Separate Production Secret Values policy should be enabled for your team. The deprecated policy is no longer enforced by the Vercel CLI.",
+        "Copy link to heading Set variable types from the CLI To choose whether an environment variable is a Config or Secret from the CLI, pass --visibility config or --visibility secret to vercel env add or vercel env update :",
+        "# Config vercel env add API_URL production --value \"https://api.example.com\" --visibility config --yes # Secret vercel env add API_KEY production --value \"sk_live_...\" --visibility secret --yes Create Config and Secret environment variables with the Vercel CLI.",
+        "The existing flags continue to work. When --visibility is omitted, --no-sensitive maps to Config and --sensitive maps to Secret. After adding or updating a variable, the CLI output shows its type under Visibility .",
+        "Learn more in the Environment Variables documentation ."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Environment variables now use Config and Secret types - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-24",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/environment-variables-now-use-config-and-secret-types",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Environment variables now use Config and Secret types - Vercel"
+      },
+      "raw": {
+        "title": "Environment variables now use Config and Secret types",
+        "url": "https://vercel.com/changelog/environment-variables-now-use-config-and-secret-types",
+        "fetched": true,
+        "savedAt": "2026-08-25T00:55:33.700Z"
+      }
+    },
+    {
+      "id": "sig-e5b800e11b",
+      "title": "Bun runtime now supports large functions and extended max duration",
+      "oneLiner": "The Bun runtime on Vercel Functions now supports larger package sizes up to 5GB uncompressed and ext",
+      "summary": {
+        "oneSentence": "The Bun runtime on Vercel Functions now supports larger package sizes up to 5GB uncompressed and extended max duration f",
+        "bullets": [
+          "The Bun runtime on Vercel Functions now supports larger package sizes up to 5GB uncompressed and extended max duration for up to 30 minutes, two betas that previously ran on Node.js and Python only. L"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/bun-runtime-now-supports-large-functions-and-extended-max-duration"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "The Bun runtime on Vercel Functions now supports larger package sizes up to 5GB uncompressed and extended max duration for up to 30 minutes, two betas that previously ran on Node.js and Python only.",
+        "Large functions raise the standard 250MB package size limit to 5GB, and extended max duration raises the generally available 800-second ceiling to 1800 seconds for Pro and Enterprise teams. Both features require Fluid compute to be enabled. New projects are enrolled in the large functions beta automatically, while existing projects created before July 2026 opt in by adding VERCEL_SUPPORT_LARGE_FUNCTIONS=1 as an environment variable in your project settings , then redeploying. Durations above 800 seconds are set per function in vercel.json rather than as a project-level default:",
+        "vercel.json 1 { 2 \"$schema\" : \"https://openapi.vercel.sh/vercel.json\" , 3 \"functions\" : { 4 \"server.ts\" : { 5 \"maxDuration\" : 1800 6 } 7 } 8 } Setting a per-function max duration of 30 minutes in vercel.json",
+        "The server.ts entry point serves the long-running route with Bun:",
+        "server.ts 1 Bun . serve ( { 2 routes : { 3 \"/\" : ( ) => Response . json ( { success : true } ) 4 } 5 } ) ; A Bun server entry point for the long-running route",
+        "During the beta, these features are unavailable on projects using Secure Compute or Static IPs.",
+        "Read the large functions and extended max duration documentation."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Bun runtime now supports large functions and extended max duration - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-24",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/bun-runtime-now-supports-large-functions-and-extended-max-duration",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Bun runtime now supports large functions and extended max duration - Vercel"
+      },
+      "raw": {
+        "title": "Bun runtime now supports large functions and extended max duration",
+        "url": "https://vercel.com/changelog/bun-runtime-now-supports-large-functions-and-extended-max-duration",
+        "fetched": true,
+        "savedAt": "2026-08-25T00:55:35.275Z"
+      }
+    },
+    {
+      "id": "sig-a6d4702c68",
+      "title": "llm-anthropic 0.27",
+      "oneLiner": "Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibili",
+      "summary": {
+        "oneSentence": "Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently",
+        "bullets": [
+          "Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2 ."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Aug/24/llm-anthropic/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Release: llm-anthropic 0.27 This release of the Anthropic plugin for LLM mainly provides compatibility with the recently released anthropic v1.0.0 Python library, which switches from httpx to httpx2 . OpenAI made the same change in their v3.0.0 release two weeks ago. Anthropic provide this migration guide for upgrading to 1.0, so I prompted Fable 5 in Claude Code with: Upgrade to anthropic>=1 - read https://raw.githubusercontent.com/anthropics/anthropic-sdk-python/refs/heads/main/MIGRATION.md and get the tests passing Here's the resulting PR . Tags: python , httpx , llm , anthropic , claude"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "llm-anthropic 0.27",
+      "originalLang": "en",
+      "date": "2026-08-24",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "llm-anthropic 0.27"
+      },
+      "raw": {
+        "title": "llm-anthropic 0.27",
+        "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
+        "fetched": false,
+        "savedAt": "2026-08-25T00:55:39.839Z"
+      }
+    },
+    {
+      "id": "sig-45339259dc",
+      "title": "Your executable is a SQLite database",
+      "oneLiner": "Your executable is a SQLite database Farid Zakaria describes a neat Linux pattern for creating a SQL",
+      "summary": {
+        "oneSentence": "Your executable is a SQLite database Farid Zakaria describes a neat Linux pattern for creating a SQLite database file th",
+        "bullets": [
+          "Your executable is a SQLite database Farid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary. The trick sets the SQLite file "
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Your executable is a SQLite database Farid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary. The trick sets the SQLite file format's 4-byte application ID (68 bytes into the file) to SELF, standing for Structured Executable & Linkable Format. The various components of the ELF executable format are then arranged into a number of different SQLite tables, using this schema . Their self-exec interpreter ( C code here ) can then extract and execute the necessary pieces. You can additionally use a Linux mechanism called binfmt_misc to teach the kernel to execute that any time it encounters an executable matching that binary pattern. Farid uses NixOS here, but without NixOS I think registration looks something like this: printf '%s\\n' ':self:M:68:SELF::/usr/local/bin/self-exec:' \\ > /proc/sys/fs/binfmt_misc/register Via Hacker News Tags: c , linux , sqlite"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Your executable is a SQLite database",
+      "originalLang": "en",
+      "date": "2026-08-24",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Your executable is a SQLite database"
+      },
+      "raw": {
+        "title": "Your executable is a SQLite database",
+        "url": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/",
+        "fetched": false,
+        "savedAt": "2026-08-25T00:55:40.640Z"
+      }
+    },
     {
       "id": "sig-fc0f17557a",
       "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
@@ -3482,7 +3964,7 @@
         "url": "https://cursor.com/changelog/08-19-26",
         "fetched": true,
         "savedAt": "2026-08-20T00:54:20.982Z",
-        "retranslatedAt": "2026-08-24T00:55:42.427Z"
+        "retranslatedAt": "2026-08-25T00:55:42.633Z"
       }
     },
     {
@@ -4021,6 +4503,227 @@
         "url": "https://simonwillison.net/2026/Aug/19/jeremy-morrell/",
         "fetched": false,
         "savedAt": "2026-08-24T00:55:41.162Z"
+      }
+    },
+    {
+      "id": "sig-4b3df60ccc",
+      "title": "Vercel Python Queues SDK is now available in beta",
+      "oneLiner": "The Python SDK for Vercel Queues is now available in beta, bringing first-class Python support for r",
+      "summary": {
+        "oneSentence": "The Python SDK for Vercel Queues is now available in beta, bringing first-class Python support for running background wo",
+        "bullets": [
+          "The Python SDK for Vercel Queues is now available in beta, bringing first-class Python support for running background workloads on Vercel. You publish messages to topics, and independent consumer grou"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/vercel-python-queues-sdk-is-now-available-in-beta"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "The Python SDK for Vercel Queues is now available in beta, bringing first-class Python support for running background workloads on Vercel.",
+        "You publish messages to topics, and independent consumer groups process them in parallel with automatic retries, sharding, and delivery guarantees. Messages can be enqueued or consumed from either JavaScript or Python, meaning a Next.js producer can fan out to both Next.js and Python queue consumers.",
+        "main.py 1 from fastapi import FastAPI , Request 2 from vercel . queue import send 3 4 app = FastAPI ( ) 5 6 7 @app . post ( \"/api/orders\" ) 8 async def create_order ( request : Request ) : 9 body = await request . json ( ) 10 message_id = await send ( \"orders\" , body ) 11 return { \"message_id\" : message_id }",
+        "Publish a message from a frontend route handler:",
+        "app/api/orders/route.ts 1 import { send } from '@vercel/queue' ; 2 3 export async function POST ( request : Request ) { 4 const order = await request . json ( ) ; 5 const { messageId } = await send ( 'orders' , order ) ; 6 return Response . json ( { messageId } ) ; 7 }",
+        "subscriber.py 1 from typing import Any 2 from vercel . queue import subscribe 3 4 @subscribe ( topic = \"orders\" ) 5 async def fulfill_order ( order : dict [ str , Any ] ) - > None : 6 print ( \"Fulfilling order:\" , order )",
+        "Opt project into receiving queue message deliveries:",
+        "pyproject.toml 1 [ tool.vercel ] 2 entrypoint = \"main:app\" 3 4 [ [ tool.vercel.subscribers ] ] 5 entrypoint = \"subscriber\"",
+        "Configure cross-runtime consumers: The following configuration allows you to compose a frontend and a backend within a single Vercel project, allowing you to enqueue messages from one service and consume them from another or fan out to multiple.",
+        "vercel.json 1 { 2 \"services\" : { 3 \"frontend\" : { 4 \"root\" : \"frontend/\" , 5 \"functions\" : { 6 \"app/api/queues/fulfill-order/route.ts\" : { 7 \"experimentalTriggers\" : [ { \"type\" : \"queue/v2beta\" , \"topic\" : \"orders\" } ] 8 } 9 } 10 } , 11 \"backend\" : { 12 \"root\" : \"backend/\" , 13 \"entrypoint\" : \"pyproject.toml\" 14 } 15 } 16 }",
+        "Get started with pip install vercel or visit the Python SDK reference documentation."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Vercel Python Queues SDK is now available in beta - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-19",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-python-queues-sdk-is-now-available-in-beta",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Vercel Python Queues SDK is now available in beta - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Python Queues SDK is now available in beta",
+        "url": "https://vercel.com/changelog/vercel-python-queues-sdk-is-now-available-in-beta",
+        "fetched": true,
+        "savedAt": "2026-08-25T00:55:37.276Z"
+      }
+    },
+    {
+      "id": "sig-daadd09e3e",
+      "title": "Exa joins the Vercel AI Gateway and Agent Marketplace",
+      "oneLiner": "Exa is now available on the Vercel AI Gateway and Agent Marketplace as a native integration. Exa's n",
+      "summary": {
+        "oneSentence": "Exa is now available on the Vercel AI Gateway and Agent Marketplace as a native integration. Exa's neural search engine ",
+        "bullets": [
+          "Exa is now available on the Vercel AI Gateway and Agent Marketplace as a native integration. Exa's neural search engine grounds models in current information. Exa search is now a built-in tool on AI G"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/exa-joins-vercel-ai-gateway-agent-marketplace"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Exa is now available on the Vercel AI Gateway and Agent Marketplace as a native integration. Exa's neural search engine grounds models in current information.",
+        "Exa search is now a built-in tool on AI Gateway , which runs the search for you without an Exa account of your own.",
+        "You can also add Exa to a Vercel project from the Agent Marketplace to power search or a research agent, with a single API key that works across every Exa product and billing through your Vercel account.",
+        "Copy link to heading Exa search on AI Gateway Every model on AI Gateway can search with Exa through a built-in tool , with no Exa account or key of your own required. Pass gateway.tools.exaSearch() alongside your prompt and the gateway runs the search, hands the results back to the model, and keeps going until the model stops searching. You get one finished response with a synthesized answer rather than raw results to stream back yourself.",
+        "1 import { generateText } from 'ai' ; 2 import { gateway } from '@ai-sdk/gateway' ; 3 4 const result = await generateText ( { 5 model : 'openai/gpt-5.6-sol' , 6 prompt : 'What is the latest AI news this month?' , 7 tools : { exa_search : gateway . tools . exaSearch ( ) } , 8 } ) ;",
+        "The tool takes the same controls as the Exa API, so you can set how many results come back, focus a search on a category such as news or research papers, restrict it to a country, and include or exclude domains.",
+        "Searches bill through AI Gateway next to your model usage at list price with no markup.",
+        "Copy link to heading Exa on the Agent Marketplace Install Exa from the Marketplace or deploy the Next.js Search template to integrate Exa's instant search, deep answers, and content extraction to your Vercel project.",
+        "1 import Exa from \"exa-js\" ; 2 import { NextResponse } from \"next/server\" ; 3 const apiKey = process . env . EXA_API_KEY ; 4 if ( ! apiKey ) { 5 throw new Error ( \"Missing EXA_API_KEY\" ) ; 6 } 7 const exa = new Exa ( apiKey ) ; 8 export async function GET ( request : Request ) { 9 const { searchParams } = new URL ( request . url ) ; 10 const query = searchParams . get ( \"q\" ) ?? \"latest AI infrastructure news\" ; 11 const { results } = await exa . search ( query , { 12 type : \"instant\" , 13 numResults : 5 , 14 contents : { 15 highlights : true , 16 } , 17 } ) ; 18 return NextResponse . json ( { 19 results : results . map ( ( result ) => ( { 20 title : result . title , 21 url : result . url , 22 highlights : result . highlights , 23 } ) ) , 24 } ) ; 25 } Execute your first API call in minutes",
+        "About Exa : For developers building AI features on Vercel, Exa gives agents the web, organized for them. Whether you're answering questions, monitoring changes, or extracting structured data, Exa's one API for search, crawling, and research returns token-efficient highlights with grounded citations, so your agents get the context they need with fewer round trips, lower cost, and lower latency."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Exa joins the Vercel AI Gateway and Agent Marketplace - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-19",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/exa-joins-vercel-ai-gateway-agent-marketplace",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Exa joins the Vercel AI Gateway and Agent Marketplace - Vercel"
+      },
+      "raw": {
+        "title": "Exa joins the Vercel AI Gateway and Agent Marketplace",
+        "url": "https://vercel.com/changelog/exa-joins-vercel-ai-gateway-agent-marketplace",
+        "fetched": true,
+        "savedAt": "2026-08-25T00:55:39.038Z"
+      }
+    },
+    {
+      "id": "sig-e53691799f",
+      "title": "Conceptual integrity and counting lines of code",
+      "oneLiner": "Last week I recorded an episode of the Talking Postgres podcast with Claire Giordano on the subject ",
+      "summary": {
+        "oneSentence": "Last week I recorded an episode of the Talking Postgres podcast with Claire Giordano on the subject of \"How AI is changi",
+        "bullets": [
+          "Last week I recorded an episode of the Talking Postgres podcast with Claire Giordano on the subject of \"How AI is changing software development\". We had a really great conversation. Here are a couple "
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Last week I recorded an episode of the Talking Postgres podcast with Claire Giordano on the subject of \"How AI is changing software development\". We had a really great conversation. Here are a couple of my highlights from a lightly edited transcript (prompt to Claude: \"very minor edits to remove disfluencies\"). This is the latest version of an argument I've been trying to build about why sometimes it does make sense to talk about lines of code as an indicator of productivity with coding agents, at 35:01 : A lot of people will tell you it makes no sense to measure productivity in lines of code. I’d actually disagree, because there’s a hard limit. In the before-times, a software engineer could produce a few hundred lines of production-ready code per day — and 200 lines of working, debugged, production-level code is an incredibly good day. Most days you’d produce 50 or 60. If agents let you produce a thousand lines of debugged code, that really is a very meaningful improvement — as long as the code is the same quality: maintainable, tested, all of that. You can get to that point with agents, but it takes a huge amount of skill and knowledge and experience. That’s what senior engineers are made of. I can do way more work as a single engineer than I could without agents. So you could argue, why should a company have more than one engineer? Beyond the obvious bus factor thing — a team of one is a very badly designed team — the answer is that the new limiting factor is cognitive capacity. I can churn out code a hundred times faster. I don’t have the cognitive capacity to stay on top of 100 times the amount of code. So you still need a team of engineers, so you can load balance that cognitive capacity across the team. And this section on conceptual integrity at 46:03 , which Claire equated to the Winchester Mystery House ! Simon : There’s a concept in The Mythical Man-Month — conceptual integrity — where well-designed software has an integrity to it: there are no surprises in it, it covers exactly the right domain of things, everything fits together and makes sense. That’s so much harder with coding agents, where you can have an idea for a feature, run a prompt, and five minuteslater you’ve got the feature. Your software grows little weird bumps in funny different directions. Claire : You know my analogy for that? The Winchester Mystery House. Simon : It’s got 140 rooms, because the woman who built it was the widow of the guy who invented the Winchester rifle, and her psychic told her she’d be haunted by the ghosts of everyone killed with that rifle unless she kept building the house forever. So for 40 years she kept adding new rooms. That’s exactly the problem with coding agents and software: it’s very easy to keep adding new rooms, because the cost of adding those rooms is so much cheaper. What you end up with is something where the conceptual integrity falls apart — and then it’s harder to make decisions about it. It all keeps coming back to discipline. It used to be that the discipline was enforced on you by the amount of time it took. You’d come up with an idea for a crazy feature and think “yeah, but that would take me a week — I cannot justify that, so I’ll forget about it.” If it takes an hour, it’s so much easier to justify. (Side-note: the Wikipedia article includes credible sources that dispute the story about the psychic.) Tags: ai , generative-ai , llms , podcast-appearances , coding-agents"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Conceptual integrity and counting lines of code",
+      "originalLang": "en",
+      "date": "2026-08-19",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Conceptual integrity and counting lines of code"
+      },
+      "raw": {
+        "title": "Conceptual integrity and counting lines of code",
+        "url": "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
+        "fetched": false,
+        "savedAt": "2026-08-25T00:55:41.442Z"
       }
     },
     {
@@ -5427,7 +6130,7 @@
         "url": "https://cursor.com/changelog/origin-code-hosting",
         "fetched": true,
         "savedAt": "2026-08-18T00:53:50.883Z",
-        "retranslatedAt": "2026-08-24T00:55:44.951Z"
+        "retranslatedAt": "2026-08-25T00:55:45.484Z"
       }
     },
     {
@@ -7070,7 +7773,7 @@
         "url": "https://cursor.com/changelog/08-13-26",
         "fetched": true,
         "savedAt": "2026-08-14T01:23:26.394Z",
-        "retranslatedAt": "2026-08-24T00:55:46.114Z"
+        "retranslatedAt": "2026-08-25T00:55:46.582Z"
       }
     },
     {
@@ -14732,7 +15435,7 @@
         "url": "https://cursor.com/changelog/google-workspace-plugins",
         "fetched": true,
         "savedAt": "2026-08-03T22:57:50.365Z",
-        "retranslatedAt": "2026-08-24T00:55:47.249Z"
+        "retranslatedAt": "2026-08-25T00:55:47.768Z"
       }
     },
     {
@@ -18097,7 +18800,7 @@
         "url": "https://cursor.com/changelog/ipad",
         "fetched": true,
         "savedAt": "2026-08-02T22:53:52.935Z",
-        "retranslatedAt": "2026-08-24T00:55:48.425Z"
+        "retranslatedAt": "2026-08-25T00:55:48.806Z"
       }
     },
     {
