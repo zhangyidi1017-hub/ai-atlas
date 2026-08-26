@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-25T00:55:49.609Z",
+  "updatedAt": "2026-08-26T00:57:27.968Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 324,
+  "itemCount": 334,
   "brief": {
-    "date": "2026-08-25",
-    "generatedAt": "2026-08-25T00:55:49.608Z",
-    "totalCount": 324,
+    "date": "2026-08-26",
+    "generatedAt": "2026-08-26T00:57:27.967Z",
+    "totalCount": 334,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 324 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 334 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -115,7 +115,7 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-08-25T00:55:49.609Z",
+    "generatedAt": "2026-08-26T00:57:27.968Z",
     "summary": "近 30 天共 260 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
@@ -131,6 +131,66 @@
     "risingTags": []
   },
   "productUpdates": [
+    {
+      "id": "sig-5f0b03166b",
+      "title": "5 ways to upgrade your home decor with Google Search",
+      "oneLiner": "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle ",
+      "date": "2026-08-25",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google AI",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-829e237a88",
+      "title": "The full stack behind abundant intelligence",
+      "oneLiner": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to",
+      "date": "2026-08-25",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-9ad99bb5f4",
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "oneLiner": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI infere",
+      "date": "2026-08-25",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-da55f7d7bd",
+      "title": "Disrupting a new covert influence campaign from Russia",
+      "oneLiner": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sover",
+      "date": "2026-08-25",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-cfc376addf",
+      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+      "oneLiner": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permi",
+      "date": "2026-08-25",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
+    },
     {
       "id": "sig-df01500376",
       "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
@@ -360,71 +420,761 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-39d537a07a",
-      "title": "Origin 代码托管 · Cursor",
-      "oneLiner": "Origin 自即日起在所有付费方案中逐步推出早期 Beta 版。我们首先提供专为智能体规模化而打造的核心功能：代码仓库、PR、代码浏览和 GitHub 同步。智能体原生功能即将推出。",
-      "date": "2026-08-17",
-      "productIds": [
-        "cursor"
-      ],
-      "source": "Cursor",
-      "tags": [
-        "Release"
-      ],
-      "stars": 4
-    },
-    {
-      "id": "sig-068e562e05",
-      "title": "Gemini 3.7 闪存简介",
-      "oneLiner": "我们迄今为止最智能的编码和代理主力模型。",
-      "date": "2026-08-13",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google DeepMind",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-4cbb438f4f",
-      "title": "使用表格画布让您的电子表格数据栩栩如生",
-      "oneLiner": "作为 Google 表格的一项新功能，表格画布可将行和列转换为交互式仪表板、自定义学习跟踪器、座位表等，所有这些都只需一个简单的提示即可。",
-      "date": "2026-08-13",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google AI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-855fa77e93",
-      "title": "GPT-5.6 构建者指南",
-      "oneLiner": "了解初创公司如何使用 GPT-5.6 通过更智能的模型选择和新的 Responses API 功能来构建更快、更具成本效益的 AI 代理。",
-      "date": "2026-08-13",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-6357d7795d",
-      "title": "预览超快模式：GPT-5.6 Sol 速度高达 14 倍",
-      "oneLiner": "预览 Ultrafast，这是一个新的 OpenAI API 服务层，运行 GPT-5.6 Sol 的速度提高了 14 倍。它由 Cerebras 提供支持，每秒可提供多达 750 个输出令牌。",
-      "date": "2026-08-13",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-6f42175435",
+      "title": "Vercel applications are protected from Next.js August 2026 security vulnerabilities",
+      "oneLiner": "Summary Two vulnerabilities affecting Next.js were disclosed in the August 2026 Security Release. Ne",
+      "summary": {
+        "oneSentence": "Summary Two vulnerabilities affecting Next.js were disclosed in the August 2026 Security Release. Next.js applications h",
+        "bullets": [
+          "Summary Two vulnerabilities affecting Next.js were disclosed in the August 2026 Security Release. Next.js applications hosted on Vercel are protected and require no customer action. Next.js August 202"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/nextjs-august-2026-security-release"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Copy link to heading Summary Two vulnerabilities affecting Next.js were disclosed in the August 2026 Security Release. Next.js applications hosted on Vercel are protected and require no customer action.",
+        "Copy link to heading Next.js August 2026 vulnerabilities Next.js disclosed the following critical vulnerabilities:",
+        "GHSA-2xp9-vwfh-vxw4 originates in the upstream libheif dependency and can lead to unauthenticated remote code execution when Image Optimization processes a crafted AVIF input.",
+        "CVE-2026-75604 ( GHSA-p293-qw3h-jr36 ) can lead to unauthenticated remote code execution on Windows-hosted Next.js servers in applications using the Pages Router and App Router without Cache Components.",
+        "After the AVIF vulnerability was identified, Vercel applied protections to its managed Image Optimization service.",
+        "Copy link to heading Impact on Vercel deployments Applications hosted on Vercel are protected. No upgrades, configuration changes, or redeploys are required.",
+        "Once the AVIF vulnerability was identified, Vercel disabled AVIF optimization across its managed Image Optimization service. AVIF inputs are served as-is and do not pass through the affected processing path.",
+        "The second vulnerability only affects servers using a Windows filesystem. Vercel's Next.js runtime uses Linux and is not affected.",
+        "Copy link to heading Resolution for self-hosted applications Self-hosted Next.js applications should upgrade to the appropriate patched version.",
+        "For applications running Next.js 15.x or earlier:",
+        "In the patched releases, AVIF images are not resized or optimized. They are served as-is until a fixed libheif version is available. There is no workaround for the Windows vulnerability; affected servers should upgrade immediately.",
+        "Copy link to heading Credit Thanks to the Hacktron team for responsibly disclosing the AVIF vulnerability, and to evolutionstorm and B0RI for responsibly disclosing the Windows vulnerability.",
+        "Copy link to heading References Next.js August 2026 security release"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Vercel applications are protected from Next.js August 2026 security vulnerabilities - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-25",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/nextjs-august-2026-security-release",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Vercel applications are protected from Next.js August 2026 security vulnerabilities - Vercel"
+      },
+      "raw": {
+        "title": "Vercel applications are protected from Next.js August 2026 security vulnerabilities",
+        "url": "https://vercel.com/changelog/nextjs-august-2026-security-release",
+        "fetched": true,
+        "savedAt": "2026-08-26T00:57:00.779Z"
+      }
+    },
+    {
+      "id": "sig-5f0b03166b",
+      "title": "5 ways to upgrade your home decor with Google Search",
+      "oneLiner": "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle ",
+      "summary": {
+        "oneSentence": "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.",
+        "bullets": [
+          "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://blog.google/products-and-platforms/products/search/home-decor-tips/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "From tracking down unique vintage finds to seeing how new furniture fits before you buy, here’s how Google Search can help transform your living space.",
+        "Your browser does not support the audio element.",
+        "You can use Google Search tools to turn your home decor inspiration into reality. Use AI features to visualize furniture in your room, identify vintage items with your camera, or circle products on your screen to find similar options. You can also use live video guidance for DIY projects and track price history to ensure you get the best deals.",
+        "People turn to Google Search every day for discovery and inspiration, including when it comes to home decor: Searches for “home decor inspo” are up 300% in the past month, and both “bathroom inspo” and “living room inspo” are breakout searches in the same timeframe. Bold pops of color are in, too — this year's trending paint searches include teal and magenta.",
+        "Getting inspired is the fun part. Making your vision reality is where people can get stuck. Here are five ways you can use Google Search tools to take action on your home decor vision board.",
+        "When you're eyeing a new couch or other large piece of furniture, it can be hard to know if the piece will actually fit your room both physically and aesthetically. AI Mode in Search can help you visualize it so you feel more confident about what will work in your space. Simply upload a photo of your room and ask something like, \"Based on my living room, what kind of couch would you recommend? The wall is 84 inches wide.\" You can then see inspiration for different types of couches that would fit in that spot and follow up with a prompt like, \"Can you show me what an emerald green velvet sofa could look like?\" to see a mockup right in your space.",
+        "This year, people are searching for vintage more than ever before, with “vintage braided rugs” and “vintage wood coffee table” as the top trending home furnishing items. If you're out and about and see a vintage decorative item you love, you can use Google Lens to learn more about it and find similar items online within your price range. Just take a picture of the item with the Google app on iOS or Android , and Lens will pull up links to similar items so you can bring that vintage style home.",
+        "Sometimes online scrolling leads to the best discoveries. With Circle to Search , you can track down the decor you love — from videos, social feeds, or web pages — without switching apps. Spot a social post featuring fish wallpaper (searches are up 140% in the past month!) that would look perfect in your home? Just long press the home button or navigation bar on the latest Pixel and Samsung Galaxy S26 devices, then circle the wallpaper on your screen to see similar options or ask a question about the product.",
+        "Let’s say you’re one of the many people searching for floating shelves (a top-trending item this year) to put in your new studio apartment. They’re cute and practical — but once you buy them, you still have to install them. Search Live can help guide you through DIY projects step-by-step. To get started, just open the Google app and tap the Live icon under the search bar. You can start asking your questions out loud like you’re talking to a friend and enable video input to share visual context from your camera feed to get the job done right.",
+        "Getting your home just-right can add up. Before you buy that funky lamp or harlequin wallpaper (both breakout searches in the past month), do a quick price check to make sure you’re getting a good deal. Just tap on any product listing to compare costs across stores. You can also expand the typical price drop down to view price history and get a sense of whether the current listing is high, low, or typical. Still not ready to buy? Tap “Track price” and you’ll get an alert when it falls into your budget."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "5 ways to upgrade your home decor with Google Search",
+      "originalLang": "en",
+      "date": "2026-08-25",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "5 ways to upgrade your home decor with Google Search"
+      },
+      "raw": {
+        "title": "5 ways to upgrade your home decor with Google Search",
+        "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
+        "fetched": true,
+        "savedAt": "2026-08-26T00:57:02.519Z"
+      }
+    },
+    {
+      "id": "sig-9856d5eaa7",
+      "title": "Speed Insights now has a free tier",
+      "oneLiner": "Speed Insights now has a free tier that gives you a high-level performance overview from your real u",
+      "summary": {
+        "oneSentence": "Speed Insights now has a free tier that gives you a high-level performance overview from your real users. The new free t",
+        "bullets": [
+          "Speed Insights now has a free tier that gives you a high-level performance overview from your real users. The new free tier: Is available on every plan, for any number of projects Includes 10,000 even"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/speed-insights-free-tier"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Speed Insights now has a free tier that gives you a high-level performance overview from your real users. The new free tier:",
+        "I s available on every plan, for any number of projects",
+        "I ncludes 10,000 events per team, every 30 days",
+        "1 npm install @vercel/speed-insights Install Speed Insights via the CLI",
+        "Previously, free Speed Insights was limited to a single project on Hobby, and upgrading to Pro meant losing access unless you paid for the add-on. Now your free tier carries over, and you only pay if you upgrade.",
+        "The paid product, now called Speed Insights Plus, includes deeper diagnostics and historical data. If you were already paying for Speed Insights, only the name has changed, and your capabilities and price are the same.",
+        "Install @vercel/speed-insights in your project to start reporting real-user data, or open the Speed Insights dashboard to view your results.",
+        "Learn more in the Speed Insights documentation.",
+        "Speed Insights reports how real visitors experience your pages, using live traffic rather than lab conditions. Speed Insights Plus adds slow-route diagnosis and detailed breakdowns for finding where pages get slow, and historical data to track performance over time. It also provides access to Drains and the Vercel CLI for working with performance data outside the dashboard.",
+        "Jas Garcha , Pranav Kanchi , Blake Mealey"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Speed Insights now has a free tier - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-25",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/speed-insights-free-tier",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Speed Insights now has a free tier - Vercel"
+      },
+      "raw": {
+        "title": "Speed Insights now has a free tier",
+        "url": "https://vercel.com/changelog/speed-insights-free-tier",
+        "fetched": true,
+        "savedAt": "2026-08-26T00:57:04.144Z"
+      }
+    },
+    {
+      "id": "sig-829e237a88",
+      "title": "The full stack behind abundant intelligence",
+      "oneLiner": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to",
+      "summary": {
+        "oneSentence": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful",
+        "bullets": [
+          "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/the-full-stack-behind-abundant-intelligence"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "The full stack behind abundant intelligence",
+      "originalLang": "en",
+      "date": "2026-08-25",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "The full stack behind abundant intelligence"
+      },
+      "raw": {
+        "title": "The full stack behind abundant intelligence",
+        "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
+        "fetched": false,
+        "savedAt": "2026-08-26T00:57:05.653Z"
+      }
+    },
+    {
+      "id": "sig-9ad99bb5f4",
+      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "oneLiner": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI infere",
+      "summary": {
+        "oneSentence": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher thr",
+        "bullets": [
+          "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/jalapeno-first-results"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+      "originalLang": "en",
+      "date": "2026-08-25",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/jalapeno-first-results",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference"
+      },
+      "raw": {
+        "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
+        "url": "https://openai.com/index/jalapeno-first-results",
+        "fetched": false,
+        "savedAt": "2026-08-26T00:57:07.166Z"
+      }
+    },
+    {
+      "id": "sig-17ca6f2505",
+      "title": "Introducing Run SDK: secure eval for your agents",
+      "oneLiner": "Agents increasingly write TypeScript programs to coordinate tools and process their results. Once th",
+      "summary": {
+        "oneSentence": "Agents increasingly write TypeScript programs to coordinate tools and process their results. Once those programs touch r",
+        "bullets": [
+          "Agents increasingly write TypeScript programs to coordinate tools and process their results. Once those programs touch real applications, some steps require authentication, while others need human app"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/blog/introducing-run"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Agents increasingly write TypeScript programs to coordinate tools and process their results. Once those programs touch real applications, some steps require authentication, while others need human approval.",
+        "Executing that code with eval gives it the same access as the application around it, including its secrets and internal services, and leaves no durable way to pause at those boundaries.",
+        "Today, we're releasing the Run SDK , a package for executing untrusted JavaScript and TypeScript without giving it direct access to your application or system. Applications expose narrow host functions and can interrupt execution for authentication or human-in-the-loop approval. The program resumes after a decision without repeating completed work.",
+        "Copy link to heading A small interface to the host The Run SDK evaluates JavaScript or type-stripped TypeScript in a fresh QuickJS context inside a worker thread, with no direct route to Node.js or the network.",
+        "The application exposes selected operations through hostFunctions . These are regular functions that become callable globals inside the sandbox:",
+        "1 import { run } from 'run' ; 2 3 const result = await run ( { 4 source : ` 5 const orders = await store.listOrders(\"customer_123\"); 6 const total = orders.reduce((sum, order) => sum + order.amount, 0); 7 return { count: orders.length, total }; 8 ` , 9 hostFunctions : { 10 store : { 11 listOrders : async ( customerId : string ) => { 12 return database . orders . findMany ( { customerId } ) ; 13 } , 14 } , 15 } , 16 } ) ; 17 18 if ( result . status === 'completed' ) { 19 console . log ( result . value ) ; 20 }",
+        "Here, the generated program knows about store.listOrders() . The database client and its credentials remain in the application.",
+        "Calls cross the sandbox boundary through serialization. A host function may return a promise, so existing service clients can sit behind this interface without being passed into the sandbox.",
+        "You can try this in the playground . Code you run there can only reach the host functions on the page.",
+        "Copy link to heading Code mode in practice The Run SDK is the internal module powering code mode tool execution in the AI SDK . Giving an agent a program changes the unit of work. One model response can describe the calls and the logic connecting them:",
+        "1 const result = await run ( { 2 source : ` 3 const accountId = \"account_123\"; 4 const [account, invoices] = await Promise.all([ 5 crm.getAccount(accountId), 6 billing.listInvoices(accountId), 7 ]); 8 const overdue = invoices.filter(invoice => invoice.status === \"overdue\"); 9 return { account: account.name, overdue }; 10 ` , 11 hostFunctions : { 12 crm : { getAccount } , 13 billing : { listInvoices } , 14 } , 15 } ) ;",
+        "The two requests happen concurrently, and invoice filtering stays local to the program. Only the useful result returns to the application.",
+        "This is a good fit for agents that work across several internal services. A research agent can combine search results before answering. A support agent can inspect an account without putting an entire billing response back into its context.",
+        "The same package can power a code interpreter or a product feature that accepts customer-defined transformations. In both cases, the application chooses the available data and operations."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Introducing Run SDK: secure eval for your agents",
+      "originalLang": "en",
+      "date": "2026-08-25",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/introducing-run",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Introducing Run SDK: secure eval for your agents"
+      },
+      "raw": {
+        "title": "Introducing Run SDK: secure eval for your agents",
+        "url": "https://vercel.com/blog/introducing-run",
+        "fetched": true,
+        "savedAt": "2026-08-26T00:57:09.587Z"
+      }
+    },
+    {
+      "id": "sig-d1fc64a6e1",
+      "title": "The end of credential sprawl for agents",
+      "oneLiner": "Every useful agent reaches beyond your codebase. It posts to Slack, opens pull requests, queries Sno",
+      "summary": {
+        "oneSentence": "Every useful agent reaches beyond your codebase. It posts to Slack, opens pull requests, queries Snowflake, or calls an ",
+        "bullets": [
+          "Every useful agent reaches beyond your codebase. It posts to Slack, opens pull requests, queries Snowflake, or calls an internal API. That reach is what makes it valuable, and it's also where the risk"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/blog/the-end-of-credential-sprawl-for-agents"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Every useful agent reaches beyond your codebase. It posts to Slack, opens pull requests, queries Snowflake, or calls an internal API. That reach is what makes it valuable, and it's also where the risk lives, because for years, granting it meant provisioning a long-lived token and hoping it never leaked.",
+        "Vercel Connect replaces long-lived tokens with ones your code requests at runtime, scoped to the task and expiring on their own.",
+        "During the public beta , we've grown the ecosystem past 100 connectors, unified how they work, and added the governance capabilities teams need in production.",
+        "Today, Vercel Connect is generally available.",
+        "Copy link to heading Vaults don't fix long-lived tokens Managing credentials has become its own workload. Teams write rotation scripts, copy secrets across environments, and share tokens between users. Putting a token in a vault made it harder to steal, but no less dangerous once stolen. It never expires, and no vault limits what a leaked credential can do.",
+        "Agents compounded the problem by touching more systems with greater autonomy, more often. Yet the tools to contain a secret haven't changed.",
+        "With Vercel Connect, your app never stores credentials. It requests one:",
+        "You register a connector once for a provider like Slack, GitHub, Snowflake, Shopify, or your own OAuth service",
+        "You attach it to the projects and environments that need it",
+        "Your code requests a token at runtime, and it refreshes automatically",
+        "Your app has no provider secret to commit by accident",
+        "vercel connect create slack --name acme-slack Create a Slack connector named acme-slack",
+        "import { getToken } from '@vercel/connect' ; const token = await getToken ( 'slack/acme-slack' , { subject : { type : 'app' } , } ) ; Request a Slack token with the app scope",
+        "Requesting a token doesn't require another secret. Every deployment on Vercel carries an OIDC identity , and the SDK uses it to prove who's asking."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "The end of credential sprawl for agents",
+      "originalLang": "en",
+      "date": "2026-08-25",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/the-end-of-credential-sprawl-for-agents",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "The end of credential sprawl for agents"
+      },
+      "raw": {
+        "title": "The end of credential sprawl for agents",
+        "url": "https://vercel.com/blog/the-end-of-credential-sprawl-for-agents",
+        "fetched": true,
+        "savedAt": "2026-08-26T00:57:11.213Z"
+      }
+    },
+    {
+      "id": "sig-da55f7d7bd",
+      "title": "Disrupting a new covert influence campaign from Russia",
+      "oneLiner": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sover",
+      "summary": {
+        "oneSentence": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praisi",
+        "bullets": [
+          "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Disrupting a new covert influence campaign from Russia",
+      "originalLang": "en",
+      "date": "2026-08-25",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Disrupting a new covert influence campaign from Russia"
+      },
+      "raw": {
+        "title": "Disrupting a new covert influence campaign from Russia",
+        "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
+        "fetched": false,
+        "savedAt": "2026-08-26T00:57:12.810Z"
+      }
+    },
+    {
+      "id": "sig-cfc376addf",
+      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+      "oneLiner": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permi",
+      "summary": {
+        "oneSentence": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limit",
+        "bullets": [
+          "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/introducing-admin-plugin"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Introducing the Admin plugin for ChatGPT Work and Codex",
+      "originalLang": "en",
+      "date": "2026-08-25",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/introducing-admin-plugin",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Introducing the Admin plugin for ChatGPT Work and Codex"
+      },
+      "raw": {
+        "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
+        "url": "https://openai.com/index/introducing-admin-plugin",
+        "fetched": false,
+        "savedAt": "2026-08-26T00:57:14.500Z"
+      }
+    },
+    {
+      "id": "sig-b1a172da43",
+      "title": "MiniMax M3 and M2.7 are free on AI Gateway",
+      "oneLiner": "MiniMax M3 and M2.7 are free on AI Gateway via GMI Cloud through Sunday, September 6. Use the -free ",
+      "summary": {
+        "oneSentence": "MiniMax M3 and M2.7 are free on AI Gateway via GMI Cloud through Sunday, September 6. Use the -free model IDs ( minimax/",
+        "bullets": [
+          "MiniMax M3 and M2.7 are free on AI Gateway via GMI Cloud through Sunday, September 6. Use the -free model IDs ( minimax/minimax-m3-free or minimax/minimax-m2.7-free ), which route to GMI Cloud. When t"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/minimax-m3-and-m2-7-are-free-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "MiniMax M3 and M2.7 are free on AI Gateway via GMI Cloud through Sunday, September 6.",
+        "Use the -free model IDs ( minimax/minimax-m3-free or minimax/minimax-m2.7-free ), which route to GMI Cloud. When the free period ends, the IDs will error:",
+        "1 import { streamText } from 'ai' ; 2 3 const result = streamText ( { 4 model : 'minimax/minimax-m3-free' , 5 prompt : 'Summarize the incident report.' , 6 } ) ; 7",
+        "Or keep the model ID ( minimax/minimax-m3 ) and put GMI Cloud as the preferred provider with order:",
+        "1 const result = streamText ( { 2 model : 'minimax/minimax-m3' , 3 prompt : 'Summarize the incident report.' , 4 providerOptions : { 5 gateway : { 6 order : [ 'gmicloud' ] , 7 } , 8 } , 9 } ) ;",
+        "This will fall back to another provider when it cannot serve. Both options work across every AI Gateway API.",
+        "To use the MiniMax models in a coding agent , see the coding agents guide, then run vercel ai-gateway coding-agents setup to connect agents like Claude Code, Codex, OpenCode, Cursor, Pi, and more, and select minimax/minimax-m3-free inside the agent."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "MiniMax M3 and M2.7 are free on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-25",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/minimax-m3-and-m2-7-are-free-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "MiniMax M3 and M2.7 are free on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "MiniMax M3 and M2.7 are free on AI Gateway",
+        "url": "https://vercel.com/changelog/minimax-m3-and-m2-7-are-free-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-08-26T00:57:16.206Z"
+      }
+    },
     {
       "id": "sig-205ee244c2",
       "title": "Elastic build machines now use Turborepo cache hits to prevent downgrades",
@@ -3964,7 +4714,7 @@
         "url": "https://cursor.com/changelog/08-19-26",
         "fetched": true,
         "savedAt": "2026-08-20T00:54:20.982Z",
-        "retranslatedAt": "2026-08-25T00:55:42.633Z"
+        "retranslatedAt": "2026-08-26T00:57:27.165Z"
       }
     },
     {
