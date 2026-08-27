@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-26T00:57:27.968Z",
+  "updatedAt": "2026-08-27T06:44:12.605Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 334,
+  "itemCount": 344,
   "brief": {
-    "date": "2026-08-26",
-    "generatedAt": "2026-08-26T00:57:27.967Z",
-    "totalCount": 334,
+    "date": "2026-08-27",
+    "generatedAt": "2026-08-27T06:44:12.604Z",
+    "totalCount": 344,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 334 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 344 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -40,10 +40,10 @@
         "readMinutes": 5
       },
       {
-        "id": "sig-31820cf2de",
-        "title": "Ora 如何在 Vercel 上对每个主要 AI 代理进行基准测试 |客户 |韦尔塞尔",
+        "id": "sig-83abfc0828",
+        "title": "使用 Gemini 3.5 Transcribe 进行智能转录",
         "stars": 4,
-        "oneLiner": "将链接复制到标题 Ora on Vercel 一个平台上的前端、后端和代理运行时",
+        "oneLiner": "我们最新的语音转文本模型专为精确、智能的实时转录而设计。",
         "readMinutes": 5
       }
     ],
@@ -53,8 +53,8 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "sig-31820cf2de",
-        "sig-06daba08af"
+        "sig-83abfc0828",
+        "sig-d6bb1031e6"
       ],
       "newReleases": [
         "sig-d822bd91a1",
@@ -71,10 +71,10 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "sig-31820cf2de",
-        "sig-06daba08af",
-        "sig-06e8632196",
-        "sig-084c45658e"
+        "sig-83abfc0828",
+        "sig-d6bb1031e6",
+        "sig-cdfc10030b",
+        "sig-504dd1ec95"
       ],
       "emergingTrends": [
         "cur-openai-agentkit",
@@ -115,12 +115,12 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-08-26T00:57:27.968Z",
-    "summary": "近 30 天共 260 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-08-27T06:44:12.605Z",
+    "summary": "近 30 天共 262 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
-        "signal": "近 30 天 6 条相关更新",
+        "signal": "近 30 天 5 条相关更新",
         "examples": [
           "云端智能体和 Cursor Harness 改进 · Cursor",
           "Origin 代码托管 · Cursor"
@@ -132,40 +132,100 @@
   },
   "productUpdates": [
     {
+      "id": "sig-83abfc0828",
+      "title": "使用 Gemini 3.5 Transcribe 进行智能转录",
+      "oneLiner": "我们最新的语音转文本模型专为精确、智能的实时转录而设计。",
+      "date": "2026-08-26",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google DeepMind",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-d6bb1031e6",
+      "title": "将 ChatGPT for Teachers 带到更多美国学区",
+      "oneLiner": "ChatGPT for Teachers 正在扩展到 55 个美国学校系统，为超过 100,000 名教育工作者和工作人员带来安全的 AI 工具、培训和支持。",
+      "date": "2026-08-26",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-cdfc10030b",
+      "title": "学习永不停歇：人工智能如何让学习持续进行",
+      "oneLiner": "OpenAI 的新报告探讨了学生和教育工作者如何使用 ChatGPT 使学习更加连续，并提供超越课堂的支持。",
+      "date": "2026-08-26",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-504dd1ec95",
+      "title": "抱脸事件与未来之路",
+      "oneLiner": "OpenAI 分享了 Hugging Face 安全事件的调查结果以及我们为加强 AI 模型安全、监控和调整而采取的步骤。",
+      "date": "2026-08-26",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-d34e82eae2",
+      "title": "loveholidays 如何通过 Codex 让每个人都成为建设者",
+      "oneLiner": "了解 loveholidays 如何使用 OpenAI Codex 使整个企业都可以进行软件开发，帮助团队更快地将想法转化为产品。",
+      "date": "2026-08-26",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
       "id": "sig-5f0b03166b",
-      "title": "5 ways to upgrade your home decor with Google Search",
-      "oneLiner": "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle ",
+      "title": "使用 Google 搜索升级家居装饰的 5 种方法",
+      "oneLiner": "从追踪独特的古董发现到在购买前查看新家具是否合适，Google 搜索可以帮助您改变生活空间。",
       "date": "2026-08-25",
       "productIds": [
         "gemini"
       ],
       "source": "Google AI",
       "tags": [],
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "sig-829e237a88",
-      "title": "The full stack behind abundant intelligence",
-      "oneLiner": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to",
+      "title": "丰富智能背后的全栈",
+      "oneLiner": "OpenAI 首席财务官 Sarah Friar 解释了芯片、计算、模型和产品之间的进步如何结合起来，以更大规模和更低的成本提供更有用的智能。",
       "date": "2026-08-25",
       "productIds": [
         "chatgpt"
       ],
       "source": "OpenAI",
       "tags": [],
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "sig-9ad99bb5f4",
-      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "oneLiner": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI infere",
+      "title": "Jalapeo 的首批结果显示了人工智能推理行业领先的速度和效率",
+      "oneLiner": "Jalapeo 是 OpenAI 的定制推理芯片，可提供更快、更节能的 AI 推理，为现代模型提供更高的吞吐量和更低的延迟。",
       "date": "2026-08-25",
       "productIds": [
         "chatgpt"
       ],
       "source": "OpenAI",
       "tags": [],
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "sig-da55f7d7bd",
@@ -360,84 +420,27 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-e456387186",
-      "title": "ChatGPT 广告扩展到整个欧洲",
-      "oneLiner": "ChatGPT 广告正在扩展到 31 个欧洲市场。了解广告商如何在人们探索、比较选项和做出决策时吸引他们。",
-      "date": "2026-08-18",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-ef87e3b0ab",
-      "title": "与 Gemini 和 Pixel 一起近距离接触游戏",
-      "oneLiner": "Gemini 和 Pixel 宣布与阿森纳足球俱乐部、巴塞罗那足球俱乐部、拜仁慕尼黑足球俱乐部、利物浦足球俱乐部和巴黎圣日耳曼足球俱乐部建立新的长期合作伙伴关系，通过人工智能个人智能和智能手机技术让球迷更接近比赛。",
-      "date": "2026-08-17",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google AI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-f137d9ea2f",
-      "title": "防守者之窗",
-      "oneLiner": "人工智能正在重塑攻击者和防御者的网络安全。了解 OpenAI 如何加强防御以及安全团队现在可以做什么。",
-      "date": "2026-08-17",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-ad5623d5cc",
-      "title": "OpenAI 加入 PORTS-Pike 项目",
-      "oneLiner": "OpenAI 加入 PORTS-Pike 项目，扩大社区投资并支持俄亥俄州南部数千个就业岗位",
-      "date": "2026-08-17",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-96670aeff6",
-      "title": "情报时代的新政策理念",
-      "oneLiner": "OpenAI 资助了 14 个独立项目，探索新的人工智能政策理念，以扩大智能时代的经济机会并增强社会复原力。",
-      "date": "2026-08-17",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
     {
-      "id": "sig-6f42175435",
-      "title": "Vercel applications are protected from Next.js August 2026 security vulnerabilities",
-      "oneLiner": "Summary Two vulnerabilities affecting Next.js were disclosed in the August 2026 Security Release. Ne",
+      "id": "sig-83abfc0828",
+      "title": "使用 Gemini 3.5 Transcribe 进行智能转录",
+      "oneLiner": "我们最新的语音转文本模型专为精确、智能的实时转录而设计。",
       "summary": {
-        "oneSentence": "Summary Two vulnerabilities affecting Next.js were disclosed in the August 2026 Security Release. Next.js applications h",
+        "oneSentence": "我们最新的语音转文本模型专为精确、智能的实时转录而设计。",
         "bullets": [
-          "Summary Two vulnerabilities affecting Next.js were disclosed in the August 2026 Security Release. Next.js applications hosted on Vercel are protected and require no customer action. Next.js August 202"
+          "我们最新的语音转文本模型专为精确、智能的实时转录而设计。",
+          "Gemini Audio 工程高级总监",
+          "Gemini Audio 参谋长代表 Gemini Audio 团队",
+          "您的浏览器不支持音频元素。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Google DeepMind 官网发布：我们最新的语音转文本模型专为精确、智能的实时转录而设计。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -445,37 +448,838 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
-        "relevance": "",
+        "relevance": "关联产品：gemini",
         "actionItems": [
-          "阅读原文：https://vercel.com/changelog/nextjs-august-2026-security-release"
+          "阅读原文（英文）：https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "我们最新的语音转文本模型专为精确、智能的实时转录而设计。",
+        "Gemini Audio 工程高级总监",
+        "Gemini Audio 参谋长代表 Gemini Audio 团队",
+        "您的浏览器不支持音频元素。",
+        "今天，我们推出 Gemini 3.5 Transcribe，这是我们迄今为止最精确的语音转文本模型，专为智能语音交互而设计。与传统的语音识别模型不同，传统的语音识别模型需要应对背景噪音、复杂的行话和不流畅的清理问题，Gemini 3.5 Transcribe 可以将原始音频直接转换为准确、优美的格式化文本。",
+        "在我们的 Gemini 应用程序和 Android 等产品中，我们看到消费者已经从这种转录模型中受益，它具有新的语音功能，例如 Android 上的 Rambler 和 macOS 上的 Gemini 应用程序。现在，开发人员可以在 Google AI Studio 和 Gemini Enterprise Agent Platform 的 Gemini API 中使用 Gemini 3.5 Transcribe 构建类似的功能。",
+        "我们构建了 3.5 Transcribe，可以无缝插入您的开发人员工作流程，无论您是构建语音代理、实时字幕工具还是通话后分析管道。该模型可通过两个独立的 API 使用：",
+        "Gemini 3.5 Transcribe 旨在捕捉您自然的说话风格，以更好地理解您的意图并识别自定义词汇，以便您可以用您的声音执行任务。",
+        "Gemini 3.5 Transcribe 可处理实时语言切换和无缝流转录",
+        "观看 Gemini 3.5 Transcribe 通过智能转录功能消除语音不流畅的情况。"
+      ],
+      "highlights": [
+        "我们最新的语音转文本模型专为精确、智能的实时转录而设计。",
+        "Gemini Audio 工程高级总监",
+        "Gemini Audio 参谋长代表 Gemini Audio 团队"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Intelligent transcription with Gemini 3.5 Transcribe",
+      "originalLang": "en",
+      "date": "2026-08-26",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google DeepMind",
+        "author": "DeepMind",
+        "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+        "home": "https://deepmind.google/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Intelligent transcription with Gemini 3.5 Transcribe"
+      },
+      "raw": {
+        "title": "Intelligent transcription with Gemini 3.5 Transcribe",
+        "url": "https://deepmind.google/blog/intelligent-transcription-with-gemini-3-5-transcribe/",
+        "fetched": true,
+        "savedAt": "2026-08-27T06:42:58.833Z"
+      }
+    },
+    {
+      "id": "sig-d6bb1031e6",
+      "title": "将 ChatGPT for Teachers 带到更多美国学区",
+      "oneLiner": "ChatGPT for Teachers 正在扩展到 55 个美国学校系统，为超过 100,000 名教育工作者和工作人员带来安全的 AI 工具、培训和支持。",
+      "summary": {
+        "oneSentence": "ChatGPT for Teachers 正在扩展到 55 个美国学校系统，为超过 100,000 名教育工作者和工作人员带来安全的 AI 工具、培训和支持。",
+        "bullets": [
+          "ChatGPT for Teachers 正在扩展到 55 个美国学校系统，为超过 100,000 名教育工作者和工作人员带来安全的 AI 工具、培训和支持。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：ChatGPT for Teachers 正在扩展到 55 个美国学校系统，为超过 100,000 名教育工作者和工作人员带来安全的 AI 工具、培训和支持。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "ChatGPT for Teachers 正在扩展到 55 个美国学校系统，为超过 100,000 名教育工作者和工作人员带来安全的 AI 工具、培训和支持。"
+      ],
+      "highlights": [
+        "ChatGPT for Teachers 正在扩展到 55 个美国学校系统，为超过 100,000 名教育工作者和工作人员带来安全的 AI 工具、培训和支持。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Bringing ChatGPT for Teachers to more U.S. school districts",
+      "originalLang": "en",
+      "date": "2026-08-26",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Bringing ChatGPT for Teachers to more U.S. school districts"
+      },
+      "raw": {
+        "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+        "url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+        "fetched": false,
+        "savedAt": "2026-08-27T06:43:00.184Z"
+      }
+    },
+    {
+      "id": "sig-cdfc10030b",
+      "title": "学习永不停歇：人工智能如何让学习持续进行",
+      "oneLiner": "OpenAI 的新报告探讨了学生和教育工作者如何使用 ChatGPT 使学习更加连续，并提供超越课堂的支持。",
+      "summary": {
+        "oneSentence": "OpenAI 的新报告探讨了学生和教育工作者如何使用 ChatGPT 使学习更加连续，并提供超越课堂的支持。",
+        "bullets": [
+          "OpenAI 的新报告探讨了学生和教育工作者如何使用 ChatGPT 使学习更加连续，并提供超越课堂的支持。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 的新报告探讨了学生和教育工作者如何使用 ChatGPT 使学习更加连续，并提供超越课堂的支持。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/learning-never-stops"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 的新报告探讨了学生和教育工作者如何使用 ChatGPT 使学习更加连续，并提供超越课堂的支持。"
+      ],
+      "highlights": [
+        "OpenAI 的新报告探讨了学生和教育工作者如何使用 ChatGPT 使学习更加连续，并提供超越课堂的支持。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Learning never stops: How AI makes learning continuous",
+      "originalLang": "en",
+      "date": "2026-08-26",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/learning-never-stops",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Learning never stops: How AI makes learning continuous"
+      },
+      "raw": {
+        "title": "Learning never stops: How AI makes learning continuous",
+        "url": "https://openai.com/index/learning-never-stops",
+        "fetched": false,
+        "savedAt": "2026-08-27T06:43:01.528Z"
+      }
+    },
+    {
+      "id": "sig-504dd1ec95",
+      "title": "抱脸事件与未来之路",
+      "oneLiner": "OpenAI 分享了 Hugging Face 安全事件的调查结果以及我们为加强 AI 模型安全、监控和调整而采取的步骤。",
+      "summary": {
+        "oneSentence": "OpenAI 分享了 Hugging Face 安全事件的调查结果以及我们为加强 AI 模型安全、监控和调整而采取的步骤。",
+        "bullets": [
+          "OpenAI 分享了 Hugging Face 安全事件的调查结果以及我们为加强 AI 模型安全、监控和调整而采取的步骤。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 分享了 Hugging Face 安全事件的调查结果以及我们为加强 AI 模型安全、监控和调整而采取的步骤。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/hugging-face-incident-and-the-road-ahead"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 分享了 Hugging Face 安全事件的调查结果以及我们为加强 AI 模型安全、监控和调整而采取的步骤。"
+      ],
+      "highlights": [
+        "OpenAI 分享了 Hugging Face 安全事件的调查结果以及我们为加强 AI 模型安全、监控和调整而采取的步骤。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "The Hugging Face incident and the road ahead",
+      "originalLang": "en",
+      "date": "2026-08-26",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "The Hugging Face incident and the road ahead"
+      },
+      "raw": {
+        "title": "The Hugging Face incident and the road ahead",
+        "url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead",
+        "fetched": false,
+        "savedAt": "2026-08-27T06:43:02.843Z"
+      }
+    },
+    {
+      "id": "sig-d34e82eae2",
+      "title": "loveholidays 如何通过 Codex 让每个人都成为建设者",
+      "oneLiner": "了解 loveholidays 如何使用 OpenAI Codex 使整个企业都可以进行软件开发，帮助团队更快地将想法转化为产品。",
+      "summary": {
+        "oneSentence": "了解 loveholidays 如何使用 OpenAI Codex 使整个企业都可以进行软件开发，帮助团队更快地将想法转化为产品。",
+        "bullets": [
+          "了解 loveholidays 如何使用 OpenAI Codex 使整个企业都可以进行软件开发，帮助团队更快地将想法转化为产品。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：了解 loveholidays 如何使用 OpenAI Codex 使整个企业都可以进行软件开发，帮助团队更快地将想法转化为产品。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/loveholidays"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "了解 loveholidays 如何使用 OpenAI Codex 使整个企业都可以进行软件开发，帮助团队更快地将想法转化为产品。"
+      ],
+      "highlights": [
+        "了解 loveholidays 如何使用 OpenAI Codex 使整个企业都可以进行软件开发，帮助团队更快地将想法转化为产品。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How loveholidays is making everyone a builder with Codex",
+      "originalLang": "en",
+      "date": "2026-08-26",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/loveholidays",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How loveholidays is making everyone a builder with Codex"
+      },
+      "raw": {
+        "title": "How loveholidays is making everyone a builder with Codex",
+        "url": "https://openai.com/index/loveholidays",
+        "fetched": false,
+        "savedAt": "2026-08-27T06:43:04.176Z"
+      }
+    },
+    {
+      "id": "sig-a34540de30",
+      "title": "Muse 图像现已在 AI Gateway - Vercel 上提供",
+      "oneLiner": "来自 Meta Superintelligence Labs 的 Muse Image 现已在 AI Gateway 上提供。这是他们的第一个图像模型，并且是与 Muse Spark 不同的系列，返回图像而不是文本。发送提示并获取图像，或发",
+      "summary": {
+        "oneSentence": "来自 Meta Superintelligence Labs 的 Muse Image 现已在 AI Gateway 上提供。这是他们的第一个图像模型，并且是与 Muse Spark 不同的系列，返回图像而不是文本。发送提示并获取图像，或发",
+        "bullets": [
+          "来自 Meta Superintelligence Labs 的 Muse Image 现已在 AI Gateway 上提供。这是他们的第一个图像模型，并且是与 Muse Spark 不同的系列，返回图像而不是文本。发送提示并获取图像，或发送带有说明的图像并进行更改。一个模型可以同时完成这两项任务，因此您无需切换模型即",
+          "要使用 Muse Image，请将 model 设置为 meta/muse-image-1.0 并从 AI SDK 调用generateImage：",
+          "1 从 'ai' 导入 {generateImage} ； 2 3 const { images } =awaitgenerateImage({4model:'meta/muse-image-1.0',5prompt:'数据库索引演讲的会议海报。',6});",
+          "为了将结果引向您已有的艺术，请在提示中将参考图像与文本一起传递，然后模型将它们混合到它绘制的内容中。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：来自 Meta Superintelligence Labs 的 Muse Image 现已在 AI Gateway 上提供。这是他们的第一个图像模型，并且是与 Muse Spark 不同的系列，返回图像而不是文本。发送提示并获取图像，或发",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/muse-image-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "Copy link to heading Summary Two vulnerabilities affecting Next.js were disclosed in the August 2026 Security Release. Next.js applications hosted on Vercel are protected and require no customer action.",
-        "Copy link to heading Next.js August 2026 vulnerabilities Next.js disclosed the following critical vulnerabilities:",
-        "GHSA-2xp9-vwfh-vxw4 originates in the upstream libheif dependency and can lead to unauthenticated remote code execution when Image Optimization processes a crafted AVIF input.",
-        "CVE-2026-75604 ( GHSA-p293-qw3h-jr36 ) can lead to unauthenticated remote code execution on Windows-hosted Next.js servers in applications using the Pages Router and App Router without Cache Components.",
-        "After the AVIF vulnerability was identified, Vercel applied protections to its managed Image Optimization service.",
-        "Copy link to heading Impact on Vercel deployments Applications hosted on Vercel are protected. No upgrades, configuration changes, or redeploys are required.",
-        "Once the AVIF vulnerability was identified, Vercel disabled AVIF optimization across its managed Image Optimization service. AVIF inputs are served as-is and do not pass through the affected processing path.",
-        "The second vulnerability only affects servers using a Windows filesystem. Vercel's Next.js runtime uses Linux and is not affected.",
-        "Copy link to heading Resolution for self-hosted applications Self-hosted Next.js applications should upgrade to the appropriate patched version.",
-        "For applications running Next.js 15.x or earlier:",
-        "In the patched releases, AVIF images are not resized or optimized. They are served as-is until a fixed libheif version is available. There is no workaround for the Windows vulnerability; affected servers should upgrade immediately.",
-        "Copy link to heading Credit Thanks to the Hacktron team for responsibly disclosing the AVIF vulnerability, and to evolutionstorm and B0RI for responsibly disclosing the Windows vulnerability.",
-        "Copy link to heading References Next.js August 2026 security release"
+        "来自 Meta Superintelligence Labs 的 Muse Image 现已在 AI Gateway 上提供。这是他们的第一个图像模型，并且是与 Muse Spark 不同的系列，返回图像而不是文本。发送提示并获取图像，或发送带有说明的图像并进行更改。一个模型可以同时完成这两项任务，因此您无需切换模型即可从生成状态转移到编辑状态。",
+        "要使用 Muse Image，请将 model 设置为 meta/muse-image-1.0 并从 AI SDK 调用generateImage：",
+        "1 从 'ai' 导入 {generateImage} ； 2 3 const { images } =awaitgenerateImage({4model:'meta/muse-image-1.0',5prompt:'数据库索引演讲的会议海报。',6});",
+        "为了将结果引向您已有的艺术，请在提示中将参考图像与文本一起传递，然后模型将它们混合到它绘制的内容中。",
+        "将链接复制到标题编辑 通过指令在prompt.images中传递您想要更改的图像，模型将更改您要求的内容并保留其余部分：",
+        "1 从 'node:fs' 导入 { readFileSync } ； 2 从 'ai' 导入 {generateImage} ； 3 4 const { images } = waitgenerateImage({ 5 model : 'meta/muse-image-1.0' , 6 Prompt : { 7 text : '将日期移动到右下角并使其变大。' , 8 images : [ readFileSync('./poster.png' ) ] , 9 } , 10 } ) ;",
+        "在模型游乐场中尝试 Muse Image。",
+        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本、故障转移以及性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、API 密钥预算、路由规则等。",
+        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。",
+        "您可以查看AI网关上所有可用的图像模型。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "来自 Meta Superintelligence Labs 的 Muse Image 现已在 AI Gateway 上提供。这是他们的第一个图像模型，并且是与",
+        "要使用 Muse Image，请将 model 设置为 meta/muse-image-1.0 并从 AI SDK 调用generateImage：",
+        "1 从 'ai' 导入 {generateImage} ； 2 3 const { images } =awaitgenerateImage({4model:'"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Muse Image now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-26",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/muse-image-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Muse Image now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Muse Image now available on AI Gateway",
+        "url": "https://vercel.com/changelog/muse-image-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-08-27T06:43:12.611Z"
+      }
+    },
+    {
+      "id": "sig-13c043a8ee",
+      "title": "Gemini 3.5 Transcribe 现已在 AI Gateway 上可用 - Vercel",
+      "oneLiner": "Google 的 Gemini 3.5 Transcribe 现已在 AI Gateway 上提供。它接受音频并返回文本，有两种变体：",
+      "summary": {
+        "oneSentence": "Google 的 Gemini 3.5 Transcribe 现已在 AI Gateway 上提供。它接受音频并返回文本，有两种变体：",
+        "bullets": [
+          "Google 的 Gemini 3.5 Transcribe 现已在 AI Gateway 上提供。它接受音频并返回文本，有两种变体：",
+          "google/gemini-3.5-transcribe 在单个请求中转录完整的录音。",
+          "google/gemini-3.5-transcribe-live 通过 WebSocket 转录音频，返回在录音仍在进行时更新的转录本。",
+          "该模型会自行检测语言，涵盖 85+ 语言，并跟踪中途切换语言的说话者。您还可以提供自定义词汇表，以便它识别名称、行话和拼写。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Google 的 Gemini 3.5 Transcribe 现已在 AI Gateway 上提供。它接受音频并返回文本，有两种变体：",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/gemini-3-5-transcribe-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Google 的 Gemini 3.5 Transcribe 现已在 AI Gateway 上提供。它接受音频并返回文本，有两种变体：",
+        "google/gemini-3.5-transcribe 在单个请求中转录完整的录音。",
+        "google/gemini-3.5-transcribe-live 通过 WebSocket 转录音频，返回在录音仍在进行时更新的转录本。",
+        "该模型会自行检测语言，涵盖 85+ 语言，并跟踪中途切换语言的说话者。您还可以提供自定义词汇表，以便它识别名称、行话和拼写。",
+        "流式转录是 AI SDK V7 中的新增功能：",
+        "npm install ai@latest @ai-sdk/gateway@latest",
+        "将链接复制到标题实时转录streamTranscribe 打开套接字并获取原始音频块的ReadableStream，以便您可以直接通过麦克风。使用 inputAudioFormat 告诉它您要发送的格式：",
+        "1 从 '@ai-sdk/gateway' 导入 { gateway } ； 2 从'ai'导入{experimental_streamTranscribe as streamTranscribe}； 3 4 conststream =streamTranscribe({5model:gateway.transcription('google/gemini-3.5-transcribe-live'),6audio:mickeyStream, // 16kHz 16位PCM块的ReadableStream7inputAudioFormat:{type:'audio/pcm',rate:16000},8providerOptions:{ 9 google : { mode : 'SMART' } , // 或 'VERBATIM' (默认) 10 } , 11 } ) ;",
+        "将链接复制到标题完整录音对于磁盘上已有的音频，转录将在一个请求中发送它并返回文本：",
+        "1 从'ai'导入{experimental_transcribe as transcribe}； 2 从 'node:fs/promises' 导入 { readFile } ； 3 4 const result =等待转录（{5模型：'google/gemini-3.5-transcribe'，6音频：等待readFile（'meeting.mp3'），7}）; 8 9 控制台。日志（结果。文本）；"
+      ],
+      "highlights": [
+        "Google 的 Gemini 3.5 Transcribe 现已在 AI Gateway 上提供。它接受音频并返回文本，有两种变体：",
+        "google/gemini-3.5-transcribe 在单个请求中转录完整的录音。",
+        "google/gemini-3.5-transcribe-live 通过 WebSocket 转录音频，返回在录音仍在进行时更新的转录本。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Gemini 3.5 Transcribe now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-26",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/gemini-3-5-transcribe-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Gemini 3.5 Transcribe now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Gemini 3.5 Transcribe now available on AI Gateway",
+        "url": "https://vercel.com/changelog/gemini-3-5-transcribe-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-08-27T06:43:20.035Z"
+      }
+    },
+    {
+      "id": "sig-25442f8533",
+      "title": "Qwen 3.8 Flash 现已在 AI Gateway 上可用 - Vercel",
+      "oneLiner": "阿里巴巴的Qwen 3.8 Flash现已在AI Gateway上线。它采用文本和图像作为输入，提供包含 100 万个令牌的上下文窗口，并且可以在响应中返回最多 65k 个令牌。阿里巴巴推荐它用于编码、工具使用和多步骤代理工作流程。",
+      "summary": {
+        "oneSentence": "阿里巴巴的Qwen 3.8 Flash现已在AI Gateway上线。它采用文本和图像作为输入，提供包含 100 万个令牌的上下文窗口，并且可以在响应中返回最多 65k 个令牌。阿里巴巴推荐它用于编码、工具使用和多步骤代理工作流程。",
+        "bullets": [
+          "阿里巴巴的Qwen 3.8 Flash现已在AI Gateway上线。它采用文本和图像作为输入，提供包含 100 万个令牌的上下文窗口，并且可以在响应中返回最多 65k 个令牌。阿里巴巴推荐它用于编码、工具使用和多步骤代理工作流程。",
+          "如需使用Qwen3.8-Flash，请在AI SDK中将型号设置为alibaba/qwen3.8-flash：",
+          "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText({ 4 model: 'alibaba/qwen3.8-flash', 5prompt: '为结果端点添加分页。', 6});",
+          "要在编码代理中使用它，请参阅编码代理指南 ，然后运行 ​​vercel ai-gatewaycoding-agents setup 以连接 Claude Code、Codex、OpenCode、Cursor、Pi 等代理，并在代理内选择 alibaba/qwen3.8-flash。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：阿里巴巴的Qwen 3.8 Flash现已在AI Gateway上线。它采用文本和图像作为输入，提供包含 100 万个令牌的上下文窗口，并且可以在响应中返回最多 65k 个令牌。阿里巴巴推荐它用于编码、工具使用和多步骤代理工作流程。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/qwen-3-8-flash-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "阿里巴巴的Qwen 3.8 Flash现已在AI Gateway上线。它采用文本和图像作为输入，提供包含 100 万个令牌的上下文窗口，并且可以在响应中返回最多 65k 个令牌。阿里巴巴推荐它用于编码、工具使用和多步骤代理工作流程。",
+        "如需使用Qwen3.8-Flash，请在AI SDK中将型号设置为alibaba/qwen3.8-flash：",
+        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText({ 4 model: 'alibaba/qwen3.8-flash', 5prompt: '为结果端点添加分页。', 6});",
+        "要在编码代理中使用它，请参阅编码代理指南 ，然后运行 ​​vercel ai-gatewaycoding-agents setup 以连接 Claude Code、Codex、OpenCode、Cursor、Pi 等代理，并在代理内选择 alibaba/qwen3.8-flash。",
+        "在模型游乐场尝试Qwen3.8-Flash。",
+        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本，以及配置重试、故障转移和性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、零数据保留支持、API 密钥预算、路由规则等。",
+        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。"
+      ],
+      "highlights": [
+        "阿里巴巴的Qwen 3.8 Flash现已在AI Gateway上线。它采用文本和图像作为输入，提供包含 100 万个令牌的上下文窗口，并且可以在响应中返回最多",
+        "如需使用Qwen3.8-Flash，请在AI SDK中将型号设置为alibaba/qwen3.8-flash：",
+        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText({ 4 model: 'alibaba/qwe"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Qwen 3.8 Flash now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-26",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/qwen-3-8-flash-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Qwen 3.8 Flash now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Qwen 3.8 Flash now available on AI Gateway",
+        "url": "https://vercel.com/changelog/qwen-3-8-flash-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-08-27T06:43:25.862Z"
+      }
+    },
+    {
+      "id": "sig-b3c7a885ec",
+      "title": "GLM 5.3 Flash 现已在 AI Gateway 上可用 - Vercel",
+      "oneLiner": "Z.ai 的 GLM 5.3 Flash 现已在 AI Gateway 上提供。",
+      "summary": {
+        "oneSentence": "Z.ai 的 GLM 5.3 Flash 现已在 AI Gateway 上提供。",
+        "bullets": [
+          "Z.ai 的 GLM 5.3 Flash 现已在 AI Gateway 上提供。",
+          "GLM-5.3 Flash是一种多模态模型，支持文本和视觉输入，具有1M令牌上下文窗口。它支持函数调用、结构化输出和流式传输。要使用 GLM-5.3 Flash，请将模型设置为 zai/glm-5.3-flash ：",
+          "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText ({ 4 model : 'zai/glm-5.3-flash' , 5prompt : '将此屏幕截图重新创建为响应式 React 组件。' , 6 } ) ;",
+          "您还可以在消息中将图像与文本一起传递。 URL 和 Base64 数据 URL 都可以使用，并且一个请求可以包含多个图像："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Z.ai 的 GLM 5.3 Flash 现已在 AI Gateway 上提供。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/glm-5-3-flash-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Z.ai 的 GLM 5.3 Flash 现已在 AI Gateway 上提供。",
+        "GLM-5.3 Flash是一种多模态模型，支持文本和视觉输入，具有1M令牌上下文窗口。它支持函数调用、结构化输出和流式传输。要使用 GLM-5.3 Flash，请将模型设置为 zai/glm-5.3-flash ：",
+        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText ({ 4 model : 'zai/glm-5.3-flash' , 5prompt : '将此屏幕截图重新创建为响应式 React 组件。' , 6 } ) ;",
+        "您还可以在消息中将图像与文本一起传递。 URL 和 Base64 数据 URL 都可以使用，并且一个请求可以包含多个图像：",
+        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText ( { 4 model : 'zai/glm-5.3-flash' , 5 messages : [ 6 { 7 role : 'user' , 8 content : [ 9 { 10 type : 'text' , 11 text : '将此屏幕截图重新创建为响应式 React 组件。' , 12 } , 13 { 14 type : 'file' , 15 mediaType : 'image/png' , 16 data : readFileSync('screenshot.png' ) , 17 } , 18 ] , 19 } , 20 ] , 21 } );",
+        "要在编码代理中使用它，请运行 vercel ai-gatewaycoding-agents setup 以连接 Claude Code、Codex、OpenCode、Cursor、Pi 等代理，然后在代理内选择 zai/glm-5.3-flash。",
+        "在模型游乐场中尝试 GLM-5.3 Flash。",
+        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本，以及配置重试、故障转移和性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、零数据保留支持、API 密钥预算、路由规则等。",
+        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。查看AI Gateway上的所有语言模型。"
+      ],
+      "highlights": [
+        "Z.ai 的 GLM 5.3 Flash 现已在 AI Gateway 上提供。",
+        "GLM-5.3 Flash是一种多模态模型，支持文本和视觉输入，具有1M令牌上下文窗口。它支持函数调用、结构化输出和流式传输。要使用 GLM-5.3 Flash",
+        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText ({ 4 model : 'zai/glm-5"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "GLM 5.3 Flash now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-26",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/glm-5-3-flash-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "GLM 5.3 Flash now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "GLM 5.3 Flash now available on AI Gateway",
+        "url": "https://vercel.com/changelog/glm-5-3-flash-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-08-27T06:43:33.111Z"
+      }
+    },
+    {
+      "id": "sig-8d676f9025",
+      "title": "Vercel 安全仪表板现已全面推出 - Vercel",
+      "oneLiner": "Vercel 安全仪表板现已在所有计划中普遍提供，让您可以在一个地方查看每个帐户和项目的安全状况。",
+      "summary": {
+        "oneSentence": "Vercel 安全仪表板现已在所有计划中普遍提供，让您可以在一个地方查看每个帐户和项目的安全状况。",
+        "bullets": [
+          "Vercel 安全仪表板现已在所有计划中普遍提供，让您可以在一个地方查看每个帐户和项目的安全状况。",
+          "您可以在 UI 中访问安全仪表板或在 Vercel CLI 中运行 vercel 安全检查。",
+          "随着团队的成长和编码代理可以更快地启动项目，小的错误配置会悄悄地增加。安全仪表板会自动标记以下问题：",
+          "可以用 OIDC 替换的长期凭证"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel 安全仪表板现已在所有计划中普遍提供，让您可以在一个地方查看每个帐户和项目的安全状况。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-security-dashboard-is-now-generally-available"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel 安全仪表板现已在所有计划中普遍提供，让您可以在一个地方查看每个帐户和项目的安全状况。",
+        "您可以在 UI 中访问安全仪表板或在 Vercel CLI 中运行 vercel 安全检查。",
+        "随着团队的成长和编码代理可以更快地启动项目，小的错误配置会悄悄地增加。安全仪表板会自动标记以下问题：",
+        "可以用 OIDC 替换的长期凭证",
+        "不敏感且过时的环境变量",
+        "将链接复制到标题“安全仪表板 UI 错误配置”按风险排序，最严重的排在第一位，每个查找结果都链接到修复这些错误的设置。",
+        "对于您的团队来说只是噪音的发现也可以被静音，并且所有结果都可以导出到 CSV 文件以进行分类或报告。",
+        "将链接复制到标题安全仪表板 CLI 您还可以通过新的 Vercel CLI vercel 安全检查命令在终端中运行相同的检查，从而允许您的代理为您完成检查结果。",
+        "使用 vercel security check --findings 的代理可以读取失败的内容、应用修复并重新检查以确认。代理可以应用的修复包括：",
+        "将环境变量标记为敏感"
+      ],
+      "highlights": [
+        "Vercel 安全仪表板现已在所有计划中普遍提供，让您可以在一个地方查看每个帐户和项目的安全状况。",
+        "您可以在 UI 中访问安全仪表板或在 Vercel CLI 中运行 vercel 安全检查。",
+        "随着团队的成长和编码代理可以更快地启动项目，小的错误配置会悄悄地增加。安全仪表板会自动标记以下问题："
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Security Dashboard is now generally available - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-26",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-security-dashboard-is-now-generally-available",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Security Dashboard is now generally available - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Security Dashboard is now generally available",
+        "url": "https://vercel.com/changelog/vercel-security-dashboard-is-now-generally-available",
+        "fetched": true,
+        "savedAt": "2026-08-27T06:43:39.061Z"
+      }
+    },
+    {
+      "id": "sig-6f42175435",
+      "title": "Vercel 应用程序免受 Next.js August 2026 安全漏洞的影响 - Vercel",
+      "oneLiner": "将链接复制到标题 摘要 2026 年 8 月的安全版本中披露了两个影响 Next.js 的漏洞。 Vercel 上托管的 Next.js 应用程序受到保护，无需客户执行任何操作。",
+      "summary": {
+        "oneSentence": "将链接复制到标题 摘要 2026 年 8 月的安全版本中披露了两个影响 Next.js 的漏洞。 Vercel 上托管的 Next.js 应用程序受到保护，无需客户执行任何操作。",
+        "bullets": [
+          "将链接复制到标题 摘要 2026 年 8 月的安全版本中披露了两个影响 Next.js 的漏洞。 Vercel 上托管的 Next.js 应用程序受到保护，无需客户执行任何操作。",
+          "将链接复制到标题 Next.js 2026 年 8 月漏洞 Next.js 披露了以下严重漏洞：",
+          "GHSA-2xp9-vwfh-vxw4 源自上游 libheif 依赖项，当图像优化处理精心设计的 AVIF 输入时，可能会导致未经身份验证的远程代码执行。",
+          "CVE-2026-75604 ( GHSA-p293-qw3h-jr36 ) 可能会导致在使用不带缓存组件的 Pages Router 和 App Router 的应用程序中的 Windows 托管的 Next.js 服务器上未经身份验证的远程执行代码。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：将链接复制到标题 摘要 2026 年 8 月的安全版本中披露了两个影响 Next.js 的漏洞。 Vercel 上托管的 Next.js 应用程序受到保护，无需客户执行任何操作。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/nextjs-august-2026-security-release"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "将链接复制到标题 摘要 2026 年 8 月的安全版本中披露了两个影响 Next.js 的漏洞。 Vercel 上托管的 Next.js 应用程序受到保护，无需客户执行任何操作。",
+        "将链接复制到标题 Next.js 2026 年 8 月漏洞 Next.js 披露了以下严重漏洞：",
+        "GHSA-2xp9-vwfh-vxw4 源自上游 libheif 依赖项，当图像优化处理精心设计的 AVIF 输入时，可能会导致未经身份验证的远程代码执行。",
+        "CVE-2026-75604 ( GHSA-p293-qw3h-jr36 ) 可能会导致在使用不带缓存组件的 Pages Router 和 App Router 的应用程序中的 Windows 托管的 Next.js 服务器上未经身份验证的远程执行代码。",
+        "发现 AVIF 漏洞后，Vercel 对其托管图像优化服务应用了保护。",
+        "将链接复制到标题 对 Vercel 部署的影响 Vercel 上托管的应用程序受到保护。无需升级、配置更改或重新部署。",
+        "一旦发现 AVIF 漏洞，Vercel 就在其托管图像优化服务中禁用了 AVIF 优化。 AVIF 输入按原样提供，不会通过受影响的处理路径。",
+        "第二个漏洞仅影响使用 Windows 文件系统的服务器。 Vercel 的 Next.js 运行时使用 Linux，不受影响。",
+        "将链接复制到标题 自托管应用程序的解决方案 自托管 Next.js 应用程序应升级到适当的修补版本。",
+        "对于运行 Next.js 15.x 或更早版本的应用程序："
+      ],
+      "highlights": [
+        "将链接复制到标题 摘要 2026 年 8 月的安全版本中披露了两个影响 Next.js 的漏洞。 Vercel 上托管的 Next.js 应用程序受到保护，无需",
+        "将链接复制到标题 Next.js 2026 年 8 月漏洞 Next.js 披露了以下严重漏洞：",
+        "GHSA-2xp9-vwfh-vxw4 源自上游 libheif 依赖项，当图像优化处理精心设计的 AVIF 输入时，可能会导致未经身份验证的远程代码执行。"
+      ],
+      "translated": true,
       "originalTitle": "Vercel applications are protected from Next.js August 2026 security vulnerabilities - Vercel",
       "originalLang": "en",
       "date": "2026-08-25",
@@ -491,32 +1295,37 @@
         "url": "https://vercel.com/changelog/nextjs-august-2026-security-release",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Vercel applications are protected from Next.js August 2026 security vulnerabilities - Vercel"
       },
       "raw": {
         "title": "Vercel applications are protected from Next.js August 2026 security vulnerabilities",
         "url": "https://vercel.com/changelog/nextjs-august-2026-security-release",
         "fetched": true,
-        "savedAt": "2026-08-26T00:57:00.779Z"
-      }
+        "savedAt": "2026-08-26T00:57:00.779Z",
+        "retranslatedAt": "2026-08-27T06:43:45.472Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-5f0b03166b",
-      "title": "5 ways to upgrade your home decor with Google Search",
-      "oneLiner": "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle ",
+      "title": "使用 Google 搜索升级家居装饰的 5 种方法",
+      "oneLiner": "从追踪独特的古董发现到在购买前查看新家具是否合适，Google 搜索可以帮助您改变生活空间。",
       "summary": {
-        "oneSentence": "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects.",
+        "oneSentence": "从追踪独特的古董发现到在购买前查看新家具是否合适，Google 搜索可以帮助您改变生活空间。",
         "bullets": [
-          "Learn how to use Google Search tools to find home decor inspiration, shop for furniture, and tackle DIY projects."
+          "从追踪独特的古董发现到在购买前查看新家具是否合适，Google 搜索可以帮助您改变生活空间。",
+          "您的浏览器不支持音频元素。",
+          "您可以使用 Google 搜索工具将您的家居装饰灵感变为现实。使用 AI 功能可视化房间中的家具，使用相机识别复古物品，或圈出屏幕上的产品以查找类似的选项。您还可以使用 DIY 项目的实时视频指导并跟踪价格历史记录，以确保您获得最优惠的价格。",
+          "人们每天都会通过 Google 搜索来寻找发现和灵感，包括家居装饰：过去一个月“家居装饰 inspo”的搜索量增长了 300%，“浴室 inspo”和“客厅 inspo”的搜索量在同一时间范围内都取得了突破性的增长。大胆的流行色彩也很流行——今年的热门涂料搜索包括青色和洋红色。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Google AI 官网发布：从追踪独特的古董发现到在购买前查看新家具是否合适，Google 搜索可以帮助您改变生活空间。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -524,36 +1333,40 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
-        "relevance": "",
+        "relevance": "关联产品：gemini",
         "actionItems": [
-          "阅读原文：https://blog.google/products-and-platforms/products/search/home-decor-tips/"
+          "阅读原文（英文）：https://blog.google/products-and-platforms/products/search/home-decor-tips/"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [
         "gemini"
       ],
       "content": [
-        "From tracking down unique vintage finds to seeing how new furniture fits before you buy, here’s how Google Search can help transform your living space.",
-        "Your browser does not support the audio element.",
-        "You can use Google Search tools to turn your home decor inspiration into reality. Use AI features to visualize furniture in your room, identify vintage items with your camera, or circle products on your screen to find similar options. You can also use live video guidance for DIY projects and track price history to ensure you get the best deals.",
-        "People turn to Google Search every day for discovery and inspiration, including when it comes to home decor: Searches for “home decor inspo” are up 300% in the past month, and both “bathroom inspo” and “living room inspo” are breakout searches in the same timeframe. Bold pops of color are in, too — this year's trending paint searches include teal and magenta.",
-        "Getting inspired is the fun part. Making your vision reality is where people can get stuck. Here are five ways you can use Google Search tools to take action on your home decor vision board.",
-        "When you're eyeing a new couch or other large piece of furniture, it can be hard to know if the piece will actually fit your room both physically and aesthetically. AI Mode in Search can help you visualize it so you feel more confident about what will work in your space. Simply upload a photo of your room and ask something like, \"Based on my living room, what kind of couch would you recommend? The wall is 84 inches wide.\" You can then see inspiration for different types of couches that would fit in that spot and follow up with a prompt like, \"Can you show me what an emerald green velvet sofa could look like?\" to see a mockup right in your space.",
-        "This year, people are searching for vintage more than ever before, with “vintage braided rugs” and “vintage wood coffee table” as the top trending home furnishing items. If you're out and about and see a vintage decorative item you love, you can use Google Lens to learn more about it and find similar items online within your price range. Just take a picture of the item with the Google app on iOS or Android , and Lens will pull up links to similar items so you can bring that vintage style home.",
-        "Sometimes online scrolling leads to the best discoveries. With Circle to Search , you can track down the decor you love — from videos, social feeds, or web pages — without switching apps. Spot a social post featuring fish wallpaper (searches are up 140% in the past month!) that would look perfect in your home? Just long press the home button or navigation bar on the latest Pixel and Samsung Galaxy S26 devices, then circle the wallpaper on your screen to see similar options or ask a question about the product.",
-        "Let’s say you’re one of the many people searching for floating shelves (a top-trending item this year) to put in your new studio apartment. They’re cute and practical — but once you buy them, you still have to install them. Search Live can help guide you through DIY projects step-by-step. To get started, just open the Google app and tap the Live icon under the search bar. You can start asking your questions out loud like you’re talking to a friend and enable video input to share visual context from your camera feed to get the job done right.",
-        "Getting your home just-right can add up. Before you buy that funky lamp or harlequin wallpaper (both breakout searches in the past month), do a quick price check to make sure you’re getting a good deal. Just tap on any product listing to compare costs across stores. You can also expand the typical price drop down to view price history and get a sense of whether the current listing is high, low, or typical. Still not ready to buy? Tap “Track price” and you’ll get an alert when it falls into your budget."
+        "从追踪独特的古董发现到在购买前查看新家具是否合适，Google 搜索可以帮助您改变生活空间。",
+        "您的浏览器不支持音频元素。",
+        "您可以使用 Google 搜索工具将您的家居装饰灵感变为现实。使用 AI 功能可视化房间中的家具，使用相机识别复古物品，或圈出屏幕上的产品以查找类似的选项。您还可以使用 DIY 项目的实时视频指导并跟踪价格历史记录，以确保您获得最优惠的价格。",
+        "人们每天都会通过 Google 搜索来寻找发现和灵感，包括家居装饰：过去一个月“家居装饰 inspo”的搜索量增长了 300%，“浴室 inspo”和“客厅 inspo”的搜索量在同一时间范围内都取得了突破性的增长。大胆的流行色彩也很流行——今年的热门涂料搜索包括青色和洋红色。",
+        "获得灵感是有趣的部分。让你的愿景成为现实是人们可能陷入困境的地方。您可以通过以下五种方式使用 Google 搜索工具对您的家居装饰愿景板采取行动。",
+        "当您正在考虑购买新沙发或其他大型家具时，可能很难知道该家具在物理上和美学上是否真正适合您的房间。搜索中的人工智能模式可以帮助您将其可视化，让您对在您的空间中有效的内容更有信心。只需上传您房间的照片并询问诸如“根据我的客厅，您会推荐哪种沙发？墙壁有 84 英寸宽”之类的问题。然后，您可以看到适合该位置的不同类型沙发的灵感，并随后提示“您能告诉我翠绿天鹅绒沙发是什么样子吗？”在您的空间中查看模型。",
+        "今年，人们对复古的追求比以往任何时候都更加强烈，“复古编织地毯”和“复古实木咖啡桌”成为最热门的家居单品。如果您外出时看到喜欢的复古装饰品，您可以使用 Google 智能镜头了解更多信息，并在您的价格范围内在线查找类似的商品。只需使用 iOS 或 Android 上的 Google 应用程序为该商品拍一张照片，Lens 就会拉出类似商品的链接，这样您就可以将复古风格带回家。",
+        "有时在线滚动会带来最好的发现。通过“圈子搜索”，您可以从视频、社交信息或网页中找到您喜欢的装饰，而无需切换应用程序。发现一个以鱼壁纸为特色的社交帖子（过去一个月搜索量增长了 140%！），它在您的家中看起来很完美吗？只需长按最新 Pixel 和三星 Galaxy S26 设备上的主页按钮或导航栏，然后圈出屏幕上的壁纸即可查看类似选项或询问有关产品的问题。",
+        "假设您是众多正在寻找浮动架子（今年最流行的物品）以放置在您的新单间公寓中的人之一。它们既可爱又实用——但一旦你购买了它们，你仍然需要安装它们。 Search Live 可以帮助指导您逐步完成 DIY 项目。要开始使用，只需打开 Google 应用程序并点击搜索栏下方的 Live 图标即可。您可以开始像与朋友交谈一样大声提出问题，并启用视频输入以共享摄像头源中的视觉背景，以正确完成工作。",
+        "把你的家布置得恰到好处可以增加很多。在购买时髦的台灯或丑角壁纸（这两种搜索都是过去一个月的热门搜索）之前，请快速检查一下价格，以确保您买到了划算的价格。只需点击任何产品列表即可比较各商店的成本。您还可以展开典型价格下降来查看价格历史记录，并了解当前列表是高、低还是典型。还没准备好购买吗？点击“跟踪价格”，当价格落入您的预算时，您会收到提醒。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "从追踪独特的古董发现到在购买前查看新家具是否合适，Google 搜索可以帮助您改变生活空间。",
+        "您的浏览器不支持音频元素。",
+        "您可以使用 Google 搜索工具将您的家居装饰灵感变为现实。使用 AI 功能可视化房间中的家具，使用相机识别复古物品，或圈出屏幕上的产品以查找类似的选项。您还"
+      ],
+      "translated": true,
       "originalTitle": "5 ways to upgrade your home decor with Google Search",
       "originalLang": "en",
       "date": "2026-08-25",
@@ -571,32 +1384,37 @@
         "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
         "home": "https://blog.google/technology/ai/",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "5 ways to upgrade your home decor with Google Search"
       },
       "raw": {
         "title": "5 ways to upgrade your home decor with Google Search",
         "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
         "fetched": true,
-        "savedAt": "2026-08-26T00:57:02.519Z"
-      }
+        "savedAt": "2026-08-26T00:57:02.519Z",
+        "retranslatedAt": "2026-08-27T06:43:52.662Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-9856d5eaa7",
-      "title": "Speed Insights now has a free tier",
-      "oneLiner": "Speed Insights now has a free tier that gives you a high-level performance overview from your real u",
+      "title": "Speed Insights 现在有免费套餐 - Vercel",
+      "oneLiner": "Speed Insights 现在有一个免费套餐，可以让您从真实用户那里获得高级性能概览。新的免费套餐：",
       "summary": {
-        "oneSentence": "Speed Insights now has a free tier that gives you a high-level performance overview from your real users. The new free t",
+        "oneSentence": "Speed Insights 现在有一个免费套餐，可以让您从真实用户那里获得高级性能概览。新的免费套餐：",
         "bullets": [
-          "Speed Insights now has a free tier that gives you a high-level performance overview from your real users. The new free tier: Is available on every plan, for any number of projects Includes 10,000 even"
+          "Speed Insights 现在有一个免费套餐，可以让您从真实用户那里获得高级性能概览。新的免费套餐：",
+          "我可以为任何数量的项目提供任何计划",
+          "我每队包含 10,000 个事件，每 30 天一次",
+          "1 npm install @vercel/speed-insights 通过 CLI 安装 Speed Insights"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：Speed Insights 现在有一个免费套餐，可以让您从真实用户那里获得高级性能概览。新的免费套餐：",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -604,34 +1422,38 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://vercel.com/changelog/speed-insights-free-tier"
+          "阅读原文（英文）：https://vercel.com/changelog/speed-insights-free-tier"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "Speed Insights now has a free tier that gives you a high-level performance overview from your real users. The new free tier:",
-        "I s available on every plan, for any number of projects",
-        "I ncludes 10,000 events per team, every 30 days",
-        "1 npm install @vercel/speed-insights Install Speed Insights via the CLI",
-        "Previously, free Speed Insights was limited to a single project on Hobby, and upgrading to Pro meant losing access unless you paid for the add-on. Now your free tier carries over, and you only pay if you upgrade.",
-        "The paid product, now called Speed Insights Plus, includes deeper diagnostics and historical data. If you were already paying for Speed Insights, only the name has changed, and your capabilities and price are the same.",
-        "Install @vercel/speed-insights in your project to start reporting real-user data, or open the Speed Insights dashboard to view your results.",
-        "Learn more in the Speed Insights documentation.",
-        "Speed Insights reports how real visitors experience your pages, using live traffic rather than lab conditions. Speed Insights Plus adds slow-route diagnosis and detailed breakdowns for finding where pages get slow, and historical data to track performance over time. It also provides access to Drains and the Vercel CLI for working with performance data outside the dashboard.",
-        "Jas Garcha , Pranav Kanchi , Blake Mealey"
+        "Speed Insights 现在有一个免费套餐，可以让您从真实用户那里获得高级性能概览。新的免费套餐：",
+        "我可以为任何数量的项目提供任何计划",
+        "我每队包含 10,000 个事件，每 30 天一次",
+        "1 npm install @vercel/speed-insights 通过 CLI 安装 Speed Insights",
+        "以前，免费的 Speed Insights 仅限于 Hobby 上的单个项目，升级到 Pro 意味着失去访问权限，除非您付费购买该附加组件。现在，您的免费套餐可以继续使用，只需升级即可付费。",
+        "该付费产品现在称为 Speed Insights Plus，包括更深入的诊断和历史数据。如果您已经为 Speed Insights 付费，则只是名称发生了变化，您的功能和价格是相同的。",
+        "在您的项目中安装 @vercel/speed-insights 以开始报告真实用户数据，或打开 Speed Insights 仪表板以查看结果。",
+        "请参阅 Speed Insights 文档了解更多信息。",
+        "Speed Insights 使用实时流量而不是实验室条件来报告真实访问者如何体验您的页面。 Speed Insights Plus 添加了慢速路由诊断和详细故障，以查找页面速度变慢的位置，并添加历史数据来跟踪一段时间内的性能。它还提供对 Drains 和 Vercel CLI 的访问，以便在仪表板之外处理性能数据。",
+        "贾斯·加查、普拉纳夫·坎奇、布莱克·米利"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "Speed Insights 现在有一个免费套餐，可以让您从真实用户那里获得高级性能概览。新的免费套餐：",
+        "我可以为任何数量的项目提供任何计划",
+        "我每队包含 10,000 个事件，每 30 天一次"
+      ],
+      "translated": true,
       "originalTitle": "Speed Insights now has a free tier - Vercel",
       "originalLang": "en",
       "date": "2026-08-25",
@@ -647,32 +1469,34 @@
         "url": "https://vercel.com/changelog/speed-insights-free-tier",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Speed Insights now has a free tier - Vercel"
       },
       "raw": {
         "title": "Speed Insights now has a free tier",
         "url": "https://vercel.com/changelog/speed-insights-free-tier",
         "fetched": true,
-        "savedAt": "2026-08-26T00:57:04.144Z"
-      }
+        "savedAt": "2026-08-26T00:57:04.144Z",
+        "retranslatedAt": "2026-08-27T06:44:00.864Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-829e237a88",
-      "title": "The full stack behind abundant intelligence",
-      "oneLiner": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to",
+      "title": "丰富智能背后的全栈",
+      "oneLiner": "OpenAI 首席财务官 Sarah Friar 解释了芯片、计算、模型和产品之间的进步如何结合起来，以更大规模和更低的成本提供更有用的智能。",
       "summary": {
-        "oneSentence": "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful",
+        "oneSentence": "OpenAI 首席财务官 Sarah Friar 解释了芯片、计算、模型和产品之间的进步如何结合起来，以更大规模和更低的成本提供更有用的智能。",
         "bullets": [
-          "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost."
+          "OpenAI 首席财务官 Sarah Friar 解释了芯片、计算、模型和产品之间的进步如何结合起来，以更大规模和更低的成本提供更有用的智能。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "OpenAI 官网发布：OpenAI 首席财务官 Sarah Friar 解释了芯片、计算、模型和产品之间的进步如何结合起来，以更大规模和更低的成本提供更有用的智能。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -680,27 +1504,29 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
-        "relevance": "",
+        "relevance": "关联产品：chatgpt",
         "actionItems": [
-          "阅读原文：https://openai.com/index/the-full-stack-behind-abundant-intelligence"
+          "阅读原文（英文）：https://openai.com/index/the-full-stack-behind-abundant-intelligence"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [
         "chatgpt"
       ],
       "content": [
-        "OpenAI CFO Sarah Friar explains how advances across chips, compute, models, and products compound to deliver more useful intelligence at greater scale and lower cost."
+        "OpenAI 首席财务官 Sarah Friar 解释了芯片、计算、模型和产品之间的进步如何结合起来，以更大规模和更低的成本提供更有用的智能。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "OpenAI 首席财务官 Sarah Friar 解释了芯片、计算、模型和产品之间的进步如何结合起来，以更大规模和更低的成本提供更有用的智能。"
+      ],
+      "translated": true,
       "originalTitle": "The full stack behind abundant intelligence",
       "originalLang": "en",
       "date": "2026-08-25",
@@ -718,32 +1544,34 @@
         "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
         "home": "https://openai.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "The full stack behind abundant intelligence"
       },
       "raw": {
         "title": "The full stack behind abundant intelligence",
         "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
         "fetched": false,
-        "savedAt": "2026-08-26T00:57:05.653Z"
-      }
+        "savedAt": "2026-08-26T00:57:05.653Z",
+        "retranslatedAt": "2026-08-27T06:44:02.114Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-9ad99bb5f4",
-      "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "oneLiner": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI infere",
+      "title": "Jalapeo 的首批结果显示了人工智能推理行业领先的速度和效率",
+      "oneLiner": "Jalapeo 是 OpenAI 的定制推理芯片，可提供更快、更节能的 AI 推理，为现代模型提供更高的吞吐量和更低的延迟。",
       "summary": {
-        "oneSentence": "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher thr",
+        "oneSentence": "Jalapeo 是 OpenAI 的定制推理芯片，可提供更快、更节能的 AI 推理，为现代模型提供更高的吞吐量和更低的延迟。",
         "bullets": [
-          "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models."
+          "Jalapeo 是 OpenAI 的定制推理芯片，可提供更快、更节能的 AI 推理，为现代模型提供更高的吞吐量和更低的延迟。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "OpenAI 官网发布：Jalapeo 是 OpenAI 的定制推理芯片，可提供更快、更节能的 AI 推理，为现代模型提供更高的吞吐量和更低的延迟。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -751,27 +1579,29 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
-        "relevance": "",
+        "relevance": "关联产品：chatgpt",
         "actionItems": [
-          "阅读原文：https://openai.com/index/jalapeno-first-results"
+          "阅读原文（英文）：https://openai.com/index/jalapeno-first-results"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [
         "chatgpt"
       ],
       "content": [
-        "Jalapeño is a custom inference chip from OpenAI that delivers faster, more power-efficient AI inference, with higher throughput and lower latency for modern models."
+        "Jalapeo 是 OpenAI 的定制推理芯片，可提供更快、更节能的 AI 推理，为现代模型提供更高的吞吐量和更低的延迟。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "Jalapeo 是 OpenAI 的定制推理芯片，可提供更快、更节能的 AI 推理，为现代模型提供更高的吞吐量和更低的延迟。"
+      ],
+      "translated": true,
       "originalTitle": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
       "originalLang": "en",
       "date": "2026-08-25",
@@ -789,32 +1619,37 @@
         "url": "https://openai.com/index/jalapeno-first-results",
         "home": "https://openai.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference"
       },
       "raw": {
         "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
         "url": "https://openai.com/index/jalapeno-first-results",
         "fetched": false,
-        "savedAt": "2026-08-26T00:57:07.166Z"
-      }
+        "savedAt": "2026-08-26T00:57:07.166Z",
+        "retranslatedAt": "2026-08-27T06:44:03.370Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-17ca6f2505",
-      "title": "Introducing Run SDK: secure eval for your agents",
-      "oneLiner": "Agents increasingly write TypeScript programs to coordinate tools and process their results. Once th",
+      "title": "Run SDK 简介：为您的代理进行安全评估",
+      "oneLiner": "代理越来越多地编写 TypeScript 程序来协调工具并处理其结果。一旦这些程序触及实际应用程序，某些步骤需要身份验证，而其他步骤则需要人工批准。",
       "summary": {
-        "oneSentence": "Agents increasingly write TypeScript programs to coordinate tools and process their results. Once those programs touch r",
+        "oneSentence": "代理越来越多地编写 TypeScript 程序来协调工具并处理其结果。一旦这些程序触及实际应用程序，某些步骤需要身份验证，而其他步骤则需要人工批准。",
         "bullets": [
-          "Agents increasingly write TypeScript programs to coordinate tools and process their results. Once those programs touch real applications, some steps require authentication, while others need human app"
+          "代理越来越多地编写 TypeScript 程序来协调工具并处理其结果。一旦这些程序触及实际应用程序，某些步骤需要身份验证，而其他步骤则需要人工批准。",
+          "使用 eval 执行该代码使其具有与其周围的应用程序相同的访问权限，包括其机密和内部服务，并且没有留下持久的方法在这些边界处暂停。",
+          "今天，我们发布了 Run SDK ，这是一个用于执行不受信任的 JavaScript 和 TypeScript 的包，而无需让它直接访问您的应用程序或系统。应用程序公开狭窄的主机功能，并且可以中断执行以进行身份​​验证或人机交互批准。该计划在做出决定后恢复，而不重复已完成的工作。",
+          "将链接复制到标题 主机的小接口 Run SDK 在工作线程内的新 QuickJS 上下文中评估 JavaScript 或类型剥离的 TypeScript，没有直接路由到 Node.js 或网络。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：代理越来越多地编写 TypeScript 程序来协调工具并处理其结果。一旦这些程序触及实际应用程序，某些步骤需要身份验证，而其他步骤则需要人工批准。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -822,38 +1657,38 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://vercel.com/blog/introducing-run"
+          "阅读原文（英文）：https://vercel.com/blog/introducing-run"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "Agents increasingly write TypeScript programs to coordinate tools and process their results. Once those programs touch real applications, some steps require authentication, while others need human approval.",
-        "Executing that code with eval gives it the same access as the application around it, including its secrets and internal services, and leaves no durable way to pause at those boundaries.",
-        "Today, we're releasing the Run SDK , a package for executing untrusted JavaScript and TypeScript without giving it direct access to your application or system. Applications expose narrow host functions and can interrupt execution for authentication or human-in-the-loop approval. The program resumes after a decision without repeating completed work.",
-        "Copy link to heading A small interface to the host The Run SDK evaluates JavaScript or type-stripped TypeScript in a fresh QuickJS context inside a worker thread, with no direct route to Node.js or the network.",
-        "The application exposes selected operations through hostFunctions . These are regular functions that become callable globals inside the sandbox:",
-        "1 import { run } from 'run' ; 2 3 const result = await run ( { 4 source : ` 5 const orders = await store.listOrders(\"customer_123\"); 6 const total = orders.reduce((sum, order) => sum + order.amount, 0); 7 return { count: orders.length, total }; 8 ` , 9 hostFunctions : { 10 store : { 11 listOrders : async ( customerId : string ) => { 12 return database . orders . findMany ( { customerId } ) ; 13 } , 14 } , 15 } , 16 } ) ; 17 18 if ( result . status === 'completed' ) { 19 console . log ( result . value ) ; 20 }",
-        "Here, the generated program knows about store.listOrders() . The database client and its credentials remain in the application.",
-        "Calls cross the sandbox boundary through serialization. A host function may return a promise, so existing service clients can sit behind this interface without being passed into the sandbox.",
-        "You can try this in the playground . Code you run there can only reach the host functions on the page.",
-        "Copy link to heading Code mode in practice The Run SDK is the internal module powering code mode tool execution in the AI SDK . Giving an agent a program changes the unit of work. One model response can describe the calls and the logic connecting them:",
-        "1 const result = await run ( { 2 source : ` 3 const accountId = \"account_123\"; 4 const [account, invoices] = await Promise.all([ 5 crm.getAccount(accountId), 6 billing.listInvoices(accountId), 7 ]); 8 const overdue = invoices.filter(invoice => invoice.status === \"overdue\"); 9 return { account: account.name, overdue }; 10 ` , 11 hostFunctions : { 12 crm : { getAccount } , 13 billing : { listInvoices } , 14 } , 15 } ) ;",
-        "The two requests happen concurrently, and invoice filtering stays local to the program. Only the useful result returns to the application.",
-        "This is a good fit for agents that work across several internal services. A research agent can combine search results before answering. A support agent can inspect an account without putting an entire billing response back into its context.",
-        "The same package can power a code interpreter or a product feature that accepts customer-defined transformations. In both cases, the application chooses the available data and operations."
+        "代理越来越多地编写 TypeScript 程序来协调工具并处理其结果。一旦这些程序触及实际应用程序，某些步骤需要身份验证，而其他步骤则需要人工批准。",
+        "使用 eval 执行该代码使其具有与其周围的应用程序相同的访问权限，包括其机密和内部服务，并且没有留下持久的方法在这些边界处暂停。",
+        "今天，我们发布了 Run SDK ，这是一个用于执行不受信任的 JavaScript 和 TypeScript 的包，而无需让它直接访问您的应用程序或系统。应用程序公开狭窄的主机功能，并且可以中断执行以进行身份​​验证或人机交互批准。该计划在做出决定后恢复，而不重复已完成的工作。",
+        "将链接复制到标题 主机的小接口 Run SDK 在工作线程内的新 QuickJS 上下文中评估 JavaScript 或类型剥离的 TypeScript，没有直接路由到 Node.js 或网络。",
+        "应用程序通过 hostFunctions 公开选定的操作。这些是常规函数，在沙箱内成为可调用的全局函数：",
+        "1 从 'run' 导入 { run } ； 2 3 const result = wait run ( { 4 source : ` 5 const order = wait store.listOrders(\"customer_123\"); 6 const Total =orders.reduce((sum, order) => sum + order.amount, 0); 7 return { count:orders.length, Total }; 8 ` , 9 hostFunctions : { 10 store : { 11 listOrders : async(customerId: string) => { 12 返回数据库 .findMany({ customerId }); 13 }, 14 }, 15 }, 16 }); 17 18 if ( 结果 .status === '已完成' ) { 19 控制台 .日志（结果。值）； 20}",
+        "在这里，生成的程序知道 store.listOrders() 。数据库客户端及其凭据保留在应用程序中。",
+        "调用通过序列化跨越沙箱边界。主机函数可能会返回一个承诺，因此现有的服务客户端可以位于此接口后面，而无需传递到沙箱中。",
+        "你可以在操场上尝试一下。您在那里运行的代码只能到达页面上的主机函数。",
+        "将链接复制到标题 代码模式实践 Run SDK 是支持 AI SDK 中代码模式工具执行的内部模块。为代理提供程序会改变工作单元。一种模型响应可以描述调用以及连接它们的逻辑："
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "代理越来越多地编写 TypeScript 程序来协调工具并处理其结果。一旦这些程序触及实际应用程序，某些步骤需要身份验证，而其他步骤则需要人工批准。",
+        "使用 eval 执行该代码使其具有与其周围的应用程序相同的访问权限，包括其机密和内部服务，并且没有留下持久的方法在这些边界处暂停。",
+        "今天，我们发布了 Run SDK ，这是一个用于执行不受信任的 JavaScript 和 TypeScript 的包，而无需让它直接访问您的应用程序或系统。应用"
+      ],
+      "translated": true,
       "originalTitle": "Introducing Run SDK: secure eval for your agents",
       "originalLang": "en",
       "date": "2026-08-25",
@@ -869,16 +1704,18 @@
         "url": "https://vercel.com/blog/introducing-run",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Introducing Run SDK: secure eval for your agents"
       },
       "raw": {
         "title": "Introducing Run SDK: secure eval for your agents",
         "url": "https://vercel.com/blog/introducing-run",
         "fetched": true,
-        "savedAt": "2026-08-26T00:57:09.587Z"
-      }
+        "savedAt": "2026-08-26T00:57:09.587Z",
+        "retranslatedAt": "2026-08-27T06:44:11.802Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-d1fc64a6e1",
