@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-27T06:44:12.605Z",
+  "updatedAt": "2026-08-28T08:33:47.355Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 344,
+  "itemCount": 354,
   "brief": {
-    "date": "2026-08-27",
-    "generatedAt": "2026-08-27T06:44:12.604Z",
-    "totalCount": 344,
+    "date": "2026-08-28",
+    "generatedAt": "2026-08-28T08:33:47.353Z",
+    "totalCount": 354,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 344 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 354 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -40,10 +40,10 @@
         "readMinutes": 5
       },
       {
-        "id": "sig-83abfc0828",
-        "title": "使用 Gemini 3.5 Transcribe 进行智能转录",
+        "id": "sig-f30efa9be5",
+        "title": "无需代码仓库，也能从零开始 · Cursor",
         "stars": 4,
-        "oneLiner": "我们最新的语音转文本模型专为精确、智能的实时转录而设计。",
+        "oneLiner": "云端智能体不再需要连接 GitHub 或其他第三方 SCM 提供商即可开始使用。您可以立即输入提示，然后将工作保存到 Cursor Origin 代码仓库。",
         "readMinutes": 5
       }
     ],
@@ -53,28 +53,28 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "sig-83abfc0828",
-        "sig-d6bb1031e6"
+        "sig-f30efa9be5",
+        "sig-83abfc0828"
       ],
       "newReleases": [
+        "sig-f30efa9be5",
         "sig-d822bd91a1",
         "sig-39d537a07a",
         "sig-1e5183cd6f",
         "sig-468f50ae5e",
         "sig-ff7bff38a4",
         "sig-3fac1f8e14",
-        "cur-cursor-agent",
-        "sig-f83c24d415"
+        "cur-cursor-agent"
       ],
       "insights": [
         "cur-openai-agentkit",
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
+        "sig-f30efa9be5",
         "sig-83abfc0828",
         "sig-d6bb1031e6",
-        "sig-cdfc10030b",
-        "sig-504dd1ec95"
+        "sig-cdfc10030b"
       ],
       "emergingTrends": [
         "cur-openai-agentkit",
@@ -115,15 +115,15 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-08-27T06:44:12.605Z",
-    "summary": "近 30 天共 262 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-08-28T08:33:47.355Z",
+    "summary": "近 30 天共 261 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
         "signal": "近 30 天 5 条相关更新",
         "examples": [
-          "云端智能体和 Cursor Harness 改进 · Cursor",
-          "Origin 代码托管 · Cursor"
+          "无需代码仓库，也能从零开始 · Cursor",
+          "云端智能体和 Cursor Harness 改进 · Cursor"
         ]
       }
     ],
@@ -131,6 +131,80 @@
     "risingTags": []
   },
   "productUpdates": [
+    {
+      "id": "sig-f30efa9be5",
+      "title": "无需代码仓库，也能从零开始 · Cursor",
+      "oneLiner": "云端智能体不再需要连接 GitHub 或其他第三方 SCM 提供商即可开始使用。您可以立即输入提示，然后将工作保存到 Cursor Origin 代码仓库。",
+      "date": "2026-08-27",
+      "productIds": [
+        "cursor"
+      ],
+      "source": "Cursor",
+      "tags": [
+        "Release"
+      ],
+      "stars": 4
+    },
+    {
+      "id": "sig-a13e39d4fa",
+      "title": "Gemini Omni 1.1 Flash lets you build with more control",
+      "oneLiner": "Gemini Omni 1.1 Flash lets you build with more control",
+      "date": "2026-08-27",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google DeepMind",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-5a6b855292",
+      "title": "3 new ways to plan and book travel in Search",
+      "oneLiner": "Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search.",
+      "date": "2026-08-27",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google AI",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-d9b2bc36ff",
+      "title": "Piloting the world's first double-blind AI evaluations",
+      "oneLiner": "Piloting the world's first double-blind AI evaluations",
+      "date": "2026-08-27",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google DeepMind",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-3062d8cdad",
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "oneLiner": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and",
+      "date": "2026-08-27",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-57e276283c",
+      "title": "Expanding OpenAI’s presence in Brazil",
+      "oneLiner": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and co",
+      "date": "2026-08-27",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
+    },
     {
       "id": "sig-83abfc0828",
       "title": "使用 Gemini 3.5 Transcribe 进行智能转录",
@@ -348,81 +422,781 @@
         "Release"
       ],
       "stars": 4
-    },
-    {
-      "id": "sig-67f37d861d",
-      "title": "加强国家安全民主监督",
-      "oneLiner": "OpenAI 发起了一项倡议，加强对国家安全领域人工智能的民主监督，为政府机构提供工具、培训和专业知识。",
-      "date": "2026-08-18",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-9765648ad5",
-      "title": "与 CodeAI 合作，准备第一代 AI",
-      "oneLiner": "OpenAI 和 CodeAI 正在合作，帮助学生培养人工智能素养，批判性地思考人工智能，并培养负责任地使用和塑造人工智能的技能。",
-      "date": "2026-08-18",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-68c52c8131",
-      "title": "网络关键能力时代的模型开发节奏",
-      "oneLiner": "OpenAI 正在加强对前沿人工智能模型的监控、协调和安全。了解新的保障措施如何指导模型开发的步伐。",
-      "date": "2026-08-18",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-01003c6680",
-      "title": "推出面向青少年的 ChatGPT：专为学习而打造，以保护为后盾",
-      "oneLiner": "ChatGPT for Teens 可帮助青少年自信地学习、批判性思考和使用人工智能，并提供更强大的内置保护、健康使用功能以及针对家长的额外控制。",
-      "date": "2026-08-18",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-7d7eacff40",
-      "title": "Asana 通过 Codex 在 2 周内完成了 5 年的工程工作",
-      "oneLiner": "Asana 使用 OpenAI Codex 在两周内替换了过时的测试系统，以约 12000 美元的价格完成了预计需要五年的工作。",
-      "date": "2026-08-18",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-dfcf73efa3",
-      "title": "NVIDIA 如何通过 ChatGPT Work 扩展专业知识",
-      "oneLiner": "NVIDIA 团队使用 ChatGPT Work 来减少手动任务、连接快速移动的信号并在全球范围内扩展成功的工作流程。",
-      "date": "2026-08-18",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-f30efa9be5",
+      "title": "无需代码仓库，也能从零开始 · Cursor",
+      "oneLiner": "云端智能体不再需要连接 GitHub 或其他第三方 SCM 提供商即可开始使用。您可以立即输入提示，然后将工作保存到 Cursor Origin 代码仓库。",
+      "summary": {
+        "oneSentence": "云端智能体不再需要连接 GitHub 或其他第三方 SCM 提供商即可开始使用。您可以立即输入提示，然后将工作保存到 Cursor Origin 代码仓库。",
+        "bullets": [
+          "云端智能体不再需要连接 GitHub 或其他第三方 SCM 提供商即可开始使用。您可以立即输入提示，然后将工作保存到 Cursor Origin 代码仓库。",
+          "在代码仓库选择器中选择 从零开始 ，然后向智能体发出提示。Cursor 会在后台为您创建一个 Origin 代码仓库。",
+          "当您对智能体的构建结果满意后，点击 创建代码仓库 按钮，将您的工作保存至 Origin 代码仓库。您可以自定义名称，或从建议名称中选择一个，然后将可见性设为私有或内部。您将获得一个完整搭建的 Origin 代码仓库，可供分享或继续构建。前往 Codebase 选项卡，找到您的代码仓库并访问项目。",
+          "Cursor 现可将云端智能体的实时环境通过端口转发直接呈现在您的浏览器中，方便您预览并使用设计模式等工具。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Cursor 官网发布：云端智能体不再需要连接 GitHub 或其他第三方 SCM 提供商即可开始使用。您可以立即输入提示，然后将工作保存到 Cursor Origin 代码仓库。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：cursor",
+        "actionItems": [
+          "阅读原文（中文）：https://cursor.com/changelog/start-from-scratch"
+        ]
+      },
+      "tags": [
+        "Release"
+      ],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "cursor"
+      ],
+      "content": [
+        "云端智能体不再需要连接 GitHub 或其他第三方 SCM 提供商即可开始使用。您可以立即输入提示，然后将工作保存到 Cursor Origin 代码仓库。",
+        "在代码仓库选择器中选择 从零开始 ，然后向智能体发出提示。Cursor 会在后台为您创建一个 Origin 代码仓库。",
+        "当您对智能体的构建结果满意后，点击 创建代码仓库 按钮，将您的工作保存至 Origin 代码仓库。您可以自定义名称，或从建议名称中选择一个，然后将可见性设为私有或内部。您将获得一个完整搭建的 Origin 代码仓库，可供分享或继续构建。前往 Codebase 选项卡，找到您的代码仓库并访问项目。",
+        "Cursor 现可将云端智能体的实时环境通过端口转发直接呈现在您的浏览器中，方便您预览并使用设计模式等工具。",
+        "连接 Vercel 账户并点击“发布”，即可为您构建的内容生成可访问的 URL。"
+      ],
+      "highlights": [
+        "云端智能体不再需要连接 GitHub 或其他第三方 SCM 提供商即可开始使用。您可以立即输入提示，然后将工作保存到 Cursor Origin 代码仓库。",
+        "在代码仓库选择器中选择 从零开始 ，然后向智能体发出提示。Cursor 会在后台为您创建一个 Origin 代码仓库。",
+        "当您对智能体的构建结果满意后，点击 创建代码仓库 按钮，将您的工作保存至 Origin 代码仓库。您可以自定义名称，或从建议名称中选择一个，然后将可见性设为私有"
+      ],
+      "translated": false,
+      "translateMethod": "native",
+      "originalTitle": "无需代码仓库，也能从零开始 · Cursor",
+      "originalLang": "zh",
+      "date": "2026-08-27",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [
+        "cursor"
+      ],
+      "source": {
+        "type": "release",
+        "group": "company",
+        "name": "Cursor",
+        "author": "Cursor",
+        "url": "https://cursor.com/changelog/start-from-scratch",
+        "home": "https://cursor.com/changelog",
+        "lang": "zh",
+        "translated": false,
+        "translateMethod": "native",
+        "originalTitle": "无需代码仓库，也能从零开始 · Cursor"
+      },
+      "raw": {
+        "title": "Start from scratch, without a repo",
+        "url": "https://cursor.com/changelog/start-from-scratch",
+        "fetched": true,
+        "savedAt": "2026-08-28T08:33:37.517Z"
+      }
+    },
+    {
+      "id": "sig-a13e39d4fa",
+      "title": "Gemini Omni 1.1 Flash lets you build with more control",
+      "oneLiner": "Gemini Omni 1.1 Flash lets you build with more control",
+      "summary": {
+        "oneSentence": "Gemini Omni 1.1 Flash lets you build with more control",
+        "bullets": [
+          "Gemini Omni 1.1 Flash lets you build with more control"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "Omni now delivers studio-quality video production, including the ability to extend a scene, first and last frame interpolation, crisp 4K upscaling, faster prototyping, and more.",
+        "Your browser does not support the audio element.",
+        "We are introducing Gemini Omni 1.1 Flash, a production-ready update for developers that offers improved control over generative video. You can now extend scenes, specify start and end frames for smooth transitions, and generate high-resolution 4K output. Start building today by accessing the model through Google AI Studio or the Gemini Enterprise Agent Platform.",
+        "Google just released Gemini Omni 1.1 Flash, which gives developers better tools to create and edit videos with AI. It lets you extend video clips, control camera movements, and make high-quality 4K footage. Developers can also create quick, low-resolution drafts to test their ideas faster and cheaper. It’s a big step forward for anyone building creative video software.",
+        "Today, we’re introducing Gemini Omni 1.1 Flash, a new suite of creative controls and generative video capabilities to support developers. Gemini Omni brought real-world reasoning to generative creation, and today’s updates make Omni 1.1 production-ready for professional use via the Gemini API in Google AI Studio. Whether you’re building generative video workflows, creative tools, or media editing software, these updates make generative video more controllable, faster to iterate on, and polished for real-world deployment. Here’s a look at what’s new:",
+        "Scene extension allows you to take an existing video and continue generating footage seamlessly from where it left off.",
+        "With Omni 1.1, the model can now analyze up to 10 seconds of prior context — a leap from previous models that only referenced the final second. The result is improved visual consistency and narrative adherence, letting you build longer stories or branch into new creative directions. You can extend videos in 10-second increments up to a total cumulative length of 40 seconds.",
+        "Prompt 1: Camera slightly pans and we now see she is talking to a man with curly hair, we see man’s back, he says “I see it too” dramatic music score",
+        "Prompt 2: Camera slowly pulls out, forgotten dusty catacombs, dramatic music score. Prompt 3: Camera slowly pulls out, a vast library where shelves and books float weightlessly in a dusty void, dramatic music score.",
+        "Prompt 1: Continue the video. Execute a cinematic optical dolly-zoom shot. The camera dollies forward while simultaneously zooming out, keeping the character's frozen shocked face locked at the exact same size. The long corridor of stone pillars in the background dramatically stretches and deepens with intense optical perspective distortion. Clean architecture, continuous unbroken shot.",
+        "Prompt 2: Continue the video. The camera executes a fast mechanical snap-zoom directly into the character's wide eyes. Stylized cinematic camera control.",
+        "Prompt 3: Continue the video. Time completely freezes into a static moment: the character, their windblown coat. The camera performs a smooth, high-speed 360-degree orbital rotation around the frozen character, showcasing dramatic 3D depth and parallax across the colonnade. Flawless continuity.",
+        "Prompt 1: The man in the blue sweater replies: \"Did your father go out on the boat too?\"",
+        "Prompt 2: The camera pulls back in one continuous movement as he continues his story: \"He used to say that this harbour had a soul. And that the boats were a part of us.\" The music swells."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Gemini Omni 1.1 Flash lets you build with more control",
+      "originalLang": "en",
+      "date": "2026-08-27",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google DeepMind",
+        "author": "DeepMind",
+        "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+        "home": "https://deepmind.google/blog/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Gemini Omni 1.1 Flash lets you build with more control"
+      },
+      "raw": {
+        "title": "Gemini Omni 1.1 Flash lets you build with more control",
+        "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
+        "fetched": true,
+        "savedAt": "2026-08-28T08:33:25.895Z"
+      }
+    },
+    {
+      "id": "sig-5a6b855292",
+      "title": "3 new ways to plan and book travel in Search",
+      "oneLiner": "Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search.",
+      "summary": {
+        "oneSentence": "Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search.",
+        "bullets": [
+          "Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "Our latest upgrades for AI Mode in Search can help you track flight prices, view points or miles rates, and book your dream hotel.",
+        "Planning a trip comes with lots of moving parts and countless options to consider. With AI Mode in Search , you can already get real-time data to compare flights and hotels, find the best recommendations across the web, and craft the perfect itinerary . Now, we’re upgrading that experience with new ways to track flight prices, view points or miles rates, and book your dream hotel, right in AI Mode.",
+        "Today, we’re bringing Google Flights’ popular price tracking feature directly into AI Mode, letting you set up price alerts as you chat, without breaking your flow. Describe where and when you want to fly and AI Mode will show you the best options available with the latest prices from more than 300 partner airlines and travel sites. If you’re ready to book, you can build your full itinerary in AI Mode and buy your tickets through the airline’s website or your preferred booking platform.",
+        "Want to wait and see if prices drop? Just ask something like “track these flight prices for me.” Once you confirm, you’ll get an email if prices change for the destination and dates you have in mind, so you can jump on deals the moment they hit your inbox. Flight price tracking in AI Mode is now available in more than 180 countries and territories around the world. 1",
+        "Redeeming your hard-earned rewards is another great way to save on travel. Now, AI Mode in Search can show you the cost in points or miles for flights and hotels. Try asking something like “I want to travel from Atlanta to Miami using my AA miles. Help me find some options for nonstop flights departing Oct 9 and returning on Oct 12”.",
+        "Right away, you’ll see how many miles you need to book matching flights, based on the latest data directly from our partners. It works the same way for hotels: just tell AI Mode where and when you’re traveling and ask to see the cost in points for the rewards program you have in mind. When you’re ready to book, you can follow the link to the partner site and complete your rewards redemption.",
+        "Viewing points and miles rates in AI Mode is now globally available. 2 We’re launching this capability with initial support for Alaska Airlines / Hawaiian Airlines, American Airlines, Choice Hotels International, Hilton, and Wyndham Hotels & Resorts. In the coming weeks, we’ll also add support for Accor, Flying Blue, Hyatt, LATAM Airlines, and Lufthansa Group.",
+        "When you find a hotel you love, making the reservation should feel quick and effortless. Today, we’re introducing hotel booking through AI Mode in Search, so you can discover and book your next hotel in one seamless conversation. Simply tell AI Mode about your upcoming trip and your hotel preferences to get a visual list of options, complete with guest reviews and key factors to compare.",
+        "Once you’ve found the right hotel, just ask AI Mode to help you complete the booking. Then, select “Continue on Google” in the list of booking options — it’ll appear next to any of our integrated partners, which include hotel chains and online travel sites. From there, it’s just a few taps to pick your room type, review details like the cancellation policy, and complete the booking securely via Google Pay. When you book hotels through AI Mode, the hotel or booking platform will act as the merchant of record and handle any customer service.",
+        "Hotel booking in AI Mode has started rolling out in the U.S. in English and will be available over the coming weeks with the following partners: Booking.com, Choice Hotels International, Expedia, Hilton, Hotels.com, IHG Hotels & Resorts, Marriott International, Priceline, Trip.com, and Wyndham Hotels & Resorts.",
+        "Head over to AI Mode in Search today to start tracking prices, exploring rewards, and booking your next getaway.",
+        "Available in all supported AI Mode locations and languages , excluding EEA countries and territories.",
+        "Available in all supported AI Mode locations and languages . Some features depicted will not be available to users in EEA countries and territories."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "3 new ways to plan and book travel in Search",
+      "originalLang": "en",
+      "date": "2026-08-27",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "3 new ways to plan and book travel in Search"
+      },
+      "raw": {
+        "title": "3 new ways to plan and book travel in Search",
+        "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+        "fetched": true,
+        "savedAt": "2026-08-28T08:33:27.184Z"
+      }
+    },
+    {
+      "id": "sig-f8c22d41c8",
+      "title": "Cursor is now available in the AI SDK harness layer",
+      "oneLiner": "The AI SDK harness layer now supports Cursor through the official @ai-sdk/harness-cursor adapter. Th",
+      "summary": {
+        "oneSentence": "The AI SDK harness layer now supports Cursor through the official @ai-sdk/harness-cursor adapter. The harness layer lets",
+        "bullets": [
+          "The AI SDK harness layer now supports Cursor through the official @ai-sdk/harness-cursor adapter. The harness layer lets your application run different coding agents through the same HarnessAgent inte"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/cursor-ai-sdk-harness-adapter"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "The AI SDK harness layer now supports Cursor through the official @ai-sdk/harness-cursor adapter. The harness layer lets your application run different coding agents through the same HarnessAgent interface, so you can switch agents without changing your application code.",
+        "1 import { HarnessAgent } from '@ai-sdk/harness/agent' ; 2 import { cursor } from '@ai-sdk/harness-cursor' ; 3 4 const agent = new HarnessAgent ( { 5 harness : cursor , 6 } ) ; Create a HarnessAgent that runs Cursor.",
+        "Under the hood, the adapter uses @ai-sdk/harness-acp to connect Cursor to HarnessAgent through the Agent Client Protocol (ACP).",
+        "Supported harnesses now include, in addition to Cursor, Claude Code, Cline, Codex, Deep Agents, Grok Build, OpenCode, and Pi, with more coming soon.",
+        "Read the Cursor harness documentation to get started."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Cursor is now available in the AI SDK harness layer - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-27",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/cursor-ai-sdk-harness-adapter",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Cursor is now available in the AI SDK harness layer - Vercel"
+      },
+      "raw": {
+        "title": "Cursor is now available in the AI SDK harness layer",
+        "url": "https://vercel.com/changelog/cursor-ai-sdk-harness-adapter",
+        "fetched": true,
+        "savedAt": "2026-08-28T08:33:28.748Z"
+      }
+    },
+    {
+      "id": "sig-5391b6f63d",
+      "title": "Find deployments faster with redesigned filters",
+      "oneLiner": "The Deployments page now has redesigned filters that make it faster to find a specific deployment. Y",
+      "summary": {
+        "oneSentence": "The Deployments page now has redesigned filters that make it faster to find a specific deployment. You can: Apply sugges",
+        "bullets": [
+          "The Deployments page now has redesigned filters that make it faster to find a specific deployment. You can: Apply suggested filters for common searches. Type to find an option instead of scrolling thr"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/find-deployments-faster-with-redesigned-filters"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "The Deployments page now has redesigned filters that make it faster to find a specific deployment.",
+        "Apply suggested filters for common searches.",
+        "Type to find an option instead of scrolling through the list.",
+        "Describe what you’re looking for in natural language, and Vercel automatically applies the matching filters.",
+        "Open any project's Deployments page to try the new filters."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Find deployments faster with redesigned filters - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-27",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/find-deployments-faster-with-redesigned-filters",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Find deployments faster with redesigned filters - Vercel"
+      },
+      "raw": {
+        "title": "Find deployments faster with redesigned filters",
+        "url": "https://vercel.com/changelog/find-deployments-faster-with-redesigned-filters",
+        "fetched": true,
+        "savedAt": "2026-08-28T08:33:30.345Z"
+      }
+    },
+    {
+      "id": "sig-d9b2bc36ff",
+      "title": "Piloting the world's first double-blind AI evaluations",
+      "oneLiner": "Piloting the world's first double-blind AI evaluations",
+      "summary": {
+        "oneSentence": "Piloting the world's first double-blind AI evaluations",
+        "bullets": [
+          "Piloting the world's first double-blind AI evaluations"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "William Isaac, Sol Messing and Kristian Lum",
+        "Share Copied Building trust in proprietary model benchmarks using cryptographically secure environments",
+        "Imagine a student is set to take a high-stakes exam. If they accidentally peek at the test questions in advance, achieving a perfect score is influenced by this knowledge, making it a meaningless accomplishment. To truly measure what they know, they must have no visibility of the test questions until it's time to take the exam. That is the exact challenge the industry faces when evaluating advanced AI models. If a model has already seen the test questions - a problem known as benchmark contamination - the results can only be trusted to an extent.",
+        "Today, we’re introducing the world’s first double-blind evaluation of a proprietary, frontier class AI model, which keeps external evaluations confined to a cryptographic “box” where they can’t be used by models later to optimize performance ahead of testing. We're partnering with the Singapore AI Safety Institute, OpenMined, AVERI, and MLCommons , to test a Gemini Flash Lite model against confidential benchmarks in a privacy-preserving environment , increasing evaluation integrity.",
+        "At Google, we assess our AI systems using a broad spectrum of evaluations throughout model development and deployment, but we don’t rely on internal testing alone. To identify potential blindspots, we work with a diverse group of external partners, including specialized research labs, civil society and national AI Safety and Security Institutes (AISIs), using their unique expertise to stress-test our models.",
+        "As AI models become more capable, ensuring the model has not seen the test questions or prompts in advance is critical, as this can skew the results. Policymakers, researchers, and enterprises need to trust that AI benchmarks accurately reflect a model's true capabilities and safety, but if models are able to “peek” at the evaluation questions in advance, it can artificially inflate scores and undermine this trust.",
+        "Although zero-logging protocols and rigorous contractual safeguards have long kept external test prompts confidential, incorporating technical and cryptographic safeguards marks a major step forward in secure model evaluation.",
+        "Historically, high-stakes external evaluations required a tradeoff. Either evaluators handed over their testing prompts (risking the model provider seeing the test questions in advance), or the model provider handed over their model weights (risking their intellectual property).",
+        "Double-blind evaluations eliminate this compromise. By using Confidential Space within Google Cloud’s Confidential Computing portfolio, we can cryptographically verify that both the external evaluation data and the proprietary model remain private to their respective owners. The evaluator cannot see the Gemini model weights, and Google cannot see the evaluator’s test prompts.",
+        "This cryptographic evidence helps prevent benchmark contamination and protects sensitive data. As models become more capable this becomes particularly important for highly sensitive evaluations, such as those used for cybersecurity or by government bodies. Double-blind evaluations unlock the ability for independent organizations to rigorously test advanced models without compromising data sovereignty or security.",
+        "We hope this pilot establishes a new frontier for model oversight, helping the broader industry build safer, more reliable, and widely trusted AI systems. To learn more about our methodology and findings, read our technical report ."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Piloting the world's first double-blind AI evaluations",
+      "originalLang": "en",
+      "date": "2026-08-27",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google DeepMind",
+        "author": "DeepMind",
+        "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+        "home": "https://deepmind.google/blog/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Piloting the world's first double-blind AI evaluations"
+      },
+      "raw": {
+        "title": "Piloting the world's first double-blind AI evaluations",
+        "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+        "fetched": true,
+        "savedAt": "2026-08-28T08:33:32.091Z"
+      }
+    },
+    {
+      "id": "sig-3062d8cdad",
+      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "oneLiner": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and",
+      "summary": {
+        "oneSentence": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance",
+        "bullets": [
+          "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+      "originalLang": "en",
+      "date": "2026-08-27",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training"
+      },
+      "raw": {
+        "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
+        "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
+        "fetched": false,
+        "savedAt": "2026-08-28T08:33:33.395Z"
+      }
+    },
+    {
+      "id": "sig-cde9b94dd5",
+      "title": "The best workflow engine is a programming language",
+      "oneLiner": "The idea of orchestrating long-running, stateful logic on top of unreliable, stateless infrastructur",
+      "summary": {
+        "oneSentence": "The idea of orchestrating long-running, stateful logic on top of unreliable, stateless infrastructure isn't new. We've h",
+        "bullets": [
+          "The idea of orchestrating long-running, stateful logic on top of unreliable, stateless infrastructure isn't new. We've had message queues, job runners, microservice choreographies, and full-blown work"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/blog/the-best-workflow-engine-is-a-programming-language"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Workflow SDK turns TypeScript into durable execution without new infrastructure.",
+        "The idea of orchestrating long-running, stateful logic on top of unreliable, stateless infrastructure isn't new. We've had message queues, job runners, microservice choreographies, and full-blown workflow engines for a long time. What we never had was a version of it that felt good to write.",
+        "I'd spent about six months working on a fork of Temporal, mostly on weekends, trying to turn it into a serverless answer with DX that felt more Vercel-native. Eventually it dawned on me that to ship that experience, I'd need to own the execution environment too. So I dropped the fork, joined Vercel, and started hacking on a new framework from scratch alongside Nathan Rajlich .",
+        "Copy link to heading Code is already a DAG A workflow is a DAG, a directed acyclic graph. Before Temporal (and Cadence before it), nearly every workflow framework made you draw that DAG by hand. Apache Airflow is the canonical example. You describe your pipeline as an explicit graph of tasks and dependencies, and your actual logic gets buried inside the nodes.\"",
+        "That always felt backwards to me. We already have a tool for expressing \"do this, then that, and these in parallel, and branch here.\" It's called a programming language. An abstract syntax tree is a DAG. Software itself is a DAG.",
+        "I knew that in the abstract, but it didn't truly hit me until I saw Temporal, where you write what looks like normal sequential code and the engine makes it durable underneath. It was the dream all along.",
+        "Copy link to heading What running Temporal taught me Temporal is great once your infrastructure exists. I was starting from scratch, and setting it up meant:",
+        "Standing up Temporal Cloud (or self-hosting the server: Frontend, History, Matching, and Worker services, plus a Cassandra/Postgres/MySQL backend and sharding).",
+        "Running your own worker fleet: Temporal never executes your code. Your workers poll the server and run your workflows and activities. In practice that's a Kubernetes cluster you own.",
+        "Wiring it all together: task queues, activity registration, client config.",
+        "Managing the workers yourself: scaling, uptime, restarts, and the build-and-deploy pipeline for the worker processes.",
+        "Setting up encryption: workers talk to the control plane over the internet, so you're configuring mutual TLS and a data converter to encrypt payloads before they leave your environment.",
+        "Once all of that was in place, the workflow dream mostly became real. But I wanted something easy to start that could still scale as my project grew into production.",
+        "Copy link to heading Versioning in-flight workflows Beyond owning the worker build-and-deploy process myself, there was a harder problem. If I changed my workflow code while runs were still in flight, I was kind of stuck. There were no longer any workers running the old, correct version of that code. Replay would hit my new code with an old event history and break on a non-determinism error."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "The best workflow engine is a programming language",
+      "originalLang": "en",
+      "date": "2026-08-27",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/the-best-workflow-engine-is-a-programming-language",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "The best workflow engine is a programming language"
+      },
+      "raw": {
+        "title": "The best workflow engine is a programming language",
+        "url": "https://vercel.com/blog/the-best-workflow-engine-is-a-programming-language",
+        "fetched": true,
+        "savedAt": "2026-08-28T08:33:34.927Z"
+      }
+    },
+    {
+      "id": "sig-57e276283c",
+      "title": "Expanding OpenAI’s presence in Brazil",
+      "oneLiner": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and co",
+      "summary": {
+        "oneSentence": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support",
+        "bullets": [
+          "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/expanding-our-presence-in-brazil"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Expanding OpenAI’s presence in Brazil",
+      "originalLang": "en",
+      "date": "2026-08-27",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/expanding-our-presence-in-brazil",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Expanding OpenAI’s presence in Brazil"
+      },
+      "raw": {
+        "title": "Expanding OpenAI’s presence in Brazil",
+        "url": "https://openai.com/index/expanding-our-presence-in-brazil",
+        "fetched": false,
+        "savedAt": "2026-08-28T08:33:36.405Z"
+      }
+    },
+    {
+      "id": "sig-876820d78a",
+      "title": "Ling 3.0 Flash Fin now available on AI Gateway for free",
+      "oneLiner": "Ling 3.0 Flash Fin from Inclusion AI is now available on AI Gateway and free to use through Septembe",
+      "summary": {
+        "oneSentence": "Ling 3.0 Flash Fin from Inclusion AI is now available on AI Gateway and free to use through September 25. Ling 3.0 Flash",
+        "bullets": [
+          "Ling 3.0 Flash Fin from Inclusion AI is now available on AI Gateway and free to use through September 25. Ling 3.0 Flash Fin is a finance-focused version of Ling 3.0 Flash . It has a 256K-token contex"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Ling 3.0 Flash Fin from Inclusion AI is now available on AI Gateway and free to use through September 25.",
+        "Ling 3.0 Flash Fin is a finance-focused version of Ling 3.0 Flash . It has a 256K-token context window, produces up to 32K output tokens, and supports reasoning and function calling.",
+        "The model is designed for financial research and analysis, including multi-step workflows that user multiple tool calls before producing an answer.",
+        "Choose a model ID based on what should happen after the free period:",
+        "Continue after September 25: Use inclusionai/ling-3.0-flash-fin . Requests are free during the offer and begin billing at the standard rate when it ends.",
+        "Stop after September 25: Use inclusionai/ling-3.0-flash-fin-free . This model ID returns an error after the offer ends, preventing future charges.",
+        "1 import { streamText } from 'ai' ; 2 3 const result = streamText ( { 4 model : 'inclusionai/ling-3.0-flash-fin' , 5 prompt : 'Summarize this earnings report.' , 6 } ) ; Use the standard model ID during the free period to continue at regular pricing afterward.",
+        "To use Ling 3.0 Flash Fin with a coding agent , run vercel ai-gateway coding-agents setup , then select either model ID as your agent’s model. See the coding agents guide for more.",
+        "Try Ling 3.0 Flash Fin in the model playground , or browse all language models ."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Ling 3.0 Flash Fin now available on AI Gateway for free - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-27",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Ling 3.0 Flash Fin now available on AI Gateway for free - Vercel"
+      },
+      "raw": {
+        "title": "Ling 3.0 Flash Fin now available on AI Gateway for free",
+        "url": "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
+        "fetched": true,
+        "savedAt": "2026-08-28T08:33:39.020Z"
+      }
+    },
     {
       "id": "sig-83abfc0828",
       "title": "使用 Gemini 3.5 Transcribe 进行智能转录",
