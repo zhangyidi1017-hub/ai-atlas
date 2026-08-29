@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-28T08:33:47.355Z",
+  "updatedAt": "2026-08-29T05:13:06.594Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 354,
+  "itemCount": 364,
   "brief": {
-    "date": "2026-08-28",
-    "generatedAt": "2026-08-28T08:33:47.353Z",
-    "totalCount": 354,
+    "date": "2026-08-29",
+    "generatedAt": "2026-08-29T05:13:06.593Z",
+    "totalCount": 364,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 354 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 364 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -115,8 +115,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-08-28T08:33:47.355Z",
-    "summary": "近 30 天共 261 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-08-29T05:13:06.594Z",
+    "summary": "近 30 天共 256 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -131,6 +131,30 @@
     "risingTags": []
   },
   "productUpdates": [
+    {
+      "id": "sig-092c8de02e",
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "oneLiner": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition b",
+      "date": "2026-08-28",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-0b00c80d50",
+      "title": "Supporting Thailand’s next generation of AI startups",
+      "oneLiner": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and educat",
+      "date": "2026-08-28",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
+    },
     {
       "id": "sig-f30efa9be5",
       "title": "无需代码仓库，也能从零开始 · Cursor",
@@ -396,35 +420,539 @@
       "source": "Google AI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-9ac0643f24",
-      "title": "Replit 使用 GPT-5.6 Luna 扩展了软件创建的范围",
-      "oneLiner": "Replit 引入了由 GPT-5.6 Luna 提供支持的免费模式，因此任何人都可以将想法转化为工作软件，而无需担心代币成本。",
-      "date": "2026-08-19",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-d822bd91a1",
-      "title": "云端智能体和 Cursor Harness 改进 · Cursor",
-      "oneLiner": "我们持续改进云端智能体和 Cursor harness，让始终运行的智能体能够作为一个系统协同运作，自主构建和发布软件，无需在每个循环中人工干预。",
-      "date": "2026-08-19",
-      "productIds": [
-        "cursor"
-      ],
-      "source": "Cursor",
-      "tags": [
-        "Release"
-      ],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-b9b1ef532b",
+      "title": "How do you actually measure the impact of AI on design?",
+      "oneLiner": "In 2024, we kicked off a study to understand how AI would reshape design and product development. No",
+      "summary": {
+        "oneSentence": "In 2024, we kicked off a study to understand how AI would reshape design and product development. Now, AI is helping us ",
+        "bullets": [
+          "In 2024, we kicked off a study to understand how AI would reshape design and product development. Now, AI is helping us run it."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.figma.com/blog/measuring-the-impact-of-ai/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "In 2024, we kicked off a study to understand how AI would reshape design and product development. Now, AI is helping us run it.",
+        "When AI tools and products started gaining momentum a few years ago, we knew we wanted to track their impact on the design industry, from ways of working to product development strategy. We had questions big and small: How much time would AI really save? How would AI change the way teams collaborate, and how did people feel about it? And what tools could help us measure AI’s impact holistically?",
+        "New technologies like AI don't transform industries all at once; the effects compound over time. So we set out on a multi-year research project Figma's 2026 AI report: Can AI help us collaborate better? AI used to be a solo act. According to our research, it’s not anymore.",
+        "Here's what we built, and what we learned about using AI to conduct research at scale.",
+        "Download Figma’s 2026 AI report to explore the trends we’ve been tracking.",
+        "First, we decided to create a sentiment index, a single scale that reflects how a group of people feel about something. The best-known example is the University of Michigan's consumer sentiment index , which tracks how optimistic or pessimistic people are about the economy. It doesn’t measure what the economy is actually doing; it captures feelings of confidence or anxiety and how it may influence behaviors like spending habits. That’s exactly the read we wanted on AI: not just what AI can do, but how the work is changing, how people feel about it, and what it means for the future of design.",
+        "We ask participants what they’ve experienced in the past 12 months, and what they expect to experience in the next 12. Comparing predictions versus reality tells us whether AI is keeping up with expectations, outpacing them, or falling short.",
+        "In 2026 , every dimension exceeded last year's expectations by 10+ index points—collaboration nearly doubled from 32 to 58, while personal productivity, projects, and products climbed into the high 60s and 70s from the 40s.",
+        "To build Figma’s AI impact index, we asked designers, developers, and PMs questions like “Over the past 12 months, to what degree has AI affected your personal productivity and workflows?” and “Over the next 12 months, to what degree do you expect AI to impact how you collaborate with others?” We mapped answers on a scale from 0 (no impact) to 100 (transformational). A score around 50 means AI is becoming part of someone's job without fully reshaping it; scores climbing toward 100 mean AI is fundamentally changing their day-to-day.",
+        "As with any new technology, AI impacts different aspects of work unevenly—for example, an individual’s productivity shifts before a whole team’s does. That’s why we shaped our questions around six dimensions of product builders’ jobs. We’ve used the same questions for the past three years, so we can track trends in each area:",
+        "The survey focuses on six different aspects of product builders’ lives at work, inspired by socio-technical systems theory and research on digital transformation .",
+        "Figma’s AI impact index tells us what AI has changed, and by how much. But these numbers don’t tell the full story. This year, we wanted to hear firsthand from the people actually experiencing these changes. To do that at scale, we tried an AI interview tool.",
+        "An AI moderator leads live conversations with participants, asking clarifying questions and adapting to context in real time to get the most thorough answers. We ran 639 AI-moderated interviews, covering everything from the specific ways AI has transformed people’s work, to their concerns about the future, to how their organizations are responding. We collected more interviews than would have been humanly possible in the same amount of time, so we wanted to use AI to help analyze the correspondingly high volume of data, too.",
+        "553 recurring themes across participants"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "How Do You Actually Measure the Impact of AI on Design? | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-08-28",
+      "categoryIds": [
+        "vertical-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/measuring-the-impact-of-ai/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "How Do You Actually Measure the Impact of AI on Design? | Figma Blog"
+      },
+      "raw": {
+        "title": "How do you actually measure the impact of AI on design?",
+        "url": "https://www.figma.com/blog/measuring-the-impact-of-ai/",
+        "fetched": true,
+        "savedAt": "2026-08-29T05:12:43.774Z"
+      }
+    },
+    {
+      "id": "sig-ec7e106bea",
+      "title": "Source material: i-D Magazine’s editor in chief is not afraid of visual chaos",
+      "oneLiner": "Thom Bettridge on which magazines have shaped his taste—and what design rule he breaks the most.",
+      "summary": {
+        "oneSentence": "Thom Bettridge on which magazines have shaped his taste—and what design rule he breaks the most.",
+        "bullets": [
+          "Thom Bettridge on which magazines have shaped his taste—and what design rule he breaks the most."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.figma.com/blog/source-material-i-d-magazine-editor-in-chief-thom-bettridge/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Thom Bettridge on which magazines have shaped his taste—and what design rule he breaks the most.",
+        "Welcome to Source Material, a weekly series where the designers and creatives shaping culture share the references that shaped them. Figma’s first guest is Thom Bettridge, editor in chief of i-D Magazine and founder of Content World .",
+        "After the shoot, we caught up with Thom about his creative process:",
+        "What were you making when you realized, “This could be my job”?",
+        "My first issue working at 032c , which was the Raf Simons retrospective issue. I remember getting that one back from the printer and thinking, “Damn, I helped make this…and it’s really fucking good.”",
+        "What’s the first thing you do when you sit down to work?",
+        "I can’t do anything resembling work without a) music, and b) Yerba Madre.",
+        "What’s a design object you’d take to your grave?",
+        "Probably my teddy bear. But it would also be cool to have a Barcelona couch on top of my grave, so people can lie with me for a bit.",
+        "What current design trend are you tired of seeing?",
+        "To be honest, all of them. If anything you’re doing is a “trend,” self-assess and change your game up.",
+        "I like it when text disrupts, blocks, or corrupts an image. We’ve become so precious with images as an industry—probably because it’s so expensive to produce a fashion photograph—that there’s this unwritten rule that graphic design should get out of an image’s way. I love breaking that rule.",
+        "What song do you put on to get out of a creative rut?",
+        "What’s a piece of feedback you resisted, and later realized was right?"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Source Material: i-D Magazine’s Editor in Chief Is Not Afraid of Visual Chaos | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-08-28",
+      "categoryIds": [
+        "vertical-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/source-material-i-d-magazine-editor-in-chief-thom-bettridge/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Source Material: i-D Magazine’s Editor in Chief Is Not Afraid of Visual Chaos | Figma Blog"
+      },
+      "raw": {
+        "title": "Source material: i-D Magazine’s editor in chief is not afraid of visual chaos",
+        "url": "https://www.figma.com/blog/source-material-i-d-magazine-editor-in-chief-thom-bettridge/",
+        "fetched": true,
+        "savedAt": "2026-08-29T05:12:45.763Z"
+      }
+    },
+    {
+      "id": "sig-092c8de02e",
+      "title": "Our decision on Cursor following its acquisition by SpaceX",
+      "oneLiner": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition b",
+      "summary": {
+        "oneSentence": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+        "bullets": [
+          "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Our decision on Cursor following its acquisition by SpaceX",
+      "originalLang": "en",
+      "date": "2026-08-28",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Our decision on Cursor following its acquisition by SpaceX"
+      },
+      "raw": {
+        "title": "Our decision on Cursor following its acquisition by SpaceX",
+        "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+        "fetched": false,
+        "savedAt": "2026-08-29T05:12:47.165Z"
+      }
+    },
+    {
+      "id": "sig-0b00c80d50",
+      "title": "Supporting Thailand’s next generation of AI startups",
+      "oneLiner": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and educat",
+      "summary": {
+        "oneSentence": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI",
+        "bullets": [
+          "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/supporting-next-generation-ai-startups-thailand"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Supporting Thailand’s next generation of AI startups",
+      "originalLang": "en",
+      "date": "2026-08-28",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Supporting Thailand’s next generation of AI startups"
+      },
+      "raw": {
+        "title": "Supporting Thailand’s next generation of AI startups",
+        "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
+        "fetched": false,
+        "savedAt": "2026-08-29T05:12:48.690Z"
+      }
+    },
+    {
+      "id": "sig-5580f1a132",
+      "title": "Hy4 Preview now available on AI Gateway",
+      "oneLiner": "Hy4 Preview from Tencent is now available on AI Gateway. Hy4 Preview is an open-source Mixture-of-Ex",
+      "summary": {
+        "oneSentence": "Hy4 Preview from Tencent is now available on AI Gateway. Hy4 Preview is an open-source Mixture-of-Experts model with 770",
+        "bullets": [
+          "Hy4 Preview from Tencent is now available on AI Gateway. Hy4 Preview is an open-source Mixture-of-Experts model with 770B total parameters and 49B active per token, aimed at long-horizon coding, docum"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/hy4-preview-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Hy4 Preview from Tencent is now available on AI Gateway.",
+        "Hy4 Preview is an open-source Mixture-of-Experts model with 770B total parameters and 49B active per token, aimed at long-horizon coding, document analysis, game development, and scientific reasoning. It serves a context window of 1M tokens.",
+        "To use Hy4 Preview, set model to tencent/hy4-preview in the AI SDK :",
+        "1 import { streamText } from 'ai' ; 2 3 const result = streamText ( { 4 model : 'tencent/hy4-preview' , 5 prompt : 'Add pagination to the results endpoint.' , 6 } ) ;",
+        "To use it in a coding agent, see the coding agents guide , then run vercel ai-gateway coding-agents setup to connect agents like Claude Code, Codex, OpenCode, Cursor, Pi, and more and select tencent/hy4-preview inside the agent.",
+        "Try Hy4 Preview in the model playground .",
+        "AI Gateway provides a unified API for calling models, tracking usage and cost, and configuring retries, failover, and performance optimizations for higher-than-provider uptime. It includes built-in custom reporting , Zero Data Retention support , budgets for API keys , routing rules , and more.",
+        "AI Gateway reflects provider pricing with no markup and does not charge a platform fee on inference, including on Bring Your Own Key (BYOK) requests.",
+        "You can view all language models available on AI Gateway."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Hy4 Preview now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-28",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/hy4-preview-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Hy4 Preview now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Hy4 Preview now available on AI Gateway",
+        "url": "https://vercel.com/changelog/hy4-preview-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-08-29T05:12:50.183Z"
+      }
+    },
+    {
+      "id": "sig-d767e552b1",
+      "title": "Build and deploy eve agents from the Vercel dashboard",
+      "oneLiner": "You can now create eve agents directly from the Vercel dashboard, giving you a deployed agent that y",
+      "summary": {
+        "oneSentence": "You can now create eve agents directly from the Vercel dashboard, giving you a deployed agent that you can chat with rig",
+        "bullets": [
+          "You can now create eve agents directly from the Vercel dashboard, giving you a deployed agent that you can chat with right away. The builder scaffolds the agent, creates a private Git repository with "
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/build-and-deploy-eve-agents-from-the-vercel-dashboard"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "You can now create eve agents directly from the Vercel dashboard, giving you a deployed agent that you can chat with right away. The builder scaffolds the agent, creates a private Git repository with its files, and deploys it as a new Vercel project on your team. In a few clicks, you get a working agent, backed by a repo with code you can use to customize it.",
+        "Write the instructions that define the agent's identity",
+        "Pick any model available through AI Gateway",
+        "Add a Next.js web chat or Slack channel where people can talk to the agent",
+        "Give the agent tools and data from other services through built-in connections like Linear and Notion, or a custom MCP server",
+        "Select Add New → Agent in your dashboard to create your first agent .",
+        "Krish Krish , Allen Zhou , Colton Padden , Roman Olynyk , Casey Gowrie"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Build and deploy eve agents from the Vercel dashboard - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-28",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/build-and-deploy-eve-agents-from-the-vercel-dashboard",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Build and deploy eve agents from the Vercel dashboard - Vercel"
+      },
+      "raw": {
+        "title": "Build and deploy eve agents from the Vercel dashboard",
+        "url": "https://vercel.com/changelog/build-and-deploy-eve-agents-from-the-vercel-dashboard",
+        "fetched": true,
+        "savedAt": "2026-08-29T05:12:51.802Z"
+      }
+    },
+    {
+      "id": "sig-790b02624c",
+      "title": "Vercel CLI expands commands for DNS, domains, and projects",
+      "oneLiner": "The Vercel CLI now provides dedicated commands for managing DNS records, domains, and projects. This",
+      "summary": {
+        "oneSentence": "The Vercel CLI now provides dedicated commands for managing DNS records, domains, and projects. This brings more of the ",
+        "bullets": [
+          "The Vercel CLI now provides dedicated commands for managing DNS records, domains, and projects. This brings more of the functionality available through the Vercel dashboard and API to the terminal, wh"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/vercel-cli-expands-commands-for-dns-domains-and-projects"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "The Vercel CLI now provides dedicated commands for managing DNS records, domains, and projects. This brings more of the functionality available through the Vercel dashboard and API to the terminal, where it can be used interactively, in scripts, or by agents.",
+        "Copy link to heading Inspect and update DNS records Retrieve the complete configuration for a DNS record or update it in place using its record ID.",
+        "vercel dns inspect rec_123 vercel dns update rec_123 \\ --value 76.76 .21.21 \\ --ttl 300",
+        "vercel dns update supports changes to the record name, type, value, TTL, MX priority, and comment. SRV records can also be updated using their priority, weight, port, and target fields.",
+        "Copy link to heading Renew domains bought on Vercel Renew a domain on demand or control whether it renews automatically.",
+        "vercel domains renew example.com vercel domains auto-renew example.com on vercel domains auto-renew example.com off",
+        "The renewal command displays the current renewal price and asks for confirmation before completing the purchase.",
+        "Copy link to heading Control project state and observability Pause or resume a project and configure its observability features directly from the CLI. Web Analytics and Speed Insights could already be enabled from the CLI; they can now be disabled as well.",
+        "vercel project pause vercel project resume vercel project observability enable vercel project observability disable vercel project web-analytics disable vercel project speed-insights disable",
+        "Copy link to heading Add and remove project members Add a project member with a specific role or remove an existing member.",
+        "vercel project members add my-project user@example.com \\ --role developer vercel project members remove my-project user@example.com",
+        "All of the new commands support structured JSON output for scripts and agents. Billable or destructive actions require explicit confirmation.",
+        "Update to version 59.6.2 (or later) of the Vercel CLI to use the new commands:",
+        "Learn more in the Vercel CLI documentation ."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Vercel CLI expands commands for DNS, domains, and projects - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-28",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-cli-expands-commands-for-dns-domains-and-projects",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Vercel CLI expands commands for DNS, domains, and projects - Vercel"
+      },
+      "raw": {
+        "title": "Vercel CLI expands commands for DNS, domains, and projects",
+        "url": "https://vercel.com/changelog/vercel-cli-expands-commands-for-dns-domains-and-projects",
+        "fetched": true,
+        "savedAt": "2026-08-29T05:12:53.441Z"
+      }
+    },
     {
       "id": "sig-f30efa9be5",
       "title": "无需代码仓库，也能从零开始 · Cursor",
@@ -507,7 +1035,8 @@
         "title": "Start from scratch, without a repo",
         "url": "https://cursor.com/changelog/start-from-scratch",
         "fetched": true,
-        "savedAt": "2026-08-28T08:33:37.517Z"
+        "savedAt": "2026-08-28T08:33:37.517Z",
+        "retranslatedAt": "2026-08-29T05:12:59.437Z"
       }
     },
     {
@@ -1998,6 +2527,166 @@
       }
     },
     {
+      "id": "sig-19ab236bd4",
+      "title": "Workflow lab: Moving between design and code with agents",
+      "oneLiner": "Coding agents are reshaping how developers build, but they’re only as good as the input they’re give",
+      "summary": {
+        "oneSentence": "Coding agents are reshaping how developers build, but they’re only as good as the input they’re given. This workflow exp",
+        "bullets": [
+          "Coding agents are reshaping how developers build, but they’re only as good as the input they’re given. This workflow explores how context keeps code and canvas in sync."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.figma.com/blog/workflow-lab-moving-between-design-and-code-with-agents/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Coding agents are reshaping how developers build, but they’re only as good as the input they’re given. This workflow explores how context keeps code and canvas in sync.",
+        "Welcome to Workflow Lab, where we present a sample workflow Workflow lab: Deploying designs directly with Figma Make The handoff from design to code doesn't have to be a one-way street. This workflow shows how a designer can connect a codebase to Figma Make, make the changes directly, and bring the whole team into review—right up to the PR.",
+        "Tools: Figma MCP server, Code Connect, use_figma , generate_diagram , search_design_system , generate_figma_design , get_variable_defs",
+        "Team: Product designer, design systems lead, software engineer",
+        "Question to solve: What if your coding agent’s output could be production-ready sooner?",
+        "The engineering team at Radicle, a fictional STEM learning app, is moving faster than ever. Work that used to take weeks now takes days, or even hours. Still, this speed isn’t getting them very far; their AI-generated code strays from design specs more often than not. The team gives their coding agent screenshots and dev tickets to work from, but it’s not enough to get the outputs right, and the team gets stuck reworking them.",
+        "What if the first AI pass came back closer to production-ready? Given more design context to work from—like approved components and tokens documented in Figma—a coding agent can match your intent in fewer prompts. In this example workflow, a developer at Radicle uses Figma dev tools to give their coding agent better context so it can generate better code. Follow along to see how the developer keeps a new feature’s design and code in lockstep, from the first wireframe to final review.",
+        "The Radicle team wants to refresh the inbox where students can message instructors and fellow students. First, they plan to add a new bulk-update flow, which will have three surfaces: a toolbar, a modal, and a toast (a temporary notification). The toolbar will let a user select all their messages, delete them, or mark them unread; the modal will ask them to confirm or cancel the action; and finally, the toast will show if the action was successful, with an option to undo it.",
+        "The team’s designer creates each screen in Figma Design, and the developer on the project feeds these designs into their coding agent. They get code back fast—but the UI is off. The icons don’t match, the modal’s spacing is uneven, and the toast is missing its failure state. The developer could spend the afternoon reworking it. Instead, they take a step back and start over with Figma’s dev tools.",
+        "Before writing any code, the developer outlines the intended behavior of the screens, states, and transitions that define the new bulk-update flow. They feed the outline to their agent, along with the PRD and the code for the components that make up the inbox today. Using the generate_diagram tool with Figma’s MCP server , the developer then creates an editable diagram in FigJam FigJam is now your coding agent’s whiteboard too Agents are changing your code faster than your team can follow. Now you can close that gap with new MCP skills, architecture layouts, and more in FigJam.",
+        "The diagram provides additional context the agent can build from while also giving the team something to react to before development begins. The developer shares the FigJam with their design counterpart and a design systems lead, who both leave feedback directly on the diagram instead of a Slack thread.",
+        "Once everyone signs off, the developer feeds the FigJam diagram to their coding agent through Figma’s MCP server The TL;DR on MCP: Why context matters and how to put it to work Figma’s MCP server brings your design decisions into the tools where code gets written—so what gets built actually matches what was designed. Here’s what that unlocks for everyone who builds products.",
+        "If the developer just had a screenshot to work from, they’d be digging through the codebase for the right component, or pinging the designer to clarify details: whether that 12 px gap is the right spacing token, whether the button is the secondary one already in the repo, or if the modal is a new pattern or something the team already shipped. Instead, those answers are all in the file through Figma’s MCP server giving the agent all the design context it needs.",
+        "Knowing which component to use isn’t the same as knowing how it’s built. That part comes from Code Connect , which Radicle’s design systems lead sets up. Starting in Figma, they connect the library to the team’s GitHub repo so each component points at the file that implements it. Then, they write template files for components like buttons, icons, and modals in the codebase, mapping Figma properties to code properties."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Workflow Lab: Moving Between Design and Code With Agents | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-08-26",
+      "categoryIds": [
+        "vertical-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/workflow-lab-moving-between-design-and-code-with-agents/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Workflow Lab: Moving Between Design and Code With Agents | Figma Blog"
+      },
+      "raw": {
+        "title": "Workflow lab: Moving between design and code with agents",
+        "url": "https://www.figma.com/blog/workflow-lab-moving-between-design-and-code-with-agents/",
+        "fetched": true,
+        "savedAt": "2026-08-29T05:12:55.105Z"
+      }
+    },
+    {
+      "id": "sig-9448ec7a60",
+      "title": "Python projects now support routing rules",
+      "oneLiner": "Python projects can now use routing rules to set response headers or rewrite requests to internal pa",
+      "summary": {
+        "oneSentence": "Python projects can now use routing rules to set response headers or rewrite requests to internal paths, including apps ",
+        "bullets": [
+          "Python projects can now use routing rules to set response headers or rewrite requests to internal paths, including apps built with FastAPI, Django, and Flask. The Vercel CDN evaluates rules before req"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/python-projects-now-support-routing-rules"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Python projects can now use routing rules to set response headers or rewrite requests to internal paths, including apps built with FastAPI, Django, and Flask.",
+        "The Vercel CDN evaluates rules before requests reach your application, so changes apply without a new deployment.",
+        "For example, this FastAPI app serves a /new route:",
+        "main.py 1 from fastapi import FastAPI 2 3 app = FastAPI ( ) 4 5 @app . get ( \"/new\" ) 6 def new_route ( ) - > dict [ str , str ] : 7 return { \"message\" : \"New route!\" } Defines the /new route the rewrite below targets",
+        "To send requests for /old to that route, create a rewrite from the CDN tab in your project dashboard or with the Vercel CLI :",
+        "# Add a rewrite (staged automatically) vercel routes add --ai \"Rewrite /old to /new\" --yes # Review staged changes vercel routes list --diff # Publish to production vercel routes publish Creating and publishing a rewrite with the Vercel CLI",
+        "Published rules take effect immediately across all regions, and you can roll back to a previous version from the History tab.",
+        "You can also manage rules from Python with the vercel SDK , which wraps the Vercel REST API . add_route stages the rule, and update_route_version publishes it:",
+        "add_route.py 1 from vercel . client import Vercel 2 from vercel . project_routes import RewriteRoute 3 4 vercel = Vercel ( access_token = \"...\" ) 5 6 added = vercel . project_routes . add_route ( 7 project_id = \"prj_123\" , 8 route = RewriteRoute ( name = \"Rewrite /old to /new\" , source = \"/old\" , destination = \"/new\" ) , 9 ) 10 vercel . project_routes . update_route_version ( 11 project_id = \"prj_123\" , version_id = added . version . id , action = \"promote\" 12 ) Stages and publishes the same rewrite from Python",
+        "Rewrites can also be defined in vercel.json :",
+        "vercel.json 1 { 2 \"$schema\" : \"https://openapi.vercel.sh/vercel.json\" , 3 \"rewrites\" : [ 4 { 5 \"source\" : \"/old\" , 6 \"destination\" : \"/new\" 7 } 8 ] 9 } Rewrites /old to /new at the deployment level",
+        "Project-level rules live outside your deployment and are evaluated before its routes, so a published rule takes precedence over a vercel.json rewrite for the same path. Each surface fits a different workflow:",
+        "Rewrites that ship with the application code",
+        "Update Vercel CLI to the latest version and read the routing documentation to get started."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Python projects now support routing rules - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-26",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/python-projects-now-support-routing-rules",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Python projects now support routing rules - Vercel"
+      },
+      "raw": {
+        "title": "Python projects now support routing rules",
+        "url": "https://vercel.com/changelog/python-projects-now-support-routing-rules",
+        "fetched": true,
+        "savedAt": "2026-08-29T05:12:56.628Z"
+      }
+    },
+    {
       "id": "sig-6f42175435",
       "title": "Vercel 应用程序免受 Next.js August 2026 安全漏洞的影响 - Vercel",
       "oneLiner": "将链接复制到标题 摘要 2026 年 8 月的安全版本中披露了两个影响 Next.js 的漏洞。 Vercel 上托管的 Next.js 应用程序受到保护，无需客户执行任何操作。",
@@ -2784,6 +3473,82 @@
         "url": "https://vercel.com/changelog/minimax-m3-and-m2-7-are-free-on-ai-gateway",
         "fetched": true,
         "savedAt": "2026-08-26T00:57:16.206Z"
+      }
+    },
+    {
+      "id": "sig-5c389899eb",
+      "title": "Wan 3.0 now available on AI Gateway",
+      "oneLiner": "Wan 3.0 from Alibaba is now available on AI Gateway as alibaba/wan-v3.0-video . Wan 3.0 combines tex",
+      "summary": {
+        "oneSentence": "Wan 3.0 from Alibaba is now available on AI Gateway as alibaba/wan-v3.0-video . Wan 3.0 combines text-to-video, image-to",
+        "bullets": [
+          "Wan 3.0 from Alibaba is now available on AI Gateway as alibaba/wan-v3.0-video . Wan 3.0 combines text-to-video, image-to-video, first- and last-frame conditioning, and reference-based generation in on"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/wan-3-0-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Wan 3.0 from Alibaba is now available on AI Gateway as alibaba/wan-v3.0-video .",
+        "Wan 3.0 combines text-to-video, image-to-video, first- and last-frame conditioning, and reference-based generation in one model. References can include images, video, and audio. It generates clips up to 30 seconds at 30 fps in 480p, 720p, or 1080p, with synchronized audio.",
+        "Previously, Wan 2.7 required separate -t2v and -r2v model IDs and was limited to 15-second clips at 24 fps.",
+        "Copy link to heading Generate a video Wan 3.0 supports asynchronous generation , so no HTTP request needs to remain open for the entire render.",
+        "Pass a webhook to receive an event when the generation finishes:",
+        "1 import { experimental_generateVideo as generateVideo } from 'ai' ; 2 3 const { videos } = await generateVideo ( { 4 model : 'alibaba/wan-v3.0-video' , 5 prompt : 'A paper lantern drifting over a harbor at night' , 6 webhook : async ( ) => ( { 7 url : callbackUrl , 8 received : waitForDelivery ( token ) 9 } ) , 10 } ) ; Generate a Wan 3.0 video and receive its completion event through a webhook.",
+        "Learn about asynchronous generation options in the docs, including how to verify webhook deliveries .",
+        "Copy link to heading Add references Pass image, video, or audio references through inputReferences , including the source and media type for each one. Images accept hosted URLs or base64. Video and audio references require hosted URLs.",
+        "First- and last-frame conditioning accepts one image for each frame and can't be combined with other references.",
+        "Try Wan 3.0 in the model playground , or browse all video models ."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Wan 3.0 now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-25",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/wan-3-0-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Wan 3.0 now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Wan 3.0 now available on AI Gateway",
+        "url": "https://vercel.com/changelog/wan-3-0-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-08-29T05:12:58.301Z"
       }
     },
     {
