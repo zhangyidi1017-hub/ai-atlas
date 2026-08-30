@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-29T05:13:06.594Z",
+  "updatedAt": "2026-08-30T03:05:15.056Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 364,
+  "itemCount": 370,
   "brief": {
-    "date": "2026-08-29",
-    "generatedAt": "2026-08-29T05:13:06.593Z",
-    "totalCount": 364,
+    "date": "2026-08-30",
+    "generatedAt": "2026-08-30T03:05:15.055Z",
+    "totalCount": 370,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 364 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 370 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -115,8 +115,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-08-29T05:13:06.594Z",
-    "summary": "近 30 天共 256 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-08-30T03:05:15.056Z",
+    "summary": "近 30 天共 252 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -398,6 +398,18 @@
       "stars": 4
     },
     {
+      "id": "sig-afca402187",
+      "title": "Introducing Intelligence Age",
+      "oneLiner": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power,",
+      "date": "2026-08-20",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
+    },
+    {
       "id": "sig-ef913e9fda",
       "title": "为前沿模型提供零数据保留",
       "oneLiner": "OpenAI 重申对符合条件的 API 客户实行零数据保留，并预览私人安全处理，以在不损害数据隐私的情况下实现高级 AI 安全。",
@@ -408,21 +420,145 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-a874149274",
-      "title": "通过搜索提升学习水平的 5 种新方法",
-      "oneLiner": "我们推出的工具可帮助您学习新概念、解决棘手的主题，并利用 AI in Search 组织您的学习课程。",
-      "date": "2026-08-19",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google AI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-e99b0d4d4e",
+      "title": "Introducing Hy4 Preview",
+      "oneLiner": "Introducing Hy4 Preview New open weight text input (no vision) LLM from Chinese company Tencent toda",
+      "summary": {
+        "oneSentence": "Introducing Hy4 Preview New open weight text input (no vision) LLM from Chinese company Tencent today: 770B total parame",
+        "bullets": [
+          "Introducing Hy4 Preview New open weight text input (no vision) LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, 1.56TB on Hugging Face . T"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Aug/29/hy4/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Introducing Hy4 Preview New open weight text input (no vision) LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, 1.56TB on Hugging Face . This is a big size increase from their previous Hy3 in July, which was 295B, 21B active, 256,000 context, 598GB. I recently started using model chat templates to better understand their capabilities. Here's Hy4's chat_template.jinja on Hugging Face, which includes this section: {% - if not reasoning_effort is defined %} {% - set reasoning_effort = 'high' %} {% - elif reasoning_effort not in [ 'high' , 'no_think' ] %} {% - if reasoning_effort is none %} {{- raise_exception('reasoning_effort error : None, should be no_think/high') }} {% - else %} {{- raise_exception('reasoning_effort error : ' + reasoning_effort + ', should be no_think/high') }} {% - endif %} {% - endif %} So it looks like there are just two reasoning effort levels: \"high\" (the default) and \"no_think\" (reason by disabled). I tried my \"Generate an SVG of a pelican riding a bicycle\" prompt with the default high reasoning via OpenRouter and got this : Quoting the reasoning trace: [...] Let's maybe add a helmet? It could improve riding theme, but may obscure head. Maybe a small cycling cap or helmet? The user didn't ask; can add red helmet? Might be cute. But pelican with big beak; a helmet might obscure. Better maybe no. Maybe add sunglasses? no. Maybe add water? no. It's interesting how the reasoning trace uses slightly truncated English, presumably because perfect grammar isn't useful or token efficient for hidden reasoning text. Tags: ai , generative-ai , llms , pelican-riding-a-bicycle , llm-reasoning , llm-release , ai-in-china"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Introducing Hy4 Preview",
+      "originalLang": "en",
+      "date": "2026-08-29",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/29/hy4/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Introducing Hy4 Preview"
+      },
+      "raw": {
+        "title": "Introducing Hy4 Preview",
+        "url": "https://simonwillison.net/2026/Aug/29/hy4/",
+        "fetched": false,
+        "savedAt": "2026-08-30T03:05:05.067Z"
+      }
+    },
+    {
+      "id": "sig-5dcea7d65e",
+      "title": "[AINews] OpenAI shuts off Cursor",
+      "oneLiner": "Elon v Altman has a real consequence.",
+      "summary": {
+        "oneSentence": "Elon v Altman has a real consequence.",
+        "bullets": [
+          "Elon v Altman has a real consequence."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.latent.space/p/ainews-openai-shuts-off-cursor"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Elon v Altman has a real consequence."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "[AINews] OpenAI shuts off Cursor",
+      "originalLang": "en",
+      "date": "2026-08-29",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "[AINews] OpenAI shuts off Cursor"
+      },
+      "raw": {
+        "title": "[AINews] OpenAI shuts off Cursor",
+        "url": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
+        "fetched": false,
+        "savedAt": "2026-08-30T03:05:05.869Z"
+      }
+    },
     {
       "id": "sig-b9b1ef532b",
       "title": "How do you actually measure the impact of AI on design?",
@@ -3552,6 +3688,467 @@
       }
     },
     {
+      "id": "sig-01926f99d6",
+      "title": "AI Gateway now supports asynchronous video generation",
+      "oneLiner": "Video generation on AI Gateway can now run asynchronously. By default, generateVideo keeps one HTTP ",
+      "summary": {
+        "oneSentence": "Video generation on AI Gateway can now run asynchronously. By default, generateVideo keeps one HTTP request to AI Gatewa",
+        "bullets": [
+          "Video generation on AI Gateway can now run asynchronously. By default, generateVideo keeps one HTTP request to AI Gateway open until the result is ready. Because video generation can take seconds or m"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/ai-gateway-now-supports-asynchronous-video-generation"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Video generation on AI Gateway can now run asynchronously.",
+        "By default, generateVideo keeps one HTTP request to AI Gateway open until the result is ready. Because video generation can take seconds or minutes, that request can exceed request timeouts.",
+        "With asynchronous generation, your application can receive a webhook, poll for completion, or start a generation and retrieve the result in a later request.",
+        "Choose an option based on whether your process can keep running and whether your application can receive webhooks:",
+        "The call, until your endpoint receives the completion event",
+        "In the webhook event and the final result",
+        "Returning videos from one call without polling",
+        "The call, while the SDK sends short status requests",
+        "In the final result, after rendering completes",
+        "Processes that can wait but cannot receive webhooks",
+        "In the start response, before rendering begins",
+        "Serverless functions, queues, and parallel jobs that must outlive the calling process",
+        "One request stays open until rendering completes",
+        "Scripts and other processes that can keep a request open"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "AI Gateway now supports asynchronous video generation - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-25",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/ai-gateway-now-supports-asynchronous-video-generation",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "AI Gateway now supports asynchronous video generation - Vercel"
+      },
+      "raw": {
+        "title": "AI Gateway now supports asynchronous video generation",
+        "url": "https://vercel.com/changelog/ai-gateway-now-supports-asynchronous-video-generation",
+        "fetched": true,
+        "savedAt": "2026-08-30T03:04:51.647Z"
+      }
+    },
+    {
+      "id": "sig-b8b083e4ff",
+      "title": "Vercel Connect is now generally available",
+      "oneLiner": "Vercel Connect is now generally available on all plans and in v0 . Instead of storing long-lived pro",
+      "summary": {
+        "oneSentence": "Vercel Connect is now generally available on all plans and in v0 . Instead of storing long-lived provider secrets, your ",
+        "bullets": [
+          "Vercel Connect is now generally available on all plans and in v0 . Instead of storing long-lived provider secrets, your code requests short-lived, scoped tokens at runtime. Deployments authenticate wi"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/vercel-connect-ga"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Connect is now generally available on all plans and in v0 . Instead of storing long-lived provider secrets, your code requests short-lived, scoped tokens at runtime. Deployments authenticate with their existing Vercel OIDC identity. Each token is scoped to the task, refreshed automatically, and expires on its own.",
+        "Copy link to heading Any service with one command Register a connector once from the CLI . Pass the service name and the CLI pre-populates the brand name, icon, auth type, and MCP or discovery URL, then prompts for any credentials the service requires:",
+        "vercel connect create slack --name acme-slack Create a Slack connector named acme-slack",
+        "Connect ships with 100+ preset connectors for tools like Notion and Workday , managed connectors for Slack , GitHub , Linear , Salesforce , Snowflake , and Microsoft , plus generic OAuth, API key authentication, and MCP servers.",
+        "Copy link to heading Tokens at runtime, not secrets at rest Request a token only when your code needs one, with getToken :",
+        "import { getToken } from '@vercel/connect' ; const token = await getToken ( 'slack/acme-slack' , { subject : { type : 'app' } , } ) ; Request an app-level Slack token",
+        "Switch the subject from the app to a named user and the token acts on that user's behalf, triggering the authorization flow when consent is needed.",
+        "Copy link to heading Access your team can inspect and prove New at GA:",
+        "Fine-grained RBAC controls who can create and manage connectors",
+        "Audit logs record authorization and connector activity",
+        "Token and trigger observability shows how tokens are used across projects",
+        "Together with per-environment attachment, including Custom Environments , and one-command revocation, external access becomes something your team can inspect, prove, and cut off in seconds.",
+        "Copy link to heading Triggers without stored webhook secrets Triggers deliver provider events to your app without a stored secret. Vercel Connect verifies signatures server-side, re-attests each event using an OIDC identity, and forwards the event to your project, even when Deployment Protection is enabled.",
+        "Connect also manages private keys and the full credential lifecycle, so you get standards-compliant OAuth without building the infrastructure yourself."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Vercel Connect is now generally available - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-25",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-connect-ga",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Vercel Connect is now generally available - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Connect is now generally available",
+        "url": "https://vercel.com/changelog/vercel-connect-ga",
+        "fetched": true,
+        "savedAt": "2026-08-30T03:04:53.544Z"
+      }
+    },
+    {
+      "id": "sig-e4fbd8e1b1",
+      "title": "Chat SDK now supports Slack Enterprise Grid",
+      "oneLiner": "Chat SDK's Slack adapter now supports Slack Enterprise Grid . Bots installed org-wide work across ev",
+      "summary": {
+        "oneSentence": "Chat SDK's Slack adapter now supports Slack Enterprise Grid . Bots installed org-wide work across every workspace, with ",
+        "bullets": [
+          "Chat SDK's Slack adapter now supports Slack Enterprise Grid . Bots installed org-wide work across every workspace, with correct token resolution, tenant-scoped caches, and event retry deduplication. T"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/chat-sdk-slack-enterprise-grid"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Chat SDK's Slack adapter now supports Slack Enterprise Grid .",
+        "Bots installed org-wide work across every workspace, with correct token resolution, tenant-scoped caches, and event retry deduplication.",
+        "The adapter now stores org-wide installations by enterprise ID. This matches how tokens are resolved for incoming events, slash commands, and interactive payloads. SlackInstallation records the new identity fields:",
+        "const installation = await slack . handleOAuthCallback ( request ) ; installation . teamId ; // \"E0123456789\" (enterprise ID for org-wide installs) installation . enterpriseId ; // \"E0123456789\" installation . isEnterpriseInstall ; // true",
+        "Token resolution behaves the same over HTTP webhooks and Socket Mode. Events route by the installation identity in the envelope's authorizations field, which keeps routing correct for Slack Connect shared channels.",
+        "The adapter is also hardened for multi-workspace deployments:",
+        "User profile and mention caches are scoped per installation, so one tenant's data never resolves for another.",
+        "API calls made with an org-wide token pass the event's team_id automatically, which Slack requires for workspace-scoped methods.",
+        "Retried event deliveries are deduplicated for 24 hours, covering Slack's Delayed Events redeliveries.",
+        "Outgoing mentions accept W-prefixed Grid user IDs alongside U-prefixed IDs.",
+        "Single-workspace installations are unaffected, and getInstallation and deleteInstallation work unchanged for both install types.",
+        "Read the Slack adapter documentation to get started."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Chat SDK now supports Slack Enterprise Grid - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-25",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/chat-sdk-slack-enterprise-grid",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Chat SDK now supports Slack Enterprise Grid - Vercel"
+      },
+      "raw": {
+        "title": "Chat SDK now supports Slack Enterprise Grid",
+        "url": "https://vercel.com/changelog/chat-sdk-slack-enterprise-grid",
+        "fetched": true,
+        "savedAt": "2026-08-30T03:04:55.334Z"
+      }
+    },
+    {
+      "id": "sig-067b7d3e24",
+      "title": "Vercel Connect now supports Linq",
+      "oneLiner": "Vercel Connect now includes a managed connector for Linq , so your apps and agents can send and rece",
+      "summary": {
+        "oneSentence": "Vercel Connect now includes a managed connector for Linq , so your apps and agents can send and receive messages over iM",
+        "bullets": [
+          "Vercel Connect now includes a managed connector for Linq , so your apps and agents can send and receive messages over iMessage, RCS, and SMS. As a Vercel Managed Connector , Vercel can create a Linq a"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/vercel-connect-now-supports-linq"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Connect now includes a managed connector for Linq , so your apps and agents can send and receive messages over iMessage, RCS, and SMS.",
+        "As a Vercel Managed Connector , Vercel can create a Linq account and phone number for you, or link an existing account. You never manage credentials yourself.",
+        "Create a connector from the dashboard or Vercel CLI :",
+        "# Create a Linq connector vc connect create linq --name my-agent # Attach it to a project vc connect attach linq/my-agent --project my-app --environment production Create a Linq connector and attach it to a project's production environment.",
+        "Copy link to heading Give your eve agent a phone number The connector powers the new Linq channel in eve .",
+        "Run eve add channel/linq , choose Vercel Connect, and eve wires up the connector, phone numbers, and webhook for you:",
+        "agent/channels/linq.ts import { connectLinqCredentials } from '@vercel/connect/eve' ; import { linqChannel } from 'eve/channels/linq' ; export default linqChannel ( { credentials : connectLinqCredentials ( 'linq/my-agent' ) , } ) ; Credentials resolve at runtime through the connector with connectLinqCredentials",
+        "The channel marks accepted messages as read and continues the same eve session for every message in a Linq conversation. Out of the box, the channel supports read receipts, typing indicators, and mid-conversation steering for a more natural messaging experience.",
+        "Copy link to heading Use the connector in any project Call getToken with your connector, and the @vercel/connect SDK exchanges your Vercel deployment's OIDC identity for a short-lived Linq token.",
+        "Pass it as the bearer token on any Linq Partner API request:",
+        "app/lib/send-text.ts import { getToken } from '@vercel/connect' ; const token = await getToken ( 'linq/my-agent' , { subject : { type : 'app' } , } ) ; await fetch ( 'https://api.linqapp.com/api/partner/v3/chats' , { method : 'POST' , headers : { Authorization : ` Bearer ${ token } ` , 'Content-Type' : 'application/json' , } , body : JSON . stringify ( { from : '+12223334444' , to : [ '+15556667777' ] , message : { parts : [ { type : 'text' , value : 'Production deployment is live.' } ] , } , } ) , } ) ; Send a project deploy notification with a short-lived Linq token",
+        "Linq delivers each message over the best protocol the recipient supports, starting with iMessage, then RCS, then SMS. The same token works across the full Linq API, including group chats, reactions, rich media, and typing indicators.",
+        "Read the Vercel Connect documentation , view details about the Linq connector in the Vercel Connect catalog, or create a Linq connector to get started."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Vercel Connect now supports Linq - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-25",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-connect-now-supports-linq",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Vercel Connect now supports Linq - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Connect now supports Linq",
+        "url": "https://vercel.com/changelog/vercel-connect-now-supports-linq",
+        "fetched": true,
+        "savedAt": "2026-08-30T03:04:57.026Z"
+      }
+    },
+    {
+      "id": "sig-3c1bd39607",
+      "title": "Bring your agent to Notion with Chat SDK",
+      "oneLiner": "Your team already works in Notion. Now your agent can too. With the new Notion adapter for Chat SDK,",
+      "summary": {
+        "oneSentence": "Your team already works in Notion. Now your agent can too. With the new Notion adapter for Chat SDK, the same agent you ",
+        "bullets": [
+          "Your team already works in Notion. Now your agent can too. With the new Notion adapter for Chat SDK, the same agent you run on Slack, Discord, GitHub, Teams, or WhatsApp can join comment discussions o"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/notion-chat-sdk"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Your team already works in Notion. Now your agent can too.",
+        "With the new Notion adapter for Chat SDK, the same agent you run on Slack, Discord, GitHub, Teams, or WhatsApp can join comment discussions on your Notion pages, no separate codebase required.",
+        "lib/bot.ts 1 import { Chat } from \"chat\" ; 2 import { createNotionAdapter } from \"@chat-adapter/notion\" ; 3 import { createRedisState } from \"@chat-adapter/state-redis\" ; 4 5 const bot = new Chat ( { 6 userName : \"my-bot\" , 7 adapters : { 8 notion : createNotionAdapter ( ) , 9 } , 10 state : createRedisState ( ) , 11 } ) ; 12 13 bot . onNewMention ( async ( thread , message ) => { 14 await thread . post ( \"Hello from Notion!\" ) ; 15 } ) ; Respond to a comment on Notion with your agent",
+        "Each Notion page maps to a channel and each comment thread to a thread, so replies stay threaded automatically.",
+        "The adapter supports mentions, message editing, conversation history, and up to three file attachments. By default, your bot replies when @-mentioned and where mentions aren't available in a workspace, it can trigger on a keyword or on all comments instead.",
+        "Notion doesn't support buttons, modals, or reactions, and cards render as markdown. Discussions can start at the page or block level, but not on inline text ranges. History fetches return only open comments.",
+        "Read the documentation to get started, browse the directory , or build your own ."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Bring your agent to Notion with Chat SDK - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-25",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/notion-chat-sdk",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Bring your agent to Notion with Chat SDK - Vercel"
+      },
+      "raw": {
+        "title": "Bring your agent to Notion with Chat SDK",
+        "url": "https://vercel.com/changelog/notion-chat-sdk",
+        "fetched": true,
+        "savedAt": "2026-08-30T03:04:58.919Z"
+      }
+    },
+    {
+      "id": "sig-a817e799b3",
+      "title": "Chat SDK now supports XChat",
+      "oneLiner": "You can now build bots that hold end-to-end encrypted 1:1 and group conversations on XChat with the ",
+      "summary": {
+        "oneSentence": "You can now build bots that hold end-to-end encrypted 1:1 and group conversations on XChat with the new XChat adapter fo",
+        "bullets": [
+          "You can now build bots that hold end-to-end encrypted 1:1 and group conversations on XChat with the new XChat adapter for Chat SDK. The adapter handles all encryption, key management, and signature ve"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/chat-sdk-now-supports-xchat"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "You can now build bots that hold end-to-end encrypted 1:1 and group conversations on XChat with the new XChat adapter for Chat SDK.",
+        "The adapter handles all encryption, key management, and signature verification automatically. Bots can also message users first, as long as the user has encrypted chat set up and follows the bot.",
+        "lib/bot.ts 1 import { Chat } from \"chat\" ; 2 import { createXchatAdapter } from \"@chat-adapter/x/chat\" ; 3 4 const bot = new Chat ( { 5 userName : \"mybot\" , 6 adapters : { 7 xchat : createXchatAdapter ( ) , 8 } , 9 } ) ; 10 11 bot . onDirectMessage ( async ( thread , message ) => { 12 await thread . post ( ` You said: ${ message . text } ` ) ; 13 } ) ; Reply to a direct message on XChat",
+        "XChat has no markdown rendering, so the adapter falls back automatically: URLs and @mentions render as tappable links, tables as ASCII code blocks, and cards as text with a link preview. Streaming works through message edits.",
+        "Read the XChat adapter documentation to get started."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Chat SDK now supports XChat - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-25",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/chat-sdk-now-supports-xchat",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Chat SDK now supports XChat - Vercel"
+      },
+      "raw": {
+        "title": "Chat SDK now supports XChat",
+        "url": "https://vercel.com/changelog/chat-sdk-now-supports-xchat",
+        "fetched": true,
+        "savedAt": "2026-08-30T03:05:00.896Z"
+      }
+    },
+    {
       "id": "sig-205ee244c2",
       "title": "Elastic build machines now use Turborepo cache hits to prevent downgrades",
       "oneLiner": "Elastic build machines now consider Turborepo cache hits when deciding whether to use a smaller buil",
@@ -5607,6 +6204,76 @@
       }
     },
     {
+      "id": "sig-9b7d0fbcfd",
+      "title": "Microfrontends previews now link across repositories",
+      "oneLiner": "Microfrontends can now link Preview Deployments across repositories when their Git branch names matc",
+      "summary": {
+        "oneSentence": "Microfrontends can now link Preview Deployments across repositories when their Git branch names match exactly. In a mono",
+        "bullets": [
+          "Microfrontends can now link Preview Deployments across repositories when their Git branch names match exactly. In a monorepo, projects share the same Git repository, commits, and branches, so Vercel c"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/microfrontends-previews-now-link-across-repositories"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Microfrontends can now link Preview Deployments across repositories when their Git branch names match exactly.",
+        "In a monorepo, projects share the same Git repository, commits, and branches, so Vercel can automatically link their previews. Cross-repository projects have separate commit histories and branches in separate repositories. With this update, Vercel matches Git-connected projects by branch name and links their corresponding previews.",
+        "For example, when you preview the new-checkout branch of one project, requests to other projects in the Microfrontends group will use their new-checkout previews when available. This makes it easier to review coordinated changes across repositories in one preview experience.",
+        "This feature is enabled by default for new Microfrontends groups. You can manage it in your Microfrontends settings. Learn more about how deployment routing works for Microfrontends."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Microfrontends previews now link across repositories - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-21",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/microfrontends-previews-now-link-across-repositories",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Microfrontends previews now link across repositories - Vercel"
+      },
+      "raw": {
+        "title": "Microfrontends previews now link across repositories",
+        "url": "https://vercel.com/changelog/microfrontends-previews-now-link-across-repositories",
+        "fetched": true,
+        "savedAt": "2026-08-30T03:05:02.596Z"
+      }
+    },
+    {
       "id": "sig-38119b55b5",
       "title": "视线第 2 期：领导者需要了解的有关建筑代理的知识 | Figma 博客",
       "oneLiner": "Agentic 产品带来了一系列独特的设计挑战。如何构建一个功能强大且知识丰富的工具，足以成为真正的合作伙伴，同时保持信任和安全为核心？以下是我们从领导人那里听到的内容。",
@@ -6602,6 +7269,77 @@
         "url": "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie",
         "fetched": false,
         "savedAt": "2026-08-24T00:55:39.559Z"
+      }
+    },
+    {
+      "id": "sig-afca402187",
+      "title": "Introducing Intelligence Age",
+      "oneLiner": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power,",
+      "summary": {
+        "oneSentence": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the eco",
+        "bullets": [
+          "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/introducing-intelligence-age"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Introducing Intelligence Age",
+      "originalLang": "en",
+      "date": "2026-08-20",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/introducing-intelligence-age",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Introducing Intelligence Age"
+      },
+      "raw": {
+        "title": "Introducing Intelligence Age",
+        "url": "https://openai.com/index/introducing-intelligence-age",
+        "fetched": false,
+        "savedAt": "2026-08-30T03:05:04.266Z"
       }
     },
     {
@@ -27523,344 +28261,6 @@
         "fetched": false,
         "savedAt": "2026-07-27T07:34:14.919Z",
         "retranslatedAt": "2026-08-01T22:53:27.939Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-690a1f65b1",
-      "title": "Sightlines 第 1 期：来自配置的见解 | Figma 博客",
-      "oneLiner": "我们仍在重播 Config 领导集体的对话。",
-      "summary": {
-        "oneSentence": "我们仍在重播 Config 领导集体的对话。",
-        "bullets": [
-          "我们仍在重播 Config 领导集体的对话。",
-          "Sightlines 是我们面向设计、产品和工程领导者的时事通讯。在每一期中，我们都会为您带来来自 Cisco、OpenAI、Airbnb 等公司的高级领导者的最敏锐的见解，以及他们如何在人工智能时代引导产品开发和设计的更多信息。",
-          "首先：我们从 Config 领导力演讲中得到的一切。",
-          "我们带着希望同行能够回答的问题走进了领导力集体。诸如此类的问题：您如何领导您自己仍在摸索的变革？在人工智能出现之前，我们的哪些工作方式值得保留？人工智能时代我们应该如何构建我们的团队？"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Figma 官网发布：我们仍在重播 Config 领导集体的对话。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://www.figma.com/blog/sightlines-issue-no1/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "我们仍在重播 Config 领导集体的对话。",
-        "Sightlines 是我们面向设计、产品和工程领导者的时事通讯。在每一期中，我们都会为您带来来自 Cisco、OpenAI、Airbnb 等公司的高级领导者的最敏锐的见解，以及他们如何在人工智能时代引导产品开发和设计的更多信息。",
-        "首先：我们从 Config 领导力演讲中得到的一切。",
-        "我们带着希望同行能够回答的问题走进了领导力集体。诸如此类的问题：您如何领导您自己仍在摸索的变革？在人工智能出现之前，我们的哪些工作方式值得保留？人工智能时代我们应该如何构建我们的团队？",
-        "TL;DR：我们大多数人仍在弄清楚。每个人都在研究如何将人工智能融入到他们的产品、团队和系统中，以及如何在不牺牲质量的情况下利用其速度。但有几件事是明确的。",
-        "深入了解 Config 领导集体的见解：",
-        "→ 我们向 Leadership Collective 提出的 7 个问题，以及领导者不得不说的 7 我们向 Config Leadership Collective 提出的 7 个问题 我们来到 Leadership Collective，希望了解领导者如何指导他们的团队完成变革、专业知识现在意味着什么，以及随着步伐的加快，他们如何保持高品质。这是我们听到的。",
-        "→ 如何领导设计团队度过 AI 时代 如何通过不断的变化保持设计团队稳定 设计领导者 Jen Dunnam 借鉴她在 Patreon 和 Shopify 的经历，为 AI 新时代提供了建议 - 从建立强大的团队到如何考虑速度。",
-        "“我们会经历一段时期，其中会有一些糟糕的作品，一些糟糕的设计——我们会在污水中游泳一段时间。但伟大的作品总是会超越它。作为创作者的判断力、出色的剪辑和梦想能力永远很重要。” Teo Connor，Airbnb 设计副总裁",
-        "“我以设计师和人的身份出现在我的团队中。追逐工具的风险很高，但从根本上说，我们是为人设计的，这一点不会改变。” Jen Dunnam，Patreon 前设计副总裁"
-      ],
-      "highlights": [
-        "我们仍在重播 Config 领导集体的对话。",
-        "Sightlines 是我们面向设计、产品和工程领导者的时事通讯。在每一期中，我们都会为您带来来自 Cisco、OpenAI、Airbnb 等公司的高级领导者的",
-        "首先：我们从 Config 领导力演讲中得到的一切。"
-      ],
-      "translated": true,
-      "originalTitle": "Sightlines Issue no.1: Insights from Config | Figma Blog",
-      "originalLang": "en",
-      "date": "2026-07-16",
-      "categoryIds": [
-        "visual-ui"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Figma",
-        "author": "Figma",
-        "url": "https://www.figma.com/blog/sightlines-issue-no1/",
-        "home": "https://www.figma.com/blog/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Sightlines Issue no.1: Insights from Config | Figma Blog"
-      },
-      "raw": {
-        "title": "Sightlines issue no.1: Insights from Config",
-        "url": "https://www.figma.com/blog/sightlines-issue-no1/",
-        "fetched": true,
-        "savedAt": "2026-07-27T07:34:44.555Z",
-        "retranslatedAt": "2026-08-01T22:53:36.665Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-8fe39edff7",
-      "title": "为什么青少年应该获得安全的人工智能",
-      "oneLiner": "了解 OpenAI 如何通过适合年龄的保护、学习工具、家长控制和专家合作伙伴关系，让 ChatGPT 对青少年来说更安全。",
-      "summary": {
-        "oneSentence": "了解 OpenAI 如何通过适合年龄的保护、学习工具、家长控制和专家合作伙伴关系，让 ChatGPT 对青少年来说更安全。",
-        "bullets": [
-          "了解 OpenAI 如何通过适合年龄的保护、学习工具、家长控制和专家合作伙伴关系，让 ChatGPT 对青少年来说更安全。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：了解 OpenAI 如何通过适合年龄的保护、学习工具、家长控制和专家合作伙伴关系，让 ChatGPT 对青少年来说更安全。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/why-teens-deserve-access-safe-ai"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "了解 OpenAI 如何通过适合年龄的保护、学习工具、家长控制和专家合作伙伴关系，让 ChatGPT 对青少年来说更安全。"
-      ],
-      "highlights": [
-        "了解 OpenAI 如何通过适合年龄的保护、学习工具、家长控制和专家合作伙伴关系，让 ChatGPT 对青少年来说更安全。"
-      ],
-      "translated": true,
-      "originalTitle": "Why teens deserve access to safe AI",
-      "originalLang": "en",
-      "date": "2026-07-16",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Why teens deserve access to safe AI"
-      },
-      "raw": {
-        "title": "Why teens deserve access to safe AI",
-        "url": "https://openai.com/index/why-teens-deserve-access-safe-ai",
-        "fetched": false,
-        "savedAt": "2026-07-27T07:35:06.667Z",
-        "retranslatedAt": "2026-08-01T22:53:38.115Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-a564401bb8",
-      "title": "将更多应用程序连接到搜索",
-      "oneLiner": "您将能够直接在 AI 模式下安全地链接您的首选服务并与之交互。",
-      "summary": {
-        "oneSentence": "您将能够直接在 AI 模式下安全地链接您的首选服务并与之交互。",
-        "bullets": [
-          "您将能够直接在 AI 模式下安全地链接您的首选服务并与之交互。",
-          "您的浏览器不支持音频元素。",
-          "现在，您可以将您喜爱的应用程序直接连接到搜索中的 AI 模式，以完成更多工作。只需链接 Instacart、Canva 或 YouTube Music 等服务即可构建列表、设计项目或管理播放列表，而无需留下搜索结果。立即前往搜索中的 AI 模式开始使用这些新集成。",
-          "现在，您可以将您喜爱的应用程序直接链接到搜索中的 AI，以更快地完成工作。例如，您可以将杂货添加到购物车或保存音乐播放列表，而无需离开搜索页面。它使规划项目或聚会变得更加容易。只需前往 AI in Search 进行尝试即可。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Google AI 官网发布：您将能够直接在 AI 模式下安全地链接您的首选服务并与之交互。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：gemini",
-        "actionItems": [
-          "阅读原文（英文）：https://blog.google/products-and-platforms/products/search/connected-apps/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "gemini"
-      ],
-      "content": [
-        "您将能够直接在 AI 模式下安全地链接您的首选服务并与之交互。",
-        "您的浏览器不支持音频元素。",
-        "现在，您可以将您喜爱的应用程序直接连接到搜索中的 AI 模式，以完成更多工作。只需链接 Instacart、Canva 或 YouTube Music 等服务即可构建列表、设计项目或管理播放列表，而无需留下搜索结果。立即前往搜索中的 AI 模式开始使用这些新集成。",
-        "现在，您可以将您喜爱的应用程序直接链接到搜索中的 AI，以更快地完成工作。例如，您可以将杂货添加到购物车或保存音乐播放列表，而无需离开搜索页面。它使规划项目或聚会变得更加容易。只需前往 AI in Search 进行尝试即可。",
-        "您已经可以将一些您喜欢的服务连接到 Gemini 应用程序，现在，为了帮助您完成更多工作，我们允许您直接在搜索中连接您的应用程序。",
-        "本周开始在美国推出，您可以在 AI 模式下安全地链接一些常用服务并进行交互。以下是搜索中的这些集成如何简化您的一天：",
-        "假设您正在计划烧烤并使用人工智能模式来帮助您制定购物清单。如果您连接 Instacart，您可以将原料直接添加到您的 Instacart 购物车中，只需在其应用程序或网站上轻按几下即可结账。",
-        "借助个人智能和连接的应用程序，搜索可以提供更加量身定制的响应。",
-        "或者，如果您正在开展的项目需要一些设计概念（例如创建传单），您可以要求 Canva 向您展示一些模板选项。",
-        "想为您的下一场聚会制作完美的配乐吗？您可以使用 AI 模式来策划播放列表，立即将其保存到 YouTube Music，然后按播放按钮开始庆祝活动。"
-      ],
-      "highlights": [
-        "您将能够直接在 AI 模式下安全地链接您的首选服务并与之交互。",
-        "您的浏览器不支持音频元素。",
-        "现在，您可以将您喜爱的应用程序直接连接到搜索中的 AI 模式，以完成更多工作。只需链接 Instacart、Canva 或 YouTube Music 等服务即"
-      ],
-      "translated": true,
-      "originalTitle": "Connect more of your apps to Search",
-      "originalLang": "en",
-      "date": "2026-07-16",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google AI",
-        "author": "Google",
-        "url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
-        "home": "https://blog.google/technology/ai/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Connect more of your apps to Search"
-      },
-      "raw": {
-        "title": "Connect more of your apps to Search",
-        "url": "https://blog.google/products-and-platforms/products/search/connected-apps/",
-        "fetched": true,
-        "savedAt": "2026-07-27T07:35:30.426Z",
-        "retranslatedAt": "2026-08-02T22:54:42.355Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-0199c9587e",
-      "title": "通过两项 Google Vids 更新创建、编辑视频并为其加注星标",
-      "oneLiner": "Gemini Omni 和 Google Vids 中的个人头像让视频创作变得比以往更容易。现在，您可以使用日常语言生成和编辑高质量剪辑，并创建自定义数字化身来在您的视频中担任主角。",
-      "summary": {
-        "oneSentence": "Gemini Omni 和 Google Vids 中的个人头像让视频创作变得比以往更容易。现在，您可以使用日常语言生成和编辑高质量剪辑，并创建自定义数字化身来在您的视频中担任主角。",
-        "bullets": [
-          "Gemini Omni 和 Google Vids 中的个人头像让视频创作变得比以往更容易。现在，您可以使用日常语言生成和编辑高质量剪辑，并创建自定义数字化身来在您的视频中担任主角。",
-          "您的浏览器不支持音频元素。",
-          "Google Vids 现在提供 Gemini Omni，让您可以使用简单的文本提示和图像参考来生成和编辑高质量视频。您还可以创建数字化身，通过上传自拍照和录音来为您传递消息。检查您是否有资格使用这些工具，并立即开始尝试您的下一个视频项目。",
-          "Google Vids 现在使用 AI 来帮助您制作视频，只需输入您想看的内容即可。您甚至可以通过简单地描述所需的更改来编辑剪辑。如果您不想出现在镜头前，您可以创建一个看起来和听起来都像您的数字化身。每个人工智能制作的视频都会有一个特殊的水印，这样人们就知道它是生成的。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Google AI 官网发布：Gemini Omni 和 Google Vids 中的个人头像让视频创作变得比以往更容易。现在，您可以使用日常语言生成和编辑高质量剪辑，并创建自定义数字化身来在您的视频中担任主角。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：gemini",
-        "actionItems": [
-          "阅读原文（英文）：https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "gemini"
-      ],
-      "content": [
-        "Gemini Omni 和 Google Vids 中的个人头像让视频创作变得比以往更容易。现在，您可以使用日常语言生成和编辑高质量剪辑，并创建自定义数字化身来在您的视频中担任主角。",
-        "您的浏览器不支持音频元素。",
-        "Google Vids 现在提供 Gemini Omni，让您可以使用简单的文本提示和图像参考来生成和编辑高质量视频。您还可以创建数字化身，通过上传自拍照和录音来为您传递消息。检查您是否有资格使用这些工具，并立即开始尝试您的下一个视频项目。",
-        "Google Vids 现在使用 AI 来帮助您制作视频，只需输入您想看的内容即可。您甚至可以通过简单地描述所需的更改来编辑剪辑。如果您不想出现在镜头前，您可以创建一个看起来和听起来都像您的数字化身。每个人工智能制作的视频都会有一个特殊的水印，这样人们就知道它是生成的。",
-        "今天，我们推出了 Google Vids 的两项新更新，让您比以往更轻松地创建、编辑和个性化您的视频：Gemini Omni 和个人头像。 Gemini Omni 消除了编辑过程中的艰苦工作，因此生成和精炼高质量剪辑就像编写简单的提示一样简单。借助个人化身，您可以以全新的方式在视频中担任主演，而无需设置相机。",
-        "以下是这些新工具如何改变视频创作的方式。",
-        "去年，您在 Google 视频中制作了数百万个视频来分享您的故事并将您的想法变为现实。 2 月份，我们向所有用户推出 Veo 3.1，帮助每个人在 Vids 中生成视频，从而简化了流程。",
-        "现在，我们将 Gemini Omni 引入 Vids，因此您只需描述您想看的内容即可创建和编辑高质量视频。从自然语言的简单文本提示开始，然后添加图像参考（例如照片或草图）以获取更多详细信息。 Omni 混合您的输入以生成符合您愿景的视频。",
-        "要获得完全正确的视频通常需要在初稿之后进行一些调整 - 现在进行这些编辑就像描述您想看到的内容一样简单。无论您是要优化使用 Omni 生成的视频还是在手机上拍摄的剪辑，您都可以使用日常语言来提示视频交换背景、修复灯光或添加效果。",
-        "由于 Omni 支持逐步编辑，因此您现在无需从头开始即可更改视频。"
-      ],
-      "highlights": [
-        "Gemini Omni 和 Google Vids 中的个人头像让视频创作变得比以往更容易。现在，您可以使用日常语言生成和编辑高质量剪辑，并创建自定义数字化身来",
-        "您的浏览器不支持音频元素。",
-        "Google Vids 现在提供 Gemini Omni，让您可以使用简单的文本提示和图像参考来生成和编辑高质量视频。您还可以创建数字化身，通过上传自拍照和录音"
-      ],
-      "translated": true,
-      "originalTitle": "Create, edit and star in videos with two Google Vids updates",
-      "originalLang": "en",
-      "date": "2026-07-16",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google AI",
-        "author": "Google",
-        "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
-        "home": "https://blog.google/technology/ai/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Create, edit and star in videos with two Google Vids updates"
-      },
-      "raw": {
-        "title": "Create, edit and star in videos with two Google Vids updates",
-        "url": "https://blog.google/products-and-platforms/products/workspace/gemini-omni-personal-avatars/",
-        "fetched": true,
-        "savedAt": "2026-07-27T07:35:53.991Z",
-        "retranslatedAt": "2026-08-02T22:54:51.928Z"
       },
       "translateMethod": "google"
     }
