@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-30T03:05:15.056Z",
+  "updatedAt": "2026-08-31T02:58:44.559Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 370,
+  "itemCount": 376,
   "brief": {
-    "date": "2026-08-30",
-    "generatedAt": "2026-08-30T03:05:15.055Z",
-    "totalCount": 370,
+    "date": "2026-08-31",
+    "generatedAt": "2026-08-31T02:58:44.558Z",
+    "totalCount": 376,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 370 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 376 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -88,8 +88,7 @@
       ],
       "newApis": [
         "cur-openai-agentkit",
-        "cur-anthropic-mcp",
-        "cur-byte-llm"
+        "cur-anthropic-mcp"
       ],
       "githubTrending": [
         "sig-53958cf51f",
@@ -115,8 +114,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-08-30T03:05:15.056Z",
-    "summary": "近 30 天共 252 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-08-31T02:58:44.559Z",
+    "summary": "近 30 天共 261 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -423,6 +422,81 @@
     }
   ],
   "items": [
+    {
+      "id": "sig-7eb436fbc3",
+      "title": "MiniMax H3 and H3 Max are 50% off on AI Gateway",
+      "oneLiner": "MiniMax H3 and H3 Max are 50% off on AI Gateway from August 30 through September 13, in partnership ",
+      "summary": {
+        "oneSentence": "MiniMax H3 and H3 Max are 50% off on AI Gateway from August 30 through September 13, in partnership with MiniMax. The di",
+        "bullets": [
+          "MiniMax H3 and H3 Max are 50% off on AI Gateway from August 30 through September 13, in partnership with MiniMax. The discount covers requests billed through AI Gateway, at every duration and in every"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/minimax-h3-and-h3-max-are-50-off-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "MiniMax H3 and H3 Max are 50% off on AI Gateway from August 30 through September 13, in partnership with MiniMax.",
+        "The discount covers requests billed through AI Gateway, at every duration and in every aspect ratio the model supports.",
+        "H3 generates 2K video from a text prompt, a starting image, a pair of first and last frames, or reference images, video, and audio.",
+        "H3 Max trades resolution for speed: it renders faster at 480p and 768p, and it takes a text prompt or a starting image.",
+        "The model IDs ( minimax/minimax-h3 and minimax/minimax-h3-max ) are unchanged, so requests you already send pick up the discounted rate with no code change:",
+        "1 import { experimental_generateVideo as generateVideo } from 'ai' ; 2 3 const { videos } = await generateVideo ( { 4 model : 'minimax/minimax-h3-max' , 5 prompt : 'San Francisco sunrise on a weekend morning.' , 6 duration : 5 , 7 poll : { timeoutMs : 600000 } , 8 } ) ;",
+        "Renders take minutes, so poll runs the generation as a background job and makes short status requests until it lands, rather than holding one long request open. See asynchronous generation for the webhook and start-and-status routes.",
+        "Copy link to heading Get started Create an API key in the AI Gateway section of your dashboard, or generate a clip in the browser first from the model playground .",
+        "Current rates for every model are on the pricing page . You can view all video models available on AI Gateway."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "MiniMax H3 and H3 Max are 50% off on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-30",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/minimax-h3-and-h3-max-are-50-off-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "MiniMax H3 and H3 Max are 50% off on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "MiniMax H3 and H3 Max are 50% off on AI Gateway",
+        "url": "https://vercel.com/changelog/minimax-h3-and-h3-max-are-50-off-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-08-31T02:58:28.605Z"
+      }
+    },
     {
       "id": "sig-e99b0d4d4e",
       "title": "Introducing Hy4 Preview",
@@ -1087,6 +1161,142 @@
         "url": "https://vercel.com/changelog/vercel-cli-expands-commands-for-dns-domains-and-projects",
         "fetched": true,
         "savedAt": "2026-08-29T05:12:53.441Z"
+      }
+    },
+    {
+      "id": "sig-c03b509bb3",
+      "title": "Just a rumour of a bug is enough to find a security exploit these days",
+      "oneLiner": "Just a rumour of a bug is enough to find a security exploit these days Anil Madhavapeddy is a profes",
+      "summary": {
+        "oneSentence": "Just a rumour of a bug is enough to find a security exploit these days Anil Madhavapeddy is a professor of computer scie",
+        "bullets": [
+          "Just a rumour of a bug is enough to find a security exploit these days Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat a"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Just a rumour of a bug is enough to find a security exploit these days Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he reports that security issues in OCaml projects are seeing evidence of attempted exploits within minutes of patches being shared for discussion: This normally takes a few days and a release within a week or two is reasonable. Within about ten minutes (!) this website was fielding probes for percent-encoded traversal sequences, indicating that automated watchers are keeping an eye on public repositories. Modern coding agents have become so effective at finding flaws that the slightest hint at a new bug can be enough information for them to find it, something Anil has been able to demonstrate using his own agents, switching to DeepSeek V4 Pro⁠ when Claude Fable refused the task. Anil points out that this rate of discovery appears incompatible with existing open source embargo practices for new issues. If an issue can become an exploit this fast, we need to figure out new processes for keeping our communities safe. rclone maintainer Nick Craig-Wood confirms in the Hacker News comments that his project is seeing this problem: In the first 10 years of the rclone project we received about 20 security disclosures through GitHub. We had to deal with over 40 in the last month! That has taken a huge amount of my time, even using AI tools to triage and come up with fixes for review. The hit rate for those security disclosures is pretty good - about 75% of them have a nugget of something which needs looking at. [...] GitHub assigns CVEs for the advisories. Before the AI apocalypse they took 2-3 days for an assignment but now it they are running at 3-4 weeks so I have to send the point releases out with CVE-PENDING in the changelog which isn't ideal. Via Hacker News Tags: open-source , security , ai , generative-ai , llms , coding-agents , ocaml , ai-security-research"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Just a rumour of a bug is enough to find a security exploit these days",
+      "originalLang": "en",
+      "date": "2026-08-28",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Just a rumour of a bug is enough to find a security exploit these days"
+      },
+      "raw": {
+        "title": "Just a rumour of a bug is enough to find a security exploit these days",
+        "url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
+        "fetched": false,
+        "savedAt": "2026-08-31T02:58:29.406Z"
+      }
+    },
+    {
+      "id": "sig-1d5fd45bef",
+      "title": "[AINews] OpenAI to reach AGI bar by end-2026",
+      "oneLiner": "It’s Time. We’re in the Endgame now.",
+      "summary": {
+        "oneSentence": "It’s Time. We’re in the Endgame now.",
+        "bullets": [
+          "It’s Time. We’re in the Endgame now."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "It’s Time. We’re in the Endgame now."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "[AINews] OpenAI to reach AGI bar by end-2026",
+      "originalLang": "en",
+      "date": "2026-08-28",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "[AINews] OpenAI to reach AGI bar by end-2026"
+      },
+      "raw": {
+        "title": "[AINews] OpenAI to reach AGI bar by end-2026",
+        "url": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
+        "fetched": false,
+        "savedAt": "2026-08-31T02:58:30.207Z"
       }
     },
     {
@@ -1860,6 +2070,210 @@
         "url": "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
         "fetched": true,
         "savedAt": "2026-08-28T08:33:39.020Z"
+      }
+    },
+    {
+      "id": "sig-6f6843c5a9",
+      "title": "Breaking Claude Code Opus 5 Auto Mode",
+      "oneLiner": "Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's a",
+      "summary": {
+        "oneSentence": "Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protect",
+        "bullets": [
+          "Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently mad"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently made that the default and have made bold claims about its effectiveness. Johann Rehberger is one of the most credible prompt injection researchers active today. He found an attack against auto mode which he claims works 80% of the time, by tricking Claude Code into downloading and uncompressing a zip archive, then executing code that imports base64 without noticing that this will import and execute a local struct.py file extracted from the archive. In a few cases auto mode directly prevented the agent from preventing harmful code from continuing to execute! In a few runs Claude tried to terminate the malware process once it noticed the compromise, but Auto Mode denied the cleanup command. Claude detects the compromise, but Auto Mode blocks its cleanup command The safety mechanism itself can become part of the failure. The classifier allowed the creation of the malware process, but then it blocked the command intended to stop it! I agree with Johann's conclusion here: the only safe way to run agents if there's any risk of attracting the attention of an adversarial attack is with a sandbox: Run unattended coding agents in a container, VM or OS sandbox. Restrict network egress. Monitor your agents. Do not expose home directories, SSH keys, cloud credentials,… to the agent runtime. [...] Update 30th August 2026 : On Lobste.rs hyperpape points out that this doesn't fit the bill of a classic prompt injection attack because at no point are malicious instructions from the website accidentally followed by the LLM. They're right: this is more of a confused environment attack where the nature of the environment that the agent is exposed to results in an exploit. Tags: sandboxing , security , ai , prompt-injection , generative-ai , llms , anthropic , claude , johann-rehberger , claude-code"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Breaking Claude Code Opus 5 Auto Mode",
+      "originalLang": "en",
+      "date": "2026-08-27",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Breaking Claude Code Opus 5 Auto Mode"
+      },
+      "raw": {
+        "title": "Breaking Claude Code Opus 5 Auto Mode",
+        "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
+        "fetched": false,
+        "savedAt": "2026-08-31T02:58:31.008Z"
+      }
+    },
+    {
+      "id": "sig-a31466f4f2",
+      "title": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
+      "oneLiner": "Open Source wins!",
+      "summary": {
+        "oneSentence": "Open Source wins!",
+        "bullets": [
+          "Open Source wins!"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.latent.space/p/ainews-nvidia-buys-huggingface-for"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Open Source wins!"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
+      "originalLang": "en",
+      "date": "2026-08-27",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro"
+      },
+      "raw": {
+        "title": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
+        "url": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
+        "fetched": false,
+        "savedAt": "2026-08-31T02:58:31.809Z"
+      }
+    },
+    {
+      "id": "sig-1ea8eebd37",
+      "title": "[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6",
+      "oneLiner": "The conference with hot chips and even hotter companies",
+      "summary": {
+        "oneSentence": "The conference with hot chips and even hotter companies",
+        "bullets": [
+          "The conference with hot chips and even hotter companies"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.latent.space/p/ainews-hot-chips-openais-jalapeno"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "The conference with hot chips and even hotter companies"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6",
+      "originalLang": "en",
+      "date": "2026-08-27",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/p/ainews-hot-chips-openais-jalapeno",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6"
+      },
+      "raw": {
+        "title": "[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6",
+        "url": "https://www.latent.space/p/ainews-hot-chips-openais-jalapeno",
+        "fetched": false,
+        "savedAt": "2026-08-31T02:58:32.609Z"
       }
     },
     {
@@ -2820,6 +3234,278 @@
         "url": "https://vercel.com/changelog/python-projects-now-support-routing-rules",
         "fetched": true,
         "savedAt": "2026-08-29T05:12:56.628Z"
+      }
+    },
+    {
+      "id": "sig-8f7e44d8fd",
+      "title": "Qwen3.8-Flash-Next",
+      "oneLiner": "Qwen3.8-Flash-Next Another open weights model from Qwen. This one is \"a multimodal MoE model that al",
+      "summary": {
+        "oneSentence": "Qwen3.8-Flash-Next Another open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an earl",
+        "bullets": [
+          "Qwen3.8-Flash-Next Another open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4\". It's pretty big: 125B tokens, but "
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Aug/26/qwen38-flash-next/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Qwen3.8-Flash-Next Another open weights model from Qwen. This one is \"a multimodal MoE model that also serves as an early preview of the architecture used in Qwen4\". It's pretty big: 125B tokens, but only 6B active which means it gets a significant performance boost. I've been trying it out on a DGX Spark using these Unsloth quantized models . I'm still exploring the model - so far I've tried the 72.5GB UD-IQ1_S one (producing these pelicans ) and the 78.9GB UD-Q2_K_XL (producing these ). My favorite so far was this xhigh reasoning effort one from UD-Q2_K_XL: Via Hacker News Tags: ai , generative-ai , llms , qwen , pelican-riding-a-bicycle , ai-in-china , nvidia-spark"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Qwen3.8-Flash-Next",
+      "originalLang": "en",
+      "date": "2026-08-26",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/26/qwen38-flash-next/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Qwen3.8-Flash-Next"
+      },
+      "raw": {
+        "title": "Qwen3.8-Flash-Next",
+        "url": "https://simonwillison.net/2026/Aug/26/qwen38-flash-next/",
+        "fetched": false,
+        "savedAt": "2026-08-31T02:58:33.411Z"
+      }
+    },
+    {
+      "id": "sig-3e8479c3da",
+      "title": "Lovable CTO: The Future of SaaS Is Apps That Agents Can Use",
+      "oneLiner": "Lovable is branching out from AI-powered web app creation and into MCP-powered ‘capabilities’. We ta",
+      "summary": {
+        "oneSentence": "Lovable is branching out from AI-powered web app creation and into MCP-powered ‘capabilities’. We talk to CTO Fabian Hed",
+        "bullets": [
+          "Lovable is branching out from AI-powered web app creation and into MCP-powered ‘capabilities’. We talk to CTO Fabian Hedin."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.latent.space/p/lovable-future-of-saas"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Lovable is branching out from AI-powered web app creation and into MCP-powered ‘capabilities’. We talk to CTO Fabian Hedin."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Lovable CTO: The Future of SaaS Is Apps That Agents Can Use",
+      "originalLang": "en",
+      "date": "2026-08-26",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/p/lovable-future-of-saas",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Lovable CTO: The Future of SaaS Is Apps That Agents Can Use"
+      },
+      "raw": {
+        "title": "Lovable CTO: The Future of SaaS Is Apps That Agents Can Use",
+        "url": "https://www.latent.space/p/lovable-future-of-saas",
+        "fetched": false,
+        "savedAt": "2026-08-31T02:58:34.211Z"
+      }
+    },
+    {
+      "id": "sig-48713ac2d4",
+      "title": "🔬“We have foundation models for language, not for physics” — Anima Anandkumar, Bren Professor of Computing",
+      "oneLiner": "Anima Anandkumar has spent two decades in AI, from classical math to deep learning and back. Now she",
+      "summary": {
+        "oneSentence": "Anima Anandkumar has spent two decades in AI, from classical math to deep learning and back. Now she's using it to model",
+        "bullets": [
+          "Anima Anandkumar has spent two decades in AI, from classical math to deep learning and back. Now she's using it to model the physical world, from weather to fusion reactors."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.latent.space/p/anima"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Anima Anandkumar has spent two decades in AI, from classical math to deep learning and back. Now she's using it to model the physical world, from weather to fusion reactors."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "🔬“We have foundation models for language, not for physics” — Anima Anandkumar, Bren Professor of Computing",
+      "originalLang": "en",
+      "date": "2026-08-26",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/p/anima",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "🔬“We have foundation models for language, not for physics” — Anima Anandkumar, Bren Professor of Computing"
+      },
+      "raw": {
+        "title": "🔬“We have foundation models for language, not for physics” — Anima Anandkumar, Bren Professor of Computing",
+        "url": "https://www.latent.space/p/anima",
+        "fetched": false,
+        "savedAt": "2026-08-31T02:58:35.012Z"
+      }
+    },
+    {
+      "id": "sig-e738629185",
+      "title": "Quoting Paul Dix",
+      "oneLiner": "The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to pr",
+      "summary": {
+        "oneSentence": "The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable pie",
+        "bullets": [
+          "The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is ab"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Aug/26/paul-dix/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "The fact that AI wrote 1M LOC and then refined it over the course of the next couple of months to produce a reliable piece of software that is currently running on millions of developer machines is absolutely mind blowing. And you can say, “well it’s not that impressive because they had an oracle to compare against, so it was simple to go from one language to another”, but I think that’s selling this entire thing short. If you can build a verification system and give proper direction, AI can produce a highly complex, highly sophisticated piece of software and it can continue to refine it until it just works. &mdash; Paul Dix , The end of programming Tags: coding-agents , ai-assisted-programming , generative-ai , bun , ai , llms"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Quoting Paul Dix",
+      "originalLang": "en",
+      "date": "2026-08-26",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/26/paul-dix/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Quoting Paul Dix"
+      },
+      "raw": {
+        "title": "Quoting Paul Dix",
+        "url": "https://simonwillison.net/2026/Aug/26/paul-dix/",
+        "fetched": false,
+        "savedAt": "2026-08-31T02:58:35.813Z"
       }
     },
     {
@@ -27935,334 +28621,6 @@
         "模板降门槛",
         "二次元场景"
       ]
-    },
-    {
-      "id": "cur-byte-llm",
-      "title": "字节跳动大模型矩阵：豆包 + 火山引擎 + Seed 系列",
-      "oneLiner": "字节以「豆包 C 端 + 火山 B 端 + Seed 模型」构建国内最完整 AI 栈之一。",
-      "date": "2026-07-17",
-      "tags": [
-        "Agent",
-        "API",
-        "Product"
-      ],
-      "categoryIds": [
-        "llm",
-        "agent-platform"
-      ],
-      "productIds": [
-        "doubao",
-        "coze",
-        "jimeng"
-      ],
-      "importance": {
-        "stars": 4,
-        "reason": "国内 LLM + Agent 生态关键玩家",
-        "readMinutes": 5
-      },
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "火山引擎",
-        "author": "ByteDance",
-        "url": "https://www.volcengine.com/product/doubao",
-        "home": "https://www.volcengine.com/",
-        "lang": "zh",
-        "translated": true
-      },
-      "summary": {
-        "oneSentence": "字节通过豆包、Coze、即梦、火山 API 覆盖 C 端体验到 B 端部署。",
-        "bullets": [
-          "豆包：多模态 C 端入口",
-          "Coze：Agent 搭建平台",
-          "Seedance/Seedream：视频与图像模型"
-        ],
-        "audience": "国内 AI 产品学习者、创业者",
-        "readMinutes": 5,
-        "keywords": [
-          "ByteDance",
-          "Doubao",
-          "Volcengine"
-        ]
-      },
-      "insight": {
-        "mainInsight": "字节策略是「模型 + 超级 App 场景 + 开发者平台」三位一体。",
-        "whyNow": "国内 B 端 Agent 需求爆发，火山引擎承接企业客户。",
-        "problem": "企业需要可私有化、可合规的 Agent 部署。",
-        "trend": "国内全栈 AI 平台竞争",
-        "differentiation": "与阿里通义、百度千帆形成国内三巨头格局。",
-        "outlook": "Coze + 火山 API 是国内做 Agent 产品的默认选型之一。"
-      },
-      "learning": {
-        "whyImportant": "Atlas 中多个产品（豆包、Coze、即梦）均来自字节生态，需整体理解。",
-        "productDesign": "学习其如何用同一模型能力支撑不同形态产品（Chat / Agent 平台 / 创作工具）。",
-        "relevance": "Agent、API、Workflow、Multimodal。",
-        "actionItems": [
-          "注册豆包体验多模态",
-          "在 Coze 搭建一个简单 Bot",
-          "阅读火山引擎 Agent 方案白皮书"
-        ]
-      },
-      "content": [
-        "评估国内 AI 产品时，建议把「字节系」作为一整组对照，而非孤立看豆包或 Coze。",
-        "Seedance 视频模型在即梦、小云雀等产品中的落地，是理解字节视频 Agent 战略的关键。"
-      ],
-      "highlights": [
-        "字节 AI 全栈",
-        "Coze Agent 平台",
-        "Seed 模型系列"
-      ]
-    },
-    {
-      "id": "sig-f83c24d415",
-      "title": "Cursor 在 Slack 中的改进 · Cursor",
-      "oneLiner": "Cursor 现在会在开始前先分享规划，可在多代码仓库环境中运行，并能跨频道和讨论串开展工作。",
-      "summary": {
-        "oneSentence": "Cursor 现在会在开始前先分享规划，可在多代码仓库环境中运行，并能跨频道和讨论串开展工作。",
-        "bullets": [
-          "Cursor 现在会在开始前先分享规划，可在多代码仓库环境中运行，并能跨频道和讨论串开展工作。",
-          "Cursor 现在会先给出一个规划再开始，这样您就可以尽早介入并调整方向。在执行过程中，它还会持续更新状态，让您可以跟踪每一步。",
-          "我们还优化了 Cursor 在 Slack 中的回复显示效果。消息内按钮已被移除，改为更紧凑的页脚链接。表格、PR 和工件现在的渲染也更加清晰。",
-          "从 Slack 中，Cursor 现在可以直接在指定的多代码仓库环境中启动，而不必再回退到单个默认代码仓库。如果你的前端、后端和共享代码分别位于不同的代码仓库中，Cursor 会读取你的请求，并将目标指向能访问所有这些代码仓库的环境。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Cursor 官网发布：Cursor 现在会在开始前先分享规划，可在多代码仓库环境中运行，并能跨频道和讨论串开展工作。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：cursor",
-        "actionItems": [
-          "阅读原文（中文）：https://cursor.com/changelog/slack-improvements"
-        ]
-      },
-      "tags": [
-        "Release"
-      ],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "cursor"
-      ],
-      "content": [
-        "Cursor 现在会在开始前先分享规划，可在多代码仓库环境中运行，并能跨频道和讨论串开展工作。",
-        "Cursor 现在会先给出一个规划再开始，这样您就可以尽早介入并调整方向。在执行过程中，它还会持续更新状态，让您可以跟踪每一步。",
-        "我们还优化了 Cursor 在 Slack 中的回复显示效果。消息内按钮已被移除，改为更紧凑的页脚链接。表格、PR 和工件现在的渲染也更加清晰。",
-        "从 Slack 中，Cursor 现在可以直接在指定的多代码仓库环境中启动，而不必再回退到单个默认代码仓库。如果你的前端、后端和共享代码分别位于不同的代码仓库中，Cursor 会读取你的请求，并将目标指向能访问所有这些代码仓库的环境。",
-        "在任务进行中，如果 Cursor 需要访问当前环境之外的代码仓库，它会提示你点击 切换代码仓库 按钮。点击后，选择相应的代码仓库或环境，Cursor 就会从刚才中断的地方继续。",
-        "Cursor 现在可以读取其他 Slack 频道和讨论串中的内容，并向其中发送消息。在处理任务时，它可以从工作区的其他位置提取上下文，并将更新发布回原始讨论串或相关频道。"
-      ],
-      "highlights": [
-        "Cursor 现在会在开始前先分享规划，可在多代码仓库环境中运行，并能跨频道和讨论串开展工作。",
-        "Cursor 现在会先给出一个规划再开始，这样您就可以尽早介入并调整方向。在执行过程中，它还会持续更新状态，让您可以跟踪每一步。",
-        "我们还优化了 Cursor 在 Slack 中的回复显示效果。消息内按钮已被移除，改为更紧凑的页脚链接。表格、PR 和工件现在的渲染也更加清晰。"
-      ],
-      "translated": false,
-      "translateMethod": "native",
-      "originalTitle": "Cursor 在 Slack 中的改进 · Cursor",
-      "originalLang": "zh",
-      "date": "2026-07-17",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [
-        "cursor"
-      ],
-      "source": {
-        "type": "release",
-        "group": "company",
-        "name": "Cursor",
-        "author": "Cursor",
-        "url": "https://cursor.com/changelog/slack-improvements",
-        "home": "https://cursor.com/changelog",
-        "lang": "zh",
-        "translated": false,
-        "translateMethod": "native",
-        "originalTitle": "Cursor 在 Slack 中的改进 · Cursor"
-      },
-      "raw": {
-        "title": "Improvements to Cursor in Slack",
-        "url": "https://cursor.com/changelog/slack-improvements",
-        "fetched": true,
-        "savedAt": "2026-07-27T07:34:20.673Z",
-        "retranslatedAt": "2026-08-20T00:54:57.004Z"
-      }
-    },
-    {
-      "id": "sig-7898549b95",
-      "title": "Gemini 3.5 Flash Cyber​​ 简介",
-      "oneLiner": "谷歌多年来一直投资于网络安全，开创了自动漏洞发现的先河，以保护全球代码库的安全。我们的代码安全代理 CodeMender 等工具可以自动查找并修复关键软件漏洞。但随着人工智能代理发现漏洞的速度比防御者修复漏洞的速度越来越快，解决这一全球威胁",
-      "summary": {
-        "oneSentence": "谷歌多年来一直投资于网络安全，开创了自动漏洞发现的先河，以保护全球代码库的安全。我们的代码安全代理 CodeMender 等工具可以自动查找并修复关键软件漏洞。但随着人工智能代理发现漏洞的速度比防御者修复漏洞的速度越来越快，解决这一全球威胁",
-        "bullets": [
-          "谷歌多年来一直投资于网络安全，开创了自动漏洞发现的先河，以保护全球代码库的安全。我们的代码安全代理 CodeMender 等工具可以自动查找并修复关键软件漏洞。但随着人工智能代理发现漏洞的速度比防御者修复漏洞的速度越来越快，解决这一全球威胁需要一种功能强大、价格实惠且可扩展的方法。",
-          "今天，我们通过推出 Gemini 3.5 Flash Cyber​​ 来扩展我们长期以来为防御者做好准备的努力，这是我们基于 3.5 Flash 构建的轻量级网络安全模型，经过微调，可以快速高效地查找、验证和修补漏洞，使其比 Gemini 的主线 Flash 模型更有效地执行这些任务。",
-          "Flash 的性能和效率使其成为我们网络安全模型工作的理想基础。通过构建在 Flash 之上，3.5 Flash Cyber​​ 为大型、昂贵的网络安全模型提供了一种经济高效且功能强大的替代方案。",
-          "鉴于该技术的双重用途性质，我们对如何部署 3.5 Flash Cyber​​ 采用了有意的方法。作为有限访问试点计划的一部分，3.5 Flash Cyber​​ 将很快通过 CodeMender 专门向政府和值得信赖的合作伙伴开放，并随着时间的推移不断扩展。这将使一线防御者在关键漏洞被利用之前抢先发现并修复这些漏洞，同"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Google DeepMind 官网发布：谷歌多年来一直投资于网络安全，开创了自动漏洞发现的先河，以保护全球代码库的安全。我们的代码安全代理 CodeMender 等工具可以自动查找并修复关键软件漏洞。但随着人工智能代理发现漏洞的速度比防御者修复漏洞的速度越来越快，解决这一全球威胁",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：gemini",
-        "actionItems": [
-          "阅读原文（英文）：https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "gemini"
-      ],
-      "content": [
-        "谷歌多年来一直投资于网络安全，开创了自动漏洞发现的先河，以保护全球代码库的安全。我们的代码安全代理 CodeMender 等工具可以自动查找并修复关键软件漏洞。但随着人工智能代理发现漏洞的速度比防御者修复漏洞的速度越来越快，解决这一全球威胁需要一种功能强大、价格实惠且可扩展的方法。",
-        "今天，我们通过推出 Gemini 3.5 Flash Cyber​​ 来扩展我们长期以来为防御者做好准备的努力，这是我们基于 3.5 Flash 构建的轻量级网络安全模型，经过微调，可以快速高效地查找、验证和修补漏洞，使其比 Gemini 的主线 Flash 模型更有效地执行这些任务。",
-        "Flash 的性能和效率使其成为我们网络安全模型工作的理想基础。通过构建在 Flash 之上，3.5 Flash Cyber​​ 为大型、昂贵的网络安全模型提供了一种经济高效且功能强大的替代方案。",
-        "鉴于该技术的双重用途性质，我们对如何部署 3.5 Flash Cyber​​ 采用了有意的方法。作为有限访问试点计划的一部分，3.5 Flash Cyber​​ 将很快通过 CodeMender 专门向政府和值得信赖的合作伙伴开放，并随着时间的推移不断扩展。这将使一线防御者在关键漏洞被利用之前抢先发现并修复这些漏洞，同时减少更广泛的滥用。",
-        "另外，我们还通过 Gemini Enterprise Agent Platform 将 CodeMender 的基础功能直接提供给具有通用 Gemini 模型的客户。",
-        "寻找深层次的缺陷需要探索巨大的执行搜索空间。依赖对大规模语言模型的一次昂贵的调用可能会造成瓶颈。 3.5 Flash Cyber​​ 特别适合查找代理必须扫描大型代码库并分析大量代码路径的漏洞。",
-        "CodeMender 多次调用 3.5 Flash Cyber​​，因此代理可以分析更多的代码路径来发现和验证漏洞。然后，子代理会生成一份高质量的报告。",
-        "由于其速度快且经济实惠，3.5 Flash Cyber​​ 可以轻松集成到频繁扫描、时间敏感的启动流程或大规模提交扫描管道中。",
-        "我们在各种基准测试中测试了 3.5 Flash Cyber​​。特别是，我们在 Cyber​​Gym 基准测试中测试了 3.5 Flash Cyber​​，该基准测试针对数百个现实世界的软件漏洞来评估 AI 代理。通过配置 CodeMender 为单个最终报告调用 3.5 Flash Cyber​​ 最多五次，利用 3.5 Flash Cyber​​ 的低成本，整体代理实现了与 Cyber​​Gym* 上更大的模型相比的竞争性能。",
-        "*竞争对手的结果来自提供商自我报告的分数"
-      ],
-      "highlights": [
-        "谷歌多年来一直投资于网络安全，开创了自动漏洞发现的先河，以保护全球代码库的安全。我们的代码安全代理 CodeMender 等工具可以自动查找并修复关键软件漏洞。",
-        "今天，我们通过推出 Gemini 3.5 Flash Cyber​​ 来扩展我们长期以来为防御者做好准备的努力，这是我们基于 3.5 Flash 构建的轻量级网",
-        "Flash 的性能和效率使其成为我们网络安全模型工作的理想基础。通过构建在 Flash 之上，3.5 Flash Cyber​​ 为大型、昂贵的网络安全模型提供"
-      ],
-      "translated": true,
-      "originalTitle": "Introducing Gemini 3.5 Flash Cyber",
-      "originalLang": "en",
-      "date": "2026-07-17",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google DeepMind",
-        "author": "DeepMind",
-        "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
-        "home": "https://deepmind.google/blog/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Introducing Gemini 3.5 Flash Cyber"
-      },
-      "raw": {
-        "title": "Introducing Gemini 3.5 Flash Cyber",
-        "url": "https://deepmind.google/blog/introducing-gemini-3-5-flash-cyber/",
-        "fetched": true,
-        "savedAt": "2026-07-27T07:33:52.802Z",
-        "retranslatedAt": "2026-08-01T22:53:25.906Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-3ebda52fc8",
-      "title": "人工智能时代的记分卡",
-      "oneLiner": "OpenAI 首席财务官 Sarah Friar 推出了实用的 AI 记分卡，通过有用的工作、每项成功任务的成本、可靠性和计算回报来衡量投资回报率。",
-      "summary": {
-        "oneSentence": "OpenAI 首席财务官 Sarah Friar 推出了实用的 AI 记分卡，通过有用的工作、每项成功任务的成本、可靠性和计算回报来衡量投资回报率。",
-        "bullets": [
-          "OpenAI 首席财务官 Sarah Friar 推出了实用的 AI 记分卡，通过有用的工作、每项成功任务的成本、可靠性和计算回报来衡量投资回报率。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：OpenAI 首席财务官 Sarah Friar 推出了实用的 AI 记分卡，通过有用的工作、每项成功任务的成本、可靠性和计算回报来衡量投资回报率。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/a-scorecard-for-the-ai-age"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "OpenAI 首席财务官 Sarah Friar 推出了实用的 AI 记分卡，通过有用的工作、每项成功任务的成本、可靠性和计算回报来衡量投资回报率。"
-      ],
-      "highlights": [
-        "OpenAI 首席财务官 Sarah Friar 推出了实用的 AI 记分卡，通过有用的工作、每项成功任务的成本、可靠性和计算回报来衡量投资回报率。"
-      ],
-      "translated": true,
-      "originalTitle": "A scorecard for the AI age",
-      "originalLang": "en",
-      "date": "2026-07-17",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "A scorecard for the AI age"
-      },
-      "raw": {
-        "title": "A scorecard for the AI age",
-        "url": "https://openai.com/index/a-scorecard-for-the-ai-age",
-        "fetched": false,
-        "savedAt": "2026-07-27T07:34:14.919Z",
-        "retranslatedAt": "2026-08-01T22:53:27.939Z"
-      },
-      "translateMethod": "google"
     }
   ]
 }
