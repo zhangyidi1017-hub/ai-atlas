@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-08-31T02:58:44.559Z",
+  "updatedAt": "2026-09-01T03:07:02.807Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 376,
+  "itemCount": 385,
   "brief": {
-    "date": "2026-08-31",
-    "generatedAt": "2026-08-31T02:58:44.558Z",
-    "totalCount": 376,
+    "date": "2026-09-01",
+    "generatedAt": "2026-09-01T03:07:02.806Z",
+    "totalCount": 385,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 376 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 385 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -40,10 +40,10 @@
         "readMinutes": 5
       },
       {
-        "id": "sig-f30efa9be5",
-        "title": "无需代码仓库，也能从零开始 · Cursor",
+        "id": "sig-7bc3415714",
+        "title": "Polimill 打造日本下一代公共人工智能基础设施",
         "stars": 4,
-        "oneLiner": "云端智能体不再需要连接 GitHub 或其他第三方 SCM 提供商即可开始使用。您可以立即输入提示，然后将工作保存到 Cursor Origin 代码仓库。",
+        "oneLiner": "Polimill 使用 OpenAI GPT 模型和 Codex 帮助市政当局搜索和使用行政知识，同时加速开发。",
         "readMinutes": 5
       }
     ],
@@ -53,8 +53,8 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "sig-f30efa9be5",
-        "sig-83abfc0828"
+        "sig-7bc3415714",
+        "sig-b12a69dbeb"
       ],
       "newReleases": [
         "sig-f30efa9be5",
@@ -71,10 +71,10 @@
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-memory-agents",
-        "sig-f30efa9be5",
-        "sig-83abfc0828",
-        "sig-d6bb1031e6",
-        "sig-cdfc10030b"
+        "sig-7bc3415714",
+        "sig-b12a69dbeb",
+        "sig-34d93c0361",
+        "sig-44f6116377"
       ],
       "emergingTrends": [
         "cur-openai-agentkit",
@@ -114,8 +114,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-08-31T02:58:44.559Z",
-    "summary": "近 30 天共 261 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-09-01T03:07:02.807Z",
+    "summary": "近 30 天共 270 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -131,28 +131,52 @@
   },
   "productUpdates": [
     {
+      "id": "sig-7bc3415714",
+      "title": "Polimill 打造日本下一代公共人工智能基础设施",
+      "oneLiner": "Polimill 使用 OpenAI GPT 模型和 Codex 帮助市政当局搜索和使用行政知识，同时加速开发。",
+      "date": "2026-08-31",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-44f6116377",
+      "title": "扩大人工智能应用范围的里程碑",
+      "oneLiner": "ChatGPT Ads 的年收入运行率达到 10 亿美元，并在全球范围内扩张，通过免费且经济实惠的选项支持更广泛地使用人工智能。",
+      "date": "2026-08-31",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
       "id": "sig-092c8de02e",
-      "title": "Our decision on Cursor following its acquisition by SpaceX",
-      "oneLiner": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition b",
+      "title": "Cursor 被 SpaceX 收购后我们对 Cursor 的决定",
+      "oneLiner": "在 Cursor 被 SpaceX 收购后，我们决定终止向 Cursor 提供 OpenAI 模型的合同。",
       "date": "2026-08-28",
       "productIds": [
         "chatgpt"
       ],
       "source": "OpenAI",
       "tags": [],
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "sig-0b00c80d50",
-      "title": "Supporting Thailand’s next generation of AI startups",
-      "oneLiner": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and educat",
+      "title": "支持泰国下一代人工智能初创公司",
+      "oneLiner": "OpenAI 和泰国的 MHESI 推出了为期八周的加速器，帮助 10 家健康、保健和教育初创公司将人工智能原型转变为值得信赖的产品。",
       "date": "2026-08-28",
       "productIds": [
         "chatgpt"
       ],
       "source": "OpenAI",
       "tags": [],
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "sig-f30efa9be5",
@@ -395,41 +419,491 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-afca402187",
-      "title": "Introducing Intelligence Age",
-      "oneLiner": "Introducing Intelligence Age, a new OpenAI blog exploring how transformative AI could reshape power,",
-      "date": "2026-08-20",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 3
-    },
-    {
-      "id": "sig-ef913e9fda",
-      "title": "为前沿模型提供零数据保留",
-      "oneLiner": "OpenAI 重申对符合条件的 API 客户实行零数据保留，并预览私人安全处理，以在不损害数据隐私的情况下实现高级 AI 安全。",
-      "date": "2026-08-19",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
     {
-      "id": "sig-7eb436fbc3",
-      "title": "MiniMax H3 and H3 Max are 50% off on AI Gateway",
-      "oneLiner": "MiniMax H3 and H3 Max are 50% off on AI Gateway from August 30 through September 13, in partnership ",
+      "id": "sig-7bc3415714",
+      "title": "Polimill 打造日本下一代公共人工智能基础设施",
+      "oneLiner": "Polimill 使用 OpenAI GPT 模型和 Codex 帮助市政当局搜索和使用行政知识，同时加速开发。",
       "summary": {
-        "oneSentence": "MiniMax H3 and H3 Max are 50% off on AI Gateway from August 30 through September 13, in partnership with MiniMax. The di",
+        "oneSentence": "Polimill 使用 OpenAI GPT 模型和 Codex 帮助市政当局搜索和使用行政知识，同时加速开发。",
         "bullets": [
-          "MiniMax H3 and H3 Max are 50% off on AI Gateway from August 30 through September 13, in partnership with MiniMax. The discount covers requests billed through AI Gateway, at every duration and in every"
+          "Polimill 使用 OpenAI GPT 模型和 Codex 帮助市政当局搜索和使用行政知识，同时加速开发。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：Polimill 使用 OpenAI GPT 模型和 Codex 帮助市政当局搜索和使用行政知识，同时加速开发。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/polimill"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Polimill 使用 OpenAI GPT 模型和 Codex 帮助市政当局搜索和使用行政知识，同时加速开发。"
+      ],
+      "highlights": [
+        "Polimill 使用 OpenAI GPT 模型和 Codex 帮助市政当局搜索和使用行政知识，同时加速开发。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Polimill builds Japan's next-generation public AI infrastructure",
+      "originalLang": "en",
+      "date": "2026-08-31",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/polimill",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Polimill builds Japan's next-generation public AI infrastructure"
+      },
+      "raw": {
+        "title": "Polimill builds Japan's next-generation public AI infrastructure",
+        "url": "https://openai.com/index/polimill",
+        "fetched": false,
+        "savedAt": "2026-09-01T03:06:01.547Z"
+      }
+    },
+    {
+      "id": "sig-b12a69dbeb",
+      "title": "fx 现已在 AI SDK 线束层中可用 - Vercel",
+      "oneLiner": "AI SDK 线束层现在支持 Vercel 的轻量级开源编码代理 fx。线束层提供了一个 API，用于在应用程序中运行编码代理，因此您可以添加 fx，而无需构建单独的集成。",
+      "summary": {
+        "oneSentence": "AI SDK 线束层现在支持 Vercel 的轻量级开源编码代理 fx。线束层提供了一个 API，用于在应用程序中运行编码代理，因此您可以添加 fx，而无需构建单独的集成。",
+        "bullets": [
+          "AI SDK 线束层现在支持 Vercel 的轻量级开源编码代理 fx。线束层提供了一个 API，用于在应用程序中运行编码代理，因此您可以添加 fx，而无需构建单独的集成。",
+          "使用官方 @ai-sdk/harness-fx 适配器配置 HarnessAgent：",
+          "1 从 '@ai-sdk/harness/agent' 导入 { HarnessAgent } ； 2 从 '@ai-sdk/harness-fx' 导入 { fx } ； 3 4 const agent = new HarnessAgent ( { 5 Harness : fx , 6 } ) ;通过 Harness",
+          "@ai-sdk/harness-fx 适配器使用 @ai-sdk/harness-acp 通过代理客户端协议 (ACP) 连接到 fx。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：AI SDK 线束层现在支持 Vercel 的轻量级开源编码代理 fx。线束层提供了一个 API，用于在应用程序中运行编码代理，因此您可以添加 fx，而无需构建单独的集成。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/fx-ai-sdk-harness-adapter"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "AI SDK 线束层现在支持 Vercel 的轻量级开源编码代理 fx。线束层提供了一个 API，用于在应用程序中运行编码代理，因此您可以添加 fx，而无需构建单独的集成。",
+        "使用官方 @ai-sdk/harness-fx 适配器配置 HarnessAgent：",
+        "1 从 '@ai-sdk/harness/agent' 导入 { HarnessAgent } ； 2 从 '@ai-sdk/harness-fx' 导入 { fx } ； 3 4 const agent = new HarnessAgent ( { 5 Harness : fx , 6 } ) ;通过 HarnessAgent 接口运行 fx。",
+        "@ai-sdk/harness-fx 适配器使用 @ai-sdk/harness-acp 通过代理客户端协议 (ACP) 连接到 fx。",
+        "fx 将 Claude Code、Cline、Codex、Cursor、Deep Agents、Grok Build、OpenCode 和 Pi 加入到受支持的工具列表中。",
+        "请阅读 fxharness 文档以开始使用。"
+      ],
+      "highlights": [
+        "AI SDK 线束层现在支持 Vercel 的轻量级开源编码代理 fx。线束层提供了一个 API，用于在应用程序中运行编码代理，因此您可以添加 fx，而无需构建",
+        "使用官方 @ai-sdk/harness-fx 适配器配置 HarnessAgent：",
+        "1 从 '@ai-sdk/harness/agent' 导入 { HarnessAgent } ； 2 从 '@ai-sdk/harness-fx' 导入 { "
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "fx is now available in the AI SDK harness layer - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-31",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/fx-ai-sdk-harness-adapter",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "fx is now available in the AI SDK harness layer - Vercel"
+      },
+      "raw": {
+        "title": "fx is now available in the AI SDK harness layer",
+        "url": "https://vercel.com/changelog/fx-ai-sdk-harness-adapter",
+        "fetched": true,
+        "savedAt": "2026-09-01T03:06:06.558Z"
+      }
+    },
+    {
+      "id": "sig-34d93c0361",
+      "title": "在 AI Gateway 上设置每用户预算 - Vercel",
+      "oneLiner": "您现在可以使用 AI Gateway 预算为团队中的每个用户设置美元支出限额。",
+      "summary": {
+        "oneSentence": "您现在可以使用 AI Gateway 预算为团队中的每个用户设置美元支出限额。",
+        "bullets": [
+          "您现在可以使用 AI Gateway 预算为团队中的每个用户设置美元支出限额。",
+          "该限制涵盖归因于用户的每个 API 密钥及其应用程序令牌的支出。达到后，AI Gateway 会拒绝新的请求，直到预算重置或增加。",
+          "这对于控制编码代理和其他在没有监督的情况下运行的工作负载的支出非常有用，并防止一个用户消耗团队的所有共享预算。",
+          "将链接复制到标题 设置用户预算 打开“预算”页面上的“用户”视图以设置两种用户预算："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：您现在可以使用 AI Gateway 预算为团队中的每个用户设置美元支出限额。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/set-per-user-budgets-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "您现在可以使用 AI Gateway 预算为团队中的每个用户设置美元支出限额。",
+        "该限制涵盖归因于用户的每个 API 密钥及其应用程序令牌的支出。达到后，AI Gateway 会拒绝新的请求，直到预算重置或增加。",
+        "这对于控制编码代理和其他在没有监督的情况下运行的工作负载的支出非常有用，并防止一个用户消耗团队的所有共享预算。",
+        "将链接复制到标题 设置用户预算 打开“预算”页面上的“用户”视图以设置两种用户预算：",
+        "默认预算：如果设置，则单独适用于没有自定义预算的每个人，包括后来添加的用户。每个用户都有自己的限额，而不是在整个团队中共享一个限额。",
+        "自定义预算：适用于一个人并覆盖默认值。删除它会使该用户返回到默认预算。",
+        "默认情况下，默认预算和自定义预算都会每月重置，但您可以将其更改为每天、每周重置或根本不重置。预算还支持通过电子邮件发出使用情况警报，以便在您达到分配的 50%、75% 和/或 100% 时发出通知。",
+        "用户预算不会取代 API 密钥、项目或团队预算。请求必须保持在适用于它的每个预算范围内。达到任何适用的限制会阻止新请求。",
+        "默认情况下，API 密钥归属于创建它们的用户。如果密钥属于生产应用程序或其他共享工作负载，请从 API 密钥页面将其归属于团队，以使其支出超出密钥创建者的预算。在用户预算功能发布之前创建的密钥归属于团队以实现向后兼容性，因此如果您希望当前使用情况属于用户范围，请轮换到新密钥。",
+        "将链接复制到标题通过 CLI 升级到最新 Vercel CLI 设置预算（通过 vercel 升级）。您需要 Vercel CLI 59.6.2 或更高版本作为用户预算，然后设置默认或自定义用户预算："
+      ],
+      "highlights": [
+        "您现在可以使用 AI Gateway 预算为团队中的每个用户设置美元支出限额。",
+        "该限制涵盖归因于用户的每个 API 密钥及其应用程序令牌的支出。达到后，AI Gateway 会拒绝新的请求，直到预算重置或增加。",
+        "这对于控制编码代理和其他在没有监督的情况下运行的工作负载的支出非常有用，并防止一个用户消耗团队的所有共享预算。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Set per-user budgets on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-31",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/set-per-user-budgets-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Set per-user budgets on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Set per-user budgets on AI Gateway",
+        "url": "https://vercel.com/changelog/set-per-user-budgets-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-09-01T03:06:14.024Z"
+      }
+    },
+    {
+      "id": "sig-44f6116377",
+      "title": "扩大人工智能应用范围的里程碑",
+      "oneLiner": "ChatGPT Ads 的年收入运行率达到 10 亿美元，并在全球范围内扩张，通过免费且经济实惠的选项支持更广泛地使用人工智能。",
+      "summary": {
+        "oneSentence": "ChatGPT Ads 的年收入运行率达到 10 亿美元，并在全球范围内扩张，通过免费且经济实惠的选项支持更广泛地使用人工智能。",
+        "bullets": [
+          "ChatGPT Ads 的年收入运行率达到 10 亿美元，并在全球范围内扩张，通过免费且经济实惠的选项支持更广泛地使用人工智能。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：ChatGPT Ads 的年收入运行率达到 10 亿美元，并在全球范围内扩张，通过免费且经济实惠的选项支持更广泛地使用人工智能。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "ChatGPT Ads 的年收入运行率达到 10 亿美元，并在全球范围内扩张，通过免费且经济实惠的选项支持更广泛地使用人工智能。"
+      ],
+      "highlights": [
+        "ChatGPT Ads 的年收入运行率达到 10 亿美元，并在全球范围内扩张，通过免费且经济实惠的选项支持更广泛地使用人工智能。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "A milestone in expanding access to AI",
+      "originalLang": "en",
+      "date": "2026-08-31",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "A milestone in expanding access to AI"
+      },
+      "raw": {
+        "title": "A milestone in expanding access to AI",
+        "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
+        "fetched": false,
+        "savedAt": "2026-09-01T03:06:15.265Z"
+      }
+    },
+    {
+      "id": "sig-2f54eb4a2e",
+      "title": "我们的代理如何使用 design.md 构建品牌页面",
+      "oneLiner": "在 Vercel 中，我们使用编码代理来设计和构建外观和感觉类似于 Vercel 的页面。排版、颜色和构图都需要与我们自己发布的页面中的判断相同。",
+      "summary": {
+        "oneSentence": "在 Vercel 中，我们使用编码代理来设计和构建外观和感觉类似于 Vercel 的页面。排版、颜色和构图都需要与我们自己发布的页面中的判断相同。",
+        "bullets": [
+          "在 Vercel 中，我们使用编码代理来设计和构建外观和感觉类似于 Vercel 的页面。排版、颜色和构图都需要与我们自己发布的页面中的判断相同。",
+          "我们最近写了一篇关于产品设计的文章，我们的技能可以教会代理在我们的代码库中工作时如何设计。该技能与它所管理的代码一起存在于每个存储库中，解释代理如何找到和理解我们的设计系统以及他们正在构建的任何产品的指南。",
+          "当代理在我们的代码库中工作时，这非常有效，因为技能所需的一切都在那里。但是，报告、提案和一次性页面仍然必须看起来像 Vercel，但使用无法读取任何这些文件的工具制作，那又如何呢？对于我们来说，答案是 design.md ，这是任何代理都可以加载的公共文件。",
+          "将链接复制到标题我们如何进行构建设计.md 产品设计之所以能够顺利进行，是因为设计系统和产品指南就位于存储库中供代理商阅读。我们需要一种方法让该环境之外的代理和工具能够获得相同的知识，以便另一端出现的页面仍然看起来像我们自己设计的东西。这提出了两个要求："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：在 Vercel 中，我们使用编码代理来设计和构建外观和感觉类似于 Vercel 的页面。排版、颜色和构图都需要与我们自己发布的页面中的判断相同。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "在 Vercel 中，我们使用编码代理来设计和构建外观和感觉类似于 Vercel 的页面。排版、颜色和构图都需要与我们自己发布的页面中的判断相同。",
+        "我们最近写了一篇关于产品设计的文章，我们的技能可以教会代理在我们的代码库中工作时如何设计。该技能与它所管理的代码一起存在于每个存储库中，解释代理如何找到和理解我们的设计系统以及他们正在构建的任何产品的指南。",
+        "当代理在我们的代码库中工作时，这非常有效，因为技能所需的一切都在那里。但是，报告、提案和一次性页面仍然必须看起来像 Vercel，但使用无法读取任何这些文件的工具制作，那又如何呢？对于我们来说，答案是 design.md ，这是任何代理都可以加载的公共文件。",
+        "将链接复制到标题我们如何进行构建设计.md 产品设计之所以能够顺利进行，是因为设计系统和产品指南就位于存储库中供代理商阅读。我们需要一种方法让该环境之外的代理和工具能够获得相同的知识，以便另一端出现的页面仍然看起来像我们自己设计的东西。这提出了两个要求：",
+        "任何人都可以将其代理指向的单个公共 URL，无论其运行环境如何。",
+        "指南涵盖了使产品设计发挥作用的所有方面，从品牌、布局和文案到设计系统、响应能力和信息架构。",
+        "我们首先尝试的简单方法是简单地将产品设计移植到公共提示中，将技能的参考文件折叠成任何代理都可以从 URL 读取的文件。我们发现的问题是，虽然提示很好地描述了我们的视觉语言，但每个阅读它的模型都会以不同的方式解释该描述，从而根据相同的指导生成截然不同的页面。",
+        "部分原因在于设计语言是主观的。像“保持布局干净”这样的短语确实可以代表任何意思。什么是“干净”？除此之外，更大的问题是提示留下的其他一切。在我们的代码库中，代理读取由真实组件包围的产品设计，并提供其描述的事物的示例。但公开提示不包括这些，让每个模特都只能从文字中重建我们的风格。",
+        "因此，我们需要做的是将环境提供的内容提炼到单个文件中，而了解我们是否更接近的唯一方法是查看出现的页面。我们将端口放在一边，开始从头开始编写一个新文件，这次根据一组可重复的评估提示测试每个更改。",
+        "我们编写了其中七个，取自真实用例并与模拟输入配对："
+      ],
+      "highlights": [
+        "在 Vercel 中，我们使用编码代理来设计和构建外观和感觉类似于 Vercel 的页面。排版、颜色和构图都需要与我们自己发布的页面中的判断相同。",
+        "我们最近写了一篇关于产品设计的文章，我们的技能可以教会代理在我们的代码库中工作时如何设计。该技能与它所管理的代码一起存在于每个存储库中，解释代理如何找到和理解我",
+        "当代理在我们的代码库中工作时，这非常有效，因为技能所需的一切都在那里。但是，报告、提案和一次性页面仍然必须看起来像 Vercel，但使用无法读取任何这些文件的工"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How our agents build on-brand pages with design.md",
+      "originalLang": "en",
+      "date": "2026-08-31",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How our agents build on-brand pages with design.md"
+      },
+      "raw": {
+        "title": "How our agents build on-brand pages with design.md",
+        "url": "https://vercel.com/blog/how-our-agents-build-on-brand-pages-with-design-md",
+        "fetched": true,
+        "savedAt": "2026-09-01T03:06:23.024Z"
+      }
+    },
+    {
+      "id": "sig-1442aedd31",
+      "title": "Vercel Sandbox 现在每天计算快照存储成本 - Vercel",
+      "oneLiner": "Vercel 现在根据每天的平均使用情况计算沙盒快照存储的费用，并将其添加到您的每月发票中。以前，计费在整个月度计费周期内使用一个平均值。",
+      "summary": {
+        "oneSentence": "Vercel 现在根据每天的平均使用情况计算沙盒快照存储的费用，并将其添加到您的每月发票中。以前，计费在整个月度计费周期内使用一个平均值。",
+        "bullets": [
+          "Vercel 现在根据每天的平均使用情况计算沙盒快照存储的费用，并将其添加到您的每月发票中。以前，计费在整个月度计费周期内使用一个平均值。",
+          "您可以在团队的“使用情况”页面上跟踪这些每日费用，并了解存储变化如何影响您的成本。",
+          "费率仍为每月每 GB 0.08 美元；只是使用量的计算方式发生了变化。对于专业版和企业版团队，更新会在下一个计费周期开始时自动生效。无需采取任何行动。",
+          "在文档中了解有关沙箱快照存储的更多信息。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel 现在根据每天的平均使用情况计算沙盒快照存储的费用，并将其添加到您的每月发票中。以前，计费在整个月度计费周期内使用一个平均值。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-sandbox-now-calculates-snapshot-storage-costs-daily"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel 现在根据每天的平均使用情况计算沙盒快照存储的费用，并将其添加到您的每月发票中。以前，计费在整个月度计费周期内使用一个平均值。",
+        "您可以在团队的“使用情况”页面上跟踪这些每日费用，并了解存储变化如何影响您的成本。",
+        "费率仍为每月每 GB 0.08 美元；只是使用量的计算方式发生了变化。对于专业版和企业版团队，更新会在下一个计费周期开始时自动生效。无需采取任何行动。",
+        "在文档中了解有关沙箱快照存储的更多信息。"
+      ],
+      "highlights": [
+        "Vercel 现在根据每天的平均使用情况计算沙盒快照存储的费用，并将其添加到您的每月发票中。以前，计费在整个月度计费周期内使用一个平均值。",
+        "您可以在团队的“使用情况”页面上跟踪这些每日费用，并了解存储变化如何影响您的成本。",
+        "费率仍为每月每 GB 0.08 美元；只是使用量的计算方式发生了变化。对于专业版和企业版团队，更新会在下一个计费周期开始时自动生效。无需采取任何行动。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Sandbox now calculates snapshot storage costs daily - Vercel",
+      "originalLang": "en",
+      "date": "2026-08-31",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-sandbox-now-calculates-snapshot-storage-costs-daily",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Sandbox now calculates snapshot storage costs daily - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Sandbox now calculates snapshot storage costs daily",
+        "url": "https://vercel.com/changelog/vercel-sandbox-now-calculates-snapshot-storage-costs-daily",
+        "fetched": true,
+        "savedAt": "2026-09-01T03:06:26.411Z"
+      }
+    },
+    {
+      "id": "sig-279148925f",
+      "title": "Introducing wrapture",
+      "oneLiner": "Introducing wrapture New from Graham Dumpleton (of wrapt , mod_wsgi, and New Relic's Python agent fa",
+      "summary": {
+        "oneSentence": "Introducing wrapture New from Graham Dumpleton (of wrapt , mod_wsgi, and New Relic's Python agent fame), who describes W",
+        "bullets": [
+          "Introducing wrapture New from Graham Dumpleton (of wrapt , mod_wsgi, and New Relic's Python agent fame), who describes Wrapture as taking the monkeypatching ideas from wrapt and extending them to appl"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
@@ -448,7 +922,7 @@
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://vercel.com/changelog/minimax-h3-and-h3-max-are-50-off-on-ai-gateway"
+          "阅读原文：https://simonwillison.net/2026/Aug/31/introducing-wrapture/"
         ]
       },
       "tags": [],
@@ -459,18 +933,161 @@
       },
       "affectedProductIds": [],
       "content": [
-        "MiniMax H3 and H3 Max are 50% off on AI Gateway from August 30 through September 13, in partnership with MiniMax.",
-        "The discount covers requests billed through AI Gateway, at every duration and in every aspect ratio the model supports.",
-        "H3 generates 2K video from a text prompt, a starting image, a pair of first and last frames, or reference images, video, and audio.",
-        "H3 Max trades resolution for speed: it renders faster at 480p and 768p, and it takes a text prompt or a starting image.",
-        "The model IDs ( minimax/minimax-h3 and minimax/minimax-h3-max ) are unchanged, so requests you already send pick up the discounted rate with no code change:",
-        "1 import { experimental_generateVideo as generateVideo } from 'ai' ; 2 3 const { videos } = await generateVideo ( { 4 model : 'minimax/minimax-h3-max' , 5 prompt : 'San Francisco sunrise on a weekend morning.' , 6 duration : 5 , 7 poll : { timeoutMs : 600000 } , 8 } ) ;",
-        "Renders take minutes, so poll runs the generation as a background job and makes short status requests until it lands, rather than holding one long request open. See asynchronous generation for the webhook and start-and-status routes.",
-        "Copy link to heading Get started Create an API key in the AI Gateway section of your dashboard, or generate a clip in the browser first from the model playground .",
-        "Current rates for every model are on the pricing page . You can view all video models available on AI Gateway."
+        "Introducing wrapture New from Graham Dumpleton (of wrapt , mod_wsgi, and New Relic's Python agent fame), who describes Wrapture as taking the monkeypatching ideas from wrapt and extending them to apply to testing and tracing at the same time. Wrapture ( full documentation here ) makes it easy to wrap any function or method such that all access can be traced, or can be overridden to return a different value. It acts as both an alternative to unittest.mock and a way to implement tracing against an existing project: Attaching observation to code you do not control, recording what flows through it, and doing so without disturbing the program being watched, is a problem I have never really stopped thinking about. Wrapture includes OpenTelemetry support and even has an entirely configuration-based mechanism for adding tracing to an existing Python project, which looks like this: capture = \" summary \" [[ observe ]] target = \" domain:Calculator \" name = [ \" outer \" , \" inner \" ] [[ sink ]] type = \" jsonlines \" path = \" trace.jsonl \" This is still a very young project - just a few weeks old - but it's off to a very promising start. Interestingly, this is also Graham's first attempt at large entirely agent-driven project: Every line of code and documentation in wrapture was written by an AI assistant working under my direction. I want to be upfront about that, and equally upfront about what it was not. This was not vibe coding, where a one-shot prompt produces a pile of generated code and the person driving hopes for the best because they lack the knowledge to judge what came back. Vibe coding has earned its bad reputation. I engineered wrapture carefully from the start. I have spent a long time in this particular corner of Python and knew exactly what the result needed to be, and the AI was the means of producing it rather than the source of the design. In a follow-up post, Unit testing with wrapture , Graham shows the testing patterns supported by the new library: def test_stub_with_wrapture (): with wrapture . binding ( Gateway , \"charge\" ). on_call . returns ({ \"id\" : \"stub\" , \"amount\" : 0 } ): assert OrderService (). place ( 500 )[ \"id\" ] == \"stub\" And this neat example of a test that calls and then modifies the return value from the original method: def test_pinned_result_with_wrapture (): charge = wrapture . binding ( Gateway , \"charge\" ) charge . on_call . transforms_result ( lambda r : { ** r , \"id\" : \"ch_TEST\" } ) with charge : assert OrderService (). place ( 500 ) == { \"id\" : \"ch_TEST\" , \"amount\" : 500 } (In both of these examples the OrderService().place(...) method calls Gateway().charge(...) .) Tags: graham-dumpleton , monkey-patching , python , testing , pytest , observability , ai-assisted-programming , agentic-engineering , opentelemetry"
       ],
       "highlights": [],
       "translated": false,
+      "originalTitle": "Introducing wrapture",
+      "originalLang": "en",
+      "date": "2026-08-31",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Introducing wrapture"
+      },
+      "raw": {
+        "title": "Introducing wrapture",
+        "url": "https://simonwillison.net/2026/Aug/31/introducing-wrapture/",
+        "fetched": false,
+        "savedAt": "2026-09-01T03:06:27.213Z"
+      }
+    },
+    {
+      "id": "sig-0ea04bd89a",
+      "title": "Quoting Andrew Digby",
+      "oneLiner": "325 #kakapo! The chicks from this year's record breeding season are now juveniles and so have been a",
+      "summary": {
+        "oneSentence": "325 #kakapo! The chicks from this year's record breeding season are now juveniles and so have been added to the populati",
+        "bullets": [
+          "325 #kakapo! The chicks from this year's record breeding season are now juveniles and so have been added to the population. In 1995 there were just 51 kākāpō left. Recovery of critically endangered sp"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Aug/31/andrew-digby/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "325 #kakapo! The chicks from this year's record breeding season are now juveniles and so have been added to the population. In 1995 there were just 51 kākāpō left. Recovery of critically endangered species is possible with sustained effort. &mdash; Andrew Digby , providing the best news of the year Tags: kakapo"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Quoting Andrew Digby",
+      "originalLang": "en",
+      "date": "2026-08-31",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/31/andrew-digby/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Quoting Andrew Digby"
+      },
+      "raw": {
+        "title": "Quoting Andrew Digby",
+        "url": "https://simonwillison.net/2026/Aug/31/andrew-digby/",
+        "fetched": false,
+        "savedAt": "2026-09-01T03:06:28.013Z"
+      }
+    },
+    {
+      "id": "sig-7eb436fbc3",
+      "title": "MiniMax H3 和 H3 Max 在 AI Gateway - Vercel 上享受 50% 折扣",
+      "oneLiner": "与 MiniMax 合作，从 8 月 30 日到 9 月 13 日，MiniMax H3 和 H3 Max 在 AI Gateway 上享受 50% 的折扣。",
+      "summary": {
+        "oneSentence": "与 MiniMax 合作，从 8 月 30 日到 9 月 13 日，MiniMax H3 和 H3 Max 在 AI Gateway 上享受 50% 的折扣。",
+        "bullets": [
+          "与 MiniMax 合作，从 8 月 30 日到 9 月 13 日，MiniMax H3 和 H3 Max 在 AI Gateway 上享受 50% 的折扣。",
+          "折扣涵盖通过 AI Gateway 在模型支持的每个持续时间和每个宽高比下计费的请求。",
+          "H3 根据文本提示、起始图像、一对第一帧和最后一帧或参考图像、视频和音频生成 2K 视频。",
+          "H3 Max 以分辨率换取速度：它在 480p 和 768p 下渲染速度更快，并且需要文本提示或起始图像。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：与 MiniMax 合作，从 8 月 30 日到 9 月 13 日，MiniMax H3 和 H3 Max 在 AI Gateway 上享受 50% 的折扣。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/minimax-h3-and-h3-max-are-50-off-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "与 MiniMax 合作，从 8 月 30 日到 9 月 13 日，MiniMax H3 和 H3 Max 在 AI Gateway 上享受 50% 的折扣。",
+        "折扣涵盖通过 AI Gateway 在模型支持的每个持续时间和每个宽高比下计费的请求。",
+        "H3 根据文本提示、起始图像、一对第一帧和最后一帧或参考图像、视频和音频生成 2K 视频。",
+        "H3 Max 以分辨率换取速度：它在 480p 和 768p 下渲染速度更快，并且需要文本提示或起始图像。",
+        "型号 ID（ minimax/minimax-h3 和 minimax/minimax-h3-max ）未更改，因此您已发送的请求可享受折扣价，无需更改代码：",
+        "1 从'ai'导入{experimental_generateVideo asgenerateVideo}； 2 3 const {videos}=awaitgenerateVideo({4model:'minimax/minimax-h3-max',5prompt:'旧金山周末早晨的日出。',6duration:5,7poll:{timeoutMs:600000},8});",
+        "渲染需要几分钟的时间，因此 poll 将生成作为后台作业运行，并发出简短的状态请求，直到它落地，而不是保持一个长请求打开。请参阅 Webhook 和启动和状态路由的异步生成。",
+        "将链接复制到标题 开始 在仪表板的 AI 网关部分创建 API 密钥，或首先从模型游乐场在浏览器中生成剪辑。",
+        "每种型号的当前价格均在定价页面上。您可以查看AI网关上所有可用的视频模型。"
+      ],
+      "highlights": [
+        "与 MiniMax 合作，从 8 月 30 日到 9 月 13 日，MiniMax H3 和 H3 Max 在 AI Gateway 上享受 50% 的折扣。",
+        "折扣涵盖通过 AI Gateway 在模型支持的每个持续时间和每个宽高比下计费的请求。",
+        "H3 根据文本提示、起始图像、一对第一帧和最后一帧或参考图像、视频和音频生成 2K 视频。"
+      ],
+      "translated": true,
       "originalTitle": "MiniMax H3 and H3 Max are 50% off on AI Gateway - Vercel",
       "originalLang": "en",
       "date": "2026-08-30",
@@ -486,15 +1103,85 @@
         "url": "https://vercel.com/changelog/minimax-h3-and-h3-max-are-50-off-on-ai-gateway",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "MiniMax H3 and H3 Max are 50% off on AI Gateway - Vercel"
       },
       "raw": {
         "title": "MiniMax H3 and H3 Max are 50% off on AI Gateway",
         "url": "https://vercel.com/changelog/minimax-h3-and-h3-max-are-50-off-on-ai-gateway",
         "fetched": true,
-        "savedAt": "2026-08-31T02:58:28.605Z"
+        "savedAt": "2026-08-31T02:58:28.605Z",
+        "retranslatedAt": "2026-09-01T03:06:36.530Z"
+      },
+      "translateMethod": "google"
+    },
+    {
+      "id": "sig-517370741c",
+      "title": "Understanding ChatGPT Work",
+      "oneLiner": "OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is",
+      "summary": {
+        "oneSentence": "OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily ",
+        "bullets": [
+          "OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so fa"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far. ChatGPT Work is actually two products The more interesting version of ChatGPT Work is the one that runs in the cloud. This can be accessed via chatgpt.com or through the ChatGPT mobile apps. Let's call it Work Cloud . If you install the ChatGPT desktop app - the app that used to be called Codex - you gain access to a thing called ChatGPT Work that can access files and run programs directly on your computer. Let's call that one Work Local . This one feels more like regular Codex re-skinned to be less intimidating to non-software-developers. ( Update : Work Cloud is also available from the ChatGPT desktop app, via a Where should this chat run? dropdown.) For the rest of this article I'm going to talk exclusively about Work Cloud. Work is for paid subscribers only Right now, ChatGPT Work (in both flavors) is available only to $20/month and up subscribers. Free users and $8/month Go users do not have access. Work has features that aren't available in Chat The interface for accessing Work is a tab selector, which presents it as an alternative to Chat: The obvious question is when should I use Chat, and when should I use Work? OpenAI's official answer to that question is: Use Chat when you want an answer, explanation, brainstorm, or short draft. Use ChatGPT Work when you want ChatGPT to complete a task with a clear outcome, such as a brief, deck, analysis, recurring update, workflow, or file you can review and use. I find that almost entirely useless, because I've been using regular ChatGPT Chat for all of those task categories for years! The better question then is what features does Work have that are missing from Chat? After extensive experimentation I think I've mostly figured that out: Options to use Luna and Terra in place of Sol A code execution environment with Internet access A headless Chrome browser A persistent filesystem shared between sessions The ability to publish ChatGPT Sites The ability to run sub-agent sessions with Sol, Luna, and Terra Scheduled prompt automations (may be in ChatGPT Chat too) Model selection In Work, you get the option to pick GPT-5.6 Sol, Luna, or Terra, each with Light, Medium, High, Extra High, Max, or Ultra reasoning levels. You can also pick GPT-5.5 at Light, Medium, High, or Extra High. These look to be the same models that are available through the OpenAI API. Chat offers a different selection: 5.6 Instant, Medium, High, Extra High, and Pro (actually Extra High and Pro are only available for $100/month+ subscribers - $20/month subscribers cap out at High). It doesn't explain if those are Luna or Terra or Sol (I'm assuming Sol?). 5.6 Pro appears to be exclusive to Chat, with no equivalent in Work. My current understanding from using Codex is that Ultra is a special mode that more eagerly delegates to sub-agents. I believe ChatGPT Work sessions are billed against your Codex allowance, while ChatGPT Chat Sessions get their own, separate allowance. This may help explain the model availability differences. Code execution with Internet access! As a long-time fan of the Code Interpreter pattern - pioneered by OpenAI in 2023 - this is by far the most exciting feature of ChatGPT Work (Cloud) for me. The code execution environment can now talk to the rest of the internet! ChatGPT Chat can't do this - if you ask it to install additional software packages or interact with websites or APIs that access will be blocked by the container proxy. (Weirdly, back in January it grew the ability to install packages , but that doesn't seem to work any more. I wish they had better changelogs!) Claude's equivalent container has allowed restricted internet access since it launched last September . Claude can install packages from PYPI and NPM and clone repositories from GitHub. But that is about it: the allowlist of domains is very short. ChatGPT Work allows a whole lot more than that. It can be configured with a specific list of allowed domains, but the default appears to be open to all. This makes Work an incredibly useful tool. You can have it clone GitHub repositories, install their dependencies, then use them to interact with the rest of the web! A full, headless Chrome browser Another killer feature of ChatGPT Work is the browser tool . ChatGPT Work can launch a full Chrome instance, load websites, fill out forms, and take screenshots. \", followed by the reply \"Here's the screenshot of the live site:\" and an embedded screenshot of a website.\" style=\"max-width: 100%\" /> If a site requires sign in the browser can prompt you to take over and enter both passwords and 2FA codes, without round-tripping those credentials through the model itself. It can even run JavaScript against the DOM of loaded pages. I prompted: Load simonwillison.net in your browser and extract the headings using JavaScript ChatGPT Work fired up a browser instance and ran the code: await tab . playwright . evaluate ( ( ) => { return Array . from ( document . querySelectorAll ( \"h1,h2,h3,h4,h5,h6\" ) , heading => ( { level : heading . tagName . toLowerCase ( ) , text : heading . innerText . trim ( ) . replace ( / \\s + / g , \" \" ) , id : heading . id || null } ) ) ; } ) ; This feels a lot like my shot-scraper javascript tool, only now I can access it on my phone! A persistent, shared filesystem ChatGPT Chat gets a fresh filesystem for each chat session. These cannot be accessed from any other session. In ChatGPT Work each session gets its own scratch folder - named something like /workspace/scratch/e00a0a017944 - but each of those are persisted across sessions, so you can access files from previous chats. I have 171 folders in /workspace/scratch right now! As far as I can tell that /workspace volume is mounted to all Work sessions that are currently running - file edits from one can be instantly seen by the others. They don't seem to share the same process space though, and localhost servers running in one can't be accessed from another. ChatGPT Sites ChatGPT Work has the ability to build and deploy entire websites, using Cloudflare Workers. These can have HTML and JavaScript and can run server-side features too, including stateful features on top of Cloudflare D1 and R2. Here's a simple site I built with this feature: london-pelicans-in-her-piety.simonw.chatgpt.site My prompt was: Figure out all of the places in London with a pelican in her piety, then turn that into a JSON file and build a ChatGPT sites site about them (A pelican in her piety is a fascinating piece of medieval Christian imagery - once you know about them you'll find them all over the place.) These sites default to being private to the user that created them, but you can make them public and (on team plans) share them with other specific individuals. Sub-agents with Sol, Luna, and Terra There's not much to say about this one. ChatGPT Chat can't run sub-agents. ChatGPT Work can. This is very much a power-user feature: if you are running a complex project that can benefit from multiple parallel agents working together, Work can do that. Scheduled prompt automations Another feature that seems to have migrated from regular ChatGPT to ChatGPT Work at some point. You can prompt ChatGPT Work like this: run a search to see if Waymo have announced a launch date for Half Moon Bay every day at 8am This will schedule a prompt to run on that frequency. These prompts can decide that nothing interesting has happened, or they can decide to notify you of some new information. Update : Actually this seems to work in ChatGPT Chat as well. It's still worth noting here though, as it can be used in conjunction with other ChatGPT Work exclusive features. You can set a scheduled task to update a ChatGPT Site on an hourly basis, for example. Is this safe? An open question for me right now is how safe all of this stuff is. My lethal trifecta model warns about the risks inherent in any agent system that combines access to private data with exposure to untrusted content and a way to communicate stolen information back to an attacker. ChatGPT Work combines all three! I'd love to hear more from OpenAI about how they protect ChatGPT Work sessions against prompt injection attacks. I expect their answer is the same auto-review mechanism as Codex. OpenAI could make this a lot less confusing Figuring this all out took way more work than it should have. I think there are two key problems here: OpenAI explain Work in terms of what it's for, not what it actually does OpenAI still insist on hiding their system prompts and tools descriptions If the ChatGPT Work documentation included the exact system prompt and tool descriptions used by the agent I wouldn't have needed to write this post. A list of all the tools Shortly after publishing this article I had an idea. I started a fresh Work session and prompted: Build a site that lists every one of your tools - nearly grouped into categories - and for each one explain what it does. Try to exactly duplicate arguments and tool descriptions where possible. Design aesthetic should be technical docs, minimal flare Here's the site it built , which includes details of 223 registered tools - though 6 of those are from my own personal MCPs served via datasette-mcp . And a whole lot of Skills I noticed that the only browser-related tool in the list was web.run , which has methods for running searches, opening URLs, and clicking links, but didn't look like the full story in regards to headless browser automation. This made me suspicious that something was missing, so I told the ChatGPT Work session that built that tools reference site: Add full copies of every skill to the website (separate pages linked to from the homepage) It turns out ChatGPT Work uses a lot of skills - 44 in fact! The control-browser skill explains how the browser works: Run browser setup code through the Node REPL js tool. In this environment the callable tool id typically appears as mcp__node_repl__js . [...] The ability to interact directly with the browser is exposed through the browser-client runtime via the agent.browsers.* API. Before trying to interact with it, you MUST emit and read the complete documentation returned by await browser.documentation() in one go. So I told Work: Add the full output of await browser.documentation() to the bottom of the /skills/control-browser page And now you can read that on /skills/control-browser as well. A few more interesting Skills: documents for creating .docx files imagegen with tips on creating images with the image_gen tool pdf for both reading and rendering PDFs Spreadsheets for manipulating .xlsx , .xls , .csv , .tsv sites:sites-building for creating ChatGPT Sites openai-docs for answering questions about itself data-analytics:build-dashboard for building data dashboards Tags: ai , openai , generative-ai , chatgpt , llms , code-interpreter , lethal-trifecta , skills , general-agents"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Understanding ChatGPT Work",
+      "originalLang": "en",
+      "date": "2026-08-30",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Understanding ChatGPT Work"
+      },
+      "raw": {
+        "title": "Understanding ChatGPT Work",
+        "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
+        "fetched": false,
+        "savedAt": "2026-09-01T03:06:28.815Z"
       }
     },
     {
@@ -635,19 +1322,22 @@
     },
     {
       "id": "sig-b9b1ef532b",
-      "title": "How do you actually measure the impact of AI on design?",
-      "oneLiner": "In 2024, we kicked off a study to understand how AI would reshape design and product development. No",
+      "title": "您如何实际衡量人工智能对设计的影响？ | Figma 博客",
+      "oneLiner": "2024 年，我们启动了一项研究，以了解人工智能将如何重塑设计和产品开发。现在，人工智能正在帮助我们运行它。",
       "summary": {
-        "oneSentence": "In 2024, we kicked off a study to understand how AI would reshape design and product development. Now, AI is helping us ",
+        "oneSentence": "2024 年，我们启动了一项研究，以了解人工智能将如何重塑设计和产品开发。现在，人工智能正在帮助我们运行它。",
         "bullets": [
-          "In 2024, we kicked off a study to understand how AI would reshape design and product development. Now, AI is helping us run it."
+          "2024 年，我们启动了一项研究，以了解人工智能将如何重塑设计和产品开发。现在，人工智能正在帮助我们运行它。",
+          "当人工智能工具和产品几年前开始势头强劲时，我们知道我们想要跟踪它们对设计行业的影响，从工作方式到产品开发策略。我们有大大小小的问题：人工智能到底能节省多少时间？人工智能将如何改变团队协作的方式，人们对此有何感受？哪些工具可以帮助我们全面衡量人工智能的影响？",
+          "像人工智能这样的新技术不会一下子改变整个行业；而是会一下子改变整个行业。随着时间的推移，效果会复合。因此，我们启动了一项为期多年的研究项目 Figma 的 2026 年人工智能报告：人工智能能否帮助我们更好地协作？人工智能曾经是独行侠。根据我们的研究，现在已经不再是这样了。",
+          "以下是我们构建的内容，以及我们在使用人工智能进行大规模研究方面学到的知识。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Figma 官网发布：2024 年，我们启动了一项研究，以了解人工智能将如何重塑设计和产品开发。现在，人工智能正在帮助我们运行它。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -655,38 +1345,38 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://www.figma.com/blog/measuring-the-impact-of-ai/"
+          "阅读原文（英文）：https://www.figma.com/blog/measuring-the-impact-of-ai/"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "In 2024, we kicked off a study to understand how AI would reshape design and product development. Now, AI is helping us run it.",
-        "When AI tools and products started gaining momentum a few years ago, we knew we wanted to track their impact on the design industry, from ways of working to product development strategy. We had questions big and small: How much time would AI really save? How would AI change the way teams collaborate, and how did people feel about it? And what tools could help us measure AI’s impact holistically?",
-        "New technologies like AI don't transform industries all at once; the effects compound over time. So we set out on a multi-year research project Figma's 2026 AI report: Can AI help us collaborate better? AI used to be a solo act. According to our research, it’s not anymore.",
-        "Here's what we built, and what we learned about using AI to conduct research at scale.",
-        "Download Figma’s 2026 AI report to explore the trends we’ve been tracking.",
-        "First, we decided to create a sentiment index, a single scale that reflects how a group of people feel about something. The best-known example is the University of Michigan's consumer sentiment index , which tracks how optimistic or pessimistic people are about the economy. It doesn’t measure what the economy is actually doing; it captures feelings of confidence or anxiety and how it may influence behaviors like spending habits. That’s exactly the read we wanted on AI: not just what AI can do, but how the work is changing, how people feel about it, and what it means for the future of design.",
-        "We ask participants what they’ve experienced in the past 12 months, and what they expect to experience in the next 12. Comparing predictions versus reality tells us whether AI is keeping up with expectations, outpacing them, or falling short.",
-        "In 2026 , every dimension exceeded last year's expectations by 10+ index points—collaboration nearly doubled from 32 to 58, while personal productivity, projects, and products climbed into the high 60s and 70s from the 40s.",
-        "To build Figma’s AI impact index, we asked designers, developers, and PMs questions like “Over the past 12 months, to what degree has AI affected your personal productivity and workflows?” and “Over the next 12 months, to what degree do you expect AI to impact how you collaborate with others?” We mapped answers on a scale from 0 (no impact) to 100 (transformational). A score around 50 means AI is becoming part of someone's job without fully reshaping it; scores climbing toward 100 mean AI is fundamentally changing their day-to-day.",
-        "As with any new technology, AI impacts different aspects of work unevenly—for example, an individual’s productivity shifts before a whole team’s does. That’s why we shaped our questions around six dimensions of product builders’ jobs. We’ve used the same questions for the past three years, so we can track trends in each area:",
-        "The survey focuses on six different aspects of product builders’ lives at work, inspired by socio-technical systems theory and research on digital transformation .",
-        "Figma’s AI impact index tells us what AI has changed, and by how much. But these numbers don’t tell the full story. This year, we wanted to hear firsthand from the people actually experiencing these changes. To do that at scale, we tried an AI interview tool.",
-        "An AI moderator leads live conversations with participants, asking clarifying questions and adapting to context in real time to get the most thorough answers. We ran 639 AI-moderated interviews, covering everything from the specific ways AI has transformed people’s work, to their concerns about the future, to how their organizations are responding. We collected more interviews than would have been humanly possible in the same amount of time, so we wanted to use AI to help analyze the correspondingly high volume of data, too.",
-        "553 recurring themes across participants"
+        "2024 年，我们启动了一项研究，以了解人工智能将如何重塑设计和产品开发。现在，人工智能正在帮助我们运行它。",
+        "当人工智能工具和产品几年前开始势头强劲时，我们知道我们想要跟踪它们对设计行业的影响，从工作方式到产品开发策略。我们有大大小小的问题：人工智能到底能节省多少时间？人工智能将如何改变团队协作的方式，人们对此有何感受？哪些工具可以帮助我们全面衡量人工智能的影响？",
+        "像人工智能这样的新技术不会一下子改变整个行业；而是会一下子改变整个行业。随着时间的推移，效果会复合。因此，我们启动了一项为期多年的研究项目 Figma 的 2026 年人工智能报告：人工智能能否帮助我们更好地协作？人工智能曾经是独行侠。根据我们的研究，现在已经不再是这样了。",
+        "以下是我们构建的内容，以及我们在使用人工智能进行大规模研究方面学到的知识。",
+        "下载 Figma 的 2026 年人工智能报告，探索我们一直在跟踪的趋势。",
+        "首先，我们决定创建一个情绪指数，这是一个反映一群人对某件事的感受的单一量表。最著名的例子是密歇根大学的消费者信心指数，该指数追踪人们对经济的乐观或悲观程度。它并不衡量经济的实际表现；而是衡量经济的实际状况。它捕捉自信或焦虑的感觉，以及它如何影响消费习惯等行为。这正是我们想要了解的关于人工智能的内容：不仅仅是人工智能可以做什么，还有工作如何变化、人们对它的感受如何，以及它对设计的未来意味着什么。",
+        "我们询问参与者在过去 12 个月中经历了什么，以及他们期望在未来 12 个月中经历什么。将预测与现实进行比较可以告诉我们人工智能是否符合预期、超过预期或未达到预期。",
+        "2026 年，每个维度都超出了去年的预期 10 多个指数点——协作几乎翻了一番，从 32 增加到 58，而个人生产力、项目和产品则从 40 多岁攀升至 60 多分和 70 多分。",
+        "为了构建 Figma 的 AI 影响指数，我们向设计师、开发人员和产品经理询问了一些问题，例如“在过去 12 个月中，AI 在多大程度上影响了您的个人生产力和工作流程？”以及“在接下来的 12 个月里，您预计人工智能会在多大程度上影响您与他人的协作方式？”我们按照从 0（无影响）到 100（变革）的等级来绘制答案。 50 分左右意味着人工智能正在成为某人工作的一部分，但并未完全重塑工作；分数攀升至 100 分意味着人工智能正在从根本上改变他们的日常生活。",
+        "与任何新技术一样，人工智能对工作的不同方面的影响是不均匀的——例如，个人的生产力变化先于整个团队的变化。这就是为什么我们围绕产品构建者工作的六个维度来提出问题。我们在过去三年中使用了相同的问题，因此我们可以跟踪每个领域的趋势："
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "2024 年，我们启动了一项研究，以了解人工智能将如何重塑设计和产品开发。现在，人工智能正在帮助我们运行它。",
+        "当人工智能工具和产品几年前开始势头强劲时，我们知道我们想要跟踪它们对设计行业的影响，从工作方式到产品开发策略。我们有大大小小的问题：人工智能到底能节省多少时间？",
+        "像人工智能这样的新技术不会一下子改变整个行业；而是会一下子改变整个行业。随着时间的推移，效果会复合。因此，我们启动了一项为期多年的研究项目 Figma 的 20"
+      ],
+      "translated": true,
       "originalTitle": "How Do You Actually Measure the Impact of AI on Design? | Figma Blog",
       "originalLang": "en",
       "date": "2026-08-28",
@@ -702,32 +1392,37 @@
         "url": "https://www.figma.com/blog/measuring-the-impact-of-ai/",
         "home": "https://www.figma.com/blog/",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "How Do You Actually Measure the Impact of AI on Design? | Figma Blog"
       },
       "raw": {
         "title": "How do you actually measure the impact of AI on design?",
         "url": "https://www.figma.com/blog/measuring-the-impact-of-ai/",
         "fetched": true,
-        "savedAt": "2026-08-29T05:12:43.774Z"
-      }
+        "savedAt": "2026-08-29T05:12:43.774Z",
+        "retranslatedAt": "2026-09-01T03:06:45.111Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-ec7e106bea",
-      "title": "Source material: i-D Magazine’s editor in chief is not afraid of visual chaos",
-      "oneLiner": "Thom Bettridge on which magazines have shaped his taste—and what design rule he breaks the most.",
+      "title": "资料来源：i-D 杂志主编并不害怕视觉混乱 | Figma 博客",
+      "oneLiner": "Thom Bettridge 探讨了哪些杂志塑造了他的品味，以及他最常打破的设计规则。",
       "summary": {
-        "oneSentence": "Thom Bettridge on which magazines have shaped his taste—and what design rule he breaks the most.",
+        "oneSentence": "Thom Bettridge 探讨了哪些杂志塑造了他的品味，以及他最常打破的设计规则。",
         "bullets": [
-          "Thom Bettridge on which magazines have shaped his taste—and what design rule he breaks the most."
+          "Thom Bettridge 探讨了哪些杂志塑造了他的品味，以及他最常打破的设计规则。",
+          "欢迎来到《Source Material》，这是一个每周系列，塑造文化的设计师和创意人员将分享塑造他们的参考资料。 Figma 的第一位嘉宾是 i-D 杂志主编、Content World 创始人 Thom Bettridge。",
+          "拍摄结束后，我们采访了 Thom，了解了他的创作过程：",
+          "当您意识到“这可能是我的工作”时，您正在做什么？"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Figma 官网发布：Thom Bettridge 探讨了哪些杂志塑造了他的品味，以及他最常打破的设计规则。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -735,38 +1430,38 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://www.figma.com/blog/source-material-i-d-magazine-editor-in-chief-thom-bettridge/"
+          "阅读原文（英文）：https://www.figma.com/blog/source-material-i-d-magazine-editor-in-chief-thom-bettridge/"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "Thom Bettridge on which magazines have shaped his taste—and what design rule he breaks the most.",
-        "Welcome to Source Material, a weekly series where the designers and creatives shaping culture share the references that shaped them. Figma’s first guest is Thom Bettridge, editor in chief of i-D Magazine and founder of Content World .",
-        "After the shoot, we caught up with Thom about his creative process:",
-        "What were you making when you realized, “This could be my job”?",
-        "My first issue working at 032c , which was the Raf Simons retrospective issue. I remember getting that one back from the printer and thinking, “Damn, I helped make this…and it’s really fucking good.”",
-        "What’s the first thing you do when you sit down to work?",
-        "I can’t do anything resembling work without a) music, and b) Yerba Madre.",
-        "What’s a design object you’d take to your grave?",
-        "Probably my teddy bear. But it would also be cool to have a Barcelona couch on top of my grave, so people can lie with me for a bit.",
-        "What current design trend are you tired of seeing?",
-        "To be honest, all of them. If anything you’re doing is a “trend,” self-assess and change your game up.",
-        "I like it when text disrupts, blocks, or corrupts an image. We’ve become so precious with images as an industry—probably because it’s so expensive to produce a fashion photograph—that there’s this unwritten rule that graphic design should get out of an image’s way. I love breaking that rule.",
-        "What song do you put on to get out of a creative rut?",
-        "What’s a piece of feedback you resisted, and later realized was right?"
+        "Thom Bettridge 探讨了哪些杂志塑造了他的品味，以及他最常打破的设计规则。",
+        "欢迎来到《Source Material》，这是一个每周系列，塑造文化的设计师和创意人员将分享塑造他们的参考资料。 Figma 的第一位嘉宾是 i-D 杂志主编、Content World 创始人 Thom Bettridge。",
+        "拍摄结束后，我们采访了 Thom，了解了他的创作过程：",
+        "当您意识到“这可能是我的工作”时，您正在做什么？",
+        "我在 032c 工作的第一期是 Raf Simons 回顾期。我记得当我从打印机那里拿回那张纸时，我想：“天啊，我帮忙做了这个……而且它真的太棒了。”",
+        "当你坐下来工作时，你做的第一件事是什么？",
+        "如果没有 a) 音乐和 b) Yerba Madre，我就无法做任何类似工作的事情。",
+        "你会带进坟墓的设计对象是什么？",
+        "可能是我的泰迪熊。但在我的坟墓上放一张巴塞罗那沙发也很酷，这样人们就可以和我一起躺一会儿。",
+        "您厌倦了当前的哪些设计趋势？"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "Thom Bettridge 探讨了哪些杂志塑造了他的品味，以及他最常打破的设计规则。",
+        "欢迎来到《Source Material》，这是一个每周系列，塑造文化的设计师和创意人员将分享塑造他们的参考资料。 Figma 的第一位嘉宾是 i-D 杂志主编",
+        "拍摄结束后，我们采访了 Thom，了解了他的创作过程："
+      ],
+      "translated": true,
       "originalTitle": "Source Material: i-D Magazine’s Editor in Chief Is Not Afraid of Visual Chaos | Figma Blog",
       "originalLang": "en",
       "date": "2026-08-28",
@@ -782,32 +1477,34 @@
         "url": "https://www.figma.com/blog/source-material-i-d-magazine-editor-in-chief-thom-bettridge/",
         "home": "https://www.figma.com/blog/",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Source Material: i-D Magazine’s Editor in Chief Is Not Afraid of Visual Chaos | Figma Blog"
       },
       "raw": {
         "title": "Source material: i-D Magazine’s editor in chief is not afraid of visual chaos",
         "url": "https://www.figma.com/blog/source-material-i-d-magazine-editor-in-chief-thom-bettridge/",
         "fetched": true,
-        "savedAt": "2026-08-29T05:12:45.763Z"
-      }
+        "savedAt": "2026-08-29T05:12:45.763Z",
+        "retranslatedAt": "2026-09-01T03:06:52.555Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-092c8de02e",
-      "title": "Our decision on Cursor following its acquisition by SpaceX",
-      "oneLiner": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition b",
+      "title": "Cursor 被 SpaceX 收购后我们对 Cursor 的决定",
+      "oneLiner": "在 Cursor 被 SpaceX 收购后，我们决定终止向 Cursor 提供 OpenAI 模型的合同。",
       "summary": {
-        "oneSentence": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
+        "oneSentence": "在 Cursor 被 SpaceX 收购后，我们决定终止向 Cursor 提供 OpenAI 模型的合同。",
         "bullets": [
-          "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX."
+          "在 Cursor 被 SpaceX 收购后，我们决定终止向 Cursor 提供 OpenAI 模型的合同。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "OpenAI 官网发布：在 Cursor 被 SpaceX 收购后，我们决定终止向 Cursor 提供 OpenAI 模型的合同。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -815,27 +1512,29 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
-        "relevance": "",
+        "relevance": "关联产品：chatgpt",
         "actionItems": [
-          "阅读原文：https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex"
+          "阅读原文（英文）：https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [
         "chatgpt"
       ],
       "content": [
-        "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX."
+        "在 Cursor 被 SpaceX 收购后，我们决定终止向 Cursor 提供 OpenAI 模型的合同。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "在 Cursor 被 SpaceX 收购后，我们决定终止向 Cursor 提供 OpenAI 模型的合同。"
+      ],
+      "translated": true,
       "originalTitle": "Our decision on Cursor following its acquisition by SpaceX",
       "originalLang": "en",
       "date": "2026-08-28",
@@ -853,32 +1552,34 @@
         "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
         "home": "https://openai.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Our decision on Cursor following its acquisition by SpaceX"
       },
       "raw": {
         "title": "Our decision on Cursor following its acquisition by SpaceX",
         "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
         "fetched": false,
-        "savedAt": "2026-08-29T05:12:47.165Z"
-      }
+        "savedAt": "2026-08-29T05:12:47.165Z",
+        "retranslatedAt": "2026-09-01T03:06:53.745Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-0b00c80d50",
-      "title": "Supporting Thailand’s next generation of AI startups",
-      "oneLiner": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and educat",
+      "title": "支持泰国下一代人工智能初创公司",
+      "oneLiner": "OpenAI 和泰国的 MHESI 推出了为期八周的加速器，帮助 10 家健康、保健和教育初创公司将人工智能原型转变为值得信赖的产品。",
       "summary": {
-        "oneSentence": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI",
+        "oneSentence": "OpenAI 和泰国的 MHESI 推出了为期八周的加速器，帮助 10 家健康、保健和教育初创公司将人工智能原型转变为值得信赖的产品。",
         "bullets": [
-          "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products."
+          "OpenAI 和泰国的 MHESI 推出了为期八周的加速器，帮助 10 家健康、保健和教育初创公司将人工智能原型转变为值得信赖的产品。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "OpenAI 官网发布：OpenAI 和泰国的 MHESI 推出了为期八周的加速器，帮助 10 家健康、保健和教育初创公司将人工智能原型转变为值得信赖的产品。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -886,27 +1587,29 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
-        "relevance": "",
+        "relevance": "关联产品：chatgpt",
         "actionItems": [
-          "阅读原文：https://openai.com/index/supporting-next-generation-ai-startups-thailand"
+          "阅读原文（英文）：https://openai.com/index/supporting-next-generation-ai-startups-thailand"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [
         "chatgpt"
       ],
       "content": [
-        "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products."
+        "OpenAI 和泰国的 MHESI 推出了为期八周的加速器，帮助 10 家健康、保健和教育初创公司将人工智能原型转变为值得信赖的产品。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "OpenAI 和泰国的 MHESI 推出了为期八周的加速器，帮助 10 家健康、保健和教育初创公司将人工智能原型转变为值得信赖的产品。"
+      ],
+      "translated": true,
       "originalTitle": "Supporting Thailand’s next generation of AI startups",
       "originalLang": "en",
       "date": "2026-08-28",
@@ -924,32 +1627,37 @@
         "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
         "home": "https://openai.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Supporting Thailand’s next generation of AI startups"
       },
       "raw": {
         "title": "Supporting Thailand’s next generation of AI startups",
         "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
         "fetched": false,
-        "savedAt": "2026-08-29T05:12:48.690Z"
-      }
+        "savedAt": "2026-08-29T05:12:48.690Z",
+        "retranslatedAt": "2026-09-01T03:06:54.927Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-5580f1a132",
-      "title": "Hy4 Preview now available on AI Gateway",
-      "oneLiner": "Hy4 Preview from Tencent is now available on AI Gateway. Hy4 Preview is an open-source Mixture-of-Ex",
+      "title": "Hy4 预览版现已在 AI Gateway - Vercel 上提供",
+      "oneLiner": "腾讯的 Hy4 Preview 现已在 AI Gateway 上提供。",
       "summary": {
-        "oneSentence": "Hy4 Preview from Tencent is now available on AI Gateway. Hy4 Preview is an open-source Mixture-of-Experts model with 770",
+        "oneSentence": "腾讯的 Hy4 Preview 现已在 AI Gateway 上提供。",
         "bullets": [
-          "Hy4 Preview from Tencent is now available on AI Gateway. Hy4 Preview is an open-source Mixture-of-Experts model with 770B total parameters and 49B active per token, aimed at long-horizon coding, docum"
+          "腾讯的 Hy4 Preview 现已在 AI Gateway 上提供。",
+          "Hy4 Preview 是一个开源的 Mixture-of-Experts 模型，总参数为 770B，每个代币有 49B 活跃值，旨在长期编码、文档分析、游戏开发和科学推理。它提供 1M 个令牌的上下文窗口。",
+          "要使用Hy4 Preview，请在AI SDK中将模型设置为tencent/hy4-preview：",
+          "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText({ 4 model: 'tencent/hy4-preview' , 5prompt : '为结果端点添加分页。' , 6 }) ;"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：腾讯的 Hy4 Preview 现已在 AI Gateway 上提供。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -957,33 +1665,37 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://vercel.com/changelog/hy4-preview-now-available-on-ai-gateway"
+          "阅读原文（英文）：https://vercel.com/changelog/hy4-preview-now-available-on-ai-gateway"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "Hy4 Preview from Tencent is now available on AI Gateway.",
-        "Hy4 Preview is an open-source Mixture-of-Experts model with 770B total parameters and 49B active per token, aimed at long-horizon coding, document analysis, game development, and scientific reasoning. It serves a context window of 1M tokens.",
-        "To use Hy4 Preview, set model to tencent/hy4-preview in the AI SDK :",
-        "1 import { streamText } from 'ai' ; 2 3 const result = streamText ( { 4 model : 'tencent/hy4-preview' , 5 prompt : 'Add pagination to the results endpoint.' , 6 } ) ;",
-        "To use it in a coding agent, see the coding agents guide , then run vercel ai-gateway coding-agents setup to connect agents like Claude Code, Codex, OpenCode, Cursor, Pi, and more and select tencent/hy4-preview inside the agent.",
-        "Try Hy4 Preview in the model playground .",
-        "AI Gateway provides a unified API for calling models, tracking usage and cost, and configuring retries, failover, and performance optimizations for higher-than-provider uptime. It includes built-in custom reporting , Zero Data Retention support , budgets for API keys , routing rules , and more.",
-        "AI Gateway reflects provider pricing with no markup and does not charge a platform fee on inference, including on Bring Your Own Key (BYOK) requests.",
-        "You can view all language models available on AI Gateway."
+        "腾讯的 Hy4 Preview 现已在 AI Gateway 上提供。",
+        "Hy4 Preview 是一个开源的 Mixture-of-Experts 模型，总参数为 770B，每个代币有 49B 活跃值，旨在长期编码、文档分析、游戏开发和科学推理。它提供 1M 个令牌的上下文窗口。",
+        "要使用Hy4 Preview，请在AI SDK中将模型设置为tencent/hy4-preview：",
+        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText({ 4 model: 'tencent/hy4-preview' , 5prompt : '为结果端点添加分页。' , 6 }) ;",
+        "要在编码代理中使用它，请参阅编码代理指南 ，然后运行 ​​vercel ai-gatewaycoding-agents setup 以连接 Claude Code、Codex、OpenCode、Cursor、Pi 等代理，并在代理内选择 tencent/hy4-preview。",
+        "在模型游乐场中尝试 Hy4 Preview。",
+        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本，以及配置重试、故障转移和性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、零数据保留支持、API 密钥预算、路由规则等。",
+        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。",
+        "您可以查看AI网关上所有可用的语言模型。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "腾讯的 Hy4 Preview 现已在 AI Gateway 上提供。",
+        "Hy4 Preview 是一个开源的 Mixture-of-Experts 模型，总参数为 770B，每个代币有 49B 活跃值，旨在长期编码、文档分析、游戏开",
+        "要使用Hy4 Preview，请在AI SDK中将模型设置为tencent/hy4-preview："
+      ],
+      "translated": true,
       "originalTitle": "Hy4 Preview now available on AI Gateway - Vercel",
       "originalLang": "en",
       "date": "2026-08-28",
@@ -999,16 +1711,18 @@
         "url": "https://vercel.com/changelog/hy4-preview-now-available-on-ai-gateway",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Hy4 Preview now available on AI Gateway - Vercel"
       },
       "raw": {
         "title": "Hy4 Preview now available on AI Gateway",
         "url": "https://vercel.com/changelog/hy4-preview-now-available-on-ai-gateway",
         "fetched": true,
-        "savedAt": "2026-08-29T05:12:50.183Z"
-      }
+        "savedAt": "2026-08-29T05:12:50.183Z",
+        "retranslatedAt": "2026-09-01T03:07:02.003Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-d767e552b1",
@@ -4832,6 +5546,74 @@
         "url": "https://vercel.com/changelog/chat-sdk-now-supports-xchat",
         "fetched": true,
         "savedAt": "2026-08-30T03:05:00.896Z"
+      }
+    },
+    {
+      "id": "sig-f59c3acff0",
+      "title": "EVE Online: The Move to Python 3 Begins!",
+      "oneLiner": "EVE Online: The Move to Python 3 Begins! EVE Online has been one of the most interesting case studie",
+      "summary": {
+        "oneSentence": "EVE Online: The Move to Python 3 Begins! EVE Online has been one of the most interesting case studies in Python at scale",
+        "bullets": [
+          "EVE Online: The Move to Python 3 Begins! EVE Online has been one of the most interesting case studies in Python at scale for over twenty years now. They've been running on Stackless Python since their"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "EVE Online: The Move to Python 3 Begins! EVE Online has been one of the most interesting case studies in Python at scale for over twenty years now. They've been running on Stackless Python since their launch in 2003, and their last major upgrade was 16 years ago, to Stackless Python 2.7 in 2010 . Their upgrade to Python 3 will start using the futurize script against 2.4 million lines of code, followed by careful manual review of the ~20,000 places where Python 2 and 3 behavior differ - for example 1 / 2 is 0 in Python 2 but is 0.5 in Python 3. There's nothing in this announcement about how they plan to replace Stackless, but at their conference last year they presented Scheduling in Carbon: Leaving Stackless Python Behind describing how they replaced Stackless in the Carbon engine for their more recent game EVE Frontier, using their (now open source) carbonengine/scheduler library. Via Lobster.rs Tags: eve-online , migrations , python , python3 , stackless"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "EVE Online: The Move to Python 3 Begins!",
+      "originalLang": "en",
+      "date": "2026-08-25",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "EVE Online: The Move to Python 3 Begins!"
+      },
+      "raw": {
+        "title": "EVE Online: The Move to Python 3 Begins!",
+        "url": "https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/",
+        "fetched": false,
+        "savedAt": "2026-09-01T03:06:29.616Z"
       }
     },
     {
@@ -28546,80 +29328,6 @@
         "Memory 成标配",
         "隐私可控设计",
         "Agent 分水岭"
-      ]
-    },
-    {
-      "id": "cur-lovart-design",
-      "title": "Lovart 艺术 Agent：二次元与概念设计的 Agent 化探索",
-      "oneLiner": "Lovart 将风格模板 + Agent 对话结合，服务插画与二次元创作。",
-      "date": "2026-07-18",
-      "tags": [
-        "Image",
-        "Agent",
-        "Design"
-      ],
-      "categoryIds": [
-        "visual-image"
-      ],
-      "productIds": [
-        "lovart"
-      ],
-      "importance": {
-        "stars": 3,
-        "reason": "Atlas 已收录的国内视觉 Agent 样本",
-        "readMinutes": 3
-      },
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Lovart",
-        "author": "Lovart",
-        "url": "https://www.lovart.ai/",
-        "home": "https://www.lovart.ai/",
-        "lang": "zh",
-        "translated": true
-      },
-      "summary": {
-        "oneSentence": "Lovart 专注艺术向与二次元风格，提供模板化 Agent 创作流程。",
-        "bullets": [
-          "风格模板降低 prompt 门槛",
-          "角色/场景/光影分步描述",
-          "社区作品可复用"
-        ],
-        "audience": "插画师、二次元创作者",
-        "readMinutes": 3,
-        "keywords": [
-          "Lovart",
-          "Image Agent",
-          "Art"
-        ]
-      },
-      "insight": {
-        "mainInsight": "垂直视觉 Agent 的竞争力在「风格预设 + 社区」而非通用文生图。",
-        "whyNow": "通用模型（MJ/SD）已足够强，细分人群需要更懂语境的产品。",
-        "problem": "通用工具对二次元/国风等风格理解不足。",
-        "trend": "Vertical Visual Agent",
-        "differentiation": "与即梦、通义万相的「全能型」形成差异。",
-        "outlook": "视觉 Agent 将更多按行业/风格垂直切分。"
-      },
-      "learning": {
-        "whyImportant": "理解「通用视觉 AI」与「垂直视觉 Agent」的产品边界。",
-        "productDesign": "模板 + Agent 对话组合，是降低非英语用户门槛的有效策略。",
-        "relevance": "Image、Agent、Design。",
-        "actionItems": [
-          "试用 Lovart 风格模板",
-          "对比 Midjourney 英文 prompt 路径",
-          "查看 Atlas 视觉分类"
-        ]
-      },
-      "content": [
-        "Lovart 已在 Atlas 视听觉 Agent 分类中，适合作为「垂直视觉 Agent」的学习样本。",
-        "建议记录：它如何用 UI 引导用户分步描述角色、场景、光影，而非一次性长 prompt。"
-      ],
-      "highlights": [
-        "垂直视觉 Agent",
-        "模板降门槛",
-        "二次元场景"
       ]
     }
   ]
