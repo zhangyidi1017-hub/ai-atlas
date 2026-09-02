@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-01T03:07:02.807Z",
+  "updatedAt": "2026-09-02T02:27:48.554Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 385,
+  "itemCount": 394,
   "brief": {
-    "date": "2026-09-01",
-    "generatedAt": "2026-09-01T03:07:02.806Z",
-    "totalCount": 385,
+    "date": "2026-09-02",
+    "generatedAt": "2026-09-02T02:27:48.552Z",
+    "totalCount": 394,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 385 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 394 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -33,17 +33,17 @@
         "readMinutes": 4
       },
       {
-        "id": "cur-memory-agents",
-        "title": "Memory 成为 Agent 标配：从 ChatGPT 到 Cursor 的长期记忆竞赛",
-        "stars": 5,
-        "oneLiner": "2026 年 Agent 产品纷纷上线「跨会话记忆」，Memory 从功能变成基础设施。",
+        "id": "sig-66eabab697",
+        "title": "我们于 2026 年 8 月公布的最新 AI 新闻",
+        "stars": 4,
+        "oneLiner": "以下是我们自 8 月份以来的一些重大 AI 更新的回顾，包括发布 Gemini 3.7 Flash、Gemini 3.5 Transcribe 和全新 Pixel 11 系列设备。",
         "readMinutes": 5
       },
       {
-        "id": "sig-7bc3415714",
-        "title": "Polimill 打造日本下一代公共人工智能基础设施",
+        "id": "sig-dfd1ea2e55",
+        "title": "引入 Gemini 的代理视频理解",
         "stars": 4,
-        "oneLiner": "Polimill 使用 OpenAI GPT 模型和 Codex 帮助市政当局搜索和使用行政知识，同时加速开发。",
+        "oneLiner": "我们用于视频分析的新代理功能可将令牌消耗减少高达 88%，将成本降低高达 66%，并将质量提高高达 7%。",
         "readMinutes": 5
       }
     ],
@@ -52,9 +52,9 @@
         "cur-openai-agentkit",
         "cur-anthropic-mcp",
         "cur-cursor-agent",
-        "cur-memory-agents",
-        "sig-7bc3415714",
-        "sig-b12a69dbeb"
+        "sig-66eabab697",
+        "sig-dfd1ea2e55",
+        "sig-3b5f2688fe"
       ],
       "newReleases": [
         "sig-f30efa9be5",
@@ -70,11 +70,11 @@
         "cur-openai-agentkit",
         "cur-anthropic-mcp",
         "cur-cursor-agent",
-        "cur-memory-agents",
-        "sig-7bc3415714",
-        "sig-b12a69dbeb",
-        "sig-34d93c0361",
-        "sig-44f6116377"
+        "sig-66eabab697",
+        "sig-dfd1ea2e55",
+        "sig-3b5f2688fe",
+        "sig-77cd2a6a82",
+        "sig-82a2d37f4f"
       ],
       "emergingTrends": [
         "cur-openai-agentkit",
@@ -83,8 +83,7 @@
         "cur-perplexity-search",
         "cur-gemini-multimodal",
         "cur-tapnow-agent",
-        "cur-libtv-canvas",
-        "cur-memory-agents"
+        "cur-libtv-canvas"
       ],
       "newApis": [
         "cur-openai-agentkit",
@@ -114,12 +113,12 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-09-01T03:07:02.807Z",
+    "generatedAt": "2026-09-02T02:27:48.554Z",
     "summary": "近 30 天共 270 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
-        "signal": "近 30 天 5 条相关更新",
+        "signal": "近 30 天 4 条相关更新",
         "examples": [
           "无需代码仓库，也能从零开始 · Cursor",
           "云端智能体和 Cursor Harness 改进 · Cursor"
@@ -130,6 +129,90 @@
     "risingTags": []
   },
   "productUpdates": [
+    {
+      "id": "sig-66eabab697",
+      "title": "我们于 2026 年 8 月公布的最新 AI 新闻",
+      "oneLiner": "以下是我们自 8 月份以来的一些重大 AI 更新的回顾，包括发布 Gemini 3.7 Flash、Gemini 3.5 Transcribe 和全新 Pixel 11 系列设备。",
+      "date": "2026-09-01",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google AI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-dfd1ea2e55",
+      "title": "引入 Gemini 的代理视频理解",
+      "oneLiner": "我们用于视频分析的新代理功能可将令牌消耗减少高达 88%，将成本降低高达 66%，并将质量提高高达 7%。",
+      "date": "2026-09-01",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google DeepMind",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-3b5f2688fe",
+      "title": "AI原生企业如何将工作流程转化为运营能力",
+      "oneLiner": "Basis、Clay 和 Exa Labs 使用 AI 代理来改进入职、帐户管理和开发人员集成。看看企业领导者可以申请什么。",
+      "date": "2026-09-01",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-77cd2a6a82",
+      "title": "尝试 Google 图片：在 Google Workspace 中轻松创建和编辑图片",
+      "oneLiner": "以无与伦比的精度生成、优化和共同创建图像。此外，即将推出的 Workspace 集成将允许您直接在 Google 幻灯片、文档和云端硬盘中创建和编辑。",
+      "date": "2026-09-01",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google AI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-309be27bdc",
+      "title": "通往阿斯特拉之路：关键能力和边境保障",
+      "oneLiner": "Astra 是第一个满足准备框架下关键网络安全能力阈值的 OpenAI 模型，具有更强的发布保障。",
+      "date": "2026-09-01",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-50e05f9b47",
+      "title": "医疗保健组织现在可以将 EHR 和其他行业数据连接到 ChatGPT",
+      "oneLiner": "ChatGPT 现在可以连接到可信的医疗数据，帮助临床医生安全地访问患者背景、医学研究等。",
+      "date": "2026-09-01",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-631a857c7a",
+      "title": "Gilbert + Tobin 律师事务所如何通过 OpenAI 管理和扩展人工智能",
+      "oneLiner": "了解 Gilbert + Tobin 如何将首席执行官主导的承诺、严格的治理和人员责任相结合，在整个公司范围内扩展 ChatGPT Enterprise 和 Codex。",
+      "date": "2026-09-01",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
     {
       "id": "sig-7bc3415714",
       "title": "Polimill 打造日本下一代公共人工智能基础设施",
@@ -194,27 +277,27 @@
     },
     {
       "id": "sig-a13e39d4fa",
-      "title": "Gemini Omni 1.1 Flash lets you build with more control",
-      "oneLiner": "Gemini Omni 1.1 Flash lets you build with more control",
+      "title": "Gemini Omni 1.1 Flash 让您可以更好地控制构建",
+      "oneLiner": "Omni 现在提供工作室品质的视频制作，包括扩展场景、第一帧和最后一帧插值、清晰的 4K 升级、更快的原型制作等功能。",
       "date": "2026-08-27",
       "productIds": [
         "gemini"
       ],
       "source": "Google DeepMind",
       "tags": [],
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "sig-5a6b855292",
-      "title": "3 new ways to plan and book travel in Search",
-      "oneLiner": "Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search.",
+      "title": "在搜索中计划和预订旅行的 3 种新方式",
+      "oneLiner": "我们对搜索中人工智能模式的最新升级可以帮助您跟踪航班价格、查看积分或里程费率，并预订您的梦想酒店。",
       "date": "2026-08-27",
       "productIds": [
         "gemini"
       ],
       "source": "Google AI",
       "tags": [],
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "sig-d9b2bc36ff",
@@ -335,93 +418,819 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-9ad99bb5f4",
-      "title": "Jalapeo 的首批结果显示了人工智能推理行业领先的速度和效率",
-      "oneLiner": "Jalapeo 是 OpenAI 的定制推理芯片，可提供更快、更节能的 AI 推理，为现代模型提供更高的吞吐量和更低的延迟。",
-      "date": "2026-08-25",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-da55f7d7bd",
-      "title": "Disrupting a new covert influence campaign from Russia",
-      "oneLiner": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sover",
-      "date": "2026-08-25",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 3
-    },
-    {
-      "id": "sig-cfc376addf",
-      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
-      "oneLiner": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permi",
-      "date": "2026-08-25",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 3
-    },
-    {
-      "id": "sig-df01500376",
-      "title": "Advancing price-performance for developers with GPT‑5.6 in Kiro",
-      "oneLiner": "GPT‑5.6 is now available in Kiro, helping developers plan, build, review, and test software with bet",
-      "date": "2026-08-24",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 3
-    },
-    {
-      "id": "sig-06daba08af",
-      "title": "从 Atari 到 EVE Online：基于 15 年游戏人工智能研究",
-      "oneLiner": "从雅达利 (Atari) 到《星际争霸》(StarCraft)，游戏推动了人工智能领域的一些最大突破。现在，我们正在与游戏开发商合作，打造新的游戏体验原型，推动游戏和人工智能的发展。",
-      "date": "2026-08-21",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google DeepMind",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-027379c084",
-      "title": "介绍人工智能期货",
-      "oneLiner": "隆重推出 AI Futures，这是一个新的 OpenAI 博客，探讨变革性人工智能如何重塑权力、治理、经济和个人自由。",
-      "date": "2026-08-20",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-cb030de2dd",
-      "title": "Stampli 使用 ChatGPT Work 将启动时间缩短了 68%",
-      "oneLiner": "由于有固定的截止日期和在其他地方投入的设计资源，Stampli 使用 Codex 和 ChatGPT Work 将数周的发布生产压缩为数天。",
-      "date": "2026-08-20",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-66eabab697",
+      "title": "我们于 2026 年 8 月公布的最新 AI 新闻",
+      "oneLiner": "以下是我们自 8 月份以来的一些重大 AI 更新的回顾，包括发布 Gemini 3.7 Flash、Gemini 3.5 Transcribe 和全新 Pixel 11 系列设备。",
+      "summary": {
+        "oneSentence": "以下是我们自 8 月份以来的一些重大 AI 更新的回顾，包括发布 Gemini 3.7 Flash、Gemini 3.5 Transcribe 和全新 Pixel 11 系列设备。",
+        "bullets": [
+          "以下是我们自 8 月份以来的一些重大 AI 更新的回顾，包括发布 Gemini 3.7 Flash、Gemini 3.5 Transcribe 和全新 Pixel 11 系列设备。",
+          "您的浏览器不支持音频元素。",
+          "Google 2026 年 8 月的更新重点是通过 Pixel 11 系列等新硬件和 Gemini 3.7 Flash 等经济高效的型号使人工智能更加实用。您现在可以在 Gemini Live 中使用增强的生产力工具，访问面向学生的免费 AI 计划，并利用高级视频生成功能。立即探索这些新功能，看看它们如何简化您的日常任",
+          "20 多年来，我们投资于机器学习和人工智能研究、工具和基础设施，以打造让更多人的日常生活变得更美好的产品。 Google 的团队正在研究如何释放人工智能在医疗保健、危机应对和教育等广泛领域的优势。为了让您及时了解我们的进展，我们定期汇总 Google 的最新人工智能新闻。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 4,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google AI 官网发布：以下是我们自 8 月份以来的一些重大 AI 更新的回顾，包括发布 Gemini 3.7 Flash、Gemini 3.5 Transcribe 和全新 Pixel 11 系列设备。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "以下是我们自 8 月份以来的一些重大 AI 更新的回顾，包括发布 Gemini 3.7 Flash、Gemini 3.5 Transcribe 和全新 Pixel 11 系列设备。",
+        "您的浏览器不支持音频元素。",
+        "Google 2026 年 8 月的更新重点是通过 Pixel 11 系列等新硬件和 Gemini 3.7 Flash 等经济高效的型号使人工智能更加实用。您现在可以在 Gemini Live 中使用增强的生产力工具，访问面向学生的免费 AI 计划，并利用高级视频生成功能。立即探索这些新功能，看看它们如何简化您的日常任务和创意项目。",
+        "20 多年来，我们投资于机器学习和人工智能研究、工具和基础设施，以打造让更多人的日常生活变得更美好的产品。 Google 的团队正在研究如何释放人工智能在医疗保健、危机应对和教育等广泛领域的优势。为了让您及时了解我们的进展，我们定期汇总 Google 的最新人工智能新闻。",
+        "以下是我们 8 月份发布的一些人工智能公告的回顾。",
+        "8 月份，我们继续以负责任的方式推进人工智能的发展，使其对每个人（从软件开发人员和学生到创意人员和科学家）来说更快、更容易使用且真正实用。我们通过 Pixel 11 系列专为 Gemini 设计的强大新硬件、Gemini 3.7 Flash 等经济高效的开发者模型、在 Android 版 Chrome 中推出 Gemini 以及 Google Workspace 和 Gemini Live 中的免提语音工具，将智能直接带入人们的工作和生活场所。随着 Gemini 应用正式突破 10 亿月度用户，我们还扩大了我们的创意和科学足迹，引入了工作室品质的视频和音乐生成以及可预测天气模式和应对气候挑战的开源人工智能模型。总体而言，八月标志着人工智能的转变，它不仅在理论上强大，而且在日常现实中也很有用。",
+        "使用 Gemini 3.7 Flash 以更低的成本构建更好的代理。我们发布了 Gemini 3.7 Flash，作为我们迄今为止最智能的编码和代理模型。它在我们推出 3.6 Flash 后仅三周就发布了，在软件工程、知识工作和 Web 开发工作流程方面带来了重大改进 - 入门价格是原始 3.6 Flash 每百万代币成本的一半。",
+        "尝试专为 Gemini Intelligence 设计的全新 Pixel 11 系列。在 Made by Google 2026 上，我们推出了 Pixel 11、Pixel 11 Pro、Pixel 11 Pro XL 和 Pixel 11 Pro Fold。这些设备配备了主要的相机升级、增强的耐用性以及我们最快、最强大的芯片 Google Tensor G6，该芯片运行最新的 Gemini Nano 型号。 1 它们还专为 Gemini Intelligence 提供省时的个人帮助而设计。 2 查看 Made by Google 2026 的所有公告。",
+        "从我们的双子座一年开始新学期。我们为世界各地符合条件的大学生免费提供一年的 Google AI 计划，以及新的和增强的学习工具，以便学生可以充分利用本学年。我们还提供了一些工具来帮助教师和学生返回学校，包括专门的学生中心、新的教师主导工具以及 Gemini 中的 SAT 准备工具。",
+        "通过搜索提升您的学习水平。为了帮助您充满信心地开始新学期，我们在搜索中添加了新的人工智能驱动的学习功能——所有这些功能都是为了安全而设计的。通过这些更新，Search 可以帮助您通过交互式视觉效果掌握复杂的概念，为 SAT、ACT、GRE 和 LSAT 等考试生成练习测验，使用 Lens 逐步学习，并使用笔记本保持井井有条。"
+      ],
+      "highlights": [
+        "以下是我们自 8 月份以来的一些重大 AI 更新的回顾，包括发布 Gemini 3.7 Flash、Gemini 3.5 Transcribe 和全新 Pixe",
+        "您的浏览器不支持音频元素。",
+        "Google 2026 年 8 月的更新重点是通过 Pixel 11 系列等新硬件和 Gemini 3.7 Flash 等经济高效的型号使人工智能更加实用。您现"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "The latest AI news we announced in August 2026",
+      "originalLang": "en",
+      "date": "2026-09-01",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "The latest AI news we announced in August 2026"
+      },
+      "raw": {
+        "title": "The latest AI news we announced in August 2026",
+        "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
+        "fetched": true,
+        "savedAt": "2026-09-02T02:26:25.671Z"
+      }
+    },
+    {
+      "id": "sig-dfd1ea2e55",
+      "title": "引入 Gemini 的代理视频理解",
+      "oneLiner": "我们用于视频分析的新代理功能可将令牌消耗减少高达 88%，将成本降低高达 66%，并将质量提高高达 7%。",
+      "summary": {
+        "oneSentence": "我们用于视频分析的新代理功能可将令牌消耗减少高达 88%，将成本降低高达 66%，并将质量提高高达 7%。",
+        "bullets": [
+          "我们用于视频分析的新代理功能可将令牌消耗减少高达 88%，将成本降低高达 66%，并将质量提高高达 7%。",
+          "您的浏览器不支持音频元素。",
+          "Google 刚刚推出了针对 Gemini 3.7 Flash、3.6 Flash 和 3.5 Flash-Lite 的代理视频理解功能。此功能允许模型动态扫描视频片段，从而提高准确性，同时将令牌使用量减少高达 88%，成本减少高达 66%。您今天可以通过在 Google AI Studio 或 Gemini Ente",
+          "今天，我们在最新型号上推出了代理视频理解功能：Gemini 3.7 Flash、3.6 Flash 和 3.5 Flash-Lite。这项新功能提高了准确性，同时大大减少了视频分析的令牌使用量和成本。与将代码执行与 Gemini 模型的本机图像理解相结合的代理视觉类似，代理视频理解使用 Gemini 的本机视频工具来提"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google DeepMind 官网发布：我们用于视频分析的新代理功能可将令牌消耗减少高达 88%，将成本降低高达 66%，并将质量提高高达 7%。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://deepmind.google/blog/introducing-agentic-video-in-gemini/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "我们用于视频分析的新代理功能可将令牌消耗减少高达 88%，将成本降低高达 66%，并将质量提高高达 7%。",
+        "您的浏览器不支持音频元素。",
+        "Google 刚刚推出了针对 Gemini 3.7 Flash、3.6 Flash 和 3.5 Flash-Lite 的代理视频理解功能。此功能允许模型动态扫描视频片段，从而提高准确性，同时将令牌使用量减少高达 88%，成本减少高达 66%。您今天可以通过在 Google AI Studio 或 Gemini Enterprise Agent Platform 中将 API 配置设置为“agentic”来开始使用此功能。",
+        "今天，我们在最新型号上推出了代理视频理解功能：Gemini 3.7 Flash、3.6 Flash 和 3.5 Flash-Lite。这项新功能提高了准确性，同时大大减少了视频分析的令牌使用量和成本。与将代码执行与 Gemini 模型的本机图像理解相结合的代理视觉类似，代理视频理解使用 Gemini 的本机视频工具来提高性能并解锁视频处理的新功能，例如亚秒级时刻检索、更准确的异常检测、精确计数等。",
+        "该功能现已推出，可通过 Google AI Studio 和 Gemini Enterprise Agent Platform 中的 Gemini API 上传视频和 YouTube 视频。",
+        "与当前的“静态”处理不同，模型以固定的每秒帧速率（默认 1 FPS，可通过 API 调整）摄取视频，代理视频理解将模型的核心推理与本机视频工具配对，以动态搜索、扫描和检查跨视觉帧、音频和文字记录的目标视频片段。在标准视频分析基准中，具有代理视频理解功能的 Gemini 模型可将分析成本降低高达 66%，将令牌消耗降低高达 88%，同时将准确性提高高达 7%。",
+        "这些效率提升在长视频（从 10 分钟的操作指南到 90 分钟的讲座和多小时的录音）上尤其明显，其中静态处理迫使开发人员在高令牌成本或放弃关键细节的技术之间做出选择。",
+        "使用 Gemini 3.7 Flash 激活代理视频理解可将令牌消耗降低高达 88%，并将准确性提高高达 7%。",
+        "虽然这些收益涵盖了所有三种受支持的模型，但具有代理理解功能的 Gemini 3.7 Flash 提供了尽可能最佳的整体质量以及质量和成本效率的最佳组合，使其在视频理解测试模型中处于准确性与成本帕累托前沿。",
+        "使用代理视频理解将 Gemini 3.7 Flash 置于视频分析的准确性与成本帕累托前沿。"
+      ],
+      "highlights": [
+        "我们用于视频分析的新代理功能可将令牌消耗减少高达 88%，将成本降低高达 66%，并将质量提高高达 7%。",
+        "您的浏览器不支持音频元素。",
+        "Google 刚刚推出了针对 Gemini 3.7 Flash、3.6 Flash 和 3.5 Flash-Lite 的代理视频理解功能。此功能允许模型动态扫描"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Introducing agentic video understanding with Gemini",
+      "originalLang": "en",
+      "date": "2026-09-01",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google DeepMind",
+        "author": "DeepMind",
+        "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+        "home": "https://deepmind.google/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Introducing agentic video understanding with Gemini"
+      },
+      "raw": {
+        "title": "Introducing agentic video understanding with Gemini",
+        "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
+        "fetched": true,
+        "savedAt": "2026-09-02T02:26:32.186Z"
+      }
+    },
+    {
+      "id": "sig-3b5f2688fe",
+      "title": "AI原生企业如何将工作流程转化为运营能力",
+      "oneLiner": "Basis、Clay 和 Exa Labs 使用 AI 代理来改进入职、帐户管理和开发人员集成。看看企业领导者可以申请什么。",
+      "summary": {
+        "oneSentence": "Basis、Clay 和 Exa Labs 使用 AI 代理来改进入职、帐户管理和开发人员集成。看看企业领导者可以申请什么。",
+        "bullets": [
+          "Basis、Clay 和 Exa Labs 使用 AI 代理来改进入职、帐户管理和开发人员集成。看看企业领导者可以申请什么。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：Basis、Clay 和 Exa Labs 使用 AI 代理来改进入职、帐户管理和开发人员集成。看看企业领导者可以申请什么。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/ai-native-company-workflows"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Basis、Clay 和 Exa Labs 使用 AI 代理来改进入职、帐户管理和开发人员集成。看看企业领导者可以申请什么。"
+      ],
+      "highlights": [
+        "Basis、Clay 和 Exa Labs 使用 AI 代理来改进入职、帐户管理和开发人员集成。看看企业领导者可以申请什么。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How AI-native companies turn workflows into operating capability",
+      "originalLang": "en",
+      "date": "2026-09-01",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/ai-native-company-workflows",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How AI-native companies turn workflows into operating capability"
+      },
+      "raw": {
+        "title": "How AI-native companies turn workflows into operating capability",
+        "url": "https://openai.com/index/ai-native-company-workflows",
+        "fetched": false,
+        "savedAt": "2026-09-02T02:26:33.521Z"
+      }
+    },
+    {
+      "id": "sig-77cd2a6a82",
+      "title": "尝试 Google 图片：在 Google Workspace 中轻松创建和编辑图片",
+      "oneLiner": "以无与伦比的精度生成、优化和共同创建图像。此外，即将推出的 Workspace 集成将允许您直接在 Google 幻灯片、文档和云端硬盘中创建和编辑。",
+      "summary": {
+        "oneSentence": "以无与伦比的精度生成、优化和共同创建图像。此外，即将推出的 Workspace 集成将允许您直接在 Google 幻灯片、文档和云端硬盘中创建和编辑。",
+        "bullets": [
+          "以无与伦比的精度生成、优化和共同创建图像。此外，即将推出的 Workspace 集成将允许您直接在 Google 幻灯片、文档和云端硬盘中创建和编辑。",
+          "您的浏览器不支持音频元素。",
+          "谷歌刚刚推出了一款名为 Google Pics 的新工具，它使用人工智能来帮助您创建和编辑图像。您可以使用它来发布社交媒体帖子或修复插图，而无需成为专业人士。它直接内置于文档和幻灯片等应用程序中，因此您无需切换选项卡即可完成工作。您甚至可以与朋友组队一起编辑同一张图像。",
+          "Google Pics——我们来自 Google Workspace 的图像创建和编辑工具——将在未来几周内向所有 Google AI Pro 和 Ultra 订阅者以及大多数 Workspace 企业客户推出。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google AI 官网发布：以无与伦比的精度生成、优化和共同创建图像。此外，即将推出的 Workspace 集成将允许您直接在 Google 幻灯片、文档和云端硬盘中创建和编辑。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://blog.google/products-and-platforms/products/workspace/google-pics/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "以无与伦比的精度生成、优化和共同创建图像。此外，即将推出的 Workspace 集成将允许您直接在 Google 幻灯片、文档和云端硬盘中创建和编辑。",
+        "您的浏览器不支持音频元素。",
+        "谷歌刚刚推出了一款名为 Google Pics 的新工具，它使用人工智能来帮助您创建和编辑图像。您可以使用它来发布社交媒体帖子或修复插图，而无需成为专业人士。它直接内置于文档和幻灯片等应用程序中，因此您无需切换选项卡即可完成工作。您甚至可以与朋友组队一起编辑同一张图像。",
+        "Google Pics——我们来自 Google Workspace 的图像创建和编辑工具——将在未来几周内向所有 Google AI Pro 和 Ultra 订阅者以及大多数 Workspace 企业客户推出。",
+        "Pics 基于我们的 Nano Banana 图像生成和编辑模型而构建，无论您是设计海报、制作社交媒体帖子还是编辑数字插图，Pics 都能为您提供创建任何您想象的内容所需的控制。 Google Pics 将既是一个独立的产品，又会集成到 Workspace 应用程序中，从幻灯片、文档和云端硬盘开始，这样您就可以在已经工作的地方编辑图像。",
+        "Google Pics 包含一套经过微调的编辑功能，可让您生成图像并进行精确编辑，而不是从头开始。以下是您可以期待的一些功能：",
+        "观看如何使用 Google 图片中强大的编辑控件即时创建和优化自定义图形。",
+        "使用 Google 图片轻松设计和微调引人注目的社交媒体内容和数字公告。",
+        "每月有数百万用户通过 Workspace 产品与数十亿张图像进行交互。为了让这种体验更加无缝，我们将 Google 图片直接引入您已经使用的工具中。您不必在应用程序之间跳转来创建和共享视觉效果。现在，您可以随时随地利用强大的 AI 图像生成和编辑功能，无需复制、粘贴或切换选项卡。",
+        "了解如何在工作区应用程序（例如幻灯片、文档和即将推出的云端硬盘）中无缝编辑图像和产品模型，而无需切换选项卡。"
+      ],
+      "highlights": [
+        "以无与伦比的精度生成、优化和共同创建图像。此外，即将推出的 Workspace 集成将允许您直接在 Google 幻灯片、文档和云端硬盘中创建和编辑。",
+        "您的浏览器不支持音频元素。",
+        "谷歌刚刚推出了一款名为 Google Pics 的新工具，它使用人工智能来帮助您创建和编辑图像。您可以使用它来发布社交媒体帖子或修复插图，而无需成为专业人士。它"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Try Google Pics: Easy image creation and editing in Google Workspace",
+      "originalLang": "en",
+      "date": "2026-09-01",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Try Google Pics: Easy image creation and editing in Google Workspace"
+      },
+      "raw": {
+        "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
+        "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+        "fetched": true,
+        "savedAt": "2026-09-02T02:26:42.520Z"
+      }
+    },
+    {
+      "id": "sig-82a2d37f4f",
+      "title": "构建背后：Figma 的生成插件和着色器 | Figma 博客",
+      "oneLiner": "从今天开始，您将对生成插件和着色器有更多的创造性控制，以及与社区分享您所做的事情的方式。产品设计师 Rogie King 讲述了我们如何走到这一步的故事。",
+      "summary": {
+        "oneSentence": "从今天开始，您将对生成插件和着色器有更多的创造性控制，以及与社区分享您所做的事情的方式。产品设计师 Rogie King 讲述了我们如何走到这一步的故事。",
+        "bullets": [
+          "从今天开始，您将对生成插件和着色器有更多的创造性控制，以及与社区分享您所做的事情的方式。产品设计师 Rogie King 讲述了我们如何走到这一步的故事。",
+          "我们带来了 Figma 设计代理的生成插件和着色器，现在还提供自定义工具和更大的上下文提示，让您可以开始使用。定制工具、真实背景和技能让设计代理走得更远——因此画布上的最终效果实际上看起来就像你一样。",
+          "Figma 的 MCP 服务器将您的设计决策带入编写代码的工具中，因此构建的内容实际上与设计的内容相匹配。以下是每个构建产品的人可以解锁的东西。",
+          "这些更新是现在构建的缩影：与人工智能合作，在设计和代码之间流畅地移动，并在画布上一起工作。我想分享我们如何推出生成插件和着色器的故事，因为构建和交付这一愿景可以让我们了解设计现在的状况。以下是我们如何将这个想法付诸实践，将合适的团队聚集在一起，并做出比我们任何人单独都能完成的更大的事情。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Figma 官网发布：从今天开始，您将对生成插件和着色器有更多的创造性控制，以及与社区分享您所做的事情的方式。产品设计师 Rogie King 讲述了我们如何走到这一步的故事。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://www.figma.com/blog/how-we-built-generative-plugins-and-shaders/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "从今天开始，您将对生成插件和着色器有更多的创造性控制，以及与社区分享您所做的事情的方式。产品设计师 Rogie King 讲述了我们如何走到这一步的故事。",
+        "我们带来了 Figma 设计代理的生成插件和着色器，现在还提供自定义工具和更大的上下文提示，让您可以开始使用。定制工具、真实背景和技能让设计代理走得更远——因此画布上的最终效果实际上看起来就像你一样。",
+        "Figma 的 MCP 服务器将您的设计决策带入编写代码的工具中，因此构建的内容实际上与设计的内容相匹配。以下是每个构建产品的人可以解锁的东西。",
+        "这些更新是现在构建的缩影：与人工智能合作，在设计和代码之间流畅地移动，并在画布上一起工作。我想分享我们如何推出生成插件和着色器的故事，因为构建和交付这一愿景可以让我们了解设计现在的状况。以下是我们如何将这个想法付诸实践，将合适的团队聚集在一起，并做出比我们任何人单独都能完成的更大的事情。",
+        "在较高的层面上，着色器可让您在 Figma Design 中直观地操作图层，无论是作为填充还是效果。它们是非常强大的 GPU 程序，可以实时弯曲和改变像素。 2022 年，我构建了噪声和纹理插件，将这种魔力带到了画布上，但没有进一步集成的途径。",
+        "如果您想深入了解着色器的工作原理，Dan Hollick 在“制作软件”中的章节和 Patricio Gonzales 的交互式“着色器之书”都是很好的资源。",
+        "多年来我一直痴迷于将着色器的强大功能引入 Figma。但直到最近，法学硕士才让我更容易地展示（而不仅仅是“讲述”）我的愿景。首先，我编写了一个行为类似于 Figma 的 WebGPU 环境，您可以在其中将着色器效果添加到画布上的任何图层，包括矢量、3D 图层，甚至粒子系统。我专注于构建三个关键的东西：",
+        "虽然我们花了几个月的时间在 Figma Draw 中构建渐进式模糊，但用 Figma Draw 自己表达 Figma Draw 将更快、更简单的矢量编辑与强大的视觉表达工具结合在一起，因此各种类型的设计师都可以在不中断焦点的情况下将他们的愿景变为现实。",
+        "具有 2D 后处理流体位移着色器的 3D 嵌入式对象 在我的 WebGPU 环境中通过鼠标交互和物理提示进行布料模拟 我的第一个在渐变填充上提示着色器效果的原型之一 基于粒子引擎的提示 WebGPU 计算着色器 组建合适的团队 我向渲染和动画工程师 Yassir Solomah 求助，并提出了我的问题：这真的有效吗？我是否以正确的方式接近它？这辆坦克在 Figma 中有表现吗？毕竟，WebGPU 画布应用程序的 vivi 编码近似值与企业规模、平铺渲染的真实事物相去甚远。 （尝试制作一个高性能的无限画布。这看似具有挑战性，在网络上构建专业的设计工具我们对设计工具未来的愿景是任何人、任何地方都可以轻松使用工具和内容。",
+        "值得庆幸的是，Yassir 加入了。我们拆掉了 WebGL 2 片段着色器系统，并将其替换为 WebGPU 管道系统，因此着色器可以成为微型程序：渲染 3D 对象，并应用基于鼠标位置和时间的逻辑来控制图层内的视觉效果。通过这种架构，我们可以将图形生成脚本隔离在自己的沙箱中，同时充分利用 WebGPU 的强大功能。这意味着更安全的用户运行脚本、逻辑、粒子系统、计算着色器、3D 支持等。"
+      ],
+      "highlights": [
+        "从今天开始，您将对生成插件和着色器有更多的创造性控制，以及与社区分享您所做的事情的方式。产品设计师 Rogie King 讲述了我们如何走到这一步的故事。",
+        "我们带来了 Figma 设计代理的生成插件和着色器，现在还提供自定义工具和更大的上下文提示，让您可以开始使用。定制工具、真实背景和技能让设计代理走得更远——因此",
+        "Figma 的 MCP 服务器将您的设计决策带入编写代码的工具中，因此构建的内容实际上与设计的内容相匹配。以下是每个构建产品的人可以解锁的东西。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Behind the Build: Generative Plugins and Shaders at Figma | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-09-01",
+      "categoryIds": [
+        "vertical-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/how-we-built-generative-plugins-and-shaders/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Behind the Build: Generative Plugins and Shaders at Figma | Figma Blog"
+      },
+      "raw": {
+        "title": "Behind the build: Generative plugins and shaders at Figma",
+        "url": "https://www.figma.com/blog/how-we-built-generative-plugins-and-shaders/",
+        "fetched": true,
+        "savedAt": "2026-09-02T02:26:53.635Z"
+      }
+    },
+    {
+      "id": "sig-309be27bdc",
+      "title": "通往阿斯特拉之路：关键能力和边境保障",
+      "oneLiner": "Astra 是第一个满足准备框架下关键网络安全能力阈值的 OpenAI 模型，具有更强的发布保障。",
+      "summary": {
+        "oneSentence": "Astra 是第一个满足准备框架下关键网络安全能力阈值的 OpenAI 模型，具有更强的发布保障。",
+        "bullets": [
+          "Astra 是第一个满足准备框架下关键网络安全能力阈值的 OpenAI 模型，具有更强的发布保障。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：Astra 是第一个满足准备框架下关键网络安全能力阈值的 OpenAI 模型，具有更强的发布保障。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/path-to-astra"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Astra 是第一个满足准备框架下关键网络安全能力阈值的 OpenAI 模型，具有更强的发布保障。"
+      ],
+      "highlights": [
+        "Astra 是第一个满足准备框架下关键网络安全能力阈值的 OpenAI 模型，具有更强的发布保障。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Path to Astra: critical capabilities and frontier safeguards",
+      "originalLang": "en",
+      "date": "2026-09-01",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/path-to-astra",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Path to Astra: critical capabilities and frontier safeguards"
+      },
+      "raw": {
+        "title": "Path to Astra: critical capabilities and frontier safeguards",
+        "url": "https://openai.com/index/path-to-astra",
+        "fetched": false,
+        "savedAt": "2026-09-02T02:26:54.903Z"
+      }
+    },
+    {
+      "id": "sig-50e05f9b47",
+      "title": "医疗保健组织现在可以将 EHR 和其他行业数据连接到 ChatGPT",
+      "oneLiner": "ChatGPT 现在可以连接到可信的医疗数据，帮助临床医生安全地访问患者背景、医学研究等。",
+      "summary": {
+        "oneSentence": "ChatGPT 现在可以连接到可信的医疗数据，帮助临床医生安全地访问患者背景、医学研究等。",
+        "bullets": [
+          "ChatGPT 现在可以连接到可信的医疗数据，帮助临床医生安全地访问患者背景、医学研究等。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：ChatGPT 现在可以连接到可信的医疗数据，帮助临床医生安全地访问患者背景、医学研究等。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "ChatGPT 现在可以连接到可信的医疗数据，帮助临床医生安全地访问患者背景、医学研究等。"
+      ],
+      "highlights": [
+        "ChatGPT 现在可以连接到可信的医疗数据，帮助临床医生安全地访问患者背景、医学研究等。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "originalLang": "en",
+      "date": "2026-09-01",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT"
+      },
+      "raw": {
+        "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+        "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+        "fetched": false,
+        "savedAt": "2026-09-02T02:26:56.170Z"
+      }
+    },
+    {
+      "id": "sig-04abefa53c",
+      "title": "任意形状的计算",
+      "oneLiner": "现在，迭代速度由您配置应用程序或代理所需的计算机的速度决定。",
+      "summary": {
+        "oneSentence": "现在，迭代速度由您配置应用程序或代理所需的计算机的速度决定。",
+        "bullets": [
+          "现在，迭代速度由您配置应用程序或代理所需的计算机的速度决定。",
+          "工作负载的不同之处在于它们运行的​​时间长短、占用的内存量以及它们控制的环境量。以前这意味着每个作业都有不同的计算原语，因此产品迭代需要配置基础设施，而不仅仅是处理某个功能。",
+          "我们构建了 Vercel，这样您就不会遇到任何问题。计算层是一个任务简单的单一系统。承担任何工作负载，组装所需的机器，即时交换配置，并实时吸收突发容量。",
+          "首先在其上运行构建，然后是沙箱，现在是函数。如果您使用 Vercel 进行发货，那么您在不知不觉中就已经使用了 Fluid。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：现在，迭代速度由您配置应用程序或代理所需的计算机的速度决定。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/fluid-compute-takes-any-shape"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "现在，迭代速度由您配置应用程序或代理所需的计算机的速度决定。",
+        "工作负载的不同之处在于它们运行的​​时间长短、占用的内存量以及它们控制的环境量。以前这意味着每个作业都有不同的计算原语，因此产品迭代需要配置基础设施，而不仅仅是处理某个功能。",
+        "我们构建了 Vercel，这样您就不会遇到任何问题。计算层是一个任务简单的单一系统。承担任何工作负载，组装所需的机器，即时交换配置，并实时吸收突发容量。",
+        "首先在其上运行构建，然后是沙箱，现在是函数。如果您使用 Vercel 进行发货，那么您在不知不觉中就已经使用了 Fluid。",
+        "流体计算现在每天运行超过 1500 万个构建，每周运行 2500 万个沙箱，每月运行 1 万亿个请求。",
+        "将链接复制到标题计算的历史过去，更改机器意味着手动更改它。你去电脑商店买了一个硬盘或一条内存条，然后自己更换。",
+        "然后，您可以在需要时租用裸机，并用它来服务网站、托管数据库或发送电子邮件。",
+        "然后，云可以让你请求一台具有任何你想要的配置的机器，选择它的操作系统，使用它，并在完成后将其扔掉。",
+        "对于代理商来说，即使是云端也太慢了。标准虚拟机的配置速度不够快，无法跟上其工作方式，但这正是 Fluid 的优势所在。",
+        "将链接复制到标题工作负载如何在 Fluid 上运行当工作负载进入时，Fluid 会组装一台机器以适应其形状。如果代理需要运行代码，Hive 会提供一个隔离的虚拟机，通常是一个已经预热的虚拟机，因此它可以立即准备就绪。您自己的映像作为环境在顶部启动。驱动器连接后，您的文件就位于您离开的位置，因为存储从未与计算机绑定。"
+      ],
+      "highlights": [
+        "现在，迭代速度由您配置应用程序或代理所需的计算机的速度决定。",
+        "工作负载的不同之处在于它们运行的​​时间长短、占用的内存量以及它们控制的环境量。以前这意味着每个作业都有不同的计算原语，因此产品迭代需要配置基础设施，而不仅仅是",
+        "我们构建了 Vercel，这样您就不会遇到任何问题。计算层是一个任务简单的单一系统。承担任何工作负载，组装所需的机器，即时交换配置，并实时吸收突发容量。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Compute that takes any shape",
+      "originalLang": "en",
+      "date": "2026-09-01",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/fluid-compute-takes-any-shape",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Compute that takes any shape"
+      },
+      "raw": {
+        "title": "Compute that takes any shape",
+        "url": "https://vercel.com/blog/fluid-compute-takes-any-shape",
+        "fetched": true,
+        "savedAt": "2026-09-02T02:27:01.889Z"
+      }
+    },
+    {
+      "id": "sig-631a857c7a",
+      "title": "Gilbert + Tobin 律师事务所如何通过 OpenAI 管理和扩展人工智能",
+      "oneLiner": "了解 Gilbert + Tobin 如何将首席执行官主导的承诺、严格的治理和人员责任相结合，在整个公司范围内扩展 ChatGPT Enterprise 和 Codex。",
+      "summary": {
+        "oneSentence": "了解 Gilbert + Tobin 如何将首席执行官主导的承诺、严格的治理和人员责任相结合，在整个公司范围内扩展 ChatGPT Enterprise 和 Codex。",
+        "bullets": [
+          "了解 Gilbert + Tobin 如何将首席执行官主导的承诺、严格的治理和人员责任相结合，在整个公司范围内扩展 ChatGPT Enterprise 和 Codex。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：了解 Gilbert + Tobin 如何将首席执行官主导的承诺、严格的治理和人员责任相结合，在整个公司范围内扩展 ChatGPT Enterprise 和 Codex。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/gilbert-tobin"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "了解 Gilbert + Tobin 如何将首席执行官主导的承诺、严格的治理和人员责任相结合，在整个公司范围内扩展 ChatGPT Enterprise 和 Codex。"
+      ],
+      "highlights": [
+        "了解 Gilbert + Tobin 如何将首席执行官主导的承诺、严格的治理和人员责任相结合，在整个公司范围内扩展 ChatGPT Enterprise 和 C"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+      "originalLang": "en",
+      "date": "2026-09-01",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/gilbert-tobin",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How law firm Gilbert + Tobin governs and scales AI with OpenAI"
+      },
+      "raw": {
+        "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
+        "url": "https://openai.com/index/gilbert-tobin",
+        "fetched": false,
+        "savedAt": "2026-09-02T02:27:03.159Z"
+      }
+    },
+    {
+      "id": "sig-a1abafa8de",
+      "title": "《克劳德寓言 5.1》现已在 AI Gateway 上推出 - Vercel",
+      "oneLiner": "Anthropic 的 Claude Fable 5.1 现已在 AI Gateway 上提供。",
+      "summary": {
+        "oneSentence": "Anthropic 的 Claude Fable 5.1 现已在 AI Gateway 上提供。",
+        "bullets": [
+          "Anthropic 的 Claude Fable 5.1 现已在 AI Gateway 上提供。",
+          "与之前的 Claude 模型相比，Fable 5.1 的改进集中在长期、多阶段的工作上，例如代理编码、知识工作和需要多轮搜索和跟进的研究。",
+          "Anthropic 发布了《神鬼寓言 5.1》，启用了网络安全和生物安全分类器。允许在源代码中查找漏洞，但某些常规编码和调试仍可能被拒绝。为了确保在安全分类器被触发时请求仍然得到服务，请使用模型回退。",
+          "将模型数组添加到providerOptions.gateway，列出要尝试的模型。 AI Gateway 首先将请求发送到 Fable 5.1，如果 Anthropic 拒绝，则按顺序处理数组并返回第一个成功的模型的响应："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Anthropic 的 Claude Fable 5.1 现已在 AI Gateway 上提供。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/claude-fable-5-1-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Anthropic 的 Claude Fable 5.1 现已在 AI Gateway 上提供。",
+        "与之前的 Claude 模型相比，Fable 5.1 的改进集中在长期、多阶段的工作上，例如代理编码、知识工作和需要多轮搜索和跟进的研究。",
+        "Anthropic 发布了《神鬼寓言 5.1》，启用了网络安全和生物安全分类器。允许在源代码中查找漏洞，但某些常规编码和调试仍可能被拒绝。为了确保在安全分类器被触发时请求仍然得到服务，请使用模型回退。",
+        "将模型数组添加到providerOptions.gateway，列出要尝试的模型。 AI Gateway 首先将请求发送到 Fable 5.1，如果 Anthropic 拒绝，则按顺序处理数组并返回第一个成功的模型的响应：",
+        "API 克劳德代码 Hermes API API 克劳德代码 克劳德代码 Hermes Hermes 1 import {streamText } from 'ai' ; 2 3 const result = streamText ( { 4 model : 'anthropic/claude-fable-5.1' , 5prompt : '总结本季度报告并列出主要风险。' , 6providerOptions : { 7 gateway : { 8models : [ 'anthropic/claude-opus-5' , 'anthropic/claude-sonnet-5' ] , 9 } , 10 } , 11 } );代理副本 查看模型详细信息 ↗ 如果触发安全分类器，此请求将回退到 Opus 5，然后是 Sonnet 5。相同的模型选项适用于每种 AI Gateway API 格式，包括聊天完成、消息和 OpenAI 响应。",
+        "要在编码代理中使用它，请参阅编码代理指南 ，然后运行 ​​vercel ai-gatewaycoding-agents setup 以连接 Claude Code、Codex、OpenCode、Cursor、Pi 等代理，并在代理内选择 anthropic/claude-fable-5.1。",
+        "Anthropic 不支持《神鬼寓言 5.1》的零数据保留。提示和完成会保留 30 天，不会用于培训 Claude。",
+        "您可以查看AI网关上所有可用的语言模型。"
+      ],
+      "highlights": [
+        "Anthropic 的 Claude Fable 5.1 现已在 AI Gateway 上提供。",
+        "与之前的 Claude 模型相比，Fable 5.1 的改进集中在长期、多阶段的工作上，例如代理编码、知识工作和需要多轮搜索和跟进的研究。",
+        "Anthropic 发布了《神鬼寓言 5.1》，启用了网络安全和生物安全分类器。允许在源代码中查找漏洞，但某些常规编码和调试仍可能被拒绝。为了确保在安全分类器被"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Claude Fable 5.1 now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-09-01",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/claude-fable-5-1-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Claude Fable 5.1 now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Claude Fable 5.1 now available on AI Gateway",
+        "url": "https://vercel.com/changelog/claude-fable-5-1-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-09-02T02:27:09.491Z"
+      }
+    },
     {
       "id": "sig-7bc3415714",
       "title": "Polimill 打造日本下一代公共人工智能基础设施",
@@ -1726,19 +2535,22 @@
     },
     {
       "id": "sig-d767e552b1",
-      "title": "Build and deploy eve agents from the Vercel dashboard",
-      "oneLiner": "You can now create eve agents directly from the Vercel dashboard, giving you a deployed agent that y",
+      "title": "从 Vercel 仪表板构建和部署 eve 代理 - Vercel",
+      "oneLiner": "您现在可以直接从 Vercel 仪表板创建 eve 代理，为您提供一个可以立即与之聊天的已部署代理。构建器搭建代理的支架，创建包含其文件的私有 Git 存储库，并将其部署为团队中的新 Vercel 项目。只需单击几下，您就可以获得一个工作代",
       "summary": {
-        "oneSentence": "You can now create eve agents directly from the Vercel dashboard, giving you a deployed agent that you can chat with rig",
+        "oneSentence": "您现在可以直接从 Vercel 仪表板创建 eve 代理，为您提供一个可以立即与之聊天的已部署代理。构建器搭建代理的支架，创建包含其文件的私有 Git 存储库，并将其部署为团队中的新 Vercel 项目。只需单击几下，您就可以获得一个工作代",
         "bullets": [
-          "You can now create eve agents directly from the Vercel dashboard, giving you a deployed agent that you can chat with right away. The builder scaffolds the agent, creates a private Git repository with "
+          "您现在可以直接从 Vercel 仪表板创建 eve 代理，为您提供一个可以立即与之聊天的已部署代理。构建器搭建代理的支架，创建包含其文件的私有 Git 存储库，并将其部署为团队中的新 Vercel 项目。只需单击几下，您就可以获得一个工作代理，该代理由存储库提供支持，其中包含可用于自定义它的代码。",
+          "编写定义代理身份的指令",
+          "选择通过 AI Gateway 可用的任何模型",
+          "添加 Next.js 网络聊天或 Slack 频道，人们可以在其中与代理交谈"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：您现在可以直接从 Vercel 仪表板创建 eve 代理，为您提供一个可以立即与之聊天的已部署代理。构建器搭建代理的支架，创建包含其文件的私有 Git 存储库，并将其部署为团队中的新 Vercel 项目。只需单击几下，您就可以获得一个工作代",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -1746,31 +2558,35 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://vercel.com/changelog/build-and-deploy-eve-agents-from-the-vercel-dashboard"
+          "阅读原文（英文）：https://vercel.com/changelog/build-and-deploy-eve-agents-from-the-vercel-dashboard"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "You can now create eve agents directly from the Vercel dashboard, giving you a deployed agent that you can chat with right away. The builder scaffolds the agent, creates a private Git repository with its files, and deploys it as a new Vercel project on your team. In a few clicks, you get a working agent, backed by a repo with code you can use to customize it.",
-        "Write the instructions that define the agent's identity",
-        "Pick any model available through AI Gateway",
-        "Add a Next.js web chat or Slack channel where people can talk to the agent",
-        "Give the agent tools and data from other services through built-in connections like Linear and Notion, or a custom MCP server",
-        "Select Add New → Agent in your dashboard to create your first agent .",
-        "Krish Krish , Allen Zhou , Colton Padden , Roman Olynyk , Casey Gowrie"
+        "您现在可以直接从 Vercel 仪表板创建 eve 代理，为您提供一个可以立即与之聊天的已部署代理。构建器搭建代理的支架，创建包含其文件的私有 Git 存储库，并将其部署为团队中的新 Vercel 项目。只需单击几下，您就可以获得一个工作代理，该代理由存储库提供支持，其中包含可用于自定义它的代码。",
+        "编写定义代理身份的指令",
+        "选择通过 AI Gateway 可用的任何模型",
+        "添加 Next.js 网络聊天或 Slack 频道，人们可以在其中与代理交谈",
+        "通过 Linear 和 Notion 等内置连接或自定义 MCP 服务器为代理提供来自其他服务的工具和数据",
+        "在仪表板中选择添加新→代理以创建您的第一个代理。",
+        "克里什·克里什、周艾伦、科尔顿·帕登、罗曼·奥利尼克、凯西·高里"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "您现在可以直接从 Vercel 仪表板创建 eve 代理，为您提供一个可以立即与之聊天的已部署代理。构建器搭建代理的支架，创建包含其文件的私有 Git 存储库，",
+        "编写定义代理身份的指令",
+        "选择通过 AI Gateway 可用的任何模型"
+      ],
+      "translated": true,
       "originalTitle": "Build and deploy eve agents from the Vercel dashboard - Vercel",
       "originalLang": "en",
       "date": "2026-08-28",
@@ -1786,32 +2602,37 @@
         "url": "https://vercel.com/changelog/build-and-deploy-eve-agents-from-the-vercel-dashboard",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Build and deploy eve agents from the Vercel dashboard - Vercel"
       },
       "raw": {
         "title": "Build and deploy eve agents from the Vercel dashboard",
         "url": "https://vercel.com/changelog/build-and-deploy-eve-agents-from-the-vercel-dashboard",
         "fetched": true,
-        "savedAt": "2026-08-29T05:12:51.802Z"
-      }
+        "savedAt": "2026-08-29T05:12:51.802Z",
+        "retranslatedAt": "2026-09-02T02:27:16.328Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-790b02624c",
-      "title": "Vercel CLI expands commands for DNS, domains, and projects",
-      "oneLiner": "The Vercel CLI now provides dedicated commands for managing DNS records, domains, and projects. This",
+      "title": "Vercel CLI 扩展了 DNS、域和项目的命令 - Vercel",
+      "oneLiner": "Vercel CLI 现在提供用于管理 DNS 记录、域和项目的专用命令。这将通过 Vercel 仪表板和 API 提供给终端的更多功能，可以在脚本中或由代理以交互方式使用。",
       "summary": {
-        "oneSentence": "The Vercel CLI now provides dedicated commands for managing DNS records, domains, and projects. This brings more of the ",
+        "oneSentence": "Vercel CLI 现在提供用于管理 DNS 记录、域和项目的专用命令。这将通过 Vercel 仪表板和 API 提供给终端的更多功能，可以在脚本中或由代理以交互方式使用。",
         "bullets": [
-          "The Vercel CLI now provides dedicated commands for managing DNS records, domains, and projects. This brings more of the functionality available through the Vercel dashboard and API to the terminal, wh"
+          "Vercel CLI 现在提供用于管理 DNS 记录、域和项目的专用命令。这将通过 Vercel 仪表板和 API 提供给终端的更多功能，可以在脚本中或由代理以交互方式使用。",
+          "将链接复制到标题 检查和更新 DNS 记录 检索 DNS 记录的完整配置或使用其记录 ID 对其进行更新。",
+          "vercel dns 检查rec_123 vercel dns 更新rec_123 \\ --value 76.76 .21.21 \\ --ttl 300",
+          "vercel dns 更新支持更改记录名称、类型、值、TTL、MX 优先级和注释。 SRV 记录还可以使用其优先级、权重、端口和目标字段进行更新。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：Vercel CLI 现在提供用于管理 DNS 记录、域和项目的专用命令。这将通过 Vercel 仪表板和 API 提供给终端的更多功能，可以在脚本中或由代理以交互方式使用。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -1819,38 +2640,38 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://vercel.com/changelog/vercel-cli-expands-commands-for-dns-domains-and-projects"
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-cli-expands-commands-for-dns-domains-and-projects"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "The Vercel CLI now provides dedicated commands for managing DNS records, domains, and projects. This brings more of the functionality available through the Vercel dashboard and API to the terminal, where it can be used interactively, in scripts, or by agents.",
-        "Copy link to heading Inspect and update DNS records Retrieve the complete configuration for a DNS record or update it in place using its record ID.",
-        "vercel dns inspect rec_123 vercel dns update rec_123 \\ --value 76.76 .21.21 \\ --ttl 300",
-        "vercel dns update supports changes to the record name, type, value, TTL, MX priority, and comment. SRV records can also be updated using their priority, weight, port, and target fields.",
-        "Copy link to heading Renew domains bought on Vercel Renew a domain on demand or control whether it renews automatically.",
-        "vercel domains renew example.com vercel domains auto-renew example.com on vercel domains auto-renew example.com off",
-        "The renewal command displays the current renewal price and asks for confirmation before completing the purchase.",
-        "Copy link to heading Control project state and observability Pause or resume a project and configure its observability features directly from the CLI. Web Analytics and Speed Insights could already be enabled from the CLI; they can now be disabled as well.",
-        "vercel project pause vercel project resume vercel project observability enable vercel project observability disable vercel project web-analytics disable vercel project speed-insights disable",
-        "Copy link to heading Add and remove project members Add a project member with a specific role or remove an existing member.",
-        "vercel project members add my-project user@example.com \\ --role developer vercel project members remove my-project user@example.com",
-        "All of the new commands support structured JSON output for scripts and agents. Billable or destructive actions require explicit confirmation.",
-        "Update to version 59.6.2 (or later) of the Vercel CLI to use the new commands:",
-        "Learn more in the Vercel CLI documentation ."
+        "Vercel CLI 现在提供用于管理 DNS 记录、域和项目的专用命令。这将通过 Vercel 仪表板和 API 提供给终端的更多功能，可以在脚本中或由代理以交互方式使用。",
+        "将链接复制到标题 检查和更新 DNS 记录 检索 DNS 记录的完整配置或使用其记录 ID 对其进行更新。",
+        "vercel dns 检查rec_123 vercel dns 更新rec_123 \\ --value 76.76 .21.21 \\ --ttl 300",
+        "vercel dns 更新支持更改记录名称、类型、值、TTL、MX 优先级和注释。 SRV 记录还可以使用其优先级、权重、端口和目标字段进行更新。",
+        "将链接复制到标题续订在 Vercel 上购买的域名 按需续订域名或控制是否自动续订。",
+        "vercel 域名续订 example.com vercel 域名自动续订 example.com 开启 vercel 域名自动续订 example.com 关闭",
+        "续订命令显示当前续订价格并在完成购买之前要求确认。",
+        "将链接复制到标题 控制项目状态和可观察性 暂停或恢复项目并直接从 CLI 配置其可观察性功能。 Web Analytics 和 Speed Insights 已经可以从 CLI 启用；现在也可以禁用它们。",
+        "vercel 项目暂停 vercel 项目恢复 vercel 项目可观察性 启用 vercel 项目可观察性 禁用 vercel 项目 web-analytics 禁用 vercel 项目 speed-insights 禁用",
+        "将链接复制到标题 添加和删除项目成员 添加具有特定角色的项目成员或删除现有成员。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "Vercel CLI 现在提供用于管理 DNS 记录、域和项目的专用命令。这将通过 Vercel 仪表板和 API 提供给终端的更多功能，可以在脚本中或由代理以",
+        "将链接复制到标题 检查和更新 DNS 记录 检索 DNS 记录的完整配置或使用其记录 ID 对其进行更新。",
+        "vercel dns 检查rec_123 vercel dns 更新rec_123 \\ --value 76.76 .21.21 \\ --ttl 300"
+      ],
+      "translated": true,
       "originalTitle": "Vercel CLI expands commands for DNS, domains, and projects - Vercel",
       "originalLang": "en",
       "date": "2026-08-28",
@@ -1866,16 +2687,18 @@
         "url": "https://vercel.com/changelog/vercel-cli-expands-commands-for-dns-domains-and-projects",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Vercel CLI expands commands for DNS, domains, and projects - Vercel"
       },
       "raw": {
         "title": "Vercel CLI expands commands for DNS, domains, and projects",
         "url": "https://vercel.com/changelog/vercel-cli-expands-commands-for-dns-domains-and-projects",
         "fetched": true,
-        "savedAt": "2026-08-29T05:12:53.441Z"
-      }
+        "savedAt": "2026-08-29T05:12:53.441Z",
+        "retranslatedAt": "2026-09-02T02:27:26.014Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-c03b509bb3",
@@ -2096,24 +2919,27 @@
         "url": "https://cursor.com/changelog/start-from-scratch",
         "fetched": true,
         "savedAt": "2026-08-28T08:33:37.517Z",
-        "retranslatedAt": "2026-08-29T05:12:59.437Z"
+        "retranslatedAt": "2026-09-02T02:27:27.105Z"
       }
     },
     {
       "id": "sig-a13e39d4fa",
-      "title": "Gemini Omni 1.1 Flash lets you build with more control",
-      "oneLiner": "Gemini Omni 1.1 Flash lets you build with more control",
+      "title": "Gemini Omni 1.1 Flash 让您可以更好地控制构建",
+      "oneLiner": "Omni 现在提供工作室品质的视频制作，包括扩展场景、第一帧和最后一帧插值、清晰的 4K 升级、更快的原型制作等功能。",
       "summary": {
-        "oneSentence": "Gemini Omni 1.1 Flash lets you build with more control",
+        "oneSentence": "Omni 现在提供工作室品质的视频制作，包括扩展场景、第一帧和最后一帧插值、清晰的 4K 升级、更快的原型制作等功能。",
         "bullets": [
-          "Gemini Omni 1.1 Flash lets you build with more control"
+          "Omni 现在提供工作室品质的视频制作，包括扩展场景、第一帧和最后一帧插值、清晰的 4K 升级、更快的原型制作等功能。",
+          "您的浏览器不支持音频元素。",
+          "我们正在推出 Gemini Omni 1.1 Flash，这是一款面向开发人员的生产就绪更新，可改进对生成视频的控制。您现在可以扩展场景、指定平滑过渡的开始帧和结束帧，并生成高分辨率 4K 输出。立即通过 Google AI Studio 或 Gemini Enterprise Agent Platform 访问模型开",
+          "Google 刚刚发布了 Gemini Omni 1.1 Flash，为开发人员提供了更好的工具来使用 AI 创建和编辑视频。它可以让您扩展视频剪辑、控制摄像机移动并制作高质量的 4K 素材。开发人员还可以创建快速、低分辨率的草稿，以更快、更便宜的方式测试他们的想法。对于任何构建创意视频软件的人来说，这都是向前迈出的一"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Google DeepMind 官网发布：Omni 现在提供工作室品质的视频制作，包括扩展场景、第一帧和最后一帧插值、清晰的 4K 升级、更快的原型制作等功能。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -2121,40 +2947,40 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
-        "relevance": "",
+        "relevance": "关联产品：gemini",
         "actionItems": [
-          "阅读原文：https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/"
+          "阅读原文（英文）：https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [
         "gemini"
       ],
       "content": [
-        "Omni now delivers studio-quality video production, including the ability to extend a scene, first and last frame interpolation, crisp 4K upscaling, faster prototyping, and more.",
-        "Your browser does not support the audio element.",
-        "We are introducing Gemini Omni 1.1 Flash, a production-ready update for developers that offers improved control over generative video. You can now extend scenes, specify start and end frames for smooth transitions, and generate high-resolution 4K output. Start building today by accessing the model through Google AI Studio or the Gemini Enterprise Agent Platform.",
-        "Google just released Gemini Omni 1.1 Flash, which gives developers better tools to create and edit videos with AI. It lets you extend video clips, control camera movements, and make high-quality 4K footage. Developers can also create quick, low-resolution drafts to test their ideas faster and cheaper. It’s a big step forward for anyone building creative video software.",
-        "Today, we’re introducing Gemini Omni 1.1 Flash, a new suite of creative controls and generative video capabilities to support developers. Gemini Omni brought real-world reasoning to generative creation, and today’s updates make Omni 1.1 production-ready for professional use via the Gemini API in Google AI Studio. Whether you’re building generative video workflows, creative tools, or media editing software, these updates make generative video more controllable, faster to iterate on, and polished for real-world deployment. Here’s a look at what’s new:",
-        "Scene extension allows you to take an existing video and continue generating footage seamlessly from where it left off.",
-        "With Omni 1.1, the model can now analyze up to 10 seconds of prior context — a leap from previous models that only referenced the final second. The result is improved visual consistency and narrative adherence, letting you build longer stories or branch into new creative directions. You can extend videos in 10-second increments up to a total cumulative length of 40 seconds.",
-        "Prompt 1: Camera slightly pans and we now see she is talking to a man with curly hair, we see man’s back, he says “I see it too” dramatic music score",
-        "Prompt 2: Camera slowly pulls out, forgotten dusty catacombs, dramatic music score. Prompt 3: Camera slowly pulls out, a vast library where shelves and books float weightlessly in a dusty void, dramatic music score.",
-        "Prompt 1: Continue the video. Execute a cinematic optical dolly-zoom shot. The camera dollies forward while simultaneously zooming out, keeping the character's frozen shocked face locked at the exact same size. The long corridor of stone pillars in the background dramatically stretches and deepens with intense optical perspective distortion. Clean architecture, continuous unbroken shot.",
-        "Prompt 2: Continue the video. The camera executes a fast mechanical snap-zoom directly into the character's wide eyes. Stylized cinematic camera control.",
-        "Prompt 3: Continue the video. Time completely freezes into a static moment: the character, their windblown coat. The camera performs a smooth, high-speed 360-degree orbital rotation around the frozen character, showcasing dramatic 3D depth and parallax across the colonnade. Flawless continuity.",
-        "Prompt 1: The man in the blue sweater replies: \"Did your father go out on the boat too?\"",
-        "Prompt 2: The camera pulls back in one continuous movement as he continues his story: \"He used to say that this harbour had a soul. And that the boats were a part of us.\" The music swells."
+        "Omni 现在提供工作室品质的视频制作，包括扩展场景、第一帧和最后一帧插值、清晰的 4K 升级、更快的原型制作等功能。",
+        "您的浏览器不支持音频元素。",
+        "我们正在推出 Gemini Omni 1.1 Flash，这是一款面向开发人员的生产就绪更新，可改进对生成视频的控制。您现在可以扩展场景、指定平滑过渡的开始帧和结束帧，并生成高分辨率 4K 输出。立即通过 Google AI Studio 或 Gemini Enterprise Agent Platform 访问模型开始构建。",
+        "Google 刚刚发布了 Gemini Omni 1.1 Flash，为开发人员提供了更好的工具来使用 AI 创建和编辑视频。它可以让您扩展视频剪辑、控制摄像机移动并制作高质量的 4K 素材。开发人员还可以创建快速、低分辨率的草稿，以更快、更便宜的方式测试他们的想法。对于任何构建创意视频软件的人来说，这都是向前迈出的一大步。",
+        "今天，我们推出 Gemini Omni 1.1 Flash，这是一套新的创意控件和生成视频功能，可为开发人员提供支持。 Gemini Omni 将现实世界的推理引入了生成式创作，今天的更新使 Omni 1.1 可以通过 Google AI Studio 中的 Gemini API 进行生产准备，供专业使用。无论您是构建生成视频工作流程、创意工具还是媒体编辑软件，这些更新都使生成视频更加可控、迭代速度更快，并针对实际部署进行了优化。以下是新内容：",
+        "场景扩展允许您拍摄现有视频并从其停止处继续无缝生成素材。",
+        "借助 Omni 1.1，该模型现在可以分析长达 10 秒的先前上下文，与之前仅参考最后一秒的模型相比，这是一个飞跃。其结果是提高了视觉一致性和叙事依从性，让您可以构建更长的故事或分支到新的创意方向。您可以以 10 秒为增量延长视频，总累积长度最多为 40 秒。",
+        "提示1：镜头稍微平移，我们现在看到她正在和一个卷发的男人说话，我们看到男人的背影，他说“我也看到了”戏剧性的乐谱",
+        "提示2：镜头缓缓拉出，被遗忘的尘土飞扬的地下墓穴，戏剧性的乐谱。提示3：镜头慢慢拉出，一座巨大的图书馆，书架和书籍在尘土飞扬、戏剧性的乐谱中失重地漂浮。",
+        "提示1：继续播放视频。执行电影级光学移动变焦镜头。摄像机向前移动，同时缩小，使角色冻结的震惊的脸保持完全相同的大小。背景中石柱组成的长廊戏剧性地延伸和加深，并伴随着强烈的光学透视扭曲。干净的建筑，连续不间断的镜头。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "Omni 现在提供工作室品质的视频制作，包括扩展场景、第一帧和最后一帧插值、清晰的 4K 升级、更快的原型制作等功能。",
+        "您的浏览器不支持音频元素。",
+        "我们正在推出 Gemini Omni 1.1 Flash，这是一款面向开发人员的生产就绪更新，可改进对生成视频的控制。您现在可以扩展场景、指定平滑过渡的开始帧和"
+      ],
+      "translated": true,
       "originalTitle": "Gemini Omni 1.1 Flash lets you build with more control",
       "originalLang": "en",
       "date": "2026-08-27",
@@ -2172,32 +2998,37 @@
         "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
         "home": "https://deepmind.google/blog/",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Gemini Omni 1.1 Flash lets you build with more control"
       },
       "raw": {
         "title": "Gemini Omni 1.1 Flash lets you build with more control",
         "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
         "fetched": true,
-        "savedAt": "2026-08-28T08:33:25.895Z"
-      }
+        "savedAt": "2026-08-28T08:33:25.895Z",
+        "retranslatedAt": "2026-09-02T02:27:36.091Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-5a6b855292",
-      "title": "3 new ways to plan and book travel in Search",
-      "oneLiner": "Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search.",
+      "title": "在搜索中计划和预订旅行的 3 种新方式",
+      "oneLiner": "我们对搜索中人工智能模式的最新升级可以帮助您跟踪航班价格、查看积分或里程费率，并预订您的梦想酒店。",
       "summary": {
-        "oneSentence": "Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search.",
+        "oneSentence": "我们对搜索中人工智能模式的最新升级可以帮助您跟踪航班价格、查看积分或里程费率，并预订您的梦想酒店。",
         "bullets": [
-          "Book hotels and track airfares, plus view miles and rewards with AI Mode in Google Search."
+          "我们对搜索中人工智能模式的最新升级可以帮助您跟踪航班价格、查看积分或里程费率，并预订您的梦想酒店。",
+          "计划旅行涉及许多活动部分和无数需要考虑的选择。借助搜索中的人工智能模式，您已经可以获得实时数据来比较航班和酒店、在网络上找到最佳建议并制定完美的行程。现在，我们正在通过新的方式升级这种体验，以跟踪航班价格、查看积分或里程费率，并在人工智能模式下预订您的梦想酒店。",
+          "今天，我们将 Google Flights 广受欢迎的价格跟踪功能直接引入 AI 模式，让您在聊天时设置价格提醒，而不会中断您的流程。描述您想要飞行的地点和时间，AI 模式将向您显示来自 300 多家合作航空公司和旅游网站的最佳选择以及最新价格。如果您准备好预订，您可以在人工智能模式下构建完整的行程，并通过航空公司的网",
+          "想观望价格是否会下跌？只需询问“为我跟踪这些航班价格”之类的问题即可。确认后，如果您想要的目的地和日期的价格发生变化，您将收到一封电子邮件，这样您就可以在优惠到达您的收件箱时立即购买。 AI 模式下的航班价格追踪现已在全球 180 多个国家和地区推出。 1"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Google AI 官网发布：我们对搜索中人工智能模式的最新升级可以帮助您跟踪航班价格、查看积分或里程费率，并预订您的梦想酒店。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -2205,39 +3036,40 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
-        "relevance": "",
+        "relevance": "关联产品：gemini",
         "actionItems": [
-          "阅读原文：https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/"
+          "阅读原文（英文）：https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [
         "gemini"
       ],
       "content": [
-        "Our latest upgrades for AI Mode in Search can help you track flight prices, view points or miles rates, and book your dream hotel.",
-        "Planning a trip comes with lots of moving parts and countless options to consider. With AI Mode in Search , you can already get real-time data to compare flights and hotels, find the best recommendations across the web, and craft the perfect itinerary . Now, we’re upgrading that experience with new ways to track flight prices, view points or miles rates, and book your dream hotel, right in AI Mode.",
-        "Today, we’re bringing Google Flights’ popular price tracking feature directly into AI Mode, letting you set up price alerts as you chat, without breaking your flow. Describe where and when you want to fly and AI Mode will show you the best options available with the latest prices from more than 300 partner airlines and travel sites. If you’re ready to book, you can build your full itinerary in AI Mode and buy your tickets through the airline’s website or your preferred booking platform.",
-        "Want to wait and see if prices drop? Just ask something like “track these flight prices for me.” Once you confirm, you’ll get an email if prices change for the destination and dates you have in mind, so you can jump on deals the moment they hit your inbox. Flight price tracking in AI Mode is now available in more than 180 countries and territories around the world. 1",
-        "Redeeming your hard-earned rewards is another great way to save on travel. Now, AI Mode in Search can show you the cost in points or miles for flights and hotels. Try asking something like “I want to travel from Atlanta to Miami using my AA miles. Help me find some options for nonstop flights departing Oct 9 and returning on Oct 12”.",
-        "Right away, you’ll see how many miles you need to book matching flights, based on the latest data directly from our partners. It works the same way for hotels: just tell AI Mode where and when you’re traveling and ask to see the cost in points for the rewards program you have in mind. When you’re ready to book, you can follow the link to the partner site and complete your rewards redemption.",
-        "Viewing points and miles rates in AI Mode is now globally available. 2 We’re launching this capability with initial support for Alaska Airlines / Hawaiian Airlines, American Airlines, Choice Hotels International, Hilton, and Wyndham Hotels & Resorts. In the coming weeks, we’ll also add support for Accor, Flying Blue, Hyatt, LATAM Airlines, and Lufthansa Group.",
-        "When you find a hotel you love, making the reservation should feel quick and effortless. Today, we’re introducing hotel booking through AI Mode in Search, so you can discover and book your next hotel in one seamless conversation. Simply tell AI Mode about your upcoming trip and your hotel preferences to get a visual list of options, complete with guest reviews and key factors to compare.",
-        "Once you’ve found the right hotel, just ask AI Mode to help you complete the booking. Then, select “Continue on Google” in the list of booking options — it’ll appear next to any of our integrated partners, which include hotel chains and online travel sites. From there, it’s just a few taps to pick your room type, review details like the cancellation policy, and complete the booking securely via Google Pay. When you book hotels through AI Mode, the hotel or booking platform will act as the merchant of record and handle any customer service.",
-        "Hotel booking in AI Mode has started rolling out in the U.S. in English and will be available over the coming weeks with the following partners: Booking.com, Choice Hotels International, Expedia, Hilton, Hotels.com, IHG Hotels & Resorts, Marriott International, Priceline, Trip.com, and Wyndham Hotels & Resorts.",
-        "Head over to AI Mode in Search today to start tracking prices, exploring rewards, and booking your next getaway.",
-        "Available in all supported AI Mode locations and languages , excluding EEA countries and territories.",
-        "Available in all supported AI Mode locations and languages . Some features depicted will not be available to users in EEA countries and territories."
+        "我们对搜索中人工智能模式的最新升级可以帮助您跟踪航班价格、查看积分或里程费率，并预订您的梦想酒店。",
+        "计划旅行涉及许多活动部分和无数需要考虑的选择。借助搜索中的人工智能模式，您已经可以获得实时数据来比较航班和酒店、在网络上找到最佳建议并制定完美的行程。现在，我们正在通过新的方式升级这种体验，以跟踪航班价格、查看积分或里程费率，并在人工智能模式下预订您的梦想酒店。",
+        "今天，我们将 Google Flights 广受欢迎的价格跟踪功能直接引入 AI 模式，让您在聊天时设置价格提醒，而不会中断您的流程。描述您想要飞行的地点和时间，AI 模式将向您显示来自 300 多家合作航空公司和旅游网站的最佳选择以及最新价格。如果您准备好预订，您可以在人工智能模式下构建完整的行程，并通过航空公司的网站或您首选的预订平台购买机票。",
+        "想观望价格是否会下跌？只需询问“为我跟踪这些航班价格”之类的问题即可。确认后，如果您想要的目的地和日期的价格发生变化，您将收到一封电子邮件，这样您就可以在优惠到达您的收件箱时立即购买。 AI 模式下的航班价格追踪现已在全球 180 多个国家和地区推出。 1",
+        "兑换来之不易的奖励是节省旅行费用的另一种好方法。现在，搜索中的人工智能模式可以向您显示航班和酒店的积分或里程费用。尝试询问诸如“我想使用 AA 里程从亚特兰大飞往迈阿密。帮助我找到一些 10 月 9 日出发并于 10 月 12 日返回的直达航班的选择”。",
+        "您将立即根据直接来自我们合作伙伴的最新数据看到预订匹配航班需要多少里程。对于酒店来说，它的工作原理是一样的：只需告诉 AI 模式您旅行的地点和时间，并要求查看您想要的奖励计划的积分成本。当您准备好预订时，您可以点击合作伙伴网站的链接并完成奖励兑换。",
+        "AI 模式下查看积分和里程费率现已在全球范围内开放。 2 我们将推出此功能，并为阿拉斯加航空/夏威夷航空、美国航空、精品国际酒店、希尔顿和温德姆酒店及度假村提供初步支持。在接下来的几周内，我们还将增加对雅高、蓝天飞行、凯悦、南美航空和汉莎航空集团的支持。",
+        "当您找到心仪的酒店时，预订应该会感觉快捷且轻松。今天，我们将通过搜索中的 AI 模式推出酒店预订功能，以便您可以通过无缝对话发现并预订下一家酒店。只需告诉 AI 模式您即将进行的旅行和您的酒店偏好，即可获得直观的选项列表，其中包含客人评论和要比较的关键因素。",
+        "找到合适的酒店后，只需让 AI 模式帮助您完成预订。然后，在预订选项列表中选择“在 Google 上继续”——它将出现在我们的任何集成合作伙伴旁边，其中包括连锁酒店和在线旅游网站。从那里，只需轻按几下即可选择您的房间类型，查看取消政策等详细信息，并通过 Google Pay 安全地完成预订。当您通过AI模式预订酒店时，酒店或预订平台将充当备案商户并处理任何客户服务。",
+        "AI 模式酒店预订已开始在美国推出英文版本，并将在未来几周内与以下合作伙伴推出：Booking.com、Choice Hotels International、Expedia、希尔顿、Hotels.com、IHG Hotels & Resorts、万豪国际、Priceline、Trip.com 和 Wyndham Hotels & Resorts。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "我们对搜索中人工智能模式的最新升级可以帮助您跟踪航班价格、查看积分或里程费率，并预订您的梦想酒店。",
+        "计划旅行涉及许多活动部分和无数需要考虑的选择。借助搜索中的人工智能模式，您已经可以获得实时数据来比较航班和酒店、在网络上找到最佳建议并制定完美的行程。现在，我们",
+        "今天，我们将 Google Flights 广受欢迎的价格跟踪功能直接引入 AI 模式，让您在聊天时设置价格提醒，而不会中断您的流程。描述您想要飞行的地点和时间"
+      ],
+      "translated": true,
       "originalTitle": "3 new ways to plan and book travel in Search",
       "originalLang": "en",
       "date": "2026-08-27",
@@ -2255,32 +3087,37 @@
         "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
         "home": "https://blog.google/technology/ai/",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "3 new ways to plan and book travel in Search"
       },
       "raw": {
         "title": "3 new ways to plan and book travel in Search",
         "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
         "fetched": true,
-        "savedAt": "2026-08-28T08:33:27.184Z"
-      }
+        "savedAt": "2026-08-28T08:33:27.184Z",
+        "retranslatedAt": "2026-09-02T02:27:41.451Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-f8c22d41c8",
-      "title": "Cursor is now available in the AI SDK harness layer",
-      "oneLiner": "The AI SDK harness layer now supports Cursor through the official @ai-sdk/harness-cursor adapter. Th",
+      "title": "光标现已在 AI SDK 线束层中可用 - Vercel",
+      "oneLiner": "AI SDK 线束层现在通过官方 @ai-sdk/harness-cursor 适配器支持 Cursor。利用线束层允许您的应用程序通过相同的 HarnessAgent 接口运行不同的编码代理，因此您可以在不更改应用程序代码的情况下切换代理",
       "summary": {
-        "oneSentence": "The AI SDK harness layer now supports Cursor through the official @ai-sdk/harness-cursor adapter. The harness layer lets",
+        "oneSentence": "AI SDK 线束层现在通过官方 @ai-sdk/harness-cursor 适配器支持 Cursor。利用线束层允许您的应用程序通过相同的 HarnessAgent 接口运行不同的编码代理，因此您可以在不更改应用程序代码的情况下切换代理",
         "bullets": [
-          "The AI SDK harness layer now supports Cursor through the official @ai-sdk/harness-cursor adapter. The harness layer lets your application run different coding agents through the same HarnessAgent inte"
+          "AI SDK 线束层现在通过官方 @ai-sdk/harness-cursor 适配器支持 Cursor。利用线束层允许您的应用程序通过相同的 HarnessAgent 接口运行不同的编码代理，因此您可以在不更改应用程序代码的情况下切换代理。",
+          "1 从 '@ai-sdk/harness/agent' 导入 { HarnessAgent } ； 2 从'@ai-sdk/harness-cursor'导入{cursor}； 3 4 const agent = new HarnessAgent({5harness:cursor,6});创建一个运行 Cursor 的",
+          "在底层，适配器使用 @ai-sdk/harness-acp 通过代理客户端协议 (ACP) 将 Cursor 连接到 HarnessAgent。",
+          "除了 Cursor 之外，现在支持的工具还包括 Claude Code、Cline、Codex、Deep Agents、Grok Build、OpenCode 和 Pi，更多工具即将推出。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：AI SDK 线束层现在通过官方 @ai-sdk/harness-cursor 适配器支持 Cursor。利用线束层允许您的应用程序通过相同的 HarnessAgent 接口运行不同的编码代理，因此您可以在不更改应用程序代码的情况下切换代理",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -2288,29 +3125,33 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://vercel.com/changelog/cursor-ai-sdk-harness-adapter"
+          "阅读原文（英文）：https://vercel.com/changelog/cursor-ai-sdk-harness-adapter"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "The AI SDK harness layer now supports Cursor through the official @ai-sdk/harness-cursor adapter. The harness layer lets your application run different coding agents through the same HarnessAgent interface, so you can switch agents without changing your application code.",
-        "1 import { HarnessAgent } from '@ai-sdk/harness/agent' ; 2 import { cursor } from '@ai-sdk/harness-cursor' ; 3 4 const agent = new HarnessAgent ( { 5 harness : cursor , 6 } ) ; Create a HarnessAgent that runs Cursor.",
-        "Under the hood, the adapter uses @ai-sdk/harness-acp to connect Cursor to HarnessAgent through the Agent Client Protocol (ACP).",
-        "Supported harnesses now include, in addition to Cursor, Claude Code, Cline, Codex, Deep Agents, Grok Build, OpenCode, and Pi, with more coming soon.",
-        "Read the Cursor harness documentation to get started."
+        "AI SDK 线束层现在通过官方 @ai-sdk/harness-cursor 适配器支持 Cursor。利用线束层允许您的应用程序通过相同的 HarnessAgent 接口运行不同的编码代理，因此您可以在不更改应用程序代码的情况下切换代理。",
+        "1 从 '@ai-sdk/harness/agent' 导入 { HarnessAgent } ； 2 从'@ai-sdk/harness-cursor'导入{cursor}； 3 4 const agent = new HarnessAgent({5harness:cursor,6});创建一个运行 Cursor 的 HarnessAgent。",
+        "在底层，适配器使用 @ai-sdk/harness-acp 通过代理客户端协议 (ACP) 将 Cursor 连接到 HarnessAgent。",
+        "除了 Cursor 之外，现在支持的工具还包括 Claude Code、Cline、Codex、Deep Agents、Grok Build、OpenCode 和 Pi，更多工具即将推出。",
+        "请阅读光标线束文档以开始使用。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "AI SDK 线束层现在通过官方 @ai-sdk/harness-cursor 适配器支持 Cursor。利用线束层允许您的应用程序通过相同的 HarnessA",
+        "1 从 '@ai-sdk/harness/agent' 导入 { HarnessAgent } ； 2 从'@ai-sdk/harness-cursor'导入{",
+        "在底层，适配器使用 @ai-sdk/harness-acp 通过代理客户端协议 (ACP) 将 Cursor 连接到 HarnessAgent。"
+      ],
+      "translated": true,
       "originalTitle": "Cursor is now available in the AI SDK harness layer - Vercel",
       "originalLang": "en",
       "date": "2026-08-27",
@@ -2326,16 +3167,18 @@
         "url": "https://vercel.com/changelog/cursor-ai-sdk-harness-adapter",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Cursor is now available in the AI SDK harness layer - Vercel"
       },
       "raw": {
         "title": "Cursor is now available in the AI SDK harness layer",
         "url": "https://vercel.com/changelog/cursor-ai-sdk-harness-adapter",
         "fetched": true,
-        "savedAt": "2026-08-28T08:33:28.748Z"
-      }
+        "savedAt": "2026-08-28T08:33:28.748Z",
+        "retranslatedAt": "2026-09-02T02:27:47.750Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-5391b6f63d",
@@ -29252,83 +30095,6 @@
         "retranslatedAt": "2026-08-01T22:53:17.991Z"
       },
       "translateMethod": "google"
-    },
-    {
-      "id": "cur-memory-agents",
-      "title": "Memory 成为 Agent 标配：从 ChatGPT 到 Cursor 的长期记忆竞赛",
-      "oneLiner": "2026 年 Agent 产品纷纷上线「跨会话记忆」，Memory 从功能变成基础设施。",
-      "date": "2026-07-19",
-      "tags": [
-        "Memory",
-        "Agent",
-        "Product"
-      ],
-      "categoryIds": [
-        "agent",
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt",
-        "cursor",
-        "claude"
-      ],
-      "importance": {
-        "stars": 5,
-        "reason": "Memory 是 Agent 与 LLM 的核心分水岭",
-        "readMinutes": 5
-      },
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Latent Space",
-        "author": "swyx",
-        "url": "https://www.latent.space/",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": true
-      },
-      "summary": {
-        "oneSentence": "ChatGPT、Claude、Cursor 等相继强化记忆能力，Agent 个性化与连续性提升。",
-        "bullets": [
-          "用户可控的记忆开关与删除",
-          "项目级 / 全局级记忆分层",
-          "隐私与合规成为产品卖点"
-        ],
-        "audience": "所有 Agent 产品学习者",
-        "readMinutes": 5,
-        "keywords": [
-          "Memory",
-          "Agent",
-          "Personalization"
-        ]
-      },
-      "insight": {
-        "mainInsight": "没有 Memory 的 Agent 每次对话都是「失忆的临时工」；Memory 决定 Agent 能否真正进入工作流。",
-        "whyNow": "用户已习惯 AI 助手，下一步需求是「它应该记得我」。",
-        "problem": "上下文窗口有限，无法塞入全部历史。",
-        "trend": "Memory Layer 成为 Agent OS 标准组件",
-        "differentiation": "各厂在「自动记忆 vs 用户显式记忆」策略上分化。",
-        "outlook": "Memory 管理 UI（查看、编辑、删除）将成为 Agent 产品必备设置页。"
-      },
-      "learning": {
-        "whyImportant": "你在 Atlas 学习 Agent 时，Memory 是区分「玩具 Chatbot」与「生产 Agent」的关键。",
-        "productDesign": "学习 ChatGPT Memory 的「透明 + 可控」设计，避免用户恐惧「AI 偷记隐私」。",
-        "relevance": "Memory、Agent、AI Native 核心关注领域。",
-        "actionItems": [
-          "打开 ChatGPT 记忆设置页体验",
-          "阅读 Claude Projects 的上下文设计",
-          "搜索「Mem0 / Zep」等开源 Memory 方案"
-        ]
-      },
-      "content": [
-        "Memory 赛道正在爆发：既有产品内置记忆，也有 Mem0、Zep 等 Memory 基础设施创业公司。",
-        "做 AI 产品调研时，建议为每个 Agent 产品记录：记忆粒度、用户控制权、跨设备同步策略。"
-      ],
-      "highlights": [
-        "Memory 成标配",
-        "隐私可控设计",
-        "Agent 分水岭"
-      ]
     }
   ]
 }
