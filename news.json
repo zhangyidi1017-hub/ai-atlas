@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-02T02:27:48.554Z",
+  "updatedAt": "2026-09-03T02:34:15.101Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 394,
+  "itemCount": 402,
   "brief": {
-    "date": "2026-09-02",
-    "generatedAt": "2026-09-02T02:27:48.552Z",
-    "totalCount": 394,
+    "date": "2026-09-03",
+    "generatedAt": "2026-09-03T02:34:15.100Z",
+    "totalCount": 402,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 394 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 402 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -33,17 +33,17 @@
         "readMinutes": 4
       },
       {
-        "id": "sig-66eabab697",
-        "title": "我们于 2026 年 8 月公布的最新 AI 新闻",
+        "id": "sig-4a26f8dc63",
+        "title": "Coinbase 如何使用 Code Connect 来指导代理并降低代币成本 | Figma 博客",
         "stars": 4,
-        "oneLiner": "以下是我们自 8 月份以来的一些重大 AI 更新的回顾，包括发布 Gemini 3.7 Flash、Gemini 3.5 Transcribe 和全新 Pixel 11 系列设备。",
+        "oneLiner": "Coinbase 设计系统团队对 Code Connect 进行了针对编码代理的测试，发现它提高了设计系统的依从性，同时平均降低了 22.5% 的代币成本。",
         "readMinutes": 5
       },
       {
-        "id": "sig-dfd1ea2e55",
-        "title": "引入 Gemini 的代理视频理解",
+        "id": "sig-383dbcd782",
+        "title": "政府和企业的主动网络防御",
         "stars": 4,
-        "oneLiner": "我们用于视频分析的新代理功能可将令牌消耗减少高达 88%，将成本降低高达 66%，并将质量提高高达 7%。",
+        "oneLiner": "今天，我们正在启动 Fairwind 计划，这是一项限制访问计划，供政府和值得信赖的合作伙伴使用我们最先进的网络防御能力。",
         "readMinutes": 5
       }
     ],
@@ -52,29 +52,29 @@
         "cur-openai-agentkit",
         "cur-anthropic-mcp",
         "cur-cursor-agent",
-        "sig-66eabab697",
-        "sig-dfd1ea2e55",
-        "sig-3b5f2688fe"
+        "sig-4a26f8dc63",
+        "sig-383dbcd782",
+        "sig-18ef68f776"
       ],
       "newReleases": [
+        "sig-fe5941ee46",
         "sig-f30efa9be5",
         "sig-d822bd91a1",
         "sig-39d537a07a",
         "sig-1e5183cd6f",
         "sig-468f50ae5e",
         "sig-ff7bff38a4",
-        "sig-3fac1f8e14",
-        "cur-cursor-agent"
+        "sig-3fac1f8e14"
       ],
       "insights": [
         "cur-openai-agentkit",
         "cur-anthropic-mcp",
         "cur-cursor-agent",
-        "sig-66eabab697",
-        "sig-dfd1ea2e55",
-        "sig-3b5f2688fe",
-        "sig-77cd2a6a82",
-        "sig-82a2d37f4f"
+        "sig-4a26f8dc63",
+        "sig-383dbcd782",
+        "sig-18ef68f776",
+        "sig-28b149c75e",
+        "sig-b07b0b2b4d"
       ],
       "emergingTrends": [
         "cur-openai-agentkit",
@@ -82,8 +82,7 @@
         "cur-cursor-agent",
         "cur-perplexity-search",
         "cur-gemini-multimodal",
-        "cur-tapnow-agent",
-        "cur-libtv-canvas"
+        "cur-tapnow-agent"
       ],
       "newApis": [
         "cur-openai-agentkit",
@@ -113,15 +112,15 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-09-02T02:27:48.554Z",
-    "summary": "近 30 天共 270 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-09-03T02:34:15.101Z",
+    "summary": "近 30 天共 271 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
-        "signal": "近 30 天 4 条相关更新",
+        "signal": "近 30 天 5 条相关更新",
         "examples": [
-          "无需代码仓库，也能从零开始 · Cursor",
-          "云端智能体和 Cursor Harness 改进 · Cursor"
+          "自托管机器 · Cursor",
+          "无需代码仓库，也能从零开始 · Cursor"
         ]
       }
     ],
@@ -129,6 +128,68 @@
     "risingTags": []
   },
   "productUpdates": [
+    {
+      "id": "sig-383dbcd782",
+      "title": "政府和企业的主动网络防御",
+      "oneLiner": "今天，我们正在启动 Fairwind 计划，这是一项限制访问计划，供政府和值得信赖的合作伙伴使用我们最先进的网络防御能力。",
+      "date": "2026-09-02",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google DeepMind",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-18ef68f776",
+      "title": "隆重推出 Gemini 3.8 Flash 和 3.8 Flash Cyber",
+      "oneLiner": "我们最新的 Gemini 模型为代理工作流程和网络安全提供了下一代智能。",
+      "date": "2026-09-02",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google DeepMind",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-28b149c75e",
+      "title": "政府和企业的主动网络防御",
+      "oneLiner": "今天，我们正在启动 Fairwind 计划，这是一项限制访问计划，供政府和值得信赖的合作伙伴使用我们最先进的网络防御能力。",
+      "date": "2026-09-02",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google AI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-b07b0b2b4d",
+      "title": "ATV Big Air Tour 借助 ChatGPT 将 3 天的工作变成了 3 小时",
+      "oneLiner": "ATV Big Air Tour 使用 ChatGPT Work 来加速营销、推销等。它甚至在 15 分钟内将商品照片变成了库存网站。",
+      "date": "2026-09-02",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-fe5941ee46",
+      "title": "自托管机器 · Cursor",
+      "oneLiner": "你的代码库、构建产物和密钥都保留在你基础设施中运行的内部机器上，由智能体在本地处理工具调用。",
+      "date": "2026-09-02",
+      "productIds": [
+        "cursor"
+      ],
+      "source": "Cursor",
+      "tags": [
+        "Release"
+      ],
+      "stars": 4
+    },
     {
       "id": "sig-66eabab697",
       "title": "我们于 2026 年 8 月公布的最新 AI 新闻",
@@ -301,39 +362,39 @@
     },
     {
       "id": "sig-d9b2bc36ff",
-      "title": "Piloting the world's first double-blind AI evaluations",
-      "oneLiner": "Piloting the world's first double-blind AI evaluations",
+      "title": "试点全球首次双盲人工智能评估",
+      "oneLiner": "威廉·艾萨克、索尔·梅辛和克里斯蒂安·林",
       "date": "2026-08-27",
       "productIds": [
         "gemini"
       ],
       "source": "Google DeepMind",
       "tags": [],
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "sig-3062d8cdad",
-      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-      "oneLiner": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and",
+      "title": "更好的答案，更广阔的思维：学生从 ChatGPT 和批判性思维培训中获得什么",
+      "oneLiner": "一项针对 1,000 多名学生的随机研究考察了 ChatGPT、批判性思维、原创性以及学生在现实世界大学作业中的表现。",
       "date": "2026-08-27",
       "productIds": [
         "chatgpt"
       ],
       "source": "OpenAI",
       "tags": [],
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "sig-57e276283c",
-      "title": "Expanding OpenAI’s presence in Brazil",
-      "oneLiner": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and co",
+      "title": "扩大 OpenAI 在巴西的影响力",
+      "oneLiner": "OpenAI 正在扩大其在巴西的业务，加深与开发者、企业和社区的接触，以支持人工智能在该国的采用。",
       "date": "2026-08-27",
       "productIds": [
         "chatgpt"
       ],
       "source": "OpenAI",
       "tags": [],
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "sig-83abfc0828",
@@ -358,69 +419,838 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-cdfc10030b",
-      "title": "学习永不停歇：人工智能如何让学习持续进行",
-      "oneLiner": "OpenAI 的新报告探讨了学生和教育工作者如何使用 ChatGPT 使学习更加连续，并提供超越课堂的支持。",
-      "date": "2026-08-26",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-504dd1ec95",
-      "title": "抱脸事件与未来之路",
-      "oneLiner": "OpenAI 分享了 Hugging Face 安全事件的调查结果以及我们为加强 AI 模型安全、监控和调整而采取的步骤。",
-      "date": "2026-08-26",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-d34e82eae2",
-      "title": "loveholidays 如何通过 Codex 让每个人都成为建设者",
-      "oneLiner": "了解 loveholidays 如何使用 OpenAI Codex 使整个企业都可以进行软件开发，帮助团队更快地将想法转化为产品。",
-      "date": "2026-08-26",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-5f0b03166b",
-      "title": "使用 Google 搜索升级家居装饰的 5 种方法",
-      "oneLiner": "从追踪独特的古董发现到在购买前查看新家具是否合适，Google 搜索可以帮助您改变生活空间。",
-      "date": "2026-08-25",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google AI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-829e237a88",
-      "title": "丰富智能背后的全栈",
-      "oneLiner": "OpenAI 首席财务官 Sarah Friar 解释了芯片、计算、模型和产品之间的进步如何结合起来，以更大规模和更低的成本提供更有用的智能。",
-      "date": "2026-08-25",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-4a26f8dc63",
+      "title": "Coinbase 如何使用 Code Connect 来指导代理并降低代币成本 | Figma 博客",
+      "oneLiner": "Coinbase 设计系统团队对 Code Connect 进行了针对编码代理的测试，发现它提高了设计系统的依从性，同时平均降低了 22.5% 的代币成本。",
+      "summary": {
+        "oneSentence": "Coinbase 设计系统团队对 Code Connect 进行了针对编码代理的测试，发现它提高了设计系统的依从性，同时平均降低了 22.5% 的代币成本。",
+        "bullets": [
+          "Coinbase 设计系统团队对 Code Connect 进行了针对编码代理的测试，发现它提高了设计系统的依从性，同时平均降低了 22.5% 的代币成本。",
+          "Coinbase 设计系统 (CDS) 团队为消费者和企业提供跨移动和网络的美国最大的加密货币交易所的支持。他们已经扩展了设计系统的质量、一致性和可访问性，但是当其主要用户从工程师转向代理商时，需要改变什么？技术主管 Erich Kuerschner 看到了使用 Figma MCP 服务器改进代理输出的机会 MCP 的",
+          "当从设计到代码时，代理缺乏生产组件的上下文。通过 Figma 的 MCP 中的 Code Connect，他们可以获得该上下文。我们测量了它对令牌使用、任务持续时间和代码质量的影响。",
+          "“测试向我们表明，Code Connect 通常会减少代理在将 Figma 设计转换为代码时需要花费的代币数量，”他说。 “由于 Code Connect 提供了更好的上下文，代码的质量明显更好。”以下是 CDS 团队如何通过 Code Connect 适应新的工程工作流程，并衡量其对时间、质量和成本的影响。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 4,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Figma 官网发布：Coinbase 设计系统团队对 Code Connect 进行了针对编码代理的测试，发现它提高了设计系统的依从性，同时平均降低了 22.5% 的代币成本。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://www.figma.com/blog/how-coinbase-used-code-connect-to-shrink-token-costs/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Coinbase 设计系统团队对 Code Connect 进行了针对编码代理的测试，发现它提高了设计系统的依从性，同时平均降低了 22.5% 的代币成本。",
+        "Coinbase 设计系统 (CDS) 团队为消费者和企业提供跨移动和网络的美国最大的加密货币交易所的支持。他们已经扩展了设计系统的质量、一致性和可访问性，但是当其主要用户从工程师转向代理商时，需要改变什么？技术主管 Erich Kuerschner 看到了使用 Figma MCP 服务器改进代理输出的机会 MCP 的 TL;DR：为什么上下文很重要以及如何将其投入工作 Figma 的 MCP 服务器将您的设计决策带入编写代码的工具中 - 因此构建的内容实际上与设计的内容相匹配。以下是每个构建产品的人可以解锁的东西。",
+        "当从设计到代码时，代理缺乏生产组件的上下文。通过 Figma 的 MCP 中的 Code Connect，他们可以获得该上下文。我们测量了它对令牌使用、任务持续时间和代码质量的影响。",
+        "“测试向我们表明，Code Connect 通常会减少代理在将 Figma 设计转换为代码时需要花费的代币数量，”他说。 “由于 Code Connect 提供了更好的上下文，代码的质量明显更好。”以下是 CDS 团队如何通过 Code Connect 适应新的工程工作流程，并衡量其对时间、质量和成本的影响。",
+        "CDS 团队已经掌握了一些代理技能，可以教会代理遵循其设计系统的最佳实践：为工作选择正确的组件、避免弃用的组件和模式、使用 CDS 设计令牌等等。他们在这些技能的基础上建立了一个内部原型设计游乐场，因此默认情况下，那里的任何东西都坚持 CDS。但两者都是为了从头开始编写代码而进行调整的。另一个常见的工作流程仍然没有得到充分利用：将 Figma 设计转变为生产质量的 CDS 代码。产品工程师告诉团队，这个过程缓慢、不准确且难以预测，无法纳入他们的常规工作流程。",
+        "Code Connect 是显而易见的杠杆，但自 Figma MCP 服务器发布之前 CDS 就没有更新其映射。现有的东西已经过时了，许多新组件根本没有模板。 “根据我对 Code Connect 的了解，这是一种提高设计到代码工作流程可靠性的方法，而不必仅仅依赖我们的代理技能，”Erich 说。",
+        "全面采用 Code Connect 设置并使其现代化将涉及对移动和网络上的数百个组件进行更新。 Erich 使用 Claude Code 构建了一个代理工作流程，该工作流程采用 Figma 组件列表并并行处理它们，并使用Figma-code-connect 技能编写模板。 “在大约四个小时内，我们从将一些组件迁移到更新的 Code Connect 格式，到完全覆盖我们的设计系统，”他说。",
+        "如今，Figma 中的每个 CDS 组件都通过 Code Connect 连接到代码中的同级组件。 Code Connect 是 CDS 工程团队每个组件工作流程的一部分。该团队使用 Figma MCP 服务器来提取设计规范、创建或更新代码中的组件，并使组件相应的 Code Connect 模板与最新更改保持同步。",
+        "现在是时候根据代币使用情况和实施时间（无论有没有 Code Connect）对代理输出的质量进行基准测试了。 “我们想了解 Code Connect 为我们带来了什么，以及它是否有助于解决我们的产品工程师对设计到代码工作流程可靠性的担忧，”Erich 说。",
+        "他在空白代码库中使用相同的设计、提示和模型（Sonnet 4.6）运行了三次，并在每次运行后进行重置，以“确保没有任何残留的线索可供下一个特工蚕食，”他说。他还必须控制即时缓存，这有可能影响实验，由于与 Code Connect 无关的原因产生积极的测试结果。提示很简单并且故意含糊不清：从 Figma 实现此设计，并提供设计文件的链接。"
+      ],
+      "highlights": [
+        "Coinbase 设计系统团队对 Code Connect 进行了针对编码代理的测试，发现它提高了设计系统的依从性，同时平均降低了 22.5% 的代币成本。",
+        "Coinbase 设计系统 (CDS) 团队为消费者和企业提供跨移动和网络的美国最大的加密货币交易所的支持。他们已经扩展了设计系统的质量、一致性和可访问性，但是",
+        "当从设计到代码时，代理缺乏生产组件的上下文。通过 Figma 的 MCP 中的 Code Connect，他们可以获得该上下文。我们测量了它对令牌使用、任务持续"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How Coinbase Used Code Connect to Guide Agents and Shrink Token Costs | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-09-02",
+      "categoryIds": [
+        "vertical-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/how-coinbase-used-code-connect-to-shrink-token-costs/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How Coinbase Used Code Connect to Guide Agents and Shrink Token Costs | Figma Blog"
+      },
+      "raw": {
+        "title": "How Coinbase used Code Connect to guide agents and shrink token costs",
+        "url": "https://www.figma.com/blog/how-coinbase-used-code-connect-to-shrink-token-costs/",
+        "fetched": true,
+        "savedAt": "2026-09-03T02:33:09.060Z"
+      }
+    },
+    {
+      "id": "sig-383dbcd782",
+      "title": "政府和企业的主动网络防御",
+      "oneLiner": "今天，我们正在启动 Fairwind 计划，这是一项限制访问计划，供政府和值得信赖的合作伙伴使用我们最先进的网络防御能力。",
+      "summary": {
+        "oneSentence": "今天，我们正在启动 Fairwind 计划，这是一项限制访问计划，供政府和值得信赖的合作伙伴使用我们最先进的网络防御能力。",
+        "bullets": [
+          "今天，我们正在启动 Fairwind 计划，这是一项限制访问计划，供政府和值得信赖的合作伙伴使用我们最先进的网络防御能力。",
+          "您的浏览器不支持音频元素。",
+          "想要使用先进人工智能的防御者面临着一个两难的困境：采用庞大的前沿模型，这些模型部署成本高昂且难以跨企业代码库控制，或者转向较小的开放权重模型，这些模型可能难以修复复杂的漏洞，并需要团队从头开始构建自己的工具和基础设施。到目前为止。",
+          "今天，我们推出 Fairwind 计划，将 Google 最好的人工智能和网络防御能力带给值得信赖的 Google Cloud 客户、政府机构和网络安全合作伙伴群体，帮助他们主动大规模解决网络风险。作为第一步，Fairwind 计划将为防御者提供强大且先进的 Gemini 模型，帮助他们自主查找和修复漏洞，保护关键基础"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google DeepMind 官网发布：今天，我们正在启动 Fairwind 计划，这是一项限制访问计划，供政府和值得信赖的合作伙伴使用我们最先进的网络防御能力。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "今天，我们正在启动 Fairwind 计划，这是一项限制访问计划，供政府和值得信赖的合作伙伴使用我们最先进的网络防御能力。",
+        "您的浏览器不支持音频元素。",
+        "想要使用先进人工智能的防御者面临着一个两难的困境：采用庞大的前沿模型，这些模型部署成本高昂且难以跨企业代码库控制，或者转向较小的开放权重模型，这些模型可能难以修复复杂的漏洞，并需要团队从头开始构建自己的工具和基础设施。到目前为止。",
+        "今天，我们推出 Fairwind 计划，将 Google 最好的人工智能和网络防御能力带给值得信赖的 Google Cloud 客户、政府机构和网络安全合作伙伴群体，帮助他们主动大规模解决网络风险。作为第一步，Fairwind 计划将为防御者提供强大且先进的 Gemini 模型，帮助他们自主查找和修复漏洞，保护关键基础设施、公共服务和国家安全。",
+        "Fairwind 计划产品将我们最先进的网络模型 Gemini 3.8 Flash Cyber​​ 与我们的 CodeMender 工具结合在一起，帮助防御者发现、验证和修复代理规模的漏洞。发现弱点会产生意识和恐惧；自主查找和修复漏洞可提供安全性。",
+        "CodeMender 与 Gemini 3.8 Flash Cyber​​ 提供专门的推理来编写和验证代码修复，而运营成本只是传统前沿模型的一小部分。防御者现在可以在组织的安全云环境中在几分钟内生成经过验证的、可部署的补丁，而不是花费数周的时间来手动修复漏洞。",
+        "尽早访问这些强大的网络功能，为值得信赖的防御者提供了一个重要的适应窗口，可以在不良行为者有机会利用新功能之前强化其系统。我们正在与对社会复原力最关键的政府和企业合作伙伴进行初步接触：",
+        "为了确保负责任地使用这些强大的人工智能功能，参与组织同意严格的操作标准，包括限制内部网络安全、事件响应或渗透测试团队内的员工访问，以及部署多因素身份验证等保护措施。",
+        "我们在全球拥有超过 650 个参与合作伙伴，包括：",
+        "值得信赖的维护者和行业领导者已经将 Gemini 3.8 Flash Cyber​​ 付诸实践："
+      ],
+      "highlights": [
+        "今天，我们正在启动 Fairwind 计划，这是一项限制访问计划，供政府和值得信赖的合作伙伴使用我们最先进的网络防御能力。",
+        "您的浏览器不支持音频元素。",
+        "想要使用先进人工智能的防御者面临着一个两难的困境：采用庞大的前沿模型，这些模型部署成本高昂且难以跨企业代码库控制，或者转向较小的开放权重模型，这些模型可能难以修"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Proactive cyber defense for governments and enterprises",
+      "originalLang": "en",
+      "date": "2026-09-02",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google DeepMind",
+        "author": "DeepMind",
+        "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+        "home": "https://deepmind.google/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Proactive cyber defense for governments and enterprises"
+      },
+      "raw": {
+        "title": "Proactive cyber defense for governments and enterprises",
+        "url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/",
+        "fetched": true,
+        "savedAt": "2026-09-03T02:33:17.113Z"
+      }
+    },
+    {
+      "id": "sig-18ef68f776",
+      "title": "隆重推出 Gemini 3.8 Flash 和 3.8 Flash Cyber",
+      "oneLiner": "我们最新的 Gemini 模型为代理工作流程和网络安全提供了下一代智能。",
+      "summary": {
+        "oneSentence": "我们最新的 Gemini 模型为代理工作流程和网络安全提供了下一代智能。",
+        "bullets": [
+          "我们最新的 Gemini 模型为代理工作流程和网络安全提供了下一代智能。",
+          "凭借三周前 3.7 Flash 的势头，并标志着我们在短短六周内发布的第三个 Flash，今天我们推出 Gemini 3.8，这是我们迄今为止最好的推理和编码模型，其速度和成本与 3.7 相同。 Gemini 3.8 引入了 2 个变体：",
+          "虽然针对不同的部署环境进行了定制，但今天的两个版本均由相同的基础智能提供支持，并通过旨在递归评估和完善底层模型的长期运行的代理循环进一步加速。这一共享核心的显着编码和推理收益是由多项创新推动的，包括在要求极高的网络安全领域的严格培训。",
+          "Gemini 3.8 Flash 较 3.7 Flash 具有显着优势，通常接近成本较高的前沿型号的性能。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google DeepMind 官网发布：我们最新的 Gemini 模型为代理工作流程和网络安全提供了下一代智能。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "我们最新的 Gemini 模型为代理工作流程和网络安全提供了下一代智能。",
+        "凭借三周前 3.7 Flash 的势头，并标志着我们在短短六周内发布的第三个 Flash，今天我们推出 Gemini 3.8，这是我们迄今为止最好的推理和编码模型，其速度和成本与 3.7 相同。 Gemini 3.8 引入了 2 个变体：",
+        "虽然针对不同的部署环境进行了定制，但今天的两个版本均由相同的基础智能提供支持，并通过旨在递归评估和完善底层模型的长期运行的代理循环进一步加速。这一共享核心的显着编码和推理收益是由多项创新推动的，包括在要求极高的网络安全领域的严格培训。",
+        "Gemini 3.8 Flash 较 3.7 Flash 具有显着优势，通常接近成本较高的前沿型号的性能。",
+        "在 DeepSWE v1.1（长视野软件工程）3.8 上，Flash 在端到端自主解决复杂工程问题方面优于大多数较大的前沿模型，而成本仅为其一小部分。",
+        "此外，3.8 Flash 还展示了跨专业知识领域的关键企业自治所需的可靠性。在需要高级分析和报告的定量和专业领域，3.8 Flash 在 Vals Finance Agent V2 和 Harvey's Legal Agent Benchmark 等基准测试中优于 3.7 Flash 和其他前沿模型。 3.8 Flash 在 HLE-Verified 上也取得了 54.9% 的成绩，展示了其跨 STEM、人文和专业领域处理多步推理的能力。",
+        "这些性能提升源于核心设计选择：3.8 闪存更加努力。在复杂的任务上，它表现出更大的勤奋——执行额外的推理步骤，并迭代地调用工具。有时，模型可能会使用更多令牌来最大限度地提高性能，尤其是在更高的工作量水平上。",
+        "对于计算效率是主要限制的应用程序，开发人员可以利用较低的工作量来最大限度地减少令牌开销，或者继续依赖 Gemini 3.7 Flash，后者仍然完全支持效率优先的工作负载。",
+        "Gemini 3.8 Flash 使用 Google Antigravity 中的循环指令通过简单的提示构建了这个游戏。该游戏使用谜题、环境故事叙述和 Nano Banana 生成的纹理来创建身临其境的 3D 关卡，您在其中扮演一个在城堡中航行的巫师。",
+        "Gemini 3.8 Flash 在 Google Antigravity 的单个提示中构建了功能齐全的 DOS 版本的 Google 地图，可以完全播放位置、方向和街景视图。"
+      ],
+      "highlights": [
+        "我们最新的 Gemini 模型为代理工作流程和网络安全提供了下一代智能。",
+        "凭借三周前 3.7 Flash 的势头，并标志着我们在短短六周内发布的第三个 Flash，今天我们推出 Gemini 3.8，这是我们迄今为止最好的推理和编码模",
+        "虽然针对不同的部署环境进行了定制，但今天的两个版本均由相同的基础智能提供支持，并通过旨在递归评估和完善底层模型的长期运行的代理循环进一步加速。这一共享核心的显着"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+      "originalLang": "en",
+      "date": "2026-09-02",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google DeepMind",
+        "author": "DeepMind",
+        "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+        "home": "https://deepmind.google/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber"
+      },
+      "raw": {
+        "title": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+        "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+        "fetched": true,
+        "savedAt": "2026-09-03T02:33:23.529Z"
+      }
+    },
+    {
+      "id": "sig-28b149c75e",
+      "title": "政府和企业的主动网络防御",
+      "oneLiner": "今天，我们正在启动 Fairwind 计划，这是一项限制访问计划，供政府和值得信赖的合作伙伴使用我们最先进的网络防御能力。",
+      "summary": {
+        "oneSentence": "今天，我们正在启动 Fairwind 计划，这是一项限制访问计划，供政府和值得信赖的合作伙伴使用我们最先进的网络防御能力。",
+        "bullets": [
+          "今天，我们正在启动 Fairwind 计划，这是一项限制访问计划，供政府和值得信赖的合作伙伴使用我们最先进的网络防御能力。",
+          "您的浏览器不支持音频元素。",
+          "想要使用先进人工智能的防御者面临着一个两难的困境：采用庞大的前沿模型，这些模型部署成本高昂且难以跨企业代码库控制，或者转向较小的开放权重模型，这些模型可能难以修复复杂的漏洞，并需要团队从头开始构建自己的工具和基础设施。到目前为止。",
+          "今天，我们推出 Fairwind 计划，将 Google 最好的人工智能和网络防御能力带给值得信赖的 Google Cloud 客户、政府机构和网络安全合作伙伴群体，帮助他们主动大规模解决网络风险。作为第一步，Fairwind 计划将为防御者提供强大且先进的 Gemini 模型，帮助他们自主查找和修复漏洞，保护关键基础"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google AI 官网发布：今天，我们正在启动 Fairwind 计划，这是一项限制访问计划，供政府和值得信赖的合作伙伴使用我们最先进的网络防御能力。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "今天，我们正在启动 Fairwind 计划，这是一项限制访问计划，供政府和值得信赖的合作伙伴使用我们最先进的网络防御能力。",
+        "您的浏览器不支持音频元素。",
+        "想要使用先进人工智能的防御者面临着一个两难的困境：采用庞大的前沿模型，这些模型部署成本高昂且难以跨企业代码库控制，或者转向较小的开放权重模型，这些模型可能难以修复复杂的漏洞，并需要团队从头开始构建自己的工具和基础设施。到目前为止。",
+        "今天，我们推出 Fairwind 计划，将 Google 最好的人工智能和网络防御能力带给值得信赖的 Google Cloud 客户、政府机构和网络安全合作伙伴群体，帮助他们主动大规模解决网络风险。作为第一步，Fairwind 计划将为防御者提供强大且先进的 Gemini 模型，帮助他们自主查找和修复漏洞，保护关键基础设施、公共服务和国家安全。",
+        "Fairwind 计划产品将我们最先进的网络模型 Gemini 3.8 Flash Cyber​​ 与我们的 CodeMender 工具结合在一起，帮助防御者发现、验证和修复代理规模的漏洞。发现弱点会产生意识和恐惧；自主查找和修复漏洞可提供安全性。",
+        "CodeMender 与 Gemini 3.8 Flash Cyber​​ 提供专门的推理来编写和验证代码修复，而运营成本只是传统前沿模型的一小部分。防御者现在可以在组织的安全云环境中在几分钟内生成经过验证的、可部署的补丁，而不是花费数周的时间来手动修复漏洞。",
+        "尽早访问这些强大的网络功能，为值得信赖的防御者提供了一个重要的适应窗口，可以在不良行为者有机会利用新功能之前强化其系统。我们正在与对社会复原力最关键的政府和企业合作伙伴进行初步接触：",
+        "为了确保负责任地使用这些强大的人工智能功能，参与组织同意严格的操作标准，包括限制内部网络安全、事件响应或渗透测试团队内的员工访问，以及部署多因素身份验证等保护措施。",
+        "我们在全球拥有超过 650 个参与合作伙伴，包括：",
+        "值得信赖的维护者和行业领导者已经将 Gemini 3.8 Flash Cyber​​ 付诸实践："
+      ],
+      "highlights": [
+        "今天，我们正在启动 Fairwind 计划，这是一项限制访问计划，供政府和值得信赖的合作伙伴使用我们最先进的网络防御能力。",
+        "您的浏览器不支持音频元素。",
+        "想要使用先进人工智能的防御者面临着一个两难的困境：采用庞大的前沿模型，这些模型部署成本高昂且难以跨企业代码库控制，或者转向较小的开放权重模型，这些模型可能难以修"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Proactive cyber defense for governments and enterprises",
+      "originalLang": "en",
+      "date": "2026-09-02",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Proactive cyber defense for governments and enterprises"
+      },
+      "raw": {
+        "title": "Proactive cyber defense for governments and enterprises",
+        "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+        "fetched": true,
+        "savedAt": "2026-09-03T02:33:27.773Z"
+      }
+    },
+    {
+      "id": "sig-b07b0b2b4d",
+      "title": "ATV Big Air Tour 借助 ChatGPT 将 3 天的工作变成了 3 小时",
+      "oneLiner": "ATV Big Air Tour 使用 ChatGPT Work 来加速营销、推销等。它甚至在 15 分钟内将商品照片变成了库存网站。",
+      "summary": {
+        "oneSentence": "ATV Big Air Tour 使用 ChatGPT Work 来加速营销、推销等。它甚至在 15 分钟内将商品照片变成了库存网站。",
+        "bullets": [
+          "ATV Big Air Tour 使用 ChatGPT Work 来加速营销、推销等。它甚至在 15 分钟内将商品照片变成了库存网站。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：ATV Big Air Tour 使用 ChatGPT Work 来加速营销、推销等。它甚至在 15 分钟内将商品照片变成了库存网站。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/atv-big-air-tour"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "ATV Big Air Tour 使用 ChatGPT Work 来加速营销、推销等。它甚至在 15 分钟内将商品照片变成了库存网站。"
+      ],
+      "highlights": [
+        "ATV Big Air Tour 使用 ChatGPT Work 来加速营销、推销等。它甚至在 15 分钟内将商品照片变成了库存网站。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+      "originalLang": "en",
+      "date": "2026-09-02",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/atv-big-air-tour",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT"
+      },
+      "raw": {
+        "title": "ATV Big Air Tour turned 3 days of work into 3 hours with ChatGPT",
+        "url": "https://openai.com/index/atv-big-air-tour",
+        "fetched": false,
+        "savedAt": "2026-09-03T02:33:28.961Z"
+      }
+    },
+    {
+      "id": "sig-17dede79a0",
+      "title": "提供专业版的免费域名现在包括 .app 和 .dev - Vercel",
+      "oneLiner": "我们最近宣布所有专业团队都可以申请一年的免费域名。该优惠现在包括 .app 和 .dev ，使符合条件的 TLD 达到八个：",
+      "summary": {
+        "oneSentence": "我们最近宣布所有专业团队都可以申请一年的免费域名。该优惠现在包括 .app 和 .dev ，使符合条件的 TLD 达到八个：",
+        "bullets": [
+          "我们最近宣布所有专业团队都可以申请一年的免费域名。该优惠现在包括 .app 和 .dev ，使符合条件的 TLD 达到八个：",
+          "该优惠仍然涵盖每个团队一个域名，高级域名不符合条件。第一年后，您的域名将按照您认领域名时结账时显示的正常价格自动续订。",
+          "在 vercel.com/domains 申领您的域名，并查看免费域名常见问题解答以了解完整条款。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：我们最近宣布所有专业团队都可以申请一年的免费域名。该优惠现在包括 .app 和 .dev ，使符合条件的 TLD 达到八个：",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/app-and-dev-domains-included-with-free-domain-for-pro"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "我们最近宣布所有专业团队都可以申请一年的免费域名。该优惠现在包括 .app 和 .dev ，使符合条件的 TLD 达到八个：",
+        "该优惠仍然涵盖每个团队一个域名，高级域名不符合条件。第一年后，您的域名将按照您认领域名时结账时显示的正常价格自动续订。",
+        "在 vercel.com/domains 申领您的域名，并查看免费域名常见问题解答以了解完整条款。"
+      ],
+      "highlights": [
+        "我们最近宣布所有专业团队都可以申请一年的免费域名。该优惠现在包括 .app 和 .dev ，使符合条件的 TLD 达到八个：",
+        "该优惠仍然涵盖每个团队一个域名，高级域名不符合条件。第一年后，您的域名将按照您认领域名时结账时显示的正常价格自动续订。",
+        "在 vercel.com/domains 申领您的域名，并查看免费域名常见问题解答以了解完整条款。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Free domain with Pro offer now includes .app and .dev - Vercel",
+      "originalLang": "en",
+      "date": "2026-09-02",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/app-and-dev-domains-included-with-free-domain-for-pro",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Free domain with Pro offer now includes .app and .dev - Vercel"
+      },
+      "raw": {
+        "title": "Free domain with Pro offer now includes .app and .dev",
+        "url": "https://vercel.com/changelog/app-and-dev-domains-included-with-free-domain-for-pro",
+        "fetched": true,
+        "savedAt": "2026-09-03T02:33:33.016Z"
+      }
+    },
+    {
+      "id": "sig-fe5941ee46",
+      "title": "自托管机器 · Cursor",
+      "oneLiner": "你的代码库、构建产物和密钥都保留在你基础设施中运行的内部机器上，由智能体在本地处理工具调用。",
+      "summary": {
+        "oneSentence": "你的代码库、构建产物和密钥都保留在你基础设施中运行的内部机器上，由智能体在本地处理工具调用。",
+        "bullets": [
+          "你的代码库、构建产物和密钥都保留在你基础设施中运行的内部机器上，由智能体在本地处理工具调用。",
+          "My Machines 将单台笔记本电脑或 VM 连接到你的账户，用于个人工作流。",
+          "团队池 是面向团队或企业的具名 worker 队列。容量会随请求到来而扩容，并在 worker 断开连接时缩容，让你的自托管机器随需求弹性伸缩。池不与某个代码仓库绑定：只需指定池名称，任何空闲的 worker 都可以领取该请求。",
+          "池还可以让闲置机器休眠，并在收到后续消息时于重连窗口内恢复，这样你就不必只为等下一个提示而一直让昂贵的容量保持热运行。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Cursor 官网发布：你的代码库、构建产物和密钥都保留在你基础设施中运行的内部机器上，由智能体在本地处理工具调用。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：cursor",
+        "actionItems": [
+          "阅读原文（中文）：https://cursor.com/changelog/self-hosted-machines"
+        ]
+      },
+      "tags": [
+        "Release"
+      ],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "cursor"
+      ],
+      "content": [
+        "你的代码库、构建产物和密钥都保留在你基础设施中运行的内部机器上，由智能体在本地处理工具调用。",
+        "My Machines 将单台笔记本电脑或 VM 连接到你的账户，用于个人工作流。",
+        "团队池 是面向团队或企业的具名 worker 队列。容量会随请求到来而扩容，并在 worker 断开连接时缩容，让你的自托管机器随需求弹性伸缩。池不与某个代码仓库绑定：只需指定池名称，任何空闲的 worker 都可以领取该请求。",
+        "池还可以让闲置机器休眠，并在收到后续消息时于重连窗口内恢复，这样你就不必只为等下一个提示而一直让昂贵的容量保持热运行。",
+        "云端智能体现在可以在 你已在使用的基础设施 上运行，包括 AWS Lambda、Coder、Cloudflare、Daytona、Modal、Namespace、Vercel 和 E2B。",
+        "自托管 worker 现已支持在 Linux 与 Mac 上使用 computer use。只要安装了相应的桌面软件包，智能体就能点击、输入、截图并操作浏览器。您可以实时查看它的桌面，也可以直接在 Cursor 中接管操作。"
+      ],
+      "highlights": [
+        "你的代码库、构建产物和密钥都保留在你基础设施中运行的内部机器上，由智能体在本地处理工具调用。",
+        "My Machines 将单台笔记本电脑或 VM 连接到你的账户，用于个人工作流。",
+        "团队池 是面向团队或企业的具名 worker 队列。容量会随请求到来而扩容，并在 worker 断开连接时缩容，让你的自托管机器随需求弹性伸缩。池不与某个代码仓"
+      ],
+      "translated": false,
+      "translateMethod": "native",
+      "originalTitle": "自托管机器 · Cursor",
+      "originalLang": "zh",
+      "date": "2026-09-02",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [
+        "cursor"
+      ],
+      "source": {
+        "type": "release",
+        "group": "company",
+        "name": "Cursor",
+        "author": "Cursor",
+        "url": "https://cursor.com/changelog/self-hosted-machines",
+        "home": "https://cursor.com/changelog",
+        "lang": "zh",
+        "translated": false,
+        "translateMethod": "native",
+        "originalTitle": "自托管机器 · Cursor"
+      },
+      "raw": {
+        "title": "Self-hosted machines",
+        "url": "https://cursor.com/changelog/self-hosted-machines",
+        "fetched": true,
+        "savedAt": "2026-09-03T02:33:34.106Z"
+      }
+    },
+    {
+      "id": "sig-ee594e6bcb",
+      "title": "Muse Spark 1.3 现已在 AI Gateway 上推出 - Vercel",
+      "oneLiner": "Meta 的 Muse Spark 1.3 现已在 AI Gateway 上提供标准定价层和贡献者定价层。",
+      "summary": {
+        "oneSentence": "Meta 的 Muse Spark 1.3 现已在 AI Gateway 上提供标准定价层和贡献者定价层。",
+        "bullets": [
+          "Meta 的 Muse Spark 1.3 现已在 AI Gateway 上提供标准定价层和贡献者定价层。",
+          "该模型在代理工作和编码方面改进了先前的 Muse Spark 模型，具有 1M 令牌上下文窗口以及文本、图像和 PDF 输入。在编码方面，与之前的版本相比，它需要更少的轮次并写入更少的填充物。",
+          "要使用 Muse Spark 1.3，请将 model 设置为 meta/muse-spark-1.3 ：",
+          "API Claude Code Codex Hermes 聊天完成 API API Claude Code Claude Code Codex Codex Hermes Hermes 聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 3 const result = stre"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Meta 的 Muse Spark 1.3 现已在 AI Gateway 上提供标准定价层和贡献者定价层。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/muse-spark-1-3-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Meta 的 Muse Spark 1.3 现已在 AI Gateway 上提供标准定价层和贡献者定价层。",
+        "该模型在代理工作和编码方面改进了先前的 Muse Spark 模型，具有 1M 令牌上下文窗口以及文本、图像和 PDF 输入。在编码方面，与之前的版本相比，它需要更少的轮次并写入更少的填充物。",
+        "要使用 Muse Spark 1.3，请将 model 设置为 meta/muse-spark-1.3 ：",
+        "API Claude Code Codex Hermes 聊天完成 API API Claude Code Claude Code Codex Codex Hermes Hermes 聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 3 const result = streamText({ 4 model: 'meta/muse-spark-1.3', 5prompt: '将此服务从已弃用的 API 中迁移出去。', 6 });复制代理 查看模型详细信息 ↗ 复制链接到标题 Contributor 层 Muse Spark 1.3 Contributor 是同一模型的定价层，而不是单独的模型，具有相同的权重、功能和上下文窗口。不同之处在于，Meta 使用发送到该层的输入和输出来训练和改进其模型，并且交换的定价较低。",
+        "费率按每百万代币计算，与 Muse Spark 1.2 的两个层级均保持不变。",
+        "要在编码代理中使用它，请参阅编码代理指南 ，然后运行 ​​vercel ai-gatewaycoding-agents setup 以连接 Claude Code、Codex、Cursor 等，然后在代理中选择 meta/muse-spark-1.3。",
+        "在模型游乐场中尝试 Muse Spark 1.3。",
+        "您可以查看AI网关上所有可用的语言模型。"
+      ],
+      "highlights": [
+        "Meta 的 Muse Spark 1.3 现已在 AI Gateway 上提供标准定价层和贡献者定价层。",
+        "该模型在代理工作和编码方面改进了先前的 Muse Spark 模型，具有 1M 令牌上下文窗口以及文本、图像和 PDF 输入。在编码方面，与之前的版本相比，它需",
+        "要使用 Muse Spark 1.3，请将 model 设置为 meta/muse-spark-1.3 ："
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Muse Spark 1.3 now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-09-02",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/muse-spark-1-3-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Muse Spark 1.3 now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Muse Spark 1.3 now available on AI Gateway",
+        "url": "https://vercel.com/changelog/muse-spark-1-3-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-09-03T02:33:40.057Z"
+      }
+    },
+    {
+      "id": "sig-3cf2c1482f",
+      "title": "GLM-5.3 通过 AI Gateway 上的 DigitalOcean 享受 50% 折扣 - Vercel",
+      "oneLiner": "与 DigitalOcean 合作，截至 9 月 8 日星期二，GLM-5.3 在 AI Gateway 上可享受 50% 的折扣。",
+      "summary": {
+        "oneSentence": "与 DigitalOcean 合作，截至 9 月 8 日星期二，GLM-5.3 在 AI Gateway 上可享受 50% 的折扣。",
+        "bullets": [
+          "与 DigitalOcean 合作，截至 9 月 8 日星期二，GLM-5.3 在 AI Gateway 上可享受 50% 的折扣。",
+          "将链接复制到标题如何在优惠期间使用该模型使用促销名称 (zai/glm-5.3-promo-50) 获得折扣率。它仅路由到 DigitalOcean，不会回退到其他提供商，并且在优惠结束时停止服务。",
+          "使用标准名称（即 zai/glm-5.3 ）和提供商选项将 DigitalOcean 排序为首选提供商，在 9 月 8 日之后继续工作，并按照通常的费率在为该模型提供服务的每个提供商之间进行路由。",
+          "API 克劳德代码 Codex Hermes API API 克劳德代码 克劳德代码 Codex Hermes Hermes 1 import {streamText } from 'ai' ; 2 3 const result = streamText({ 4 model: 'zai/glm-5.3-promo-50"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：与 DigitalOcean 合作，截至 9 月 8 日星期二，GLM-5.3 在 AI Gateway 上可享受 50% 的折扣。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/glm-5-3-is-50-off-through-digitalocean-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "与 DigitalOcean 合作，截至 9 月 8 日星期二，GLM-5.3 在 AI Gateway 上可享受 50% 的折扣。",
+        "将链接复制到标题如何在优惠期间使用该模型使用促销名称 (zai/glm-5.3-promo-50) 获得折扣率。它仅路由到 DigitalOcean，不会回退到其他提供商，并且在优惠结束时停止服务。",
+        "使用标准名称（即 zai/glm-5.3 ）和提供商选项将 DigitalOcean 排序为首选提供商，在 9 月 8 日之后继续工作，并按照通常的费率在为该模型提供服务的每个提供商之间进行路由。",
+        "API 克劳德代码 Codex Hermes API API 克劳德代码 克劳德代码 Codex Hermes Hermes 1 import {streamText } from 'ai' ; 2 3 const result = streamText({ 4 model: 'zai/glm-5.3-promo-50', 5prompt: '将错误恢复添加到数据摄取管道。', 6 }) ;复制给代理 查看型号详细信息 ↗ 由于促销名称会在优惠结束后消失，因此请将其视为您为窗口打开的内容而不是硬编码。要在代码中保留标准名称，请在 providerOptions.gateway 下使用 order: ['digitalocean'] 固定提供程序，该提供程序更喜欢 DigitalOcean，如果无法满足请求，则回退到其他提供程序。",
+        "GLM-5.3采用文本输入，具有1M令牌上下文窗口，最大输出128K令牌。折扣请求会显示在您的支出仪表板中，并像任何其他请求一样带有跟踪信息。",
+        "要在编码代理中使用它，请参阅编码代理指南 ，然后运行 ​​vercel ai-gatewaycoding-agents setup 以连接 Claude Code、Codex、OpenCode、Cursor、Pi 等代理，并在代理内选择 zai/glm-5.3-promo-50。",
+        "您可以查看AI网关上所有可用的语言模型。"
+      ],
+      "highlights": [
+        "与 DigitalOcean 合作，截至 9 月 8 日星期二，GLM-5.3 在 AI Gateway 上可享受 50% 的折扣。",
+        "将链接复制到标题如何在优惠期间使用该模型使用促销名称 (zai/glm-5.3-promo-50) 获得折扣率。它仅路由到 DigitalOcean，不会回退到",
+        "使用标准名称（即 zai/glm-5.3 ）和提供商选项将 DigitalOcean 排序为首选提供商，在 9 月 8 日之后继续工作，并按照通常的费率在为该模"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "GLM-5.3 is 50% off through DigitalOcean on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-09-02",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/glm-5-3-is-50-off-through-digitalocean-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "GLM-5.3 is 50% off through DigitalOcean on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "GLM-5.3 is 50% off through DigitalOcean on AI Gateway",
+        "url": "https://vercel.com/changelog/glm-5-3-is-50-off-through-digitalocean-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-09-03T02:33:45.702Z"
+      }
+    },
+    {
+      "id": "sig-b709b73f44",
+      "title": "Gemini 3.8 Flash 现已在 AI Gateway 上推出 - Vercel",
+      "oneLiner": "Google 的 Gemini 3.8 Flash 现已在 AI Gateway 上提供。",
+      "summary": {
+        "oneSentence": "Google 的 Gemini 3.8 Flash 现已在 AI Gateway 上提供。",
+        "bullets": [
+          "Google 的 Gemini 3.8 Flash 现已在 AI Gateway 上提供。",
+          "截至 12 月 31 日，该型号可享受 50% 折扣。它具有1M令牌上下文窗口，接受文本、图像、PDF和视频输入，返回文本，并支持工具调用和网页搜索。最大产量为 65,536 个代币。",
+          "Gemini 3.8 Flash 在软件工程、代理工作和多步推理方面对先前的 Flash 模型进行了改进，速度和成本与之前版本相同。默认情况下，思考处于开启状态。",
+          "要使用 Gemini 3.8 Flash，请将模型设置为 google/gemini-3.8-flash ："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Google 的 Gemini 3.8 Flash 现已在 AI Gateway 上提供。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/gemini-3-8-flash-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Google 的 Gemini 3.8 Flash 现已在 AI Gateway 上提供。",
+        "截至 12 月 31 日，该型号可享受 50% 折扣。它具有1M令牌上下文窗口，接受文本、图像、PDF和视频输入，返回文本，并支持工具调用和网页搜索。最大产量为 65,536 个代币。",
+        "Gemini 3.8 Flash 在软件工程、代理工作和多步推理方面对先前的 Flash 模型进行了改进，速度和成本与之前版本相同。默认情况下，思考处于开启状态。",
+        "要使用 Gemini 3.8 Flash，请将模型设置为 google/gemini-3.8-flash ：",
+        "AI SDK Claude Code Codex Hermes 聊天完成 AI SDK AI SDK Claude Code Claude Code Claude Code Codex Codex Hermes Hermes 聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 3 const result = streamText ({ 4 model: 'google/gemini-3.8-flash' , 5prompt : '在此 repo 中查找 bug 并打开 PR 进行修复。' , 6 }) ;复制代理查看模型详细信息 ↗ 要在编码代理中使用它，请参阅编码代理指南 ，然后运行 ​​vercel ai-gatewaycoding-agents setup 以连接 Claude Code、OpenCode、Cursor、Pi 等代理，并在代理内选择 google/gemini-3.8-flash。",
+        "在模型游乐场中尝试 Gemini 3.8 Flash。",
+        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。",
+        "您可以查看AI网关上所有可用的语言模型。"
+      ],
+      "highlights": [
+        "Google 的 Gemini 3.8 Flash 现已在 AI Gateway 上提供。",
+        "截至 12 月 31 日，该型号可享受 50% 折扣。它具有1M令牌上下文窗口，接受文本、图像、PDF和视频输入，返回文本，并支持工具调用和网页搜索。最大产量为",
+        "Gemini 3.8 Flash 在软件工程、代理工作和多步推理方面对先前的 Flash 模型进行了改进，速度和成本与之前版本相同。默认情况下，思考处于开启状态"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Gemini 3.8 Flash now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-09-02",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/gemini-3-8-flash-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Gemini 3.8 Flash now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Gemini 3.8 Flash now available on AI Gateway",
+        "url": "https://vercel.com/changelog/gemini-3-8-flash-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-09-03T02:33:51.514Z"
+      }
+    },
     {
       "id": "sig-66eabab697",
       "title": "我们于 2026 年 8 月公布的最新 AI 新闻",
@@ -2919,7 +3749,7 @@
         "url": "https://cursor.com/changelog/start-from-scratch",
         "fetched": true,
         "savedAt": "2026-08-28T08:33:37.517Z",
-        "retranslatedAt": "2026-09-02T02:27:27.105Z"
+        "retranslatedAt": "2026-09-03T02:33:52.621Z"
       }
     },
     {
@@ -3182,19 +4012,22 @@
     },
     {
       "id": "sig-5391b6f63d",
-      "title": "Find deployments faster with redesigned filters",
-      "oneLiner": "The Deployments page now has redesigned filters that make it faster to find a specific deployment. Y",
+      "title": "使用重新设计的过滤器更快地找到部署 - Vercel",
+      "oneLiner": "“部署”页面现在重新设计了过滤器，可以更快地查找特定部署。",
       "summary": {
-        "oneSentence": "The Deployments page now has redesigned filters that make it faster to find a specific deployment. You can: Apply sugges",
+        "oneSentence": "“部署”页面现在重新设计了过滤器，可以更快地查找特定部署。",
         "bullets": [
-          "The Deployments page now has redesigned filters that make it faster to find a specific deployment. You can: Apply suggested filters for common searches. Type to find an option instead of scrolling thr"
+          "“部署”页面现在重新设计了过滤器，可以更快地查找特定部署。",
+          "对常见搜索应用建议的过滤器。",
+          "键入以查找选项，而不是滚动列表。",
+          "用自然语言描述您要查找的内容，Vercel 会自动应用匹配的过滤器。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：“部署”页面现在重新设计了过滤器，可以更快地查找特定部署。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -3202,29 +4035,33 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://vercel.com/changelog/find-deployments-faster-with-redesigned-filters"
+          "阅读原文（英文）：https://vercel.com/changelog/find-deployments-faster-with-redesigned-filters"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "The Deployments page now has redesigned filters that make it faster to find a specific deployment.",
-        "Apply suggested filters for common searches.",
-        "Type to find an option instead of scrolling through the list.",
-        "Describe what you’re looking for in natural language, and Vercel automatically applies the matching filters.",
-        "Open any project's Deployments page to try the new filters."
+        "“部署”页面现在重新设计了过滤器，可以更快地查找特定部署。",
+        "对常见搜索应用建议的过滤器。",
+        "键入以查找选项，而不是滚动列表。",
+        "用自然语言描述您要查找的内容，Vercel 会自动应用匹配的过滤器。",
+        "打开任何项目的“部署”页面以尝试新的过滤器。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "“部署”页面现在重新设计了过滤器，可以更快地查找特定部署。",
+        "对常见搜索应用建议的过滤器。",
+        "键入以查找选项，而不是滚动列表。"
+      ],
+      "translated": true,
       "originalTitle": "Find deployments faster with redesigned filters - Vercel",
       "originalLang": "en",
       "date": "2026-08-27",
@@ -3240,32 +4077,37 @@
         "url": "https://vercel.com/changelog/find-deployments-faster-with-redesigned-filters",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Find deployments faster with redesigned filters - Vercel"
       },
       "raw": {
         "title": "Find deployments faster with redesigned filters",
         "url": "https://vercel.com/changelog/find-deployments-faster-with-redesigned-filters",
         "fetched": true,
-        "savedAt": "2026-08-28T08:33:30.345Z"
-      }
+        "savedAt": "2026-08-28T08:33:30.345Z",
+        "retranslatedAt": "2026-09-03T02:33:57.114Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-d9b2bc36ff",
-      "title": "Piloting the world's first double-blind AI evaluations",
-      "oneLiner": "Piloting the world's first double-blind AI evaluations",
+      "title": "试点全球首次双盲人工智能评估",
+      "oneLiner": "威廉·艾萨克、索尔·梅辛和克里斯蒂安·林",
       "summary": {
-        "oneSentence": "Piloting the world's first double-blind AI evaluations",
+        "oneSentence": "威廉·艾萨克、索尔·梅辛和克里斯蒂安·林",
         "bullets": [
-          "Piloting the world's first double-blind AI evaluations"
+          "威廉·艾萨克、索尔·梅辛和克里斯蒂安·林",
+          "使用加密安全环境建立对专有模型基准的信任",
+          "想象一下，一名学生准备参加一场高风险的考试。如果他们不小心提前偷看了试题，那么获得满分就会受到这些知识的影响，使其成为毫无意义的成就。为了真正衡量他们所知道的内容，他们必须在参加考试之前看不到测试问题。这正是行业在评估先进人工智能模型时面临的挑战。如果模型已经看到了测试问题（称为基准污染的问题），则结果只能在一定程度上",
+          "今天，我们推出了世界上第一个对专有前沿级人工智能模型的双盲评估，该模型将外部评估限制在加密“盒子”中，模型稍后无法在测试前使用它们来优化性能。我们正在与新加坡人工智能安全研究所、OpenMined、AVERI 和 MLCommons 合作，在隐私保护环境中根据机密基准测试 Gemini Flash Lite 模型，从而"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Google DeepMind 官网发布：威廉·艾萨克、索尔·梅辛和克里斯蒂安·林",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -3273,37 +4115,40 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
-        "relevance": "",
+        "relevance": "关联产品：gemini",
         "actionItems": [
-          "阅读原文：https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/"
+          "阅读原文（英文）：https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [
         "gemini"
       ],
       "content": [
-        "William Isaac, Sol Messing and Kristian Lum",
-        "Share Copied Building trust in proprietary model benchmarks using cryptographically secure environments",
-        "Imagine a student is set to take a high-stakes exam. If they accidentally peek at the test questions in advance, achieving a perfect score is influenced by this knowledge, making it a meaningless accomplishment. To truly measure what they know, they must have no visibility of the test questions until it's time to take the exam. That is the exact challenge the industry faces when evaluating advanced AI models. If a model has already seen the test questions - a problem known as benchmark contamination - the results can only be trusted to an extent.",
-        "Today, we’re introducing the world’s first double-blind evaluation of a proprietary, frontier class AI model, which keeps external evaluations confined to a cryptographic “box” where they can’t be used by models later to optimize performance ahead of testing. We're partnering with the Singapore AI Safety Institute, OpenMined, AVERI, and MLCommons , to test a Gemini Flash Lite model against confidential benchmarks in a privacy-preserving environment , increasing evaluation integrity.",
-        "At Google, we assess our AI systems using a broad spectrum of evaluations throughout model development and deployment, but we don’t rely on internal testing alone. To identify potential blindspots, we work with a diverse group of external partners, including specialized research labs, civil society and national AI Safety and Security Institutes (AISIs), using their unique expertise to stress-test our models.",
-        "As AI models become more capable, ensuring the model has not seen the test questions or prompts in advance is critical, as this can skew the results. Policymakers, researchers, and enterprises need to trust that AI benchmarks accurately reflect a model's true capabilities and safety, but if models are able to “peek” at the evaluation questions in advance, it can artificially inflate scores and undermine this trust.",
-        "Although zero-logging protocols and rigorous contractual safeguards have long kept external test prompts confidential, incorporating technical and cryptographic safeguards marks a major step forward in secure model evaluation.",
-        "Historically, high-stakes external evaluations required a tradeoff. Either evaluators handed over their testing prompts (risking the model provider seeing the test questions in advance), or the model provider handed over their model weights (risking their intellectual property).",
-        "Double-blind evaluations eliminate this compromise. By using Confidential Space within Google Cloud’s Confidential Computing portfolio, we can cryptographically verify that both the external evaluation data and the proprietary model remain private to their respective owners. The evaluator cannot see the Gemini model weights, and Google cannot see the evaluator’s test prompts.",
-        "This cryptographic evidence helps prevent benchmark contamination and protects sensitive data. As models become more capable this becomes particularly important for highly sensitive evaluations, such as those used for cybersecurity or by government bodies. Double-blind evaluations unlock the ability for independent organizations to rigorously test advanced models without compromising data sovereignty or security.",
-        "We hope this pilot establishes a new frontier for model oversight, helping the broader industry build safer, more reliable, and widely trusted AI systems. To learn more about our methodology and findings, read our technical report ."
+        "威廉·艾萨克、索尔·梅辛和克里斯蒂安·林",
+        "使用加密安全环境建立对专有模型基准的信任",
+        "想象一下，一名学生准备参加一场高风险的考试。如果他们不小心提前偷看了试题，那么获得满分就会受到这些知识的影响，使其成为毫无意义的成就。为了真正衡量他们所知道的内容，他们必须在参加考试之前看不到测试问题。这正是行业在评估先进人工智能模型时面临的挑战。如果模型已经看到了测试问题（称为基准污染的问题），则结果只能在一定程度上可信。",
+        "今天，我们推出了世界上第一个对专有前沿级人工智能模型的双盲评估，该模型将外部评估限制在加密“盒子”中，模型稍后无法在测试前使用它们来优化性能。我们正在与新加坡人工智能安全研究所、OpenMined、AVERI 和 MLCommons 合作，在隐私保护环境中根据机密基准测试 Gemini Flash Lite 模型，从而提高评估完整性。",
+        "在谷歌，我们在整个模型开发和部署过程中使用广泛的评估来评估我们的人工智能系统，但我们不仅仅依赖内部测试。为了识别潜在的盲点，我们与各种外部合作伙伴合作，包括专业研究实验室、民间社会和国家人工智能安全研究所 (AISI)，利用他们独特的专业知识对我们的模型进行压力测试。",
+        "随着人工智能模型的能力变得越来越强大，确保模型没有提前看到测试问题或提示至关重要，因为这可能会扭曲结果。政策制定者、研究人员和企业需要相信人工智能基准准确地反映了模型的真实能力和安全性，但如果模型能够提前“窥视”评估问题，它可能会人为地抬高分数并破坏这种信任。",
+        "尽管零日志协议和严格的合同保障措施长期以来一直对外部测试提示保密，但纳入技术和加密保障措施标志着安全模型评估向前迈出了重要一步。",
+        "从历史上看，高风险的外部评估需要权衡。评估者要么交出他们的测试提示（冒着模型提供者提前看到测试问题的风险），要么模型提供者交出他们的模型权重（冒着他们的知识产权的风险）。",
+        "双盲评估消除了这种妥协。通过使用 Google Cloud 机密计算产品组合中的机密空间，我们可以通过加密方式验证外部评估数据和专有模型对各自所有者而言都是私有的。评估者看不到Gemini模型权重，Google也看不到评估者的测试提示。",
+        "这种加密证据有助于防止基准污染并保护敏感数据。随着模型变得更加强大，这对于高度敏感的评估（例如用于网络安全或政府机构的评估）变得尤为重要。双盲评估使独立组织能够在不损害数据主权或安全性的情况下严格测试先进模型。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "威廉·艾萨克、索尔·梅辛和克里斯蒂安·林",
+        "使用加密安全环境建立对专有模型基准的信任",
+        "想象一下，一名学生准备参加一场高风险的考试。如果他们不小心提前偷看了试题，那么获得满分就会受到这些知识的影响，使其成为毫无意义的成就。为了真正衡量他们所知道的内"
+      ],
+      "translated": true,
       "originalTitle": "Piloting the world's first double-blind AI evaluations",
       "originalLang": "en",
       "date": "2026-08-27",
@@ -3321,32 +4166,34 @@
         "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
         "home": "https://deepmind.google/blog/",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Piloting the world's first double-blind AI evaluations"
       },
       "raw": {
         "title": "Piloting the world's first double-blind AI evaluations",
         "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
         "fetched": true,
-        "savedAt": "2026-08-28T08:33:32.091Z"
-      }
+        "savedAt": "2026-08-28T08:33:32.091Z",
+        "retranslatedAt": "2026-09-03T02:34:05.147Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-3062d8cdad",
-      "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-      "oneLiner": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and",
+      "title": "更好的答案，更广阔的思维：学生从 ChatGPT 和批判性思维培训中获得什么",
+      "oneLiner": "一项针对 1,000 多名学生的随机研究考察了 ChatGPT、批判性思维、原创性以及学生在现实世界大学作业中的表现。",
       "summary": {
-        "oneSentence": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance",
+        "oneSentence": "一项针对 1,000 多名学生的随机研究考察了 ChatGPT、批判性思维、原创性以及学生在现实世界大学作业中的表现。",
         "bullets": [
-          "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment."
+          "一项针对 1,000 多名学生的随机研究考察了 ChatGPT、批判性思维、原创性以及学生在现实世界大学作业中的表现。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "OpenAI 官网发布：一项针对 1,000 多名学生的随机研究考察了 ChatGPT、批判性思维、原创性以及学生在现实世界大学作业中的表现。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -3354,27 +4201,29 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
-        "relevance": "",
+        "relevance": "关联产品：chatgpt",
         "actionItems": [
-          "阅读原文：https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training"
+          "阅读原文（英文）：https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [
         "chatgpt"
       ],
       "content": [
-        "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment."
+        "一项针对 1,000 多名学生的随机研究考察了 ChatGPT、批判性思维、原创性以及学生在现实世界大学作业中的表现。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "一项针对 1,000 多名学生的随机研究考察了 ChatGPT、批判性思维、原创性以及学生在现实世界大学作业中的表现。"
+      ],
+      "translated": true,
       "originalTitle": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
       "originalLang": "en",
       "date": "2026-08-27",
@@ -3392,32 +4241,37 @@
         "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
         "home": "https://openai.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training"
       },
       "raw": {
         "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
         "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
         "fetched": false,
-        "savedAt": "2026-08-28T08:33:33.395Z"
-      }
+        "savedAt": "2026-08-28T08:33:33.395Z",
+        "retranslatedAt": "2026-09-03T02:34:06.340Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-cde9b94dd5",
-      "title": "The best workflow engine is a programming language",
-      "oneLiner": "The idea of orchestrating long-running, stateful logic on top of unreliable, stateless infrastructur",
+      "title": "最好的工作流引擎是编程语言",
+      "oneLiner": "Workflow SDK 将 TypeScript 转变为持久执行，无需新的基础设施。",
       "summary": {
-        "oneSentence": "The idea of orchestrating long-running, stateful logic on top of unreliable, stateless infrastructure isn't new. We've h",
+        "oneSentence": "Workflow SDK 将 TypeScript 转变为持久执行，无需新的基础设施。",
         "bullets": [
-          "The idea of orchestrating long-running, stateful logic on top of unreliable, stateless infrastructure isn't new. We've had message queues, job runners, microservice choreographies, and full-blown work"
+          "Workflow SDK 将 TypeScript 转变为持久执行，无需新的基础设施。",
+          "在不可靠、无状态的基础设施之上编排长期运行的有状态逻辑的想法并不新鲜。我们长期以来一直拥有消息队列、作业运行器、微服务编排和成熟的工作流引擎。我们从未有过一个写起来感觉很好的版本。",
+          "我花了大约六个月的时间研究 Temporal 的一个分支，主要是在周末，试图将其变成 DX 的无服务器答案，感觉更像 Vercel 原生。最终我意识到，为了提供这种体验，我还需要拥有执行环境。所以我放弃了分支，加入了 Vercel，并开始与 Nathan Rajlich 一起开发一个新框架。",
+          "将链接复制到标题 代码已经是 DAG 工作流程是 DAG，即有向无环图。在 Temporal 之前（以及之前的 Cadence），几乎每个工作流框架都要求您手动绘制 DAG。 Apache Airflow 是典型的例子。您将管道描述为任务和依赖关系的显式图表，而您的实际逻辑则隐藏在节点内。”"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：Workflow SDK 将 TypeScript 转变为持久执行，无需新的基础设施。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -3425,38 +4279,38 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://vercel.com/blog/the-best-workflow-engine-is-a-programming-language"
+          "阅读原文（英文）：https://vercel.com/blog/the-best-workflow-engine-is-a-programming-language"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "Workflow SDK turns TypeScript into durable execution without new infrastructure.",
-        "The idea of orchestrating long-running, stateful logic on top of unreliable, stateless infrastructure isn't new. We've had message queues, job runners, microservice choreographies, and full-blown workflow engines for a long time. What we never had was a version of it that felt good to write.",
-        "I'd spent about six months working on a fork of Temporal, mostly on weekends, trying to turn it into a serverless answer with DX that felt more Vercel-native. Eventually it dawned on me that to ship that experience, I'd need to own the execution environment too. So I dropped the fork, joined Vercel, and started hacking on a new framework from scratch alongside Nathan Rajlich .",
-        "Copy link to heading Code is already a DAG A workflow is a DAG, a directed acyclic graph. Before Temporal (and Cadence before it), nearly every workflow framework made you draw that DAG by hand. Apache Airflow is the canonical example. You describe your pipeline as an explicit graph of tasks and dependencies, and your actual logic gets buried inside the nodes.\"",
-        "That always felt backwards to me. We already have a tool for expressing \"do this, then that, and these in parallel, and branch here.\" It's called a programming language. An abstract syntax tree is a DAG. Software itself is a DAG.",
-        "I knew that in the abstract, but it didn't truly hit me until I saw Temporal, where you write what looks like normal sequential code and the engine makes it durable underneath. It was the dream all along.",
-        "Copy link to heading What running Temporal taught me Temporal is great once your infrastructure exists. I was starting from scratch, and setting it up meant:",
-        "Standing up Temporal Cloud (or self-hosting the server: Frontend, History, Matching, and Worker services, plus a Cassandra/Postgres/MySQL backend and sharding).",
-        "Running your own worker fleet: Temporal never executes your code. Your workers poll the server and run your workflows and activities. In practice that's a Kubernetes cluster you own.",
-        "Wiring it all together: task queues, activity registration, client config.",
-        "Managing the workers yourself: scaling, uptime, restarts, and the build-and-deploy pipeline for the worker processes.",
-        "Setting up encryption: workers talk to the control plane over the internet, so you're configuring mutual TLS and a data converter to encrypt payloads before they leave your environment.",
-        "Once all of that was in place, the workflow dream mostly became real. But I wanted something easy to start that could still scale as my project grew into production.",
-        "Copy link to heading Versioning in-flight workflows Beyond owning the worker build-and-deploy process myself, there was a harder problem. If I changed my workflow code while runs were still in flight, I was kind of stuck. There were no longer any workers running the old, correct version of that code. Replay would hit my new code with an old event history and break on a non-determinism error."
+        "Workflow SDK 将 TypeScript 转变为持久执行，无需新的基础设施。",
+        "在不可靠、无状态的基础设施之上编排长期运行的有状态逻辑的想法并不新鲜。我们长期以来一直拥有消息队列、作业运行器、微服务编排和成熟的工作流引擎。我们从未有过一个写起来感觉很好的版本。",
+        "我花了大约六个月的时间研究 Temporal 的一个分支，主要是在周末，试图将其变成 DX 的无服务器答案，感觉更像 Vercel 原生。最终我意识到，为了提供这种体验，我还需要拥有执行环境。所以我放弃了分支，加入了 Vercel，并开始与 Nathan Rajlich 一起开发一个新框架。",
+        "将链接复制到标题 代码已经是 DAG 工作流程是 DAG，即有向无环图。在 Temporal 之前（以及之前的 Cadence），几乎每个工作流框架都要求您手动绘制 DAG。 Apache Airflow 是典型的例子。您将管道描述为任务和依赖关系的显式图表，而您的实际逻辑则隐藏在节点内。”",
+        "这对我来说总是感觉倒退。我们已经有了一个工具来表达“并行执行此操作，然后执行此操作，然后在此处进行分支”。它被称为编程语言。抽象语法树是 DAG。软件本身就是一个 DAG。",
+        "我抽象地知道这一点，但直到我看到 Temporal，它才真正打动我，你可以在其中编写看起来像正常顺序代码的代码，而引擎使其在底层持久耐用。这是一直以来的梦想。",
+        "将链接复制到标题运行 Temporal 教会我的内容一旦您的基础设施存在，Temporal 就会很棒。我从头开始，设置它意味着：",
+        "建立 Temporal Cloud（或自托管服务器：前端、历史记录、匹配和 Worker 服务，以及 Cassandra/Postgres/MySQL 后端和分片）。",
+        "运行您自己的工作队列：Temporal 永远不会执行您的代码。您的工作人员轮询服务器并运行您的工作流程和活动。实际上，这是您拥有的 Kubernetes 集群。",
+        "将它们连接在一起：任务队列、活动注册、客户端配置。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "Workflow SDK 将 TypeScript 转变为持久执行，无需新的基础设施。",
+        "在不可靠、无状态的基础设施之上编排长期运行的有状态逻辑的想法并不新鲜。我们长期以来一直拥有消息队列、作业运行器、微服务编排和成熟的工作流引擎。我们从未有过一个写",
+        "我花了大约六个月的时间研究 Temporal 的一个分支，主要是在周末，试图将其变成 DX 的无服务器答案，感觉更像 Vercel 原生。最终我意识到，为了提供"
+      ],
+      "translated": true,
       "originalTitle": "The best workflow engine is a programming language",
       "originalLang": "en",
       "date": "2026-08-27",
@@ -3472,32 +4326,34 @@
         "url": "https://vercel.com/blog/the-best-workflow-engine-is-a-programming-language",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "The best workflow engine is a programming language"
       },
       "raw": {
         "title": "The best workflow engine is a programming language",
         "url": "https://vercel.com/blog/the-best-workflow-engine-is-a-programming-language",
         "fetched": true,
-        "savedAt": "2026-08-28T08:33:34.927Z"
-      }
+        "savedAt": "2026-08-28T08:33:34.927Z",
+        "retranslatedAt": "2026-09-03T02:34:13.091Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-57e276283c",
-      "title": "Expanding OpenAI’s presence in Brazil",
-      "oneLiner": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and co",
+      "title": "扩大 OpenAI 在巴西的影响力",
+      "oneLiner": "OpenAI 正在扩大其在巴西的业务，加深与开发者、企业和社区的接触，以支持人工智能在该国的采用。",
       "summary": {
-        "oneSentence": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support",
+        "oneSentence": "OpenAI 正在扩大其在巴西的业务，加深与开发者、企业和社区的接触，以支持人工智能在该国的采用。",
         "bullets": [
-          "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country."
+          "OpenAI 正在扩大其在巴西的业务，加深与开发者、企业和社区的接触，以支持人工智能在该国的采用。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "OpenAI 官网发布：OpenAI 正在扩大其在巴西的业务，加深与开发者、企业和社区的接触，以支持人工智能在该国的采用。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -3505,27 +4361,29 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
-        "relevance": "",
+        "relevance": "关联产品：chatgpt",
         "actionItems": [
-          "阅读原文：https://openai.com/index/expanding-our-presence-in-brazil"
+          "阅读原文（英文）：https://openai.com/index/expanding-our-presence-in-brazil"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [
         "chatgpt"
       ],
       "content": [
-        "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country."
+        "OpenAI 正在扩大其在巴西的业务，加深与开发者、企业和社区的接触，以支持人工智能在该国的采用。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "OpenAI 正在扩大其在巴西的业务，加深与开发者、企业和社区的接触，以支持人工智能在该国的采用。"
+      ],
+      "translated": true,
       "originalTitle": "Expanding OpenAI’s presence in Brazil",
       "originalLang": "en",
       "date": "2026-08-27",
@@ -3543,16 +4401,18 @@
         "url": "https://openai.com/index/expanding-our-presence-in-brazil",
         "home": "https://openai.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Expanding OpenAI’s presence in Brazil"
       },
       "raw": {
         "title": "Expanding OpenAI’s presence in Brazil",
         "url": "https://openai.com/index/expanding-our-presence-in-brazil",
         "fetched": false,
-        "savedAt": "2026-08-28T08:33:36.405Z"
-      }
+        "savedAt": "2026-08-28T08:33:36.405Z",
+        "retranslatedAt": "2026-09-03T02:34:14.298Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-876820d78a",
@@ -29946,155 +30806,6 @@
         "readMinutes": 3
       },
       "affectedProductIds": []
-    },
-    {
-      "id": "cur-libtv-canvas",
-      "title": "LibTV 无限画布：LiblibAI 系视频 Agent 全链路",
-      "oneLiner": "LibTV 用无限画布串联剧本→分镜→成片，面向专业创作者。",
-      "date": "2026-07-20",
-      "tags": [
-        "Video",
-        "Agent",
-        "Product"
-      ],
-      "categoryIds": [
-        "vertical-video"
-      ],
-      "productIds": [
-        "libtv"
-      ],
-      "importance": {
-        "stars": 4,
-        "reason": "与 TapNow 并列的国内视频 Agent",
-        "readMinutes": 4
-      },
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "LibTV",
-        "author": "LiblibAI",
-        "url": "https://www.liblib.art/",
-        "home": "https://www.liblib.art/",
-        "lang": "zh",
-        "translated": true
-      },
-      "summary": {
-        "oneSentence": "LibTV 提供从剧本解析到镜头生成的 Agent 化视频制作体验。",
-        "bullets": [
-          "无限画布组织多镜头",
-          "与 Liblib 模型生态打通",
-          "支持分镜级微调"
-        ],
-        "audience": "视频博主、MCN、AI 创作者",
-        "readMinutes": 4,
-        "keywords": [
-          "LibTV",
-          "Video Agent",
-          "Canvas"
-        ]
-      },
-      "insight": {
-        "mainInsight": "国内视频 Agent 普遍选择「画布 + 节点」而非纯 Chat，因为视频是非线性资产。",
-        "whyNow": "单段 5 秒生成已 commoditize，竞争转向工作流。",
-        "problem": "多镜头一致性与流程管理。",
-        "trend": "Canvas-first Video Agent",
-        "differentiation": "Liblib 社区模型资源是生态优势。",
-        "outlook": "视频 Agent 将出现更多「模板市场」。"
-      },
-      "learning": {
-        "whyImportant": "Atlas 已收录，适合与 TapNow、可灵做三角对比。",
-        "productDesign": "无限画布适合非线性创作；学习其如何平衡「自由布局」与「新手引导」。",
-        "relevance": "Video、Agent、Workflow。",
-        "actionItems": [
-          "试用 LibTV 从剧本出分镜",
-          "对比 TapNow 节点流",
-          "关注 Liblib 社区模板"
-        ]
-      },
-      "content": [
-        "LibTV 与 TapNow 共同定义了国内「视频 Agent 2.0」——不只生成片段，而是管理整个制作项目。",
-        "建议学习者亲自跑通一个 15 秒短片项目，记录每一步 Agent 介入点。"
-      ],
-      "highlights": [
-        "无限画布",
-        "Liblib 生态",
-        "视频 Agent 2.0"
-      ]
-    },
-    {
-      "id": "sig-d4ff9ec891",
-      "title": "长视野模型时代的安全性和对准",
-      "oneLiner": "OpenAI 分享了部署长期运行的人工智能模型的经验教训，强调了新的安全风险、观察到的故障以及通过迭代部署改进的保障措施。",
-      "summary": {
-        "oneSentence": "OpenAI 分享了部署长期运行的人工智能模型的经验教训，强调了新的安全风险、观察到的故障以及通过迭代部署改进的保障措施。",
-        "bullets": [
-          "OpenAI 分享了部署长期运行的人工智能模型的经验教训，强调了新的安全风险、观察到的故障以及通过迭代部署改进的保障措施。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：OpenAI 分享了部署长期运行的人工智能模型的经验教训，强调了新的安全风险、观察到的故障以及通过迭代部署改进的保障措施。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/safety-alignment-long-horizon-models"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "OpenAI 分享了部署长期运行的人工智能模型的经验教训，强调了新的安全风险、观察到的故障以及通过迭代部署改进的保障措施。"
-      ],
-      "highlights": [
-        "OpenAI 分享了部署长期运行的人工智能模型的经验教训，强调了新的安全风险、观察到的故障以及通过迭代部署改进的保障措施。"
-      ],
-      "translated": true,
-      "originalTitle": "Safety and alignment in an era of long-horizon models",
-      "originalLang": "en",
-      "date": "2026-07-20",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/safety-alignment-long-horizon-models",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Safety and alignment in an era of long-horizon models"
-      },
-      "raw": {
-        "title": "Safety and alignment in an era of long-horizon models",
-        "url": "https://openai.com/index/safety-alignment-long-horizon-models",
-        "fetched": false,
-        "savedAt": "2026-07-27T07:33:29.157Z",
-        "retranslatedAt": "2026-08-01T22:53:17.991Z"
-      },
-      "translateMethod": "google"
     }
   ]
 }
