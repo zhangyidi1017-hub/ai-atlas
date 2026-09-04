@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-03T02:34:15.101Z",
+  "updatedAt": "2026-09-04T02:31:13.118Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 402,
+  "itemCount": 404,
   "brief": {
-    "date": "2026-09-03",
-    "generatedAt": "2026-09-03T02:34:15.100Z",
-    "totalCount": 402,
+    "date": "2026-09-04",
+    "generatedAt": "2026-09-04T02:31:13.117Z",
+    "totalCount": 404,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 402 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 404 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -33,17 +33,17 @@
         "readMinutes": 4
       },
       {
-        "id": "sig-4a26f8dc63",
-        "title": "Coinbase 如何使用 Code Connect 来指导代理并降低代币成本 | Figma 博客",
+        "id": "sig-56da2c8ef8",
+        "title": "隆重推出 WeatherNext 3，我们最先进、最准确的全球天气人工智能模型",
         "stars": 4,
-        "oneLiner": "Coinbase 设计系统团队对 Code Connect 进行了针对编码代理的测试，发现它提高了设计系统的依从性，同时平均降低了 22.5% 的代币成本。",
+        "oneLiner": "我们的旗舰人工智能天气预报模型现在包括实时卫星数据、每小时刷新、更高分辨率、精确的降水预报和清洁能源变量。它现在已集成到搜索、Gemini、地图、Google 地图平台和云中。",
         "readMinutes": 5
       },
       {
-        "id": "sig-383dbcd782",
-        "title": "政府和企业的主动网络防御",
+        "id": "sig-16708db524",
+        "title": "Cursor Cloud Agents 现在可以在 Vercel Sandbox 中运行 - Vercel",
         "stars": 4,
-        "oneLiner": "今天，我们正在启动 Fairwind 计划，这是一项限制访问计划，供政府和值得信赖的合作伙伴使用我们最先进的网络防御能力。",
+        "oneLiner": "Cursor 云代理现在可以在 Vercel Sandbox 中运行，而不是在 Cursor 的托管计算机中运行。",
         "readMinutes": 5
       }
     ],
@@ -52,9 +52,9 @@
         "cur-openai-agentkit",
         "cur-anthropic-mcp",
         "cur-cursor-agent",
-        "sig-4a26f8dc63",
-        "sig-383dbcd782",
-        "sig-18ef68f776"
+        "sig-56da2c8ef8",
+        "sig-16708db524",
+        "sig-5190d2a1dc"
       ],
       "newReleases": [
         "sig-fe5941ee46",
@@ -70,19 +70,18 @@
         "cur-openai-agentkit",
         "cur-anthropic-mcp",
         "cur-cursor-agent",
-        "sig-4a26f8dc63",
-        "sig-383dbcd782",
-        "sig-18ef68f776",
-        "sig-28b149c75e",
-        "sig-b07b0b2b4d"
+        "sig-56da2c8ef8",
+        "sig-16708db524",
+        "sig-5190d2a1dc",
+        "sig-be4a3c5426",
+        "sig-7a45b185cf"
       ],
       "emergingTrends": [
         "cur-openai-agentkit",
         "cur-anthropic-mcp",
         "cur-cursor-agent",
         "cur-perplexity-search",
-        "cur-gemini-multimodal",
-        "cur-tapnow-agent"
+        "cur-gemini-multimodal"
       ],
       "newApis": [
         "cur-openai-agentkit",
@@ -112,8 +111,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-09-03T02:34:15.101Z",
-    "summary": "近 30 天共 271 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-09-04T02:31:13.118Z",
+    "summary": "近 30 天共 270 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -128,6 +127,66 @@
     "risingTags": []
   },
   "productUpdates": [
+    {
+      "id": "sig-56da2c8ef8",
+      "title": "隆重推出 WeatherNext 3，我们最先进、最准确的全球天气人工智能模型",
+      "oneLiner": "我们的旗舰人工智能天气预报模型现在包括实时卫星数据、每小时刷新、更高分辨率、精确的降水预报和清洁能源变量。它现在已集成到搜索、Gemini、地图、Google 地图平台和云中。",
+      "date": "2026-09-03",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google DeepMind",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-5190d2a1dc",
+      "title": "前线捍卫者的黎明：10 亿美元保护基本服务",
+      "oneLiner": "OpenAI 为前线捍卫者推出了 Daybreak。 10 亿美元的承诺将扩大对前沿网络人工智能、培训和基本服务的支持。",
+      "date": "2026-09-03",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-be4a3c5426",
+      "title": "Legora 使用 GPT-6 Astra 在几分钟内审查了 41 个文档",
+      "oneLiner": "Legora 使用 GPT-6 Astra 在几分钟内审查了 41 个文档，找到了所有四个植入的错误，并将该财务审查工作流程的性能提高了近 40%。",
+      "date": "2026-09-03",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-7a45b185cf",
+      "title": "Playco 使用 GPT-6 Astra 手动修复了 50% 的原型游戏",
+      "oneLiner": "Playco 使用 GPT-6 Astra，从一个灰盒基础构建了三个主题游戏原型，并报告说，与之前的模型相比，手动修复减少了 50%。",
+      "date": "2026-09-03",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-2e155b11d8",
+      "title": "安全概述：GPT-6 Astra",
+      "oneLiner": "GPT-6 Astra 是我们最有能力广泛部署的模型，也是我们第一个在我们的准备框架下达到网络安全能力关键级别的模型。",
+      "date": "2026-09-03",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
     {
       "id": "sig-383dbcd782",
       "title": "政府和企业的主动网络防御",
@@ -299,6 +358,18 @@
       "stars": 4
     },
     {
+      "id": "sig-0703988e3a",
+      "title": "OpenAI 支持加州促进青少年人工智能安全的法案",
+      "oneLiner": "OpenAI 支持加州 SB 1119，为青少年提供强有力的、适合年龄的人工智能保障，同时保留学习、创造和探索的机会。",
+      "date": "2026-08-31",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
       "id": "sig-092c8de02e",
       "title": "Cursor 被 SpaceX 收购后我们对 Cursor 的决定",
       "oneLiner": "在 Cursor 被 SpaceX 收购后，我们决定终止向 Cursor 提供 OpenAI 模型的合同。",
@@ -347,81 +418,555 @@
       "source": "Google DeepMind",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-5a6b855292",
-      "title": "在搜索中计划和预订旅行的 3 种新方式",
-      "oneLiner": "我们对搜索中人工智能模式的最新升级可以帮助您跟踪航班价格、查看积分或里程费率，并预订您的梦想酒店。",
-      "date": "2026-08-27",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google AI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-d9b2bc36ff",
-      "title": "试点全球首次双盲人工智能评估",
-      "oneLiner": "威廉·艾萨克、索尔·梅辛和克里斯蒂安·林",
-      "date": "2026-08-27",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google DeepMind",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-3062d8cdad",
-      "title": "更好的答案，更广阔的思维：学生从 ChatGPT 和批判性思维培训中获得什么",
-      "oneLiner": "一项针对 1,000 多名学生的随机研究考察了 ChatGPT、批判性思维、原创性以及学生在现实世界大学作业中的表现。",
-      "date": "2026-08-27",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-57e276283c",
-      "title": "扩大 OpenAI 在巴西的影响力",
-      "oneLiner": "OpenAI 正在扩大其在巴西的业务，加深与开发者、企业和社区的接触，以支持人工智能在该国的采用。",
-      "date": "2026-08-27",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-83abfc0828",
-      "title": "使用 Gemini 3.5 Transcribe 进行智能转录",
-      "oneLiner": "我们最新的语音转文本模型专为精确、智能的实时转录而设计。",
-      "date": "2026-08-26",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google DeepMind",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-d6bb1031e6",
-      "title": "将 ChatGPT for Teachers 带到更多美国学区",
-      "oneLiner": "ChatGPT for Teachers 正在扩展到 55 个美国学校系统，为超过 100,000 名教育工作者和工作人员带来安全的 AI 工具、培训和支持。",
-      "date": "2026-08-26",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-56da2c8ef8",
+      "title": "隆重推出 WeatherNext 3，我们最先进、最准确的全球天气人工智能模型",
+      "oneLiner": "我们的旗舰人工智能天气预报模型现在包括实时卫星数据、每小时刷新、更高分辨率、精确的降水预报和清洁能源变量。它现在已集成到搜索、Gemini、地图、Google 地图平台和云中。",
+      "summary": {
+        "oneSentence": "我们的旗舰人工智能天气预报模型现在包括实时卫星数据、每小时刷新、更高分辨率、精确的降水预报和清洁能源变量。它现在已集成到搜索、Gemini、地图、Google 地图平台和云中。",
+        "bullets": [
+          "我们的旗舰人工智能天气预报模型现在包括实时卫星数据、每小时刷新、更高分辨率、精确的降水预报和清洁能源变量。它现在已集成到搜索、Gemini、地图、Google 地图平台和云中。",
+          "您的浏览器不支持音频元素。",
+          "谷歌推出了WeatherNext 3，这是一种先进的人工智能模型，通过使用实时卫星数据而不是传统的物理模拟来提供更准确、高分辨率的天气预报。此更新提供每小时的本地化预测，其准确性比以前的版本高出五倍，为农业、可再生能源和日常规划提供了重大改进。您现在可以直接通过 Google 搜索、地图和 Gemini 访问这些增强的",
+          "谷歌刚刚发布了 WeatherNext 3，这是一种人工智能模型，可以使天气预报更快、更准确。它使用实时卫星数据每小时更新一次，让您更清晰地了解外面发生的事情。这可以帮助人们更好地应对暴风雨或晴天等情况。它现在为您在 Google 搜索和地图中看到的天气信息提供支持。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google DeepMind 官网发布：我们的旗舰人工智能天气预报模型现在包括实时卫星数据、每小时刷新、更高分辨率、精确的降水预报和清洁能源变量。它现在已集成到搜索、Gemini、地图、Google 地图平台和云中。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "我们的旗舰人工智能天气预报模型现在包括实时卫星数据、每小时刷新、更高分辨率、精确的降水预报和清洁能源变量。它现在已集成到搜索、Gemini、地图、Google 地图平台和云中。",
+        "您的浏览器不支持音频元素。",
+        "谷歌推出了WeatherNext 3，这是一种先进的人工智能模型，通过使用实时卫星数据而不是传统的物理模拟来提供更准确、高分辨率的天气预报。此更新提供每小时的本地化预测，其准确性比以前的版本高出五倍，为农业、可再生能源和日常规划提供了重大改进。您现在可以直接通过 Google 搜索、地图和 Gemini 访问这些增强的预测，或者通过 Google Cloud 将数据集成到您自己的项目中。",
+        "谷歌刚刚发布了 WeatherNext 3，这是一种人工智能模型，可以使天气预报更快、更准确。它使用实时卫星数据每小时更新一次，让您更清晰地了解外面发生的事情。这可以帮助人们更好地应对暴风雨或晴天等情况。它现在为您在 Google 搜索和地图中看到的天气信息提供支持。",
+        "每天，天气都会影响数十亿个决策。有些就像出门前拿把雨伞一样简单，但另一些则更为重要。风、雨和极端天气事件（如热浪和干旱）会对农业、全球供应链、清洁能源生产和国民经济产生连锁影响。",
+        "近年来，人工智能彻底改变了天气预报，利用历史记录比传统方法更快、更准确地进行预测。然而，预测高度本地化和快速变化的天气仍然是一个挑战。以前的模型通常缺乏足够的空间分辨率，并且难以整合来自卫星等来源的实时天气数据。",
+        "今天，Google DeepMind 和 Google Research 推出了 WeatherNext 3，根据 Brightband 的独立实时评估，这是迄今为止最先进、最准确的全球天气模型。我们的模型直接从实时观测中学习，使其能够为对人们影响最大的天气事件提供及时且更本地化的预测。通过使用原始卫星数据每小时生成高分辨率预测，我们的模型可以在全球各地的 Google 产品中提供可靠的预测。",
+        "预测的效用通常取决于细节以及它对时间和空间的解析程度。 WeatherNext 3 以多种空间分辨率生成每小时预报，保持从广泛的全球风型一直到当地地形的物理一致性。",
+        "借助 WeatherNext 3，我们可以以 5 公里的分辨率可视化关键的表面变量（例如温度和湿度），以 10 公里的分辨率可视化其他表面变量，以及以 25 公里的分辨率可视化大气变量（例如风速）。总体而言，这提供的全球天气图比我们之前的模型 WeatherNext 2 清晰大约五倍，后者以 6 小时为增量在 25 公里网格上生成预报。",
+        "图 1：端到端 WeatherNext 3 系统架构。该模型摄取实时的 1 小时对地静止卫星镶嵌数据以及传统的历史分析，为单个灵活的功能生成网络 (FGN) 网状变压器提供数据。它输出密集的网格场、离散的气旋轨迹，并本地预测站级稀疏坐标。"
+      ],
+      "highlights": [
+        "我们的旗舰人工智能天气预报模型现在包括实时卫星数据、每小时刷新、更高分辨率、精确的降水预报和清洁能源变量。它现在已集成到搜索、Gemini、地图、Google ",
+        "您的浏览器不支持音频元素。",
+        "谷歌推出了WeatherNext 3，这是一种先进的人工智能模型，通过使用实时卫星数据而不是传统的物理模拟来提供更准确、高分辨率的天气预报。此更新提供每小时的本"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "originalLang": "en",
+      "date": "2026-09-03",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google DeepMind",
+        "author": "DeepMind",
+        "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+        "home": "https://deepmind.google/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model"
+      },
+      "raw": {
+        "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+        "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+        "fetched": true,
+        "savedAt": "2026-09-04T02:29:24.365Z"
+      }
+    },
+    {
+      "id": "sig-16708db524",
+      "title": "Cursor Cloud Agents 现在可以在 Vercel Sandbox 中运行 - Vercel",
+      "oneLiner": "Cursor 云代理现在可以在 Vercel Sandbox 中运行，而不是在 Cursor 的托管计算机中运行。",
+      "summary": {
+        "oneSentence": "Cursor 云代理现在可以在 Vercel Sandbox 中运行，而不是在 Cursor 的托管计算机中运行。",
+        "bullets": [
+          "Cursor 云代理现在可以在 Vercel Sandbox 中运行，而不是在 Cursor 的托管计算机中运行。",
+          "Cursor 管理代理工具和推理循环。其自托管机器 API 允许您提供代理克隆存储库、编辑文件以及运行命令和测试的执行环境。自托管计算机需要 Cursor Enterprise 计划。",
+          "Vercel Sandbox 为每个代理请求提供该执行环境作为独立的 Firecracker microVM。 Vercel Functions 和 Vercel Workflow 形成了一个持久的控制平面，可以声明排队的代理请求、配置工作人员、监控会话并自动清理。",
+          "没有长期虚拟机的可缩放至零的工作池"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Cursor 云代理现在可以在 Vercel Sandbox 中运行，而不是在 Cursor 的托管计算机中运行。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/run-cursor-cloud-agents-vercel-sandbox"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Cursor 云代理现在可以在 Vercel Sandbox 中运行，而不是在 Cursor 的托管计算机中运行。",
+        "Cursor 管理代理工具和推理循环。其自托管机器 API 允许您提供代理克隆存储库、编辑文件以及运行命令和测试的执行环境。自托管计算机需要 Cursor Enterprise 计划。",
+        "Vercel Sandbox 为每个代理请求提供该执行环境作为独立的 Firecracker microVM。 Vercel Functions 和 Vercel Workflow 形成了一个持久的控制平面，可以声明排队的代理请求、配置工作人员、监控会话并自动清理。",
+        "没有长期虚拟机的可缩放至零的工作池",
+        "针对每个代理请求的专用、隔离沙箱",
+        "当工作线程或会话失败时持久重试",
+        "每个沙箱内都有短暂的、用户范围内的凭证",
+        "按照分步指南将参考实现部署到您自己的 Vercel 帐户，或在 Vercel Sandbox 文档中了解更多信息。"
+      ],
+      "highlights": [
+        "Cursor 云代理现在可以在 Vercel Sandbox 中运行，而不是在 Cursor 的托管计算机中运行。",
+        "Cursor 管理代理工具和推理循环。其自托管机器 API 允许您提供代理克隆存储库、编辑文件以及运行命令和测试的执行环境。自托管计算机需要 Cursor En",
+        "Vercel Sandbox 为每个代理请求提供该执行环境作为独立的 Firecracker microVM。 Vercel Functions 和 Verce"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Cursor Cloud Agents can now run in Vercel Sandbox - Vercel",
+      "originalLang": "en",
+      "date": "2026-09-03",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/run-cursor-cloud-agents-vercel-sandbox",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Cursor Cloud Agents can now run in Vercel Sandbox - Vercel"
+      },
+      "raw": {
+        "title": "Cursor Cloud Agents can now run in Vercel Sandbox",
+        "url": "https://vercel.com/changelog/run-cursor-cloud-agents-vercel-sandbox",
+        "fetched": true,
+        "savedAt": "2026-09-04T02:29:34.448Z"
+      }
+    },
+    {
+      "id": "sig-5190d2a1dc",
+      "title": "前线捍卫者的黎明：10 亿美元保护基本服务",
+      "oneLiner": "OpenAI 为前线捍卫者推出了 Daybreak。 10 亿美元的承诺将扩大对前沿网络人工智能、培训和基本服务的支持。",
+      "summary": {
+        "oneSentence": "OpenAI 为前线捍卫者推出了 Daybreak。 10 亿美元的承诺将扩大对前沿网络人工智能、培训和基本服务的支持。",
+        "bullets": [
+          "OpenAI 为前线捍卫者推出了 Daybreak。 10 亿美元的承诺将扩大对前沿网络人工智能、培训和基本服务的支持。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 为前线捍卫者推出了 Daybreak。 10 亿美元的承诺将扩大对前沿网络人工智能、培训和基本服务的支持。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/daybreak-for-frontline-defenders"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 为前线捍卫者推出了 Daybreak。 10 亿美元的承诺将扩大对前沿网络人工智能、培训和基本服务的支持。"
+      ],
+      "highlights": [
+        "OpenAI 为前线捍卫者推出了 Daybreak。 10 亿美元的承诺将扩大对前沿网络人工智能、培训和基本服务的支持。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Daybreak for Frontline Defenders: $1B to protect essential services",
+      "originalLang": "en",
+      "date": "2026-09-03",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Daybreak for Frontline Defenders: $1B to protect essential services"
+      },
+      "raw": {
+        "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+        "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+        "fetched": false,
+        "savedAt": "2026-09-04T02:29:35.772Z"
+      }
+    },
+    {
+      "id": "sig-be4a3c5426",
+      "title": "Legora 使用 GPT-6 Astra 在几分钟内审查了 41 个文档",
+      "oneLiner": "Legora 使用 GPT-6 Astra 在几分钟内审查了 41 个文档，找到了所有四个植入的错误，并将该财务审查工作流程的性能提高了近 40%。",
+      "summary": {
+        "oneSentence": "Legora 使用 GPT-6 Astra 在几分钟内审查了 41 个文档，找到了所有四个植入的错误，并将该财务审查工作流程的性能提高了近 40%。",
+        "bullets": [
+          "Legora 使用 GPT-6 Astra 在几分钟内审查了 41 个文档，找到了所有四个植入的错误，并将该财务审查工作流程的性能提高了近 40%。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：Legora 使用 GPT-6 Astra 在几分钟内审查了 41 个文档，找到了所有四个植入的错误，并将该财务审查工作流程的性能提高了近 40%。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/legora-financial-statement-review-with-astra"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Legora 使用 GPT-6 Astra 在几分钟内审查了 41 个文档，找到了所有四个植入的错误，并将该财务审查工作流程的性能提高了近 40%。"
+      ],
+      "highlights": [
+        "Legora 使用 GPT-6 Astra 在几分钟内审查了 41 个文档，找到了所有四个植入的错误，并将该财务审查工作流程的性能提高了近 40%。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+      "originalLang": "en",
+      "date": "2026-09-03",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Legora reviewed 41 documents in minutes with GPT-6 Astra"
+      },
+      "raw": {
+        "title": "Legora reviewed 41 documents in minutes with GPT-6 Astra",
+        "url": "https://openai.com/index/legora-financial-statement-review-with-astra",
+        "fetched": false,
+        "savedAt": "2026-09-04T02:29:37.094Z"
+      }
+    },
+    {
+      "id": "sig-7a45b185cf",
+      "title": "Playco 使用 GPT-6 Astra 手动修复了 50% 的原型游戏",
+      "oneLiner": "Playco 使用 GPT-6 Astra，从一个灰盒基础构建了三个主题游戏原型，并报告说，与之前的模型相比，手动修复减少了 50%。",
+      "summary": {
+        "oneSentence": "Playco 使用 GPT-6 Astra，从一个灰盒基础构建了三个主题游戏原型，并报告说，与之前的模型相比，手动修复减少了 50%。",
+        "bullets": [
+          "Playco 使用 GPT-6 Astra，从一个灰盒基础构建了三个主题游戏原型，并报告说，与之前的模型相比，手动修复减少了 50%。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：Playco 使用 GPT-6 Astra，从一个灰盒基础构建了三个主题游戏原型，并报告说，与之前的模型相比，手动修复减少了 50%。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/playco-game-prototyping-with-astra"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Playco 使用 GPT-6 Astra，从一个灰盒基础构建了三个主题游戏原型，并报告说，与之前的模型相比，手动修复减少了 50%。"
+      ],
+      "highlights": [
+        "Playco 使用 GPT-6 Astra，从一个灰盒基础构建了三个主题游戏原型，并报告说，与之前的模型相比，手动修复减少了 50%。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+      "originalLang": "en",
+      "date": "2026-09-03",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra"
+      },
+      "raw": {
+        "title": "Playco cut manual fixes 50% prototyping games with GPT-6 Astra",
+        "url": "https://openai.com/index/playco-game-prototyping-with-astra",
+        "fetched": false,
+        "savedAt": "2026-09-04T02:29:38.409Z"
+      }
+    },
+    {
+      "id": "sig-bd657e007e",
+      "title": "基本构建机器现已在专业版和企业版上提供 - Vercel",
+      "oneLiner": "专业团队和企业团队现在可以选择基本构建机器。",
+      "summary": {
+        "oneSentence": "专业团队和企业团队现在可以选择基本构建机器。",
+        "bullets": [
+          "专业团队和企业团队现在可以选择基本构建机器。",
+          "基本构建机器具有 2 个 vCPU 和 8 GB 内存，为使用较少资源构建的小型应用程序或代理提供了更具成本效益的选择。新的专业版和企业版项目仍然默认使用 Elastic 构建机器，它会自动扩展，建议用于大多数用例。",
+          "要使用基本构建机器，请在 team settings 、 project settings 中更新您的项目配置，或者使用 Vercel CLI 59.6.0 或更高版本：",
+          "业余爱好帐户继续在相同的 2 个 vCPU 机器上构建，现在称为基本构建机器。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：专业团队和企业团队现在可以选择基本构建机器。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/basic-build-machines"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "专业团队和企业团队现在可以选择基本构建机器。",
+        "基本构建机器具有 2 个 vCPU 和 8 GB 内存，为使用较少资源构建的小型应用程序或代理提供了更具成本效益的选择。新的专业版和企业版项目仍然默认使用 Elastic 构建机器，它会自动扩展，建议用于大多数用例。",
+        "要使用基本构建机器，请在 team settings 、 project settings 中更新您的项目配置，或者使用 Vercel CLI 59.6.0 或更高版本：",
+        "业余爱好帐户继续在相同的 2 个 vCPU 机器上构建，现在称为基本构建机器。",
+        "基本构建机器的收费同样为每个 vCPU 每分钟 0.0035 美元，相当于每构建分钟 0.007 美元。请参阅定价页面或阅读构建机器文档。",
+        "乔恩·文森特、科迪·王、普拉纳夫·坎奇、凯莱布·博伊德、埃里克·多兹"
+      ],
+      "highlights": [
+        "专业团队和企业团队现在可以选择基本构建机器。",
+        "基本构建机器具有 2 个 vCPU 和 8 GB 内存，为使用较少资源构建的小型应用程序或代理提供了更具成本效益的选择。新的专业版和企业版项目仍然默认使用 El",
+        "要使用基本构建机器，请在 team settings 、 project settings 中更新您的项目配置，或者使用 Vercel CLI 59.6.0 或"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Basic build machines are now available on Pro and Enterprise - Vercel",
+      "originalLang": "en",
+      "date": "2026-09-03",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/basic-build-machines",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Basic build machines are now available on Pro and Enterprise - Vercel"
+      },
+      "raw": {
+        "title": "Basic build machines are now available on Pro and Enterprise",
+        "url": "https://vercel.com/changelog/basic-build-machines",
+        "fetched": true,
+        "savedAt": "2026-09-04T02:29:47.864Z"
+      }
+    },
+    {
+      "id": "sig-2e155b11d8",
+      "title": "安全概述：GPT-6 Astra",
+      "oneLiner": "GPT-6 Astra 是我们最有能力广泛部署的模型，也是我们第一个在我们的准备框架下达到网络安全能力关键级别的模型。",
+      "summary": {
+        "oneSentence": "GPT-6 Astra 是我们最有能力广泛部署的模型，也是我们第一个在我们的准备框架下达到网络安全能力关键级别的模型。",
+        "bullets": [
+          "GPT-6 Astra 是我们最有能力广泛部署的模型，也是我们第一个在我们的准备框架下达到网络安全能力关键级别的模型。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：GPT-6 Astra 是我们最有能力广泛部署的模型，也是我们第一个在我们的准备框架下达到网络安全能力关键级别的模型。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/safety-overview-gpt-6-astra"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "GPT-6 Astra 是我们最有能力广泛部署的模型，也是我们第一个在我们的准备框架下达到网络安全能力关键级别的模型。"
+      ],
+      "highlights": [
+        "GPT-6 Astra 是我们最有能力广泛部署的模型，也是我们第一个在我们的准备框架下达到网络安全能力关键级别的模型。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Safety overview: GPT-6 Astra",
+      "originalLang": "en",
+      "date": "2026-09-03",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Safety overview: GPT-6 Astra"
+      },
+      "raw": {
+        "title": "Safety overview: GPT-6 Astra",
+        "url": "https://openai.com/index/safety-overview-gpt-6-astra",
+        "fetched": false,
+        "savedAt": "2026-09-04T02:29:49.188Z"
+      }
+    },
     {
       "id": "sig-4a26f8dc63",
       "title": "Coinbase 如何使用 Code Connect 来指导代理并降低代币成本 | Figma 博客",
@@ -1003,7 +1548,8 @@
         "title": "Self-hosted machines",
         "url": "https://cursor.com/changelog/self-hosted-machines",
         "fetched": true,
-        "savedAt": "2026-09-03T02:33:34.106Z"
+        "savedAt": "2026-09-03T02:33:34.106Z",
+        "retranslatedAt": "2026-09-04T02:30:15.104Z"
       }
     },
     {
@@ -2062,6 +2608,171 @@
       }
     },
     {
+      "id": "sig-d6b11fd3ea",
+      "title": "Qwen 3.8 Max 0902 现已在 AI 网关上可用 - Vercel",
+      "oneLiner": "阿里巴巴的Qwen 3.8 Max 0902现已在AI网关上架。",
+      "summary": {
+        "oneSentence": "阿里巴巴的Qwen 3.8 Max 0902现已在AI网关上架。",
+        "bullets": [
+          "阿里巴巴的Qwen 3.8 Max 0902现已在AI网关上架。",
+          "这是 Qwen 3.8 Max 的新快照，收益集中在大型项目的编码、无需监督的长期工作以及代理运行。视觉处理在图表和密集文档上更加准确。",
+          "要使用 Qwen 3.8 Max 0902，请将型号设置为 alibaba/qwen3.8-max-0902 ：",
+          "AI SDK Claude Code Codex Hermes 聊天完成 AI SDK AI SDK Claude Code Claude Code Claude Code Codex Codex Hermes Hermes 聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 "
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：阿里巴巴的Qwen 3.8 Max 0902现已在AI网关上架。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/qwen-3-8-max-0902-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "阿里巴巴的Qwen 3.8 Max 0902现已在AI网关上架。",
+        "这是 Qwen 3.8 Max 的新快照，收益集中在大型项目的编码、无需监督的长期工作以及代理运行。视觉处理在图表和密集文档上更加准确。",
+        "要使用 Qwen 3.8 Max 0902，请将型号设置为 alibaba/qwen3.8-max-0902 ：",
+        "AI SDK Claude Code Codex Hermes 聊天完成 AI SDK AI SDK Claude Code Claude Code Claude Code Codex Codex Hermes Hermes 聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 3 const result = streamText({ 4 model: 'alibaba/qwen3.8-max-0902', 5prompt: '为结果端点添加分页。', 6 }) ;代理副本 查看模型详细信息 ↗ 带日期的 ID 会固定此快照，因此后续版本不会更改您的请求所针对的对象。",
+        "要在不更改代码的情况下将现有流量移至其上，请添加重写路由规则。网关透明地替换目标，因此仍然需要 alibaba/qwen3.8-max 的应用程序在新快照上运行：",
+        "vercel ai-gateway 规则添加 --type rewrite \\ --source alibaba/qwen3.8-max \\ --destination alibaba/qwen3.8-max-0902",
+        "要在编码代理中使用它，请参阅编码代理指南 ，然后运行 ​​vercel ai-gatewaycoding-agents setup 以连接 Claude Code、Codex、OpenCode、Cursor、Pi 等代理，并选择 alibaba/qwen3.8-max-0902 。",
+        "在模型游乐场中尝试 Qwen3.8-Max-0902。",
+        "您可以查看AI网关上所有可用的语言模型。"
+      ],
+      "highlights": [
+        "阿里巴巴的Qwen 3.8 Max 0902现已在AI网关上架。",
+        "这是 Qwen 3.8 Max 的新快照，收益集中在大型项目的编码、无需监督的长期工作以及代理运行。视觉处理在图表和密集文档上更加准确。",
+        "要使用 Qwen 3.8 Max 0902，请将型号设置为 alibaba/qwen3.8-max-0902 ："
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Qwen 3.8 Max 0902 now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-09-01",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/qwen-3-8-max-0902-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Qwen 3.8 Max 0902 now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Qwen 3.8 Max 0902 now available on AI Gateway",
+        "url": "https://vercel.com/changelog/qwen-3-8-max-0902-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-09-04T02:30:02.125Z"
+      }
+    },
+    {
+      "id": "sig-c0bf3557f9",
+      "title": "AWS PrivateLink 现已在专业版和企业版上推出 - Vercel",
+      "oneLiner": "AWS PrivateLink 现在作为高级网络的一部分可供专业团队和企业团队使用。它允许 Vercel Functions 和构建连接到 AWS 托管的服务，而无需通过公共互联网发送流量。",
+      "summary": {
+        "oneSentence": "AWS PrivateLink 现在作为高级网络的一部分可供专业团队和企业团队使用。它允许 Vercel Functions 和构建连接到 AWS 托管的服务，而无需通过公共互联网发送流量。",
+        "bullets": [
+          "AWS PrivateLink 现在作为高级网络的一部分可供专业团队和企业团队使用。它允许 Vercel Functions 和构建连接到 AWS 托管的服务，而无需通过公共互联网发送流量。",
+          "使用它来访问 AWS 托管的数据库，例如 RDS、Aurora 和 Neon； SaaS 服务，例如 Snowflake 和 MongoDB Atlas； AWS 网络负载均衡器背后的内部服务；以及通过网关端点的 S3 或 DynamoDB。",
+          "要配置 PrivateLink，请打开项目的网络设置并启用高级网络。选择“新建连接”，然后输入服务名称和区域。",
+          "该服务必须接受来自所有 AWS 委托人的连接，或将 Vercel 为您的团队提供的 IAM 角色列入白名单。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：AWS PrivateLink 现在作为高级网络的一部分可供专业团队和企业团队使用。它允许 Vercel Functions 和构建连接到 AWS 托管的服务，而无需通过公共互联网发送流量。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/aws-privatelink-is-now-available-on-pro-and-enterprise"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "AWS PrivateLink 现在作为高级网络的一部分可供专业团队和企业团队使用。它允许 Vercel Functions 和构建连接到 AWS 托管的服务，而无需通过公共互联网发送流量。",
+        "使用它来访问 AWS 托管的数据库，例如 RDS、Aurora 和 Neon； SaaS 服务，例如 Snowflake 和 MongoDB Atlas； AWS 网络负载均衡器背后的内部服务；以及通过网关端点的 S3 或 DynamoDB。",
+        "要配置 PrivateLink，请打开项目的网络设置并启用高级网络。选择“新建连接”，然后输入服务名称和区域。",
+        "该服务必须接受来自所有 AWS 委托人的连接，或将 Vercel 为您的团队提供的 IAM 角色列入白名单。",
+        "Vercel 创建连接并提供稳定的主机名。在您的函数和构建中使用此主机名来私下访问该服务。",
+        "第一个 AWS PrivateLink 连接包含在高级网络中。每个额外的连接费用为每月 30 美元。",
+        "PrivateLink 数据传输费用为每 GB 0.04 美元。",
+        "请参阅 AWS PrivateLink 文档了解更多信息。"
+      ],
+      "highlights": [
+        "AWS PrivateLink 现在作为高级网络的一部分可供专业团队和企业团队使用。它允许 Vercel Functions 和构建连接到 AWS 托管的服务，",
+        "使用它来访问 AWS 托管的数据库，例如 RDS、Aurora 和 Neon； SaaS 服务，例如 Snowflake 和 MongoDB Atlas； AW",
+        "要配置 PrivateLink，请打开项目的网络设置并启用高级网络。选择“新建连接”，然后输入服务名称和区域。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "AWS PrivateLink is now available on Pro and Enterprise - Vercel",
+      "originalLang": "en",
+      "date": "2026-09-01",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/aws-privatelink-is-now-available-on-pro-and-enterprise",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "AWS PrivateLink is now available on Pro and Enterprise - Vercel"
+      },
+      "raw": {
+        "title": "AWS PrivateLink is now available on Pro and Enterprise",
+        "url": "https://vercel.com/changelog/aws-privatelink-is-now-available-on-pro-and-enterprise",
+        "fetched": true,
+        "savedAt": "2026-09-04T02:30:12.121Z"
+      }
+    },
+    {
       "id": "sig-7bc3415714",
       "title": "Polimill 打造日本下一代公共人工智能基础设施",
       "oneLiner": "Polimill 使用 OpenAI GPT 模型和 Codex 帮助市政当局搜索和使用行政知识，同时加速开发。",
@@ -2533,6 +3244,80 @@
         "url": "https://vercel.com/changelog/vercel-sandbox-now-calculates-snapshot-storage-costs-daily",
         "fetched": true,
         "savedAt": "2026-09-01T03:06:26.411Z"
+      }
+    },
+    {
+      "id": "sig-0703988e3a",
+      "title": "OpenAI 支持加州促进青少年人工智能安全的法案",
+      "oneLiner": "OpenAI 支持加州 SB 1119，为青少年提供强有力的、适合年龄的人工智能保障，同时保留学习、创造和探索的机会。",
+      "summary": {
+        "oneSentence": "OpenAI 支持加州 SB 1119，为青少年提供强有力的、适合年龄的人工智能保障，同时保留学习、创造和探索的机会。",
+        "bullets": [
+          "OpenAI 支持加州 SB 1119，为青少年提供强有力的、适合年龄的人工智能保障，同时保留学习、创造和探索的机会。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 支持加州 SB 1119，为青少年提供强有力的、适合年龄的人工智能保障，同时保留学习、创造和探索的机会。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/supporting-california-bill-advance-ai-youth-safety"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 支持加州 SB 1119，为青少年提供强有力的、适合年龄的人工智能保障，同时保留学习、创造和探索的机会。"
+      ],
+      "highlights": [
+        "OpenAI 支持加州 SB 1119，为青少年提供强有力的、适合年龄的人工智能保障，同时保留学习、创造和探索的机会。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "OpenAI supports California’s bill to advance youth AI safety",
+      "originalLang": "en",
+      "date": "2026-08-31",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "OpenAI supports California’s bill to advance youth AI safety"
+      },
+      "raw": {
+        "title": "OpenAI supports California’s bill to advance youth AI safety",
+        "url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
+        "fetched": false,
+        "savedAt": "2026-09-04T02:30:13.653Z"
       }
     },
     {
@@ -3749,7 +4534,7 @@
         "url": "https://cursor.com/changelog/start-from-scratch",
         "fetched": true,
         "savedAt": "2026-08-28T08:33:37.517Z",
-        "retranslatedAt": "2026-09-03T02:33:52.621Z"
+        "retranslatedAt": "2026-09-04T02:30:16.262Z"
       }
     },
     {
@@ -4416,19 +5201,22 @@
     },
     {
       "id": "sig-876820d78a",
-      "title": "Ling 3.0 Flash Fin now available on AI Gateway for free",
-      "oneLiner": "Ling 3.0 Flash Fin from Inclusion AI is now available on AI Gateway and free to use through Septembe",
+      "title": "Ling 3.0 Flash Fin 现已在 AI Gateway 上免费提供 - Vercel",
+      "oneLiner": "Inclusion AI 的 Ling 3.0 Flash Fin 现已在 AI Gateway 上提供，并在 9 月 25 日之前免费使用。",
       "summary": {
-        "oneSentence": "Ling 3.0 Flash Fin from Inclusion AI is now available on AI Gateway and free to use through September 25. Ling 3.0 Flash",
+        "oneSentence": "Inclusion AI 的 Ling 3.0 Flash Fin 现已在 AI Gateway 上提供，并在 9 月 25 日之前免费使用。",
         "bullets": [
-          "Ling 3.0 Flash Fin from Inclusion AI is now available on AI Gateway and free to use through September 25. Ling 3.0 Flash Fin is a finance-focused version of Ling 3.0 Flash . It has a 256K-token contex"
+          "Inclusion AI 的 Ling 3.0 Flash Fin 现已在 AI Gateway 上提供，并在 9 月 25 日之前免费使用。",
+          "Ling 3.0 Flash Fin 是 Ling 3.0 Flash 的金融版。它具有 256K-token 上下文窗口，生成多达 32K 输出 token，并支持推理和函数调用。",
+          "该模型专为金融研究和分析而设计，包括在生成答案之前使用多个工具调用的多步骤工作流程。",
+          "根据免费期后发生的情况选择模型 ID："
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：Inclusion AI 的 Ling 3.0 Flash Fin 现已在 AI Gateway 上提供，并在 9 月 25 日之前免费使用。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -4436,33 +5224,37 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free"
+          "阅读原文（英文）：https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "Ling 3.0 Flash Fin from Inclusion AI is now available on AI Gateway and free to use through September 25.",
-        "Ling 3.0 Flash Fin is a finance-focused version of Ling 3.0 Flash . It has a 256K-token context window, produces up to 32K output tokens, and supports reasoning and function calling.",
-        "The model is designed for financial research and analysis, including multi-step workflows that user multiple tool calls before producing an answer.",
-        "Choose a model ID based on what should happen after the free period:",
-        "Continue after September 25: Use inclusionai/ling-3.0-flash-fin . Requests are free during the offer and begin billing at the standard rate when it ends.",
-        "Stop after September 25: Use inclusionai/ling-3.0-flash-fin-free . This model ID returns an error after the offer ends, preventing future charges.",
-        "1 import { streamText } from 'ai' ; 2 3 const result = streamText ( { 4 model : 'inclusionai/ling-3.0-flash-fin' , 5 prompt : 'Summarize this earnings report.' , 6 } ) ; Use the standard model ID during the free period to continue at regular pricing afterward.",
-        "To use Ling 3.0 Flash Fin with a coding agent , run vercel ai-gateway coding-agents setup , then select either model ID as your agent’s model. See the coding agents guide for more.",
-        "Try Ling 3.0 Flash Fin in the model playground , or browse all language models ."
+        "Inclusion AI 的 Ling 3.0 Flash Fin 现已在 AI Gateway 上提供，并在 9 月 25 日之前免费使用。",
+        "Ling 3.0 Flash Fin 是 Ling 3.0 Flash 的金融版。它具有 256K-token 上下文窗口，生成多达 32K 输出 token，并支持推理和函数调用。",
+        "该模型专为金融研究和分析而设计，包括在生成答案之前使用多个工具调用的多步骤工作流程。",
+        "根据免费期后发生的情况选择模型 ID：",
+        "9 月 25 日后继续：使用 Includeai/ling-3.0-flash-fin 。优惠期间请求免费，优惠结束后开始按标准费率计费。",
+        "9 月 25 日之后停止：使用 Includeai/ling-3.0-flash-fin-free 。此型号 ID 在优惠结束后返回错误，以防止将来产生费用。",
+        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText({ 4 model: 'inclusionai/ling-3.0-flash-fin', 5prompt: '总结这份收益报告。', 6 });在免费期间使用标准型号 ID 即可继续按常规定价。",
+        "要将 Ling 3.0 Flash Fin 与编码代理结合使用，请运行 vercel ai-gatewaycoding-agents setup ，然后选择任一模型 ID 作为代理的模型。有关更多信息，请参阅编码代理指南。",
+        "在模型游乐场中尝试 Ling 3.0 Flash Fin，或浏览所有语言模型。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "Inclusion AI 的 Ling 3.0 Flash Fin 现已在 AI Gateway 上提供，并在 9 月 25 日之前免费使用。",
+        "Ling 3.0 Flash Fin 是 Ling 3.0 Flash 的金融版。它具有 256K-token 上下文窗口，生成多达 32K 输出 token，",
+        "该模型专为金融研究和分析而设计，包括在生成答案之前使用多个工具调用的多步骤工作流程。"
+      ],
+      "translated": true,
       "originalTitle": "Ling 3.0 Flash Fin now available on AI Gateway for free - Vercel",
       "originalLang": "en",
       "date": "2026-08-27",
@@ -4478,16 +5270,18 @@
         "url": "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Ling 3.0 Flash Fin now available on AI Gateway for free - Vercel"
       },
       "raw": {
         "title": "Ling 3.0 Flash Fin now available on AI Gateway for free",
         "url": "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
         "fetched": true,
-        "savedAt": "2026-08-28T08:33:39.020Z"
-      }
+        "savedAt": "2026-08-28T08:33:39.020Z",
+        "retranslatedAt": "2026-09-04T02:30:29.198Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-6f6843c5a9",
@@ -5495,19 +6289,22 @@
     },
     {
       "id": "sig-19ab236bd4",
-      "title": "Workflow lab: Moving between design and code with agents",
-      "oneLiner": "Coding agents are reshaping how developers build, but they’re only as good as the input they’re give",
+      "title": "工作流实验室：使用代理在设计和代码之间切换 | Figma 博客",
+      "oneLiner": "编码代理正在重塑开发人员的构建方式，但它们的好坏取决于所提供的输入。此工作流程探讨了上下文如何使代码和画布保持同步。",
       "summary": {
-        "oneSentence": "Coding agents are reshaping how developers build, but they’re only as good as the input they’re given. This workflow exp",
+        "oneSentence": "编码代理正在重塑开发人员的构建方式，但它们的好坏取决于所提供的输入。此工作流程探讨了上下文如何使代码和画布保持同步。",
         "bullets": [
-          "Coding agents are reshaping how developers build, but they’re only as good as the input they’re given. This workflow explores how context keeps code and canvas in sync."
+          "编码代理正在重塑开发人员的构建方式，但它们的好坏取决于所提供的输入。此工作流程探讨了上下文如何使代码和画布保持同步。",
+          "欢迎来到工作流程实验室，我们在这里展示了一个示例工作流程 工作流程实验室：直接使用 Figma Make 部署设计 从设计到代码的交接不一定是单向的。此工作流程展示了设计人员如何将代码库连接到 Figma Make，直接进行更改，并使整个团队接受审查 - 直至 PR。",
+          "工具：Figma MCP 服务器、Code Connect、use_figma、generate_diagram、search_design_system、generate_figma_design、get_variable_defs",
+          "团队：产品设计师、设计系统主管、软件工程师"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Figma 官网发布：编码代理正在重塑开发人员的构建方式，但它们的好坏取决于所提供的输入。此工作流程探讨了上下文如何使代码和画布保持同步。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -5515,38 +6312,38 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://www.figma.com/blog/workflow-lab-moving-between-design-and-code-with-agents/"
+          "阅读原文（英文）：https://www.figma.com/blog/workflow-lab-moving-between-design-and-code-with-agents/"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "Coding agents are reshaping how developers build, but they’re only as good as the input they’re given. This workflow explores how context keeps code and canvas in sync.",
-        "Welcome to Workflow Lab, where we present a sample workflow Workflow lab: Deploying designs directly with Figma Make The handoff from design to code doesn't have to be a one-way street. This workflow shows how a designer can connect a codebase to Figma Make, make the changes directly, and bring the whole team into review—right up to the PR.",
-        "Tools: Figma MCP server, Code Connect, use_figma , generate_diagram , search_design_system , generate_figma_design , get_variable_defs",
-        "Team: Product designer, design systems lead, software engineer",
-        "Question to solve: What if your coding agent’s output could be production-ready sooner?",
-        "The engineering team at Radicle, a fictional STEM learning app, is moving faster than ever. Work that used to take weeks now takes days, or even hours. Still, this speed isn’t getting them very far; their AI-generated code strays from design specs more often than not. The team gives their coding agent screenshots and dev tickets to work from, but it’s not enough to get the outputs right, and the team gets stuck reworking them.",
-        "What if the first AI pass came back closer to production-ready? Given more design context to work from—like approved components and tokens documented in Figma—a coding agent can match your intent in fewer prompts. In this example workflow, a developer at Radicle uses Figma dev tools to give their coding agent better context so it can generate better code. Follow along to see how the developer keeps a new feature’s design and code in lockstep, from the first wireframe to final review.",
-        "The Radicle team wants to refresh the inbox where students can message instructors and fellow students. First, they plan to add a new bulk-update flow, which will have three surfaces: a toolbar, a modal, and a toast (a temporary notification). The toolbar will let a user select all their messages, delete them, or mark them unread; the modal will ask them to confirm or cancel the action; and finally, the toast will show if the action was successful, with an option to undo it.",
-        "The team’s designer creates each screen in Figma Design, and the developer on the project feeds these designs into their coding agent. They get code back fast—but the UI is off. The icons don’t match, the modal’s spacing is uneven, and the toast is missing its failure state. The developer could spend the afternoon reworking it. Instead, they take a step back and start over with Figma’s dev tools.",
-        "Before writing any code, the developer outlines the intended behavior of the screens, states, and transitions that define the new bulk-update flow. They feed the outline to their agent, along with the PRD and the code for the components that make up the inbox today. Using the generate_diagram tool with Figma’s MCP server , the developer then creates an editable diagram in FigJam FigJam is now your coding agent’s whiteboard too Agents are changing your code faster than your team can follow. Now you can close that gap with new MCP skills, architecture layouts, and more in FigJam.",
-        "The diagram provides additional context the agent can build from while also giving the team something to react to before development begins. The developer shares the FigJam with their design counterpart and a design systems lead, who both leave feedback directly on the diagram instead of a Slack thread.",
-        "Once everyone signs off, the developer feeds the FigJam diagram to their coding agent through Figma’s MCP server The TL;DR on MCP: Why context matters and how to put it to work Figma’s MCP server brings your design decisions into the tools where code gets written—so what gets built actually matches what was designed. Here’s what that unlocks for everyone who builds products.",
-        "If the developer just had a screenshot to work from, they’d be digging through the codebase for the right component, or pinging the designer to clarify details: whether that 12 px gap is the right spacing token, whether the button is the secondary one already in the repo, or if the modal is a new pattern or something the team already shipped. Instead, those answers are all in the file through Figma’s MCP server giving the agent all the design context it needs.",
-        "Knowing which component to use isn’t the same as knowing how it’s built. That part comes from Code Connect , which Radicle’s design systems lead sets up. Starting in Figma, they connect the library to the team’s GitHub repo so each component points at the file that implements it. Then, they write template files for components like buttons, icons, and modals in the codebase, mapping Figma properties to code properties."
+        "编码代理正在重塑开发人员的构建方式，但它们的好坏取决于所提供的输入。此工作流程探讨了上下文如何使代码和画布保持同步。",
+        "欢迎来到工作流程实验室，我们在这里展示了一个示例工作流程 工作流程实验室：直接使用 Figma Make 部署设计 从设计到代码的交接不一定是单向的。此工作流程展示了设计人员如何将代码库连接到 Figma Make，直接进行更改，并使整个团队接受审查 - 直至 PR。",
+        "工具：Figma MCP 服务器、Code Connect、use_figma、generate_diagram、search_design_system、generate_figma_design、get_variable_defs",
+        "团队：产品设计师、设计系统主管、软件工程师",
+        "要解决的问题：如果您的编码代理的输出可以更快地投入生产怎么办？",
+        "Radicle（一款虚构的 STEM 学习应用程序）的工程团队的行动速度比以往任何时候都快。过去需要几周时间的工作现在只需几天甚至几个小时。尽管如此，这个速度并没有让他们走得太远。他们的人工智能生成的代码常常偏离设计规范。团队向他们的编码代理提供了屏幕截图和开发票以供工作，但这还不足以获得正确的输出，并且团队陷入了重新工作的困境。",
+        "如果第一个人工智能通道更接近生产就绪怎么办？提供更多的设计上下文（例如 Figma 中记录的已批准组件和令牌），编码代理可以在更少的提示中满足您的意图。在此示例工作流程中，Radicle 的开发人员使用 Figma 开发工具为他们的编码代理提供更好的上下文，以便它可以生成更好的代码。跟随我们一起了解开发人员如何使新功能的设计和代码从第一个线框到最终审核保持同步。",
+        "Radicle 团队希望刷新收件箱，学生可以在其中向教师和同学发送消息。首先，他们计划添加一个新的批量更新流程，该流程将具有三个界面：工具栏、模式和 toast（临时通知）。工具栏将允许用户选择所有消息、删除它们或将它们标记为未读；模式将要求他们确认或取消操作；最后，吐司将显示操作是否成功，并提供撤消操作的选项。",
+        "团队的设计师在 Figma Design 中创建每个屏幕，项目的开发人员将这些设计输入到他们的编码代理中。他们快速取回代码，但 UI 已关闭。图标不匹配，模态框的间距不均匀，并且 Toast 缺少其失败状态。开发人员可以花一个下午的时间对其进行修改。相反，他们退后一步，使用 Figma 的开发工具重新开始。",
+        "在编写任何代码之前，开发人员概述了定义新批量更新流程的屏幕、状态和转换的预期行为。他们将大纲、PRD 以及构成今天收件箱的组件的代码一起提供给代理。将generate_diagram 工具与 Figma 的 MCP 服务器结合使用，开发人员可以在 FigJam 中创建可编辑的图表 FigJam 现在也是您的编码代理的白板 代理更改代码的速度比您的团队跟得上。现在，您可以使用 FigJam 中的新 MCP 技能、架构布局等来缩小这一差距。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "编码代理正在重塑开发人员的构建方式，但它们的好坏取决于所提供的输入。此工作流程探讨了上下文如何使代码和画布保持同步。",
+        "欢迎来到工作流程实验室，我们在这里展示了一个示例工作流程 工作流程实验室：直接使用 Figma Make 部署设计 从设计到代码的交接不一定是单向的。此工作流程",
+        "工具：Figma MCP 服务器、Code Connect、use_figma、generate_diagram、search_design_system、ge"
+      ],
+      "translated": true,
       "originalTitle": "Workflow Lab: Moving Between Design and Code With Agents | Figma Blog",
       "originalLang": "en",
       "date": "2026-08-26",
@@ -5562,32 +6359,37 @@
         "url": "https://www.figma.com/blog/workflow-lab-moving-between-design-and-code-with-agents/",
         "home": "https://www.figma.com/blog/",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Workflow Lab: Moving Between Design and Code With Agents | Figma Blog"
       },
       "raw": {
         "title": "Workflow lab: Moving between design and code with agents",
         "url": "https://www.figma.com/blog/workflow-lab-moving-between-design-and-code-with-agents/",
         "fetched": true,
-        "savedAt": "2026-08-29T05:12:55.105Z"
-      }
+        "savedAt": "2026-08-29T05:12:55.105Z",
+        "retranslatedAt": "2026-09-04T02:30:45.725Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-9448ec7a60",
-      "title": "Python projects now support routing rules",
-      "oneLiner": "Python projects can now use routing rules to set response headers or rewrite requests to internal pa",
+      "title": "Python 项目现在支持路由规则 - Vercel",
+      "oneLiner": "Python 项目现在可以使用路由规则来设置响应标头或重写对内部路径的请求，包括使用 FastAPI、Django 和 Flask 构建的应用程序。",
       "summary": {
-        "oneSentence": "Python projects can now use routing rules to set response headers or rewrite requests to internal paths, including apps ",
+        "oneSentence": "Python 项目现在可以使用路由规则来设置响应标头或重写对内部路径的请求，包括使用 FastAPI、Django 和 Flask 构建的应用程序。",
         "bullets": [
-          "Python projects can now use routing rules to set response headers or rewrite requests to internal paths, including apps built with FastAPI, Django, and Flask. The Vercel CDN evaluates rules before req"
+          "Python 项目现在可以使用路由规则来设置响应标头或重写对内部路径的请求，包括使用 FastAPI、Django 和 Flask 构建的应用程序。",
+          "Vercel CDN 在请求到达您的应用程序之前评估规则，因此无需进行新部署即可应用更改。",
+          "例如，这个 FastAPI 应用程序提供 /new 路由：",
+          "main.py 1 from fastapi import FastAPI 2 3 app = FastAPI () 4 5 @app . get ( \"/new\" ) 6 def new_route ( ) -> dict [ str , str ] : 7 return { \"message\" : \"新路线！\"定义"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：Python 项目现在可以使用路由规则来设置响应标头或重写对内部路径的请求，包括使用 FastAPI、Django 和 Flask 构建的应用程序。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -5595,38 +6397,38 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://vercel.com/changelog/python-projects-now-support-routing-rules"
+          "阅读原文（英文）：https://vercel.com/changelog/python-projects-now-support-routing-rules"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "Python projects can now use routing rules to set response headers or rewrite requests to internal paths, including apps built with FastAPI, Django, and Flask.",
-        "The Vercel CDN evaluates rules before requests reach your application, so changes apply without a new deployment.",
-        "For example, this FastAPI app serves a /new route:",
-        "main.py 1 from fastapi import FastAPI 2 3 app = FastAPI ( ) 4 5 @app . get ( \"/new\" ) 6 def new_route ( ) - > dict [ str , str ] : 7 return { \"message\" : \"New route!\" } Defines the /new route the rewrite below targets",
-        "To send requests for /old to that route, create a rewrite from the CDN tab in your project dashboard or with the Vercel CLI :",
-        "# Add a rewrite (staged automatically) vercel routes add --ai \"Rewrite /old to /new\" --yes # Review staged changes vercel routes list --diff # Publish to production vercel routes publish Creating and publishing a rewrite with the Vercel CLI",
-        "Published rules take effect immediately across all regions, and you can roll back to a previous version from the History tab.",
-        "You can also manage rules from Python with the vercel SDK , which wraps the Vercel REST API . add_route stages the rule, and update_route_version publishes it:",
-        "add_route.py 1 from vercel . client import Vercel 2 from vercel . project_routes import RewriteRoute 3 4 vercel = Vercel ( access_token = \"...\" ) 5 6 added = vercel . project_routes . add_route ( 7 project_id = \"prj_123\" , 8 route = RewriteRoute ( name = \"Rewrite /old to /new\" , source = \"/old\" , destination = \"/new\" ) , 9 ) 10 vercel . project_routes . update_route_version ( 11 project_id = \"prj_123\" , version_id = added . version . id , action = \"promote\" 12 ) Stages and publishes the same rewrite from Python",
-        "Rewrites can also be defined in vercel.json :",
-        "vercel.json 1 { 2 \"$schema\" : \"https://openapi.vercel.sh/vercel.json\" , 3 \"rewrites\" : [ 4 { 5 \"source\" : \"/old\" , 6 \"destination\" : \"/new\" 7 } 8 ] 9 } Rewrites /old to /new at the deployment level",
-        "Project-level rules live outside your deployment and are evaluated before its routes, so a published rule takes precedence over a vercel.json rewrite for the same path. Each surface fits a different workflow:",
-        "Rewrites that ship with the application code",
-        "Update Vercel CLI to the latest version and read the routing documentation to get started."
+        "Python 项目现在可以使用路由规则来设置响应标头或重写对内部路径的请求，包括使用 FastAPI、Django 和 Flask 构建的应用程序。",
+        "Vercel CDN 在请求到达您的应用程序之前评估规则，因此无需进行新部署即可应用更改。",
+        "例如，这个 FastAPI 应用程序提供 /new 路由：",
+        "main.py 1 from fastapi import FastAPI 2 3 app = FastAPI () 4 5 @app . get ( \"/new\" ) 6 def new_route ( ) -> dict [ str , str ] : 7 return { \"message\" : \"新路线！\"定义 /new 路由，重写目标如下",
+        "要将 /old 的请求发送到该路由，请从项目仪表板中的 CDN 选项卡或使用 Vercel CLI 创建重写：",
+        "# 添加重写（自动暂存） vercelroutes add --ai \"Rewrite /old to /new\" --yes # 查看暂存的更改 vercelroutes list --diff # 发布到生产 vercelroutespublish 使用 Vercel CLI 创建和发布重写",
+        "已发布的规则立即在所有区域生效，您可以从“历史记录”选项卡回滚到之前的版本。",
+        "您还可以使用包含 Vercel REST API 的 vercel SDK 从 Python 管理规则。 add_route 暂存规则，update_route_version 发布它：",
+        "add_route.py 1 来自 vercel 。客户端从 vercel 导入 Vercel 2 。 project_routes import RewriteRoute 3 4 vercel = Vercel (access_token = \"...\") 5 6 添加 = vercel 。项目路线。 add_route ( 7 project_id = \"prj_123\" , 8 路线 = RewriteRoute ( name = \" 将/旧重写为/新\" , 源 = \"/旧\" , 目的地 = \"/新\" ) , 9 ) 10 vercel .项目路线。 update_route_version ( 11 project_id = \"prj_123\" , version_id = added . version .id , action = \"promote\" 12 ) 暂存并发布来自 Python 的相同重写",
+        "重写也可以在 vercel.json 中定义："
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "Python 项目现在可以使用路由规则来设置响应标头或重写对内部路径的请求，包括使用 FastAPI、Django 和 Flask 构建的应用程序。",
+        "Vercel CDN 在请求到达您的应用程序之前评估规则，因此无需进行新部署即可应用更改。",
+        "例如，这个 FastAPI 应用程序提供 /new 路由："
+      ],
+      "translated": true,
       "originalTitle": "Python projects now support routing rules - Vercel",
       "originalLang": "en",
       "date": "2026-08-26",
@@ -5642,16 +6444,18 @@
         "url": "https://vercel.com/changelog/python-projects-now-support-routing-rules",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Python projects now support routing rules - Vercel"
       },
       "raw": {
         "title": "Python projects now support routing rules",
         "url": "https://vercel.com/changelog/python-projects-now-support-routing-rules",
         "fetched": true,
-        "savedAt": "2026-08-29T05:12:56.628Z"
-      }
+        "savedAt": "2026-08-29T05:12:56.628Z",
+        "retranslatedAt": "2026-09-04T02:30:59.158Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-8f7e44d8fd",
@@ -6421,19 +7225,22 @@
     },
     {
       "id": "sig-d1fc64a6e1",
-      "title": "The end of credential sprawl for agents",
-      "oneLiner": "Every useful agent reaches beyond your codebase. It posts to Slack, opens pull requests, queries Sno",
+      "title": "代理凭证蔓延的终结",
+      "oneLiner": "每个有用的代理都超出了您的代码库。它发布到 Slack、打开拉取请求、查询 Snowflake 或调用内部 API。这种影响力使其变得有价值，同时也是风险所在，因为多年来，授予它意味着提供一个长期存在的代币并希望它永远不会泄露。",
       "summary": {
-        "oneSentence": "Every useful agent reaches beyond your codebase. It posts to Slack, opens pull requests, queries Snowflake, or calls an ",
+        "oneSentence": "每个有用的代理都超出了您的代码库。它发布到 Slack、打开拉取请求、查询 Snowflake 或调用内部 API。这种影响力使其变得有价值，同时也是风险所在，因为多年来，授予它意味着提供一个长期存在的代币并希望它永远不会泄露。",
         "bullets": [
-          "Every useful agent reaches beyond your codebase. It posts to Slack, opens pull requests, queries Snowflake, or calls an internal API. That reach is what makes it valuable, and it's also where the risk"
+          "每个有用的代理都超出了您的代码库。它发布到 Slack、打开拉取请求、查询 Snowflake 或调用内部 API。这种影响力使其变得有价值，同时也是风险所在，因为多年来，授予它意味着提供一个长期存在的代币并希望它永远不会泄露。",
+          "Vercel Connect 将长期存在的令牌替换为您的代码在运行时请求的令牌，其范围仅限于任务并自行过期。",
+          "在公开测试期间，我们已经将生态系统发展到超过 100 个连接器，统一了它们的工作方式，并添加了团队在生产中所需的治理功能。",
+          "今天，Vercel Connect 已全面上市。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：每个有用的代理都超出了您的代码库。它发布到 Slack、打开拉取请求、查询 Snowflake 或调用内部 API。这种影响力使其变得有价值，同时也是风险所在，因为多年来，授予它意味着提供一个长期存在的代币并希望它永远不会泄露。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -6441,38 +7248,38 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://vercel.com/blog/the-end-of-credential-sprawl-for-agents"
+          "阅读原文（英文）：https://vercel.com/blog/the-end-of-credential-sprawl-for-agents"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "Every useful agent reaches beyond your codebase. It posts to Slack, opens pull requests, queries Snowflake, or calls an internal API. That reach is what makes it valuable, and it's also where the risk lives, because for years, granting it meant provisioning a long-lived token and hoping it never leaked.",
-        "Vercel Connect replaces long-lived tokens with ones your code requests at runtime, scoped to the task and expiring on their own.",
-        "During the public beta , we've grown the ecosystem past 100 connectors, unified how they work, and added the governance capabilities teams need in production.",
-        "Today, Vercel Connect is generally available.",
-        "Copy link to heading Vaults don't fix long-lived tokens Managing credentials has become its own workload. Teams write rotation scripts, copy secrets across environments, and share tokens between users. Putting a token in a vault made it harder to steal, but no less dangerous once stolen. It never expires, and no vault limits what a leaked credential can do.",
-        "Agents compounded the problem by touching more systems with greater autonomy, more often. Yet the tools to contain a secret haven't changed.",
-        "With Vercel Connect, your app never stores credentials. It requests one:",
-        "You register a connector once for a provider like Slack, GitHub, Snowflake, Shopify, or your own OAuth service",
-        "You attach it to the projects and environments that need it",
-        "Your code requests a token at runtime, and it refreshes automatically",
-        "Your app has no provider secret to commit by accident",
-        "vercel connect create slack --name acme-slack Create a Slack connector named acme-slack",
-        "import { getToken } from '@vercel/connect' ; const token = await getToken ( 'slack/acme-slack' , { subject : { type : 'app' } , } ) ; Request a Slack token with the app scope",
-        "Requesting a token doesn't require another secret. Every deployment on Vercel carries an OIDC identity , and the SDK uses it to prove who's asking."
+        "每个有用的代理都超出了您的代码库。它发布到 Slack、打开拉取请求、查询 Snowflake 或调用内部 API。这种影响力使其变得有价值，同时也是风险所在，因为多年来，授予它意味着提供一个长期存在的代币并希望它永远不会泄露。",
+        "Vercel Connect 将长期存在的令牌替换为您的代码在运行时请求的令牌，其范围仅限于任务并自行过期。",
+        "在公开测试期间，我们已经将生态系统发展到超过 100 个连接器，统一了它们的工作方式，并添加了团队在生产中所需的治理功能。",
+        "今天，Vercel Connect 已全面上市。",
+        "将链接复制到标题保险库无法修复长期存在的令牌管理凭据已成为其自身的工作负载。团队编写轮换脚本，跨环境复制机密，并在用户之间共享令牌。将代币放入金库会使偷窃变得更加困难，但一旦被盗，危险性也不会降低。它永远不会过期，并且没有保险库限制泄露的凭证可以做什么。",
+        "特工更频繁地接触更多具有更大自主权的系统，从而使问题变得更加复杂。然而，隐藏秘密的工具并没有改变。",
+        "借助 Vercel Connect，您的应用程序永远不会存储凭据。它要求一：",
+        "您可以为 Slack、GitHub、Snowflake、Shopify 或您自己的 OAuth 服务等提供商注册一次连接器",
+        "您将其附加到需要它的项目和环境中",
+        "您的代码在运行时请求令牌，并且它会自动刷新"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "每个有用的代理都超出了您的代码库。它发布到 Slack、打开拉取请求、查询 Snowflake 或调用内部 API。这种影响力使其变得有价值，同时也是风险所在，",
+        "Vercel Connect 将长期存在的令牌替换为您的代码在运行时请求的令牌，其范围仅限于任务并自行过期。",
+        "在公开测试期间，我们已经将生态系统发展到超过 100 个连接器，统一了它们的工作方式，并添加了团队在生产中所需的治理功能。"
+      ],
+      "translated": true,
       "originalTitle": "The end of credential sprawl for agents",
       "originalLang": "en",
       "date": "2026-08-25",
@@ -6488,16 +7295,18 @@
         "url": "https://vercel.com/blog/the-end-of-credential-sprawl-for-agents",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "The end of credential sprawl for agents"
       },
       "raw": {
         "title": "The end of credential sprawl for agents",
         "url": "https://vercel.com/blog/the-end-of-credential-sprawl-for-agents",
         "fetched": true,
-        "savedAt": "2026-08-26T00:57:11.213Z"
-      }
+        "savedAt": "2026-08-26T00:57:11.213Z",
+        "retranslatedAt": "2026-09-04T02:31:12.315Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-da55f7d7bd",
@@ -30369,443 +31178,6 @@
       "affectedProductIds": [
         "cursor"
       ]
-    },
-    {
-      "id": "cur-tapnow-agent",
-      "title": "TapNow 智能体画布：国内视频 Agent 工作流新标杆",
-      "oneLiner": "TapNow 用节点画布 + Agent 对话统一调度多模型做影视级短片。",
-      "date": "2026-07-21",
-      "tags": [
-        "Video",
-        "Agent",
-        "Workflow"
-      ],
-      "categoryIds": [
-        "vertical-video",
-        "visual"
-      ],
-      "productIds": [
-        "tapnow"
-      ],
-      "importance": {
-        "stars": 4,
-        "reason": "国内视频 Agent 代表，已在 Atlas 收录",
-        "readMinutes": 4
-      },
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "TapNow",
-        "author": "TapNow",
-        "url": "https://www.tapnow.ai/zh",
-        "home": "https://www.tapnow.ai",
-        "lang": "zh",
-        "translated": true
-      },
-      "summary": {
-        "oneSentence": "TapNow 将脚本拆解、分镜、生成、剪辑串联为可复用 Agent 工作流。",
-        "bullets": [
-          "Agent 对话驱动节点流",
-          "多模型统一调度",
-          "支持广告/短片/电商视频"
-        ],
-        "audience": "短视频创作者、广告从业者、AI 产品学习者",
-        "readMinutes": 4,
-        "keywords": [
-          "Video Agent",
-          "Canvas",
-          "国内"
-        ]
-      },
-      "insight": {
-        "mainInsight": "视频 Agent 的差异化不在单模型画质，而在「分镜连续性 + 工作流可复用」。",
-        "whyNow": "可灵、Runway 等单点生成工具成熟，用户痛点转向全流程。",
-        "problem": "从创意到成片环节割裂。",
-        "trend": "Video Agent + Canvas Workflow",
-        "differentiation": "与 LibTV、Flova 等同属国内视频 Agent 新一批。",
-        "outlook": "视频品类会从「生成工具」进化为「制作 Agent」。"
-      },
-      "learning": {
-        "whyImportant": "已在 Atlas 视听觉 Agent → 视频分类收录，是理解国内视频 Agent 的样本。",
-        "productDesign": "节点画布 + Agent 对话双入口，降低专业用户与小白用户的上手差距。",
-        "relevance": "Video、Agent、Workflow、Multimodal。",
-        "actionItems": [
-          "打开 TapNow 试用社区工作流模板",
-          "对比 LibTV 无限画布方案",
-          "阅读即梦/可灵的「单点生成」差异"
-        ]
-      },
-      "content": [
-        "TapNow 代表国内视频 Agent 从「文生视频」向「制作流水线 Agent」的演进，值得与 Runway、Pika 等海外工具对照学习。",
-        "产品地图中建议把「视频生成模型」与「视频制作 Agent」分层理解。"
-      ],
-      "highlights": [
-        "节点 Agent 画布",
-        "国内视频 Agent",
-        "工作流可复用"
-      ]
-    },
-    {
-      "id": "sig-20b0eb2d5c",
-      "title": "OpenAI 与 Hugging Face 合作解决模型评估期间的安全事件",
-      "oneLiner": "OpenAI 和 Hugging Face 分享了人工智能模型评估期间安全事件的早期发现，强调了先进的网络功能和防御者的经验教训。",
-      "summary": {
-        "oneSentence": "OpenAI 和 Hugging Face 分享了人工智能模型评估期间安全事件的早期发现，强调了先进的网络功能和防御者的经验教训。",
-        "bullets": [
-          "OpenAI 和 Hugging Face 分享了人工智能模型评估期间安全事件的早期发现，强调了先进的网络功能和防御者的经验教训。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：OpenAI 和 Hugging Face 分享了人工智能模型评估期间安全事件的早期发现，强调了先进的网络功能和防御者的经验教训。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/hugging-face-model-evaluation-security-incident"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "OpenAI 和 Hugging Face 分享了人工智能模型评估期间安全事件的早期发现，强调了先进的网络功能和防御者的经验教训。"
-      ],
-      "highlights": [
-        "OpenAI 和 Hugging Face 分享了人工智能模型评估期间安全事件的早期发现，强调了先进的网络功能和防御者的经验教训。"
-      ],
-      "translated": true,
-      "originalTitle": "OpenAI and Hugging Face partner to address security incident during model evaluation",
-      "originalLang": "en",
-      "date": "2026-07-21",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "OpenAI and Hugging Face partner to address security incident during model evaluation"
-      },
-      "raw": {
-        "title": "OpenAI and Hugging Face partner to address security incident during model evaluation",
-        "url": "https://openai.com/index/hugging-face-model-evaluation-security-incident",
-        "fetched": false,
-        "savedAt": "2026-07-27T07:32:45.029Z",
-        "retranslatedAt": "2026-07-31T22:58:39.793Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-40359dbf5a",
-      "title": "David Vélez 和 Robin Vince 加入 OpenAI 基金会和 OpenAI Group PBC 董事会",
-      "oneLiner": "David Vélez 和 Robin Vince 加入 OpenAI 基金会和 OpenAI Group PBC 的董事会，带来了金融、技术和治理领域的全球领导力。",
-      "summary": {
-        "oneSentence": "David Vélez 和 Robin Vince 加入 OpenAI 基金会和 OpenAI Group PBC 的董事会，带来了金融、技术和治理领域的全球领导力。",
-        "bullets": [
-          "David Vélez 和 Robin Vince 加入 OpenAI 基金会和 OpenAI Group PBC 的董事会，带来了金融、技术和治理领域的全球领导力。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：David Vélez 和 Robin Vince 加入 OpenAI 基金会和 OpenAI Group PBC 的董事会，带来了金融、技术和治理领域的全球领导力。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/david-velez-robin-vince-join-openai-boards"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "David Vélez 和 Robin Vince 加入 OpenAI 基金会和 OpenAI Group PBC 的董事会，带来了金融、技术和治理领域的全球领导力。"
-      ],
-      "highlights": [
-        "David Vélez 和 Robin Vince 加入 OpenAI 基金会和 OpenAI Group PBC 的董事会，带来了金融、技术和治理领域的全球领"
-      ],
-      "translated": true,
-      "originalTitle": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
-      "originalLang": "en",
-      "date": "2026-07-21",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC"
-      },
-      "raw": {
-        "title": "David Vélez and Robin Vince join the boards of the OpenAI Foundation and OpenAI Group PBC",
-        "url": "https://openai.com/index/david-velez-robin-vince-join-openai-boards",
-        "fetched": false,
-        "savedAt": "2026-07-27T07:33:07.086Z",
-        "retranslatedAt": "2026-07-31T22:58:41.039Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-afd8a8808b",
-      "title": "California Sea Lion",
-      "summary": {
-        "oneSentence": "&lt;p&gt;&lt;img src=\"https://static.inaturalist.org/photos/702321069/large.jpg\" alt=\"California Sea Lion\"&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=\"https://static.ina",
-        "bullets": [],
-        "audience": "",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "date": "2026-07-21",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "content": [
-        "&lt;p&gt;&lt;img src=\"https://static.inaturalist.org/photos/702321069/large.jpg\" alt=\"California Sea Lion\"&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=\"https://static.inaturalist.org/photos/702321114/large.jpg\" alt=\"California Sea Lion\"&gt;&lt;/p&gt;&lt;p&gt;California Sea Lion, in San Francisco County, US, CA&lt;/p&gt;&lt;p&gt;We took some visiting family to Pier 39 to see the sea lions. They're somehow always even more fun than I remember them being last time.&lt;/p&gt; &lt;p&gt;Tags: &lt;a href=\"https://simonwillison.net/tags/san-francisco\"&gt;san-francisco&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/wildlife\"&gt;wildlife&lt;/a&gt;&lt;/p&gt;"
-      ],
-      "highlights": [],
-      "source": {
-        "type": "blog",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Jul/21/sighting-383713864/#atom-everything",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false
-      },
-      "oneLiner": "&lt;p&gt;&lt;img src=\"https://static.inaturalist.org/photos/702321069/large.jpg\" alt=\"California Sea Lion\"&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=\"https://static.ina",
-      "insight": {
-        "mainInsight": ""
-      },
-      "learning": {},
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "",
-        "readMinutes": 3
-      },
-      "affectedProductIds": []
-    },
-    {
-      "id": "sig-3f246cbfa8",
-      "title": "🔬Causal Models Need Causal Data - Xaira’s X-Cell model for Drug Discovery (Bo Wang & Ci Chu, Chief Discovery Officer & Chief AI Scientist)",
-      "summary": {
-        "oneSentence": "Xaira Therapeutics is all in on data generation for model building! We talk with Bo Wang and Ci Chu about how and why.",
-        "bullets": [],
-        "audience": "",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "date": "2026-07-21",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "content": [
-        "Xaira Therapeutics is all in on data generation for model building! We talk with Bo Wang and Ci Chu about how and why."
-      ],
-      "highlights": [],
-      "source": {
-        "type": "blog",
-        "name": "Latent Space",
-        "author": "swyx & Alessio",
-        "url": "https://www.latent.space/p/xaira",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false
-      },
-      "oneLiner": "Xaira Therapeutics is all in on data generation for model building! We talk with Bo Wang and Ci Chu about how and why.",
-      "insight": {
-        "mainInsight": ""
-      },
-      "learning": {},
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "",
-        "readMinutes": 3
-      },
-      "affectedProductIds": []
-    },
-    {
-      "id": "sig-d42362617c",
-      "title": "Introducing the ChatGPT for small business program",
-      "summary": {
-        "oneSentence": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
-        "bullets": [],
-        "audience": "",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "date": "2026-07-21",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work."
-      ],
-      "highlights": [],
-      "source": {
-        "type": "blog",
-        "name": "OpenAI Blog",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/introducing-chatgpt-small-business-program",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": false
-      },
-      "oneLiner": "OpenAI launches the ChatGPT for Small Businesses program, helping entrepreneurs build AI skills, automate work, and grow with ChatGPT Work.",
-      "insight": {
-        "mainInsight": ""
-      },
-      "learning": {},
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "sig-8985407e5e",
-      "title": "Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber",
-      "summary": {
-        "oneSentence": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
-        "bullets": [],
-        "audience": "",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "date": "2026-07-21",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [],
-      "content": [
-        "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber."
-      ],
-      "highlights": [],
-      "source": {
-        "type": "blog",
-        "name": "Google DeepMind",
-        "author": "DeepMind",
-        "url": "https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/",
-        "home": "https://deepmind.google/blog/",
-        "lang": "en",
-        "translated": false
-      },
-      "oneLiner": "We’re introducing new Gemini models, including Gemini 3.6 Flash, 3.5 Flash-Lite and 3.5 Flash Cyber.",
-      "insight": {
-        "mainInsight": ""
-      },
-      "learning": {},
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "",
-        "readMinutes": 3
-      },
-      "affectedProductIds": []
-    },
-    {
-      "id": "sig-99e42382ba",
-      "title": "Nativ: Run AI models locally on your Mac",
-      "summary": {
-        "oneSentence": "&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://blaizzy.github.io/nativ/\"&gt;Nativ: Run AI models locally on your Mac&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; Prince Canum",
-        "bullets": [],
-        "audience": "",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "date": "2026-07-21",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "content": [
-        "&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://blaizzy.github.io/nativ/\"&gt;Nativ: Run AI models locally on your Mac&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; Prince Canuma is the developer behind the excellent &lt;a href=\"https://github.com/Blaizzy/mlx-vlm\"&gt;MLX-VLM&lt;/a&gt; Python library for running vision-LLMs using MLX on a Mac.&lt;/p&gt; &lt;p&gt;I'm really excited about his new project, which wraps MLX in a full macOS desktop application. It's similar in shape to LM Studio, providing both a chat interface and a localhost API server for accessing models.&lt;/p&gt; &lt;p&gt;The app picked up MLX models I had already tried that were present in my Hugging Face cache directory, which was a nice touch. &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=\"https://news.ycombinator.com/item?id=48982681\"&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt; &lt;p&gt;Tags: &lt;a href=\"https://simonwillison.net/tags/macos\"&gt;macos&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/python\"&gt;python&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/ai\"&gt;ai&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/generative-ai\"&gt;generative-ai&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/local-llms\"&gt;local-llms&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/llms\"&gt;llms&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/mlx\"&gt;mlx&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/prince-canuma\"&gt;prince-canuma&lt;/a&gt;&lt;/p&gt;"
-      ],
-      "highlights": [],
-      "source": {
-        "type": "blog",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Jul/21/nativ/#atom-everything",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false
-      },
-      "oneLiner": "&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://blaizzy.github.io/nativ/\"&gt;Nativ: Run AI models locally on your Mac&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; Prince Canum",
-      "insight": {
-        "mainInsight": ""
-      },
-      "learning": {},
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "",
-        "readMinutes": 3
-      },
-      "affectedProductIds": []
     }
   ]
 }
