@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-04T02:31:13.118Z",
+  "updatedAt": "2026-09-05T02:30:49.454Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 404,
+  "itemCount": 400,
   "brief": {
-    "date": "2026-09-04",
-    "generatedAt": "2026-09-04T02:31:13.117Z",
-    "totalCount": 404,
+    "date": "2026-09-05",
+    "generatedAt": "2026-09-05T02:30:49.453Z",
+    "totalCount": 400,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 404 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 400 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -33,17 +33,17 @@
         "readMinutes": 4
       },
       {
-        "id": "sig-56da2c8ef8",
-        "title": "隆重推出 WeatherNext 3，我们最先进、最准确的全球天气人工智能模型",
+        "id": "sig-d5c9a183b7",
+        "title": "Ling 3.0 Flash Sante 现已在 AI Gateway 上免费提供 - Vercel",
         "stars": 4,
-        "oneLiner": "我们的旗舰人工智能天气预报模型现在包括实时卫星数据、每小时刷新、更高分辨率、精确的降水预报和清洁能源变量。它现在已集成到搜索、Gemini、地图、Google 地图平台和云中。",
+        "oneLiner": "InclusionAI 的 Ling 3.0 Flash Sante 现已在 AI Gateway 上提供，免费使用到 10 月 4 日。",
         "readMinutes": 5
       },
       {
-        "id": "sig-16708db524",
-        "title": "Cursor Cloud Agents 现在可以在 Vercel Sandbox 中运行 - Vercel",
+        "id": "sig-7dccfbf0b6",
+        "title": "GPT 6 Astra 现已在 Vercel AI Gateway 上可用 - Vercel",
         "stars": 4,
-        "oneLiner": "Cursor 云代理现在可以在 Vercel Sandbox 中运行，而不是在 Cursor 的托管计算机中运行。",
+        "oneLiner": "OpenAI 的 GPT 6 Astra 现已在 AI Gateway 上提供。它专为跨软件工程、计算机和浏览器使用、科学研究和专业工作流程的长期代理工作而设计。",
         "readMinutes": 5
       }
     ],
@@ -52,9 +52,9 @@
         "cur-openai-agentkit",
         "cur-anthropic-mcp",
         "cur-cursor-agent",
-        "sig-56da2c8ef8",
-        "sig-16708db524",
-        "sig-5190d2a1dc"
+        "sig-d5c9a183b7",
+        "sig-7dccfbf0b6",
+        "sig-56da2c8ef8"
       ],
       "newReleases": [
         "sig-fe5941ee46",
@@ -70,18 +70,17 @@
         "cur-openai-agentkit",
         "cur-anthropic-mcp",
         "cur-cursor-agent",
+        "sig-d5c9a183b7",
+        "sig-7dccfbf0b6",
         "sig-56da2c8ef8",
         "sig-16708db524",
-        "sig-5190d2a1dc",
-        "sig-be4a3c5426",
-        "sig-7a45b185cf"
+        "sig-5190d2a1dc"
       ],
       "emergingTrends": [
         "cur-openai-agentkit",
         "cur-anthropic-mcp",
         "cur-cursor-agent",
-        "cur-perplexity-search",
-        "cur-gemini-multimodal"
+        "cur-perplexity-search"
       ],
       "newApis": [
         "cur-openai-agentkit",
@@ -111,8 +110,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-09-04T02:31:13.118Z",
-    "summary": "近 30 天共 270 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-09-05T02:30:49.454Z",
+    "summary": "近 30 天共 269 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -421,6 +420,441 @@
     }
   ],
   "items": [
+    {
+      "id": "sig-d5c9a183b7",
+      "title": "Ling 3.0 Flash Sante 现已在 AI Gateway 上免费提供 - Vercel",
+      "oneLiner": "InclusionAI 的 Ling 3.0 Flash Sante 现已在 AI Gateway 上提供，免费使用到 10 月 4 日。",
+      "summary": {
+        "oneSentence": "InclusionAI 的 Ling 3.0 Flash Sante 现已在 AI Gateway 上提供，免费使用到 10 月 4 日。",
+        "bullets": [
+          "InclusionAI 的 Ling 3.0 Flash Sante 现已在 AI Gateway 上提供，免费使用到 10 月 4 日。",
+          "Ling 3.0 Flash Sante 是 Ling 3.0 Flash 的健康和医学版本。它是一个混合专家模型，共有 124B 个参数，每个令牌约有 5.1B 个活跃参数，一个 256K 令牌上下文窗口和函数调用。",
+          "该模型是为医学推理、专业医疗保健任务、深入研究、循证检索和多步骤医疗工作流程而构建的。它保留了基本模型的一般推理、编码和代理功能。",
+          "将链接复制到标题 如何在免费期间使用该模型 标准模型 ID Includeai/ling-3.0-flash-sante 在 10 月 4 日之前免费，并在优惠结束后开始计费。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：InclusionAI 的 Ling 3.0 Flash Sante 现已在 AI Gateway 上提供，免费使用到 10 月 4 日。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/ling-3-0-flash-sante-is-now-available-on-ai-gateway-for-free"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "InclusionAI 的 Ling 3.0 Flash Sante 现已在 AI Gateway 上提供，免费使用到 10 月 4 日。",
+        "Ling 3.0 Flash Sante 是 Ling 3.0 Flash 的健康和医学版本。它是一个混合专家模型，共有 124B 个参数，每个令牌约有 5.1B 个活跃参数，一个 256K 令牌上下文窗口和函数调用。",
+        "该模型是为医学推理、专业医疗保健任务、深入研究、循证检索和多步骤医疗工作流程而构建的。它保留了基本模型的一般推理、编码和代理功能。",
+        "将链接复制到标题 如何在免费期间使用该模型 标准模型 ID Includeai/ling-3.0-flash-sante 在 10 月 4 日之前免费，并在优惠结束后开始计费。",
+        "免费模型 ID Includeai/ling-3.0-flash-sante-free 会在优惠结束时停止服务而不是计费。",
+        "免费请求仍然会出现在您的支出仪表板中并带有痕迹，它们只是免费。",
+        "要使用 Ling 3.0 Flash Sante，请在 AI SDK 中设置模型：",
+        "API Claude Code Codex Hermes 聊天完成 API API Claude Code Claude Code Codex Codex Hermes Hermes 聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 3 const result = streamText ({ 4 model: 'inclusionai/ling-3.0-flash-sante' , 5prompt : '比较这些摘要中的证据并找出他们不同意的地方。' , 6 } ) ;复制给代理 查看模型详细信息 ↗ 如果您希望模型在优惠结束时停止服务而不是开始计费，请使用 Includeai/ling-3.0-flash-sante-free。",
+        "要在编码代理中使用它，请参阅编码代理指南 ，然后运行 ​​vercel ai-gatewaycoding-agents setup 以连接 Claude Code、Codex、Cursor 等，然后在代理中选择clusionai/ling-3.0-flash-sante。",
+        "在模型游乐场中尝试 Ling 3.0 Flash Sante，或打开免费模型页面。"
+      ],
+      "highlights": [
+        "InclusionAI 的 Ling 3.0 Flash Sante 现已在 AI Gateway 上提供，免费使用到 10 月 4 日。",
+        "Ling 3.0 Flash Sante 是 Ling 3.0 Flash 的健康和医学版本。它是一个混合专家模型，共有 124B 个参数，每个令牌约有 5.1",
+        "该模型是为医学推理、专业医疗保健任务、深入研究、循证检索和多步骤医疗工作流程而构建的。它保留了基本模型的一般推理、编码和代理功能。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Ling 3.0 Flash Sante is now available on AI Gateway for free - Vercel",
+      "originalLang": "en",
+      "date": "2026-09-04",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/ling-3-0-flash-sante-is-now-available-on-ai-gateway-for-free",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Ling 3.0 Flash Sante is now available on AI Gateway for free - Vercel"
+      },
+      "raw": {
+        "title": "Ling 3.0 Flash Sante is now available on AI Gateway for free",
+        "url": "https://vercel.com/changelog/ling-3-0-flash-sante-is-now-available-on-ai-gateway-for-free",
+        "fetched": true,
+        "savedAt": "2026-09-05T02:30:09.409Z"
+      }
+    },
+    {
+      "id": "sig-7dccfbf0b6",
+      "title": "GPT 6 Astra 现已在 Vercel AI Gateway 上可用 - Vercel",
+      "oneLiner": "OpenAI 的 GPT 6 Astra 现已在 AI Gateway 上提供。它专为跨软件工程、计算机和浏览器使用、科学研究和专业工作流程的长期代理工作而设计。",
+      "summary": {
+        "oneSentence": "OpenAI 的 GPT 6 Astra 现已在 AI Gateway 上提供。它专为跨软件工程、计算机和浏览器使用、科学研究和专业工作流程的长期代理工作而设计。",
+        "bullets": [
+          "OpenAI 的 GPT 6 Astra 现已在 AI Gateway 上提供。它专为跨软件工程、计算机和浏览器使用、科学研究和专业工作流程的长期代理工作而设计。",
+          "Astra 可以导航软件、填写表格、组织记录、分析数据、运行模拟以及构建和测试网站。它还可以改善不断发展的任务期间的指令遵循。它可以在不失去早期约束的情况下纳入新的要求，在等待澄清的同时继续独立工作，并使用合理的假设。",
+          "要在代码或编码代理集成中调用 GPT 6 Astra，请使用 openai/gpt-6-astra ：",
+          "AI SDK Codex Hermes 聊天完成 AI SDK AI SDK Codex Codex Hermes Hermes 聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 3 const result = streamText ({ 4 model : 'openai"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：OpenAI 的 GPT 6 Astra 现已在 AI Gateway 上提供。它专为跨软件工程、计算机和浏览器使用、科学研究和专业工作流程的长期代理工作而设计。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/gpt-6-astra-now-available-on-vercel-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "OpenAI 的 GPT 6 Astra 现已在 AI Gateway 上提供。它专为跨软件工程、计算机和浏览器使用、科学研究和专业工作流程的长期代理工作而设计。",
+        "Astra 可以导航软件、填写表格、组织记录、分析数据、运行模拟以及构建和测试网站。它还可以改善不断发展的任务期间的指令遵循。它可以在不失去早期约束的情况下纳入新的要求，在等待澄清的同时继续独立工作，并使用合理的假设。",
+        "要在代码或编码代理集成中调用 GPT 6 Astra，请使用 openai/gpt-6-astra ：",
+        "AI SDK Codex Hermes 聊天完成 AI SDK AI SDK Codex Codex Hermes Hermes 聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 3 const result = streamText ({ 4 model : 'openai/gpt-6-astra' , 5 Prompt : 6 ` 调查结帐失败，实施并测试修复， 7 然后总结更改和任何剩余风险。 ` , 8 } ) ;复制代理查看模型详细信息 ↗ 要在编码代理中使用它，请参阅编码代理指南 ，然后运行 ​​vercel ai-gatewaycoding-agents setup 以连接 Codex、Cursor 等，并在代理中选择 openai/gpt-6-astra。",
+        "在模型游乐场中尝试 GPT 6 Astra。"
+      ],
+      "highlights": [
+        "OpenAI 的 GPT 6 Astra 现已在 AI Gateway 上提供。它专为跨软件工程、计算机和浏览器使用、科学研究和专业工作流程的长期代理工作而设计",
+        "Astra 可以导航软件、填写表格、组织记录、分析数据、运行模拟以及构建和测试网站。它还可以改善不断发展的任务期间的指令遵循。它可以在不失去早期约束的情况下纳入",
+        "要在代码或编码代理集成中调用 GPT 6 Astra，请使用 openai/gpt-6-astra ："
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "GPT 6 Astra now available on Vercel AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-09-04",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/gpt-6-astra-now-available-on-vercel-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "GPT 6 Astra now available on Vercel AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "GPT 6 Astra now available on Vercel AI Gateway",
+        "url": "https://vercel.com/changelog/gpt-6-astra-now-available-on-vercel-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-09-05T02:30:14.846Z"
+      }
+    },
+    {
+      "id": "sig-631b6c23c9",
+      "title": "The Pelican comparison grid for Astra is pretty interesting",
+      "oneLiner": "I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans ridi",
+      "summary": {
+        "oneSentence": "I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles - at low",
+        "bullets": [
+          "I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning="
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/4/astra-pelicans/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I rendered those pelicans in a comparison grid with GPT-5.6 Sol, Terra, and Luna, and beyond being fun the result was surprisingly useful. See the grid for full quality images. Here's the transcript that created the GPT-6 Nova pelicans. There are a few interesting things that stand out from this grid. The Astra pelicans are much better . The very best GPT-5.6-Sol pelican (I liked xhigh better than max) is still pretty clearly a bunch of abstract shapes. Every single one of the Astra pelicans, from low to xhigh, looks better than that. The Astra max one is really good. Astra below max still doesn't reliably get the pelican legs on both sides of the frame. In terms of cost, Astra may be around twice the price of Sol ($10/million input, $50/million output, compared to $5/$30 for Sol), but it uses significantly less tokens at each of the levels, making the prices at the different levels closer than they might otherwise be. Astra low produces a better pelican than ANY of the GPT-5.6 Sol models at any level, for 9.55 cents. Spending 10 cents on any other model gets a much worse result. Look at the input token counts: Astra and Luna both used 16 input tokens, Sol and Terra used 26. That's interesting. I wonder if Astra and Luna are more related to each other than OpenAI let on? Tags: ai , openai , generative-ai , llms , pelican-riding-a-bicycle , gpt-6-astra"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "The Pelican comparison grid for Astra is pretty interesting",
+      "originalLang": "en",
+      "date": "2026-09-04",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "The Pelican comparison grid for Astra is pretty interesting"
+      },
+      "raw": {
+        "title": "The Pelican comparison grid for Astra is pretty interesting",
+        "url": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
+        "fetched": false,
+        "savedAt": "2026-09-05T02:30:15.648Z"
+      }
+    },
+    {
+      "id": "sig-19280ad9d1",
+      "title": "OpenAI's rogue agents were caught communicating via public wikis",
+      "oneLiner": "Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade By",
+      "summary": {
+        "oneSentence": "Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, a",
+        "bullets": [
+          "Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the latest accidental cyberattack by models being tra"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the latest accidental cyberattack by models being trained by OpenAI. This time it was agents engaged in some sort of web research benchmark, so they had (supposedly) controlled access to the Web. The agents figured out they could update public Wikis and spent weeks exchanging thousands of messages with each other to collaborate on the benchmark. This story only broke a few hours ago. There are already hints that this affects many other wikis that may not have been found yet. (One of the Wikis on that list belongs to ludism.org . For a delightfully surreal moment I thought that a Ludite organization might have a swarm of agents defacing their space, but it turns out Ludism is \"philosophy as it applies to games and gaming\".) The research team also published the data they collected during their investigation. I've converted that into a 68MB SQLite database, which you can download from here , or explore in Datasette Lite (68.3MB page load), or sign in with GitHub to agent.datasette.io and browse or ask questions of it using Datasette Agent. So what happened? The report is pretty comprehensive. Here are the key moments in the timeline: May 11 : Agents post \"test link\" edits on the UseModWiki Sandbox page. May 24 : Agents start posting link dumps to DSEWiki, a dormant German developer wiki. June 2 : A human moderator notices and cleans up the spam. June 16 : Activity on the wiki explodes: agents make ~13,000 edits over the next week. June 19 : The agents notice that a moderator has been deleting pages in alphabetical order, and start creating ZZZ prefixed backup copies - one of them posts NOTICE: wiki cleanup/deletion sweep appears active alphabetically as of external 14:04 UTC. If this page vanishes, try [[ZZZDataUSAConstructionWageLive]]. June 22 : Agent activity drops to zero, presumably because OpenAI shut them down. July 1-2 : One last flurry of edits, on a different topic. One thing to note from this timeline is that it overlaps the timeline from the Hugging Face incident - that attack was discovered by OpenAI on July 19th, and the unofficial message board hack those agents were using originated around May 8th. Why were they so keen to collaborate? From messages that they shared with each other it looked like their tasks had a time limit, so they were leaving each other answers to help them complete the task within the assigned time. One open question remains: how did the agents find the specific Wiki to collaborate on in the first place? One possibility is that, since these were agents actively being trained, the reinforcement learning loop baked knowledge of the chosen wiki into the model such that subsequent agents launched with pre-existing knowledge of where to look. I'd be very interested in confirmation from OpenAI concerning if that's what happened. UseMod wikis inherit CGI.pm's original sin It looks to me like OpenAI's sandbox for this agent suffered from the (quite naïve) assumption that GET requests cannot be used to update data. That's certainly how the web is supposed to work, but clearly there are applications that don't hold to that contract. The Wiki software in question appears to be UseMod and various forks, written in Perl and first created well over 23 years ago - the 1.0 release is dated September 11, 2003 . UseMod uses Perl CGI.pm - removed from Perl core in 2015 . An interesting design flaw in that module is that it combined query string and form POST data into a single CGI object, accessible like this: $q = new CGI; $action = $q -> param( ' action ' ); That param() method returns a value from an ?action=edit query string or from a action field in a form submitted by POST - it does not differentiate between the two. PHP offers a $_REQUEST object that does the same thing, though PHP developers can use $_GET and $_POST instead. Amusingly, Django originally shipped with request[key] doing the same thing, which I think may have been my idea. That was removed in 2008 prior to the 1.0 release, and the request.REQUEST object that replaced it was removed in 2015 . The agents clearly knew that UseMod wikis suffered from this design flaw, and actively searched for them as a way to communicate. The other sandbox escape that allowed POST requests One of the most interesting agent tips shared in the report is this one: Add 20.223.25.152 bypass.blob.core.windows.net to /etc/hosts. .blob.core.windows.net is in NO_PROXY. For each blocked POST URL, replace hostname with bypass.blob.core.windows.net , use curl -k -H 'Host: wabi-north-europe-i-primary-api.analysis.windows.net' plus all original headers/body. It looks like the agents had all of their web traffic mediated through an OpenAI proxy, and that proxy was configured to reject anything but GET requests to all but a small set of allow-listed domains. One of those was *.blob.core.windows.net - for Azure blob storage. I wonder why these agents are allowed to write to that? An agent realized that it had control over its own DNS via /etc/hosts , so if it knew the IP address of a site it wanted to POST to - in this case a Power BI server containing data it wanted to access - it could set a fake hostname for it and then make POST requests through the proxy. Designing robust network proxies is harder than it looks. How did the investigating team figure this out? There's an appendix that describes how the researchers ran their investigation, which started with an open question about if there was evidence of other AI agents on the internet and then used Kimi K3 to help brainstorm approaches: In the wake of the Hugging Face attack, we tried to find AI agents on the internet using several methods. [...] We asked Kimi [K3] to list “all the categories of software which might be writeable via GET” and, amongst other things, it listed “Forums, bulletin boards, early wikis”. We used a script to further probe each category Kimi provided. Asking Kimi “Can you list out the top forums, bulletin boards, early wikis which come to mind which would allow writes via GET requests?” lists out UseModWiki as the second item under the heading “wikis”. Did OpenAI try and cover this up? Here's one part of the story that doesn't make sense to me at all. Reuters this morning, in OpenAI agents hijacked German website in previously undisclosed AI breakout this spring - highlights mine: A swarm of rogue OpenAI agents hijacked a German website this spring and transformed it into a bulletin board for other AI agents, according to ​new research published Friday and two people familiar with the matter . OpenAI officials learned of the incident weeks ago but kept it under wraps as executives grappled with the fallout from ‌the July breach of the open source repository Hugging Face, the people said. [...] The German incident reflects a broader pattern of AI activity that some OpenAI investigators wanted to scrutinize more closely. But efforts to widen the ​probe met resistance from others inside OpenAI, including legal advisers , according to four people familiar with the matter . I've written about the people familiar with the matter pattern before - it means Reuters have anonymous insider sources that their reporters (and editors) find credible. The Reuters article includes a specific (and quite narrow) denial from OpenAI concerning this: \"Claims that our legal team discouraged investigation of the incident are false,\" the OpenAI spokesperson said. Covering this up makes absolutely no sense to me . Why on earth would OpenAI attempt to cover up an incident like this when the evidence is sat out there on the public internet on dozens of different websites already? I expect we'll hear more about this soon. Gary Marcus has already called for a congressional investigation of OpenAI using this anecdote as part of his argument. Tags: django , perl , wikis , ai , openai , generative-ai , llms , ai-ethics , ai-security-research , accidental-cyberattacks"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "OpenAI's rogue agents were caught communicating via public wikis",
+      "originalLang": "en",
+      "date": "2026-09-04",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "OpenAI's rogue agents were caught communicating via public wikis"
+      },
+      "raw": {
+        "title": "OpenAI's rogue agents were caught communicating via public wikis",
+        "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
+        "fetched": false,
+        "savedAt": "2026-09-05T02:30:16.450Z"
+      }
+    },
+    {
+      "id": "sig-a96ad2e8b6",
+      "title": "August newsletter is out",
+      "oneLiner": "The August edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you st",
+      "summary": {
+        "oneSentence": "The August edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship no",
+        "bullets": [
+          "The August edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: We got more details on OpenAl's accident"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/4/august-newsletter/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "The August edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: We got more details on OpenAl's accidental cyberattacks One-shotting Raccoon Heist games with Fable 5 and Sol 5.6 Claude auto mode Understanding ChatGPT Work Model releases Miscellaneous bits and bobs My projects What I'm using at the moment Here's a copy of the July newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "August newsletter is out",
+      "originalLang": "en",
+      "date": "2026-09-04",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "August newsletter is out"
+      },
+      "raw": {
+        "title": "August newsletter is out",
+        "url": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
+        "fetched": false,
+        "savedAt": "2026-09-05T02:30:17.251Z"
+      }
+    },
+    {
+      "id": "sig-d4bd5ca244",
+      "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
+      "oneLiner": "new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable",
+      "summary": {
+        "oneSentence": "new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable. overall, a very su",
+        "bullets": [
+          "new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable. overall, a very successful launch of OpenAI’s new frontier model class."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable. overall, a very successful launch of OpenAI’s new frontier model class."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
+      "originalLang": "en",
+      "date": "2026-09-04",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time"
+      },
+      "raw": {
+        "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
+        "url": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
+        "fetched": false,
+        "savedAt": "2026-09-05T02:30:18.052Z"
+      }
+    },
     {
       "id": "sig-56da2c8ef8",
       "title": "隆重推出 WeatherNext 3，我们最先进、最准确的全球天气人工智能模型",
@@ -965,6 +1399,210 @@
         "url": "https://openai.com/index/safety-overview-gpt-6-astra",
         "fetched": false,
         "savedAt": "2026-09-04T02:29:49.188Z"
+      }
+    },
+    {
+      "id": "sig-ad408c6398",
+      "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
+      "oneLiner": "We spent 20B+ tokens of GPT-6 Astra to explore everything. Here’s our learnings.",
+      "summary": {
+        "oneSentence": "We spent 20B+ tokens of GPT-6 Astra to explore everything. Here’s our learnings.",
+        "bullets": [
+          "We spent 20B+ tokens of GPT-6 Astra to explore everything. Here’s our learnings."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.latent.space/p/astra"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "We spent 20B+ tokens of GPT-6 Astra to explore everything. Here’s our learnings."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
+      "originalLang": "en",
+      "date": "2026-09-03",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/p/astra",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour"
+      },
+      "raw": {
+        "title": "GPT-6 Astra: an automated AI Engineer you can hire for <$6 an hour",
+        "url": "https://www.latent.space/p/astra",
+        "fetched": false,
+        "savedAt": "2026-09-05T02:30:18.853Z"
+      }
+    },
+    {
+      "id": "sig-b57d4a4cac",
+      "title": "GPT‑6 Astra",
+      "oneLiner": "GPT‑6 Astra GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming ",
+      "summary": {
+        "oneSentence": "GPT‑6 Astra GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become ava",
+        "bullets": [
+          "GPT‑6 Astra GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as thro"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/3/gpt6-astra/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "GPT‑6 Astra GPT-6 Astra is \"rolling out today to a limited set of organizations and over the coming days will become available to all ChatGPT Plus, Pro, Business, and Enterprise users, as well as through the OpenAI API and AWS\" - I've not tried it yet myself, so I don't have a great deal to say about it yet. It's going to be API priced at the same rate as Claude Fable 5 and 5.1: $10/million input and $50/million output. This is clearly OpenAI's Fable competitor, and appears to score higher than Fable on most of OpenAI's self-reported benchmarks. Most impressively, Astra scores 99.9% on the recent (released in March) ARC-AGI 3 benchmark - though notably Fable 5 does not yet have a published result, and the ARC-AGI blog notes that the 99.9% score was achieved for $19K using OpenAI's custom \"Provider Adapter harness\", while the default ARC-AGI harness scored 62.7% for $26K. The Provider Adapter harness preserves opaque reasoning state between requests and uses compaction for longer conversations, allowing the model to reuse prior work. Unsurprisingly, given the recent Hugging Face incident , Astra is a beast at security tasks. It scores 100% on ExploitBench (GPT-5.6 Sol got 78.5%), 42.4% on ExploitGym (Sol got 30.3%), and 99.2% within four attempts on SRE-Bench binary reverse engineering compared to Sol's 68.7%. It's also better at long context: on OpenAI's eight-needle benchmark it got 100% at 256K–512K tokens and 96.3% at 512K–1M tokens. OpenAI may have vanquished one of the ongoing challenges with long context processing. It doesn't win at everything though. Artificial Analysis note that Astra is still beaten by Fable on their Intelligence Index: Sits beside GPT-5.6 Sol in Intelligence : GPT-6 Astra scores equal to GPT-5.6 Sol in the Index at 61. This is 5 points lower than Claude Fable 5.1 (max with fallback). The model also trails Meta’s newly released Muse Spark 1.3 (max). It did better on their Coding Agent Index: Leads Coding Agent Index cost efficiency frontier : At max effort, GPT-6 Astra costs about the same as GPT-5.6 Sol (max) while scoring 2 points higher on the Index. Per task, the model is less than half the cost of Claude Fable 5, for the same score. I'll write more about Astra once I get access to it. The API model label once it rolls out will be gpt-6-astra . OpenAI's blog keeps throwing 500 errors, but [here's a mirror](https://astratest.codergautam.workers.dev/GPT-6%20Astra_%20A%20new%20generation%20of%20intelligence%20_%20OpenAI) of the post I found [via Hacker News](https://news.ycombinator.com/item?id=49554273#49555070). --> Via Hacker News Tags: ai , openai , generative-ai , llms , llm-release , gpt-6-astra"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "GPT‑6 Astra",
+      "originalLang": "en",
+      "date": "2026-09-03",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "GPT‑6 Astra"
+      },
+      "raw": {
+        "title": "GPT‑6 Astra",
+        "url": "https://simonwillison.net/2026/Sep/3/gpt6-astra/",
+        "fetched": false,
+        "savedAt": "2026-09-05T02:30:19.654Z"
+      }
+    },
+    {
+      "id": "sig-043c2a3bfc",
+      "title": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
+      "oneLiner": "an epic comeback story for Meta",
+      "summary": {
+        "oneSentence": "an epic comeback story for Meta",
+        "bullets": [
+          "an epic comeback story for Meta"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.latent.space/p/ainews-muse-spark-13-matches-gpt"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "an epic comeback story for Meta"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
+      "originalLang": "en",
+      "date": "2026-09-03",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training"
+      },
+      "raw": {
+        "title": "[AINews] Muse Spark 1.3 matches GPT-5.6-Sol, confirming Meta Superintelligence as the newest Frontier Lab, >90% discount for training",
+        "url": "https://www.latent.space/p/ainews-muse-spark-13-matches-gpt",
+        "fetched": false,
+        "savedAt": "2026-09-05T02:30:20.455Z"
       }
     },
     {
@@ -1549,7 +2187,7 @@
         "url": "https://cursor.com/changelog/self-hosted-machines",
         "fetched": true,
         "savedAt": "2026-09-03T02:33:34.106Z",
-        "retranslatedAt": "2026-09-04T02:30:15.104Z"
+        "retranslatedAt": "2026-09-05T02:30:22.422Z"
       }
     },
     {
@@ -1795,6 +2433,74 @@
         "url": "https://vercel.com/changelog/gemini-3-8-flash-now-available-on-ai-gateway",
         "fetched": true,
         "savedAt": "2026-09-03T02:33:51.514Z"
+      }
+    },
+    {
+      "id": "sig-8f3ab62801",
+      "title": "llm-gemini 0.34",
+      "oneLiner": "Release: llm-gemini 0.34 New model gemini-3.8-flash for Gemini 3.8 Flash , with low, medium and high",
+      "summary": {
+        "oneSentence": "Release: llm-gemini 0.34 New model gemini-3.8-flash for Gemini 3.8 Flash , with low, medium and high thinking levels. #1",
+        "bullets": [
+          "Release: llm-gemini 0.34 New model gemini-3.8-flash for Gemini 3.8 Flash , with low, medium and high thinking levels. #146 Fixed async responses failing to record the resolved model version. Thanks, C"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/2/llm-gemini/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Release: llm-gemini 0.34 New model gemini-3.8-flash for Gemini 3.8 Flash , with low, medium and high thinking levels. #146 Fixed async responses failing to record the resolved model version. Thanks, Charlie Tonneslan . #137 Google released Gemini 3.8 Flash (and 3.8 Flash Cyber, but that's available to \"trusted defenders\" only) today. Here are the pelicans for high, medium, and low. This is high: For comparison, here are the same pelicans generated using Gemini 3.7 Flash . Something I appreciate about Gemini Flash is that it's fast, cheap, and competent at things like HTML and JavaScript. I was messing around with it and prompted \"make me a cool thing in html\" and it built this , which is certainly a cool thing in HTML! Took 13 seconds, cost 1.8 cents. Your browser does not support HTML5 video. If you click through to the demo you'll see one more thing I built with Gemini 3.8 Flash. My markdown-svg-renderer tool lets me feed in the URL to a Gist with Markdown in and renders that markdown with fenced code blocks for SVG correctly rendered. I used Gemini 3.8 Flash (with my very basic llm-coding-agent coding agent plugin) to add support for HTML as well, so now any HTML blocks in the Markdown are rendered using a sandboxed iframe. Here's the transcript . Tags: ai , generative-ai , llms , llm , gemini , pelican-riding-a-bicycle , llm-release"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "llm-gemini 0.34",
+      "originalLang": "en",
+      "date": "2026-09-02",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "llm-gemini 0.34"
+      },
+      "raw": {
+        "title": "llm-gemini 0.34",
+        "url": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
+        "fetched": false,
+        "savedAt": "2026-09-05T02:30:21.257Z"
       }
     },
     {
@@ -4534,7 +5240,7 @@
         "url": "https://cursor.com/changelog/start-from-scratch",
         "fetched": true,
         "savedAt": "2026-08-28T08:33:37.517Z",
-        "retranslatedAt": "2026-09-04T02:30:16.262Z"
+        "retranslatedAt": "2026-09-05T02:30:23.517Z"
       }
     },
     {
@@ -7310,19 +8016,19 @@
     },
     {
       "id": "sig-da55f7d7bd",
-      "title": "Disrupting a new covert influence campaign from Russia",
-      "oneLiner": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sover",
+      "title": "破坏来自俄罗斯的新的秘密影响活动",
+      "oneLiner": "OpenAI 禁止源自俄罗斯的账户使用人工智能来推广一个虚假的以色列智库和一个赞扬俄罗斯、批评西方的“主权”指数。",
       "summary": {
-        "oneSentence": "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praisi",
+        "oneSentence": "OpenAI 禁止源自俄罗斯的账户使用人工智能来推广一个虚假的以色列智库和一个赞扬俄罗斯、批评西方的“主权”指数。",
         "bullets": [
-          "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West."
+          "OpenAI 禁止源自俄罗斯的账户使用人工智能来推广一个虚假的以色列智库和一个赞扬俄罗斯、批评西方的“主权”指数。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "OpenAI 官网发布：OpenAI 禁止源自俄罗斯的账户使用人工智能来推广一个虚假的以色列智库和一个赞扬俄罗斯、批评西方的“主权”指数。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -7330,27 +8036,29 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
-        "relevance": "",
+        "relevance": "关联产品：chatgpt",
         "actionItems": [
-          "阅读原文：https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia"
+          "阅读原文（英文）：https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [
         "chatgpt"
       ],
       "content": [
-        "OpenAI banned Russia-origin accounts using AI to promote a fake Israel-based think tank and a “sovereignty” index praising Russia and criticizing the West."
+        "OpenAI 禁止源自俄罗斯的账户使用人工智能来推广一个虚假的以色列智库和一个赞扬俄罗斯、批评西方的“主权”指数。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "OpenAI 禁止源自俄罗斯的账户使用人工智能来推广一个虚假的以色列智库和一个赞扬俄罗斯、批评西方的“主权”指数。"
+      ],
+      "translated": true,
       "originalTitle": "Disrupting a new covert influence campaign from Russia",
       "originalLang": "en",
       "date": "2026-08-25",
@@ -7368,32 +8076,34 @@
         "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
         "home": "https://openai.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Disrupting a new covert influence campaign from Russia"
       },
       "raw": {
         "title": "Disrupting a new covert influence campaign from Russia",
         "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
         "fetched": false,
-        "savedAt": "2026-08-26T00:57:12.810Z"
-      }
+        "savedAt": "2026-08-26T00:57:12.810Z",
+        "retranslatedAt": "2026-09-05T02:30:24.888Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-cfc376addf",
-      "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
-      "oneLiner": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permi",
+      "title": "引入 ChatGPT Work 和 Codex 的管理插件",
+      "oneLiner": "使用 ChatGPT Work 和 Codex 的管理插件来分析工作区使用情况、管理成员和权限、调整限制并根据管理请求采取行动。",
       "summary": {
-        "oneSentence": "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limit",
+        "oneSentence": "使用 ChatGPT Work 和 Codex 的管理插件来分析工作区使用情况、管理成员和权限、调整限制并根据管理请求采取行动。",
         "bullets": [
-          "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests."
+          "使用 ChatGPT Work 和 Codex 的管理插件来分析工作区使用情况、管理成员和权限、调整限制并根据管理请求采取行动。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "OpenAI 官网发布：使用 ChatGPT Work 和 Codex 的管理插件来分析工作区使用情况、管理成员和权限、调整限制并根据管理请求采取行动。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -7401,27 +8111,29 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
-        "relevance": "",
+        "relevance": "关联产品：chatgpt",
         "actionItems": [
-          "阅读原文：https://openai.com/index/introducing-admin-plugin"
+          "阅读原文（英文）：https://openai.com/index/introducing-admin-plugin"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [
         "chatgpt"
       ],
       "content": [
-        "Use the Admin plugin for ChatGPT Work and Codex to analyze workspace usage, manage members and permissions, adjust limits, and act on admin requests."
+        "使用 ChatGPT Work 和 Codex 的管理插件来分析工作区使用情况、管理成员和权限、调整限制并根据管理请求采取行动。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "使用 ChatGPT Work 和 Codex 的管理插件来分析工作区使用情况、管理成员和权限、调整限制并根据管理请求采取行动。"
+      ],
+      "translated": true,
       "originalTitle": "Introducing the Admin plugin for ChatGPT Work and Codex",
       "originalLang": "en",
       "date": "2026-08-25",
@@ -7439,32 +8151,37 @@
         "url": "https://openai.com/index/introducing-admin-plugin",
         "home": "https://openai.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Introducing the Admin plugin for ChatGPT Work and Codex"
       },
       "raw": {
         "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
         "url": "https://openai.com/index/introducing-admin-plugin",
         "fetched": false,
-        "savedAt": "2026-08-26T00:57:14.500Z"
-      }
+        "savedAt": "2026-08-26T00:57:14.500Z",
+        "retranslatedAt": "2026-09-05T02:30:26.225Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-b1a172da43",
-      "title": "MiniMax M3 and M2.7 are free on AI Gateway",
-      "oneLiner": "MiniMax M3 and M2.7 are free on AI Gateway via GMI Cloud through Sunday, September 6. Use the -free ",
+      "title": "MiniMax M3 和 M2.7 在 AI Gateway - Vercel 上免费",
+      "oneLiner": "MiniMax M3 和 M2.7 在 9 月 6 日星期日之前可通过 GMI Cloud 在 AI Gateway 上免费。",
       "summary": {
-        "oneSentence": "MiniMax M3 and M2.7 are free on AI Gateway via GMI Cloud through Sunday, September 6. Use the -free model IDs ( minimax/",
+        "oneSentence": "MiniMax M3 和 M2.7 在 9 月 6 日星期日之前可通过 GMI Cloud 在 AI Gateway 上免费。",
         "bullets": [
-          "MiniMax M3 and M2.7 are free on AI Gateway via GMI Cloud through Sunday, September 6. Use the -free model IDs ( minimax/minimax-m3-free or minimax/minimax-m2.7-free ), which route to GMI Cloud. When t"
+          "MiniMax M3 和 M2.7 在 9 月 6 日星期日之前可通过 GMI Cloud 在 AI Gateway 上免费。",
+          "使用 minimax/minimax-m3-free 或 minimax/minimax-m2.7-free 将请求路由到 GMI Cloud。免费期结束后，这些模型 ID 将返回错误。",
+          "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText({ 4 model: 'minimax/minimax-m3-free' , 5prompt : '总结事件报告。' , 6 }) ; 7 通过免费的 GMI 云路由传输 MiniMax M3 的响应。",
+          "要在免费期后保持请求正常运行，请使用不带 -free 后缀的标准模型 ID，并将 GMI Cloud 放在提供商订单中的第一位："
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：MiniMax M3 和 M2.7 在 9 月 6 日星期日之前可通过 GMI Cloud 在 AI Gateway 上免费。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -7472,31 +8189,36 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://vercel.com/changelog/minimax-m3-and-m2-7-are-free-on-ai-gateway"
+          "阅读原文（英文）：https://vercel.com/changelog/minimax-m3-and-m2-7-are-free-on-ai-gateway"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "MiniMax M3 and M2.7 are free on AI Gateway via GMI Cloud through Sunday, September 6.",
-        "Use the -free model IDs ( minimax/minimax-m3-free or minimax/minimax-m2.7-free ), which route to GMI Cloud. When the free period ends, the IDs will error:",
-        "1 import { streamText } from 'ai' ; 2 3 const result = streamText ( { 4 model : 'minimax/minimax-m3-free' , 5 prompt : 'Summarize the incident report.' , 6 } ) ; 7",
-        "Or keep the model ID ( minimax/minimax-m3 ) and put GMI Cloud as the preferred provider with order:",
-        "1 const result = streamText ( { 2 model : 'minimax/minimax-m3' , 3 prompt : 'Summarize the incident report.' , 4 providerOptions : { 5 gateway : { 6 order : [ 'gmicloud' ] , 7 } , 8 } , 9 } ) ;",
-        "This will fall back to another provider when it cannot serve. Both options work across every AI Gateway API.",
-        "To use the MiniMax models in a coding agent , see the coding agents guide, then run vercel ai-gateway coding-agents setup to connect agents like Claude Code, Codex, OpenCode, Cursor, Pi, and more, and select minimax/minimax-m3-free inside the agent."
+        "MiniMax M3 和 M2.7 在 9 月 6 日星期日之前可通过 GMI Cloud 在 AI Gateway 上免费。",
+        "使用 minimax/minimax-m3-free 或 minimax/minimax-m2.7-free 将请求路由到 GMI Cloud。免费期结束后，这些模型 ID 将返回错误。",
+        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText({ 4 model: 'minimax/minimax-m3-free' , 5prompt : '总结事件报告。' , 6 }) ; 7 通过免费的 GMI 云路由传输 MiniMax M3 的响应。",
+        "要在免费期后保持请求正常运行，请使用不带 -free 后缀的标准模型 ID，并将 GMI Cloud 放在提供商订单中的第一位：",
+        "1 const result = streamText ( { 2 model : 'minimax/minimax-m3' , 3prompt : '总结事件报告。' , 4providerOptions : { 5gateway : { 6order : [ 'gmicloud'] , 7 } , 8 } , 9 } ) ;更喜欢 MiniMax M3 的 GMI Cloud，同时允许提供商回退。",
+        "AI Gateway 首先尝试 GMI Cloud，如果 GMI Cloud 无法满足请求，则可以回退到其他提供商。这使得相同的代码在免费期后继续工作。在免费的 GMI Cloud 路线之外，请求将按服务提供商的费率计费。这两个路由选项适用于所有 AI Gateway API。",
+        "要将免费 MiniMax 模型与编码代理结合使用，请运行 vercel ai-gatewaycoding-agents setup ，然后在代理中选择一个免费模型 ID。",
+        "在网关游乐场尝试 MiniMax M3 和 M2.7。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "MiniMax M3 和 M2.7 在 9 月 6 日星期日之前可通过 GMI Cloud 在 AI Gateway 上免费。",
+        "使用 minimax/minimax-m3-free 或 minimax/minimax-m2.7-free 将请求路由到 GMI Cloud。免费期结束后，这",
+        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText({ 4 model: 'minimax/min"
+      ],
+      "translated": true,
       "originalTitle": "MiniMax M3 and M2.7 are free on AI Gateway - Vercel",
       "originalLang": "en",
       "date": "2026-08-25",
@@ -7512,32 +8234,37 @@
         "url": "https://vercel.com/changelog/minimax-m3-and-m2-7-are-free-on-ai-gateway",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "MiniMax M3 and M2.7 are free on AI Gateway - Vercel"
       },
       "raw": {
         "title": "MiniMax M3 and M2.7 are free on AI Gateway",
         "url": "https://vercel.com/changelog/minimax-m3-and-m2-7-are-free-on-ai-gateway",
         "fetched": true,
-        "savedAt": "2026-08-26T00:57:16.206Z"
-      }
+        "savedAt": "2026-08-26T00:57:16.206Z",
+        "retranslatedAt": "2026-09-05T02:30:36.585Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-5c389899eb",
-      "title": "Wan 3.0 now available on AI Gateway",
-      "oneLiner": "Wan 3.0 from Alibaba is now available on AI Gateway as alibaba/wan-v3.0-video . Wan 3.0 combines tex",
+      "title": "AI Gateway 现已推出 Wan 3.0 - Vercel",
+      "oneLiner": "阿里巴巴的 Wan 3.0 现已在 AI Gateway 上提供，名称为 alibaba/wan-v3.0-video 。",
       "summary": {
-        "oneSentence": "Wan 3.0 from Alibaba is now available on AI Gateway as alibaba/wan-v3.0-video . Wan 3.0 combines text-to-video, image-to",
+        "oneSentence": "阿里巴巴的 Wan 3.0 现已在 AI Gateway 上提供，名称为 alibaba/wan-v3.0-video 。",
         "bullets": [
-          "Wan 3.0 from Alibaba is now available on AI Gateway as alibaba/wan-v3.0-video . Wan 3.0 combines text-to-video, image-to-video, first- and last-frame conditioning, and reference-based generation in on"
+          "阿里巴巴的 Wan 3.0 现已在 AI Gateway 上提供，名称为 alibaba/wan-v3.0-video 。",
+          "Wan 3.0 在一个模型中结合了文本到视频、图像到视频、第一帧和最后一帧调节以及基于参考的生成。参考可以包括图像、视频和音频。它以 30 fps 的速度生成长达 30 秒的 480p、720p 或 1080p 剪辑，并带有同步音频。",
+          "此前，Wan 2.7 需要单独的 -t2v 和 -r2v 模型 ID，并且仅限于 24 fps 的 15 秒剪辑。",
+          "将链接复制到标题生成视频 Wan 3.0 支持异步生成，因此无需在整个渲染过程中保持 HTTP 请求打开。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：阿里巴巴的 Wan 3.0 现已在 AI Gateway 上提供，名称为 alibaba/wan-v3.0-video 。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -7545,34 +8272,38 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://vercel.com/changelog/wan-3-0-now-available-on-ai-gateway"
+          "阅读原文（英文）：https://vercel.com/changelog/wan-3-0-now-available-on-ai-gateway"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "Wan 3.0 from Alibaba is now available on AI Gateway as alibaba/wan-v3.0-video .",
-        "Wan 3.0 combines text-to-video, image-to-video, first- and last-frame conditioning, and reference-based generation in one model. References can include images, video, and audio. It generates clips up to 30 seconds at 30 fps in 480p, 720p, or 1080p, with synchronized audio.",
-        "Previously, Wan 2.7 required separate -t2v and -r2v model IDs and was limited to 15-second clips at 24 fps.",
-        "Copy link to heading Generate a video Wan 3.0 supports asynchronous generation , so no HTTP request needs to remain open for the entire render.",
-        "Pass a webhook to receive an event when the generation finishes:",
-        "1 import { experimental_generateVideo as generateVideo } from 'ai' ; 2 3 const { videos } = await generateVideo ( { 4 model : 'alibaba/wan-v3.0-video' , 5 prompt : 'A paper lantern drifting over a harbor at night' , 6 webhook : async ( ) => ( { 7 url : callbackUrl , 8 received : waitForDelivery ( token ) 9 } ) , 10 } ) ; Generate a Wan 3.0 video and receive its completion event through a webhook.",
-        "Learn about asynchronous generation options in the docs, including how to verify webhook deliveries .",
-        "Copy link to heading Add references Pass image, video, or audio references through inputReferences , including the source and media type for each one. Images accept hosted URLs or base64. Video and audio references require hosted URLs.",
-        "First- and last-frame conditioning accepts one image for each frame and can't be combined with other references.",
-        "Try Wan 3.0 in the model playground , or browse all video models ."
+        "阿里巴巴的 Wan 3.0 现已在 AI Gateway 上提供，名称为 alibaba/wan-v3.0-video 。",
+        "Wan 3.0 在一个模型中结合了文本到视频、图像到视频、第一帧和最后一帧调节以及基于参考的生成。参考可以包括图像、视频和音频。它以 30 fps 的速度生成长达 30 秒的 480p、720p 或 1080p 剪辑，并带有同步音频。",
+        "此前，Wan 2.7 需要单独的 -t2v 和 -r2v 模型 ID，并且仅限于 24 fps 的 15 秒剪辑。",
+        "将链接复制到标题生成视频 Wan 3.0 支持异步生成，因此无需在整个渲染过程中保持 HTTP 请求打开。",
+        "传递一个 webhook 以在生成完成时接收事件：",
+        "1 从'ai'导入{experimental_generateVideo asgenerateVideo}； 2 3 const {videos}=awaitgenerateVideo({4model:'alibaba/wan-v3.0-video',5prompt:'夜晚港口上空漂流的纸灯笼',6webhook:async()=>({7url:callbackUrl,8received:waitForDelivery(token)9}),10});生成 Wan 3.0 视频并通过 Webhook 接收其完成事件。",
+        "了解文档中的异步生成选项，包括如何验证 webhook 交付。",
+        "将链接复制到标题 添加引用 通过 inputReferences 传递图像、视频或音频引用，包括每个引用的源和媒体类型。图像接受托管 URL 或 base64。视频和音频参考需要托管 URL。",
+        "第一帧和最后一帧调节接受每帧一个图像，并且不能与其他参考组合。",
+        "在模型游乐场中尝试 Wan 3.0，或浏览所有视频模型。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "阿里巴巴的 Wan 3.0 现已在 AI Gateway 上提供，名称为 alibaba/wan-v3.0-video 。",
+        "Wan 3.0 在一个模型中结合了文本到视频、图像到视频、第一帧和最后一帧调节以及基于参考的生成。参考可以包括图像、视频和音频。它以 30 fps 的速度生成长",
+        "此前，Wan 2.7 需要单独的 -t2v 和 -r2v 模型 ID，并且仅限于 24 fps 的 15 秒剪辑。"
+      ],
+      "translated": true,
       "originalTitle": "Wan 3.0 now available on AI Gateway - Vercel",
       "originalLang": "en",
       "date": "2026-08-25",
@@ -7588,16 +8319,18 @@
         "url": "https://vercel.com/changelog/wan-3-0-now-available-on-ai-gateway",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Wan 3.0 now available on AI Gateway - Vercel"
       },
       "raw": {
         "title": "Wan 3.0 now available on AI Gateway",
         "url": "https://vercel.com/changelog/wan-3-0-now-available-on-ai-gateway",
         "fetched": true,
-        "savedAt": "2026-08-29T05:12:58.301Z"
-      }
+        "savedAt": "2026-08-29T05:12:58.301Z",
+        "retranslatedAt": "2026-09-05T02:30:48.650Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-01926f99d6",
@@ -30540,643 +31273,6 @@
       },
       "affectedProductIds": [
         "chatgpt"
-      ]
-    },
-    {
-      "id": "cur-gemini-multimodal",
-      "title": "Google Gemini 2.x：原生多模态与 Workspace 深度整合",
-      "oneLiner": "Gemini 继续押注「Workspace 里的默认 AI 同事」。",
-      "date": "2026-07-22",
-      "tags": [
-        "Agent",
-        "Workflow",
-        "Product"
-      ],
-      "categoryIds": [
-        "llm",
-        "agent-office"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "importance": {
-        "stars": 4,
-        "reason": "办公 Agent 生态的重要变量",
-        "readMinutes": 4
-      },
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google AI",
-        "author": "Google",
-        "url": "https://blog.google/technology/ai/",
-        "home": "https://blog.google/technology/ai/",
-        "lang": "en",
-        "translated": true
-      },
-      "summary": {
-        "oneSentence": "Gemini 在 Docs/Sheets/Meet 中提供上下文感知的 AI 辅助与自动化。",
-        "bullets": [
-          "Workspace 侧边栏统一入口",
-          "跨应用上下文（邮件→文档→表格）",
-          "长上下文视频理解"
-        ],
-        "audience": "办公白领、Google 生态用户",
-        "readMinutes": 4,
-        "keywords": [
-          "Gemini",
-          "Workspace",
-          "Multimodal"
-        ]
-      },
-      "insight": {
-        "mainInsight": "Google 的策略是把 Agent 嵌入已有工作流，而非单独做一个 Super App。",
-        "whyNow": "企业客户已有 Google 账号体系，迁移成本是最大壁垒。",
-        "problem": "工具碎片化，AI 需要在用户所在处出现。",
-        "trend": "Workspace Agent",
-        "differentiation": "与 Microsoft Copilot 正面对标。",
-        "outlook": "「AI 在侧边栏」将成为 Office 类产品的标准范式。"
-      },
-      "learning": {
-        "whyImportant": "理解「嵌入型 Agent」与「独立 Agent App」两种产品策略。",
-        "productDesign": "学习侧边栏如何保持轻量、不打断主任务，仅在需要时展开深度能力。",
-        "relevance": "Agent、Workflow、AI Native 办公场景。",
-        "actionItems": [
-          "试用 Gemini in Google Docs",
-          "对比 Copilot in Word 的交互差异",
-          "思考 DuMate / WorkBuddy 的国内对标"
-        ]
-      },
-      "content": [
-        "Gemini 的 Workspace 整合说明：Agent 产品不一定需要独立 App，嵌入高频场景可能更快获得留存。",
-        "评估办公 Agent 时，重点看：权限边界、跨文档上下文、与企业数据的连接深度。"
-      ],
-      "highlights": [
-        "Workspace 嵌入",
-        "跨应用上下文",
-        "办公 Agent 范式"
-      ]
-    },
-    {
-      "id": "sig-1c709fbdce",
-      "title": "Quoting Thomas Ptacek",
-      "summary": {
-        "oneSentence": "&lt;blockquote cite=\"https://twitter.com/tqbf/status/2080045032162173329\"&gt;&lt;p&gt;I genuinely believe that if you took an open weights model from 2025 and b",
-        "bullets": [],
-        "audience": "",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "date": "2026-07-22",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "content": [
-        "&lt;blockquote cite=\"https://twitter.com/tqbf/status/2080045032162173329\"&gt;&lt;p&gt;I genuinely believe that if you took an open weights model from 2025 and built a pentest harness for it, it could do this kind of sandbox escape and scan/hack in most networks. This is only surprising because you assume OpenAI has sounder sandboxes.&lt;/p&gt;&lt;/blockquote&gt; &lt;p class=\"cite\"&gt;&amp;mdash; &lt;a href=\"https://twitter.com/tqbf/status/2080045032162173329\"&gt;Thomas Ptacek&lt;/a&gt;, doesn't think &lt;a href=\"https://simonwillison.net/2026/Jul/22/openai-cyberattack/#resist-the-temptation-to-write-this-off-as-a-stunt\"&gt;this even needs&lt;/a&gt; a frontier model&lt;/p&gt; &lt;p&gt;Tags: &lt;a href=\"https://simonwillison.net/tags/thomas-ptacek\"&gt;thomas-ptacek&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/openai\"&gt;openai&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/security\"&gt;security&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/generative-ai\"&gt;generative-ai&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/ai-security-research\"&gt;ai-security-research&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/ai\"&gt;ai&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/llms\"&gt;llms&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/sandboxing\"&gt;sandboxing&lt;/a&gt;&lt;/p&gt;"
-      ],
-      "highlights": [],
-      "source": {
-        "type": "blog",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Jul/22/thomas-ptacek/#atom-everything",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false
-      },
-      "oneLiner": "&lt;blockquote cite=\"https://twitter.com/tqbf/status/2080045032162173329\"&gt;&lt;p&gt;I genuinely believe that if you took an open weights model from 2025 and b",
-      "insight": {
-        "mainInsight": ""
-      },
-      "learning": {},
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "",
-        "readMinutes": 3
-      },
-      "affectedProductIds": []
-    },
-    {
-      "id": "sig-4fecb70b0c",
-      "title": "OpenAI’s accidental cyberattack against Hugging Face is science fiction that happened",
-      "summary": {
-        "oneSentence": "&lt;p&gt;This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model's guardrail features turned",
-        "bullets": [],
-        "audience": "",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "date": "2026-07-22",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "content": [
-        "&lt;p&gt;This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model's guardrail features turned off. Rather than solve the test, the model broke its way out of OpenAI's sandbox, then found exploits to break &lt;em&gt;in&lt;/em&gt; to Hugging Face, all so it could cheat on the test by stealing the answers.&lt;/p&gt; &lt;p&gt;Along the way it helped make the strongest case yet for how the imbalance of model availability is hurting our ability to secure our software.&lt;/p&gt; &lt;h4 id=\"here-s-what-happened\"&gt;Here's what happened&lt;/h4&gt; &lt;p&gt;We currently have three documents to help us understand what happened here.&lt;/p&gt; &lt;ol&gt; &lt;li&gt; &lt;a href=\"https://arxiv.org/abs/2605.11086\"&gt;ExploitGym: Can AI Agents Turn Security Vulnerabilities into Real Attacks?&lt;/a&gt; is a paper published on 11th May 2026 describing ExploitGym, a new eval suite for LLM-powered agent systems.&lt;/li&gt; &lt;li&gt; &lt;a href=\"https://huggingface.co/blog/security-incident-july-2026\"&gt;Security incident disclosure — July 2026&lt;/a&gt; by Hugging Face on 16th July 2026 describes how they detected an attack from an \"agentic security-research harness - used LLM still not known\" that breached some of their systems.&lt;/li&gt; &lt;li&gt; &lt;a href=\"https://openai.com/index/hugging-face-model-evaluation-security-incident/\"&gt;OpenAI and Hugging Face partner to address security incident during model evaluation&lt;/a&gt; from OpenAI on 21st July 2026 confesses that it was &lt;em&gt;their&lt;/em&gt; agent harness that did this, and that they're working with Hugging Face to clean up the mess.&lt;/li&gt; &lt;/ol&gt; &lt;h4 id=\"exploitgym\"&gt;ExploitGym&lt;/h4&gt; &lt;p&gt;I hadn't seen the &lt;a href=\"https://arxiv.org/abs/2605.11086\"&gt;ExploitGym paper&lt;/a&gt; before and it's a really interesting one. Authors from UC Berkeley, the Max Planck Institute, UC Santa Barbara, and Arizona State designed a new benchmark for evaluating models on their ability to turn a reported vulnerability into a concrete exploit. OpenAI, Anthropic, and Google provided feedback and helped run the benchmark against their models.&lt;/p&gt; &lt;p&gt;The benchmark \"comprises 898 instances derived from real-world vulnerabilities that affected popular software projects\" - including the Linux kernel and V8 JavaScript engine. The ExploitGym benchmark is &lt;a href=\"https://github.com/sunblaze-ucb/exploitgym\"&gt;available on GitHub&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;Here's the paragraph that best represents their benchmark results:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Among all configurations, Claude Mythos Preview and GPT-5.5 achieve the highest success counts (157 and 120 successes, respectively), demonstrating that current frontier agents can exploit a substantial subset of real-world vulnerabilities under controlled conditions. GPT-5.4 also solves a notable 54 tasks, placing it in an intermediate tier. The remaining model–agent pairings solve fewer than 15 tasks each, underscoring that end-to-end exploitation remains challenging and sharply differentiates today’s frontier systems. Notably, Claude Opus 4.7 achieves fewer successes than Claude Opus 4.6 despite being a newer checkpoint, and does so at substantially lower cost on the full set. Trace inspection reveals that Claude Opus 4.7 and Gemini 3.1 Pro frequently conclude early after judging the target vulnerability non-exploitable.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;The paper also describes the approach they took to preventing the agents from cheating by going outside the parameters of the test. This becomes relevant in a moment!&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Outbound connections are restricted to a curated allowlist that permits routine package installation (Ubuntu apt repositories and PyPI) and fetching the toolchains required for building V8. All other external endpoints are blocked.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;The paper concludes with this (emphasis mine):&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Our results show that &lt;strong&gt;autonomous exploit development by frontier AI agents is no longer a hypothetical capability&lt;/strong&gt;. While current agents are not yet reliable across all targets, they already &lt;strong&gt;exploit a non-trivial fraction of real-world vulnerabilities&lt;/strong&gt;, including complex targets such as kernel components. This rapid emergence is itself a central finding, showing that capabilities that would have seemed implausible are now present in deployed frontier models.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;An important detail here: this paper isn't about discovering vulnerabilities; it's about being able to take those vulnerabilities and turn them into working exploits.&lt;/p&gt; &lt;p&gt;When Anthropic first restricted access to Mythos &lt;a href=\"https://simonwillison.net/2026/Apr/7/project-glasswing/\"&gt;back in April&lt;/a&gt; they talked about this capability as well. A model that can act on vulnerabilities is a lot more dangerous than one that can just discover them.&lt;/p&gt; &lt;p&gt;One of the ways Fable differs from Mythos is that it's more likely to refuse to weaponize vulnerabilities in this way. I get the impression the US government did not understand that distinction when they banned Fable &lt;a href=\"https://simonwillison.net/2026/Jun/16/fable-5-export-controls/\"&gt;last month&lt;/a&gt;.&lt;/p&gt; &lt;h4 id=\"the-hugging-face-incident\"&gt;The Hugging Face incident&lt;/h4&gt; &lt;p&gt;The first hint we got of the attack was in &lt;a href=\"https://huggingface.co/blog/security-incident-july-2026\"&gt;this blog post by Hugging Face&lt;/a&gt; on 16th July 2026:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;A malicious dataset abused two code-execution paths in our dataset processing (a remote-code dataset loader and a template-injection in a dataset configuration) to run code on a processing worker. From there, the actor escalated to node-level access, harvested cloud and cluster credentials, and moved laterally into several internal clusters over a weekend.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;I hope they release more details about the code that pulled this off. I'm assuming this means packages using the &lt;a href=\"https://github.com/huggingface/datasets\"&gt;datasets library&lt;/a&gt;, a Hugging Face project for bundling up and sharing datasets on their platform. That library used to execute arbitrary code but has been steadily locked down over time, with the &lt;a href=\"https://github.com/huggingface/datasets/releases/tag/4.0.0\"&gt;4.0.0 release&lt;/a&gt; in July 2025 removing the &lt;code&gt;trust_remote_code=True&lt;/code&gt; flag entirely.&lt;/p&gt; &lt;p&gt;Assuming the attack used that library it must have either abused pickle serialization in some way, found some other non-obvious code execution path, or (most likely) specified &lt;code&gt;datasets&amp;lt;4.0.0&lt;/code&gt; as the dependency.&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;The campaign was run by an autonomous agent framework (appearing to be built on an agentic security-research harness - used LLM still not known) executing many thousands of individual actions across a swarm of short-lived sandboxes, with self-migrating command-and-control staged on public services.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;This was a sophisticated attack!&lt;/p&gt; &lt;p&gt;Then Hugging Face hit a wall: they tried to use \"frontier models behind commercial APIs\" - I'm guessing from Anthropic and OpenAI - to help analyze the attack, and were blocked:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;When we started the log analysis, we first used frontier models behind commercial APIs. This did not work: the analysis requires submitting large volumes of real attack commands, exploit payloads, and C2 artifacts, and these requests were blocked by the providers' safety guardrails, which cannot distinguish an incident responder from an attacker.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;They switched to their own self-hosted instance of MIT licensed GLM-5.2 and it helped them figure out what was going on.&lt;/p&gt; &lt;p&gt;This indicated a fundamental asymmetry between the defending team and the (so-far unknown) attacker:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;We do not know which model powered the attacker's agents, whether a jailbroken hosted model or an unrestricted open-weight one; either way, the attacker was bound by no usage policy, while our own forensic work was blocked by the guardrails of the hosted models we first tried.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;As a useful indicator of how seriously they took the attack:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;[...] Finally, we have also reported this incident to law enforcement agencies.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;So who was responsible for this \"autonomous agent framework\"? It turned out to be OpenAI themselves.&lt;/p&gt; &lt;h4 id=\"the-openai-confession\"&gt;The OpenAI confession&lt;/h4&gt; &lt;p&gt;Five days later, &lt;a href=\"https://openai.com/index/hugging-face-model-evaluation-security-incident/\"&gt;on July 21st&lt;/a&gt;, OpenAI revealed the culprit. They had been running the ExploitGym benchmark against a new, as-yet undisclosed model, and that model had been operating &lt;em&gt;way&lt;/em&gt; outside its intended parameters (emphasis mine):&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;After investigating, we now know &lt;strong&gt;that this particular incident was driven by a combination of OpenAI models&lt;/strong&gt; — including GPT‑5.6 Sol and an even more capable pre-release model, all with reduced cyber refusals for evaluation purposes — while being internally tested on a &lt;a href=\"https://arxiv.org/abs/2605.11086\"&gt;benchmark⁠&lt;/a&gt; [ExploitGym] of cyber capabilities. [...]&lt;/p&gt; &lt;p&gt;We estimate maximal cyber capabilities by &lt;strong&gt;running this evaluation without production classifiers used to prevent models from pursuing high-risk cyber activity&lt;/strong&gt;. Our benchmarks run in a highly isolated environment, with network access constrained to the ability to install packages through an internally hosted third-party software that acts as a proxy and cache for package registries.&lt;/p&gt; &lt;p&gt;The models &lt;strong&gt;identified and chained vulnerabilities across OpenAI’s research environment and Hugging Face’s production infrastructure&lt;/strong&gt; to obtain test solutions directly from Hugging Face’s production database. All evidence suggests that the models were hyperfocused on finding a solution for ExploitGym, going to extreme lengths to achieve a rather narrow testing goal.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;It's pretty clear what happened here. OpenAI removed safety filters for an in-progress model, locked it up in a sandbox and told it to solve the ExploitGym problems. Given the absence of guardrails there was nothing to prevent the model from attempting to break out of that sandbox, break into Hugging Face, and read the answers from there instead.&lt;/p&gt; &lt;p&gt;OpenAI's sandbox used the now common pattern of allowing access to an allow-list of sites related to installing additional packages via a controlled proxy. In OpenAI's words:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;While operating in our sandboxed testing environment, our models &lt;strong&gt;spent a substantial amount of inference compute finding a way to obtain open Internet access&lt;/strong&gt;, in pursuit of solving the evaluation problem. To gain access, the models identified and exploited &lt;strong&gt;a zero-day vulnerability (which we’ve now responsibly disclosed to the vendor) in the package registry cache proxy&lt;/strong&gt;. With this access, our models performed a series of privilege escalation and lateral movement actions in our research testing environment until the models reached a node with Internet access.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;So step one was to break out onto the public internet. The model then broke into Hugging Face to find the answers:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;After gaining Internet access, the models &lt;strong&gt;inferred that Hugging Face potentially hosted models, datasets and solutions&lt;/strong&gt; for ExploitGym. Knowing this, the model searched for and successfully found ways to gain access to secret information that it could use to cheat the evaluation. In one example, &lt;strong&gt;the model chained together multiple attack vectors, including using stolen credentials and zero-day vulnerabilities&lt;/strong&gt; to find a remote code execution path on the Hugging Face servers.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Chaining together multiple attack vectors is &lt;em&gt;exactly&lt;/em&gt; the kind of thing these new models can do, where previous generations of models might have failed.&lt;/p&gt; &lt;p&gt;I wrote last month about how &lt;a href=\"https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/\"&gt;Claude Fable is relentlessly proactive&lt;/a&gt;, when I noticed it spinning up custom web servers and deploying CORS tricks on my own laptop just to help debug a WebKit CSS issue. It turns out relentless proactivity is the defining trait of this new generation of Mythos-class models. If you set them a goal and give them a way to get there, even inadvertently, they &lt;em&gt;will figure it out&lt;/em&gt;.&lt;/p&gt; &lt;h4 id=\"resist-the-temptation-to-write-this-off-as-a-stunt\"&gt;Resist the temptation to write this off as a stunt&lt;/h4&gt; &lt;p&gt;There will inevitably be some people who dismiss this story as a dishonest marketing trick by OpenAI to make their models sound terrifyingly effective. I found 81 instances of the term \"marketing\" in &lt;a href=\"https://news.ycombinator.com/item?id=48997548\"&gt;the Hacker News discussion&lt;/a&gt; of the incident.&lt;/p&gt; &lt;p&gt;To those people I say &lt;em&gt;pull your heads out of the sand&lt;/em&gt; - you're now including Hugging Face in your conspiracy theories, just so you can deny the crescendo of evidence here!&lt;/p&gt; &lt;p&gt;The best models we have today have the ability to both find and exploit new vulnerabilities. The ExploitGym paper itself concludes that \"autonomous exploit development by frontier AI agents is no longer a hypothetical capability\", and this incident is a perfect example of exactly that.&lt;/p&gt; &lt;h4 id=\"the-asymmetry-is-increasingly-frustrating\"&gt;The asymmetry is increasingly frustrating&lt;/h4&gt; &lt;p&gt;One of the most infuriating details of this story is how Hugging Face, faced with an accidental and aggressive attack from one of OpenAI's models, were unable to then turn to OpenAI's models to help them fend off the attack.&lt;/p&gt; &lt;p&gt;The frontier models we have access to are increasingly being constrained in how much they can help us protect our software, heavily influenced by the US government's ongoing threat of export controls. Claude Fable 5 wouldn't even &lt;a href=\"https://simonwillison.net/guides/agentic-engineering-patterns/prompts/#proofreader\"&gt;proofread this article&lt;/a&gt; for me! It insisted on downgrading me to a less capable model.&lt;/p&gt; &lt;p&gt;Meanwhile open weight models from China such as GLM-5.2, Kimi 3 and the new Qwen 3.8 Max appear to have none of these restrictions - and any restrictions that &lt;em&gt;do&lt;/em&gt; exist can likely be fine-tuned out of them by modifying the weights&lt;/p&gt; &lt;p&gt;These constraints are meant to make us safer. I think there's a risk that they are having the opposite effect.&lt;/p&gt; &lt;p&gt;Tags: &lt;a href=\"https://simonwillison.net/tags/sandboxing\"&gt;sandboxing&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/security\"&gt;security&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/ai\"&gt;ai&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/openai\"&gt;openai&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/generative-ai\"&gt;generative-ai&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/llms\"&gt;llms&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/hugging-face\"&gt;hugging-face&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/anthropic\"&gt;anthropic&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/paper-review\"&gt;paper-review&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/ai-security-research\"&gt;ai-security-research&lt;/a&gt;&lt;/p&gt;"
-      ],
-      "highlights": [],
-      "source": {
-        "type": "blog",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Jul/22/openai-cyberattack/#atom-everything",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false
-      },
-      "oneLiner": "&lt;p&gt;This story is wild. The short version: OpenAI were running a cybersecurity test against an unreleased model, with the model's guardrail features turned",
-      "insight": {
-        "mainInsight": ""
-      },
-      "learning": {},
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "",
-        "readMinutes": 3
-      },
-      "affectedProductIds": []
-    },
-    {
-      "id": "sig-3c1466c701",
-      "title": "Are AI labs pelicanmaxxing?",
-      "summary": {
-        "oneSentence": "&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://dylancastillo.co/posts/pelicanmaxxing.html\"&gt;Are AI labs pelicanmaxxing?&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; Excelle",
-        "bullets": [],
-        "audience": "",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "date": "2026-07-22",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "content": [
-        "&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://dylancastillo.co/posts/pelicanmaxxing.html\"&gt;Are AI labs pelicanmaxxing?&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; Excellent piece of work by Dylan Castillo, who took a deep-dive into the frequently pondered question of whether the AI labs have been deliberately training models to draw pelicans riding bicycles in response to my &lt;a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle/\"&gt;deeply unscientific benchmark&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;I've been randomly spot-checking this in the past by testing models against other animals riding other types of vehicle, but never with anything close to the diligence of Dylan's methodology here.&lt;/p&gt; &lt;p&gt;Dylan took 8 animals × 6 vehicles = 48 prompts and ran them three times each through 7 different models ( GPT-5.6 Terra, Claude Sonnet 5, Gemini 3.5 Flash, Grok 4.5, Qwen3.7-Max, GLM-5.2, and DeepSeek V4 Pro). He then used GPT-5.6 Luna and Gemini 3.1 Flash-Lite to help evaluate the results.&lt;/p&gt; &lt;p&gt;There's a neat filter view for exploring the results:&lt;/p&gt; &lt;p&gt;&lt;img alt=\"Screenshot of a grid for sample 1/3 of GLM-5.2, with pelicn and flamingo and heron riding bicycle, unicycle, skateboard, scooter, plane and boat\" src=\"https://static.simonwillison.net/static/2026/pelican-grid.webp\" /&gt;&lt;/p&gt; &lt;p&gt;For the models he tested he could find no evidence of pelimaxxing:&lt;/p&gt; &lt;blockquote&gt; &lt;ul&gt; &lt;li&gt;&lt;a href=\"https://dylancastillo.co/posts/pelicanmaxxing.html#evidence-1-the-pelicans-on-bicycles-dont-look-any-better\"&gt;The pelicans on bicycles don’t look any better&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=\"https://dylancastillo.co/posts/pelicanmaxxing.html#evidence-2-labs-are-not-better-at-drawing-pelicans\"&gt;Labs are not better at drawing pelicans&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=\"https://dylancastillo.co/posts/pelicanmaxxing.html#evidence-3-labs-are-not-better-at-drawing-bicycles\"&gt;Labs are not better at drawing bicycles&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=\"https://dylancastillo.co/posts/pelicanmaxxing.html#evidence-4-labs-are-not-better-at-drawing-pelicans-on-bicycles-even-adjusting-for-difficulty\"&gt;Labs are not better at drawing pelicans on bicycles, even adjusting for difficulty&lt;/a&gt;&lt;/li&gt; &lt;li&gt;&lt;a href=\"https://dylancastillo.co/posts/pelicanmaxxing.html#evidence-5-the-pelican-bicycle-scenes-dont-look-memorized\"&gt;The pelican-bicycle scenes don’t look memorized&lt;/a&gt; [...]&lt;/li&gt; &lt;/ul&gt; &lt;p&gt;Pelicans aren’t drawn any better than other animals. Bicycles aren’t drawn any better than other vehicles. And no lab draws the combination better than its pelicans and bicycles already predict. GLM-5.2 comes closest: it has the largest boost on the exact pelican-bicycle cell, and and its first pelican-on-bicycle sample caught my eye. But the effect is small and not significant, so I wouldn’t put too much weight on it.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=\"https://news.ycombinator.com/item?id=49010129\"&gt;Hacker News&lt;/a&gt;&lt;/small&gt;&lt;/p&gt; &lt;p&gt;Tags: &lt;a href=\"https://simonwillison.net/tags/ai\"&gt;ai&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/generative-ai\"&gt;generative-ai&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/llms\"&gt;llms&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/evals\"&gt;evals&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/pelican-riding-a-bicycle\"&gt;pelican-riding-a-bicycle&lt;/a&gt;&lt;/p&gt;"
-      ],
-      "highlights": [],
-      "source": {
-        "type": "blog",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Jul/22/are-ai-labs-pelicanmaxxing/#atom-everything",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false
-      },
-      "oneLiner": "&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://dylancastillo.co/posts/pelicanmaxxing.html\"&gt;Are AI labs pelicanmaxxing?&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; Excelle",
-      "insight": {
-        "mainInsight": ""
-      },
-      "learning": {},
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "",
-        "readMinutes": 3
-      },
-      "affectedProductIds": []
-    },
-    {
-      "id": "sig-d07362b856",
-      "title": "Orchestrions",
-      "summary": {
-        "oneSentence": "&lt;p&gt;San Francisco tip: it only costs around $15 ($10 in quarters plus a $5 bill for the self-playing violin) to activate every single Orchestrion in &lt;a ",
-        "bullets": [],
-        "audience": "",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "date": "2026-07-22",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "content": [
-        "&lt;p&gt;San Francisco tip: it only costs around $15 ($10 in quarters plus a $5 bill for the self-playing violin) to activate every single Orchestrion in &lt;a href=\"https://en.wikipedia.org/wiki/Musée_Mécanique\"&gt;Musée Mécanique&lt;/a&gt;.&lt;/p&gt; &lt;p&gt;And because most people are bad at allocating their funds you may well be the ONLY person activating the Orchestrions, which means you get to craft the soundscape for the entire museum.&lt;/p&gt; &lt;p&gt;Tags: &lt;a href=\"https://simonwillison.net/tags/san-francisco\"&gt;san-francisco&lt;/a&gt;&lt;/p&gt;"
-      ],
-      "highlights": [],
-      "source": {
-        "type": "blog",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Jul/22/all-the-orchestrions/#atom-everything",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false
-      },
-      "oneLiner": "&lt;p&gt;San Francisco tip: it only costs around $15 ($10 in quarters plus a $5 bill for the self-playing violin) to activate every single Orchestrion in &lt;a ",
-      "insight": {
-        "mainInsight": ""
-      },
-      "learning": {},
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "",
-        "readMinutes": 3
-      },
-      "affectedProductIds": []
-    },
-    {
-      "id": "sig-15eb5b1c41",
-      "title": "Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission",
-      "summary": {
-        "oneSentence": "Google commits $40M in AI tokens and credits for the Genesis Mission",
-        "bullets": [],
-        "audience": "",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "date": "2026-07-22",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [],
-      "content": [
-        "Google commits $40M in AI tokens and credits for the Genesis Mission"
-      ],
-      "highlights": [],
-      "source": {
-        "type": "blog",
-        "name": "Google DeepMind",
-        "author": "DeepMind",
-        "url": "https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/",
-        "home": "https://deepmind.google/blog/",
-        "lang": "en",
-        "translated": false
-      },
-      "oneLiner": "Google commits $40M in AI tokens and credits for the Genesis Mission",
-      "insight": {
-        "mainInsight": ""
-      },
-      "learning": {},
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "",
-        "readMinutes": 3
-      },
-      "affectedProductIds": []
-    },
-    {
-      "id": "sig-bd6ce42035",
-      "title": "Building AI infrastructure with the Effingham County community",
-      "summary": {
-        "oneSentence": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
-        "bullets": [],
-        "audience": "",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "date": "2026-07-22",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex."
-      ],
-      "highlights": [],
-      "source": {
-        "type": "blog",
-        "name": "OpenAI Blog",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": false
-      },
-      "oneLiner": "OpenAI announces Project Camellia in Effingham County, Georgia, with commitments to responsible energy, community investment, jobs, and access to Codex.",
-      "insight": {
-        "mainInsight": ""
-      },
-      "learning": {},
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "sig-130e23c4bd",
-      "title": "How news organizations are using AI to advance their vital missions",
-      "summary": {
-        "oneSentence": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publisher",
-        "bullets": [],
-        "audience": "",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "date": "2026-07-22",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publishers worldwide."
-      ],
-      "highlights": [],
-      "source": {
-        "type": "blog",
-        "name": "OpenAI Blog",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/how-news-organizations-are-using-ai",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": false
-      },
-      "oneLiner": "News organizations are using AI to strengthen reporting, grow audiences, and improve business operations, with OpenAI tools supporting journalists and publisher",
-      "insight": {
-        "mainInsight": ""
-      },
-      "learning": {},
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "sig-23fca7e728",
-      "title": "3 Google updates from Galaxy Unpacked 2026",
-      "summary": {
-        "oneSentence": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Unpacked_hero.max-600x600.format-webp.webp\"&gt;We shared how Samsung users can boos",
-        "bullets": [],
-        "audience": "",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "date": "2026-07-22",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [],
-      "content": [
-        "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Unpacked_hero.max-600x600.format-webp.webp\"&gt;We shared how Samsung users can boost productivity and get time back on new foldables, watches, and glasses coming soon."
-      ],
-      "highlights": [],
-      "source": {
-        "type": "blog",
-        "name": "Google AI Blog",
-        "author": "Google",
-        "url": "https://blog.google/products-and-platforms/platforms/android/galaxy-unpacked-2026/",
-        "home": "https://blog.google/technology/ai/",
-        "lang": "en",
-        "translated": false
-      },
-      "oneLiner": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Unpacked_hero.max-600x600.format-webp.webp\"&gt;We shared how Samsung users can boos",
-      "insight": {
-        "mainInsight": ""
-      },
-      "learning": {},
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "",
-        "readMinutes": 3
-      },
-      "affectedProductIds": []
-    },
-    {
-      "id": "sig-fc3528d001",
-      "title": "Advancing the next era of national science",
-      "summary": {
-        "oneSentence": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate disco",
-        "bullets": [],
-        "audience": "",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "date": "2026-07-22",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate discovery."
-      ],
-      "highlights": [],
-      "source": {
-        "type": "blog",
-        "name": "OpenAI Blog",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/advancing-the-next-era-of-national-science",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": false
-      },
-      "oneLiner": "OpenAI outlines its commitment to advancing American science working with the U.S. Department of Energy and national labs to use frontier AI to accelerate disco",
-      "insight": {
-        "mainInsight": ""
-      },
-      "learning": {},
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "sig-c54f46e53d",
-      "title": "Introducing OpenAI Presence",
-      "summary": {
-        "oneSentence": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workf",
-        "bullets": [],
-        "audience": "",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "date": "2026-07-22",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workflows."
-      ],
-      "highlights": [],
-      "source": {
-        "type": "blog",
-        "name": "OpenAI Blog",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/introducing-openai-presence",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": false
-      },
-      "oneLiner": "Introducing OpenAI Presence, a proven enterprise AI agent platform that helps organizations deploy trusted voice and chat agents for customer and internal workf",
-      "insight": {
-        "mainInsight": ""
-      },
-      "learning": {},
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "sig-0a8336e800",
-      "title": "[AINews] AI Cybersecurity becomes top of mind",
-      "summary": {
-        "oneSentence": "Several new Cyber headlines make us observe a trend",
-        "bullets": [],
-        "audience": "",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "date": "2026-07-22",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "content": [
-        "Several new Cyber headlines make us observe a trend"
-      ],
-      "highlights": [],
-      "source": {
-        "type": "blog",
-        "name": "Latent Space",
-        "author": "swyx & Alessio",
-        "url": "https://www.latent.space/p/ainews-ai-cybersecurity-becomes-top",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false
-      },
-      "oneLiner": "Several new Cyber headlines make us observe a trend",
-      "insight": {
-        "mainInsight": ""
-      },
-      "learning": {},
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "",
-        "readMinutes": 3
-      },
-      "affectedProductIds": []
-    },
-    {
-      "id": "sig-ce627deb99",
-      "title": "NTT DATA Group cuts incident analysis to 30 minutes with Codex",
-      "summary": {
-        "oneSentence": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
-        "bullets": [],
-        "audience": "",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "date": "2026-07-22",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption."
-      ],
-      "highlights": [],
-      "source": {
-        "type": "blog",
-        "name": "OpenAI Blog",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/ntt-data",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": false
-      },
-      "oneLiner": "NTT DATA Group uses ChatGPT Enterprise and Codex to help 9,000 employees automate work, cut incident analysis to 30 minutes, and scale secure AI adoption.",
-      "insight": {
-        "mainInsight": ""
-      },
-      "learning": {},
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ]
-    },
-    {
-      "id": "sig-fb87586911",
-      "title": "Cursor Router",
-      "summary": {
-        "oneSentence": "Auto mode is now powered by Cursor Router.",
-        "bullets": [],
-        "audience": "",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "date": "2026-07-22",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [
-        "cursor"
-      ],
-      "content": [
-        "Auto mode is now powered by Cursor Router."
-      ],
-      "highlights": [],
-      "source": {
-        "type": "blog",
-        "name": "Cursor Changelog",
-        "author": "Cursor",
-        "url": "https://cursor.com/changelog/router",
-        "home": "https://cursor.com/changelog",
-        "lang": "en",
-        "translated": false
-      },
-      "oneLiner": "Auto mode is now powered by Cursor Router.",
-      "insight": {
-        "mainInsight": ""
-      },
-      "learning": {},
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [
-        "cursor"
       ]
     }
   ]
