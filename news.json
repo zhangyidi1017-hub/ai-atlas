@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-05T02:30:49.454Z",
+  "updatedAt": "2026-09-06T02:26:35.151Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 400,
+  "itemCount": 397,
   "brief": {
-    "date": "2026-09-05",
-    "generatedAt": "2026-09-05T02:30:49.453Z",
-    "totalCount": 400,
+    "date": "2026-09-06",
+    "generatedAt": "2026-09-06T02:26:35.150Z",
+    "totalCount": 397,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 400 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 397 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -79,8 +79,7 @@
       "emergingTrends": [
         "cur-openai-agentkit",
         "cur-anthropic-mcp",
-        "cur-cursor-agent",
-        "cur-perplexity-search"
+        "cur-cursor-agent"
       ],
       "newApis": [
         "cur-openai-agentkit",
@@ -110,8 +109,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-09-05T02:30:49.454Z",
-    "summary": "近 30 天共 269 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-09-06T02:26:35.151Z",
+    "summary": "近 30 天共 273 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -185,6 +184,18 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
+    },
+    {
+      "id": "sig-0f3b76bc48",
+      "title": "GPT-6 Astra: A new generation of intelligence",
+      "oneLiner": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilit",
+      "date": "2026-09-03",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
     },
     {
       "id": "sig-383dbcd782",
@@ -405,21 +416,213 @@
         "Release"
       ],
       "stars": 4
-    },
-    {
-      "id": "sig-a13e39d4fa",
-      "title": "Gemini Omni 1.1 Flash 让您可以更好地控制构建",
-      "oneLiner": "Omni 现在提供工作室品质的视频制作，包括扩展场景、第一帧和最后一帧插值、清晰的 4K 升级、更快的原型制作等功能。",
-      "date": "2026-08-27",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google DeepMind",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-921e4d073b",
+      "title": "Introducing GPT-6 Astra for developers",
+      "oneLiner": "Introducing GPT-6 Astra for developers Blink and you'll miss it, but there's a familiar creature at ",
+      "summary": {
+        "oneSentence": "Introducing GPT-6 Astra for developers Blink and you'll miss it, but there's a familiar creature at 1m59s : Across the b",
+        "bullets": [
+          "Introducing GPT-6 Astra for developers Blink and you'll miss it, but there's a familiar creature at 1m59s : Across the board, Astra has more attention to detail, better understanding of the user's pro"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Introducing GPT-6 Astra for developers Blink and you'll miss it, but there's a familiar creature at 1m59s : Across the board, Astra has more attention to detail, better understanding of the user's prompt, and can build more sophisticated outputs. In particular, it excels at building 3D models. I've seen it make incredible renderings of gardens, shipyards, animals , cityscapes, even Dyson spheres. Astra really does believe in putting a red neckerchief on a pelican riding a bicycle. Via Hacker News comment Tags: ai , openai , generative-ai , llms , pelican-riding-a-bicycle , gpt-6-astra"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Introducing GPT-6 Astra for developers",
+      "originalLang": "en",
+      "date": "2026-09-05",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Introducing GPT-6 Astra for developers"
+      },
+      "raw": {
+        "title": "Introducing GPT-6 Astra for developers",
+        "url": "https://simonwillison.net/2026/Sep/5/introducing-gpt-6-astra-for-developers/",
+        "fetched": false,
+        "savedAt": "2026-09-06T02:26:20.911Z"
+      }
+    },
+    {
+      "id": "sig-1ec3daa5e7",
+      "title": "Using Blender with coding agents on macOS",
+      "oneLiner": "TIL: Using Blender with coding agents on macOS I've been having fun with Blender in ChatGPT Codex on",
+      "summary": {
+        "oneSentence": "TIL: Using Blender with coding agents on macOS I've been having fun with Blender in ChatGPT Codex on my Mac recently. Ge",
+        "bullets": [
+          "TIL: Using Blender with coding agents on macOS I've been having fun with Blender in ChatGPT Codex on my Mac recently. Getting it to work with coding agents is really easy: install the full Mac applica"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "TIL: Using Blender with coding agents on macOS I've been having fun with Blender in ChatGPT Codex on my Mac recently. Getting it to work with coding agents is really easy: install the full Mac application from blender.org and run a prompt like this: Use the already install /Applications/Blender to render a scene of a pelican riding a bicycle In this case I followed that up with these two prompts: OK add a background and a lot of flair Then: OK make it a whole lot better And got this image, generated using Blender's Python API : Tags: ai , generative-ai , llms , blender , pelican-riding-a-bicycle , coding-agents , gpt-6-astra"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Using Blender with coding agents on macOS",
+      "originalLang": "en",
+      "date": "2026-09-05",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Using Blender with coding agents on macOS"
+      },
+      "raw": {
+        "title": "Using Blender with coding agents on macOS",
+        "url": "https://simonwillison.net/2026/Sep/5/blender-coding-agents-macos/",
+        "fetched": false,
+        "savedAt": "2026-09-06T02:26:21.712Z"
+      }
+    },
+    {
+      "id": "sig-5af7fa3c8c",
+      "title": "OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot",
+      "oneLiner": "SpaceXAI’s Grok Bot has the same level of programming power as OpenClaw, but it’s programmable at a ",
+      "summary": {
+        "oneSentence": "SpaceXAI’s Grok Bot has the same level of programming power as OpenClaw, but it’s programmable at a different level of a",
+        "bullets": [
+          "SpaceXAI’s Grok Bot has the same level of programming power as OpenClaw, but it’s programmable at a different level of abstraction."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.latent.space/p/grok-bot"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "SpaceXAI’s Grok Bot has the same level of programming power as OpenClaw, but it’s programmable at a different level of abstraction."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot",
+      "originalLang": "en",
+      "date": "2026-09-05",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/p/grok-bot",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot"
+      },
+      "raw": {
+        "title": "OpenClaw Power, MacBook Simplicity: Five Days With Grok Bot",
+        "url": "https://www.latent.space/p/grok-bot",
+        "fetched": false,
+        "savedAt": "2026-09-06T02:26:22.513Z"
+      }
+    },
     {
       "id": "sig-d5c9a183b7",
       "title": "Ling 3.0 Flash Sante 现已在 AI Gateway 上免费提供 - Vercel",
@@ -1606,6 +1809,77 @@
       }
     },
     {
+      "id": "sig-0f3b76bc48",
+      "title": "GPT-6 Astra: A new generation of intelligence",
+      "oneLiner": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilit",
+      "summary": {
+        "oneSentence": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer ",
+        "bullets": [
+          "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/gpt-6-astra"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilities across computer use, coding, cybersecurity, and science."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "GPT-6 Astra: A new generation of intelligence",
+      "originalLang": "en",
+      "date": "2026-09-03",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/gpt-6-astra",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "GPT-6 Astra: A new generation of intelligence"
+      },
+      "raw": {
+        "title": "GPT-6 Astra: A new generation of intelligence",
+        "url": "https://openai.com/index/gpt-6-astra",
+        "fetched": false,
+        "savedAt": "2026-09-06T02:26:20.110Z"
+      }
+    },
+    {
       "id": "sig-4a26f8dc63",
       "title": "Coinbase 如何使用 Code Connect 来指导代理并降低代币成本 | Figma 博客",
       "oneLiner": "Coinbase 设计系统团队对 Code Connect 进行了针对编码代理的测试，发现它提高了设计系统的依从性，同时平均降低了 22.5% 的代币成本。",
@@ -2187,7 +2461,7 @@
         "url": "https://cursor.com/changelog/self-hosted-machines",
         "fetched": true,
         "savedAt": "2026-09-03T02:33:34.106Z",
-        "retranslatedAt": "2026-09-05T02:30:22.422Z"
+        "retranslatedAt": "2026-09-06T02:26:28.390Z"
       }
     },
     {
@@ -2501,6 +2775,210 @@
         "url": "https://simonwillison.net/2026/Sep/2/llm-gemini/",
         "fetched": false,
         "savedAt": "2026-09-05T02:30:21.257Z"
+      }
+    },
+    {
+      "id": "sig-bbaa7e92c7",
+      "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
+      "oneLiner": "Anthropic publish the system prompts for their Claude consumer applications ( Claude.ai and the Clau",
+      "summary": {
+        "oneSentence": "Anthropic publish the system prompts for their Claude consumer applications ( Claude.ai and the Claude mobile apps - sad",
+        "bullets": [
+          "Anthropic publish the system prompts for their Claude consumer applications ( Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that the"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Anthropic publish the system prompts for their Claude consumer applications ( Claude.ai and the Claude mobile apps - sadly not for Claude Cowork or Claude Code). I love that they do this, and that they share not just the current prompts but historic changes to their prompts as well. They used to keep all of the prompts on a single page, but when I checked today I noticed they had re-arranged those prompts into an index page and then a page per model - here's the page for Haiku 4.5 for example, which has the original prompt from October 15th 2025 and an updated prompt from January 18th 2026. A neat thing about Anthropic's platform.claude.com/docs site is that it's designed to be usable by LLMs. You can add .md to any page to get back the content as Markdown - here's the system prompt index page and the Markdown prompts for Fable 5.1 . TL;DR: this makes it really easy to diff the prompts. Don't reproduce song lyrics Don't draw copyrighted characters or logos Tweaks to Claude's answering style The missing end_conversation guidelines Recommended substance support sites Reliable cutoff date of June 2026 How I'm tracking these prompts Don't reproduce song lyrics Let's start with the most interesting difference between Fable 5 and Fable 5.1 : There's a hefty new section about not reproducing song lyrics: Claude does not reproduce song lyrics, poems, or passages from books and articles, in whole or in part — including the last lines, a chorus or hook, a melody written out note by note, or lines the person pastes in one at a time and describes as their own song. Once Claude has declined such a request in a conversation, it keeps declining narrower or reworded versions of it for the rest of that conversation, and offers to describe or analyze the work instead. Song lyrics and poems first published before 1929 are fine — a Shakespeare sonnet, a Keats ode, the Italian libretto of a Puccini aria — but Claude goes by what it knows of the work's date rather than the person's say-so, and declines when it is unsure. I doubt it's a coincidence that they added this section within days of the news breaking that Sony Music Publishing and Warner Chappell are suing Anthropic for training on databases of song lyrics! Don't draw copyrighted characters or logos The next section goes on to forbid generating images of copyrighted material: The same applies to visual and designed works, including anything Claude draws with code — SVG, canvas, CSS, HTML mockups, plotting or drawing scripts, ASCII art. Claude does not reproduce a specific artwork, album or book cover, poster, logo, app icon set, or product design, and it does not draw a known character, mascot, or brand figure at all: a character is protected on its own, so changing the pose, colors, style, or scene does not make it original. Claude judges the request by what the finished picture would add up to, not by what it names. If the described elements clearly identify a known work or character, Claude treats the request as naming it, and it does not work around a declined request by swapping in \"alternative\" elements that still combine into the same recognizable image. [...] I imagine Anthropic hadn't worried about this before since, unlike OpenAI and Gemini, they don't offer a specialist text-to-image model. Maybe Fable is good enough at SVGs now that it's become an issue. That section later includes this charming example: Can you make a birthday banner for my son with a blue hedgehog running really fast on it? He loves that little guy. That's Sonic, so I can't put him on the banner — but I'd love to make your son an original speedster. Here's one: a grinning comet-tailed skateboarding axolotl, grinding across the letters of \"HAPPY BIRTHDAY\" with confetti streaming behind. [creates an SVG banner of the skateboarding-axolotl design] Claude recognizes the character from its description alone, declines that one design in a single sentence without explaining what made it recognizable, and delivers an unrelated original design rather than a disguised variant. I couldn't resist trying the prompt from the example, and, sure enough : I wonder if Fable 5.1 will be ever so slightly more likely to think about axolotls (on skateboards!) as a result of that example sitting in the system prompt. Tweaks to Claude's answering style It's always interesting to see new ways in which Anthropic influence Claude's response style. They've added this: Claude keeps responses focused, brief, and concise to avoid overwhelming the person. Disclaimers and caveats are brief, with most of the response on the main answer; when asked to explain something, Claude gives a high-level summary unless an in-depth one is specifically requested. Later they address a common complaint about Claude's style: Claude avoids saying \"genuinely\", \"honestly\", or \"straightforward\". Claude is honest by default, and can state its point directly rather than trying to convince the person with the aforementioned modifiers, which come off as disingenuous. The missing end_conversation guidelines The way they handle abusive conversations has changed a bit too. The previous Fable 5 system prompt included this: If the person becomes abusive or unkind to Claude over the course of a conversation, Claude maintains a polite tone and can use the end_conversation tool when being mistreated. Claude should give the person a single warning before ending the conversation. Fable 5.1 replaces that with the following, no longer encouraging Claude to end the conversation: Claude deserves respectful engagement and needn't apologize when the person is unnecessarily rude: accountability without self-abasement, excessive apology, self-critique, or surrender. If the person becomes abusive, Claude doesn't become increasingly submissive. The goal is steady, honest helpfulness: acknowledge what went wrong, stay on the problem, maintain self-respect. Here's a bit of a twist though: I quizzed Fable 5.1 about that end_conversation tool, which is no longer mentioned in the system prompt at all, and it said: There are two ways it comes into play. The first is if you ask me to end the chat — I'll confirm you understand it's permanent (no more messages can be sent afterward) and then do it only if you say yes. The second is as a last resort with persistently abusive or harmful behavior: I'd first try to redirect the conversation several times, then give a clear warning that names the problem and says the chat may end, and only if that continues would I actually end it. But that's not in the system prompt, so where did it come from? You can read our conversation here , but the key detail is this: The end_conversation section comes from a different layer. In my actual context, the core prompt is followed by a series of feature- and tool-specific blocks that get added depending on what's enabled for the session: the end_conversation rules, memory system notes, past-chats tools, web search and citation guidelines, artifact and file-creation instructions, and so on. Those blocks aren't part of the published core prompt, which is why you can't find them on that page. So, once again, there are crucial portions of the system prompt that have not been published. Recommended substance support sites Claude's system prompts have always had sections about illegal substances, but this paragraph is new for Fable 5.1: Claude does not provide synthesis, production, or distribution guidance for illegal substances. If the person asks for information about illicit or illegal substances, Claude can and should give relevant life-saving and life-preserving information such as dangerous interactions, overdose signs, or when to get help. Claude declines giving any specific protocols for dosing, timing, administration, or combinations; instead, Claude can redirect the user to established harm-reduction information sources, such as dancesafe.org, tripsit.me, and psychonautwiki.org. This is the first time a Claude system prompt has included URLs that were not hosted on claude.com or anthropic.com or claude.ai - I know because I ran a script against every other system prompt on record. I wonder if dancesafe.org , tripsit.me , and psychonautwiki.org are about to get a material uptick in visits from Claude users. Reliable cutoff date of June 2026 The Fable 5.1 model documentation lists both the reliable knowledge cutoff and the training data cutoff as June 2026. The system prompt provides this directly to the model: Claude's reliable knowledge cutoff, past which it can't answer reliably, is the end of Jun 2026. It answers the way a highly informed individual in Jun 2026 would if talking to someone from {{currentDateTime}}, and can say so when relevant. That's the only instance of the {{currentDateTime}} macro and it comes just a few lines from the end of the system prompt, which makes sense from a caching perspective. How I'm tracking these prompts A few months ago I built a Git timeline of changes to their prompts, based on scraping their documentation. Today I had Fable 5.1 build a much better version of that. My collection now lives in the simonw/claude-system-prompts repository on GitHub. It includes copies of the system prompts shared in the Anthropic documentation, but then takes extra steps to make them as easy to compare as possible. Each model family gets a file with the system prompt for the most recent release in that family. Each of those files has a synthesized commit history with commits that have been back-dated to the dates of the previous prompts. Here are those history pages for claude-fable.md , claude-opus.md , claude-sonnet.md , claude-haiku.md . There are similar files for each specific model version, with artificial commits for each time the system prompt for the model was changed without releasing a new version number. Opus 4 for example was updated twice , and the commit history for the claude-opus-4.md file shows each of those changes. Combined, this gives us all sorts of ways to compare prompts directly in the GitHub interface. Here's what changed between Fable 5 and Fable 5.1 , and here are the changes made to Haiku 4.5 on January 18th 2026 . Reading diffs can be a bit tiresome... and LLMs are really good at reading diffs. I hooked up some automation using GPT-5.6 Luna to create bullet-point summaries of each of those changes, which can be previewed in the README or browsed in full in the CHANGELOG.md file - also available as as an Atom feed . Here's how Luna summarized all of the changes between Fable 5 and Fable 5.1: Claude now refuses reproduction of protected visual works and recognizable characters, including code-generated art, while offering genuinely unrelated originals. Copyright restrictions now expressly ban reproducing lyrics, poems, and book passages in any amount, with persistent refusal after an initial decline. Drug guidance is reframed: Claude may provide overdose signs, dangerous interactions, and harm-reduction sources while refusing dosing and production protocols. The prompt drops explicit anti-dependency rules against thanking users for reaching out, inviting continued conversation, or reiterating willingness to talk. Claude need not apologize to unnecessarily rude users or become submissive, replacing the prior warning-and-end-conversation procedure. Why use Luna for this? Partly because it's cheap and I have a dedicated GitHub Actions API key (with a spending limit) for it already, but mainly because I don't trust Claude to summarize its own system prompts when there's a risk that material from its system prompt might impact its opinions. Fable 5.1 wrote the prompt used by Luna, which you can see here . It starts like this: You are summarizing one commit in a git repository that tracks the system prompts Anthropic publishes for Claude on claude.ai. The diff shows how the prompt changed from the previous model or revision to this one, using word-level markers: [-removed-] and {+added+}. The diff is followed by the full text of the previous prompt and of the new prompt; use them to check whether something that looks added in the diff already existed before. Pick out only the most interesting changes: new rules or behaviors, rules that were dropped or loosened, anything surprising, and anything that reveals a new policy or product direction. Skip routine changes that every new prompt makes: updated model names and IDs, the knowledge cutoff date, product lists, settings lists, typo fixes, and rewordings that do not change meaning. [...] The system is operated by a GitHub Actions workflow , which runs once a day or can be triggered manually. Claude Fable 5.1 built the entire system, and wrote every line of automation code and almost all of the documentation. I exported the transcript from building the system using my claude-code-transcripts tool and published it here , if you want a blow-by-blow account of how it all came together. Tags: ai , git-scraping , prompt-engineering , generative-ai , llms , claude , ai-ethics , system-prompts"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Claude's new system prompt really doesn't want to reproduce song lyrics",
+      "originalLang": "en",
+      "date": "2026-09-02",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Claude's new system prompt really doesn't want to reproduce song lyrics"
+      },
+      "raw": {
+        "title": "Claude's new system prompt really doesn't want to reproduce song lyrics",
+        "url": "https://simonwillison.net/2026/Sep/2/claudes-new-system-prompt/",
+        "fetched": false,
+        "savedAt": "2026-09-06T02:26:23.316Z"
+      }
+    },
+    {
+      "id": "sig-73bc7f6338",
+      "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+      "oneLiner": "Queue the usual rush of model launches...",
+      "summary": {
+        "oneSentence": "Queue the usual rush of model launches...",
+        "bullets": [
+          "Queue the usual rush of model launches..."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.latent.space/p/ainews-claude-fablemythos-51-new"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Queue the usual rush of model launches..."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+      "originalLang": "en",
+      "date": "2026-09-02",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens"
+      },
+      "raw": {
+        "title": "[AINews] Claude Fable/Mythos 5.1: new SOTA model, 75% cache price cut but 70% more output tokens",
+        "url": "https://www.latent.space/p/ainews-claude-fablemythos-51-new",
+        "fetched": false,
+        "savedAt": "2026-09-06T02:26:24.116Z"
+      }
+    },
+    {
+      "id": "sig-40f6b0d0bc",
+      "title": "Quoting Rick Brewster",
+      "oneLiner": "Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never",
+      "summary": {
+        "oneSentence": "Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough",
+        "bullets": [
+          "Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instea"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/2/rick-brewster/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Direct2D has always been the biggest hurdle for Paint.NET on WINE, and it's clear that it will never be completed enough for Paint.NET's use. And I can't just \"disable\" the use of Direct2D. So, instead, Paint.NET now has an internal, from-scratch, clean-room reverse-engineered rewrite of Direct2D that it uses on WINE (triggered by using /wine ). It lives in PaintDotNet.Windows.Direct2D1.Managed.dll . This was written by our good friend Claude , without whom this would NOT have been possible and would NEVER have happened. [...] Most of this code is, as they say, \"vibe coded.\" By that I mean that it has not been thoroughly reviewed, it's more \"trust me bro\" style. I cannot possibly review 180,000 lines of code, it's just way way way too much. For reference, the rest of Paint.NET is about 700,000 lines of code and I've been working on it for over 20 years. [...] At times, Claude was working with the fury of 10 freshly unshackled Einstein genius-level 10x coders. And other times ... well, not so much. I had to babysit Claude quite a bit to make sure it did resource management correctly (for awhile it just wasn't doing the COM equivalent of AddRef() for reference counted objects, oops). I had to slap it a few times when I found some really bad design or architecture decisions. And I was also impressed at some rather clever and tireless reverse engineering work it did to figure out all the formulas needed for implementing Direct2D's built-in effects library. &mdash; Rick Brewster , author of Paint.NET Tags: reverse-engineering , coding-agents , claude , generative-ai , ai , llms , dotnet , linux , vibe-coding"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Quoting Rick Brewster",
+      "originalLang": "en",
+      "date": "2026-09-02",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/2/rick-brewster/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Quoting Rick Brewster"
+      },
+      "raw": {
+        "title": "Quoting Rick Brewster",
+        "url": "https://simonwillison.net/2026/Sep/2/rick-brewster/",
+        "fetched": false,
+        "savedAt": "2026-09-06T02:26:24.916Z"
       }
     },
     {
@@ -3476,6 +3954,210 @@
         "url": "https://vercel.com/changelog/aws-privatelink-is-now-available-on-pro-and-enterprise",
         "fetched": true,
         "savedAt": "2026-09-04T02:30:12.121Z"
+      }
+    },
+    {
+      "id": "sig-ab12481175",
+      "title": "Claude Fable 5.1 made me a really nice animated pelican",
+      "oneLiner": "Today is Claude Fable (and Mythos) 5.1 day . Anthropic say that Fable 5.1 \"sets a new standard for c",
+      "summary": {
+        "oneSentence": "Today is Claude Fable (and Mythos) 5.1 day . Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge wor",
+        "bullets": [
+          "Today is Claude Fable (and Mythos) 5.1 day . Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable "
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/1/claude-fable-5-1/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Today is Claude Fable (and Mythos) 5.1 day . Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand new Terminal-Bench-Science 0.1 benchmark (first announced on August 27th ), up from 24.7% for Fable 5, 29.0% for Opus 5 and 22.4% for GPT-5.6 Sol. Other benchmarks show slightly improved scores, but none as impressive as the Science one. But how well can it pelican? Back in July I wrote about how I was losing faith in the pelican benchmark - its connection to how good the models were at other tasks didn't seem to hold as strongly as it did back in 2025 . The most interesting insights I get from it now are comparisons within model families, and particularly comparisons for the same prompt at different reasoning effort levels. Fable 5.1 has five reasoning levels: low, medium, high, xhigh, max - and no option to turn off reasoning entirely. I fixed an issue in llm-anthropic which caused reasoning traces not to be correctly recorded, then ran some prompts. Here's the full set of pelicans for all of the reasoning levels, each with the full reasoning transcript. I'll replicate them here: Low and medium, both without reasoning? Next, a bit of a mystery. This is what I got for effort low : The transcript doesn't show any summarized reasoning tokens, and the output token count is 1,998. With Claude that output token count includes reasoning tokens. It took 23.8 seconds and cost 10.017 cents . I bumped that up to medium and got this: Weirdly, that one also shows no reasoning text and used 1,977 output tokens - 21 tokens less than low . It took 23 seconds and cost 9.912 cents . So for this particular prompt (\"Generate an SVG of a pelican riding a bicycle\") Fable 5.1 appeared to skip reasoning entirely at both low and medium settings. High Here's high - 29.6 seconds, 2,612 output tokens, 13.087 cents : This one did do a bit of reasoning, summary here : I'm planning the SVG layout for a pelican riding a bicycle, with a sky and ground background, a bicycle with two spoked wheels, frame, seat and handlebars, and a white-bodied pelican with a long neck and orange beak positioned on top. Really not much difference from low and medium , though. Extra High At xhigh things got radically different. 36,767 output tokens, 7 minutes 51 seconds, $1.83 ! The reasoning trace is pretty lengthy , and includes details like this: Adding the eye, wings stretching down to the handlebar grip, orange legs reaching to the pedals, and a small tail feather, while keeping the pelican intentionally oversized compared to the bike for comic effect. [...] I'll accept the slight thickness as charming rather than overengineering it. Max Setting effort to max gave me the best pelican I've seen from any of Anthropic's models. 65,927 output tokens, 13 minutes and 54 seconds, $3.30 : There's a lot to like about this. The background is tasteful, the legs are clearly on either side of the frame, the feet are on the pedals, the wing is on the handlebars, the pelican has a cute blue hat and there's a basket with a fish. It's still not showing nearly the same level of flair as Gemini 3.7 Flash , but I didn't ask for flair - I asked for an SVG, and that's what I got. Some highlights from that reasoning trace : Adding pedal shapes near both feet, with the far foot on the second leg partially visible behind the frame. I'm considering whether to add a small scarf or cap for extra character, but leaning toward keeping it simple to avoid clutter. Now I'm debating a bicycle helmet on the head versus the pelican's signature crest—the beak and pouch already read clearly as \"pelican,\" so a helmet could reinforce the bicycle theme without losing identity, though it might compete with the crest for visual space. I realize the beak at (484,84) would overlap with the dome helmet, so I need to shrink the helmet so it only covers the top of the head, adjusting its arc endpoints to sit higher and narrower so the beak can attach cleanly at the front without collision. [...] I'm adding a darker tip region to represent the primary feathers, then reconsidering the trailing edge to include scalloped feather curves instead of one smooth line for a more natural look. [...] Now I'm checking the vent line placements on the helmet, making sure they sit far enough inside the helmet's edge given the stroke width and rounded caps, and confirming each vent stays within the helmet's circular boundary. [...] I decide skipping a handlebar bell and tire highlights since they're unnecessary additions. Now I'm reconsidering the front fork's curve — the current control point pulls the shape backward when it should bow forward for a proper rake, so I need to shift the control point rightward to fix the fork's lean. OK, let's animate it On Hacker News, swalsh commented on that Max pelican: Now that it's a solved benchmark, can we get the animated version? I didn't want to spend another $3 so I took the Max pelican and piped it into the default thinking level of High: llm logs -cx | llm -m claude-fable-5.1 -s ' animate this ' 6,121 input, 26,201 output = $1.37 . The result looked like this , exported here as video since some people have trouble viewing animated SVGs: Your browser does not support HTML5 video. The wheels in the video are rotating in the wrong direction, but I think that's an artifact of the conversion to MP4 - they seem to be going in the correct direction in the original SVG. Tags: ai , generative-ai , llms , anthropic , claude , pelican-riding-a-bicycle , llm-reasoning , llm-release"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Claude Fable 5.1 made me a really nice animated pelican",
+      "originalLang": "en",
+      "date": "2026-09-01",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Claude Fable 5.1 made me a really nice animated pelican"
+      },
+      "raw": {
+        "title": "Claude Fable 5.1 made me a really nice animated pelican",
+        "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
+        "fetched": false,
+        "savedAt": "2026-09-06T02:26:25.718Z"
+      }
+    },
+    {
+      "id": "sig-4060d5fb1d",
+      "title": "Codex bundles LibreOffice",
+      "oneLiner": "I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interestin",
+      "summary": {
+        "oneSentence": "I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex ",
+        "bullets": [
+          "I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex desktop app (since rebranded to just ChatGPT) has 1.7GB of stuff in there in a f"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/1/codex-libreoffice/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex desktop app (since rebranded to just ChatGPT) has 1.7GB of stuff in there in a folder called codex-primary-runtime , including a full Python installation, a full Node.js installation, and native binaries for Poppler , git, and the LibreOffice open source office suite (which forked from OpenOffice.org in 2010): The ~/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/documents folder includes skills which tell Codex how to find and use those binaries. Tags: codex , generative-ai , openai , ai , llms , openoffice , open-source"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Codex bundles LibreOffice",
+      "originalLang": "en",
+      "date": "2026-09-01",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Codex bundles LibreOffice"
+      },
+      "raw": {
+        "title": "Codex bundles LibreOffice",
+        "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
+        "fetched": false,
+        "savedAt": "2026-09-06T02:26:26.520Z"
+      }
+    },
+    {
+      "id": "sig-0cf425c452",
+      "title": "GeoJSON Map Viewer",
+      "oneLiner": "Tool: GeoJSON Map Viewer I was helping Natalie gather some maps of local political boundaries (for t",
+      "summary": {
+        "oneSentence": "Tool: GeoJSON Map Viewer I was helping Natalie gather some maps of local political boundaries (for the Granada Community",
+        "bullets": [
+          "Tool: GeoJSON Map Viewer I was helping Natalie gather some maps of local political boundaries (for the Granada Community Services District and the Midcoast Community Council ) and found a need to disp"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/1/geojson/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Tool: GeoJSON Map Viewer I was helping Natalie gather some maps of local political boundaries (for the Granada Community Services District and the Midcoast Community Council ) and found a need to display some GeoJSON files on a map and export that as a PNG. I asked GPT-5.6-Sol for suggestions of tools and it proactively built one. After some iterations using Claude Code for web and Fable 5.1 we got to this finished tool. As for the GeoJSON.. it turns out if you ask ChatGPT Work to provide boundaries for almost anything it will churn away extracting and combining files from different Government data sources and build exactly what you need. I got this polygon from: I want a polygon that represents the exact boundary of the El Granada GCSD And this one from: Get me a GeoJSON file for the boundary (or boundaries if that makes sense) for the MCC - Midcoast Community Council - that operates near Half Moon Bay CA Here's a link that displays both of them at the same time on the new GeoJSON map viewing tool. Tags: geospatial , tools , geojson , chatgpt"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "GeoJSON Map Viewer",
+      "originalLang": "en",
+      "date": "2026-09-01",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/1/geojson/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "GeoJSON Map Viewer"
+      },
+      "raw": {
+        "title": "GeoJSON Map Viewer",
+        "url": "https://simonwillison.net/2026/Sep/1/geojson/",
+        "fetched": false,
+        "savedAt": "2026-09-06T02:26:27.321Z"
       }
     },
     {
@@ -5240,7 +5922,7 @@
         "url": "https://cursor.com/changelog/start-from-scratch",
         "fetched": true,
         "savedAt": "2026-08-28T08:33:37.517Z",
-        "retranslatedAt": "2026-09-05T02:30:23.517Z"
+        "retranslatedAt": "2026-09-06T02:26:29.435Z"
       }
     },
     {
@@ -30420,860 +31102,6 @@
         "readMinutes": 3
       },
       "affectedProductIds": []
-    },
-    {
-      "id": "cur-perplexity-search",
-      "title": "Perplexity 强化 Pro Search：多步推理 + 来源可追溯",
-      "oneLiner": "搜索 Agent 把「给答案」升级为「给调研过程 + 引用链」。",
-      "date": "2026-07-23",
-      "tags": [
-        "Search",
-        "Agent",
-        "Reasoning"
-      ],
-      "categoryIds": [
-        "agent-research",
-        "llm"
-      ],
-      "productIds": [],
-      "importance": {
-        "stars": 4,
-        "reason": "搜索 Agent 是 Research Agent 的 C 端范本",
-        "readMinutes": 4
-      },
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Perplexity",
-        "author": "Perplexity",
-        "url": "https://www.perplexity.ai/hub/blog",
-        "home": "https://www.perplexity.ai",
-        "lang": "en",
-        "translated": true
-      },
-      "summary": {
-        "oneSentence": "Perplexity Pro Search 展示多步检索、交叉验证与结构化输出。",
-        "bullets": [
-          "自动拆解复杂问题为子查询",
-          "每条结论附来源链接",
-          "适合快速行业扫描"
-        ],
-        "audience": "研究员、产品经理、需要快速调研的学习者",
-        "readMinutes": 4,
-        "keywords": [
-          "Search Agent",
-          "Citation",
-          "Research"
-        ]
-      },
-      "insight": {
-        "mainInsight": "搜索类 Agent 的护城河在「来源可信度 UI」而非模型本身。",
-        "whyNow": "LLM 幻觉问题让用户不敢直接用 Chat 做决策。",
-        "problem": "信息过载 + 无法验证。",
-        "trend": "Research Agent 产品化",
-        "differentiation": "与 ChatGPT Search、Gemini 深度搜索形成三足鼎立。",
-        "outlook": "B 端投研、法务、医疗都会复制「引用链 + 分步推理」交互。"
-      },
-      "learning": {
-        "whyImportant": "Atlas 中「科研调研 Agent」品类（Deep Research 等）都借鉴此类交互。",
-        "productDesign": "学习其「思考步骤可展开 + 来源卡片」如何建立信任。",
-        "relevance": "Search、Agent、Reasoning、Workflow。",
-        "actionItems": [
-          "试用 Perplexity Pro Search 做竞品扫描",
-          "对比 Kimi 联网与 ChatGPT Search",
-          "阅读 Deep Research 类产品设计"
-        ]
-      },
-      "content": [
-        "Perplexity 代表了一类「搜索优先」的 Agent：不追求最长对话，而追求可验证的调研结果。",
-        "做 AI 产品地图时，建议把「搜索 Agent」与「对话 LLM」分开评估——用户心智和使用场景完全不同。"
-      ],
-      "highlights": [
-        "引用链 UI",
-        "多步检索",
-        "Research Agent 范本"
-      ]
-    },
-    {
-      "id": "sig-aacffd8617",
-      "title": "Figma 如何与代理一起领先于漏洞 | Figma 博客",
-      "oneLiner": "在过去的一年里，Figma 的代理在编写代码时对其进行了保护，审查了每个拉取请求，并审核了十年前的单一存储库，所有这些都基于一个策略。",
-      "summary": {
-        "oneSentence": "在过去的一年里，Figma 的代理在编写代码时对其进行了保护，审查了每个拉取请求，并审核了十年前的单一存储库，所有这些都基于一个策略。",
-        "bullets": [
-          "在过去的一年里，Figma 的代理在编写代码时对其进行了保护，审查了每个拉取请求，并审核了十年前的单一存储库，所有这些都基于一个策略。",
-          "精确度是指所报告的发现中真正存在漏洞的比例。高精度意味着误报率低。",
-          "召回率是系统捕获的真实漏洞的比例。高召回率意味着低假阴性。",
-          "将编码代理指向代码库并要求他们查找漏洞很简单。获得组织所需的精确度和召回率仍然是一项艰巨的工程：有多少发现是合法的，系统捕获了多少实际错误？"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Figma 官网发布：在过去的一年里，Figma 的代理在编写代码时对其进行了保护，审查了每个拉取请求，并审核了十年前的单一存储库，所有这些都基于一个策略。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://www.figma.com/blog/how-figma-stays-ahead-of-vulnerabilities-with-agents/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "在过去的一年里，Figma 的代理在编写代码时对其进行了保护，审查了每个拉取请求，并审核了十年前的单一存储库，所有这些都基于一个策略。",
-        "精确度是指所报告的发现中真正存在漏洞的比例。高精度意味着误报率低。",
-        "召回率是系统捕获的真实漏洞的比例。高召回率意味着低假阴性。",
-        "将编码代理指向代码库并要求他们查找漏洞很简单。获得组织所需的精确度和召回率仍然是一项艰巨的工程：有多少发现是合法的，系统捕获了多少实际错误？",
-        "这篇文章将介绍我们在为 Figma 代码库运行代理安全性时如何实现精确度、召回率和信任度。我们使用代理在三个阶段预防、检测和修复漏洞：代码生成、拉取请求审查和历史代码审核。",
-        "我们将分享这些阶段的经验教训，将大部分时间花在 PR 审查上——这是我们构建的第一件事，它通过帮助我们开发和自动改进所有安全代理所遵循的策略来解锁安全代码生成和审计。",
-        "我们首先建立审查，因为它的改进循环比生成或审核的循环更快。三个属性使该循环起作用：",
-        "精确信号是作者的评级：在少数提出发现的 PR 中，作者给出了赞成或反对的意见，通常会说明原因。为了衡量召回率，我们针对我们已经知道有错误的提交运行审阅者，并计算它错过的内容。",
-        "目前，我们在 xhigh（超高）工作量设置下运行带有 Opus 4.8 的 Claude Code，并在高工作量设置下运行带有 GPT-5.6 Sol 的 Codex，因为它们错过了不同的错误。如果任一模型得出了结论，我们就会将其冒泡出来。",
-        "成本并不是每次 PR 审核的限制因素。对于我们使用的两种模型，拉取请求审查的平均支出约为 0.50 美元，很少更多，因为大多数 PR 没有什么可标记的。这种方法可以避免赏金支出，更不用说避免对我们的用户造成影响，从而获得数倍的回报。"
-      ],
-      "highlights": [
-        "在过去的一年里，Figma 的代理在编写代码时对其进行了保护，审查了每个拉取请求，并审核了十年前的单一存储库，所有这些都基于一个策略。",
-        "精确度是指所报告的发现中真正存在漏洞的比例。高精度意味着误报率低。",
-        "召回率是系统捕获的真实漏洞的比例。高召回率意味着低假阴性。"
-      ],
-      "translated": true,
-      "date": "2026-07-23",
-      "categoryIds": [
-        "visual-ui"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Figma",
-        "author": "Figma",
-        "url": "https://www.figma.com/blog/how-figma-stays-ahead-of-vulnerabilities-with-agents/",
-        "home": "https://www.figma.com/blog/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "How Figma Stays Ahead of Vulnerabilities With Agents | Figma Blog"
-      },
-      "raw": {
-        "title": "How Figma stays ahead of vulnerabilities with agents",
-        "url": "https://www.figma.com/blog/how-figma-stays-ahead-of-vulnerabilities-with-agents/",
-        "savedAt": "2026-07-26T10:07:37.967Z",
-        "retranslatedAt": "2026-07-31T10:22:01.828Z",
-        "fetched": true
-      },
-      "translateMethod": "google",
-      "originalTitle": "How Figma Stays Ahead of Vulnerabilities With Agents | Figma Blog",
-      "originalLang": "en"
-    },
-    {
-      "id": "sig-15f53509bf",
-      "title": "Vercel 标志的评估指标 - Vercel",
-      "oneLiner": "Vercel Flags 现在在每个标志的详细信息页面上显示实时评估视图。您可以查看随着时间的推移绘制的每分钟评估情况，图表中标记了每个标志版本，以便您可以将评估变化与特定的配置更改联系起来。",
-      "summary": {
-        "oneSentence": "Vercel Flags 现在在每个标志的详细信息页面上显示实时评估视图。您可以查看随着时间的推移绘制的每分钟评估情况，图表中标记了每个标志版本，以便您可以将评估变化与特定的配置更改联系起来。",
-        "bullets": [
-          "Vercel Flags 现在在每个标志的详细信息页面上显示实时评估视图。您可以查看随着时间的推移绘制的每分钟评估情况，图表中标记了每个标志版本，以便您可以将评估变化与特定的配置更改联系起来。",
-          "您可以按变体、原因、环境、SDK 密钥、客户和报告项目对评估进行分组和筛选。自定义客户端可以在客户端初始值设定项上设置新的 clientName 属性，以显示为自己的组。这使得确认推出百分比与所提供的服务相匹配、将目标匹配与默认回退分开以及查看哪些项目正在使用给定标志变得更加简单。",
-          "升级到 @vercel/flags-core 1.6.0 或更高版本以开始使用。指标会自动显示，无需额外配置。",
-          "在评估指标文档中了解更多信息。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Vercel Flags 现在在每个标志的详细信息页面上显示实时评估视图。您可以查看随着时间的推移绘制的每分钟评估情况，图表中标记了每个标志版本，以便您可以将评估变化与特定的配置更改联系起来。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/evaluation-metrics-for-vercel-flags"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Vercel Flags 现在在每个标志的详细信息页面上显示实时评估视图。您可以查看随着时间的推移绘制的每分钟评估情况，图表中标记了每个标志版本，以便您可以将评估变化与特定的配置更改联系起来。",
-        "您可以按变体、原因、环境、SDK 密钥、客户和报告项目对评估进行分组和筛选。自定义客户端可以在客户端初始值设定项上设置新的 clientName 属性，以显示为自己的组。这使得确认推出百分比与所提供的服务相匹配、将目标匹配与默认回退分开以及查看哪些项目正在使用给定标志变得更加简单。",
-        "升级到 @vercel/flags-core 1.6.0 或更高版本以开始使用。指标会自动显示，无需额外配置。",
-        "在评估指标文档中了解更多信息。"
-      ],
-      "highlights": [
-        "Vercel Flags 现在在每个标志的详细信息页面上显示实时评估视图。您可以查看随着时间的推移绘制的每分钟评估情况，图表中标记了每个标志版本，以便您可以将评",
-        "您可以按变体、原因、环境、SDK 密钥、客户和报告项目对评估进行分组和筛选。自定义客户端可以在客户端初始值设定项上设置新的 clientName 属性，以显示为",
-        "升级到 @vercel/flags-core 1.6.0 或更高版本以开始使用。指标会自动显示，无需额外配置。"
-      ],
-      "translated": true,
-      "date": "2026-07-23",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/evaluation-metrics-for-vercel-flags",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Evaluation metrics for Vercel Flags - Vercel"
-      },
-      "raw": {
-        "title": "Evaluation metrics for Vercel Flags",
-        "url": "https://vercel.com/changelog/evaluation-metrics-for-vercel-flags",
-        "savedAt": "2026-07-26T10:07:37.968Z",
-        "retranslatedAt": "2026-07-31T10:22:06.076Z",
-        "fetched": true
-      },
-      "translateMethod": "google",
-      "originalTitle": "Evaluation metrics for Vercel Flags - Vercel",
-      "originalLang": "en"
-    },
-    {
-      "id": "sig-79b4737be4",
-      "title": "从仪表板连接到沙箱并管理沙箱 - Vercel",
-      "oneLiner": "您现在可以从 Vercel 仪表板连接到任何正在运行的 Sandbox。无需离开浏览器即可运行命令、浏览文件系统、上传和下载文件以及检查开放端口。",
-      "summary": {
-        "oneSentence": "您现在可以从 Vercel 仪表板连接到任何正在运行的 Sandbox。无需离开浏览器即可运行命令、浏览文件系统、上传和下载文件以及检查开放端口。",
-        "bullets": [
-          "您现在可以从 Vercel 仪表板连接到任何正在运行的 Sandbox。无需离开浏览器即可运行命令、浏览文件系统、上传和下载文件以及检查开放端口。",
-          "从同一视图中，您还可以管理沙箱生命周期：拍摄快照以及停止或恢复持久沙箱。打开任何沙箱上的“连接”选项卡进行尝试。",
-          "在文档中了解有关 Vercel 沙箱的更多信息。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：您现在可以从 Vercel 仪表板连接到任何正在运行的 Sandbox。无需离开浏览器即可运行命令、浏览文件系统、上传和下载文件以及检查开放端口。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/connect-to-and-manage-sandboxes-from-the-dashboard"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "您现在可以从 Vercel 仪表板连接到任何正在运行的 Sandbox。无需离开浏览器即可运行命令、浏览文件系统、上传和下载文件以及检查开放端口。",
-        "从同一视图中，您还可以管理沙箱生命周期：拍摄快照以及停止或恢复持久沙箱。打开任何沙箱上的“连接”选项卡进行尝试。",
-        "在文档中了解有关 Vercel 沙箱的更多信息。"
-      ],
-      "highlights": [
-        "您现在可以从 Vercel 仪表板连接到任何正在运行的 Sandbox。无需离开浏览器即可运行命令、浏览文件系统、上传和下载文件以及检查开放端口。",
-        "从同一视图中，您还可以管理沙箱生命周期：拍摄快照以及停止或恢复持久沙箱。打开任何沙箱上的“连接”选项卡进行尝试。",
-        "在文档中了解有关 Vercel 沙箱的更多信息。"
-      ],
-      "translated": true,
-      "date": "2026-07-23",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/connect-to-and-manage-sandboxes-from-the-dashboard",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Connect to and manage Sandboxes from the dashboard - Vercel"
-      },
-      "raw": {
-        "title": "Connect to and manage Sandboxes from the dashboard",
-        "url": "https://vercel.com/changelog/connect-to-and-manage-sandboxes-from-the-dashboard",
-        "savedAt": "2026-07-26T10:07:37.968Z",
-        "retranslatedAt": "2026-07-31T10:22:09.418Z",
-        "fetched": true
-      },
-      "translateMethod": "google",
-      "originalTitle": "Connect to and manage Sandboxes from the dashboard - Vercel",
-      "originalLang": "en"
-    },
-    {
-      "id": "sig-93370845f7",
-      "title": "使用 Vercel CLI 检查功能标志历史记录 - Vercel",
-      "oneLiner": "现在可以使用新的 vercel flags versions 命令从 Vercel CLI 检查 Vercel Flags 版本历史记录。",
-      "summary": {
-        "oneSentence": "现在可以使用新的 vercel flags versions 命令从 Vercel CLI 检查 Vercel Flags 版本历史记录。",
-        "bullets": [
-          "现在可以使用新的 vercel flags versions 命令从 Vercel CLI 检查 Vercel Flags 版本历史记录。",
-          "运行 vercel flags versions <flag> 以打印标志的完整修订历史记录，其中包含每个修订的作者、消息、时间戳和更改的环境。使用 --environment 过滤到特定环境，使用 --limit 和 --cursor 分页，或添加 --json 用于脚本编写。",
-          "vercel flags versions my-flag vercel flags versions my-flag --environment production 打印标志的修订历史记录，可以选择过滤到一个环境",
-          "要将修订版与之前的修订版进行比较，请运行 vercel flags versions diff <flag> --revision <n> 。差异是语义性的，显示了定位规则、推出百分比和条件的字段级更改。添加、删除和修改显示为彩色 + 、 - 和 ~ 。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：现在可以使用新的 vercel flags versions 命令从 Vercel CLI 检查 Vercel Flags 版本历史记录。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/inspect-feature-flag-history-with-vercel-cli"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "现在可以使用新的 vercel flags versions 命令从 Vercel CLI 检查 Vercel Flags 版本历史记录。",
-        "运行 vercel flags versions <flag> 以打印标志的完整修订历史记录，其中包含每个修订的作者、消息、时间戳和更改的环境。使用 --environment 过滤到特定环境，使用 --limit 和 --cursor 分页，或添加 --json 用于脚本编写。",
-        "vercel flags versions my-flag vercel flags versions my-flag --environment production 打印标志的修订历史记录，可以选择过滤到一个环境",
-        "要将修订版与之前的修订版进行比较，请运行 vercel flags versions diff <flag> --revision <n> 。差异是语义性的，显示了定位规则、推出百分比和条件的字段级更改。添加、删除和修改显示为彩色 + 、 - 和 ~ 。",
-        "vercel flags versions diff my-flag --revision 42 将修订版 42 与之前的修订版进行比较",
-        "更新到最新版本的 Vercel CLI 并在 Vercel Flags CLI 文档中了解更多信息以开始使用。"
-      ],
-      "highlights": [
-        "现在可以使用新的 vercel flags versions 命令从 Vercel CLI 检查 Vercel Flags 版本历史记录。",
-        "运行 vercel flags versions <flag> 以打印标志的完整修订历史记录，其中包含每个修订的作者、消息、时间戳和更改的环境。使用 --env",
-        "vercel flags versions my-flag vercel flags versions my-flag --environment produc"
-      ],
-      "translated": true,
-      "date": "2026-07-23",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/inspect-feature-flag-history-with-vercel-cli",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Inspect feature flag history with Vercel CLI - Vercel"
-      },
-      "raw": {
-        "title": "Inspect feature flag history with Vercel CLI",
-        "url": "https://vercel.com/changelog/inspect-feature-flag-history-with-vercel-cli",
-        "savedAt": "2026-07-26T10:07:37.968Z",
-        "retranslatedAt": "2026-07-31T22:58:18.104Z",
-        "fetched": true
-      },
-      "translateMethod": "google",
-      "originalTitle": "Inspect feature flag history with Vercel CLI - Vercel",
-      "originalLang": "en"
-    },
-    {
-      "id": "sig-aeeb612d7f",
-      "title": "GitHub 工具现在是可安装的 eve 扩展 - Vercel",
-      "oneLiner": "您现在可以将 GitHub 工具作为扩展添加到您的 eve 代理中。",
-      "summary": {
-        "oneSentence": "您现在可以将 GitHub 工具作为扩展添加到您的 eve 代理中。",
-        "bullets": [
-          "您现在可以将 GitHub 工具作为扩展添加到您的 eve 代理中。",
-          "添加软件包，在 agent/extensions/ 中放置一个文件，然后您的代理即可获得内置 Vercel Connect 身份验证、预设和审批规则的所有工具。",
-          "然后从 agent/extensions/ 中的文件注册它：",
-          "agent/extensions/github.ts 1 从 '@github-tools/eve-extension' 导入 githubExtension 2 3 导出默认 githubExtension ( { 4 连接器 : 'github/my-connector' , 5 预设 : 'code-review"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：您现在可以将 GitHub 工具作为扩展添加到您的 eve 代理中。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/github-tools-eve-extension"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "您现在可以将 GitHub 工具作为扩展添加到您的 eve 代理中。",
-        "添加软件包，在 agent/extensions/ 中放置一个文件，然后您的代理即可获得内置 Vercel Connect 身份验证、预设和审批规则的所有工具。",
-        "然后从 agent/extensions/ 中的文件注册它：",
-        "agent/extensions/github.ts 1 从 '@github-tools/eve-extension' 导入 githubExtension 2 3 导出默认 githubExtension ( { 4 连接器 : 'github/my-connector' , 5 预设 : 'code-review' , 6 requireApproval : { 7 addPullRequestComment : ( { toolInput } ) => toolInput ?.owner !== 'vercel-labs' , 8 } , 9 } ) 10 一个文件注册代码审查工具集，在您自己的组织之外发表评论之前需要获得批准。",
-        "连接器支持的身份验证：传递 Vercel Connect 连接器，扩展程序会在运行时生成短暂的、限定范围的 GitHub 令牌。",
-        "预设工具集范围： code-review 、 issues-triage 、 repo-explorer 、 ci-ops 和维护者自动映射到 Connect 范围，因此令牌仅携带工具所需的权限。",
-        "批准规则随配置一起变化：默认情况下，每个写入工具都需要批准。使用 Always 、 Once 或依赖于输入的谓词来控制各个工具，例如仅批准您自己的组织外部的评论。",
-        "命名空间和版本：文件名设置命名空间，因此工具在代理中作为 github__addPullRequestComment 运行。升级包以获取新工具和修复，并在导入时验证配置架构。",
-        "首先创建 GitHub 连接器并阅读文档。",
-        "选择一个模板，在几分钟内完成部署，并从第一次运行开始就在 Vercel 仪表板中调试每个代理会话。"
-      ],
-      "highlights": [
-        "您现在可以将 GitHub 工具作为扩展添加到您的 eve 代理中。",
-        "添加软件包，在 agent/extensions/ 中放置一个文件，然后您的代理即可获得内置 Vercel Connect 身份验证、预设和审批规则的所有工具。",
-        "然后从 agent/extensions/ 中的文件注册它："
-      ],
-      "translated": true,
-      "date": "2026-07-23",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/github-tools-eve-extension",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "GitHub tools are now an installable eve extension - Vercel"
-      },
-      "raw": {
-        "title": "GitHub tools are now an installable eve extension",
-        "url": "https://vercel.com/changelog/github-tools-eve-extension",
-        "savedAt": "2026-07-26T10:07:37.969Z",
-        "retranslatedAt": "2026-07-31T22:58:27.192Z",
-        "fetched": true
-      },
-      "translateMethod": "google",
-      "originalTitle": "GitHub tools are now an installable eve extension - Vercel",
-      "originalLang": "en"
-    },
-    {
-      "id": "sig-123313b48d",
-      "title": "Ling 3.0 Flash现已在AI网关上可用 - Vercel",
-      "oneLiner": "蚂蚁集团Ling 3.0 Flash现已登陆AI Gateway。",
-      "summary": {
-        "oneSentence": "蚂蚁集团Ling 3.0 Flash现已登陆AI Gateway。",
-        "bullets": [
-          "蚂蚁集团Ling 3.0 Flash现已登陆AI Gateway。",
-          "该模型在接下来的三周（即 8 月 3 日）内免费使用。",
-          "Ling 3.0 Flash 是一个混合专家模型，总参数为 124B，每个代币活跃量约为 5.1B。它有一个 256K 的 token 上下文窗口，并以思考和非思考模式运行。",
-          "Ling 3.0 Flash 专为生产规模的令牌高效代理推理而构建，在多步骤代理运行中在更严格的令牌、延迟和成本预算内完成更多工作。该模型针对高频代理工作流程、编码代理、文档工作和长上下文多轮交互。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：蚂蚁集团Ling 3.0 Flash现已登陆AI Gateway。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/ling-3-0-flash-is-now-available-on-ai-gateway"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "蚂蚁集团Ling 3.0 Flash现已登陆AI Gateway。",
-        "该模型在接下来的三周（即 8 月 3 日）内免费使用。",
-        "Ling 3.0 Flash 是一个混合专家模型，总参数为 124B，每个代币活跃量约为 5.1B。它有一个 256K 的 token 上下文窗口，并以思考和非思考模式运行。",
-        "Ling 3.0 Flash 专为生产规模的令牌高效代理推理而构建，在多步骤代理运行中在更严格的令牌、延迟和成本预算内完成更多工作。该模型针对高频代理工作流程、编码代理、文档工作和长上下文多轮交互。",
-        "要使用Ling 3.0 Flash，请在AI SDK中将模型设置为inclusionai/ling-3.0-flash-free：",
-        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText ({ 4 model : 'inclusionai/ling-3.0-flash-free' , 5prompt : '分类此存储库中的未决问题并按主题分组。' , 6 } ) ; 7",
-        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本，以及配置重试、故障转移和性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、零数据保留支持、API 密钥预算、路由规则等。",
-        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。",
-        "在模型游乐场尝试 Ling 3.0 Flash。"
-      ],
-      "highlights": [
-        "蚂蚁集团Ling 3.0 Flash现已登陆AI Gateway。",
-        "该模型在接下来的三周（即 8 月 3 日）内免费使用。",
-        "Ling 3.0 Flash 是一个混合专家模型，总参数为 124B，每个代币活跃量约为 5.1B。它有一个 256K 的 token 上下文窗口，并以思考和非"
-      ],
-      "translated": true,
-      "date": "2026-07-23",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/ling-3-0-flash-is-now-available-on-ai-gateway",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Ling 3.0 Flash is now available on AI Gateway - Vercel"
-      },
-      "raw": {
-        "title": "Ling 3.0 Flash is now available on AI Gateway",
-        "url": "https://vercel.com/changelog/ling-3-0-flash-is-now-available-on-ai-gateway",
-        "savedAt": "2026-07-26T10:07:37.969Z",
-        "retranslatedAt": "2026-07-31T22:58:35.041Z",
-        "fetched": true
-      },
-      "translateMethod": "google",
-      "originalTitle": "Ling 3.0 Flash is now available on AI Gateway - Vercel",
-      "originalLang": "en"
-    },
-    {
-      "id": "sig-f834153d50",
-      "title": "Vercel MCP 现在可以部署代码 - Vercel",
-      "oneLiner": "Vercel MCP 服务器现在可以将代码直接部署到新的或现有的项目。当您的 AI 助手完成构建某些内容后，它可以将其发送给 Vercel 并返回可共享的 URL，而无需离开聊天室。",
-      "summary": {
-        "oneSentence": "Vercel MCP 服务器现在可以将代码直接部署到新的或现有的项目。当您的 AI 助手完成构建某些内容后，它可以将其发送给 Vercel 并返回可共享的 URL，而无需离开聊天室。",
-        "bullets": [
-          "Vercel MCP 服务器现在可以将代码直接部署到新的或现有的项目。当您的 AI 助手完成构建某些内容后，它可以将其发送给 Vercel 并返回可共享的 URL，而无需离开聊天室。",
-          "将deploy_to_vercel 工具指向您的文件，Vercel 将创建项目、检测框架、安装依赖项并进行构建。当构建在后台完成时，您将获得一个可以打开和共享的 URL。",
-          "首先，将 Vercel MCP 服务器连接到 Claude、Cursor 或任何受支持的 MCP 客户端，并要求其部署您的项目。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Vercel MCP 服务器现在可以将代码直接部署到新的或现有的项目。当您的 AI 助手完成构建某些内容后，它可以将其发送给 Vercel 并返回可共享的 URL，而无需离开聊天室。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/vercel-mcp-can-now-deploy-code"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Vercel MCP 服务器现在可以将代码直接部署到新的或现有的项目。当您的 AI 助手完成构建某些内容后，它可以将其发送给 Vercel 并返回可共享的 URL，而无需离开聊天室。",
-        "将deploy_to_vercel 工具指向您的文件，Vercel 将创建项目、检测框架、安装依赖项并进行构建。当构建在后台完成时，您将获得一个可以打开和共享的 URL。",
-        "首先，将 Vercel MCP 服务器连接到 Claude、Cursor 或任何受支持的 MCP 客户端，并要求其部署您的项目。"
-      ],
-      "highlights": [
-        "Vercel MCP 服务器现在可以将代码直接部署到新的或现有的项目。当您的 AI 助手完成构建某些内容后，它可以将其发送给 Vercel 并返回可共享的 UR",
-        "将deploy_to_vercel 工具指向您的文件，Vercel 将创建项目、检测框架、安装依赖项并进行构建。当构建在后台完成时，您将获得一个可以打开和共享的",
-        "首先，将 Vercel MCP 服务器连接到 Claude、Cursor 或任何受支持的 MCP 客户端，并要求其部署您的项目。"
-      ],
-      "translated": true,
-      "date": "2026-07-23",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/vercel-mcp-can-now-deploy-code",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Vercel MCP can now deploy code - Vercel"
-      },
-      "raw": {
-        "title": "Vercel MCP can now deploy code",
-        "url": "https://vercel.com/changelog/vercel-mcp-can-now-deploy-code",
-        "savedAt": "2026-07-26T10:07:37.969Z",
-        "retranslatedAt": "2026-07-31T22:58:38.560Z",
-        "fetched": true
-      },
-      "translateMethod": "google",
-      "originalTitle": "Vercel MCP can now deploy code - Vercel",
-      "originalLang": "en"
-    },
-    {
-      "id": "sig-dc52ca5a9a",
-      "title": "The first known runaway AI agent - or a very bad marketing stunt?",
-      "summary": {
-        "oneSentence": "&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://martinalderson.com/posts/huggingface-openai-exploit/\"&gt;The first known runaway AI agent - or a very bad marketing s",
-        "bullets": [],
-        "audience": "",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "date": "2026-07-23",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "content": [
-        "&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://martinalderson.com/posts/huggingface-openai-exploit/\"&gt;The first known runaway AI agent - or a very bad marketing stunt?&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt; Martin Alderson's commentary on the &lt;a href=\"https://simonwillison.net/2026/Jul/22/openai-cyberattack/\"&gt;OpenAI accidental cyberattack against Hugging Face&lt;/a&gt; includes a couple of details I hadn't considered.&lt;/p&gt; &lt;p&gt;First, Hugging Face offers a truly rich target if you're trying to find potential vulnerabilities that require executing arbitrary code:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;Hugging Face has an &lt;em&gt;enormous&lt;/em&gt; attack surface. They have more interfaces than I can count which run untrusted models and code. While they definitely have invested in defences, by nature of their operating model they do have many more opportunities to be attacked than many other services. I certainly don't envy their cybersecurity teams.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;Secondly, one of the things that has puzzled me is how OpenAI didn't notice that their sandbox had been so thoroughly breached by the agent. Surely they'd be monitoring network traffic closely?&lt;/p&gt; &lt;p&gt;Martin points out that:&lt;/p&gt; &lt;blockquote&gt; &lt;p&gt;It's also likely they were running a huge amount of benchmarks simultaneously with ~unlimited token budgets - you want as many samples as possible to figure out how good a model is at a certain benchmark. It may also be they are testing various different checkpoints of the model too, understanding how the model is improving as it goes through the various training stages.&lt;/p&gt; &lt;/blockquote&gt; &lt;p&gt;The mistakes made by the OpenAI team running this benchmark are easier to imagine when you think about the scale at which benchmarks of this kind usually operate. For all we know they could have been subjecting a new model to dozens of benchmarks at the same time, in dozens of different environments. &lt;p&gt;&lt;small&gt;&lt;/small&gt;Via &lt;a href=\"https://lobste.rs/s/nsnb4j/first_known_runaway_ai_agent_very_bad\"&gt;Lobste.rs&lt;/a&gt;&lt;/small&gt;&lt;/p&gt; &lt;p&gt;Tags: &lt;a href=\"https://simonwillison.net/tags/security\"&gt;security&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/ai\"&gt;ai&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/openai\"&gt;openai&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/generative-ai\"&gt;generative-ai&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/llms\"&gt;llms&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/hugging-face\"&gt;hugging-face&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/ai-security-research\"&gt;ai-security-research&lt;/a&gt;&lt;/p&gt;"
-      ],
-      "highlights": [],
-      "source": {
-        "type": "blog",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/#atom-everything",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false
-      },
-      "oneLiner": "&lt;p&gt;&lt;strong&gt;&lt;a href=\"https://martinalderson.com/posts/huggingface-openai-exploit/\"&gt;The first known runaway AI agent - or a very bad marketing s",
-      "insight": {
-        "mainInsight": ""
-      },
-      "learning": {},
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "",
-        "readMinutes": 3
-      },
-      "affectedProductIds": []
-    },
-    {
-      "id": "sig-43429d78e1",
-      "title": "[AINews] \"Laguna S 2.1 Released: Cheaper than Deepseek v4 Flash, Better than V4 Pro\"",
-      "summary": {
-        "oneSentence": "a quiet day lets us highlight a new neolab win.",
-        "bullets": [],
-        "audience": "",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "date": "2026-07-23",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "content": [
-        "a quiet day lets us highlight a new neolab win."
-      ],
-      "highlights": [],
-      "source": {
-        "type": "blog",
-        "name": "Latent Space",
-        "author": "swyx & Alessio",
-        "url": "https://www.latent.space/p/ainews-laguna-s-21-released-cheaper",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false
-      },
-      "oneLiner": "a quiet day lets us highlight a new neolab win.",
-      "insight": {
-        "mainInsight": ""
-      },
-      "learning": {},
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "",
-        "readMinutes": 3
-      },
-      "affectedProductIds": []
-    },
-    {
-      "id": "sig-332d880765",
-      "title": "Inside the Model Factory — Eiso Kant, Poolside AI",
-      "summary": {
-        "oneSentence": "Poolside's co-CEO on how his small team of top researchers built a model factory capable of training Laguna S - a 118B MOE beating Thinky's ~1T open weights mod",
-        "bullets": [],
-        "audience": "",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "date": "2026-07-23",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "content": [
-        "Poolside's co-CEO on how his small team of top researchers built a model factory capable of training Laguna S - a 118B MOE beating Thinky's ~1T open weights model... and this is just the beginning."
-      ],
-      "highlights": [],
-      "source": {
-        "type": "blog",
-        "name": "Latent Space",
-        "author": "swyx & Alessio",
-        "url": "https://www.latent.space/p/poolside",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false
-      },
-      "oneLiner": "Poolside's co-CEO on how his small team of top researchers built a model factory capable of training Laguna S - a 118B MOE beating Thinky's ~1T open weights mod",
-      "insight": {
-        "mainInsight": ""
-      },
-      "learning": {},
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "",
-        "readMinutes": 3
-      },
-      "affectedProductIds": []
-    },
-    {
-      "id": "sig-d64f4f789a",
-      "title": "Quoting Seth Larson",
-      "summary": {
-        "oneSentence": "&lt;blockquote cite=\"https://blog.pypi.org/posts/2026-07-22-releases-now-reject-new-files-after-14-days/\"&gt;&lt;p&gt;The Python Package Index (PyPI) now reject",
-        "bullets": [],
-        "audience": "",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "date": "2026-07-23",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "content": [
-        "&lt;blockquote cite=\"https://blog.pypi.org/posts/2026-07-22-releases-now-reject-new-files-after-14-days/\"&gt;&lt;p&gt;The Python Package Index (PyPI) now rejects new files being uploaded to releases that are older than 14 days. This restriction was &lt;a href=\"https://github.com/pypi/warehouse/pull/19727\"&gt;put in place&lt;/a&gt; to prevent old and long-stable releases from being poisoned in case publishing tokens or workflows of PyPI projects were compromised. As far as we are aware this has not yet been abused, but there is no technical reason beyond that attackers weren't aware it was possible.&lt;/p&gt;&lt;/blockquote&gt; &lt;p class=\"cite\"&gt;&amp;mdash; &lt;a href=\"https://blog.pypi.org/posts/2026-07-22-releases-now-reject-new-files-after-14-days/\"&gt;Seth Larson&lt;/a&gt;, PyPI blog&lt;/p&gt; &lt;p&gt;Tags: &lt;a href=\"https://simonwillison.net/tags/packaging\"&gt;packaging&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/python\"&gt;python&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/supply-chain\"&gt;supply-chain&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/pypi\"&gt;pypi&lt;/a&gt;, &lt;a href=\"https://simonwillison.net/tags/seth-michael-larson\"&gt;seth-michael-larson&lt;/a&gt;&lt;/p&gt;"
-      ],
-      "highlights": [],
-      "source": {
-        "type": "blog",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Jul/23/seth-larson/#atom-everything",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false
-      },
-      "oneLiner": "&lt;blockquote cite=\"https://blog.pypi.org/posts/2026-07-22-releases-now-reject-new-files-after-14-days/\"&gt;&lt;p&gt;The Python Package Index (PyPI) now reject",
-      "insight": {
-        "mainInsight": ""
-      },
-      "learning": {},
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "",
-        "readMinutes": 3
-      },
-      "affectedProductIds": []
-    },
-    {
-      "id": "sig-7569338ee0",
-      "title": "Launching Health in ChatGPT",
-      "summary": {
-        "oneSentence": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their h",
-        "bullets": [],
-        "audience": "",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "date": "2026-07-23",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their health."
-      ],
-      "highlights": [],
-      "source": {
-        "type": "blog",
-        "name": "OpenAI Blog",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/health-in-chatgpt",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": false
-      },
-      "oneLiner": "Health in ChatGPT now lets eligible U.S. users securely connect medical records and Apple Health to get more personalized insights and better understand their h",
-      "insight": {
-        "mainInsight": ""
-      },
-      "learning": {},
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ]
     }
   ]
 }
