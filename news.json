@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-06T02:26:35.151Z",
+  "updatedAt": "2026-09-07T02:23:50.082Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 397,
+  "itemCount": 402,
   "brief": {
-    "date": "2026-09-06",
-    "generatedAt": "2026-09-06T02:26:35.150Z",
-    "totalCount": 397,
+    "date": "2026-09-07",
+    "generatedAt": "2026-09-07T02:23:50.081Z",
+    "totalCount": 402,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 397 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 402 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -26,11 +26,11 @@
         "readMinutes": 6
       },
       {
-        "id": "cur-cursor-agent",
-        "title": "Cursor 0.4x：Background Agent 与多文件自主修改",
-        "stars": 5,
-        "oneLiner": "Cursor 把 Coding Agent 从「补全」推进到「自主完成小需求」。",
-        "readMinutes": 4
+        "id": "sig-a8e8f9dc89",
+        "title": "外星人的心灵",
+        "stars": 4,
+        "oneLiner": "Jakub Pachocki 反思了日益强大的人工智能以及保持其一致性的挑战。他呼吁加强保障措施和国际协调。",
+        "readMinutes": 5
       },
       {
         "id": "sig-d5c9a183b7",
@@ -51,7 +51,7 @@
       "topUpdates": [
         "cur-openai-agentkit",
         "cur-anthropic-mcp",
-        "cur-cursor-agent",
+        "sig-a8e8f9dc89",
         "sig-d5c9a183b7",
         "sig-7dccfbf0b6",
         "sig-56da2c8ef8"
@@ -69,7 +69,7 @@
       "insights": [
         "cur-openai-agentkit",
         "cur-anthropic-mcp",
-        "cur-cursor-agent",
+        "sig-a8e8f9dc89",
         "sig-d5c9a183b7",
         "sig-7dccfbf0b6",
         "sig-56da2c8ef8",
@@ -78,8 +78,7 @@
       ],
       "emergingTrends": [
         "cur-openai-agentkit",
-        "cur-anthropic-mcp",
-        "cur-cursor-agent"
+        "cur-anthropic-mcp"
       ],
       "newApis": [
         "cur-openai-agentkit",
@@ -109,8 +108,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-09-06T02:26:35.151Z",
-    "summary": "近 30 天共 273 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-09-07T02:23:50.082Z",
+    "summary": "近 30 天共 280 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -125,6 +124,18 @@
     "risingTags": []
   },
   "productUpdates": [
+    {
+      "id": "sig-a8e8f9dc89",
+      "title": "外星人的心灵",
+      "oneLiner": "Jakub Pachocki 反思了日益强大的人工智能以及保持其一致性的挑战。他呼吁加强保障措施和国际协调。",
+      "date": "2026-09-06",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
     {
       "id": "sig-56da2c8ef8",
       "title": "隆重推出 WeatherNext 3，我们最先进、最准确的全球天气人工智能模型",
@@ -402,23 +413,355 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-f30efa9be5",
-      "title": "无需代码仓库，也能从零开始 · Cursor",
-      "oneLiner": "云端智能体不再需要连接 GitHub 或其他第三方 SCM 提供商即可开始使用。您可以立即输入提示，然后将工作保存到 Cursor Origin 代码仓库。",
-      "date": "2026-08-27",
-      "productIds": [
-        "cursor"
-      ],
-      "source": "Cursor",
-      "tags": [
-        "Release"
-      ],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-a8e8f9dc89",
+      "title": "外星人的心灵",
+      "oneLiner": "Jakub Pachocki 反思了日益强大的人工智能以及保持其一致性的挑战。他呼吁加强保障措施和国际协调。",
+      "summary": {
+        "oneSentence": "Jakub Pachocki 反思了日益强大的人工智能以及保持其一致性的挑战。他呼吁加强保障措施和国际协调。",
+        "bullets": [
+          "Jakub Pachocki 反思了日益强大的人工智能以及保持其一致性的挑战。他呼吁加强保障措施和国际协调。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：Jakub Pachocki 反思了日益强大的人工智能以及保持其一致性的挑战。他呼吁加强保障措施和国际协调。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/an-alien-mind"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Jakub Pachocki 反思了日益强大的人工智能以及保持其一致性的挑战。他呼吁加强保障措施和国际协调。"
+      ],
+      "highlights": [
+        "Jakub Pachocki 反思了日益强大的人工智能以及保持其一致性的挑战。他呼吁加强保障措施和国际协调。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "An Alien Mind",
+      "originalLang": "en",
+      "date": "2026-09-06",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/an-alien-mind",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "An Alien Mind"
+      },
+      "raw": {
+        "title": "An Alien Mind",
+        "url": "https://openai.com/index/an-alien-mind",
+        "fetched": false,
+        "savedAt": "2026-09-07T02:23:35.244Z"
+      }
+    },
+    {
+      "id": "sig-4f8847a860",
+      "title": "Research acceleration: The view inside OpenAI",
+      "oneLiner": "Research acceleration: The view inside OpenAI Apparently today is RSI day at OpenAI, for Recursive S",
+      "summary": {
+        "oneSentence": "Research acceleration: The view inside OpenAI Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I ",
+        "bullets": [
+          "Research acceleration: The view inside OpenAI Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay An Alien Mind (by Ch"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Research acceleration: The view inside OpenAI Apparently today is RSI day at OpenAI, for Recursive Self-Improvement - I think it's their new AGI. Both this piece and the new essay An Alien Mind (by Chief Scientist Jakub Pachocki) talk about it, and this one doesn't even bother to expand the acronym. Included are details on how OpenAI's own research team are using coding agents. Like pretty much everyone else 2026 has been the year that agentic engineering really took off at OpenAI, best illustrated by this chart: I'm intrigued at what caused that significant acceleration in AI spend per researcher in late July - my best guess is that's when internal employees gained access to the model later released as GPT-6 Astra. Tags: ai , openai , generative-ai , chatgpt , llms , coding-agents , november-2025-inflection , recursive-self-improvement"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Research acceleration: The view inside OpenAI",
+      "originalLang": "en",
+      "date": "2026-09-06",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Research acceleration: The view inside OpenAI"
+      },
+      "raw": {
+        "title": "Research acceleration: The view inside OpenAI",
+        "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+        "fetched": false,
+        "savedAt": "2026-09-07T02:23:36.046Z"
+      }
+    },
+    {
+      "id": "sig-20bde3d722",
+      "title": "The purpose of DNS is to spread scams",
+      "oneLiner": "The purpose of DNS is to spread scams Terence Eden shares some daunting statistics in support of his",
+      "summary": {
+        "oneSentence": "The purpose of DNS is to spread scams Terence Eden shares some daunting statistics in support of his take that \"the Doma",
+        "bullets": [
+          "The purpose of DNS is to spread scams Terence Eden shares some daunting statistics in support of his take that \"the Domain Name System's purpose seems to be a vector for criminals to run scams on peop"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "The purpose of DNS is to spread scams Terence Eden shares some daunting statistics in support of his take that \"the Domain Name System's purpose seems to be a vector for criminals to run scams on people at a terrifyingly high rate\". On this Interisle report ( via Andrew Campling ), Terence says: It says 85 million new registrations of gTLDs were made in 2025. Of those 8.5 million were added to blocklists by May 2025. It reckons that a 10% abuse rate is the likely floor for these numbers and it's probably closer to 20%. One in five newly registered domains with a gTLD are scams. That's a bloody crisis. I had no idea. Apparently ICANN have been discussing this problem for years. Tags: dns , scams , terence-eden"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "The purpose of DNS is to spread scams",
+      "originalLang": "en",
+      "date": "2026-09-06",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "The purpose of DNS is to spread scams"
+      },
+      "raw": {
+        "title": "The purpose of DNS is to spread scams",
+        "url": "https://simonwillison.net/2026/Sep/6/the-purpose-of-dns-is-to-spread-scams/",
+        "fetched": false,
+        "savedAt": "2026-09-07T02:23:36.847Z"
+      }
+    },
+    {
+      "id": "sig-8321172b50",
+      "title": "There's No Limit to How Bad Code Can Get",
+      "oneLiner": "My comment on There's No Limit to How Bad Code Can Get &mdash; Lobste.rs. [In reply to a comment abo",
+      "summary": {
+        "oneSentence": "My comment on There's No Limit to How Bad Code Can Get &mdash; Lobste.rs. [In reply to a comment about burning it down t",
+        "bullets": [
+          "My comment on There's No Limit to How Bad Code Can Get &mdash; Lobste.rs. [In reply to a comment about burning it down to start from scratch when technical debt becomes overwhelming] In my experience "
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "My comment on There's No Limit to How Bad Code Can Get &mdash; Lobste.rs. [In reply to a comment about burning it down to start from scratch when technical debt becomes overwhelming] In my experience it's so rare for that to work. You announce the old thing is irrecoverably drowning in tech debt. You spin up a team to rewrite it from scratch. Work begins. Meanwhile the old thing remains a moving target: it's running the core business, so changes are still necessary. The developers working on it know that it's going to be made obsolete by the new thing soon, so they don't have any incentive to go beyond the smallest effort possible to add the new features. Technical debt continues to mount. Meanwhile, the team working on the new thing are ambitious and probably a little naive. They start out at a great pace - it's greenfield after all - but as time progresses it becomes apparent that nobody fully understands the behavior and scope of the thing they are replacing. If it was well documented and tested it wouldn't need to be replaced, after all... After months (or even years) without delivering value, the pressure is on to \"ship it\", so the new system is launched to handle a subset of what the old system handled - or often for some new feature that was too hard to build with the now mostly unmaintained old system. ... so now you have TWO systems in production - the janky old system that nobody wants to touch, and a new system which handles just a few production features and is 80% inactive code that is meant to replace the old system, eventually. If you're really lucky the company won't have lost patience with the new system and will allow that work to continue. The longer this all takes, and the longer the old system stays in production and stubbornly continues to work, the higher the risk that \"priorities have changed\" and the new system total replacement work is abandoned, leaving you with two systems where you used to have one. The best article I've read about completing this process responsibly is Migrations: the sole scalable fix to tech debt by Will Larson. If I run into a situation like this in the future, my strong recommendation will be to shore up the old system with as much automated testing as possible and then seeing if targeted refactors can get it to the desired shape. My hunch is that in many cases that will have a much higher chance of success than the siren call of a greenfield replacement. Tags: migrations , technical-debt"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "There's No Limit to How Bad Code Can Get",
+      "originalLang": "en",
+      "date": "2026-09-06",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "There's No Limit to How Bad Code Can Get"
+      },
+      "raw": {
+        "title": "There's No Limit to How Bad Code Can Get",
+        "url": "https://simonwillison.net/2026/Sep/6/theres-no-limit-to-how-bad-code-can-get/",
+        "fetched": false,
+        "savedAt": "2026-09-07T02:23:37.649Z"
+      }
+    },
+    {
+      "id": "sig-eed2e484f5",
+      "title": "Quoting Zach Kehs",
+      "oneLiner": "If you continue to add floors and rooms to a building forever, it will collapse. Software faces no s",
+      "summary": {
+        "oneSentence": "If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The ",
+        "bullets": [
+          "If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code can always get worse. There can always be a new layer of indirection or a r"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/6/zach-kehs/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "If you continue to add floors and rooms to a building forever, it will collapse. Software faces no such constraint. The code can always get worse. There can always be a new layer of indirection or a reduction in performance. &mdash; Zach Kehs , There's No Limit to How Bad Code Can Get Tags: technical-debt"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Quoting Zach Kehs",
+      "originalLang": "en",
+      "date": "2026-09-06",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/6/zach-kehs/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Quoting Zach Kehs"
+      },
+      "raw": {
+        "title": "Quoting Zach Kehs",
+        "url": "https://simonwillison.net/2026/Sep/6/zach-kehs/",
+        "fetched": false,
+        "savedAt": "2026-09-07T02:23:38.450Z"
+      }
+    },
     {
       "id": "sig-921e4d073b",
       "title": "Introducing GPT-6 Astra for developers",
@@ -2461,7 +2804,7 @@
         "url": "https://cursor.com/changelog/self-hosted-machines",
         "fetched": true,
         "savedAt": "2026-09-03T02:33:34.106Z",
-        "retranslatedAt": "2026-09-06T02:26:28.390Z"
+        "retranslatedAt": "2026-09-07T02:23:44.559Z"
       }
     },
     {
@@ -4158,6 +4501,346 @@
         "url": "https://simonwillison.net/2026/Sep/1/geojson/",
         "fetched": false,
         "savedAt": "2026-09-06T02:26:27.321Z"
+      }
+    },
+    {
+      "id": "sig-f632cad25f",
+      "title": "Quoting Tarn Adams",
+      "oneLiner": "They took the letters from me! I have to talk about dwarf behavior now. I can't even talk about dwar",
+      "summary": {
+        "oneSentence": "They took the letters from me! I have to talk about dwarf behavior now. I can't even talk about dwarf AI. It doesn't exi",
+        "bullets": [
+          "They took the letters from me! I have to talk about dwarf behavior now. I can't even talk about dwarf AI. It doesn't exist. It's dwarf behavior , and they misbehave sometimes &mdash; Tarn Adams , co-c"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/1/tarn-adams/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "They took the letters from me! I have to talk about dwarf behavior now. I can't even talk about dwarf AI. It doesn't exist. It's dwarf behavior , and they misbehave sometimes &mdash; Tarn Adams , co-creator of Dwarf Fortress Tags: ai , game-design"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Quoting Tarn Adams",
+      "originalLang": "en",
+      "date": "2026-09-01",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/1/tarn-adams/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Quoting Tarn Adams"
+      },
+      "raw": {
+        "title": "Quoting Tarn Adams",
+        "url": "https://simonwillison.net/2026/Sep/1/tarn-adams/",
+        "fetched": false,
+        "savedAt": "2026-09-07T02:23:39.251Z"
+      }
+    },
+    {
+      "id": "sig-b0705d7f30",
+      "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+      "oneLiner": "Vercel’s AI SDK, Astro, Flue and tldraw are replacing drive-by community PRs with software factories",
+      "summary": {
+        "oneSentence": "Vercel’s AI SDK, Astro, Flue and tldraw are replacing drive-by community PRs with software factories, where teams of age",
+        "bullets": [
+          "Vercel’s AI SDK, Astro, Flue and tldraw are replacing drive-by community PRs with software factories, where teams of agents apply fixes and features."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.latent.space/p/pr-not-welcome"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel’s AI SDK, Astro, Flue and tldraw are replacing drive-by community PRs with software factories, where teams of agents apply fixes and features."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+      "originalLang": "en",
+      "date": "2026-09-01",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/p/pr-not-welcome",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors"
+      },
+      "raw": {
+        "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
+        "url": "https://www.latent.space/p/pr-not-welcome",
+        "fetched": false,
+        "savedAt": "2026-09-07T02:23:40.053Z"
+      }
+    },
+    {
+      "id": "sig-344c2bcd70",
+      "title": "datasette-mcp 0.2",
+      "oneLiner": "Release: datasette-mcp 0.2 \"rows\" from execute_sql is now an array of objects. Previously it was an ",
+      "summary": {
+        "oneSentence": "Release: datasette-mcp 0.2 \"rows\" from execute_sql is now an array of objects. Previously it was an array of arrays. Thi",
+        "bullets": [
+          "Release: datasette-mcp 0.2 \"rows\" from execute_sql is now an array of objects. Previously it was an array of arrays. This should help weaker models avoid losing track of which positional array element"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/1/datasette-mcp/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Release: datasette-mcp 0.2 \"rows\" from execute_sql is now an array of objects. Previously it was an array of arrays. This should help weaker models avoid losing track of which positional array element maps to which column. #1 Now depends on mcp>=2.1.1 . This is the first non-alpha release of the plugin. I'm confident it's ready as I've been using it quite a bit myself. Tags: datasette , model-context-protocol"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "datasette-mcp 0.2",
+      "originalLang": "en",
+      "date": "2026-09-01",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/1/datasette-mcp/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "datasette-mcp 0.2"
+      },
+      "raw": {
+        "title": "datasette-mcp 0.2",
+        "url": "https://simonwillison.net/2026/Sep/1/datasette-mcp/",
+        "fetched": false,
+        "savedAt": "2026-09-07T02:23:40.854Z"
+      }
+    },
+    {
+      "id": "sig-58319d71cb",
+      "title": "Python 3.15.0 candidate 2 is here!",
+      "oneLiner": "Python 3.15.0 candidate 2 is here! Hugo van Kemenade (release manager for Python 3.14 and 3.15) anno",
+      "summary": {
+        "oneSentence": "Python 3.15.0 candidate 2 is here! Hugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final rele",
+        "bullets": [
+          "Python 3.15.0 candidate 2 is here! Hugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final release candidate for Python 3.15, scheduled for release in October: Entering the re"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/1/python-315-rc-2/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Python 3.15.0 candidate 2 is here! Hugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final release candidate for Python 3.15, scheduled for release in October: Entering the release candidate phase, only reviewed code changes which are clear bug fixes are allowed between this release candidate and the final release. [...] We strongly encourage maintainers of third-party Python projects to prepare their projects for 3.15 during this phase, and publish Python 3.15 wheels on PyPI to be ready for the final release of 3.15.0, and to help other projects do their own testing. Any binary wheels built against Python 3.15.0 release candidates will work with future versions of Python 3.15. Back in 2021 I found a bug in Python 3.10 by running my test suites against it... but I hadn't done this during the RC period, so that bug had already shipped! Since then I've always paid much closer attention to these RCs. The new RC isn't available for GitHub Actions just yet - keep an eye on actions/python-versions for that. For the moment though you can add this to a testing matrix: strategy : matrix : python-version : [\"3.14\", \"3.15\"] steps : - uses : actions/setup-python@v7 with : python-version : ${{ matrix.python-version }} allow-prereleases : true check-latest : true The allow-prereleases and check-latest flags mean that today this will test against RC1, and when RC2 lands it will automatically switch to that version (and then the stable version once that comes out.) Update : Datasette passes , sqlite-utils passes , LLM is currently blocked waiting for a 3.15 wheel for scikit-learn , which is optionally used in the test suite. Via @hugovk.dev Tags: open-source , python , github-actions"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Python 3.15.0 candidate 2 is here!",
+      "originalLang": "en",
+      "date": "2026-09-01",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/1/python-315-rc-2/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Python 3.15.0 candidate 2 is here!"
+      },
+      "raw": {
+        "title": "Python 3.15.0 candidate 2 is here!",
+        "url": "https://simonwillison.net/2026/Sep/1/python-315-rc-2/",
+        "fetched": false,
+        "savedAt": "2026-09-07T02:23:41.655Z"
+      }
+    },
+    {
+      "id": "sig-f8c2c13ce5",
+      "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
+      "oneLiner": "You can now create decent video faster than you watch it. This is the start of... something. We’re n",
+      "summary": {
+        "oneSentence": "You can now create decent video faster than you watch it. This is the start of... something. We’re not sure what.",
+        "bullets": [
+          "You can now create decent video faster than you watch it. This is the start of... something. We’re not sure what."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "You can now create decent video faster than you watch it. This is the start of... something. We’re not sure what."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
+      "originalLang": "en",
+      "date": "2026-09-01",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier"
+      },
+      "raw": {
+        "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
+        "url": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
+        "fetched": false,
+        "savedAt": "2026-09-07T02:23:42.457Z"
       }
     },
     {
@@ -5922,7 +6605,7 @@
         "url": "https://cursor.com/changelog/start-from-scratch",
         "fetched": true,
         "savedAt": "2026-08-28T08:33:37.517Z",
-        "retranslatedAt": "2026-09-06T02:26:29.435Z"
+        "retranslatedAt": "2026-09-07T02:23:45.530Z"
       }
     },
     {
@@ -30736,372 +31419,6 @@
         "Cursor 已支持",
         "插件化架构值得学习"
       ]
-    },
-    {
-      "id": "cur-cursor-agent",
-      "title": "Cursor 0.4x：Background Agent 与多文件自主修改",
-      "oneLiner": "Cursor 把 Coding Agent 从「补全」推进到「自主完成小需求」。",
-      "date": "2026-07-24",
-      "tags": [
-        "Coding",
-        "Agent",
-        "Release"
-      ],
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [
-        "cursor"
-      ],
-      "importance": {
-        "stars": 5,
-        "reason": "编程 Agent 赛道风向标",
-        "readMinutes": 4
-      },
-      "source": {
-        "type": "release",
-        "group": "company",
-        "name": "Cursor",
-        "author": "Cursor",
-        "url": "https://cursor.com/changelog",
-        "home": "https://cursor.com",
-        "lang": "en",
-        "translated": true
-      },
-      "summary": {
-        "oneSentence": "Cursor 更新 Background Agent，可在后台扫描仓库、提 PR 式修改建议。",
-        "bullets": [
-          "Background Agent 异步执行",
-          "更长的上下文窗口与代码库索引",
-          "与 MCP 工具链整合"
-        ],
-        "audience": "开发者、技术产品经理",
-        "readMinutes": 4,
-        "keywords": [
-          "Cursor",
-          "Coding Agent",
-          "IDE"
-        ]
-      },
-      "insight": {
-        "mainInsight": "IDE Agent 的竞争焦点从「写单行代码」转向「理解整个 Repo 并交付可合并改动」。",
-        "whyNow": "用户不再满足于 Copilot 式补全，需要端到端任务完成。",
-        "problem": "大仓库上下文管理与变更可信度。",
-        "trend": "Coding Agent + Workspace",
-        "differentiation": "与 GitHub Copilot Workspace、Devin 直接竞争。",
-        "outlook": "「提 Issue → Agent 出 PR」将成为开发者工作流默认环节。"
-      },
-      "learning": {
-        "whyImportant": "Coding Agent 是 Agent 品类中最快产生付费意愿的赛道之一。",
-        "productDesign": "学习其「Diff 预览 + 一键 Apply + 回滚」的信任设计，降低自主 Agent 的心理门槛。",
-        "relevance": "Coding Agent、Agent、MCP、Workflow。",
-        "actionItems": [
-          "阅读 Cursor Changelog",
-          "对比 Trae / Claude Code 的同类功能",
-          "试用 Background Agent 处理一个小 Bug"
-        ]
-      },
-      "content": [
-        "Cursor 持续迭代 Agent 模式，强调在真实代码库上的多文件编辑能力，而非 isolated snippet 生成。",
-        "产品学习者应关注：它如何展示 Agent 的「计划步骤」、如何让用户在 Apply 前审查 Diff、如何处理失败重试。",
-        "这类交互模式同样适用于非代码 Agent（如运营自动化、设计稿修改）。"
-      ],
-      "highlights": [
-        "Background Agent",
-        "Repo 级理解",
-        "Diff 信任设计"
-      ]
-    },
-    {
-      "id": "sig-328b19c381",
-      "title": "适用于 Blob 的 Vercel WAF 现已处于测试阶段 - Vercel",
-      "oneLiner": "Vercel WAF 现在可以保护 Vercel Blob 存储。保护部署的相同规则（拒绝、质询、速率限制）现在适用于 blob 流量，无需更改代码、blob URL 或 @vercel/blob 。",
-      "summary": {
-        "oneSentence": "Vercel WAF 现在可以保护 Vercel Blob 存储。保护部署的相同规则（拒绝、质询、速率限制）现在适用于 blob 流量，无需更改代码、blob URL 或 @vercel/blob 。",
-        "bullets": [
-          "Vercel WAF 现在可以保护 Vercel Blob 存储。保护部署的相同规则（拒绝、质询、速率限制）现在适用于 blob 流量，无需更改代码、blob URL 或 @vercel/blob 。",
-          "每个 blob 都已通过 Vercel 的 CDN 提供服务，因此保护是存储上的开关，而不是新的代理。在提供字节之前停止抓取工具、地理限制下载、限制昂贵资产的速率或阻止滥用 IP。",
-          "规则在边缘进行评估，匹配 IP、国家/地区、路径等：",
-          "Deny 返回 403 并提前停止请求，因此不会发生数据传输。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Vercel WAF 现在可以保护 Vercel Blob 存储。保护部署的相同规则（拒绝、质询、速率限制）现在适用于 blob 流量，无需更改代码、blob URL 或 @vercel/blob 。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/vercel-waf-for-blob-is-now-in-beta"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Vercel WAF 现在可以保护 Vercel Blob 存储。保护部署的相同规则（拒绝、质询、速率限制）现在适用于 blob 流量，无需更改代码、blob URL 或 @vercel/blob 。",
-        "每个 blob 都已通过 Vercel 的 CDN 提供服务，因此保护是存储上的开关，而不是新的代理。在提供字节之前停止抓取工具、地理限制下载、限制昂贵资产的速率或阻止滥用 IP。",
-        "规则在边缘进行评估，匹配 IP、国家/地区、路径等：",
-        "Deny 返回 403 并提前停止请求，因此不会发生数据传输。",
-        "挑战服务于标准浏览器挑战，失败的请求将被阻止。",
-        "当客户端超出您的限制时，速率限制会返回 429。",
-        "重定向和日志的行为与部署流量的行为相同。",
-        "不支持 OWASP 核心规则集，因为它的目标是动态应用程序流量，而不是对象传递。",
-        "将链接复制到标题保护商店设置是仪表板中的单个开关：",
-        "打开您的 Blob 商店，选择“设置”，然后选择“保护您的商店”。"
-      ],
-      "highlights": [
-        "Vercel WAF 现在可以保护 Vercel Blob 存储。保护部署的相同规则（拒绝、质询、速率限制）现在适用于 blob 流量，无需更改代码、blob ",
-        "每个 blob 都已通过 Vercel 的 CDN 提供服务，因此保护是存储上的开关，而不是新的代理。在提供字节之前停止抓取工具、地理限制下载、限制昂贵资产的速",
-        "规则在边缘进行评估，匹配 IP、国家/地区、路径等："
-      ],
-      "translated": true,
-      "date": "2026-07-24",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/vercel-waf-for-blob-is-now-in-beta",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Vercel WAF for Blob is now in beta - Vercel"
-      },
-      "raw": {
-        "title": "Vercel WAF for Blob is now in beta",
-        "url": "https://vercel.com/changelog/vercel-waf-for-blob-is-now-in-beta",
-        "savedAt": "2026-07-26T10:07:37.966Z",
-        "retranslatedAt": "2026-07-31T10:21:35.859Z",
-        "fetched": true
-      },
-      "translateMethod": "google",
-      "originalTitle": "Vercel WAF for Blob is now in beta - Vercel",
-      "originalLang": "en"
-    },
-    {
-      "id": "sig-ba963310c6",
-      "title": "工作流程步骤现在支持延长功能持续时间 - Vercel",
-      "oneLiner": "现在，使用延长的功能持续时间（测试版），Pro 和 Enterprise 计划上的工作流程步骤可以运行长达 30 分钟（1800 秒），而不是 800 秒。",
-      "summary": {
-        "oneSentence": "现在，使用延长的功能持续时间（测试版），Pro 和 Enterprise 计划上的工作流程步骤可以运行长达 30 分钟（1800 秒），而不是 800 秒。",
-        "bullets": [
-          "现在，使用延长的功能持续时间（测试版），Pro 和 Enterprise 计划上的工作流程步骤可以运行长达 30 分钟（1800 秒），而不是 800 秒。",
-          "要选择加入，请在项目的环境变量中将 VERCEL_ENABLE_WORKFLOW_EXTENDED_MAX_DURATION 设置为 1，然后重新部署。需要流畅的计算和受支持的 Node.js 或 Python 运行时。",
-          "爱好计划不提供延长持续时间，该计划仍限制为 5 分钟（300 秒）。",
-          "请参阅文档中计划的功能持续时间限制。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：现在，使用延长的功能持续时间（测试版），Pro 和 Enterprise 计划上的工作流程步骤可以运行长达 30 分钟（1800 秒），而不是 800 秒。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/workflow-steps-now-support-extended-function-durations"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "现在，使用延长的功能持续时间（测试版），Pro 和 Enterprise 计划上的工作流程步骤可以运行长达 30 分钟（1800 秒），而不是 800 秒。",
-        "要选择加入，请在项目的环境变量中将 VERCEL_ENABLE_WORKFLOW_EXTENDED_MAX_DURATION 设置为 1，然后重新部署。需要流畅的计算和受支持的 Node.js 或 Python 运行时。",
-        "爱好计划不提供延长持续时间，该计划仍限制为 5 分钟（300 秒）。",
-        "请参阅文档中计划的功能持续时间限制。"
-      ],
-      "highlights": [
-        "现在，使用延长的功能持续时间（测试版），Pro 和 Enterprise 计划上的工作流程步骤可以运行长达 30 分钟（1800 秒），而不是 800 秒。",
-        "要选择加入，请在项目的环境变量中将 VERCEL_ENABLE_WORKFLOW_EXTENDED_MAX_DURATION 设置为 1，然后重新部署。需要流畅",
-        "爱好计划不提供延长持续时间，该计划仍限制为 5 分钟（300 秒）。"
-      ],
-      "translated": true,
-      "date": "2026-07-24",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/workflow-steps-now-support-extended-function-durations",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Workflow steps now support extended function durations - Vercel"
-      },
-      "raw": {
-        "title": "Workflow steps now support extended function durations",
-        "url": "https://vercel.com/changelog/workflow-steps-now-support-extended-function-durations",
-        "savedAt": "2026-07-26T10:07:37.967Z",
-        "retranslatedAt": "2026-07-31T10:21:40.933Z",
-        "fetched": true
-      },
-      "translateMethod": "google",
-      "originalTitle": "Workflow steps now support extended function durations - Vercel",
-      "originalLang": "en"
-    },
-    {
-      "id": "sig-9a1d7c56ff",
-      "title": "Claude Opus 5 现已在 AI Gateway 上可用 - Vercel",
-      "oneLiner": "Anthropic 的 Claude Opus 5 现已在 AI Gateway 上提供。",
-      "summary": {
-        "oneSentence": "Anthropic 的 Claude Opus 5 现已在 AI Gateway 上提供。",
-        "bullets": [
-          "Anthropic 的 Claude Opus 5 现已在 AI Gateway 上提供。",
-          "Opus 5 改进了以前的 Opus 模型，可实现长范围代理编码、处理多文件功能、更大的重构和端到端功能工作，并完成完整任务而不是留下存根或占位符。",
-          "Opus 5 在低强度和中等强度的情况下是有效的，它可以以较高设置的一小部分令牌和延迟来产生质量。视觉在图表、文档、图表和 UI 复制上更加强大，Opus 5 有效利用工具来分析、裁剪和验证视觉作品。它还可以很好地协调子代理团队，这适合多代理工作流程。",
-          "默认情况下推理处于启用状态。在 AI SDK 7 中，使用顶级推理选项设置推理工作，从最小到 xhigh 或 none ："
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Anthropic 的 Claude Opus 5 现已在 AI Gateway 上提供。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/claude-opus-5-now-available-on-ai-gateway"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Anthropic 的 Claude Opus 5 现已在 AI Gateway 上提供。",
-        "Opus 5 改进了以前的 Opus 模型，可实现长范围代理编码、处理多文件功能、更大的重构和端到端功能工作，并完成完整任务而不是留下存根或占位符。",
-        "Opus 5 在低强度和中等强度的情况下是有效的，它可以以较高设置的一小部分令牌和延迟来产生质量。视觉在图表、文档、图表和 UI 复制上更加强大，Opus 5 有效利用工具来分析、裁剪和验证视觉作品。它还可以很好地协调子代理团队，这适合多代理工作流程。",
-        "默认情况下推理处于启用状态。在 AI SDK 7 中，使用顶级推理选项设置推理工作，从最小到 xhigh 或 none ：",
-        "1 从 'ai' 导入 {streamText} ； 2 3 const result = StreamText({ 4 model : 'anthropic/claude-opus-5' , 5prompt : '实现本期描述的多文件重构。' , 6reasoning : 'medium' , 7 } ) ;",
-        "与《神鬼寓言 5》一样，《Opus 5》配备了更高的网络安全保障措施，因此良性的安全工作偶尔会触发安全分类器并被阻止。要添加后备方案，请使用 AI Gateway 的模型后备方案。在providerOptions.gateway下的models数组中列出备份模型，当主模型失败时，网关会按顺序尝试它们。相同的选项适用于所有 AI Gateway API 格式。",
-        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText ( { 4 model : 'anthropic/claude-opus-5' , 5 提示 : '审核此脚本是否存在漏洞。' , 6 providerOptions : { 7 gateway : { 8 models : [ 'anthropic/claude-opus-4.8' , 'anthropic/claude-sonnet-5' ] , 9 } , 10 } , 11 } );",
-        "Opus 5 与零数据保留兼容。",
-        "将链接复制到标题快速模式要启用快速模式，请在 AI SDK 的人类提供程序选项中传递 speed: 'fast'：",
-        "1 从“ai”导入{streamText}； 2 3 const { text } =等待streamText（{4模型：'anthropic/claude-opus-5'，5提示，6providerOptions：{7anthropic：{8速度：'fast'，9}，10}，11}）；"
-      ],
-      "highlights": [
-        "Anthropic 的 Claude Opus 5 现已在 AI Gateway 上提供。",
-        "Opus 5 改进了以前的 Opus 模型，可实现长范围代理编码、处理多文件功能、更大的重构和端到端功能工作，并完成完整任务而不是留下存根或占位符。",
-        "Opus 5 在低强度和中等强度的情况下是有效的，它可以以较高设置的一小部分令牌和延迟来产生质量。视觉在图表、文档、图表和 UI 复制上更加强大，Opus 5 "
-      ],
-      "translated": true,
-      "date": "2026-07-24",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/claude-opus-5-now-available-on-ai-gateway",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Claude Opus 5 now available on AI Gateway - Vercel"
-      },
-      "raw": {
-        "title": "Claude Opus 5 now available on AI Gateway",
-        "url": "https://vercel.com/changelog/claude-opus-5-now-available-on-ai-gateway",
-        "savedAt": "2026-07-26T10:07:37.967Z",
-        "retranslatedAt": "2026-07-31T10:21:50.604Z",
-        "fetched": true
-      },
-      "translateMethod": "google",
-      "originalTitle": "Claude Opus 5 now available on AI Gateway - Vercel",
-      "originalLang": "en"
-    },
-    {
-      "id": "sig-1651e28012",
-      "title": "[AINews] Black Forest Labs FLUX 3 - Multimodal Flow Models that beat Seedance 2.0, Gemini Omni and Grok Imagine, and FLUX-mimic video-action robotics model",
-      "summary": {
-        "oneSentence": "A HUGE win for BFL!",
-        "bullets": [],
-        "audience": "",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "date": "2026-07-24",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "content": [
-        "A HUGE win for BFL!"
-      ],
-      "highlights": [],
-      "source": {
-        "type": "blog",
-        "name": "Latent Space",
-        "author": "swyx & Alessio",
-        "url": "https://www.latent.space/p/ainews-black-forest-labs-flux-3-multimodal",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false
-      },
-      "oneLiner": "A HUGE win for BFL!",
-      "insight": {
-        "mainInsight": ""
-      },
-      "learning": {},
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "",
-        "readMinutes": 3
-      },
-      "affectedProductIds": []
     }
   ]
 }
