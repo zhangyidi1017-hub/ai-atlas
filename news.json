@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-07T02:23:50.082Z",
+  "updatedAt": "2026-09-08T02:36:43.352Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 402,
+  "itemCount": 411,
   "brief": {
-    "date": "2026-09-07",
-    "generatedAt": "2026-09-07T02:23:50.081Z",
-    "totalCount": 402,
+    "date": "2026-09-08",
+    "generatedAt": "2026-09-08T02:36:43.351Z",
+    "totalCount": 411,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 402 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 411 条",
     "topUpdates": [
       {
         "id": "cur-openai-agentkit",
@@ -17,13 +17,6 @@
         "stars": 5,
         "oneLiner": "OpenAI 继续把「对话模型」升级为「可调用工具的 Agent 运行时」。",
         "readMinutes": 5
-      },
-      {
-        "id": "cur-anthropic-mcp",
-        "title": "Anthropic 推动 MCP：让 Agent 统一连接外部工具与数据源",
-        "stars": 5,
-        "oneLiner": "MCP 正在成为 AI 工具互操作的「USB-C 标准」候选。",
-        "readMinutes": 6
       },
       {
         "id": "sig-a8e8f9dc89",
@@ -45,16 +38,23 @@
         "stars": 4,
         "oneLiner": "OpenAI 的 GPT 6 Astra 现已在 AI Gateway 上提供。它专为跨软件工程、计算机和浏览器使用、科学研究和专业工作流程的长期代理工作而设计。",
         "readMinutes": 5
+      },
+      {
+        "id": "sig-56da2c8ef8",
+        "title": "隆重推出 WeatherNext 3，我们最先进、最准确的全球天气人工智能模型",
+        "stars": 4,
+        "oneLiner": "我们的旗舰人工智能天气预报模型现在包括实时卫星数据、每小时刷新、更高分辨率、精确的降水预报和清洁能源变量。它现在已集成到搜索、Gemini、地图、Google 地图平台和云中。",
+        "readMinutes": 5
       }
     ],
     "sections": {
       "topUpdates": [
         "cur-openai-agentkit",
-        "cur-anthropic-mcp",
         "sig-a8e8f9dc89",
         "sig-d5c9a183b7",
         "sig-7dccfbf0b6",
-        "sig-56da2c8ef8"
+        "sig-56da2c8ef8",
+        "sig-16708db524"
       ],
       "newReleases": [
         "sig-fe5941ee46",
@@ -68,21 +68,19 @@
       ],
       "insights": [
         "cur-openai-agentkit",
-        "cur-anthropic-mcp",
         "sig-a8e8f9dc89",
         "sig-d5c9a183b7",
         "sig-7dccfbf0b6",
         "sig-56da2c8ef8",
         "sig-16708db524",
-        "sig-5190d2a1dc"
+        "sig-5190d2a1dc",
+        "sig-be4a3c5426"
       ],
       "emergingTrends": [
-        "cur-openai-agentkit",
-        "cur-anthropic-mcp"
+        "cur-openai-agentkit"
       ],
       "newApis": [
-        "cur-openai-agentkit",
-        "cur-anthropic-mcp"
+        "cur-openai-agentkit"
       ],
       "githubTrending": [
         "sig-53958cf51f",
@@ -108,8 +106,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-09-07T02:23:50.082Z",
-    "summary": "近 30 天共 280 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-09-08T02:36:43.352Z",
+    "summary": "近 30 天共 290 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -125,6 +123,18 @@
   },
   "productUpdates": [
     {
+      "id": "sig-e02ae19def",
+      "title": "Supporting independent journalism in Ukraine",
+      "oneLiner": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen inn",
+      "date": "2026-09-07",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
+    },
+    {
       "id": "sig-a8e8f9dc89",
       "title": "外星人的心灵",
       "oneLiner": "Jakub Pachocki 反思了日益强大的人工智能以及保持其一致性的挑战。他呼吁加强保障措施和国际协调。",
@@ -135,6 +145,18 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
+    },
+    {
+      "id": "sig-19672c4832",
+      "title": "Research acceleration: The view inside OpenAI",
+      "oneLiner": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experimen",
+      "date": "2026-09-06",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
     },
     {
       "id": "sig-56da2c8ef8",
@@ -389,33 +411,488 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-092c8de02e",
-      "title": "Cursor 被 SpaceX 收购后我们对 Cursor 的决定",
-      "oneLiner": "在 Cursor 被 SpaceX 收购后，我们决定终止向 Cursor 提供 OpenAI 模型的合同。",
-      "date": "2026-08-28",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-0b00c80d50",
-      "title": "支持泰国下一代人工智能初创公司",
-      "oneLiner": "OpenAI 和泰国的 MHESI 推出了为期八周的加速器，帮助 10 家健康、保健和教育初创公司将人工智能原型转变为值得信赖的产品。",
-      "date": "2026-08-28",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-e02ae19def",
+      "title": "Supporting independent journalism in Ukraine",
+      "oneLiner": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen inn",
+      "summary": {
+        "oneSentence": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience,",
+        "bullets": [
+          "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/supporting-independent-journalism-in-ukraine"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Supporting independent journalism in Ukraine",
+      "originalLang": "en",
+      "date": "2026-09-07",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Supporting independent journalism in Ukraine"
+      },
+      "raw": {
+        "title": "Supporting independent journalism in Ukraine",
+        "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+        "fetched": false,
+        "savedAt": "2026-09-08T02:36:27.388Z"
+      }
+    },
+    {
+      "id": "sig-276c6225db",
+      "title": "llm 0.35",
+      "oneLiner": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra",
+      "summary": {
+        "oneSentence": "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra",
+        "bullets": [
+          "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/7/llm/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Release: llm 0.35 New OpenAI model: gpt-6-astra for GPT-6 Astra . Tags: openai , llm , gpt-6-astra"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "llm 0.35",
+      "originalLang": "en",
+      "date": "2026-09-07",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/7/llm/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "llm 0.35"
+      },
+      "raw": {
+        "title": "llm 0.35",
+        "url": "https://simonwillison.net/2026/Sep/7/llm/",
+        "fetched": false,
+        "savedAt": "2026-09-08T02:36:29.596Z"
+      }
+    },
+    {
+      "id": "sig-315af994e1",
+      "title": "Creepy crawlies",
+      "oneLiner": "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawler",
+      "summary": {
+        "oneSentence": "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from th",
+        "bullets": [
+          "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kern"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/7/creepy-crawlies/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Creepy crawlies Konstantin Ryabitsev discusses how bad the \"background radiation\" of abusive crawlers has become from the perspective of git.kernel.org , the official Git repository for the Linux kernel: TL;DR: we spend more CPU cycles rendering commits for scrapers than we spend on all other kinds of legitimate access, including git clones. At any one time, across 5 geo-distributed nodes, there are 14 CPU cores doing nothing but rendering git commits as html. I worry about this a lot from the perspective of Datasette, which serves a huge number of crawlable web pages. Via Hacker News Tags: crawling , git , linux , datasette , ai-ethics"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Creepy crawlies",
+      "originalLang": "en",
+      "date": "2026-09-07",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Creepy crawlies"
+      },
+      "raw": {
+        "title": "Creepy crawlies",
+        "url": "https://simonwillison.net/2026/Sep/7/creepy-crawlies/",
+        "fetched": false,
+        "savedAt": "2026-09-08T02:36:30.397Z"
+      }
+    },
+    {
+      "id": "sig-b392e02044",
+      "title": "Quoting Jakub Pachocki",
+      "oneLiner": "The strongest argument I see for continuing to train much smarter models quickly is the need to buil",
+      "summary": {
+        "oneSentence": "The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems ",
+        "bullets": [
+          "The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI f"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/7/jakub-pachocki/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "The strongest argument I see for continuing to train much smarter models quickly is the need to build defensive systems against the dangers posed by other AI. [...] We will need powerful, aligned AI for defense; to secure infrastructure, to protect against rogue agents in real time, and to invent entirely new protective measures. This will be a primary focus of OpenAI’s deployment efforts. At the same time, even with the uncertainty that comes from anticipated broad AI progress and the need to build defensive systems, we must not let that become an excuse for recklessness. The idea of racing forward at all costs seems absurd once one internalizes the seriousness of the stakes. &mdash; Jakub Pachocki , Chief Scientist at OpenAI Tags: ai-ethics , openai , ai"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Quoting Jakub Pachocki",
+      "originalLang": "en",
+      "date": "2026-09-07",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Quoting Jakub Pachocki"
+      },
+      "raw": {
+        "title": "Quoting Jakub Pachocki",
+        "url": "https://simonwillison.net/2026/Sep/7/jakub-pachocki/",
+        "fetched": false,
+        "savedAt": "2026-09-08T02:36:31.198Z"
+      }
+    },
+    {
+      "id": "sig-5eebfa2383",
+      "title": "The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)",
+      "oneLiner": "Our first Astra project dives into AEO trends, a top asked topic from founders and DX leaders we tal",
+      "summary": {
+        "oneSentence": "Our first Astra project dives into AEO trends, a top asked topic from founders and DX leaders we talk to.",
+        "bullets": [
+          "Our first Astra project dives into AEO trends, a top asked topic from founders and DX leaders we talk to."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.latent.space/p/aeo"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Our first Astra project dives into AEO trends, a top asked topic from founders and DX leaders we talk to."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)",
+      "originalLang": "en",
+      "date": "2026-09-07",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/p/aeo",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)"
+      },
+      "raw": {
+        "title": "The Frontier AEO Tracker: What Astra Chooses (and every other frontier model, and what you can do about it)",
+        "url": "https://www.latent.space/p/aeo",
+        "fetched": false,
+        "savedAt": "2026-09-08T02:36:32.000Z"
+      }
+    },
+    {
+      "id": "sig-394fcc6daf",
+      "title": "Video compressor",
+      "oneLiner": "Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wan",
+      "summary": {
+        "oneSentence": "Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an op",
+        "bullets": [
+          "Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/7/video-compressor/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Tool: Video compressor I recorded a short demo video of my Equal Earth animation on my phone and wanted to publish an optimized version of that video (using FFMPEG) on my blog, so I had Claude Fable 5.1 in Claude Code for web build me this tool using the WebAssembly build of FFMPEG. Tags: ffmpeg , video , webassembly , claude , claude-code , claude-mythos-fable"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Video compressor",
+      "originalLang": "en",
+      "date": "2026-09-07",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/7/video-compressor/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Video compressor"
+      },
+      "raw": {
+        "title": "Video compressor",
+        "url": "https://simonwillison.net/2026/Sep/7/video-compressor/",
+        "fetched": false,
+        "savedAt": "2026-09-08T02:36:32.800Z"
+      }
+    },
+    {
+      "id": "sig-edfb48bd8f",
+      "title": "Mercator ↔ Equal Earth",
+      "oneLiner": "Tool: Mercator ↔ Equal Earth I got curious about the Equal Earth map projection that was recently vo",
+      "summary": {
+        "oneSentence": "Tool: Mercator ↔ Equal Earth I got curious about the Equal Earth map projection that was recently voted on at the UN so ",
+        "bullets": [
+          "Tool: Mercator ↔ Equal Earth I got curious about the Equal Earth map projection that was recently voted on at the UN so I had GPT-6 Astra (medium) in ChatGPT Work build me this animated transition bet"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/7/equal-earth/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Tool: Mercator ↔ Equal Earth I got curious about the Equal Earth map projection that was recently voted on at the UN so I had GPT-6 Astra (medium) in ChatGPT Work build me this animated transition between Mercator and Equal Earth using D3. Tags: geospatial , d3 , vibe-coding , gpt-6-astra"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Mercator ↔ Equal Earth",
+      "originalLang": "en",
+      "date": "2026-09-07",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/7/equal-earth/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Mercator ↔ Equal Earth"
+      },
+      "raw": {
+        "title": "Mercator ↔ Equal Earth",
+        "url": "https://simonwillison.net/2026/Sep/7/equal-earth/",
+        "fetched": false,
+        "savedAt": "2026-09-08T02:36:33.602Z"
+      }
+    },
     {
       "id": "sig-a8e8f9dc89",
       "title": "外星人的心灵",
@@ -760,6 +1237,77 @@
         "url": "https://simonwillison.net/2026/Sep/6/zach-kehs/",
         "fetched": false,
         "savedAt": "2026-09-07T02:23:38.450Z"
+      }
+    },
+    {
+      "id": "sig-19672c4832",
+      "title": "Research acceleration: The view inside OpenAI",
+      "oneLiner": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experimen",
+      "summary": {
+        "oneSentence": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task com",
+        "bullets": [
+          "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/research-acceleration-view-inside-openai"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Research acceleration: The view inside OpenAI",
+      "originalLang": "en",
+      "date": "2026-09-06",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Research acceleration: The view inside OpenAI"
+      },
+      "raw": {
+        "title": "Research acceleration: The view inside OpenAI",
+        "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+        "fetched": false,
+        "savedAt": "2026-09-08T02:36:28.795Z"
       }
     },
     {
@@ -2804,7 +3352,7 @@
         "url": "https://cursor.com/changelog/self-hosted-machines",
         "fetched": true,
         "savedAt": "2026-09-03T02:33:34.106Z",
-        "retranslatedAt": "2026-09-07T02:23:44.559Z"
+        "retranslatedAt": "2026-09-08T02:36:37.420Z"
       }
     },
     {
@@ -3322,6 +3870,142 @@
         "url": "https://simonwillison.net/2026/Sep/2/rick-brewster/",
         "fetched": false,
         "savedAt": "2026-09-06T02:26:24.916Z"
+      }
+    },
+    {
+      "id": "sig-6032dc5645",
+      "title": "llm-openrouter 0.7.1",
+      "oneLiner": "Release: llm-openrouter 0.7.1 Performance fix for loading OpenRouter models. Thanks, waveplate . #59",
+      "summary": {
+        "oneSentence": "Release: llm-openrouter 0.7.1 Performance fix for loading OpenRouter models. Thanks, waveplate . #59 Tags: llm , openrou",
+        "bullets": [
+          "Release: llm-openrouter 0.7.1 Performance fix for loading OpenRouter models. Thanks, waveplate . #59 Tags: llm , openrouter"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/2/llm-openrouter/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Release: llm-openrouter 0.7.1 Performance fix for loading OpenRouter models. Thanks, waveplate . #59 Tags: llm , openrouter"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "llm-openrouter 0.7.1",
+      "originalLang": "en",
+      "date": "2026-09-02",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/2/llm-openrouter/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "llm-openrouter 0.7.1"
+      },
+      "raw": {
+        "title": "llm-openrouter 0.7.1",
+        "url": "https://simonwillison.net/2026/Sep/2/llm-openrouter/",
+        "fetched": false,
+        "savedAt": "2026-09-08T02:36:34.403Z"
+      }
+    },
+    {
+      "id": "sig-1b25aee00a",
+      "title": "llm 0.34",
+      "oneLiner": "Release: llm 0.34 One new feature: llm logs --usage Markdown output now includes the response durati",
+      "summary": {
+        "oneSentence": "Release: llm 0.34 One new feature: llm logs --usage Markdown output now includes the response duration in milliseconds a",
+        "bullets": [
+          "Release: llm 0.34 One new feature: llm logs --usage Markdown output now includes the response duration in milliseconds and as a human-readable duration. llm logs --short includes a new duration_ms fie"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/2/llm/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Release: llm 0.34 One new feature: llm logs --usage Markdown output now includes the response duration in milliseconds and as a human-readable duration. llm logs --short includes a new duration_ms field. #1653 Plus several contributed bug fixes, and a significant performance improvement to llm logs thanks to waveplate on GitHub, see also llm-openrouter 0.7.1 . Tags: llm"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "llm 0.34",
+      "originalLang": "en",
+      "date": "2026-09-02",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/2/llm/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "llm 0.34"
+      },
+      "raw": {
+        "title": "llm 0.34",
+        "url": "https://simonwillison.net/2026/Sep/2/llm/",
+        "fetched": false,
+        "savedAt": "2026-09-08T02:36:35.204Z"
       }
     },
     {
@@ -6605,7 +7289,7 @@
         "url": "https://cursor.com/changelog/start-from-scratch",
         "fetched": true,
         "savedAt": "2026-08-28T08:33:37.517Z",
-        "retranslatedAt": "2026-09-07T02:23:45.530Z"
+        "retranslatedAt": "2026-09-08T02:36:38.318Z"
       }
     },
     {
@@ -31343,82 +32027,6 @@
         "url": "https://github.com/permissionlesstech/bitchat",
         "savedAt": "2026-07-26T04:09:38.211Z"
       }
-    },
-    {
-      "id": "cur-anthropic-mcp",
-      "title": "Anthropic 推动 MCP：让 Agent 统一连接外部工具与数据源",
-      "oneLiner": "MCP 正在成为 AI 工具互操作的「USB-C 标准」候选。",
-      "date": "2026-07-25",
-      "tags": [
-        "MCP",
-        "Agent",
-        "API"
-      ],
-      "categoryIds": [
-        "agent",
-        "llm"
-      ],
-      "productIds": [
-        "claude"
-      ],
-      "importance": {
-        "stars": 5,
-        "reason": "MCP 是 2026 年 Agent 产品必知协议",
-        "readMinutes": 6
-      },
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Anthropic",
-        "author": "Anthropic",
-        "url": "https://www.anthropic.com/news/model-context-protocol",
-        "home": "https://www.anthropic.com/news",
-        "lang": "en",
-        "translated": true
-      },
-      "summary": {
-        "oneSentence": "Model Context Protocol 定义 Agent 与工具/数据源的统一连接方式。",
-        "bullets": [
-          "开源协议，支持 IDE / 桌面 / 云端 Agent",
-          "已有 GitHub、Figma、数据库等 MCP Server",
-          "Cursor 等工具已原生支持"
-        ],
-        "audience": "开发者、Agent 平台设计者、关注 AI Native 的产品经理",
-        "readMinutes": 6,
-        "keywords": [
-          "MCP",
-          "Agent",
-          "Interoperability"
-        ]
-      },
-      "insight": {
-        "mainInsight": "MCP 解决的是 Agent 生态碎片化——每个产品各自对接 100 个 API 不可持续。",
-        "whyNow": "Agent 产品爆发，工具集成成为最大交付成本。",
-        "problem": "N×M 集成问题：每个 Agent 要接每个工具。",
-        "trend": "Agent 互操作协议标准化",
-        "differentiation": "Anthropic 走开放协议路线，与封闭生态形成对比。",
-        "outlook": "越来越多 SaaS 会提供官方 MCP Server；产品选型需检查 MCP 支持度。"
-      },
-      "learning": {
-        "whyImportant": "理解 MCP 就理解了为什么 Cursor、Claude Desktop 能快速扩展能力。",
-        "productDesign": "借鉴「Server 注册 + 权限声明 + 上下文注入」三层设计，思考你的 Agent 如何插件化。",
-        "relevance": "核心关注：MCP、Agent、Coding Agent、AI Native。",
-        "actionItems": [
-          "阅读 MCP 官方 spec",
-          "在 Cursor 中试用 Figma / 浏览器 MCP",
-          "查看 Claude Code 的 MCP 配置示例"
-        ]
-      },
-      "content": [
-        "Model Context Protocol（MCP）让 Agent 以统一方式发现、调用外部工具，开发者只需实现 MCP Server 即可被多个 Agent 客户端使用。",
-        "这与传统「每个 App 单独做 OAuth 集成」完全不同——产品层面应思考：你的能力是否值得做成 MCP Server 被其他 Agent 调用？",
-        "国内产品如 Coze、Dify 也在探索类似插件协议，建议横向对比其插件市场与 MCP 生态的差异。"
-      ],
-      "highlights": [
-        "Agent 互操作关键协议",
-        "Cursor 已支持",
-        "插件化架构值得学习"
-      ]
     }
   ]
 }
