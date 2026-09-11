@@ -1,60 +1,60 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-10T02:40:54.631Z",
+  "updatedAt": "2026-09-11T02:33:16.698Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 410,
+  "itemCount": 412,
   "brief": {
-    "date": "2026-09-10",
-    "generatedAt": "2026-09-10T02:40:54.630Z",
-    "totalCount": 410,
-    "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 410 条",
+    "date": "2026-09-11",
+    "generatedAt": "2026-09-11T02:33:16.697Z",
+    "totalCount": 412,
+    "todayCount": 1,
+    "headline": "今日 AI 信号 1 条 · 档案共 412 条",
     "topUpdates": [
       {
-        "id": "sig-534907e0d3",
-        "title": "Paul Christiano 加入 OpenAI 基金会董事会",
+        "id": "sig-a8941f9b7c",
+        "title": "Vercel Sandbox 现在提供 64 GB 存储 - Vercel",
         "stars": 4,
-        "oneLiner": "Paul Christiano 加入 OpenAI 基金会董事会及其安全委员会，带来人工智能协调、安全和标准方面的经验。",
+        "oneLiner": "现在，每个 Vercel Sandbox 的存储空间从 32 GB 增加到 64 GB。这包括从 Vercel 托管映像或自定义映像创建的沙箱，以及使用已弃用的运行时属性配置的沙箱。",
         "readMinutes": 5
       },
       {
-        "id": "sig-b0dd0e34ba",
-        "title": "利用搜索中的新足球功能为比赛做好准备",
+        "id": "sig-6dde567f1f",
+        "title": "GitHub Copilot 现已在 AI SDK 线束层 - Vercel 中可用",
         "stars": 4,
-        "oneLiner": "本赛季不错过任何一场比赛。我们对搜索的最新升级将实时游戏源和更深入的统计数据直接显示在您的屏幕上。另外，您现在可以连接您的 Fantasy Football 帐户，以获得针对您的名单的定制见解。",
+        "oneLiner": "AI SDK 线束层现在通过官方 @ai-sdk/harness-github-copilot 适配器支持 GitHub Copilot。利用线束层允许您的应用程序通过相同的 HarnessAgent 接口运行不同的编码代理，因此您可以在不",
         "readMinutes": 5
       },
       {
-        "id": "sig-e8269fc9a1",
-        "title": "逐帧重现70年爱情故事",
+        "id": "sig-9fcb83950e",
+        "title": "FastAPI 前端和静态文件由 CDN 提供 - Vercel",
         "stars": 4,
-        "oneLiner": "在短片《Love, Rendered》中了解电影制片人和 Google DeepMind 如何使用 AI 重现一对夫妇未记录的过去。",
+        "oneLiner": "FastAPI 前端和静态文件（通过 app.frontend() 或 StaticFiles 提供）现在在构建时提升到 Vercel CDN。对这些路径的请求直接从 CDN 提供服务，无需调用 Vercel 函数。",
         "readMinutes": 5
       },
       {
-        "id": "sig-9786c92a28",
-        "title": "人工智能政策窗口已打开。我们需要采取行动。",
+        "id": "sig-014159943e",
+        "title": "研究人员如何使用 Codex 和 ChatGPT 寻找新的抗菌分子",
         "stars": 4,
-        "oneLiner": "Chris Lehane 认为，更强的人工智能能力需要更强的安全证据、共享标准和持久的政策行动，同时政策窗口保持开放。",
+        "oneLiner": "César de la Fuente 的实验室使用 Codex 和 ChatGPT 搜索现存和灭绝的基因组，寻找抗耐药感染的候选抗菌药物。",
         "readMinutes": 5
       },
       {
-        "id": "sig-587a70348a",
-        "title": "GPT-6 Astra：下一代工作智能",
+        "id": "sig-1852061b5c",
+        "title": "通过搜索为下一场大型比赛做准备的 3 种方法",
         "stars": 4,
-        "oneLiner": "GPT-6 Astra 是 OpenAI 最强大的商业模型，具有先进的推理、计算机使用以及更强的写作和设计判断能力。",
+        "oneLiner": "搜索可以帮助您通过量身定制的训练计划、自定义播放列表等为比赛日做好准备。",
         "readMinutes": 5
       }
     ],
     "sections": {
       "topUpdates": [
-        "sig-534907e0d3",
-        "sig-b0dd0e34ba",
-        "sig-e8269fc9a1",
-        "sig-9786c92a28",
-        "sig-587a70348a",
-        "sig-3f133ea249"
+        "sig-a8941f9b7c",
+        "sig-6dde567f1f",
+        "sig-9fcb83950e",
+        "sig-014159943e",
+        "sig-1852061b5c",
+        "sig-4d4e7920d8"
       ],
       "newReleases": [
         "sig-fe5941ee46",
@@ -63,18 +63,17 @@
         "sig-39d537a07a",
         "sig-1e5183cd6f",
         "sig-468f50ae5e",
-        "sig-ff7bff38a4",
-        "sig-3fac1f8e14"
+        "sig-ff7bff38a4"
       ],
       "insights": [
-        "sig-534907e0d3",
-        "sig-b0dd0e34ba",
-        "sig-e8269fc9a1",
-        "sig-9786c92a28",
-        "sig-587a70348a",
-        "sig-3f133ea249",
-        "sig-034bb34817",
-        "sig-1cb85d08ad"
+        "sig-a8941f9b7c",
+        "sig-6dde567f1f",
+        "sig-9fcb83950e",
+        "sig-014159943e",
+        "sig-1852061b5c",
+        "sig-4d4e7920d8",
+        "sig-016c3ec9b7",
+        "sig-1ef5285e67"
       ],
       "emergingTrends": [],
       "newApis": [],
@@ -95,8 +94,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-09-10T02:40:54.631Z",
-    "summary": "近 30 天共 282 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-09-11T02:33:16.698Z",
+    "summary": "近 30 天共 279 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -111,6 +110,90 @@
     "risingTags": []
   },
   "productUpdates": [
+    {
+      "id": "sig-014159943e",
+      "title": "研究人员如何使用 Codex 和 ChatGPT 寻找新的抗菌分子",
+      "oneLiner": "César de la Fuente 的实验室使用 Codex 和 ChatGPT 搜索现存和灭绝的基因组，寻找抗耐药感染的候选抗菌药物。",
+      "date": "2026-09-10",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-1852061b5c",
+      "title": "通过搜索为下一场大型比赛做准备的 3 种方法",
+      "oneLiner": "搜索可以帮助您通过量身定制的训练计划、自定义播放列表等为比赛日做好准备。",
+      "date": "2026-09-10",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google AI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-4d4e7920d8",
+      "title": "现在每个人都可以将数据运用到工作中",
+      "oneLiner": "在 ChatGPT Work 中认识数据代理。使用自然语言连接公司数据、发现见解并通过 AI 构建交互式仪表板。",
+      "date": "2026-09-10",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-016c3ec9b7",
+      "title": "推出适用于金融服务的 ChatGPT",
+      "oneLiner": "推出适用于金融服务的 ChatGPT，将内置金融数据与 GPT-6 Astra 相结合，用于研究、建模和客户就绪材料。",
+      "date": "2026-09-10",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-1ef5285e67",
+      "title": "扩大联邦、州、地方和部落政府的人工智能访问和网络防御",
+      "oneLiner": "OpenAI 和 GSA 将为符合条件的联邦、州、地方和部落政府提供 0 美元许可费、50% 的使用费折扣以及扩大的网络防御支持。",
+      "date": "2026-09-10",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-2b26a80665",
+      "title": "代理 API 简介",
+      "oneLiner": "使用 Agents API 构建和启动云代理，这是一项由 Codex 工具提供支持的托管服务，用于编排、长时间运行的会话和工具使用。",
+      "date": "2026-09-10",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-4e410dad70",
+      "title": "使用 API 中的 GPT‑Live‑1 构建更自然的语音体验",
+      "oneLiner": "GPT‑Live‑1 为 API 带来了自然的全双工语音对话，具有更强大的指令遵循、自定义语音和电话支持。",
+      "date": "2026-09-10",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
     {
       "id": "sig-534907e0d3",
       "title": "Paul Christiano 加入 OpenAI 基金会董事会",
@@ -233,51 +316,51 @@
     },
     {
       "id": "sig-99c22bc85d",
-      "title": "Funding grants for new research into AI and teen development",
-      "oneLiner": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI",
+      "title": "为人工智能和青少年发展的新研究提供资助",
+      "oneLiner": "立即申请 OpenAI 的 500 万美元资助计划，支持关于生成式 AI 如何影响青少年发展、福祉和安全的独立研究。",
       "date": "2026-09-08",
       "productIds": [
         "chatgpt"
       ],
       "source": "OpenAI",
       "tags": [],
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "sig-671a9fed35",
-      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
-      "oneLiner": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educ",
+      "title": "OpenAI 将支持新闻业的举措从课堂扩展到新闻编辑室",
+      "oneLiner": "OpenAI 正在通过为学生、教育工作者、记者和新闻机构提供工具、培训和合作伙伴关系来扩大对新闻业的支持。",
       "date": "2026-09-08",
       "productIds": [
         "chatgpt"
       ],
       "source": "OpenAI",
       "tags": [],
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "sig-9816f5beea",
-      "title": "1Password increases engineering productivity 21% with Codex",
-      "oneLiner": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching producti",
+      "title": "1Password 通过 Codex 将工程生产力提高 21%",
+      "oneLiner": "1Password 的工程师使用 Codex 快速构建新功能和内部工具，达到生产就绪状态，同时维护严格的安全策略。",
       "date": "2026-09-08",
       "productIds": [
         "chatgpt"
       ],
       "source": "OpenAI",
       "tags": [],
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "sig-e02ae19def",
-      "title": "Supporting independent journalism in Ukraine",
-      "oneLiner": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen inn",
+      "title": "支持乌克兰的独立新闻业",
+      "oneLiner": "OpenAI、AIRPPU 和 WAN-IFRA 推出人工智能计划，帮助乌克兰新闻机构加强创新、弹性和独立新闻。",
       "date": "2026-09-07",
       "productIds": [
         "chatgpt"
       ],
       "source": "OpenAI",
       "tags": [],
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "sig-a8e8f9dc89",
@@ -293,15 +376,15 @@
     },
     {
       "id": "sig-19672c4832",
-      "title": "Research acceleration: The view inside OpenAI",
-      "oneLiner": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experimen",
+      "title": "研究加速：OpenAI 内部的观点",
+      "oneLiner": "在 OpenAI 内部，编码代理正在重塑人工智能研究。探索有关代理使用、实验速度、任务复杂性和研究加速的早期数据。",
       "date": "2026-09-06",
       "productIds": [
         "chatgpt"
       ],
       "source": "OpenAI",
       "tags": [],
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "sig-56da2c8ef8",
@@ -314,93 +397,775 @@
       "source": "Google DeepMind",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-5190d2a1dc",
-      "title": "前线捍卫者的黎明：10 亿美元保护基本服务",
-      "oneLiner": "OpenAI 为前线捍卫者推出了 Daybreak。 10 亿美元的承诺将扩大对前沿网络人工智能、培训和基本服务的支持。",
-      "date": "2026-09-03",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-be4a3c5426",
-      "title": "Legora 使用 GPT-6 Astra 在几分钟内审查了 41 个文档",
-      "oneLiner": "Legora 使用 GPT-6 Astra 在几分钟内审查了 41 个文档，找到了所有四个植入的错误，并将该财务审查工作流程的性能提高了近 40%。",
-      "date": "2026-09-03",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-7a45b185cf",
-      "title": "Playco 使用 GPT-6 Astra 手动修复了 50% 的原型游戏",
-      "oneLiner": "Playco 使用 GPT-6 Astra，从一个灰盒基础构建了三个主题游戏原型，并报告说，与之前的模型相比，手动修复减少了 50%。",
-      "date": "2026-09-03",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-2e155b11d8",
-      "title": "安全概述：GPT-6 Astra",
-      "oneLiner": "GPT-6 Astra 是我们最有能力广泛部署的模型，也是我们第一个在我们的准备框架下达到网络安全能力关键级别的模型。",
-      "date": "2026-09-03",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-0f3b76bc48",
-      "title": "GPT-6 Astra: A new generation of intelligence",
-      "oneLiner": "Introducing GPT-6 Astra, our most intelligent and aligned model yet, with state-of-the-art capabilit",
-      "date": "2026-09-03",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 3
-    },
-    {
-      "id": "sig-383dbcd782",
-      "title": "政府和企业的主动网络防御",
-      "oneLiner": "今天，我们正在启动 Fairwind 计划，这是一项限制访问计划，供政府和值得信赖的合作伙伴使用我们最先进的网络防御能力。",
-      "date": "2026-09-02",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google DeepMind",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-18ef68f776",
-      "title": "隆重推出 Gemini 3.8 Flash 和 3.8 Flash Cyber",
-      "oneLiner": "我们最新的 Gemini 模型为代理工作流程和网络安全提供了下一代智能。",
-      "date": "2026-09-02",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google DeepMind",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-a8941f9b7c",
+      "title": "Vercel Sandbox 现在提供 64 GB 存储 - Vercel",
+      "oneLiner": "现在，每个 Vercel Sandbox 的存储空间从 32 GB 增加到 64 GB。这包括从 Vercel 托管映像或自定义映像创建的沙箱，以及使用已弃用的运行时属性配置的沙箱。",
+      "summary": {
+        "oneSentence": "现在，每个 Vercel Sandbox 的存储空间从 32 GB 增加到 64 GB。这包括从 Vercel 托管映像或自定义映像创建的沙箱，以及使用已弃用的运行时属性配置的沙箱。",
+        "bullets": [
+          "现在，每个 Vercel Sandbox 的存储空间从 32 GB 增加到 64 GB。这包括从 Vercel 托管映像或自定义映像创建的沙箱，以及使用已弃用的运行时属性配置的沙箱。",
+          "额外的空间为大型存储库、依赖项、构建工件、溢出到磁盘的数据工作负载以及存储密集型代理任务提供了更多空间。",
+          "在文档中了解有关沙盒图像的更多信息。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：现在，每个 Vercel Sandbox 的存储空间从 32 GB 增加到 64 GB。这包括从 Vercel 托管映像或自定义映像创建的沙箱，以及使用已弃用的运行时属性配置的沙箱。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-sandbox-64-gb-storage"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "现在，每个 Vercel Sandbox 的存储空间从 32 GB 增加到 64 GB。这包括从 Vercel 托管映像或自定义映像创建的沙箱，以及使用已弃用的运行时属性配置的沙箱。",
+        "额外的空间为大型存储库、依赖项、构建工件、溢出到磁盘的数据工作负载以及存储密集型代理任务提供了更多空间。",
+        "在文档中了解有关沙盒图像的更多信息。"
+      ],
+      "highlights": [
+        "现在，每个 Vercel Sandbox 的存储空间从 32 GB 增加到 64 GB。这包括从 Vercel 托管映像或自定义映像创建的沙箱，以及使用已弃用的",
+        "额外的空间为大型存储库、依赖项、构建工件、溢出到磁盘的数据工作负载以及存储密集型代理任务提供了更多空间。",
+        "在文档中了解有关沙盒图像的更多信息。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Sandbox now provides 64 GB of storage - Vercel",
+      "originalLang": "en",
+      "date": "2026-09-11",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-sandbox-64-gb-storage",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Sandbox now provides 64 GB of storage - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Sandbox now provides 64 GB of storage",
+        "url": "https://vercel.com/changelog/vercel-sandbox-64-gb-storage",
+        "fetched": true,
+        "savedAt": "2026-09-11T02:32:38.792Z"
+      }
+    },
+    {
+      "id": "sig-6dde567f1f",
+      "title": "GitHub Copilot 现已在 AI SDK 线束层 - Vercel 中可用",
+      "oneLiner": "AI SDK 线束层现在通过官方 @ai-sdk/harness-github-copilot 适配器支持 GitHub Copilot。利用线束层允许您的应用程序通过相同的 HarnessAgent 接口运行不同的编码代理，因此您可以在不",
+      "summary": {
+        "oneSentence": "AI SDK 线束层现在通过官方 @ai-sdk/harness-github-copilot 适配器支持 GitHub Copilot。利用线束层允许您的应用程序通过相同的 HarnessAgent 接口运行不同的编码代理，因此您可以在不",
+        "bullets": [
+          "AI SDK 线束层现在通过官方 @ai-sdk/harness-github-copilot 适配器支持 GitHub Copilot。利用线束层允许您的应用程序通过相同的 HarnessAgent 接口运行不同的编码代理，因此您可以在不更改应用程序代码的情况下切换代理。",
+          "1 从 '@ai-sdk/harness/agent' 导入 { HarnessAgent } ； 2 从 '@ai-sdk/harness-github-copilot' 导入 { githubCopilot } ； 3 4 const agent = new HarnessAgent ({ 5harness: gi",
+          "在底层，适配器使用 @ai-sdk/harness-acp 通过代理客户端协议 (ACP) 将 GitHub Copilot 连接到 HarnessAgent。",
+          "除了 GitHub Copilot 之外，现在支持的工具还包括 Claude Code、Cline、Codex、Cursor、Deep Agents、fx、Grok Build、OpenCode 和 Pi，更多工具即将推出。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：AI SDK 线束层现在通过官方 @ai-sdk/harness-github-copilot 适配器支持 GitHub Copilot。利用线束层允许您的应用程序通过相同的 HarnessAgent 接口运行不同的编码代理，因此您可以在不",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/github-copilot-ai-sdk-harness-adapter"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "AI SDK 线束层现在通过官方 @ai-sdk/harness-github-copilot 适配器支持 GitHub Copilot。利用线束层允许您的应用程序通过相同的 HarnessAgent 接口运行不同的编码代理，因此您可以在不更改应用程序代码的情况下切换代理。",
+        "1 从 '@ai-sdk/harness/agent' 导入 { HarnessAgent } ； 2 从 '@ai-sdk/harness-github-copilot' 导入 { githubCopilot } ； 3 4 const agent = new HarnessAgent ({ 5harness: githubCopilot, 6 });创建一个运行 GitHub Copilot 的 HarnessAgent。",
+        "在底层，适配器使用 @ai-sdk/harness-acp 通过代理客户端协议 (ACP) 将 GitHub Copilot 连接到 HarnessAgent。",
+        "除了 GitHub Copilot 之外，现在支持的工具还包括 Claude Code、Cline、Codex、Cursor、Deep Agents、fx、Grok Build、OpenCode 和 Pi，更多工具即将推出。",
+        "请阅读 GitHub Copilot 线束文档以开始使用。"
+      ],
+      "highlights": [
+        "AI SDK 线束层现在通过官方 @ai-sdk/harness-github-copilot 适配器支持 GitHub Copilot。利用线束层允许您的应用",
+        "1 从 '@ai-sdk/harness/agent' 导入 { HarnessAgent } ； 2 从 '@ai-sdk/harness-github-co",
+        "在底层，适配器使用 @ai-sdk/harness-acp 通过代理客户端协议 (ACP) 将 GitHub Copilot 连接到 HarnessAgent。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "GitHub Copilot is now available in the AI SDK harness layer - Vercel",
+      "originalLang": "en",
+      "date": "2026-09-10",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/github-copilot-ai-sdk-harness-adapter",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "GitHub Copilot is now available in the AI SDK harness layer - Vercel"
+      },
+      "raw": {
+        "title": "GitHub Copilot is now available in the AI SDK harness layer",
+        "url": "https://vercel.com/changelog/github-copilot-ai-sdk-harness-adapter",
+        "fetched": true,
+        "savedAt": "2026-09-11T02:32:43.783Z"
+      }
+    },
+    {
+      "id": "sig-9fcb83950e",
+      "title": "FastAPI 前端和静态文件由 CDN 提供 - Vercel",
+      "oneLiner": "FastAPI 前端和静态文件（通过 app.frontend() 或 StaticFiles 提供）现在在构建时提升到 Vercel CDN。对这些路径的请求直接从 CDN 提供服务，无需调用 Vercel 函数。",
+      "summary": {
+        "oneSentence": "FastAPI 前端和静态文件（通过 app.frontend() 或 StaticFiles 提供）现在在构建时提升到 Vercel CDN。对这些路径的请求直接从 CDN 提供服务，无需调用 Vercel 函数。",
+        "bullets": [
+          "FastAPI 前端和静态文件（通过 app.frontend() 或 StaticFiles 提供）现在在构建时提升到 Vercel CDN。对这些路径的请求直接从 CDN 提供服务，无需调用 Vercel 函数。",
+          "1 应用 = FastAPI () 2 应用 .前端（“/”，目录=“dist”）3应用程序。 mount ( \"/assets\" , StaticFiles (directory = \"assets\" ) , name = \"assets\" ) Frontend 和 StaticFiles，均提升到 CDN。",
+          "FastAPI 按声明顺序评估路由。在 StaticFiles 挂载之前声明的路由优先于该路径上的任何 CDN 文件。该优先级被保留。",
+          "1 @应用程序。 get ( \"/static/manifest.json\" ) # 由 Vercel 函数提供 2 def manifest ( ) : . 。 。 3 个应用程序。 mount ( \"/static\" , StaticFiles (directory = \"static\" ) , name = \"s"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：FastAPI 前端和静态文件（通过 app.frontend() 或 StaticFiles 提供）现在在构建时提升到 Vercel CDN。对这些路径的请求直接从 CDN 提供服务，无需调用 Vercel 函数。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/fastapi-frontends-and-static-files-served-from-the-cdn"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "FastAPI 前端和静态文件（通过 app.frontend() 或 StaticFiles 提供）现在在构建时提升到 Vercel CDN。对这些路径的请求直接从 CDN 提供服务，无需调用 Vercel 函数。",
+        "1 应用 = FastAPI () 2 应用 .前端（“/”，目录=“dist”）3应用程序。 mount ( \"/assets\" , StaticFiles (directory = \"assets\" ) , name = \"assets\" ) Frontend 和 StaticFiles，均提升到 CDN。",
+        "FastAPI 按声明顺序评估路由。在 StaticFiles 挂载之前声明的路由优先于该路径上的任何 CDN 文件。该优先级被保留。",
+        "1 @应用程序。 get ( \"/static/manifest.json\" ) # 由 Vercel 函数提供 2 def manifest ( ) : . 。 。 3 个应用程序。 mount ( \"/static\" , StaticFiles (directory = \"static\" ) , name = \"static\" ) 优先于 StaticFiles 的路由。",
+        "提升的源目录保留在函数包中，以便应用程序可以在运行时从中读取。要排除它们并仅从 CDN 提供服务，请在 pyproject.toml 中设置 tool.vercel.fastapi.static.exclude = true 。",
+        "由于 CDN 无法运行依赖项检查，受依赖项保护的前端保留在该函数上。同样，位于中间件后面的静态文件也保留在该函数中。要覆盖此设置并始终升级到 CDN，请设置 tool.vercel.fastapi.static.cdn = true 。要完全选择退出 CDN，请将其设置为 false。",
+        "有关详细信息，请参阅 Vercel FastAPI 文档。"
+      ],
+      "highlights": [
+        "FastAPI 前端和静态文件（通过 app.frontend() 或 StaticFiles 提供）现在在构建时提升到 Vercel CDN。对这些路径的请求",
+        "1 应用 = FastAPI () 2 应用 .前端（“/”，目录=“dist”）3应用程序。 mount ( \"/assets\" , StaticFiles ",
+        "FastAPI 按声明顺序评估路由。在 StaticFiles 挂载之前声明的路由优先于该路径上的任何 CDN 文件。该优先级被保留。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "FastAPI frontends and static files served from the CDN - Vercel",
+      "originalLang": "en",
+      "date": "2026-09-10",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/fastapi-frontends-and-static-files-served-from-the-cdn",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "FastAPI frontends and static files served from the CDN - Vercel"
+      },
+      "raw": {
+        "title": "FastAPI frontends and static files served from the CDN",
+        "url": "https://vercel.com/changelog/fastapi-frontends-and-static-files-served-from-the-cdn",
+        "fetched": true,
+        "savedAt": "2026-09-11T02:32:49.856Z"
+      }
+    },
+    {
+      "id": "sig-014159943e",
+      "title": "研究人员如何使用 Codex 和 ChatGPT 寻找新的抗菌分子",
+      "oneLiner": "César de la Fuente 的实验室使用 Codex 和 ChatGPT 搜索现存和灭绝的基因组，寻找抗耐药感染的候选抗菌药物。",
+      "summary": {
+        "oneSentence": "César de la Fuente 的实验室使用 Codex 和 ChatGPT 搜索现存和灭绝的基因组，寻找抗耐药感染的候选抗菌药物。",
+        "bullets": [
+          "César de la Fuente 的实验室使用 Codex 和 ChatGPT 搜索现存和灭绝的基因组，寻找抗耐药感染的候选抗菌药物。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：César de la Fuente 的实验室使用 Codex 和 ChatGPT 搜索现存和灭绝的基因组，寻找抗耐药感染的候选抗菌药物。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "César de la Fuente 的实验室使用 Codex 和 ChatGPT 搜索现存和灭绝的基因组，寻找抗耐药感染的候选抗菌药物。"
+      ],
+      "highlights": [
+        "César de la Fuente 的实验室使用 Codex 和 ChatGPT 搜索现存和灭绝的基因组，寻找抗耐药感染的候选抗菌药物。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+      "originalLang": "en",
+      "date": "2026-09-10",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules"
+      },
+      "raw": {
+        "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+        "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+        "fetched": false,
+        "savedAt": "2026-09-11T02:32:51.094Z"
+      }
+    },
+    {
+      "id": "sig-1852061b5c",
+      "title": "通过搜索为下一场大型比赛做准备的 3 种方法",
+      "oneLiner": "搜索可以帮助您通过量身定制的训练计划、自定义播放列表等为比赛日做好准备。",
+      "summary": {
+        "oneSentence": "搜索可以帮助您通过量身定制的训练计划、自定义播放列表等为比赛日做好准备。",
+        "bullets": [
+          "搜索可以帮助您通过量身定制的训练计划、自定义播放列表等为比赛日做好准备。",
+          "您的浏览器不支持音频元素。",
+          "跑步越来越受欢迎，您可以使用 Google 搜索的人工智能工具来简化您的比赛准备工作。使用 Canvas 工具制定个性化的训练计划，连接您的 YouTube Music 帐户以生成激励性的播放列表，并搜索适合您的预算和需求的特定装备。首先要求搜索根据您当地的路线和当前的健身水平量身定制定制计划。",
+          "随着人们寻找拔掉插头和接触草地的方法，与跑步相关的搜索量激增：“跑步俱乐部”、“如何选择跑鞋”和“如何训练马拉松”等搜索量今年达到了历史新高。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google AI 官网发布：搜索可以帮助您通过量身定制的训练计划、自定义播放列表等为比赛日做好准备。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://blog.google/products-and-platforms/products/search/running-race-training-tips/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "搜索可以帮助您通过量身定制的训练计划、自定义播放列表等为比赛日做好准备。",
+        "您的浏览器不支持音频元素。",
+        "跑步越来越受欢迎，您可以使用 Google 搜索的人工智能工具来简化您的比赛准备工作。使用 Canvas 工具制定个性化的训练计划，连接您的 YouTube Music 帐户以生成激励性的播放列表，并搜索适合您的预算和需求的特定装备。首先要求搜索根据您当地的路线和当前的健身水平量身定制定制计划。",
+        "随着人们寻找拔掉插头和接触草地的方法，与跑步相关的搜索量激增：“跑步俱乐部”、“如何选择跑鞋”和“如何训练马拉松”等搜索量今年达到了历史新高。",
+        "参加比赛需要毅力、力量和（数量惊人的）组织能力。幸运的是，搜索的人工智能功能使您比以往更容易制定比赛计划。搜索可以通过以下三种方式帮助您冲过终点线。",
+        "Whether you’re a beginner or a seasoned runner with over a dozen races under your belt, having the right training plan is key to finishing the race.搜索中的人工智能模式可以帮助您制定策略并制定详细的计划。 Select the Canvas tool from the plus (+) menu and ask it to build a schedule for you, recommending cross-training and strength-building strategies.您还可以从网络上的网站和创作者那里发现新的观点。 Try asking, “Help me make a sub 4.5hr training plan for the Texas Marathon with different routes I can run around Montrose. I'm currently running 4x a week with my longest run typically being 7-9 miles.”",
+        "现在您已经选择了比赛并制定了计划，是时候上路了。许多跑步者都清楚，在比赛训练中——尤其是长距离训练——心理耐力与身体耐力同样重要。找到方法来应对无聊并在长期跑步中保持活力至关重要。如果您选择将您的 YouTube Music 帐户与搜索关联，您可以要求 AI 模式帮助您为跑步创建自定义播放列表，这样您就可以保持动力并随时随地聆听您最喜爱的艺术家的音乐。",
+        "有时，跑完长距离取决于拥有合适的鞋子和跑步装备，但很难缩小选择范围。搜索可以使赛前购物变得更加容易，让您可以搜索能够解决您的限制的产品，例如适合宽脚的公路鞋、80 美元以下的轻质水袋背心或防擦伤服装。使用包含超过 600 亿个产品列表的 Google 购物图谱，搜索可以向您展示量身定制的推荐、库存选项的并排比较，甚至是本地供货情况，帮助您找到自信比赛所需的确切装备。"
+      ],
+      "highlights": [
+        "搜索可以帮助您通过量身定制的训练计划、自定义播放列表等为比赛日做好准备。",
+        "您的浏览器不支持音频元素。",
+        "跑步越来越受欢迎，您可以使用 Google 搜索的人工智能工具来简化您的比赛准备工作。使用 Canvas 工具制定个性化的训练计划，连接您的 YouTube M"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "3 ways to prep for your next big race with Search",
+      "originalLang": "en",
+      "date": "2026-09-10",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "3 ways to prep for your next big race with Search"
+      },
+      "raw": {
+        "title": "3 ways to prep for your next big race with Search",
+        "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
+        "fetched": true,
+        "savedAt": "2026-09-11T02:32:55.870Z"
+      }
+    },
+    {
+      "id": "sig-4d4e7920d8",
+      "title": "现在每个人都可以将数据运用到工作中",
+      "oneLiner": "在 ChatGPT Work 中认识数据代理。使用自然语言连接公司数据、发现见解并通过 AI 构建交互式仪表板。",
+      "summary": {
+        "oneSentence": "在 ChatGPT Work 中认识数据代理。使用自然语言连接公司数据、发现见解并通过 AI 构建交互式仪表板。",
+        "bullets": [
+          "在 ChatGPT Work 中认识数据代理。使用自然语言连接公司数据、发现见解并通过 AI 构建交互式仪表板。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：在 ChatGPT Work 中认识数据代理。使用自然语言连接公司数据、发现见解并通过 AI 构建交互式仪表板。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/put-data-to-work"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "在 ChatGPT Work 中认识数据代理。使用自然语言连接公司数据、发现见解并通过 AI 构建交互式仪表板。"
+      ],
+      "highlights": [
+        "在 ChatGPT Work 中认识数据代理。使用自然语言连接公司数据、发现见解并通过 AI 构建交互式仪表板。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Now everyone can put data to work",
+      "originalLang": "en",
+      "date": "2026-09-10",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/put-data-to-work",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Now everyone can put data to work"
+      },
+      "raw": {
+        "title": "Now everyone can put data to work",
+        "url": "https://openai.com/index/put-data-to-work",
+        "fetched": false,
+        "savedAt": "2026-09-11T02:32:57.076Z"
+      }
+    },
+    {
+      "id": "sig-016c3ec9b7",
+      "title": "推出适用于金融服务的 ChatGPT",
+      "oneLiner": "推出适用于金融服务的 ChatGPT，将内置金融数据与 GPT-6 Astra 相结合，用于研究、建模和客户就绪材料。",
+      "summary": {
+        "oneSentence": "推出适用于金融服务的 ChatGPT，将内置金融数据与 GPT-6 Astra 相结合，用于研究、建模和客户就绪材料。",
+        "bullets": [
+          "推出适用于金融服务的 ChatGPT，将内置金融数据与 GPT-6 Astra 相结合，用于研究、建模和客户就绪材料。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：推出适用于金融服务的 ChatGPT，将内置金融数据与 GPT-6 Astra 相结合，用于研究、建模和客户就绪材料。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/introducing-chatgpt-financial-services"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "推出适用于金融服务的 ChatGPT，将内置金融数据与 GPT-6 Astra 相结合，用于研究、建模和客户就绪材料。"
+      ],
+      "highlights": [
+        "推出适用于金融服务的 ChatGPT，将内置金融数据与 GPT-6 Astra 相结合，用于研究、建模和客户就绪材料。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Introducing ChatGPT for Financial Services",
+      "originalLang": "en",
+      "date": "2026-09-10",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Introducing ChatGPT for Financial Services"
+      },
+      "raw": {
+        "title": "Introducing ChatGPT for Financial Services",
+        "url": "https://openai.com/index/introducing-chatgpt-financial-services",
+        "fetched": false,
+        "savedAt": "2026-09-11T02:32:58.286Z"
+      }
+    },
+    {
+      "id": "sig-1ef5285e67",
+      "title": "扩大联邦、州、地方和部落政府的人工智能访问和网络防御",
+      "oneLiner": "OpenAI 和 GSA 将为符合条件的联邦、州、地方和部落政府提供 0 美元许可费、50% 的使用费折扣以及扩大的网络防御支持。",
+      "summary": {
+        "oneSentence": "OpenAI 和 GSA 将为符合条件的联邦、州、地方和部落政府提供 0 美元许可费、50% 的使用费折扣以及扩大的网络防御支持。",
+        "bullets": [
+          "OpenAI 和 GSA 将为符合条件的联邦、州、地方和部落政府提供 0 美元许可费、50% 的使用费折扣以及扩大的网络防御支持。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 和 GSA 将为符合条件的联邦、州、地方和部落政府提供 0 美元许可费、50% 的使用费折扣以及扩大的网络防御支持。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/expanding-ai-access-us-government"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 和 GSA 将为符合条件的联邦、州、地方和部落政府提供 0 美元许可费、50% 的使用费折扣以及扩大的网络防御支持。"
+      ],
+      "highlights": [
+        "OpenAI 和 GSA 将为符合条件的联邦、州、地方和部落政府提供 0 美元许可费、50% 的使用费折扣以及扩大的网络防御支持。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+      "originalLang": "en",
+      "date": "2026-09-10",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/expanding-ai-access-us-government",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Expanding AI access and cyber defense for federal, state, local, and tribal governments"
+      },
+      "raw": {
+        "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+        "url": "https://openai.com/index/expanding-ai-access-us-government",
+        "fetched": false,
+        "savedAt": "2026-09-11T02:32:59.503Z"
+      }
+    },
+    {
+      "id": "sig-2b26a80665",
+      "title": "代理 API 简介",
+      "oneLiner": "使用 Agents API 构建和启动云代理，这是一项由 Codex 工具提供支持的托管服务，用于编排、长时间运行的会话和工具使用。",
+      "summary": {
+        "oneSentence": "使用 Agents API 构建和启动云代理，这是一项由 Codex 工具提供支持的托管服务，用于编排、长时间运行的会话和工具使用。",
+        "bullets": [
+          "使用 Agents API 构建和启动云代理，这是一项由 Codex 工具提供支持的托管服务，用于编排、长时间运行的会话和工具使用。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：使用 Agents API 构建和启动云代理，这是一项由 Codex 工具提供支持的托管服务，用于编排、长时间运行的会话和工具使用。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/introducing-the-agents-api"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "使用 Agents API 构建和启动云代理，这是一项由 Codex 工具提供支持的托管服务，用于编排、长时间运行的会话和工具使用。"
+      ],
+      "highlights": [
+        "使用 Agents API 构建和启动云代理，这是一项由 Codex 工具提供支持的托管服务，用于编排、长时间运行的会话和工具使用。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Introducing the Agents API",
+      "originalLang": "en",
+      "date": "2026-09-10",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/introducing-the-agents-api",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Introducing the Agents API"
+      },
+      "raw": {
+        "title": "Introducing the Agents API",
+        "url": "https://openai.com/index/introducing-the-agents-api",
+        "fetched": false,
+        "savedAt": "2026-09-11T02:33:00.712Z"
+      }
+    },
+    {
+      "id": "sig-4e410dad70",
+      "title": "使用 API 中的 GPT‑Live‑1 构建更自然的语音体验",
+      "oneLiner": "GPT‑Live‑1 为 API 带来了自然的全双工语音对话，具有更强大的指令遵循、自定义语音和电话支持。",
+      "summary": {
+        "oneSentence": "GPT‑Live‑1 为 API 带来了自然的全双工语音对话，具有更强大的指令遵循、自定义语音和电话支持。",
+        "bullets": [
+          "GPT‑Live‑1 为 API 带来了自然的全双工语音对话，具有更强大的指令遵循、自定义语音和电话支持。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：GPT‑Live‑1 为 API 带来了自然的全双工语音对话，具有更强大的指令遵循、自定义语音和电话支持。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/introducing-gpt-live-1-in-the-api"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "GPT‑Live‑1 为 API 带来了自然的全双工语音对话，具有更强大的指令遵循、自定义语音和电话支持。"
+      ],
+      "highlights": [
+        "GPT‑Live‑1 为 API 带来了自然的全双工语音对话，具有更强大的指令遵循、自定义语音和电话支持。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+      "originalLang": "en",
+      "date": "2026-09-10",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Build more natural voice experiences with GPT‑Live‑1 in the API"
+      },
+      "raw": {
+        "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+        "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+        "fetched": false,
+        "savedAt": "2026-09-11T02:33:01.913Z"
+      }
+    },
     {
       "id": "sig-534907e0d3",
       "title": "Paul Christiano 加入 OpenAI 基金会董事会",
@@ -1672,19 +2437,19 @@
     },
     {
       "id": "sig-99c22bc85d",
-      "title": "Funding grants for new research into AI and teen development",
-      "oneLiner": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI",
+      "title": "为人工智能和青少年发展的新研究提供资助",
+      "oneLiner": "立即申请 OpenAI 的 500 万美元资助计划，支持关于生成式 AI 如何影响青少年发展、福祉和安全的独立研究。",
       "summary": {
-        "oneSentence": "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen develo",
+        "oneSentence": "立即申请 OpenAI 的 500 万美元资助计划，支持关于生成式 AI 如何影响青少年发展、福祉和安全的独立研究。",
         "bullets": [
-          "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety."
+          "立即申请 OpenAI 的 500 万美元资助计划，支持关于生成式 AI 如何影响青少年发展、福祉和安全的独立研究。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "OpenAI 官网发布：立即申请 OpenAI 的 500 万美元资助计划，支持关于生成式 AI 如何影响青少年发展、福祉和安全的独立研究。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -1692,27 +2457,29 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
-        "relevance": "",
+        "relevance": "关联产品：chatgpt",
         "actionItems": [
-          "阅读原文：https://openai.com/index/teen-development-research-grants"
+          "阅读原文（英文）：https://openai.com/index/teen-development-research-grants"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [
         "chatgpt"
       ],
       "content": [
-        "Apply now for OpenAI’s $5 million grant program supporting independent research on how generative AI affects teen development, well-being, and safety."
+        "立即申请 OpenAI 的 500 万美元资助计划，支持关于生成式 AI 如何影响青少年发展、福祉和安全的独立研究。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "立即申请 OpenAI 的 500 万美元资助计划，支持关于生成式 AI 如何影响青少年发展、福祉和安全的独立研究。"
+      ],
+      "translated": true,
       "originalTitle": "Funding grants for new research into AI and teen development",
       "originalLang": "en",
       "date": "2026-09-08",
@@ -1730,32 +2497,37 @@
         "url": "https://openai.com/index/teen-development-research-grants",
         "home": "https://openai.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Funding grants for new research into AI and teen development"
       },
       "raw": {
         "title": "Funding grants for new research into AI and teen development",
         "url": "https://openai.com/index/teen-development-research-grants",
         "fetched": false,
-        "savedAt": "2026-09-09T02:37:23.236Z"
-      }
+        "savedAt": "2026-09-09T02:37:23.236Z",
+        "retranslatedAt": "2026-09-11T02:33:03.121Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-f09b31af28",
-      "title": "Introducing Flat Rate CDN",
-      "oneLiner": "Over the past year, we have improved Vercel’s Pro pricing to better reflect how teams build, with ex",
+      "title": "引入统一费率 CDN",
+      "oneLiner": "在过去的一年里，我们改进了 Vercel 的 Pro 定价，以更好地反映团队的构建方式，包括扩展的用户角色、灵活的积分、对企业功能的访问等等。但我们的客户继续向我们提供反馈的一个领域是 CDN 定价。",
       "summary": {
-        "oneSentence": "Over the past year, we have improved Vercel’s Pro pricing to better reflect how teams build, with expanded user roles , ",
+        "oneSentence": "在过去的一年里，我们改进了 Vercel 的 Pro 定价，以更好地反映团队的构建方式，包括扩展的用户角色、灵活的积分、对企业功能的访问等等。但我们的客户继续向我们提供反馈的一个领域是 CDN 定价。",
         "bullets": [
-          "Over the past year, we have improved Vercel’s Pro pricing to better reflect how teams build, with expanded user roles , flexible credits , access to enterprise features , and more. But one area our cu"
+          "在过去的一年里，我们改进了 Vercel 的 Pro 定价，以更好地反映团队的构建方式，包括扩展的用户角色、灵活的积分、对企业功能的访问等等。但我们的客户继续向我们提供反馈的一个领域是 CDN 定价。",
+          "CDN 成本应该是可预测的，但病毒式发布、流量爆发或错误配置的路线有时会让原本正常的一个月变成意外的账单。对于以 Vercel 为基础的团队来说，这种不确定性让增长在本应令人兴奋的时刻感觉像是一个问题。",
+          "今天，我们为专业团队推出统一费率 CDN：一种支付 CDN 使用费用的新方式，具有可预测的每月账单、内置尖峰保护以及针对不同流量配置文件设计的服务层级。",
+          "将链接复制到标题 什么是统一费率 CDN？统一费率 CDN 是基于使用情况的 CDN 计费的替代方案，可为您提供可预测的每月账单。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：在过去的一年里，我们改进了 Vercel 的 Pro 定价，以更好地反映团队的构建方式，包括扩展的用户角色、灵活的积分、对企业功能的访问等等。但我们的客户继续向我们提供反馈的一个领域是 CDN 定价。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -1763,38 +2535,38 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://vercel.com/blog/introducing-flat-rate-cdn"
+          "阅读原文（英文）：https://vercel.com/blog/introducing-flat-rate-cdn"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "Over the past year, we have improved Vercel’s Pro pricing to better reflect how teams build, with expanded user roles , flexible credits , access to enterprise features , and more. But one area our customers continued to give us feedback on was CDN pricing.",
-        "CDN costs should be predictable, but viral launches, traffic bursts, or misconfigured routes sometimes turned an otherwise normal month into an unexpected bill. For teams building on Vercel, that uncertainty made growth feel like a problem at exactly the moment it should feel exciting.",
-        "Today, we are introducing Flat Rate CDN for Pro teams : a new way to pay for CDN usage with a predictable monthly bill, built-in spike protection, and service tiers designed for different traffic profiles.",
-        "Copy link to heading What is Flat Rate CDN? Flat Rate CDN is an alternative to usage-based CDN billing that provides you with a predictable monthly bill.",
-        "The model is designed around a simple idea: teams should be able to choose the CDN capacity that corresponds to their typical usage profile, pay a known amount monthly, and avoid surprise overages from temporary spikes.",
-        "Flat Rate CDN has several advantages over usage-based billing:",
-        "Fixed monthly price : Pay a fixed amount for Vercel CDN each month.",
-        "Covers traffic spikes : CDN Requests, Fast Data Transfer, and other resources are no longer billed directly, so spikes don't result in surprise bills.",
-        "No overages : Your bill will never increase because of temporary usage spikes.",
-        "Importantly, predictable pricing does not mean lower-quality bandwidth. Every request still runs on Vercel’s premium network, including private fiber that routes around congestion on the public internet, which can improve performance by up to 60%. Comparable routing is often sold as a premium add-on, but Vercel includes it by default for Pro teams, and performance isn't degraded during traffic spikes.",
-        "Copy link to heading How it works All new Pro teams have Flat Rate CDN enabled by default, and existing Pro teams can opt in. Usage is tracked at the team level and covers all projects, so you no longer need to manage capacity for them individually.",
-        "Copy link to heading What’s included On Flat Rate CDN, one fixed monthly fee covers:",
-        "Observability events generated by CDN requests",
-        "The default tier is included with Pro. You can upgrade to a higher tier for increased request and data transfer capacity."
+        "在过去的一年里，我们改进了 Vercel 的 Pro 定价，以更好地反映团队的构建方式，包括扩展的用户角色、灵活的积分、对企业功能的访问等等。但我们的客户继续向我们提供反馈的一个领域是 CDN 定价。",
+        "CDN 成本应该是可预测的，但病毒式发布、流量爆发或错误配置的路线有时会让原本正常的一个月变成意外的账单。对于以 Vercel 为基础的团队来说，这种不确定性让增长在本应令人兴奋的时刻感觉像是一个问题。",
+        "今天，我们为专业团队推出统一费率 CDN：一种支付 CDN 使用费用的新方式，具有可预测的每月账单、内置尖峰保护以及针对不同流量配置文件设计的服务层级。",
+        "将链接复制到标题 什么是统一费率 CDN？统一费率 CDN 是基于使用情况的 CDN 计费的替代方案，可为您提供可预测的每月账单。",
+        "该模型的设计围绕一个简单的想法：团队应该能够选择与其典型使用情况相对应的 CDN 容量，每月支付已知金额，并避免临时高峰造成的意外超额。",
+        "与基于使用量的计费相比，统一费率 CDN 具有以下几个优点：",
+        "每月固定价格：每月为 Vercel CDN 支付固定金额。",
+        "涵盖流量高峰：CDN 请求、快速数据传输和其他资源不再直接计费，因此高峰不会导致意外账单。",
+        "无超额：您的账单永远不会因为临时使用高峰而增加。",
+        "重要的是，可预测的定价并不意味着带宽质量较低。每个请求仍然在 Vercel 的高级网络上运行，包括绕过公共互联网拥塞的专用光纤，这可以将性能提高高达 60%。类似的路由通常作为高级附加组件出售，但 Vercel 默认将其包含在专业团队中，并且在流量高峰期间性能不会降低。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "在过去的一年里，我们改进了 Vercel 的 Pro 定价，以更好地反映团队的构建方式，包括扩展的用户角色、灵活的积分、对企业功能的访问等等。但我们的客户继续向",
+        "CDN 成本应该是可预测的，但病毒式发布、流量爆发或错误配置的路线有时会让原本正常的一个月变成意外的账单。对于以 Vercel 为基础的团队来说，这种不确定性让",
+        "今天，我们为专业团队推出统一费率 CDN：一种支付 CDN 使用费用的新方式，具有可预测的每月账单、内置尖峰保护以及针对不同流量配置文件设计的服务层级。"
+      ],
+      "translated": true,
       "originalTitle": "Introducing Flat Rate CDN",
       "originalLang": "en",
       "date": "2026-09-08",
@@ -1810,32 +2582,34 @@
         "url": "https://vercel.com/blog/introducing-flat-rate-cdn",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Introducing Flat Rate CDN"
       },
       "raw": {
         "title": "Introducing Flat Rate CDN",
         "url": "https://vercel.com/blog/introducing-flat-rate-cdn",
         "fetched": true,
-        "savedAt": "2026-09-09T02:37:25.173Z"
-      }
+        "savedAt": "2026-09-09T02:37:25.173Z",
+        "retranslatedAt": "2026-09-11T02:33:10.969Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-671a9fed35",
-      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
-      "oneLiner": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educ",
+      "title": "OpenAI 将支持新闻业的举措从课堂扩展到新闻编辑室",
+      "oneLiner": "OpenAI 正在通过为学生、教育工作者、记者和新闻机构提供工具、培训和合作伙伴关系来扩大对新闻业的支持。",
       "summary": {
-        "oneSentence": "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, ",
+        "oneSentence": "OpenAI 正在通过为学生、教育工作者、记者和新闻机构提供工具、培训和合作伙伴关系来扩大对新闻业的支持。",
         "bullets": [
-          "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations."
+          "OpenAI 正在通过为学生、教育工作者、记者和新闻机构提供工具、培训和合作伙伴关系来扩大对新闻业的支持。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "OpenAI 官网发布：OpenAI 正在通过为学生、教育工作者、记者和新闻机构提供工具、培训和合作伙伴关系来扩大对新闻业的支持。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -1843,27 +2617,29 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
-        "relevance": "",
+        "relevance": "关联产品：chatgpt",
         "actionItems": [
-          "阅读原文：https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms"
+          "阅读原文（英文）：https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [
         "chatgpt"
       ],
       "content": [
-        "OpenAI is expanding support for journalism with tools, training, and partnerships for students, educators, journalists, and news organizations."
+        "OpenAI 正在通过为学生、教育工作者、记者和新闻机构提供工具、培训和合作伙伴关系来扩大对新闻业的支持。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "OpenAI 正在通过为学生、教育工作者、记者和新闻机构提供工具、培训和合作伙伴关系来扩大对新闻业的支持。"
+      ],
+      "translated": true,
       "originalTitle": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
       "originalLang": "en",
       "date": "2026-09-08",
@@ -1881,32 +2657,34 @@
         "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
         "home": "https://openai.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "OpenAI expands initiatives to support journalism from classrooms to newsrooms"
       },
       "raw": {
         "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
         "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
         "fetched": false,
-        "savedAt": "2026-09-09T02:37:26.782Z"
-      }
+        "savedAt": "2026-09-09T02:37:26.782Z",
+        "retranslatedAt": "2026-09-11T02:33:12.203Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-9816f5beea",
-      "title": "1Password increases engineering productivity 21% with Codex",
-      "oneLiner": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching producti",
+      "title": "1Password 通过 Codex 将工程生产力提高 21%",
+      "oneLiner": "1Password 的工程师使用 Codex 快速构建新功能和内部工具，达到生产就绪状态，同时维护严格的安全策略。",
       "summary": {
-        "oneSentence": "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while m",
+        "oneSentence": "1Password 的工程师使用 Codex 快速构建新功能和内部工具，达到生产就绪状态，同时维护严格的安全策略。",
         "bullets": [
-          "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies."
+          "1Password 的工程师使用 Codex 快速构建新功能和内部工具，达到生产就绪状态，同时维护严格的安全策略。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "OpenAI 官网发布：1Password 的工程师使用 Codex 快速构建新功能和内部工具，达到生产就绪状态，同时维护严格的安全策略。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -1914,27 +2692,29 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
-        "relevance": "",
+        "relevance": "关联产品：chatgpt",
         "actionItems": [
-          "阅读原文：https://openai.com/index/1password"
+          "阅读原文（英文）：https://openai.com/index/1password"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [
         "chatgpt"
       ],
       "content": [
-        "Engineers at 1Password use Codex to rapidly build new features and internal tools, reaching production-readiness while maintaining rigorous security policies."
+        "1Password 的工程师使用 Codex 快速构建新功能和内部工具，达到生产就绪状态，同时维护严格的安全策略。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "1Password 的工程师使用 Codex 快速构建新功能和内部工具，达到生产就绪状态，同时维护严格的安全策略。"
+      ],
+      "translated": true,
       "originalTitle": "1Password increases engineering productivity 21% with Codex",
       "originalLang": "en",
       "date": "2026-09-08",
@@ -1952,32 +2732,34 @@
         "url": "https://openai.com/index/1password",
         "home": "https://openai.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "1Password increases engineering productivity 21% with Codex"
       },
       "raw": {
         "title": "1Password increases engineering productivity 21% with Codex",
         "url": "https://openai.com/index/1password",
         "fetched": false,
-        "savedAt": "2026-09-09T02:37:28.609Z"
-      }
+        "savedAt": "2026-09-09T02:37:28.609Z",
+        "retranslatedAt": "2026-09-11T02:33:13.447Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-e02ae19def",
-      "title": "Supporting independent journalism in Ukraine",
-      "oneLiner": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen inn",
+      "title": "支持乌克兰的独立新闻业",
+      "oneLiner": "OpenAI、AIRPPU 和 WAN-IFRA 推出人工智能计划，帮助乌克兰新闻机构加强创新、弹性和独立新闻。",
       "summary": {
-        "oneSentence": "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience,",
+        "oneSentence": "OpenAI、AIRPPU 和 WAN-IFRA 推出人工智能计划，帮助乌克兰新闻机构加强创新、弹性和独立新闻。",
         "bullets": [
-          "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism."
+          "OpenAI、AIRPPU 和 WAN-IFRA 推出人工智能计划，帮助乌克兰新闻机构加强创新、弹性和独立新闻。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "OpenAI 官网发布：OpenAI、AIRPPU 和 WAN-IFRA 推出人工智能计划，帮助乌克兰新闻机构加强创新、弹性和独立新闻。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -1985,27 +2767,29 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
-        "relevance": "",
+        "relevance": "关联产品：chatgpt",
         "actionItems": [
-          "阅读原文：https://openai.com/index/supporting-independent-journalism-in-ukraine"
+          "阅读原文（英文）：https://openai.com/index/supporting-independent-journalism-in-ukraine"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [
         "chatgpt"
       ],
       "content": [
-        "OpenAI, AIRPPU and WAN-IFRA launch an AI program to help Ukrainian news organizations strengthen innovation, resilience, and independent journalism."
+        "OpenAI、AIRPPU 和 WAN-IFRA 推出人工智能计划，帮助乌克兰新闻机构加强创新、弹性和独立新闻。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "OpenAI、AIRPPU 和 WAN-IFRA 推出人工智能计划，帮助乌克兰新闻机构加强创新、弹性和独立新闻。"
+      ],
+      "translated": true,
       "originalTitle": "Supporting independent journalism in Ukraine",
       "originalLang": "en",
       "date": "2026-09-07",
@@ -2023,16 +2807,18 @@
         "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
         "home": "https://openai.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Supporting independent journalism in Ukraine"
       },
       "raw": {
         "title": "Supporting independent journalism in Ukraine",
         "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
         "fetched": false,
-        "savedAt": "2026-09-08T02:36:27.388Z"
-      }
+        "savedAt": "2026-09-08T02:36:27.388Z",
+        "retranslatedAt": "2026-09-11T02:33:14.656Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-276c6225db",
@@ -2517,6 +3303,81 @@
       }
     },
     {
+      "id": "sig-19672c4832",
+      "title": "研究加速：OpenAI 内部的观点",
+      "oneLiner": "在 OpenAI 内部，编码代理正在重塑人工智能研究。探索有关代理使用、实验速度、任务复杂性和研究加速的早期数据。",
+      "summary": {
+        "oneSentence": "在 OpenAI 内部，编码代理正在重塑人工智能研究。探索有关代理使用、实验速度、任务复杂性和研究加速的早期数据。",
+        "bullets": [
+          "在 OpenAI 内部，编码代理正在重塑人工智能研究。探索有关代理使用、实验速度、任务复杂性和研究加速的早期数据。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：在 OpenAI 内部，编码代理正在重塑人工智能研究。探索有关代理使用、实验速度、任务复杂性和研究加速的早期数据。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/research-acceleration-view-inside-openai"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "在 OpenAI 内部，编码代理正在重塑人工智能研究。探索有关代理使用、实验速度、任务复杂性和研究加速的早期数据。"
+      ],
+      "highlights": [
+        "在 OpenAI 内部，编码代理正在重塑人工智能研究。探索有关代理使用、实验速度、任务复杂性和研究加速的早期数据。"
+      ],
+      "translated": true,
+      "originalTitle": "Research acceleration: The view inside OpenAI",
+      "originalLang": "en",
+      "date": "2026-09-06",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Research acceleration: The view inside OpenAI"
+      },
+      "raw": {
+        "title": "Research acceleration: The view inside OpenAI",
+        "url": "https://openai.com/index/research-acceleration-view-inside-openai",
+        "fetched": false,
+        "savedAt": "2026-09-08T02:36:28.795Z",
+        "retranslatedAt": "2026-09-11T02:33:15.895Z"
+      },
+      "translateMethod": "google"
+    },
+    {
       "id": "sig-4f8847a860",
       "title": "Research acceleration: The view inside OpenAI",
       "oneLiner": "Research acceleration: The view inside OpenAI Apparently today is RSI day at OpenAI, for Recursive S",
@@ -2786,77 +3647,6 @@
         "url": "https://simonwillison.net/2026/Sep/6/zach-kehs/",
         "fetched": false,
         "savedAt": "2026-09-07T02:23:38.450Z"
-      }
-    },
-    {
-      "id": "sig-19672c4832",
-      "title": "Research acceleration: The view inside OpenAI",
-      "oneLiner": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experimen",
-      "summary": {
-        "oneSentence": "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task com",
-        "bullets": [
-          "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration."
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://openai.com/index/research-acceleration-view-inside-openai"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "Inside OpenAI, coding agents are reshaping AI research. Explore early data on agent usage, experiment velocity, task complexity, and research acceleration."
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Research acceleration: The view inside OpenAI",
-      "originalLang": "en",
-      "date": "2026-09-06",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Research acceleration: The view inside OpenAI"
-      },
-      "raw": {
-        "title": "Research acceleration: The view inside OpenAI",
-        "url": "https://openai.com/index/research-acceleration-view-inside-openai",
-        "fetched": false,
-        "savedAt": "2026-09-08T02:36:28.795Z"
       }
     },
     {
@@ -31385,678 +32175,6 @@
         "url": "https://vercel.com/changelog/discover-and-install-eve-integrations-from-the-cli",
         "fetched": true,
         "savedAt": "2026-08-03T22:58:16.076Z"
-      }
-    },
-    {
-      "id": "sig-df22037e3e",
-      "title": "代理人工智能时代的科学计算",
-      "oneLiner": "一份新的现场报告展示了科学家如何使用人工智能编码代理实现科学计算现代化，加速基因组学及其他领域的软件开发和发现。",
-      "summary": {
-        "oneSentence": "一份新的现场报告展示了科学家如何使用人工智能编码代理实现科学计算现代化，加速基因组学及其他领域的软件开发和发现。",
-        "bullets": [
-          "一份新的现场报告展示了科学家如何使用人工智能编码代理实现科学计算现代化，加速基因组学及其他领域的软件开发和发现。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：一份新的现场报告展示了科学家如何使用人工智能编码代理实现科学计算现代化，加速基因组学及其他领域的软件开发和发现。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/scientific-computing-agentic-ai"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "一份新的现场报告展示了科学家如何使用人工智能编码代理实现科学计算现代化，加速基因组学及其他领域的软件开发和发现。"
-      ],
-      "highlights": [
-        "一份新的现场报告展示了科学家如何使用人工智能编码代理实现科学计算现代化，加速基因组学及其他领域的软件开发和发现。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Scientific computing in the age of agentic AI",
-      "originalLang": "en",
-      "date": "2026-07-28",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/scientific-computing-agentic-ai",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Scientific computing in the age of agentic AI"
-      },
-      "raw": {
-        "title": "Scientific computing in the age of agentic AI",
-        "url": "https://openai.com/index/scientific-computing-agentic-ai",
-        "fetched": false,
-        "savedAt": "2026-08-03T22:58:17.294Z"
-      }
-    },
-    {
-      "id": "sig-be3ca53745",
-      "title": "Gemini API 托管代理：3.6 Flash、挂钩等",
-      "oneLiner": "Gemini API 中的托管代理现在默认为 Gemini 3.6 Flash。新的环境挂钩允许您阻止、检查或审核沙箱内的工具调用。此外，我们还添加了预算控制、计划触发器和免费套餐访问。",
-      "summary": {
-        "oneSentence": "Gemini API 中的托管代理现在默认为 Gemini 3.6 Flash。新的环境挂钩允许您阻止、检查或审核沙箱内的工具调用。此外，我们还添加了预算控制、计划触发器和免费套餐访问。",
-        "bullets": [
-          "Gemini API 中的托管代理现在默认为 Gemini 3.6 Flash。新的环境挂钩允许您阻止、检查或审核沙箱内的工具调用。此外，我们还添加了预算控制、计划触发器和免费套餐访问。",
-          "谷歌 DeepMind 技术人员",
-          "您的浏览器不支持音频元素。",
-          "Gemini API 中的托管代理可以获得环境挂钩、模型选择和免费层访问权限。这些功能建立在我们之前版本的基础上，引入了后台任务和远程 MCP 服务器集成。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Google AI 官网发布：Gemini API 中的托管代理现在默认为 Gemini 3.6 Flash。新的环境挂钩允许您阻止、检查或审核沙箱内的工具调用。此外，我们还添加了预算控制、计划触发器和免费套餐访问。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：gemini",
-        "actionItems": [
-          "阅读原文（英文）：https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "gemini"
-      ],
-      "content": [
-        "Gemini API 中的托管代理现在默认为 Gemini 3.6 Flash。新的环境挂钩允许您阻止、检查或审核沙箱内的工具调用。此外，我们还添加了预算控制、计划触发器和免费套餐访问。",
-        "谷歌 DeepMind 技术人员",
-        "您的浏览器不支持音频元素。",
-        "Gemini API 中的托管代理可以获得环境挂钩、模型选择和免费层访问权限。这些功能建立在我们之前版本的基础上，引入了后台任务和远程 MCP 服务器集成。",
-        "通过 Gemini Interactions API 中的托管代理，单个 API 调用可以在隔离的云沙箱内协调、推理、代码执行、包安装、文件管理和 Web 检索。",
-        "如果您使用的是 AI 编码助手，请将其放入终端中以使其能够访问交互 API 技能：npx Skills add google-gemini/gemini-skills --skill gemini-interactions-api。",
-        "以下是使用 @google/genai TypeScript/JavaScript SDK 的示例。对于 Python 或 cURL，请查看反重力代理文档 。",
-        "npm install @google/genai Gemini 3.6 Flash 现在是默认设置 antigravity-preview-05-2026 代理现在默认运行 Gemini 3.6 Flash。无需更改代码。您的下一次互动会自动选择它。",
-        "您还可以在创建交互或托管代理时通过传递 agent_config.model 来显式选择模型。使用 Gemini 3.5 Flash-Lite 可以降低成本，或固定到您偏好的型号。",
-        "从“@google/genai”导入 { GoogleGenAI }； const client = new GoogleGenAI({}); const交互=等待client.interactions.create（{代理：“antigravity-preview-05-2026”，输入：“审核package.json中的所有依赖项，升级过时的包，并通过运行npm测试验证​​构建。”，环境：“remote”，agent_config：{类型：“antigravity”，模型：“gemini-3.5-flash-lite”，}，}）; console.log(interaction.output_text);支持的型号包括："
-      ],
-      "highlights": [
-        "Gemini API 中的托管代理现在默认为 Gemini 3.6 Flash。新的环境挂钩允许您阻止、检查或审核沙箱内的工具调用。此外，我们还添加了预算控制、",
-        "谷歌 DeepMind 技术人员",
-        "您的浏览器不支持音频元素。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
-      "originalLang": "en",
-      "date": "2026-07-28",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google AI",
-        "author": "Google",
-        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-        "home": "https://blog.google/technology/ai/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Gemini API Managed Agents: 3.6 Flash, hooks, and more"
-      },
-      "raw": {
-        "title": "Gemini API Managed Agents: 3.6 Flash, hooks, and more",
-        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-        "fetched": true,
-        "savedAt": "2026-08-03T22:58:29.184Z"
-      }
-    },
-    {
-      "id": "sig-7909c61394",
-      "title": "Gemini Robotics 2 为机器人带来全身智能",
-      "oneLiner": "分享 已复制 您的浏览器不支持 video 标签。从脚到指尖——我们正在教授机器人智能全身控制、精细的灵活性和团队合作，以完成各种复杂的任务",
-      "summary": {
-        "oneSentence": "分享 已复制 您的浏览器不支持 video 标签。从脚到指尖——我们正在教授机器人智能全身控制、精细的灵活性和团队合作，以完成各种复杂的任务",
-        "bullets": [
-          "分享 已复制 您的浏览器不支持 video 标签。从脚到指尖——我们正在教授机器人智能全身控制、精细的灵活性和团队合作，以完成各种复杂的任务",
-          "几十年来，我们一直梦想着机器人能够无缝地走进我们的世界并伸出援手。现在，这一愿景向前迈出了一大步。",
-          "大多数机器人都经过预先编程或远程操作，以执行狭窄的重复性任务序列。他们缺乏真正自学或适应不可预测环境的能力。此外，将学到的技能从一个机器人身体转移到另一个机器人身体仍然非常困难。为了大规模解决最困难的问题，各种形状和大小的机器人都需要人工智能模型，使它们能够智能地思考、行动和交互，以安全地完成任务。",
-          "我们展示了 Gemini 的多模式理解如何通过 Gemini Robotics 推动现实世界的行动。今天，我们推出 Gemini Robotics 2 - 为下一代真正适应性强的机器人提供动力的智能层。当它迈出真正的第一步时，这一重大进步解锁了智能全身控制、高级灵活性和多机器人协作。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Google DeepMind 官网发布：分享 已复制 您的浏览器不支持 video 标签。从脚到指尖——我们正在教授机器人智能全身控制、精细的灵活性和团队合作，以完成各种复杂的任务",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：gemini",
-        "actionItems": [
-          "阅读原文（英文）：https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "gemini"
-      ],
-      "content": [
-        "分享 已复制 您的浏览器不支持 video 标签。从脚到指尖——我们正在教授机器人智能全身控制、精细的灵活性和团队合作，以完成各种复杂的任务",
-        "几十年来，我们一直梦想着机器人能够无缝地走进我们的世界并伸出援手。现在，这一愿景向前迈出了一大步。",
-        "大多数机器人都经过预先编程或远程操作，以执行狭窄的重复性任务序列。他们缺乏真正自学或适应不可预测环境的能力。此外，将学到的技能从一个机器人身体转移到另一个机器人身体仍然非常困难。为了大规模解决最困难的问题，各种形状和大小的机器人都需要人工智能模型，使它们能够智能地思考、行动和交互，以安全地完成任务。",
-        "我们展示了 Gemini 的多模式理解如何通过 Gemini Robotics 推动现实世界的行动。今天，我们推出 Gemini Robotics 2 - 为下一代真正适应性强的机器人提供动力的智能层。当它迈出真正的第一步时，这一重大进步解锁了智能全身控制、高级灵活性和多机器人协作。",
-        "Gemini Robotics 2 使机器人能够对每一个动作进行推理，从而解锁广泛的任务。例如，它可以使人形机器人能够行走、蹲伏、伸展和操纵物体来清理杂乱的房间。它甚至可以与其他机器人合作，更快地完成工作。这种深刻的智能还可以在设备上本地运行，同时在短短几个小时内无缝适应全新的机器人身体。",
-        "我们通过三个高性能模型使这成为可能：",
-        "Gemini Robotics 2 使用相同的模型检查点（配备 SharpaWave 手的 Apptronik Apollo 2 机器人、配备 Inspire 手的 Apollo 2 机器人以及配备 Robotiq 抓手的 Franka Duo）控制三个不同的实施例，执行各种全身和灵巧的操作任务。每个条形代表同一技能类别内多个任务的平均成功率。对于多指任务，我们显示个人任务表现。虽然 Gemini Robotics 2 在全身和基于夹具的灵巧任务中实现了中等到高的成功率，但多手指灵巧操作仍然具有挑战性。",
-        "我们的推理模型 Gemini Robotics ER 2 现已在 Google AI Studio 上提供，并在 Gemini Enterprise Agent Platform 上提供私人预览版。我们的 VLA 和设备上模型可供抢先体验的合作伙伴使用。在我们的开发者博客上了解如何将这些模型引入您的硬件。",
-        "世界是为人类运动而建立的；它要求我们在狭窄、杂乱的空间中伸展、弯曲和保持平衡。我们之前的模型控制人形机器人的上半身来完成桌面任务，而 Gemini Robotics 2 将物理 AI 扩展到全身运动。",
-        "我们的模型现在第一次可以控制整个人形机器人，将意图转化为智能全身控制。例如，当控制Apptronik的Apollo 2人形机器人时，我们可以要求它“将喷壶放入最底层架子的绿色垃圾桶中。”Apollo处理指令，走到桌子旁，拿起喷壶，几步走到架子上，并将其精确地放置在目的地。虽然我们的机器人在移动速度方面还有更多进步，但这是朝着完成需要全身协调的更复杂、现实世界任务所需的技能迈出的重要一步。"
-      ],
-      "highlights": [
-        "分享 已复制 您的浏览器不支持 video 标签。从脚到指尖——我们正在教授机器人智能全身控制、精细的灵活性和团队合作，以完成各种复杂的任务",
-        "几十年来，我们一直梦想着机器人能够无缝地走进我们的世界并伸出援手。现在，这一愿景向前迈出了一大步。",
-        "大多数机器人都经过预先编程或远程操作，以执行狭窄的重复性任务序列。他们缺乏真正自学或适应不可预测环境的能力。此外，将学到的技能从一个机器人身体转移到另一个机器人"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Gemini Robotics 2 brings whole body intelligence to robots",
-      "originalLang": "en",
-      "date": "2026-07-28",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google DeepMind",
-        "author": "DeepMind",
-        "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-        "home": "https://deepmind.google/blog/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Gemini Robotics 2 brings whole body intelligence to robots"
-      },
-      "raw": {
-        "title": "Gemini Robotics 2 brings whole body intelligence to robots",
-        "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-        "fetched": true,
-        "savedAt": "2026-08-08T22:25:05.758Z"
-      }
-    },
-    {
-      "id": "sig-7c8ae2784e",
-      "title": "搜索中的 AI 模式可帮助您享受现实世界的 5 种方式",
-      "oneLiner": "无论您是想预订音乐会门票还是寻找完美的登山靴，Search 的人工智能工具都可以通过以下方式帮助您充分利用离线时间。",
-      "summary": {
-        "oneSentence": "无论您是想预订音乐会门票还是寻找完美的登山靴，Search 的人工智能工具都可以通过以下方式帮助您充分利用离线时间。",
-        "bullets": [
-          "无论您是想预订音乐会门票还是寻找完美的登山靴，Search 的人工智能工具都可以通过以下方式帮助您充分利用离线时间。",
-          "您的浏览器不支持音频元素。",
-          "Google 的 AI 模式可简化您计划活动和事件的方式，帮助您花更多时间离线。您可以使用它来查找适合您日程安排的本地课程、购买特定装备、练习新爱好以及预订门票。尝试连接您的应用程序以生成自定义设计或组织您的日历，以便您可以专注于享受现实世界。",
-          "人们正在寻找越来越多的离线方式，体验现实世界，“摸草”。今年，人们比以往任何时候都更多地搜索“成人网球课程”、“越野跑”、“徒步旅行”和“跑步俱乐部”。人们还在搜索诸如“如何进行数字排毒”（自年初以来增加了 110%）和“如何结识附近与我同龄的人”等问题。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Google AI 官网发布：无论您是想预订音乐会门票还是寻找完美的登山靴，Search 的人工智能工具都可以通过以下方式帮助您充分利用离线时间。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：gemini",
-        "actionItems": [
-          "阅读原文（英文）：https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "gemini"
-      ],
-      "content": [
-        "无论您是想预订音乐会门票还是寻找完美的登山靴，Search 的人工智能工具都可以通过以下方式帮助您充分利用离线时间。",
-        "您的浏览器不支持音频元素。",
-        "Google 的 AI 模式可简化您计划活动和事件的方式，帮助您花更多时间离线。您可以使用它来查找适合您日程安排的本地课程、购买特定装备、练习新爱好以及预订门票。尝试连接您的应用程序以生成自定义设计或组织您的日历，以便您可以专注于享受现实世界。",
-        "人们正在寻找越来越多的离线方式，体验现实世界，“摸草”。今年，人们比以往任何时候都更多地搜索“成人网球课程”、“越野跑”、“徒步旅行”和“跑步俱乐部”。人们还在搜索诸如“如何进行数字排毒”（自年初以来增加了 110%）和“如何结识附近与我同龄的人”等问题。",
-        "为了充分享受现实生活中的乐趣，Google 搜索中的 AI 模式提供了一些工具来帮助您找到所需的信息。方法如下：",
-        "准备好尝试新事物但不知道从哪里开始？使用人工智能模式，通过询问诸如“我如何开始打网球？附近有我可以轻松参加的初学者诊所或课程吗？”之类的问题来开始学习。",
-        "个人智能可让您安全地连接 Google 应用程序中的各个点，以便 AI 模式的响应对您来说更加个性化。例如，假设您希望提高烹饪水平，并希望找到适合您下个月日程安排的课程。如果您选择连接 Google 日历，您将获得适合您现有日程安排的建议。",
-        "到户外去是放松身心的好方法，但对于徒步旅行和越野跑等活动，您需要确保在出发前做好充分准备。您可以在 AI 模式下轻松购物，以确保您拥有完全符合您需求的商品。试着问：“你能帮我找到一些价格实惠、脚踝支撑良好的登山靴吗？” AI 模式将帮助您选择符合您需求的产品。您还可以通过在搜索中添加“附近”或“我附近”来查看该地区有哪些库存，甚至可以要求 Google 致电附近的商店以获取您的产品库存情况。",
-        "如果您今年开始接触桌游，您可以使用 AI 模式下的 Canvas 创建指南来帮助您记住一些核心游戏策略。前往人工智能模式，点击加号菜单，选择“画布”，然后问它类似这样的问题：“我知道下棋的基础知识以及不同棋子的作用，但我想提高我的游戏水平。用一些易于记忆的策略制作一个指南，我可以立即开始使用，以便在与朋友对弈时获得优势。”一旦掌握了关键动作，您甚至可以使用 Canvas 构建与计算机对战的游戏模拟来进行练习。",
-        "如果您喜欢离线参加现场活动，请使用 AI 模式帮助您查找和预订附近活动的门票，例如音乐会和体育赛事。分享您的预算、您想要多少张门票以及您想参加什么活动等详细信息。 AI 模式将整理一系列选项，以便您可以在您喜欢的平台上完成预订，以确保您的席位。"
-      ],
-      "highlights": [
-        "无论您是想预订音乐会门票还是寻找完美的登山靴，Search 的人工智能工具都可以通过以下方式帮助您充分利用离线时间。",
-        "您的浏览器不支持音频元素。",
-        "Google 的 AI 模式可简化您计划活动和事件的方式，帮助您花更多时间离线。您可以使用它来查找适合您日程安排的本地课程、购买特定装备、练习新爱好以及预订门票"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "5 ways AI Mode in Search helps you enjoy the real world",
-      "originalLang": "en",
-      "date": "2026-07-28",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google AI",
-        "author": "Google",
-        "url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
-        "home": "https://blog.google/technology/ai/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "5 ways AI Mode in Search helps you enjoy the real world"
-      },
-      "raw": {
-        "title": "5 ways AI Mode in Search helps you enjoy the real world",
-        "url": "https://blog.google/products-and-platforms/products/search/ai-mode-real-world-tips/",
-        "fetched": true,
-        "savedAt": "2026-08-08T22:25:13.816Z"
-      }
-    },
-    {
-      "id": "sig-61b149676f",
-      "title": "利用 Google 搜索举办终极晚宴的 5 种方式",
-      "oneLiner": "这些人工智能功能可以帮助您制作菜单、设计桌面景观以及处理其他派对策划任务。",
-      "summary": {
-        "oneSentence": "这些人工智能功能可以帮助您制作菜单、设计桌面景观以及处理其他派对策划任务。",
-        "bullets": [
-          "这些人工智能功能可以帮助您制作菜单、设计桌面景观以及处理其他派对策划任务。",
-          "您的浏览器不支持音频元素。",
-          "Google 搜索现在提供人工智能驱动的工具来简化您的晚宴计划，从可视化桌面景观到设计自定义菜单。您可以使用这些功能集思广益食谱、寻找饮料搭配以及策划直接与您喜爱的应用程序同步的音乐播放列表。使用这些工具来处理后勤工作，以便您可以花更多时间与客人相处。",
-          "策划完美的晚宴是一门艺术。即使您喜欢主持，但处理诸如制作菜单和设计桌面景观之类的后勤事务可能会带来压力。幸运的是，搜索可以提供帮助。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Google AI 官网发布：这些人工智能功能可以帮助您制作菜单、设计桌面景观以及处理其他派对策划任务。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：gemini",
-        "actionItems": [
-          "阅读原文（英文）：https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "gemini"
-      ],
-      "content": [
-        "这些人工智能功能可以帮助您制作菜单、设计桌面景观以及处理其他派对策划任务。",
-        "您的浏览器不支持音频元素。",
-        "Google 搜索现在提供人工智能驱动的工具来简化您的晚宴计划，从可视化桌面景观到设计自定义菜单。您可以使用这些功能集思广益食谱、寻找饮料搭配以及策划直接与您喜爱的应用程序同步的音乐播放列表。使用这些工具来处理后勤工作，以便您可以花更多时间与客人相处。",
-        "策划完美的晚宴是一门艺术。即使您喜欢主持，但处理诸如制作菜单和设计桌面景观之类的后勤事务可能会带来压力。幸运的是，搜索可以提供帮助。",
-        "随着越来越多的人寻求在现实生活中建立联系的方式，与晚宴相关的查询也成为趋势。人们开始寻求灵感、具体规划方面的帮助等等：",
-        "借助 Google 最新的人工智能搜索工具，您可以通过更多方式将您的晚宴提升到新的水平。以下是搜索可以让您成为流量最多的房东的一些主要方法。",
-        "招待的一半乐趣在于设计美丽的主题桌面景观和装饰品来为用餐奠定基础。如果您需要一些关于如何改造您的空间的建议，您可以在搜索中的 AI 模式下使用 Nano Banana，以可视化您的桌子的外观。",
-        "膳食是每次晚宴的中心。但是，打造一份让您的客人感到惊喜和愉悦的独特菜单可能就像制作完美的舒芙蕾一样棘手。您可以使用人工智能模式来帮助您想出适合您聚会氛围的食物主题或集思广益菜单选项。现在，您可以在人工智能模式下尝试我们新的视觉处理，让您更轻松地发现菜谱创建者的菜肴。当您搜索菜谱时，响应的顶部会出现显着的链接，其中包含图像和有用的详细信息，例如创建者的姓名、菜谱评级和成分数量。",
-        "一旦你选定了菜品，你就可以转向人工智能模式来推荐饮料。例如，如果您询问 AI 模式，“我需要为我的晚宴搭配饮品方面的帮助。我应该买什么来搭配味噌鲑鱼？我还会提供奶酪拼盘和酸橙派”，您会得到一些关于您应该购买什么以及为什么它可以补充您的膳食的建议。",
-        "现在您可以将一些常用应用程序直接连接到搜索，还有更多方法可以让您的晚宴大放异彩。例如，您可以使用 AI 模式来策划适合您氛围的播放列表，立即将其保存到 YouTube Music 中，然后按播放开始为您的派对定下基调。"
-      ],
-      "highlights": [
-        "这些人工智能功能可以帮助您制作菜单、设计桌面景观以及处理其他派对策划任务。",
-        "您的浏览器不支持音频元素。",
-        "Google 搜索现在提供人工智能驱动的工具来简化您的晚宴计划，从可视化桌面景观到设计自定义菜单。您可以使用这些功能集思广益食谱、寻找饮料搭配以及策划直接与您喜"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "5 ways to host the ultimate dinner party with Google Search",
-      "originalLang": "en",
-      "date": "2026-07-28",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google AI",
-        "author": "Google",
-        "url": "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/",
-        "home": "https://blog.google/technology/ai/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "5 ways to host the ultimate dinner party with Google Search"
-      },
-      "raw": {
-        "title": "5 ways to host the ultimate dinner party with Google Search",
-        "url": "https://blog.google/products-and-platforms/products/search/dinner-party-hosting-tips/",
-        "fetched": true,
-        "savedAt": "2026-08-08T22:25:21.358Z"
-      }
-    },
-    {
-      "id": "sig-3fac1f8e14",
-      "title": "Cursor Start · Cursor",
-      "oneLiner": "我们推出了 Cursor Start ：这是一项面向印度开发者、每月 ₹649 的全新方案，通过本地定价和 UPI，让日常智能体式开发更易普及、支付也更便捷。",
-      "summary": {
-        "oneSentence": "我们推出了 Cursor Start ：这是一项面向印度开发者、每月 ₹649 的全新方案，通过本地定价和 UPI，让日常智能体式开发更易普及、支付也更便捷。",
-        "bullets": [
-          "我们推出了 Cursor Start ：这是一项面向印度开发者、每月 ₹649 的全新方案，通过本地定价和 UPI，让日常智能体式开发更易普及、支付也更便捷。",
-          "印度现有的免费用户可以通过 仪表盘 升级其方案。印度新用户可以访问 cursor.com/signup ，并在入门引导流程中选择 Start 方案。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Cursor 官网发布：我们推出了 Cursor Start ：这是一项面向印度开发者、每月 ₹649 的全新方案，通过本地定价和 UPI，让日常智能体式开发更易普及、支付也更便捷。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：cursor",
-        "actionItems": [
-          "阅读原文（中文）：https://cursor.com/changelog/cursor-start"
-        ]
-      },
-      "tags": [
-        "Release"
-      ],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "cursor"
-      ],
-      "content": [
-        "我们推出了 Cursor Start ：这是一项面向印度开发者、每月 ₹649 的全新方案，通过本地定价和 UPI，让日常智能体式开发更易普及、支付也更便捷。",
-        "印度现有的免费用户可以通过 仪表盘 升级其方案。印度新用户可以访问 cursor.com/signup ，并在入门引导流程中选择 Start 方案。"
-      ],
-      "highlights": [
-        "我们推出了 Cursor Start ：这是一项面向印度开发者、每月 ₹649 的全新方案，通过本地定价和 UPI，让日常智能体式开发更易普及、支付也更便捷。",
-        "印度现有的免费用户可以通过 仪表盘 升级其方案。印度新用户可以访问 cursor.com/signup ，并在入门引导流程中选择 Start 方案。"
-      ],
-      "translated": false,
-      "translateMethod": "native",
-      "originalTitle": "Cursor Start · Cursor",
-      "originalLang": "zh",
-      "date": "2026-07-28",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [
-        "cursor"
-      ],
-      "source": {
-        "type": "release",
-        "group": "company",
-        "name": "Cursor",
-        "author": "Cursor",
-        "url": "https://cursor.com/changelog/cursor-start",
-        "home": "https://cursor.com/changelog",
-        "lang": "zh",
-        "translated": false,
-        "translateMethod": "native",
-        "originalTitle": "Cursor Start · Cursor"
-      },
-      "raw": {
-        "title": "Cursor Start",
-        "url": "https://cursor.com/changelog/cursor-start",
-        "fetched": true,
-        "savedAt": "2026-08-08T22:25:22.586Z",
-        "retranslatedAt": "2026-08-23T00:58:00.523Z"
-      }
-    },
-    {
-      "id": "sig-6c420a6769",
-      "title": "Vercel Sandbox 支持分叉 - Vercel",
-      "oneLiner": "Vercel Sandbox 现在支持使用 Sandbox.fork() 进行分叉。",
-      "summary": {
-        "oneSentence": "Vercel Sandbox 现在支持使用 Sandbox.fork() 进行分叉。",
-        "bullets": [
-          "Vercel Sandbox 现在支持使用 Sandbox.fork() 进行分叉。",
-          "分叉从源的当前快照开始并继承其配置和环境变量。如果源正在运行，它会分叉最新保存的状态，而不是实时的内存状态。如果源没有快照，它将使用源的运行时和配置回退到全新创建。您传递的任何参数都会覆盖继承的值。",
-          "分叉与创建沙箱所需的时间大致相同，并且具有相同的限制。使用它从共享基础中分支代理，为每个租户提供自己的模板副本，或并行运行一个设置的变体。",
-          "1 从 '@vercel/sandbox' 导入 { Sandbox } ； 2 // 继承源快照中的每个字段 3 const fork = wait Sandbox . fork({4sourceSandbox:'产品代理',5}); 6 // 覆盖特定字段；其余的都继承了 7 constcustomized=awa"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Vercel Sandbox 现在支持使用 Sandbox.fork() 进行分叉。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/vercel-sandbox-supports-forking"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Vercel Sandbox 现在支持使用 Sandbox.fork() 进行分叉。",
-        "分叉从源的当前快照开始并继承其配置和环境变量。如果源正在运行，它会分叉最新保存的状态，而不是实时的内存状态。如果源没有快照，它将使用源的运行时和配置回退到全新创建。您传递的任何参数都会覆盖继承的值。",
-        "分叉与创建沙箱所需的时间大致相同，并且具有相同的限制。使用它从共享基础中分支代理，为每个租户提供自己的模板副本，或并行运行一个设置的变体。",
-        "1 从 '@vercel/sandbox' 导入 { Sandbox } ； 2 // 继承源快照中的每个字段 3 const fork = wait Sandbox . fork({4sourceSandbox:'产品代理',5}); 6 // 覆盖特定字段；其余的都继承了 7 constcustomized=awaitSandbox 。 fork ( { 8 sourceSandbox : 'prod-agent' , 9 名称 : 'forked-prod-agent' , 10 资源 : { 11 vcpu : 4 , 12 } 13 } ) ;",
-        "沙盒 fork prod-agent --name forked-prod-agent --vcpus 4",
-        "首先，请升级到最新版本：",
-        "pnpm install @vercel/sandbox@latest # SDK",
-        "在沙盒文档中了解更多信息。"
-      ],
-      "highlights": [
-        "Vercel Sandbox 现在支持使用 Sandbox.fork() 进行分叉。",
-        "分叉从源的当前快照开始并继承其配置和环境变量。如果源正在运行，它会分叉最新保存的状态，而不是实时的内存状态。如果源没有快照，它将使用源的运行时和配置回退到全新创",
-        "分叉与创建沙箱所需的时间大致相同，并且具有相同的限制。使用它从共享基础中分支代理，为每个租户提供自己的模板副本，或并行运行一个设置的变体。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Vercel Sandbox supports forking - Vercel",
-      "originalLang": "en",
-      "date": "2026-07-28",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/vercel-sandbox-supports-forking",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Vercel Sandbox supports forking - Vercel"
-      },
-      "raw": {
-        "title": "Vercel Sandbox supports forking",
-        "url": "https://vercel.com/changelog/vercel-sandbox-supports-forking",
-        "fetched": true,
-        "savedAt": "2026-08-08T22:25:29.853Z"
-      }
-    },
-    {
-      "id": "sig-37ad6a46e5",
-      "title": "Vercel Connect 现在支持自定义环境 - Vercel",
-      "oneLiner": "Vercel Connect 现在允许您将连接器链接到自定义环境，以便那里的部署可以请求提供程序令牌并接收转发的 Webhooks。",
-      "summary": {
-        "oneSentence": "Vercel Connect 现在允许您将连接器链接到自定义环境，以便那里的部署可以请求提供程序令牌并接收转发的 Webhooks。",
-        "bullets": [
-          "Vercel Connect 现在允许您将连接器链接到自定义环境，以便那里的部署可以请求提供程序令牌并接收转发的 Webhooks。",
-          "当您在仪表板中的连接器上添加或编辑项目时，自定义环境会与生产、预览和开发一起显示。",
-          "从 CLI 中，将环境的 slug 传递给 --environment ：",
-          "vercel connect Attach slack/acme-slack --environment qa 仅在 qa 环境中连接 Slack 连接器。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Vercel Connect 现在允许您将连接器链接到自定义环境，以便那里的部署可以请求提供程序令牌并接收转发的 Webhooks。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/vercel-connect-now-supports-custom-environments"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Vercel Connect 现在允许您将连接器链接到自定义环境，以便那里的部署可以请求提供程序令牌并接收转发的 Webhooks。",
-        "当您在仪表板中的连接器上添加或编辑项目时，自定义环境会与生产、预览和开发一起显示。",
-        "从 CLI 中，将环境的 slug 传递给 --environment ：",
-        "vercel connect Attach slack/acme-slack --environment qa 仅在 qa 环境中连接 Slack 连接器。",
-        "传递 --environment 会替换默认环境。",
-        "链接后，该环境中的部署可以像往常一样使用 getToken 请求令牌。如果调用环境不在项目链接上，则请求将失败并显示 ClientNotEnabledForEnvironmentError 。",
-        "触发目标还可以针对自定义环境：",
-        "vercel connect Attach slack/acme-slack --environment qa --triggers \\ --trigger-environment qa --trigger-path /api/slack-events 将已验证的 webhook 转发到 qa 环境。",
-        "在使用触发器定位自定义环境之前，请对其进行部署并为其分配经过验证的域。 Vercel Connect 通过该域转发事件。",
-        "项目链接控制哪些部署可以请求令牌，并且它们在颁发后不会限制提供者令牌。当环境需要提供程序级别的隔离时，请为每个环境创建一个单独的连接器，并仅请求其所需的范围。"
-      ],
-      "highlights": [
-        "Vercel Connect 现在允许您将连接器链接到自定义环境，以便那里的部署可以请求提供程序令牌并接收转发的 Webhooks。",
-        "当您在仪表板中的连接器上添加或编辑项目时，自定义环境会与生产、预览和开发一起显示。",
-        "从 CLI 中，将环境的 slug 传递给 --environment ："
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Vercel Connect now supports Custom Environments - Vercel",
-      "originalLang": "en",
-      "date": "2026-07-28",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/vercel-connect-now-supports-custom-environments",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Vercel Connect now supports Custom Environments - Vercel"
-      },
-      "raw": {
-        "title": "Vercel Connect now supports Custom Environments",
-        "url": "https://vercel.com/changelog/vercel-connect-now-supports-custom-environments",
-        "fetched": true,
-        "savedAt": "2026-08-08T22:25:38.035Z"
       }
     }
   ]
