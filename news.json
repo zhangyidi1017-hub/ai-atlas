@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-15T02:57:37.420Z",
+  "updatedAt": "2026-09-16T02:53:54.164Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 411,
+  "itemCount": 420,
   "brief": {
-    "date": "2026-09-15",
-    "generatedAt": "2026-09-15T02:57:37.419Z",
-    "totalCount": 411,
-    "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 411 条",
+    "date": "2026-09-16",
+    "generatedAt": "2026-09-16T02:53:54.162Z",
+    "totalCount": 420,
+    "todayCount": 1,
+    "headline": "今日 AI 信号 1 条 · 档案共 420 条",
     "topUpdates": [
       {
         "id": "sig-12e9dd6851",
@@ -94,12 +94,12 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-09-15T02:57:37.420Z",
+    "generatedAt": "2026-09-16T02:53:54.164Z",
     "summary": "近 30 天共 290 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
-        "signal": "近 30 天 5 条相关更新",
+        "signal": "近 30 天 4 条相关更新",
         "examples": [
           "Cursor 项目 · Cursor",
           "自托管机器 · Cursor"
@@ -110,6 +110,66 @@
     "risingTags": []
   },
   "productUpdates": [
+    {
+      "id": "sig-f4c3141ce9",
+      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "oneLiner": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "date": "2026-09-15",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google DeepMind",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-18592959ad",
+      "title": "AI for Societal Impact",
+      "oneLiner": "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure ev",
+      "date": "2026-09-15",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google AI",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-b86d9a766f",
+      "title": "Building AI to accelerate science and improve lives",
+      "oneLiner": "The true measure of AI is who it helps. Here’s how it’s impacting lives today. We're focused on key ",
+      "date": "2026-09-15",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google AI",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-a243976a4a",
+      "title": "AI for everyone in every language",
+      "oneLiner": "We’re moving beyond traditional text translation to build models that understand the world’s rich, l",
+      "date": "2026-09-15",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google AI",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-00e29a681a",
+      "title": "New insights from Google’s AI & Economy ATLAS",
+      "oneLiner": "We’ve translated ATLAS’s millions of global data points into an interactive, open-access experience.",
+      "date": "2026-09-15",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google AI",
+      "tags": [],
+      "stars": 3
+    },
     {
       "id": "sig-12e9dd6851",
       "title": "Perplexity 信任 GPT-6 Astra 的端到端系统",
@@ -339,69 +399,806 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-167bce5d47",
-      "title": "GPT-5.6 Sol 如何帮助运行量子计算实验",
-      "oneLiner": "了解 MIT 研究人员如何使用 GPT-5.6 Sol 和 Codex 自主运行量子计算实验、分析结果和校准量子位。",
-      "date": "2026-09-08",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-80d284f588",
-      "title": "AlphaGenome Atlas：人类基因组中每个可能的 DNA 字母变化的预测图",
-      "oneLiner": "预测人类基因组中每一种可能的单字母 DNA 变异的分子影响将如何帮助加速我们对生物学的理解。",
-      "date": "2026-09-08",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google DeepMind",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-aaada63e99",
-      "title": "现在的工作触手可及",
-      "oneLiner": "探索功能更强大、价格更实惠的人工智能如何扩大人们和企业可以完成的工作，并使增长更加经济。",
-      "date": "2026-09-08",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-305f03a4aa",
-      "title": "ChatGPT 图像 2.5 简介",
-      "oneLiner": "ChatGPT Images 2.5 有助于将您的想法、草图和参考照片转变为更加个性化、精美的图像，更好地反映您的想法。",
-      "date": "2026-09-08",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-fbb79928f7",
-      "title": "论纳维-斯托克斯千年奖问题",
-      "oneLiner": "正在加载... 分享 问题 问题 结果 结果 我们如何找到证明 并行工作 进度和责任 问题 结果 我们如何找到证明 并行工作 进度和责任 我们正在分享纳维-斯托克斯存在性和平滑性问题的解决方案，该问题是千年奖问题之一。该证明由内部 Open",
-      "date": "2026-09-08",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-2c9062d354",
+      "title": "Is Agentic now tailors its audit by site type",
+      "oneLiner": "Is Agentic reports now let you view your checks through one of four site types: Docs & content, Busi",
+      "summary": {
+        "oneSentence": "Is Agentic reports now let you view your checks through one of four site types: Docs & content, Business, App, or Commer",
+        "bullets": [
+          "Is Agentic reports now let you view your checks through one of four site types: Docs & content, Business, App, or Commerce. For example, the Commerce view highlights payment and checkout standards lik"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/is-agentic-report-categories"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Is Agentic reports now let you view your checks through one of four site types: Docs & content, Business, App, or Commerce.",
+        "For example, the Commerce view highlights payment and checkout standards like x402, UCP, and ACP, while the App view highlights API discovery, authentication, error handling, and SDK support.",
+        "Your score stays the same in every view, and you can change views on an existing report without rescanning. Only the highlighted checks change, so you can focus on what matters for your kind of site while keeping scores comparable across sites.",
+        "To set the default view, add a single meta tag to your page's <head> :",
+        "< meta name = \" is-agentic-site-type \" content = \" app \" >",
+        "The tag only sets which view readers see first. It doesn't add points or change your score. If no type is declared, Is Agentic infers one and shows which type it chose.",
+        "Run a check at is-agentic.com or read the documentation ."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Is Agentic now tailors its audit by site type - Vercel",
+      "originalLang": "en",
+      "date": "2026-09-16",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/is-agentic-report-categories",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Is Agentic now tailors its audit by site type - Vercel"
+      },
+      "raw": {
+        "title": "Is Agentic now tailors its audit by site type",
+        "url": "https://vercel.com/changelog/is-agentic-report-categories",
+        "fetched": true,
+        "savedAt": "2026-09-16T02:53:31.618Z"
+      }
+    },
+    {
+      "id": "sig-8d6cec71c8",
+      "title": "Source material: Artist and educator Zach Lieberman likes to break things",
+      "oneLiner": "The creative coder explains the throughline between drawing and computation, and why he’s jealous of",
+      "summary": {
+        "oneSentence": "The creative coder explains the throughline between drawing and computation, and why he’s jealous of pioneering artist L",
+        "bullets": [
+          "The creative coder explains the throughline between drawing and computation, and why he’s jealous of pioneering artist Lillian Schwartz."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.figma.com/blog/source-material-zach-lieberman/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "The creative coder explains the throughline between drawing and computation, and why he’s jealous of pioneering artist Lillian Schwartz.",
+        "Welcome to Source Material, a weekly series where the designers and creatives shaping culture share the references that shaped them. Our next guest is Zach Lieberman , a New York–based artist and educator who co-founded the School for Poetic Computation , helped develop openFrameworks , and teaches at MIT Media Lab .",
+        "After the shoot, we caught up with Zach about his creative process:",
+        "What were you making when you realized, “This could be my job”?",
+        "I studied fine art, drawing, and printmaking, and I struggled when I started using a computer because it felt less expressive than the pencils and paint brushes I was used to. But then I made a simple coding experiment where you draw a line, and it uncurls itself. It was so alive and organic, and I felt confident after that point that I could spend my career asking weird questions like that.",
+        "What’s the first thing you do when you sit down to work?",
+        "I often sketch on paper and map out some ideas I want to try. I also open up yesterday’s project and run it a few times to think about how I can change something old to make it something new.",
+        "What’s a design object you’d take to your grave?",
+        "The original Mac computers, like Mac SE —I still remember how the mouse felt coming from an MS-DOS machine with green type. The idea that you could click anywhere on the screen opened up worlds for me. I would sit at my neighbor’s house and use the paint can tool in MacPaint and just click and click and click.",
+        "I’m jealous of a lot of people in my field, but mostly I’m jealous of artists who lived at different moments and got to explore a new medium for the first time. Lillian Schwartz at Bell Labs working with early computer animation, Myron Krueger doing the first body-based interaction, etc. It must have felt wild to be at the start of something.",
+        "What current design trend are you tired of seeing?",
+        "I’m very tired of seeing AI use which stops at the output—I think AI can be a useful tool for conversation, but it’s becoming maddening to see posters and images in delis that are clearly just outputs from AI.",
+        "Don’t repeat yourself! I find repeating yourself to be the most interesting thing you can do. You see old ideas with new eyes.",
+        "What song do you put on to get out of a creative rut?"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Source Material: Artist and Educator Zach Lieberman Likes to Break Things | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-09-15",
+      "categoryIds": [
+        "vertical-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/source-material-zach-lieberman/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Source Material: Artist and Educator Zach Lieberman Likes to Break Things | Figma Blog"
+      },
+      "raw": {
+        "title": "Source material: Artist and educator Zach Lieberman likes to break things",
+        "url": "https://www.figma.com/blog/source-material-zach-lieberman/",
+        "fetched": true,
+        "savedAt": "2026-09-16T02:53:33.557Z"
+      }
+    },
+    {
+      "id": "sig-f4c3141ce9",
+      "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "oneLiner": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "summary": {
+        "oneSentence": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+        "bullets": [
+          "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking are our most advanced live dialogue models yet. Major upgrades in intelligence and parallel reasoning make them more intuitive to collaborate with and use to execute complex tasks using your voice.",
+        "Member of Technical Staff, on behalf of the Gemini Audio Team",
+        "Your browser does not support the audio element.",
+        "We are launching Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking to make voice interactions more natural, fluid, and intelligent. These models handle complex reasoning, real-time visual context, and background task execution without interrupting your conversation. You can start using these features today through the Gemini API, Google Workspace, and the Gemini app.",
+        "Google just launched two new AI models that make talking to your devices feel way more natural. They can handle interruptions, switch between languages, and even explain their thought process while they work. Whether you're solving a complex problem or just chatting, the AI now feels like it's actually listening and thinking along with you. It’s a big step toward making AI feel like a real conversation partner.",
+        "Today, we’re introducing two new models that bring advancements in near real-time reasoning to more effectively enable voice agents and make conversing with AI feel more intuitive and intelligent.",
+        "For developers and enterprises, these models deliver the building blocks for reliable, production-ready voice agents. They also make speaking with Gemini across the Gemini app, Google Workspace, and Search more fluid and collaborative — helping you tackle complex tasks using just your voice.",
+        "Gemini 3.8 Live Extended Thinking provides enterprise-grade task completion and intelligence, capturing the #1 overall spot on Artificial Analysis' Speech to Speech Quality Index (82.6), and leads in agentic task completion with 68.6% on τ -Voice and 35.1% on Sierra’s τ -Voice-banking benchmark. It also provides strong reasoning capabilities, scoring 97.7% on Big Bench Audio, while maintaining a highly competitive price point compared to other frontier models.",
+        "Gemini 3.8 Live has shown a high preference among users, securing a second place in the Speech Agent Arena . In addition to this performance, it remains highly cost-effective — providing developers and enterprises with a capable and efficient model built for scale.",
+        "On ServiceNow’s EVA-Bench , a benchmark for evaluating voice agents, our models push the Pareto Frontier for complex workflows by successfully balancing accuracy with conversational quality.",
+        "Note: This was run on the Live API on Gemini Enterprise Agent Platform.",
+        "Gemini 3.8 Live processes visual inputs in near real-time, enriching conversations with context for more helpful responses. It automatically detects and transitions between 97 supported languages mid-conversation. It executes tools and API calls in the background while continuing the conversation, so the model can acknowledge requests and keep chatting while tasks finish in the background.",
+        "Gemini 3.8 Live guides employee onboarding in real time, using visual context to answer live questions.",
+        "Watch Gemini 3.8 Live play chess in near real-time using visual context, reasoning, and natural conversational flow."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+      "originalLang": "en",
+      "date": "2026-09-15",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google DeepMind",
+        "author": "DeepMind",
+        "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+        "home": "https://deepmind.google/blog/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking"
+      },
+      "raw": {
+        "title": "Introducing Gemini 3.8 Live and 3.8 Live Extended Thinking",
+        "url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking/",
+        "fetched": true,
+        "savedAt": "2026-09-16T02:53:35.229Z"
+      }
+    },
+    {
+      "id": "sig-18592959ad",
+      "title": "AI for Societal Impact",
+      "oneLiner": "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure ev",
+      "summary": {
+        "oneSentence": "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the",
+        "bullets": [
+          "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "Breadcrumb Home Innovation & AI Technology AI Collection Share x.com Facebook LinkedIn Mail Copy link AI for Societal Impact Sep 15, 2026 · 6 articles 15 Sep, 2026 articles 6 Sep 15, 2026 6 articles 15 Sep, 2026 articles 6 For over a decade, we’ve seen artificial intelligence steadily advance scientific discovery, shifting from theoretical research to real-world impact. Today, the potential of these tools is no longer hypothetical — it is measurable and fundamentally reshaping how we solve humanity's most complex challenges.",
+        "Across the globe, we’re partnering with communities and researchers who are putting AI to work in key areas that matter most: making disease detectable, treatable, and preventable, predicting natural disasters, expanding learning, and unlocking economic opportunities for more people.",
+        "Explore this collection to see how experts and local leaders are using AI breakthroughs to ensure everyone can share the opportunity of AI.",
+        "AI Building AI to accelerate science and improve lives",
+        "We're focused on key areas where advanced technology can help make extraordinary progress for humanity possible.",
+        "We’re moving beyond traditional text translation to build models that understand the world’s languages exactly as they’re expressed.",
+        "AI New insights from Google’s AI & Economy ATLAS",
+        "We’ve translated ATLAS’s millions of global data points into an interactive, open-access experience.",
+        "Google Research Ask a Scientist: How can researchers use AI to spot a wildfire?",
+        "Google Research is exploring how to use AI and satellites to scan the world every 20 minutes and catch wildfires the size of a car.",
+        "Google DeepMind Ask a Scientist: How do researchers use AI to predict a cyclone?",
+        "A Google DeepMind scientist explains how AI weather prediction works and how it can help warn communities earlier than ever.",
+        "Google Research Ask a Scientist: How can researchers use AI to predict a flood?",
+        "A Google researcher explains how AI technology like Flood Hub and Groundsource can predict floods and help people around the world."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "AI for Societal Impact",
+      "originalLang": "en",
+      "date": "2026-09-15",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "AI for Societal Impact"
+      },
+      "raw": {
+        "title": "AI for Societal Impact",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact/",
+        "fetched": true,
+        "savedAt": "2026-09-16T02:53:36.666Z"
+      }
+    },
+    {
+      "id": "sig-b86d9a766f",
+      "title": "Building AI to accelerate science and improve lives",
+      "oneLiner": "The true measure of AI is who it helps. Here’s how it’s impacting lives today. We're focused on key ",
+      "summary": {
+        "oneSentence": "The true measure of AI is who it helps. Here’s how it’s impacting lives today. We're focused on key areas where advanced",
+        "bullets": [
+          "The true measure of AI is who it helps. Here’s how it’s impacting lives today. We're focused on key areas where advanced technology can help make extraordinary progress …"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "We’re asking what’s possible for health, natural disaster and weather resilience, learning, and economic opportunity.",
+        "SVP, Research, Labs, Technology & Society",
+        "Google is using AI to speed up scientific breakthroughs that help people all over the world. These tools are already detecting diseases earlier, predicting natural disasters like floods and wildfires, and breaking down language barriers. They’re also helping students learn better and supporting workers as jobs change. By working with experts everywhere, Google hopes to use this technology to solve some of the world's toughest problems.",
+        "Today, we reached a significant milestone that stands as a testament to decades of AI research and advancement: Google technologies now support more than 300 languages , spoken by 7 billion people — representing 86% of the global population. To help us understand how these tools are driving real-world opportunity, we also released new interactive insights today with our AI & Economy ATLAS, the most comprehensive look at how real people are using AI globally. This comes on top of a raft of key AI advances in science to benefit people over just the past few weeks:",
+        "What ties all of this work together? It is the belief that advances in AI can accelerate scientific progress in ways that will directly improve people’s lives today and in the future. This is a key element of what motivates our work in AI. We’re focusing our work in key areas that matter most: making disease detectable, treatable, and preventable, predicting natural disasters, expanding learning, and unlocking economic opportunities for more people.",
+        "While the possibilities are exciting, the benefits of AI are not guaranteed. Making them real — and mitigating their challenges and risks — demands that society works together. Though there is more still to do, AI’s progress is already making it possible for us to aspire to do bold and ambitious things that can benefit people, and to ask and address questions that were once considered impossible to solve.",
+        "We’re making progress in using AI to improve disease detection and diagnosis, and to better understand health conditions:",
+        "To protect people’s safety and livelihoods, we need accurate predictions of natural disasters and weather. To make accurate predictions, we must understand the physical earth. Here’s how our technical and scientific progress is already making a difference in crisis prediction and detection :",
+        "Learning is the bedrock of economic and societal progress. The world has made huge strides in education: 90% of primary school-aged children globally are enrolled in school, and approximately 87% complete their primary education. But 2022 research showed uneven access to education, differences in education quality, and limited content availability across languages, among other issues. Global learning outcomes have declined over the last two decades across 81 countries.",
+        "AI offers a profound opportunity to expand access to knowledge and support learners and educators alike:",
+        "Tackling challenges and focusing on responsible design: AI presents real challenges for learning, including questions on accuracy, safety, critical thinking, cheating, and learning loss. That’s why we have partnered with ISTE+ASCD to provide AI literacy training to all 6 million educators in the U.S., while conducting ongoing and rigorous research to ensure we design our educational tools with teachers in the lead, and AI as the assistant. We still have much to work through together.",
+        "Across the economy, AI can drive innovation and productivity for workers, businesses, and organizations across sectors. Its true value isn’t in what it does on its own, but in how people choose to use it and what they build with it:",
+        "Grounded in our company’s founding mission, we are making important strides in breaking down languages and accessibility barriers with products, research, and models that understand the world’s languages exactly as they are expressed:",
+        "We believe that such bold ambitions for the societal benefits of AI must always be accompanied by an equal commitment to responsibility. This is the basis of our bold and responsible approach to AI . Beyond our ongoing work to address the immediate and future risks of AI (detailed in our annual updates ), the application of AI and science presents distinct challenges: On the one hand, we need the right detection, reporting, and mitigation tools in place to address risks around chemical, biological, radiological, and nuclear (CBRN) mis-use. At the same time, it is important to avoid the risk of missed use — that is, not applying AI in places and communities where it would provide benefit and, in some cases, worsening existing societal challenges and gaps."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Building AI to accelerate science and improve lives",
+      "originalLang": "en",
+      "date": "2026-09-15",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Building AI to accelerate science and improve lives"
+      },
+      "raw": {
+        "title": "Building AI to accelerate science and improve lives",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people/",
+        "fetched": true,
+        "savedAt": "2026-09-16T02:53:38.279Z"
+      }
+    },
+    {
+      "id": "sig-a243976a4a",
+      "title": "AI for everyone in every language",
+      "oneLiner": "We’re moving beyond traditional text translation to build models that understand the world’s rich, l",
+      "summary": {
+        "oneSentence": "We’re moving beyond traditional text translation to build models that understand the world’s rich, living languages exac",
+        "bullets": [
+          "We’re moving beyond traditional text translation to build models that understand the world’s rich, living languages exactly as they are expressed."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "We’re moving beyond traditional text translation to build models that understand the world’s rich, living languages exactly as they are expressed.",
+        "SVP, Research, Labs, Technology & Society",
+        "Google is using AI to help people communicate in hundreds of languages, including those that were previously left out of technology. Instead of just translating text, they’re training AI to understand the emotion, tone, and slang people actually use in real life. They’re also working with local communities around the world to make sure their tools work for everyone, even those without reliable internet. This helps make sure that technology respects different cultures and helps people be understood on their own terms.",
+        "Today, our technologies and products power everyday interactions in more than 300 languages, spoken by more than 7 billion people — representing 86% of the global population. Reaching this milestone is meaningful, but it also underscores work that is critical to our mission . For decades, technology has worked best for a handful of dominant languages, leaving thousands of living languages and dialects poorly represented or absent altogether from the digital world.",
+        "When we launched Google Translate in 2006, our goal was simple: to break down the barriers between languages. Advances in AI have helped us bring that vision to more people, expanding Translate from a handful of languages to more than 250 today. But translating text isn’t enough. Technology needs to understand how people actually communicate in the real world. So we focus our research and development on building systems that honor cultural nuance and the richness of human language, enabling everyone to participate and be understood on their own terms.",
+        "Here’s what that work looks like in practice.",
+        "Historically, speech recognition systems followed a rigid, multi-step process: transcribing audio into text, processing that text, and then synthesizing it back into audio. While functional, this pipeline strips away the richest parts of human communication: tone, pacing, emotion, and context.",
+        "People don't speak in perfectly neat, grammatical sentences. We laugh, overlap, hesitate, and weave multiple languages together mid-sentence, like when we speak Spanglish or Hinglish.",
+        "To capture this, we moved beyond text transcripts to native audio intelligence — training models like Gemini to process audio directly as is, while also grasping both sound and intent. These efforts include:",
+        "Because the web disproportionately represents a few dominant languages, teaching AI to understand underrepresented languages required us to rethink how we gather data. The solution is local grassroots partnerships. This localized approach has driven three of our most ambitious open-data partnerships:",
+        "We’re also building on our work prioritizing open-source language innovation through our new tool Language Explorer . It’s an interactive tool that visualizes LinguaMeta, the world’s largest open-source language data repository. Recognized by Fast Company for design innovation , it continuously maps more than 7,000 spoken, written, and signed languages.",
+        "The impact of these innovations and partnerships is greatest when they reach the people who can turn new data and insights into meaningful change in their communities. Google.org-supported efforts, including the Centre for Digital Language Inclusion and AI Singapore’s Project Aquarium , are helping bring multilingual tools to farmers, healthcare workers, teachers, and other essential community members around the world.",
+        "For more than 3 billion people 1 , reliable internet access is still out of reach. Technology is only truly accessible if it works where people live, including areas with limited or intermittent connectivity.",
+        "To help address this, we developed TranslateGemma , a family of lightweight open translation models built from Gemini and trained across 55 languages. Because TranslateGemma runs efficiently on-device, high quality translation no longer requires a connection to the cloud or the internet."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "AI for everyone in every language",
+      "originalLang": "en",
+      "date": "2026-09-15",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "AI for everyone in every language"
+      },
+      "raw": {
+        "title": "AI for everyone in every language",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language/",
+        "fetched": true,
+        "savedAt": "2026-09-16T02:53:39.935Z"
+      }
+    },
+    {
+      "id": "sig-00e29a681a",
+      "title": "New insights from Google’s AI & Economy ATLAS",
+      "oneLiner": "We’ve translated ATLAS’s millions of global data points into an interactive, open-access experience.",
+      "summary": {
+        "oneSentence": "We’ve translated ATLAS’s millions of global data points into an interactive, open-access experience.",
+        "bullets": [
+          "We’ve translated ATLAS’s millions of global data points into an interactive, open-access experience."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "New data visualizations make ATLAS data easier to explore and use, while new research provides insights on how scientists are using AI.",
+        "AI & Economy Lead, Chief Economist's Office",
+        "Head of StratOps and Special Projects, Technology & Society",
+        "Your browser does not support the audio element.",
+        "How is AI being used by people every day, including in offices, labs, and creative studios around the world? Insights from Google’s AI & Economy ATLAS show how AI is actively reshaping global work. For example:",
+        "To make these insights and ATLAS's millions of other global data points easier to explore, we're launching a new interactive, open-access experience . You can look more closely at the rates different occupations are using AI, from electricians to purchasing managers, dive into the ways people are using AI at home, and explore the rate of AI adoption in countries around the world.",
+        "And new ATLAS-based research from Google, Google DeepMind, in collaboration with MIT FutureTech provides new insights how scientists are using AI in their work, including:",
+        "ATLAS data reveals how different professions around the globe are adopting AI, highlighting key regional trends and usage patterns:",
+        "New research also highlights how scientists are using AI in their work. A new study from Google, Google DeepMind, and MIT FutureTech draws on ATLAS data. It’s an analysis of 2600 specialized AI models, and a survey of over 600 U.S. and U.K. scientists, all organized using a new taxonomy from MIT FutureTech that maps out what scientists do.",
+        "According to the research, scientists are using AI at a higher rate than many other occupations, and nearly half use some form of AI every day. While scientists are using both specialized models and LLMs, they're using them for different tasks. Usage of LLMs like Gemini is spread widely across scientific fields and task categories, while specialized AI models tend to be relatively more common in health and life sciences and in domain-specific data prediction, generation, and simulation tasks.",
+        "Scientists are reporting significant time gains based on AI, with savings of just below seven hours a week, freeing up more time for research. But this may not immediately translate to new discoveries. The research also finds evidence of significant time spent validating AI outputs, an increased backlog of hypotheses yet to be tested, and bottlenecks emerging in areas like physical experimentation and clinical validation. In this way, science is similar to most other occupations: although AI offers significant potential to increase productivity, the large-scale impact on outputs and discoveries may require redesigning scientific processes and workflows to realize the potential of fast-evolving AI capabilities.",
+        "Many questions about the future of AI and the economy remain. ATLAS is a long-term research project, and we’ll work with partners in academia and elsewhere to identify new areas of research and deliver new insights that contribute to a better understanding of how AI is transforming the economy.",
+        "Sign up for our newsletters with product updates, event information, special offers, and more.",
+        "Check your inbox to confirm your subscription."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "New insights from Google’s AI & Economy ATLAS",
+      "originalLang": "en",
+      "date": "2026-09-15",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "New insights from Google’s AI & Economy ATLAS"
+      },
+      "raw": {
+        "title": "New insights from Google’s AI & Economy ATLAS",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/ai-economy-atlas-september-2026/",
+        "fetched": true,
+        "savedAt": "2026-09-16T02:53:41.461Z"
+      }
+    },
+    {
+      "id": "sig-9399d58a77",
+      "title": "How Delphi ships 100 times a day with its Python backend on Vercel",
+      "oneLiner": "Delphi on Vercel 10 engineers with no dedicated infrastructure role Everyone ships code, including p",
+      "summary": {
+        "oneSentence": "Delphi on Vercel 10 engineers with no dedicated infrastructure role Everyone ships code, including product and design 10",
+        "bullets": [
+          "Delphi on Vercel 10 engineers with no dedicated infrastructure role Everyone ships code, including product and design 100+ production deploys a day behind feature flags Delphi builds digital minds. Th"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/blog/how-delphi-ships-100-times-a-day-with-its-python-backend-on-vercel"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Copy link to heading Delphi on Vercel 10 engineers with no dedicated infrastructure role",
+        "Everyone ships code, including product and design",
+        "100+ production deploys a day behind feature flags",
+        "Delphi builds digital minds. They capture what someone has written, recorded, and taught, so anyone can tap that expertise on demand. Delphi is “a destination where you can find and interact with interesting minds,” says founding engineer Spencer Schoeben.",
+        "Nobody has built a digital mind network before, so Delphi figures out what to build by shipping features and watching how people use them. That only works if the product is fast to change. \"If we are going to win, we need to have an excellent developer and agentic experience,\" Spencer says. \"Otherwise, we could not adapt to how fast our user’s demands change.\"",
+        "Delphi's frontend had run on Vercel since day one. \"The frontend has always been easy,\" Spencer says, \"but the backend was a nightmare.\" Six months ago, the team rebuilt its Python backend on Vercel as well. Today the whole team ships to production 100+ times a day.",
+        "Copy link to heading Building a Python backend that's easy to work on Copy link to heading The backend slowed every change Delphi's backend previously ran on AWS, with ECS, Docker Desktop, and local databases. In the earliest days, the setup worked because the team was small and much of the context lived in people’s heads. As Delphi grew, that made onboarding slower than the team wanted: getting a new engineer to their first deploy took a full day of environment setup.",
+        "Delphi could have fixed that without leaving AWS. But fixing it properly would have meant designing and owning the infrastructure themselves, and the team didn't want to own infrastructure at all. \"That is not our current goal as a company,\" Spencer says. After moving the backend to Vercel, new engineers could get to production much faster, with the same deploy workflow the rest of the team used every day.",
+        "Copy link to heading Workflows and Queues made the move possible When Delphi was founded, Vercel Workflows and Vercel Queues didn't exist. Without them, Spencer says, the move would have been much harder, if possible at all.",
+        "Delphi's backend depends on long-running work and queued background jobs. Digital minds need durable agents that generate content ahead of time, plus ingestion that turns a person's books and talks into a knowledge graph.",
+        "Workflows handles the long-running work and Queues handle the background jobs. Neither requires setup. A developer writes the workflow or the queue handler as a function in the codebase, and Vercel provisions what's needed to run it on deploy.",
+        "Copy link to heading 100+ deploys a day, straight to production Moving the backend to Vercel let Delphi stop treating backend changes as heavyweight releases and ship them as everyday product work. The team used to deploy to staging, then production. Now it skips the middle step, shipping 100+ times a day behind feature flags and running A/B tests instead of batching changes into a release.",
+        "Vercel Agent's anomaly detection watches production at that pace, flagging when something is misbehaving and why. Before, Spencer says, they often would not have known.",
+        "Moving fast has helped clear a backlog of small experiments that never used to make the priority list. Many of those experiments test how to turn a visitor into an owner, someone who arrives to talk to a mind and leaves having started their own."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "How Delphi ships 100 times a day with its Python backend on Vercel | Customers | Vercel",
+      "originalLang": "en",
+      "date": "2026-09-15",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/how-delphi-ships-100-times-a-day-with-its-python-backend-on-vercel",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "How Delphi ships 100 times a day with its Python backend on Vercel | Customers | Vercel"
+      },
+      "raw": {
+        "title": "How Delphi ships 100 times a day with its Python backend on Vercel",
+        "url": "https://vercel.com/blog/how-delphi-ships-100-times-a-day-with-its-python-backend-on-vercel",
+        "fetched": true,
+        "savedAt": "2026-09-16T02:53:43.346Z"
+      }
+    },
+    {
+      "id": "sig-f5b57b434e",
+      "title": "Gemini 3.8 Live models now available on AI Gateway",
+      "oneLiner": "Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking from Google are now available on AI Gateway. B",
+      "summary": {
+        "oneSentence": "Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking from Google are now available on AI Gateway. Both models support r",
+        "bullets": [
+          "Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking from Google are now available on AI Gateway. Both models support real-time spoken interactions for voice assistants, conversational experiences, a"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/gemini-3-8-live-models-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Gemini 3.8 Live and Gemini 3.8 Live Extended Thinking from Google are now available on AI Gateway.",
+        "Both models support real-time spoken interactions for voice assistants, conversational experiences, and applications that respond through audio.",
+        "google/gemini-3.8-live supports real-time audio, visual grounding, automatic switching across 97 languages, and background tool calls while the conversation continues.",
+        "google/gemini-3.8-live-extended-thinking adds multi-step reasoning that runs in parallel with speech, allowing it to acknowledge requests and narrate progress without interrupting the conversation.",
+        "Use either model through the AI SDK's realtime API. Install the Gateway provider and a WebSocket client:",
+        "Mint a short-lived token, open the WebSocket, and use the model adapter to serialize and parse realtime events:",
+        "1 import { gateway } from '@ai-sdk/gateway' ; 2 import WebSocket from 'ws' ; 3 4 const modelId = 'google/gemini-3.8-live' ; 5 const { token , url } = await gateway . experimental_realtime . getToken ( { 6 model : modelId , 7 } ) ; 8 9 const model = gateway . experimental_realtime ( modelId ) ; 10 const config = model . getWebSocketConfig ( { token , url } ) ; 11 const ws = new WebSocket ( config . url , config . protocols ) ; 12 13 const send = async ( 14 event : Parameters < typeof model . serializeClientEvent > [ 0 ] , 15 ) => ws . send ( JSON . stringify ( await model . serializeClientEvent ( event ) ) ) ; 16 17 ws . on ( 'open' , async ( ) => { 18 await send ( { 19 type : 'session-update' , 20 config : { 21 outputModalities : [ 'audio' ] , 22 outputAudioTranscription : { } , 23 // Extended Thinking only. Set exactly one of thinkingLevel or thinkingBudget: 24 // providerOptions: { 25 // google: { thinkingConfig: { thinkingLevel: 'LOW' } }, 26 // }, 27 } , 28 } ) ; 29 await send ( { 30 type : 'conversation-item-create' , 31 item : { 32 type : 'text-message' , 33 role : 'user' , 34 text : 'Say hello in one sentence.' , 35 } , 36 } ) ; 37 } ) ; 38 39 ws . on ( 'message' , ( data ) => { 40 const parsed = model . parseServerEvent ( JSON . parse ( data . toString ( ) ) ) ; 41 42 for ( const event of Array . isArray ( parsed ) ? parsed : [ parsed ] ) { 43 if ( event . type === 'audio-transcript-delta' ) { 44 process . stdout . write ( event . delta ) ; 45 } 46 if ( event . type === 'response-done' ) { 47 console . log ( ) ; 48 ws . close ( ) ; 49 } 50 if ( event . type === 'error' ) { 51 console . error ( event . message ) ; 52 ws . close ( ) ; 53 } 54 } 55 } ) ; 56 57 ws . on ( 'close' , ( code , reason ) => { 58 if ( code !== 1000 ) { 59 console . error ( ` WebSocket closed ( ${ code } ): ${ reason . toString ( ) } ` ) ; 60 } 61 } ) ;",
+        "See the realtime quickstart for more details on realtime events and WebSocket connections.",
+        "Try Gemini 3.8 Live or Gemini 3.8 Live Extended Thinking in the model playground.",
+        "AI Gateway provides a unified API for calling models, tracking usage and cost, and configuring retries, failover, and performance optimizations for higher-than-provider uptime."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Gemini 3.8 Live models now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-09-15",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/gemini-3-8-live-models-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Gemini 3.8 Live models now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Gemini 3.8 Live models now available on AI Gateway",
+        "url": "https://vercel.com/changelog/gemini-3-8-live-models-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-09-16T02:53:45.122Z"
+      }
+    },
+    {
+      "id": "sig-500c6bf99a",
+      "title": "Gemini Live audio",
+      "oneLiner": "Tool: Gemini Live audio Google released Gemini 3.8 Live and 3.8 Live Extended Thinking today - two n",
+      "summary": {
+        "oneSentence": "Tool: Gemini Live audio Google released Gemini 3.8 Live and 3.8 Live Extended Thinking today - two new speech-to-speech ",
+        "bullets": [
+          "Tool: Gemini Live audio Google released Gemini 3.8 Live and 3.8 Live Extended Thinking today - two new speech-to-speech models that are a similar shape to OpenAI's GPT-Live family. I pointed GPT-6 Ast"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/15/gemini-live/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Tool: Gemini Live audio Google released Gemini 3.8 Live and 3.8 Live Extended Thinking today - two new speech-to-speech models that are a similar shape to OpenAI's GPT-Live family. I pointed GPT-6 Astra Extra High at the documentation and had it build me this web UI for trying out the new models. You can select a model and voice preset, enter an optional system prompt and then start a voice conversation through your browser, including the ability to interrupt the model while it is talking. The implementation uses no libraries. It connects to the wss://generativelanguage.googleapis.com/ws/google.ai.generativelanguage.v1alpha.GenerativeService.BidiGenerateContent?key=... WebSocket endpoint and uses a Web Audio API AudioContext for both capture and playback. Here's the Gemini Live tutorial for getting started with that WebSockets API. Tags: google , tools , websockets , generative-ai , llms , gemini , llm-release , speech-to-text"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Gemini Live audio",
+      "originalLang": "en",
+      "date": "2026-09-15",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/15/gemini-live/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Gemini Live audio"
+      },
+      "raw": {
+        "title": "Gemini Live audio",
+        "url": "https://simonwillison.net/2026/Sep/15/gemini-live/",
+        "fetched": false,
+        "savedAt": "2026-09-16T02:53:45.923Z"
+      }
+    },
     {
       "id": "sig-12e9dd6851",
       "title": "Perplexity 信任 GPT-6 Astra 的端到端系统",
@@ -3392,7 +4189,7 @@
         "url": "https://cursor.com/changelog/projects",
         "fetched": true,
         "savedAt": "2026-09-12T02:41:59.708Z",
-        "retranslatedAt": "2026-09-15T02:57:30.436Z"
+        "retranslatedAt": "2026-09-16T02:53:52.408Z"
       }
     },
     {
@@ -8661,7 +9458,7 @@
         "url": "https://cursor.com/changelog/self-hosted-machines",
         "fetched": true,
         "savedAt": "2026-09-03T02:33:34.106Z",
-        "retranslatedAt": "2026-09-15T02:57:31.512Z"
+        "retranslatedAt": "2026-09-16T02:53:53.359Z"
       }
     },
     {
@@ -31813,90 +32610,6 @@
         "url": "https://openai.com/index/circles",
         "fetched": false,
         "savedAt": "2026-08-07T22:32:17.623Z"
-      }
-    },
-    {
-      "id": "sig-61a5584a35",
-      "title": "Qwen 3.8 Max 现已在 Vercel AI Gateway 上可用 - Vercel",
-      "oneLiner": "Qwen 3.8 Max 现已在 AI Gateway 上架。",
-      "summary": {
-        "oneSentence": "Qwen 3.8 Max 现已在 AI Gateway 上架。",
-        "bullets": [
-          "Qwen 3.8 Max 现已在 AI Gateway 上架。",
-          "Qwen 3.8 Max 在一个模型中处理纯文本和视觉语言工作，具有 2.4 万亿个参数和最多 100 万个标记的上下文窗口。该模型适用于软件工程和办公生产力，以及视觉工作，例如将屏幕截图或设计文件转换为工作页面、为视频添加字幕以及回答基于图像的问题。",
-          "要使用 Qwen 3.8 Max，请将 model 设置为 alibaba/qwen3.8-max 。",
-          "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText({ 4 model: 'alibaba/qwen3.8-max', 5prompt: '为结果端点添加分页。', 6});"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Qwen 3.8 Max 现已在 AI Gateway 上架。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/qwen-3-8-max-now-available-on-vercel-ai-gateway"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Qwen 3.8 Max 现已在 AI Gateway 上架。",
-        "Qwen 3.8 Max 在一个模型中处理纯文本和视觉语言工作，具有 2.4 万亿个参数和最多 100 万个标记的上下文窗口。该模型适用于软件工程和办公生产力，以及视觉工作，例如将屏幕截图或设计文件转换为工作页面、为视频添加字幕以及回答基于图像的问题。",
-        "要使用 Qwen 3.8 Max，请将 model 设置为 alibaba/qwen3.8-max 。",
-        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText({ 4 model: 'alibaba/qwen3.8-max', 5prompt: '为结果端点添加分页。', 6});",
-        "在模型游乐场中尝试 Qwen 3.8 Max。",
-        "要在编码代理中使用它，请运行 vercel ai-gatewaycoding-agents setup 以连接 Claude Code、Codex、OpenCode 或 Pi，然后在代理内选择 alibaba/qwen3.8-max。",
-        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本，以及配置重试、故障转移和性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、零数据保留支持、API 密钥预算、路由规则等。",
-        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。",
-        "AI Gateway：按使用情况跟踪顶级 AI 模型",
-        "AI Gateway 模型排行榜跟踪一段时间内最流行的模型，并根据所有网关流量处理的代币总量对它们进行排名。"
-      ],
-      "highlights": [
-        "Qwen 3.8 Max 现已在 AI Gateway 上架。",
-        "Qwen 3.8 Max 在一个模型中处理纯文本和视觉语言工作，具有 2.4 万亿个参数和最多 100 万个标记的上下文窗口。该模型适用于软件工程和办公生产力，",
-        "要使用 Qwen 3.8 Max，请将 model 设置为 alibaba/qwen3.8-max 。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Qwen 3.8 Max now available on Vercel AI Gateway - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-02",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/qwen-3-8-max-now-available-on-vercel-ai-gateway",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Qwen 3.8 Max now available on Vercel AI Gateway - Vercel"
-      },
-      "raw": {
-        "title": "Qwen 3.8 Max now available on Vercel AI Gateway",
-        "url": "https://vercel.com/changelog/qwen-3-8-max-now-available-on-vercel-ai-gateway",
-        "fetched": true,
-        "savedAt": "2026-08-03T22:58:04.914Z"
       }
     }
   ]
