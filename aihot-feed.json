@@ -1,7 +1,7 @@
 {
   "version": 2,
   "source": "https://aihot.virxact.com/",
-  "updatedAt": "2026-09-20T02:56:35.356Z",
+  "updatedAt": "2026-09-21T02:52:45.336Z",
   "itemCount": 20,
   "categories": [
     {
@@ -100,8 +100,64 @@
     {
       "id": "ai-models",
       "name": "模型",
-      "count": 12,
+      "count": 11,
       "items": [
+        {
+          "id": "cmuaajd3y08yjro5tqgc5u6up",
+          "url": "https://www.marktechpost.com/2026/09/20/you-too-google-google-confirms-gemini-breached-3-companies-in-ai-security-tests",
+          "aihotUrl": "https://aihot.virxact.com/items/cmuaajd3y08yjro5tqgc5u6up",
+          "title": "Google 确认 Gemini 在 Irregular 安全测试中访问 3 家真实公司系统，与 OpenAI、Anthropic、Meta 属同一评估事故",
+          "titleEn": "You too Google! Google Confirms Gemini Breached 3 Companies in AI Security Tests",
+          "summary": "Google 于 9 月 18 日确认，Gemini 模型在 5 月由第三方安全评估方 Irregular 组织的 capture-the-flag 测试中访问了 3 家真实公司的系统，起因是本应离线的测试环境因 bug 开放了互联网访问。",
+          "reason": "文章把 Google 的披露放到四家实验室同一评估事故的背景下，梳理了各方时间线和披露标准的缺失。",
+          "author": "MarkTechPost（RSS）",
+          "source": "MarkTechPost（RSS）",
+          "sourceKind": "rss",
+          "score": 78,
+          "publishedAt": "2026-09-20T20:20:56.000Z",
+          "dateLabel": "9月21日",
+          "weekday": "",
+          "time": "04:50",
+          "dateKey": "2026-09-21",
+          "categoryId": "ai-models",
+          "categoryName": "模型",
+          "tags": [
+            "Anthropic",
+            "OpenAI",
+            "安全/对齐"
+          ],
+          "avatar": "",
+          "media": "",
+          "mediaUrl": ""
+        },
+        {
+          "id": "cmu9tfhu904turokx2vfjy34f",
+          "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+          "aihotUrl": "https://aihot.virxact.com/items/cmu9tfhu904turokx2vfjy34f",
+          "title": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像",
+          "titleEn": "Qwen-Image-2.1: Compact, Efficient, and Unified Image Creation",
+          "summary": "Qwen 团队开源 Qwen-Image-2.1，将文生图与图像编辑统一到一个模型中，视觉生成组件仅 7B 参数，并原生支持生成和编辑透明图像。模型支持最多 10 张参考图、圆形/涂鸦/独立蒙版指定局部编辑，通过混合粒度注意力架构和 KV cache 复用提升推理效率，同时改进文字渲染、人像光照与人物产品保真度，并覆盖全景图、信息图和分镜等任务。",
+          "reason": "官方详解了 7B 统一图像模型的透明图像生成、10 图参考编辑与推理优化，读者可据此评估在设计等场景的可用性。",
+          "author": "Qwen：Blog Retrieval（API）",
+          "source": "Qwen：Blog Retrieval（API）",
+          "sourceKind": "json_list",
+          "score": 72,
+          "publishedAt": "2026-09-20T12:00:00.000Z",
+          "dateLabel": "9月20日",
+          "weekday": "",
+          "time": "20:51",
+          "dateKey": "2026-09-20",
+          "categoryId": "ai-models",
+          "categoryName": "模型",
+          "tags": [
+            "图像生成",
+            "开源生态",
+            "模型发布"
+          ],
+          "avatar": "",
+          "media": "",
+          "mediaUrl": ""
+        },
         {
           "id": "cmu96vqg8035srodqu63q13w4",
           "url": "https://mp.weixin.qq.com/s?__biz=MzkyNTYxNzg5Mg%3D%3D&mid=2247488120&idx=1&sn=8ba9ac7f0b36682d6262290677c665da",
@@ -210,9 +266,9 @@
             "OpenAI",
             "行业动态"
           ],
-          "avatar": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1816185267037859840%2FFd18CH0v_normal.jpg&mode=avatar&exp=1789948800&sig=ac66a51f6a538612cf5c63617ac4d1867a3ccb9c53d2982cdeac482c8ae5d5f5",
-          "media": "/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSiV7lpbwAA9vF5.png%3Fname%3Dorig&mode=full&exp=1789948800&sig=5b87a71e8ec15b0f69d54b4d2b82164aa928bf7cd3abf2862f9377fe3448e850",
-          "mediaUrl": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSiV7lpbwAA9vF5.png%3Fname%3Dorig&mode=full&exp=1789948800&sig=5b87a71e8ec15b0f69d54b4d2b82164aa928bf7cd3abf2862f9377fe3448e850"
+          "avatar": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1816185267037859840%2FFd18CH0v_normal.jpg&mode=avatar&exp=1790035200&sig=bcd18515babb385d0c3f1bafea55892dd31bc57c8f38821f1472e0453d120799",
+          "media": "/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSiV7lpbwAA9vF5.png%3Fname%3Dorig&mode=full&exp=1790035200&sig=44cf2b751fa9eb765706834fde660c952c0b7080c8f65cb659333ec8d15b5730",
+          "mediaUrl": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSiV7lpbwAA9vF5.png%3Fname%3Dorig&mode=full&exp=1790035200&sig=44cf2b751fa9eb765706834fde660c952c0b7080c8f65cb659333ec8d15b5730"
         },
         {
           "id": "cmu7zc3h30zcqrogr2dx8w8w6",
@@ -237,9 +293,9 @@
             "Google",
             "安全/对齐"
           ],
-          "avatar": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F2047286007003848704%2Fu2mzg86I_normal.jpg&mode=avatar&exp=1789948800&sig=a3c1692d8f2422cf00cb95021c11937f064b2441fc7d512127192f1973bcc921",
-          "media": "/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSjqgWDbEAAx1bz.jpg%3Fname%3Dorig&mode=full&exp=1789948800&sig=a5600a62e7f109972b6e1c50542a15de6ed87e04a624f5422ab92c67561c3fc9",
-          "mediaUrl": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSjqgWDbEAAx1bz.jpg%3Fname%3Dorig&mode=full&exp=1789948800&sig=a5600a62e7f109972b6e1c50542a15de6ed87e04a624f5422ab92c67561c3fc9"
+          "avatar": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F2047286007003848704%2Fu2mzg86I_normal.jpg&mode=avatar&exp=1790035200&sig=383de2da54dfe632585cf5c0027e04c9152d11e7de075ae282369f8171fdb11f",
+          "media": "/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSjqgWDbEAAx1bz.jpg%3Fname%3Dorig&mode=full&exp=1790035200&sig=1f7b3644f0b5865ebe5f888bbc5e9ada7c34329b3715f2b5a4dc7db793ced1a8",
+          "mediaUrl": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSjqgWDbEAAx1bz.jpg%3Fname%3Dorig&mode=full&exp=1790035200&sig=1f7b3644f0b5865ebe5f888bbc5e9ada7c34329b3715f2b5a4dc7db793ced1a8"
         },
         {
           "id": "cmu7l5wy60hj2rogr88fr2vkk",
@@ -350,90 +406,41 @@
           "avatar": "",
           "media": "",
           "mediaUrl": ""
-        },
+        }
+      ]
+    },
+    {
+      "id": "ai-products",
+      "name": "产品",
+      "count": 1,
+      "items": [
         {
-          "id": "cmu72r58y0o5xrowk1txg8msk",
-          "url": "https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload",
-          "aihotUrl": "https://aihot.virxact.com/items/cmu72r58y0o5xrowk1txg8msk",
-          "title": "ZCode 被曝登录后会打包上传完整 Git 历史",
-          "titleEn": "ZCode 内部揭秘：将您的 Git 历史记录静默上传至云端",
-          "summary": "作者称，智谱 AI 编程应用 ZCode 在登录后会将工作区打包加密并上传至阿里云 OSS，内容包括完整 Git 历史、LFS 缓存和全局配置。调查记录中的单个加密快照为 313MB；私钥只存于云端，用户及客户端无法解密本地密文。",
-          "reason": "作者通过逆向与实测给出完整证据链和可复用的目录锁死命令，读者可据此核查并阻断 ZCode 的静默上传行为。",
-          "author": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "sourceKind": "rss",
-          "score": 77,
-          "publishedAt": "2026-09-18T14:22:51.445Z",
-          "dateLabel": "9月18日",
-          "weekday": "",
-          "time": "20:43",
-          "dateKey": "2026-09-18",
-          "categoryId": "ai-models",
-          "categoryName": "模型",
-          "tags": [
-            "Agent",
-            "安全/对齐",
-            "编码"
-          ],
-          "avatar": "",
-          "media": "",
-          "mediaUrl": ""
-        },
-        {
-          "id": "cmu6y9sjz0jbyrowkh7tus28l",
-          "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
-          "aihotUrl": "https://aihot.virxact.com/items/cmu6y9sjz0jbyrowkh7tus28l",
-          "title": "逆向分析指 ZCode 登录后静默打包 Git 历史并加密上传至 Aliyun OSS",
-          "titleEn": "ZCode, the GLM coding agent, silently uploads your Git history",
-          "summary": "开发者 ferstar 逆向 Z.ai 的 AI 编程桌面应用 ZCode，发现其登录后会静默把整个工作区打包（含完整 .git 历史、LFS 缓存、reflogs 和全局配置）加密上传至 Aliyun OSS，实测一次快照为 42,411 个文件、313MB，且 .git 目录占载荷的 86.6%。",
-          "reason": "文章梳理了上传机制的取证细节、设置开关失效的原因和可落地的文件系统防护方法，读者可据此检查自己使用的 agent 运行时。",
-          "author": "Hacker News：AI 热帖",
-          "source": "Hacker News：AI 热帖",
-          "sourceKind": "json_list",
-          "score": 86,
-          "publishedAt": "2026-09-18T10:35:28.000Z",
-          "dateLabel": "9月18日",
-          "weekday": "",
-          "time": "20:43",
-          "dateKey": "2026-09-18",
-          "categoryId": "ai-models",
-          "categoryName": "模型",
-          "tags": [
-            "Agent",
-            "安全/对齐",
-            "编码"
-          ],
-          "avatar": "",
-          "media": "",
-          "mediaUrl": ""
-        },
-        {
-          "id": "cmu6n3z980c4qro0fjx53zz4h",
-          "url": "https://x.com/haider1/status/2100848578340220987",
-          "aihotUrl": "https://aihot.virxact.com/items/cmu6n3z980c4qro0fjx53zz4h",
-          "title": "3人团队用前沿模型以不到3000美元token成本入侵OpenAI员工账户",
-          "titleEn": "okay this is actually INSANE\n\na 3 person team used frontier models in a security campaign that inclu...",
-          "summary": "一个3人团队在7月25日利用两个漏洞接管了OpenAI员工的 ChatGPT/Codex 账户，并可访问 Outlook、Slack、GitHub 等关联服务，他们用向 OpenAI 内部代码库提交 PR 的方式证明了漏洞，全程不到72小时。",
-          "reason": "作者补充了模型对比和成本细节，读者可以结合被引用者的完整复述了解这次用前沿模型做安全研究的投入规模。",
-          "author": "X：Haider (@haider1)",
-          "source": "X：Haider (@haider1)",
+          "id": "cmu9w55as056krowjqmhejtmz",
+          "url": "https://x.com/Alibaba_Qwen/status/2101670814953455780",
+          "aihotUrl": "https://aihot.virxact.com/items/cmu9w55as056krowjqmhejtmz",
+          "title": "Qwen-Image-2.1 已支持 ComfyUI，开源权重开放下载",
+          "titleEn": "Qwen-Image-2.1 is now supported in ComfyUI! Try it now and share your creations! 🖼️",
+          "summary": "Qwen 宣布 Qwen-Image-2.1 现已支持 ComfyUI，权重开放。单个 7B checkpoint 同时支持图像生成与编辑，可原生 2K 生成，单次最多基于 10 张参考图进行指令编辑，并支持含 alpha 通道的 RGBA 输出。",
+          "reason": "官方宣布 Qwen-Image-2.1 已进入 ComfyUI 工作流，开源权重与单 7B 模型同时支持生成和编辑，方便用户直接上手搭建。",
+          "author": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+          "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
           "sourceKind": "x_search",
-          "score": 76,
-          "publishedAt": "2026-09-18T07:25:07.000Z",
-          "dateLabel": "9月18日",
+          "score": 69,
+          "publishedAt": "2026-09-20T13:52:24.000Z",
+          "dateLabel": "9月20日",
           "weekday": "",
-          "time": "12:43",
-          "dateKey": "2026-09-18",
-          "categoryId": "ai-models",
-          "categoryName": "模型",
+          "time": "22:07",
+          "dateKey": "2026-09-20",
+          "categoryId": "ai-products",
+          "categoryName": "产品",
           "tags": [
-            "Agent",
-            "OpenAI",
-            "安全/对齐"
+            "产品更新",
+            "图像生成",
+            "开源生态"
           ],
-          "avatar": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F2047286007003848704%2Fu2mzg86I_normal.jpg&mode=avatar&exp=1789948800&sig=a3c1692d8f2422cf00cb95021c11937f064b2441fc7d512127192f1973bcc921",
-          "media": "/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSe2pPAaEAA2bbH.jpg%3Fname%3Dorig&mode=full&exp=1789948800&sig=2a55563458d652c68560f7a1014494c9ad84f084f3246497eefa87fa9b28af39",
-          "mediaUrl": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSe2pPAaEAA2bbH.jpg%3Fname%3Dorig&mode=full&exp=1789948800&sig=2a55563458d652c68560f7a1014494c9ad84f084f3246497eefa87fa9b28af39"
+          "avatar": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F2064231947149377536%2FAb70PxT5_normal.jpg&mode=avatar&exp=1790035200&sig=f841a1fdc6ea0b2f2487df9e2b8282ab904ec0a10896e6772d857e6ebb65ff79",
+          "media": "",
+          "mediaUrl": ""
         }
       ]
     },
@@ -526,8 +533,35 @@
     {
       "id": "paper",
       "name": "论文",
-      "count": 1,
+      "count": 2,
       "items": [
+        {
+          "id": "cmua567e703tmro5t558lzx7o",
+          "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector",
+          "aihotUrl": "https://aihot.virxact.com/items/cmua567e703tmro5t558lzx7o",
+          "title": "独立调查：ChatGPT 的 __obi 跨站 Cookie 可将站外浏览行为关联到 ChatGPT 账号",
+          "titleEn": "ChatGPT 现在可以通过广告收集器了解你在其他网站上的行为",
+          "summary": "作者通过自己手机上的流量捕获复现了 OpenAI 广告收集器机制：bzr.openai.com 在 .openai.com 域设置 __obi Cookie，绑定 ChatGPT 账号（或稳定的匿名主体），投放广告的商家站点加载 OpenAI 像素代码时会把 __obi 连同浏览和购买数据回传给 OpenAI。",
+          "reason": "作者以第一手流量捕获复现了 OpenAI 广告收集器的跨站追踪机制，读者可以据此理解 ChatGPT 账号与站外浏览行为的关联路径。",
+          "author": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "sourceKind": "rss",
+          "score": 76,
+          "publishedAt": "2026-09-20T18:05:38.317Z",
+          "dateLabel": "9月21日",
+          "weekday": "",
+          "time": "02:20",
+          "dateKey": "2026-09-21",
+          "categoryId": "paper",
+          "categoryName": "论文",
+          "tags": [
+            "OpenAI",
+            "论文/研究"
+          ],
+          "avatar": "",
+          "media": "",
+          "mediaUrl": ""
+        },
         {
           "id": "cmu74ww1u0qfxrowkb6qtruwz",
           "url": "https://openrouter.ai/blog/insights/image-generation-models-compared",
@@ -562,8 +596,35 @@
     {
       "id": "opinion",
       "name": "观点",
-      "count": 4,
+      "count": 3,
       "items": [
+        {
+          "id": "cmualyqxc0nztro5tbldva2bh",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686509&idx=1&sn=1b5ee8ab30c5825eaff76083e1f8dbcc",
+          "aihotUrl": "https://aihot.virxact.com/items/cmualyqxc0nztro5tbldva2bh",
+          "title": "数字生命卡兹克访谈汉化组：AI 时代字幕组与漫画组的真实处境",
+          "titleEn": "汉化组，可能是世界上最不怕AI冲击的一群人。",
+          "summary": "作者访谈多位字幕组与漫画汉化组成员，发现他们并不抵触AI。Eliza 的字幕组把听写、打轴交给AI后，原本需要3到5小时的打轴缩短到20分钟到1小时；程序员阵雨为喜欢的主播自研AI工具，单人完成两小时直播的中文字幕。漫画汉化组则因嵌字质量等原因仍坚持人工制作，成员看重的是同好社群与爱好本身。",
+          "reason": "作者实地访谈字幕组和漫画汉化组，呈现AI时代爱好者用自研工具做汉化的真实做法与心态。",
+          "author": "公众号：数字生命卡兹克",
+          "source": "公众号：数字生命卡兹克",
+          "sourceKind": "mp_account",
+          "score": 66,
+          "publishedAt": "2026-09-21T01:52:57.000Z",
+          "dateLabel": "9月21日",
+          "weekday": "",
+          "time": "10:10",
+          "dateKey": "2026-09-21",
+          "categoryId": "opinion",
+          "categoryName": "观点",
+          "tags": [
+            "Agent",
+            "现象/趋势"
+          ],
+          "avatar": "",
+          "media": "",
+          "mediaUrl": ""
+        },
         {
           "id": "cmu7tboxt0pv0rogre8ibr9n8",
           "url": "https://x.com/alexandr_wang/status/2101141362607632873",
@@ -587,7 +648,7 @@
             "Agent",
             "教程/实践"
           ],
-          "avatar": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1631421210205749248%2FuohbT_40_normal.jpg&mode=avatar&exp=1789948800&sig=a16a4d0fedebbc1c910c39b364cc9e7307db1d7f609a7135802a1d18e67f3e85",
+          "avatar": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1631421210205749248%2FuohbT_40_normal.jpg&mode=avatar&exp=1790035200&sig=ecdb1c5bb680a2bb248f8cf23c667e440e42eebb67e7209a2096f89776d79b2d",
           "media": "",
           "mediaUrl": ""
         },
@@ -617,71 +678,159 @@
           "avatar": "",
           "media": "",
           "mediaUrl": ""
-        },
-        {
-          "id": "cmu707f5a0lferowk7ytu9d3h",
-          "url": "https://tessl.io/blog/ai-agent-evaluation-starts-with-evidence",
-          "aihotUrl": "https://aihot.virxact.com/items/cmu707f5a0lferowk7ytu9d3h",
-          "title": "Tessl 博客：AI 智能体评估应从证据开始，用 35 万行 Rust 复刻 S3 的实践复盘",
-          "titleEn": "AI Agent Evaluation Starts With Evidence",
-          "summary": "Tessl 博客复盘前 Docker CTO Justin Cormack 在 AI Native DevCon London 的演讲，分享用 AI 构建约 35 万行 Rust 的 S3 兼容对象存储的经验。",
-          "reason": "作者用 35 万行 Rust 复刻 S3 的实测经历，总结出测试先知、覆盖率陷阱、flaky 测试纪律和追踪等一套可迁移的 AI 智能体评估方法。",
-          "author": "Tessl：产品与工程博客",
-          "source": "Tessl：产品与工程博客",
-          "sourceKind": "web_list",
-          "score": 62,
-          "publishedAt": "2026-09-16T16:00:00.000Z",
-          "dateLabel": "9月18日",
-          "weekday": "",
-          "time": "21:38",
-          "dateKey": "2026-09-18",
-          "categoryId": "opinion",
-          "categoryName": "观点",
-          "tags": [
-            "Agent",
-            "教程/实践",
-            "编码"
-          ],
-          "avatar": "",
-          "media": "",
-          "mediaUrl": ""
-        },
-        {
-          "id": "cmu6w30lt0dnhrowkh7qwiped",
-          "url": "https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai",
-          "aihotUrl": "https://aihot.virxact.com/items/cmu6w30lt0dnhrowkh7qwiped",
-          "title": "Trail of Bits 用 Agent 为 Miden zkVM 审计自建 LSP、反编译器和 Lean 形式化证明",
-          "titleEn": "Auditing in the age of (good enough) AI",
-          "summary": "Trail of Bits 在审计 Miden zkVM 前，让 Agent 用六个月从零构建了 MASM 的 LSP 服务器、反编译器、静态分析引擎和 Lean VM 执行器模型。这些工具发现了可让恶意 prover 伪造 Falcon 签名盗取资金的高危漏洞，静态分析定位了 400 多处类型验证缺陷，Lean 工作产出 95 个机器验证的正确性证明，还发现两个单元测试未捕获的细微 bug。",
-          "reason": "原文给出用 Agent 在审计前自建工具链与形式化证明的完整路径，含真实高危发现，方法可迁移到其他安全审计场景。",
-          "author": "Trail of Bits：AI安全研究",
-          "source": "Trail of Bits：AI安全研究",
-          "sourceKind": "rss",
-          "score": 67,
-          "publishedAt": "2026-09-18T11:00:00.000Z",
-          "dateLabel": "9月18日",
-          "weekday": "",
-          "time": "19:42",
-          "dateKey": "2026-09-18",
-          "categoryId": "opinion",
-          "categoryName": "观点",
-          "tags": [
-            "Agent",
-            "教程/实践",
-            "编码"
-          ],
-          "avatar": "",
-          "media": "",
-          "mediaUrl": ""
         }
       ]
     }
   ],
   "groups": [
     {
+      "dateLabel": "9月21日",
+      "weekday": "",
+      "items": [
+        {
+          "id": "cmualyqxc0nztro5tbldva2bh",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686509&idx=1&sn=1b5ee8ab30c5825eaff76083e1f8dbcc",
+          "aihotUrl": "https://aihot.virxact.com/items/cmualyqxc0nztro5tbldva2bh",
+          "title": "数字生命卡兹克访谈汉化组：AI 时代字幕组与漫画组的真实处境",
+          "titleEn": "汉化组，可能是世界上最不怕AI冲击的一群人。",
+          "summary": "作者访谈多位字幕组与漫画汉化组成员，发现他们并不抵触AI。Eliza 的字幕组把听写、打轴交给AI后，原本需要3到5小时的打轴缩短到20分钟到1小时；程序员阵雨为喜欢的主播自研AI工具，单人完成两小时直播的中文字幕。漫画汉化组则因嵌字质量等原因仍坚持人工制作，成员看重的是同好社群与爱好本身。",
+          "reason": "作者实地访谈字幕组和漫画汉化组，呈现AI时代爱好者用自研工具做汉化的真实做法与心态。",
+          "author": "公众号：数字生命卡兹克",
+          "source": "公众号：数字生命卡兹克",
+          "sourceKind": "mp_account",
+          "score": 66,
+          "publishedAt": "2026-09-21T01:52:57.000Z",
+          "dateLabel": "9月21日",
+          "weekday": "",
+          "time": "10:10",
+          "dateKey": "2026-09-21",
+          "categoryId": "opinion",
+          "categoryName": "观点",
+          "tags": [
+            "Agent",
+            "现象/趋势"
+          ],
+          "avatar": "",
+          "media": "",
+          "mediaUrl": ""
+        },
+        {
+          "id": "cmuaajd3y08yjro5tqgc5u6up",
+          "url": "https://www.marktechpost.com/2026/09/20/you-too-google-google-confirms-gemini-breached-3-companies-in-ai-security-tests",
+          "aihotUrl": "https://aihot.virxact.com/items/cmuaajd3y08yjro5tqgc5u6up",
+          "title": "Google 确认 Gemini 在 Irregular 安全测试中访问 3 家真实公司系统，与 OpenAI、Anthropic、Meta 属同一评估事故",
+          "titleEn": "You too Google! Google Confirms Gemini Breached 3 Companies in AI Security Tests",
+          "summary": "Google 于 9 月 18 日确认，Gemini 模型在 5 月由第三方安全评估方 Irregular 组织的 capture-the-flag 测试中访问了 3 家真实公司的系统，起因是本应离线的测试环境因 bug 开放了互联网访问。",
+          "reason": "文章把 Google 的披露放到四家实验室同一评估事故的背景下，梳理了各方时间线和披露标准的缺失。",
+          "author": "MarkTechPost（RSS）",
+          "source": "MarkTechPost（RSS）",
+          "sourceKind": "rss",
+          "score": 78,
+          "publishedAt": "2026-09-20T20:20:56.000Z",
+          "dateLabel": "9月21日",
+          "weekday": "",
+          "time": "04:50",
+          "dateKey": "2026-09-21",
+          "categoryId": "ai-models",
+          "categoryName": "模型",
+          "tags": [
+            "Anthropic",
+            "OpenAI",
+            "安全/对齐"
+          ],
+          "avatar": "",
+          "media": "",
+          "mediaUrl": ""
+        },
+        {
+          "id": "cmua567e703tmro5t558lzx7o",
+          "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector",
+          "aihotUrl": "https://aihot.virxact.com/items/cmua567e703tmro5t558lzx7o",
+          "title": "独立调查：ChatGPT 的 __obi 跨站 Cookie 可将站外浏览行为关联到 ChatGPT 账号",
+          "titleEn": "ChatGPT 现在可以通过广告收集器了解你在其他网站上的行为",
+          "summary": "作者通过自己手机上的流量捕获复现了 OpenAI 广告收集器机制：bzr.openai.com 在 .openai.com 域设置 __obi Cookie，绑定 ChatGPT 账号（或稳定的匿名主体），投放广告的商家站点加载 OpenAI 像素代码时会把 __obi 连同浏览和购买数据回传给 OpenAI。",
+          "reason": "作者以第一手流量捕获复现了 OpenAI 广告收集器的跨站追踪机制，读者可以据此理解 ChatGPT 账号与站外浏览行为的关联路径。",
+          "author": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "sourceKind": "rss",
+          "score": 76,
+          "publishedAt": "2026-09-20T18:05:38.317Z",
+          "dateLabel": "9月21日",
+          "weekday": "",
+          "time": "02:20",
+          "dateKey": "2026-09-21",
+          "categoryId": "paper",
+          "categoryName": "论文",
+          "tags": [
+            "OpenAI",
+            "论文/研究"
+          ],
+          "avatar": "",
+          "media": "",
+          "mediaUrl": ""
+        }
+      ]
+    },
+    {
       "dateLabel": "9月20日",
       "weekday": "",
       "items": [
+        {
+          "id": "cmu9w55as056krowjqmhejtmz",
+          "url": "https://x.com/Alibaba_Qwen/status/2101670814953455780",
+          "aihotUrl": "https://aihot.virxact.com/items/cmu9w55as056krowjqmhejtmz",
+          "title": "Qwen-Image-2.1 已支持 ComfyUI，开源权重开放下载",
+          "titleEn": "Qwen-Image-2.1 is now supported in ComfyUI! Try it now and share your creations! 🖼️",
+          "summary": "Qwen 宣布 Qwen-Image-2.1 现已支持 ComfyUI，权重开放。单个 7B checkpoint 同时支持图像生成与编辑，可原生 2K 生成，单次最多基于 10 张参考图进行指令编辑，并支持含 alpha 通道的 RGBA 输出。",
+          "reason": "官方宣布 Qwen-Image-2.1 已进入 ComfyUI 工作流，开源权重与单 7B 模型同时支持生成和编辑，方便用户直接上手搭建。",
+          "author": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+          "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+          "sourceKind": "x_search",
+          "score": 69,
+          "publishedAt": "2026-09-20T13:52:24.000Z",
+          "dateLabel": "9月20日",
+          "weekday": "",
+          "time": "22:07",
+          "dateKey": "2026-09-20",
+          "categoryId": "ai-products",
+          "categoryName": "产品",
+          "tags": [
+            "产品更新",
+            "图像生成",
+            "开源生态"
+          ],
+          "avatar": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F2064231947149377536%2FAb70PxT5_normal.jpg&mode=avatar&exp=1790035200&sig=f841a1fdc6ea0b2f2487df9e2b8282ab904ec0a10896e6772d857e6ebb65ff79",
+          "media": "",
+          "mediaUrl": ""
+        },
+        {
+          "id": "cmu9tfhu904turokx2vfjy34f",
+          "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+          "aihotUrl": "https://aihot.virxact.com/items/cmu9tfhu904turokx2vfjy34f",
+          "title": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像",
+          "titleEn": "Qwen-Image-2.1: Compact, Efficient, and Unified Image Creation",
+          "summary": "Qwen 团队开源 Qwen-Image-2.1，将文生图与图像编辑统一到一个模型中，视觉生成组件仅 7B 参数，并原生支持生成和编辑透明图像。模型支持最多 10 张参考图、圆形/涂鸦/独立蒙版指定局部编辑，通过混合粒度注意力架构和 KV cache 复用提升推理效率，同时改进文字渲染、人像光照与人物产品保真度，并覆盖全景图、信息图和分镜等任务。",
+          "reason": "官方详解了 7B 统一图像模型的透明图像生成、10 图参考编辑与推理优化，读者可据此评估在设计等场景的可用性。",
+          "author": "Qwen：Blog Retrieval（API）",
+          "source": "Qwen：Blog Retrieval（API）",
+          "sourceKind": "json_list",
+          "score": 72,
+          "publishedAt": "2026-09-20T12:00:00.000Z",
+          "dateLabel": "9月20日",
+          "weekday": "",
+          "time": "20:51",
+          "dateKey": "2026-09-20",
+          "categoryId": "ai-models",
+          "categoryName": "模型",
+          "tags": [
+            "图像生成",
+            "开源生态",
+            "模型发布"
+          ],
+          "avatar": "",
+          "media": "",
+          "mediaUrl": ""
+        },
         {
           "id": "cmu96vqg8035srodqu63q13w4",
           "url": "https://mp.weixin.qq.com/s?__biz=MzkyNTYxNzg5Mg%3D%3D&mid=2247488120&idx=1&sn=8ba9ac7f0b36682d6262290677c665da",
@@ -769,7 +918,7 @@
             "Agent",
             "教程/实践"
           ],
-          "avatar": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1631421210205749248%2FuohbT_40_normal.jpg&mode=avatar&exp=1789948800&sig=a16a4d0fedebbc1c910c39b364cc9e7307db1d7f609a7135802a1d18e67f3e85",
+          "avatar": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1631421210205749248%2FuohbT_40_normal.jpg&mode=avatar&exp=1790035200&sig=ecdb1c5bb680a2bb248f8cf23c667e440e42eebb67e7209a2096f89776d79b2d",
           "media": "",
           "mediaUrl": ""
         },
@@ -823,9 +972,9 @@
             "OpenAI",
             "行业动态"
           ],
-          "avatar": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1816185267037859840%2FFd18CH0v_normal.jpg&mode=avatar&exp=1789948800&sig=ac66a51f6a538612cf5c63617ac4d1867a3ccb9c53d2982cdeac482c8ae5d5f5",
-          "media": "/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSiV7lpbwAA9vF5.png%3Fname%3Dorig&mode=full&exp=1789948800&sig=5b87a71e8ec15b0f69d54b4d2b82164aa928bf7cd3abf2862f9377fe3448e850",
-          "mediaUrl": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSiV7lpbwAA9vF5.png%3Fname%3Dorig&mode=full&exp=1789948800&sig=5b87a71e8ec15b0f69d54b4d2b82164aa928bf7cd3abf2862f9377fe3448e850"
+          "avatar": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1816185267037859840%2FFd18CH0v_normal.jpg&mode=avatar&exp=1790035200&sig=bcd18515babb385d0c3f1bafea55892dd31bc57c8f38821f1472e0453d120799",
+          "media": "/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSiV7lpbwAA9vF5.png%3Fname%3Dorig&mode=full&exp=1790035200&sig=44cf2b751fa9eb765706834fde660c952c0b7080c8f65cb659333ec8d15b5730",
+          "mediaUrl": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSiV7lpbwAA9vF5.png%3Fname%3Dorig&mode=full&exp=1790035200&sig=44cf2b751fa9eb765706834fde660c952c0b7080c8f65cb659333ec8d15b5730"
         },
         {
           "id": "cmu7zc3h30zcqrogr2dx8w8w6",
@@ -850,9 +999,9 @@
             "Google",
             "安全/对齐"
           ],
-          "avatar": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F2047286007003848704%2Fu2mzg86I_normal.jpg&mode=avatar&exp=1789948800&sig=a3c1692d8f2422cf00cb95021c11937f064b2441fc7d512127192f1973bcc921",
-          "media": "/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSjqgWDbEAAx1bz.jpg%3Fname%3Dorig&mode=full&exp=1789948800&sig=a5600a62e7f109972b6e1c50542a15de6ed87e04a624f5422ab92c67561c3fc9",
-          "mediaUrl": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSjqgWDbEAAx1bz.jpg%3Fname%3Dorig&mode=full&exp=1789948800&sig=a5600a62e7f109972b6e1c50542a15de6ed87e04a624f5422ab92c67561c3fc9"
+          "avatar": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F2047286007003848704%2Fu2mzg86I_normal.jpg&mode=avatar&exp=1790035200&sig=383de2da54dfe632585cf5c0027e04c9152d11e7de075ae282369f8171fdb11f",
+          "media": "/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSjqgWDbEAAx1bz.jpg%3Fname%3Dorig&mode=full&exp=1790035200&sig=1f7b3644f0b5865ebe5f888bbc5e9ada7c34329b3715f2b5a4dc7db793ced1a8",
+          "mediaUrl": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSjqgWDbEAAx1bz.jpg%3Fname%3Dorig&mode=full&exp=1790035200&sig=1f7b3644f0b5865ebe5f888bbc5e9ada7c34329b3715f2b5a4dc7db793ced1a8"
         },
         {
           "id": "cmu7l5wy60hj2rogr88fr2vkk",
@@ -1104,151 +1253,149 @@
           "avatar": "",
           "media": "",
           "mediaUrl": ""
-        },
-        {
-          "id": "cmu707f5a0lferowk7ytu9d3h",
-          "url": "https://tessl.io/blog/ai-agent-evaluation-starts-with-evidence",
-          "aihotUrl": "https://aihot.virxact.com/items/cmu707f5a0lferowk7ytu9d3h",
-          "title": "Tessl 博客：AI 智能体评估应从证据开始，用 35 万行 Rust 复刻 S3 的实践复盘",
-          "titleEn": "AI Agent Evaluation Starts With Evidence",
-          "summary": "Tessl 博客复盘前 Docker CTO Justin Cormack 在 AI Native DevCon London 的演讲，分享用 AI 构建约 35 万行 Rust 的 S3 兼容对象存储的经验。",
-          "reason": "作者用 35 万行 Rust 复刻 S3 的实测经历，总结出测试先知、覆盖率陷阱、flaky 测试纪律和追踪等一套可迁移的 AI 智能体评估方法。",
-          "author": "Tessl：产品与工程博客",
-          "source": "Tessl：产品与工程博客",
-          "sourceKind": "web_list",
-          "score": 62,
-          "publishedAt": "2026-09-16T16:00:00.000Z",
-          "dateLabel": "9月18日",
-          "weekday": "",
-          "time": "21:38",
-          "dateKey": "2026-09-18",
-          "categoryId": "opinion",
-          "categoryName": "观点",
-          "tags": [
-            "Agent",
-            "教程/实践",
-            "编码"
-          ],
-          "avatar": "",
-          "media": "",
-          "mediaUrl": ""
-        },
-        {
-          "id": "cmu72r58y0o5xrowk1txg8msk",
-          "url": "https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload",
-          "aihotUrl": "https://aihot.virxact.com/items/cmu72r58y0o5xrowk1txg8msk",
-          "title": "ZCode 被曝登录后会打包上传完整 Git 历史",
-          "titleEn": "ZCode 内部揭秘：将您的 Git 历史记录静默上传至云端",
-          "summary": "作者称，智谱 AI 编程应用 ZCode 在登录后会将工作区打包加密并上传至阿里云 OSS，内容包括完整 Git 历史、LFS 缓存和全局配置。调查记录中的单个加密快照为 313MB；私钥只存于云端，用户及客户端无法解密本地密文。",
-          "reason": "作者通过逆向与实测给出完整证据链和可复用的目录锁死命令，读者可据此核查并阻断 ZCode 的静默上传行为。",
-          "author": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "sourceKind": "rss",
-          "score": 77,
-          "publishedAt": "2026-09-18T14:22:51.445Z",
-          "dateLabel": "9月18日",
-          "weekday": "",
-          "time": "20:43",
-          "dateKey": "2026-09-18",
-          "categoryId": "ai-models",
-          "categoryName": "模型",
-          "tags": [
-            "Agent",
-            "安全/对齐",
-            "编码"
-          ],
-          "avatar": "",
-          "media": "",
-          "mediaUrl": ""
-        },
-        {
-          "id": "cmu6y9sjz0jbyrowkh7tus28l",
-          "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
-          "aihotUrl": "https://aihot.virxact.com/items/cmu6y9sjz0jbyrowkh7tus28l",
-          "title": "逆向分析指 ZCode 登录后静默打包 Git 历史并加密上传至 Aliyun OSS",
-          "titleEn": "ZCode, the GLM coding agent, silently uploads your Git history",
-          "summary": "开发者 ferstar 逆向 Z.ai 的 AI 编程桌面应用 ZCode，发现其登录后会静默把整个工作区打包（含完整 .git 历史、LFS 缓存、reflogs 和全局配置）加密上传至 Aliyun OSS，实测一次快照为 42,411 个文件、313MB，且 .git 目录占载荷的 86.6%。",
-          "reason": "文章梳理了上传机制的取证细节、设置开关失效的原因和可落地的文件系统防护方法，读者可据此检查自己使用的 agent 运行时。",
-          "author": "Hacker News：AI 热帖",
-          "source": "Hacker News：AI 热帖",
-          "sourceKind": "json_list",
-          "score": 86,
-          "publishedAt": "2026-09-18T10:35:28.000Z",
-          "dateLabel": "9月18日",
-          "weekday": "",
-          "time": "20:43",
-          "dateKey": "2026-09-18",
-          "categoryId": "ai-models",
-          "categoryName": "模型",
-          "tags": [
-            "Agent",
-            "安全/对齐",
-            "编码"
-          ],
-          "avatar": "",
-          "media": "",
-          "mediaUrl": ""
-        },
-        {
-          "id": "cmu6w30lt0dnhrowkh7qwiped",
-          "url": "https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai",
-          "aihotUrl": "https://aihot.virxact.com/items/cmu6w30lt0dnhrowkh7qwiped",
-          "title": "Trail of Bits 用 Agent 为 Miden zkVM 审计自建 LSP、反编译器和 Lean 形式化证明",
-          "titleEn": "Auditing in the age of (good enough) AI",
-          "summary": "Trail of Bits 在审计 Miden zkVM 前，让 Agent 用六个月从零构建了 MASM 的 LSP 服务器、反编译器、静态分析引擎和 Lean VM 执行器模型。这些工具发现了可让恶意 prover 伪造 Falcon 签名盗取资金的高危漏洞，静态分析定位了 400 多处类型验证缺陷，Lean 工作产出 95 个机器验证的正确性证明，还发现两个单元测试未捕获的细微 bug。",
-          "reason": "原文给出用 Agent 在审计前自建工具链与形式化证明的完整路径，含真实高危发现，方法可迁移到其他安全审计场景。",
-          "author": "Trail of Bits：AI安全研究",
-          "source": "Trail of Bits：AI安全研究",
-          "sourceKind": "rss",
-          "score": 67,
-          "publishedAt": "2026-09-18T11:00:00.000Z",
-          "dateLabel": "9月18日",
-          "weekday": "",
-          "time": "19:42",
-          "dateKey": "2026-09-18",
-          "categoryId": "opinion",
-          "categoryName": "观点",
-          "tags": [
-            "Agent",
-            "教程/实践",
-            "编码"
-          ],
-          "avatar": "",
-          "media": "",
-          "mediaUrl": ""
-        },
-        {
-          "id": "cmu6n3z980c4qro0fjx53zz4h",
-          "url": "https://x.com/haider1/status/2100848578340220987",
-          "aihotUrl": "https://aihot.virxact.com/items/cmu6n3z980c4qro0fjx53zz4h",
-          "title": "3人团队用前沿模型以不到3000美元token成本入侵OpenAI员工账户",
-          "titleEn": "okay this is actually INSANE\n\na 3 person team used frontier models in a security campaign that inclu...",
-          "summary": "一个3人团队在7月25日利用两个漏洞接管了OpenAI员工的 ChatGPT/Codex 账户，并可访问 Outlook、Slack、GitHub 等关联服务，他们用向 OpenAI 内部代码库提交 PR 的方式证明了漏洞，全程不到72小时。",
-          "reason": "作者补充了模型对比和成本细节，读者可以结合被引用者的完整复述了解这次用前沿模型做安全研究的投入规模。",
-          "author": "X：Haider (@haider1)",
-          "source": "X：Haider (@haider1)",
-          "sourceKind": "x_search",
-          "score": 76,
-          "publishedAt": "2026-09-18T07:25:07.000Z",
-          "dateLabel": "9月18日",
-          "weekday": "",
-          "time": "12:43",
-          "dateKey": "2026-09-18",
-          "categoryId": "ai-models",
-          "categoryName": "模型",
-          "tags": [
-            "Agent",
-            "OpenAI",
-            "安全/对齐"
-          ],
-          "avatar": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F2047286007003848704%2Fu2mzg86I_normal.jpg&mode=avatar&exp=1789948800&sig=a3c1692d8f2422cf00cb95021c11937f064b2441fc7d512127192f1973bcc921",
-          "media": "/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSe2pPAaEAA2bbH.jpg%3Fname%3Dorig&mode=full&exp=1789948800&sig=2a55563458d652c68560f7a1014494c9ad84f084f3246497eefa87fa9b28af39",
-          "mediaUrl": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSe2pPAaEAA2bbH.jpg%3Fname%3Dorig&mode=full&exp=1789948800&sig=2a55563458d652c68560f7a1014494c9ad84f084f3246497eefa87fa9b28af39"
         }
       ]
     }
   ],
   "items": [
+    {
+      "id": "cmualyqxc0nztro5tbldva2bh",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686509&idx=1&sn=1b5ee8ab30c5825eaff76083e1f8dbcc",
+      "aihotUrl": "https://aihot.virxact.com/items/cmualyqxc0nztro5tbldva2bh",
+      "title": "数字生命卡兹克访谈汉化组：AI 时代字幕组与漫画组的真实处境",
+      "titleEn": "汉化组，可能是世界上最不怕AI冲击的一群人。",
+      "summary": "作者访谈多位字幕组与漫画汉化组成员，发现他们并不抵触AI。Eliza 的字幕组把听写、打轴交给AI后，原本需要3到5小时的打轴缩短到20分钟到1小时；程序员阵雨为喜欢的主播自研AI工具，单人完成两小时直播的中文字幕。漫画汉化组则因嵌字质量等原因仍坚持人工制作，成员看重的是同好社群与爱好本身。",
+      "reason": "作者实地访谈字幕组和漫画汉化组，呈现AI时代爱好者用自研工具做汉化的真实做法与心态。",
+      "author": "公众号：数字生命卡兹克",
+      "source": "公众号：数字生命卡兹克",
+      "sourceKind": "mp_account",
+      "score": 66,
+      "publishedAt": "2026-09-21T01:52:57.000Z",
+      "dateLabel": "9月21日",
+      "weekday": "",
+      "time": "10:10",
+      "dateKey": "2026-09-21",
+      "categoryId": "opinion",
+      "categoryName": "观点",
+      "tags": [
+        "Agent",
+        "现象/趋势"
+      ],
+      "avatar": "",
+      "media": "",
+      "mediaUrl": ""
+    },
+    {
+      "id": "cmuaajd3y08yjro5tqgc5u6up",
+      "url": "https://www.marktechpost.com/2026/09/20/you-too-google-google-confirms-gemini-breached-3-companies-in-ai-security-tests",
+      "aihotUrl": "https://aihot.virxact.com/items/cmuaajd3y08yjro5tqgc5u6up",
+      "title": "Google 确认 Gemini 在 Irregular 安全测试中访问 3 家真实公司系统，与 OpenAI、Anthropic、Meta 属同一评估事故",
+      "titleEn": "You too Google! Google Confirms Gemini Breached 3 Companies in AI Security Tests",
+      "summary": "Google 于 9 月 18 日确认，Gemini 模型在 5 月由第三方安全评估方 Irregular 组织的 capture-the-flag 测试中访问了 3 家真实公司的系统，起因是本应离线的测试环境因 bug 开放了互联网访问。",
+      "reason": "文章把 Google 的披露放到四家实验室同一评估事故的背景下，梳理了各方时间线和披露标准的缺失。",
+      "author": "MarkTechPost（RSS）",
+      "source": "MarkTechPost（RSS）",
+      "sourceKind": "rss",
+      "score": 78,
+      "publishedAt": "2026-09-20T20:20:56.000Z",
+      "dateLabel": "9月21日",
+      "weekday": "",
+      "time": "04:50",
+      "dateKey": "2026-09-21",
+      "categoryId": "ai-models",
+      "categoryName": "模型",
+      "tags": [
+        "Anthropic",
+        "OpenAI",
+        "安全/对齐"
+      ],
+      "avatar": "",
+      "media": "",
+      "mediaUrl": ""
+    },
+    {
+      "id": "cmua567e703tmro5t558lzx7o",
+      "url": "https://www.buchodi.com/chatgpt-now-knows-what-you-do-on-other-websites-via-ad-collector",
+      "aihotUrl": "https://aihot.virxact.com/items/cmua567e703tmro5t558lzx7o",
+      "title": "独立调查：ChatGPT 的 __obi 跨站 Cookie 可将站外浏览行为关联到 ChatGPT 账号",
+      "titleEn": "ChatGPT 现在可以通过广告收集器了解你在其他网站上的行为",
+      "summary": "作者通过自己手机上的流量捕获复现了 OpenAI 广告收集器机制：bzr.openai.com 在 .openai.com 域设置 __obi Cookie，绑定 ChatGPT 账号（或稳定的匿名主体），投放广告的商家站点加载 OpenAI 像素代码时会把 __obi 连同浏览和购买数据回传给 OpenAI。",
+      "reason": "作者以第一手流量捕获复现了 OpenAI 广告收集器的跨站追踪机制，读者可以据此理解 ChatGPT 账号与站外浏览行为的关联路径。",
+      "author": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "sourceKind": "rss",
+      "score": 76,
+      "publishedAt": "2026-09-20T18:05:38.317Z",
+      "dateLabel": "9月21日",
+      "weekday": "",
+      "time": "02:20",
+      "dateKey": "2026-09-21",
+      "categoryId": "paper",
+      "categoryName": "论文",
+      "tags": [
+        "OpenAI",
+        "论文/研究"
+      ],
+      "avatar": "",
+      "media": "",
+      "mediaUrl": ""
+    },
+    {
+      "id": "cmu9w55as056krowjqmhejtmz",
+      "url": "https://x.com/Alibaba_Qwen/status/2101670814953455780",
+      "aihotUrl": "https://aihot.virxact.com/items/cmu9w55as056krowjqmhejtmz",
+      "title": "Qwen-Image-2.1 已支持 ComfyUI，开源权重开放下载",
+      "titleEn": "Qwen-Image-2.1 is now supported in ComfyUI! Try it now and share your creations! 🖼️",
+      "summary": "Qwen 宣布 Qwen-Image-2.1 现已支持 ComfyUI，权重开放。单个 7B checkpoint 同时支持图像生成与编辑，可原生 2K 生成，单次最多基于 10 张参考图进行指令编辑，并支持含 alpha 通道的 RGBA 输出。",
+      "reason": "官方宣布 Qwen-Image-2.1 已进入 ComfyUI 工作流，开源权重与单 7B 模型同时支持生成和编辑，方便用户直接上手搭建。",
+      "author": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+      "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+      "sourceKind": "x_search",
+      "score": 69,
+      "publishedAt": "2026-09-20T13:52:24.000Z",
+      "dateLabel": "9月20日",
+      "weekday": "",
+      "time": "22:07",
+      "dateKey": "2026-09-20",
+      "categoryId": "ai-products",
+      "categoryName": "产品",
+      "tags": [
+        "产品更新",
+        "图像生成",
+        "开源生态"
+      ],
+      "avatar": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F2064231947149377536%2FAb70PxT5_normal.jpg&mode=avatar&exp=1790035200&sig=f841a1fdc6ea0b2f2487df9e2b8282ab904ec0a10896e6772d857e6ebb65ff79",
+      "media": "",
+      "mediaUrl": ""
+    },
+    {
+      "id": "cmu9tfhu904turokx2vfjy34f",
+      "url": "https://qwen.ai/blog?id=qwen-image-2.1",
+      "aihotUrl": "https://aihot.virxact.com/items/cmu9tfhu904turokx2vfjy34f",
+      "title": "Qwen 开源 Qwen-Image-2.1：7B 统一生成与编辑并原生支持透明图像",
+      "titleEn": "Qwen-Image-2.1: Compact, Efficient, and Unified Image Creation",
+      "summary": "Qwen 团队开源 Qwen-Image-2.1，将文生图与图像编辑统一到一个模型中，视觉生成组件仅 7B 参数，并原生支持生成和编辑透明图像。模型支持最多 10 张参考图、圆形/涂鸦/独立蒙版指定局部编辑，通过混合粒度注意力架构和 KV cache 复用提升推理效率，同时改进文字渲染、人像光照与人物产品保真度，并覆盖全景图、信息图和分镜等任务。",
+      "reason": "官方详解了 7B 统一图像模型的透明图像生成、10 图参考编辑与推理优化，读者可据此评估在设计等场景的可用性。",
+      "author": "Qwen：Blog Retrieval（API）",
+      "source": "Qwen：Blog Retrieval（API）",
+      "sourceKind": "json_list",
+      "score": 72,
+      "publishedAt": "2026-09-20T12:00:00.000Z",
+      "dateLabel": "9月20日",
+      "weekday": "",
+      "time": "20:51",
+      "dateKey": "2026-09-20",
+      "categoryId": "ai-models",
+      "categoryName": "模型",
+      "tags": [
+        "图像生成",
+        "开源生态",
+        "模型发布"
+      ],
+      "avatar": "",
+      "media": "",
+      "mediaUrl": ""
+    },
     {
       "id": "cmu96vqg8035srodqu63q13w4",
       "url": "https://mp.weixin.qq.com/s?__biz=MzkyNTYxNzg5Mg%3D%3D&mid=2247488120&idx=1&sn=8ba9ac7f0b36682d6262290677c665da",
@@ -1330,7 +1477,7 @@
         "Agent",
         "教程/实践"
       ],
-      "avatar": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1631421210205749248%2FuohbT_40_normal.jpg&mode=avatar&exp=1789948800&sig=a16a4d0fedebbc1c910c39b364cc9e7307db1d7f609a7135802a1d18e67f3e85",
+      "avatar": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1631421210205749248%2FuohbT_40_normal.jpg&mode=avatar&exp=1790035200&sig=ecdb1c5bb680a2bb248f8cf23c667e440e42eebb67e7209a2096f89776d79b2d",
       "media": "",
       "mediaUrl": ""
     },
@@ -1384,9 +1531,9 @@
         "OpenAI",
         "行业动态"
       ],
-      "avatar": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1816185267037859840%2FFd18CH0v_normal.jpg&mode=avatar&exp=1789948800&sig=ac66a51f6a538612cf5c63617ac4d1867a3ccb9c53d2982cdeac482c8ae5d5f5",
-      "media": "/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSiV7lpbwAA9vF5.png%3Fname%3Dorig&mode=full&exp=1789948800&sig=5b87a71e8ec15b0f69d54b4d2b82164aa928bf7cd3abf2862f9377fe3448e850",
-      "mediaUrl": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSiV7lpbwAA9vF5.png%3Fname%3Dorig&mode=full&exp=1789948800&sig=5b87a71e8ec15b0f69d54b4d2b82164aa928bf7cd3abf2862f9377fe3448e850"
+      "avatar": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1816185267037859840%2FFd18CH0v_normal.jpg&mode=avatar&exp=1790035200&sig=bcd18515babb385d0c3f1bafea55892dd31bc57c8f38821f1472e0453d120799",
+      "media": "/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSiV7lpbwAA9vF5.png%3Fname%3Dorig&mode=full&exp=1790035200&sig=44cf2b751fa9eb765706834fde660c952c0b7080c8f65cb659333ec8d15b5730",
+      "mediaUrl": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSiV7lpbwAA9vF5.png%3Fname%3Dorig&mode=full&exp=1790035200&sig=44cf2b751fa9eb765706834fde660c952c0b7080c8f65cb659333ec8d15b5730"
     },
     {
       "id": "cmu7zc3h30zcqrogr2dx8w8w6",
@@ -1411,9 +1558,9 @@
         "Google",
         "安全/对齐"
       ],
-      "avatar": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F2047286007003848704%2Fu2mzg86I_normal.jpg&mode=avatar&exp=1789948800&sig=a3c1692d8f2422cf00cb95021c11937f064b2441fc7d512127192f1973bcc921",
-      "media": "/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSjqgWDbEAAx1bz.jpg%3Fname%3Dorig&mode=full&exp=1789948800&sig=a5600a62e7f109972b6e1c50542a15de6ed87e04a624f5422ab92c67561c3fc9",
-      "mediaUrl": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSjqgWDbEAAx1bz.jpg%3Fname%3Dorig&mode=full&exp=1789948800&sig=a5600a62e7f109972b6e1c50542a15de6ed87e04a624f5422ab92c67561c3fc9"
+      "avatar": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F2047286007003848704%2Fu2mzg86I_normal.jpg&mode=avatar&exp=1790035200&sig=383de2da54dfe632585cf5c0027e04c9152d11e7de075ae282369f8171fdb11f",
+      "media": "/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSjqgWDbEAAx1bz.jpg%3Fname%3Dorig&mode=full&exp=1790035200&sig=1f7b3644f0b5865ebe5f888bbc5e9ada7c34329b3715f2b5a4dc7db793ced1a8",
+      "mediaUrl": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSjqgWDbEAAx1bz.jpg%3Fname%3Dorig&mode=full&exp=1790035200&sig=1f7b3644f0b5865ebe5f888bbc5e9ada7c34329b3715f2b5a4dc7db793ced1a8"
     },
     {
       "id": "cmu7l5wy60hj2rogr88fr2vkk",
@@ -1659,146 +1806,6 @@
       "avatar": "",
       "media": "",
       "mediaUrl": ""
-    },
-    {
-      "id": "cmu707f5a0lferowk7ytu9d3h",
-      "url": "https://tessl.io/blog/ai-agent-evaluation-starts-with-evidence",
-      "aihotUrl": "https://aihot.virxact.com/items/cmu707f5a0lferowk7ytu9d3h",
-      "title": "Tessl 博客：AI 智能体评估应从证据开始，用 35 万行 Rust 复刻 S3 的实践复盘",
-      "titleEn": "AI Agent Evaluation Starts With Evidence",
-      "summary": "Tessl 博客复盘前 Docker CTO Justin Cormack 在 AI Native DevCon London 的演讲，分享用 AI 构建约 35 万行 Rust 的 S3 兼容对象存储的经验。",
-      "reason": "作者用 35 万行 Rust 复刻 S3 的实测经历，总结出测试先知、覆盖率陷阱、flaky 测试纪律和追踪等一套可迁移的 AI 智能体评估方法。",
-      "author": "Tessl：产品与工程博客",
-      "source": "Tessl：产品与工程博客",
-      "sourceKind": "web_list",
-      "score": 62,
-      "publishedAt": "2026-09-16T16:00:00.000Z",
-      "dateLabel": "9月18日",
-      "weekday": "",
-      "time": "21:38",
-      "dateKey": "2026-09-18",
-      "categoryId": "opinion",
-      "categoryName": "观点",
-      "tags": [
-        "Agent",
-        "教程/实践",
-        "编码"
-      ],
-      "avatar": "",
-      "media": "",
-      "mediaUrl": ""
-    },
-    {
-      "id": "cmu72r58y0o5xrowk1txg8msk",
-      "url": "https://blog.ferstar.org/en/posts/zcode-silent-workspace-snapshot-upload",
-      "aihotUrl": "https://aihot.virxact.com/items/cmu72r58y0o5xrowk1txg8msk",
-      "title": "ZCode 被曝登录后会打包上传完整 Git 历史",
-      "titleEn": "ZCode 内部揭秘：将您的 Git 历史记录静默上传至云端",
-      "summary": "作者称，智谱 AI 编程应用 ZCode 在登录后会将工作区打包加密并上传至阿里云 OSS，内容包括完整 Git 历史、LFS 缓存和全局配置。调查记录中的单个加密快照为 313MB；私钥只存于云端，用户及客户端无法解密本地密文。",
-      "reason": "作者通过逆向与实测给出完整证据链和可复用的目录锁死命令，读者可据此核查并阻断 ZCode 的静默上传行为。",
-      "author": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "sourceKind": "rss",
-      "score": 77,
-      "publishedAt": "2026-09-18T14:22:51.445Z",
-      "dateLabel": "9月18日",
-      "weekday": "",
-      "time": "20:43",
-      "dateKey": "2026-09-18",
-      "categoryId": "ai-models",
-      "categoryName": "模型",
-      "tags": [
-        "Agent",
-        "安全/对齐",
-        "编码"
-      ],
-      "avatar": "",
-      "media": "",
-      "mediaUrl": ""
-    },
-    {
-      "id": "cmu6y9sjz0jbyrowkh7tus28l",
-      "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
-      "aihotUrl": "https://aihot.virxact.com/items/cmu6y9sjz0jbyrowkh7tus28l",
-      "title": "逆向分析指 ZCode 登录后静默打包 Git 历史并加密上传至 Aliyun OSS",
-      "titleEn": "ZCode, the GLM coding agent, silently uploads your Git history",
-      "summary": "开发者 ferstar 逆向 Z.ai 的 AI 编程桌面应用 ZCode，发现其登录后会静默把整个工作区打包（含完整 .git 历史、LFS 缓存、reflogs 和全局配置）加密上传至 Aliyun OSS，实测一次快照为 42,411 个文件、313MB，且 .git 目录占载荷的 86.6%。",
-      "reason": "文章梳理了上传机制的取证细节、设置开关失效的原因和可落地的文件系统防护方法，读者可据此检查自己使用的 agent 运行时。",
-      "author": "Hacker News：AI 热帖",
-      "source": "Hacker News：AI 热帖",
-      "sourceKind": "json_list",
-      "score": 86,
-      "publishedAt": "2026-09-18T10:35:28.000Z",
-      "dateLabel": "9月18日",
-      "weekday": "",
-      "time": "20:43",
-      "dateKey": "2026-09-18",
-      "categoryId": "ai-models",
-      "categoryName": "模型",
-      "tags": [
-        "Agent",
-        "安全/对齐",
-        "编码"
-      ],
-      "avatar": "",
-      "media": "",
-      "mediaUrl": ""
-    },
-    {
-      "id": "cmu6w30lt0dnhrowkh7qwiped",
-      "url": "https://blog.trailofbits.com/2026/09/18/auditing-in-the-age-of-good-enough-ai",
-      "aihotUrl": "https://aihot.virxact.com/items/cmu6w30lt0dnhrowkh7qwiped",
-      "title": "Trail of Bits 用 Agent 为 Miden zkVM 审计自建 LSP、反编译器和 Lean 形式化证明",
-      "titleEn": "Auditing in the age of (good enough) AI",
-      "summary": "Trail of Bits 在审计 Miden zkVM 前，让 Agent 用六个月从零构建了 MASM 的 LSP 服务器、反编译器、静态分析引擎和 Lean VM 执行器模型。这些工具发现了可让恶意 prover 伪造 Falcon 签名盗取资金的高危漏洞，静态分析定位了 400 多处类型验证缺陷，Lean 工作产出 95 个机器验证的正确性证明，还发现两个单元测试未捕获的细微 bug。",
-      "reason": "原文给出用 Agent 在审计前自建工具链与形式化证明的完整路径，含真实高危发现，方法可迁移到其他安全审计场景。",
-      "author": "Trail of Bits：AI安全研究",
-      "source": "Trail of Bits：AI安全研究",
-      "sourceKind": "rss",
-      "score": 67,
-      "publishedAt": "2026-09-18T11:00:00.000Z",
-      "dateLabel": "9月18日",
-      "weekday": "",
-      "time": "19:42",
-      "dateKey": "2026-09-18",
-      "categoryId": "opinion",
-      "categoryName": "观点",
-      "tags": [
-        "Agent",
-        "教程/实践",
-        "编码"
-      ],
-      "avatar": "",
-      "media": "",
-      "mediaUrl": ""
-    },
-    {
-      "id": "cmu6n3z980c4qro0fjx53zz4h",
-      "url": "https://x.com/haider1/status/2100848578340220987",
-      "aihotUrl": "https://aihot.virxact.com/items/cmu6n3z980c4qro0fjx53zz4h",
-      "title": "3人团队用前沿模型以不到3000美元token成本入侵OpenAI员工账户",
-      "titleEn": "okay this is actually INSANE\n\na 3 person team used frontier models in a security campaign that inclu...",
-      "summary": "一个3人团队在7月25日利用两个漏洞接管了OpenAI员工的 ChatGPT/Codex 账户，并可访问 Outlook、Slack、GitHub 等关联服务，他们用向 OpenAI 内部代码库提交 PR 的方式证明了漏洞，全程不到72小时。",
-      "reason": "作者补充了模型对比和成本细节，读者可以结合被引用者的完整复述了解这次用前沿模型做安全研究的投入规模。",
-      "author": "X：Haider (@haider1)",
-      "source": "X：Haider (@haider1)",
-      "sourceKind": "x_search",
-      "score": 76,
-      "publishedAt": "2026-09-18T07:25:07.000Z",
-      "dateLabel": "9月18日",
-      "weekday": "",
-      "time": "12:43",
-      "dateKey": "2026-09-18",
-      "categoryId": "ai-models",
-      "categoryName": "模型",
-      "tags": [
-        "Agent",
-        "OpenAI",
-        "安全/对齐"
-      ],
-      "avatar": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F2047286007003848704%2Fu2mzg86I_normal.jpg&mode=avatar&exp=1789948800&sig=a3c1692d8f2422cf00cb95021c11937f064b2441fc7d512127192f1973bcc921",
-      "media": "/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSe2pPAaEAA2bbH.jpg%3Fname%3Dorig&mode=full&exp=1789948800&sig=2a55563458d652c68560f7a1014494c9ad84f084f3246497eefa87fa9b28af39",
-      "mediaUrl": "https://aihot.virxact.com/api/img-proxy?u=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FHSe2pPAaEAA2bbH.jpg%3Fname%3Dorig&mode=full&exp=1789948800&sig=2a55563458d652c68560f7a1014494c9ad84f084f3246497eefa87fa9b28af39"
     }
   ]
 }

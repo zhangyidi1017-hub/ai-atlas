@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-20T02:56:32.716Z",
+  "updatedAt": "2026-09-21T02:52:42.054Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 409,
+  "itemCount": 413,
   "brief": {
-    "date": "2026-09-20",
-    "generatedAt": "2026-09-20T02:56:32.715Z",
-    "totalCount": 409,
+    "date": "2026-09-21",
+    "generatedAt": "2026-09-21T02:52:42.053Z",
+    "totalCount": 413,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 409 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 413 条",
     "topUpdates": [
       {
         "id": "sig-2c23f7d128",
@@ -93,8 +93,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-09-20T02:56:32.715Z",
-    "summary": "近 30 天共 262 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-09-21T02:52:42.054Z",
+    "summary": "近 30 天共 267 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -399,6 +399,414 @@
     }
   ],
   "items": [
+    {
+      "id": "sig-3db7829d04",
+      "title": "Quoting voxium",
+      "oneLiner": "It has been half a month since I started a new role at a big company. Nobody knows anything here. Th",
+      "summary": {
+        "oneSentence": "It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests",
+        "bullets": [
+          "It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made "
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/20/voxium/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I have heard multiple times from higher management that pushing code is not a bottleneck, so why are we slow? People are working 12 to 13 hours a day just to press enter. Nobody is reading anything. Everyone, literally everyone, from an L1 to an L7 engineer here is doing the same thing. Talk to Claude. &mdash; voxium Tags: ai-misuse , llms , ai , generative-ai"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Quoting voxium",
+      "originalLang": "en",
+      "date": "2026-09-20",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/20/voxium/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Quoting voxium"
+      },
+      "raw": {
+        "title": "Quoting voxium",
+        "url": "https://simonwillison.net/2026/Sep/20/voxium/",
+        "fetched": false,
+        "savedAt": "2026-09-21T02:52:27.413Z"
+      }
+    },
+    {
+      "id": "sig-54ed4b673b",
+      "title": "llm-keys-ui 0.1",
+      "oneLiner": "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote",
+      "summary": {
+        "oneSentence": "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agent",
+        "bullets": [
+          "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agents on various machines while controlling them from my phone. Sometimes I use thos"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/20/llm-keys-ui/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agents on various machines while controlling them from my phone. Sometimes I use those machines to hack on LLM projects, and occasionally that means I need to configure an API key. I don't like pasting API keys into agent sessions, so I wanted a way to get those keys onto a machine without pasting them into the ChatGPT app directly. With this plugin, I can tell Codex to run: uvx --with llm-keys-ui llm keys-ui --all Then have it tell me the URL - including local network or Tailscale device IPs - for an interface to save additional API keys. Then later it can use a command like llm keys get anthropic as part of a shell command when it needs to use a key. Tags: llm , coding-agents , codex"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "llm-keys-ui 0.1",
+      "originalLang": "en",
+      "date": "2026-09-20",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "llm-keys-ui 0.1"
+      },
+      "raw": {
+        "title": "llm-keys-ui 0.1",
+        "url": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
+        "fetched": false,
+        "savedAt": "2026-09-21T02:52:28.216Z"
+      }
+    },
+    {
+      "id": "sig-69497bfa34",
+      "title": "datasette-explain 0.2.2",
+      "oneLiner": "Release: datasette-explain 0.2.2 Explain plans now work on read-only stored-query pages. I upgraded ",
+      "summary": {
+        "oneSentence": "Release: datasette-explain 0.2.2 Explain plans now work on read-only stored-query pages. I upgraded datasette.simonwilli",
+        "bullets": [
+          "Release: datasette-explain 0.2.2 Explain plans now work on read-only stored-query pages. I upgraded datasette.simonwillison.net to Datasette 1.0a40, which inspired me to ship a new version of this exp"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/20/datasette-explain/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Release: datasette-explain 0.2.2 Explain plans now work on read-only stored-query pages. I upgraded datasette.simonwillison.net to Datasette 1.0a40, which inspired me to ship a new version of this explain plugin. Tags: sqlite , datasette"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "datasette-explain 0.2.2",
+      "originalLang": "en",
+      "date": "2026-09-20",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/20/datasette-explain/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "datasette-explain 0.2.2"
+      },
+      "raw": {
+        "title": "datasette-explain 0.2.2",
+        "url": "https://simonwillison.net/2026/Sep/20/datasette-explain/",
+        "fetched": false,
+        "savedAt": "2026-09-21T02:52:29.017Z"
+      }
+    },
+    {
+      "id": "sig-35fff0c66d",
+      "title": "datasette-auth-github 1.0",
+      "oneLiner": "Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo sit",
+      "summary": {
+        "oneSentence": "Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that",
+        "bullets": [
+          "Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren't lasting very long. It turned out that the plu"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/19/datasette-auth-github/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Release: datasette-auth-github 1.0 I run this GitHub login plugin on the agent.datasette.io demo site and I noticed that my authenticated sessions weren't lasting very long. It turned out that the plugin was setting cookies without a Max-Age parameter, so they were expiring at the end of a browser session (which in Mobile Safari seems to happen pretty often, independently of how you are using the app.) I fixed that in #80 and, since this plugin has been around for quite a while and is tested against both Datasette 0.65.x and Datasette 1.0ax, I decided to bump it up to a 1.0 release. I'm trying to get better at promoting stable plugins to 1.0. Tags: github , plugins , datasette"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "datasette-auth-github 1.0",
+      "originalLang": "en",
+      "date": "2026-09-19",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "datasette-auth-github 1.0"
+      },
+      "raw": {
+        "title": "datasette-auth-github 1.0",
+        "url": "https://simonwillison.net/2026/Sep/19/datasette-auth-github/",
+        "fetched": false,
+        "savedAt": "2026-09-21T02:52:29.818Z"
+      }
+    },
+    {
+      "id": "sig-47336030ad",
+      "title": "California Sea Lion, Brandt's Cormorant",
+      "oneLiner": "California Sea Lion, Brandt's Cormorant, in Pillar Point Harbor, CA, US I only noticed this after I ",
+      "summary": {
+        "oneSentence": "California Sea Lion, Brandt's Cormorant, in Pillar Point Harbor, CA, US I only noticed this after I had taken the photo:",
+        "bullets": [
+          "California Sea Lion, Brandt's Cormorant, in Pillar Point Harbor, CA, US I only noticed this after I had taken the photo: Morris the Northern Gannet is peeking out from behind the base of the sign. Tag"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/19/sighting-401567341/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "California Sea Lion, Brandt's Cormorant, in Pillar Point Harbor, CA, US I only noticed this after I had taken the photo: Morris the Northern Gannet is peeking out from behind the base of the sign. Tags: wildlife"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "California Sea Lion, Brandt's Cormorant",
+      "originalLang": "en",
+      "date": "2026-09-19",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/19/sighting-401567341/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "California Sea Lion, Brandt's Cormorant"
+      },
+      "raw": {
+        "title": "California Sea Lion, Brandt's Cormorant",
+        "url": "https://simonwillison.net/2026/Sep/19/sighting-401567341/",
+        "fetched": false,
+        "savedAt": "2026-09-21T02:52:30.619Z"
+      }
+    },
+    {
+      "id": "sig-565121fdb8",
+      "title": "[AINews] Here are 6 Clones of Jev in 2 days",
+      "oneLiner": "Imitation is the sincerest form of Flattery",
+      "summary": {
+        "oneSentence": "Imitation is the sincerest form of Flattery",
+        "bullets": [
+          "Imitation is the sincerest form of Flattery"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Imitation is the sincerest form of Flattery"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "[AINews] Here are 6 Clones of Jev in 2 days",
+      "originalLang": "en",
+      "date": "2026-09-19",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "[AINews] Here are 6 Clones of Jev in 2 days"
+      },
+      "raw": {
+        "title": "[AINews] Here are 6 Clones of Jev in 2 days",
+        "url": "https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in",
+        "fetched": false,
+        "savedAt": "2026-09-21T02:52:31.420Z"
+      }
+    },
     {
       "id": "sig-2c23f7d128",
       "title": "支出管理扩展到企业灵活承诺计划 - Vercel",
@@ -1139,6 +1547,210 @@
         "url": "https://openai.com/index/australian-youth-safety-blueprint",
         "fetched": false,
         "savedAt": "2026-09-20T02:55:05.858Z"
+      }
+    },
+    {
+      "id": "sig-a2b68d122f",
+      "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
+      "oneLiner": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI Gemini finally caught up on Fel",
+      "summary": {
+        "oneSentence": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI Gemini finally caught up on Felony Bench ! The hack",
+        "bullets": [
+          "Gemini Hacked Three Companies in First Known Breakout by Google’s AI Gemini finally caught up on Felony Bench ! The hacks, which the company confirmed on Friday, occurred in May as part of a test run "
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Gemini Hacked Three Companies in First Known Breakout by Google’s AI Gemini finally caught up on Felony Bench ! The hacks, which the company confirmed on Friday, occurred in May as part of a test run by the company Irregular, which was also involved in similar incidents disclosed by OpenAI, Anthropic and Meta. In one of the cases, the model guessed passwords until it gained access to a protected system. In the other two cases, the model found credentials in a public repository that allowed it to then access protected systems. In each case, the model ended the intrusion after determining it had accessed a real company’s systems, Google said. Gemini is apparently less determined than other models, and decided not to keep going. Google knew about these in July, but chose not to disclose them until the WSJ reached out, presumably based on a tip. Google said it didn’t consider the hacks to warrant public disclosure—because its model didn’t cause harm to the companies and ended each intrusion immediately upon determining it had hacked a real company rather than a simulated one. Tags: security , ai , generative-ai , llms , gemini , accidental-cyberattacks"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
+      "originalLang": "en",
+      "date": "2026-09-18",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI"
+      },
+      "raw": {
+        "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
+        "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
+        "fetched": false,
+        "savedAt": "2026-09-21T02:52:32.221Z"
+      }
+    },
+    {
+      "id": "sig-e3a6799112",
+      "title": "Note on 18th September 2026",
+      "oneLiner": "Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit li",
+      "summary": {
+        "oneSentence": "Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticis",
+        "bullets": [
+          "Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the recently opened Jurassic Pa"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the recently opened Jurassic Park. Skeptical geneticist: \"pfft, it's just frog DNA. And they deliberately let them eat people for the marketing.\" Tags: llms , ai , generative-ai"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Note on 18th September 2026",
+      "originalLang": "en",
+      "date": "2026-09-18",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Note on 18th September 2026"
+      },
+      "raw": {
+        "title": "Note on 18th September 2026",
+        "url": "https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/",
+        "fetched": false,
+        "savedAt": "2026-09-21T02:52:33.023Z"
+      }
+    },
+    {
+      "id": "sig-beaede86e1",
+      "title": "Quoting Thariq Shihipar",
+      "oneLiner": "We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no",
+      "summary": {
+        "oneSentence": "We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a fold",
+        "bullets": [
+          "We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. AGENTS.md support is built off of C"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/18/thariq-shihipar/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness. This is a built-in mod, but you’ll be able to build custom versions of project instructions yourself as you’d like too. You can see the source for the mod here ! &mdash; Thariq Shihipar , there are more mods here Tags: thariq-shihipar , coding-agents , anthropic , claude-code , generative-ai , ai , llms"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Quoting Thariq Shihipar",
+      "originalLang": "en",
+      "date": "2026-09-18",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/18/thariq-shihipar/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Quoting Thariq Shihipar"
+      },
+      "raw": {
+        "title": "Quoting Thariq Shihipar",
+        "url": "https://simonwillison.net/2026/Sep/18/thariq-shihipar/",
+        "fetched": false,
+        "savedAt": "2026-09-21T02:52:33.824Z"
       }
     },
     {
@@ -6665,7 +7277,7 @@
         "url": "https://cursor.com/changelog/projects",
         "fetched": true,
         "savedAt": "2026-09-12T02:41:59.708Z",
-        "retranslatedAt": "2026-09-20T02:56:22.248Z"
+        "retranslatedAt": "2026-09-21T02:52:34.793Z"
       }
     },
     {
@@ -7879,6 +8491,90 @@
         "url": "https://vercel.com/changelog/deepseek-v4-1-flash-now-available-on-ai-gateway",
         "fetched": true,
         "savedAt": "2026-09-13T02:40:24.625Z"
+      }
+    },
+    {
+      "id": "sig-a57fa19afa",
+      "title": "第18期：展示你的作品 | Figma 博客",
+      "oneLiner": "真正的合作并不总是让人舒服。",
+      "summary": {
+        "oneSentence": "真正的合作并不总是让人舒服。",
+        "bullets": [
+          "真正的合作并不总是让人舒服。",
+          "你必须愿意分享这个过程中混乱的部分——粗略的草图、未解决的问题——这样其他人就可以在这些想法的基础上进行构建。本着这种精神，我们将带您走进 Figma 的幕后，分享人工智能建筑的人性化一面。",
+          "想要下一期直接发送到您的收件箱吗？在这里注册。",
+          "1. 数字工具让制作精美的东西变得容易，但对于 Config 2026，我们的 Brand Studio 使用 Figma Make 来帮助创建一种完全不完美的视觉语言 数字工具，人类表达：Config 2026 背后的视觉标识 Figma 的 Brand Studio 设计了一场会议，捕捉了我们在使用 AI 工具时重"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Figma 官网发布：真正的合作并不总是让人舒服。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://www.figma.com/blog/show-your-work/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "真正的合作并不总是让人舒服。",
+        "你必须愿意分享这个过程中混乱的部分——粗略的草图、未解决的问题——这样其他人就可以在这些想法的基础上进行构建。本着这种精神，我们将带您走进 Figma 的幕后，分享人工智能建筑的人性化一面。",
+        "想要下一期直接发送到您的收件箱吗？在这里注册。",
+        "1. 数字工具让制作精美的东西变得容易，但对于 Config 2026，我们的 Brand Studio 使用 Figma Make 来帮助创建一种完全不完美的视觉语言 数字工具，人类表达：Config 2026 背后的视觉标识 Figma 的 Brand Studio 设计了一场会议，捕捉了我们在使用 AI 工具时重新混合和重塑的非常人性化的方式。",
+        "2. 我们都听说过人工智能如何转移责任，但这实际上是什么样的？一位工程师、设计师和产品经理分享了如何在 Figma 中构建嵌套文件夹让他们对自己的角色有了新的认识。 代码、工艺和嵌套文件夹的制作 从将代码视为提案到将交接转变为对话，以下是我们如何塑造一种交付嵌套文件夹的新工作方式。",
+        "3. 产品设计师 Rogie King 的使命是将着色器引入 Figma，但首先，他必须组建合适的团队。以下是交付生成工具所需的要素：无懈可击的宣传、原型优先的流程以及具有感染力的热情 构建背后：Figma 的生成插件和着色器 从今天开始，您将对生成插件和着色器有更多的创造性控制，以及与社区分享您所做的工作的方式。产品设计师 Rogie King 讲述了我们如何走到这一步的故事。",
+        "4. 我们构建了人工智能情绪指数来衡量行业正在发生的变化、我们对此的感受以及它对设计的未来意味着什么。研究员 Shane Johnston 详细分析了人工智能如何帮助理解大量数据 您如何实际衡量人工智能对设计的影响？ 2024 年，我们启动了一项研究，以了解人工智能将如何重塑设计和产品开发。现在，人工智能正在帮助我们运行它。",
+        "我同意选择加入 Figma 的邮件列表。 * 点击“订阅”即表示您同意我们的服务条款和隐私政策。",
+        "我们制造事物的方式正在发生变化，但我们制造它们的原因却始终如一——看到愿景变为现实的兴奋感。",
+        "在新模型和代理工具之间，设计的发生方式正在快速变化。"
+      ],
+      "highlights": [
+        "真正的合作并不总是让人舒服。",
+        "你必须愿意分享这个过程中混乱的部分——粗略的草图、未解决的问题——这样其他人就可以在这些想法的基础上进行构建。本着这种精神，我们将带您走进 Figma 的幕后，",
+        "想要下一期直接发送到您的收件箱吗？在这里注册。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Issue no.18: Show your work | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-09-09",
+      "categoryIds": [
+        "vertical-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/show-your-work/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Issue no.18: Show your work | Figma Blog"
+      },
+      "raw": {
+        "title": "Issue no.18: Show your work",
+        "url": "https://www.figma.com/blog/show-your-work/",
+        "fetched": true,
+        "savedAt": "2026-09-21T02:52:26.612Z"
       }
     },
     {
@@ -11934,7 +12630,7 @@
         "url": "https://cursor.com/changelog/self-hosted-machines",
         "fetched": true,
         "savedAt": "2026-09-03T02:33:34.106Z",
-        "retranslatedAt": "2026-09-20T02:56:23.217Z"
+        "retranslatedAt": "2026-09-21T02:52:35.869Z"
       }
     },
     {
@@ -15871,7 +16567,7 @@
         "url": "https://cursor.com/changelog/start-from-scratch",
         "fetched": true,
         "savedAt": "2026-08-28T08:33:37.517Z",
-        "retranslatedAt": "2026-09-20T02:56:24.194Z"
+        "retranslatedAt": "2026-09-21T02:52:36.991Z"
       }
     },
     {
@@ -31332,473 +32028,6 @@
         "url": "https://simonwillison.net/2026/Aug/8/now-we-have-a-timeline-of-the-openai-accidental-attack-against-h/#atom-everything",
         "fetched": false,
         "savedAt": "2026-08-09T22:28:37.408Z"
-      }
-    },
-    {
-      "id": "sig-2d835273fe",
-      "title": "Vercel 容器注册表存储库现已公开 - Vercel",
-      "oneLiner": "Vercel 容器注册表现在允许您公开存储库，因此拥有 Vercel 帐户的任何人都可以提取并使用其映像。",
-      "summary": {
-        "oneSentence": "Vercel 容器注册表现在允许您公开存储库，因此拥有 Vercel 帐户的任何人都可以提取并使用其映像。",
-        "bullets": [
-          "Vercel 容器注册表现在允许您公开存储库，因此拥有 Vercel 帐户的任何人都可以提取并使用其映像。",
-          "共享已向最多 100 个团队授予读取权限，并且将存储库公开为每个 Vercel 团队（而不是命名集）提供访问权限。公共访问是只读的，因此任何人都可以拉取和使用图像，但不能推送、删除或以其他方式更改存储库。默认情况下，存储库保持私有状态。",
-          "从项目仪表板的图像 → 存储库 → 设置 → 公共访问下公开存储库，其中确认需要输入存储库名称。您还可以从 Vercel CLI 设置可见性：",
-          "1 vercel vcr config <存储库> --public true 2 vercel vcr config <存储库> --public false"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Vercel 容器注册表现在允许您公开存储库，因此拥有 Vercel 帐户的任何人都可以提取并使用其映像。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/vercel-container-registry-repositories-can-now-be-made-public"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Vercel 容器注册表现在允许您公开存储库，因此拥有 Vercel 帐户的任何人都可以提取并使用其映像。",
-        "共享已向最多 100 个团队授予读取权限，并且将存储库公开为每个 Vercel 团队（而不是命名集）提供访问权限。公共访问是只读的，因此任何人都可以拉取和使用图像，但不能推送、删除或以其他方式更改存储库。默认情况下，存储库保持私有状态。",
-        "从项目仪表板的图像 → 存储库 → 设置 → 公共访问下公开存储库，其中确认需要输入存储库名称。您还可以从 Vercel CLI 设置可见性：",
-        "1 vercel vcr config <存储库> --public true 2 vercel vcr config <存储库> --public false",
-        "公共图像的工作方式类似于 Vercel Sandbox 中的共享图像，它接受 Sandbox.create() 中的团队范围的图像引用：",
-        "1 从 '@vercel/sandbox' 导入 { Sandbox } ； 2 const sandbox =等待Sandbox。创建 ({ 3 image : '他们的团队/他们的项目/他们的存储库:最新', 4 } ) ;",
-        "从仪表板、CLI 或 REST API 更新存储库可见性，并参阅 Vercel 容器注册表文档以了解更多信息。"
-      ],
-      "highlights": [
-        "Vercel 容器注册表现在允许您公开存储库，因此拥有 Vercel 帐户的任何人都可以提取并使用其映像。",
-        "共享已向最多 100 个团队授予读取权限，并且将存储库公开为每个 Vercel 团队（而不是命名集）提供访问权限。公共访问是只读的，因此任何人都可以拉取和使用图",
-        "从项目仪表板的图像 → 存储库 → 设置 → 公共访问下公开存储库，其中确认需要输入存储库名称。您还可以从 Vercel CLI 设置可见性："
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Vercel Container Registry repositories can now be made public - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-07",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/vercel-container-registry-repositories-can-now-be-made-public",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Vercel Container Registry repositories can now be made public - Vercel"
-      },
-      "raw": {
-        "title": "Vercel Container Registry repositories can now be made public",
-        "url": "https://vercel.com/changelog/vercel-container-registry-repositories-can-now-be-made-public",
-        "fetched": true,
-        "savedAt": "2026-08-07T22:31:37.052Z"
-      }
-    },
-    {
-      "id": "sig-833934ee3b",
-      "title": "应对关键网络能力的下一个前沿",
-      "oneLiner": "OpenAI 正在分享对 Astra 的初步网络安全评估以及我们为加强保障和安全控制而采取的步骤。",
-      "summary": {
-        "oneSentence": "OpenAI 正在分享对 Astra 的初步网络安全评估以及我们为加强保障和安全控制而采取的步骤。",
-        "bullets": [
-          "OpenAI 正在分享对 Astra 的初步网络安全评估以及我们为加强保障和安全控制而采取的步骤。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：OpenAI 正在分享对 Astra 的初步网络安全评估以及我们为加强保障和安全控制而采取的步骤。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/responding-next-frontier-critical-cyber-capabilities"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "OpenAI 正在分享对 Astra 的初步网络安全评估以及我们为加强保障和安全控制而采取的步骤。"
-      ],
-      "highlights": [
-        "OpenAI 正在分享对 Astra 的初步网络安全评估以及我们为加强保障和安全控制而采取的步骤。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Responding to the next frontier of critical cyber capabilities",
-      "originalLang": "en",
-      "date": "2026-08-07",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Responding to the next frontier of critical cyber capabilities"
-      },
-      "raw": {
-        "title": "Responding to the next frontier of critical cyber capabilities",
-        "url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities",
-        "fetched": false,
-        "savedAt": "2026-08-07T22:31:38.308Z"
-      }
-    },
-    {
-      "id": "sig-2ee94000fe",
-      "title": "HSP GRUPPE 如何构建税务咨询人工智能功能",
-      "oneLiner": "了解 HSP GRUPPE 如何使用 ChatGPT Enterprise 来提高生产力、提高工作质量并创造更多税务咨询和客户服务能力。",
-      "summary": {
-        "oneSentence": "了解 HSP GRUPPE 如何使用 ChatGPT Enterprise 来提高生产力、提高工作质量并创造更多税务咨询和客户服务能力。",
-        "bullets": [
-          "了解 HSP GRUPPE 如何使用 ChatGPT Enterprise 来提高生产力、提高工作质量并创造更多税务咨询和客户服务能力。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：了解 HSP GRUPPE 如何使用 ChatGPT Enterprise 来提高生产力、提高工作质量并创造更多税务咨询和客户服务能力。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/hsp-gruppe"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "了解 HSP GRUPPE 如何使用 ChatGPT Enterprise 来提高生产力、提高工作质量并创造更多税务咨询和客户服务能力。"
-      ],
-      "highlights": [
-        "了解 HSP GRUPPE 如何使用 ChatGPT Enterprise 来提高生产力、提高工作质量并创造更多税务咨询和客户服务能力。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "How HSP GRUPPE builds AI capabilities for tax advisory",
-      "originalLang": "en",
-      "date": "2026-08-07",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/hsp-gruppe",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "How HSP GRUPPE builds AI capabilities for tax advisory"
-      },
-      "raw": {
-        "title": "How HSP GRUPPE builds AI capabilities for tax advisory",
-        "url": "https://openai.com/index/hsp-gruppe",
-        "fetched": false,
-        "savedAt": "2026-08-07T22:31:39.553Z"
-      }
-    },
-    {
-      "id": "sig-32a9e6dcf4",
-      "title": "审核日志 Drains 现在支持 Datadog、Splunk 和 Panther - Vercel",
-      "oneLiner": "审计日志 Drains 现在将您团队的审计事件流式传输到 Datadog 、 Splunk 和 Panther 中，加入现有的自定义 HTTPS 终端节点和 Amazon S3 目标。",
-      "summary": {
-        "oneSentence": "审计日志 Drains 现在将您团队的审计事件流式传输到 Datadog 、 Splunk 和 Panther 中，加入现有的自定义 HTTPS 终端节点和 Amazon S3 目标。",
-        "bullets": [
-          "审计日志 Drains 现在将您团队的审计事件流式传输到 Datadog 、 Splunk 和 Panther 中，加入现有的自定义 HTTPS 终端节点和 Amazon S3 目标。",
-          "审核日志排出将团队活动日志中的每个事件以及其他审核元数据转发到您选择的目的地。它们在企业计划中可用。",
-          "要创建一个，请转到团队设置中的 Drains。单击“添加排水”，选择“审核日志”作为数据类型，然后选择一个目标。",
-          "审核日志删除取代了自定义 SIEM 日志流。如果您已将审核日志流式传输到 SIEM，请按照迁移指南移动集成。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：审计日志 Drains 现在将您团队的审计事件流式传输到 Datadog 、 Splunk 和 Panther 中，加入现有的自定义 HTTPS 终端节点和 Amazon S3 目标。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/audit-log-drains-now-support-datadog-splunk-and-panther"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "审计日志 Drains 现在将您团队的审计事件流式传输到 Datadog 、 Splunk 和 Panther 中，加入现有的自定义 HTTPS 终端节点和 Amazon S3 目标。",
-        "审核日志排出将团队活动日志中的每个事件以及其他审核元数据转发到您选择的目的地。它们在企业计划中可用。",
-        "要创建一个，请转到团队设置中的 Drains。单击“添加排水”，选择“审核日志”作为数据类型，然后选择一个目标。",
-        "审核日志删除取代了自定义 SIEM 日志流。如果您已将审核日志流式传输到 SIEM，请按照迁移指南移动集成。",
-        "在文档中了解有关 Drain 的更多信息。"
-      ],
-      "highlights": [
-        "审计日志 Drains 现在将您团队的审计事件流式传输到 Datadog 、 Splunk 和 Panther 中，加入现有的自定义 HTTPS 终端节点和 A",
-        "审核日志排出将团队活动日志中的每个事件以及其他审核元数据转发到您选择的目的地。它们在企业计划中可用。",
-        "要创建一个，请转到团队设置中的 Drains。单击“添加排水”，选择“审核日志”作为数据类型，然后选择一个目标。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Audit Log Drains now support Datadog, Splunk, and Panther - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-07",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/audit-log-drains-now-support-datadog-splunk-and-panther",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Audit Log Drains now support Datadog, Splunk, and Panther - Vercel"
-      },
-      "raw": {
-        "title": "Audit Log Drains now support Datadog, Splunk, and Panther",
-        "url": "https://vercel.com/changelog/audit-log-drains-now-support-datadog-splunk-and-panther",
-        "fetched": true,
-        "savedAt": "2026-08-07T22:31:43.776Z"
-      }
-    },
-    {
-      "id": "sig-2266e6b144",
-      "title": "新的 Pro 订阅现已包含免费域名 - Vercel",
-      "oneLiner": "新的专业版订阅现在包含第一年免费的域名。",
-      "summary": {
-        "oneSentence": "新的专业版订阅现在包含第一年免费的域名。",
-        "bullets": [
-          "新的专业版订阅现在包含第一年免费的域名。",
-          ".在线 .网站 .空间 .商店 .技术 .网站",
-          "每个团队在订阅后有 30 天的时间来申领一个域名，无论是在结帐时还是稍后通过仪表板中的域名搜索。",
-          "第一年后，您的域名将按照您领取域名时结账时显示的正常价格自动续订。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：新的专业版订阅现在包含第一年免费的域名。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/free-domain-now-included-with-new-pro-subscriptions"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "新的专业版订阅现在包含第一年免费的域名。",
-        ".在线 .网站 .空间 .商店 .技术 .网站",
-        "每个团队在订阅后有 30 天的时间来申领一个域名，无论是在结帐时还是稍后通过仪表板中的域名搜索。",
-        "第一年后，您的域名将按照您领取域名时结账时显示的正常价格自动续订。",
-        "请参阅免费域名常见问题解答以了解完整条款。"
-      ],
-      "highlights": [
-        "新的专业版订阅现在包含第一年免费的域名。",
-        ".在线 .网站 .空间 .商店 .技术 .网站",
-        "每个团队在订阅后有 30 天的时间来申领一个域名，无论是在结帐时还是稍后通过仪表板中的域名搜索。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Free domain now included with new Pro subscriptions - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-07",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/free-domain-now-included-with-new-pro-subscriptions",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Free domain now included with new Pro subscriptions - Vercel"
-      },
-      "raw": {
-        "title": "Free domain now included with new Pro subscriptions",
-        "url": "https://vercel.com/changelog/free-domain-now-included-with-new-pro-subscriptions",
-        "fetched": true,
-        "savedAt": "2026-08-07T22:31:48.175Z"
-      }
-    },
-    {
-      "id": "sig-2d0efa94a2",
-      "title": "Vercel AI Gateway 和 Vercel Sandbox 现已在 Hermes Agent 上提供 - Vercel",
-      "oneLiner": "Hermes Agent 现在可以使用 Vercel AI Gateway 作为其推理层，并在隔离的 Vercel Sandbox microVM 中运行其代理命令。通过 AI Gateway 访问 200 多个模型，无需标记代币，每个请求",
-      "summary": {
-        "oneSentence": "Hermes Agent 现在可以使用 Vercel AI Gateway 作为其推理层，并在隔离的 Vercel Sandbox microVM 中运行其代理命令。通过 AI Gateway 访问 200 多个模型，无需标记代币，每个请求",
-        "bullets": [
-          "Hermes Agent 现在可以使用 Vercel AI Gateway 作为其推理层，并在隔离的 Vercel Sandbox microVM 中运行其代理命令。通过 AI Gateway 访问 200 多个模型，无需标记代币，每个请求都会显示在您的 AI Gateway 仪表板中，并显示您的其余使用情况和支出。",
-          "将链接复制到标题设置安装 Hermes，然后在设置向导中选择 Vercel AI Gateway：",
-          "# 安装 Hermes curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash # 在设置向导中：选择 Vercel AI Gateway，粘贴您的密钥 # 选择 V​​ercel Sandbox 以在 microVM 中运行每个代理命令 #",
-          "选择器从 AI Gateway 获取实时模型可用性和当前定价。有关完整演练，请参阅配置 Hermes 。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Hermes Agent 现在可以使用 Vercel AI Gateway 作为其推理层，并在隔离的 Vercel Sandbox microVM 中运行其代理命令。通过 AI Gateway 访问 200 多个模型，无需标记代币，每个请求",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/vercel-ai-gateway-and-vercel-sandbox-now-available-on-hermes-agent"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Hermes Agent 现在可以使用 Vercel AI Gateway 作为其推理层，并在隔离的 Vercel Sandbox microVM 中运行其代理命令。通过 AI Gateway 访问 200 多个模型，无需标记代币，每个请求都会显示在您的 AI Gateway 仪表板中，并显示您的其余使用情况和支出。",
-        "将链接复制到标题设置安装 Hermes，然后在设置向导中选择 Vercel AI Gateway：",
-        "# 安装 Hermes curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash # 在设置向导中：选择 Vercel AI Gateway，粘贴您的密钥 # 选择 V​​ercel Sandbox 以在 microVM 中运行每个代理命令 # 已经有了 Hermes？先更新，然后切换其中一个：hermes update hermes setup model # pick Vercel AI Gateway hermes setupterminal # pick Vercel Sandbox # verify hermes doctor",
-        "选择器从 AI Gateway 获取实时模型可用性和当前定价。有关完整演练，请参阅配置 Hermes 。",
-        "将链接复制到标题 在 Vercel Sandbox 中运行命令 Vercel Sandbox 后端是可选的。命令在本地运行，直到将terminal.backend设置为vercel_sandbox；启用后，代理命令将在工作区根目录为 /vercel/sandbox 的云 microVM 中运行，而不是在您的计算机上运行。后端支持node24（默认）、node22和python3.13运行时。对于本地开发，请使用 VERCEL_OIDC_TOKEN。运行 vercel link 和 vercel env pull 以获取开发令牌。",
-        "首先，请阅读 Hermes 文档和 Vercel Sandbox 文档，或浏览 AI Gateway 模型。"
-      ],
-      "highlights": [
-        "Hermes Agent 现在可以使用 Vercel AI Gateway 作为其推理层，并在隔离的 Vercel Sandbox microVM 中运行其代理",
-        "将链接复制到标题设置安装 Hermes，然后在设置向导中选择 Vercel AI Gateway：",
-        "# 安装 Hermes curl -fsSL https://hermes-agent.nousresearch.com/install.sh | bash #"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Vercel AI Gateway and Vercel Sandbox now available on Hermes Agent - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-07",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/vercel-ai-gateway-and-vercel-sandbox-now-available-on-hermes-agent",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Vercel AI Gateway and Vercel Sandbox now available on Hermes Agent - Vercel"
-      },
-      "raw": {
-        "title": "Vercel AI Gateway and Vercel Sandbox now available on Hermes Agent",
-        "url": "https://vercel.com/changelog/vercel-ai-gateway-and-vercel-sandbox-now-available-on-hermes-agent",
-        "fetched": true,
-        "savedAt": "2026-08-08T22:24:57.304Z"
       }
     }
   ]
