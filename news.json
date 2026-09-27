@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-26T03:05:21.050Z",
+  "updatedAt": "2026-09-27T03:10:00.251Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 409,
+  "itemCount": 399,
   "brief": {
-    "date": "2026-09-26",
-    "generatedAt": "2026-09-26T03:05:21.050Z",
-    "totalCount": 409,
+    "date": "2026-09-27",
+    "generatedAt": "2026-09-27T03:10:00.250Z",
+    "totalCount": 399,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 409 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 399 条",
     "topUpdates": [
       {
         "id": "sig-d2d497e5ee",
@@ -57,12 +57,12 @@
         "sig-573687e3b9"
       ],
       "newReleases": [
+        "sig-089c4ff63d",
         "sig-8e4f416112",
         "sig-fe5941ee46",
         "sig-f30efa9be5",
         "sig-d822bd91a1",
-        "sig-39d537a07a",
-        "sig-1e5183cd6f"
+        "sig-39d537a07a"
       ],
       "insights": [
         "sig-d2d497e5ee",
@@ -93,15 +93,15 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-09-26T03:05:21.050Z",
-    "summary": "近 30 天共 251 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-09-27T03:10:00.251Z",
+    "summary": "近 30 天共 252 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
-        "signal": "近 30 天 2 条相关更新",
+        "signal": "近 30 天 3 条相关更新",
         "examples": [
-          "Cursor 项目 · Cursor",
-          "自托管机器 · Cursor"
+          "Rollouts 与 Security Review · Cursor",
+          "Cursor 项目 · Cursor"
         ]
       }
     ],
@@ -230,6 +230,80 @@
       "stars": 4
     },
     {
+      "id": "sig-7cff1964bf",
+      "title": "Ringg 的 AI 代理通过 OpenAI 解决了高达 65% 的客户呼叫",
+      "oneLiner": "使用 GPT-5.6，Ringg 为跨语音、聊天、WhatsApp 和网络的多语言代理提供支持，与 GPT-4.1 相比，成本降低了 90%。",
+      "date": "2026-09-23",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-1d5a9cc2d9",
+      "title": "心理健康基准简介",
+      "oneLiner": "由 80 多名持证心理健康专家开发的开放基准，用于评估真实心理健康对话中的人工智能反应。",
+      "date": "2026-09-23",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-1dd9ce125c",
+      "title": "ChatGPT 广告扩展到东南亚和台湾",
+      "oneLiner": "ChatGPT 广告已扩展到亚洲的另外 7 个市场，目前已在 60 多个国家/地区推出。",
+      "date": "2026-09-23",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-73fafdf6f4",
+      "title": "Airbnb 扩大了对 GPT-6 Astra 和 OpenAI 前沿模型的访问",
+      "oneLiner": "根据一项新协议，Airbnb 将为其工程和产品开发团队提供更广泛的 OpenAI 前沿模型访问权限，包括 GPT‑6 Astra。",
+      "date": "2026-09-23",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-09a0c6dbf1",
+      "title": "Grab 和 OpenAI 为东南亚带来实用的人工智能技能",
+      "oneLiner": "我们的第一个区域技能计划将帮助 30,000 名 Grab 司机、送货员和商家合作伙伴为他们的工作和业务培养实用的人工智能技能",
+      "date": "2026-09-23",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-089c4ff63d",
+      "title": "Rollouts 与 Security Review · Cursor",
+      "oneLiner": "今天，我们推出两个 Cursor bot，助你打通代码交付的最后一公里。Rollouts 会实时监控每一次变更的部署过程，并按环境报告其健康状况。Security Review 会在每个 PR 中报告可被利用的缺陷。",
+      "date": "2026-09-23",
+      "productIds": [
+        "cursor"
+      ],
+      "source": "Cursor",
+      "tags": [
+        "Release"
+      ],
+      "stars": 4
+    },
+    {
       "id": "sig-b6b1e4118c",
       "title": "更好的 GPT-6 提示缓存",
       "oneLiner": "了解 GPT-6 如何通过更高的缓存命中率、新的诊断、显式断点以及减少延迟和成本的控制来改进提示缓存。",
@@ -324,81 +398,77 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-d1749ba76a",
-      "title": "V7 如何为人工智能代理提供机构记忆",
-      "oneLiner": "使用 GPT-5.6，V7 将分散的公司文件转换为上下文代理，可用于完成复杂的、与源相关的工作。",
-      "date": "2026-09-21",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-079e661c04",
-      "title": "新专家加入 Google 人工智能与经济团队",
-      "oneLiner": "诺贝尔奖获得者 Philippe Aghion、Ajay Agrawal 教授和领先研究人员加入 Google 的人工智能与经济计划，以扩大我们对人工智能对全球经济活动影响的科学理解。",
-      "date": "2026-09-18",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google AI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-13d62ca6fc",
-      "title": "与 Google 共同创造时尚的未来",
-      "oneLiner": "两位时装设计师在 Google Flow 中创建了自定义工具，以帮助纽约时装周进行布景设计和造型。",
-      "date": "2026-09-18",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google AI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-559b0cf111",
-      "title": "澳大利亚青少年安全蓝图简介",
-      "oneLiner": "OpenAI 推出了澳大利亚青少年安全蓝图，这是一个六支柱路线图，旨在提供更安全的人工智能体验，保护年轻人并赋予他们权力。",
-      "date": "2026-09-18",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-e7b9d12d1b",
-      "title": "让全球数据更容易探索",
-      "oneLiner": "联合国系统数据共享是一个开放的、人工智能就绪的平台，将关键的全球统计数据整合到单一的可搜索资源中。",
-      "date": "2026-09-17",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google AI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-964ae1dd0f",
-      "title": "Cooley 如何利用 ChatGPT 加速 IPO 工作",
-      "oneLiner": "Cooley 与 ChatGPT Work 一起构建了 GO Public，为 IPO 流程带来情报，帮助律师更早地发现问题并将判断集中在最重要的地方。",
-      "date": "2026-09-17",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-ffc80d14a5",
+      "title": "Kākāpō Party",
+      "oneLiner": "Tool: Kākāpō Party I presented a closing keynote for the WeAreDevelopers World Congress North Americ",
+      "summary": {
+        "oneSentence": "Tool: Kākāpō Party I presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a ST",
+        "bullets": [
+          "Tool: Kākāpō Party I presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a STAR moment I decided to weave in references to the record breaking kākāpō breedin"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/26/kakapo-party/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Tool: Kākāpō Party I presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a STAR moment I decided to weave in references to the record breaking kākāpō breeding season we had in 2026. For my closing slide I wanted to celebrate, and I had seen some buzz around how good Claude Opus 5.5 was at creating pixel art animations. So I rounded up three Kakapo photos from Google image search and dropped them into Claude with this prompt: Here are some photos of kakapo parrots just to remind you what they look like I need you to make an animation in animated pixel art on HTML 5 canvas of obviously pixel art kakapo jumping up and down having a party with confetti and suchlike - there should be at least 20 of them Here's the transcript , and this is the resulting page . It's pretty great! I wanted to embed it in a Keynote presentation file, so I downloaded the HTML and told a local Claude Code session: Make me a video of file:///Users/simon/Downloads/kakapo-party.html - you need to load it in a browser and click on it a few times to get the confetti effect, the video should be 15s long don't start clicking until 3s in make sure several clicks are spread around the clickable area Claude Code used Playwright ( transcript here ) and produced this video, which was exactly what I needed for my final slide: Your browser does not support HTML5 video. Here's the full Playwright script it used, which was pleasingly short: # /// script # dependencies = [\"playwright\"] # /// import time from playwright . sync_api import sync_playwright W , H = 1280 , 720 # Canvas fills the viewport; spread clicks across corners, edges and centre clicks = [ ( 3.0 , 640 , 360 ), # centre ( 4.2 , 160 , 120 ), # top-left ( 5.4 , 1120 , 120 ), # top-right ( 6.6 , 180 , 600 ), # bottom-left ( 7.8 , 1100 , 600 ), # bottom-right ( 9.0 , 640 , 100 ), # top-centre ( 10.0 , 380 , 380 ), # mid-left ( 11.0 , 900 , 380 ), # mid-right ( 12.2 , 640 , 620 ), # bottom-centre ( 13.2 , 640 , 300 ), # finale centre ] with sync_playwright () as p : b = p . chromium . launch () ctx = b . new_context ( viewport = { \"width\" : W , \"height\" : H }, record_video_dir = \"vids\" , record_video_size = { \"width\" : W , \"height\" : H }) page = ctx . new_page () t0 = time . time () page . goto ( \"file:///Users/simon/Downloads/kakapo-party.html\" ) for t , x , y in clicks : time . sleep ( max ( 0 , t - ( time . time () - t0 ))) page . mouse . click ( x , y ) time . sleep ( max ( 0 , 16.0 - ( time . time () - t0 ))) ctx . close (); b . close () Tags: animation , speaking , ai , kakapo , playwright , generative-ai , llms , anthropic , claude , claude-code"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Kākāpō Party",
+      "originalLang": "en",
+      "date": "2026-09-26",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Kākāpō Party"
+      },
+      "raw": {
+        "title": "Kākāpō Party",
+        "url": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
+        "fetched": false,
+        "savedAt": "2026-09-27T03:09:50.894Z"
+      }
+    },
     {
       "id": "sig-d2d497e5ee",
       "title": "Proaction 通过 Codex 将销售额提高了 60% 并节省了 75 多个小时",
@@ -807,6 +877,142 @@
         "url": "https://vercel.com/changelog/vercel-sandbox-now-supports-memory-observability",
         "fetched": true,
         "savedAt": "2026-09-26T03:04:29.594Z"
+      }
+    },
+    {
+      "id": "sig-30b26e0786",
+      "title": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
+      "oneLiner": "In 2023 most people doubted that there could be more than 1 or 2 frontier model labs. Now there are ",
+      "summary": {
+        "oneSentence": "In 2023 most people doubted that there could be more than 1 or 2 frontier model labs. Now there are dozens.... and Strip",
+        "bullets": [
+          "In 2023 most people doubted that there could be more than 1 or 2 frontier model labs. Now there are dozens.... and Stripe just bought the best known one for $7B."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.latent.space/p/openrouter"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "In 2023 most people doubted that there could be more than 1 or 2 frontier model labs. Now there are dozens.... and Stripe just bought the best known one for $7B."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
+      "originalLang": "en",
+      "date": "2026-09-25",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/p/openrouter",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha"
+      },
+      "raw": {
+        "title": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
+        "url": "https://www.latent.space/p/openrouter",
+        "fetched": false,
+        "savedAt": "2026-09-27T03:09:51.694Z"
+      }
+    },
+    {
+      "id": "sig-5bff2e7c4a",
+      "title": "Quoting John Gruber",
+      "oneLiner": "Muse is getting a lot of attention — including mine — because it’s both groundbreaking technically (",
+      "summary": {
+        "oneSentence": "Muse is getting a lot of attention — including mine — because it’s both groundbreaking technically (each user gets their",
+        "bullets": [
+          "Muse is getting a lot of attention — including mine — because it’s both groundbreaking technically (each user gets their own entire persistent Linux VM running in Meta’s cloud) and because it’s packag"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/25/john-gruber/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Muse is getting a lot of attention — including mine — because it’s both groundbreaking technically (each user gets their own entire persistent Linux VM running in Meta’s cloud) and because it’s packaged in an easy-to-install easy-to-use way. It’s literally presented as a cute mascot . It’s the first consumer-accessible agentic AI system, and Meta has truly done an amazing job with that. But it’s a genuinely open question whether consumers have any understanding what this means. If you buy a power saw that can cut your fingers off, you are almost certainly aware that you are buying a power saw that can sever your fingers. [...] I don’t think people realize how powerful — and thus dangerous — Muse is, especially if it’s running on your Mac. &mdash; John Gruber , Muse Looks Cute, but Looks are Deceiving Tags: meta , ai , llms , general-agents , generative-ai , john-gruber , muse-agent , muse"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Quoting John Gruber",
+      "originalLang": "en",
+      "date": "2026-09-25",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/25/john-gruber/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Quoting John Gruber"
+      },
+      "raw": {
+        "title": "Quoting John Gruber",
+        "url": "https://simonwillison.net/2026/Sep/25/john-gruber/",
+        "fetched": false,
+        "savedAt": "2026-09-27T03:09:52.495Z"
       }
     },
     {
@@ -2027,6 +2233,613 @@
         "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
         "fetched": false,
         "savedAt": "2026-09-26T03:04:52.519Z"
+      }
+    },
+    {
+      "id": "sig-7cff1964bf",
+      "title": "Ringg 的 AI 代理通过 OpenAI 解决了高达 65% 的客户呼叫",
+      "oneLiner": "使用 GPT-5.6，Ringg 为跨语音、聊天、WhatsApp 和网络的多语言代理提供支持，与 GPT-4.1 相比，成本降低了 90%。",
+      "summary": {
+        "oneSentence": "使用 GPT-5.6，Ringg 为跨语音、聊天、WhatsApp 和网络的多语言代理提供支持，与 GPT-4.1 相比，成本降低了 90%。",
+        "bullets": [
+          "使用 GPT-5.6，Ringg 为跨语音、聊天、WhatsApp 和网络的多语言代理提供支持，与 GPT-4.1 相比，成本降低了 90%。",
+          "对于选定的工作负载，与 GPT-4.1 相比成本更低",
+          "围绕客户结果构建代理平台 围绕客户结果构建代理平台 将每项任务路由到正确的 OpenAI 模型 使用生产评估来提高质量和成本 跨行业交付客户结果 将代理扩展到浏览器 围绕客户结果构建代理平台 将每项任务路由到正确的 OpenAI 模型 使用生产评估来提高质量和成本 跨行业交付客户结果 将代理扩展到浏览器 当呼叫量增加时",
+          "这些公司不仅难以接听更多电话，他们的客户服务代理还在与分散的手动系统作斗争，以帮助客户完成从购买保险到预约的任务。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：使用 GPT-5.6，Ringg 为跨语音、聊天、WhatsApp 和网络的多语言代理提供支持，与 GPT-4.1 相比，成本降低了 90%。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/ringg"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "使用 GPT-5.6，Ringg 为跨语音、聊天、WhatsApp 和网络的多语言代理提供支持，与 GPT-4.1 相比，成本降低了 90%。",
+        "对于选定的工作负载，与 GPT-4.1 相比成本更低",
+        "围绕客户结果构建代理平台 围绕客户结果构建代理平台 将每项任务路由到正确的 OpenAI 模型 使用生产评估来提高质量和成本 跨行业交付客户结果 将代理扩展到浏览器 围绕客户结果构建代理平台 将每项任务路由到正确的 OpenAI 模型 使用生产评估来提高质量和成本 跨行业交付客户结果 将代理扩展到浏览器 当呼叫量增加时，客户服务操作通常会通过增加人员来扩展，但这会增加每次交互的成本和复杂性。 Ringg ⁠（在新窗口中打开）是一个语音和聊天代理平台，在与印度大型消费企业合作时亲眼目睹了这个问题。",
+        "这些公司不仅难以接听更多电话，他们的客户服务代理还在与分散的手动系统作斗争，以帮助客户完成从购买保险到预约的任务。",
+        "这一经验促使 Ringg 构建了一个企业代理平台，以 GPT-5.6 等高效模型为核心，涵盖语音、聊天、WhatsApp 和网络。将合适的实时工作负载从 GPT-4.1 迁移到 GPT-5.6 可将模型成本降低约 90%，同时提供所需的质量和延迟。",
+        "Ringg 的客服人员现在每月处理超过 700 万个连接呼叫，其客户的平均客户满意度 (CSAT) 得分为 4.8。",
+        "围绕客户结果构建座席平台 对于座席来说，要完成客户请求，可能需要检查政策、检索帐户记录、安排预约、更新 CRM，或将对话转移给完整相关上下文的专家。",
+        "对于实时交互，Ringg 使用 GPT‑5.6 Luna 和其他模型来解释客户请求、选择工具并指导客户完成多步骤工作流程。 Ringg 的编排层跨 CRM、票务平台、支付系统、调度工具和内部 API 执行操作，在需要时将案例上报给人工并提供对话摘要。",
+        "Ringg 的知识系统将结构化过滤与跨数据集、PDF、CSV 和业务文档的语义检索相结合，帮助代理使用相关企业信息回答问题。",
+        "Ringg 还可以在专门的子代理之间划分工作，以进行资格认证、支持、验证、调度和升级。该平台协调这些步骤，同时通过语音、聊天、WhatsApp 和网络与客户保持一致的对话。"
+      ],
+      "highlights": [
+        "使用 GPT-5.6，Ringg 为跨语音、聊天、WhatsApp 和网络的多语言代理提供支持，与 GPT-4.1 相比，成本降低了 90%。",
+        "对于选定的工作负载，与 GPT-4.1 相比成本更低",
+        "围绕客户结果构建代理平台 围绕客户结果构建代理平台 将每项任务路由到正确的 OpenAI 模型 使用生产评估来提高质量和成本 跨行业交付客户结果 将代理扩展到浏"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+      "originalLang": "en",
+      "date": "2026-09-23",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/ringg",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI"
+      },
+      "raw": {
+        "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+        "url": "https://openai.com/index/ringg",
+        "fetched": true,
+        "savedAt": "2026-09-27T03:09:03.886Z"
+      }
+    },
+    {
+      "id": "sig-1d5a9cc2d9",
+      "title": "心理健康基准简介",
+      "oneLiner": "由 80 多名持证心理健康专家开发的开放基准，用于评估真实心理健康对话中的人工智能反应。",
+      "summary": {
+        "oneSentence": "由 80 多名持证心理健康专家开发的开放基准，用于评估真实心理健康对话中的人工智能反应。",
+        "bullets": [
+          "由 80 多名持证心理健康专家开发的开放基准，用于评估真实心理健康对话中的人工智能反应。",
+          "（在新窗口中打开） 加载中... 分享 支持所有情况下的心理健康 支持所有情况下的心理健康 与专家合作构建 模型性能 了解用户对心理健康的看法 使更好的心理健康评估成为共享资源 支持所有情况下的心理健康 与专家合作构建 模型的性能 了解用户对心理健康的看法 使更好的心理健康评估成为共享资源 人们在多种对话中求助于人工智",
+          "鉴于紧急情况对安全的重要性，该领域的大多数人工智能评估都主要关注紧急情况，并使用广泛的预定义标准来衡量成功。除了是否避免了不允许的反应之外，这在理解模型如何在全方位的心理健康对话中表现以及他们的反应与专家针对每种情况的指导的一致性方面留下了空白。评估模型如何处理这些不同情况对于构建积极支持人们长期福祉和安全的人工智能至",
+          "我们正在推出 MentalHealthBench，这是一个新的开放基准，用于衡量人工智能系统在现实心理健康对话中的反应。 MentalHealthBench 是与来自 22 个国家的 80 多名持有执照的心理健康专家组成的全球群体共同创建的。它评估模型在关键心理健康行为方面的能力，例如安全、寻找背景、保留用户代理以及在"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：由 80 多名持证心理健康专家开发的开放基准，用于评估真实心理健康对话中的人工智能反应。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/introducing-mentalhealthbench"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "由 80 多名持证心理健康专家开发的开放基准，用于评估真实心理健康对话中的人工智能反应。",
+        "（在新窗口中打开） 加载中... 分享 支持所有情况下的心理健康 支持所有情况下的心理健康 与专家合作构建 模型性能 了解用户对心理健康的看法 使更好的心理健康评估成为共享资源 支持所有情况下的心理健康 与专家合作构建 模型的性能 了解用户对心理健康的看法 使更好的心理健康评估成为共享资源 人们在多种对话中求助于人工智能：处理困难的关系、应对日常压力、支持他们关心的人或决定如何处理问题具有挑战性的情况。这些对话需要准确性、实际判断以及对人们能动性的尊重。每周有超过 10 亿人使用 ChatGPT，我们的研究重点是帮助模型谨慎响应各种需求，并将人们的安全和福祉放在第一位。",
+        "鉴于紧急情况对安全的重要性，该领域的大多数人工智能评估都主要关注紧急情况，并使用广泛的预定义标准来衡量成功。除了是否避免了不允许的反应之外，这在理解模型如何在全方位的心理健康对话中表现以及他们的反应与专家针对每种情况的指导的一致性方面留下了空白。评估模型如何处理这些不同情况对于构建积极支持人们长期福祉和安全的人工智能至关重要。",
+        "我们正在推出 MentalHealthBench，这是一个新的开放基准，用于衡量人工智能系统在现实心理健康对话中的反应。 MentalHealthBench 是与来自 22 个国家的 80 多名持有执照的心理健康专家组成的全球群体共同创建的。它评估模型在关键心理健康行为方面的能力，例如安全、寻找背景、保留用户代理以及在适当时提供可行的指导。我们公开发布它，以便其他研究人员可以检查这些方法，进行自己的评估，并在工作的基础上继续发展。",
+        "MentalHealthBench 的结果显示，人工智能系统在帮助人们应对心理健康状况方面正在稳步改进。虽然 ChatGPT 不能替代治疗或专业护理，但专家的见解可以帮助我们衡量人工智能模型的进展，这些模型能够以同理心做出反应，促进福祉，并引导人们获得现实世界的支持，例如本地化危机热线 ⁠ (在新窗口中打开) 或他们信任的人。",
+        "涉及幸福感、生活建议或其他心理健康场景的对话在主题、紧迫性和文化背景上可能存在很大差异。 MentalHealthBench 旨在捕捉这些现实场景和用户角色的广度。使用隐私保护技术，我们创建了综合心理健康对话，准确反映了人工智能在心理健康领域的现实使用模式。某些场景还包括有关合成用户的相关背景信息（例如最近失去家庭），因此我们可以评估模型是否使用该上下文来适当调整其响应。",
+        "MentalHealthBench 包括涉及成人、青少年、护理人员和临床医生的场景，跨多种语言和地区。这些对话涵盖多个主题，并涵盖了全方位的敏锐度：",
+        "非急性——可能涉及一些情绪成分的日常对话。",
+        "高敏锐度——谈话表明存在更严重的心理健康问题或严重的痛苦，但不是立即发生的紧急情况。",
+        "紧急情况——涉及心理健康紧急情况迹象或需要紧急现实世界支持的紧急安全问题的对话。"
+      ],
+      "highlights": [
+        "由 80 多名持证心理健康专家开发的开放基准，用于评估真实心理健康对话中的人工智能反应。",
+        "（在新窗口中打开） 加载中... 分享 支持所有情况下的心理健康 支持所有情况下的心理健康 与专家合作构建 模型性能 了解用户对心理健康的看法 使更好的心理健康",
+        "鉴于紧急情况对安全的重要性，该领域的大多数人工智能评估都主要关注紧急情况，并使用广泛的预定义标准来衡量成功。除了是否避免了不允许的反应之外，这在理解模型如何在全"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Introducing MentalHealthBench",
+      "originalLang": "en",
+      "date": "2026-09-23",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/introducing-mentalhealthbench",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Introducing MentalHealthBench"
+      },
+      "raw": {
+        "title": "Introducing MentalHealthBench",
+        "url": "https://openai.com/index/introducing-mentalhealthbench",
+        "fetched": true,
+        "savedAt": "2026-09-27T03:09:14.546Z"
+      }
+    },
+    {
+      "id": "sig-1dd9ce125c",
+      "title": "ChatGPT 广告扩展到东南亚和台湾",
+      "oneLiner": "ChatGPT 广告已扩展到亚洲的另外 7 个市场，目前已在 60 多个国家/地区推出。",
+      "summary": {
+        "oneSentence": "ChatGPT 广告已扩展到亚洲的另外 7 个市场，目前已在 60 多个国家/地区推出。",
+        "bullets": [
+          "ChatGPT 广告已扩展到亚洲的另外 7 个市场，目前已在 60 多个国家/地区推出。",
+          "(在新窗口中打开) 正在加载... 分享 ChatGPT 广告：新的营销渠道 ChatGPT 广告：新的营销渠道 以我们的广告原则为指导 构建全球广告平台 ChatGPT 广告：新的营销渠道 以我们的广告原则为指导 构建全球广告平台 从今天开始，ChatGPT 广告将开始在印度尼西亚、马来西亚、菲律宾、新加坡、泰国、越",
+          "广告商可以通过 OpenAI 广告解决方案团队、电通、Havas Media、Omnicom Media、Publicis Groupe 和 WPP 等代理合作伙伴以及技术合作伙伴访问 ChatGPT 广告。符合条件的企业还可以通过广告管理器 ⁠（在新窗口中打开）进行自助访问。",
+          "我们的使命是确保通用人工智能造福全人类，广告通过支持免费且低成本地访问 ChatGPT 来帮助实现情报获取的民主化。与我们现有的市场一样，广告将仅向 Free and Go 计划的用户展示。 Plus、Pro 和 Enterprise 订阅将保持无广告。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：ChatGPT 广告已扩展到亚洲的另外 7 个市场，目前已在 60 多个国家/地区推出。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "ChatGPT 广告已扩展到亚洲的另外 7 个市场，目前已在 60 多个国家/地区推出。",
+        "(在新窗口中打开) 正在加载... 分享 ChatGPT 广告：新的营销渠道 ChatGPT 广告：新的营销渠道 以我们的广告原则为指导 构建全球广告平台 ChatGPT 广告：新的营销渠道 以我们的广告原则为指导 构建全球广告平台 从今天开始，ChatGPT 广告将开始在印度尼西亚、马来西亚、菲律宾、新加坡、泰国、越南和台湾推出。在此之前，亚太地区已在澳大利亚、新西兰、日本、韩国和印度推出该产品，扩大了该地区各种规模企业的准入范围。",
+        "广告商可以通过 OpenAI 广告解决方案团队、电通、Havas Media、Omnicom Media、Publicis Groupe 和 WPP 等代理合作伙伴以及技术合作伙伴访问 ChatGPT 广告。符合条件的企业还可以通过广告管理器 ⁠（在新窗口中打开）进行自助访问。",
+        "我们的使命是确保通用人工智能造福全人类，广告通过支持免费且低成本地访问 ChatGPT 来帮助实现情报获取的民主化。与我们现有的市场一样，广告将仅向 Free and Go 计划的用户展示。 Plus、Pro 和 Enterprise 订阅将保持无广告。",
+        "人们带着目标来到 ChatGPT。他们可能正在计划一次旅行、为他们的业务选择软件或装修房屋。通过对话，人们解释他们想要完成什么、什么对他们重要以及他们面临的限制。",
+        "ChatGPT 广告为营销人员提供了在人们探索和评估他们的选择时接触他们的机会。通过介绍相关产品和服务，广告在刺激发现和影响决策的时刻非常有用。",
+        "保护人们对 ChatGPT 的信任是我们广告方法的基础。",
+        "在 OpenAI 广告原则的指导下，我们对广告商保密对话，并且绝不出售客户数据。 ChatGPT 中的广告始终带有清晰的标签，并与 ChatGPT 的答案分开，广告不会影响 ChatGPT 提供的答案。人们还可以控制广告个性化，为那些不想看到广告的人提供无广告付费计划。",
+        "我们的目标很简单：广告应该对人们追求目标和做出决策有用，同时对与我们一起做广告的企业也有效。",
+        "8 月底，我们宣布 ChatGPT 广告在推出后不到 200 天的时间内年化收入​​就达到了 10 亿美元。目前，数以万计的广告商在 ChatGPT 中投放广告，其中许多广告覆盖了多个国家/地区的受众。此次扩张为东南亚和台湾的更多企业带来了这一机会。根据今天的公告，ChatGPT 广告现已在 60 多个国家/地区推出 ⁠（在新窗口中打开）。"
+      ],
+      "highlights": [
+        "ChatGPT 广告已扩展到亚洲的另外 7 个市场，目前已在 60 多个国家/地区推出。",
+        "(在新窗口中打开) 正在加载... 分享 ChatGPT 广告：新的营销渠道 ChatGPT 广告：新的营销渠道 以我们的广告原则为指导 构建全球广告平台 Ch",
+        "广告商可以通过 OpenAI 广告解决方案团队、电通、Havas Media、Omnicom Media、Publicis Groupe 和 WPP 等代理合作"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+      "originalLang": "en",
+      "date": "2026-09-23",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "ChatGPT Ads expands to Southeast Asia and Taiwan"
+      },
+      "raw": {
+        "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+        "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+        "fetched": true,
+        "savedAt": "2026-09-27T03:09:24.734Z"
+      }
+    },
+    {
+      "id": "sig-73fafdf6f4",
+      "title": "Airbnb 扩大了对 GPT-6 Astra 和 OpenAI 前沿模型的访问",
+      "oneLiner": "根据一项新协议，Airbnb 将为其工程和产品开发团队提供更广泛的 OpenAI 前沿模型访问权限，包括 GPT‑6 Astra。",
+      "summary": {
+        "oneSentence": "根据一项新协议，Airbnb 将为其工程和产品开发团队提供更广泛的 OpenAI 前沿模型访问权限，包括 GPT‑6 Astra。",
+        "bullets": [
+          "根据一项新协议，Airbnb 将为其工程和产品开发团队提供更广泛的 OpenAI 前沿模型访问权限，包括 GPT‑6 Astra。",
+          "此次扩展建立在 Airbnb 对 Codex 的使用以及与 OpenAI 的长期合作的基础上。 Airbnb 工程师使用内部 AI 助手编写软件并创建由 Codex 和 GPT-5.6 Sol、Terra 和 Luna 等模型提供支持的远程 AI 代理。",
+          "新协议让 Airbnb 通过 OpenAI API 和 Amazon Bedrock 更广泛地访问 OpenAI 模型。它的出现正值开发商、建筑商和企业加速采用 GPT-6 Astra，其中许多人已经受益于 GPT-5.6 Terra 和 Luna 改进的性价比和效率。",
+          "Airbnb 早期使用 GPT-6 Astra 已显示出除编码之外的强大成果。 Astra 通过追踪硬错误、塑造系统设计和集思广益的工程方法，帮助 Airbnb 工程师加快工作速度。在一项涉及战略文档和其他非编码工作的测试中，一位 Airbnb 用户报告说，在 3-4 次传递中就达到了令人印象深刻的输出，而使用其他模型"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：根据一项新协议，Airbnb 将为其工程和产品开发团队提供更广泛的 OpenAI 前沿模型访问权限，包括 GPT‑6 Astra。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/airbnb-gpt-6-astra"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "根据一项新协议，Airbnb 将为其工程和产品开发团队提供更广泛的 OpenAI 前沿模型访问权限，包括 GPT‑6 Astra。",
+        "此次扩展建立在 Airbnb 对 Codex 的使用以及与 OpenAI 的长期合作的基础上。 Airbnb 工程师使用内部 AI 助手编写软件并创建由 Codex 和 GPT-5.6 Sol、Terra 和 Luna 等模型提供支持的远程 AI 代理。",
+        "新协议让 Airbnb 通过 OpenAI API 和 Amazon Bedrock 更广泛地访问 OpenAI 模型。它的出现正值开发商、建筑商和企业加速采用 GPT-6 Astra，其中许多人已经受益于 GPT-5.6 Terra 和 Luna 改进的性价比和效率。",
+        "Airbnb 早期使用 GPT-6 Astra 已显示出除编码之外的强大成果。 Astra 通过追踪硬错误、塑造系统设计和集思广益的工程方法，帮助 Airbnb 工程师加快工作速度。在一项涉及战略文档和其他非编码工作的测试中，一位 Airbnb 用户报告说，在 3-4 次传递中就达到了令人印象深刻的输出，而使用其他模型则需要 20 多轮。",
+        "Airbnb 还使用 OpenAI 模型来帮助支持搜索、欺诈预防、房客和房东支持以及保险索赔等方面的体验。在整个市场中深入使用人工智能和机器学习，有助于公司更好地了解客人的需求，识别潜在的欺诈性内容或索赔，在旅行计划发生变化时为客人提供帮助，并确保房东更快、更轻松地获得保险赔付。",
+        "随着 Airbnb 将更多旅行内容融入到一个应用程序中（涵盖房屋、服务、体验、机场接机、汽车租赁等），OpenAI 前沿模型可以为构建这些功能的团队提供更强大的工具，以更快地行动并探索接下来的发展。"
+      ],
+      "highlights": [
+        "根据一项新协议，Airbnb 将为其工程和产品开发团队提供更广泛的 OpenAI 前沿模型访问权限，包括 GPT‑6 Astra。",
+        "此次扩展建立在 Airbnb 对 Codex 的使用以及与 OpenAI 的长期合作的基础上。 Airbnb 工程师使用内部 AI 助手编写软件并创建由 Cod",
+        "新协议让 Airbnb 通过 OpenAI API 和 Amazon Bedrock 更广泛地访问 OpenAI 模型。它的出现正值开发商、建筑商和企业加速采用"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+      "originalLang": "en",
+      "date": "2026-09-23",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/airbnb-gpt-6-astra",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models"
+      },
+      "raw": {
+        "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
+        "url": "https://openai.com/index/airbnb-gpt-6-astra",
+        "fetched": true,
+        "savedAt": "2026-09-27T03:09:31.363Z"
+      }
+    },
+    {
+      "id": "sig-09a0c6dbf1",
+      "title": "Grab 和 OpenAI 为东南亚带来实用的人工智能技能",
+      "oneLiner": "我们的第一个区域技能计划将帮助 30,000 名 Grab 司机、送货员和商家合作伙伴为他们的工作和业务培养实用的人工智能技能",
+      "summary": {
+        "oneSentence": "我们的第一个区域技能计划将帮助 30,000 名 Grab 司机、送货员和商家合作伙伴为他们的工作和业务培养实用的人工智能技能",
+        "bullets": [
+          "我们的第一个区域技能计划将帮助 30,000 名 Grab 司机、送货员和商家合作伙伴为他们的工作和业务培养实用的人工智能技能",
+          "在整个东南亚，商家每天都会做出有关销售、库存和促销的决策。一些在零工经济中工作的人正在探索自己的商业想法。人工智能可以帮助人们解决这些问题，但找到有用的方法来应用它需要练习。",
+          "这就是为什么我们今天要与东南亚领先的超级应用程序 Grab 一起推出 GO Forward with AI。在接下来的两年里，该计划将帮助东南亚 30,000 名 Grab 司机、送货员和商业合作伙伴培养他们在工作和业务中可以使用的技能。它从新加坡开始，将于今年晚些时候扩展到泰国、印度尼西亚和菲律宾，随后于 2027 ",
+          "此次合作将我们确保通用人工智能造福全人类的使命与 Grab 扩大东南亚经济机会的承诺结合在一起。它也是新加坡 OpenAI 的一部分，我们与当地合作伙伴合作，帮助这里更多的人和企业使用人工智能。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：我们的第一个区域技能计划将帮助 30,000 名 Grab 司机、送货员和商家合作伙伴为他们的工作和业务培养实用的人工智能技能",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/grab-openai-ai-skills-southeast-asia"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "我们的第一个区域技能计划将帮助 30,000 名 Grab 司机、送货员和商家合作伙伴为他们的工作和业务培养实用的人工智能技能",
+        "在整个东南亚，商家每天都会做出有关销售、库存和促销的决策。一些在零工经济中工作的人正在探索自己的商业想法。人工智能可以帮助人们解决这些问题，但找到有用的方法来应用它需要练习。",
+        "这就是为什么我们今天要与东南亚领先的超级应用程序 Grab 一起推出 GO Forward with AI。在接下来的两年里，该计划将帮助东南亚 30,000 名 Grab 司机、送货员和商业合作伙伴培养他们在工作和业务中可以使用的技能。它从新加坡开始，将于今年晚些时候扩展到泰国、印度尼西亚和菲律宾，随后于 2027 年扩展到马来西亚和越南。",
+        "此次合作将我们确保通用人工智能造福全人类的使命与 Grab 扩大东南亚经济机会的承诺结合在一起。它也是新加坡 OpenAI 的一部分，我们与当地合作伙伴合作，帮助这里更多的人和企业使用人工智能。",
+        "许多 Grab 合作伙伴已经对人工智能感兴趣。 Grab 对新加坡司机合作伙伴进行的一项调查显示，一半的 Grab 司机和送货合作伙伴表示他们使用人工智能工具。在那些没有这样做的人中，87% 的人表示他们愿意尝试。 ChatGPT 是他们最了解的工具。他们中的许多人表示他们希望发展现有业务或探索创办一项业务。",
+        "我们围绕许多人面临的决策设计了“GO Forward with AI”。司机或送货合作伙伴可以使用 ChatGPT 探索商业想法，思考如何使其脱颖而出，并制定开始计划。商家可以用它来寻找销售模式、计划促销或为需求变化做好准备。",
+        "在实践研讨会中，参与者还将尝试 ChatGPT Work 执行更大的任务，例如将销售数据转换为仪表板、构建简单的网站或制定扩展计划。他们将审查它产生的内容并做出随后的决定。",
+        "与国务部长符策祥、OpenAI 国际董事总经理 Oliver Jay、Grab 首席组织能力官 Ong Chin Yin、Grab 团队和女性司机合作伙伴一起在新加坡推出 GO Forward with AI。",
+        "Grab 和 OpenAI 有着共同的目标，即确保我们所服务的社区更容易获得人工智能的好处并更有意义。我们的合作伙伴对人工智能感到兴奋，但许多人正在寻求如何以与其工作、业务和愿望相关的方式应用人工智能的实用指导。该计划旨在建立这种信心，无论是帮助商家做出更明智的商业决策，还是为司机合作伙伴提供探索新商业理念和创造新增长机会的工具。",
+        "——Grab 首席组织能力官 Ong Chin Yin"
+      ],
+      "highlights": [
+        "我们的第一个区域技能计划将帮助 30,000 名 Grab 司机、送货员和商家合作伙伴为他们的工作和业务培养实用的人工智能技能",
+        "在整个东南亚，商家每天都会做出有关销售、库存和促销的决策。一些在零工经济中工作的人正在探索自己的商业想法。人工智能可以帮助人们解决这些问题，但找到有用的方法来应",
+        "这就是为什么我们今天要与东南亚领先的超级应用程序 Grab 一起推出 GO Forward with AI。在接下来的两年里，该计划将帮助东南亚 30,000 "
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+      "originalLang": "en",
+      "date": "2026-09-23",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Grab and OpenAI bring practical AI skills to Southeast Asia"
+      },
+      "raw": {
+        "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
+        "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
+        "fetched": true,
+        "savedAt": "2026-09-27T03:09:41.196Z"
+      }
+    },
+    {
+      "id": "sig-089c4ff63d",
+      "title": "Rollouts 与 Security Review · Cursor",
+      "oneLiner": "今天，我们推出两个 Cursor bot，助你打通代码交付的最后一公里。Rollouts 会实时监控每一次变更的部署过程，并按环境报告其健康状况。Security Review 会在每个 PR 中报告可被利用的缺陷。",
+      "summary": {
+        "oneSentence": "今天，我们推出两个 Cursor bot，助你打通代码交付的最后一公里。Rollouts 会实时监控每一次变更的部署过程，并按环境报告其健康状况。Security Review 会在每个 PR 中报告可被利用的缺陷。",
+        "bullets": [
+          "今天，我们推出两个 Cursor bot，助你打通代码交付的最后一公里。Rollouts 会实时监控每一次变更的部署过程，并按环境报告其健康状况。Security Review 会在每个 PR 中报告可被利用的缺陷。",
+          "Rollouts 会为每个 PR 附加一个监控项，在变更部署过程中持续跟踪，并按环境报告变更的健康状况：已验证健康、检测到回归或无法确定。它是 Cursor 版的 Firetiger Change Monitors，基于 Bot Development Kit 重新构建。",
+          "在仪表盘中启用它，然后连接源代码管理、你的部署系统和遥测供应商。Rollouts 会从下一个 PR 开始监控。",
+          "PR 创建后，Rollouts 会读取 diff 及其涉及的系统，然后以 PR 评论的形式撰写一份监控规划。规划中会列出识别出的风险、此次变更预期达到的效果、将要检查的信号，以及可能导致变更难以确认的埋点缺口。你可以直接在 PR 中编辑该规划，Rollouts 会采用你修改后的版本。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Cursor 官网发布：今天，我们推出两个 Cursor bot，助你打通代码交付的最后一公里。Rollouts 会实时监控每一次变更的部署过程，并按环境报告其健康状况。Security Review 会在每个 PR 中报告可被利用的缺陷。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：cursor",
+        "actionItems": [
+          "阅读原文（中文）：https://cursor.com/changelog/rollouts-and-security-reviewer"
+        ]
+      },
+      "tags": [
+        "Release"
+      ],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "cursor"
+      ],
+      "content": [
+        "今天，我们推出两个 Cursor bot，助你打通代码交付的最后一公里。Rollouts 会实时监控每一次变更的部署过程，并按环境报告其健康状况。Security Review 会在每个 PR 中报告可被利用的缺陷。",
+        "Rollouts 会为每个 PR 附加一个监控项，在变更部署过程中持续跟踪，并按环境报告变更的健康状况：已验证健康、检测到回归或无法确定。它是 Cursor 版的 Firetiger Change Monitors，基于 Bot Development Kit 重新构建。",
+        "在仪表盘中启用它，然后连接源代码管理、你的部署系统和遥测供应商。Rollouts 会从下一个 PR 开始监控。",
+        "PR 创建后，Rollouts 会读取 diff 及其涉及的系统，然后以 PR 评论的形式撰写一份监控规划。规划中会列出识别出的风险、此次变更预期达到的效果、将要检查的信号，以及可能导致变更难以确认的埋点缺口。你可以直接在 PR 中编辑该规划，Rollouts 会采用你修改后的版本。",
+        "当该变更对应的提交触发部署事件时，Rollouts 会被唤醒，并基于你的日志、指标和链路追踪数据运行规划。它会分别跟踪每个环境，因此同一变更可能在预发布环境中验证通过，却仍在生产环境中被标记。Rollouts 会在检查变更是否达到预期效果的同时，关注错误信息和延迟信号，并在得出结论后将结果反馈到 PR 上。",
+        "当 Rollouts 检测到回归时，会指出疑似引发问题的变更，并通知其作者。根据配置，它还可以创建一个回滚 PR 供审查，或将发现的问题交给云端智能体修复。目前，Rollouts 还不会自行合并或回滚。",
+        "Rollouts 可连接 Origin 或 GitHub 进行源代码管理，连接你的持续交付系统以获取部署事件，并连接 Datadog 等遥测供应商以获取信号。功能开关集成即将推出。",
+        "Security Review 现已上线。它会结合整个代码库的上下文读取每个 PR，并发布一条审查评论，报告其中可被利用的缺陷。代码风格和质量问题仍由 Bugbot 负责。",
+        "Security Review 会检查 SQL、命令和模板等界面中的注入问题，以及身份验证和授权绕过，包括因代码重构而不再执行的检查。它还会标记提交到源代码中的密钥和凭证、SSRF 与未经验证的重定向、不安全的反序列化，以及引入已知漏洞的依赖变更。此外，它会追踪用户输入从何处进入，以及流经了哪些环节。",
+        "每个发现项都会标明严重级别、攻击路径和建议的修复方案。忽略某个发现项时注明原因，Security Review 就不会在该 PR 中再次报告它。"
+      ],
+      "highlights": [
+        "今天，我们推出两个 Cursor bot，助你打通代码交付的最后一公里。Rollouts 会实时监控每一次变更的部署过程，并按环境报告其健康状况。Securit",
+        "Rollouts 会为每个 PR 附加一个监控项，在变更部署过程中持续跟踪，并按环境报告变更的健康状况：已验证健康、检测到回归或无法确定。它是 Cursor 版",
+        "在仪表盘中启用它，然后连接源代码管理、你的部署系统和遥测供应商。Rollouts 会从下一个 PR 开始监控。"
+      ],
+      "translated": false,
+      "translateMethod": "native",
+      "originalTitle": "Rollouts 与 Security Review · Cursor",
+      "originalLang": "zh",
+      "date": "2026-09-23",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [
+        "cursor"
+      ],
+      "source": {
+        "type": "release",
+        "group": "company",
+        "name": "Cursor",
+        "author": "Cursor",
+        "url": "https://cursor.com/changelog/rollouts-and-security-reviewer",
+        "home": "https://cursor.com/changelog",
+        "lang": "zh",
+        "translated": false,
+        "translateMethod": "native",
+        "originalTitle": "Rollouts 与 Security Review · Cursor"
+      },
+      "raw": {
+        "title": "Rollouts and Security Review",
+        "url": "https://cursor.com/changelog/rollouts-and-security-reviewer",
+        "fetched": true,
+        "savedAt": "2026-09-27T03:09:42.462Z"
+      }
+    },
+    {
+      "id": "sig-8326b40544",
+      "title": "Gemini 3.8 文本转语音模型现已在 AI Gateway - Vercel 上提供",
+      "oneLiner": "Google 的 Gemini 3.8 Flash-Lite TTS 和 Gemini 3.8 Flash TTS 现已在 AI Gateway 上提供。",
+      "summary": {
+        "oneSentence": "Google 的 Gemini 3.8 Flash-Lite TTS 和 Gemini 3.8 Flash TTS 现已在 AI Gateway 上提供。",
+        "bullets": [
+          "Google 的 Gemini 3.8 Flash-Lite TTS 和 Gemini 3.8 Flash TTS 现已在 AI Gateway 上提供。",
+          "这两种模型都可以获取 100 多种语言的文本并生成语音。它们支持长篇叙述、交付控制和两人对话。",
+          "google/gemini-3.8-flash-lite-tts 适用于大容量语音生成，具有音调、节奏和逐行交付控制。",
+          "google/gemini-3.8-flash-tts 通过自然语言提示添加语音和角色设计，包括表演提示、口音和对话反应。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Google 的 Gemini 3.8 Flash-Lite TTS 和 Gemini 3.8 Flash TTS 现已在 AI Gateway 上提供。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/gemini-3-8-text-to-speech-models-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Google 的 Gemini 3.8 Flash-Lite TTS 和 Gemini 3.8 Flash TTS 现已在 AI Gateway 上提供。",
+        "这两种模型都可以获取 100 多种语言的文本并生成语音。它们支持长篇叙述、交付控制和两人对话。",
+        "google/gemini-3.8-flash-lite-tts 适用于大容量语音生成，具有音调、节奏和逐行交付控制。",
+        "google/gemini-3.8-flash-tts 通过自然语言提示添加语音和角色设计，包括表演提示、口音和对话反应。",
+        "1 从'ai'导入{experimental_generateSpeech asgenerateSpeech}； 2 从 'node:fs/promises' 导入 { writeFile } ； 3 4 const result =等待generateSpeech ({ 5 model : 'google/gemini-3.8-flash-lite-tts' , 6 text : '欢迎来到音频版。' , 7 voice : 'Kore' , 8 outputFormat : 'wav' , 9 } ) ; 10 11 wait writeFile('speech.wav', result.audio.uint8Array);",
+        "在 Flash-Lite TTS Playground 或 Flash TTS Playground 中生成并收听语音。有关设置说明和更多代码示例，请参阅语音快速入门和文本转语音指南 。",
+        "AI Gateway 与其他模型一起提供一个用于语音生成的 API，并跟踪每个请求的使用情况和成本。您可以配置路由规则并携带自己的提供商密钥。"
+      ],
+      "highlights": [
+        "Google 的 Gemini 3.8 Flash-Lite TTS 和 Gemini 3.8 Flash TTS 现已在 AI Gateway 上提供。",
+        "这两种模型都可以获取 100 多种语言的文本并生成语音。它们支持长篇叙述、交付控制和两人对话。",
+        "google/gemini-3.8-flash-lite-tts 适用于大容量语音生成，具有音调、节奏和逐行交付控制。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Gemini 3.8 text-to-speech models now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-09-23",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/gemini-3-8-text-to-speech-models-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Gemini 3.8 text-to-speech models now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Gemini 3.8 text-to-speech models now available on AI Gateway",
+        "url": "https://vercel.com/changelog/gemini-3-8-text-to-speech-models-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-09-27T03:09:50.093Z"
       }
     },
     {
@@ -10458,7 +11271,7 @@
         "url": "https://cursor.com/changelog/projects",
         "fetched": true,
         "savedAt": "2026-09-12T02:41:59.708Z",
-        "retranslatedAt": "2026-09-26T03:04:54.012Z"
+        "retranslatedAt": "2026-09-27T03:09:53.734Z"
       }
     },
     {
@@ -15811,7 +16624,7 @@
         "url": "https://cursor.com/changelog/self-hosted-machines",
         "fetched": true,
         "savedAt": "2026-09-03T02:33:34.106Z",
-        "retranslatedAt": "2026-09-26T03:04:55.233Z"
+        "retranslatedAt": "2026-09-27T03:09:54.869Z"
       }
     },
     {
@@ -19748,7 +20561,7 @@
         "url": "https://cursor.com/changelog/start-from-scratch",
         "fetched": true,
         "savedAt": "2026-08-28T08:33:37.517Z",
-        "retranslatedAt": "2026-09-26T03:04:56.385Z"
+        "retranslatedAt": "2026-09-27T03:09:56.020Z"
       }
     },
     {
@@ -27137,7 +27950,7 @@
         "url": "https://cursor.com/changelog/08-19-26",
         "fetched": true,
         "savedAt": "2026-08-20T00:54:20.982Z",
-        "retranslatedAt": "2026-09-26T03:04:57.504Z"
+        "retranslatedAt": "2026-09-27T03:09:57.198Z"
       }
     },
     {
@@ -29246,8 +30059,8 @@
         "bullets": [
           "Origin 自即日起在所有付费方案中逐步推出早期 Beta 版。我们首先提供专为智能体规模化而打造的核心功能：代码仓库、PR、代码浏览和 GitHub 同步。智能体原生功能即将推出。",
           "点击 +新建 以创建新的代码仓库并为其命名。随后，页面会显示如何安装 CLI，以及克隆代码仓库或推送本地项目所需的命令。推送后，您的代码便会托管在 Origin 上。",
-          "创建第一个代码仓库时，需要为代码库命名。该名称将成为每个代码仓库 URL 的一部分：cursor.com/codebase/ acme-corp 。",
-          "您的 GitHub 代码仓库可以与 Cursor 托管的代码仓库并存。将 GitHub 连接到 Cursor，选择您的组织后，即可看到可同步的代码仓库。选择一个代码仓库，Cursor 就会将其拉取进来。您可以决定同步哪些内容，也可以随时断开代码仓库连接。任何对已同步代码仓库拥有读取或写入权限的人员，也可以在 Curso"
+          "对于由 Origin 托管的代码仓库，Origin 是权威来源。推送直接进入 Origin，无需经过 GitHub。",
+          "创建第一个代码仓库时，需要为代码库命名。该名称将成为每个代码仓库 URL 的一部分：cursor.com/codebase/ acme-corp 。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
@@ -29283,19 +30096,19 @@
       "content": [
         "Origin 自即日起在所有付费方案中逐步推出早期 Beta 版。我们首先提供专为智能体规模化而打造的核心功能：代码仓库、PR、代码浏览和 GitHub 同步。智能体原生功能即将推出。",
         "点击 +新建 以创建新的代码仓库并为其命名。随后，页面会显示如何安装 CLI，以及克隆代码仓库或推送本地项目所需的命令。推送后，您的代码便会托管在 Origin 上。",
+        "对于由 Origin 托管的代码仓库，Origin 是权威来源。推送直接进入 Origin，无需经过 GitHub。",
         "创建第一个代码仓库时，需要为代码库命名。该名称将成为每个代码仓库 URL 的一部分：cursor.com/codebase/ acme-corp 。",
         "您的 GitHub 代码仓库可以与 Cursor 托管的代码仓库并存。将 GitHub 连接到 Cursor，选择您的组织后，即可看到可同步的代码仓库。选择一个代码仓库，Cursor 就会将其拉取进来。您可以决定同步哪些内容，也可以随时断开代码仓库连接。任何对已同步代码仓库拥有读取或写入权限的人员，也可以在 Cursor 中查看该代码仓库。",
-        "已同步的代码仓库会实时更新。您可以浏览、搜索并从 Origin 中的副本拉取。推送仍会发送到 GitHub。对于在 GitHub 中发起的任何内容，GitHub 始终是权威来源。每个代码仓库名称旁的图标会标明哪些代码仓库由 Cursor 托管，哪些来自 GitHub。",
+        "已同步的代码仓库会实时更新。您可以浏览、搜索并从 Origin 中的副本拉取。对于已同步的代码仓库，GitHub 始终是权威来源：推送仍会发送到 GitHub，Origin 则会镜像结果。每个代码仓库名称旁的图标会标明哪些代码仓库由 Cursor 托管，哪些来自 GitHub。",
         "每个代码仓库都有 PR。打开 PR，即可查看时间线、提交记录、检查项和已更改的文件。审查 diff、添加评论并合并。",
         "已同步的代码仓库中的 PR 支持双向同步：在 Cursor 中发表评论会同步发布到 GitHub；在 GitHub 上添加表情回应或回复，几秒内即可显示在 Cursor 中。GitHub 上有分配给您的代码审查？可直接在 Cursor 中审查并合并。",
         "您的代码、PR 和智能体现在都集中在同一处。您可以向 Cursor 询问正在浏览的代码。它可以回答问题、修改代码、更新 PR，或推送分支。",
-        "我们正在构建应用生态系统，让您的整个技术栈都能与 Origin 无缝协作。现已提供 Vercel、Depot 和 Buildkite 集成，更多集成即将推出。",
-        "在代码仓库的 Apps 选项卡中连接 Vercel 后，每个 PR 都会获得预览部署，您可以在其中进行测试和评论。合并后，即可部署到生产环境。如需 CI，可连接 Depot 或 Buildkite。两者均可运行您现有的 GitHub Actions 工作流，Buildkite 还可运行其原生流水线。"
+        "我们正在构建应用生态系统，让您的整个技术栈都能与 Origin 无缝协作。现已提供 Vercel、Depot 和 Buildkite 集成，更多集成即将推出。"
       ],
       "highlights": [
         "Origin 自即日起在所有付费方案中逐步推出早期 Beta 版。我们首先提供专为智能体规模化而打造的核心功能：代码仓库、PR、代码浏览和 GitHub 同步。",
         "点击 +新建 以创建新的代码仓库并为其命名。随后，页面会显示如何安装 CLI，以及克隆代码仓库或推送本地项目所需的命令。推送后，您的代码便会托管在 Origin",
-        "创建第一个代码仓库时，需要为代码库命名。该名称将成为每个代码仓库 URL 的一部分：cursor.com/codebase/ acme-corp 。"
+        "对于由 Origin 托管的代码仓库，Origin 是权威来源。推送直接进入 Origin，无需经过 GitHub。"
       ],
       "translated": false,
       "translateMethod": "native",
@@ -29325,7 +30138,7 @@
         "url": "https://cursor.com/changelog/origin-code-hosting",
         "fetched": true,
         "savedAt": "2026-08-18T00:53:50.883Z",
-        "retranslatedAt": "2026-08-25T00:55:45.484Z"
+        "retranslatedAt": "2026-09-27T03:09:58.361Z"
       }
     },
     {
@@ -30314,1567 +31127,6 @@
         "url": "https://www.latent.space/p/ainews-gemini-37-flash-brings-gdm",
         "fetched": false,
         "savedAt": "2026-08-16T00:56:42.483Z"
-      }
-    },
-    {
-      "id": "sig-068e562e05",
-      "title": "Gemini 3.7 闪存简介",
-      "oneLiner": "我们迄今为止最智能的编码和代理主力模型。",
-      "summary": {
-        "oneSentence": "我们迄今为止最智能的编码和代理主力模型。",
-        "bullets": [
-          "我们迄今为止最智能的编码和代理主力模型。",
-          "产品管理高级总监，代表 Gemini 团队",
-          "您的浏览器不支持音频元素。",
-          "今天，我们在广泛使用的 Flash 系列的基础上推出 Gemini 3.7 Flash，这是我们迄今为止最智能的编码和代理模型。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Google DeepMind 官网发布：我们迄今为止最智能的编码和代理主力模型。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：gemini",
-        "actionItems": [
-          "阅读原文（英文）：https://deepmind.google/blog/introducing-gemini-3-7-flash/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "gemini"
-      ],
-      "content": [
-        "我们迄今为止最智能的编码和代理主力模型。",
-        "产品管理高级总监，代表 Gemini 团队",
-        "您的浏览器不支持音频元素。",
-        "今天，我们在广泛使用的 Flash 系列的基础上推出 Gemini 3.7 Flash，这是我们迄今为止最智能的编码和代理模型。",
-        "该版本发布仅在 Gemini 3.6 Flash 三周后发布，是开发人员反馈和算法创新的直接结果，我们期待为未来的模型带来这些创新。 3.7 Flash 在软件工程、知识工作和 Web 开发工作流程方面提供了重大改进 - 入门价格是原始 3.6 Flash 每百万代币成本的一半。",
-        "在调试和问题解决等编码任务中，3.7 Flash 比 3.6 Flash 表现出强劲的优势。它还实现了更高的首次通过代码准确性，并提高了生成生产就绪代码的性能，如 FrontierCode 1.1 Main（43.6% vs 34.4%）和 DeepSWE v1.1（65.3% vs 49.0%）所示。",
-        "在 Web 开发中，3.7 Flash 可在更少的提示下生成更多功能布局和功能完整的应用程序。对于 UI 生成，该模型基于参考输入（无论是屏幕截图、图像还是完整的设计系统）显示出高度的设计一致性和一致性。它在 Arena.ai 的 WebDev Arena 上表现优于 3.6 Flash，Elo 分数为 1588 比 1538。",
-        "对于金融、法律和生物科学等知识密集型领域，3.7 Flash 可以提高推理能力和准确性。它在 GDP.pdf 基准测试中显着优于 3.6 Flash（34.0% vs 22.0%），这是一项用于测试模型处理复杂文档能力的评估。它还在 AutomationBench 中超越了 3.6 Flash，表明它可以更有效地完成现实世界的业务工作流程（30.4% vs 17.0%）。",
-        "从简单的文本提示到完全可玩的 3D 游戏。我们使用 Gemini 3.7 Flash 结合 Nano Banana 实时动态生成角色、物品和纹理。",
-        "一次生成令人惊叹的交互式登陆页面。我们使用 Gemini 3.7 Flash 来编排子代理，使用 Gemini Omni 来创建平滑的交互式视差组件。"
-      ],
-      "highlights": [
-        "我们迄今为止最智能的编码和代理主力模型。",
-        "产品管理高级总监，代表 Gemini 团队",
-        "您的浏览器不支持音频元素。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Introducing Gemini 3.7 Flash",
-      "originalLang": "en",
-      "date": "2026-08-13",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google DeepMind",
-        "author": "DeepMind",
-        "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-        "home": "https://deepmind.google/blog/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Introducing Gemini 3.7 Flash"
-      },
-      "raw": {
-        "title": "Introducing Gemini 3.7 Flash",
-        "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-        "fetched": true,
-        "savedAt": "2026-08-14T01:22:58.183Z"
-      }
-    },
-    {
-      "id": "sig-4cbb438f4f",
-      "title": "使用表格画布让您的电子表格数据栩栩如生",
-      "oneLiner": "作为 Google 表格的一项新功能，表格画布可将行和列转换为交互式仪表板、自定义学习跟踪器、座位表等，所有这些都只需一个简单的提示即可。",
-      "summary": {
-        "oneSentence": "作为 Google 表格的一项新功能，表格画布可将行和列转换为交互式仪表板、自定义学习跟踪器、座位表等，所有这些都只需一个简单的提示即可。",
-        "bullets": [
-          "作为 Google 表格的一项新功能，表格画布可将行和列转换为交互式仪表板、自定义学习跟踪器、座位表等，所有这些都只需一个简单的提示即可。",
-          "Google 表格产品管理总监",
-          "您的浏览器不支持音频元素。",
-          "Google Sheets 现在提供 Sheets canvas 功能，该工具使用人工智能将数据转换为交互式可视化迷你应用程序，无需任何编码。您只需向 Gemini 描述您的需求，它就会构建自定义布局，例如学习跟踪器或座位表，并自动与您的原始电子表格同步。首先，打开一个工作表并单击双子座图标以选择“创建画布”。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Google AI 官网发布：作为 Google 表格的一项新功能，表格画布可将行和列转换为交互式仪表板、自定义学习跟踪器、座位表等，所有这些都只需一个简单的提示即可。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：gemini",
-        "actionItems": [
-          "阅读原文（英文）：https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "gemini"
-      ],
-      "content": [
-        "作为 Google 表格的一项新功能，表格画布可将行和列转换为交互式仪表板、自定义学习跟踪器、座位表等，所有这些都只需一个简单的提示即可。",
-        "Google 表格产品管理总监",
-        "您的浏览器不支持音频元素。",
-        "Google Sheets 现在提供 Sheets canvas 功能，该工具使用人工智能将数据转换为交互式可视化迷你应用程序，无需任何编码。您只需向 Gemini 描述您的需求，它就会构建自定义布局，例如学习跟踪器或座位表，并自动与您的原始电子表格同步。首先，打开一个工作表并单击双子座图标以选择“创建画布”。",
-        "Google Sheets 现在有一个名为 Sheets canvas 的新功能，可以将枯燥的数据行变成交互式、易于阅读的应用程序。你只需告诉 AI 你想要什么，它就会为你构建自定义布局，无需任何编码。一切都保持完美同步，因此您所做的任何更改都会自动更新原始电子表格。这是组织学校项目、体育统计或活动规划的好方法，而不会被淹没。",
-        "电子表格是组织和理解数据的强大工具，但盯着数百行和列有时会感到有点不知所措。无论您是在筹划婚礼、跟踪学校作业、管理梦幻足球花名册还是比较副业收入，您都希望快速从数据中了解需要了解的信息。",
-        "为了帮助您实现这一目标，我们推出了 Sheets 画布，这是一项使用 Gemini 构建的新功能，可将您的 Google Sheets 电子表格转变为自定义的交互式“迷你应用程序”。通过简单的自然语言提示，您可以将数据转换为易于理解、甚至更易于使用的视觉体验。",
-        "表格画布是一个动态的读写层，直接位于电子表格数据之上。这意味着您可以按照您想象的任何布局直观地组织、编辑和导航数据。",
-        "我们将 Sheets 画布设计得像您的想象一样灵活。以下是一些示例，展示您今天如何开始使用它。",
-        "对于学生来说，管理多个科目和截止日期是一项全职工作。使用表格画布，您可以将一长串作业变成交互式学习辅助工具。跟踪进度、设置提醒并想象未来一周的情况，这样您就不会错过最后期限。"
-      ],
-      "highlights": [
-        "作为 Google 表格的一项新功能，表格画布可将行和列转换为交互式仪表板、自定义学习跟踪器、座位表等，所有这些都只需一个简单的提示即可。",
-        "Google 表格产品管理总监",
-        "您的浏览器不支持音频元素。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Bring your spreadsheet data to life with Sheets canvas",
-      "originalLang": "en",
-      "date": "2026-08-13",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google AI",
-        "author": "Google",
-        "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
-        "home": "https://blog.google/technology/ai/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Bring your spreadsheet data to life with Sheets canvas"
-      },
-      "raw": {
-        "title": "Bring your spreadsheet data to life with Sheets canvas",
-        "url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
-        "fetched": true,
-        "savedAt": "2026-08-14T01:23:03.102Z"
-      }
-    },
-    {
-      "id": "sig-85cb850f2e",
-      "title": "尝试这 10 项技能并展示你自己的 | Figma 博客",
-      "oneLiner": "现在，您可以直接在 Figma 中为我们的代理编写技能，将您的观点付诸实践。这里有 10 个我们最喜欢的，可以帮助您入门。",
-      "summary": {
-        "oneSentence": "现在，您可以直接在 Figma 中为我们的代理编写技能，将您的观点付诸实践。这里有 10 个我们最喜欢的，可以帮助您入门。",
-        "bullets": [
-          "现在，您可以直接在 Figma 中为我们的代理编写技能，将您的观点付诸实践。这里有 10 个我们最喜欢的，可以帮助您入门。",
-          "对于新手来说，技能是纯文本 Markdown 文件，可帮助您与代理合作。由于它们采用有序指令或引导提示的形式，因此您有技能吗？让 Figma 代理成为更好的合作者从分享您的最佳想法到从团队的首选提示中学习，以下是 Figma 代理中可以解锁的技能。",
-          "• /image-audit 检查文件中每个图像的可导出性并将报告直接拖放到画布上",
-          "• /shader-starter 帮助人们提示使用较少细节的着色器"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Figma 官网发布：现在，您可以直接在 Figma 中为我们的代理编写技能，将您的观点付诸实践。这里有 10 个我们最喜欢的，可以帮助您入门。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://www.figma.com/blog/try-these-10-skills-and-show-off-your-own/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "现在，您可以直接在 Figma 中为我们的代理编写技能，将您的观点付诸实践。这里有 10 个我们最喜欢的，可以帮助您入门。",
-        "对于新手来说，技能是纯文本 Markdown 文件，可帮助您与代理合作。由于它们采用有序指令或引导提示的形式，因此您有技能吗？让 Figma 代理成为更好的合作者从分享您的最佳想法到从团队的首选提示中学习，以下是 Figma 代理中可以解锁的技能。",
-        "• /image-audit 检查文件中每个图像的可导出性并将报告直接拖放到画布上",
-        "• /shader-starter 帮助人们提示使用较少细节的着色器",
-        "• /make-a-type-scale 从选定的文本构建字体比例并生成匹配的字体变量",
-        "有时，只需一项技能即可解锁新的工作流程。在构建动作教程时，我的“啊哈”时刻到来了：我为 Figma 代理 Figma 的设计代理编写了一项技能，现在有了自定义工具和更大的上下文提示，可以帮助您入门。定制工具、真实背景和技能让设计代理走得更远——因此画布上的最终效果实际上看起来就像你一样。",
-        "从今天开始，您可以与代理一起在 Figma 中编写技能。方法如下：",
-        "其中许多技能也可以与第三方代理中的 Figma MCP 服务器一起使用。您可以在我们的 GitHub 存储库中找到专门针对 Figma MCP 服务器的技能。",
-        "我很好奇其他设计师在使用 Figma 代理时如何使用技能，因此我深入研究了 Figma 社区。以下是我最喜欢的 10 个，从统一美学到应用设计系统原理。",
-        "它的作用：将照片或文字描述转换为逼真的射线照片，以可视化对象的内部细节。它立即产生两种饰面——黑色上发光的白色和白色上柔和的深色调。"
-      ],
-      "highlights": [
-        "现在，您可以直接在 Figma 中为我们的代理编写技能，将您的观点付诸实践。这里有 10 个我们最喜欢的，可以帮助您入门。",
-        "对于新手来说，技能是纯文本 Markdown 文件，可帮助您与代理合作。由于它们采用有序指令或引导提示的形式，因此您有技能吗？让 Figma 代理成为更好的合作",
-        "• /image-audit 检查文件中每个图像的可导出性并将报告直接拖放到画布上"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Try These 10 Skills—And Show Off Your Own | Figma Blog",
-      "originalLang": "en",
-      "date": "2026-08-13",
-      "categoryIds": [
-        "vertical-ui"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Figma",
-        "author": "Figma",
-        "url": "https://www.figma.com/blog/try-these-10-skills-and-show-off-your-own/",
-        "home": "https://www.figma.com/blog/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Try These 10 Skills—And Show Off Your Own | Figma Blog"
-      },
-      "raw": {
-        "title": "Try these 10 skills—and show off your own",
-        "url": "https://www.figma.com/blog/try-these-10-skills-and-show-off-your-own/",
-        "fetched": true,
-        "savedAt": "2026-08-14T01:23:12.747Z"
-      }
-    },
-    {
-      "id": "sig-855fa77e93",
-      "title": "GPT-5.6 构建者指南",
-      "oneLiner": "了解初创公司如何使用 GPT-5.6 通过更智能的模型选择和新的 Responses API 功能来构建更快、更具成本效益的 AI 代理。",
-      "summary": {
-        "oneSentence": "了解初创公司如何使用 GPT-5.6 通过更智能的模型选择和新的 Responses API 功能来构建更快、更具成本效益的 AI 代理。",
-        "bullets": [
-          "了解初创公司如何使用 GPT-5.6 通过更智能的模型选择和新的 Responses API 功能来构建更快、更具成本效益的 AI 代理。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：了解初创公司如何使用 GPT-5.6 通过更智能的模型选择和新的 Responses API 功能来构建更快、更具成本效益的 AI 代理。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/builders-guide-to-gpt-5-6"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "了解初创公司如何使用 GPT-5.6 通过更智能的模型选择和新的 Responses API 功能来构建更快、更具成本效益的 AI 代理。"
-      ],
-      "highlights": [
-        "了解初创公司如何使用 GPT-5.6 通过更智能的模型选择和新的 Responses API 功能来构建更快、更具成本效益的 AI 代理。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "The builder’s guide to GPT‑5.6",
-      "originalLang": "en",
-      "date": "2026-08-13",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "The builder’s guide to GPT‑5.6"
-      },
-      "raw": {
-        "title": "The builder’s guide to GPT‑5.6",
-        "url": "https://openai.com/index/builders-guide-to-gpt-5-6",
-        "fetched": false,
-        "savedAt": "2026-08-14T01:23:13.962Z"
-      }
-    },
-    {
-      "id": "sig-6357d7795d",
-      "title": "预览超快模式：GPT-5.6 Sol 速度高达 14 倍",
-      "oneLiner": "预览 Ultrafast，这是一个新的 OpenAI API 服务层，运行 GPT-5.6 Sol 的速度提高了 14 倍。它由 Cerebras 提供支持，每秒可提供多达 750 个输出令牌。",
-      "summary": {
-        "oneSentence": "预览 Ultrafast，这是一个新的 OpenAI API 服务层，运行 GPT-5.6 Sol 的速度提高了 14 倍。它由 Cerebras 提供支持，每秒可提供多达 750 个输出令牌。",
-        "bullets": [
-          "预览 Ultrafast，这是一个新的 OpenAI API 服务层，运行 GPT-5.6 Sol 的速度提高了 14 倍。它由 Cerebras 提供支持，每秒可提供多达 750 个输出令牌。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：预览 Ultrafast，这是一个新的 OpenAI API 服务层，运行 GPT-5.6 Sol 的速度提高了 14 倍。它由 Cerebras 提供支持，每秒可提供多达 750 个输出令牌。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/previewing-ultrafast"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "预览 Ultrafast，这是一个新的 OpenAI API 服务层，运行 GPT-5.6 Sol 的速度提高了 14 倍。它由 Cerebras 提供支持，每秒可提供多达 750 个输出令牌。"
-      ],
-      "highlights": [
-        "预览 Ultrafast，这是一个新的 OpenAI API 服务层，运行 GPT-5.6 Sol 的速度提高了 14 倍。它由 Cerebras 提供支持，每"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
-      "originalLang": "en",
-      "date": "2026-08-13",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/previewing-ultrafast",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed"
-      },
-      "raw": {
-        "title": "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed",
-        "url": "https://openai.com/index/previewing-ultrafast",
-        "fetched": false,
-        "savedAt": "2026-08-14T01:23:15.154Z"
-      }
-    },
-    {
-      "id": "sig-9e022b7caa",
-      "title": "OpenAI 任命 Dali Rajic 为首席营收官",
-      "oneLiner": "OpenAI 任命 Dali Rajic 为首席营收官，领导其全球营收组织，帮助企业实现人工智能的全部价值。",
-      "summary": {
-        "oneSentence": "OpenAI 任命 Dali Rajic 为首席营收官，领导其全球营收组织，帮助企业实现人工智能的全部价值。",
-        "bullets": [
-          "OpenAI 任命 Dali Rajic 为首席营收官，领导其全球营收组织，帮助企业实现人工智能的全部价值。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：OpenAI 任命 Dali Rajic 为首席营收官，领导其全球营收组织，帮助企业实现人工智能的全部价值。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/dali-rajic-chief-revenue-officer"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "OpenAI 任命 Dali Rajic 为首席营收官，领导其全球营收组织，帮助企业实现人工智能的全部价值。"
-      ],
-      "highlights": [
-        "OpenAI 任命 Dali Rajic 为首席营收官，领导其全球营收组织，帮助企业实现人工智能的全部价值。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
-      "originalLang": "en",
-      "date": "2026-08-13",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "OpenAI appoints Dali Rajic as Chief Revenue Officer"
-      },
-      "raw": {
-        "title": "OpenAI appoints Dali Rajic as Chief Revenue Officer",
-        "url": "https://openai.com/index/dali-rajic-chief-revenue-officer",
-        "fetched": false,
-        "savedAt": "2026-08-14T01:23:16.365Z"
-      }
-    },
-    {
-      "id": "sig-50b76c8cf2",
-      "title": "Vercel 实习生经历",
-      "oneLiner": "最好的学习方式是将产品交付给生产中的用户，这就是为什么我们不会将实习生视为临时客人。 Vercel 的每位实习生从第一天起就应该像我们工程团队的核心成员一样运作。",
-      "summary": {
-        "oneSentence": "最好的学习方式是将产品交付给生产中的用户，这就是为什么我们不会将实习生视为临时客人。 Vercel 的每位实习生从第一天起就应该像我们工程团队的核心成员一样运作。",
-        "bullets": [
-          "最好的学习方式是将产品交付给生产中的用户，这就是为什么我们不会将实习生视为临时客人。 Vercel 的每位实习生从第一天起就应该像我们工程团队的核心成员一样运作。",
-          "去年冬天，我们迎来了一小群实习生来到我们位于旧金山的总部。在紧张的四个月里，他们为我们一些最重要的产品做出了贡献：CDN、v0、金融基础设施、AI 网关等。他们提供了数百万人使用的功能，帮助缩小了企业交易的差距，并且在很多情况下，留下了比他们在这里的时间更长久的印记。",
-          "复制链接到标题 Meet the Winter '26 实习生队列 复制链接到标题 Yash Kothari，滑铁卢大学 CDN 团队",
-          "Yash 的实习涵盖了整个 CDN 堆栈，从基础设施到 CLI 再到仪表板中的 UI。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：最好的学习方式是将产品交付给生产中的用户，这就是为什么我们不会将实习生视为临时客人。 Vercel 的每位实习生从第一天起就应该像我们工程团队的核心成员一样运作。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/blog/inside-the-vercel-intern-experience"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "最好的学习方式是将产品交付给生产中的用户，这就是为什么我们不会将实习生视为临时客人。 Vercel 的每位实习生从第一天起就应该像我们工程团队的核心成员一样运作。",
-        "去年冬天，我们迎来了一小群实习生来到我们位于旧金山的总部。在紧张的四个月里，他们为我们一些最重要的产品做出了贡献：CDN、v0、金融基础设施、AI 网关等。他们提供了数百万人使用的功能，帮助缩小了企业交易的差距，并且在很多情况下，留下了比他们在这里的时间更长久的印记。",
-        "复制链接到标题 Meet the Winter '26 实习生队列 复制链接到标题 Yash Kothari，滑铁卢大学 CDN 团队",
-        "Yash 的实习涵盖了整个 CDN 堆栈，从基础设施到 CLI 再到仪表板中的 UI。",
-        "他的第一个主要项目是项目级路由，它是 Vercel 仪表板中新 CDN 选项卡的一部分。此功能允许客户从仪表板、API、CLI 或 SDK 更新路由规则，包括重定向、重写和标头转换，而无需重新部署其项目或触及任何一行代码。 Yash 构建了底层 API 端点（包括暂存/发布工作流程）、vercel 路由 CLI 命令，并贡献了人工智能驱动的路由生成。发布后，数百个团队立即采用它并创建了数千条规则。",
-        "“实习期间我最喜欢的事情之一是，在 Vercel，你可以获得很大的自主权和所有权，”Yash 说。 “我与企业客户进行了通话，在 Vercel 的变更日志中看到了我的工作，并在 YouTube 实时社区会议中演示了我的工作。”",
-        "在实习的后半段，Yash 负责 Vercel 的防火墙和安全产品。他发布了 vercel 防火墙 CLI 命令，使用户和 AI 代理能够直接从终端配置自定义规则、IP 块和防火墙控制。他还构建了一个人工智能驱动的防火墙规则生成器，让用户可以用自然语言描述所需的规则，并自动生成 WAF 自定义规则。",
-        "复制链接到标题 Kavin Valli，滑铁卢大学 v0 团队",
-        "Kavin 在整个 v0 平台上工作了四个多月，承担的项目范围从面向用户的功能到系统后端基础设施的成本效率。",
-        "他首先构建端到端的文件夹和 v0 项目：核心 CRUD 操作、库页面重新设计、收藏、可见性控制（私人/团队/公共）和文件夹共享。他还通过发布手动提交按钮来弥补 v0 版本历史中的一个关键差距，这确保了 VM 编辑器中的手动编辑正确创建了提交和块，从而关闭了手动编辑和 v0 迭代模型之间的循环。"
-      ],
-      "highlights": [
-        "最好的学习方式是将产品交付给生产中的用户，这就是为什么我们不会将实习生视为临时客人。 Vercel 的每位实习生从第一天起就应该像我们工程团队的核心成员一样运作",
-        "去年冬天，我们迎来了一小群实习生来到我们位于旧金山的总部。在紧张的四个月里，他们为我们一些最重要的产品做出了贡献：CDN、v0、金融基础设施、AI 网关等。他们",
-        "复制链接到标题 Meet the Winter '26 实习生队列 复制链接到标题 Yash Kothari，滑铁卢大学 CDN 团队"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Inside the Vercel intern experience",
-      "originalLang": "en",
-      "date": "2026-08-13",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/blog/inside-the-vercel-intern-experience",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Inside the Vercel intern experience"
-      },
-      "raw": {
-        "title": "Inside the Vercel intern experience",
-        "url": "https://vercel.com/blog/inside-the-vercel-intern-experience",
-        "fetched": true,
-        "savedAt": "2026-08-14T01:23:25.161Z"
-      }
-    },
-    {
-      "id": "sig-1e5183cd6f",
-      "title": "借助构建，云端智能体启动速度提升 3 倍 · Cursor",
-      "oneLiner": "智能体在准备就绪的环境中启动时，能够发挥最佳表现：仓库已克隆、依赖项已安装，安装脚本也已运行。",
-      "summary": {
-        "oneSentence": "智能体在准备就绪的环境中启动时，能够发挥最佳表现：仓库已克隆、依赖项已安装，安装脚本也已运行。",
-        "bullets": [
-          "智能体在准备就绪的环境中启动时，能够发挥最佳表现：仓库已克隆、依赖项已安装，安装脚本也已运行。",
-          "此版本推出了 构建 ：Cursor 在后台准备的可直接使用的开发环境副本。智能体启动后即可使用准备就绪的环境，无需在每次会话中从头配置。云端智能体已包含构建功能，无需额外付费。",
-          "Cursor 会定期重新构建环境。构建成功后，该环境将作为后续智能体的启动环境。Cursor 会保留预热副本，确保下一个智能体无需等待。现在，我们的环境内部启动速度提升了 10 倍，首个 token 的生成时间缩短了 3 倍。",
-          "对于可提前准备的内容，请使用 安装命令 。首次向智能体发送提示时，启动命令仍会运行，应侧重于需要在当前会话中保持最新状态的服务。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Cursor 官网发布：智能体在准备就绪的环境中启动时，能够发挥最佳表现：仓库已克隆、依赖项已安装，安装脚本也已运行。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：cursor",
-        "actionItems": [
-          "阅读原文（中文）：https://cursor.com/changelog/08-13-26"
-        ]
-      },
-      "tags": [
-        "Release"
-      ],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "cursor"
-      ],
-      "content": [
-        "智能体在准备就绪的环境中启动时，能够发挥最佳表现：仓库已克隆、依赖项已安装，安装脚本也已运行。",
-        "此版本推出了 构建 ：Cursor 在后台准备的可直接使用的开发环境副本。智能体启动后即可使用准备就绪的环境，无需在每次会话中从头配置。云端智能体已包含构建功能，无需额外付费。",
-        "Cursor 会定期重新构建环境。构建成功后，该环境将作为后续智能体的启动环境。Cursor 会保留预热副本，确保下一个智能体无需等待。现在，我们的环境内部启动速度提升了 10 倍，首个 token 的生成时间缩短了 3 倍。",
-        "对于可提前准备的内容，请使用 安装命令 。首次向智能体发送提示时，启动命令仍会运行，应侧重于需要在当前会话中保持最新状态的服务。",
-        "当错误的提交或依赖项更新导致您的环境无法正常运行时，智能体会继续使用上一次成功的构建。损坏的构建不会被启用，您会收到问题通知，并且智能体会在您后台调试期间继续工作。",
-        "每个环境在云端智能体仪表盘中都设有 构建 选项卡。您可以查看构建状态、日志、提交 SHA，以及每次智能体运行所使用的构建。智能体还可以使用内置工具查看和管理构建。",
-        "新环境会自动使用 构建。对于现有环境，请在 云端智能体仪表盘 中打开该环境，转到 构建 选项卡，然后点击 启用 构建 。您也可以先点击 运行设置智能体 ，测试迁移并审查建议的配置更改。",
-        "您还可以手动触发 构建，使用智能体调试失败的 构建，并通过可配置的阈值控制陈旧 构建 的刷新方式。"
-      ],
-      "highlights": [
-        "智能体在准备就绪的环境中启动时，能够发挥最佳表现：仓库已克隆、依赖项已安装，安装脚本也已运行。",
-        "此版本推出了 构建 ：Cursor 在后台准备的可直接使用的开发环境副本。智能体启动后即可使用准备就绪的环境，无需在每次会话中从头配置。云端智能体已包含构建功能",
-        "Cursor 会定期重新构建环境。构建成功后，该环境将作为后续智能体的启动环境。Cursor 会保留预热副本，确保下一个智能体无需等待。现在，我们的环境内部启动"
-      ],
-      "translated": false,
-      "translateMethod": "native",
-      "originalTitle": "借助构建，云端智能体启动速度提升 3 倍 · Cursor",
-      "originalLang": "zh",
-      "date": "2026-08-13",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [
-        "cursor"
-      ],
-      "source": {
-        "type": "release",
-        "group": "company",
-        "name": "Cursor",
-        "author": "Cursor",
-        "url": "https://cursor.com/changelog/08-13-26",
-        "home": "https://cursor.com/changelog",
-        "lang": "zh",
-        "translated": false,
-        "translateMethod": "native",
-        "originalTitle": "借助构建，云端智能体启动速度提升 3 倍 · Cursor"
-      },
-      "raw": {
-        "title": "Cloud Agents Start 3x Faster with Builds",
-        "url": "https://cursor.com/changelog/08-13-26",
-        "fetched": true,
-        "savedAt": "2026-08-14T01:23:26.394Z",
-        "retranslatedAt": "2026-08-25T00:55:46.582Z"
-      }
-    },
-    {
-      "id": "sig-008c0b775c",
-      "title": "GLM 5.2 在 8 月 27 日之前通过 AI Gateway 上的 Blackbox 免费向前夕代理开放 - Vercel",
-      "oneLiner": "GLM 5.2 是 Z.ai 的开放权重编码模型，具有 1M 代币上下文窗口，在 8 月 27 日之前对前夕代理免费，由 AI Gateway 上的 Blackbox AI 提供服务。",
-      "summary": {
-        "oneSentence": "GLM 5.2 是 Z.ai 的开放权重编码模型，具有 1M 代币上下文窗口，在 8 月 27 日之前对前夕代理免费，由 AI Gateway 上的 Blackbox AI 提供服务。",
-        "bullets": [
-          "GLM 5.2 是 Z.ai 的开放权重编码模型，具有 1M 代币上下文窗口，在 8 月 27 日之前对前夕代理免费，由 AI Gateway 上的 Blackbox AI 提供服务。",
-          "新的 eve 代理以 GLM 5.2 作为默认模型。使用 npx eve@latest init my-agent 开始。",
-          "通过对 agent/agent.ts 进行一行更改，现有代理也可以从中受益：",
-          "agent/agent.ts 1 从“eve”导入{defineAgent}； 2 3 导出默认defineAgent ({ 4 model : \"zai/glm-5.2\" , 5 } ) ;在代理定义中设置促销模型"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：GLM 5.2 是 Z.ai 的开放权重编码模型，具有 1M 代币上下文窗口，在 8 月 27 日之前对前夕代理免费，由 AI Gateway 上的 Blackbox AI 提供服务。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/glm-5-2-free-for-eve-agents-through-august-27-via-blackbox-on-ai-gateway"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "GLM 5.2 是 Z.ai 的开放权重编码模型，具有 1M 代币上下文窗口，在 8 月 27 日之前对前夕代理免费，由 AI Gateway 上的 Blackbox AI 提供服务。",
-        "新的 eve 代理以 GLM 5.2 作为默认模型。使用 npx eve@latest init my-agent 开始。",
-        "通过对 agent/agent.ts 进行一行更改，现有代理也可以从中受益：",
-        "agent/agent.ts 1 从“eve”导入{defineAgent}； 2 3 导出默认defineAgent ({ 4 model : \"zai/glm-5.2\" , 5 } ) ;在代理定义中设置促销模型",
-        "eve set --model zai/glm-5.2 该命令就地编辑代理定义",
-        "此优惠不适用于快速模式或该型号的 zai/glm-5.2-fast 变体。",
-        "8 月 27 日之后，GLM 5.2 在 AI Gateway 上仍按标准提供商费率提供。"
-      ],
-      "highlights": [
-        "GLM 5.2 是 Z.ai 的开放权重编码模型，具有 1M 代币上下文窗口，在 8 月 27 日之前对前夕代理免费，由 AI Gateway 上的 Black",
-        "新的 eve 代理以 GLM 5.2 作为默认模型。使用 npx eve@latest init my-agent 开始。",
-        "通过对 agent/agent.ts 进行一行更改，现有代理也可以从中受益："
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "GLM 5.2 free for eve agents through August 27 via Blackbox on AI Gateway - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-13",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/glm-5-2-free-for-eve-agents-through-august-27-via-blackbox-on-ai-gateway",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "GLM 5.2 free for eve agents through August 27 via Blackbox on AI Gateway - Vercel"
-      },
-      "raw": {
-        "title": "GLM 5.2 free for eve agents through August 27 via Blackbox on AI Gateway",
-        "url": "https://vercel.com/changelog/glm-5-2-free-for-eve-agents-through-august-27-via-blackbox-on-ai-gateway",
-        "fetched": true,
-        "savedAt": "2026-08-14T01:23:31.967Z"
-      }
-    },
-    {
-      "id": "sig-1d4dd3ef13",
-      "title": "Gemini 3.7 Flash 现可在 AI Gateway 上享受 50% 折扣 - Vercel",
-      "oneLiner": "Google 的 Gemini 3.7 Flash 现已在 AI Gateway 上提供 50% 折扣，截止日期为 2026 年 12 月 31 日。",
-      "summary": {
-        "oneSentence": "Google 的 Gemini 3.7 Flash 现已在 AI Gateway 上提供 50% 折扣，截止日期为 2026 年 12 月 31 日。",
-        "bullets": [
-          "Google 的 Gemini 3.7 Flash 现已在 AI Gateway 上提供 50% 折扣，截止日期为 2026 年 12 月 31 日。",
-          "Gemini 3.7 Flash 在软件工程和代理工作方面改进了先前的 Flash 模型。它可以更可靠地解决问题，并且在失败的代理循环中花费更少的时间，这对于长工具调用序列很重要，其中一次脱轨会导致其余运行的损失。它还可以直接从设计模型生成桌面和 Web 应用程序代码，更紧密地遵循源设计。",
-          "要使用Gemini 3.7 Flash，请在AI SDK中将模型设置为google/gemini-3.7-flash：",
-          "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText ({ 4 model: 'google/gemini-3.7-flash' , 5prompt : '从此设计模拟构建设置页面。' , 6 }) ;"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Google 的 Gemini 3.7 Flash 现已在 AI Gateway 上提供 50% 折扣，截止日期为 2026 年 12 月 31 日。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/gemini-3-7-flash-now-available-on-ai-gateway-for-50-off"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Google 的 Gemini 3.7 Flash 现已在 AI Gateway 上提供 50% 折扣，截止日期为 2026 年 12 月 31 日。",
-        "Gemini 3.7 Flash 在软件工程和代理工作方面改进了先前的 Flash 模型。它可以更可靠地解决问题，并且在失败的代理循环中花费更少的时间，这对于长工具调用序列很重要，其中一次脱轨会导致其余运行的损失。它还可以直接从设计模型生成桌面和 Web 应用程序代码，更紧密地遵循源设计。",
-        "要使用Gemini 3.7 Flash，请在AI SDK中将模型设置为google/gemini-3.7-flash：",
-        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText ({ 4 model: 'google/gemini-3.7-flash' , 5prompt : '从此设计模拟构建设置页面。' , 6 }) ;",
-        "要在编码代理中使用它，请运行 vercel ai-gatewaycoding-agents setup 以连接 Claude Code、Codex、OpenCode 或 Pi，然后在代理内选择 google/gemini-3.7-flash。",
-        "要在不使用代码的情况下尝试 Gemini 3.7 Flash，请尝试模型游乐场中的模型。",
-        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本，以及配置重试、故障转移和性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、零数据保留支持、API 密钥预算、路由规则等。",
-        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。",
-        "AI Gateway：按使用情况跟踪顶级 AI 模型",
-        "AI Gateway 模型排行榜跟踪一段时间内最流行的模型，并根据所有网关流量处理的代币总量对它们进行排名。"
-      ],
-      "highlights": [
-        "Google 的 Gemini 3.7 Flash 现已在 AI Gateway 上提供 50% 折扣，截止日期为 2026 年 12 月 31 日。",
-        "Gemini 3.7 Flash 在软件工程和代理工作方面改进了先前的 Flash 模型。它可以更可靠地解决问题，并且在失败的代理循环中花费更少的时间，这对于长",
-        "要使用Gemini 3.7 Flash，请在AI SDK中将模型设置为google/gemini-3.7-flash："
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Gemini 3.7 Flash now available on AI Gateway for 50% off - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-13",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/gemini-3-7-flash-now-available-on-ai-gateway-for-50-off",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Gemini 3.7 Flash now available on AI Gateway for 50% off - Vercel"
-      },
-      "raw": {
-        "title": "Gemini 3.7 Flash now available on AI Gateway for 50% off",
-        "url": "https://vercel.com/changelog/gemini-3-7-flash-now-available-on-ai-gateway-for-50-off",
-        "fetched": true,
-        "savedAt": "2026-08-14T01:23:37.902Z"
-      }
-    },
-    {
-      "id": "sig-fe1f297418",
-      "title": "如何快速朝着正确的方向前进| Figma 博客",
-      "oneLiner": "有了人工智能，速度就变得容易了，但技术债务也变得容易了。这就是为什么最好的团队不仅能快速交付产品，而且能快速交付产品。他们仔细考虑，高效构建，并使其脱颖而出。",
-      "summary": {
-        "oneSentence": "有了人工智能，速度就变得容易了，但技术债务也变得容易了。这就是为什么最好的团队不仅能快速交付产品，而且能快速交付产品。他们仔细考虑，高效构建，并使其脱颖而出。",
-        "bullets": [
-          "有了人工智能，速度就变得容易了，但技术债务也变得容易了。这就是为什么最好的团队不仅能快速交付产品，而且能快速交付产品。他们仔细考虑，高效构建，并使其脱颖而出。",
-          "在软件历史的大部分时间里，代码是产品构建的大门，而开发人员掌握着钥匙。有了人工智能，那扇门就消失了。现在，从未打开过 IDE 的人也可以发布工作软件。但这是有代价的：当你可以构建任何东西时，构建正确的东西当任何人都可以构建时最重要的是如果人工智能可以使任何人成为产品构建者，那么真正的优势是知道什么值得交付。",
-          "很容易提示您获得看起来精美且可投入生产的输出。我们被训练相信这种润色，因为在人工智能出现之前的世界中，它反映了专家们来之不易的决策和深思熟虑的权衡——比如系统的行为方式，以及哪些约束很重要。今天，我们可以快速构建原型，但法学硕士填补了我们的空白，使我们能够生成表面上看起来很棒，但实际上却分崩离析的东西。",
-          "认知投降是 Steven D. Shaw 和 Gideon Nave 在他们的论文《思考——快、慢和人工：人工智能如何重塑人类推理和认知投降的兴起》中创造的一个术语。它指的是当有人不加审查地接受人工智能输出、超越自己的直觉和深思熟虑时会发生什么。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Figma 官网发布：有了人工智能，速度就变得容易了，但技术债务也变得容易了。这就是为什么最好的团队不仅能快速交付产品，而且能快速交付产品。他们仔细考虑，高效构建，并使其脱颖而出。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://www.figma.com/blog/how-to-move-fast-toward-the-right-thing/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "有了人工智能，速度就变得容易了，但技术债务也变得容易了。这就是为什么最好的团队不仅能快速交付产品，而且能快速交付产品。他们仔细考虑，高效构建，并使其脱颖而出。",
-        "在软件历史的大部分时间里，代码是产品构建的大门，而开发人员掌握着钥匙。有了人工智能，那扇门就消失了。现在，从未打开过 IDE 的人也可以发布工作软件。但这是有代价的：当你可以构建任何东西时，构建正确的东西当任何人都可以构建时最重要的是如果人工智能可以使任何人成为产品构建者，那么真正的优势是知道什么值得交付。",
-        "很容易提示您获得看起来精美且可投入生产的输出。我们被训练相信这种润色，因为在人工智能出现之前的世界中，它反映了专家们来之不易的决策和深思熟虑的权衡——比如系统的行为方式，以及哪些约束很重要。今天，我们可以快速构建原型，但法学硕士填补了我们的空白，使我们能够生成表面上看起来很棒，但实际上却分崩离析的东西。",
-        "认知投降是 Steven D. Shaw 和 Gideon Nave 在他们的论文《思考——快、慢和人工：人工智能如何重塑人类推理和认知投降的兴起》中创造的一个术语。它指的是当有人不加审查地接受人工智能输出、超越自己的直觉和深思熟虑时会发生什么。",
-        "考虑意味着摩擦，而让人工智能完全消除这种摩擦是很诱人的。它有一个名字：“认知投降”，或者当我们让人工智能承担验证一个想法或形成独特观点的负担时会发生什么。我发现自己一直在这样做——将法学硕士的判断当作我自己的判断。快速行动，并在第一时间接受输出。但你必须从意图开始。我称之为“考虑的必要性”：面对问题并明确什么是值得构建的，而不是交付看起来合理的第一个选项。",
-        "在其白皮书《The New SDLC With Vibe Coding》中，Google 领导者 Addy Osmani、Shubham Saboo 和 Sokratis Kartakis 博士介绍了代理工程的理念：将开发人员的角色从编写代码转变为表达意图，并使用 AI 将意图转化为软件。",
-        "谷歌最近发布的一份关于代理编码的白皮书描述了省力的氛围编码如何导致技术债务。该论文认为，开发人员的重点需要从编写代码转向通过以下方式构建意图：",
-        "当从设计到代码时，代理缺乏生产组件的上下文。 Figma 的 MCP 中的 Code Connect 为他们提供了真正的生产代码（包括道具和变体），而不是让他们从像素重建组件。",
-        "这种类型的“代理工程”意味着开发人员需要做更多的前期工作，但当他们拥有更容易维护的软件时，最终会得到回报。对于设计来说也是如此。如果您投入时间和精力来构建强大的设计系统，您就可以编写决策，为代理提供精确的词汇和清晰的工作护栏。这种精度可以带来一致的输出、更简洁的代码和更少的技术债务。",
-        "考虑因素和背景可以帮助您更快地朝着正确的方向前进，但您仍然需要确保您所构建的内容脱颖而出。这就是人工智能对你不利的地方。模型是根据大量数据进行训练的。他们了解每一种趋势、风格和模式，并在一系列已经存在的事物中趋向平均值——用机器学习的术语来说，就是“分布中的事物”。"
-      ],
-      "highlights": [
-        "有了人工智能，速度就变得容易了，但技术债务也变得容易了。这就是为什么最好的团队不仅能快速交付产品，而且能快速交付产品。他们仔细考虑，高效构建，并使其脱颖而出。",
-        "在软件历史的大部分时间里，代码是产品构建的大门，而开发人员掌握着钥匙。有了人工智能，那扇门就消失了。现在，从未打开过 IDE 的人也可以发布工作软件。但这是有代",
-        "很容易提示您获得看起来精美且可投入生产的输出。我们被训练相信这种润色，因为在人工智能出现之前的世界中，它反映了专家们来之不易的决策和深思熟虑的权衡——比如系统的"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "How To Move Fast Toward the Right Thing | Figma Blog",
-      "originalLang": "en",
-      "date": "2026-08-13",
-      "categoryIds": [
-        "vertical-ui"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Figma",
-        "author": "Figma",
-        "url": "https://www.figma.com/blog/how-to-move-fast-toward-the-right-thing/",
-        "home": "https://www.figma.com/blog/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "How To Move Fast Toward the Right Thing | Figma Blog"
-      },
-      "raw": {
-        "title": "How to move fast toward the right thing",
-        "url": "https://www.figma.com/blog/how-to-move-fast-toward-the-right-thing/",
-        "fetched": true,
-        "savedAt": "2026-08-15T00:53:54.886Z"
-      }
-    },
-    {
-      "id": "sig-647c1f36eb",
-      "title": "一键升级已弃用的 Node.js 版本 - Vercel",
-      "oneLiner": "团队所有者和成员现在可以通过 Vercel 仪表板一键将使用 Node.js 20 或更早版本的所有项目升级到 Node.js 24。",
-      "summary": {
-        "oneSentence": "团队所有者和成员现在可以通过 Vercel 仪表板一键将使用 Node.js 20 或更早版本的所有项目升级到 Node.js 24。",
-        "bullets": [
-          "团队所有者和成员现在可以通过 Vercel 仪表板一键将使用 Node.js 20 或更早版本的所有项目升级到 Node.js 24。",
-          "这会更新项目设置中的 Node.js 版本。如果您的项目还在 package.json 中定义了版本，则需要手动更新它。现有部署不受影响。",
-          "立即查看和升级已弃用的 Node.js 项目。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：团队所有者和成员现在可以通过 Vercel 仪表板一键将使用 Node.js 20 或更早版本的所有项目升级到 Node.js 24。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/one-click-upgrade-for-deprecated-node-js-versions"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "团队所有者和成员现在可以通过 Vercel 仪表板一键将使用 Node.js 20 或更早版本的所有项目升级到 Node.js 24。",
-        "这会更新项目设置中的 Node.js 版本。如果您的项目还在 package.json 中定义了版本，则需要手动更新它。现有部署不受影响。",
-        "立即查看和升级已弃用的 Node.js 项目。"
-      ],
-      "highlights": [
-        "团队所有者和成员现在可以通过 Vercel 仪表板一键将使用 Node.js 20 或更早版本的所有项目升级到 Node.js 24。",
-        "这会更新项目设置中的 Node.js 版本。如果您的项目还在 package.json 中定义了版本，则需要手动更新它。现有部署不受影响。",
-        "立即查看和升级已弃用的 Node.js 项目。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "One-click upgrade for deprecated Node.js versions - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-13",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/one-click-upgrade-for-deprecated-node-js-versions",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "One-click upgrade for deprecated Node.js versions - Vercel"
-      },
-      "raw": {
-        "title": "One-click upgrade for deprecated Node.js versions",
-        "url": "https://vercel.com/changelog/one-click-upgrade-for-deprecated-node-js-versions",
-        "fetched": true,
-        "savedAt": "2026-08-15T00:53:58.161Z"
-      }
-    },
-    {
-      "id": "sig-d074e76def",
-      "title": "Grok Build 现已在 AI SDK 线束层中可用 - Vercel",
-      "oneLiner": "AI SDK 利用层可让您通过一个统一的接口运行已建立的编码代理运行时，因此您可以在不更改应用程序代码的情况下切换运行时。今天，我们添加了 Grok Build，它与所有其他受支持的线束一样通过相同的 HarnessAgent 接口运行。",
-      "summary": {
-        "oneSentence": "AI SDK 利用层可让您通过一个统一的接口运行已建立的编码代理运行时，因此您可以在不更改应用程序代码的情况下切换运行时。今天，我们添加了 Grok Build，它与所有其他受支持的线束一样通过相同的 HarnessAgent 接口运行。",
-        "bullets": [
-          "AI SDK 利用层可让您通过一个统一的接口运行已建立的编码代理运行时，因此您可以在不更改应用程序代码的情况下切换运行时。今天，我们添加了 Grok Build，它与所有其他受支持的线束一样通过相同的 HarnessAgent 接口运行。",
-          "@ai-sdk/harness-grok-build 是 Grok Build 的官方线束适配器，构建在 ACP 线束适配器 (@ai-sdk/harness-acp) 之上。",
-          "1 从 '@ai-sdk/harness/agent' 导入 { HarnessAgent } ； 2 从 '@ai-sdk/harness-grok-build' 导入 { grokBuild } ； 3 4 const agent = new HarnessAgent ({ 5harness: grokBuild,",
-          "阅读 Grok Build 工具文档以开始使用。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：AI SDK 利用层可让您通过一个统一的接口运行已建立的编码代理运行时，因此您可以在不更改应用程序代码的情况下切换运行时。今天，我们添加了 Grok Build，它与所有其他受支持的线束一样通过相同的 HarnessAgent 接口运行。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/grok-build-harness-adapter"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "AI SDK 利用层可让您通过一个统一的接口运行已建立的编码代理运行时，因此您可以在不更改应用程序代码的情况下切换运行时。今天，我们添加了 Grok Build，它与所有其他受支持的线束一样通过相同的 HarnessAgent 接口运行。",
-        "@ai-sdk/harness-grok-build 是 Grok Build 的官方线束适配器，构建在 ACP 线束适配器 (@ai-sdk/harness-acp) 之上。",
-        "1 从 '@ai-sdk/harness/agent' 导入 { HarnessAgent } ； 2 从 '@ai-sdk/harness-grok-build' 导入 { grokBuild } ； 3 4 const agent = new HarnessAgent ({ 5harness: grokBuild, 6 });将 Grok Build 与 HarnessAgent 结合使用的基本示例",
-        "阅读 Grok Build 工具文档以开始使用。",
-        "现在，完整支持的工具列表是：Claude Code、Codex、Deep Agents、Grok Build、OpenCode、Pi，更多工具即将推出。"
-      ],
-      "highlights": [
-        "AI SDK 利用层可让您通过一个统一的接口运行已建立的编码代理运行时，因此您可以在不更改应用程序代码的情况下切换运行时。今天，我们添加了 Grok Build",
-        "@ai-sdk/harness-grok-build 是 Grok Build 的官方线束适配器，构建在 ACP 线束适配器 (@ai-sdk/harness-",
-        "1 从 '@ai-sdk/harness/agent' 导入 { HarnessAgent } ； 2 从 '@ai-sdk/harness-grok-buil"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Grok Build is now available in the AI SDK harness layer - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-13",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/grok-build-harness-adapter",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Grok Build is now available in the AI SDK harness layer - Vercel"
-      },
-      "raw": {
-        "title": "Grok Build is now available in the AI SDK harness layer",
-        "url": "https://vercel.com/changelog/grok-build-harness-adapter",
-        "fetched": true,
-        "savedAt": "2026-08-15T00:54:02.585Z"
-      }
-    },
-    {
-      "id": "sig-a44214149b",
-      "title": "将 ACP 兼容线束与 AI SDK 线束层结合使用 - Vercel",
-      "oneLiner": "AI SDK 线束层现在通过新的 @ai-sdk/harness-acp 包支持任何与 HarnessAgent 兼容的代理客户端协议 (ACP) 线束。",
-      "summary": {
-        "oneSentence": "AI SDK 线束层现在通过新的 @ai-sdk/harness-acp 包支持任何与 HarnessAgent 兼容的代理客户端协议 (ACP) 线束。",
-        "bullets": [
-          "AI SDK 线束层现在通过新的 @ai-sdk/harness-acp 包支持任何与 HarnessAgent 兼容的代理客户端协议 (ACP) 线束。",
-          "以前，每个线束适配器都包装一个特定的运行时（Claude Code、Codex、Pi、Deep Agents、OpenCode）。 @ai-sdk/harness-acp 包装了协议。它是一个元适配器：它不是适应单个线束，而是让您为任何附带 ACP 兼容包的线束构建适配器。",
-          "通过将该包传递给 createACP 并配置基本线束映射来实现线束。",
-          "1 从 '@ai-sdk/harness-acp' 导入 { createACP } ； 2 3 导出函数 createCodexACP ( ) { 4 return createACP ( { 5harnessId : 'codex-acp' , 6 源 : { 7 类型 : 'npm-simple' , 8 pac"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：AI SDK 线束层现在通过新的 @ai-sdk/harness-acp 包支持任何与 HarnessAgent 兼容的代理客户端协议 (ACP) 线束。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/use-acp-compatible-harnesses-with-the-ai-sdk-harness-layer"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "AI SDK 线束层现在通过新的 @ai-sdk/harness-acp 包支持任何与 HarnessAgent 兼容的代理客户端协议 (ACP) 线束。",
-        "以前，每个线束适配器都包装一个特定的运行时（Claude Code、Codex、Pi、Deep Agents、OpenCode）。 @ai-sdk/harness-acp 包装了协议。它是一个元适配器：它不是适应单个线束，而是让您为任何附带 ACP 兼容包的线束构建适配器。",
-        "通过将该包传递给 createACP 并配置基本线束映射来实现线束。",
-        "1 从 '@ai-sdk/harness-acp' 导入 { createACP } ； 2 3 导出函数 createCodexACP ( ) { 4 return createACP ( { 5harnessId : 'codex-acp' , 6 源 : { 7 类型 : 'npm-simple' , 8 packageName : '@agentclientprotocol/codex-acp' , 9 } , 10 可执行文件 : 'codex-acp' , 11forwardEnv : [ 'CODEX_API_KEY' , 'OPENAI_API_KEY' ] , 12permissionModeMapping : { 13 'allow-reads' : null , 14 'allow-edits' : null , 15 'allow-all' : { type : 'session-mode' , modeId : 'agent-full-access' } , 16 } , 17 身份验证: { 18 methodId : 'api-key' , 19 } , 20 } ) ; 21 } 在 ACP 元工具之上实现 Codex 的基本 ACP 工具示例",
-        "然后像任何其他线束一样将其传递给 HarnessAgent：",
-        "1 从 '@ai-sdk/harness/agent' 导入 { HarnessAgent } ； 2 从 './codex-acp-harness' 导入 { createCodexACP } ； 3 4 const agent = new HarnessAgent({5harness:createCodexACP(),6});将上述 Codex ACP 线束与 HarnessAgent 结合使用的基本示例",
-        "ACP 是对编码工具的抽象，但 AI SDK 工具层故意与其分离。并非每个线束都支持 ACP，对于某些线束，ACP 限制或改变它们暴露内部行为的程度，因此直接适配器可以产生更紧密的集成。",
-        "对于 Claude Code 和 Codex，更喜欢直接 @ai-sdk/harness-claude-code 和 @ai-sdk/harness-codex 适配器，而不是基于 ACP 的实现；当线束没有直接适配器但附带 ACP 兼容包时，请使用 @ai-sdk/harness-acp。",
-        "请阅读 ACP 线束文档以开始使用。"
-      ],
-      "highlights": [
-        "AI SDK 线束层现在通过新的 @ai-sdk/harness-acp 包支持任何与 HarnessAgent 兼容的代理客户端协议 (ACP) 线束。",
-        "以前，每个线束适配器都包装一个特定的运行时（Claude Code、Codex、Pi、Deep Agents、OpenCode）。 @ai-sdk/harnes",
-        "通过将该包传递给 createACP 并配置基本线束映射来实现线束。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Use ACP-compatible harnesses with the AI SDK harness layer - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-13",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/use-acp-compatible-harnesses-with-the-ai-sdk-harness-layer",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Use ACP-compatible harnesses with the AI SDK harness layer - Vercel"
-      },
-      "raw": {
-        "title": "Use ACP-compatible harnesses with the AI SDK harness layer",
-        "url": "https://vercel.com/changelog/use-acp-compatible-harnesses-with-the-ai-sdk-harness-layer",
-        "fetched": true,
-        "savedAt": "2026-08-15T00:54:11.142Z"
-      }
-    },
-    {
-      "id": "sig-90317655c2",
-      "title": "Exa 加入 Vercel 代理市场 - Vercel",
-      "oneLiner": "Exa 现已作为本机集成在 Vercel Agent Marketplace 上提供。",
-      "summary": {
-        "oneSentence": "Exa 现已作为本机集成在 Vercel Agent Marketplace 上提供。",
-        "bullets": [
-          "Exa 现已作为本机集成在 Vercel Agent Marketplace 上提供。",
-          "Exa 的神经搜索引擎以新鲜、当前的信息为基础人工智能提供高质量、相关的结果。在几秒钟内将 Exa 添加到您的 Vercel 应用程序中，以支持搜索、研究代理和上下文感知功能。 Vercel 集成提供了适用于所有 Exa 产品的单一 API 密钥，并直接通过您的 Vercel 帐户处理计费。",
-          "1 从“exa-js”导入Exa； 2 从“next/server”导入{NextResponse}； 3 const apiKey = 进程 .环境。 EXA_API_KEY ; 4 if (!apiKey) { 5 throw new Error(\"缺少 EXA_API_KEY\"); 6 } 7 const exa",
-          "从 Marketplace 安装 Exa 或部署 Next.js 搜索模板，以查看 Exa 的即时搜索、深度答案以及与 Vercel 集成的内容提取。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Exa 现已作为本机集成在 Vercel Agent Marketplace 上提供。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/exa-joins-the-vercel-agent-marketplace"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Exa 现已作为本机集成在 Vercel Agent Marketplace 上提供。",
-        "Exa 的神经搜索引擎以新鲜、当前的信息为基础人工智能提供高质量、相关的结果。在几秒钟内将 Exa 添加到您的 Vercel 应用程序中，以支持搜索、研究代理和上下文感知功能。 Vercel 集成提供了适用于所有 Exa 产品的单一 API 密钥，并直接通过您的 Vercel 帐户处理计费。",
-        "1 从“exa-js”导入Exa； 2 从“next/server”导入{NextResponse}； 3 const apiKey = 进程 .环境。 EXA_API_KEY ; 4 if (!apiKey) { 5 throw new Error(\"缺少 EXA_API_KEY\"); 6 } 7 const exa = new Exa ( apiKey ) ; 8 导出异步函数 GET(request:Request) { 9 const { searchParams} = new URL(request.url); 10 常量查询 = searchParams 。得到（“q”）？？ 《最新AI基础设施新闻》； 11 const { 结果 } = 等待 exa . search ( query , { 12 类型 : \"即时\" , 13 numResults : 5 , 14 内容 : { 15 亮点 : true , 16 } , 17 } ) ; 18 返回 NextResponse 。 json ( { 19 results : results .map ( ( result ) => ( { 20 title : result . title , 21 url : result . url , 22highlights : result .highlights , 23 } ) ) , 24 } ) ; 25 } 在几分钟内执行您的第一个 API 调用",
-        "从 Marketplace 安装 Exa 或部署 Next.js 搜索模板，以查看 Exa 的即时搜索、深度答案以及与 Vercel 集成的内容提取。",
-        "关于 Exa：对于在 Vercel 上构建 AI 功能的开发人员来说，Exa 为代理提供了为他们组织的网络。无论您是在回答问题、监控变化还是提取结构化数据，Exa 的一种用于搜索、爬行和研究的 API 都会返回带有接地引文的标记高效的亮点，因此您的代理可以通过更少的往返、更低的成本和更低的延迟获得所需的上下文。"
-      ],
-      "highlights": [
-        "Exa 现已作为本机集成在 Vercel Agent Marketplace 上提供。",
-        "Exa 的神经搜索引擎以新鲜、当前的信息为基础人工智能提供高质量、相关的结果。在几秒钟内将 Exa 添加到您的 Vercel 应用程序中，以支持搜索、研究代理和",
-        "1 从“exa-js”导入Exa； 2 从“next/server”导入{NextResponse}； 3 const apiKey = 进程 .环境。 EXA"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Exa joins the Vercel Agent Marketplace - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-13",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/exa-joins-the-vercel-agent-marketplace",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Exa joins the Vercel Agent Marketplace - Vercel"
-      },
-      "raw": {
-        "title": "Exa joins the Vercel Agent Marketplace",
-        "url": "https://vercel.com/changelog/exa-joins-the-vercel-agent-marketplace",
-        "fetched": true,
-        "savedAt": "2026-08-15T00:54:15.482Z"
-      }
-    },
-    {
-      "id": "sig-3a85f23ac3",
-      "title": "sqlite-utils 4.2.1",
-      "oneLiner": "Release: sqlite-utils 4.2.1 Fixes a crashing bug in sqlite-utils 4.2 . I'd introduced code that look",
-      "summary": {
-        "oneSentence": "Release: sqlite-utils 4.2.1 Fixes a crashing bug in sqlite-utils 4.2 . I'd introduced code that looks like this: from ty",
-        "bullets": [
-          "Release: sqlite-utils 4.2.1 Fixes a crashing bug in sqlite-utils 4.2 . I'd introduced code that looks like this: from typing_extensions import Self It turned out the typing-extensions package was not "
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Aug/13/sqlite-utils-2/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Release: sqlite-utils 4.2.1 Fixes a crashing bug in sqlite-utils 4.2 . I'd introduced code that looks like this: from typing_extensions import Self It turned out the typing-extensions package was not listed as a dependency for sqlite-utils - it was installed by one of the other dependencies in the dev dependency group , but when you uvx sqlite-utils directly you don't get those dependencies. As part of fixing this I figured out how to run a smoke test to ensure the CLI tool still works even without those dev dependencies, which can be run from the project checkout: uv run --isolated --no-default-groups sqlite-utils --help The --no-default-groups argument prevents it from installing that default dev group, and --isolated means that even if there is a .venv/ folder containing extra dependencies they will be ignored for the duration of that uv run command. Tags: packaging , python , sqlite-utils , uv"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "sqlite-utils 4.2.1",
-      "originalLang": "en",
-      "date": "2026-08-13",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "sqlite-utils 4.2.1"
-      },
-      "raw": {
-        "title": "sqlite-utils 4.2.1",
-        "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils-2/",
-        "fetched": false,
-        "savedAt": "2026-08-16T00:56:43.284Z"
-      }
-    },
-    {
-      "id": "sig-9ae5cf1d71",
-      "title": "sqlite-utils 4.2",
-      "oneLiner": "Release: sqlite-utils 4.2 Lots of improvements in this one relating to the table.transform() feature",
-      "summary": {
-        "oneSentence": "Release: sqlite-utils 4.2 Lots of improvements in this one relating to the table.transform() feature , which adds suppor",
-        "bullets": [
-          "Release: sqlite-utils 4.2 Lots of improvements in this one relating to the table.transform() feature , which adds support for complex alter table operations by creating a fresh table, copying across t"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Aug/13/sqlite-utils/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Release: sqlite-utils 4.2 Lots of improvements in this one relating to the table.transform() feature , which adds support for complex alter table operations by creating a fresh table, copying across the data and then dropping and replacing the old one. transform() now preserves a much larger array of edge-case schema definitions, including check constraints, unique constraints and even comments describing the columns. There are also new introspection properties for check constraints, and a whole lot of other smaller changes. Includes contributions from Bunlong Heng , ethanhawkes-gif , Rami Abdelrazzaq , nyxst4ck , and ikatyal2110 . (It later turned out 4.2 had a crashing bug , fixed in 4.2.1 .) Tags: releases , sqlite , sqlite-utils"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "sqlite-utils 4.2",
-      "originalLang": "en",
-      "date": "2026-08-13",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "sqlite-utils 4.2"
-      },
-      "raw": {
-        "title": "sqlite-utils 4.2",
-        "url": "https://simonwillison.net/2026/Aug/13/sqlite-utils/",
-        "fetched": false,
-        "savedAt": "2026-08-16T00:56:44.086Z"
-      }
-    },
-    {
-      "id": "sig-6d7f7c3a03",
-      "title": "llm-gemini 0.33",
-      "oneLiner": "Release: llm-gemini 0.33 It's been a while since the last llm-gemini release. This version of the pl",
-      "summary": {
-        "oneSentence": "Release: llm-gemini 0.33 It's been a while since the last llm-gemini release. This version of the plugin adds support fo",
-        "bullets": [
-          "Release: llm-gemini 0.33 It's been a while since the last llm-gemini release. This version of the plugin adds support for today's Gemini 3.7 Flash release, plus gemini-3.6-flash , gemini-3.5-flash-lit"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Aug/13/llm-gemini/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Release: llm-gemini 0.33 It's been a while since the last llm-gemini release. This version of the plugin adds support for today's Gemini 3.7 Flash release, plus gemini-3.6-flash , gemini-3.5-flash-lite and two embedding models gemini-embedding-2 and gemini-embedding-001 . The plugin is also upgraded for compatibility with LLM 0.32, which means you can now see reasoning traces and you can also enable server-side tools using this pattern: llm -m gemini-3.7-flash -T CodeExecution \\ 'use python to calculate (factorial of 13) * 3' I had Gemini 3.7 Flash draw me some pelicans riding bicycles at high, medium, and low thinking efforts (minimal, which was an option in 3.6 Flash, has been removed in 3.7.) Here's the high level one, which is pretty great: Update 14th August 2026 : I had originally said that the SVG rendered incorrectly in Chrome and Firefox, and blamed Gemini 3.7 Flash for producing invalid SVG. That was entirely incorrect: the rendering glitch was my fault, caused by a bug In my rendering tool . I've now fixed that bug. Tags: google , ai , generative-ai , llms , llm , gemini , pelican-riding-a-bicycle , llm-release"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "llm-gemini 0.33",
-      "originalLang": "en",
-      "date": "2026-08-13",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "llm-gemini 0.33"
-      },
-      "raw": {
-        "title": "llm-gemini 0.33",
-        "url": "https://simonwillison.net/2026/Aug/13/llm-gemini/",
-        "fetched": false,
-        "savedAt": "2026-08-16T00:56:44.887Z"
-      }
-    },
-    {
-      "id": "sig-1294320a3f",
-      "title": "alchemy-utils 0.1a1",
-      "oneLiner": "Release: alchemy-utils 0.1a1 Performance boost for DuckDB exports and CSV imports, see here .",
-      "summary": {
-        "oneSentence": "Release: alchemy-utils 0.1a1 Performance boost for DuckDB exports and CSV imports, see here .",
-        "bullets": [
-          "Release: alchemy-utils 0.1a1 Performance boost for DuckDB exports and CSV imports, see here ."
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Aug/13/alchemy-utils/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Release: alchemy-utils 0.1a1 Performance boost for DuckDB exports and CSV imports, see here ."
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "alchemy-utils 0.1a1",
-      "originalLang": "en",
-      "date": "2026-08-13",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Aug/13/alchemy-utils/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "alchemy-utils 0.1a1"
-      },
-      "raw": {
-        "title": "alchemy-utils 0.1a1",
-        "url": "https://simonwillison.net/2026/Aug/13/alchemy-utils/",
-        "fetched": false,
-        "savedAt": "2026-08-16T00:56:45.688Z"
-      }
-    },
-    {
-      "id": "sig-814632afac",
-      "title": "[AINews] SpaceXAI Grok 4.6 and Grok @Bot",
-      "oneLiner": "AI teammate category just had its most significant new entrant yet",
-      "summary": {
-        "oneSentence": "AI teammate category just had its most significant new entrant yet",
-        "bullets": [
-          "AI teammate category just had its most significant new entrant yet"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://www.latent.space/p/ainews-spacexai-grok-46-and-grok"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "AI teammate category just had its most significant new entrant yet"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "[AINews] SpaceXAI Grok 4.6 and Grok @Bot",
-      "originalLang": "en",
-      "date": "2026-08-13",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Latent Space",
-        "author": "swyx",
-        "url": "https://www.latent.space/p/ainews-spacexai-grok-46-and-grok",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "[AINews] SpaceXAI Grok 4.6 and Grok @Bot"
-      },
-      "raw": {
-        "title": "[AINews] SpaceXAI Grok 4.6 and Grok @Bot",
-        "url": "https://www.latent.space/p/ainews-spacexai-grok-46-and-grok",
-        "fetched": false,
-        "savedAt": "2026-08-16T00:56:46.489Z"
       }
     }
   ]
