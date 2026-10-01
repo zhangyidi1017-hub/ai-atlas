@@ -1,78 +1,77 @@
 {
   "version": 2,
-  "updatedAt": "2026-09-30T03:34:03.467Z",
+  "updatedAt": "2026-10-01T03:39:38.846Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
   "itemCount": 420,
   "brief": {
-    "date": "2026-09-30",
-    "generatedAt": "2026-09-30T03:34:03.466Z",
+    "date": "2026-10-01",
+    "generatedAt": "2026-10-01T03:39:38.844Z",
     "totalCount": 420,
     "todayCount": 0,
     "headline": "今日 AI 信号 — 条 · 档案共 420 条",
     "topUpdates": [
       {
-        "id": "sig-7e167f46aa",
-        "title": "Figma 投资英国并扩大伦敦办事处 | Figma 博客",
+        "id": "sig-1a03c303f2",
+        "title": "Vercel Agent 现在从 npm 和自定义注册表安装私有软件包 - Vercel",
         "stars": 4,
-        "oneLiner": "通过我们新的伦敦办事处，我们与客户和社区的距离越来越近。",
+        "oneLiner": "Vercel Agent 可以使用 Vercel 上存储为共享环境变量的凭据从 npm 和自定义注册表安装私有依赖项。在 Agent 会话中运行的 npm 、 pnpm 和经典 Yarn 进行身份验证，就像在 Vercel 构建中一样。",
         "readMinutes": 5
       },
       {
-        "id": "sig-14353aeb4a",
-        "title": "从 Vercel CLI 搜索跟踪范围 - Vercel",
+        "id": "sig-66909907c3",
+        "title": "AI Gateway 添加了 Browserbase 搜索和获取工具 - Vercel",
         "stars": 4,
-        "oneLiner": "您和您的编码代理现在可以使用 vercel 跟踪搜索从终端搜索项目的跟踪范围。",
+        "oneLiner": "现在可通过 AI Gateway 使用 Browserbase 搜索和获取。与 Browserbase 现有的 AI SDK 和 Vercel Marketplace 集成一起，让您的模型访问当前信息、查找相关页面并检索其内容。",
         "readMinutes": 5
       },
       {
-        "id": "sig-dd66acaed2",
-        "title": "GPT-6.1 Sol 简介",
+        "id": "sig-15e70ee5e4",
+        "title": "Gemini 4 Argon：我们的下一个前沿情报时代",
         "stars": 4,
-        "oneLiner": "认识 GPT-6.1 Sol：以 Astra 标准 API 输入和输出代币价格的五分之一，实现接近 Astra 的编码、计算机使用和专业工作智能。",
+        "oneLiner": "Gemini 4 Argon 在现实世界的软件工程、法律和金融等企业知识工作以及网络安全防御的复杂工作流程中提供前沿性能。",
         "readMinutes": 5
       },
       {
-        "id": "sig-19db7cc5ca",
-        "title": "DevDay 2026 回顾",
+        "id": "sig-1f5e0e8176",
+        "title": "边缘请求现在称为 CDN 请求 - Vercel",
         "stars": 4,
-        "oneLiner": "探索 OpenAI DevDay 2026 的 20 多项公告，包括 GPT-6 Astra、ChatGPT、Codex、API、安全性和面向构建者的新工具。",
+        "oneLiner": "CDN 请求现在是以前称为边缘请求的使用指标的名称。这只是命名更改：定价、限制以及使用量衡量方式均未更改。",
         "readMinutes": 5
       },
       {
-        "id": "sig-884977ecb8",
-        "title": "介绍点",
+        "id": "sig-0a622a33b8",
+        "title": "SynthID Bio 简介",
         "stars": 4,
-        "oneLiner": "OpenAI 的 Dots 是积极主动的助手，可以在复杂的项目和日常任务中持续工作。了解点如何帮助您在工作进展的同时保持控制。",
+        "oneLiner": "Pushmeet Kohli、David Stutz、Ali Cowen-Rivers 和 Jeremy Ratcliff",
         "readMinutes": 5
       }
     ],
     "sections": {
       "topUpdates": [
-        "sig-7e167f46aa",
-        "sig-14353aeb4a",
-        "sig-dd66acaed2",
-        "sig-19db7cc5ca",
-        "sig-884977ecb8",
-        "sig-e48cef2e80"
+        "sig-1a03c303f2",
+        "sig-66909907c3",
+        "sig-15e70ee5e4",
+        "sig-1f5e0e8176",
+        "sig-0a622a33b8",
+        "sig-6a91381a42"
       ],
       "newReleases": [
         "sig-089c4ff63d",
         "sig-8e4f416112",
         "sig-fe5941ee46",
         "sig-f30efa9be5",
-        "sig-d822bd91a1",
-        "sig-39d537a07a"
+        "sig-d822bd91a1"
       ],
       "insights": [
-        "sig-7e167f46aa",
-        "sig-14353aeb4a",
-        "sig-dd66acaed2",
-        "sig-19db7cc5ca",
-        "sig-884977ecb8",
-        "sig-e48cef2e80",
-        "sig-cfe8e90040",
-        "sig-1eadd56271"
+        "sig-1a03c303f2",
+        "sig-66909907c3",
+        "sig-15e70ee5e4",
+        "sig-1f5e0e8176",
+        "sig-0a622a33b8",
+        "sig-6a91381a42",
+        "sig-b5e5e43443",
+        "sig-130e86a311"
       ],
       "emergingTrends": [],
       "newApis": [],
@@ -93,8 +92,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-09-30T03:34:03.467Z",
-    "summary": "近 30 天共 269 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-10-01T03:39:38.846Z",
+    "summary": "近 30 天共 259 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -109,6 +108,54 @@
     "risingTags": []
   },
   "productUpdates": [
+    {
+      "id": "sig-15e70ee5e4",
+      "title": "Gemini 4 Argon：我们的下一个前沿情报时代",
+      "oneLiner": "Gemini 4 Argon 在现实世界的软件工程、法律和金融等企业知识工作以及网络安全防御的复杂工作流程中提供前沿性能。",
+      "date": "2026-09-30",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google DeepMind",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-0a622a33b8",
+      "title": "SynthID Bio 简介",
+      "oneLiner": "Pushmeet Kohli、David Stutz、Ali Cowen-Rivers 和 Jeremy Ratcliff",
+      "date": "2026-09-30",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google DeepMind",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-6a91381a42",
+      "title": "破坏协调的模型蒸馏活动",
+      "oneLiner": "了解 OpenAI 如何破坏提取受保护模型推理的活动，并加强对对抗性蒸馏的防御。",
+      "date": "2026-09-30",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-b5e5e43443",
+      "title": "帮助小型企业将人工智能发挥作用",
+      "oneLiner": "OpenAI 正在与美国 SBDC 合作，扩大对小型企业的人工智能实践培训和本地支持，同时发布一份关于小型团队如何使用人工智能的新报告。",
+      "date": "2026-09-30",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
     {
       "id": "sig-dd66acaed2",
       "title": "GPT-6.1 Sol 简介",
@@ -348,57 +395,817 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-1d5a9cc2d9",
-      "title": "心理健康基准简介",
-      "oneLiner": "由 80 多名持证心理健康专家开发的开放基准，用于评估真实心理健康对话中的人工智能反应。",
-      "date": "2026-09-23",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-1dd9ce125c",
-      "title": "ChatGPT 广告扩展到东南亚和台湾",
-      "oneLiner": "ChatGPT 广告已扩展到亚洲的另外 7 个市场，目前已在 60 多个国家/地区推出。",
-      "date": "2026-09-23",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-73fafdf6f4",
-      "title": "Airbnb 扩大了对 GPT-6 Astra 和 OpenAI 前沿模型的访问",
-      "oneLiner": "根据一项新协议，Airbnb 将为其工程和产品开发团队提供更广泛的 OpenAI 前沿模型访问权限，包括 GPT‑6 Astra。",
-      "date": "2026-09-23",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-09a0c6dbf1",
-      "title": "Grab 和 OpenAI 为东南亚带来实用的人工智能技能",
-      "oneLiner": "我们的第一个区域技能计划将帮助 30,000 名 Grab 司机、送货员和商家合作伙伴为他们的工作和业务培养实用的人工智能技能",
-      "date": "2026-09-23",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-1a03c303f2",
+      "title": "Vercel Agent 现在从 npm 和自定义注册表安装私有软件包 - Vercel",
+      "oneLiner": "Vercel Agent 可以使用 Vercel 上存储为共享环境变量的凭据从 npm 和自定义注册表安装私有依赖项。在 Agent 会话中运行的 npm 、 pnpm 和经典 Yarn 进行身份验证，就像在 Vercel 构建中一样。",
+      "summary": {
+        "oneSentence": "Vercel Agent 可以使用 Vercel 上存储为共享环境变量的凭据从 npm 和自定义注册表安装私有依赖项。在 Agent 会话中运行的 npm 、 pnpm 和经典 Yarn 进行身份验证，就像在 Vercel 构建中一样。",
+        "bullets": [
+          "Vercel Agent 可以使用 Vercel 上存储为共享环境变量的凭据从 npm 和自定义注册表安装私有依赖项。在 Agent 会话中运行的 npm 、 pnpm 和经典 Yarn 进行身份验证，就像在 Vercel 构建中一样。",
+          "首先，为开发或预览添加共享环境变量：",
+          "对registry.npmjs.org 上托管的私有包使用 NPM_TOKEN 。",
+          "使用 NPM_RC 配置自定义或多个注册表。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel Agent 可以使用 Vercel 上存储为共享环境变量的凭据从 npm 和自定义注册表安装私有依赖项。在 Agent 会话中运行的 npm 、 pnpm 和经典 Yarn 进行身份验证，就像在 Vercel 构建中一样。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-agent-now-installs-private-packages-from-npm-and-custom-registries"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Agent 可以使用 Vercel 上存储为共享环境变量的凭据从 npm 和自定义注册表安装私有依赖项。在 Agent 会话中运行的 npm 、 pnpm 和经典 Yarn 进行身份验证，就像在 Vercel 构建中一样。",
+        "首先，为开发或预览添加共享环境变量：",
+        "对registry.npmjs.org 上托管的私有包使用 NPM_TOKEN 。",
+        "使用 NPM_RC 配置自定义或多个注册表。",
+        "Vercel Agent 仅读取团队共享的变量，而不读取项目范围内的变量。凭证值保留在沙箱之外，因此代理无法读取它们。",
+        "在私有依赖项文档中了解更多信息。"
+      ],
+      "highlights": [
+        "Vercel Agent 可以使用 Vercel 上存储为共享环境变量的凭据从 npm 和自定义注册表安装私有依赖项。在 Agent 会话中运行的 npm 、 ",
+        "首先，为开发或预览添加共享环境变量：",
+        "对registry.npmjs.org 上托管的私有包使用 NPM_TOKEN 。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Agent now installs private packages from npm and custom registries - Vercel",
+      "originalLang": "en",
+      "date": "2026-09-30",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-agent-now-installs-private-packages-from-npm-and-custom-registries",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Agent now installs private packages from npm and custom registries - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Agent now installs private packages from npm and custom registries",
+        "url": "https://vercel.com/changelog/vercel-agent-now-installs-private-packages-from-npm-and-custom-registries",
+        "fetched": true,
+        "savedAt": "2026-10-01T03:38:29.661Z"
+      }
+    },
+    {
+      "id": "sig-66909907c3",
+      "title": "AI Gateway 添加了 Browserbase 搜索和获取工具 - Vercel",
+      "oneLiner": "现在可通过 AI Gateway 使用 Browserbase 搜索和获取。与 Browserbase 现有的 AI SDK 和 Vercel Marketplace 集成一起，让您的模型访问当前信息、查找相关页面并检索其内容。",
+      "summary": {
+        "oneSentence": "现在可通过 AI Gateway 使用 Browserbase 搜索和获取。与 Browserbase 现有的 AI SDK 和 Vercel Marketplace 集成一起，让您的模型访问当前信息、查找相关页面并检索其内容。",
+        "bullets": [
+          "现在可通过 AI Gateway 使用 Browserbase 搜索和获取。与 Browserbase 现有的 AI SDK 和 Vercel Marketplace 集成一起，让您的模型访问当前信息、查找相关页面并检索其内容。",
+          "AI Gateway 让您可以通过一个 API 密钥跨模型提供商使用 Browserbase 的工具。为任何支持工具调用的模型添加网页搜索和页面检索，并在切换模型时保留相同的工具。",
+          "这些助手在 AI SDK 7.0.116 及更高版本中可用。使用 pnpm add ai@latest 进行更新并设置您的 AI_GATEWAY_API_KEY 。要添加搜索和获取，请在 tools 中传递帮助程序。",
+          "1 从 'ai' 导入 { gateway , streamText } ； 2 3 const result = streamText ( { 4 model : 'moonshotai/kimi-k3' , 5prompt : '查找Browserbase的最新公告，获取页面并进行总结。' , 6tools : {"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：现在可通过 AI Gateway 使用 Browserbase 搜索和获取。与 Browserbase 现有的 AI SDK 和 Vercel Marketplace 集成一起，让您的模型访问当前信息、查找相关页面并检索其内容。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/ai-gateway-adds-browserbase-search-and-fetch-tools"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "现在可通过 AI Gateway 使用 Browserbase 搜索和获取。与 Browserbase 现有的 AI SDK 和 Vercel Marketplace 集成一起，让您的模型访问当前信息、查找相关页面并检索其内容。",
+        "AI Gateway 让您可以通过一个 API 密钥跨模型提供商使用 Browserbase 的工具。为任何支持工具调用的模型添加网页搜索和页面检索，并在切换模型时保留相同的工具。",
+        "这些助手在 AI SDK 7.0.116 及更高版本中可用。使用 pnpm add ai@latest 进行更新并设置您的 AI_GATEWAY_API_KEY 。要添加搜索和获取，请在 tools 中传递帮助程序。",
+        "1 从 'ai' 导入 { gateway , streamText } ； 2 3 const result = streamText ( { 4 model : 'moonshotai/kimi-k3' , 5prompt : '查找Browserbase的最新公告，获取页面并进行总结。' , 6tools : { 7 browserbase_search : gateway .tools . browserbaseSearch({ numResults : 3 } ) , 8 browserbase_fetch : gateway.tools . browserbaseFetch({9allowRedirects:true,10}),11},12});",
+        "有关定价和配置选项，请参阅 Browserbase 搜索和获取文档 。",
+        "尝试 AI Gateway 模型游乐场中的 Browserbase 工具，或探索模型目录。",
+        "AI Gateway 提供了一个 API，用于调用模型、跟踪使用情况和成本以及配置路由、重试和故障转移。您可以使用 AI Gateway API 密钥或携带您自己的提供商密钥。"
+      ],
+      "highlights": [
+        "现在可通过 AI Gateway 使用 Browserbase 搜索和获取。与 Browserbase 现有的 AI SDK 和 Vercel Marketpl",
+        "AI Gateway 让您可以通过一个 API 密钥跨模型提供商使用 Browserbase 的工具。为任何支持工具调用的模型添加网页搜索和页面检索，并在切换模",
+        "这些助手在 AI SDK 7.0.116 及更高版本中可用。使用 pnpm add ai@latest 进行更新并设置您的 AI_GATEWAY_API_KEY"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "AI Gateway adds Browserbase Search and Fetch tools - Vercel",
+      "originalLang": "en",
+      "date": "2026-09-30",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/ai-gateway-adds-browserbase-search-and-fetch-tools",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "AI Gateway adds Browserbase Search and Fetch tools - Vercel"
+      },
+      "raw": {
+        "title": "AI Gateway adds Browserbase Search and Fetch tools",
+        "url": "https://vercel.com/changelog/ai-gateway-adds-browserbase-search-and-fetch-tools",
+        "fetched": true,
+        "savedAt": "2026-10-01T03:38:37.717Z"
+      }
+    },
+    {
+      "id": "sig-15e70ee5e4",
+      "title": "Gemini 4 Argon：我们的下一个前沿情报时代",
+      "oneLiner": "Gemini 4 Argon 在现实世界的软件工程、法律和金融等企业知识工作以及网络安全防御的复杂工作流程中提供前沿性能。",
+      "summary": {
+        "oneSentence": "Gemini 4 Argon 在现实世界的软件工程、法律和金融等企业知识工作以及网络安全防御的复杂工作流程中提供前沿性能。",
+        "bullets": [
+          "Gemini 4 Argon 在现实世界的软件工程、法律和金融等企业知识工作以及网络安全防御的复杂工作流程中提供前沿性能。",
+          "谷歌 DeepMind 高级副总裁兼首席人工智能架构师",
+          "您的浏览器不支持音频元素。",
+          "今天，我们宣布推出新的前沿模型 Gemini 4 Argon，该模型将通过我们的 Fairwind 计划向一组值得信赖的网络防御者推出。 Argon 旨在支持跨复杂、长期工作流程的深度推理，它从根本上改变了我们在 Google 的工作和构建方式。它在现实世界软件工程、法律和金融等企业知识工作以及网络安全防御的复杂工作流"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google DeepMind 官网发布：Gemini 4 Argon 在现实世界的软件工程、法律和金融等企业知识工作以及网络安全防御的复杂工作流程中提供前沿性能。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "Gemini 4 Argon 在现实世界的软件工程、法律和金融等企业知识工作以及网络安全防御的复杂工作流程中提供前沿性能。",
+        "谷歌 DeepMind 高级副总裁兼首席人工智能架构师",
+        "您的浏览器不支持音频元素。",
+        "今天，我们宣布推出新的前沿模型 Gemini 4 Argon，该模型将通过我们的 Fairwind 计划向一组值得信赖的网络防御者推出。 Argon 旨在支持跨复杂、长期工作流程的深度推理，它从根本上改变了我们在 Google 的工作和构建方式。它在现实世界软件工程、法律和金融等企业知识工作以及网络安全防御的复杂工作流程中提供前沿性能。",
+        "在这个级别安全地释放前沿能力需要采取分阶段的方法。我们积极参与美国政府的预发布模型访问自愿流程，同时逐步扩大访问范围。我们将继续收集早期测试人员的反馈，同时迭代护栏，然后尽快将 Argon 提供给开发人员、企业和消费者。",
+        "Argon 将以每百万输入代币 2 美元的介绍性价格 1 和每百万输出代币 10 美元的介绍性价格 1 推出，缓存输入代币的价格为输入代币价格的 95%。",
+        "Gemini 4 Argon 已经为我们的内部工作流程提供了动力，数千名 Google 员工强调了该模型在专门编码任务、进行更深入研究和写作质量方面的优势。它帮助团队更快地构建、突破工程生产力的界限并加速突破：",
+        "为了支持 Gemini 4 Argon 在更长、更复杂的用例中的功能，我们将模型的输出代币限制从之前的 64K 代币大幅扩展至行业领先的 100 万代币。当模型有足够的空间进行深入思考并在单个轨迹中生成数十万个令牌时，它会增加推理的深度，从而一次性解决棘手的问题。",
+        "Gemini 4 Argon 的编码、推理和多模态功能以及维持长期、多步骤任务的能力使其能够在各种企业工作流程中表现出色。",
+        "谷歌工程师一直在使用 Argon 来完成日常任务，从日常调试到大规模代码库迁移和算法设计。它为 DeepSWE v1.1 (77.9%) 设定了新的技术水平，该版本衡量模型在现实世界的长期软件工程任务中的性能。"
+      ],
+      "highlights": [
+        "Gemini 4 Argon 在现实世界的软件工程、法律和金融等企业知识工作以及网络安全防御的复杂工作流程中提供前沿性能。",
+        "谷歌 DeepMind 高级副总裁兼首席人工智能架构师",
+        "您的浏览器不支持音频元素。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Gemini 4 Argon: our next era of frontier intelligence",
+      "originalLang": "en",
+      "date": "2026-09-30",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google DeepMind",
+        "author": "DeepMind",
+        "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+        "home": "https://deepmind.google/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Gemini 4 Argon: our next era of frontier intelligence"
+      },
+      "raw": {
+        "title": "Gemini 4 Argon: our next era of frontier intelligence",
+        "url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/",
+        "fetched": true,
+        "savedAt": "2026-10-01T03:38:42.267Z"
+      }
+    },
+    {
+      "id": "sig-1f5e0e8176",
+      "title": "边缘请求现在称为 CDN 请求 - Vercel",
+      "oneLiner": "CDN 请求现在是以前称为边缘请求的使用指标的名称。这只是命名更改：定价、限制以及使用量衡量方式均未更改。",
+      "summary": {
+        "oneSentence": "CDN 请求现在是以前称为边缘请求的使用指标的名称。这只是命名更改：定价、限制以及使用量衡量方式均未更改。",
+        "bullets": [
+          "CDN 请求现在是以前称为边缘请求的使用指标的名称。这只是命名更改：定价、限制以及使用量衡量方式均未更改。",
+          "新名称将显示在使用情况仪表板、可观察性事件图表、使用情况通知和发票行项目上。它反映出这些请求是由 Vercel 的 CDN 提供服务的。指标 ID 和产品别名保持不变，因此保存的查询仍然有效。在计费 API 中，ServiceName 现在返回新名称。与 ServiceName 费用匹配的集成应切换到新的 SkuId ",
+          "有关详细信息，请参阅 CDN 定价和使用文档。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：CDN 请求现在是以前称为边缘请求的使用指标的名称。这只是命名更改：定价、限制以及使用量衡量方式均未更改。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/edge-requests-are-now-called-cdn-requests"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "CDN 请求现在是以前称为边缘请求的使用指标的名称。这只是命名更改：定价、限制以及使用量衡量方式均未更改。",
+        "新名称将显示在使用情况仪表板、可观察性事件图表、使用情况通知和发票行项目上。它反映出这些请求是由 Vercel 的 CDN 提供服务的。指标 ID 和产品别名保持不变，因此保存的查询仍然有效。在计费 API 中，ServiceName 现在返回新名称。与 ServiceName 费用匹配的集成应切换到新的 SkuId 字段，该字段在重命名后保持稳定。",
+        "有关详细信息，请参阅 CDN 定价和使用文档。"
+      ],
+      "highlights": [
+        "CDN 请求现在是以前称为边缘请求的使用指标的名称。这只是命名更改：定价、限制以及使用量衡量方式均未更改。",
+        "新名称将显示在使用情况仪表板、可观察性事件图表、使用情况通知和发票行项目上。它反映出这些请求是由 Vercel 的 CDN 提供服务的。指标 ID 和产品别名保",
+        "有关详细信息，请参阅 CDN 定价和使用文档。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Edge Requests are now called CDN Requests - Vercel",
+      "originalLang": "en",
+      "date": "2026-09-30",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/edge-requests-are-now-called-cdn-requests",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Edge Requests are now called CDN Requests - Vercel"
+      },
+      "raw": {
+        "title": "Edge Requests are now called CDN Requests",
+        "url": "https://vercel.com/changelog/edge-requests-are-now-called-cdn-requests",
+        "fetched": true,
+        "savedAt": "2026-10-01T03:38:46.640Z"
+      }
+    },
+    {
+      "id": "sig-0a622a33b8",
+      "title": "SynthID Bio 简介",
+      "oneLiner": "Pushmeet Kohli、David Stutz、Ali Cowen-Rivers 和 Jeremy Ratcliff",
+      "summary": {
+        "oneSentence": "Pushmeet Kohli、David Stutz、Ali Cowen-Rivers 和 Jeremy Ratcliff",
+        "bullets": [
+          "Pushmeet Kohli、David Stutz、Ali Cowen-Rivers 和 Jeremy Ratcliff",
+          "分享复制的对人工智能生成的蛋白质加水印同时保留生物功能的概念证明。",
+          "今天，我们推出 SynthID Bio，将水印技术引入合成生物学。 SynthID Bio 将难以察觉的签名直接嵌入到生物代码中，确保水印不仅可以在数字模型上验证，而且可以在合成的物理蛋白质本身上验证，同时在实验室测试中保留其生物功能。",
+          "生成式 AI 正在帮助科学家解决关键的生物学挑战，从预测蛋白质结构 (AlphaFold) 到设计全新蛋白质（AlphaProteo 和 ProteinMPNN），以及最近开发新的噬菌体、感染细菌的病毒。然而，这些工具也带来了新的挑战：新颖的人工智能设计可以绕过传统的 DNA 合成筛选，而错误标记的合成 3D 结构可能"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google DeepMind 官网发布：Pushmeet Kohli、David Stutz、Ali Cowen-Rivers 和 Jeremy Ratcliff",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://deepmind.google/blog/introducing-synthid-bio/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "Pushmeet Kohli、David Stutz、Ali Cowen-Rivers 和 Jeremy Ratcliff",
+        "分享复制的对人工智能生成的蛋白质加水印同时保留生物功能的概念证明。",
+        "今天，我们推出 SynthID Bio，将水印技术引入合成生物学。 SynthID Bio 将难以察觉的签名直接嵌入到生物代码中，确保水印不仅可以在数字模型上验证，而且可以在合成的物理蛋白质本身上验证，同时在实验室测试中保留其生物功能。",
+        "生成式 AI 正在帮助科学家解决关键的生物学挑战，从预测蛋白质结构 (AlphaFold) 到设计全新蛋白质（AlphaProteo 和 ProteinMPNN），以及最近开发新的噬菌体、感染细菌的病毒。然而，这些工具也带来了新的挑战：新颖的人工智能设计可以绕过传统的 DNA 合成筛选，而错误标记的合成 3D 结构可能会污染公共数据库并误导下游研究。",
+        "SynthID Bio 是专门为合成生物学开发的一系列水印方法，旨在加强生物安全性和科学完整性。",
+        "它根据数据类型调整其方法，巧妙地指导序列氨基酸的选择并调整预测的 3D 结构的原子坐标，从而创建可靠的检测信号。",
+        "在实验中，这些调整并没有损害蛋白质的生物学功能，这对于有效治疗疾病和推进科学研究至关重要。",
+        "我们的水印 VEGF-A 蛋白结合物的预测结构的可视化，其中水印信号由每个氨基酸的颜色指示。",
+        "我们验证了我们的蛋白质结合物水印方法，即通过使用我们的结合物设计方法 AlphaProteo 以及 SynthID Bio 版本的 ProteinMPNN（常用的蛋白质序列生成方法）来选择性地锁定其他蛋白质。",
+        "在针对三种目标蛋白（VEGF-A、SARS-CoV-2 刺突蛋白 RBD 和 PD-L1）的湿式实验室测试中，我们的水印设计与未水印版本的命中率、结合亲和力和自然序列多样性相匹配，成功创建了有史以来第一个水印且具有生物功能的蛋白质结合物。"
+      ],
+      "highlights": [
+        "Pushmeet Kohli、David Stutz、Ali Cowen-Rivers 和 Jeremy Ratcliff",
+        "分享复制的对人工智能生成的蛋白质加水印同时保留生物功能的概念证明。",
+        "今天，我们推出 SynthID Bio，将水印技术引入合成生物学。 SynthID Bio 将难以察觉的签名直接嵌入到生物代码中，确保水印不仅可以在数字模型上验"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Introducing SynthID Bio",
+      "originalLang": "en",
+      "date": "2026-09-30",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google DeepMind",
+        "author": "DeepMind",
+        "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+        "home": "https://deepmind.google/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Introducing SynthID Bio"
+      },
+      "raw": {
+        "title": "Introducing SynthID Bio",
+        "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+        "fetched": true,
+        "savedAt": "2026-10-01T03:38:51.935Z"
+      }
+    },
+    {
+      "id": "sig-6a91381a42",
+      "title": "破坏协调的模型蒸馏活动",
+      "oneLiner": "了解 OpenAI 如何破坏提取受保护模型推理的活动，并加强对对抗性蒸馏的防御。",
+      "summary": {
+        "oneSentence": "了解 OpenAI 如何破坏提取受保护模型推理的活动，并加强对对抗性蒸馏的防御。",
+        "bullets": [
+          "了解 OpenAI 如何破坏提取受保护模型推理的活动，并加强对对抗性蒸馏的防御。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：了解 OpenAI 如何破坏提取受保护模型推理的活动，并加强对对抗性蒸馏的防御。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "了解 OpenAI 如何破坏提取受保护模型推理的活动，并加强对对抗性蒸馏的防御。"
+      ],
+      "highlights": [
+        "了解 OpenAI 如何破坏提取受保护模型推理的活动，并加强对对抗性蒸馏的防御。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Disrupting a coordinated model-distillation campaign",
+      "originalLang": "en",
+      "date": "2026-09-30",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Disrupting a coordinated model-distillation campaign"
+      },
+      "raw": {
+        "title": "Disrupting a coordinated model-distillation campaign",
+        "url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+        "fetched": false,
+        "savedAt": "2026-10-01T03:38:53.140Z"
+      }
+    },
+    {
+      "id": "sig-b5e5e43443",
+      "title": "帮助小型企业将人工智能发挥作用",
+      "oneLiner": "OpenAI 正在与美国 SBDC 合作，扩大对小型企业的人工智能实践培训和本地支持，同时发布一份关于小型团队如何使用人工智能的新报告。",
+      "summary": {
+        "oneSentence": "OpenAI 正在与美国 SBDC 合作，扩大对小型企业的人工智能实践培训和本地支持，同时发布一份关于小型团队如何使用人工智能的新报告。",
+        "bullets": [
+          "OpenAI 正在与美国 SBDC 合作，扩大对小型企业的人工智能实践培训和本地支持，同时发布一份关于小型团队如何使用人工智能的新报告。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 正在与美国 SBDC 合作，扩大对小型企业的人工智能实践培训和本地支持，同时发布一份关于小型团队如何使用人工智能的新报告。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/helping-small-businesses-put-ai-to-work"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 正在与美国 SBDC 合作，扩大对小型企业的人工智能实践培训和本地支持，同时发布一份关于小型团队如何使用人工智能的新报告。"
+      ],
+      "highlights": [
+        "OpenAI 正在与美国 SBDC 合作，扩大对小型企业的人工智能实践培训和本地支持，同时发布一份关于小型团队如何使用人工智能的新报告。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Helping small businesses put AI to work",
+      "originalLang": "en",
+      "date": "2026-09-30",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Helping small businesses put AI to work"
+      },
+      "raw": {
+        "title": "Helping small businesses put AI to work",
+        "url": "https://openai.com/index/helping-small-businesses-put-ai-to-work",
+        "fetched": false,
+        "savedAt": "2026-10-01T03:38:54.334Z"
+      }
+    },
+    {
+      "id": "sig-130e86a311",
+      "title": "Vercel Sandbox 现在支持安全计算 - Vercel",
+      "oneLiner": "Vercel Sandbox 现在支持安全计算，将沙箱连接到团队的专用网络。公共互联网流量通过网络的静态 IP 退出，沙箱可以通过 VPC 对等互连访问 AWS VPC 中的私有资源。",
+      "summary": {
+        "oneSentence": "Vercel Sandbox 现在支持安全计算，将沙箱连接到团队的专用网络。公共互联网流量通过网络的静态 IP 退出，沙箱可以通过 VPC 对等互连访问 AWS VPC 中的私有资源。",
+        "bullets": [
+          "Vercel Sandbox 现在支持安全计算，将沙箱连接到团队的专用网络。公共互联网流量通过网络的静态 IP 退出，沙箱可以通过 VPC 对等互连访问 AWS VPC 中的私有资源。",
+          "您可以在代码中或通过 CLI 将沙箱附加到网络。",
+          "在您的代码中，创建沙箱时传递现有的安全计算网络 ID：",
+          "1 从 '@vercel/sandbox' 导入 { Sandbox } ； 2 3 const sandbox =等待Sandbox。创建（{4网络ID：'3k9x7m2p5q8w1z4n'，5}）；"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel Sandbox 现在支持安全计算，将沙箱连接到团队的专用网络。公共互联网流量通过网络的静态 IP 退出，沙箱可以通过 VPC 对等互连访问 AWS VPC 中的私有资源。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-sandbox-now-supports-secure-compute"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Sandbox 现在支持安全计算，将沙箱连接到团队的专用网络。公共互联网流量通过网络的静态 IP 退出，沙箱可以通过 VPC 对等互连访问 AWS VPC 中的私有资源。",
+        "您可以在代码中或通过 CLI 将沙箱附加到网络。",
+        "在您的代码中，创建沙箱时传递现有的安全计算网络 ID：",
+        "1 从 '@vercel/sandbox' 导入 { Sandbox } ； 2 3 const sandbox =等待Sandbox。创建（{4网络ID：'3k9x7m2p5q8w1z4n'，5}）；",
+        "在 CLI 中，运行 sandbox create 命令时附加 --network-id 和您的网络 ID 值：",
+        "1 npx sandbox@latest create --network-id your_network_id_here",
+        "现有的沙箱可以使用 sandbox.update() 附加到或更改网络。该更改将在下一个会话中生效。正在运行的会话将保留其当前网络直至其停止。",
+        "可供具有安全计算功能的企业团队使用。",
+        "在沙盒文档中了解更多信息。"
+      ],
+      "highlights": [
+        "Vercel Sandbox 现在支持安全计算，将沙箱连接到团队的专用网络。公共互联网流量通过网络的静态 IP 退出，沙箱可以通过 VPC 对等互连访问 AWS",
+        "您可以在代码中或通过 CLI 将沙箱附加到网络。",
+        "在您的代码中，创建沙箱时传递现有的安全计算网络 ID："
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Sandbox now supports Secure Compute - Vercel",
+      "originalLang": "en",
+      "date": "2026-09-30",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-sandbox-now-supports-secure-compute",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Sandbox now supports Secure Compute - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Sandbox now supports Secure Compute",
+        "url": "https://vercel.com/changelog/vercel-sandbox-now-supports-secure-compute",
+        "fetched": true,
+        "savedAt": "2026-10-01T03:39:03.011Z"
+      }
+    },
+    {
+      "id": "sig-d24dd6cc12",
+      "title": "Ling 3.1 Flash 现已在 AI Gateway 上可用 - Vercel",
+      "oneLiner": "InclusionAI 的 Ling 3.1 Flash 现已在 AI Gateway 上提供。该模型在 2026 年 10 月 13 日之前可免费使用。",
+      "summary": {
+        "oneSentence": "InclusionAI 的 Ling 3.1 Flash 现已在 AI Gateway 上提供。该模型在 2026 年 10 月 13 日之前可免费使用。",
+        "bullets": [
+          "InclusionAI 的 Ling 3.1 Flash 现已在 AI Gateway 上提供。该模型在 2026 年 10 月 13 日之前可免费使用。",
+          "Ling 3.1 Flash 是一种混合推理语言模型，总参数为 560B，每个 token 为 25B 活跃。它在 AI Gateway 上有一个 262K 令牌上下文窗口。",
+          "该模型专为编码、多步骤分析和使用工具的代理而设计，包括涉及长文档、代码和扩展任务历史记录的工作流程。",
+          "要尝试 Ling 3.1 Flash，请使用clusionai/ling-3.1-flash 或clusionai/ling-3.1-flash-free 作为型号名称："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：InclusionAI 的 Ling 3.1 Flash 现已在 AI Gateway 上提供。该模型在 2026 年 10 月 13 日之前可免费使用。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/ling-3-1-flash-is-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "InclusionAI 的 Ling 3.1 Flash 现已在 AI Gateway 上提供。该模型在 2026 年 10 月 13 日之前可免费使用。",
+        "Ling 3.1 Flash 是一种混合推理语言模型，总参数为 560B，每个 token 为 25B 活跃。它在 AI Gateway 上有一个 262K 令牌上下文窗口。",
+        "该模型专为编码、多步骤分析和使用工具的代理而设计，包括涉及长文档、代码和扩展任务历史记录的工作流程。",
+        "要尝试 Ling 3.1 Flash，请使用clusionai/ling-3.1-flash 或clusionai/ling-3.1-flash-free 作为型号名称：",
+        "API 克劳德代码 Codex fx API API 克劳德代码 克劳德代码 Codex Codex fx fx 1 import {streamText } from 'ai' ; 2 3 const result = streamText ({ 4 model : 'inclusionai/ling-3.1-flash-free' , 5prompt : '分类此存储库中的未解决问题并按主题分组。' , 6 } ) ;代理商副本 查看型号详细信息 ↗ 标准型号 ID 在促销期间免费，并在促销结束后开始计费。当免费促销结束时，-free 模型 ID 将停止服务而不是计费。",
+        "要在编码代理中使用 Ling 3.1 Flash，请遵循 AI Gateway 编码代理指南并选择clusionai/ling-3.1-flash 作为模型。",
+        "在 AI Gateway 模型游乐场中尝试 Ling 3.1 Flash，或浏览模型目录。",
+        "AI Gateway 提供了一个 API，用于调用模型、跟踪使用情况和成本以及配置路由、重试和故障转移。您可以使用 AI Gateway API 密钥或携带您自己的提供商密钥。"
+      ],
+      "highlights": [
+        "InclusionAI 的 Ling 3.1 Flash 现已在 AI Gateway 上提供。该模型在 2026 年 10 月 13 日之前可免费使用。",
+        "Ling 3.1 Flash 是一种混合推理语言模型，总参数为 560B，每个 token 为 25B 活跃。它在 AI Gateway 上有一个 262K 令",
+        "该模型专为编码、多步骤分析和使用工具的代理而设计，包括涉及长文档、代码和扩展任务历史记录的工作流程。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Ling 3.1 Flash is now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-09-30",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/ling-3-1-flash-is-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Ling 3.1 Flash is now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Ling 3.1 Flash is now available on AI Gateway",
+        "url": "https://vercel.com/changelog/ling-3-1-flash-is-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-10-01T03:39:10.952Z"
+      }
+    },
+    {
+      "id": "sig-592ec2d894",
+      "title": "Vercel CDN 不再缓存带有 Vary: Cookie 的响应 - Vercel",
+      "oneLiner": "当 Vary 包含 Cookie 时，Vercel CDN 不再缓存源响应。",
+      "summary": {
+        "oneSentence": "当 Vary 包含 Cookie 时，Vercel CDN 不再缓存源响应。",
+        "bullets": [
+          "当 Vary 包含 Cookie 时，Vercel CDN 不再缓存源响应。",
+          "Vary 告诉缓存哪些请求标头可能会更改响应。由于 Cookie 通常包含特定于访问者的值，因此 Cookie 的变化可能会创建许多很少重用的缓存条目。响应仍然正常提供，但不会存储以供将来的请求使用。",
+          "您可以通过检查 x-vercel-cache 标头和运行时日志来识别这些响应。标头设置为 MISS ，并且日志显示 Variable_key_denied:cookie 作为缓存原因。",
+          "如果日志显示您希望缓存的路由的varie_key_denied:cookie，请检查您的源返回的Vary标头："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：当 Vary 包含 Cookie 时，Vercel CDN 不再缓存源响应。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vary-cookie-responses-no-longer-cached"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "当 Vary 包含 Cookie 时，Vercel CDN 不再缓存源响应。",
+        "Vary 告诉缓存哪些请求标头可能会更改响应。由于 Cookie 通常包含特定于访问者的值，因此 Cookie 的变化可能会创建许多很少重用的缓存条目。响应仍然正常提供，但不会存储以供将来的请求使用。",
+        "您可以通过检查 x-vercel-cache 标头和运行时日志来识别这些响应。标头设置为 MISS ，并且日志显示 Variable_key_denied:cookie 作为缓存原因。",
+        "如果日志显示您希望缓存的路由的varie_key_denied:cookie，请检查您的源返回的Vary标头：",
+        "如果无论 cookie 如何，响应都是相同的，则从 Vary 中删除 Cookie。如果 Vercel CDN 满足其他缓存要求，则可以对其进行缓存。",
+        "如果响应依赖于cookie，请将Cookie保留在Vary中，并使用Cache-Control: private，以防止个性化响应存储在共享CDN缓存中。",
+        "其他受支持的 Vary 标头的缓存行为保持不变。",
+        "了解有关高基数标头和variate_key_denied 缓存原因的更多信息。"
+      ],
+      "highlights": [
+        "当 Vary 包含 Cookie 时，Vercel CDN 不再缓存源响应。",
+        "Vary 告诉缓存哪些请求标头可能会更改响应。由于 Cookie 通常包含特定于访问者的值，因此 Cookie 的变化可能会创建许多很少重用的缓存条目。响应仍然",
+        "您可以通过检查 x-vercel-cache 标头和运行时日志来识别这些响应。标头设置为 MISS ，并且日志显示 Variable_key_denied:co"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel CDN no longer caches responses with Vary: Cookie - Vercel",
+      "originalLang": "en",
+      "date": "2026-09-30",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vary-cookie-responses-no-longer-cached",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel CDN no longer caches responses with Vary: Cookie - Vercel"
+      },
+      "raw": {
+        "title": "Vercel CDN no longer caches responses with Vary: Cookie",
+        "url": "https://vercel.com/changelog/vary-cookie-responses-no-longer-cached",
+        "fetched": true,
+        "savedAt": "2026-10-01T03:39:19.465Z"
+      }
+    },
     {
       "id": "sig-7e167f46aa",
       "title": "Figma 投资英国并扩大伦敦办事处 | Figma 博客",
@@ -1747,19 +2554,22 @@
     },
     {
       "id": "sig-1c4c388810",
-      "title": "Claude Sonnet 5.5 now available on AI Gateway",
-      "oneLiner": "Claude Sonnet 5.5 from Anthropic is now available on AI Gateway as anthropic/claude-sonnet-5.5 . Son",
+      "title": "Claude Sonnet 5.5 现已在 AI Gateway - Vercel 上提供",
+      "oneLiner": "Anthropic 的 Claude Sonnet 5.5 现已在 AI Gateway 上提供，名称为 anthropic/claude-sonnet-5.5 。",
       "summary": {
-        "oneSentence": "Claude Sonnet 5.5 from Anthropic is now available on AI Gateway as anthropic/claude-sonnet-5.5 . Sonnet 5.5 improves on ",
+        "oneSentence": "Anthropic 的 Claude Sonnet 5.5 现已在 AI Gateway 上提供，名称为 anthropic/claude-sonnet-5.5 。",
         "bullets": [
-          "Claude Sonnet 5.5 from Anthropic is now available on AI Gateway as anthropic/claude-sonnet-5.5 . Sonnet 5.5 improves on Claude Sonnet 5 for well-scoped everyday work, from building features and fixing"
+          "Anthropic 的 Claude Sonnet 5.5 现已在 AI Gateway 上提供，名称为 anthropic/claude-sonnet-5.5 。",
+          "Sonnet 5.5 在 Claude Sonnet 5 的基础上进行了改进，适用于范围广泛的日常工作，从构建功能和修复错误到创建文档、幻灯片和电子表格。",
+          "在编码任务上，Sonnet 5.5 通过多个步骤进行更改，并在报告完成之前检查其工作。它可以生成更精美的文档、幻灯片和电子表格，并减少后续编辑，并编写更清晰的解释和报告。它还提高了桌面应用程序的使用以及图表和技术图纸的阅读能力。",
+          "Sonnet 5.5支持AI网关上的零数据保留。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：Anthropic 的 Claude Sonnet 5.5 现已在 AI Gateway 上提供，名称为 anthropic/claude-sonnet-5.5 。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -1767,32 +2577,36 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://vercel.com/changelog/claude-sonnet-5-5-now-available-on-ai-gateway"
+          "阅读原文（英文）：https://vercel.com/changelog/claude-sonnet-5-5-now-available-on-ai-gateway"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "Claude Sonnet 5.5 from Anthropic is now available on AI Gateway as anthropic/claude-sonnet-5.5 .",
-        "Sonnet 5.5 improves on Claude Sonnet 5 for well-scoped everyday work, from building features and fixing bugs to creating documents, slides, and spreadsheets.",
-        "On coding tasks, Sonnet 5.5 carries changes through multiple steps and checks its work before reporting completion. It produces more polished documents, slides, and spreadsheets with fewer follow-up edits, and writes clearer explanations and reports. It also improves at using desktop apps and reading charts and technical drawings.",
-        "Sonnet 5.5 supports Zero Data Retention on AI Gateway.",
-        "Use Sonnet 5.5 with the AI SDK , OpenAI-compatible Chat Completions API , Responses API , or Anthropic Messages API . You can also select it in a coding agent connected to AI Gateway.",
-        "API Claude Code fx Chat Completions Messages API API API Claude Code Claude Code fx fx Chat Completions Chat Completions Messages API Messages API 1 import { streamText } from 'ai' ; 2 3 const result = streamText ( { 4 model : 'anthropic/claude-sonnet-5.5' , 5 prompt : 'Fix the failing test and verify the change.' , 6 } ) ; Copy for agent View model details ↗ For coding agents, run npx vercel ai-gateway setup and select anthropic/claude-sonnet-5.5 in your agent's model settings.",
-        "Try Sonnet 5.5 in the AI Gateway model playground , or explore the model catalog .",
-        "AI Gateway provides one API for calling models, tracking usage and cost, and configuring routing, retries, and failover. You can use an AI Gateway API key or bring your own provider key ."
+        "Anthropic 的 Claude Sonnet 5.5 现已在 AI Gateway 上提供，名称为 anthropic/claude-sonnet-5.5 。",
+        "Sonnet 5.5 在 Claude Sonnet 5 的基础上进行了改进，适用于范围广泛的日常工作，从构建功能和修复错误到创建文档、幻灯片和电子表格。",
+        "在编码任务上，Sonnet 5.5 通过多个步骤进行更改，并在报告完成之前检查其工作。它可以生成更精美的文档、幻灯片和电子表格，并减少后续编辑，并编写更清晰的解释和报告。它还提高了桌面应用程序的使用以及图表和技术图纸的阅读能力。",
+        "Sonnet 5.5支持AI网关上的零数据保留。",
+        "将 Sonnet 5.5 与 AI SDK、OpenAI 兼容的聊天完成 API、响应 API 或 Anthropic Messages API 结合使用。您也可以在连接到AI网关的编码代理中选择它。",
+        "API Claude Code fx 聊天完成消息 API API API Claude Code Claude Code fx fx 聊天完成 聊天完成消息 API 消息 API 1 import {streamText } from 'ai' ; 2 3 const result =streamText({4 model: 'anthropic/claude-sonnet-5.5', 5prompt: '修复失败的测试并验证更改。', 6});复制代理查看模型详细信息 ↗ 对于编码代理，运行 npx vercel ai-gateway setup 并在代理的模型设置中选择 anthropic/claude-sonnet-5.5。",
+        "在 AI Gateway 模型游乐场中尝试 Sonnet 5.5，或探索模型目录。",
+        "AI Gateway 提供了一个 API，用于调用模型、跟踪使用情况和成本以及配置路由、重试和故障转移。您可以使用 AI Gateway API 密钥或携带您自己的提供商密钥。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "Anthropic 的 Claude Sonnet 5.5 现已在 AI Gateway 上提供，名称为 anthropic/claude-sonnet-5.5",
+        "Sonnet 5.5 在 Claude Sonnet 5 的基础上进行了改进，适用于范围广泛的日常工作，从构建功能和修复错误到创建文档、幻灯片和电子表格。",
+        "在编码任务上，Sonnet 5.5 通过多个步骤进行更改，并在报告完成之前检查其工作。它可以生成更精美的文档、幻灯片和电子表格，并减少后续编辑，并编写更清晰的解"
+      ],
+      "translated": true,
       "originalTitle": "Claude Sonnet 5.5 now available on AI Gateway - Vercel",
       "originalLang": "en",
       "date": "2026-09-28",
@@ -1808,16 +2622,18 @@
         "url": "https://vercel.com/changelog/claude-sonnet-5-5-now-available-on-ai-gateway",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Claude Sonnet 5.5 now available on AI Gateway - Vercel"
       },
       "raw": {
         "title": "Claude Sonnet 5.5 now available on AI Gateway",
         "url": "https://vercel.com/changelog/claude-sonnet-5-5-now-available-on-ai-gateway",
         "fetched": true,
-        "savedAt": "2026-09-29T03:45:51.278Z"
-      }
+        "savedAt": "2026-09-29T03:45:51.278Z",
+        "retranslatedAt": "2026-10-01T03:39:26.661Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-23cec1ac56",
@@ -2586,6 +3402,87 @@
       }
     },
     {
+      "id": "sig-f9ce264e59",
+      "title": "Vercel Marketplace 数据库浏览器现在支持 Redis - Vercel",
+      "oneLiner": "您现在可以使用 Marketplace 数据库浏览器直接在 Vercel 仪表板中运行 Redis 命令、浏览键和检查值。",
+      "summary": {
+        "oneSentence": "您现在可以使用 Marketplace 数据库浏览器直接在 Vercel 仪表板中运行 Redis 命令、浏览键和检查值。",
+        "bullets": [
+          "您现在可以使用 Marketplace 数据库浏览器直接在 Vercel 仪表板中运行 Redis 命令、浏览键和检查值。",
+          "Vercel Marketplace 中的 Redis 和 Upstash for Redis 集成均受支持，因此您不再需要 redis-cli 或单独的数据库 UI。",
+          "从您的项目中，打开基础架构 > 存储并选择 Redis 数据库。数据库页面现在包含两个新选项卡：",
+          "CLI：运行 Redis 命令并检查结果。通过用换行符或分号分隔来运行多个命令，并支持 MULTI / EXEC 事务。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：您现在可以使用 Marketplace 数据库浏览器直接在 Vercel 仪表板中运行 Redis 命令、浏览键和检查值。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-marketplace-database-browser-now-supports-redis"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "您现在可以使用 Marketplace 数据库浏览器直接在 Vercel 仪表板中运行 Redis 命令、浏览键和检查值。",
+        "Vercel Marketplace 中的 Redis 和 Upstash for Redis 集成均受支持，因此您不再需要 redis-cli 或单独的数据库 UI。",
+        "从您的项目中，打开基础架构 > 存储并选择 Redis 数据库。数据库页面现在包含两个新选项卡：",
+        "CLI：运行 Redis 命令并检查结果。通过用换行符或分号分隔来运行多个命令，并支持 MULTI / EXEC 事务。",
+        "浏览器：浏览平面列表中的键或按前缀分组，并按类型或模式过滤它们。选择一个密钥来检查其值和元数据，包括其类型、TTL、编码和大小。支持的值类型包括字符串、JSON、哈希、列表、集合和排序集合。",
+        "这些选项卡当前仅对具有所有者角色的团队成员可用。请参阅 Marketplace 存储文档了解更多信息。"
+      ],
+      "highlights": [
+        "您现在可以使用 Marketplace 数据库浏览器直接在 Vercel 仪表板中运行 Redis 命令、浏览键和检查值。",
+        "Vercel Marketplace 中的 Redis 和 Upstash for Redis 集成均受支持，因此您不再需要 redis-cli 或单独的数据库",
+        "从您的项目中，打开基础架构 > 存储并选择 Redis 数据库。数据库页面现在包含两个新选项卡："
+      ],
+      "translated": true,
+      "originalTitle": "Vercel Marketplace database browser now supports Redis - Vercel",
+      "originalLang": "en",
+      "date": "2026-09-25",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-marketplace-database-browser-now-supports-redis",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Marketplace database browser now supports Redis - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Marketplace database browser now supports Redis",
+        "url": "https://vercel.com/changelog/vercel-marketplace-database-browser-now-supports-redis",
+        "fetched": true,
+        "savedAt": "2026-09-29T03:45:52.947Z",
+        "retranslatedAt": "2026-10-01T03:39:33.021Z"
+      },
+      "translateMethod": "google"
+    },
+    {
       "id": "sig-30b26e0786",
       "title": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
       "oneLiner": "In 2023 most people doubted that there could be more than 1 or 2 frontier model labs. Now there are ",
@@ -2923,78 +3820,6 @@
         "url": "https://www.latent.space/p/runway",
         "fetched": false,
         "savedAt": "2026-09-28T03:06:21.128Z"
-      }
-    },
-    {
-      "id": "sig-f9ce264e59",
-      "title": "Vercel Marketplace database browser now supports Redis",
-      "oneLiner": "You can now run Redis commands, browse keys, and inspect values directly in the Vercel dashboard usi",
-      "summary": {
-        "oneSentence": "You can now run Redis commands, browse keys, and inspect values directly in the Vercel dashboard using the Marketplace d",
-        "bullets": [
-          "You can now run Redis commands, browse keys, and inspect values directly in the Vercel dashboard using the Marketplace database browser . Both the Redis and Upstash for Redis integrations in Vercel Ma"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://vercel.com/changelog/vercel-marketplace-database-browser-now-supports-redis"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "You can now run Redis commands, browse keys, and inspect values directly in the Vercel dashboard using the Marketplace database browser .",
-        "Both the Redis and Upstash for Redis integrations in Vercel Marketplace are supported, so you no longer need redis-cli or a separate database UI.",
-        "From your project, open Infrastructure > Storage and select a Redis database. The database page now includes two new tabs:",
-        "CLI: Run Redis commands and inspect the results. Run multiple commands by separating them with newlines or semicolons, with support for MULTI / EXEC transactions.",
-        "Browser: Browse keys in a flat list or grouped by prefix, and filter them by type or pattern. Select a key to inspect its value and metadata, including its type, TTL, encoding, and size. Supported value types include string, JSON, hash, list, set, and sorted set.",
-        "These tabs are currently available only to team members with the Owner role. Learn more in the Marketplace storage documentation ."
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Vercel Marketplace database browser now supports Redis - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-25",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/vercel-marketplace-database-browser-now-supports-redis",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Vercel Marketplace database browser now supports Redis - Vercel"
-      },
-      "raw": {
-        "title": "Vercel Marketplace database browser now supports Redis",
-        "url": "https://vercel.com/changelog/vercel-marketplace-database-browser-now-supports-redis",
-        "fetched": true,
-        "savedAt": "2026-09-29T03:45:52.947Z"
       }
     },
     {
@@ -4945,7 +5770,7 @@
         "url": "https://cursor.com/changelog/rollouts-and-security-reviewer",
         "fetched": true,
         "savedAt": "2026-09-27T03:09:42.462Z",
-        "retranslatedAt": "2026-09-29T03:45:55.756Z"
+        "retranslatedAt": "2026-10-01T03:39:34.366Z"
       }
     },
     {
@@ -13458,7 +14283,7 @@
         "url": "https://cursor.com/changelog/projects",
         "fetched": true,
         "savedAt": "2026-09-12T02:41:59.708Z",
-        "retranslatedAt": "2026-09-29T03:45:56.855Z"
+        "retranslatedAt": "2026-10-01T03:39:35.707Z"
       }
     },
     {
@@ -18811,7 +19636,7 @@
         "url": "https://cursor.com/changelog/self-hosted-machines",
         "fetched": true,
         "savedAt": "2026-09-03T02:33:34.106Z",
-        "retranslatedAt": "2026-09-29T03:45:57.915Z"
+        "retranslatedAt": "2026-10-01T03:39:36.902Z"
       }
     },
     {
@@ -22748,7 +23573,7 @@
         "url": "https://cursor.com/changelog/start-from-scratch",
         "fetched": true,
         "savedAt": "2026-08-28T08:33:37.517Z",
-        "retranslatedAt": "2026-09-29T03:45:59.011Z"
+        "retranslatedAt": "2026-10-01T03:39:38.043Z"
       }
     },
     {
@@ -31926,775 +32751,6 @@
         "retranslatedAt": "2026-09-26T03:05:20.246Z"
       },
       "translateMethod": "google"
-    },
-    {
-      "id": "sig-ef87e3b0ab",
-      "title": "与 Gemini 和 Pixel 一起近距离接触游戏",
-      "oneLiner": "Gemini 和 Pixel 宣布与阿森纳足球俱乐部、巴塞罗那足球俱乐部、拜仁慕尼黑足球俱乐部、利物浦足球俱乐部和巴黎圣日耳曼足球俱乐部建立新的长期合作伙伴关系，通过人工智能个人智能和智能手机技术让球迷更接近比赛。",
-      "summary": {
-        "oneSentence": "Gemini 和 Pixel 宣布与阿森纳足球俱乐部、巴塞罗那足球俱乐部、拜仁慕尼黑足球俱乐部、利物浦足球俱乐部和巴黎圣日耳曼足球俱乐部建立新的长期合作伙伴关系，通过人工智能个人智能和智能手机技术让球迷更接近比赛。",
-        "bullets": [
-          "Gemini 和 Pixel 宣布与阿森纳足球俱乐部、巴塞罗那足球俱乐部、拜仁慕尼黑足球俱乐部、利物浦足球俱乐部和巴黎圣日耳曼足球俱乐部建立新的长期合作伙伴关系，通过人工智能个人智能和智能手机技术让球迷更接近比赛。",
-          "UKI 和 EMEA 设备与服务营销副总裁",
-          "您的浏览器不支持音频元素。",
-          "Google 正在与五个标志性足球俱乐部（阿森纳、巴塞罗那足球俱乐部、拜仁慕尼黑足球俱乐部、利物浦和巴黎圣日耳曼足球俱乐部）合作，让球迷更近距离地观看比赛。现在，您可以使用 Gemini 获取深入的比赛洞察，使用 Pixel 摄像头获取突出男子和女子球队的独家幕后内容。关注官方俱乐部和谷歌社交媒体渠道即可查看新内容并访"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Google AI 官网发布：Gemini 和 Pixel 宣布与阿森纳足球俱乐部、巴塞罗那足球俱乐部、拜仁慕尼黑足球俱乐部、利物浦足球俱乐部和巴黎圣日耳曼足球俱乐部建立新的长期合作伙伴关系，通过人工智能个人智能和智能手机技术让球迷更接近比赛。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：gemini",
-        "actionItems": [
-          "阅读原文（英文）：https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "gemini"
-      ],
-      "content": [
-        "Gemini 和 Pixel 宣布与阿森纳足球俱乐部、巴塞罗那足球俱乐部、拜仁慕尼黑足球俱乐部、利物浦足球俱乐部和巴黎圣日耳曼足球俱乐部建立新的长期合作伙伴关系，通过人工智能个人智能和智能手机技术让球迷更接近比赛。",
-        "UKI 和 EMEA 设备与服务营销副总裁",
-        "您的浏览器不支持音频元素。",
-        "Google 正在与五个标志性足球俱乐部（阿森纳、巴塞罗那足球俱乐部、拜仁慕尼黑足球俱乐部、利物浦和巴黎圣日耳曼足球俱乐部）合作，让球迷更近距离地观看比赛。现在，您可以使用 Gemini 获取深入的比赛洞察，使用 Pixel 摄像头获取突出男子和女子球队的独家幕后内容。关注官方俱乐部和谷歌社交媒体渠道即可查看新内容并访问独家球队壁纸。",
-        "Google 正在与五家著名足球俱乐部合作，让球迷更近距离地观看比赛。您可以使用 Gemini 快速获取有关您喜爱的球队的统计数据和见解。他们还使用 Pixel 摄像头分享男子和女子比赛的精彩幕后内容。此次合作旨在给予女子足球应有的额外关注。",
-        "我们将与世界上最具标志性的五家足球俱乐部建立新的长期合作伙伴关系：阿森纳足球俱乐部、巴塞罗那足球俱乐部、拜仁慕尼黑足球俱乐部、利物浦足球俱乐部和巴黎圣日耳曼足球俱乐部。作为官方消费者人工智能和官方智能手机合作伙伴，Gemini 和 Pixel 携手合作，帮助粉丝成为行动的核心。",
-        "足球文化是由场内场外定义比赛的故事推动的。通过 Gemini 作为他们的私人助理，支持者可以更深入地了解比赛和俱乐部的见解，并与最重要的时刻保持联系。",
-        "无论您是在欧洲俱乐部冲突中剖析比赛中的阵型变化，还是通过精确的交锋历史记录解决赛后辩论，Gemini 先进的代理能力都会代表您主动处理任务，并将答案交到您手中，让您始终处于行动的中心。",
-        "作为官方智能手机合作伙伴，Google Pixel 正在与俱乐部媒体团队合作，捕捉比赛幕后所有原始、未经过滤的时刻和情感。",
-        "通过我们标志性的“Shot on Pixel”系列，俱乐部社交团队将使用 Pixel 的摄像头和我们的 AI 工具来分享新鲜、真实的观点。此外，您还可以通过使用官方俱乐部壁纸自定义 Pixel 11 设备来展示您的颜色。"
-      ],
-      "highlights": [
-        "Gemini 和 Pixel 宣布与阿森纳足球俱乐部、巴塞罗那足球俱乐部、拜仁慕尼黑足球俱乐部、利物浦足球俱乐部和巴黎圣日耳曼足球俱乐部建立新的长期合作伙伴关系",
-        "UKI 和 EMEA 设备与服务营销副总裁",
-        "您的浏览器不支持音频元素。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Get closer to the game with Gemini and Pixel",
-      "originalLang": "en",
-      "date": "2026-08-17",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google AI",
-        "author": "Google",
-        "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
-        "home": "https://blog.google/technology/ai/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Get closer to the game with Gemini and Pixel"
-      },
-      "raw": {
-        "title": "Get closer to the game with Gemini and Pixel",
-        "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
-        "fetched": true,
-        "savedAt": "2026-08-18T00:53:45.577Z"
-      }
-    },
-    {
-      "id": "sig-f137d9ea2f",
-      "title": "防守者之窗",
-      "oneLiner": "人工智能正在重塑攻击者和防御者的网络安全。了解 OpenAI 如何加强防御以及安全团队现在可以做什么。",
-      "summary": {
-        "oneSentence": "人工智能正在重塑攻击者和防御者的网络安全。了解 OpenAI 如何加强防御以及安全团队现在可以做什么。",
-        "bullets": [
-          "人工智能正在重塑攻击者和防御者的网络安全。了解 OpenAI 如何加强防御以及安全团队现在可以做什么。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：人工智能正在重塑攻击者和防御者的网络安全。了解 OpenAI 如何加强防御以及安全团队现在可以做什么。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/the-defenders-window"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "人工智能正在重塑攻击者和防御者的网络安全。了解 OpenAI 如何加强防御以及安全团队现在可以做什么。"
-      ],
-      "highlights": [
-        "人工智能正在重塑攻击者和防御者的网络安全。了解 OpenAI 如何加强防御以及安全团队现在可以做什么。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "The Defender’s Window",
-      "originalLang": "en",
-      "date": "2026-08-17",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/the-defenders-window",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "The Defender’s Window"
-      },
-      "raw": {
-        "title": "The Defender’s Window",
-        "url": "https://openai.com/index/the-defenders-window",
-        "fetched": false,
-        "savedAt": "2026-08-18T00:53:46.925Z"
-      }
-    },
-    {
-      "id": "sig-ad5623d5cc",
-      "title": "OpenAI 加入 PORTS-Pike 项目",
-      "oneLiner": "OpenAI 加入 PORTS-Pike 项目，扩大社区投资并支持俄亥俄州南部数千个就业岗位",
-      "summary": {
-        "oneSentence": "OpenAI 加入 PORTS-Pike 项目，扩大社区投资并支持俄亥俄州南部数千个就业岗位",
-        "bullets": [
-          "OpenAI 加入 PORTS-Pike 项目，扩大社区投资并支持俄亥俄州南部数千个就业岗位"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：OpenAI 加入 PORTS-Pike 项目，扩大社区投资并支持俄亥俄州南部数千个就业岗位",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/openai-joins-ports-pike-project"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "OpenAI 加入 PORTS-Pike 项目，扩大社区投资并支持俄亥俄州南部数千个就业岗位"
-      ],
-      "highlights": [
-        "OpenAI 加入 PORTS-Pike 项目，扩大社区投资并支持俄亥俄州南部数千个就业岗位"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "OpenAI joins PORTS-Pike project",
-      "originalLang": "en",
-      "date": "2026-08-17",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/openai-joins-ports-pike-project",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "OpenAI joins PORTS-Pike project"
-      },
-      "raw": {
-        "title": "OpenAI joins PORTS-Pike project",
-        "url": "https://openai.com/index/openai-joins-ports-pike-project",
-        "fetched": false,
-        "savedAt": "2026-08-18T00:53:48.282Z"
-      }
-    },
-    {
-      "id": "sig-96670aeff6",
-      "title": "情报时代的新政策理念",
-      "oneLiner": "OpenAI 资助了 14 个独立项目，探索新的人工智能政策理念，以扩大智能时代的经济机会并增强社会复原力。",
-      "summary": {
-        "oneSentence": "OpenAI 资助了 14 个独立项目，探索新的人工智能政策理念，以扩大智能时代的经济机会并增强社会复原力。",
-        "bullets": [
-          "OpenAI 资助了 14 个独立项目，探索新的人工智能政策理念，以扩大智能时代的经济机会并增强社会复原力。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：OpenAI 资助了 14 个独立项目，探索新的人工智能政策理念，以扩大智能时代的经济机会并增强社会复原力。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/new-policy-ideas-for-the-intelligence-age"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "OpenAI 资助了 14 个独立项目，探索新的人工智能政策理念，以扩大智能时代的经济机会并增强社会复原力。"
-      ],
-      "highlights": [
-        "OpenAI 资助了 14 个独立项目，探索新的人工智能政策理念，以扩大智能时代的经济机会并增强社会复原力。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "New policy ideas for the Intelligence Age",
-      "originalLang": "en",
-      "date": "2026-08-17",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "New policy ideas for the Intelligence Age"
-      },
-      "raw": {
-        "title": "New policy ideas for the Intelligence Age",
-        "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
-        "fetched": false,
-        "savedAt": "2026-08-18T00:53:49.654Z"
-      }
-    },
-    {
-      "id": "sig-39d537a07a",
-      "title": "Origin 代码托管 · Cursor",
-      "oneLiner": "Origin 自即日起在所有付费方案中逐步推出早期 Beta 版。我们首先提供专为智能体规模化而打造的核心功能：代码仓库、PR、代码浏览和 GitHub 同步。智能体原生功能即将推出。",
-      "summary": {
-        "oneSentence": "Origin 自即日起在所有付费方案中逐步推出早期 Beta 版。我们首先提供专为智能体规模化而打造的核心功能：代码仓库、PR、代码浏览和 GitHub 同步。智能体原生功能即将推出。",
-        "bullets": [
-          "Origin 自即日起在所有付费方案中逐步推出早期 Beta 版。我们首先提供专为智能体规模化而打造的核心功能：代码仓库、PR、代码浏览和 GitHub 同步。智能体原生功能即将推出。",
-          "点击 +新建 以创建新的代码仓库并为其命名。随后，页面会显示如何安装 CLI，以及克隆代码仓库或推送本地项目所需的命令。推送后，您的代码便会托管在 Origin 上。",
-          "对于由 Origin 托管的代码仓库，Origin 是权威来源。推送直接进入 Origin，无需经过 GitHub。",
-          "创建第一个代码仓库时，需要为代码库命名。该名称将成为每个代码仓库 URL 的一部分：cursor.com/codebase/ acme-corp 。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Cursor 官网发布：Origin 自即日起在所有付费方案中逐步推出早期 Beta 版。我们首先提供专为智能体规模化而打造的核心功能：代码仓库、PR、代码浏览和 GitHub 同步。智能体原生功能即将推出。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：cursor",
-        "actionItems": [
-          "阅读原文（中文）：https://cursor.com/changelog/origin-code-hosting"
-        ]
-      },
-      "tags": [
-        "Release"
-      ],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "cursor"
-      ],
-      "content": [
-        "Origin 自即日起在所有付费方案中逐步推出早期 Beta 版。我们首先提供专为智能体规模化而打造的核心功能：代码仓库、PR、代码浏览和 GitHub 同步。智能体原生功能即将推出。",
-        "点击 +新建 以创建新的代码仓库并为其命名。随后，页面会显示如何安装 CLI，以及克隆代码仓库或推送本地项目所需的命令。推送后，您的代码便会托管在 Origin 上。",
-        "对于由 Origin 托管的代码仓库，Origin 是权威来源。推送直接进入 Origin，无需经过 GitHub。",
-        "创建第一个代码仓库时，需要为代码库命名。该名称将成为每个代码仓库 URL 的一部分：cursor.com/codebase/ acme-corp 。",
-        "您的 GitHub 代码仓库可以与 Cursor 托管的代码仓库并存。将 GitHub 连接到 Cursor，选择您的组织后，即可看到可同步的代码仓库。选择一个代码仓库，Cursor 就会将其拉取进来。您可以决定同步哪些内容，也可以随时断开代码仓库连接。任何对已同步代码仓库拥有读取或写入权限的人员，也可以在 Cursor 中查看该代码仓库。",
-        "已同步的代码仓库会实时更新。您可以浏览、搜索并从 Origin 中的副本拉取。对于已同步的代码仓库，GitHub 始终是权威来源：推送仍会发送到 GitHub，Origin 则会镜像结果。每个代码仓库名称旁的图标会标明哪些代码仓库由 Cursor 托管，哪些来自 GitHub。",
-        "每个代码仓库都有 PR。打开 PR，即可查看时间线、提交记录、检查项和已更改的文件。审查 diff、添加评论并合并。",
-        "已同步的代码仓库中的 PR 支持双向同步：在 Cursor 中发表评论会同步发布到 GitHub；在 GitHub 上添加表情回应或回复，几秒内即可显示在 Cursor 中。GitHub 上有分配给您的代码审查？可直接在 Cursor 中审查并合并。",
-        "您的代码、PR 和智能体现在都集中在同一处。您可以向 Cursor 询问正在浏览的代码。它可以回答问题、修改代码、更新 PR，或推送分支。",
-        "我们正在构建应用生态系统，让您的整个技术栈都能与 Origin 无缝协作。现已提供 Vercel、Depot 和 Buildkite 集成，更多集成即将推出。"
-      ],
-      "highlights": [
-        "Origin 自即日起在所有付费方案中逐步推出早期 Beta 版。我们首先提供专为智能体规模化而打造的核心功能：代码仓库、PR、代码浏览和 GitHub 同步。",
-        "点击 +新建 以创建新的代码仓库并为其命名。随后，页面会显示如何安装 CLI，以及克隆代码仓库或推送本地项目所需的命令。推送后，您的代码便会托管在 Origin",
-        "对于由 Origin 托管的代码仓库，Origin 是权威来源。推送直接进入 Origin，无需经过 GitHub。"
-      ],
-      "translated": false,
-      "translateMethod": "native",
-      "originalTitle": "Origin 代码托管 · Cursor",
-      "originalLang": "zh",
-      "date": "2026-08-17",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [
-        "cursor"
-      ],
-      "source": {
-        "type": "release",
-        "group": "company",
-        "name": "Cursor",
-        "author": "Cursor",
-        "url": "https://cursor.com/changelog/origin-code-hosting",
-        "home": "https://cursor.com/changelog",
-        "lang": "zh",
-        "translated": false,
-        "translateMethod": "native",
-        "originalTitle": "Origin 代码托管 · Cursor"
-      },
-      "raw": {
-        "title": "Origin Code Hosting",
-        "url": "https://cursor.com/changelog/origin-code-hosting",
-        "fetched": true,
-        "savedAt": "2026-08-18T00:53:50.883Z",
-        "retranslatedAt": "2026-09-29T03:46:01.102Z"
-      }
-    },
-    {
-      "id": "sig-edf437e215",
-      "title": "在公开测试版中使用 Vercel 部署 Cursor Origin 存储库 - Vercel",
-      "oneLiner": "Pro 客户现在可以将 Origin 存储库连接到 Vercel。",
-      "summary": {
-        "oneSentence": "Pro 客户现在可以将 Origin 存储库连接到 Vercel。",
-        "bullets": [
-          "Pro 客户现在可以将 Origin 存储库连接到 Vercel。",
-          "连接后，Origin 上的拉取请求将自动在 Vercel 上生成预览部署，合并将触发生产部署。",
-          "您可以通过团队设置、项目设置或创建新项目时单击“继续使用 Origin”来连接 Origin。",
-          "您还可以通过在存储库的“应用程序”选项卡中添加 Vercel，将 Vercel 连接到 Origin 内的存储库。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Pro 客户现在可以将 Origin 存储库连接到 Vercel。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/deploy-cursor-origin-repositories-with-vercel-in-public-beta"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Pro 客户现在可以将 Origin 存储库连接到 Vercel。",
-        "连接后，Origin 上的拉取请求将自动在 Vercel 上生成预览部署，合并将触发生产部署。",
-        "您可以通过团队设置、项目设置或创建新项目时单击“继续使用 Origin”来连接 Origin。",
-        "您还可以通过在存储库的“应用程序”选项卡中添加 Vercel，将 Vercel 连接到 Origin 内的存储库。",
-        "Vercel 的集成处于公开测试阶段，Origin 处于早期测试阶段。原始存储库受 Vercel 现有的私有存储库政策的约束。",
-        "在 Git 集成文档中了解有关连接 Origin 的更多信息。"
-      ],
-      "highlights": [
-        "Pro 客户现在可以将 Origin 存储库连接到 Vercel。",
-        "连接后，Origin 上的拉取请求将自动在 Vercel 上生成预览部署，合并将触发生产部署。",
-        "您可以通过团队设置、项目设置或创建新项目时单击“继续使用 Origin”来连接 Origin。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Deploy Cursor Origin repositories with Vercel in public beta - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-17",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/deploy-cursor-origin-repositories-with-vercel-in-public-beta",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Deploy Cursor Origin repositories with Vercel in public beta - Vercel"
-      },
-      "raw": {
-        "title": "Deploy Cursor Origin repositories with Vercel in public beta",
-        "url": "https://vercel.com/changelog/deploy-cursor-origin-repositories-with-vercel-in-public-beta",
-        "fetched": true,
-        "savedAt": "2026-08-18T00:53:58.622Z"
-      }
-    },
-    {
-      "id": "sig-cb6d86598f",
-      "title": "GPT-5.6 Sol 下个月在 AI Gateway 上享受 50% 的折扣 - Vercel",
-      "oneLiner": "GPT-5.6 Sol 是 OpenAI GPT-5.6 系列的旗舰产品，截至 9 月 18 日，在 AI Gateway 上可享受 50% 的折扣。该折扣适用于 OpenAI 提供商的所有代币类型、层级、区域和模式，并且仅适用于直接通过 ",
-      "summary": {
-        "oneSentence": "GPT-5.6 Sol 是 OpenAI GPT-5.6 系列的旗舰产品，截至 9 月 18 日，在 AI Gateway 上可享受 50% 的折扣。该折扣适用于 OpenAI 提供商的所有代币类型、层级、区域和模式，并且仅适用于直接通过 ",
-        "bullets": [
-          "GPT-5.6 Sol 是 OpenAI GPT-5.6 系列的旗舰产品，截至 9 月 18 日，在 AI Gateway 上可享受 50% 的折扣。该折扣适用于 OpenAI 提供商的所有代币类型、层级、区域和模式，并且仅适用于直接通过 AI Gateway（而非 BYOK）运行的请求。",
-          "将链接复制到标题 定价：服务等级 50% 折扣",
-          "每 M 代币的原始价格（输入/输出）",
-          "折扣适用于模型定价的所有其他地方的相同条款：跨每个服务层，包括快速模式，以及缓存令牌、缓存写入、长上下文请求和不同区域。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：GPT-5.6 Sol 是 OpenAI GPT-5.6 系列的旗舰产品，截至 9 月 18 日，在 AI Gateway 上可享受 50% 的折扣。该折扣适用于 OpenAI 提供商的所有代币类型、层级、区域和模式，并且仅适用于直接通过 ",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/gpt-5-6-sol-is-50-off-on-ai-gateway-for-the-next-month"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "GPT-5.6 Sol 是 OpenAI GPT-5.6 系列的旗舰产品，截至 9 月 18 日，在 AI Gateway 上可享受 50% 的折扣。该折扣适用于 OpenAI 提供商的所有代币类型、层级、区域和模式，并且仅适用于直接通过 AI Gateway（而非 BYOK）运行的请求。",
-        "将链接复制到标题 定价：服务等级 50% 折扣",
-        "每 M 代币的原始价格（输入/输出）",
-        "折扣适用于模型定价的所有其他地方的相同条款：跨每个服务层，包括快速模式，以及缓存令牌、缓存写入、长上下文请求和不同区域。",
-        "它涵盖通过 OpenAI 提供商的 AI Gateway 计费的请求。 BYOK 请求在您自己的提供商帐户上运行，并按照您与他们的任何费率计费。",
-        "型号 ID 未更改，因此请求您已发送提货折扣率且代码未更改：",
-        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText ({ 4 model: 'openai/gpt-5.6-sol', 5prompt: '调查失败的测试并打开 PR 并进行修复。', 6 }) ;",
-        "Sol 对最困难的问题进行最大程度的推理，接受文本、图像和 PDF 输入，并带有一个长上下文窗口。",
-        "要在编码代理中使用它，请运行 vercel ai-gatewaycoding-agents setup 以连接 Claude Code、Codex、OpenCode 或 Pi，然后在代理内选择 openai/gpt-5.6-sol。 50% 的折扣将适用于那里。",
-        "将链接复制到标题 开始 在仪表板的 AI 网关部分中创建 API 密钥，或者首先在浏览器中从 Playground 页面尝试该模型。"
-      ],
-      "highlights": [
-        "GPT-5.6 Sol 是 OpenAI GPT-5.6 系列的旗舰产品，截至 9 月 18 日，在 AI Gateway 上可享受 50% 的折扣。该折扣适用",
-        "将链接复制到标题 定价：服务等级 50% 折扣",
-        "每 M 代币的原始价格（输入/输出）"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "GPT-5.6 Sol is 50% off on AI Gateway for the next month - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-17",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/gpt-5-6-sol-is-50-off-on-ai-gateway-for-the-next-month",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "GPT-5.6 Sol is 50% off on AI Gateway for the next month - Vercel"
-      },
-      "raw": {
-        "title": "GPT-5.6 Sol is 50% off on AI Gateway for the next month",
-        "url": "https://vercel.com/changelog/gpt-5-6-sol-is-50-off-on-ai-gateway-for-the-next-month",
-        "fetched": true,
-        "savedAt": "2026-08-18T00:54:10.342Z"
-      }
-    },
-    {
-      "id": "sig-1999067b96",
-      "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
-      "oneLiner": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index That's the same score as GPT-5.",
-      "summary": {
-        "oneSentence": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index That's the same score as GPT-5.6 Luna (max), and ju",
-        "bullets": [
-          "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 7"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index That's the same score as GPT-5.6 Luna (max), and just one point behind GLM-5.2 (max) and DeepSeek V4 Pro 0813 (max) - that GLM is 753B and that DeepSeek is 1.6B parameters, and Luna is size unknown but presumably a whole lot bigger than 27B. Qwen 3.8 27B is a truly astonishing model . Via Hacker News Tags: ai , generative-ai , llms , qwen , ai-in-china , artificial-analysis"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
-      "originalLang": "en",
-      "date": "2026-08-17",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index"
-      },
-      "raw": {
-        "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
-        "url": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52/",
-        "fetched": false,
-        "savedAt": "2026-08-18T00:54:11.143Z"
-      }
-    },
-    {
-      "id": "sig-9757553db8",
-      "title": "[AINews] Stripe buys OpenRouter for $7B",
-      "oneLiner": "No GPUs, no Agents, just really, really, really good infra and distribution.",
-      "summary": {
-        "oneSentence": "No GPUs, no Agents, just really, really, really good infra and distribution.",
-        "bullets": [
-          "No GPUs, no Agents, just really, really, really good infra and distribution."
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://www.latent.space/p/ainews-stripe-buys-openrouter-for"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "No GPUs, no Agents, just really, really, really good infra and distribution."
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "[AINews] Stripe buys OpenRouter for $7B",
-      "originalLang": "en",
-      "date": "2026-08-17",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Latent Space",
-        "author": "swyx",
-        "url": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "[AINews] Stripe buys OpenRouter for $7B"
-      },
-      "raw": {
-        "title": "[AINews] Stripe buys OpenRouter for $7B",
-        "url": "https://www.latent.space/p/ainews-stripe-buys-openrouter-for",
-        "fetched": false,
-        "savedAt": "2026-08-18T00:54:11.944Z"
-      }
-    },
-    {
-      "id": "sig-8933d03c7e",
-      "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
-      "oneLiner": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility Excellent piece of r",
-      "summary": {
-        "oneSentence": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility Excellent piece of reporting from 404 Me",
-        "bullets": [
-          "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility Excellent piece of reporting from 404 Media. For a while now there have been stories of book dealers receiving orders fo"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility Excellent piece of reporting from 404 Media. For a while now there have been stories of book dealers receiving orders for large volumes of books from apparently price-insensitive anonymous customers, widely suspected to be companies looking to scan them for AI training (see my previous coverage of Anthropic's book scanning from June 2025.) 404 Media investigated with an AirTag! In July, one bookseller told me they received a very large order of around 1,000 books on Biblio, one of these marketplaces. The seller agreed to put an Apple AirTag provided by 404 Media in one of the books included in this order so we could see where the book was going. And by extension, which company, AI or otherwise, was behind this massive order. The book ended up delivered to the VGT3 corner of the LAS8 Amazon facility in the north east of Las Vegas, where the entrance carried this on-the-nose logo of a dinosaur with a book! Photo credit: 404 Media Online forum discussions between Amazon workers confirmed that VGT3 destructively scans large volumes of books. Tags: amazon , journalism , ai , training-data , ai-ethics , 404-media"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
-      "originalLang": "en",
-      "date": "2026-08-17",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility"
-      },
-      "raw": {
-        "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
-        "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra/",
-        "fetched": false,
-        "savedAt": "2026-08-18T00:54:12.745Z"
-      }
     }
   ]
 }
