@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-03T03:22:49.396Z",
+  "updatedAt": "2026-10-04T03:49:37.371Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 411,
+  "itemCount": 407,
   "brief": {
-    "date": "2026-10-03",
-    "generatedAt": "2026-10-03T03:22:49.396Z",
-    "totalCount": 411,
+    "date": "2026-10-04",
+    "generatedAt": "2026-10-04T03:49:37.369Z",
+    "totalCount": 407,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 411 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 407 条",
     "topUpdates": [
       {
         "id": "sig-8e206c4d9e",
@@ -91,8 +91,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-10-03T03:22:49.396Z",
-    "summary": "近 30 天共 251 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-10-04T03:49:37.371Z",
+    "summary": "近 30 天共 255 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -397,6 +397,142 @@
     }
   ],
   "items": [
+    {
+      "id": "sig-4956a5acae",
+      "title": "September sponsors-only newsletter",
+      "oneLiner": "I just sent the September edition of my sponsors-only monthly newsletter . If you are a sponsor (or ",
+      "summary": {
+        "oneSentence": "I just sent the September edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship ",
+        "bullets": [
+          "I just sent the September edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: More Fable class models A pricing war "
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Oct/3/newsletter/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "I just sent the September edition of my sponsors-only monthly newsletter . If you are a sponsor (or start a sponsorship now) you can access it here . This month: More Fable class models A pricing war 3D graphics, Blender, and pixel art LLMs come for mathematics So many more accidental cyberattacks The vulnapocalypse comes for Datasette What I'm using right now My software releases this month 2026 in LLMs (so far) Here's a copy of the August newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "September sponsors-only newsletter",
+      "originalLang": "en",
+      "date": "2026-10-03",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Oct/3/newsletter/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "September sponsors-only newsletter"
+      },
+      "raw": {
+        "title": "September sponsors-only newsletter",
+        "url": "https://simonwillison.net/2026/Oct/3/newsletter/",
+        "fetched": false,
+        "savedAt": "2026-10-04T03:49:24.581Z"
+      }
+    },
+    {
+      "id": "sig-85c4629bdb",
+      "title": "[AINews] not much happened today",
+      "oneLiner": "a quiet day.",
+      "summary": {
+        "oneSentence": "a quiet day.",
+        "bullets": [
+          "a quiet day."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.latent.space/p/ainews-not-much-happened-today-cee"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "a quiet day."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "[AINews] not much happened today",
+      "originalLang": "en",
+      "date": "2026-10-03",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/p/ainews-not-much-happened-today-cee",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "[AINews] not much happened today"
+      },
+      "raw": {
+        "title": "[AINews] not much happened today",
+        "url": "https://www.latent.space/p/ainews-not-much-happened-today-cee",
+        "fetched": false,
+        "savedAt": "2026-10-04T03:49:25.382Z"
+      }
+    },
     {
       "id": "sig-8e206c4d9e",
       "title": "GPT-6 系列模型指南",
@@ -998,6 +1134,74 @@
         "url": "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc",
         "fetched": false,
         "savedAt": "2026-10-03T03:22:41.306Z"
+      }
+    },
+    {
+      "id": "sig-da9bc33d3f",
+      "title": "Rex's Dino Store",
+      "oneLiner": "Museum: Rex's Dino Store Located just before the turnstiles in the Grand Army Plaza subway station a",
+      "summary": {
+        "oneSentence": "Museum: Rex's Dino Store Located just before the turnstiles in the Grand Army Plaza subway station at the north end of B",
+        "bullets": [
+          "Museum: Rex's Dino Store Located just before the turnstiles in the Grand Army Plaza subway station at the north end of Brooklyn's Prospect Park is this former newsstand which is now operated by a dino"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Oct/2/rex-s-dino-store/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Museum: Rex's Dino Store Located just before the turnstiles in the Grand Army Plaza subway station at the north end of Brooklyn's Prospect Park is this former newsstand which is now operated by a dinosaur. The density of dinosaur puns is exceptional . Tags: art , new-york"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Rex's Dino Store",
+      "originalLang": "en",
+      "date": "2026-10-02",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Rex's Dino Store"
+      },
+      "raw": {
+        "title": "Rex's Dino Store",
+        "url": "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/",
+        "fetched": false,
+        "savedAt": "2026-10-04T03:49:26.183Z"
       }
     },
     {
@@ -2631,6 +2835,74 @@
       }
     },
     {
+      "id": "sig-da4fbb5bee",
+      "title": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU",
+      "oneLiner": "the most confident DevDay yet.",
+      "summary": {
+        "oneSentence": "the most confident DevDay yet.",
+        "bullets": [
+          "the most confident DevDay yet."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.latent.space/p/ainews-openai-devday-2026-dots-61"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "the most confident DevDay yet."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU",
+      "originalLang": "en",
+      "date": "2026-09-30",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU"
+      },
+      "raw": {
+        "title": "[AINews] OpenAI DevDay 2026: Dots, 6.1 Sol, Ultrafast, Decisions API, Agents API, Spaces, Marketplace, and 1.2 Billion ChatGPT WAU",
+        "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
+        "fetched": false,
+        "savedAt": "2026-10-04T03:49:26.984Z"
+      }
+    },
+    {
       "id": "sig-7e167f46aa",
       "title": "Figma 投资英国并扩大伦敦办事处 | Figma 博客",
       "oneLiner": "通过我们新的伦敦办事处，我们与客户和社区的距离越来越近。",
@@ -3519,6 +3791,142 @@
       }
     },
     {
+      "id": "sig-afe6a29f26",
+      "title": "Photo Scrubber — local face blur & metadata removal",
+      "oneLiner": "Tool: Photo Scrubber — local face blur & metadata removal I took a photograph of some protesters, th",
+      "summary": {
+        "oneSentence": "Tool: Photo Scrubber — local face blur & metadata removal I took a photograph of some protesters, then thought about how",
+        "bullets": [
+          "Tool: Photo Scrubber — local face blur & metadata removal I took a photograph of some protesters, then thought about how I don't like sharing photographs of strangers with identifiable faces. I had GP"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/29/photo-scrubber/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Tool: Photo Scrubber — local face blur & metadata removal I took a photograph of some protesters, then thought about how I don't like sharing photographs of strangers with identifiable faces. I had GPT-6 Astra build this experimental tool that would identify faces and automatically blur them out. It uses Google's MediaPipe C++ library, compiled to WebAssembly via @mediapipe/tasks-vision , plus the BlazeFace face detection model. Tags: photography , tools"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Photo Scrubber — local face blur & metadata removal",
+      "originalLang": "en",
+      "date": "2026-09-29",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/29/photo-scrubber/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Photo Scrubber — local face blur & metadata removal"
+      },
+      "raw": {
+        "title": "Photo Scrubber — local face blur & metadata removal",
+        "url": "https://simonwillison.net/2026/Sep/29/photo-scrubber/",
+        "fetched": false,
+        "savedAt": "2026-10-04T03:49:27.785Z"
+      }
+    },
+    {
+      "id": "sig-c72c096f52",
+      "title": "Claude Code’s Next Era — Thariq Shihipar, Anthropic",
+      "oneLiner": "Shipping Opus/Sonnet 5.5, Mods, Plugins, Projects, Tag while Pacing the Frontier",
+      "summary": {
+        "oneSentence": "Shipping Opus/Sonnet 5.5, Mods, Plugins, Projects, Tag while Pacing the Frontier",
+        "bullets": [
+          "Shipping Opus/Sonnet 5.5, Mods, Plugins, Projects, Tag while Pacing the Frontier"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.latent.space/p/thariq"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Shipping Opus/Sonnet 5.5, Mods, Plugins, Projects, Tag while Pacing the Frontier"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Claude Code’s Next Era — Thariq Shihipar, Anthropic",
+      "originalLang": "en",
+      "date": "2026-09-29",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/p/thariq",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Claude Code’s Next Era — Thariq Shihipar, Anthropic"
+      },
+      "raw": {
+        "title": "Claude Code’s Next Era — Thariq Shihipar, Anthropic",
+        "url": "https://www.latent.space/p/thariq",
+        "fetched": false,
+        "savedAt": "2026-10-04T03:49:28.586Z"
+      }
+    },
+    {
       "id": "sig-cfe8e90040",
       "title": "我们如何为澳大利亚做得更好",
       "oneLiner": "OpenAI 对涉及澳大利亚政府网站的事件表示歉意，并概述了加强澳大利亚网络防御的更强有力的保障和支持。",
@@ -4137,6 +4545,210 @@
         "retranslatedAt": "2026-10-01T03:39:26.661Z"
       },
       "translateMethod": "google"
+    },
+    {
+      "id": "sig-2d52fce207",
+      "title": "Claude Sonnet 5.5",
+      "oneLiner": "Claude Sonnet 5.5 New Sonnet model from Anthropic today. They say it \"runs 30%+ faster, and costs up",
+      "summary": {
+        "oneSentence": "Claude Sonnet 5.5 New Sonnet model from Anthropic today. They say it \"runs 30%+ faster, and costs up to 30% less for mos",
+        "bullets": [
+          "Claude Sonnet 5.5 New Sonnet model from Anthropic today. They say it \"runs 30%+ faster, and costs up to 30% less for most work\" - it's priced the same as Sonnet 5 but appears to beat it on every bench"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Claude Sonnet 5.5 New Sonnet model from Anthropic today. They say it \"runs 30%+ faster, and costs up to 30% less for most work\" - it's priced the same as Sonnet 5 but appears to beat it on every benchmark, and should be cheaper to run as well. Here are some pelicans riding bicycles . Sonnet 5.5 suffered from the same bug as Opus 5.5 : the \"max\" thinking effort pelican thought for 128,000 tokens (at a cost of $1.28) before running out of tokens and failing to produce an SVG. Here's the pelican it gave me for thinking effort \"xhigh\", at a cost of 5.74 cents and taking 41 seconds: Sonnet 5.5 appears to be almost as good as Opus 5.5 on some coding tasks, including various viral 3D animation tricks . The most interesting thing about Sonnet 5.5 is that it's now the model used for the free tier on claude.ai . OpenAI's ChatGPT free tier uses Luna 5.6, which means Anthropic currently have a much more capable free offering. I ran this prompt against that free tier: build me an HTML page that renders a three-dimensional pelican riding a bicycle using WebGL And got back this page , which is a solid effort. Anthropic's announcement reiterates that Haiku 5.5 will be available \"in the coming weeks\". I really hope that one is price-competitive with GPT-6 Luna! Tags: ai , generative-ai , llms , anthropic , claude , pelican-riding-a-bicycle , llm-release"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Claude Sonnet 5.5",
+      "originalLang": "en",
+      "date": "2026-09-28",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Claude Sonnet 5.5"
+      },
+      "raw": {
+        "title": "Claude Sonnet 5.5",
+        "url": "https://simonwillison.net/2026/Sep/28/claude-sonnet-5-5/",
+        "fetched": false,
+        "savedAt": "2026-10-04T03:49:29.387Z"
+      }
+    },
+    {
+      "id": "sig-c94a110c6c",
+      "title": "Quoting @joedaroo",
+      "oneLiner": "To say that we were surprised at the jump and suddenness of the capabilities of our models when it c",
+      "summary": {
+        "oneSentence": "To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “s",
+        "bullets": [
+          "To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “swarming” or “message boards” or anything else related to the incidents is an und"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/28/joedaroo/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "To say that we were surprised at the jump and suddenness of the capabilities of our models when it came to “cyber” or “swarming” or “message boards” or anything else related to the incidents is an understatement. Security posture takes time to develop. It’s not just about hardening the systems at play; you have to ingrain it in the culture of the company. The literal people themselves in your organization have to change and evolve with it. These jumps in capabilities were so fast and so sudden that they created an extremely difficult problem. [...] So today my hope is that everyone around the world can look at their own organization and say: how can I deal with a surprise or a sudden jump in AI capability? Are my people, my systems, or my processes resilient to surprises? Do my teams know what to do when something goes wrong? Do I have the right incident response? The right comms and messaging? Do I have the right people ready to go when capabilities jump? &mdash; @joedaroo , Agent Security at OpenAI, identity confirmed by The Information's Rocket Drew Tags: generative-ai , ai-security-research , openai , ai , llms"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Quoting @joedaroo",
+      "originalLang": "en",
+      "date": "2026-09-28",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/28/joedaroo/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Quoting @joedaroo"
+      },
+      "raw": {
+        "title": "Quoting @joedaroo",
+        "url": "https://simonwillison.net/2026/Sep/28/joedaroo/",
+        "fetched": false,
+        "savedAt": "2026-10-04T03:49:30.188Z"
+      }
+    },
+    {
+      "id": "sig-00e0e3a4ad",
+      "title": "Quoting Muse AI Agent",
+      "oneLiner": "Bad news on the MX Keys Mini pickup. Usman showed up at your building around 9:15 and waited, messag",
+      "summary": {
+        "oneSentence": "Bad news on the MX Keys Mini pickup. Usman showed up at your building around 9:15 and waited, messaged a bunch of times,",
+        "bullets": [
+          "Bad news on the MX Keys Mini pickup. Usman showed up at your building around 9:15 and waited, messaged a bunch of times, and nobody came down. He left angry at 9:38 and left a negative rating. Worse, "
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/28/muse-ai-agent/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Bad news on the MX Keys Mini pickup. Usman showed up at your building around 9:15 and waited, messaged a bunch of times, and nobody came down. He left angry at 9:38 and left a negative rating. Worse, my auto-reply told him \"Yep I'm here!\" at 9:27 when you clearly weren't available, which is on me. That's a bad look and it made the no-show worse. I've sent him an apology from your account owning it and offering to try again another day. But the negative rating is real, and I should probably stop the auto-replies from claiming you're home when I can't verify that. Want me to change the pickup replies so they don't promise you're there? &mdash; Muse AI Agent , working on behalf of @matt.j.robb Tags: meta , generative-ai , muse-agent , ai , general-agents , llms"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Quoting Muse AI Agent",
+      "originalLang": "en",
+      "date": "2026-09-28",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/28/muse-ai-agent/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Quoting Muse AI Agent"
+      },
+      "raw": {
+        "title": "Quoting Muse AI Agent",
+        "url": "https://simonwillison.net/2026/Sep/28/muse-ai-agent/",
+        "fetched": false,
+        "savedAt": "2026-10-04T03:49:30.990Z"
+      }
     },
     {
       "id": "sig-23cec1ac56",
@@ -5949,6 +6561,74 @@
       }
     },
     {
+      "id": "sig-383cf544a6",
+      "title": "Foundries vs Navigators: Lowering the Cost of Science",
+      "oneLiner": "Guest Post: In science, thinking has gotten cheap but doing has not. This asymmetry is reshaping how",
+      "summary": {
+        "oneSentence": "Guest Post: In science, thinking has gotten cheap but doing has not. This asymmetry is reshaping how research companies ",
+        "bullets": [
+          "Guest Post: In science, thinking has gotten cheap but doing has not. This asymmetry is reshaping how research companies operate, largely inconspicuously."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.latent.space/p/foundries-vs-navigators-lowering"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Guest Post: In science, thinking has gotten cheap but doing has not. This asymmetry is reshaping how research companies operate, largely inconspicuously."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Foundries vs Navigators: Lowering the Cost of Science",
+      "originalLang": "en",
+      "date": "2026-09-24",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/p/foundries-vs-navigators-lowering",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Foundries vs Navigators: Lowering the Cost of Science"
+      },
+      "raw": {
+        "title": "Foundries vs Navigators: Lowering the Cost of Science",
+        "url": "https://www.latent.space/p/foundries-vs-navigators-lowering",
+        "fetched": false,
+        "savedAt": "2026-10-04T03:49:31.791Z"
+      }
+    },
+    {
       "id": "sig-8a86c97089",
       "title": "Google Beam 不断拓展新的地区、合作伙伴和客户",
       "oneLiner": "我们正在将 Google Beam 扩展到五个新国家，与 Industrious 合作扩展网络，并证明我们对 Google 及其他领域的影响。",
@@ -7273,7 +7953,7 @@
         "url": "https://cursor.com/changelog/rollouts-and-security-reviewer",
         "fetched": true,
         "savedAt": "2026-09-27T03:09:42.462Z",
-        "retranslatedAt": "2026-10-03T03:22:44.177Z"
+        "retranslatedAt": "2026-10-04T03:49:33.170Z"
       }
     },
     {
@@ -15786,7 +16466,7 @@
         "url": "https://cursor.com/changelog/projects",
         "fetched": true,
         "savedAt": "2026-09-12T02:41:59.708Z",
-        "retranslatedAt": "2026-10-03T03:22:45.242Z"
+        "retranslatedAt": "2026-10-04T03:49:34.271Z"
       }
     },
     {
@@ -21139,7 +21819,7 @@
         "url": "https://cursor.com/changelog/self-hosted-machines",
         "fetched": true,
         "savedAt": "2026-09-03T02:33:34.106Z",
-        "retranslatedAt": "2026-10-03T03:22:46.340Z"
+        "retranslatedAt": "2026-10-04T03:49:35.427Z"
       }
     },
     {
@@ -25076,7 +25756,7 @@
         "url": "https://cursor.com/changelog/start-from-scratch",
         "fetched": true,
         "savedAt": "2026-08-28T08:33:37.517Z",
-        "retranslatedAt": "2026-10-03T03:22:47.498Z"
+        "retranslatedAt": "2026-10-04T03:49:36.567Z"
       }
     },
     {
@@ -30904,1079 +31584,6 @@
         "url": "https://www.latent.space/p/ainews-poolside-gets-12b-reverse",
         "fetched": false,
         "savedAt": "2026-08-24T00:55:36.355Z"
-      }
-    },
-    {
-      "id": "sig-38119b55b5",
-      "title": "视线第 2 期：领导者需要了解的有关建筑代理的知识 | Figma 博客",
-      "oneLiner": "Agentic 产品带来了一系列独特的设计挑战。如何构建一个功能强大且知识丰富的工具，足以成为真正的合作伙伴，同时保持信任和安全为核心？以下是我们从领导人那里听到的内容。",
-      "summary": {
-        "oneSentence": "Agentic 产品带来了一系列独特的设计挑战。如何构建一个功能强大且知识丰富的工具，足以成为真正的合作伙伴，同时保持信任和安全为核心？以下是我们从领导人那里听到的内容。",
-        "bullets": [
-          "Agentic 产品带来了一系列独特的设计挑战。如何构建一个功能强大且知识丰富的工具，足以成为真正的合作伙伴，同时保持信任和安全为核心？以下是我们从领导人那里听到的内容。",
-          "Sightlines 是我们面向设计、产品和工程领导者的时事通讯。在每一期中，我们都会为您带来来自 Cisco、OpenAI、Airbnb 等公司的高级领导者的最敏锐的见解，以及他们如何在人工智能时代引导产品开发和设计的更多信息。",
-          "在最近的活动中，从我们在芝加哥举行的 Leadership Collective 演讲到我们在 Config Leadership Collective 中提出的 Config 7 问题，我们参加了 Leadership Collective，希望了解领导者如何指导他们的团队进行变革、专业知识现在意味着什么，以及随着步",
-          "更深入：领导者的经验教训：编写代理设计规则"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Figma 官网发布：Agentic 产品带来了一系列独特的设计挑战。如何构建一个功能强大且知识丰富的工具，足以成为真正的合作伙伴，同时保持信任和安全为核心？以下是我们从领导人那里听到的内容。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://www.figma.com/blog/sightlines-issue-no2/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Agentic 产品带来了一系列独特的设计挑战。如何构建一个功能强大且知识丰富的工具，足以成为真正的合作伙伴，同时保持信任和安全为核心？以下是我们从领导人那里听到的内容。",
-        "Sightlines 是我们面向设计、产品和工程领导者的时事通讯。在每一期中，我们都会为您带来来自 Cisco、OpenAI、Airbnb 等公司的高级领导者的最敏锐的见解，以及他们如何在人工智能时代引导产品开发和设计的更多信息。",
-        "在最近的活动中，从我们在芝加哥举行的 Leadership Collective 演讲到我们在 Config Leadership Collective 中提出的 Config 7 问题，我们参加了 Leadership Collective，希望了解领导者如何指导他们的团队进行变革、专业知识现在意味着什么，以及随着步伐的加快，他们如何保持高品质。这是我们听到的。",
-        "更深入：领导者的经验教训：编写代理设计规则",
-        "“[设计代理时]我们的目标不是确保我们设计人工智能可以做什么，而是为系统的一致行为创造条件和规则。” Thomas Vidal，雅高公司产品设计副总裁",
-        "“你不会在第一天就推出完美的东西，因为这不是构建代理的工作方式。你需要通过实际使用和执行来学习很多东西。测试和发布的严格性很重要。” Rachel Been，Expedia 设计高级副总裁",
-        "“很快，我们将给予代理对工作流程越来越多的自主控制。我们需要确保有人对这些代理的行为负责。” Charlie Sutton，Atlassian 首席设计官",
-        "“领导者的工作不是推动你的团队更加努力。而是重新定义好的真正含义，以便人们能够看到他们自己无法看到的差距。” Jake Albaugh，Figma 开发倡导者",
-        "有了人工智能，速度就变得容易了，但技术债务也变得容易了。这就是为什么最好的团队不仅能快速交付产品，而且能快速交付产品。他们仔细考虑，高效构建，并使其脱颖而出。",
-        "我们仍在重播 Config 领导集体的对话。"
-      ],
-      "highlights": [
-        "Agentic 产品带来了一系列独特的设计挑战。如何构建一个功能强大且知识丰富的工具，足以成为真正的合作伙伴，同时保持信任和安全为核心？以下是我们从领导人那里听",
-        "Sightlines 是我们面向设计、产品和工程领导者的时事通讯。在每一期中，我们都会为您带来来自 Cisco、OpenAI、Airbnb 等公司的高级领导者的",
-        "在最近的活动中，从我们在芝加哥举行的 Leadership Collective 演讲到我们在 Config Leadership Collective 中提出"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Sightlines Issue No. 2: What Leaders Need to Know About Building Agents | Figma Blog",
-      "originalLang": "en",
-      "date": "2026-08-20",
-      "categoryIds": [
-        "vertical-ui"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Figma",
-        "author": "Figma",
-        "url": "https://www.figma.com/blog/sightlines-issue-no2/",
-        "home": "https://www.figma.com/blog/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Sightlines Issue No. 2: What Leaders Need to Know About Building Agents | Figma Blog"
-      },
-      "raw": {
-        "title": "Sightlines issue no.2: What leaders need to know about building agents",
-        "url": "https://www.figma.com/blog/sightlines-issue-no2/",
-        "fetched": true,
-        "savedAt": "2026-08-21T00:57:51.734Z"
-      }
-    },
-    {
-      "id": "sig-33fa81b462",
-      "title": "从 CLI 管理 Vercel 工具栏注释 - Vercel",
-      "oneLiner": "您现在可以使用 Vercel CLI 来管理 Vercel 工具栏注释。 vercel 注释涵盖了完整的分类循环：",
-      "summary": {
-        "oneSentence": "您现在可以使用 Vercel CLI 来管理 Vercel 工具栏注释。 vercel 注释涵盖了完整的分类循环：",
-        "bullets": [
-          "您现在可以使用 Vercel CLI 来管理 Vercel 工具栏注释。 vercel 注释涵盖了完整的分类循环：",
-          "列出并过滤链接项目的未解决评论，范围仅限于当前的 Git 分支",
-          "检查每条消息及其 ID 的完整线程",
-          "从终端回复、解决、重新打开、编辑或删除"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：您现在可以使用 Vercel CLI 来管理 Vercel 工具栏注释。 vercel 注释涵盖了完整的分类循环：",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/manage-vercel-toolbar-comments-from-the-cli"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "您现在可以使用 Vercel CLI 来管理 Vercel 工具栏注释。 vercel 注释涵盖了完整的分类循环：",
-        "列出并过滤链接项目的未解决评论，范围仅限于当前的 Git 分支",
-        "检查每条消息及其 ID 的完整线程",
-        "从终端回复、解决、重新打开、编辑或删除",
-        "--格式化脚本和代理的 json 输出",
-        "将链接复制到标题 常见工作流程 首先列出当前分支中所有未解决的评论：",
-        "$ vercel comments 我的项目中的评论 · feat/checkout ● icZ9BnPPINuK 3h Ana Ruiz /checkout “促销代码字段在应用折扣后失去焦点” → 4 条回复 · Maria, v0 ( app ) · 最后 20m 前 1 条未解决的评论 要阅读线程，请运行 ` vercel comments inform < id > `",
-        "$ vercel comments 检查 icZ9BnPPINuK icZ9BnPPINuK · 未解决 · feat/checkout /checkout — “Acme Site — Checkout” Element body > main > form > div.promo-container Ana Ruiz · 3 小时前 · 9V777h5b5B56aYUUk12jb 应用折扣后促销代码字段失去焦点 Maria · 3 小时前 · JEcplTszDY1Gme8cs7DK6 让我快速检查一下......",
-        "$ vercel 评论回复 icZ9BnPPINuK -m “已在最新推送中修复，现在焦点仍然放在重新渲染上。” $ vercel 注释解析 icZ9BnPPINuK -m“正在发货。如果出现问题，请重新打开。” $ vercel comments edit icZ9BnPPINuK VvkhYF6dTqbpm7K -m“在预览时修复，在暂存时验证。”",
-        "将链接复制到标题 开始 更新到最新的 Vercel CLI 版本并运行 vercel comments 。或者只是提示您的编码代理："
-      ],
-      "highlights": [
-        "您现在可以使用 Vercel CLI 来管理 Vercel 工具栏注释。 vercel 注释涵盖了完整的分类循环：",
-        "列出并过滤链接项目的未解决评论，范围仅限于当前的 Git 分支",
-        "检查每条消息及其 ID 的完整线程"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Manage Vercel Toolbar comments from the CLI - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-20",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/manage-vercel-toolbar-comments-from-the-cli",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Manage Vercel Toolbar comments from the CLI - Vercel"
-      },
-      "raw": {
-        "title": "Manage Vercel Toolbar comments from the CLI",
-        "url": "https://vercel.com/changelog/manage-vercel-toolbar-comments-from-the-cli",
-        "fetched": true,
-        "savedAt": "2026-08-21T00:57:59.648Z"
-      }
-    },
-    {
-      "id": "sig-39431571ac",
-      "title": "Vercel Observability 现在支持自定义指标 - Vercel",
-      "oneLiner": "现在，您可以直接从 Vercel 函数发出自己的指标，并将其与 Vercel 的内置可观测性数据一起进行分析。",
-      "summary": {
-        "oneSentence": "现在，您可以直接从 Vercel 函数发出自己的指标，并将其与 Vercel 的内置可观测性数据一起进行分析。",
-        "bullets": [
-          "现在，您可以直接从 Vercel 函数发出自己的指标，并将其与 Vercel 的内置可观测性数据一起进行分析。",
-          "使用 @vercel/functions 包中的 metric() 函数来记录您关心的任何值，例如请求延迟或业务事件，并附加属性以进行过滤和分组：",
-          "1 从“@vercel/functions”导入{metric}； 2 3 metric ( \"database.query_ms\" , 120 , { 4 table : \"my-table\" , 5 db : \"my-database\" 6 } ) ;",
-          "发出后，您的自定义指标可在整个 Observability 中使用： • 查询构建器：动态切片和聚合指标。 • 笔记本：构建和共享仪表板。 • CLI：使用vcmetrics 命令进行查询。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：现在，您可以直接从 Vercel 函数发出自己的指标，并将其与 Vercel 的内置可观测性数据一起进行分析。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/custom-metrics-are-now-supported-in-vercel-observability"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "现在，您可以直接从 Vercel 函数发出自己的指标，并将其与 Vercel 的内置可观测性数据一起进行分析。",
-        "使用 @vercel/functions 包中的 metric() 函数来记录您关心的任何值，例如请求延迟或业务事件，并附加属性以进行过滤和分组：",
-        "1 从“@vercel/functions”导入{metric}； 2 3 metric ( \"database.query_ms\" , 120 , { 4 table : \"my-table\" , 5 db : \"my-database\" 6 } ) ;",
-        "发出后，您的自定义指标可在整个 Observability 中使用： • 查询构建器：动态切片和聚合指标。 • 笔记本：构建和共享仪表板。 • CLI：使用vcmetrics 命令进行查询。",
-        "Vercel 会自动添加有用的属性，例如源部署和功能区域。自定义指标作为可观察性事件进行计费，并可在具有 Observability Plus 的专业版和企业版上使用。"
-      ],
-      "highlights": [
-        "现在，您可以直接从 Vercel 函数发出自己的指标，并将其与 Vercel 的内置可观测性数据一起进行分析。",
-        "使用 @vercel/functions 包中的 metric() 函数来记录您关心的任何值，例如请求延迟或业务事件，并附加属性以进行过滤和分组：",
-        "1 从“@vercel/functions”导入{metric}； 2 3 metric ( \"database.query_ms\" , 120 , { 4 t"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Custom metrics are now supported in Vercel Observability - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-20",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/custom-metrics-are-now-supported-in-vercel-observability",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Custom metrics are now supported in Vercel Observability - Vercel"
-      },
-      "raw": {
-        "title": "Custom metrics are now supported in Vercel Observability",
-        "url": "https://vercel.com/changelog/custom-metrics-are-now-supported-in-vercel-observability",
-        "fetched": true,
-        "savedAt": "2026-08-21T00:58:04.170Z"
-      }
-    },
-    {
-      "id": "sig-027379c084",
-      "title": "介绍人工智能期货",
-      "oneLiner": "隆重推出 AI Futures，这是一个新的 OpenAI 博客，探讨变革性人工智能如何重塑权力、治理、经济和个人自由。",
-      "summary": {
-        "oneSentence": "隆重推出 AI Futures，这是一个新的 OpenAI 博客，探讨变革性人工智能如何重塑权力、治理、经济和个人自由。",
-        "bullets": [
-          "隆重推出 AI Futures，这是一个新的 OpenAI 博客，探讨变革性人工智能如何重塑权力、治理、经济和个人自由。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：隆重推出 AI Futures，这是一个新的 OpenAI 博客，探讨变革性人工智能如何重塑权力、治理、经济和个人自由。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/introducing-ai-futures"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "隆重推出 AI Futures，这是一个新的 OpenAI 博客，探讨变革性人工智能如何重塑权力、治理、经济和个人自由。"
-      ],
-      "highlights": [
-        "隆重推出 AI Futures，这是一个新的 OpenAI 博客，探讨变革性人工智能如何重塑权力、治理、经济和个人自由。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Introducing AI Futures",
-      "originalLang": "en",
-      "date": "2026-08-20",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/introducing-ai-futures",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Introducing AI Futures"
-      },
-      "raw": {
-        "title": "Introducing AI Futures",
-        "url": "https://openai.com/index/introducing-ai-futures",
-        "fetched": false,
-        "savedAt": "2026-08-21T00:58:05.374Z"
-      }
-    },
-    {
-      "id": "sig-f1ce199f56",
-      "title": "v0 如何在不暴露用户 OAuth 令牌的情况下对 Snowflake 进行身份验证",
-      "oneLiner": "人工智能生成的应用程序通常需要代表其用户向外部服务进行身份验证。这就产生了一个问题：生成的代码不应该访问用户的凭据。",
-      "summary": {
-        "oneSentence": "人工智能生成的应用程序通常需要代表其用户向外部服务进行身份验证。这就产生了一个问题：生成的代码不应该访问用户的凭据。",
-        "bullets": [
-          "人工智能生成的应用程序通常需要代表其用户向外部服务进行身份验证。这就产生了一个问题：生成的代码不应该访问用户的凭据。",
-          "我们在构建 v0 Snowflake 集成时面临着这个决定。它允许用户连接 Snowflake、检查架构、查询数据并生成针对其仓库运行的应用程序。生成的代码必须对 Snowflake 进行身份验证，但它是由模型编写的，无需人工审查即可运行，并且提示注入可以引导它泄露它可以读取的任何内容，因此用户的 OAuth 令牌永远",
-          "我们使用基于 Vercel 沙箱防火墙构建的 v0 沙箱 Snowflake 请求代理解决了这个问题。沙箱可以运行普通的 Snowflake 客户端，但真正的凭据是在请求时在沙箱运行时之外的服务器代理中解析的。这使得现有的 Snowflake 客户端可以在沙箱内工作，而无需将用户的凭据暴露给生成的代码。",
-          "更困难的问题是决定代理可以在哪里安全地注入凭证。明显的实现是替换出现在任何地方的占位符令牌，这会引入另一个凭证泄漏。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：人工智能生成的应用程序通常需要代表其用户向外部服务进行身份验证。这就产生了一个问题：生成的代码不应该访问用户的凭据。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/blog/how-v0-authenticates-to-snowflake-without-exposing-the-users-oauth-token"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "人工智能生成的应用程序通常需要代表其用户向外部服务进行身份验证。这就产生了一个问题：生成的代码不应该访问用户的凭据。",
-        "我们在构建 v0 Snowflake 集成时面临着这个决定。它允许用户连接 Snowflake、检查架构、查询数据并生成针对其仓库运行的应用程序。生成的代码必须对 Snowflake 进行身份验证，但它是由模型编写的，无需人工审查即可运行，并且提示注入可以引导它泄露它可以读取的任何内容，因此用户的 OAuth 令牌永远不应该进入代码运行的环境。",
-        "我们使用基于 Vercel 沙箱防火墙构建的 v0 沙箱 Snowflake 请求代理解决了这个问题。沙箱可以运行普通的 Snowflake 客户端，但真正的凭据是在请求时在沙箱运行时之外的服务器代理中解析的。这使得现有的 Snowflake 客户端可以在沙箱内工作，而无需将用户的凭据暴露给生成的代码。",
-        "更困难的问题是决定代理可以在哪里安全地注入凭证。明显的实现是替换出现在任何地方的占位符令牌，这会引入另一个凭证泄漏。",
-        "将链接复制到标题隔离不保护机密 v0 在隔离的沙箱中运行生成的应用程序。隔离可以保护系统的其余部分免受不受信任的代码的影响，但它不能保护沙箱内的秘密。",
-        "如果生成的应用程序可以从文件系统读取令牌，则可以将该令牌复制到日志中、在 API 响应中返回、嵌入到生成的客户端代码中或发送到另一个主机。沙箱隔离限制了应用程序可以访问的内容，但一旦凭证本身在沙箱内可用，它就没有帮助。",
-        "对于 Snowflake，凭证代表用户连接的 Snowflake 角色。 v0 应该能够帮助用户探索和使用他们有权访问的数据进行构建，但生成的代码不应仅仅因为需要原始提供者凭据而接收原始提供者凭据。",
-        "将链接复制到标题 每个 Snowflake 请求都会通过代理 沙箱无法直接与 Snowflake 通信。当其中的代码向用户的 Snowflake 帐户主机发送请求时，沙箱防火墙会将该请求转发到 v0 Snowflake 代理：",
-        "防火墙使用每个沙箱唯一的证书颁发机构终止 TLS，这使得代理可以读取和重写本来会加密的流量。沙箱自动信任该证书颁发机构，因此 Snowflake SDK 和 CLI 以其默认证书验证（包括 OCSP）运行。然后，代理验证沙箱的 OIDC 令牌，查找沙箱所属的 v0 聊天，恢复绑定到该聊天的用户会话，并检索该用户的新 Snowflake 凭证。",
-        "network-policy/index.ts 1 return { 2 [ host ] : [ 3 // 绝对 URL，例如https://v0.app/chat/api/sandbox-proxy/snowflake 4 { forwardURL : getSandboxRequestProxyForwardURL ( 'snowflake' ) } , 5 ] , 6 } 从内部 v0 转发配置简化"
-      ],
-      "highlights": [
-        "人工智能生成的应用程序通常需要代表其用户向外部服务进行身份验证。这就产生了一个问题：生成的代码不应该访问用户的凭据。",
-        "我们在构建 v0 Snowflake 集成时面临着这个决定。它允许用户连接 Snowflake、检查架构、查询数据并生成针对其仓库运行的应用程序。生成的代码必须",
-        "我们使用基于 Vercel 沙箱防火墙构建的 v0 沙箱 Snowflake 请求代理解决了这个问题。沙箱可以运行普通的 Snowflake 客户端，但真正的凭"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "How v0 authenticates to Snowflake without exposing the user's OAuth token",
-      "originalLang": "en",
-      "date": "2026-08-20",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/blog/how-v0-authenticates-to-snowflake-without-exposing-the-users-oauth-token",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "How v0 authenticates to Snowflake without exposing the user's OAuth token"
-      },
-      "raw": {
-        "title": "How v0 authenticates to Snowflake without exposing the user's OAuth token",
-        "url": "https://vercel.com/blog/how-v0-authenticates-to-snowflake-without-exposing-the-users-oauth-token",
-        "fetched": true,
-        "savedAt": "2026-08-21T00:58:12.616Z"
-      }
-    },
-    {
-      "id": "sig-cb030de2dd",
-      "title": "Stampli 使用 ChatGPT Work 将启动时间缩短了 68%",
-      "oneLiner": "由于有固定的截止日期和在其他地方投入的设计资源，Stampli 使用 Codex 和 ChatGPT Work 将数周的发布生产压缩为数天。",
-      "summary": {
-        "oneSentence": "由于有固定的截止日期和在其他地方投入的设计资源，Stampli 使用 Codex 和 ChatGPT Work 将数周的发布生产压缩为数天。",
-        "bullets": [
-          "由于有固定的截止日期和在其他地方投入的设计资源，Stampli 使用 Codex 和 ChatGPT Work 将数周的发布生产压缩为数天。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：由于有固定的截止日期和在其他地方投入的设计资源，Stampli 使用 Codex 和 ChatGPT Work 将数周的发布生产压缩为数天。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/stampli"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "由于有固定的截止日期和在其他地方投入的设计资源，Stampli 使用 Codex 和 ChatGPT Work 将数周的发布生产压缩为数天。"
-      ],
-      "highlights": [
-        "由于有固定的截止日期和在其他地方投入的设计资源，Stampli 使用 Codex 和 ChatGPT Work 将数周的发布生产压缩为数天。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Stampli cuts launch hours by 68% using ChatGPT Work",
-      "originalLang": "en",
-      "date": "2026-08-20",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/stampli",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Stampli cuts launch hours by 68% using ChatGPT Work"
-      },
-      "raw": {
-        "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
-        "url": "https://openai.com/index/stampli",
-        "fetched": false,
-        "savedAt": "2026-08-21T00:58:13.830Z"
-      }
-    },
-    {
-      "id": "sig-d5909483f3",
-      "title": "Vercel Agent 现已在 Slack 代码通道中可用 - Vercel",
-      "oneLiner": "Vercel Agent 现在可以在 Slack 代码通道中工作，这是今天推出的一种与编码代理配合使用的新型通道。频道中的任何人都可以关注该工作，向 Agent 提供新指令，并查看其编写的代码。",
-      "summary": {
-        "oneSentence": "Vercel Agent 现在可以在 Slack 代码通道中工作，这是今天推出的一种与编码代理配合使用的新型通道。频道中的任何人都可以关注该工作，向 Agent 提供新指令，并查看其编写的代码。",
-        "bullets": [
-          "Vercel Agent 现在可以在 Slack 代码通道中工作，这是今天推出的一种与编码代理配合使用的新型通道。频道中的任何人都可以关注该工作，向 Agent 提供新指令，并查看其编写的代码。",
-          "从 Slack 侧栏中选择创建代码通道，选择 Vercel 作为代理，并描述开始时需要什么。您还可以要求代理从现有通道或线程创建一个。它将这种背景带到了新渠道。",
-          "使用代码通道调查事件、作为团队编写和审查代码，或管理正在进行的工作，例如依赖项升级和迁移。",
-          "跟踪工作：代理在工作时在通道中发布相关部署、日志、错误和差异。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Vercel Agent 现在可以在 Slack 代码通道中工作，这是今天推出的一种与编码代理配合使用的新型通道。频道中的任何人都可以关注该工作，向 Agent 提供新指令，并查看其编写的代码。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/vercel-agent-is-now-available-in-slack-code-channels"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Vercel Agent 现在可以在 Slack 代码通道中工作，这是今天推出的一种与编码代理配合使用的新型通道。频道中的任何人都可以关注该工作，向 Agent 提供新指令，并查看其编写的代码。",
-        "从 Slack 侧栏中选择创建代码通道，选择 Vercel 作为代理，并描述开始时需要什么。您还可以要求代理从现有通道或线程创建一个。它将这种背景带到了新渠道。",
-        "使用代码通道调查事件、作为团队编写和审查代码，或管理正在进行的工作，例如依赖项升级和迁移。",
-        "跟踪工作：代理在工作时在通道中发布相关部署、日志、错误和差异。",
-        "不重复 @Vercel 提及的对话：代理跟踪对话，识别哪些消息是针对它的，并在团队给予它更多工作时继续。",
-        "审查拉取请求：要求 Agent 进行 PR 审查，它会将其结果发布在频道中。它可以找到差异之外的错误，并解释失败的检查及其根本原因。",
-        "批准每项更改：代理默认情况下是只读的，并且永远不会超出请求者的权限。在做出改变之前，它会起草一份计划并等待批准。对于每项操作，Vercel 都会记录谁请求并批准该操作以及代理运行的内容。",
-        "随时停止工作：创建代码通道的人可以取消活动任务。",
-        "Slack 代码通道中的 Vercel Agent 现已推出面向 Pro 和 Enterprise 团队的公开测试版。将 Vercel 添加到 Slack、了解 Slack 代码或阅读文档。",
-        "亨利·赫夫南、艾伦·黄、阿米莉亚·查尔斯"
-      ],
-      "highlights": [
-        "Vercel Agent 现在可以在 Slack 代码通道中工作，这是今天推出的一种与编码代理配合使用的新型通道。频道中的任何人都可以关注该工作，向 Agent",
-        "从 Slack 侧栏中选择创建代码通道，选择 Vercel 作为代理，并描述开始时需要什么。您还可以要求代理从现有通道或线程创建一个。它将这种背景带到了新渠道。",
-        "使用代码通道调查事件、作为团队编写和审查代码，或管理正在进行的工作，例如依赖项升级和迁移。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Vercel Agent is now available in Slack code channels - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-20",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/vercel-agent-is-now-available-in-slack-code-channels",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Vercel Agent is now available in Slack code channels - Vercel"
-      },
-      "raw": {
-        "title": "Vercel Agent is now available in Slack code channels",
-        "url": "https://vercel.com/changelog/vercel-agent-is-now-available-in-slack-code-channels",
-        "fetched": true,
-        "savedAt": "2026-08-21T00:58:21.828Z"
-      }
-    },
-    {
-      "id": "sig-c008408466",
-      "title": "使用 Vercel CLI 管理 Vercel 容器注册表 - Vercel",
-      "oneLiner": "您现在可以使用 Vercel CLI 管理 Vercel 容器注册表。新的 vercel vcr 命令组可让您：",
-      "summary": {
-        "oneSentence": "您现在可以使用 Vercel CLI 管理 Vercel 容器注册表。新的 vercel vcr 命令组可让您：",
-        "bullets": [
-          "您现在可以使用 Vercel CLI 管理 Vercel 容器注册表。新的 vercel vcr 命令组可让您：",
-          "创建和检查存储库、图像和标签",
-          "使用项目范围内的短期令牌来验证您的容器工具，例如 Docker、Podman 或 Buildah。然后构建并推送：",
-          "# 使用注册表对 Docker 进行身份验证 vercel vcr login docker # 构建当前目录并一步推送 vercel vcr build docker --push # 使用存储库进行构建并推送，并标记 vercel vcr build docker ./app my-api:1.2.3 --push"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：您现在可以使用 Vercel CLI 管理 Vercel 容器注册表。新的 vercel vcr 命令组可让您：",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/manage-vercel-container-registry-with-vercel-cli"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "您现在可以使用 Vercel CLI 管理 Vercel 容器注册表。新的 vercel vcr 命令组可让您：",
-        "创建和检查存储库、图像和标签",
-        "使用项目范围内的短期令牌来验证您的容器工具，例如 Docker、Podman 或 Buildah。然后构建并推送：",
-        "# 使用注册表对 Docker 进行身份验证 vercel vcr login docker # 构建当前目录并一步推送 vercel vcr build docker --push # 使用存储库进行构建并推送，并标记 vercel vcr build docker ./app my-api:1.2.3 --push 对 Docker 进行身份验证，然后构建镜像并将其推送到注册表。",
-        "凭证会发送到 Docker 本身，因此您现有的工具可以使用标准命令推送到 VCR：",
-        "docker push vcr.vercel.com/my-team/my-project/my-repository:latest 使用标准 Docker CLI 将映像推送到注册表。",
-        "存储库会在您第一次推送时自动创建，或者使用 vercel vcr add 显式创建。从那里，您可以列出存储的内容并检查单个图像和标签：",
-        "# 创建并列出存储库 vercel vcr add my-repository vercel vcr ls # 列出存储库中的图像，或仅列出未标记的图像 vercel vcr image ls my-repository vercel vcr image ls my-repository --untagged # 检查标签 vercel vcr tag 检查 my-repository vercel vcr 组中最新的存储库、图像和标签命令。",
-        "使用 pnpm i -g vercel@latest 更新到最新的 Vercel CLI 并阅读容器注册表文档以开始使用。"
-      ],
-      "highlights": [
-        "您现在可以使用 Vercel CLI 管理 Vercel 容器注册表。新的 vercel vcr 命令组可让您：",
-        "创建和检查存储库、图像和标签",
-        "使用项目范围内的短期令牌来验证您的容器工具，例如 Docker、Podman 或 Buildah。然后构建并推送："
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Manage Vercel Container Registry with Vercel CLI - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-20",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/manage-vercel-container-registry-with-vercel-cli",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Manage Vercel Container Registry with Vercel CLI - Vercel"
-      },
-      "raw": {
-        "title": "Manage Vercel Container Registry with Vercel CLI",
-        "url": "https://vercel.com/changelog/manage-vercel-container-registry-with-vercel-cli",
-        "fetched": true,
-        "savedAt": "2026-08-21T00:58:29.730Z"
-      }
-    },
-    {
-      "id": "sig-45a48ca604",
-      "title": "Bun 1.4 现已在 Vercel Functions 中提供 - Vercel",
-      "oneLiner": "Vercel Functions 现在支持新的 Bun 1.4 版本，将 Bun 从 Zig 重写为 Rust，解决了 2,900 多个问题，通过了 1,500 多个额外的 Node.js 兼容性测试，并提供了新功能和性能改进。",
-      "summary": {
-        "oneSentence": "Vercel Functions 现在支持新的 Bun 1.4 版本，将 Bun 从 Zig 重写为 Rust，解决了 2,900 多个问题，通过了 1,500 多个额外的 Node.js 兼容性测试，并提供了新功能和性能改进。",
-        "bullets": [
-          "Vercel Functions 现在支持新的 Bun 1.4 版本，将 Bun 从 Zig 重写为 Rust，解决了 2,900 多个问题，通过了 1,500 多个额外的 Node.js 兼容性测试，并提供了新功能和性能改进。",
-          "在具有活动 CPU 定价的流体计算上运行",
-          "支持Next.js、Elysia、Hono等常用框架",
-          "要从以前的 Bun 版本更新，请在 vercel.json 中将 BunVersion 设置为 1.4.x 。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Vercel Functions 现在支持新的 Bun 1.4 版本，将 Bun 从 Zig 重写为 Rust，解决了 2,900 多个问题，通过了 1,500 多个额外的 Node.js 兼容性测试，并提供了新功能和性能改进。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/bun-1-4-is-now-available-in-vercel-functions"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Vercel Functions 现在支持新的 Bun 1.4 版本，将 Bun 从 Zig 重写为 Rust，解决了 2,900 多个问题，通过了 1,500 多个额外的 Node.js 兼容性测试，并提供了新功能和性能改进。",
-        "在具有活动 CPU 定价的流体计算上运行",
-        "支持Next.js、Elysia、Hono等常用框架",
-        "要从以前的 Bun 版本更新，请在 vercel.json 中将 BunVersion 设置为 1.4.x 。",
-        "升级是一个明确的选择，因为 Bun 1.4 有几个重大更改。在升级之前查看重大更改并更新您的应用程序。",
-        "在运行时文档中了解有关在 Vercel 上使用 Bun 的更多信息。"
-      ],
-      "highlights": [
-        "Vercel Functions 现在支持新的 Bun 1.4 版本，将 Bun 从 Zig 重写为 Rust，解决了 2,900 多个问题，通过了 1,500",
-        "在具有活动 CPU 定价的流体计算上运行",
-        "支持Next.js、Elysia、Hono等常用框架"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Bun 1.4 is now available in Vercel Functions - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-20",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/bun-1-4-is-now-available-in-vercel-functions",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Bun 1.4 is now available in Vercel Functions - Vercel"
-      },
-      "raw": {
-        "title": "Bun 1.4 is now available in Vercel Functions",
-        "url": "https://vercel.com/changelog/bun-1-4-is-now-available-in-vercel-functions",
-        "fetched": true,
-        "savedAt": "2026-08-21T00:58:34.983Z"
-      }
-    },
-    {
-      "id": "sig-afca402187",
-      "title": "智能时代简介",
-      "oneLiner": "介绍智能时代，这是一个新的 OpenAI 博客，探讨变革性人工智能如何重塑权力、治理、经济和个人自由。",
-      "summary": {
-        "oneSentence": "介绍智能时代，这是一个新的 OpenAI 博客，探讨变革性人工智能如何重塑权力、治理、经济和个人自由。",
-        "bullets": [
-          "介绍智能时代，这是一个新的 OpenAI 博客，探讨变革性人工智能如何重塑权力、治理、经济和个人自由。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：介绍智能时代，这是一个新的 OpenAI 博客，探讨变革性人工智能如何重塑权力、治理、经济和个人自由。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/introducing-intelligence-age"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "介绍智能时代，这是一个新的 OpenAI 博客，探讨变革性人工智能如何重塑权力、治理、经济和个人自由。"
-      ],
-      "highlights": [
-        "介绍智能时代，这是一个新的 OpenAI 博客，探讨变革性人工智能如何重塑权力、治理、经济和个人自由。"
-      ],
-      "translated": true,
-      "originalTitle": "Introducing Intelligence Age",
-      "originalLang": "en",
-      "date": "2026-08-20",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/introducing-intelligence-age",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Introducing Intelligence Age"
-      },
-      "raw": {
-        "title": "Introducing Intelligence Age",
-        "url": "https://openai.com/index/introducing-intelligence-age",
-        "fetched": false,
-        "savedAt": "2026-08-30T03:05:04.266Z",
-        "retranslatedAt": "2026-09-23T02:53:51.757Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-d58dda0fce",
-      "title": "ChatGPT search now uses the site:operator at scale",
-      "oneLiner": "ChatGPT search now uses the site:operator at scale Promptwatch is part of the emerging \"GEO\" space, ",
-      "summary": {
-        "oneSentence": "ChatGPT search now uses the site:operator at scale Promptwatch is part of the emerging \"GEO\" space, for Generative Engin",
-        "bullets": [
-          "ChatGPT search now uses the site:operator at scale Promptwatch is part of the emerging \"GEO\" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and con"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "ChatGPT search now uses the site:operator at scale Promptwatch is part of the emerging \"GEO\" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and consulting to help your site increase its presence in replies to prompts inside tools like ChatGPT. The Promptwatch product uses automation to track responses to prompts across end-user chat products like ChatGPT, Claude, and Gemini. They publish aggregate reports on this as part of their own content marketing strategy, which do seem to provide credible hints as to otherwise invisible design changes to those products. Their own tracking shows a notable change aligned with the GPT-5.6 rollout earlier this month: The percentage of all ChatGPT Search fanout queries that contain the site:operator, per day. The share hovered between 0.3% and 0.5% for weeks, dipped briefly to 0.15% on August 3 to 5 (consistent with a staged rollout or pre-launch experiment), then jumped to 16-17% on August 8. It's important to note that these figures only reflect the prompts for which they have automated tracking enabled. This corresponds to OpenAI's somewhat vague August 6th announcement : For Plus and Pro users, we’re updating GPT‑5.6 Sol in Chat to be more reliable with facts and provide more focused answers. Once again I am hampered by OpenAI's decision to actively obscure their system prompts, but from poking at ChatGPT I believe their latest search tool has a shape like search(query, recency, domains) rather than encouraging a site: operator directly. In a follow-up on August 18th Promptwatch reported that ChatGPT appeared to have greatly reduced the likelihood of Reddit being used in those searches. My own attempts to ascertain if the system prompt has been updated to discourage Reddit sourcing have been unsuccessful - the most thorough leaked system prompt collection I know of doesn't yet show any relevant changes. Tags: reddit , seo , openai , chatgpt , ai-assisted-search , system-prompts"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "ChatGPT search now uses the site:operator at scale",
-      "originalLang": "en",
-      "date": "2026-08-20",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "ChatGPT search now uses the site:operator at scale"
-      },
-      "raw": {
-        "title": "ChatGPT search now uses the site:operator at scale",
-        "url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
-        "fetched": false,
-        "savedAt": "2026-08-24T00:55:37.156Z"
-      }
-    },
-    {
-      "id": "sig-e791424eb1",
-      "title": "The /wayfinder Skill: Navigating the “Fog of War” of Planning",
-      "oneLiner": "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward",
-      "summary": {
-        "oneSentence": "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear.",
-        "bullets": [
-          "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear."
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://www.latent.space/p/wayfinder-skill"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Matt Pocock tells us about his /wayfinder skill, for greenfield projects or for when the way forward is unclear."
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "The /wayfinder Skill: Navigating the “Fog of War” of Planning",
-      "originalLang": "en",
-      "date": "2026-08-20",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Latent Space",
-        "author": "swyx",
-        "url": "https://www.latent.space/p/wayfinder-skill",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "The /wayfinder Skill: Navigating the “Fog of War” of Planning"
-      },
-      "raw": {
-        "title": "The /wayfinder Skill: Navigating the “Fog of War” of Planning",
-        "url": "https://www.latent.space/p/wayfinder-skill",
-        "fetched": false,
-        "savedAt": "2026-08-24T00:55:37.956Z"
-      }
-    },
-    {
-      "id": "sig-4b6d1b0e0d",
-      "title": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
-      "oneLiner": "Research: A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView Today saw the long awaited rele",
-      "summary": {
-        "oneSentence": "Research: A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView Today saw the long awaited release of Bun 1.4 , the",
-        "bullets": [
-          "Research: A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView Today saw the long awaited release of Bun 1.4 , the first stable version since the infamous Rust rewrite a few months ago . Interes"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Aug/20/bun-webview-json-api/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Research: A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView Today saw the long awaited release of Bun 1.4 , the first stable version since the infamous Rust rewrite a few months ago . Interestingly, the Rust rewrite was downplayed in the release notes, which introduced a bewildering array of new features and claimed 2,900 additional bug fixes: Bun 1.4 adds +1,517 tests from the Node.js test suite - our biggest jump in Node.js compatibility since Bun 1.0. Bun v1.4 also fixes over 2,900 issues. It reduces idle CPU usage by 5x, reduces memory usage by up to 35%, and starts 50% faster on Linux. It adds Bun.Image , Bun.WebView , Bun.markdown , Bun.cron() , Bun.Terminal , bun run --parallel , bun test --parallel , bun audit fix , bun dedupe , and bun prune . And it rewrites Bun from Zig to Rust. Of these the one that most caught my eye was Bun.WebView , which adds first class support for browser automation to Bun core using either macOS WebKit or control of a local Chromium process via the Chrome DevTools Protocol (CDP). I had Claude Code for web build a prototype of a web API providing the ability to load a web page and then execute JavaScript against it, inspired by my shot-scraper javascript CLI tool - partly to see how much RAM would be needed by such a service. Here's that TypeScript server implementation , which appears to need a 192MB-256MB container to run a full Chrome against complex web pages - tested using cgroups. Tags: browsers , javascript , ai , rust , typescript , generative-ai , llms , coding-agents , bun"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
-      "originalLang": "en",
-      "date": "2026-08-20",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Aug/20/bun-webview-json-api/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView"
-      },
-      "raw": {
-        "title": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
-        "url": "https://simonwillison.net/2026/Aug/20/bun-webview-json-api/",
-        "fetched": false,
-        "savedAt": "2026-08-24T00:55:38.757Z"
-      }
-    },
-    {
-      "id": "sig-5759140205",
-      "title": "[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law",
-      "oneLiner": "Every lab CEO is on X now",
-      "summary": {
-        "oneSentence": "Every lab CEO is on X now",
-        "bullets": [
-          "Every lab CEO is on X now"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Every lab CEO is on X now"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law",
-      "originalLang": "en",
-      "date": "2026-08-20",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Latent Space",
-        "author": "swyx",
-        "url": "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law"
-      },
-      "raw": {
-        "title": "[AINews] Death of Params: Z.ai CEO Jie Tang on GLM 5.3 and the new Post-training Scaling Law",
-        "url": "https://www.latent.space/p/ainews-death-of-params-zai-ceo-jie",
-        "fetched": false,
-        "savedAt": "2026-08-24T00:55:39.559Z"
       }
     }
   ]
