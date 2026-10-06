@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-05T03:35:02.945Z",
+  "updatedAt": "2026-10-06T04:23:05.649Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 402,
+  "itemCount": 407,
   "brief": {
-    "date": "2026-10-05",
-    "generatedAt": "2026-10-05T03:35:02.944Z",
-    "totalCount": 402,
-    "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 402 条",
+    "date": "2026-10-06",
+    "generatedAt": "2026-10-06T04:23:05.648Z",
+    "totalCount": 407,
+    "todayCount": 1,
+    "headline": "今日 AI 信号 1 条 · 档案共 407 条",
     "topUpdates": [
       {
         "id": "sig-8e206c4d9e",
@@ -91,8 +91,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-10-05T03:35:02.945Z",
-    "summary": "近 30 天共 262 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-10-06T04:23:05.649Z",
+    "summary": "近 30 天共 266 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -107,6 +107,30 @@
     "risingTags": []
   },
   "productUpdates": [
+    {
+      "id": "sig-78ad538158",
+      "title": "Our approach to EU text provenance rules",
+      "oneLiner": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detect",
+      "date": "2026-10-05",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-3cbec84de8",
+      "title": "Building advertising for the way people use AI",
+      "oneLiner": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partn",
+      "date": "2026-10-05",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
+    },
     {
       "id": "sig-8e206c4d9e",
       "title": "GPT-6 系列模型指南",
@@ -348,6 +372,18 @@
       "stars": 4
     },
     {
+      "id": "sig-69f2b5ec7d",
+      "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
+      "oneLiner": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating tic",
+      "date": "2026-09-25",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
+    },
+    {
       "id": "sig-e7107d9a76",
       "title": "隆重推出 Gemini 3.8 Live with Live Avatar",
       "oneLiner": "Gemini 3.8 Live with Live Avatar 为 Gemini 的对话式 AI 带来了实时视觉效果。通过将我们的实时对话功能与低延迟流视频原生结合，Live Avatar 为企业及其用户提供了更自然、直观的对话体验。",
@@ -358,45 +394,355 @@
       "source": "Google DeepMind",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-8a86c97089",
-      "title": "Google Beam 不断拓展新的地区、合作伙伴和客户",
-      "oneLiner": "我们正在将 Google Beam 扩展到五个新国家，与 Industrious 合作扩展网络，并证明我们对 Google 及其他领域的影响。",
-      "date": "2026-09-23",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google AI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-4c4abcff4a",
-      "title": "通过安全的服务器端内存推进私有人工智能计算",
-      "oneLiner": "我们的私有人工智能计算架构进行了技术更新，它将支持持久的、跨设备的人工智能内存，并符合设备上的隐私标准。",
-      "date": "2026-09-23",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google DeepMind",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-9d02eeb8ce",
-      "title": "OpenAI 学院两年",
-      "oneLiner": "纪念 OpenAI 学院成立两周年，并将人工智能技能带给更多社区。",
-      "date": "2026-09-23",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-a8157c50a9",
+      "title": "Open Source as We Know It Is Dead",
+      "oneLiner": "Article URL: https://jross.me/open-source-as-we-know-it-is-dead/ Comments URL: https://news.ycombina",
+      "summary": {
+        "oneSentence": "Article URL: https://jross.me/open-source-as-we-know-it-is-dead/ Comments URL: https://news.ycombinator.com/item?id=4997",
+        "bullets": [
+          "Article URL: https://jross.me/open-source-as-we-know-it-is-dead/ Comments URL: https://news.ycombinator.com/item?id=49973839 Points: 12 # Comments: 1"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://jross.me/open-source-as-we-know-it-is-dead/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Article URL: https://jross.me/open-source-as-we-know-it-is-dead/ Comments URL: https://news.ycombinator.com/item?id=49973839 Points: 12 # Comments: 1"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Open Source as We Know It Is Dead",
+      "originalLang": "en",
+      "date": "2026-10-06",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "news",
+        "group": "trending",
+        "name": "Hacker News",
+        "author": "HN",
+        "url": "https://jross.me/open-source-as-we-know-it-is-dead/",
+        "home": "https://news.ycombinator.com/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Open Source as We Know It Is Dead"
+      },
+      "raw": {
+        "title": "Open Source as We Know It Is Dead",
+        "url": "https://jross.me/open-source-as-we-know-it-is-dead/",
+        "fetched": false,
+        "savedAt": "2026-10-06T04:23:00.615Z"
+      }
+    },
+    {
+      "id": "sig-78ad538158",
+      "title": "Our approach to EU text provenance rules",
+      "oneLiner": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detect",
+      "summary": {
+        "oneSentence": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why a",
+        "bullets": [
+          "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/eu-text-provenance"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Our approach to EU text provenance rules",
+      "originalLang": "en",
+      "date": "2026-10-05",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/eu-text-provenance",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Our approach to EU text provenance rules"
+      },
+      "raw": {
+        "title": "Our approach to EU text provenance rules",
+        "url": "https://openai.com/index/eu-text-provenance",
+        "fetched": false,
+        "savedAt": "2026-10-06T04:22:51.331Z"
+      }
+    },
+    {
+      "id": "sig-3cbec84de8",
+      "title": "Building advertising for the way people use AI",
+      "oneLiner": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partn",
+      "summary": {
+        "oneSentence": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand s",
+        "bullets": [
+          "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/new-chatgpt-ads-format-and-measurement"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Building advertising for the way people use AI",
+      "originalLang": "en",
+      "date": "2026-10-05",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Building advertising for the way people use AI"
+      },
+      "raw": {
+        "title": "Building advertising for the way people use AI",
+        "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+        "fetched": false,
+        "savedAt": "2026-10-06T04:22:52.884Z"
+      }
+    },
+    {
+      "id": "sig-16140ec435",
+      "title": "Quoting Felix Rieseberg",
+      "oneLiner": "The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-",
+      "summary": {
+        "oneSentence": "The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipp",
+        "bullets": [
+          "The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reason"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Oct/5/felix-rieseberg/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "The \"old\" version of Cowork runs model inference in the cloud, executing tool calls in an Anthropic-provided VM we shipped to your computer. We added the VM for capability, safety, and security reasons - mapping in just the data you explicitly added to your session. People loved what they were able to do with Claude but didn't love the disk, battery, and performance cost of running the VM locally. Also, people didn't love that closing your laptop means the work stops. The \"new\" version of Cowork runs model inference and the VM in the cloud. Each session gets its own sandbox, not sharing state with other sessions. When the VM needs something on the users' device (like a file), the desktop app is responsible for that file access tool call. [...] We think this solves a lot of problems we've heard about (like using Cowork from a phone, keeping work running, or getting all the same power without losing battery to the VM) &mdash; Felix Rieseberg , Anthropic, see also this help page Tags: claude-cowork , anthropic , claude , generative-ai , ai , general-agents , llms"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Quoting Felix Rieseberg",
+      "originalLang": "en",
+      "date": "2026-10-05",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Quoting Felix Rieseberg"
+      },
+      "raw": {
+        "title": "Quoting Felix Rieseberg",
+        "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
+        "fetched": false,
+        "savedAt": "2026-10-06T04:22:56.609Z"
+      }
+    },
+    {
+      "id": "sig-88d553ae09",
+      "title": "Qwen3.8 27B addition in words",
+      "oneLiner": "Research: Qwen3.8 27B addition in words Colin Frasier posted on Bluesky about an experiment he ran o",
+      "summary": {
+        "oneSentence": "Research: Qwen3.8 27B addition in words Colin Frasier posted on Bluesky about an experiment he ran over two years ago us",
+        "bullets": [
+          "Research: Qwen3.8 27B addition in words Colin Frasier posted on Bluesky about an experiment he ran over two years ago using GPT-4o to see how well it could \"compute the sum but return the answer in wo"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Research: Qwen3.8 27B addition in words Colin Frasier posted on Bluesky about an experiment he ran over two years ago using GPT-4o to see how well it could \"compute the sum but return the answer in words\" across increasingly large numbers. Here's the chart he shared of those results: I'm confident GPT-4o didn't cheat and use a calculator, especially since it got so many of the calculations wrong, but I was inspired to run the experiment again on local hardware (a DGX Spark) to explore the effect in a fully controlled environment. I pasted his image into a Codex Remote session (GPT-6 Astra) and had it run the same experiment using Qwen3.8-27B-Q4_K_M.gguf . Here's the result for a run of 30 attempts per combination with reasoning disabled: Then I ran it again with reasoning enabled. This took a lot longer per pair, so instead of running 30 samples per square I ran just one - which results in a much less visually appealing heatmap since each square is either 100% or 0%: It got the right answer in 167 out of 169 attempts, and since these were one-shot I'm confident a second run would produce different results here. Here's a version of the report that includes the reasoning traces from some of those larger calculations, which include text like this: Wait, let me redo this more carefully. 4,299,366,105,622 6,088,794,067,970 Let me align them: 4 2 9 9 3 6 6 1 0 5 6 2 2 6 0 8 8 7 9 4 0 6 7 9 7 0 Adding from right to left: Position 1 (units): 2 + 0 = 2 Position 2 (tens): 2 + 7 = 9 Position 3 (hundreds): 6 + 9 = 15, write 5, carry 1 Tags: mathematics , ai , generative-ai , local-llms , llms , qwen , llm-reasoning , dgx-spark"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Qwen3.8 27B addition in words",
+      "originalLang": "en",
+      "date": "2026-10-04",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Qwen3.8 27B addition in words"
+      },
+      "raw": {
+        "title": "Qwen3.8 27B addition in words",
+        "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
+        "fetched": false,
+        "savedAt": "2026-10-06T04:22:57.411Z"
+      }
+    },
     {
       "id": "sig-4956a5acae",
       "title": "September sponsors-only newsletter",
@@ -1959,6 +2305,74 @@
       }
     },
     {
+      "id": "sig-88caa1a107",
+      "title": "pwasm 0.2a0",
+      "oneLiner": "Release: pwasm 0.2a0 pwasm is one of my folly projects - an entirely vibe-coded pure Python WebAssem",
+      "summary": {
+        "oneSentence": "Release: pwasm 0.2a0 pwasm is one of my folly projects - an entirely vibe-coded pure Python WebAssembly engine that I bu",
+        "bullets": [
+          "Release: pwasm 0.2a0 pwasm is one of my folly projects - an entirely vibe-coded pure Python WebAssembly engine that I built in January during my first bout of AI mania . I hadn't touched it since Janu"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Oct/1/pwasm/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Release: pwasm 0.2a0 pwasm is one of my folly projects - an entirely vibe-coded pure Python WebAssembly engine that I built in January during my first bout of AI mania . I hadn't touched it since January, so I decided to let Claude Opus 5.5 loose on it and see if it could make any significant improvements: Evaluate current state of pwasm - then consider what it would take to get the MicroPython and micro JavaScript experiments from the research repo working under it - and what it would take to speed it up 42 commits later (with minimal follow-up prompting) it now handles almost all of the WASM specification, and the wheel from PyPI bundles working WASM builds of MicroPython , QuickJS and Micro QuickJS . I wouldn't trust this thing at all - hence the alpha version tag - but it's interesting seeing how today's models can improve on the work of models from 10 months ago. Tags: python , webassembly , vibe-coding"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "pwasm 0.2a0",
+      "originalLang": "en",
+      "date": "2026-10-01",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Oct/1/pwasm/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "pwasm 0.2a0"
+      },
+      "raw": {
+        "title": "pwasm 0.2a0",
+        "url": "https://simonwillison.net/2026/Oct/1/pwasm/",
+        "fetched": false,
+        "savedAt": "2026-10-06T04:22:58.212Z"
+      }
+    },
+    {
       "id": "sig-1a03c303f2",
       "title": "Vercel Agent 现在从 npm 和自定义注册表安装私有软件包 - Vercel",
       "oneLiner": "Vercel Agent 可以使用 Vercel 上存储为共享环境变量的凭据从 npm 和自定义注册表安装私有依赖项。在 Agent 会话中运行的 npm 、 pnpm 和经典 Yarn 进行身份验证，就像在 Vercel 构建中一样。",
@@ -2968,6 +3382,80 @@
         "url": "https://www.latent.space/p/ainews-openai-devday-2026-dots-61",
         "fetched": false,
         "savedAt": "2026-10-04T03:49:26.984Z"
+      }
+    },
+    {
+      "id": "sig-52b4873f76",
+      "title": "Voyage Rerank 3 and Rerank 3 Lite are now available on AI Gateway",
+      "oneLiner": "Rerank 3 and Rerank 3 Lite from Voyage AI by MongoDB are now available on AI Gateway. The models reo",
+      "summary": {
+        "oneSentence": "Rerank 3 and Rerank 3 Lite from Voyage AI by MongoDB are now available on AI Gateway. The models reorder search results ",
+        "bullets": [
+          "Rerank 3 and Rerank 3 Lite from Voyage AI by MongoDB are now available on AI Gateway. The models reorder search results by relevance before passing documents to a language model. The series improves r"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/voyage-rerank-3-and-rerank-3-lite-are-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Rerank 3 and Rerank 3 Lite from Voyage AI by MongoDB are now available on AI Gateway.",
+        "The models reorder search results by relevance before passing documents to a language model. The series improves retrieval quality across domains, with the largest gains on long documents and code.",
+        "Rerank 3 focuses on accuracy, while Rerank 3 Lite is optimized for latency and cost. Both handle up to 32K tokens per query-document pair and follow instructions in the query to guide ranking.",
+        "To use Rerank 3, set the model to voyage/rerank-3 :",
+        "1 import { rerank } from 'ai' ; 2 3 const { ranking } = await rerank ( { 4 model : 'voyage/rerank-3' , 5 query : 'How does a vector database find similar documents?' , 6 documents : [ 7 'A load balancer distributes traffic across servers.' , 8 'A vector database searches embeddings to find similar documents.' , 9 ] , 10 topN : 1 , 11 } ) ;",
+        "For Rerank 3 Lite, change the model to voyage/rerank-3-lite .",
+        "Try Voyage Rerank 3 in the AI Gateway model playground , or explore the model catalog .",
+        "AI Gateway provides one API for calling models, tracking usage and cost, and configuring routing, retries, and failover. You can use an AI Gateway API key or bring your own provider key ."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Voyage Rerank 3 and Rerank 3 Lite are now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-09-30",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/voyage-rerank-3-and-rerank-3-lite-are-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Voyage Rerank 3 and Rerank 3 Lite are now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Voyage Rerank 3 and Rerank 3 Lite are now available on AI Gateway",
+        "url": "https://vercel.com/changelog/voyage-rerank-3-and-rerank-3-lite-are-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-10-06T04:22:54.272Z"
       }
     },
     {
@@ -4819,6 +5307,74 @@
       }
     },
     {
+      "id": "sig-e9331b1c07",
+      "title": "llm-anthropic 0.30",
+      "oneLiner": "Release: llm-anthropic 0.30 In addition to Claude Sonnet 5.5, this release adds the ability to run l",
+      "summary": {
+        "oneSentence": "Release: llm-anthropic 0.30 In addition to Claude Sonnet 5.5, this release adds the ability to run llm anthropic refresh",
+        "bullets": [
+          "Release: llm-anthropic 0.30 In addition to Claude Sonnet 5.5, this release adds the ability to run llm anthropic refresh to refresh the list of Anthropic models directly from their API - which means I"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Sep/28/llm-anthropic/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Release: llm-anthropic 0.30 In addition to Claude Sonnet 5.5, this release adds the ability to run llm anthropic refresh to refresh the list of Anthropic models directly from their API - which means I don't need to push a new release just to add support for a newly released model. I also added an llm anthropic count command which can use their free token counting API to return a count of tokens that will be used by any prompt, before you send that prompt. Tags: llm , anthropic"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "llm-anthropic 0.30",
+      "originalLang": "en",
+      "date": "2026-09-28",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Sep/28/llm-anthropic/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "llm-anthropic 0.30"
+      },
+      "raw": {
+        "title": "llm-anthropic 0.30",
+        "url": "https://simonwillison.net/2026/Sep/28/llm-anthropic/",
+        "fetched": false,
+        "savedAt": "2026-10-06T04:22:59.013Z"
+      }
+    },
+    {
       "id": "sig-23cec1ac56",
       "title": "Fireworks 的 Ember-1 现已在 AI Gateway 上提供 - Vercel",
       "oneLiner": "Fireworks 的 Ember-1 现已在 AI Gateway 上提供。",
@@ -6003,6 +6559,77 @@
         "url": "https://www.latent.space/p/runway",
         "fetched": false,
         "savedAt": "2026-09-28T03:06:21.128Z"
+      }
+    },
+    {
+      "id": "sig-69f2b5ec7d",
+      "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
+      "oneLiner": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating tic",
+      "summary": {
+        "oneSentence": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhan",
+        "bullets": [
+          "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/wayfair"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating ticket triage and enhancing millions of product attributes at scale."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Wayfair boosts catalog accuracy and support speed with OpenAI",
+      "originalLang": "en",
+      "date": "2026-09-25",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/wayfair",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Wayfair boosts catalog accuracy and support speed with OpenAI"
+      },
+      "raw": {
+        "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
+        "url": "https://openai.com/index/wayfair",
+        "fetched": false,
+        "savedAt": "2026-10-06T04:22:55.808Z"
       }
     },
     {
@@ -8089,7 +8716,7 @@
         "url": "https://cursor.com/changelog/rollouts-and-security-reviewer",
         "fetched": true,
         "savedAt": "2026-09-27T03:09:42.462Z",
-        "retranslatedAt": "2026-10-05T03:34:58.970Z"
+        "retranslatedAt": "2026-10-06T04:23:01.689Z"
       }
     },
     {
@@ -9399,6 +10026,74 @@
         "url": "https://simonwillison.net/2026/Sep/22/therealcornpop/",
         "fetched": false,
         "savedAt": "2026-10-05T03:34:57.797Z"
+      }
+    },
+    {
+      "id": "sig-20af5c3822",
+      "title": "[AINews] Xiaomi MiMo-V2.6-Pro 1T-A42B: the new top Open Weights model, trained for $3M",
+      "oneLiner": "crowning a new Chinese frontier lab",
+      "summary": {
+        "oneSentence": "crowning a new Chinese frontier lab",
+        "bullets": [
+          "crowning a new Chinese frontier lab"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "crowning a new Chinese frontier lab"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "[AINews] Xiaomi MiMo-V2.6-Pro 1T-A42B: the new top Open Weights model, trained for $3M",
+      "originalLang": "en",
+      "date": "2026-09-22",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "[AINews] Xiaomi MiMo-V2.6-Pro 1T-A42B: the new top Open Weights model, trained for $3M"
+      },
+      "raw": {
+        "title": "[AINews] Xiaomi MiMo-V2.6-Pro 1T-A42B: the new top Open Weights model, trained for $3M",
+        "url": "https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b",
+        "fetched": false,
+        "savedAt": "2026-10-06T04:22:59.813Z"
       }
     },
     {
@@ -17146,7 +17841,7 @@
         "url": "https://cursor.com/changelog/projects",
         "fetched": true,
         "savedAt": "2026-09-12T02:41:59.708Z",
-        "retranslatedAt": "2026-10-05T03:35:00.011Z"
+        "retranslatedAt": "2026-10-06T04:23:02.680Z"
       }
     },
     {
@@ -22499,7 +23194,7 @@
         "url": "https://cursor.com/changelog/self-hosted-machines",
         "fetched": true,
         "savedAt": "2026-09-03T02:33:34.106Z",
-        "retranslatedAt": "2026-10-05T03:35:01.095Z"
+        "retranslatedAt": "2026-10-06T04:23:03.851Z"
       }
     },
     {
@@ -26436,7 +27131,7 @@
         "url": "https://cursor.com/changelog/start-from-scratch",
         "fetched": true,
         "savedAt": "2026-08-28T08:33:37.517Z",
-        "retranslatedAt": "2026-10-05T03:35:02.142Z"
+        "retranslatedAt": "2026-10-06T04:23:04.846Z"
       }
     },
     {
@@ -30772,346 +31467,6 @@
         "url": "https://simonwillison.net/2026/Aug/23/drew-breunig/",
         "fetched": false,
         "savedAt": "2026-08-24T00:55:34.754Z"
-      }
-    },
-    {
-      "id": "sig-d17933d435",
-      "title": "Quoting Linus Torvalds",
-      "oneLiner": "And this was a debug session from hell, enormously helped by an AI doing much of the grunt-work. I'd",
-      "summary": {
-        "oneSentence": "And this was a debug session from hell, enormously helped by an AI doing much of the grunt-work. I'd like to call it my ",
-        "bullets": [
-          "And this was a debug session from hell, enormously helped by an AI doing much of the grunt-work. I'd like to call it my tireless helper, but the AI several times stated flat out that this was impossib"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Aug/22/linus-torvalds/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "And this was a debug session from hell, enormously helped by an AI doing much of the grunt-work. I'd like to call it my tireless helper, but the AI several times stated flat out that this was impossible and unsolvable and that we should just write a report about it. I suspect those things have been trained by people who may not be quite as stubborn as I am. But while the AI was ready to give up several times, it did keep adding debug code and analyzing it faithfully when I pushed. So credit where credit is due and I let the AI write the commit message above. &mdash; Linus Torvalds , drm/xe: Don't hand out the flat CCS storage as usable VRAM Tags: linus-torvalds , linux , generative-ai , ai-assisted-programming , ai , llms"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Quoting Linus Torvalds",
-      "originalLang": "en",
-      "date": "2026-08-22",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Quoting Linus Torvalds"
-      },
-      "raw": {
-        "title": "Quoting Linus Torvalds",
-        "url": "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
-        "fetched": false,
-        "savedAt": "2026-08-23T00:57:47.063Z"
-      }
-    },
-    {
-      "id": "sig-d2a4852ea4",
-      "title": "llm 0.33",
-      "oneLiner": "Release: llm 0.33 My highlights from this release: Upgraded to the OpenAI Python library 3.x and swi",
-      "summary": {
-        "oneSentence": "Release: llm 0.33 My highlights from this release: Upgraded to the OpenAI Python library 3.x and switched the HTTP clien",
-        "bullets": [
-          "Release: llm 0.33 My highlights from this release: Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from httpx to httpx2 . #1608 , #1631 I shipped a quick 0.32.1 fix f"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Aug/22/llm/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Release: llm 0.33 My highlights from this release: Upgraded to the OpenAI Python library 3.x and switched the HTTP client dependency from httpx to httpx2 . #1608 , #1631 I shipped a quick 0.32.1 fix for this yesterday, but this is the more comprehensive fix. llm embed and llm embed-multi now accept --key . The Python EmbeddingModel.embed() , EmbeddingModel.embed_multi() , Collection.embed() and Collection.embed_multi() methods accept key= too, passing the resolved per-call key to embedding plugins without changing shared model state. Existing plugins that read self.key continue to work through a compatibility fallback. Thanks, ChrisJr404 . #757 , #1620 The embedding models now use the same pattern for keys that regular LLM models do. llm prompt -t/--template can now be repeated to combine templates in order. This allows model configuration and options from one template to be used with a prompt from another. This unlocks a neat pattern where you can create templates that package a model with a set of default options: llm -m gpt-5.6-luna -o reasoning_effort high --save lhigh llm \"Generate an SVG of a pelican riding a bicycle\" --save pelican # Combine and run the templates llm -t lhigh -t pelican Reasoning-capable Responses API models now support a reasoning_summary option with auto , concise , and detailed values. This can be used with llm openai endpoint --responses . #1600 This is particularly useful for exercising different models that provide their own imitation of the OpenAI Responses API. Tags: annotated-release-notes , llm"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "llm 0.33",
-      "originalLang": "en",
-      "date": "2026-08-22",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Aug/22/llm/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "llm 0.33"
-      },
-      "raw": {
-        "title": "llm 0.33",
-        "url": "https://simonwillison.net/2026/Aug/22/llm/",
-        "fetched": false,
-        "savedAt": "2026-08-23T00:57:47.864Z"
-      }
-    },
-    {
-      "id": "sig-64b442a936",
-      "title": "More than just code review",
-      "oneLiner": "The key skill required to make productive use of coding agents is being able to confidently instruct",
-      "summary": {
-        "oneSentence": "The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make",
-        "bullets": [
-          "The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Aug/22/more-than-just-code-review/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "The key skill required to make productive use of coding agents is being able to confidently instruct them on how to make changes and then confidently verify that those changes have been applied in the correct way. Sometimes this involves reviewing every line of code they have written, but there are other ways to achieve that goal. Eyeballing every line of code has never been the most effective way to validate a chance to a piece of software. Tags: code-review , coding-agents , generative-ai , agentic-engineering , ai , llms"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "More than just code review",
-      "originalLang": "en",
-      "date": "2026-08-22",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "More than just code review"
-      },
-      "raw": {
-        "title": "More than just code review",
-        "url": "https://simonwillison.net/2026/Aug/22/more-than-just-code-review/",
-        "fetched": false,
-        "savedAt": "2026-08-23T00:57:48.665Z"
-      }
-    },
-    {
-      "id": "sig-9e98c378bd",
-      "title": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over",
-      "oneLiner": "Did you think RSI stopped at model training?",
-      "summary": {
-        "oneSentence": "Did you think RSI stopped at model training?",
-        "bullets": [
-          "Did you think RSI stopped at model training?"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Did you think RSI stopped at model training?"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over",
-      "originalLang": "en",
-      "date": "2026-08-22",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Latent Space",
-        "author": "swyx",
-        "url": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over"
-      },
-      "raw": {
-        "title": "[AINews] 10% worse, 100x cheaper, 10000x faster: Why Simulation is taking over",
-        "url": "https://www.latent.space/p/ainews-10-worse-100x-cheaper-10000x",
-        "fetched": false,
-        "savedAt": "2026-08-23T00:57:49.465Z"
-      }
-    },
-    {
-      "id": "sig-80c0bfdc85",
-      "title": "The Evolution of the Agent Harness",
-      "oneLiner": "Models keep absorbing the harness into their weights — soon, it will be a harness for human attentio",
-      "summary": {
-        "oneSentence": "Models keep absorbing the harness into their weights — soon, it will be a harness for human attention rather than for th",
-        "bullets": [
-          "Models keep absorbing the harness into their weights — soon, it will be a harness for human attention rather than for the model."
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://www.latent.space/p/attention-interface"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Models keep absorbing the harness into their weights — soon, it will be a harness for human attention rather than for the model."
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "The Evolution of the Agent Harness",
-      "originalLang": "en",
-      "date": "2026-08-22",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Latent Space",
-        "author": "swyx",
-        "url": "https://www.latent.space/p/attention-interface",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "The Evolution of the Agent Harness"
-      },
-      "raw": {
-        "title": "The Evolution of the Agent Harness",
-        "url": "https://www.latent.space/p/attention-interface",
-        "fetched": false,
-        "savedAt": "2026-08-23T00:57:50.266Z"
       }
     }
   ]
