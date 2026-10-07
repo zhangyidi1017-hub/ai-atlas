@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-06T04:23:05.649Z",
+  "updatedAt": "2026-10-07T03:49:23.079Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 407,
+  "itemCount": 415,
   "brief": {
-    "date": "2026-10-06",
-    "generatedAt": "2026-10-06T04:23:05.648Z",
-    "totalCount": 407,
-    "todayCount": 1,
-    "headline": "今日 AI 信号 1 条 · 档案共 407 条",
+    "date": "2026-10-07",
+    "generatedAt": "2026-10-07T03:49:23.078Z",
+    "totalCount": 415,
+    "todayCount": 0,
+    "headline": "今日 AI 信号 — 条 · 档案共 415 条",
     "topUpdates": [
       {
         "id": "sig-8e206c4d9e",
@@ -91,8 +91,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-10-06T04:23:05.649Z",
-    "summary": "近 30 天共 266 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-10-07T03:49:23.079Z",
+    "summary": "近 30 天共 269 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -107,6 +107,54 @@
     "risingTags": []
   },
   "productUpdates": [
+    {
+      "id": "sig-4dd2900708",
+      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "oneLiner": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "date": "2026-10-06",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google DeepMind",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-60ef2af305",
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "oneLiner": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise know",
+      "date": "2026-10-06",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-342677ae7e",
+      "title": "How Jump Trading is scaling quant research with ChatGPT",
+      "oneLiner": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combin",
+      "date": "2026-10-06",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-47b9255d8f",
+      "title": "Sharing AI progress in mathematics",
+      "oneLiner": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and sha",
+      "date": "2026-10-06",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
+    },
     {
       "id": "sig-78ad538158",
       "title": "Our approach to EU text provenance rules",
@@ -346,54 +394,6 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-cf468ec39d",
-      "title": "前沿人工智能训练的安全案例",
-      "oneLiner": "我们针对前沿人工智能培训中的安全案例的早期指南涵盖了技术保障、操作实践和调查错位事件",
-      "date": "2026-09-28",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-d2d497e5ee",
-      "title": "Proaction 通过 Codex 将销售额提高了 60% 并节省了 75 多个小时",
-      "oneLiner": "借助 Codex、GPT-Live-1 和 GPT-6 Astra，Proaction 可以更快地构建、运营和销售现代车队管理。",
-      "date": "2026-09-25",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-69f2b5ec7d",
-      "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
-      "oneLiner": "Wayfair uses OpenAI models to improve ecommerce support and product catalog accuracy, automating tic",
-      "date": "2026-09-25",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 3
-    },
-    {
-      "id": "sig-e7107d9a76",
-      "title": "隆重推出 Gemini 3.8 Live with Live Avatar",
-      "oneLiner": "Gemini 3.8 Live with Live Avatar 为 Gemini 的对话式 AI 带来了实时视觉效果。通过将我们的实时对话功能与低延迟流视频原生结合，Live Avatar 为企业及其用户提供了更自然、直观的对话体验。",
-      "date": "2026-09-24",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google DeepMind",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
@@ -463,6 +463,776 @@
         "url": "https://jross.me/open-source-as-we-know-it-is-dead/",
         "fetched": false,
         "savedAt": "2026-10-06T04:23:00.615Z"
+      }
+    },
+    {
+      "id": "sig-4dd2900708",
+      "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "oneLiner": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "summary": {
+        "oneSentence": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+        "bullets": [
+          "EmbeddingGemma 2: an open, lightweight multimodal embedding model"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "EmbeddingGemma 2 is the most capable model for on-device multimodal embeddings, natively mapping combinations of text, images, audio, and video into a unified embedding space.",
+        "Your browser does not support the audio element.",
+        "We introduced EmbeddingGemma last year to provide a lightweight option for high-quality text embeddings, to help your apps organize, search, and connect information directly on consumer hardware. The developer community’s response blew past our expectations. With more than 20 million downloads, builders have used it to power smarter on-device search tools and privacy-first retrieval augmented generation (RAG) pipelines.",
+        "Today, we’re launching EmbeddingGemma 2 , expanding beyond text to unify code, images, video, and audio in a shared embedding space. Built on the Gemma 4 architecture and released under a commercially permissive Apache 2.0 license, EmbeddingGemma 2 has 740 million parameters, making it optimal for on-device inference. It can help find a specific video clip from a voice memo, or search through hours of audio recordings based on a text query, all processed by a single, natively multimodal model.",
+        "Built from the same technology as Gemini Embedding models, EmbeddingGemma 2 is:",
+        "EmbeddingGemma 2 matches the strong multilingual text performance of EmbeddingGemma while delivering a significant 9.92-point improvement on code performance (in MTEB Code, from 68.76 to 78.68), making it well-suited for local codebase indexing, semantic code search, and coding agent retrieval. Across image, video, documents, and audio, it sets a new standard in quality-per-parameter for sub-1B models and even outperforms some specialist models more than twice its size.",
+        "Find full evaluation metrics and model information in the EmbeddingGemma 2 model card .",
+        "EmbeddingGemma 2 brings robust capabilities directly to edge hardware. Generating embeddings locally helps ensure data privacy, reduces pipeline latency, and empowers developers to build cross-modal search and retrieval that works entirely offline.",
+        "When paired with generative models such as Gemma 4, EmbeddingGemma 2 enables on-device RAG pipelines that understand complex multimodal data. Because EmbeddingGemma 2 is built on Gemma 4 and shares its text tokenizer and audio encoder, developers can run both models together in a unified pipeline with a lower combined total memory footprint.",
+        "Use text or an image to find the top matches in your media library based on semantic similarity. Try it in Google AI Edge Gallery ’s Instant Media Search.",
+        "Locate specific moments in video using text or audio queries. Try it in Google AI Edge Gallery ’s Video Moments Finder.",
+        "Pair EmbeddingGemma 2 for local file retrieval with Gemma 4 for contextual reasoning. Try it in the Google AI Edge Foresight app.",
+        "Create real-time decision engines leveraging multimodal context for classification, routing, and predictive capabilities via the MediaPipe Decision Task API .",
+        "To learn how to build on-device search and RAG systems with LiteRT, read the Google AI Edge blog post ."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+      "originalLang": "en",
+      "date": "2026-10-06",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google DeepMind",
+        "author": "DeepMind",
+        "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+        "home": "https://deepmind.google/blog/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "EmbeddingGemma 2: an open, lightweight multimodal embedding model"
+      },
+      "raw": {
+        "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
+        "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+        "fetched": true,
+        "savedAt": "2026-10-07T03:49:00.288Z"
+      }
+    },
+    {
+      "id": "sig-61b4e13810",
+      "title": "AI Gateway adds confidence-based decision fallbacks",
+      "oneLiner": "AI Gateway can now escalate a decision request to a fallback model when the primary model's answer t",
+      "summary": {
+        "oneSentence": "AI Gateway can now escalate a decision request to a fallback model when the primary model's answer trips a confidence co",
+        "bullets": [
+          "AI Gateway can now escalate a decision request to a fallback model when the primary model's answer trips a confidence condition you set. Conditions can be combined, so an escalation can depend on more"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/confidence-based-decision-fallbacks"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "AI Gateway can now escalate a decision request to a fallback model when the primary model's answer trips a confidence condition you set.",
+        "Conditions can be combined, so an escalation can depend on more than one signal. The plain model names you already list in models keep catching outright errors, so existing fallbacks are unaffected. Confidence conditions cover Choice and Score questions. Boolean questions escalate on a probability range instead.",
+        "Set the fallback by adding one conditional object to providerOptions.gateway.models . Requests without it keep their existing behavior.",
+        "1 import { gateway } from '@ai-sdk/gateway' ; 2 import { experimental_decide as decide } from 'ai' ; 3 const result = await decide ( { 4 model : gateway . decisionModel ( 'typesafe-ai/jev' ) , 5 state : 'I was charged twice and now the app will not load.' , 6 questions : { 7 intent : { 8 type : 'choice' , 9 instructions : 'Which team should handle this?' , 10 criteria : { billing : 'Charges and refunds' , technical : 'Bugs and outages' } , 11 } , 12 } , 13 providerOptions : { 14 gateway : { 15 models : [ { model : 'openai/gpt-6-astra' , when : { question : 'intent' , confidenceBelow : 0.6 } } ] , 16 } , 17 } , 18 } ) ; 19 console . log ( result . answers . intent . choice ) ; Escalating an uncertain answer to a fallback model with a confidence condition",
+        "Leave out question and the condition checks every question of the matching type, so { confidenceBelow: 0.6 } escalates when any Choice or Score answer falls below 0.6.",
+        "Because a triggered fallback runs a second decision, it bills both stages.",
+        "Decision fallbacks are in beta. Learn more in the decision fallbacks documentation ."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "AI Gateway adds confidence-based decision fallbacks - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-06",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/confidence-based-decision-fallbacks",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "AI Gateway adds confidence-based decision fallbacks - Vercel"
+      },
+      "raw": {
+        "title": "AI Gateway adds confidence-based decision fallbacks",
+        "url": "https://vercel.com/changelog/confidence-based-decision-fallbacks",
+        "fetched": true,
+        "savedAt": "2026-10-07T03:49:01.938Z"
+      }
+    },
+    {
+      "id": "sig-60ef2af305",
+      "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "oneLiner": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise know",
+      "summary": {
+        "oneSentence": "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams",
+        "bullets": [
+          "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/atlassian-partnership"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Atlassian and OpenAI are expanding their partnership to connect frontier models with enterprise knowledge and help teams plan, build, and deliver work."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+      "originalLang": "en",
+      "date": "2026-10-06",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/atlassian-partnership",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action"
+      },
+      "raw": {
+        "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
+        "url": "https://openai.com/index/atlassian-partnership",
+        "fetched": false,
+        "savedAt": "2026-10-07T03:49:03.524Z"
+      }
+    },
+    {
+      "id": "sig-5f1818618f",
+      "title": "3 ways product designers use the Figma agent for craft, speed, and creative expression",
+      "oneLiner": "Here’s how teams at Uber, Granola, and Atlassian support high-quality, fast-moving work with the Fig",
+      "summary": {
+        "oneSentence": "Here’s how teams at Uber, Granola, and Atlassian support high-quality, fast-moving work with the Figma agent, now genera",
+        "bullets": [
+          "Here’s how teams at Uber, Granola, and Atlassian support high-quality, fast-moving work with the Figma agent, now generally available."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.figma.com/blog/3-ways-product-designers-use-the-figma-agent/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Here’s how teams at Uber, Granola, and Atlassian support high-quality, fast-moving work with the Figma agent, now generally available.",
+        "Table of contents How Uber scales design systems documentation How Granola designs with confidence How Atlassian operationalizes motion Table of contents How Uber scales design systems documentation How Granola designs with confidence How Atlassian operationalizes motion Since we first launched the Figma agent The Figma design agent is here Starting today, work with an agent that is built for Figma—directly on the canvas.",
+        "Prompting gets you started. Custom tools, real context, and skills take the design agent further—so what ends up on the canvas actually looks like you.",
+        "Starting today, you’ll have more creative control over generative plugins and shaders, and a way to share what you’ve made with the community. Product Designer Rogie King tells the story of how we got here.",
+        "Use guidelines to tell the agent how your team uses its design system. For example, you might say, “Only use red for actions like Delete , never just for decoration.” When a product builder asks the agent to design something using that library, it automatically gets those instructions.",
+        "Today, the Figma agent moves out of beta with a number of improvements, including to output quality. The new agent is better at following instructions and handling longer-running tasks. In fact, it wins in ~60%+ of our human-graded evals with professional designers. In addition to improved quality, we’ve launched new capabilities that let you:",
+        "As we’ve heard from teams at Uber, Granola, and Atlassian, having the agent where they already work means they don’t need to reinvent processes or toggle between tools, allowing them to move faster while elevating craft.",
+        "/create-color : Map fills, strokes, shadows, and gradients to their tokens",
+        "/create-anatomy : Diagram the anatomy of components and subcomponents",
+        "/create-api : Get an API overview and configuration examples",
+        "/component-handoff : Build a documentation frame for selected components",
+        "/analyze-components : Audit all components on a screen for issues",
+        "Uber’s design systems team delivers components across seven platforms. The challenge isn’t just building them, but communicating them: When a single component can carry dozens of states, variants, slots, booleans, and enums, misreading the scope means rework down the line. So Staff Product Designer Ian Guisard and Senior Product Designer Niloo Bakhshi built a workflow that uses the Figma agent to document and maintain their design system —creating the precision that’s a precursor to speed.",
+        "Niloo’s work is deeply visual and “extremely focused on details,” she says. “I spend a lot of time in Figma making prototypes to show the vision for new components.” In the past, translating this work into actionable component specs was a slow and manual process. Now, Ian partners with her to create dev-ready documentation using the Figma agent and a suite of skills he built to help automate the work. /create-anatomy , for example, exposes component structure, while /create-color Try these 10 skills—and show off your own Now you can author skills for our agent, directly in Figma, to put your point of view to work. Here are 10 of our favorites to get you started."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "3 Ways Product Designers Use the Figma agent | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-10-06",
+      "categoryIds": [
+        "vertical-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/3-ways-product-designers-use-the-figma-agent/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "3 Ways Product Designers Use the Figma agent | Figma Blog"
+      },
+      "raw": {
+        "title": "3 ways product designers use the Figma agent for craft, speed, and creative expression",
+        "url": "https://www.figma.com/blog/3-ways-product-designers-use-the-figma-agent/",
+        "fetched": true,
+        "savedAt": "2026-10-07T03:49:05.230Z"
+      }
+    },
+    {
+      "id": "sig-0dc98d29ca",
+      "title": "Workflow lab: Staying in the flow with Figma’s agent",
+      "oneLiner": "Knowing what work to hand to an agent is a skill of its own. This workflow shows how a designer shap",
+      "summary": {
+        "oneSentence": "Knowing what work to hand to an agent is a skill of its own. This workflow shows how a designer shapes a new temporary-a",
+        "bullets": [
+          "Knowing what work to hand to an agent is a skill of its own. This workflow shows how a designer shapes a new temporary-access feature while the Figma agent handles the library updates, crit feedback, "
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.figma.com/blog/workflow-lab-staying-in-the-flow-with-the-figma-agent/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Knowing what work to hand to an agent is a skill of its own. This workflow shows how a designer shapes a new temporary-access feature while the Figma agent handles the library updates, crit feedback, and a first draft of a design system spec.",
+        "Welcome to Workflow Lab, where we present a sample workflow Workflow lab: Moving between design and code with agents Coding agents are reshaping how developers build, but they’re only as good as the input they’re given. This workflow explores how context keeps code and canvas in sync.",
+        "Tools: The Figma agent, annotations and comments, libraries, variables",
+        "Skills: /repair-library-usage, /compliance-review, /document-component-enhancement",
+        "Team: Designer, design systems team, security and compliance partners",
+        "Question to solve: What if the Figma agent handles the busywork while you focus on the deep design work?",
+        "Using AI in a design workflow means constantly asking one question: What needs my judgment, and what just needs doing? This sounds obvious until you’re up against a deadline and you still want every product and design call to be yours. Follow along as a designer at Offtrail—a fictional app for local outdoor meetups—works out how and when to hand something to the Figma agent , from cleaning up outdated components to drafting a spec for the design systems team.",
+        "The Offtrail permission settings don’t currently offer a way to let someone host a single event, so the team wants to add temporary host permissions that expire after the event. The designer picks up the brief: update the permissions experience to let someone join as a host for a limited period, show when that access ends, and give group admins a way to manage it.",
+        "The existing permissions experience already needs updating. Some frames use current components and variables, while others carry deprecated instances or values someone overrode by hand. Since the temporary-access flow builds on those screens, the designer needs to bring them up to date before going further.",
+        "Maintenance is design work. Replacing an old component or repairing a variable binding isn't as dramatic as generating a new screen. But repeated across a product, those small decisions determine whether a design system stays coherent or slowly becomes several systems sharing a name. The agent can do the focused inspection and repetitive repair. The designer still decides what the exceptions mean.",
+        "Before the designer starts working on the flow, they need to know which parts of the existing design file they can trust. Is this component still current? Is that variable binding wrong, or was it meant to work this way? These details help the designer understand which parts of the old flow need to be updated.",
+        "Nobody has time to check every frame by hand, which is probably how the file drifted in the first place. That’s where the Figma agent The Figma design agent is here Starting today, work with an agent that is built for Figma—directly on the canvas.",
+        "The agent applies those straightforward updates directly. When the right call isn’t obvious—for example, two components in the current library could both work—the agent leaves that case unchanged and annotates the frame with what it found and why it stopped. The goal is to update the part of the experience the new work builds on, not to clean up the entire file. So the designer resolves only the cases that affect this project, then moves into designing the first pass of the temporary-access flow without bouncing between file maintenance and feature design.",
+        "Words are part of the flow. The agent can pull in brand voice guidance, generate alternatives, and try the screen in other supported languages."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Workflow Lab: Staying in the Flow with Figma’s Agent | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-10-06",
+      "categoryIds": [
+        "vertical-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/workflow-lab-staying-in-the-flow-with-the-figma-agent/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Workflow Lab: Staying in the Flow with Figma’s Agent | Figma Blog"
+      },
+      "raw": {
+        "title": "Workflow lab: Staying in the flow with Figma’s agent",
+        "url": "https://www.figma.com/blog/workflow-lab-staying-in-the-flow-with-the-figma-agent/",
+        "fetched": true,
+        "savedAt": "2026-10-07T03:49:07.040Z"
+      }
+    },
+    {
+      "id": "sig-246d0120ea",
+      "title": "How to lighten design system upkeep with the Figma agent",
+      "oneLiner": "Figma’s agent can take on repetitive work across your design system, from maintaining your library t",
+      "summary": {
+        "oneSentence": "Figma’s agent can take on repetitive work across your design system, from maintaining your library to automating how des",
+        "bullets": [
+          "Figma’s agent can take on repetitive work across your design system, from maintaining your library to automating how designs adhere to it. Here, we share a few ways to put the Figma agent to work."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.figma.com/blog/figma-agent-and-design-systems/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Figma’s agent can take on repetitive work across your design system, from maintaining your library to automating how designs adhere to it. Here, we share a few ways to put the Figma agent to work.",
+        "Every design system depends on maintenance that’s necessary but easy to put off, like cleaning up naming, checking token usage, updating stale docs, and finding where your product has drifted from the library. As teams move faster than ever, it’s hard to see where designs have fallen out of sync with the system. Output from an agent is only as good as the context it’s given Why you should care about design context As developers increasingly use agentic coding tools, the structure and clarity of design files matters more than ever. By thoughtfully organizing your work, you can help your developer counterparts build more efficiently and accurately.",
+        "Now, the Figma agent The Figma design agent is here Starting today, work with an agent that is built for Figma—directly on the canvas.",
+        "Design system documentation serves different audiences across product development, from designers trying to choose the right component to developers looking for what they need for handoff. At its core, documentation clarifies how the system is meant to be used, which allows teams to apply it consistently and maintain a high quality bar. The agent can help you create that documentation and update it as your design system evolves.",
+        "Documentation is one of the easiest things to fall behind on. Once you’ve settled on how a component should work, the agent can help draft documentation that explains how it should be used and behave.",
+        "For example, Uber Product Designer Ian Guisard uses the agent and a set of skills Try these 10 skills—and show off your own Now you can author skills for our agent, directly in Figma, to put your point of view to work. Here are 10 of our favorites to get you started.",
+        "That gives developers the details they need without having to dig through the Figma file or come back to designers for clarification. Automating parts of the documentation work helps the team focus on improving the system rather than spending valuable time updating every spec by hand.",
+        "As product building gets faster it gets harder to see where designs have fallen out of sync with the system. The agent can help find those gaps and update designs to use current components and tokens before inconsistencies spread.",
+        "Checking designs against your design system can be time consuming. A single screen can use components and tokens from several libraries, leaving you to trace where each one comes from. The agent can help point out those instances so you don’t have to do a manual review.",
+        "For example, say a designer building a checkout screen creates a “Save for later” button from scratch rather than using the design system’s existing button component. The agent can check that screen against the design library, flag that the button duplicates the system’s existing Button/Secondary component, and point out if it’s using a hard-coded color or spacing value instead of the current token. That gives the designer a chance to swap in the production component and token before the design moves forward.",
+        "Both existing product screens and AI-generated designs can fall out of sync with product components and tokens. Updating that work to match your design system can mean replacing parts by hand. The agent can help.",
+        "At Granola, the AI notetaking app, Product Designer Paavan Buddhdev uses the Figma Chrome extension to bring an existing screen from the Granola app into Figma. When he does, buttons and other elements become disconnected from Granola’s design system. Instead of replacing each one by hand, he’s able to select an imported button and ask the agent to swap in the matching button from the design system.",
+        "Once you’ve brought existing work back onto the system, the next question is how to keep new work on-system as it gets created. You can add guidelines to a published library to capture the intent, rules, and patterns behind your design system for the agent to use. Because that context is included automatically when the library is attached, designers don’t have to spell out the same instructions in every prompt.",
+        "Small inconsistencies in a design system pile up quickly, are tedious to fix by hand, and can erode trust in the system, making product builders more likely to work around it instead of use it. The agent can take on some of that upkeep, from applying naming changes across a library to checking whether components are using the tokens they should."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "How to Lighten Design System Upkeep With the Figma Agent | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-10-06",
+      "categoryIds": [
+        "vertical-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/figma-agent-and-design-systems/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "How to Lighten Design System Upkeep With the Figma Agent | Figma Blog"
+      },
+      "raw": {
+        "title": "How to lighten design system upkeep with the Figma agent",
+        "url": "https://www.figma.com/blog/figma-agent-and-design-systems/",
+        "fetched": true,
+        "savedAt": "2026-10-07T03:49:08.706Z"
+      }
+    },
+    {
+      "id": "sig-342677ae7e",
+      "title": "How Jump Trading is scaling quant research with ChatGPT",
+      "oneLiner": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combin",
+      "summary": {
+        "oneSentence": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sour",
+        "bullets": [
+          "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/jump-trading"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "How Jump Trading is scaling quant research with ChatGPT",
+      "originalLang": "en",
+      "date": "2026-10-06",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/jump-trading",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "How Jump Trading is scaling quant research with ChatGPT"
+      },
+      "raw": {
+        "title": "How Jump Trading is scaling quant research with ChatGPT",
+        "url": "https://openai.com/index/jump-trading",
+        "fetched": false,
+        "savedAt": "2026-10-07T03:49:10.300Z"
+      }
+    },
+    {
+      "id": "sig-47b9255d8f",
+      "title": "Sharing AI progress in mathematics",
+      "oneLiner": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and sha",
+      "summary": {
+        "oneSentence": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof forma",
+        "bullets": [
+          "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/sharing-ai-progress-in-mathematics"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Sharing AI progress in mathematics",
+      "originalLang": "en",
+      "date": "2026-10-06",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Sharing AI progress in mathematics"
+      },
+      "raw": {
+        "title": "Sharing AI progress in mathematics",
+        "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+        "fetched": false,
+        "savedAt": "2026-10-07T03:49:11.729Z"
+      }
+    },
+    {
+      "id": "sig-b3859f0901",
+      "title": "What is conversation intelligence? A guide for businesses",
+      "oneLiner": "What is conversation intelligence and how does it allow businesses to improve their customer service",
+      "summary": {
+        "oneSentence": "What is conversation intelligence and how does it allow businesses to improve their customer service processes? Learn mo",
+        "bullets": [
+          "What is conversation intelligence and how does it allow businesses to improve their customer service processes? Learn more about conversation intelligence"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://elevenlabs.io/blog/what-is-conversation-intelligence"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> Introducing Eleven v4 Meet Eleven v4, our most emotive model yet. With 3x credits included on Creator+ until October 12",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem; } Skip to content Products Solutions Customers Resources Enterprise Pricing Log in Sign up Contact sales Log in [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() Learn more Get API key Blog Resources What is conversation intelligence? A guide for businesses Written by Jack Limebear Published Oct 6, 2026 Last updated Oct 7, 2026 Listen Listen to this article",
+        "0:00 1.0x Learn more Get API key On this page",
+        "In most sales and support conversations, most of what is discussed is rarely used beyond the conversation. The call happens, someone marks it as completed in the CRM, and the conversation ends up as a recording file that is never reviewed again.",
+        "Conversation intelligence is the layer that prevents that scenario from happening. Its objective is to capture the conversation, transcribe it, and apply AI analysis to turn it into internal resources you can use and share with your team and management. This gives companies a record of what was said during each conversation, tagged by sentiment, objections, and action items, rather than only selected conversations for internal review.",
+        "This guide covers what conversation intelligence is, how it works, and where it's used most, so you can start applying it to your own conversations with customers.",
+        "Conversation intelligence is software that records and transcribes customer conversations, then uses AI to turn them into structured insights such as sentiment, topics, action items, and objections. This intelligence is built on two layers, which are accurate transcription and an interpretation layer that reads meaning out of the conversation transcript.",
+        "That interpretation layer of the intelligence is what separates it from a recording or a plain transcript. For instance, a call recording typically preserves only audio, while a transcript makes the same audio readable. Conversation intelligence enhances the analysis by determining who spoke, the topics discussed, lingering questions, and how the conversation aligned with its objective.",
+        "To further break down what this looks like in practice, let’s use a single sales call for a scenario. A conversation intelligence system will do the following:",
+        "Across the business, teams apply the same pattern with conversation intelligence. Revenue teams run it on sales calls, support uses it within service interactions, compliance functions run it on regulated conversations to ensure data privacy is upheld, and product teams use it to better understand customer feedback for product improvement.",
+        "The benefits behind conversational intelligence grow with the volume of conversations a business has that they want to leverage as an internal resource.",
+        "Where conversation intelligence works ‌best is when it shifts from ‌unstructured dialogue to data that a business can measure and improve. Several benefits show up consistently when teams adopt it. They are:",
+        "These benefits compound over time because the same analysis runs on every conversation. Learning from these conversations and drawing insight from them is exactly what conversation intelligence is designed to accomplish.",
+        "The majority of conversation intelligence platforms on the market currently follow a five-stage process, regardless of who the vendor is. This pipeline covers:"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "What is conversation intelligence: A guide for enterprises",
+      "originalLang": "en",
+      "date": "2026-10-06",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/what-is-conversation-intelligence",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "What is conversation intelligence: A guide for enterprises"
+      },
+      "raw": {
+        "title": "What is conversation intelligence? A guide for businesses",
+        "url": "https://elevenlabs.io/blog/what-is-conversation-intelligence",
+        "fetched": true,
+        "savedAt": "2026-10-07T03:49:13.214Z"
+      }
+    },
+    {
+      "id": "sig-cdc5b82bfe",
+      "title": "Introducing ElevenAgents Architect",
+      "oneLiner": "Find the improvements your team would otherwise miss. Bring a goal, get back proposals already draft",
+      "summary": {
+        "oneSentence": "Find the improvements your team would otherwise miss. Bring a goal, get back proposals already drafted and validated in ",
+        "bullets": [
+          "Find the improvements your team would otherwise miss. Bring a goal, get back proposals already drafted and validated in simulated conversations."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://elevenlabs.io/blog/elevenagents-architect"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> Introducing Eleven v4 Meet Eleven v4, our most emotive model yet. With 3x credits included on Creator+ until October 12",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem; } Skip to content Products Solutions Customers Resources Enterprise Pricing Log in Sign up Contact sales Log in [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() Try Architect Contact Sales Blog Product Introducing ElevenAgents Architect Written by Angelo Giacco Eli Goodman Published Oct 6, 2026 Listen Listen to this article",
+        "0:00 1.0x Try Architect Contact Sales On this page",
+        "At ElevenLabs, we're building the interface layer between people and technology, and between organizations and the people they serve, whether that's a business and its customers, an employer and its staff, or a government and its residents. Our customers have replaced phone trees and rigid chatbots with natural conversation.",
+        "Today, we're bringing that same conversational interface to the people behind the agents. ElevenAgents Architect is our new built-in expert that helps your team launch and improve agents, just by talking or typing.",
+        "An expert partner for building and improving With ElevenAgents Architect, your team can go from a general question — like, \"How do I improve refund resolutions?\" — to a root cause and a better agent, in one conversation.",
+        "ElevenAgents Architect understands all the possible configuration options in ElevenAgents, how they interact, and best practices for your knowledge base, prompts, workflows, voice settings, procedures , guardrails , tools, and simulations.",
+        "That understanding means it can act on almost any signal you give it. You can bring it a failing test, a spike in escalations, or a finding from ElevenAgents Spotlight , and it will analyze transcripts, surface insights, and uncover areas for improvement. ElevenAgents Architect then proposes a change and writes simulations so you can can deploy with confidence.",
+        "Architect improves your agents across everything from health insurance lines to patient scheduling - surfacing opportunities and implementing changes in conversation.",
+        "ElevenAgents Architect tunes your agents for every kind of call, from card activations to fraud alerts. Here, a failing test becomes a fix, drafted and ready for review.",
+        "ElevenAgents Architect builds new resident experiences, grounded in your own documents and policies, while keeping you in control.",
+        "From order support to returns, ElevenAgents Architect finds opportunities in your conversations, drafts changes, and tests them in real-time.",
+        "ElevenAgents Architect arrives with improvements already drafted and validated. Here, a Spotlight finding on repeat billing calls comes back with the fix attached.",
+        "You can also describe completely new experiences you would like to create and ElevenAgents Architect builds them the way an expert would, allowing you to more easily expand what your agents can do."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "ElevenAgents Architect: An expert partner to improve agents",
+      "originalLang": "en",
+      "date": "2026-10-06",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/elevenagents-architect",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "ElevenAgents Architect: An expert partner to improve agents"
+      },
+      "raw": {
+        "title": "Introducing ElevenAgents Architect",
+        "url": "https://elevenlabs.io/blog/elevenagents-architect",
+        "fetched": true,
+        "savedAt": "2026-10-07T03:49:14.857Z"
       }
     },
     {
@@ -8716,7 +9486,7 @@
         "url": "https://cursor.com/changelog/rollouts-and-security-reviewer",
         "fetched": true,
         "savedAt": "2026-09-27T03:09:42.462Z",
-        "retranslatedAt": "2026-10-06T04:23:01.689Z"
+        "retranslatedAt": "2026-10-07T03:49:21.161Z"
       }
     },
     {
@@ -17841,7 +18611,7 @@
         "url": "https://cursor.com/changelog/projects",
         "fetched": true,
         "savedAt": "2026-09-12T02:41:59.708Z",
-        "retranslatedAt": "2026-10-06T04:23:02.680Z"
+        "retranslatedAt": "2026-10-07T03:49:22.276Z"
       }
     },
     {
@@ -31331,142 +32101,6 @@
         "url": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/",
         "fetched": false,
         "savedAt": "2026-08-25T00:55:40.640Z"
-      }
-    },
-    {
-      "id": "sig-fc0f17557a",
-      "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
-      "oneLiner": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive A few interesting numbe",
-      "summary": {
-        "oneSentence": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive A few interesting numbers in this FT story ",
-        "bullets": [
-          "Anthropic’s best AI model struggles to attract users as cheaper tools thrive A few interesting numbers in this FT story gathered from \"people with knowledge of the matter\": Anthropic's \"annualized rev"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Anthropic’s best AI model struggles to attract users as cheaper tools thrive A few interesting numbers in this FT story gathered from \"people with knowledge of the matter\": Anthropic's \"annualized revenue\" for July is up to $65bn - it was $47bn in May, and I collected more historic numbers here . Anthropic expect Q3 to be profitable according to the same model they used to declare Q2 profitable. \"It also told investors that it had 6,000 customers that spend $100,000 annually or more.\" As for OpenAI, \"annualised revenue has jumped 35 per cent in the quarter to date and is now over $40bn, with the launch of GPT 5.6 in July jolting the company’s performance after a sluggish start to the year\". This article also introduced me to the Ramp AI index , which uses billing data from 70,000 Ramp credit card using companies to estimate model adoption. Here's Ramp's breakdown of Anthropic model spend for July 2026, which looks reasonable given that Opus 5 was only released on July 24th, and supports the idea that Fable's cost has made it a less popular model: Opus 4.8: 28.0% Sonnet 4.6: 8.3% Fable 5: 8.0% Opus 4.6: 6.9% Sonnet 5: 3.6% Opus 5: 3.5% Opus 4.7: 1.7% Sonnet 4.5: 1.3% Haiku 4.5: 1.0% Opus 4.5: 0.7% Via Hacker News Tags: ai , openai , generative-ai , llms , anthropic , claude , claude-mythos-fable"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
-      "originalLang": "en",
-      "date": "2026-08-23",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive"
-      },
-      "raw": {
-        "title": "Anthropic’s best AI model struggles to attract users as cheaper tools thrive",
-        "url": "https://simonwillison.net/2026/Aug/23/anthropics-best-ai-model-struggles-to-attract-users-as-cheaper-t/",
-        "fetched": false,
-        "savedAt": "2026-08-24T00:55:33.953Z"
-      }
-    },
-    {
-      "id": "sig-0e890f2df3",
-      "title": "Quoting Drew Breunig",
-      "oneLiner": "Prior to Fable, it felt silly to waste too much time improving your coding harness or context strate",
-      "summary": {
-        "oneSentence": "Prior to Fable, it felt silly to waste too much time improving your coding harness or context strategies. A new model wo",
-        "bullets": [
-          "Prior to Fable, it felt silly to waste too much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems."
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Aug/23/drew-breunig/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Prior to Fable, it felt silly to waste too much time improving your coding harness or context strategies. A new model would arrive at the same price (or cheaper!) and paper over most of your problems. But then Fable landed. It was (and still is!) incredible . But the cost was so high and Opus was good enough (as was 5.6, K3, and even GLM) for most of the code we needed. So we started to think about what work went where. &mdash; Drew Breunig , Fable & The End of the Free Lunch Tags: drew-breunig , anthropic , claude , llm-pricing , ai , llms , generative-ai , claude-mythos-fable"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Quoting Drew Breunig",
-      "originalLang": "en",
-      "date": "2026-08-23",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Aug/23/drew-breunig/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Quoting Drew Breunig"
-      },
-      "raw": {
-        "title": "Quoting Drew Breunig",
-        "url": "https://simonwillison.net/2026/Aug/23/drew-breunig/",
-        "fetched": false,
-        "savedAt": "2026-08-24T00:55:34.754Z"
       }
     }
   ]
