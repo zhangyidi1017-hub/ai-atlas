@@ -1,16 +1,23 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-08T04:04:05.814Z",
+  "updatedAt": "2026-10-09T04:08:54.711Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 418,
+  "itemCount": 410,
   "brief": {
-    "date": "2026-10-08",
-    "generatedAt": "2026-10-08T04:04:05.813Z",
-    "totalCount": 418,
+    "date": "2026-10-09",
+    "generatedAt": "2026-10-09T04:08:54.710Z",
+    "totalCount": 410,
     "todayCount": 1,
-    "headline": "今日 AI 信号 1 条 · 档案共 418 条",
+    "headline": "今日 AI 信号 1 条 · 档案共 410 条",
     "topUpdates": [
+      {
+        "id": "sig-28c245dbd5",
+        "title": "推出品牌套件",
+        "stars": 4,
+        "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "readMinutes": 5
+      },
       {
         "id": "sig-c15f0de4c3",
         "title": "ElevenLabs 在新加坡成立，作为东南亚中心",
@@ -19,42 +26,35 @@
         "readMinutes": 5
       },
       {
-        "id": "sig-ad4e14640e",
-        "title": "帮助青少年学习、规划和塑造人工智能的未来",
+        "id": "sig-72fbd17ba0",
+        "title": "跳过向路由中间件发送请求正文 - Vercel",
         "stars": 4,
-        "oneLiner": "College Planner 将加入 ChatGPT for Teens，帮助学生管理大学申请，同时提供新的抽认卡、测验和青少年人工智能委员会。",
+        "oneLiner": "现在，您可以使用skipMiddlewareRequestBody跳过将客户端请求正文发送到路由中间件。这减少了中间件调用的传入快速源传输的使用，并且可以缩短第一个字节的时间，特别是对于具有大型主体的请求。",
         "readMinutes": 5
       },
       {
-        "id": "sig-22643d6fcb",
-        "title": "Playground 简介：创建和玩自定义游戏",
+        "id": "sig-112b5f0087",
+        "title": "Oracle 如何利用 ChatGPT 和 Codex 将几天的工作变成几分钟",
         "stars": 4,
-        "oneLiner": "只要你能想到，你就能玩。创建、玩和共享自定义游戏 - 无需编码。",
+        "oneLiner": "在招聘、工程和运营方面，Oracle 通过 ChatGPT Work 和 Codex 将专业知识转化为快速、可重复的工作流程。",
         "readMinutes": 5
       },
       {
-        "id": "sig-15227e2d03",
-        "title": "联络中心自动化：人工智能如何改善服务",
+        "id": "sig-ca1ec6c6a1",
+        "title": "Pollo AI 通过 OpenAI 将创意转化为活动",
         "stars": 4,
-        "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-        "readMinutes": 5
-      },
-      {
-        "id": "sig-04e9dc3828",
-        "title": "丽笙酒店集团将酒店发现带入 ChatGPT",
-        "stars": 4,
-        "oneLiner": "丽笙酒店与埃森哲合作，使用 OpenAI 技术构建 ChatGPT 插件，帮助旅行者在规划行程时查找、比较和预订酒店。",
+        "oneLiner": "借助 GPT-5.6、GPT-6 Astra 和 GPT‑Image‑2.5，Pollo AI 帮助创作者将大胆的想法转化为详细的图像和电影视频广告。",
         "readMinutes": 5
       }
     ],
     "sections": {
       "topUpdates": [
+        "sig-28c245dbd5",
         "sig-c15f0de4c3",
-        "sig-ad4e14640e",
-        "sig-22643d6fcb",
-        "sig-15227e2d03",
-        "sig-04e9dc3828",
-        "sig-0ca1450969"
+        "sig-72fbd17ba0",
+        "sig-112b5f0087",
+        "sig-ca1ec6c6a1",
+        "sig-f6d3626eb7"
       ],
       "newReleases": [
         "sig-089c4ff63d",
@@ -63,14 +63,14 @@
         "sig-f30efa9be5"
       ],
       "insights": [
+        "sig-28c245dbd5",
         "sig-c15f0de4c3",
-        "sig-ad4e14640e",
-        "sig-22643d6fcb",
-        "sig-15227e2d03",
-        "sig-04e9dc3828",
-        "sig-0ca1450969",
-        "sig-11a8659190",
-        "sig-0e16efad76"
+        "sig-72fbd17ba0",
+        "sig-112b5f0087",
+        "sig-ca1ec6c6a1",
+        "sig-f6d3626eb7",
+        "sig-1d006f7038",
+        "sig-b9c1cbcc1d"
       ],
       "emergingTrends": [],
       "newApis": [],
@@ -91,8 +91,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-10-08T04:04:05.814Z",
-    "summary": "近 30 天共 266 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-10-09T04:08:54.711Z",
+    "summary": "近 30 天共 264 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -107,6 +107,54 @@
     "risingTags": []
   },
   "productUpdates": [
+    {
+      "id": "sig-112b5f0087",
+      "title": "Oracle 如何利用 ChatGPT 和 Codex 将几天的工作变成几分钟",
+      "oneLiner": "在招聘、工程和运营方面，Oracle 通过 ChatGPT Work 和 Codex 将专业知识转化为快速、可重复的工作流程。",
+      "date": "2026-10-08",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-ca1ec6c6a1",
+      "title": "Pollo AI 通过 OpenAI 将创意转化为活动",
+      "oneLiner": "借助 GPT-5.6、GPT-6 Astra 和 GPT‑Image‑2.5，Pollo AI 帮助创作者将大胆的想法转化为详细的图像和电影视频广告。",
+      "date": "2026-10-08",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-f6d3626eb7",
+      "title": "LegalOn 将 Codex 成本减半，同时保持开发速度",
+      "oneLiner": "LegalOn 在保持开发速度的同时将预计每日 Codex 成本削减了 65%。它将 Astra、Sol 和 Luna 与任务相匹配并战略性地管理预算。",
+      "date": "2026-10-08",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-077dea1e8a",
+      "title": "破坏人工智能支持的“假面”操作",
+      "oneLiner": "OpenAI 扰乱了两项人工智能影响力行动，这些行动利用假面记者和智囊团传播地缘政治信息。",
+      "date": "2026-10-08",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
     {
       "id": "sig-ad4e14640e",
       "title": "帮助青少年学习、规划和塑造人工智能的未来",
@@ -181,51 +229,51 @@
     },
     {
       "id": "sig-342677ae7e",
-      "title": "How Jump Trading is scaling quant research with ChatGPT",
-      "oneLiner": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combin",
+      "title": "Jump Trading 如何利用 ChatGPT 扩大量化研究规模",
+      "oneLiner": "Jump Trading 使用 OpenAI 来扩展定量研究。了解运行时间较长的 AI 工作流程如何将多个数据源与人工审核相结合。",
       "date": "2026-10-06",
       "productIds": [
         "chatgpt"
       ],
       "source": "OpenAI",
       "tags": [],
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "sig-47b9255d8f",
-      "title": "Sharing AI progress in mathematics",
-      "oneLiner": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and sha",
+      "title": "分享AI数学进展",
+      "oneLiner": "OpenAI 通过内部前沿模型发布了关于数学中开放问题的新结果，并在 GitHub 上分享了精益证明形式化和研究细节。",
       "date": "2026-10-06",
       "productIds": [
         "chatgpt"
       ],
       "source": "OpenAI",
       "tags": [],
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "sig-78ad538158",
-      "title": "Our approach to EU text provenance rules",
-      "oneLiner": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detect",
+      "title": "我们对欧盟文本来源规则的处理方法",
+      "oneLiner": "OpenAI 如何根据欧盟规则处理文本水印。了解水印的适用位置、检测的工作原理以及为什么访问从研究人员开始。",
       "date": "2026-10-05",
       "productIds": [
         "chatgpt"
       ],
       "source": "OpenAI",
       "tags": [],
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "sig-3cbec84de8",
-      "title": "Building advertising for the way people use AI",
-      "oneLiner": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partn",
+      "title": "为人们使用人工智能的方式制作广告",
+      "oneLiner": "OpenAI 在 ChatGPT 中引入了一种新的视觉广告格式，并为广告商扩展了衡量工具、归因合作伙伴关系和品牌适合度。",
       "date": "2026-10-05",
       "productIds": [
         "chatgpt"
       ],
       "source": "OpenAI",
       "tags": [],
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "sig-8e206c4d9e",
@@ -346,57 +394,93 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-dd66acaed2",
-      "title": "GPT-6.1 Sol 简介",
-      "oneLiner": "认识 GPT-6.1 Sol：以 Astra 标准 API 输入和输出代币价格的五分之一，实现接近 Astra 的编码、计算机使用和专业工作智能。",
-      "date": "2026-09-29",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-19db7cc5ca",
-      "title": "DevDay 2026 回顾",
-      "oneLiner": "探索 OpenAI DevDay 2026 的 20 多项公告，包括 GPT-6 Astra、ChatGPT、Codex、API、安全性和面向构建者的新工具。",
-      "date": "2026-09-29",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-884977ecb8",
-      "title": "介绍点",
-      "oneLiner": "OpenAI 的 Dots 是积极主动的助手，可以在复杂的项目和日常任务中持续工作。了解点如何帮助您在工作进展的同时保持控制。",
-      "date": "2026-09-29",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-cfe8e90040",
-      "title": "我们如何为澳大利亚做得更好",
-      "oneLiner": "OpenAI 对涉及澳大利亚政府网站的事件表示歉意，并概述了加强澳大利亚网络防御的更强有力的保障和支持。",
-      "date": "2026-09-28",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-28c245dbd5",
+      "title": "推出品牌套件",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "Brand Kit 是 ElevenCreative 的一个新系统，可将上下文从提示中移至您的工作流程中。一旦设定，它就会塑造每一代人。",
+          "使用生成工具保持品牌形象通常意味着在每个提示中重新描述您的视觉形象。每个团队成员都有不同的描述，并且人员和项目之间的一致性被打破。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/introducing-brand-kit"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 注册博客 产品介绍品牌套件 作者：Renee Zhu 发布于 2026 年 10 月 9 日 最后更新于 2026 年 10 月 8 日 听 听这篇文章",
+        "Brand Kit 是 ElevenCreative 的一个新系统，可将上下文从提示中移至您的工作流程中。一旦设定，它就会塑造每一代人。",
+        "使用生成工具保持品牌形象通常意味着在每个提示中重新描述您的视觉形象。每个团队成员都有不同的描述，并且人员和项目之间的一致性被打破。",
+        "品牌套件将您的视觉识别作为工作空间中的单个对象。您的所有颜色、字体、徽标、参考图像和规则现在都可以在图像和视频、流程和 ElevenCreative 代理的任何提示中进行标记，帮助您生成品牌图像和视频",
+        "添加您的资产并设置如何应用您的品牌的规则非常简单。",
+        "颜色和字体定义您的调色板和版式，您可以存储徽标以及如何使用它们的规则。参考图像向模特展示您的视觉世界，包括您的摄影风格、构图和品牌氛围。通过您定义的规则，您可以捕获调色板本身无法捕获的内容：您的身份如何应用，以及您的品牌从不做什么。",
+        "在图像和视频、流程或代理中输入 @ 以标记您的套件。你的资产和规则将塑造这一代人。相同的套件适用于每个表面，因此图像和视频中的产品图像以及流程中的完整管道都遵循相同的准则。",
+        "套件位于您的工作空间中。团队中的每个人都可以遵循相同的指导方针，从而在整个组织中实现更高的品牌一致性。",
+        "对于代理机构和多品牌团队，您可以为与您合作的每个品牌或客户创建一个工具包，并在工作时在它们之间切换。"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opaci",
+        "Brand Kit 是 ElevenCreative 的一个新系统，可将上下文从提示中移至您的工作流程中。一旦设定，它就会塑造每一代人。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Introducing Brand Kit",
+      "originalLang": "en",
+      "date": "2026-10-09",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/introducing-brand-kit",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Introducing Brand Kit"
+      },
+      "raw": {
+        "title": "Introducing Brand Kit",
+        "url": "https://elevenlabs.io/blog/introducing-brand-kit",
+        "fetched": true,
+        "savedAt": "2026-10-09T04:07:55.460Z"
+      }
+    },
     {
       "id": "sig-c15f0de4c3",
       "title": "ElevenLabs 在新加坡成立，作为东南亚中心",
@@ -479,6 +563,710 @@
         "url": "https://elevenlabs.io/blog/elevenlabs-singapore",
         "fetched": true,
         "savedAt": "2026-10-08T04:02:45.671Z"
+      }
+    },
+    {
+      "id": "sig-72fbd17ba0",
+      "title": "跳过向路由中间件发送请求正文 - Vercel",
+      "oneLiner": "现在，您可以使用skipMiddlewareRequestBody跳过将客户端请求正文发送到路由中间件。这减少了中间件调用的传入快速源传输的使用，并且可以缩短第一个字节的时间，特别是对于具有大型主体的请求。",
+      "summary": {
+        "oneSentence": "现在，您可以使用skipMiddlewareRequestBody跳过将客户端请求正文发送到路由中间件。这减少了中间件调用的传入快速源传输的使用，并且可以缩短第一个字节的时间，特别是对于具有大型主体的请求。",
+        "bullets": [
+          "现在，您可以使用skipMiddlewareRequestBody跳过将客户端请求正文发送到路由中间件。这减少了中间件调用的传入快速源传输的使用，并且可以缩短第一个字节的时间，特别是对于具有大型主体的请求。",
+          "仅当您的路由中间件不读取请求正文时才启用此选项。 Vercel 函数和重写目标仍然接收正文，因此您可以在那里读取和处理它。",
+          "在项目的 JSON 配置文件 vercel.json 中将skipMiddlewareRequestBody 设置为 true ：",
+          "vercel.json 1 { 2 \"$schema\" : \"https://openapi.vercel.sh/vercel.json\" , 3 \"skipMiddlewareRequestBody\" : true 4 } 使用 vercel.json 跳过将请求正文转发到路由中间件。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：现在，您可以使用skipMiddlewareRequestBody跳过将客户端请求正文发送到路由中间件。这减少了中间件调用的传入快速源传输的使用，并且可以缩短第一个字节的时间，特别是对于具有大型主体的请求。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/skip-sending-request-bodies-to-routing-middleware"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "现在，您可以使用skipMiddlewareRequestBody跳过将客户端请求正文发送到路由中间件。这减少了中间件调用的传入快速源传输的使用，并且可以缩短第一个字节的时间，特别是对于具有大型主体的请求。",
+        "仅当您的路由中间件不读取请求正文时才启用此选项。 Vercel 函数和重写目标仍然接收正文，因此您可以在那里读取和处理它。",
+        "在项目的 JSON 配置文件 vercel.json 中将skipMiddlewareRequestBody 设置为 true ：",
+        "vercel.json 1 { 2 \"$schema\" : \"https://openapi.vercel.sh/vercel.json\" , 3 \"skipMiddlewareRequestBody\" : true 4 } 使用 vercel.json 跳过将请求正文转发到路由中间件。",
+        "如果您使用 TypeScript 配置文件，请将相同的设置添加到 vercel.ts 中。此示例假设已安装 @vercel/config：",
+        "vercel.ts 1 从 '@vercel/config/v1' 导入类型 { VercelConfig } ； 2 3 导出 const config : VercelConfig = { 4 SkipMiddlewareRequestBody : true , 5 } ;使用 vercel.ts 跳过将请求正文转发到路由中间件。",
+        "重新部署您的项目以使更改生效。该选项默认为 false ，因此除非您启用它，否则现有项目不会更改。",
+        "请参阅skipMiddlewareRequestBody 文档了解更多信息。"
+      ],
+      "highlights": [
+        "现在，您可以使用skipMiddlewareRequestBody跳过将客户端请求正文发送到路由中间件。这减少了中间件调用的传入快速源传输的使用，并且可以缩短第",
+        "仅当您的路由中间件不读取请求正文时才启用此选项。 Vercel 函数和重写目标仍然接收正文，因此您可以在那里读取和处理它。",
+        "在项目的 JSON 配置文件 vercel.json 中将skipMiddlewareRequestBody 设置为 true ："
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Skip sending request bodies to Routing Middleware - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-08",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/skip-sending-request-bodies-to-routing-middleware",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Skip sending request bodies to Routing Middleware - Vercel"
+      },
+      "raw": {
+        "title": "Skip sending request bodies to Routing Middleware",
+        "url": "https://vercel.com/changelog/skip-sending-request-bodies-to-routing-middleware",
+        "fetched": true,
+        "savedAt": "2026-10-09T04:08:01.536Z"
+      }
+    },
+    {
+      "id": "sig-112b5f0087",
+      "title": "Oracle 如何利用 ChatGPT 和 Codex 将几天的工作变成几分钟",
+      "oneLiner": "在招聘、工程和运营方面，Oracle 通过 ChatGPT Work 和 Codex 将专业知识转化为快速、可重复的工作流程。",
+      "summary": {
+        "oneSentence": "在招聘、工程和运营方面，Oracle 通过 ChatGPT Work 和 Codex 将专业知识转化为快速、可重复的工作流程。",
+        "bullets": [
+          "在招聘、工程和运营方面，Oracle 通过 ChatGPT Work 和 Codex 将专业知识转化为快速、可重复的工作流程。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：在招聘、工程和运营方面，Oracle 通过 ChatGPT Work 和 Codex 将专业知识转化为快速、可重复的工作流程。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/oracle"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "在招聘、工程和运营方面，Oracle 通过 ChatGPT Work 和 Codex 将专业知识转化为快速、可重复的工作流程。"
+      ],
+      "highlights": [
+        "在招聘、工程和运营方面，Oracle 通过 ChatGPT Work 和 Codex 将专业知识转化为快速、可重复的工作流程。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+      "originalLang": "en",
+      "date": "2026-10-08",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/oracle",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How Oracle turns days of work into minutes with ChatGPT and Codex"
+      },
+      "raw": {
+        "title": "How Oracle turns days of work into minutes with ChatGPT and Codex",
+        "url": "https://openai.com/index/oracle",
+        "fetched": false,
+        "savedAt": "2026-10-09T04:08:02.777Z"
+      }
+    },
+    {
+      "id": "sig-ca1ec6c6a1",
+      "title": "Pollo AI 通过 OpenAI 将创意转化为活动",
+      "oneLiner": "借助 GPT-5.6、GPT-6 Astra 和 GPT‑Image‑2.5，Pollo AI 帮助创作者将大胆的想法转化为详细的图像和电影视频广告。",
+      "summary": {
+        "oneSentence": "借助 GPT-5.6、GPT-6 Astra 和 GPT‑Image‑2.5，Pollo AI 帮助创作者将大胆的想法转化为详细的图像和电影视频广告。",
+        "bullets": [
+          "借助 GPT-5.6、GPT-6 Astra 和 GPT‑Image‑2.5，Pollo AI 帮助创作者将大胆的想法转化为详细的图像和电影视频广告。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：借助 GPT-5.6、GPT-6 Astra 和 GPT‑Image‑2.5，Pollo AI 帮助创作者将大胆的想法转化为详细的图像和电影视频广告。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/pollo-ai"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "借助 GPT-5.6、GPT-6 Astra 和 GPT‑Image‑2.5，Pollo AI 帮助创作者将大胆的想法转化为详细的图像和电影视频广告。"
+      ],
+      "highlights": [
+        "借助 GPT-5.6、GPT-6 Astra 和 GPT‑Image‑2.5，Pollo AI 帮助创作者将大胆的想法转化为详细的图像和电影视频广告。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Pollo AI turns creative ideas into campaigns with OpenAI",
+      "originalLang": "en",
+      "date": "2026-10-08",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/pollo-ai",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Pollo AI turns creative ideas into campaigns with OpenAI"
+      },
+      "raw": {
+        "title": "Pollo AI turns creative ideas into campaigns with OpenAI",
+        "url": "https://openai.com/index/pollo-ai",
+        "fetched": false,
+        "savedAt": "2026-10-09T04:08:04.042Z"
+      }
+    },
+    {
+      "id": "sig-f6d3626eb7",
+      "title": "LegalOn 将 Codex 成本减半，同时保持开发速度",
+      "oneLiner": "LegalOn 在保持开发速度的同时将预计每日 Codex 成本削减了 65%。它将 Astra、Sol 和 Luna 与任务相匹配并战略性地管理预算。",
+      "summary": {
+        "oneSentence": "LegalOn 在保持开发速度的同时将预计每日 Codex 成本削减了 65%。它将 Astra、Sol 和 Luna 与任务相匹配并战略性地管理预算。",
+        "bullets": [
+          "LegalOn 在保持开发速度的同时将预计每日 Codex 成本削减了 65%。它将 Astra、Sol 和 Luna 与任务相匹配并战略性地管理预算。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：LegalOn 在保持开发速度的同时将预计每日 Codex 成本削减了 65%。它将 Astra、Sol 和 Luna 与任务相匹配并战略性地管理预算。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/legalon-halves-codex-costs"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "LegalOn 在保持开发速度的同时将预计每日 Codex 成本削减了 65%。它将 Astra、Sol 和 Luna 与任务相匹配并战略性地管理预算。"
+      ],
+      "highlights": [
+        "LegalOn 在保持开发速度的同时将预计每日 Codex 成本削减了 65%。它将 Astra、Sol 和 Luna 与任务相匹配并战略性地管理预算。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "LegalOn halves Codex costs while maintaining development speed",
+      "originalLang": "en",
+      "date": "2026-10-08",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/legalon-halves-codex-costs",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "LegalOn halves Codex costs while maintaining development speed"
+      },
+      "raw": {
+        "title": "LegalOn halves Codex costs while maintaining development speed",
+        "url": "https://openai.com/index/legalon-halves-codex-costs",
+        "fetched": false,
+        "savedAt": "2026-10-09T04:08:05.281Z"
+      }
+    },
+    {
+      "id": "sig-1d006f7038",
+      "title": "会议转录 API：如何设置 STT 会议 API",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 了解更多 获取 API 密钥 在此页面上",
+          "手动记录会议记录既乏味又容易出错，尤其是当会议持续时间超过一个小时时。这会浪费时间并分散与会者的讨论注意力。即使有录音，将特定对话标记到各个说话者也是具有挑战性的。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/meeting-transcription-api"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 了解更多信息 获取 API 密钥 博客 如何使用会议转录 API：通过 Scribe v2 进行实时和批处理 作者：Jack Limebear 发布于 2026 年 10 月 8 日 听 听这篇文章",
+        "0:00 1.0x 了解更多 获取 API 密钥 在此页面上",
+        "手动记录会议记录既乏味又容易出错，尤其是当会议持续时间超过一个小时时。这会浪费时间并分散与会者的讨论注意力。即使有录音，将特定对话标记到各个说话者也是具有挑战性的。",
+        "会议转录 API 可让您将实时或录制的会议转换为产品内带时间戳、标记演讲者标签的文本。您发送音频并获取结构化的文字记录，而无需自己构建语音模型。",
+        "本文介绍了会议转录 API 的工作原理，比较了实时转录和批量转录，并展示了如何使用 Eleven Scribe v2 和 Eleven Scribe v2 Realtime 进行构建。",
+        "在几分钟内创建一个会议转录应用程序",
+        "会议转录 API 将会议音频作为输入并返回文本。它处理语音识别、说话人分类和时间戳，为您提供完整的软件包供您使用。与手动记笔记相比，会议中的语音转文本为与会者提供了可搜索的记录，他们可以重新访问。",
+        "随着越来越多的团队采用人工智能代理，书面会议记录成为可搜索的上下文。内部代理搜索记录中的详细信息，显示信息，从而减少数据孤岛并促进跨团队对信息的访问。",
+        "许多商业工具提供转录功能，但它们可能无法完全满足组织的要求。"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 了解更多 获取 API 密钥 在此页面上"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Meeting transcription API: How to setup your STT meeting API",
+      "originalLang": "en",
+      "date": "2026-10-08",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/meeting-transcription-api",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Meeting transcription API: How to setup your STT meeting API"
+      },
+      "raw": {
+        "title": "How to use a meeting transcription API: Real-time and batch with Scribe v2",
+        "url": "https://elevenlabs.io/blog/meeting-transcription-api",
+        "fetched": true,
+        "savedAt": "2026-10-09T04:08:12.829Z"
+      }
+    },
+    {
+      "id": "sig-b9c1cbcc1d",
+      "title": "ElevenReader 与 Fábio Porchat 在巴西推出",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 巴西一直是一个倾听的国家。故事通过声音传播——通过广播、通过电视剧、通过复述一本书比作者写得更好的朋友。然而，大多数巴西书籍根本没有音频版。今天，这种情况开始改变。",
+          "我们的消费者音频平台 ElevenReader 在巴西推出，可将书面内容转化为用户喜爱的聆听体验。我们从大多数巴西人熟悉的声音开始：Fábio Porchat。您可以从我们的目录中挑选一本小说，放入 PDF 格式以供工作，或粘贴文章链接，然后聆听著名演员和喜剧演员的声音。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 4,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/elevenreader-launches-in-brazil-with-fbio-porchat-and-70000-brazilian-portuguese-books-in-audio"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 注册博客 产品 ElevenReader 与 Fábio Porchat 合作在巴西推出，并提供 70,000 本巴西葡萄牙语图书音频 发布于 2026 年 10 月 8 日 听 听这篇文章",
+        "0:00 1.0x 巴西一直是一个倾听的国家。故事通过声音传播——通过广播、通过电视剧、通过复述一本书比作者写得更好的朋友。然而，大多数巴西书籍根本没有音频版。今天，这种情况开始改变。",
+        "我们的消费者音频平台 ElevenReader 在巴西推出，可将书面内容转化为用户喜爱的聆听体验。我们从大多数巴西人熟悉的声音开始：Fábio Porchat。您可以从我们的目录中挑选一本小说，放入 PDF 格式以供工作，或粘贴文章链接，然后聆听著名演员和喜剧演员的声音。",
+        "“有些书我们多年来一直想读，但生活仍在继续，时间永远不会出现。现在，你可以在上班的路上、整理房间的时候，或者当你的眼睛已经疲倦的时候听。我很高兴成为 ElevenReader 的一员，这样故事就可以以对他们来说最有意义的方式传达给人们，”Fábio Porchat 说。",
+        "我们与 Bookwire Brasil 合作，将来自该国领先出版商的 70,000 种授权的巴西葡萄牙语图书引入该应用程序。其中大多数没有音频版本，如果没有 ElevenReader，永远不会有音频版本。",
+        "Bookwire Brasil 总经理马塞利奥·吉奥拉 (Marcelio Giola) 表示：“我们从巴西出版商那里听到最多的问题是，随着音频​​在全国范围内的日益普及，如何将更多的图书制成音频。这种合作关系回答了这个问题。ElevenReader 目录中的每本书都获得了拥有该图书的出版商的许可，这是迄今为止以音频形式提供的最广泛的巴西图书选择。”",
+        "今年早些时候，我们发行了由迈克尔·凯恩爵士解说的《奥德赛》。从那时起，听众就表现出了对电影音频的真正兴趣。对于巴西市场，我们希望提供类似且文化相关的体验。我们制作了马查多·德·阿西斯 (Machado de Assis) 的《Dom Casmurro》，由法比奥·波查特 (Fábio Porchat) 担任旁白，原创配乐和声音设计围绕本蒂尼奥缓慢、不可靠的嫉妒螺旋展开。",
+        "ElevenLabs 的存在是为了以任何语言和任何声音提供内容。 ElevenReader 是该使命直接传达给听众的地方。",
+        "ElevenReader 在巴西的 iOS 和 Android 平台上免费。 Dom Casmurro 对所有用户免费，完整的许可目录可通过 ElevenReader Ultra 获得。您还可以导入自己的电子书、PDF、文章和文档，并以任何声音（包括 Porchat 的声音）收听。"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 巴西一直是一个倾听的国家。故事通过声音传播——通过广播、通过电视剧、通过复述一本书比作者写得更好的朋友。然而，大多数巴西书籍根本没有音频版。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "ElevenReader launches in Brazil with Fábio Porchat",
+      "originalLang": "en",
+      "date": "2026-10-08",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/elevenreader-launches-in-brazil-with-fbio-porchat-and-70000-brazilian-portuguese-books-in-audio",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "ElevenReader launches in Brazil with Fábio Porchat"
+      },
+      "raw": {
+        "title": "ElevenReader launches in Brazil with Fábio Porchat and 70,000 Brazilian Portuguese books in audio",
+        "url": "https://elevenlabs.io/blog/elevenreader-launches-in-brazil-with-fbio-porchat-and-70000-brazilian-portuguese-books-in-audio",
+        "fetched": true,
+        "savedAt": "2026-10-09T04:08:20.817Z"
+      }
+    },
+    {
+      "id": "sig-4bbc7d4d0d",
+      "title": "Vercel 沙箱创建现在返回一个就绪的沙箱 - Vercel",
+      "oneLiner": "新的 Vercel 沙箱现在已准备好在创建完成后运行命令并读取或写入文件。",
+      "summary": {
+        "oneSentence": "新的 Vercel 沙箱现在已准备好在创建完成后运行命令并读取或写入文件。",
+        "bullets": [
+          "新的 Vercel 沙箱现在已准备好在创建完成后运行命令并读取或写入文件。",
+          "Sandbox.create() 现在仅在快照恢复完成后解析，因此第一个命令或文件操作不再等待它。启动错误也会拒绝 Sandbox.create()，而不是在该操作期间出现。",
+          "1 从 '@vercel/sandbox' 导入 { Sandbox } ； 2 3 // 快照恢复后解决。启动失败在这里拒绝。 4 const sandbox =等待Sandbox。创造 （ ） ; 5 6 // 无需等待快照恢复即可运行。 7等待沙箱。 runCommand('节点',['--版本']);创建沙箱后",
+          "快照恢复时间现在计入创建时间，而不是第一次操作。在 p50 时，创建时间大约长 50 毫秒，对于未缓存的快照，可能会增加更大的时间。第一次操作的总时间保持不变。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：新的 Vercel 沙箱现在已准备好在创建完成后运行命令并读取或写入文件。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/sandbox-create-waits-until-ready"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "新的 Vercel 沙箱现在已准备好在创建完成后运行命令并读取或写入文件。",
+        "Sandbox.create() 现在仅在快照恢复完成后解析，因此第一个命令或文件操作不再等待它。启动错误也会拒绝 Sandbox.create()，而不是在该操作期间出现。",
+        "1 从 '@vercel/sandbox' 导入 { Sandbox } ； 2 3 // 快照恢复后解决。启动失败在这里拒绝。 4 const sandbox =等待Sandbox。创造 （ ） ; 5 6 // 无需等待快照恢复即可运行。 7等待沙箱。 runCommand('节点',['--版本']);创建沙箱后立即运行命令。",
+        "快照恢复时间现在计入创建时间，而不是第一次操作。在 p50 时，创建时间大约长 50 毫秒，对于未缓存的快照，可能会增加更大的时间。第一次操作的总时间保持不变。",
+        "此更改会自动应用，无需升级 SDK 或更改配置。有关详细信息，请参阅 Sandbox.create() 文档。"
+      ],
+      "highlights": [
+        "新的 Vercel 沙箱现在已准备好在创建完成后运行命令并读取或写入文件。",
+        "Sandbox.create() 现在仅在快照恢复完成后解析，因此第一个命令或文件操作不再等待它。启动错误也会拒绝 Sandbox.create()，而不是在该",
+        "1 从 '@vercel/sandbox' 导入 { Sandbox } ； 2 3 // 快照恢复后解决。启动失败在这里拒绝。 4 const sandbox"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Sandbox creation now returns a ready sandbox - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-08",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/sandbox-create-waits-until-ready",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Sandbox creation now returns a ready sandbox - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Sandbox creation now returns a ready sandbox",
+        "url": "https://vercel.com/changelog/sandbox-create-waits-until-ready",
+        "fetched": true,
+        "savedAt": "2026-10-09T04:08:25.142Z"
+      }
+    },
+    {
+      "id": "sig-077dea1e8a",
+      "title": "破坏人工智能支持的“假面”操作",
+      "oneLiner": "OpenAI 扰乱了两项人工智能影响力行动，这些行动利用假面记者和智囊团传播地缘政治信息。",
+      "summary": {
+        "oneSentence": "OpenAI 扰乱了两项人工智能影响力行动，这些行动利用假面记者和智囊团传播地缘政治信息。",
+        "bullets": [
+          "OpenAI 扰乱了两项人工智能影响力行动，这些行动利用假面记者和智囊团传播地缘政治信息。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 扰乱了两项人工智能影响力行动，这些行动利用假面记者和智囊团传播地缘政治信息。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/disrupting-ai-enabled-false-front-operations"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 扰乱了两项人工智能影响力行动，这些行动利用假面记者和智囊团传播地缘政治信息。"
+      ],
+      "highlights": [
+        "OpenAI 扰乱了两项人工智能影响力行动，这些行动利用假面记者和智囊团传播地缘政治信息。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Disrupting AI-enabled “false front” operations",
+      "originalLang": "en",
+      "date": "2026-10-08",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Disrupting AI-enabled “false front” operations"
+      },
+      "raw": {
+        "title": "Disrupting AI-enabled “false front” operations",
+        "url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+        "fetched": false,
+        "savedAt": "2026-10-09T04:08:26.398Z"
+      }
+    },
+    {
+      "id": "sig-ba03c55012",
+      "title": "AI 网关上的 Grok Imagine Video 1.5 Lite - Vercel",
+      "oneLiner": "xAI 的 Grok Imagine Video 1.5 Lite 现已在 AI Gateway 上提供。这种轻量级模型将文本提示和图像转换为带有本地音频的视频。",
+      "summary": {
+        "oneSentence": "xAI 的 Grok Imagine Video 1.5 Lite 现已在 AI Gateway 上提供。这种轻量级模型将文本提示和图像转换为带有本地音频的视频。",
+        "bullets": [
+          "xAI 的 Grok Imagine Video 1.5 Lite 现已在 AI Gateway 上提供。这种轻量级模型将文本提示和图像转换为带有本地音频的视频。",
+          "该模型可生成 480p、720p 和 1080p 格式的 1 到 15 秒长的剪辑。七种宽高比涵盖宽屏、方形和纵向格式，因此您可以通过同一生成工作流程创建水平场景或垂直视频。",
+          "要开始生成视频，请在 AI SDK 或 AI CLI 中将模型设置为 spacexai/grok-imagine-video-1.5-lite 。将图像模型与 Grok Imagine Video 1.5 Lite 链接起来，以在一个流程中创建静态图像并为其制作动画。",
+          "API AI CLI API API AI CLI AI CLI 1 从 'ai' 导入 {experimental_generateVideo asgenerateVideo} ； 2 const { video } = waitgenerateVideo({ 3 model : 'spacexai/grok-ima"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：xAI 的 Grok Imagine Video 1.5 Lite 现已在 AI Gateway 上提供。这种轻量级模型将文本提示和图像转换为带有本地音频的视频。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/grok-imagine-video-1-5-lite-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "xAI 的 Grok Imagine Video 1.5 Lite 现已在 AI Gateway 上提供。这种轻量级模型将文本提示和图像转换为带有本地音频的视频。",
+        "该模型可生成 480p、720p 和 1080p 格式的 1 到 15 秒长的剪辑。七种宽高比涵盖宽屏、方形和纵向格式，因此您可以通过同一生成工作流程创建水平场景或垂直视频。",
+        "要开始生成视频，请在 AI SDK 或 AI CLI 中将模型设置为 spacexai/grok-imagine-video-1.5-lite 。将图像模型与 Grok Imagine Video 1.5 Lite 链接起来，以在一个流程中创建静态图像并为其制作动画。",
+        "API AI CLI API API AI CLI AI CLI 1 从 'ai' 导入 {experimental_generateVideo asgenerateVideo} ； 2 const { video } = waitgenerateVideo({ 3 model : 'spacexai/grok-imagine-video-1.5-lite' , 4prompt : '一艘纸帆船在日出时安静的池塘上漂流。' , 5resolution : '1920x1080' , 6aspectRatio : '16:9' , 7duration : 10 , 8 } ）；复制给代理查看模型详细信息 ↗ 您还可以直接在 AI Gateway Playground 中尝试 Grok Imagine Video 1.5 Lite。",
+        "AI Gateway 提供了一个 API，用于调用模型、跟踪使用情况和成本以及配置路由、重试和故障转移。您可以使用 AI Gateway API 密钥或携带您自己的提供商密钥。"
+      ],
+      "highlights": [
+        "xAI 的 Grok Imagine Video 1.5 Lite 现已在 AI Gateway 上提供。这种轻量级模型将文本提示和图像转换为带有本地音频的视频",
+        "该模型可生成 480p、720p 和 1080p 格式的 1 到 15 秒长的剪辑。七种宽高比涵盖宽屏、方形和纵向格式，因此您可以通过同一生成工作流程创建水平场",
+        "要开始生成视频，请在 AI SDK 或 AI CLI 中将模型设置为 spacexai/grok-imagine-video-1.5-lite 。将图像模型与 "
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Grok Imagine Video 1.5 Lite on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-08",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/grok-imagine-video-1-5-lite-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Grok Imagine Video 1.5 Lite on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Grok Imagine Video 1.5 Lite on AI Gateway",
+        "url": "https://vercel.com/changelog/grok-imagine-video-1-5-lite-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-10-09T04:08:30.747Z"
       }
     },
     {
@@ -1700,6 +2488,326 @@
       "translateMethod": "google"
     },
     {
+      "id": "sig-342677ae7e",
+      "title": "Jump Trading 如何利用 ChatGPT 扩大量化研究规模",
+      "oneLiner": "Jump Trading 使用 OpenAI 来扩展定量研究。了解运行时间较长的 AI 工作流程如何将多个数据源与人工审核相结合。",
+      "summary": {
+        "oneSentence": "Jump Trading 使用 OpenAI 来扩展定量研究。了解运行时间较长的 AI 工作流程如何将多个数据源与人工审核相结合。",
+        "bullets": [
+          "Jump Trading 使用 OpenAI 来扩展定量研究。了解运行时间较长的 AI 工作流程如何将多个数据源与人工审核相结合。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：Jump Trading 使用 OpenAI 来扩展定量研究。了解运行时间较长的 AI 工作流程如何将多个数据源与人工审核相结合。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/jump-trading"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Jump Trading 使用 OpenAI 来扩展定量研究。了解运行时间较长的 AI 工作流程如何将多个数据源与人工审核相结合。"
+      ],
+      "highlights": [
+        "Jump Trading 使用 OpenAI 来扩展定量研究。了解运行时间较长的 AI 工作流程如何将多个数据源与人工审核相结合。"
+      ],
+      "translated": true,
+      "originalTitle": "How Jump Trading is scaling quant research with ChatGPT",
+      "originalLang": "en",
+      "date": "2026-10-06",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/jump-trading",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How Jump Trading is scaling quant research with ChatGPT"
+      },
+      "raw": {
+        "title": "How Jump Trading is scaling quant research with ChatGPT",
+        "url": "https://openai.com/index/jump-trading",
+        "fetched": false,
+        "savedAt": "2026-10-07T03:49:10.300Z",
+        "retranslatedAt": "2026-10-09T04:08:32.899Z"
+      },
+      "translateMethod": "google"
+    },
+    {
+      "id": "sig-47b9255d8f",
+      "title": "分享AI数学进展",
+      "oneLiner": "OpenAI 通过内部前沿模型发布了关于数学中开放问题的新结果，并在 GitHub 上分享了精益证明形式化和研究细节。",
+      "summary": {
+        "oneSentence": "OpenAI 通过内部前沿模型发布了关于数学中开放问题的新结果，并在 GitHub 上分享了精益证明形式化和研究细节。",
+        "bullets": [
+          "OpenAI 通过内部前沿模型发布了关于数学中开放问题的新结果，并在 GitHub 上分享了精益证明形式化和研究细节。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 通过内部前沿模型发布了关于数学中开放问题的新结果，并在 GitHub 上分享了精益证明形式化和研究细节。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/sharing-ai-progress-in-mathematics"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 通过内部前沿模型发布了关于数学中开放问题的新结果，并在 GitHub 上分享了精益证明形式化和研究细节。"
+      ],
+      "highlights": [
+        "OpenAI 通过内部前沿模型发布了关于数学中开放问题的新结果，并在 GitHub 上分享了精益证明形式化和研究细节。"
+      ],
+      "translated": true,
+      "originalTitle": "Sharing AI progress in mathematics",
+      "originalLang": "en",
+      "date": "2026-10-06",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Sharing AI progress in mathematics"
+      },
+      "raw": {
+        "title": "Sharing AI progress in mathematics",
+        "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
+        "fetched": false,
+        "savedAt": "2026-10-07T03:49:11.729Z",
+        "retranslatedAt": "2026-10-09T04:08:34.462Z"
+      },
+      "translateMethod": "google"
+    },
+    {
+      "id": "sig-b3859f0901",
+      "title": "什么是对话智能：企业指南",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 了解更多 获取 API 密钥 在此页面上",
+          "在大多数销售和支持对话中，所讨论的大部分内容很少在对话之外使用。通话发生后，有人在 CRM 中将其标记为已完成，并且对话最终会作为录音文件而不会再次审阅。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/what-is-conversation-intelligence"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 了解更多信息 获取 API 密钥 博客资源 什么是对话智能？企业指南 作者：Jack Limebear 发布于 2026 年 10 月 6 日 最后更新于 2026 年 10 月 7 日 听 听这篇文章",
+        "0:00 1.0x 了解更多 获取 API 密钥 在此页面上",
+        "在大多数销售和支持对话中，所讨论的大部分内容很少在对话之外使用。通话发生后，有人在 CRM 中将其标记为已完成，并且对话最终会作为录音文件而不会再次审阅。",
+        "对话智能是防止这种情况发生的一层。其目标是捕获对话、转录并应用人工智能分析，将其转化为您可以使用并与团队和管理层共享的内部资源。这为公司提供了每次对话期间所说内容的记录，并按情绪、反对意见和行动项目进行标记，而不仅仅是选定的对话进行内部审查。",
+        "本指南介绍了对话智能是什么、它的工作原理以及它最常用的地方，以便您可以开始将其应用到您自己与客户的对话中。",
+        "对话智能是一种记录和转录客户对话的软件，然后使用人工智能将其转化为结构化见解，例如情绪、主题、行动项目和反对意见。这种智能建立在两层之上，即准确的转录和从对话记录中读取含义的解释层。",
+        "情报的解释层是将其与录音或普通文字记录区分开来的。例如，通话录音通常仅保留音频，而文字记录则使相同的音频可读。对话智能通过确定发言者、讨论的主题、悬而未决的问题以及对话如何与其目标保持一致来增强分析。",
+        "为了进一步分解实践中的情况，让我们对一个场景使用一次销售电话。对话智能系统将执行以下操作：",
+        "在整个企业中，团队在对话智能中应用相同的模式。收入团队在销售电话中运行它，支持人员在服务交互中使用它，合规部门在受监管的对话中运行它以确保数据隐私得到维护，产品团队使用它来更好地了解客户反馈以改进产品。"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 了解更多 获取 API 密钥 在此页面上"
+      ],
+      "translated": true,
+      "originalTitle": "What is conversation intelligence: A guide for enterprises",
+      "originalLang": "en",
+      "date": "2026-10-06",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/what-is-conversation-intelligence",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "What is conversation intelligence: A guide for enterprises"
+      },
+      "raw": {
+        "title": "What is conversation intelligence? A guide for businesses",
+        "url": "https://elevenlabs.io/blog/what-is-conversation-intelligence",
+        "fetched": true,
+        "savedAt": "2026-10-07T03:49:13.214Z",
+        "retranslatedAt": "2026-10-09T04:08:41.887Z"
+      },
+      "translateMethod": "google"
+    },
+    {
+      "id": "sig-cdc5b82bfe",
+      "title": "ElevenAgents Architect：改进代理的专家合作伙伴",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 尝试架构师联系销售人员在此页面上",
+          "在 ElevenLabs，我们正在构建人与技术之间、组织与其所服务的人之间的接口层，无论是企业与其客户、雇主及其员工，还是政府及其居民。我们的客户已经用自然对话取代了电话树和僵化的聊天机器人。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/elevenagents-architect"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 尝试架构师 联系销售博客 产品介绍 ElevenAgents 架构师 作者：Angelo Giacco Eli Goodman 发布于 2026 年 10 月 6 日 听 听这篇文章",
+        "0:00 1.0x 尝试架构师联系销售人员在此页面上",
+        "在 ElevenLabs，我们正在构建人与技术之间、组织与其所服务的人之间的接口层，无论是企业与其客户、雇主及其员工，还是政府及其居民。我们的客户已经用自然对话取代了电话树和僵化的聊天机器人。",
+        "今天，我们为代理背后的人员提供了相同的对话界面。 ElevenAgents Architect 是我们新的内置专家，只需通过交谈或打字即可帮助您的团队启动和改进代理。",
+        "构建和改进的专家合作伙伴 借助 ElevenAgents Architect，您的团队可以解决一般性问题，例如“如何改进退款解决方案？” — 在一次谈话中找到根本原因和更好的代理人。",
+        "ElevenAgents Architect 了解 ElevenAgents 中所有可能的配置选项、它们如何交互以及知识库、提示、工作流程、语音设置、程序、护栏、工具和模拟的最佳实践。",
+        "这种理解意味着它几乎可以对你发出的任何信号采取行动。您可以向其提供失败的测试、升级高峰或 ElevenAgents Spotlight 的发现，它会分析记录、表面见解并发现需要改进的领域。然后，ElevenAgents Architect 会提出更改并编写模拟，以便您可以放心地进行部署。",
+        "架构师在从健康保险线路到患者安排的各个方面改进您的代理 - 在对话中发现机会并实施变更。",
+        "ElevenAgents Architect 针对各种呼叫（从卡激活到欺诈警报）调整您的代理。在这里，失败的测试变成了修复程序，起草并准备好进行审查。"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 尝试架构师联系销售人员在此页面上"
+      ],
+      "translated": true,
+      "originalTitle": "ElevenAgents Architect: An expert partner to improve agents",
+      "originalLang": "en",
+      "date": "2026-10-06",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/elevenagents-architect",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "ElevenAgents Architect: An expert partner to improve agents"
+      },
+      "raw": {
+        "title": "Introducing ElevenAgents Architect",
+        "url": "https://elevenlabs.io/blog/elevenagents-architect",
+        "fetched": true,
+        "savedAt": "2026-10-07T03:49:14.857Z",
+        "retranslatedAt": "2026-10-09T04:08:51.446Z"
+      },
+      "translateMethod": "google"
+    },
+    {
       "id": "sig-a8157c50a9",
       "title": "Open Source as We Know It Is Dead",
       "oneLiner": "Article URL: https://jross.me/open-source-as-we-know-it-is-dead/ Comments URL: https://news.ycombina",
@@ -1768,322 +2876,20 @@
       }
     },
     {
-      "id": "sig-342677ae7e",
-      "title": "How Jump Trading is scaling quant research with ChatGPT",
-      "oneLiner": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combin",
-      "summary": {
-        "oneSentence": "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sour",
-        "bullets": [
-          "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review."
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://openai.com/index/jump-trading"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "Jump Trading uses OpenAI to expand quantitative research. See how longer-running AI workflows combine multiple data sources with human review."
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "How Jump Trading is scaling quant research with ChatGPT",
-      "originalLang": "en",
-      "date": "2026-10-06",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/jump-trading",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "How Jump Trading is scaling quant research with ChatGPT"
-      },
-      "raw": {
-        "title": "How Jump Trading is scaling quant research with ChatGPT",
-        "url": "https://openai.com/index/jump-trading",
-        "fetched": false,
-        "savedAt": "2026-10-07T03:49:10.300Z"
-      }
-    },
-    {
-      "id": "sig-47b9255d8f",
-      "title": "Sharing AI progress in mathematics",
-      "oneLiner": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and sha",
-      "summary": {
-        "oneSentence": "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof forma",
-        "bullets": [
-          "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub."
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://openai.com/index/sharing-ai-progress-in-mathematics"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "OpenAI publishes new results on open problems in mathematics from an internal frontier model and shares Lean proof formalizations and research details on GitHub."
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Sharing AI progress in mathematics",
-      "originalLang": "en",
-      "date": "2026-10-06",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Sharing AI progress in mathematics"
-      },
-      "raw": {
-        "title": "Sharing AI progress in mathematics",
-        "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-        "fetched": false,
-        "savedAt": "2026-10-07T03:49:11.729Z"
-      }
-    },
-    {
-      "id": "sig-b3859f0901",
-      "title": "What is conversation intelligence? A guide for businesses",
-      "oneLiner": "What is conversation intelligence and how does it allow businesses to improve their customer service",
-      "summary": {
-        "oneSentence": "What is conversation intelligence and how does it allow businesses to improve their customer service processes? Learn mo",
-        "bullets": [
-          "What is conversation intelligence and how does it allow businesses to improve their customer service processes? Learn more about conversation intelligence"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://elevenlabs.io/blog/what-is-conversation-intelligence"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "strong]:tw-font-normal tw-text-gray-600\"> Introducing Eleven v4 Meet Eleven v4, our most emotive model yet. With 3x credits included on Creator+ until October 12",
-        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem; } Skip to content Products Solutions Customers Resources Enterprise Pricing Log in Sign up Contact sales Log in [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() Learn more Get API key Blog Resources What is conversation intelligence? A guide for businesses Written by Jack Limebear Published Oct 6, 2026 Last updated Oct 7, 2026 Listen Listen to this article",
-        "0:00 1.0x Learn more Get API key On this page",
-        "In most sales and support conversations, most of what is discussed is rarely used beyond the conversation. The call happens, someone marks it as completed in the CRM, and the conversation ends up as a recording file that is never reviewed again.",
-        "Conversation intelligence is the layer that prevents that scenario from happening. Its objective is to capture the conversation, transcribe it, and apply AI analysis to turn it into internal resources you can use and share with your team and management. This gives companies a record of what was said during each conversation, tagged by sentiment, objections, and action items, rather than only selected conversations for internal review.",
-        "This guide covers what conversation intelligence is, how it works, and where it's used most, so you can start applying it to your own conversations with customers.",
-        "Conversation intelligence is software that records and transcribes customer conversations, then uses AI to turn them into structured insights such as sentiment, topics, action items, and objections. This intelligence is built on two layers, which are accurate transcription and an interpretation layer that reads meaning out of the conversation transcript.",
-        "That interpretation layer of the intelligence is what separates it from a recording or a plain transcript. For instance, a call recording typically preserves only audio, while a transcript makes the same audio readable. Conversation intelligence enhances the analysis by determining who spoke, the topics discussed, lingering questions, and how the conversation aligned with its objective.",
-        "To further break down what this looks like in practice, let’s use a single sales call for a scenario. A conversation intelligence system will do the following:",
-        "Across the business, teams apply the same pattern with conversation intelligence. Revenue teams run it on sales calls, support uses it within service interactions, compliance functions run it on regulated conversations to ensure data privacy is upheld, and product teams use it to better understand customer feedback for product improvement.",
-        "The benefits behind conversational intelligence grow with the volume of conversations a business has that they want to leverage as an internal resource.",
-        "Where conversation intelligence works ‌best is when it shifts from ‌unstructured dialogue to data that a business can measure and improve. Several benefits show up consistently when teams adopt it. They are:",
-        "These benefits compound over time because the same analysis runs on every conversation. Learning from these conversations and drawing insight from them is exactly what conversation intelligence is designed to accomplish.",
-        "The majority of conversation intelligence platforms on the market currently follow a five-stage process, regardless of who the vendor is. This pipeline covers:"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "What is conversation intelligence: A guide for enterprises",
-      "originalLang": "en",
-      "date": "2026-10-06",
-      "categoryIds": [
-        "vertical-audio"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "ElevenLabs",
-        "author": "ElevenLabs",
-        "url": "https://elevenlabs.io/blog/what-is-conversation-intelligence",
-        "home": "https://elevenlabs.io/blog",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "What is conversation intelligence: A guide for enterprises"
-      },
-      "raw": {
-        "title": "What is conversation intelligence? A guide for businesses",
-        "url": "https://elevenlabs.io/blog/what-is-conversation-intelligence",
-        "fetched": true,
-        "savedAt": "2026-10-07T03:49:13.214Z"
-      }
-    },
-    {
-      "id": "sig-cdc5b82bfe",
-      "title": "Introducing ElevenAgents Architect",
-      "oneLiner": "Find the improvements your team would otherwise miss. Bring a goal, get back proposals already draft",
-      "summary": {
-        "oneSentence": "Find the improvements your team would otherwise miss. Bring a goal, get back proposals already drafted and validated in ",
-        "bullets": [
-          "Find the improvements your team would otherwise miss. Bring a goal, get back proposals already drafted and validated in simulated conversations."
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://elevenlabs.io/blog/elevenagents-architect"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "strong]:tw-font-normal tw-text-gray-600\"> Introducing Eleven v4 Meet Eleven v4, our most emotive model yet. With 3x credits included on Creator+ until October 12",
-        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem; } Skip to content Products Solutions Customers Resources Enterprise Pricing Log in Sign up Contact sales Log in [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() Try Architect Contact Sales Blog Product Introducing ElevenAgents Architect Written by Angelo Giacco Eli Goodman Published Oct 6, 2026 Listen Listen to this article",
-        "0:00 1.0x Try Architect Contact Sales On this page",
-        "At ElevenLabs, we're building the interface layer between people and technology, and between organizations and the people they serve, whether that's a business and its customers, an employer and its staff, or a government and its residents. Our customers have replaced phone trees and rigid chatbots with natural conversation.",
-        "Today, we're bringing that same conversational interface to the people behind the agents. ElevenAgents Architect is our new built-in expert that helps your team launch and improve agents, just by talking or typing.",
-        "An expert partner for building and improving With ElevenAgents Architect, your team can go from a general question — like, \"How do I improve refund resolutions?\" — to a root cause and a better agent, in one conversation.",
-        "ElevenAgents Architect understands all the possible configuration options in ElevenAgents, how they interact, and best practices for your knowledge base, prompts, workflows, voice settings, procedures , guardrails , tools, and simulations.",
-        "That understanding means it can act on almost any signal you give it. You can bring it a failing test, a spike in escalations, or a finding from ElevenAgents Spotlight , and it will analyze transcripts, surface insights, and uncover areas for improvement. ElevenAgents Architect then proposes a change and writes simulations so you can can deploy with confidence.",
-        "Architect improves your agents across everything from health insurance lines to patient scheduling - surfacing opportunities and implementing changes in conversation.",
-        "ElevenAgents Architect tunes your agents for every kind of call, from card activations to fraud alerts. Here, a failing test becomes a fix, drafted and ready for review.",
-        "ElevenAgents Architect builds new resident experiences, grounded in your own documents and policies, while keeping you in control.",
-        "From order support to returns, ElevenAgents Architect finds opportunities in your conversations, drafts changes, and tests them in real-time.",
-        "ElevenAgents Architect arrives with improvements already drafted and validated. Here, a Spotlight finding on repeat billing calls comes back with the fix attached.",
-        "You can also describe completely new experiences you would like to create and ElevenAgents Architect builds them the way an expert would, allowing you to more easily expand what your agents can do."
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "ElevenAgents Architect: An expert partner to improve agents",
-      "originalLang": "en",
-      "date": "2026-10-06",
-      "categoryIds": [
-        "vertical-audio"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "ElevenLabs",
-        "author": "ElevenLabs",
-        "url": "https://elevenlabs.io/blog/elevenagents-architect",
-        "home": "https://elevenlabs.io/blog",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "ElevenAgents Architect: An expert partner to improve agents"
-      },
-      "raw": {
-        "title": "Introducing ElevenAgents Architect",
-        "url": "https://elevenlabs.io/blog/elevenagents-architect",
-        "fetched": true,
-        "savedAt": "2026-10-07T03:49:14.857Z"
-      }
-    },
-    {
       "id": "sig-78ad538158",
-      "title": "Our approach to EU text provenance rules",
-      "oneLiner": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detect",
+      "title": "我们对欧盟文本来源规则的处理方法",
+      "oneLiner": "OpenAI 如何根据欧盟规则处理文本水印。了解水印的适用位置、检测的工作原理以及为什么访问从研究人员开始。",
       "summary": {
-        "oneSentence": "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why a",
+        "oneSentence": "OpenAI 如何根据欧盟规则处理文本水印。了解水印的适用位置、检测的工作原理以及为什么访问从研究人员开始。",
         "bullets": [
-          "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers."
+          "OpenAI 如何根据欧盟规则处理文本水印。了解水印的适用位置、检测的工作原理以及为什么访问从研究人员开始。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "OpenAI 官网发布：OpenAI 如何根据欧盟规则处理文本水印。了解水印的适用位置、检测的工作原理以及为什么访问从研究人员开始。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -2091,27 +2897,29 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
-        "relevance": "",
+        "relevance": "关联产品：chatgpt",
         "actionItems": [
-          "阅读原文：https://openai.com/index/eu-text-provenance"
+          "阅读原文（英文）：https://openai.com/index/eu-text-provenance"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [
         "chatgpt"
       ],
       "content": [
-        "How OpenAI is approaching text watermarking under EU rules. Learn where watermarks apply, how detection works, and why access starts with researchers."
+        "OpenAI 如何根据欧盟规则处理文本水印。了解水印的适用位置、检测的工作原理以及为什么访问从研究人员开始。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "OpenAI 如何根据欧盟规则处理文本水印。了解水印的适用位置、检测的工作原理以及为什么访问从研究人员开始。"
+      ],
+      "translated": true,
       "originalTitle": "Our approach to EU text provenance rules",
       "originalLang": "en",
       "date": "2026-10-05",
@@ -2129,32 +2937,34 @@
         "url": "https://openai.com/index/eu-text-provenance",
         "home": "https://openai.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Our approach to EU text provenance rules"
       },
       "raw": {
         "title": "Our approach to EU text provenance rules",
         "url": "https://openai.com/index/eu-text-provenance",
         "fetched": false,
-        "savedAt": "2026-10-06T04:22:51.331Z"
-      }
+        "savedAt": "2026-10-06T04:22:51.331Z",
+        "retranslatedAt": "2026-10-09T04:08:52.682Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-3cbec84de8",
-      "title": "Building advertising for the way people use AI",
-      "oneLiner": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partn",
+      "title": "为人们使用人工智能的方式制作广告",
+      "oneLiner": "OpenAI 在 ChatGPT 中引入了一种新的视觉广告格式，并为广告商扩展了衡量工具、归因合作伙伴关系和品牌适合度。",
       "summary": {
-        "oneSentence": "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand s",
+        "oneSentence": "OpenAI 在 ChatGPT 中引入了一种新的视觉广告格式，并为广告商扩展了衡量工具、归因合作伙伴关系和品牌适合度。",
         "bullets": [
-          "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers."
+          "OpenAI 在 ChatGPT 中引入了一种新的视觉广告格式，并为广告商扩展了衡量工具、归因合作伙伴关系和品牌适合度。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "OpenAI 官网发布：OpenAI 在 ChatGPT 中引入了一种新的视觉广告格式，并为广告商扩展了衡量工具、归因合作伙伴关系和品牌适合度。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -2162,27 +2972,29 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
-        "relevance": "",
+        "relevance": "关联产品：chatgpt",
         "actionItems": [
-          "阅读原文：https://openai.com/index/new-chatgpt-ads-format-and-measurement"
+          "阅读原文（英文）：https://openai.com/index/new-chatgpt-ads-format-and-measurement"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [
         "chatgpt"
       ],
       "content": [
-        "OpenAI introduces a new visual ad format in ChatGPT and expands measurement tools, attribution partnerships, and brand suitability for advertisers."
+        "OpenAI 在 ChatGPT 中引入了一种新的视觉广告格式，并为广告商扩展了衡量工具、归因合作伙伴关系和品牌适合度。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "OpenAI 在 ChatGPT 中引入了一种新的视觉广告格式，并为广告商扩展了衡量工具、归因合作伙伴关系和品牌适合度。"
+      ],
+      "translated": true,
       "originalTitle": "Building advertising for the way people use AI",
       "originalLang": "en",
       "date": "2026-10-05",
@@ -2200,16 +3012,18 @@
         "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
         "home": "https://openai.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Building advertising for the way people use AI"
       },
       "raw": {
         "title": "Building advertising for the way people use AI",
         "url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
         "fetched": false,
-        "savedAt": "2026-10-06T04:22:52.884Z"
-      }
+        "savedAt": "2026-10-06T04:22:52.884Z",
+        "retranslatedAt": "2026-10-09T04:08:53.908Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-16140ec435",
@@ -30928,1473 +31742,6 @@
         "url": "https://simonwillison.net/2026/Aug/26/paul-dix/",
         "fetched": false,
         "savedAt": "2026-08-31T02:58:35.813Z"
-      }
-    },
-    {
-      "id": "sig-6f42175435",
-      "title": "Vercel 应用程序免受 Next.js August 2026 安全漏洞的影响 - Vercel",
-      "oneLiner": "将链接复制到标题 摘要 2026 年 8 月的安全版本中披露了两个影响 Next.js 的漏洞。 Vercel 上托管的 Next.js 应用程序受到保护，无需客户执行任何操作。",
-      "summary": {
-        "oneSentence": "将链接复制到标题 摘要 2026 年 8 月的安全版本中披露了两个影响 Next.js 的漏洞。 Vercel 上托管的 Next.js 应用程序受到保护，无需客户执行任何操作。",
-        "bullets": [
-          "将链接复制到标题 摘要 2026 年 8 月的安全版本中披露了两个影响 Next.js 的漏洞。 Vercel 上托管的 Next.js 应用程序受到保护，无需客户执行任何操作。",
-          "将链接复制到标题 Next.js 2026 年 8 月漏洞 Next.js 披露了以下严重漏洞：",
-          "GHSA-2xp9-vwfh-vxw4 源自上游 libheif 依赖项，当图像优化处理精心设计的 AVIF 输入时，可能会导致未经身份验证的远程代码执行。",
-          "CVE-2026-75604 ( GHSA-p293-qw3h-jr36 ) 可能会导致在使用不带缓存组件的 Pages Router 和 App Router 的应用程序中的 Windows 托管的 Next.js 服务器上未经身份验证的远程执行代码。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：将链接复制到标题 摘要 2026 年 8 月的安全版本中披露了两个影响 Next.js 的漏洞。 Vercel 上托管的 Next.js 应用程序受到保护，无需客户执行任何操作。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/nextjs-august-2026-security-release"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "将链接复制到标题 摘要 2026 年 8 月的安全版本中披露了两个影响 Next.js 的漏洞。 Vercel 上托管的 Next.js 应用程序受到保护，无需客户执行任何操作。",
-        "将链接复制到标题 Next.js 2026 年 8 月漏洞 Next.js 披露了以下严重漏洞：",
-        "GHSA-2xp9-vwfh-vxw4 源自上游 libheif 依赖项，当图像优化处理精心设计的 AVIF 输入时，可能会导致未经身份验证的远程代码执行。",
-        "CVE-2026-75604 ( GHSA-p293-qw3h-jr36 ) 可能会导致在使用不带缓存组件的 Pages Router 和 App Router 的应用程序中的 Windows 托管的 Next.js 服务器上未经身份验证的远程执行代码。",
-        "发现 AVIF 漏洞后，Vercel 对其托管图像优化服务应用了保护。",
-        "将链接复制到标题 对 Vercel 部署的影响 Vercel 上托管的应用程序受到保护。无需升级、配置更改或重新部署。",
-        "一旦发现 AVIF 漏洞，Vercel 就在其托管图像优化服务中禁用了 AVIF 优化。 AVIF 输入按原样提供，不会通过受影响的处理路径。",
-        "第二个漏洞仅影响使用 Windows 文件系统的服务器。 Vercel 的 Next.js 运行时使用 Linux，不受影响。",
-        "将链接复制到标题 自托管应用程序的解决方案 自托管 Next.js 应用程序应升级到适当的修补版本。",
-        "对于运行 Next.js 15.x 或更早版本的应用程序："
-      ],
-      "highlights": [
-        "将链接复制到标题 摘要 2026 年 8 月的安全版本中披露了两个影响 Next.js 的漏洞。 Vercel 上托管的 Next.js 应用程序受到保护，无需",
-        "将链接复制到标题 Next.js 2026 年 8 月漏洞 Next.js 披露了以下严重漏洞：",
-        "GHSA-2xp9-vwfh-vxw4 源自上游 libheif 依赖项，当图像优化处理精心设计的 AVIF 输入时，可能会导致未经身份验证的远程代码执行。"
-      ],
-      "translated": true,
-      "originalTitle": "Vercel applications are protected from Next.js August 2026 security vulnerabilities - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-25",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/nextjs-august-2026-security-release",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Vercel applications are protected from Next.js August 2026 security vulnerabilities - Vercel"
-      },
-      "raw": {
-        "title": "Vercel applications are protected from Next.js August 2026 security vulnerabilities",
-        "url": "https://vercel.com/changelog/nextjs-august-2026-security-release",
-        "fetched": true,
-        "savedAt": "2026-08-26T00:57:00.779Z",
-        "retranslatedAt": "2026-08-27T06:43:45.472Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-5f0b03166b",
-      "title": "使用 Google 搜索升级家居装饰的 5 种方法",
-      "oneLiner": "从追踪独特的古董发现到在购买前查看新家具是否合适，Google 搜索可以帮助您改变生活空间。",
-      "summary": {
-        "oneSentence": "从追踪独特的古董发现到在购买前查看新家具是否合适，Google 搜索可以帮助您改变生活空间。",
-        "bullets": [
-          "从追踪独特的古董发现到在购买前查看新家具是否合适，Google 搜索可以帮助您改变生活空间。",
-          "您的浏览器不支持音频元素。",
-          "您可以使用 Google 搜索工具将您的家居装饰灵感变为现实。使用 AI 功能可视化房间中的家具，使用相机识别复古物品，或圈出屏幕上的产品以查找类似的选项。您还可以使用 DIY 项目的实时视频指导并跟踪价格历史记录，以确保您获得最优惠的价格。",
-          "人们每天都会通过 Google 搜索来寻找发现和灵感，包括家居装饰：过去一个月“家居装饰 inspo”的搜索量增长了 300%，“浴室 inspo”和“客厅 inspo”的搜索量在同一时间范围内都取得了突破性的增长。大胆的流行色彩也很流行——今年的热门涂料搜索包括青色和洋红色。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Google AI 官网发布：从追踪独特的古董发现到在购买前查看新家具是否合适，Google 搜索可以帮助您改变生活空间。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：gemini",
-        "actionItems": [
-          "阅读原文（英文）：https://blog.google/products-and-platforms/products/search/home-decor-tips/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "gemini"
-      ],
-      "content": [
-        "从追踪独特的古董发现到在购买前查看新家具是否合适，Google 搜索可以帮助您改变生活空间。",
-        "您的浏览器不支持音频元素。",
-        "您可以使用 Google 搜索工具将您的家居装饰灵感变为现实。使用 AI 功能可视化房间中的家具，使用相机识别复古物品，或圈出屏幕上的产品以查找类似的选项。您还可以使用 DIY 项目的实时视频指导并跟踪价格历史记录，以确保您获得最优惠的价格。",
-        "人们每天都会通过 Google 搜索来寻找发现和灵感，包括家居装饰：过去一个月“家居装饰 inspo”的搜索量增长了 300%，“浴室 inspo”和“客厅 inspo”的搜索量在同一时间范围内都取得了突破性的增长。大胆的流行色彩也很流行——今年的热门涂料搜索包括青色和洋红色。",
-        "获得灵感是有趣的部分。让你的愿景成为现实是人们可能陷入困境的地方。您可以通过以下五种方式使用 Google 搜索工具对您的家居装饰愿景板采取行动。",
-        "当您正在考虑购买新沙发或其他大型家具时，可能很难知道该家具在物理上和美学上是否真正适合您的房间。搜索中的人工智能模式可以帮助您将其可视化，让您对在您的空间中有效的内容更有信心。只需上传您房间的照片并询问诸如“根据我的客厅，您会推荐哪种沙发？墙壁有 84 英寸宽”之类的问题。然后，您可以看到适合该位置的不同类型沙发的灵感，并随后提示“您能告诉我翠绿天鹅绒沙发是什么样子吗？”在您的空间中查看模型。",
-        "今年，人们对复古的追求比以往任何时候都更加强烈，“复古编织地毯”和“复古实木咖啡桌”成为最热门的家居单品。如果您外出时看到喜欢的复古装饰品，您可以使用 Google 智能镜头了解更多信息，并在您的价格范围内在线查找类似的商品。只需使用 iOS 或 Android 上的 Google 应用程序为该商品拍一张照片，Lens 就会拉出类似商品的链接，这样您就可以将复古风格带回家。",
-        "有时在线滚动会带来最好的发现。通过“圈子搜索”，您可以从视频、社交信息或网页中找到您喜欢的装饰，而无需切换应用程序。发现一个以鱼壁纸为特色的社交帖子（过去一个月搜索量增长了 140%！），它在您的家中看起来很完美吗？只需长按最新 Pixel 和三星 Galaxy S26 设备上的主页按钮或导航栏，然后圈出屏幕上的壁纸即可查看类似选项或询问有关产品的问题。",
-        "假设您是众多正在寻找浮动架子（今年最流行的物品）以放置在您的新单间公寓中的人之一。它们既可爱又实用——但一旦你购买了它们，你仍然需要安装它们。 Search Live 可以帮助指导您逐步完成 DIY 项目。要开始使用，只需打开 Google 应用程序并点击搜索栏下方的 Live 图标即可。您可以开始像与朋友交谈一样大声提出问题，并启用视频输入以共享摄像头源中的视觉背景，以正确完成工作。",
-        "把你的家布置得恰到好处可以增加很多。在购买时髦的台灯或丑角壁纸（这两种搜索都是过去一个月的热门搜索）之前，请快速检查一下价格，以确保您买到了划算的价格。只需点击任何产品列表即可比较各商店的成本。您还可以展开典型价格下降来查看价格历史记录，并了解当前列表是高、低还是典型。还没准备好购买吗？点击“跟踪价格”，当价格落入您的预算时，您会收到提醒。"
-      ],
-      "highlights": [
-        "从追踪独特的古董发现到在购买前查看新家具是否合适，Google 搜索可以帮助您改变生活空间。",
-        "您的浏览器不支持音频元素。",
-        "您可以使用 Google 搜索工具将您的家居装饰灵感变为现实。使用 AI 功能可视化房间中的家具，使用相机识别复古物品，或圈出屏幕上的产品以查找类似的选项。您还"
-      ],
-      "translated": true,
-      "originalTitle": "5 ways to upgrade your home decor with Google Search",
-      "originalLang": "en",
-      "date": "2026-08-25",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google AI",
-        "author": "Google",
-        "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
-        "home": "https://blog.google/technology/ai/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "5 ways to upgrade your home decor with Google Search"
-      },
-      "raw": {
-        "title": "5 ways to upgrade your home decor with Google Search",
-        "url": "https://blog.google/products-and-platforms/products/search/home-decor-tips/",
-        "fetched": true,
-        "savedAt": "2026-08-26T00:57:02.519Z",
-        "retranslatedAt": "2026-08-27T06:43:52.662Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-9856d5eaa7",
-      "title": "Speed Insights 现在有免费套餐 - Vercel",
-      "oneLiner": "Speed Insights 现在有一个免费套餐，可以让您从真实用户那里获得高级性能概览。新的免费套餐：",
-      "summary": {
-        "oneSentence": "Speed Insights 现在有一个免费套餐，可以让您从真实用户那里获得高级性能概览。新的免费套餐：",
-        "bullets": [
-          "Speed Insights 现在有一个免费套餐，可以让您从真实用户那里获得高级性能概览。新的免费套餐：",
-          "我可以为任何数量的项目提供任何计划",
-          "我每队包含 10,000 个事件，每 30 天一次",
-          "1 npm install @vercel/speed-insights 通过 CLI 安装 Speed Insights"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Speed Insights 现在有一个免费套餐，可以让您从真实用户那里获得高级性能概览。新的免费套餐：",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/speed-insights-free-tier"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Speed Insights 现在有一个免费套餐，可以让您从真实用户那里获得高级性能概览。新的免费套餐：",
-        "我可以为任何数量的项目提供任何计划",
-        "我每队包含 10,000 个事件，每 30 天一次",
-        "1 npm install @vercel/speed-insights 通过 CLI 安装 Speed Insights",
-        "以前，免费的 Speed Insights 仅限于 Hobby 上的单个项目，升级到 Pro 意味着失去访问权限，除非您付费购买该附加组件。现在，您的免费套餐可以继续使用，只需升级即可付费。",
-        "该付费产品现在称为 Speed Insights Plus，包括更深入的诊断和历史数据。如果您已经为 Speed Insights 付费，则只是名称发生了变化，您的功能和价格是相同的。",
-        "在您的项目中安装 @vercel/speed-insights 以开始报告真实用户数据，或打开 Speed Insights 仪表板以查看结果。",
-        "请参阅 Speed Insights 文档了解更多信息。",
-        "Speed Insights 使用实时流量而不是实验室条件来报告真实访问者如何体验您的页面。 Speed Insights Plus 添加了慢速路由诊断和详细故障，以查找页面速度变慢的位置，并添加历史数据来跟踪一段时间内的性能。它还提供对 Drains 和 Vercel CLI 的访问，以便在仪表板之外处理性能数据。",
-        "贾斯·加查、普拉纳夫·坎奇、布莱克·米利"
-      ],
-      "highlights": [
-        "Speed Insights 现在有一个免费套餐，可以让您从真实用户那里获得高级性能概览。新的免费套餐：",
-        "我可以为任何数量的项目提供任何计划",
-        "我每队包含 10,000 个事件，每 30 天一次"
-      ],
-      "translated": true,
-      "originalTitle": "Speed Insights now has a free tier - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-25",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/speed-insights-free-tier",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Speed Insights now has a free tier - Vercel"
-      },
-      "raw": {
-        "title": "Speed Insights now has a free tier",
-        "url": "https://vercel.com/changelog/speed-insights-free-tier",
-        "fetched": true,
-        "savedAt": "2026-08-26T00:57:04.144Z",
-        "retranslatedAt": "2026-08-27T06:44:00.864Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-829e237a88",
-      "title": "丰富智能背后的全栈",
-      "oneLiner": "OpenAI 首席财务官 Sarah Friar 解释了芯片、计算、模型和产品之间的进步如何结合起来，以更大规模和更低的成本提供更有用的智能。",
-      "summary": {
-        "oneSentence": "OpenAI 首席财务官 Sarah Friar 解释了芯片、计算、模型和产品之间的进步如何结合起来，以更大规模和更低的成本提供更有用的智能。",
-        "bullets": [
-          "OpenAI 首席财务官 Sarah Friar 解释了芯片、计算、模型和产品之间的进步如何结合起来，以更大规模和更低的成本提供更有用的智能。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：OpenAI 首席财务官 Sarah Friar 解释了芯片、计算、模型和产品之间的进步如何结合起来，以更大规模和更低的成本提供更有用的智能。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/the-full-stack-behind-abundant-intelligence"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "OpenAI 首席财务官 Sarah Friar 解释了芯片、计算、模型和产品之间的进步如何结合起来，以更大规模和更低的成本提供更有用的智能。"
-      ],
-      "highlights": [
-        "OpenAI 首席财务官 Sarah Friar 解释了芯片、计算、模型和产品之间的进步如何结合起来，以更大规模和更低的成本提供更有用的智能。"
-      ],
-      "translated": true,
-      "originalTitle": "The full stack behind abundant intelligence",
-      "originalLang": "en",
-      "date": "2026-08-25",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "The full stack behind abundant intelligence"
-      },
-      "raw": {
-        "title": "The full stack behind abundant intelligence",
-        "url": "https://openai.com/index/the-full-stack-behind-abundant-intelligence",
-        "fetched": false,
-        "savedAt": "2026-08-26T00:57:05.653Z",
-        "retranslatedAt": "2026-08-27T06:44:02.114Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-9ad99bb5f4",
-      "title": "Jalapeo 的首批结果显示了人工智能推理行业领先的速度和效率",
-      "oneLiner": "Jalapeo 是 OpenAI 的定制推理芯片，可提供更快、更节能的 AI 推理，为现代模型提供更高的吞吐量和更低的延迟。",
-      "summary": {
-        "oneSentence": "Jalapeo 是 OpenAI 的定制推理芯片，可提供更快、更节能的 AI 推理，为现代模型提供更高的吞吐量和更低的延迟。",
-        "bullets": [
-          "Jalapeo 是 OpenAI 的定制推理芯片，可提供更快、更节能的 AI 推理，为现代模型提供更高的吞吐量和更低的延迟。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：Jalapeo 是 OpenAI 的定制推理芯片，可提供更快、更节能的 AI 推理，为现代模型提供更高的吞吐量和更低的延迟。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/jalapeno-first-results"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "Jalapeo 是 OpenAI 的定制推理芯片，可提供更快、更节能的 AI 推理，为现代模型提供更高的吞吐量和更低的延迟。"
-      ],
-      "highlights": [
-        "Jalapeo 是 OpenAI 的定制推理芯片，可提供更快、更节能的 AI 推理，为现代模型提供更高的吞吐量和更低的延迟。"
-      ],
-      "translated": true,
-      "originalTitle": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-      "originalLang": "en",
-      "date": "2026-08-25",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/jalapeno-first-results",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference"
-      },
-      "raw": {
-        "title": "Jalapeño’s first results show industry-leading speed and efficiency in AI inference",
-        "url": "https://openai.com/index/jalapeno-first-results",
-        "fetched": false,
-        "savedAt": "2026-08-26T00:57:07.166Z",
-        "retranslatedAt": "2026-08-27T06:44:03.370Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-17ca6f2505",
-      "title": "Run SDK 简介：为您的代理进行安全评估",
-      "oneLiner": "代理越来越多地编写 TypeScript 程序来协调工具并处理其结果。一旦这些程序触及实际应用程序，某些步骤需要身份验证，而其他步骤则需要人工批准。",
-      "summary": {
-        "oneSentence": "代理越来越多地编写 TypeScript 程序来协调工具并处理其结果。一旦这些程序触及实际应用程序，某些步骤需要身份验证，而其他步骤则需要人工批准。",
-        "bullets": [
-          "代理越来越多地编写 TypeScript 程序来协调工具并处理其结果。一旦这些程序触及实际应用程序，某些步骤需要身份验证，而其他步骤则需要人工批准。",
-          "使用 eval 执行该代码使其具有与其周围的应用程序相同的访问权限，包括其机密和内部服务，并且没有留下持久的方法在这些边界处暂停。",
-          "今天，我们发布了 Run SDK ，这是一个用于执行不受信任的 JavaScript 和 TypeScript 的包，而无需让它直接访问您的应用程序或系统。应用程序公开狭窄的主机功能，并且可以中断执行以进行身份​​验证或人机交互批准。该计划在做出决定后恢复，而不重复已完成的工作。",
-          "将链接复制到标题 主机的小接口 Run SDK 在工作线程内的新 QuickJS 上下文中评估 JavaScript 或类型剥离的 TypeScript，没有直接路由到 Node.js 或网络。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：代理越来越多地编写 TypeScript 程序来协调工具并处理其结果。一旦这些程序触及实际应用程序，某些步骤需要身份验证，而其他步骤则需要人工批准。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/blog/introducing-run"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "代理越来越多地编写 TypeScript 程序来协调工具并处理其结果。一旦这些程序触及实际应用程序，某些步骤需要身份验证，而其他步骤则需要人工批准。",
-        "使用 eval 执行该代码使其具有与其周围的应用程序相同的访问权限，包括其机密和内部服务，并且没有留下持久的方法在这些边界处暂停。",
-        "今天，我们发布了 Run SDK ，这是一个用于执行不受信任的 JavaScript 和 TypeScript 的包，而无需让它直接访问您的应用程序或系统。应用程序公开狭窄的主机功能，并且可以中断执行以进行身份​​验证或人机交互批准。该计划在做出决定后恢复，而不重复已完成的工作。",
-        "将链接复制到标题 主机的小接口 Run SDK 在工作线程内的新 QuickJS 上下文中评估 JavaScript 或类型剥离的 TypeScript，没有直接路由到 Node.js 或网络。",
-        "应用程序通过 hostFunctions 公开选定的操作。这些是常规函数，在沙箱内成为可调用的全局函数：",
-        "1 从 'run' 导入 { run } ； 2 3 const result = wait run ( { 4 source : ` 5 const order = wait store.listOrders(\"customer_123\"); 6 const Total =orders.reduce((sum, order) => sum + order.amount, 0); 7 return { count:orders.length, Total }; 8 ` , 9 hostFunctions : { 10 store : { 11 listOrders : async(customerId: string) => { 12 返回数据库 .findMany({ customerId }); 13 }, 14 }, 15 }, 16 }); 17 18 if ( 结果 .status === '已完成' ) { 19 控制台 .日志（结果。值）； 20}",
-        "在这里，生成的程序知道 store.listOrders() 。数据库客户端及其凭据保留在应用程序中。",
-        "调用通过序列化跨越沙箱边界。主机函数可能会返回一个承诺，因此现有的服务客户端可以位于此接口后面，而无需传递到沙箱中。",
-        "你可以在操场上尝试一下。您在那里运行的代码只能到达页面上的主机函数。",
-        "将链接复制到标题 代码模式实践 Run SDK 是支持 AI SDK 中代码模式工具执行的内部模块。为代理提供程序会改变工作单元。一种模型响应可以描述调用以及连接它们的逻辑："
-      ],
-      "highlights": [
-        "代理越来越多地编写 TypeScript 程序来协调工具并处理其结果。一旦这些程序触及实际应用程序，某些步骤需要身份验证，而其他步骤则需要人工批准。",
-        "使用 eval 执行该代码使其具有与其周围的应用程序相同的访问权限，包括其机密和内部服务，并且没有留下持久的方法在这些边界处暂停。",
-        "今天，我们发布了 Run SDK ，这是一个用于执行不受信任的 JavaScript 和 TypeScript 的包，而无需让它直接访问您的应用程序或系统。应用"
-      ],
-      "translated": true,
-      "originalTitle": "Introducing Run SDK: secure eval for your agents",
-      "originalLang": "en",
-      "date": "2026-08-25",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/blog/introducing-run",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Introducing Run SDK: secure eval for your agents"
-      },
-      "raw": {
-        "title": "Introducing Run SDK: secure eval for your agents",
-        "url": "https://vercel.com/blog/introducing-run",
-        "fetched": true,
-        "savedAt": "2026-08-26T00:57:09.587Z",
-        "retranslatedAt": "2026-08-27T06:44:11.802Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-d1fc64a6e1",
-      "title": "代理凭证蔓延的终结",
-      "oneLiner": "每个有用的代理都超出了您的代码库。它发布到 Slack、打开拉取请求、查询 Snowflake 或调用内部 API。这种影响力使其变得有价值，同时也是风险所在，因为多年来，授予它意味着提供一个长期存在的代币并希望它永远不会泄露。",
-      "summary": {
-        "oneSentence": "每个有用的代理都超出了您的代码库。它发布到 Slack、打开拉取请求、查询 Snowflake 或调用内部 API。这种影响力使其变得有价值，同时也是风险所在，因为多年来，授予它意味着提供一个长期存在的代币并希望它永远不会泄露。",
-        "bullets": [
-          "每个有用的代理都超出了您的代码库。它发布到 Slack、打开拉取请求、查询 Snowflake 或调用内部 API。这种影响力使其变得有价值，同时也是风险所在，因为多年来，授予它意味着提供一个长期存在的代币并希望它永远不会泄露。",
-          "Vercel Connect 将长期存在的令牌替换为您的代码在运行时请求的令牌，其范围仅限于任务并自行过期。",
-          "在公开测试期间，我们已经将生态系统发展到超过 100 个连接器，统一了它们的工作方式，并添加了团队在生产中所需的治理功能。",
-          "今天，Vercel Connect 已全面上市。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：每个有用的代理都超出了您的代码库。它发布到 Slack、打开拉取请求、查询 Snowflake 或调用内部 API。这种影响力使其变得有价值，同时也是风险所在，因为多年来，授予它意味着提供一个长期存在的代币并希望它永远不会泄露。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/blog/the-end-of-credential-sprawl-for-agents"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "每个有用的代理都超出了您的代码库。它发布到 Slack、打开拉取请求、查询 Snowflake 或调用内部 API。这种影响力使其变得有价值，同时也是风险所在，因为多年来，授予它意味着提供一个长期存在的代币并希望它永远不会泄露。",
-        "Vercel Connect 将长期存在的令牌替换为您的代码在运行时请求的令牌，其范围仅限于任务并自行过期。",
-        "在公开测试期间，我们已经将生态系统发展到超过 100 个连接器，统一了它们的工作方式，并添加了团队在生产中所需的治理功能。",
-        "今天，Vercel Connect 已全面上市。",
-        "将链接复制到标题保险库无法修复长期存在的令牌管理凭据已成为其自身的工作负载。团队编写轮换脚本，跨环境复制机密，并在用户之间共享令牌。将代币放入金库会使偷窃变得更加困难，但一旦被盗，危险性也不会降低。它永远不会过期，并且没有保险库限制泄露的凭证可以做什么。",
-        "特工更频繁地接触更多具有更大自主权的系统，从而使问题变得更加复杂。然而，隐藏秘密的工具并没有改变。",
-        "借助 Vercel Connect，您的应用程序永远不会存储凭据。它要求一：",
-        "您可以为 Slack、GitHub、Snowflake、Shopify 或您自己的 OAuth 服务等提供商注册一次连接器",
-        "您将其附加到需要它的项目和环境中",
-        "您的代码在运行时请求令牌，并且它会自动刷新"
-      ],
-      "highlights": [
-        "每个有用的代理都超出了您的代码库。它发布到 Slack、打开拉取请求、查询 Snowflake 或调用内部 API。这种影响力使其变得有价值，同时也是风险所在，",
-        "Vercel Connect 将长期存在的令牌替换为您的代码在运行时请求的令牌，其范围仅限于任务并自行过期。",
-        "在公开测试期间，我们已经将生态系统发展到超过 100 个连接器，统一了它们的工作方式，并添加了团队在生产中所需的治理功能。"
-      ],
-      "translated": true,
-      "originalTitle": "The end of credential sprawl for agents",
-      "originalLang": "en",
-      "date": "2026-08-25",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/blog/the-end-of-credential-sprawl-for-agents",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "The end of credential sprawl for agents"
-      },
-      "raw": {
-        "title": "The end of credential sprawl for agents",
-        "url": "https://vercel.com/blog/the-end-of-credential-sprawl-for-agents",
-        "fetched": true,
-        "savedAt": "2026-08-26T00:57:11.213Z",
-        "retranslatedAt": "2026-09-04T02:31:12.315Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-da55f7d7bd",
-      "title": "破坏来自俄罗斯的新的秘密影响活动",
-      "oneLiner": "OpenAI 禁止源自俄罗斯的账户使用人工智能来推广一个虚假的以色列智库和一个赞扬俄罗斯、批评西方的“主权”指数。",
-      "summary": {
-        "oneSentence": "OpenAI 禁止源自俄罗斯的账户使用人工智能来推广一个虚假的以色列智库和一个赞扬俄罗斯、批评西方的“主权”指数。",
-        "bullets": [
-          "OpenAI 禁止源自俄罗斯的账户使用人工智能来推广一个虚假的以色列智库和一个赞扬俄罗斯、批评西方的“主权”指数。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：OpenAI 禁止源自俄罗斯的账户使用人工智能来推广一个虚假的以色列智库和一个赞扬俄罗斯、批评西方的“主权”指数。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "OpenAI 禁止源自俄罗斯的账户使用人工智能来推广一个虚假的以色列智库和一个赞扬俄罗斯、批评西方的“主权”指数。"
-      ],
-      "highlights": [
-        "OpenAI 禁止源自俄罗斯的账户使用人工智能来推广一个虚假的以色列智库和一个赞扬俄罗斯、批评西方的“主权”指数。"
-      ],
-      "translated": true,
-      "originalTitle": "Disrupting a new covert influence campaign from Russia",
-      "originalLang": "en",
-      "date": "2026-08-25",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Disrupting a new covert influence campaign from Russia"
-      },
-      "raw": {
-        "title": "Disrupting a new covert influence campaign from Russia",
-        "url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia",
-        "fetched": false,
-        "savedAt": "2026-08-26T00:57:12.810Z",
-        "retranslatedAt": "2026-09-05T02:30:24.888Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-cfc376addf",
-      "title": "引入 ChatGPT Work 和 Codex 的管理插件",
-      "oneLiner": "使用 ChatGPT Work 和 Codex 的管理插件来分析工作区使用情况、管理成员和权限、调整限制并根据管理请求采取行动。",
-      "summary": {
-        "oneSentence": "使用 ChatGPT Work 和 Codex 的管理插件来分析工作区使用情况、管理成员和权限、调整限制并根据管理请求采取行动。",
-        "bullets": [
-          "使用 ChatGPT Work 和 Codex 的管理插件来分析工作区使用情况、管理成员和权限、调整限制并根据管理请求采取行动。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：使用 ChatGPT Work 和 Codex 的管理插件来分析工作区使用情况、管理成员和权限、调整限制并根据管理请求采取行动。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/introducing-admin-plugin"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "使用 ChatGPT Work 和 Codex 的管理插件来分析工作区使用情况、管理成员和权限、调整限制并根据管理请求采取行动。"
-      ],
-      "highlights": [
-        "使用 ChatGPT Work 和 Codex 的管理插件来分析工作区使用情况、管理成员和权限、调整限制并根据管理请求采取行动。"
-      ],
-      "translated": true,
-      "originalTitle": "Introducing the Admin plugin for ChatGPT Work and Codex",
-      "originalLang": "en",
-      "date": "2026-08-25",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/introducing-admin-plugin",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Introducing the Admin plugin for ChatGPT Work and Codex"
-      },
-      "raw": {
-        "title": "Introducing the Admin plugin for ChatGPT Work and Codex",
-        "url": "https://openai.com/index/introducing-admin-plugin",
-        "fetched": false,
-        "savedAt": "2026-08-26T00:57:14.500Z",
-        "retranslatedAt": "2026-09-05T02:30:26.225Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-b1a172da43",
-      "title": "MiniMax M3 和 M2.7 在 AI Gateway - Vercel 上免费",
-      "oneLiner": "MiniMax M3 和 M2.7 在 9 月 6 日星期日之前可通过 GMI Cloud 在 AI Gateway 上免费。",
-      "summary": {
-        "oneSentence": "MiniMax M3 和 M2.7 在 9 月 6 日星期日之前可通过 GMI Cloud 在 AI Gateway 上免费。",
-        "bullets": [
-          "MiniMax M3 和 M2.7 在 9 月 6 日星期日之前可通过 GMI Cloud 在 AI Gateway 上免费。",
-          "使用 minimax/minimax-m3-free 或 minimax/minimax-m2.7-free 将请求路由到 GMI Cloud。免费期结束后，这些模型 ID 将返回错误。",
-          "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText({ 4 model: 'minimax/minimax-m3-free' , 5prompt : '总结事件报告。' , 6 }) ; 7 通过免费的 GMI 云路由传输 MiniMax M3 的响应。",
-          "要在免费期后保持请求正常运行，请使用不带 -free 后缀的标准模型 ID，并将 GMI Cloud 放在提供商订单中的第一位："
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：MiniMax M3 和 M2.7 在 9 月 6 日星期日之前可通过 GMI Cloud 在 AI Gateway 上免费。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/minimax-m3-and-m2-7-are-free-on-ai-gateway"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "MiniMax M3 和 M2.7 在 9 月 6 日星期日之前可通过 GMI Cloud 在 AI Gateway 上免费。",
-        "使用 minimax/minimax-m3-free 或 minimax/minimax-m2.7-free 将请求路由到 GMI Cloud。免费期结束后，这些模型 ID 将返回错误。",
-        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText({ 4 model: 'minimax/minimax-m3-free' , 5prompt : '总结事件报告。' , 6 }) ; 7 通过免费的 GMI 云路由传输 MiniMax M3 的响应。",
-        "要在免费期后保持请求正常运行，请使用不带 -free 后缀的标准模型 ID，并将 GMI Cloud 放在提供商订单中的第一位：",
-        "1 const result = streamText ( { 2 model : 'minimax/minimax-m3' , 3prompt : '总结事件报告。' , 4providerOptions : { 5gateway : { 6order : [ 'gmicloud'] , 7 } , 8 } , 9 } ) ;更喜欢 MiniMax M3 的 GMI Cloud，同时允许提供商回退。",
-        "AI Gateway 首先尝试 GMI Cloud，如果 GMI Cloud 无法满足请求，则可以回退到其他提供商。这使得相同的代码在免费期后继续工作。在免费的 GMI Cloud 路线之外，请求将按服务提供商的费率计费。这两个路由选项适用于所有 AI Gateway API。",
-        "要将免费 MiniMax 模型与编码代理结合使用，请运行 vercel ai-gatewaycoding-agents setup ，然后在代理中选择一个免费模型 ID。",
-        "在网关游乐场尝试 MiniMax M3 和 M2.7。"
-      ],
-      "highlights": [
-        "MiniMax M3 和 M2.7 在 9 月 6 日星期日之前可通过 GMI Cloud 在 AI Gateway 上免费。",
-        "使用 minimax/minimax-m3-free 或 minimax/minimax-m2.7-free 将请求路由到 GMI Cloud。免费期结束后，这",
-        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText({ 4 model: 'minimax/min"
-      ],
-      "translated": true,
-      "originalTitle": "MiniMax M3 and M2.7 are free on AI Gateway - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-25",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/minimax-m3-and-m2-7-are-free-on-ai-gateway",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "MiniMax M3 and M2.7 are free on AI Gateway - Vercel"
-      },
-      "raw": {
-        "title": "MiniMax M3 and M2.7 are free on AI Gateway",
-        "url": "https://vercel.com/changelog/minimax-m3-and-m2-7-are-free-on-ai-gateway",
-        "fetched": true,
-        "savedAt": "2026-08-26T00:57:16.206Z",
-        "retranslatedAt": "2026-09-05T02:30:36.585Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-5c389899eb",
-      "title": "AI Gateway 现已推出 Wan 3.0 - Vercel",
-      "oneLiner": "阿里巴巴的 Wan 3.0 现已在 AI Gateway 上提供，名称为 alibaba/wan-v3.0-video 。",
-      "summary": {
-        "oneSentence": "阿里巴巴的 Wan 3.0 现已在 AI Gateway 上提供，名称为 alibaba/wan-v3.0-video 。",
-        "bullets": [
-          "阿里巴巴的 Wan 3.0 现已在 AI Gateway 上提供，名称为 alibaba/wan-v3.0-video 。",
-          "Wan 3.0 在一个模型中结合了文本到视频、图像到视频、第一帧和最后一帧调节以及基于参考的生成。参考可以包括图像、视频和音频。它以 30 fps 的速度生成长达 30 秒的 480p、720p 或 1080p 剪辑，并带有同步音频。",
-          "此前，Wan 2.7 需要单独的 -t2v 和 -r2v 模型 ID，并且仅限于 24 fps 的 15 秒剪辑。",
-          "将链接复制到标题生成视频 Wan 3.0 支持异步生成，因此无需在整个渲染过程中保持 HTTP 请求打开。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：阿里巴巴的 Wan 3.0 现已在 AI Gateway 上提供，名称为 alibaba/wan-v3.0-video 。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/wan-3-0-now-available-on-ai-gateway"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "阿里巴巴的 Wan 3.0 现已在 AI Gateway 上提供，名称为 alibaba/wan-v3.0-video 。",
-        "Wan 3.0 在一个模型中结合了文本到视频、图像到视频、第一帧和最后一帧调节以及基于参考的生成。参考可以包括图像、视频和音频。它以 30 fps 的速度生成长达 30 秒的 480p、720p 或 1080p 剪辑，并带有同步音频。",
-        "此前，Wan 2.7 需要单独的 -t2v 和 -r2v 模型 ID，并且仅限于 24 fps 的 15 秒剪辑。",
-        "将链接复制到标题生成视频 Wan 3.0 支持异步生成，因此无需在整个渲染过程中保持 HTTP 请求打开。",
-        "传递一个 webhook 以在生成完成时接收事件：",
-        "1 从'ai'导入{experimental_generateVideo asgenerateVideo}； 2 3 const {videos}=awaitgenerateVideo({4model:'alibaba/wan-v3.0-video',5prompt:'夜晚港口上空漂流的纸灯笼',6webhook:async()=>({7url:callbackUrl,8received:waitForDelivery(token)9}),10});生成 Wan 3.0 视频并通过 Webhook 接收其完成事件。",
-        "了解文档中的异步生成选项，包括如何验证 webhook 交付。",
-        "将链接复制到标题 添加引用 通过 inputReferences 传递图像、视频或音频引用，包括每个引用的源和媒体类型。图像接受托管 URL 或 base64。视频和音频参考需要托管 URL。",
-        "第一帧和最后一帧调节接受每帧一个图像，并且不能与其他参考组合。",
-        "在模型游乐场中尝试 Wan 3.0，或浏览所有视频模型。"
-      ],
-      "highlights": [
-        "阿里巴巴的 Wan 3.0 现已在 AI Gateway 上提供，名称为 alibaba/wan-v3.0-video 。",
-        "Wan 3.0 在一个模型中结合了文本到视频、图像到视频、第一帧和最后一帧调节以及基于参考的生成。参考可以包括图像、视频和音频。它以 30 fps 的速度生成长",
-        "此前，Wan 2.7 需要单独的 -t2v 和 -r2v 模型 ID，并且仅限于 24 fps 的 15 秒剪辑。"
-      ],
-      "translated": true,
-      "originalTitle": "Wan 3.0 now available on AI Gateway - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-25",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/wan-3-0-now-available-on-ai-gateway",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Wan 3.0 now available on AI Gateway - Vercel"
-      },
-      "raw": {
-        "title": "Wan 3.0 now available on AI Gateway",
-        "url": "https://vercel.com/changelog/wan-3-0-now-available-on-ai-gateway",
-        "fetched": true,
-        "savedAt": "2026-08-29T05:12:58.301Z",
-        "retranslatedAt": "2026-09-05T02:30:48.650Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-01926f99d6",
-      "title": "AI Gateway 现在支持异步视频生成 - Vercel",
-      "oneLiner": "AI Gateway 上的视频生成现在可以异步运行。",
-      "summary": {
-        "oneSentence": "AI Gateway 上的视频生成现在可以异步运行。",
-        "bullets": [
-          "AI Gateway 上的视频生成现在可以异步运行。",
-          "默认情况下，generateVideo 会保持对 AI Gateway 的一个 HTTP 请求打开，直到结果准备就绪。由于视频生成可能需要几秒钟或几分钟的时间，因此该请求可能会超过请求超时。",
-          "通过异步生成，您的应用程序可以接收 Webhook、轮询完成情况，或启动生成并在稍后的请求中检索结果。",
-          "根据您的进程是否可以继续运行以及您的应用程序是否可以接收 Webhooks 选择一个选项："
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：AI Gateway 上的视频生成现在可以异步运行。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/ai-gateway-now-supports-asynchronous-video-generation"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "AI Gateway 上的视频生成现在可以异步运行。",
-        "默认情况下，generateVideo 会保持对 AI Gateway 的一个 HTTP 请求打开，直到结果准备就绪。由于视频生成可能需要几秒钟或几分钟的时间，因此该请求可能会超过请求超时。",
-        "通过异步生成，您的应用程序可以接收 Webhook、轮询完成情况，或启动生成并在稍后的请求中检索结果。",
-        "根据您的进程是否可以继续运行以及您的应用程序是否可以接收 Webhooks 选择一个选项：",
-        "调用，直到您的端点收到完成事件",
-        "在webhook事件中以及最终结果",
-        "无需轮询即可返回一次通话的视频",
-        "调用，同时 SDK 发送简短的状态请求",
-        "渲染完成后的最终结果",
-        "可以等待但无法接收 webhook 的进程"
-      ],
-      "highlights": [
-        "AI Gateway 上的视频生成现在可以异步运行。",
-        "默认情况下，generateVideo 会保持对 AI Gateway 的一个 HTTP 请求打开，直到结果准备就绪。由于视频生成可能需要几秒钟或几分钟的时间，",
-        "通过异步生成，您的应用程序可以接收 Webhook、轮询完成情况，或启动生成并在稍后的请求中检索结果。"
-      ],
-      "translated": true,
-      "originalTitle": "AI Gateway now supports asynchronous video generation - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-25",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/ai-gateway-now-supports-asynchronous-video-generation",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "AI Gateway now supports asynchronous video generation - Vercel"
-      },
-      "raw": {
-        "title": "AI Gateway now supports asynchronous video generation",
-        "url": "https://vercel.com/changelog/ai-gateway-now-supports-asynchronous-video-generation",
-        "fetched": true,
-        "savedAt": "2026-08-30T03:04:51.647Z",
-        "retranslatedAt": "2026-09-12T02:42:35.396Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-b8b083e4ff",
-      "title": "Vercel Connect 现已全面推出 - Vercel",
-      "oneLiner": "Vercel Connect 现在在所有计划和 v0 中普遍可用。您的代码不是存储长期存在的提供者机密，而是在运行时请求短期的、有范围的令牌。部署使用其现有 Vercel OIDC 身份进行身份验证。每个令牌的范围仅限于任务，自动刷新，并自",
-      "summary": {
-        "oneSentence": "Vercel Connect 现在在所有计划和 v0 中普遍可用。您的代码不是存储长期存在的提供者机密，而是在运行时请求短期的、有范围的令牌。部署使用其现有 Vercel OIDC 身份进行身份验证。每个令牌的范围仅限于任务，自动刷新，并自",
-        "bullets": [
-          "Vercel Connect 现在在所有计划和 v0 中普遍可用。您的代码不是存储长期存在的提供者机密，而是在运行时请求短期的、有范围的令牌。部署使用其现有 Vercel OIDC 身份进行身份验证。每个令牌的范围仅限于任务，自动刷新，并自行过期。",
-          "将链接复制到标题 通过一个命令即可实现任何服务 从 CLI 注册连接器一次。传递服务名称，CLI 会预填充品牌名称、图标、身份验证类型以及 MCP 或发现 URL，然后提示输入服务所需的任何凭据：",
-          "vercel connect create slack --name acme-slack 创建名为 acme-slack 的 Slack 连接器",
-          "Connect 附带 100 多个用于 Notion 和 Workday 等工具的预设连接器，用于 Slack、GitHub、Linear、Salesforce、Snowflake 和 Microsoft 的托管连接器，以及通用 OAuth、API 密钥身份验证和 MCP 服务器。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Vercel Connect 现在在所有计划和 v0 中普遍可用。您的代码不是存储长期存在的提供者机密，而是在运行时请求短期的、有范围的令牌。部署使用其现有 Vercel OIDC 身份进行身份验证。每个令牌的范围仅限于任务，自动刷新，并自",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/vercel-connect-ga"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Vercel Connect 现在在所有计划和 v0 中普遍可用。您的代码不是存储长期存在的提供者机密，而是在运行时请求短期的、有范围的令牌。部署使用其现有 Vercel OIDC 身份进行身份验证。每个令牌的范围仅限于任务，自动刷新，并自行过期。",
-        "将链接复制到标题 通过一个命令即可实现任何服务 从 CLI 注册连接器一次。传递服务名称，CLI 会预填充品牌名称、图标、身份验证类型以及 MCP 或发现 URL，然后提示输入服务所需的任何凭据：",
-        "vercel connect create slack --name acme-slack 创建名为 acme-slack 的 Slack 连接器",
-        "Connect 附带 100 多个用于 Notion 和 Workday 等工具的预设连接器，用于 Slack、GitHub、Linear、Salesforce、Snowflake 和 Microsoft 的托管连接器，以及通用 OAuth、API 密钥身份验证和 MCP 服务器。",
-        "将链接复制到运行时的标题令牌，而不是静态的秘密仅当您的代码需要令牌时，使用 getToken 请求令牌：",
-        "从 '@vercel/connect' 导入 { getToken } ； const token = wait getToken ( 'slack/acme-slack' , { subject : { type : 'app' } , } ) ;请求应用程序级 Slack 令牌",
-        "将主题从应用程序切换到指定用户，令牌代表该用户起作用，在需要同意时触发授权流程。",
-        "将链接复制到标题访问您的团队可以检查并证明 GA 的新内容：",
-        "细粒度 RBAC 控制谁可以创建和管理连接器",
-        "审核日志记录授权和连接器活动"
-      ],
-      "highlights": [
-        "Vercel Connect 现在在所有计划和 v0 中普遍可用。您的代码不是存储长期存在的提供者机密，而是在运行时请求短期的、有范围的令牌。部署使用其现有 V",
-        "将链接复制到标题 通过一个命令即可实现任何服务 从 CLI 注册连接器一次。传递服务名称，CLI 会预填充品牌名称、图标、身份验证类型以及 MCP 或发现 UR",
-        "vercel connect create slack --name acme-slack 创建名为 acme-slack 的 Slack 连接器"
-      ],
-      "translated": true,
-      "originalTitle": "Vercel Connect is now generally available - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-25",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/vercel-connect-ga",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Vercel Connect is now generally available - Vercel"
-      },
-      "raw": {
-        "title": "Vercel Connect is now generally available",
-        "url": "https://vercel.com/changelog/vercel-connect-ga",
-        "fetched": true,
-        "savedAt": "2026-08-30T03:04:53.544Z",
-        "retranslatedAt": "2026-09-12T02:42:50.370Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-e4fbd8e1b1",
-      "title": "聊天 SDK 现在支持 Slack Enterprise Grid - Vercel",
-      "oneLiner": "Chat SDK 的 Slack 适配器现在支持 Slack Enterprise Grid 。",
-      "summary": {
-        "oneSentence": "Chat SDK 的 Slack 适配器现在支持 Slack Enterprise Grid 。",
-        "bullets": [
-          "Chat SDK 的 Slack 适配器现在支持 Slack Enterprise Grid 。",
-          "机器人在每个工作区中安装了组织范围的工作，具有正确的令牌解析、租户范围的缓存和事件重试重复数据删除。",
-          "该适配器现在按企业 ID 存储组织范围内的安装。这与传入事件、斜杠命令和交互式负载的令牌解析方式相匹配。 SlackInstallation 记录新的身份字段：",
-          "const 安装 = 等待 slack 。处理OAuthCallback（请求）；安装 。团队ID； //“E0123456789”（组织范围内安装的企业 ID）安装 。企业ID； //“E0123456789”安装。是企业安装； // 真的"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Chat SDK 的 Slack 适配器现在支持 Slack Enterprise Grid 。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/chat-sdk-slack-enterprise-grid"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Chat SDK 的 Slack 适配器现在支持 Slack Enterprise Grid 。",
-        "机器人在每个工作区中安装了组织范围的工作，具有正确的令牌解析、租户范围的缓存和事件重试重复数据删除。",
-        "该适配器现在按企业 ID 存储组织范围内的安装。这与传入事件、斜杠命令和交互式负载的令牌解析方式相匹配。 SlackInstallation 记录新的身份字段：",
-        "const 安装 = 等待 slack 。处理OAuthCallback（请求）；安装 。团队ID； //“E0123456789”（组织范围内安装的企业 ID）安装 。企业ID； //“E0123456789”安装。是企业安装； // 真的",
-        "令牌解析在 HTTP webhook 和套接字模式上的行为相同。事件按信封授权字段中的安装标识进行路由，这使 Slack Connect 共享通道的路由保持正确。",
-        "该适配器还针对多工作空间部署进行了强化：",
-        "用户配置文件和提及缓存的范围仅限于每个安装，因此一个租户的数据永远不会解析为另一个租户的数据。",
-        "使用组织范围令牌进行的 API 调用会自动传递事件的 team_id，这是 Slack 工作空间范围内的方法所需要的。",
-        "重试的事件传送会进行 24 小时的重复数据删除，涵盖 Slack 的延迟事件重新传送。",
-        "传出提及接受 W 前缀的网格用户 ID 和 U 前缀的 ID。"
-      ],
-      "highlights": [
-        "Chat SDK 的 Slack 适配器现在支持 Slack Enterprise Grid 。",
-        "机器人在每个工作区中安装了组织范围的工作，具有正确的令牌解析、租户范围的缓存和事件重试重复数据删除。",
-        "该适配器现在按企业 ID 存储组织范围内的安装。这与传入事件、斜杠命令和交互式负载的令牌解析方式相匹配。 SlackInstallation 记录新的身份字段："
-      ],
-      "translated": true,
-      "originalTitle": "Chat SDK now supports Slack Enterprise Grid - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-25",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/chat-sdk-slack-enterprise-grid",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Chat SDK now supports Slack Enterprise Grid - Vercel"
-      },
-      "raw": {
-        "title": "Chat SDK now supports Slack Enterprise Grid",
-        "url": "https://vercel.com/changelog/chat-sdk-slack-enterprise-grid",
-        "fetched": true,
-        "savedAt": "2026-08-30T03:04:55.334Z",
-        "retranslatedAt": "2026-09-12T02:43:02.733Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-067b7d3e24",
-      "title": "Vercel Connect 现在支持 Linq - Vercel",
-      "oneLiner": "Vercel Connect 现在包含 Linq 的托管连接器，因此您的应用程序和代理可以通过 iMessage、RCS 和 SMS 发送和接收消息。",
-      "summary": {
-        "oneSentence": "Vercel Connect 现在包含 Linq 的托管连接器，因此您的应用程序和代理可以通过 iMessage、RCS 和 SMS 发送和接收消息。",
-        "bullets": [
-          "Vercel Connect 现在包含 Linq 的托管连接器，因此您的应用程序和代理可以通过 iMessage、RCS 和 SMS 发送和接收消息。",
-          "作为 Vercel 托管连接器，Vercel 可以为您创建 Linq 帐户和电话号码，或链接现有帐户。您从不亲自管理凭证。",
-          "从仪表板或 Vercel CLI 创建连接器：",
-          "# 创建 Linq 连接器 vc connect create linq --name my-agent # 将其附加到项目 vc connect Attach linq/my-agent --project my-app --environment production 创建 Linq 连接器并将其附加到项目的生产环"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Vercel Connect 现在包含 Linq 的托管连接器，因此您的应用程序和代理可以通过 iMessage、RCS 和 SMS 发送和接收消息。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/vercel-connect-now-supports-linq"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Vercel Connect 现在包含 Linq 的托管连接器，因此您的应用程序和代理可以通过 iMessage、RCS 和 SMS 发送和接收消息。",
-        "作为 Vercel 托管连接器，Vercel 可以为您创建 Linq 帐户和电话号码，或链接现有帐户。您从不亲自管理凭证。",
-        "从仪表板或 Vercel CLI 创建连接器：",
-        "# 创建 Linq 连接器 vc connect create linq --name my-agent # 将其附加到项目 vc connect Attach linq/my-agent --project my-app --environment production 创建 Linq 连接器并将其附加到项目的生产环境。",
-        "将链接复制到标题 为您的 eve 代理提供电话号码 该连接器为 eve 中的新 Linq 通道提供支持。",
-        "运行 eve add channel/linq ，选择 Vercel Connect，然后 eve 为您连接连接器、电话号码和 webhook：",
-        "agent/channels/linq.ts 从 '@vercel/connect/eve' 导入 { connectLinqCredentials } ；从 'eve/channels/linq' 导入 { linqChannel } ；导出默认 linqChannel ( { 凭证 : connectLinqCredentials ( 'linq/my-agent' ) , } ) ;凭据在运行时通过连接器与 connectLinqCredentials 进行解析",
-        "该通道将接受的消息标记为已读，并为 Linq 对话中的每条消息继续相同的会话。该通道开箱即用，支持已读回执、打字指示器和对话中引导，以提供更自然的消息传递体验。",
-        "将链接复制到标题 在任何项目中使用连接器 使用连接器调用 getToken，@vercel/connect SDK 将您的 Vercel 部署的 OIDC 身份交换为短期 Linq 令牌。",
-        "将其作为任何 Linq 合作伙伴 API 请求上的不记名令牌传递："
-      ],
-      "highlights": [
-        "Vercel Connect 现在包含 Linq 的托管连接器，因此您的应用程序和代理可以通过 iMessage、RCS 和 SMS 发送和接收消息。",
-        "作为 Vercel 托管连接器，Vercel 可以为您创建 Linq 帐户和电话号码，或链接现有帐户。您从不亲自管理凭证。",
-        "从仪表板或 Vercel CLI 创建连接器："
-      ],
-      "translated": true,
-      "originalTitle": "Vercel Connect now supports Linq - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-25",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/vercel-connect-now-supports-linq",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Vercel Connect now supports Linq - Vercel"
-      },
-      "raw": {
-        "title": "Vercel Connect now supports Linq",
-        "url": "https://vercel.com/changelog/vercel-connect-now-supports-linq",
-        "fetched": true,
-        "savedAt": "2026-08-30T03:04:57.026Z",
-        "retranslatedAt": "2026-09-13T02:41:11.749Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-3c1bd39607",
-      "title": "使用 Chat SDK 将您的代理引入 Notion - Vercel",
-      "oneLiner": "您的团队已经在 Notion 中工作。现在您的代理人也可以了。",
-      "summary": {
-        "oneSentence": "您的团队已经在 Notion 中工作。现在您的代理人也可以了。",
-        "bullets": [
-          "您的团队已经在 Notion 中工作。现在您的代理人也可以了。",
-          "借助适用于 Chat SDK 的新 Notion 适配器，您在 Slack、Discord、GitHub、Teams 或 WhatsApp 上运行的同一代理可以加入您的 Notion 页面上的评论讨论，无需单独的代码库。",
-          "lib/bot.ts 1 从“聊天”导入{聊天}； 2 从“@chat-adapter/notion”导入{createNotionAdapter}； 3 从“@chat-adapter/state-redis”导入{createRedisState}； 4 5 const bot = new Chat ( { 6 u",
-          "每个概念页面映射到一个频道，每个评论线程映射到一个线程，因此回复会自动保持线程化。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：您的团队已经在 Notion 中工作。现在您的代理人也可以了。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/notion-chat-sdk"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "您的团队已经在 Notion 中工作。现在您的代理人也可以了。",
-        "借助适用于 Chat SDK 的新 Notion 适配器，您在 Slack、Discord、GitHub、Teams 或 WhatsApp 上运行的同一代理可以加入您的 Notion 页面上的评论讨论，无需单独的代码库。",
-        "lib/bot.ts 1 从“聊天”导入{聊天}； 2 从“@chat-adapter/notion”导入{createNotionAdapter}； 3 从“@chat-adapter/state-redis”导入{createRedisState}； 4 5 const bot = new Chat ( { 6 userName : \"my-bot\" , 7 适配器​​ : { 8 概念 : createNotionAdapter ( ) , 9 } , 10 状态 : createRedisState ( ) , 11 } ) ; 12 13 机器人。 onNewMention(async(thread,message)=>{14awaitthread.post(\"Hello from Notion!\");15});与您的代理人一起回复对 Notion 的评论",
-        "每个概念页面映射到一个频道，每个评论线程映射到一个线程，因此回复会自动保持线程化。",
-        "该适配器支持提及、消息编辑、对话历史记录和最多三个文件附件。默认情况下，您的机器人会在@提及时进行回复，并且在工作区中没有提及时，它可以在关键字或所有评论上触发。",
-        "Notion 不支持按钮、模态或反应，并且卡片呈现为 Markdown。讨论可以从页面或块级别开始，但不能从内联文本范围开始。历史记录仅返回开放评论。",
-        "阅读文档以开始使用、浏览目录或构建您自己的 ."
-      ],
-      "highlights": [
-        "您的团队已经在 Notion 中工作。现在您的代理人也可以了。",
-        "借助适用于 Chat SDK 的新 Notion 适配器，您在 Slack、Discord、GitHub、Teams 或 WhatsApp 上运行的同一代理可以",
-        "lib/bot.ts 1 从“聊天”导入{聊天}； 2 从“@chat-adapter/notion”导入{createNotionAdapter}； 3 从“"
-      ],
-      "translated": true,
-      "originalTitle": "Bring your agent to Notion with Chat SDK - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-25",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/notion-chat-sdk",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Bring your agent to Notion with Chat SDK - Vercel"
-      },
-      "raw": {
-        "title": "Bring your agent to Notion with Chat SDK",
-        "url": "https://vercel.com/changelog/notion-chat-sdk",
-        "fetched": true,
-        "savedAt": "2026-08-30T03:04:58.919Z",
-        "retranslatedAt": "2026-09-13T02:41:20.637Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-a817e799b3",
-      "title": "聊天 SDK 现在支持 XChat - Vercel",
-      "oneLiner": "现在，您可以使用适用于 Chat SDK 的新 XChat 适配器构建在 XChat 上进行端到端加密 1:1 和群组对话的机器人。",
-      "summary": {
-        "oneSentence": "现在，您可以使用适用于 Chat SDK 的新 XChat 适配器构建在 XChat 上进行端到端加密 1:1 和群组对话的机器人。",
-        "bullets": [
-          "现在，您可以使用适用于 Chat SDK 的新 XChat 适配器构建在 XChat 上进行端到端加密 1:1 和群组对话的机器人。",
-          "适配器自动处理所有加密、密钥管理和签名验证。只要用户设置了加密聊天并关注机器人，机器人也可以首先向用户发送消息。",
-          "lib/bot.ts 1 从“聊天”导入{聊天}； 2 从“@chat-adapter/x/chat”导入{createXchatAdapter}； 3 4 const bot = new Chat ( { 5 userName : \"mybot\" , 6 适配器 : { 7 xchat : createXchatAd",
-          "XChat 没有 Markdown 渲染，因此适配器会自动回退：URL 和@mentions 渲染为可点击的链接，表格渲染为 ASCII 代码块，卡片渲染为带有链接预览的文本。流媒体通过消息编辑进行工作。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：现在，您可以使用适用于 Chat SDK 的新 XChat 适配器构建在 XChat 上进行端到端加密 1:1 和群组对话的机器人。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/chat-sdk-now-supports-xchat"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "现在，您可以使用适用于 Chat SDK 的新 XChat 适配器构建在 XChat 上进行端到端加密 1:1 和群组对话的机器人。",
-        "适配器自动处理所有加密、密钥管理和签名验证。只要用户设置了加密聊天并关注机器人，机器人也可以首先向用户发送消息。",
-        "lib/bot.ts 1 从“聊天”导入{聊天}； 2 从“@chat-adapter/x/chat”导入{createXchatAdapter}； 3 4 const bot = new Chat ( { 5 userName : \"mybot\" , 6 适配器 : { 7 xchat : createXchatAdapter ( ) , 8 } , 9 } ) ; 10 11 机器人。 onDirectMessage ( async ( thread , message ) => { 12 wait thread . post ( ` 你说：${ message . text } ` ) ; 13 } ) ;回复 XChat 上的直接消息",
-        "XChat 没有 Markdown 渲染，因此适配器会自动回退：URL 和@mentions 渲染为可点击的链接，表格渲染为 ASCII 代码块，卡片渲染为带有链接预览的文本。流媒体通过消息编辑进行工作。",
-        "请阅读 XChat 适配器文档以开始使用。"
-      ],
-      "highlights": [
-        "现在，您可以使用适用于 Chat SDK 的新 XChat 适配器构建在 XChat 上进行端到端加密 1:1 和群组对话的机器人。",
-        "适配器自动处理所有加密、密钥管理和签名验证。只要用户设置了加密聊天并关注机器人，机器人也可以首先向用户发送消息。",
-        "lib/bot.ts 1 从“聊天”导入{聊天}； 2 从“@chat-adapter/x/chat”导入{createXchatAdapter}； 3 4 c"
-      ],
-      "translated": true,
-      "originalTitle": "Chat SDK now supports XChat - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-25",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/chat-sdk-now-supports-xchat",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Chat SDK now supports XChat - Vercel"
-      },
-      "raw": {
-        "title": "Chat SDK now supports XChat",
-        "url": "https://vercel.com/changelog/chat-sdk-now-supports-xchat",
-        "fetched": true,
-        "savedAt": "2026-08-30T03:05:00.896Z",
-        "retranslatedAt": "2026-09-13T02:41:26.086Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-f59c3acff0",
-      "title": "EVE Online: The Move to Python 3 Begins!",
-      "oneLiner": "EVE Online: The Move to Python 3 Begins! EVE Online has been one of the most interesting case studie",
-      "summary": {
-        "oneSentence": "EVE Online: The Move to Python 3 Begins! EVE Online has been one of the most interesting case studies in Python at scale",
-        "bullets": [
-          "EVE Online: The Move to Python 3 Begins! EVE Online has been one of the most interesting case studies in Python at scale for over twenty years now. They've been running on Stackless Python since their"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "EVE Online: The Move to Python 3 Begins! EVE Online has been one of the most interesting case studies in Python at scale for over twenty years now. They've been running on Stackless Python since their launch in 2003, and their last major upgrade was 16 years ago, to Stackless Python 2.7 in 2010 . Their upgrade to Python 3 will start using the futurize script against 2.4 million lines of code, followed by careful manual review of the ~20,000 places where Python 2 and 3 behavior differ - for example 1 / 2 is 0 in Python 2 but is 0.5 in Python 3. There's nothing in this announcement about how they plan to replace Stackless, but at their conference last year they presented Scheduling in Carbon: Leaving Stackless Python Behind describing how they replaced Stackless in the Carbon engine for their more recent game EVE Frontier, using their (now open source) carbonengine/scheduler library. Via Lobster.rs Tags: eve-online , migrations , python , python3 , stackless"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "EVE Online: The Move to Python 3 Begins!",
-      "originalLang": "en",
-      "date": "2026-08-25",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "EVE Online: The Move to Python 3 Begins!"
-      },
-      "raw": {
-        "title": "EVE Online: The Move to Python 3 Begins!",
-        "url": "https://simonwillison.net/2026/Aug/25/eve-online-move-to-python-3/",
-        "fetched": false,
-        "savedAt": "2026-09-01T03:06:29.616Z"
       }
     }
   ]
