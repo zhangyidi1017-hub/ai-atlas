@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-10T03:54:23.394Z",
+  "updatedAt": "2026-10-11T03:27:56.354Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 404,
+  "itemCount": 401,
   "brief": {
-    "date": "2026-10-10",
-    "generatedAt": "2026-10-10T03:54:23.392Z",
-    "totalCount": 404,
-    "todayCount": 1,
-    "headline": "今日 AI 信号 1 条 · 档案共 404 条",
+    "date": "2026-10-11",
+    "generatedAt": "2026-10-11T03:27:56.352Z",
+    "totalCount": 401,
+    "todayCount": 0,
+    "headline": "今日 AI 信号 — 条 · 档案共 401 条",
     "topUpdates": [
       {
         "id": "sig-ddd28519b3",
@@ -57,10 +57,10 @@
         "sig-9c26fb37ef"
       ],
       "newReleases": [
+        "sig-ecd4573e22",
         "sig-089c4ff63d",
         "sig-8e4f416112",
-        "sig-fe5941ee46",
-        "sig-f30efa9be5"
+        "sig-fe5941ee46"
       ],
       "insights": [
         "sig-ddd28519b3",
@@ -91,13 +91,14 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-10-10T03:54:23.394Z",
-    "summary": "近 30 天共 260 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-10-11T03:27:56.354Z",
+    "summary": "近 30 天共 256 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
-        "signal": "近 30 天 1 条相关更新",
+        "signal": "近 30 天 2 条相关更新",
         "examples": [
+          "本地智能体远程控制 · Cursor",
           "Rollouts 与 Security Review · Cursor"
         ]
       }
@@ -275,6 +276,32 @@
       "stars": 4
     },
     {
+      "id": "sig-9964af802e",
+      "title": "通过 Ironclad 促进计算机的使用",
+      "oneLiner": "了解 OpenAI 和 Ironclad 如何在复杂的合同工作流程上培训和评估 AI 代理，以促进计算机在专业工作中的使用。",
+      "date": "2026-10-06",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-ecd4573e22",
+      "title": "本地智能体远程控制 · Cursor",
+      "oneLiner": "您现在可以在 Cursor iOS 应用中查看并回复电脑上正在运行的本地智能体。",
+      "date": "2026-10-06",
+      "productIds": [
+        "cursor"
+      ],
+      "source": "Cursor",
+      "tags": [
+        "Release"
+      ],
+      "stars": 4
+    },
+    {
       "id": "sig-78ad538158",
       "title": "我们对欧盟文本来源规则的处理方法",
       "oneLiner": "OpenAI 如何根据欧盟规则处理文本水印。了解水印的适用位置、检测的工作原理以及为什么访问从研究人员开始。",
@@ -367,30 +394,6 @@
         "chatgpt"
       ],
       "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-15e70ee5e4",
-      "title": "Gemini 4 Argon：我们的下一个前沿情报时代",
-      "oneLiner": "Gemini 4 Argon 在现实世界的软件工程、法律和金融等企业知识工作以及网络安全防御的复杂工作流程中提供前沿性能。",
-      "date": "2026-09-30",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google DeepMind",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-0a622a33b8",
-      "title": "SynthID Bio 简介",
-      "oneLiner": "Pushmeet Kohli、David Stutz、Ali Cowen-Rivers 和 Jeremy Ratcliff",
-      "date": "2026-09-30",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google DeepMind",
       "tags": [],
       "stars": 4
     }
@@ -1286,6 +1289,167 @@
       }
     },
     {
+      "id": "sig-84f0e3fa35",
+      "title": "Microsoft Decision-1 现已在 AI Gateway 上可用 - Vercel",
+      "oneLiner": "Microsoft 的 Decision-1 现已在 AI Gateway 上提供。它回答有关概率、选择和分数的文本的键入问题。它可用于对支持请求进行分类、选择工作流程中的下一步或根据评分标准评估人工智能响应。",
+      "summary": {
+        "oneSentence": "Microsoft 的 Decision-1 现已在 AI Gateway 上提供。它回答有关概率、选择和分数的文本的键入问题。它可用于对支持请求进行分类、选择工作流程中的下一步或根据评分标准评估人工智能响应。",
+        "bullets": [
+          "Microsoft 的 Decision-1 现已在 AI Gateway 上提供。它回答有关概率、选择和分数的文本的键入问题。它可用于对支持请求进行分类、选择工作流程中的下一步或根据评分标准评估人工智能响应。",
+          "该模型可以回答是/否问题，在命名类别中进行选择，或者根据一组有序的标准对输入进行评分。多个问题可以在一个请求中共享相同的输入。选择和评分答案包括每个选项的概率，因此您的应用程序可以决定何时采取行动或发送不确定的结果以供审核。",
+          "通过 AI SDK 决策 API、兼容 OpenAI 的决策 API 或兼容 TypeSafe 的 API 调用 Decision-1。您只需要一个 AI Gateway API 密钥，无需单独的 Azure 帐户或部署。",
+          "首先，请在请求中使用 microsoft/microsoft-decision-1 作为模型名称："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Microsoft 的 Decision-1 现已在 AI Gateway 上提供。它回答有关概率、选择和分数的文本的键入问题。它可用于对支持请求进行分类、选择工作流程中的下一步或根据评分标准评估人工智能响应。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/microsoft-decision-1-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Microsoft 的 Decision-1 现已在 AI Gateway 上提供。它回答有关概率、选择和分数的文本的键入问题。它可用于对支持请求进行分类、选择工作流程中的下一步或根据评分标准评估人工智能响应。",
+        "该模型可以回答是/否问题，在命名类别中进行选择，或者根据一组有序的标准对输入进行评分。多个问题可以在一个请求中共享相同的输入。选择和评分答案包括每个选项的概率，因此您的应用程序可以决定何时采取行动或发送不确定的结果以供审核。",
+        "通过 AI SDK 决策 API、兼容 OpenAI 的决策 API 或兼容 TypeSafe 的 API 调用 Decision-1。您只需要一个 AI Gateway API 密钥，无需单独的 Azure 帐户或部署。",
+        "首先，请在请求中使用 microsoft/microsoft-decision-1 作为模型名称：",
+        "API 决策 API TypeSafe-compat API API 决策 API 决策 API TypeSafe-compat TypeSafe-compat 1 import {experimental_decide asdecide} from 'ai' ; 2 3 const result =等待决定({ 4 model : 'microsoft/microsoft-decision-1' , 5 state : '我的发票付款失败，我立即需要帮助。' , 6 questions : { 7 team : { 8 type : 'choice' , 9 instructions : '哪个团队应该处理请求？' , 10 criteria : { 11 billing : '付款和发票问题' , 12 技术：“软件和集成问题”, 13 } , 14 } , 15 } , 16 }) ; 17 18 控制台。日志（结果。答案。团队）；复制给代理 查看模型详细信息 ↗ AI Gateway 提供了一种统一的方式来访问模型并跟踪使用情况和成本。决策调用出现在日志中，并与其他模型请求一起计入预算。",
+        "请参阅选择、分数和布尔问题的决策文档。要选择决策模型，请浏览可用模型或阅读我们的决策模型指南。"
+      ],
+      "highlights": [
+        "Microsoft 的 Decision-1 现已在 AI Gateway 上提供。它回答有关概率、选择和分数的文本的键入问题。它可用于对支持请求进行分类、选择",
+        "该模型可以回答是/否问题，在命名类别中进行选择，或者根据一组有序的标准对输入进行评分。多个问题可以在一个请求中共享相同的输入。选择和评分答案包括每个选项的概率，",
+        "通过 AI SDK 决策 API、兼容 OpenAI 的决策 API 或兼容 TypeSafe 的 API 调用 Decision-1。您只需要一个 AI Ga"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Microsoft Decision-1 now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-09",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/microsoft-decision-1-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Microsoft Decision-1 now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Microsoft Decision-1 now available on AI Gateway",
+        "url": "https://vercel.com/changelog/microsoft-decision-1-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-10-11T03:26:59.444Z"
+      }
+    },
+    {
+      "id": "sig-8bbfde4eec",
+      "title": "Liquid AI 的 d1 在 AI Gateway - Vercel 上可用",
+      "oneLiner": "Liquid d1 现已在 AI Gateway 上提供。",
+      "summary": {
+        "oneSentence": "Liquid d1 现已在 AI Gateway 上提供。",
+        "bullets": [
+          "Liquid d1 现已在 AI Gateway 上提供。",
+          "d1 是一个决策模型，用于根据键入的问题评估共享状态，以进行分类、路由和评分。它返回带有概率的结构化答案，而不生成文本标记。",
+          "d1 还具有视觉支持：该模型可以回答有关图像的键入问题，以进行视觉分类、检查和评​​分。",
+          "通过 AI SDK 决策 API 、 OpenAI 兼容决策 API 或 TypeSafe 兼容 API 使用 Liquid/d1 。这些示例询问支持代理是否发放退款："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Liquid d1 现已在 AI Gateway 上提供。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/liquid-ai-d1-is-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Liquid d1 现已在 AI Gateway 上提供。",
+        "d1 是一个决策模型，用于根据键入的问题评估共享状态，以进行分类、路由和评分。它返回带有概率的结构化答案，而不生成文本标记。",
+        "d1 还具有视觉支持：该模型可以回答有关图像的键入问题，以进行视觉分类、检查和评​​分。",
+        "通过 AI SDK 决策 API 、 OpenAI 兼容决策 API 或 TypeSafe 兼容 API 使用 Liquid/d1 。这些示例询问支持代理是否发放退款：",
+        "API TypeSafe-compat 决策 API API API TypeSafe-compat TypeSafe-compat 决策 API 决策 API 1 import {experimental_decide asdecide} from 'ai' ; 2 3 const result = waitdecide({ 4 model: 'liquid/d1' , 5 state : '支持代理向客户发放全额退款。' , 6 questions : { 7 returned : { 8 type : 'boolean' , 9 instructions : '退款了吗？' , 10 } , 11 } , 12 } ) ; 13 14 控制台。 log(结果.答案.退款);为代理复制 查看模型详细信息 ↗ 将链接复制到标题 图像输入 此示例读取名为 square.png 的本地 PNG 并询问它显示哪种颜色：",
+        "AI SDK TypeSafe-compat AI SDK AI SDK TypeSafe-compat TypeSafe-compat 1 import { readFileSync } from 'node:fs' ; 2 从'ai'导入{experimental_decide asdecide}； 3 4 const image = readFileSync('./square.png')。 toString('base64'); 5 6 const result =等待决定( { 7 model : 'liquid/d1' , 8 state : [ 9 { 10 type : 'json' , 11 value : [ 12 '正方形是什么颜色？' , 13 { 14 type : 'image_url' , 15 image_url : { url : ` data:image/png;base64, ${ image } ` } , 16 } , 17 ] , 18 } , 19 ] , 20 个问题 : { 21 颜色 : { 22 类型 : '选择' , 23 说明 : '正方形是什么颜色？' , 24 个条件 : { 红色 : null , 蓝色 : null , 绿色 : null } , 25 } , 26 } , 27 } ); 28 29 控制台。 log(结果.答案.颜色);复制给代理 查看模型详细信息 ↗ AI Gateway 提供了一种统一的方式来访问模型并跟踪使用情况和成本。决策调用出现在日志中，并与其他模型请求一起计入预算。",
+        "请参阅选择、分数和布尔问题的决策文档。要选择决策模型，请浏览可用模型或阅读我们的决策模型指南。"
+      ],
+      "highlights": [
+        "Liquid d1 现已在 AI Gateway 上提供。",
+        "d1 是一个决策模型，用于根据键入的问题评估共享状态，以进行分类、路由和评分。它返回带有概率的结构化答案，而不生成文本标记。",
+        "d1 还具有视觉支持：该模型可以回答有关图像的键入问题，以进行视觉分类、检查和评​​分。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Liquid AI's d1 is available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-09",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/liquid-ai-d1-is-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Liquid AI's d1 is available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Liquid AI's d1 is available on AI Gateway",
+        "url": "https://vercel.com/changelog/liquid-ai-d1-is-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-10-11T03:27:05.384Z"
+      }
+    },
+    {
       "id": "sig-c15f0de4c3",
       "title": "ElevenLabs 在新加坡成立，作为东南亚中心",
       "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
@@ -2074,6 +2238,251 @@
       }
     },
     {
+      "id": "sig-b9826b4943",
+      "title": "Step 5 预览现已在 AI Gateway - Vercel 上提供",
+      "oneLiner": "StepFun的旗舰机型Step 5 Preview现已在AI Gateway上上线。它专为代理编码、专业知识工作和财务分析而构建，从构建应用程序和调试代码到研究和分析报告。",
+      "summary": {
+        "oneSentence": "StepFun的旗舰机型Step 5 Preview现已在AI Gateway上上线。它专为代理编码、专业知识工作和财务分析而构建，从构建应用程序和调试代码到研究和分析报告。",
+        "bullets": [
+          "StepFun的旗舰机型Step 5 Preview现已在AI Gateway上上线。它专为代理编码、专业知识工作和财务分析而构建，从构建应用程序和调试代码到研究和分析报告。",
+          "Step 5 Preview 支持使用 1M 令牌上下文窗口输入文本和图像，使您可以在单个请求中处理大型代码库、一堆文档或屏幕截图和图表。",
+          "使用stepfun/step-5-preview作为模型名称：",
+          "API fx Claude Code 聊天完成 API API fx fx Claude Code Claude 代码聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 3 const result = streamText ({ 4 model: 'stepfun/step-"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：StepFun的旗舰机型Step 5 Preview现已在AI Gateway上上线。它专为代理编码、专业知识工作和财务分析而构建，从构建应用程序和调试代码到研究和分析报告。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/step-5-preview-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "StepFun的旗舰机型Step 5 Preview现已在AI Gateway上上线。它专为代理编码、专业知识工作和财务分析而构建，从构建应用程序和调试代码到研究和分析报告。",
+        "Step 5 Preview 支持使用 1M 令牌上下文窗口输入文本和图像，使您可以在单个请求中处理大型代码库、一堆文档或屏幕截图和图表。",
+        "使用stepfun/step-5-preview作为模型名称：",
+        "API fx Claude Code 聊天完成 API API fx fx Claude Code Claude 代码聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 3 const result = streamText ({ 4 model: 'stepfun/step-5-preview' , 5prompt : '规划用于分析季度财务结果的仪表板。' , 6 }) ; 7 8 for wait (const text of result.textStream) { 9 process .textStream 。标准输出。写（文字）； 10 } 复制代理查看模型详细信息 ↗ 对于其他编码代理，例如 Claude Code、Codex、Cursor 等，请安装最新的 Vercel CLI 并运行设置：",
+        "1 npm i -g vercel@latest 2 vercel ai-gateway 设置",
+        "然后在代理中选择stepfun/step-5-preview。有关详细信息，请参阅编码代理指南。",
+        "在模型游乐场中尝试步骤 5 预览。",
+        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本，以及配置重试、故障转移和性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、零数据保留支持、API 密钥预算、路由规则等。",
+        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。",
+        "您可以查看AI网关上所有可用的语言模型。"
+      ],
+      "highlights": [
+        "StepFun的旗舰机型Step 5 Preview现已在AI Gateway上上线。它专为代理编码、专业知识工作和财务分析而构建，从构建应用程序和调试代码到研",
+        "Step 5 Preview 支持使用 1M 令牌上下文窗口输入文本和图像，使您可以在单个请求中处理大型代码库、一堆文档或屏幕截图和图表。",
+        "使用stepfun/step-5-preview作为模型名称："
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Step 5 Preview now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-08",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/step-5-preview-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Step 5 Preview now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Step 5 Preview now available on AI Gateway",
+        "url": "https://vercel.com/changelog/step-5-preview-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-10-11T03:27:13.570Z"
+      }
+    },
+    {
+      "id": "sig-3a8cfb26d6",
+      "title": "AI Gateway 现已提供 OpenAI 超快模式 - Vercel",
+      "oneLiner": "AI Gateway 现在支持 OpenAI 的 Ultrafast 服务层，为交互式应用程序和快速编码迭代提供更快的输出。",
+      "summary": {
+        "oneSentence": "AI Gateway 现在支持 OpenAI 的 Ultrafast 服务层，为交互式应用程序和快速编码迭代提供更快的输出。",
+        "bullets": [
+          "AI Gateway 现在支持 OpenAI 的 Ultrafast 服务层，为交互式应用程序和快速编码迭代提供更快的输出。",
+          "目前支持 GPT 6 Astra 和 GPT 6.1 Sol。要使用 Ultrafast，请通过 AI SDK、聊天完成 API 或响应 API 请求 openai/gpt-6-astra 或 openai/gpt-6.1-sol：",
+          "API 聊天完成响应 API API API 聊天完成 聊天完成响应 API 响应 API 1 import {generateText} from 'ai' ; 2 3 const { text } =等待generateText ( { 4 model : 'openai/gpt-6.1-sol' , 5promp",
+          "超快支持美国和全球处理。固定到不受支持的区域（例如欧盟）的请求在标准（默认）层运行。当未指定服务层时，标准处理仍为默认处理。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：AI Gateway 现在支持 OpenAI 的 Ultrafast 服务层，为交互式应用程序和快速编码迭代提供更快的输出。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/openai-ultrafast-mode-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "AI Gateway 现在支持 OpenAI 的 Ultrafast 服务层，为交互式应用程序和快速编码迭代提供更快的输出。",
+        "目前支持 GPT 6 Astra 和 GPT 6.1 Sol。要使用 Ultrafast，请通过 AI SDK、聊天完成 API 或响应 API 请求 openai/gpt-6-astra 或 openai/gpt-6.1-sol：",
+        "API 聊天完成响应 API API API 聊天完成 聊天完成响应 API 响应 API 1 import {generateText} from 'ai' ; 2 3 const { text } =等待generateText ( { 4 model : 'openai/gpt-6.1-sol' , 5prompt : '调查失败的测试并提出修复方案。' , 6providerOptions : { 7 openai : { serviceTier : 'ultrafast' } , 8 gateway : { only : [ 'openai' ] } , 9 } , 10}); 11 12 控制台。日志（文本）；复制代理查看模型详细信息 ↗ 对于频繁调用工具的工作流程，OpenAI 建议通过持久 WebSocket 连接使用 Responses API，以减少轮次之间的开销。请参阅持久连接的超快服务层示例，包括基于 WebSocket 的 AI SDK。",
+        "超快支持美国和全球处理。固定到不受支持的区域（例如欧盟）的请求在标准（默认）层运行。当未指定服务层时，标准处理仍为默认处理。",
+        "在 Ultrafast 上服务的请求按标准每个令牌费率的 6 倍计费，而回退到另一层的请求则按实际服务的层的费率计费。查看 GPT-6 Astra 或 GPT-6.1 Sol 型号页面了解当前价格并了解有关 GPT-6 型号系列的更多信息。"
+      ],
+      "highlights": [
+        "AI Gateway 现在支持 OpenAI 的 Ultrafast 服务层，为交互式应用程序和快速编码迭代提供更快的输出。",
+        "目前支持 GPT 6 Astra 和 GPT 6.1 Sol。要使用 Ultrafast，请通过 AI SDK、聊天完成 API 或响应 API 请求 open",
+        "API 聊天完成响应 API API API 聊天完成 聊天完成响应 API 响应 API 1 import {generateText} from 'ai' "
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "OpenAI Ultrafast mode now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-08",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/openai-ultrafast-mode-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "OpenAI Ultrafast mode now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "OpenAI Ultrafast mode now available on AI Gateway",
+        "url": "https://vercel.com/changelog/openai-ultrafast-mode-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-10-11T03:27:21.362Z"
+      }
+    },
+    {
+      "id": "sig-3ad099fc3e",
+      "title": "FLUX 3 图像现已在 AI Gateway - Vercel 上提供",
+      "oneLiner": "Black Forest Labs 的 FLUX 3 图像现已在 AI Gateway 上提供。从文本生成图像或使用同一模型编辑现有图像，只需一个 API 密钥，无需 Black Forest Labs 帐户。",
+      "summary": {
+        "oneSentence": "Black Forest Labs 的 FLUX 3 图像现已在 AI Gateway 上提供。从文本生成图像或使用同一模型编辑现有图像，只需一个 API 密钥，无需 Black Forest Labs 帐户。",
+        "bullets": [
+          "Black Forest Labs 的 FLUX 3 图像现已在 AI Gateway 上提供。从文本生成图像或使用同一模型编辑现有图像，只需一个 API 密钥，无需 Black Forest Labs 帐户。",
+          "FLUX 3 Image 支持最多十张参考图像，用于编辑、组合主题或更改构图。它支持从 768 × 768 到 4K 的五个分辨率级别，具有方形、纵向和横向宽高比。",
+          "设置 AI_GATEWAY_API_KEY ，然后在 AI SDK 7 或更高版本中使用 bfl/flux-3-image 作为模型 ID。要生成图像，请使用文本提示调用generateImage：",
+          "1 从 'ai' 导入 {generateImage} ； 2 3 const { image } = waitgenerateImage( { 4 model : 'bfl/flux-3-image' , 5prompt : '阳光照射的木桌上有一个蓝色陶瓷花瓶，上面有野花。' , 6aspectRatio : '1"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Black Forest Labs 的 FLUX 3 图像现已在 AI Gateway 上提供。从文本生成图像或使用同一模型编辑现有图像，只需一个 API 密钥，无需 Black Forest Labs 帐户。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/flux-3-image-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Black Forest Labs 的 FLUX 3 图像现已在 AI Gateway 上提供。从文本生成图像或使用同一模型编辑现有图像，只需一个 API 密钥，无需 Black Forest Labs 帐户。",
+        "FLUX 3 Image 支持最多十张参考图像，用于编辑、组合主题或更改构图。它支持从 768 × 768 到 4K 的五个分辨率级别，具有方形、纵向和横向宽高比。",
+        "设置 AI_GATEWAY_API_KEY ，然后在 AI SDK 7 或更高版本中使用 bfl/flux-3-image 作为模型 ID。要生成图像，请使用文本提示调用generateImage：",
+        "1 从 'ai' 导入 {generateImage} ； 2 3 const { image } = waitgenerateImage( { 4 model : 'bfl/flux-3-image' , 5prompt : '阳光照射的木桌上有一个蓝色陶瓷花瓶，上面有野花。' , 6aspectRatio : '1:1' , 7providerOptions : { 8blackForestLabs : {resolution : '1k' } , 9 } , 10 });使用 FLUX 3 Image 和 AI SDK 生成方形、1K 分辨率的图像。",
+        "要编辑图像，请将其与指令一起传递到prompt.images中。此示例编辑上面生成的图像：",
+        "1 const { image :editedImage }=awaitgenerateImage({2model:'bfl/flux-3-image',3prompt:{4text:'将花瓶改为赤土陶器并保留花朵和设置。',5images:[image.uint8Array],6},7aspectRatio:'1:1',8providerOptions:{ 9 blackForestLabs: { 分辨率: '1k' } , 10 } , 11 } ) ;编辑生成的图像，同时保留花朵和环境。",
+        "您还可以通过 AI CLI 使用相同的 AI Gateway API 密钥和型号 ID 从终端使用 FLUX 3 映像。",
+        "AI CLI AI CLI AI CLI npx ai-cli image “阳光照射的木桌上有一个蓝色陶瓷花瓶，上面有野花。” \\ --model bfl/flux-3-image \\ --output ./renders/ 复制给代理查看模型详细信息 ↗ 在模型操场上尝试 FLUX 3 图像，或参阅图像生成指南。"
+      ],
+      "highlights": [
+        "Black Forest Labs 的 FLUX 3 图像现已在 AI Gateway 上提供。从文本生成图像或使用同一模型编辑现有图像，只需一个 API 密钥",
+        "FLUX 3 Image 支持最多十张参考图像，用于编辑、组合主题或更改构图。它支持从 768 × 768 到 4K 的五个分辨率级别，具有方形、纵向和横向宽高",
+        "设置 AI_GATEWAY_API_KEY ，然后在 AI SDK 7 或更高版本中使用 bfl/flux-3-image 作为模型 ID。要生成图像，请使用文"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "FLUX 3 Image now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-08",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/flux-3-image-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "FLUX 3 Image now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "FLUX 3 Image now available on AI Gateway",
+        "url": "https://vercel.com/changelog/flux-3-image-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-10-11T03:27:29.071Z"
+      }
+    },
+    {
       "id": "sig-ad4e14640e",
       "title": "帮助青少年学习、规划和塑造人工智能的未来",
       "oneLiner": "College Planner 将加入 ChatGPT for Teens，帮助学生管理大学申请，同时提供新的抽认卡、测验和青少年人工智能委员会。",
@@ -2788,6 +3197,90 @@
         "url": "https://vercel.com/changelog/glyph-cluster-is-now-available-in-stealth-for-free-on-ai-gateway",
         "fetched": true,
         "savedAt": "2026-10-08T04:03:26.824Z"
+      }
+    },
+    {
+      "id": "sig-ed9467d2c0",
+      "title": "Vercel 标志现在支持时间戳属性 - Vercel",
+      "oneLiner": "Vercel Flags 现在支持时间戳属性，因此您可以按日期和时间定位实体。",
+      "summary": {
+        "oneSentence": "Vercel Flags 现在支持时间戳属性，因此您可以按日期和时间定位实体。",
+        "bullets": [
+          "Vercel Flags 现在支持时间戳属性，因此您可以按日期和时间定位实体。",
+          "使用时间戳属性仅在两个日期之间显示活动页面、开展黑色星期五促销活动或定位在截止时间之前注册的用户。",
+          "将链接复制到标题 配置时间戳属性 您可以在仪表板中或通过 CLI 配置时间戳属性。",
+          "在 Vercel 仪表板中，打开 Flags ，选择 Entities ，然后创建或选择一个实体。添加一个属性并将其数据类型设置为 timestamp 。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel Flags 现在支持时间戳属性，因此您可以按日期和时间定位实体。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/timestamp-attributes-are-now-supported-in-vercel-flags"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Flags 现在支持时间戳属性，因此您可以按日期和时间定位实体。",
+        "使用时间戳属性仅在两个日期之间显示活动页面、开展黑色星期五促销活动或定位在截止时间之前注册的用户。",
+        "将链接复制到标题 配置时间戳属性 您可以在仪表板中或通过 CLI 配置时间戳属性。",
+        "在 Vercel 仪表板中，打开 Flags ，选择 Entities ，然后创建或选择一个实体。添加一个属性并将其数据类型设置为 timestamp 。",
+        "# 在新实体上 vercel 标志实体创建系统 --label System \\ --attribute time:timestamp # 在现有实体上 vercel 标志实体更新系统 --add-attribute time:timestamp 使用 Vercel CLI 定义时间戳属性。",
+        "无论您在仪表板还是 CLI 中配置属性，您的应用程序都必须在评估标志时提供其值。实体和属性名称必须与您的配置匹配，并且值必须是以毫秒为单位的 Unix 纪元时间戳。",
+        "此 Flags SDK 示例将当前时间作为 system.time 传递。 Date.now() 返回所需的值（以毫秒为单位）。将其保留在 dedupe() 内可确保在同一请求期间评估的每个标志都使用相同的时间：",
+        "1 从 'flags/next' 导入 { dedupe , flag } ； 2 从 '@flags-sdk/vercel' 导入 { vercelAdapter } ； 3 4 类型实体 = { 5 系统：{ 6 时间：数量； 7}; 8}； 9 10 const recognize = dedupe( async() : Promise <Entities> => ( { 11 system : { 12 time : Date . now ( ) , 13 } , 14 } ) ); 15 16 export const Promotion = flag <boolean, Entities> ({ 17 key : 'promotion' , 18 适配器 : vercelAdapter ( ) , 19 识别 , 20 } ) ;在评估标志时将当前时间作为时间戳属性传递。",
+        "将链接复制到标题 添加定位规则 在仪表板中，打开标志并使用时间戳属性添加定位规则。该规则会将您的申请中的值与您选择的日期和时间进行比较。",
+        "规则支持是 after 、 is at 或 after 、 is before 、 is at 或 before 。日期和时间选择器使用您当地的时区。"
+      ],
+      "highlights": [
+        "Vercel Flags 现在支持时间戳属性，因此您可以按日期和时间定位实体。",
+        "使用时间戳属性仅在两个日期之间显示活动页面、开展黑色星期五促销活动或定位在截止时间之前注册的用户。",
+        "将链接复制到标题 配置时间戳属性 您可以在仪表板中或通过 CLI 配置时间戳属性。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Timestamp attributes are now supported in Vercel Flags - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-07",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/timestamp-attributes-are-now-supported-in-vercel-flags",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Timestamp attributes are now supported in Vercel Flags - Vercel"
+      },
+      "raw": {
+        "title": "Timestamp attributes are now supported in Vercel Flags",
+        "url": "https://vercel.com/changelog/timestamp-attributes-are-now-supported-in-vercel-flags",
+        "fetched": true,
+        "savedAt": "2026-10-11T03:27:36.827Z"
       }
     },
     {
@@ -3610,6 +4103,325 @@
         "retranslatedAt": "2026-10-09T04:08:51.446Z"
       },
       "translateMethod": "google"
+    },
+    {
+      "id": "sig-9964af802e",
+      "title": "通过 Ironclad 促进计算机的使用",
+      "oneLiner": "了解 OpenAI 和 Ironclad 如何在复杂的合同工作流程上培训和评估 AI 代理，以促进计算机在专业工作中的使用。",
+      "summary": {
+        "oneSentence": "了解 OpenAI 和 Ironclad 如何在复杂的合同工作流程上培训和评估 AI 代理，以促进计算机在专业工作中的使用。",
+        "bullets": [
+          "了解 OpenAI 和 Ironclad 如何在复杂的合同工作流程上培训和评估 AI 代理，以促进计算机在专业工作中的使用。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：了解 OpenAI 和 Ironclad 如何在复杂的合同工作流程上培训和评估 AI 代理，以促进计算机在专业工作中的使用。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/advancing-computer-use-with-ironclad"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "了解 OpenAI 和 Ironclad 如何在复杂的合同工作流程上培训和评估 AI 代理，以促进计算机在专业工作中的使用。"
+      ],
+      "highlights": [
+        "了解 OpenAI 和 Ironclad 如何在复杂的合同工作流程上培训和评估 AI 代理，以促进计算机在专业工作中的使用。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Advancing computer use with Ironclad",
+      "originalLang": "en",
+      "date": "2026-10-06",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Advancing computer use with Ironclad"
+      },
+      "raw": {
+        "title": "Advancing computer use with Ironclad",
+        "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
+        "fetched": false,
+        "savedAt": "2026-10-11T03:27:38.148Z"
+      }
+    },
+    {
+      "id": "sig-ecd4573e22",
+      "title": "本地智能体远程控制 · Cursor",
+      "oneLiner": "您现在可以在 Cursor iOS 应用中查看并回复电脑上正在运行的本地智能体。",
+      "summary": {
+        "oneSentence": "您现在可以在 Cursor iOS 应用中查看并回复电脑上正在运行的本地智能体。",
+        "bullets": [
+          "您现在可以在 Cursor iOS 应用中查看并回复电脑上正在运行的本地智能体。",
+          "下载 Cursor iOS 应用并登录。你账户中的电脑会自动显示在应用中。在应用中点按你的电脑，然后在 Cursor 桌面应用中批准配对请求。你的本地智能体会以列表形式显示，点按任意一个即可查看它正在做什么，或向它发送消息。",
+          "远程控制不会把你的智能体转移到别处。智能体仍在你的电脑上运行，App 只是与它建立连接。你的电脑需要保持开机和联网，远程控制才能正常使用。",
+          "如需在您离开时防止电脑进入睡眠状态，请在 Cursor 桌面端设置的 远程控制 中开启“Keep this computer awake”。电脑需接通电源并保持合盖打开状态。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Cursor 官网发布：您现在可以在 Cursor iOS 应用中查看并回复电脑上正在运行的本地智能体。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：cursor",
+        "actionItems": [
+          "阅读原文（中文）：https://cursor.com/changelog/remote-control-local-agents"
+        ]
+      },
+      "tags": [
+        "Release"
+      ],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "cursor"
+      ],
+      "content": [
+        "您现在可以在 Cursor iOS 应用中查看并回复电脑上正在运行的本地智能体。",
+        "下载 Cursor iOS 应用并登录。你账户中的电脑会自动显示在应用中。在应用中点按你的电脑，然后在 Cursor 桌面应用中批准配对请求。你的本地智能体会以列表形式显示，点按任意一个即可查看它正在做什么，或向它发送消息。",
+        "远程控制不会把你的智能体转移到别处。智能体仍在你的电脑上运行，App 只是与它建立连接。你的电脑需要保持开机和联网，远程控制才能正常使用。",
+        "如需在您离开时防止电脑进入睡眠状态，请在 Cursor 桌面端设置的 远程控制 中开启“Keep this computer awake”。电脑需接通电源并保持合盖打开状态。",
+        "远程控制 默认开启，企业组织除外。企业管理员可以在 Org settings > Security and identity > 远程控制 中开启此功能。"
+      ],
+      "highlights": [
+        "您现在可以在 Cursor iOS 应用中查看并回复电脑上正在运行的本地智能体。",
+        "下载 Cursor iOS 应用并登录。你账户中的电脑会自动显示在应用中。在应用中点按你的电脑，然后在 Cursor 桌面应用中批准配对请求。你的本地智能体会以",
+        "远程控制不会把你的智能体转移到别处。智能体仍在你的电脑上运行，App 只是与它建立连接。你的电脑需要保持开机和联网，远程控制才能正常使用。"
+      ],
+      "translated": false,
+      "translateMethod": "native",
+      "originalTitle": "本地智能体远程控制 · Cursor",
+      "originalLang": "zh",
+      "date": "2026-10-06",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [
+        "cursor"
+      ],
+      "source": {
+        "type": "release",
+        "group": "company",
+        "name": "Cursor",
+        "author": "Cursor",
+        "url": "https://cursor.com/changelog/remote-control-local-agents",
+        "home": "https://cursor.com/changelog",
+        "lang": "zh",
+        "translated": false,
+        "translateMethod": "native",
+        "originalTitle": "本地智能体远程控制 · Cursor"
+      },
+      "raw": {
+        "title": "Remote control for local agents",
+        "url": "https://cursor.com/changelog/remote-control-local-agents",
+        "fetched": true,
+        "savedAt": "2026-10-11T03:27:39.323Z"
+      }
+    },
+    {
+      "id": "sig-8b62db9813",
+      "title": "Nano Banana 2.1 现已在 AI Gateway 上推出 - Vercel",
+      "oneLiner": "来自 Google 的 Nano Banana 2.1 现已在 AI Gateway 上提供，名称为 google/gemini-nano-banana-2.1 。",
+      "summary": {
+        "oneSentence": "来自 Google 的 Nano Banana 2.1 现已在 AI Gateway 上提供，名称为 google/gemini-nano-banana-2.1 。",
+        "bullets": [
+          "来自 Google 的 Nano Banana 2.1 现已在 AI Gateway 上提供，名称为 google/gemini-nano-banana-2.1 。",
+          "与早期的 Nano Banana 型号相比，它改进了图像生成和编辑，包括产品重新上下文化、基于蒙版和墨水的编辑以及真实性。实际上，这意味着将产品放置在新场景中，将编辑限制在屏蔽或标记区域，并更准确地描绘现实世界的主题。",
+          "它还可以渲染逼真的肤色、细致的材质、锐利的灯光和连贯的背景，同时保持闪存层的延迟和成本。",
+          "设置 AI_GATEWAY_API_KEY ，然后通过 AI SDK 、OpenAI 兼容的聊天完成 API 或 AI CLI 使用模型："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：来自 Google 的 Nano Banana 2.1 现已在 AI Gateway 上提供，名称为 google/gemini-nano-banana-2.1 。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/nano-banana-2-1-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "来自 Google 的 Nano Banana 2.1 现已在 AI Gateway 上提供，名称为 google/gemini-nano-banana-2.1 。",
+        "与早期的 Nano Banana 型号相比，它改进了图像生成和编辑，包括产品重新上下文化、基于蒙版和墨水的编辑以及真实性。实际上，这意味着将产品放置在新场景中，将编辑限制在屏蔽或标记区域，并更准确地描绘现实世界的主题。",
+        "它还可以渲染逼真的肤色、细致的材质、锐利的灯光和连贯的背景，同时保持闪存层的延迟和成本。",
+        "设置 AI_GATEWAY_API_KEY ，然后通过 AI SDK 、OpenAI 兼容的聊天完成 API 或 AI CLI 使用模型：",
+        "API 聊天完成 AI CLI API API 聊天完成 聊天完成 AI CLI AI CLI 1 import {generateText } from 'ai' ; 2 3 const result = waitgenerateText({4model:'google/gemini-nano-banana-2.1',5prompt:'白色背景上陶瓷咖啡杯的工作室照片。',6});复制给代理 查看模型详细信息 ↗ 在 imagen.sh 或模型游乐场中尝试 Nano Banana 2.1。有关其他配置和编辑示例，请参阅图像生成文档。",
+        "浏览AI Gateway上所有可用的图像模型。"
+      ],
+      "highlights": [
+        "来自 Google 的 Nano Banana 2.1 现已在 AI Gateway 上提供，名称为 google/gemini-nano-banana-2.1",
+        "与早期的 Nano Banana 型号相比，它改进了图像生成和编辑，包括产品重新上下文化、基于蒙版和墨水的编辑以及真实性。实际上，这意味着将产品放置在新场景中，",
+        "它还可以渲染逼真的肤色、细致的材质、锐利的灯光和连贯的背景，同时保持闪存层的延迟和成本。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Nano Banana 2.1 now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-06",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/nano-banana-2-1-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Nano Banana 2.1 now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Nano Banana 2.1 now available on AI Gateway",
+        "url": "https://vercel.com/changelog/nano-banana-2-1-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-10-11T03:27:45.155Z"
+      }
+    },
+    {
+      "id": "sig-e262ace024",
+      "title": "Mistral Large 4 现已在 AI Gateway 上提供 - Vercel",
+      "oneLiner": "Mistral Large 4 现已在 AI Gateway 上提供。开放权重、原生多模态模型将推理与文本和图像理解结合起来。它对于网络防御、制造和财务工作流程非常有用。",
+      "summary": {
+        "oneSentence": "Mistral Large 4 现已在 AI Gateway 上提供。开放权重、原生多模态模型将推理与文本和图像理解结合起来。它对于网络防御、制造和财务工作流程非常有用。",
+        "bullets": [
+          "Mistral Large 4 现已在 AI Gateway 上提供。开放权重、原生多模态模型将推理与文本和图像理解结合起来。它对于网络防御、制造和财务工作流程非常有用。",
+          "您可以使用一个 API 密钥通过 AI Gateway 访问该模型，而无需创建单独的 Mistral 帐户。",
+          "将 Mistral Large 4 (mistral/mistral-large-4) 与 AI SDK、OpenAI 兼容的聊天完成 API、响应 API 或 Anthropic Messages API 结合使用。您也可以在连接到AI网关的编码代理中选择它。",
+          "API Claude Code fx 聊天完成消息 API API API Claude Code Claude Code fx fx 聊天完成 聊天完成消息 API 消息 API 1 import {streamText } from 'ai' ; 2 const result = streamText ({ 3 m"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Mistral Large 4 现已在 AI Gateway 上提供。开放权重、原生多模态模型将推理与文本和图像理解结合起来。它对于网络防御、制造和财务工作流程非常有用。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/mistral-large-4-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Mistral Large 4 现已在 AI Gateway 上提供。开放权重、原生多模态模型将推理与文本和图像理解结合起来。它对于网络防御、制造和财务工作流程非常有用。",
+        "您可以使用一个 API 密钥通过 AI Gateway 访问该模型，而无需创建单独的 Mistral 帐户。",
+        "将 Mistral Large 4 (mistral/mistral-large-4) 与 AI SDK、OpenAI 兼容的聊天完成 API、响应 API 或 Anthropic Messages API 结合使用。您也可以在连接到AI网关的编码代理中选择它。",
+        "API Claude Code fx 聊天完成消息 API API API Claude Code Claude Code fx fx 聊天完成 聊天完成消息 API 消息 API 1 import {streamText } from 'ai' ; 2 const result = streamText ({ 3 model : 'mistral/mistral-large-4' , 4prompt : '修复失败的测试并验证更改。' , 5 } ) ;复制代理查看模型详细信息 ↗ 对于编码代理，运行 npx vercel ai-gateway setup 并在代理的模型设置中选择 milstra/mistral-large-4。",
+        "在模型游乐场中尝试 Mistral Large 4，或浏览模型目录。",
+        "AI Gateway 提供了一个 API，用于调用模型、跟踪使用情况和成本以及配置路由、重试和故障转移。您可以使用 AI Gateway API 密钥或携带您自己的提供商密钥。"
+      ],
+      "highlights": [
+        "Mistral Large 4 现已在 AI Gateway 上提供。开放权重、原生多模态模型将推理与文本和图像理解结合起来。它对于网络防御、制造和财务工作流程",
+        "您可以使用一个 API 密钥通过 AI Gateway 访问该模型，而无需创建单独的 Mistral 帐户。",
+        "将 Mistral Large 4 (mistral/mistral-large-4) 与 AI SDK、OpenAI 兼容的聊天完成 API、响应 API 或"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Mistral Large 4 now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-06",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/mistral-large-4-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Mistral Large 4 now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Mistral Large 4 now available on AI Gateway",
+        "url": "https://vercel.com/changelog/mistral-large-4-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-10-11T03:27:50.558Z"
+      }
     },
     {
       "id": "sig-a8157c50a9",
@@ -11951,7 +12763,7 @@
         "url": "https://cursor.com/changelog/rollouts-and-security-reviewer",
         "fetched": true,
         "savedAt": "2026-09-27T03:09:42.462Z",
-        "retranslatedAt": "2026-10-10T03:54:19.165Z"
+        "retranslatedAt": "2026-10-11T03:27:52.001Z"
       }
     },
     {
@@ -21076,7 +21888,7 @@
         "url": "https://cursor.com/changelog/projects",
         "fetched": true,
         "savedAt": "2026-09-12T02:41:59.708Z",
-        "retranslatedAt": "2026-10-10T03:54:20.309Z"
+        "retranslatedAt": "2026-10-11T03:27:53.220Z"
       }
     },
     {
@@ -26429,7 +27241,7 @@
         "url": "https://cursor.com/changelog/self-hosted-machines",
         "fetched": true,
         "savedAt": "2026-09-03T02:33:34.106Z",
-        "retranslatedAt": "2026-10-10T03:54:21.543Z"
+        "retranslatedAt": "2026-10-11T03:27:54.346Z"
       }
     },
     {
@@ -30281,1042 +31093,6 @@
         "url": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
         "fetched": false,
         "savedAt": "2026-08-31T02:58:30.207Z"
-      }
-    },
-    {
-      "id": "sig-f30efa9be5",
-      "title": "无需代码仓库，也能从零开始 · Cursor",
-      "oneLiner": "云端智能体不再需要连接 GitHub 或其他第三方 SCM 提供商即可开始使用。您可以立即输入提示，然后将工作保存到 Cursor Origin 代码仓库。",
-      "summary": {
-        "oneSentence": "云端智能体不再需要连接 GitHub 或其他第三方 SCM 提供商即可开始使用。您可以立即输入提示，然后将工作保存到 Cursor Origin 代码仓库。",
-        "bullets": [
-          "云端智能体不再需要连接 GitHub 或其他第三方 SCM 提供商即可开始使用。您可以立即输入提示，然后将工作保存到 Cursor Origin 代码仓库。",
-          "在代码仓库选择器中选择 从零开始 ，然后向智能体发出提示。Cursor 会在后台为您创建一个 Origin 代码仓库。",
-          "当您对智能体的构建结果满意后，点击 创建代码仓库 按钮，将您的工作保存至 Origin 代码仓库。您可以自定义名称，或从建议名称中选择一个，然后将可见性设为私有或内部。您将获得一个完整搭建的 Origin 代码仓库，可供分享或继续构建。前往 Codebase 选项卡，找到您的代码仓库并访问项目。",
-          "Cursor 现可将云端智能体的实时环境通过端口转发直接呈现在您的浏览器中，方便您预览并使用设计模式等工具。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Cursor 官网发布：云端智能体不再需要连接 GitHub 或其他第三方 SCM 提供商即可开始使用。您可以立即输入提示，然后将工作保存到 Cursor Origin 代码仓库。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：cursor",
-        "actionItems": [
-          "阅读原文（中文）：https://cursor.com/changelog/start-from-scratch"
-        ]
-      },
-      "tags": [
-        "Release"
-      ],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "cursor"
-      ],
-      "content": [
-        "云端智能体不再需要连接 GitHub 或其他第三方 SCM 提供商即可开始使用。您可以立即输入提示，然后将工作保存到 Cursor Origin 代码仓库。",
-        "在代码仓库选择器中选择 从零开始 ，然后向智能体发出提示。Cursor 会在后台为您创建一个 Origin 代码仓库。",
-        "当您对智能体的构建结果满意后，点击 创建代码仓库 按钮，将您的工作保存至 Origin 代码仓库。您可以自定义名称，或从建议名称中选择一个，然后将可见性设为私有或内部。您将获得一个完整搭建的 Origin 代码仓库，可供分享或继续构建。前往 Codebase 选项卡，找到您的代码仓库并访问项目。",
-        "Cursor 现可将云端智能体的实时环境通过端口转发直接呈现在您的浏览器中，方便您预览并使用设计模式等工具。",
-        "连接 Vercel 账户并点击“发布”，即可为您构建的内容生成可访问的 URL。"
-      ],
-      "highlights": [
-        "云端智能体不再需要连接 GitHub 或其他第三方 SCM 提供商即可开始使用。您可以立即输入提示，然后将工作保存到 Cursor Origin 代码仓库。",
-        "在代码仓库选择器中选择 从零开始 ，然后向智能体发出提示。Cursor 会在后台为您创建一个 Origin 代码仓库。",
-        "当您对智能体的构建结果满意后，点击 创建代码仓库 按钮，将您的工作保存至 Origin 代码仓库。您可以自定义名称，或从建议名称中选择一个，然后将可见性设为私有"
-      ],
-      "translated": false,
-      "translateMethod": "native",
-      "originalTitle": "无需代码仓库，也能从零开始 · Cursor",
-      "originalLang": "zh",
-      "date": "2026-08-27",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [
-        "cursor"
-      ],
-      "source": {
-        "type": "release",
-        "group": "company",
-        "name": "Cursor",
-        "author": "Cursor",
-        "url": "https://cursor.com/changelog/start-from-scratch",
-        "home": "https://cursor.com/changelog",
-        "lang": "zh",
-        "translated": false,
-        "translateMethod": "native",
-        "originalTitle": "无需代码仓库，也能从零开始 · Cursor"
-      },
-      "raw": {
-        "title": "Start from scratch, without a repo",
-        "url": "https://cursor.com/changelog/start-from-scratch",
-        "fetched": true,
-        "savedAt": "2026-08-28T08:33:37.517Z",
-        "retranslatedAt": "2026-10-10T03:54:22.590Z"
-      }
-    },
-    {
-      "id": "sig-a13e39d4fa",
-      "title": "Gemini Omni 1.1 Flash 让您可以更好地控制构建",
-      "oneLiner": "Omni 现在提供工作室品质的视频制作，包括扩展场景、第一帧和最后一帧插值、清晰的 4K 升级、更快的原型制作等功能。",
-      "summary": {
-        "oneSentence": "Omni 现在提供工作室品质的视频制作，包括扩展场景、第一帧和最后一帧插值、清晰的 4K 升级、更快的原型制作等功能。",
-        "bullets": [
-          "Omni 现在提供工作室品质的视频制作，包括扩展场景、第一帧和最后一帧插值、清晰的 4K 升级、更快的原型制作等功能。",
-          "您的浏览器不支持音频元素。",
-          "我们正在推出 Gemini Omni 1.1 Flash，这是一款面向开发人员的生产就绪更新，可改进对生成视频的控制。您现在可以扩展场景、指定平滑过渡的开始帧和结束帧，并生成高分辨率 4K 输出。立即通过 Google AI Studio 或 Gemini Enterprise Agent Platform 访问模型开",
-          "Google 刚刚发布了 Gemini Omni 1.1 Flash，为开发人员提供了更好的工具来使用 AI 创建和编辑视频。它可以让您扩展视频剪辑、控制摄像机移动并制作高质量的 4K 素材。开发人员还可以创建快速、低分辨率的草稿，以更快、更便宜的方式测试他们的想法。对于任何构建创意视频软件的人来说，这都是向前迈出的一"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Google DeepMind 官网发布：Omni 现在提供工作室品质的视频制作，包括扩展场景、第一帧和最后一帧插值、清晰的 4K 升级、更快的原型制作等功能。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：gemini",
-        "actionItems": [
-          "阅读原文（英文）：https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "gemini"
-      ],
-      "content": [
-        "Omni 现在提供工作室品质的视频制作，包括扩展场景、第一帧和最后一帧插值、清晰的 4K 升级、更快的原型制作等功能。",
-        "您的浏览器不支持音频元素。",
-        "我们正在推出 Gemini Omni 1.1 Flash，这是一款面向开发人员的生产就绪更新，可改进对生成视频的控制。您现在可以扩展场景、指定平滑过渡的开始帧和结束帧，并生成高分辨率 4K 输出。立即通过 Google AI Studio 或 Gemini Enterprise Agent Platform 访问模型开始构建。",
-        "Google 刚刚发布了 Gemini Omni 1.1 Flash，为开发人员提供了更好的工具来使用 AI 创建和编辑视频。它可以让您扩展视频剪辑、控制摄像机移动并制作高质量的 4K 素材。开发人员还可以创建快速、低分辨率的草稿，以更快、更便宜的方式测试他们的想法。对于任何构建创意视频软件的人来说，这都是向前迈出的一大步。",
-        "今天，我们推出 Gemini Omni 1.1 Flash，这是一套新的创意控件和生成视频功能，可为开发人员提供支持。 Gemini Omni 将现实世界的推理引入了生成式创作，今天的更新使 Omni 1.1 可以通过 Google AI Studio 中的 Gemini API 进行生产准备，供专业使用。无论您是构建生成视频工作流程、创意工具还是媒体编辑软件，这些更新都使生成视频更加可控、迭代速度更快，并针对实际部署进行了优化。以下是新内容：",
-        "场景扩展允许您拍摄现有视频并从其停止处继续无缝生成素材。",
-        "借助 Omni 1.1，该模型现在可以分析长达 10 秒的先前上下文，与之前仅参考最后一秒的模型相比，这是一个飞跃。其结果是提高了视觉一致性和叙事依从性，让您可以构建更长的故事或分支到新的创意方向。您可以以 10 秒为增量延长视频，总累积长度最多为 40 秒。",
-        "提示1：镜头稍微平移，我们现在看到她正在和一个卷发的男人说话，我们看到男人的背影，他说“我也看到了”戏剧性的乐谱",
-        "提示2：镜头缓缓拉出，被遗忘的尘土飞扬的地下墓穴，戏剧性的乐谱。提示3：镜头慢慢拉出，一座巨大的图书馆，书架和书籍在尘土飞扬、戏剧性的乐谱中失重地漂浮。",
-        "提示1：继续播放视频。执行电影级光学移动变焦镜头。摄像机向前移动，同时缩小，使角色冻结的震惊的脸保持完全相同的大小。背景中石柱组成的长廊戏剧性地延伸和加深，并伴随着强烈的光学透视扭曲。干净的建筑，连续不间断的镜头。"
-      ],
-      "highlights": [
-        "Omni 现在提供工作室品质的视频制作，包括扩展场景、第一帧和最后一帧插值、清晰的 4K 升级、更快的原型制作等功能。",
-        "您的浏览器不支持音频元素。",
-        "我们正在推出 Gemini Omni 1.1 Flash，这是一款面向开发人员的生产就绪更新，可改进对生成视频的控制。您现在可以扩展场景、指定平滑过渡的开始帧和"
-      ],
-      "translated": true,
-      "originalTitle": "Gemini Omni 1.1 Flash lets you build with more control",
-      "originalLang": "en",
-      "date": "2026-08-27",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google DeepMind",
-        "author": "DeepMind",
-        "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-        "home": "https://deepmind.google/blog/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Gemini Omni 1.1 Flash lets you build with more control"
-      },
-      "raw": {
-        "title": "Gemini Omni 1.1 Flash lets you build with more control",
-        "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
-        "fetched": true,
-        "savedAt": "2026-08-28T08:33:25.895Z",
-        "retranslatedAt": "2026-09-02T02:27:36.091Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-5a6b855292",
-      "title": "在搜索中计划和预订旅行的 3 种新方式",
-      "oneLiner": "我们对搜索中人工智能模式的最新升级可以帮助您跟踪航班价格、查看积分或里程费率，并预订您的梦想酒店。",
-      "summary": {
-        "oneSentence": "我们对搜索中人工智能模式的最新升级可以帮助您跟踪航班价格、查看积分或里程费率，并预订您的梦想酒店。",
-        "bullets": [
-          "我们对搜索中人工智能模式的最新升级可以帮助您跟踪航班价格、查看积分或里程费率，并预订您的梦想酒店。",
-          "计划旅行涉及许多活动部分和无数需要考虑的选择。借助搜索中的人工智能模式，您已经可以获得实时数据来比较航班和酒店、在网络上找到最佳建议并制定完美的行程。现在，我们正在通过新的方式升级这种体验，以跟踪航班价格、查看积分或里程费率，并在人工智能模式下预订您的梦想酒店。",
-          "今天，我们将 Google Flights 广受欢迎的价格跟踪功能直接引入 AI 模式，让您在聊天时设置价格提醒，而不会中断您的流程。描述您想要飞行的地点和时间，AI 模式将向您显示来自 300 多家合作航空公司和旅游网站的最佳选择以及最新价格。如果您准备好预订，您可以在人工智能模式下构建完整的行程，并通过航空公司的网",
-          "想观望价格是否会下跌？只需询问“为我跟踪这些航班价格”之类的问题即可。确认后，如果您想要的目的地和日期的价格发生变化，您将收到一封电子邮件，这样您就可以在优惠到达您的收件箱时立即购买。 AI 模式下的航班价格追踪现已在全球 180 多个国家和地区推出。 1"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Google AI 官网发布：我们对搜索中人工智能模式的最新升级可以帮助您跟踪航班价格、查看积分或里程费率，并预订您的梦想酒店。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：gemini",
-        "actionItems": [
-          "阅读原文（英文）：https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "gemini"
-      ],
-      "content": [
-        "我们对搜索中人工智能模式的最新升级可以帮助您跟踪航班价格、查看积分或里程费率，并预订您的梦想酒店。",
-        "计划旅行涉及许多活动部分和无数需要考虑的选择。借助搜索中的人工智能模式，您已经可以获得实时数据来比较航班和酒店、在网络上找到最佳建议并制定完美的行程。现在，我们正在通过新的方式升级这种体验，以跟踪航班价格、查看积分或里程费率，并在人工智能模式下预订您的梦想酒店。",
-        "今天，我们将 Google Flights 广受欢迎的价格跟踪功能直接引入 AI 模式，让您在聊天时设置价格提醒，而不会中断您的流程。描述您想要飞行的地点和时间，AI 模式将向您显示来自 300 多家合作航空公司和旅游网站的最佳选择以及最新价格。如果您准备好预订，您可以在人工智能模式下构建完整的行程，并通过航空公司的网站或您首选的预订平台购买机票。",
-        "想观望价格是否会下跌？只需询问“为我跟踪这些航班价格”之类的问题即可。确认后，如果您想要的目的地和日期的价格发生变化，您将收到一封电子邮件，这样您就可以在优惠到达您的收件箱时立即购买。 AI 模式下的航班价格追踪现已在全球 180 多个国家和地区推出。 1",
-        "兑换来之不易的奖励是节省旅行费用的另一种好方法。现在，搜索中的人工智能模式可以向您显示航班和酒店的积分或里程费用。尝试询问诸如“我想使用 AA 里程从亚特兰大飞往迈阿密。帮助我找到一些 10 月 9 日出发并于 10 月 12 日返回的直达航班的选择”。",
-        "您将立即根据直接来自我们合作伙伴的最新数据看到预订匹配航班需要多少里程。对于酒店来说，它的工作原理是一样的：只需告诉 AI 模式您旅行的地点和时间，并要求查看您想要的奖励计划的积分成本。当您准备好预订时，您可以点击合作伙伴网站的链接并完成奖励兑换。",
-        "AI 模式下查看积分和里程费率现已在全球范围内开放。 2 我们将推出此功能，并为阿拉斯加航空/夏威夷航空、美国航空、精品国际酒店、希尔顿和温德姆酒店及度假村提供初步支持。在接下来的几周内，我们还将增加对雅高、蓝天飞行、凯悦、南美航空和汉莎航空集团的支持。",
-        "当您找到心仪的酒店时，预订应该会感觉快捷且轻松。今天，我们将通过搜索中的 AI 模式推出酒店预订功能，以便您可以通过无缝对话发现并预订下一家酒店。只需告诉 AI 模式您即将进行的旅行和您的酒店偏好，即可获得直观的选项列表，其中包含客人评论和要比较的关键因素。",
-        "找到合适的酒店后，只需让 AI 模式帮助您完成预订。然后，在预订选项列表中选择“在 Google 上继续”——它将出现在我们的任何集成合作伙伴旁边，其中包括连锁酒店和在线旅游网站。从那里，只需轻按几下即可选择您的房间类型，查看取消政策等详细信息，并通过 Google Pay 安全地完成预订。当您通过AI模式预订酒店时，酒店或预订平台将充当备案商户并处理任何客户服务。",
-        "AI 模式酒店预订已开始在美国推出英文版本，并将在未来几周内与以下合作伙伴推出：Booking.com、Choice Hotels International、Expedia、希尔顿、Hotels.com、IHG Hotels & Resorts、万豪国际、Priceline、Trip.com 和 Wyndham Hotels & Resorts。"
-      ],
-      "highlights": [
-        "我们对搜索中人工智能模式的最新升级可以帮助您跟踪航班价格、查看积分或里程费率，并预订您的梦想酒店。",
-        "计划旅行涉及许多活动部分和无数需要考虑的选择。借助搜索中的人工智能模式，您已经可以获得实时数据来比较航班和酒店、在网络上找到最佳建议并制定完美的行程。现在，我们",
-        "今天，我们将 Google Flights 广受欢迎的价格跟踪功能直接引入 AI 模式，让您在聊天时设置价格提醒，而不会中断您的流程。描述您想要飞行的地点和时间"
-      ],
-      "translated": true,
-      "originalTitle": "3 new ways to plan and book travel in Search",
-      "originalLang": "en",
-      "date": "2026-08-27",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google AI",
-        "author": "Google",
-        "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
-        "home": "https://blog.google/technology/ai/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "3 new ways to plan and book travel in Search"
-      },
-      "raw": {
-        "title": "3 new ways to plan and book travel in Search",
-        "url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
-        "fetched": true,
-        "savedAt": "2026-08-28T08:33:27.184Z",
-        "retranslatedAt": "2026-09-02T02:27:41.451Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-f8c22d41c8",
-      "title": "光标现已在 AI SDK 线束层中可用 - Vercel",
-      "oneLiner": "AI SDK 线束层现在通过官方 @ai-sdk/harness-cursor 适配器支持 Cursor。利用线束层允许您的应用程序通过相同的 HarnessAgent 接口运行不同的编码代理，因此您可以在不更改应用程序代码的情况下切换代理",
-      "summary": {
-        "oneSentence": "AI SDK 线束层现在通过官方 @ai-sdk/harness-cursor 适配器支持 Cursor。利用线束层允许您的应用程序通过相同的 HarnessAgent 接口运行不同的编码代理，因此您可以在不更改应用程序代码的情况下切换代理",
-        "bullets": [
-          "AI SDK 线束层现在通过官方 @ai-sdk/harness-cursor 适配器支持 Cursor。利用线束层允许您的应用程序通过相同的 HarnessAgent 接口运行不同的编码代理，因此您可以在不更改应用程序代码的情况下切换代理。",
-          "1 从 '@ai-sdk/harness/agent' 导入 { HarnessAgent } ； 2 从'@ai-sdk/harness-cursor'导入{cursor}； 3 4 const agent = new HarnessAgent({5harness:cursor,6});创建一个运行 Cursor 的",
-          "在底层，适配器使用 @ai-sdk/harness-acp 通过代理客户端协议 (ACP) 将 Cursor 连接到 HarnessAgent。",
-          "除了 Cursor 之外，现在支持的工具还包括 Claude Code、Cline、Codex、Deep Agents、Grok Build、OpenCode 和 Pi，更多工具即将推出。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：AI SDK 线束层现在通过官方 @ai-sdk/harness-cursor 适配器支持 Cursor。利用线束层允许您的应用程序通过相同的 HarnessAgent 接口运行不同的编码代理，因此您可以在不更改应用程序代码的情况下切换代理",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/cursor-ai-sdk-harness-adapter"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "AI SDK 线束层现在通过官方 @ai-sdk/harness-cursor 适配器支持 Cursor。利用线束层允许您的应用程序通过相同的 HarnessAgent 接口运行不同的编码代理，因此您可以在不更改应用程序代码的情况下切换代理。",
-        "1 从 '@ai-sdk/harness/agent' 导入 { HarnessAgent } ； 2 从'@ai-sdk/harness-cursor'导入{cursor}； 3 4 const agent = new HarnessAgent({5harness:cursor,6});创建一个运行 Cursor 的 HarnessAgent。",
-        "在底层，适配器使用 @ai-sdk/harness-acp 通过代理客户端协议 (ACP) 将 Cursor 连接到 HarnessAgent。",
-        "除了 Cursor 之外，现在支持的工具还包括 Claude Code、Cline、Codex、Deep Agents、Grok Build、OpenCode 和 Pi，更多工具即将推出。",
-        "请阅读光标线束文档以开始使用。"
-      ],
-      "highlights": [
-        "AI SDK 线束层现在通过官方 @ai-sdk/harness-cursor 适配器支持 Cursor。利用线束层允许您的应用程序通过相同的 HarnessA",
-        "1 从 '@ai-sdk/harness/agent' 导入 { HarnessAgent } ； 2 从'@ai-sdk/harness-cursor'导入{",
-        "在底层，适配器使用 @ai-sdk/harness-acp 通过代理客户端协议 (ACP) 将 Cursor 连接到 HarnessAgent。"
-      ],
-      "translated": true,
-      "originalTitle": "Cursor is now available in the AI SDK harness layer - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-27",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/cursor-ai-sdk-harness-adapter",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Cursor is now available in the AI SDK harness layer - Vercel"
-      },
-      "raw": {
-        "title": "Cursor is now available in the AI SDK harness layer",
-        "url": "https://vercel.com/changelog/cursor-ai-sdk-harness-adapter",
-        "fetched": true,
-        "savedAt": "2026-08-28T08:33:28.748Z",
-        "retranslatedAt": "2026-09-02T02:27:47.750Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-5391b6f63d",
-      "title": "使用重新设计的过滤器更快地找到部署 - Vercel",
-      "oneLiner": "“部署”页面现在重新设计了过滤器，可以更快地查找特定部署。",
-      "summary": {
-        "oneSentence": "“部署”页面现在重新设计了过滤器，可以更快地查找特定部署。",
-        "bullets": [
-          "“部署”页面现在重新设计了过滤器，可以更快地查找特定部署。",
-          "对常见搜索应用建议的过滤器。",
-          "键入以查找选项，而不是滚动列表。",
-          "用自然语言描述您要查找的内容，Vercel 会自动应用匹配的过滤器。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：“部署”页面现在重新设计了过滤器，可以更快地查找特定部署。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/find-deployments-faster-with-redesigned-filters"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "“部署”页面现在重新设计了过滤器，可以更快地查找特定部署。",
-        "对常见搜索应用建议的过滤器。",
-        "键入以查找选项，而不是滚动列表。",
-        "用自然语言描述您要查找的内容，Vercel 会自动应用匹配的过滤器。",
-        "打开任何项目的“部署”页面以尝试新的过滤器。"
-      ],
-      "highlights": [
-        "“部署”页面现在重新设计了过滤器，可以更快地查找特定部署。",
-        "对常见搜索应用建议的过滤器。",
-        "键入以查找选项，而不是滚动列表。"
-      ],
-      "translated": true,
-      "originalTitle": "Find deployments faster with redesigned filters - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-27",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/find-deployments-faster-with-redesigned-filters",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Find deployments faster with redesigned filters - Vercel"
-      },
-      "raw": {
-        "title": "Find deployments faster with redesigned filters",
-        "url": "https://vercel.com/changelog/find-deployments-faster-with-redesigned-filters",
-        "fetched": true,
-        "savedAt": "2026-08-28T08:33:30.345Z",
-        "retranslatedAt": "2026-09-03T02:33:57.114Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-d9b2bc36ff",
-      "title": "试点全球首次双盲人工智能评估",
-      "oneLiner": "威廉·艾萨克、索尔·梅辛和克里斯蒂安·林",
-      "summary": {
-        "oneSentence": "威廉·艾萨克、索尔·梅辛和克里斯蒂安·林",
-        "bullets": [
-          "威廉·艾萨克、索尔·梅辛和克里斯蒂安·林",
-          "使用加密安全环境建立对专有模型基准的信任",
-          "想象一下，一名学生准备参加一场高风险的考试。如果他们不小心提前偷看了试题，那么获得满分就会受到这些知识的影响，使其成为毫无意义的成就。为了真正衡量他们所知道的内容，他们必须在参加考试之前看不到测试问题。这正是行业在评估先进人工智能模型时面临的挑战。如果模型已经看到了测试问题（称为基准污染的问题），则结果只能在一定程度上",
-          "今天，我们推出了世界上第一个对专有前沿级人工智能模型的双盲评估，该模型将外部评估限制在加密“盒子”中，模型稍后无法在测试前使用它们来优化性能。我们正在与新加坡人工智能安全研究所、OpenMined、AVERI 和 MLCommons 合作，在隐私保护环境中根据机密基准测试 Gemini Flash Lite 模型，从而"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Google DeepMind 官网发布：威廉·艾萨克、索尔·梅辛和克里斯蒂安·林",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：gemini",
-        "actionItems": [
-          "阅读原文（英文）：https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "gemini"
-      ],
-      "content": [
-        "威廉·艾萨克、索尔·梅辛和克里斯蒂安·林",
-        "使用加密安全环境建立对专有模型基准的信任",
-        "想象一下，一名学生准备参加一场高风险的考试。如果他们不小心提前偷看了试题，那么获得满分就会受到这些知识的影响，使其成为毫无意义的成就。为了真正衡量他们所知道的内容，他们必须在参加考试之前看不到测试问题。这正是行业在评估先进人工智能模型时面临的挑战。如果模型已经看到了测试问题（称为基准污染的问题），则结果只能在一定程度上可信。",
-        "今天，我们推出了世界上第一个对专有前沿级人工智能模型的双盲评估，该模型将外部评估限制在加密“盒子”中，模型稍后无法在测试前使用它们来优化性能。我们正在与新加坡人工智能安全研究所、OpenMined、AVERI 和 MLCommons 合作，在隐私保护环境中根据机密基准测试 Gemini Flash Lite 模型，从而提高评估完整性。",
-        "在谷歌，我们在整个模型开发和部署过程中使用广泛的评估来评估我们的人工智能系统，但我们不仅仅依赖内部测试。为了识别潜在的盲点，我们与各种外部合作伙伴合作，包括专业研究实验室、民间社会和国家人工智能安全研究所 (AISI)，利用他们独特的专业知识对我们的模型进行压力测试。",
-        "随着人工智能模型的能力变得越来越强大，确保模型没有提前看到测试问题或提示至关重要，因为这可能会扭曲结果。政策制定者、研究人员和企业需要相信人工智能基准准确地反映了模型的真实能力和安全性，但如果模型能够提前“窥视”评估问题，它可能会人为地抬高分数并破坏这种信任。",
-        "尽管零日志协议和严格的合同保障措施长期以来一直对外部测试提示保密，但纳入技术和加密保障措施标志着安全模型评估向前迈出了重要一步。",
-        "从历史上看，高风险的外部评估需要权衡。评估者要么交出他们的测试提示（冒着模型提供者提前看到测试问题的风险），要么模型提供者交出他们的模型权重（冒着他们的知识产权的风险）。",
-        "双盲评估消除了这种妥协。通过使用 Google Cloud 机密计算产品组合中的机密空间，我们可以通过加密方式验证外部评估数据和专有模型对各自所有者而言都是私有的。评估者看不到Gemini模型权重，Google也看不到评估者的测试提示。",
-        "这种加密证据有助于防止基准污染并保护敏感数据。随着模型变得更加强大，这对于高度敏感的评估（例如用于网络安全或政府机构的评估）变得尤为重要。双盲评估使独立组织能够在不损害数据主权或安全性的情况下严格测试先进模型。"
-      ],
-      "highlights": [
-        "威廉·艾萨克、索尔·梅辛和克里斯蒂安·林",
-        "使用加密安全环境建立对专有模型基准的信任",
-        "想象一下，一名学生准备参加一场高风险的考试。如果他们不小心提前偷看了试题，那么获得满分就会受到这些知识的影响，使其成为毫无意义的成就。为了真正衡量他们所知道的内"
-      ],
-      "translated": true,
-      "originalTitle": "Piloting the world's first double-blind AI evaluations",
-      "originalLang": "en",
-      "date": "2026-08-27",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google DeepMind",
-        "author": "DeepMind",
-        "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
-        "home": "https://deepmind.google/blog/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Piloting the world's first double-blind AI evaluations"
-      },
-      "raw": {
-        "title": "Piloting the world's first double-blind AI evaluations",
-        "url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
-        "fetched": true,
-        "savedAt": "2026-08-28T08:33:32.091Z",
-        "retranslatedAt": "2026-09-03T02:34:05.147Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-3062d8cdad",
-      "title": "更好的答案，更广阔的思维：学生从 ChatGPT 和批判性思维培训中获得什么",
-      "oneLiner": "一项针对 1,000 多名学生的随机研究考察了 ChatGPT、批判性思维、原创性以及学生在现实世界大学作业中的表现。",
-      "summary": {
-        "oneSentence": "一项针对 1,000 多名学生的随机研究考察了 ChatGPT、批判性思维、原创性以及学生在现实世界大学作业中的表现。",
-        "bullets": [
-          "一项针对 1,000 多名学生的随机研究考察了 ChatGPT、批判性思维、原创性以及学生在现实世界大学作业中的表现。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：一项针对 1,000 多名学生的随机研究考察了 ChatGPT、批判性思维、原创性以及学生在现实世界大学作业中的表现。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "一项针对 1,000 多名学生的随机研究考察了 ChatGPT、批判性思维、原创性以及学生在现实世界大学作业中的表现。"
-      ],
-      "highlights": [
-        "一项针对 1,000 多名学生的随机研究考察了 ChatGPT、批判性思维、原创性以及学生在现实世界大学作业中的表现。"
-      ],
-      "translated": true,
-      "originalTitle": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-      "originalLang": "en",
-      "date": "2026-08-27",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training"
-      },
-      "raw": {
-        "title": "Better answers, broader thinking: What students gain from ChatGPT and critical-thinking training",
-        "url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-        "fetched": false,
-        "savedAt": "2026-08-28T08:33:33.395Z",
-        "retranslatedAt": "2026-09-03T02:34:06.340Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-cde9b94dd5",
-      "title": "最好的工作流引擎是编程语言",
-      "oneLiner": "Workflow SDK 将 TypeScript 转变为持久执行，无需新的基础设施。",
-      "summary": {
-        "oneSentence": "Workflow SDK 将 TypeScript 转变为持久执行，无需新的基础设施。",
-        "bullets": [
-          "Workflow SDK 将 TypeScript 转变为持久执行，无需新的基础设施。",
-          "在不可靠、无状态的基础设施之上编排长期运行的有状态逻辑的想法并不新鲜。我们长期以来一直拥有消息队列、作业运行器、微服务编排和成熟的工作流引擎。我们从未有过一个写起来感觉很好的版本。",
-          "我花了大约六个月的时间研究 Temporal 的一个分支，主要是在周末，试图将其变成 DX 的无服务器答案，感觉更像 Vercel 原生。最终我意识到，为了提供这种体验，我还需要拥有执行环境。所以我放弃了分支，加入了 Vercel，并开始与 Nathan Rajlich 一起开发一个新框架。",
-          "将链接复制到标题 代码已经是 DAG 工作流程是 DAG，即有向无环图。在 Temporal 之前（以及之前的 Cadence），几乎每个工作流框架都要求您手动绘制 DAG。 Apache Airflow 是典型的例子。您将管道描述为任务和依赖关系的显式图表，而您的实际逻辑则隐藏在节点内。”"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Workflow SDK 将 TypeScript 转变为持久执行，无需新的基础设施。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/blog/the-best-workflow-engine-is-a-programming-language"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Workflow SDK 将 TypeScript 转变为持久执行，无需新的基础设施。",
-        "在不可靠、无状态的基础设施之上编排长期运行的有状态逻辑的想法并不新鲜。我们长期以来一直拥有消息队列、作业运行器、微服务编排和成熟的工作流引擎。我们从未有过一个写起来感觉很好的版本。",
-        "我花了大约六个月的时间研究 Temporal 的一个分支，主要是在周末，试图将其变成 DX 的无服务器答案，感觉更像 Vercel 原生。最终我意识到，为了提供这种体验，我还需要拥有执行环境。所以我放弃了分支，加入了 Vercel，并开始与 Nathan Rajlich 一起开发一个新框架。",
-        "将链接复制到标题 代码已经是 DAG 工作流程是 DAG，即有向无环图。在 Temporal 之前（以及之前的 Cadence），几乎每个工作流框架都要求您手动绘制 DAG。 Apache Airflow 是典型的例子。您将管道描述为任务和依赖关系的显式图表，而您的实际逻辑则隐藏在节点内。”",
-        "这对我来说总是感觉倒退。我们已经有了一个工具来表达“并行执行此操作，然后执行此操作，然后在此处进行分支”。它被称为编程语言。抽象语法树是 DAG。软件本身就是一个 DAG。",
-        "我抽象地知道这一点，但直到我看到 Temporal，它才真正打动我，你可以在其中编写看起来像正常顺序代码的代码，而引擎使其在底层持久耐用。这是一直以来的梦想。",
-        "将链接复制到标题运行 Temporal 教会我的内容一旦您的基础设施存在，Temporal 就会很棒。我从头开始，设置它意味着：",
-        "建立 Temporal Cloud（或自托管服务器：前端、历史记录、匹配和 Worker 服务，以及 Cassandra/Postgres/MySQL 后端和分片）。",
-        "运行您自己的工作队列：Temporal 永远不会执行您的代码。您的工作人员轮询服务器并运行您的工作流程和活动。实际上，这是您拥有的 Kubernetes 集群。",
-        "将它们连接在一起：任务队列、活动注册、客户端配置。"
-      ],
-      "highlights": [
-        "Workflow SDK 将 TypeScript 转变为持久执行，无需新的基础设施。",
-        "在不可靠、无状态的基础设施之上编排长期运行的有状态逻辑的想法并不新鲜。我们长期以来一直拥有消息队列、作业运行器、微服务编排和成熟的工作流引擎。我们从未有过一个写",
-        "我花了大约六个月的时间研究 Temporal 的一个分支，主要是在周末，试图将其变成 DX 的无服务器答案，感觉更像 Vercel 原生。最终我意识到，为了提供"
-      ],
-      "translated": true,
-      "originalTitle": "The best workflow engine is a programming language",
-      "originalLang": "en",
-      "date": "2026-08-27",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/blog/the-best-workflow-engine-is-a-programming-language",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "The best workflow engine is a programming language"
-      },
-      "raw": {
-        "title": "The best workflow engine is a programming language",
-        "url": "https://vercel.com/blog/the-best-workflow-engine-is-a-programming-language",
-        "fetched": true,
-        "savedAt": "2026-08-28T08:33:34.927Z",
-        "retranslatedAt": "2026-09-03T02:34:13.091Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-57e276283c",
-      "title": "扩大 OpenAI 在巴西的影响力",
-      "oneLiner": "OpenAI 正在扩大其在巴西的业务，加深与开发者、企业和社区的接触，以支持人工智能在该国的采用。",
-      "summary": {
-        "oneSentence": "OpenAI 正在扩大其在巴西的业务，加深与开发者、企业和社区的接触，以支持人工智能在该国的采用。",
-        "bullets": [
-          "OpenAI 正在扩大其在巴西的业务，加深与开发者、企业和社区的接触，以支持人工智能在该国的采用。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：OpenAI 正在扩大其在巴西的业务，加深与开发者、企业和社区的接触，以支持人工智能在该国的采用。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/expanding-our-presence-in-brazil"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "OpenAI 正在扩大其在巴西的业务，加深与开发者、企业和社区的接触，以支持人工智能在该国的采用。"
-      ],
-      "highlights": [
-        "OpenAI 正在扩大其在巴西的业务，加深与开发者、企业和社区的接触，以支持人工智能在该国的采用。"
-      ],
-      "translated": true,
-      "originalTitle": "Expanding OpenAI’s presence in Brazil",
-      "originalLang": "en",
-      "date": "2026-08-27",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/expanding-our-presence-in-brazil",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Expanding OpenAI’s presence in Brazil"
-      },
-      "raw": {
-        "title": "Expanding OpenAI’s presence in Brazil",
-        "url": "https://openai.com/index/expanding-our-presence-in-brazil",
-        "fetched": false,
-        "savedAt": "2026-08-28T08:33:36.405Z",
-        "retranslatedAt": "2026-09-03T02:34:14.298Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-876820d78a",
-      "title": "Ling 3.0 Flash Fin 现已在 AI Gateway 上免费提供 - Vercel",
-      "oneLiner": "Inclusion AI 的 Ling 3.0 Flash Fin 现已在 AI Gateway 上提供，并在 9 月 25 日之前免费使用。",
-      "summary": {
-        "oneSentence": "Inclusion AI 的 Ling 3.0 Flash Fin 现已在 AI Gateway 上提供，并在 9 月 25 日之前免费使用。",
-        "bullets": [
-          "Inclusion AI 的 Ling 3.0 Flash Fin 现已在 AI Gateway 上提供，并在 9 月 25 日之前免费使用。",
-          "Ling 3.0 Flash Fin 是 Ling 3.0 Flash 的金融版。它具有 256K-token 上下文窗口，生成多达 32K 输出 token，并支持推理和函数调用。",
-          "该模型专为金融研究和分析而设计，包括在生成答案之前使用多个工具调用的多步骤工作流程。",
-          "根据免费期后发生的情况选择模型 ID："
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Inclusion AI 的 Ling 3.0 Flash Fin 现已在 AI Gateway 上提供，并在 9 月 25 日之前免费使用。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Inclusion AI 的 Ling 3.0 Flash Fin 现已在 AI Gateway 上提供，并在 9 月 25 日之前免费使用。",
-        "Ling 3.0 Flash Fin 是 Ling 3.0 Flash 的金融版。它具有 256K-token 上下文窗口，生成多达 32K 输出 token，并支持推理和函数调用。",
-        "该模型专为金融研究和分析而设计，包括在生成答案之前使用多个工具调用的多步骤工作流程。",
-        "根据免费期后发生的情况选择模型 ID：",
-        "9 月 25 日后继续：使用 Includeai/ling-3.0-flash-fin 。优惠期间请求免费，优惠结束后开始按标准费率计费。",
-        "9 月 25 日之后停止：使用 Includeai/ling-3.0-flash-fin-free 。此型号 ID 在优惠结束后返回错误，以防止将来产生费用。",
-        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText({ 4 model: 'inclusionai/ling-3.0-flash-fin', 5prompt: '总结这份收益报告。', 6 });在免费期间使用标准型号 ID 即可继续按常规定价。",
-        "要将 Ling 3.0 Flash Fin 与编码代理结合使用，请运行 vercel ai-gatewaycoding-agents setup ，然后选择任一模型 ID 作为代理的模型。有关更多信息，请参阅编码代理指南。",
-        "在模型游乐场中尝试 Ling 3.0 Flash Fin，或浏览所有语言模型。"
-      ],
-      "highlights": [
-        "Inclusion AI 的 Ling 3.0 Flash Fin 现已在 AI Gateway 上提供，并在 9 月 25 日之前免费使用。",
-        "Ling 3.0 Flash Fin 是 Ling 3.0 Flash 的金融版。它具有 256K-token 上下文窗口，生成多达 32K 输出 token，",
-        "该模型专为金融研究和分析而设计，包括在生成答案之前使用多个工具调用的多步骤工作流程。"
-      ],
-      "translated": true,
-      "originalTitle": "Ling 3.0 Flash Fin now available on AI Gateway for free - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-27",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Ling 3.0 Flash Fin now available on AI Gateway for free - Vercel"
-      },
-      "raw": {
-        "title": "Ling 3.0 Flash Fin now available on AI Gateway for free",
-        "url": "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
-        "fetched": true,
-        "savedAt": "2026-08-28T08:33:39.020Z",
-        "retranslatedAt": "2026-09-04T02:30:29.198Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-6f6843c5a9",
-      "title": "Breaking Claude Code Opus 5 Auto Mode",
-      "oneLiner": "Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's a",
-      "summary": {
-        "oneSentence": "Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protect",
-        "bullets": [
-          "Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently mad"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Breaking Claude Code Opus 5 Auto Mode Anthropic are putting a great deal of faith in Claude Code's auto mode for protecting their coding agent users against prompt injection attacks. They recently made that the default and have made bold claims about its effectiveness. Johann Rehberger is one of the most credible prompt injection researchers active today. He found an attack against auto mode which he claims works 80% of the time, by tricking Claude Code into downloading and uncompressing a zip archive, then executing code that imports base64 without noticing that this will import and execute a local struct.py file extracted from the archive. In a few cases auto mode directly prevented the agent from preventing harmful code from continuing to execute! In a few runs Claude tried to terminate the malware process once it noticed the compromise, but Auto Mode denied the cleanup command. Claude detects the compromise, but Auto Mode blocks its cleanup command The safety mechanism itself can become part of the failure. The classifier allowed the creation of the malware process, but then it blocked the command intended to stop it! I agree with Johann's conclusion here: the only safe way to run agents if there's any risk of attracting the attention of an adversarial attack is with a sandbox: Run unattended coding agents in a container, VM or OS sandbox. Restrict network egress. Monitor your agents. Do not expose home directories, SSH keys, cloud credentials,… to the agent runtime. [...] Update 30th August 2026 : On Lobste.rs hyperpape points out that this doesn't fit the bill of a classic prompt injection attack because at no point are malicious instructions from the website accidentally followed by the LLM. They're right: this is more of a confused environment attack where the nature of the environment that the agent is exposed to results in an exploit. Tags: sandboxing , security , ai , prompt-injection , generative-ai , llms , anthropic , claude , johann-rehberger , claude-code"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Breaking Claude Code Opus 5 Auto Mode",
-      "originalLang": "en",
-      "date": "2026-08-27",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Breaking Claude Code Opus 5 Auto Mode"
-      },
-      "raw": {
-        "title": "Breaking Claude Code Opus 5 Auto Mode",
-        "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
-        "fetched": false,
-        "savedAt": "2026-08-31T02:58:31.008Z"
-      }
-    },
-    {
-      "id": "sig-a31466f4f2",
-      "title": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
-      "oneLiner": "Open Source wins!",
-      "summary": {
-        "oneSentence": "Open Source wins!",
-        "bullets": [
-          "Open Source wins!"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://www.latent.space/p/ainews-nvidia-buys-huggingface-for"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Open Source wins!"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
-      "originalLang": "en",
-      "date": "2026-08-27",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Latent Space",
-        "author": "swyx",
-        "url": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro"
-      },
-      "raw": {
-        "title": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
-        "url": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
-        "fetched": false,
-        "savedAt": "2026-08-31T02:58:31.809Z"
-      }
-    },
-    {
-      "id": "sig-1ea8eebd37",
-      "title": "[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6",
-      "oneLiner": "The conference with hot chips and even hotter companies",
-      "summary": {
-        "oneSentence": "The conference with hot chips and even hotter companies",
-        "bullets": [
-          "The conference with hot chips and even hotter companies"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://www.latent.space/p/ainews-hot-chips-openais-jalapeno"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "The conference with hot chips and even hotter companies"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6",
-      "originalLang": "en",
-      "date": "2026-08-27",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Latent Space",
-        "author": "swyx",
-        "url": "https://www.latent.space/p/ainews-hot-chips-openais-jalapeno",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6"
-      },
-      "raw": {
-        "title": "[AINews] Hot Chips: OpenAI’s Jalapeño, Cerebras CS-5, Groq 3 LPX, Apple M6",
-        "url": "https://www.latent.space/p/ainews-hot-chips-openais-jalapeno",
-        "fetched": false,
-        "savedAt": "2026-08-31T02:58:32.609Z"
       }
     }
   ]
