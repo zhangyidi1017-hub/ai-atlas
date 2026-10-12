@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-11T03:27:56.354Z",
+  "updatedAt": "2026-10-12T03:51:55.361Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 401,
+  "itemCount": 402,
   "brief": {
-    "date": "2026-10-11",
-    "generatedAt": "2026-10-11T03:27:56.352Z",
-    "totalCount": 401,
+    "date": "2026-10-12",
+    "generatedAt": "2026-10-12T03:51:55.360Z",
+    "totalCount": 402,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 401 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 402 条",
     "topUpdates": [
       {
         "id": "sig-ddd28519b3",
@@ -91,8 +91,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-10-11T03:27:56.354Z",
-    "summary": "近 30 天共 256 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-10-12T03:51:55.361Z",
+    "summary": "近 30 天共 260 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -4260,7 +4260,8 @@
         "title": "Remote control for local agents",
         "url": "https://cursor.com/changelog/remote-control-local-agents",
         "fetched": true,
-        "savedAt": "2026-10-11T03:27:39.323Z"
+        "savedAt": "2026-10-11T03:27:39.323Z",
+        "retranslatedAt": "2026-10-12T03:51:51.261Z"
       }
     },
     {
@@ -4640,6 +4641,90 @@
         "retranslatedAt": "2026-10-09T04:08:53.908Z"
       },
       "translateMethod": "google"
+    },
+    {
+      "id": "sig-1dddc754f0",
+      "title": "带时间戳的音频转录：单词计时的工作原理",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 了解更多 在此页面上注册",
+          "原生单词级转录模型将录音或实时流作为输入，并输出表示语音和非语音的标记和时间戳标记对象的结构化数组。每个标记都是以下三种类型之一：word、spacing 或audio_event。音频事件可以是笑声、掌声或其他背景声音。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/audio-transcription-with-timestamps"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 了解更多 注册博客资源 带有时间戳和事件标记的音频转录如何工作？作者：Jack Limebear 发表于 2026 年 10 月 5 日 听 听这篇文章",
+        "0:00 1.0x 了解更多 在此页面上注册",
+        "原生单词级转录模型将录音或实时流作为输入，并输出表示语音和非语音的标记和时间戳标记对象的结构化数组。每个标记都是以下三种类型之一：word、spacing 或audio_event。音频事件可以是笑声、掌声或其他背景声音。",
+        "在本文中，我们将探讨带有时间戳的音频转录如何工作，以及为什么它是比依赖强制对齐的传统转录更灵活、更强大的转录形式。",
+        "带时间戳的转录是自动语音识别 (ASR) 的一种形式，可在转录时跟踪单词和其他音频事件（例如掌声）的精确开始点和停止点。其输出是完全结构化的、可导航的数据。",
+        "传统的 ASR 转录将音频解析为大块人类可读的文本。它为人类读者提供了标题和文字记录，但作为数据，它并不是很有用。",
+        "如果您想使用时间戳来构建它，则需要通过辅助机器学习服务将其运行回来，以将文本映射到音频。您最终可以生成类似的输出，但它需要多个处理步骤，而不是本地来自 API，因此会增加一些延迟和额外的计算开销。",
+        "带时间戳、事件标记的转录的主要优点是它既是人类可读的又是机器可读的。这有一些重要的商业应用：",
+        "标准语音到文本模型按块（通常是整个句子或段落）处理语音。如果您想要逐字时间戳，则需要设计另一个处理层来在第二遍上执行所谓的强制对齐。这增加了基础设施和延迟，并且还存在更多潜在的故障点。例如，当尝试处理快速语音或被大声背景噪音掩盖的语音时，它们可能会漂移或完全失败。"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 了解更多 在此页面上注册"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Audio transcription with timestamps: How word timing works",
+      "originalLang": "en",
+      "date": "2026-10-05",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/audio-transcription-with-timestamps",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Audio transcription with timestamps: How word timing works"
+      },
+      "raw": {
+        "title": "How does audio transcription with timestamps and event tagging work?",
+        "url": "https://elevenlabs.io/blog/audio-transcription-with-timestamps",
+        "fetched": true,
+        "savedAt": "2026-10-12T03:50:20.130Z"
+      }
     },
     {
       "id": "sig-16140ec435",
@@ -5378,6 +5463,258 @@
         "url": "https://openai.com/index/chatham-financial",
         "fetched": false,
         "savedAt": "2026-10-03T03:22:36.803Z"
+      }
+    },
+    {
+      "id": "sig-bd4255a4df",
+      "title": "如何使用 Eleven v4 在 AI 配音中添加暂停",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x Discover v4 在此页面上注册",
+          "借助 AI 文本转语音模型，交付就是一切。虽然声音的质量和对韵律的理解大有帮助，但如果没有时机，句子就会支离破碎。一句台词后的额外节拍或长时间的沉默有助于创建高质量的输出。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 4,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/how-to-add-pauses-in-ai-voiceover"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 探索 v4 注册博客资源 如何使用 Eleven v4 在 AI 配音中添加停顿 作者：Jack Limebear 发布于 2026 年 10 月 2 日 最后更新于 2026 年 10 月 3 日 收听 听这篇文章",
+        "0:00 1.0x Discover v4 在此页面上注册",
+        "借助 AI 文本转语音模型，交付就是一切。虽然声音的质量和对韵律的理解大有帮助，但如果没有时机，句子就会支离破碎。一句台词后的额外节拍或长时间的沉默有助于创建高质量的输出。",
+        "通用文本转语音工具让停顿变得偶然。一代人可能会捕捉到你正在寻找的东西，但在你下次点击重生时它就会消失。 11 v4 提供了改进的再生工作流程，使之成为过去。在脚本中轻松微调个别台词或短语。",
+        "而且，为了从一开始就构建最好的脚本，Eleven v4 为您提供了三种将 AI 配音中的停顿直接构建到文本中的方法。以下是每种方法的作用以及何时应该使用它们。",
+        "兴奋 玩耍 平静 惊讶 焦虑 沮丧 害怕 疲倦 兴奋 玩耍 平静 惊讶 焦虑 沮丧 害怕 疲倦 兴奋 玩耍 平静 惊讶 焦虑 沮丧 害怕 疲倦 兴奋 玩耍 平静 惊讶 焦虑 沮丧 害怕 疲倦 兴奋 玩耍 平静 惊讶 焦虑 沮丧 害怕 疲倦 兴奋 玩耍 平静惊讶 焦虑 沮丧 害怕 疲倦 兴奋 俏皮 平静 惊讶 焦虑 沮丧 害怕 疲倦 兴奋 俏皮 平静 惊讶 焦虑 沮丧 害怕 疲倦 [ ] 摘要 SSML 标签在 11 v4 中不起作用。该系统使用音频标签，您可以将舞台指示（例如[长时间停顿]或[耳语]）直接写入脚本中。改变标点符号可以改变句子的节奏，用破折号、省略号和短句塑造 TTS 输出的声音。要编写有效的停顿，请将它们放在人类演讲者自然停止的地方。编写长格式音频时，请始终使用相同的暂停约定，以帮助保持输出的一致性。与早期型号相比有何变化？早期的 ElevenLabs 模型（例如 Multilingual v2）支持 SSML 语法。您可以在句子中的停顿处写入类似于 <break time=”2.0s” /> 的结构，以添加 2 秒的停顿。 11 v4 延续了 11 v3 中引入的方法，用更直观的替代方案音频标签替换 SSML 标签。",
+        "对于作家来说，这种替代使得在人工智能画外音中创建停顿变得更加容易。您不必知道要使用什么确切的 SSML 标记，只需用简单的语言编写，[暂停] 和 [长暂停] 就会为您完成工作。这些标签成为模型的方向，对它们做出反应并使用场景的上下文来创建细致入微的最终性能。停顿的确切长度适合当时的情况，而不是预先定义的机械沉默间隙。",
+        "虽然这不是本文的重点，但您还可以使用音频标签通过改变段落中的情感来创建情感文本到语音输出。",
+        "11 v4 为您提供了三种在 AI 配音中添加暂停的方法。"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x Discover v4 在此页面上注册"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How to add pauses in AI voiceover with Eleven v4",
+      "originalLang": "en",
+      "date": "2026-10-02",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/how-to-add-pauses-in-ai-voiceover",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How to add pauses in AI voiceover with Eleven v4"
+      },
+      "raw": {
+        "title": "How to add pauses in AI voiceover with Eleven v4",
+        "url": "https://elevenlabs.io/blog/how-to-add-pauses-in-ai-voiceover",
+        "fetched": true,
+        "savedAt": "2026-10-12T03:50:29.734Z"
+      }
+    },
+    {
+      "id": "sig-c1f01a607a",
+      "title": "欧洲最大的保险公司之一如何推出人工智能代理",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 观看直播 在此页面",
+          "当事情进展顺利时，保险客户很少打电话。他们在发生事故后、提出索赔或在真正的危机中打电话。这种对话决定了接下来的一切，而且通常是客户与保险公司唯一真正的互动。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/webinar-recap-how-one-of-europes-largest-insurers-got-ai-agents-into-production"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 观看现场会议博客产品网络研讨会回顾：欧洲最大的保险公司之一如何将人工智能代理投入生产 作者：Anna Neely 发布于 2026 年 10 月 2 日 最后更新于 2026 年 10 月 5 日 收听 收听这篇文章",
+        "0:00 1.0x 观看直播 在此页面",
+        "当事情进展顺利时，保险客户很少打电话。他们在发生事故后、提出索赔或在真正的危机中打电话。这种对话决定了接下来的一切，而且通常是客户与保险公司唯一真正的互动。",
+        "Admiral 每年在英国、意大利、法国和西班牙处理数百万次此类对话。现在，他们正在使用人工智能代理来帮助处理这些问题，同时保持合规性。",
+        "在本次网络研讨会中，Admiral 的团队向我们介绍了他们是如何做到这一点的：选择第一个用例，在第零天获得法律和合规性，从工作原型到生产变更，现在只需数小时而不是数周即可交付。",
+        "Admiral 的第一个生产用例是其英国贷款业务的结算报价，这是一个有意控制的起点，而不是列表中最难的问题。坎帕将这种方法描述为在扩张之前选择一个国家和一个业务线进行试验。",
+        "Neely 说，这是将达到生产的部署与停滞的部署区分开来的模式：用例必须足够窄，以便在现实的时间表上解决，但又足够复杂，以便实际运行围绕它的系统。和解报价之所以有效，是因为对话的路径数量有限，同时仍然涉及电话和后端集成，足以证明架构，而无需尝试立即解决所有问题。",
+        "Admiral 的领导明确表示，人工智能代理应该提高合规性和测试标准，而不是降低。 Kampa 直接指出：验证标准必须比以前更严格，因为代理脱离脚本或违反规则的风险与人类代理做出判断的风险不同。",
+        "该标准体现在团队早期做出的三项承诺中："
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 观看直播 在此页面"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How One of Europe's Largest Insurers Launch AI Agents",
+      "originalLang": "en",
+      "date": "2026-10-02",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/webinar-recap-how-one-of-europes-largest-insurers-got-ai-agents-into-production",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How One of Europe's Largest Insurers Launch AI Agents"
+      },
+      "raw": {
+        "title": "Webinar Recap: How One of Europe's Largest Insurers Got AI Agents into Production",
+        "url": "https://elevenlabs.io/blog/webinar-recap-how-one-of-europes-largest-insurers-got-ai-agents-into-production",
+        "fetched": true,
+        "savedAt": "2026-10-12T03:50:40.730Z"
+      }
+    },
+    {
+      "id": "sig-b7b9686f0a",
+      "title": "Banner Health 选择 11 个代理进行患者安排",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 对于许多患者来说，护理从电话开始。 ElevenLabs 使第一步变得毫不费力：对话语音代理可以帮助患者安排护理并在对话需要时引入 Banner 团队成员。",
+          "Banner Health 现已部署 11 个面向患者呼叫处理的代理，该公司是美国最大的完全一体化非营利医疗系统之一。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/banner-health"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 注册客户案例 ElevenLabs 为 Banner Health 的患者访问提供 AI 语音代理支持 作者：John Durovsik 发布于 2026 年 10 月 2 日 听 听这篇文章",
+        "0:00 1.0x 对于许多患者来说，护理从电话开始。 ElevenLabs 使第一步变得毫不费力：对话语音代理可以帮助患者安排护理并在对话需要时引入 Banner 团队成员。",
+        "Banner Health 现已部署 11 个面向患者呼叫处理的代理，该公司是美国最大的完全一体化非营利医疗系统之一。",
+        "Banner Health 执行副总裁兼首席技术官 Michael J. Reagin 表示：“患者不必等待才能安排护理。” “我们的目标始终是让联系我们的第一步尽可能简单。”",
+        "Reagin 补充道：“这种部署意味着可以全天候接听电话，通过一次对话即可预订预约，并且当患者需要时，Banner 团队成员始终可以到达。” “这是我们的患者应得的体验。”",
+        "初始部署已上线，从初级保健调度开始，其中 ElevenAgents：",
+        "对于患者来说，改变很简单。无论上午 10 点还是晚上 10 点打电话，电话都会得到接听。对于班纳的患者访问团队来说，这意味着有时间为患者和最需要他们的电话服务。",
+        "卫生系统在安全性、隐私性和可靠性方面设定了很高的标准。班纳的要求更高，而这次部署就是为了满足这个要求而设计的。每个代理都在 Banner 的 AI 治理框架内运行，具有企业级安全性和 HIPAA 合规性。",
+        "“我们部署的每个人工智能系统都始于同一个问题：这是否能让我们的患者获得更安全、更容易获得、更值得信赖的护理？” Banner Health 高级副总裁兼首席人工智能、数据和基础设施官 John Rares Almasan 表示。 “此次部署清除了这一障碍，每次对话中都内置人工升级、完全符合 HIPAA 要求以及实时监督，使我们能够不断改善体验。"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 对于许多患者来说，护理从电话开始。 ElevenLabs 使第一步变得毫不费力：对话语音代理可以帮助患者安排护理并在对话需要时引入 Bann"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Banner Health Selects ElevenAgents for Patient Scheduling",
+      "originalLang": "en",
+      "date": "2026-10-02",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/banner-health",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Banner Health Selects ElevenAgents for Patient Scheduling"
+      },
+      "raw": {
+        "title": "ElevenLabs powers AI voice agents for patient access at Banner Health",
+        "url": "https://elevenlabs.io/blog/banner-health",
+        "fetched": true,
+        "savedAt": "2026-10-12T03:50:50.670Z"
       }
     },
     {
@@ -6200,6 +6537,258 @@
         "url": "https://vercel.com/changelog/speed-insights-deprecates-first-input-delay-on-november-first",
         "fetched": true,
         "savedAt": "2026-10-03T03:22:39.706Z"
+      }
+    },
+    {
+      "id": "sig-bd2e10539b",
+      "title": "如何使用 TTS 模型的发音词典",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 了解更多 在此页面上注册",
+          "11 v4 为 Text to Speech 模型的发音性能设定了新的标准，比之前的任何模型都更准确地处理缩写、技术术语、名称和混合语言文本。尽管如此，每个品牌都有自己的词汇，从独特的产品名称到行业特定的术语，这意味着您需要完全控制这些词的发音。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/pronunciation-dictionary-guide"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 了解更多 注册 博客资源 发音词典指南：修复 TTS on Eleven v4 中的任何单词 撰写者：Jack Limebear 发布于 2026 年 10 月 1 日 最后更新于 2026 年 10 月 6 日 听 听这篇文章",
+        "0:00 1.0x 了解更多 在此页面上注册",
+        "11 v4 为 Text to Speech 模型的发音性能设定了新的标准，比之前的任何模型都更准确地处理缩写、技术术语、名称和混合语言文本。尽管如此，每个品牌都有自己的词汇，从独特的产品名称到行业特定的术语，这意味着您需要完全控制这些词的发音。",
+        "11 v4 提供了一系列修复发音的方法，让您可以精细地控制模型的说话方式。您可以构建一个全面的发音词典，适用于您在 TTS 应用程序中编写的每个脚本。或者，将 IPA 直接写入文本中以进行一次性修复。",
+        "以下是 11 v4 处理充满棘手术语的脚本的快速示例：",
+        "0:00 本指南介绍了如何创建和使用 TTS 发音词典以及您可以使用的所有周边策略，以使您的音频听起来尽可能接近您的想象。",
+        "发音词典是一种工具，可让您准确配置文本转语音模型如何说出某些单词。通过将某些单词或短语添加到发音词典中，您可以定义它们在 TTS 脚本中出现时的发音。",
+        "发音词典通常用于：",
+        "除了文本到语音之外，发音词典通常是来自母语人士的音频剪辑的众包存储库，学习者用它来听某些单词的发音。"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 了解更多 在此页面上注册"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How to use a pronunciation dictionary for TTS models",
+      "originalLang": "en",
+      "date": "2026-10-01",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/pronunciation-dictionary-guide",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How to use a pronunciation dictionary for TTS models"
+      },
+      "raw": {
+        "title": "Pronunciation dictionary guide: Fix any word in TTS on Eleven v4",
+        "url": "https://elevenlabs.io/blog/pronunciation-dictionary-guide",
+        "fetched": true,
+        "savedAt": "2026-10-12T03:51:00.240Z"
+      }
+    },
+    {
+      "id": "sig-56e01715a1",
+      "title": "ElevenLabs 扩展到荷兰并在阿姆斯特丹设立办事处",
+      "oneLiner": "隆重推出 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最感人的模型。 10 月 12 日之前，Creator+ 包含 3 倍积分",
+      "summary": {
+        "oneSentence": "隆重推出 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最感人的模型。 10 月 12 日之前，Creator+ 包含 3 倍积分",
+        "bullets": [
+          "隆重推出 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最感人的模型。 10 月 12 日之前，Creator+ 包含 3 倍积分",
+          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 今天，我们正式进军荷兰，并在阿姆斯特丹开设办事处。",
+          "我们已经为该国一些最大的电信、食品配送和医疗保健公司提供了支持，现在我们通过投资当地团队和实体业务来加倍努力。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：隆重推出 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最感人的模型。 10 月 12 日之前，Creator+ 包含 3 倍积分",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/elevenlabs-netherlands"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "隆重推出 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最感人的模型。 10 月 12 日之前，Creator+ 包含 3 倍积分",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 注册 博客公司 ElevenLabs 在荷兰推出 发布于 2026 年 10 月 1 日 最后更新于 2026 年 10 月 5 日 听 听这篇文章",
+        "0:00 1.0x 今天，我们正式进军荷兰，并在阿姆斯特丹开设办事处。",
+        "我们已经为该国一些最大的电信、食品配送和医疗保健公司提供了支持，现在我们通过投资当地团队和实体业务来加倍努力。",
+        "我们任命 Goswijn Thijssen 领导我们的荷兰办事处。他将领导一支不断壮大的团队，为我们现有的荷兰客户提供支持，并帮助新客户在其组织中部署自然、人性化的人工智能。我们还计划今年将荷兰团队规模扩大三倍，负责 GTM、工程等领域的工作。",
+        "ElevenLabs 联合创始人兼首席执行官 Mati Staniszewski 表示：“阿姆斯特丹是地球上语言种类最多的城市之一，也是语音人工智能的天然家园。” “我们已经看到荷兰客户在电信、医疗保健和媒体等领域的强劲需求，我们正在扩大本地团队，以构建这些客户所需的技术。”",
+        "凭借我们世界一流的研究团队对我们的模型和当地团队的实地微调，我们已经能够快速适应世界各地的客户需求和查询。",
+        "当荷兰最大的电信公司 KPN 部署我们的语音代理来提供客户支持时，我们发现转录模型最初难以处理荷兰邮政编码和出生日期。该团队收集了更多荷兰语语音数据，并对模型进行了微调以可靠地处理这些数据，将邮政编码识别准确率从 64% 提高到 82%。此后，KPN 将其验证代理扩展到每周约 60,000 个呼叫，成功率达到 62%，并重复使用相同的堆栈来建立内部 IT 帮助台和呼叫路由服务。",
+        "各行各业的荷兰企业都在使用 ElevenLabs。我们很自豪能够支持这些公司，包括：",
+        "通过我们的影响力计划，我们的目标是让人们和组织能够民主地使用先进的语音人工智能，以创造有意义的变革。语音助手是荷兰为患有语音改变和丧失的人们开发的一项辅助技术，已安装在 150 多个国家/地区的 100,000 多台设备上。作为 ElevenLabs Impact 合作伙伴，它让永久失声的人可以直接在语音助手应用程序中免费使用我们的技术。"
+      ],
+      "highlights": [
+        "隆重推出 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最感人的模型。 10 月 12 日之前，Creator+ 包含 3 倍积分",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 今天，我们正式进军荷兰，并在阿姆斯特丹开设办事处。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "ElevenLabs expands to the Netherlands with Amsterdam office",
+      "originalLang": "en",
+      "date": "2026-10-01",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/elevenlabs-netherlands",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "ElevenLabs expands to the Netherlands with Amsterdam office"
+      },
+      "raw": {
+        "title": "ElevenLabs launches in the Netherlands",
+        "url": "https://elevenlabs.io/blog/elevenlabs-netherlands",
+        "fetched": true,
+        "savedAt": "2026-10-12T03:51:10.334Z"
+      }
+    },
+    {
+      "id": "sig-54bcb5a4e1",
+      "title": "搜索：100,000 美元打造世界上最吸引人的广告",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "过去制作广告需要工作室、音乐屋和预算。现在它只需要你。",
+          "今天，我们推出 The Search，这是一项全球竞赛，旨在寻找世界上最吸引人的人工智能制作的广告。创建一个虚构的品牌，为其制作一个 15-45 秒的广告，并为其添加一首人们第二天早上仍在哼唱的原创歌曲。 100,000 美元的奖金由 11 名获奖者分享。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/the-search-100000-for-the-worlds-catchiest-ad"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 注册博客 搜索：世界上最吸引人的广告只需 100,000 美元 作者：Renee Zhu 发布于 2026 年 10 月 1 日 最后更新于 2026 年 10 月 6 日 听 听这篇文章",
+        "过去制作广告需要工作室、音乐屋和预算。现在它只需要你。",
+        "今天，我们推出 The Search，这是一项全球竞赛，旨在寻找世界上最吸引人的人工智能制作的广告。创建一个虚构的品牌，为其制作一个 15-45 秒的广告，并为其添加一首人们第二天早上仍在哼唱的原创歌曲。 100,000 美元的奖金由 11 名获奖者分享。",
+        "任何产品或服务都是公平的游戏：制作有用的、奇怪的、美丽的、荒谬的或出乎意料的令人信服的东西。",
+        "您的广告必须包含虚构公司的产品名称、图片和徽标。顺口溜必须是这个想法的核心，而不是最后附加的。我们希望在一部简短的作品中看到产品，听到它的魅力，并了解它周围的世界。",
+        "单独或以团队形式参赛。您可以提交任意数量的参赛作品。",
+        "您的原创歌曲必须使用 ElevenCreative 制作。将原始音频与最终广告一起提交，以便我们进行验证。",
+        "您可以在工作流程中使用其他工具，但评委将考虑您如何在音乐、语音、声音设计和视频方面使用 ElevenCreative。最有力的参赛作品会让人感觉像是一个完整的创意。",
+        "所有 11 名获奖者还将有机会直接向 ElevenLabs 的 AI 创意制作团队展示他们的想法。我们正在快速发展，一直在寻找优秀的人才 - 这可能是您进入我们视野的机会。"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opaci",
+        "过去制作广告需要工作室、音乐屋和预算。现在它只需要你。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "The Search: $100,000 for the World's Catchiest Ad",
+      "originalLang": "en",
+      "date": "2026-10-01",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/the-search-100000-for-the-worlds-catchiest-ad",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "The Search: $100,000 for the World's Catchiest Ad"
+      },
+      "raw": {
+        "title": "The Search: $100,000 for the World's Catchiest Ad",
+        "url": "https://elevenlabs.io/blog/the-search-100000-for-the-worlds-catchiest-ad",
+        "fetched": true,
+        "savedAt": "2026-10-12T03:51:20.531Z"
       }
     },
     {
@@ -7296,6 +7885,258 @@
         "retranslatedAt": "2026-10-10T03:54:15.292Z"
       },
       "translateMethod": "google"
+    },
+    {
+      "id": "sig-0ead56bab9",
+      "title": "ElevenLabs 十一 v4 音频标签列表，包含 50 多个示例",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 了解更多 在此页面上注册",
+          "Eleven v4 是一种突破性的文本转语音模型，可将文本转换为表演。音频标签可让您通过对其情感输出的精细控制来指导表演。放置一个括号内的自然语言提示，例如 [耳语] 或 [兴奋]，并聆听 v4 更改交付以匹配。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 4,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/elevenlabs-audio-tags-list"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 了解更多信息 注册博客资源 十一个 v4 音频标签列表：尝试它们，然后编写您自己的 作者：Jack Limebear 发布于 2026 年 9 月 30 日 听 听这篇文章",
+        "0:00 1.0x 了解更多 在此页面上注册",
+        "Eleven v4 是一种突破性的文本转语音模型，可将文本转换为表演。音频标签可让您通过对其情感输出的精细控制来指导表演。放置一个括号内的自然语言提示，例如 [耳语] 或 [兴奋]，并聆听 v4 更改交付以匹配。",
+        "这个 ElevenLabs 音频标签列表涵盖了完整的 Eleven v4 情感范围中的每一种情感，以及表达、节奏、反应、口音和声音效果的标签。一旦您了解了基础知识，我们还将向您展示如何用简单的语言编写自己的标签。",
+        "兴奋 玩耍 平静 惊讶 焦虑 沮丧 害怕 疲倦 兴奋 玩耍 平静 惊讶 焦虑 沮丧 害怕 疲倦 兴奋 玩耍 平静 惊讶 焦虑 沮丧 害怕 疲倦 兴奋 玩耍 平静 惊讶 焦虑 沮丧 害怕 疲倦 兴奋 玩耍 平静 惊讶 焦虑 沮丧 害怕 疲倦 兴奋 玩耍 平静惊讶 焦虑 沮丧 害怕 疲倦 兴奋 俏皮 平静 惊讶 焦虑 沮丧 害怕 疲倦 兴奋 俏皮 平静 惊讶 焦虑 沮丧 害怕 疲倦 [ ] 摘要 音频标签是方括号中的自然语言信号，11 v4 将其视为性能方向，改变了它传递后面单词的方式。 11 v4 是人工分析语音竞技场 [2026 年 9 月] 中排名最高的模型，音频标签可让您逐行指导性能。 11 v4 情绪范围轮可让您听到不同的情绪，以便快速概览模型的能力。标签不限于固定列表，这意味着您可以通过组合品质（例如[耳语，恐惧]）或描述台词后面的情况或角色来编写自己的标签。音频标签通过 ElevenAPI 在 Eleven v4、Eleven v4 Turbo 和 Eleven v3 上工作。什么是 ElevenLabs 音频标签？音频标签是自然语言提示，您可以将其嵌入到方括号内的写作中。 11 v4 将这些视为性能标记，并使用它们作为改变其说出某些单词或短语的方式的方向。您可以在 ElevenLabs Text to Speech 应用程序中将它们与脚本一起编写，然后观看我们的模型将它们变为现实。",
+        "11 v4 是人工分析语音竞技场中排名最高的 TTS 模型，听众投票选出听起来最自然的文本转语音。 1 音频标签可让您通过精确指导每行的交付方式进一步提高性能。",
+        "以下是在脚本中使用音频标签的方法：",
+        "为了更深入地解释标签如何工作以及它们如何取代 SSML，我们编写了完整的音频标签指南。",
+        "11 个 v4 情感轮具有数十种情感，每种情感均由 v4 执行，因此您可以在编写单个标签之前听到差异。"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 了解更多 在此页面上注册"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "ElevenLabs Audio Tags list for Eleven v4, with 50+ examples",
+      "originalLang": "en",
+      "date": "2026-09-30",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/elevenlabs-audio-tags-list",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "ElevenLabs Audio Tags list for Eleven v4, with 50+ examples"
+      },
+      "raw": {
+        "title": "The Eleven v4 Audio Tags list: Try them, then write your own",
+        "url": "https://elevenlabs.io/blog/elevenlabs-audio-tags-list",
+        "fetched": true,
+        "savedAt": "2026-10-12T03:51:30.390Z"
+      }
+    },
+    {
+      "id": "sig-8b5f9c73f5",
+      "title": "员工投标后 ElevenLabs 估值达到 220 亿美元",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 我们最近完成了一项 3 亿美元的员工收购要约，ElevenLabs 的估值为 220 亿美元，是 2 月份 D 轮估值的两倍。此轮融资由 Wellington 和 T. Rowe Price 领投，他们是长期机构投资者，拥有我们下一阶段增长所需的经验。",
+          "2022 年，我们以 900 万美元的估值筹集了第一轮融资，并与我们的第一个文本转语音模型 Eleven v1 一起宣布，它也是第一个跨越语音恐怖谷的模型。四年后，当我们达到新的估值时，我们刚刚发布了两个新的最先进的文本到语音模型。 11 v4 和 v4 Turbo 是我们迄今为止最快、最激动人心的模型，它们已经领先于"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 4,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/tender-22bn"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 注册博客 由于企业对对话代理的需求，ElevenLabs 估值增加至 220 亿美元 发布于 2026 年 9 月 30 日 最后更新于 2026 年 10 月 5 日 听 听这篇文章",
+        "0:00 1.0x 我们最近完成了一项 3 亿美元的员工收购要约，ElevenLabs 的估值为 220 亿美元，是 2 月份 D 轮估值的两倍。此轮融资由 Wellington 和 T. Rowe Price 领投，他们是长期机构投资者，拥有我们下一阶段增长所需的经验。",
+        "2022 年，我们以 900 万美元的估值筹集了第一轮融资，并与我们的第一个文本转语音模型 Eleven v1 一起宣布，它也是第一个跨越语音恐怖谷的模型。四年后，当我们达到新的估值时，我们刚刚发布了两个新的最先进的文本到语音模型。 11 v4 和 v4 Turbo 是我们迄今为止最快、最激动人心的模型，它们已经领先于独立基准测试。",
+        "除了模型之外，我们还为人工智能构建了完整的交互平台。它允许组织部署会话代理，连接到他们的知识和系统，在任何行业、地理位置或环境中自然地交互。这种转变在很大程度上推动了我们的增长，随着企业采用 ElevenAgents 来支持其客户和员工，企业收入目前占我们收入的 55%。我们的技术现已应用于全球十大科技公司中的五家、十大保险公司中的五家以及十大电信公司中的四家的日常运营中。",
+        "ElevenLabs 联合创始人兼首席执行官 Mati Staniszewski 表示：“人工智能应该像我们彼此互动一样与人互动。” “正确实现这一点将有助于确保人工智能在整个经济中广泛传播，无论技术水平如何，每个人都能够塑造人工智能并从中受益。我们已经看到企业和政府迅速采用富有表现力的语音代理，他们正在部署它们来为消费者和公民服务。随着我们的发展，让我们的员工分享他们为我们的客户和更广泛的世界创造的一些价值对我们来说很重要。”",
+        "作为招标的一部分，BDT & MSD、EQT、GIC、高盛、OTPP 和 Sapphire Ventures 首次投资 ElevenLabs，现有投资者包括 Alkeon、Andreessen Horowitz、D.E. Shaw、DISRUPTIVE、Evantic、ICONIQ 和 Lightspeed。",
+        "人工智能在经济和社会中的采用率在很大程度上取决于它与人类互动的程度。人工智能在科学、编码和知识工作等领域正在迅速发展，但在日常生活的许多领域，交互风格与原始推理能力同样重要，甚至更重要。",
+        "我们的目标是构建在与人们的日常互动中直观且值得信赖的人工智能，以便每个人都可以从这项技术中受益。语音是这项工作的关键部分：它是人们交流的最快、最自然的方式，比单纯的语言承载更多的意义和身份。但让人工智能听起来像人类只是第一步。我们现在的目标是开发能够理解上下文并在任何环境中自然交互的人工智能。",
+        "这是一项艰巨的技术挑战，我们在三个层面上应对："
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 我们最近完成了一项 3 亿美元的员工收购要约，ElevenLabs 的估值为 220 亿美元，是 2 月份 D 轮估值的两倍。此轮融资由 W"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "ElevenLabs reaches $22bn valuation after employee tender",
+      "originalLang": "en",
+      "date": "2026-09-30",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/tender-22bn",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "ElevenLabs reaches $22bn valuation after employee tender"
+      },
+      "raw": {
+        "title": "ElevenLabs valuation increases to $22 billion fueled by enterprise demand for conversational agents",
+        "url": "https://elevenlabs.io/blog/tender-22bn",
+        "fetched": true,
+        "savedAt": "2026-10-12T03:51:41.121Z"
+      }
+    },
+    {
+      "id": "sig-1a06056d8b",
+      "title": "ElevenLabs 在比利时成立并在布鲁塞尔开设办事处",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 今天，我们在比利时正式推出。我们将在布鲁塞尔开设办事处，以满足我们的客户需求，构建本地化人工智能并扩大我们在全国各地的实体业务。",
+          "在 ElevenLabs，我们的人工智能模型能够以人类水平说话、聆听和翻译 90 多种语言，并且我们的对话代理可以适应任何业务或文化。各种组织都使用我们的平台来推动与其最重要的受众（从企业和客户到政府和公民、医生和患者、艺术家和粉丝）的新互动。为了感受到自然和文化相关性，人工智能必须是本地化的。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 4,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/belgium"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 注册 博客 公司 ElevenLabs 在比利时推出 发布于 2026 年 9 月 30 日 最后更新于 2026 年 10 月 5 日 听 听这篇文章",
+        "0:00 1.0x 今天，我们在比利时正式推出。我们将在布鲁塞尔开设办事处，以满足我们的客户需求，构建本地化人工智能并扩大我们在全国各地的实体业务。",
+        "在 ElevenLabs，我们的人工智能模型能够以人类水平说话、聆听和翻译 90 多种语言，并且我们的对话代理可以适应任何业务或文化。各种组织都使用我们的平台来推动与其最重要的受众（从企业和客户到政府和公民、医生和患者、艺术家和粉丝）的新互动。为了感受到自然和文化相关性，人工智能必须是本地化的。",
+        "为了加深我们与比利时企业的合作伙伴关系，我们任命 Falke Van Onacker 领导我们的比利时办事处。我们还计划今年将比利时团队规模扩大两倍，其中大部分将驻扎在布鲁塞尔办事处。",
+        "比利时是 ElevenLabs 自然而然的运营地点。这是一个拥有三种官方语言的国家，布鲁塞尔每天使用 100 多种不同的语言。这是世界上最大的口译业务，我们的技术旨在补充这一点。",
+        "ElevenLabs 联合创始人兼首席执行官 Mati Staniszewski 表示：“比利时，尤其是布鲁塞尔，是世界上对语音和语言最有趣的地方之一。” “我们已经看到比利时企业的强劲需求，我们正在扩大我们的本地团队，与客户并肩工作，打造适合他们的品牌和环境的人工智能。”",
+        "比利时企业正在采用 ElevenLabs 进行代理部署、转录、内容创建和可访问性。我们很自豪能够支持这些公司，包括：",
+        "目前，约 20 个比利时组织持有活跃的 ElevenLabs 赠款，支持教育、艺术和无障碍方面的工作。这反映了我们对商业部署之外的本地生态系统的承诺。",
+        "“ElevenLabs 是为像比利时这样的国家而设计的，我们就在布鲁塞尔欧洲区的中心开设了办事处，”ElevenLabs 新任比利时负责人 Falke Van Onacker 说道。 “对护理、援助和人类专业知识的需求持续增长。我们正在构建本地化语音代理，以在每时每刻提供每种语言的专业知识。”"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 今天，我们在比利时正式推出。我们将在布鲁塞尔开设办事处，以满足我们的客户需求，构建本地化人工智能并扩大我们在全国各地的实体业务。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "ElevenLabs launches in Belgium and opens office in Brussels",
+      "originalLang": "en",
+      "date": "2026-09-30",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/belgium",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "ElevenLabs launches in Belgium and opens office in Brussels"
+      },
+      "raw": {
+        "title": "ElevenLabs launches in Belgium",
+        "url": "https://elevenlabs.io/blog/belgium",
+        "fetched": true,
+        "savedAt": "2026-10-12T03:51:50.333Z"
+      }
     },
     {
       "id": "sig-1a601b09c6",
@@ -12763,7 +13604,7 @@
         "url": "https://cursor.com/changelog/rollouts-and-security-reviewer",
         "fetched": true,
         "savedAt": "2026-09-27T03:09:42.462Z",
-        "retranslatedAt": "2026-10-11T03:27:52.001Z"
+        "retranslatedAt": "2026-10-12T03:51:52.325Z"
       }
     },
     {
@@ -21888,7 +22729,7 @@
         "url": "https://cursor.com/changelog/projects",
         "fetched": true,
         "savedAt": "2026-09-12T02:41:59.708Z",
-        "retranslatedAt": "2026-10-11T03:27:53.220Z"
+        "retranslatedAt": "2026-10-12T03:51:53.424Z"
       }
     },
     {
@@ -27241,7 +28082,7 @@
         "url": "https://cursor.com/changelog/self-hosted-machines",
         "fetched": true,
         "savedAt": "2026-09-03T02:33:34.106Z",
-        "retranslatedAt": "2026-10-11T03:27:54.346Z"
+        "retranslatedAt": "2026-10-12T03:51:54.557Z"
       }
     },
     {
@@ -30386,713 +31227,6 @@
         "url": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
         "fetched": false,
         "savedAt": "2026-08-30T03:05:05.869Z"
-      }
-    },
-    {
-      "id": "sig-b9b1ef532b",
-      "title": "您如何实际衡量人工智能对设计的影响？ | Figma 博客",
-      "oneLiner": "2024 年，我们启动了一项研究，以了解人工智能将如何重塑设计和产品开发。现在，人工智能正在帮助我们运行它。",
-      "summary": {
-        "oneSentence": "2024 年，我们启动了一项研究，以了解人工智能将如何重塑设计和产品开发。现在，人工智能正在帮助我们运行它。",
-        "bullets": [
-          "2024 年，我们启动了一项研究，以了解人工智能将如何重塑设计和产品开发。现在，人工智能正在帮助我们运行它。",
-          "当人工智能工具和产品几年前开始势头强劲时，我们知道我们想要跟踪它们对设计行业的影响，从工作方式到产品开发策略。我们有大大小小的问题：人工智能到底能节省多少时间？人工智能将如何改变团队协作的方式，人们对此有何感受？哪些工具可以帮助我们全面衡量人工智能的影响？",
-          "像人工智能这样的新技术不会一下子改变整个行业；而是会一下子改变整个行业。随着时间的推移，效果会复合。因此，我们启动了一项为期多年的研究项目 Figma 的 2026 年人工智能报告：人工智能能否帮助我们更好地协作？人工智能曾经是独行侠。根据我们的研究，现在已经不再是这样了。",
-          "以下是我们构建的内容，以及我们在使用人工智能进行大规模研究方面学到的知识。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Figma 官网发布：2024 年，我们启动了一项研究，以了解人工智能将如何重塑设计和产品开发。现在，人工智能正在帮助我们运行它。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://www.figma.com/blog/measuring-the-impact-of-ai/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "2024 年，我们启动了一项研究，以了解人工智能将如何重塑设计和产品开发。现在，人工智能正在帮助我们运行它。",
-        "当人工智能工具和产品几年前开始势头强劲时，我们知道我们想要跟踪它们对设计行业的影响，从工作方式到产品开发策略。我们有大大小小的问题：人工智能到底能节省多少时间？人工智能将如何改变团队协作的方式，人们对此有何感受？哪些工具可以帮助我们全面衡量人工智能的影响？",
-        "像人工智能这样的新技术不会一下子改变整个行业；而是会一下子改变整个行业。随着时间的推移，效果会复合。因此，我们启动了一项为期多年的研究项目 Figma 的 2026 年人工智能报告：人工智能能否帮助我们更好地协作？人工智能曾经是独行侠。根据我们的研究，现在已经不再是这样了。",
-        "以下是我们构建的内容，以及我们在使用人工智能进行大规模研究方面学到的知识。",
-        "下载 Figma 的 2026 年人工智能报告，探索我们一直在跟踪的趋势。",
-        "首先，我们决定创建一个情绪指数，这是一个反映一群人对某件事的感受的单一量表。最著名的例子是密歇根大学的消费者信心指数，该指数追踪人们对经济的乐观或悲观程度。它并不衡量经济的实际表现；而是衡量经济的实际状况。它捕捉自信或焦虑的感觉，以及它如何影响消费习惯等行为。这正是我们想要了解的关于人工智能的内容：不仅仅是人工智能可以做什么，还有工作如何变化、人们对它的感受如何，以及它对设计的未来意味着什么。",
-        "我们询问参与者在过去 12 个月中经历了什么，以及他们期望在未来 12 个月中经历什么。将预测与现实进行比较可以告诉我们人工智能是否符合预期、超过预期或未达到预期。",
-        "2026 年，每个维度都超出了去年的预期 10 多个指数点——协作几乎翻了一番，从 32 增加到 58，而个人生产力、项目和产品则从 40 多岁攀升至 60 多分和 70 多分。",
-        "为了构建 Figma 的 AI 影响指数，我们向设计师、开发人员和产品经理询问了一些问题，例如“在过去 12 个月中，AI 在多大程度上影响了您的个人生产力和工作流程？”以及“在接下来的 12 个月里，您预计人工智能会在多大程度上影响您与他人的协作方式？”我们按照从 0（无影响）到 100（变革）的等级来绘制答案。 50 分左右意味着人工智能正在成为某人工作的一部分，但并未完全重塑工作；分数攀升至 100 分意味着人工智能正在从根本上改变他们的日常生活。",
-        "与任何新技术一样，人工智能对工作的不同方面的影响是不均匀的——例如，个人的生产力变化先于整个团队的变化。这就是为什么我们围绕产品构建者工作的六个维度来提出问题。我们在过去三年中使用了相同的问题，因此我们可以跟踪每个领域的趋势："
-      ],
-      "highlights": [
-        "2024 年，我们启动了一项研究，以了解人工智能将如何重塑设计和产品开发。现在，人工智能正在帮助我们运行它。",
-        "当人工智能工具和产品几年前开始势头强劲时，我们知道我们想要跟踪它们对设计行业的影响，从工作方式到产品开发策略。我们有大大小小的问题：人工智能到底能节省多少时间？",
-        "像人工智能这样的新技术不会一下子改变整个行业；而是会一下子改变整个行业。随着时间的推移，效果会复合。因此，我们启动了一项为期多年的研究项目 Figma 的 20"
-      ],
-      "translated": true,
-      "originalTitle": "How Do You Actually Measure the Impact of AI on Design? | Figma Blog",
-      "originalLang": "en",
-      "date": "2026-08-28",
-      "categoryIds": [
-        "vertical-ui"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Figma",
-        "author": "Figma",
-        "url": "https://www.figma.com/blog/measuring-the-impact-of-ai/",
-        "home": "https://www.figma.com/blog/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "How Do You Actually Measure the Impact of AI on Design? | Figma Blog"
-      },
-      "raw": {
-        "title": "How do you actually measure the impact of AI on design?",
-        "url": "https://www.figma.com/blog/measuring-the-impact-of-ai/",
-        "fetched": true,
-        "savedAt": "2026-08-29T05:12:43.774Z",
-        "retranslatedAt": "2026-09-01T03:06:45.111Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-ec7e106bea",
-      "title": "资料来源：i-D 杂志主编并不害怕视觉混乱 | Figma 博客",
-      "oneLiner": "Thom Bettridge 探讨了哪些杂志塑造了他的品味，以及他最常打破的设计规则。",
-      "summary": {
-        "oneSentence": "Thom Bettridge 探讨了哪些杂志塑造了他的品味，以及他最常打破的设计规则。",
-        "bullets": [
-          "Thom Bettridge 探讨了哪些杂志塑造了他的品味，以及他最常打破的设计规则。",
-          "欢迎来到《Source Material》，这是一个每周系列，塑造文化的设计师和创意人员将分享塑造他们的参考资料。 Figma 的第一位嘉宾是 i-D 杂志主编、Content World 创始人 Thom Bettridge。",
-          "拍摄结束后，我们采访了 Thom，了解了他的创作过程：",
-          "当您意识到“这可能是我的工作”时，您正在做什么？"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Figma 官网发布：Thom Bettridge 探讨了哪些杂志塑造了他的品味，以及他最常打破的设计规则。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://www.figma.com/blog/source-material-i-d-magazine-editor-in-chief-thom-bettridge/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Thom Bettridge 探讨了哪些杂志塑造了他的品味，以及他最常打破的设计规则。",
-        "欢迎来到《Source Material》，这是一个每周系列，塑造文化的设计师和创意人员将分享塑造他们的参考资料。 Figma 的第一位嘉宾是 i-D 杂志主编、Content World 创始人 Thom Bettridge。",
-        "拍摄结束后，我们采访了 Thom，了解了他的创作过程：",
-        "当您意识到“这可能是我的工作”时，您正在做什么？",
-        "我在 032c 工作的第一期是 Raf Simons 回顾期。我记得当我从打印机那里拿回那张纸时，我想：“天啊，我帮忙做了这个……而且它真的太棒了。”",
-        "当你坐下来工作时，你做的第一件事是什么？",
-        "如果没有 a) 音乐和 b) Yerba Madre，我就无法做任何类似工作的事情。",
-        "你会带进坟墓的设计对象是什么？",
-        "可能是我的泰迪熊。但在我的坟墓上放一张巴塞罗那沙发也很酷，这样人们就可以和我一起躺一会儿。",
-        "您厌倦了当前的哪些设计趋势？"
-      ],
-      "highlights": [
-        "Thom Bettridge 探讨了哪些杂志塑造了他的品味，以及他最常打破的设计规则。",
-        "欢迎来到《Source Material》，这是一个每周系列，塑造文化的设计师和创意人员将分享塑造他们的参考资料。 Figma 的第一位嘉宾是 i-D 杂志主编",
-        "拍摄结束后，我们采访了 Thom，了解了他的创作过程："
-      ],
-      "translated": true,
-      "originalTitle": "Source Material: i-D Magazine’s Editor in Chief Is Not Afraid of Visual Chaos | Figma Blog",
-      "originalLang": "en",
-      "date": "2026-08-28",
-      "categoryIds": [
-        "vertical-ui"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Figma",
-        "author": "Figma",
-        "url": "https://www.figma.com/blog/source-material-i-d-magazine-editor-in-chief-thom-bettridge/",
-        "home": "https://www.figma.com/blog/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Source Material: i-D Magazine’s Editor in Chief Is Not Afraid of Visual Chaos | Figma Blog"
-      },
-      "raw": {
-        "title": "Source material: i-D Magazine’s editor in chief is not afraid of visual chaos",
-        "url": "https://www.figma.com/blog/source-material-i-d-magazine-editor-in-chief-thom-bettridge/",
-        "fetched": true,
-        "savedAt": "2026-08-29T05:12:45.763Z",
-        "retranslatedAt": "2026-09-01T03:06:52.555Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-092c8de02e",
-      "title": "Cursor 被 SpaceX 收购后我们对 Cursor 的决定",
-      "oneLiner": "在 Cursor 被 SpaceX 收购后，我们决定终止向 Cursor 提供 OpenAI 模型的合同。",
-      "summary": {
-        "oneSentence": "在 Cursor 被 SpaceX 收购后，我们决定终止向 Cursor 提供 OpenAI 模型的合同。",
-        "bullets": [
-          "在 Cursor 被 SpaceX 收购后，我们决定终止向 Cursor 提供 OpenAI 模型的合同。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：在 Cursor 被 SpaceX 收购后，我们决定终止向 Cursor 提供 OpenAI 模型的合同。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "在 Cursor 被 SpaceX 收购后，我们决定终止向 Cursor 提供 OpenAI 模型的合同。"
-      ],
-      "highlights": [
-        "在 Cursor 被 SpaceX 收购后，我们决定终止向 Cursor 提供 OpenAI 模型的合同。"
-      ],
-      "translated": true,
-      "originalTitle": "Our decision on Cursor following its acquisition by SpaceX",
-      "originalLang": "en",
-      "date": "2026-08-28",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Our decision on Cursor following its acquisition by SpaceX"
-      },
-      "raw": {
-        "title": "Our decision on Cursor following its acquisition by SpaceX",
-        "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-        "fetched": false,
-        "savedAt": "2026-08-29T05:12:47.165Z",
-        "retranslatedAt": "2026-09-01T03:06:53.745Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-0b00c80d50",
-      "title": "支持泰国下一代人工智能初创公司",
-      "oneLiner": "OpenAI 和泰国的 MHESI 推出了为期八周的加速器，帮助 10 家健康、保健和教育初创公司将人工智能原型转变为值得信赖的产品。",
-      "summary": {
-        "oneSentence": "OpenAI 和泰国的 MHESI 推出了为期八周的加速器，帮助 10 家健康、保健和教育初创公司将人工智能原型转变为值得信赖的产品。",
-        "bullets": [
-          "OpenAI 和泰国的 MHESI 推出了为期八周的加速器，帮助 10 家健康、保健和教育初创公司将人工智能原型转变为值得信赖的产品。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：OpenAI 和泰国的 MHESI 推出了为期八周的加速器，帮助 10 家健康、保健和教育初创公司将人工智能原型转变为值得信赖的产品。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/supporting-next-generation-ai-startups-thailand"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "OpenAI 和泰国的 MHESI 推出了为期八周的加速器，帮助 10 家健康、保健和教育初创公司将人工智能原型转变为值得信赖的产品。"
-      ],
-      "highlights": [
-        "OpenAI 和泰国的 MHESI 推出了为期八周的加速器，帮助 10 家健康、保健和教育初创公司将人工智能原型转变为值得信赖的产品。"
-      ],
-      "translated": true,
-      "originalTitle": "Supporting Thailand’s next generation of AI startups",
-      "originalLang": "en",
-      "date": "2026-08-28",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Supporting Thailand’s next generation of AI startups"
-      },
-      "raw": {
-        "title": "Supporting Thailand’s next generation of AI startups",
-        "url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-        "fetched": false,
-        "savedAt": "2026-08-29T05:12:48.690Z",
-        "retranslatedAt": "2026-09-01T03:06:54.927Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-5580f1a132",
-      "title": "Hy4 预览版现已在 AI Gateway - Vercel 上提供",
-      "oneLiner": "腾讯的 Hy4 Preview 现已在 AI Gateway 上提供。",
-      "summary": {
-        "oneSentence": "腾讯的 Hy4 Preview 现已在 AI Gateway 上提供。",
-        "bullets": [
-          "腾讯的 Hy4 Preview 现已在 AI Gateway 上提供。",
-          "Hy4 Preview 是一个开源的 Mixture-of-Experts 模型，总参数为 770B，每个代币有 49B 活跃值，旨在长期编码、文档分析、游戏开发和科学推理。它提供 1M 个令牌的上下文窗口。",
-          "要使用Hy4 Preview，请在AI SDK中将模型设置为tencent/hy4-preview：",
-          "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText({ 4 model: 'tencent/hy4-preview' , 5prompt : '为结果端点添加分页。' , 6 }) ;"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：腾讯的 Hy4 Preview 现已在 AI Gateway 上提供。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/hy4-preview-now-available-on-ai-gateway"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "腾讯的 Hy4 Preview 现已在 AI Gateway 上提供。",
-        "Hy4 Preview 是一个开源的 Mixture-of-Experts 模型，总参数为 770B，每个代币有 49B 活跃值，旨在长期编码、文档分析、游戏开发和科学推理。它提供 1M 个令牌的上下文窗口。",
-        "要使用Hy4 Preview，请在AI SDK中将模型设置为tencent/hy4-preview：",
-        "1 从 'ai' 导入 {streamText} ； 2 3 const result = streamText({ 4 model: 'tencent/hy4-preview' , 5prompt : '为结果端点添加分页。' , 6 }) ;",
-        "要在编码代理中使用它，请参阅编码代理指南 ，然后运行 ​​vercel ai-gatewaycoding-agents setup 以连接 Claude Code、Codex、OpenCode、Cursor、Pi 等代理，并在代理内选择 tencent/hy4-preview。",
-        "在模型游乐场中尝试 Hy4 Preview。",
-        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本，以及配置重试、故障转移和性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、零数据保留支持、API 密钥预算、路由规则等。",
-        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。",
-        "您可以查看AI网关上所有可用的语言模型。"
-      ],
-      "highlights": [
-        "腾讯的 Hy4 Preview 现已在 AI Gateway 上提供。",
-        "Hy4 Preview 是一个开源的 Mixture-of-Experts 模型，总参数为 770B，每个代币有 49B 活跃值，旨在长期编码、文档分析、游戏开",
-        "要使用Hy4 Preview，请在AI SDK中将模型设置为tencent/hy4-preview："
-      ],
-      "translated": true,
-      "originalTitle": "Hy4 Preview now available on AI Gateway - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-28",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/hy4-preview-now-available-on-ai-gateway",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Hy4 Preview now available on AI Gateway - Vercel"
-      },
-      "raw": {
-        "title": "Hy4 Preview now available on AI Gateway",
-        "url": "https://vercel.com/changelog/hy4-preview-now-available-on-ai-gateway",
-        "fetched": true,
-        "savedAt": "2026-08-29T05:12:50.183Z",
-        "retranslatedAt": "2026-09-01T03:07:02.003Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-d767e552b1",
-      "title": "从 Vercel 仪表板构建和部署 eve 代理 - Vercel",
-      "oneLiner": "您现在可以直接从 Vercel 仪表板创建 eve 代理，为您提供一个可以立即与之聊天的已部署代理。构建器搭建代理的支架，创建包含其文件的私有 Git 存储库，并将其部署为团队中的新 Vercel 项目。只需单击几下，您就可以获得一个工作代",
-      "summary": {
-        "oneSentence": "您现在可以直接从 Vercel 仪表板创建 eve 代理，为您提供一个可以立即与之聊天的已部署代理。构建器搭建代理的支架，创建包含其文件的私有 Git 存储库，并将其部署为团队中的新 Vercel 项目。只需单击几下，您就可以获得一个工作代",
-        "bullets": [
-          "您现在可以直接从 Vercel 仪表板创建 eve 代理，为您提供一个可以立即与之聊天的已部署代理。构建器搭建代理的支架，创建包含其文件的私有 Git 存储库，并将其部署为团队中的新 Vercel 项目。只需单击几下，您就可以获得一个工作代理，该代理由存储库提供支持，其中包含可用于自定义它的代码。",
-          "编写定义代理身份的指令",
-          "选择通过 AI Gateway 可用的任何模型",
-          "添加 Next.js 网络聊天或 Slack 频道，人们可以在其中与代理交谈"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：您现在可以直接从 Vercel 仪表板创建 eve 代理，为您提供一个可以立即与之聊天的已部署代理。构建器搭建代理的支架，创建包含其文件的私有 Git 存储库，并将其部署为团队中的新 Vercel 项目。只需单击几下，您就可以获得一个工作代",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/build-and-deploy-eve-agents-from-the-vercel-dashboard"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "您现在可以直接从 Vercel 仪表板创建 eve 代理，为您提供一个可以立即与之聊天的已部署代理。构建器搭建代理的支架，创建包含其文件的私有 Git 存储库，并将其部署为团队中的新 Vercel 项目。只需单击几下，您就可以获得一个工作代理，该代理由存储库提供支持，其中包含可用于自定义它的代码。",
-        "编写定义代理身份的指令",
-        "选择通过 AI Gateway 可用的任何模型",
-        "添加 Next.js 网络聊天或 Slack 频道，人们可以在其中与代理交谈",
-        "通过 Linear 和 Notion 等内置连接或自定义 MCP 服务器为代理提供来自其他服务的工具和数据",
-        "在仪表板中选择添加新→代理以创建您的第一个代理。",
-        "克里什·克里什、周艾伦、科尔顿·帕登、罗曼·奥利尼克、凯西·高里"
-      ],
-      "highlights": [
-        "您现在可以直接从 Vercel 仪表板创建 eve 代理，为您提供一个可以立即与之聊天的已部署代理。构建器搭建代理的支架，创建包含其文件的私有 Git 存储库，",
-        "编写定义代理身份的指令",
-        "选择通过 AI Gateway 可用的任何模型"
-      ],
-      "translated": true,
-      "originalTitle": "Build and deploy eve agents from the Vercel dashboard - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-28",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/build-and-deploy-eve-agents-from-the-vercel-dashboard",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Build and deploy eve agents from the Vercel dashboard - Vercel"
-      },
-      "raw": {
-        "title": "Build and deploy eve agents from the Vercel dashboard",
-        "url": "https://vercel.com/changelog/build-and-deploy-eve-agents-from-the-vercel-dashboard",
-        "fetched": true,
-        "savedAt": "2026-08-29T05:12:51.802Z",
-        "retranslatedAt": "2026-09-02T02:27:16.328Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-790b02624c",
-      "title": "Vercel CLI 扩展了 DNS、域和项目的命令 - Vercel",
-      "oneLiner": "Vercel CLI 现在提供用于管理 DNS 记录、域和项目的专用命令。这将通过 Vercel 仪表板和 API 提供给终端的更多功能，可以在脚本中或由代理以交互方式使用。",
-      "summary": {
-        "oneSentence": "Vercel CLI 现在提供用于管理 DNS 记录、域和项目的专用命令。这将通过 Vercel 仪表板和 API 提供给终端的更多功能，可以在脚本中或由代理以交互方式使用。",
-        "bullets": [
-          "Vercel CLI 现在提供用于管理 DNS 记录、域和项目的专用命令。这将通过 Vercel 仪表板和 API 提供给终端的更多功能，可以在脚本中或由代理以交互方式使用。",
-          "将链接复制到标题 检查和更新 DNS 记录 检索 DNS 记录的完整配置或使用其记录 ID 对其进行更新。",
-          "vercel dns 检查rec_123 vercel dns 更新rec_123 \\ --value 76.76 .21.21 \\ --ttl 300",
-          "vercel dns 更新支持更改记录名称、类型、值、TTL、MX 优先级和注释。 SRV 记录还可以使用其优先级、权重、端口和目标字段进行更新。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Vercel CLI 现在提供用于管理 DNS 记录、域和项目的专用命令。这将通过 Vercel 仪表板和 API 提供给终端的更多功能，可以在脚本中或由代理以交互方式使用。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/vercel-cli-expands-commands-for-dns-domains-and-projects"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Vercel CLI 现在提供用于管理 DNS 记录、域和项目的专用命令。这将通过 Vercel 仪表板和 API 提供给终端的更多功能，可以在脚本中或由代理以交互方式使用。",
-        "将链接复制到标题 检查和更新 DNS 记录 检索 DNS 记录的完整配置或使用其记录 ID 对其进行更新。",
-        "vercel dns 检查rec_123 vercel dns 更新rec_123 \\ --value 76.76 .21.21 \\ --ttl 300",
-        "vercel dns 更新支持更改记录名称、类型、值、TTL、MX 优先级和注释。 SRV 记录还可以使用其优先级、权重、端口和目标字段进行更新。",
-        "将链接复制到标题续订在 Vercel 上购买的域名 按需续订域名或控制是否自动续订。",
-        "vercel 域名续订 example.com vercel 域名自动续订 example.com 开启 vercel 域名自动续订 example.com 关闭",
-        "续订命令显示当前续订价格并在完成购买之前要求确认。",
-        "将链接复制到标题 控制项目状态和可观察性 暂停或恢复项目并直接从 CLI 配置其可观察性功能。 Web Analytics 和 Speed Insights 已经可以从 CLI 启用；现在也可以禁用它们。",
-        "vercel 项目暂停 vercel 项目恢复 vercel 项目可观察性 启用 vercel 项目可观察性 禁用 vercel 项目 web-analytics 禁用 vercel 项目 speed-insights 禁用",
-        "将链接复制到标题 添加和删除项目成员 添加具有特定角色的项目成员或删除现有成员。"
-      ],
-      "highlights": [
-        "Vercel CLI 现在提供用于管理 DNS 记录、域和项目的专用命令。这将通过 Vercel 仪表板和 API 提供给终端的更多功能，可以在脚本中或由代理以",
-        "将链接复制到标题 检查和更新 DNS 记录 检索 DNS 记录的完整配置或使用其记录 ID 对其进行更新。",
-        "vercel dns 检查rec_123 vercel dns 更新rec_123 \\ --value 76.76 .21.21 \\ --ttl 300"
-      ],
-      "translated": true,
-      "originalTitle": "Vercel CLI expands commands for DNS, domains, and projects - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-28",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/vercel-cli-expands-commands-for-dns-domains-and-projects",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Vercel CLI expands commands for DNS, domains, and projects - Vercel"
-      },
-      "raw": {
-        "title": "Vercel CLI expands commands for DNS, domains, and projects",
-        "url": "https://vercel.com/changelog/vercel-cli-expands-commands-for-dns-domains-and-projects",
-        "fetched": true,
-        "savedAt": "2026-08-29T05:12:53.441Z",
-        "retranslatedAt": "2026-09-02T02:27:26.014Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-c03b509bb3",
-      "title": "Just a rumour of a bug is enough to find a security exploit these days",
-      "oneLiner": "Just a rumour of a bug is enough to find a security exploit these days Anil Madhavapeddy is a profes",
-      "summary": {
-        "oneSentence": "Just a rumour of a bug is enough to find a security exploit these days Anil Madhavapeddy is a professor of computer scie",
-        "bullets": [
-          "Just a rumour of a bug is enough to find a security exploit these days Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat a"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Just a rumour of a bug is enough to find a security exploit these days Anil Madhavapeddy is a professor of computer science at Cambridge and a core maintainer of the OCaml compiler. In this somewhat alarming post he reports that security issues in OCaml projects are seeing evidence of attempted exploits within minutes of patches being shared for discussion: This normally takes a few days and a release within a week or two is reasonable. Within about ten minutes (!) this website was fielding probes for percent-encoded traversal sequences, indicating that automated watchers are keeping an eye on public repositories. Modern coding agents have become so effective at finding flaws that the slightest hint at a new bug can be enough information for them to find it, something Anil has been able to demonstrate using his own agents, switching to DeepSeek V4 Pro⁠ when Claude Fable refused the task. Anil points out that this rate of discovery appears incompatible with existing open source embargo practices for new issues. If an issue can become an exploit this fast, we need to figure out new processes for keeping our communities safe. rclone maintainer Nick Craig-Wood confirms in the Hacker News comments that his project is seeing this problem: In the first 10 years of the rclone project we received about 20 security disclosures through GitHub. We had to deal with over 40 in the last month! That has taken a huge amount of my time, even using AI tools to triage and come up with fixes for review. The hit rate for those security disclosures is pretty good - about 75% of them have a nugget of something which needs looking at. [...] GitHub assigns CVEs for the advisories. Before the AI apocalypse they took 2-3 days for an assignment but now it they are running at 3-4 weeks so I have to send the point releases out with CVE-PENDING in the changelog which isn't ideal. Via Hacker News Tags: open-source , security , ai , generative-ai , llms , coding-agents , ocaml , ai-security-research"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Just a rumour of a bug is enough to find a security exploit these days",
-      "originalLang": "en",
-      "date": "2026-08-28",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Just a rumour of a bug is enough to find a security exploit these days"
-      },
-      "raw": {
-        "title": "Just a rumour of a bug is enough to find a security exploit these days",
-        "url": "https://simonwillison.net/2026/Aug/28/just-a-rumour-of-a-bug/",
-        "fetched": false,
-        "savedAt": "2026-08-31T02:58:29.406Z"
-      }
-    },
-    {
-      "id": "sig-1d5fd45bef",
-      "title": "[AINews] OpenAI to reach AGI bar by end-2026",
-      "oneLiner": "It’s Time. We’re in the Endgame now.",
-      "summary": {
-        "oneSentence": "It’s Time. We’re in the Endgame now.",
-        "bullets": [
-          "It’s Time. We’re in the Endgame now."
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "It’s Time. We’re in the Endgame now."
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "[AINews] OpenAI to reach AGI bar by end-2026",
-      "originalLang": "en",
-      "date": "2026-08-28",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Latent Space",
-        "author": "swyx",
-        "url": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "[AINews] OpenAI to reach AGI bar by end-2026"
-      },
-      "raw": {
-        "title": "[AINews] OpenAI to reach AGI bar by end-2026",
-        "url": "https://www.latent.space/p/ainews-openai-to-reach-agi-bar-by",
-        "fetched": false,
-        "savedAt": "2026-08-31T02:58:30.207Z"
       }
     }
   ]
