@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-12T03:51:55.361Z",
+  "updatedAt": "2026-10-13T05:01:41.172Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 402,
+  "itemCount": 410,
   "brief": {
-    "date": "2026-10-12",
-    "generatedAt": "2026-10-12T03:51:55.360Z",
-    "totalCount": 402,
-    "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 402 条",
+    "date": "2026-10-13",
+    "generatedAt": "2026-10-13T05:01:41.171Z",
+    "totalCount": 410,
+    "todayCount": 1,
+    "headline": "今日 AI 信号 1 条 · 档案共 410 条",
     "topUpdates": [
       {
         "id": "sig-ddd28519b3",
@@ -91,8 +91,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-10-12T03:51:55.361Z",
-    "summary": "近 30 天共 260 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-10-13T05:01:41.172Z",
+    "summary": "近 30 天共 269 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -400,6 +400,579 @@
   ],
   "items": [
     {
+      "id": "sig-2ff3dd6446",
+      "title": "How we solve 22,000 support tickets every month with ElevenAgents",
+      "oneLiner": "We utilize ElevenAgents procedures, simulation tests, tools, and more to enable the agent to look-up",
+      "summary": {
+        "oneSentence": "We utilize ElevenAgents procedures, simulation tests, tools, and more to enable the agent to look-up account information",
+        "bullets": [
+          "We utilize ElevenAgents procedures, simulation tests, tools, and more to enable the agent to look-up account information, take actions, and escalate"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://elevenlabs.io/blog/how-we-solve-22000-support-tickets-every-month-with-elevenagents"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> Introducing Eleven v4 Meet Eleven v4, our most emotive model yet. With 3x credits included on Creator+ until October 12",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem; } Skip to content Products Solutions Customers Resources Enterprise Pricing Log in Sign up Contact sales Log in [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() Sign up Blog Product How we solve 22,000 support tickets every month with ElevenAgents Written by Jake Tennant Omkar Waingankar Published Oct 13, 2026 Listen Listen to this article",
+        "0:00 1.0x We run our own customer support on ElevenAgents, resolving over 22,000 tickets monthly without needing to involve a single person. Our AI support agent works with text, screenshots, and PDFs, and is integrated with our ticketing platform. It handles long running conversations, looks up account information, takes actions, and escalates cases to support staff when needed.",
+        "Last month, our AI support agent resolved 65% of our tickets end to end. Our average initial response time is now 60 seconds, down from hours before adding our ElevenAgents teammate. Across all conversations the AI agent handled, 70% were rated positively by users.",
+        "How we built our support agent Our support team already had detailed standard operating procedures for every major ticket category - refunds, billing changes, professional voice clone questions, and more. The core of the build was translating that existing knowledge into something an agent could execute reliably. Two ElevenAgents features were critical here: procedures and webhook tools.",
+        "Procedures allows teams to turn existing customer support standard operating procedures (SOPs) into repeatable agent workflows. We ported over our support team’s playbooks into Procedures for each major ticket category. For critical actions like issuing refunds, we rely on Structured Procedures to ensure each step is taken deterministically.",
+        "Webhook tools are customizable tools that allow agents to dynamically look up user information such as subscription tier, credit usage, user owned voices, and more. By using webhook tools, our support agent could access user information easily, increasing its ability to resolve the user’s issue end to end.",
+        "The following features enabled us to hit our customer support teams’ high quality bar:",
+        "Our customer support team uses ElevenAgents Architect - our natural language agent builder - in their daily workflow to better understand our customers and improve our AI agent:",
+        "Understand drivers. We constantly review why our agent gets stuck on tickets and where it can do better. With just a single natural language query, Architect provides us with a breakdown of top ticket categories. If asked, it also diagnoses why a specific issue was escalated, whether that be a knowledge base gap, missing tool, or internal policy we need to clarify. After finding the root cause, Architect then proposes changes that will improve our resolution rate.",
+        "Implement changes safely. To improve agent performance, our support team relies on Architect to draft, review and implement updates. Before anything ships, Architect creates new simulation tests and adds them to the full test suite to both ensure new procedures succeed and catch regressions before the changes hit production.",
+        "Our customer support team is in the loop to continue better understanding our customers’ needs, make policy updates, and to avoid overfitting to any given type of ticket. However, Architect has given them increased leverage to diagnose issues, iterate, test, and improve agent performance at the speed our growing product portfolio demands.",
+        "Looking to set up your own omnichannel customer support agents across email, chat, or voice? Learn more about ElevenAgents and get in touch.",
+        "Jake works on product and growth for ElevenAgents. Before ElevenLabs, he spent four years as a PM at Coinbase working across the consumer app."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "How we solve 22,000 support tickets monthly via ElevenAgents",
+      "originalLang": "en",
+      "date": "2026-10-13",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/how-we-solve-22000-support-tickets-every-month-with-elevenagents",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "How we solve 22,000 support tickets monthly via ElevenAgents"
+      },
+      "raw": {
+        "title": "How we solve 22,000 support tickets every month with ElevenAgents",
+        "url": "https://elevenlabs.io/blog/how-we-solve-22000-support-tickets-every-month-with-elevenagents",
+        "fetched": true,
+        "savedAt": "2026-10-13T05:01:26.712Z"
+      }
+    },
+    {
+      "id": "sig-40edabb2b8",
+      "title": "JavaScript speech recognition tutorial: Build voice UX",
+      "oneLiner": "Build live transcription and voice commands with this JavaScript speech recognition tutorial. Learn ",
+      "summary": {
+        "oneSentence": "Build live transcription and voice commands with this JavaScript speech recognition tutorial. Learn the Web Speech API a",
+        "bullets": [
+          "Build live transcription and voice commands with this JavaScript speech recognition tutorial. Learn the Web Speech API and when to switch to ElevenAPI."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://elevenlabs.io/blog/javascript-speech-recognition-tutorial"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> Introducing Eleven v4 Meet Eleven v4, our most emotive model yet. With 3x credits included on Creator+ until October 12",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem; } Skip to content Products Solutions Customers Resources Enterprise Pricing Log in Sign up Contact sales Log in [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() Learn more Get API key Blog Resources JavaScript speech recognition tutorial: Build voice UX Written by Jack Limebear Published Oct 12, 2026 Last updated Oct 13, 2026 Listen Listen to this article",
+        "0:00 1.0x Learn more Get API key On this page",
+        "Introducing speech recognition to websites and browser-based apps is now easier, thanks to browser-native speech to text (STT) APIs like the Web Speech API. Developers can easily stream microphone input, analyze audio data, and process transcripts by making API calls, without building a local automatic speech recognition server.",
+        "The Web Speech API is a common speech recognition API for implementing voice commands in JavaScript. It exposes methods, arguments, and properties that let you run real-time transcription in a web browser. However, developers might find the Web Speech API limited for complex web clients.",
+        "This guide walks through setting up a simple JavaScript speech recognition web app with the Web Speech API, its limitations, and alternatives for building more robust real-time transcription clients.",
+        "The Web Speech API gives web developers browser-native speech recognition without requiring a local server. Basically, the Web Speech API sends an audio stream from your web browser to a backend cloud service to process, analyze, and convert audio into transcripts. Because it relies on the browser’s backend engine to run transcription, you will get varying results across browsers.",
+        "Generally, the Web Speech API requires an active online connection to transcribe audio streams, particularly if you’re building for Chrome and Safari. However, some browsers now support offline transcription. For offline transcription, the browser acts as the speech to text engine, identifying phonemes and turning them into coherent text.",
+        "Regardless of the browser you use, the API’s fundamentals are the same.",
+        "However, because each browser may implement the STT engine differently, accuracy and latency may vary.",
+        "To use the Web Speech API, you initiate the SpeechRecognition interface in your JavaScript code. Then, you access methods, attributes, and event handlers as you code. Here are some you’ll use to build a voice search web client.",
+        "The Web Speech API returns the transcription in a string array. When the STT engine returns a transcript, whether interim or final, you can find it in the results array. It may return one or more strings. Therefore, you need to iterate through the result strings to retrieve all transcribed text.",
+        "Note: If you’ve enabled interim transcription, you check the isFinal property to determine if the text is a finalized transcript.",
+        "This example uses the JavaScript SpeechRecognition interface to build a real-time transcription web app. The screenshot below shows the finished page."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "JavaScript speech recognition tutorial: Web Speech API",
+      "originalLang": "en",
+      "date": "2026-10-12",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/javascript-speech-recognition-tutorial",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "JavaScript speech recognition tutorial: Web Speech API"
+      },
+      "raw": {
+        "title": "JavaScript speech recognition tutorial: Build voice UX",
+        "url": "https://elevenlabs.io/blog/javascript-speech-recognition-tutorial",
+        "fetched": true,
+        "savedAt": "2026-10-13T05:01:28.437Z"
+      }
+    },
+    {
+      "id": "sig-3533aaa5f4",
+      "title": "Muse Wonder now available on AI Gateway",
+      "oneLiner": "Muse Wonder from Meta is now available on AI Gateway. The model is designed for coding, long-running",
+      "summary": {
+        "oneSentence": "Muse Wonder from Meta is now available on AI Gateway. The model is designed for coding, long-running agents, and compute",
+        "bullets": [
+          "Muse Wonder from Meta is now available on AI Gateway. The model is designed for coding, long-running agents, and computer use. It can plan multi-step tasks, delegate work to sub-agents, and recover fr"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/muse-wonder-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Muse Wonder from Meta is now available on AI Gateway. The model is designed for coding, long-running agents, and computer use. It can plan multi-step tasks, delegate work to sub-agents, and recover from errors as work progresses.",
+        "Muse Wonder has a 1M-token context window and supports text, image, and PDF input, tool calling, and structured output. Agents can work with code, screenshots, and documents in the same workflow.",
+        "You can access the model through AI Gateway with one API key, without creating a separate Meta account.",
+        "Set AI_GATEWAY_API_KEY in your environment, then use meta/muse-wonder-1.0 as the model name:",
+        "API fx Claude Code Chat Completions API API fx fx Claude Code Claude Code Chat Completions Chat Completions 1 import { streamText } from 'ai' ; 2 3 const result = streamText ( { 4 model : 'meta/muse-wonder-1.0' , 5 prompt : 'Plan a codebase refactor and identify the tools needed.' , 6 } ) ; 7 8 for await ( const text of result . textStream ) { 9 process . stdout . write ( text ) ; 10 } Copy for agent View model details ↗ For coding agents, run npx vercel ai-gateway setup and select meta/muse-wonder-1.0 in your agent's model settings.",
+        "Try Muse Wonder in the model playground , or explore the model catalog .",
+        "AI Gateway provides one API for calling models, tracking usage and cost, and configuring routing, retries, and failover. You can use an AI Gateway API key or bring your own provider key ."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Muse Wonder now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-12",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/muse-wonder-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Muse Wonder now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Muse Wonder now available on AI Gateway",
+        "url": "https://vercel.com/changelog/muse-wonder-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-10-13T05:01:30.011Z"
+      }
+    },
+    {
+      "id": "sig-728a22683c",
+      "title": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents",
+      "oneLiner": "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tac",
+      "summary": {
+        "oneSentence": "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects ",
+        "bullets": [
+          "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.latent.space/p/claude-dynamic-workflows"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "At AI Engineer New York, Anthropic drew on lessons from Unix and Linux to explain how agents can tackle bigger projects without overwhelming developers."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents",
+      "originalLang": "en",
+      "date": "2026-10-12",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Latent Space",
+        "author": "swyx",
+        "url": "https://www.latent.space/p/claude-dynamic-workflows",
+        "home": "https://www.latent.space/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents"
+      },
+      "raw": {
+        "title": "How Anthropic’s Dynamic Workflows Coordinate Claude Agents",
+        "url": "https://www.latent.space/p/claude-dynamic-workflows",
+        "fetched": false,
+        "savedAt": "2026-10-13T05:01:32.412Z"
+      }
+    },
+    {
+      "id": "sig-92f57cbc84",
+      "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+      "oneLiner": "Python 3.15 is here ! Here's the essential What's new in Python 3.15 guide, this year curated by 3.1",
+      "summary": {
+        "oneSentence": "Python 3.15 is here ! Here's the essential What's new in Python 3.15 guide, this year curated by 3.14 and 3.15 release m",
+        "bullets": [
+          "Python 3.15 is here ! Here's the essential What's new in Python 3.15 guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works "
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Oct/12/python-3-15/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Python 3.15 is here ! Here's the essential What's new in Python 3.15 guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported Python version, I get to say goodbye to Python 3.10 and start embracing features from Python 3.11. First, some highlights from Python 3.15. Explicit lazy imports I'm most excited about Explicit lazy imports from PEP 810 . These let you import modules like so: lazy import json lazy from pathlib import Path The module will then be imported the first time those symbols are used in the code that follows. My LLM CLI tool implements plugins. I had to recommend manual lazy imports in the plugin author documentation, because simply installing plugins that used heavy dependencies such as sentence_transformers could add multiple seconds to every invocation of the llm command. Lazy imports directly address this startup cost. Unpacking in comprehensions The new [*sublist for sublist in lists] unpacking syntax is neat. Here's an illustration lifted from the documentation : lists = [[ 1 , 2 ], [ 3 , 4 ], [ 5 ]] [ * L for L in lists ] # [1, 2, 3, 4, 5] # equivalent to [x for L in lists for x in L] sets = [{ 1 , 2 }, { 2 , 3 }, { 3 , 4 }] { * s for s in sets } # {1, 2, 3, 4} # equivalent to {x for s in sets for x in s} dicts = [{ 'a' : 1 }, { 'b' : 2 }, { 'a' : 3 }] { ** d for d in dicts } # {'a': 3, 'b': 2} # equivalent to {k: v for d in dicts for k,v in d.items()} PEP 798: Unpacking in Comprehensions by Adam Hartz and Erik Demaine proposed this as an extension of the unpacking syntax from PEP 448 , which landed in Python 3.5 back in 2015. A sampling profiler Python's existing tracing profiler has been renamed from cProfile to profiling.tracing , and has been joined by an exciting new sampling profiler called Tachyon, aka profiling.sampling . Sampling profilers work by periodically capturing stack traces from running processes, then using those to calculate which functions have the most time spent inside of them. They're very low overhead and can provide a deep insight into running systems, without needing to instrument those systems first. I've previously used tools like py-spy for this. Now this capability is baked into the standard library. If you have the PID of an existing Python 3.15 process you can start gathering samples by running this (I had to use sudo on macOS): sudo uv run --python 3.15 python -m profiling.sampling attach 1234 Interact with the main program a bit, then hit Ctrl+C to stop gathering and see a report, which looks something like this: It can also produce flame graphs like this and heat maps like this , and can even output a format that can be viewed in the Firefox profiler UI. 3.15 isn't much faster than 3.14 Miguel Grinberg investigated How fast is Python 3.15? the other day against the 3.15.0rc3 release and found performance to be mostly the same as 3.14, with the exception of the experimental JIT. The JIT gave a 1.2x boost over the standard 3.15 interpreter (on a Fibonacci test), the first time Miguel observed a meaningful JIT performance increase. Miguel's explorations of 3.14 last year found significant boosts against Python 3.13 across many more categories. Upgrading to Python 3.15 with uv I used the following sequence of commands to get uv to use Python 3.15 on my Mac. First I had to upgrade uv itself to ensure it knew about the new release: uv self update Then I installed the stable 3.15 release: uv python install 3.15 And told uv that I wanted that to be the default for every uv run command, unless the project itself pinned a different version: uv python pin --global 3.15 Now the following reports 3.15 as the version: uv run python --version I already have a bunch of tools installed using uv tool install . I reinstalled them to use Python 3.15 like this: uv tool upgrade datasette --python 3.15 Then I can confirm the version like this: datasette --get /-/versions.json | jq Highlights from Python 3.11 The release of 3.15 means that Python 3.10 (released in 2021) is officially no longer supported . My policy for my main open source projects is to keep them working in every supported Python version. I can now drop 3.10 and start using features that were introduced in 3.11. Here's the What's new in Python 3.11 document. I finally get to rely on tomllib being available! Datasette makes extensive use of asyncio . 3.11 adds TaskGroup and timeout() , and several more new features. datetime.UTC is a new in 3.11 alias for datetime.timezone.utc . Python's SQLite support got some significant upgrades in 3.11, including: setlimit() and getlimit() expose a mechanism for setting SQLite runtime limits from Python. create_window_function() lets us create custom window functions in Python, as a class with step() , value() , inverse() , and finalize() methods. blobopen() provides an efficient mechanism for partial reads and writes of large BLOB binary values stored in a SQLite row. You can now call set_authorizer(None) to remove a SQLite authorizer. Datasette had a workaround for this! Plus a whole bunch of improvements to Python's typing system . I plan to land Python 3.11 improvements to a bunch of my projects over the next few weeks. Here's my first Datasette PR removing that set_authorizer(None) workaround. I've also updated my click-app , datasette-plugin , python-lib , and llm-plugin cookiecutter templates to test against Python 3.11 through Python 3.15. Tags: open-source , profiling , python , sqlite , uv"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+      "originalLang": "en",
+      "date": "2026-10-12",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11"
+      },
+      "raw": {
+        "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+        "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+        "fetched": false,
+        "savedAt": "2026-10-13T05:01:33.214Z"
+      }
+    },
+    {
+      "id": "sig-93062c67d6",
+      "title": "web-edit 0.1a0",
+      "oneLiner": "Release: web-edit 0.1a0 I was working on a project from my phone using Codex Remote when I found mys",
+      "summary": {
+        "oneSentence": "Release: web-edit 0.1a0 I was working on a project from my phone using Codex Remote when I found myself wanting to edit ",
+        "bullets": [
+          "Release: web-edit 0.1a0 I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itse"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Oct/12/web-edit/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Release: web-edit 0.1a0 I was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself. So... I had Codex and GPT-6 Astra Extra High build this Python web app which provides a web UI for viewing and editing files in a folder. It's intended to be run over Tailscale, so I can have an agent start this running and then edit files via my Tailscale network directly from my phone. Here's the interface for browsing files in a folder: Editing uses CodeMirror 6 - I was going to use Monaco but that still doesn't have a great mobile experience yet. Tags: projects , python , ai , tailscale , generative-ai , llms , codex"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "web-edit 0.1a0",
+      "originalLang": "en",
+      "date": "2026-10-12",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Oct/12/web-edit/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "web-edit 0.1a0"
+      },
+      "raw": {
+        "title": "web-edit 0.1a0",
+        "url": "https://simonwillison.net/2026/Oct/12/web-edit/",
+        "fetched": false,
+        "savedAt": "2026-10-13T05:01:34.015Z"
+      }
+    },
+    {
+      "id": "sig-59e7fc14e8",
+      "title": "datasette-ports 0.4",
+      "oneLiner": "Release: datasette-ports 0.4 My plugin for detecting and listing all Datasette instances on the curr",
+      "summary": {
+        "oneSentence": "Release: datasette-ports 0.4 My plugin for detecting and listing all Datasette instances on the current machine now work",
+        "bullets": [
+          "Release: datasette-ports 0.4 My plugin for detecting and listing all Datasette instances on the current machine now works with the latest version, and displays the detected PID as well. Knowing the PI"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Oct/12/datasette-ports/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Release: datasette-ports 0.4 My plugin for detecting and listing all Datasette instances on the current machine now works with the latest version, and displays the detected PID as well. Knowing the PID makes it easier to attach the new Python 3.15 profiler . Tags: datasette"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "datasette-ports 0.4",
+      "originalLang": "en",
+      "date": "2026-10-12",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Oct/12/datasette-ports/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "datasette-ports 0.4"
+      },
+      "raw": {
+        "title": "datasette-ports 0.4",
+        "url": "https://simonwillison.net/2026/Oct/12/datasette-ports/",
+        "fetched": false,
+        "savedAt": "2026-10-13T05:01:34.816Z"
+      }
+    },
+    {
+      "id": "sig-a786585932",
+      "title": "Dwarf Fortress uses version control now",
+      "oneLiner": "I remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lo",
+      "summary": {
+        "oneSentence": "I remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, bec",
+        "bullets": [
+          "I remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that woul"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Oct/11/dwarf-fortress/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "I remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from version control more . That's art. I went looking and I'm sad to report that the days without version control appear to have ended. Quoting Tarn Adams over time: March 2013: \"I don't use version control -- I didn't like the feeling of having the code get committed into a black box thingy with no immediate upside\" March 2016: \"I don’t even use version control. If you don’t know what that is then you’re not gonna yell at me. If you even know what version control is you’re gonna be like, ‘You don’t use version control? You don’t use source control? What is wrong with you? How can you even work? I’m just not cut out for it, in a sense. It’s been 15 years, so the reasons have change over time, but that’s my current understanding of it.\" March 2023: \"I've got Discord channels to check and version control stuff to use now, so the process is definitely a little more involved\" That March 2023 quote comes from an interview about the release on Steam which made them millionaires . I'm a tiny bit sad that they gave in before they hit that milestone, but what an impressive run. Tags: version-control"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Dwarf Fortress uses version control now",
+      "originalLang": "en",
+      "date": "2026-10-11",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Dwarf Fortress uses version control now"
+      },
+      "raw": {
+        "title": "Dwarf Fortress uses version control now",
+        "url": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
+        "fetched": false,
+        "savedAt": "2026-10-13T05:01:35.618Z"
+      }
+    },
+    {
       "id": "sig-ddd28519b3",
       "title": "推动人工智能采用的 4 种团队仪式 | Figma 博客",
       "oneLiner": "将人工智能的影响力从个人生产力提升提升到团队范围内的胜利，需要满足人们的需求。以下是 Figma、Sephora、Mercari 和 Atlassian 的团队如何让人们更轻松地利用人工智能驱动真正的价值。",
@@ -481,6 +1054,74 @@
         "url": "https://www.figma.com/blog/4-team-rituals-that-drive-ai-adoption/",
         "fetched": true,
         "savedAt": "2026-10-10T03:53:02.131Z"
+      }
+    },
+    {
+      "id": "sig-ffe9771dd0",
+      "title": "Python 3.15.0 added to actions/python-versions",
+      "oneLiner": "Python 3.15.0 added to actions/python-versions Bit of a niche link, but I've been waiting for this f",
+      "summary": {
+        "oneSentence": "Python 3.15.0 added to actions/python-versions Bit of a niche link, but I've been waiting for this for a couple of days ",
+        "bullets": [
+          "Python 3.15.0 added to actions/python-versions Bit of a niche link, but I've been waiting for this for a couple of days - I even told ChatGPT to check for it: Clone https://github.com/actions/python-v"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://simonwillison.net/2026/Oct/10/python-actions/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Python 3.15.0 added to actions/python-versions Bit of a niche link, but I've been waiting for this for a couple of days - I even told ChatGPT to check for it: Clone https://github.com/actions/python-versions and git pull once an hour until they add the stable 3.15 - then tell me about it Now that this has landed, you can add \"3.15\" to a GitHub Actions testing matrix to run tests against the new Python 3.15.0 release . Tags: github , python , github-actions , chatgpt"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Python 3.15.0 added to actions/python-versions",
+      "originalLang": "en",
+      "date": "2026-10-10",
+      "categoryIds": [
+        "llm",
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "community",
+        "name": "Simon Willison",
+        "author": "Simon Willison",
+        "url": "https://simonwillison.net/2026/Oct/10/python-actions/",
+        "home": "https://simonwillison.net/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Python 3.15.0 added to actions/python-versions"
+      },
+      "raw": {
+        "title": "Python 3.15.0 added to actions/python-versions",
+        "url": "https://simonwillison.net/2026/Oct/10/python-actions/",
+        "fetched": false,
+        "savedAt": "2026-10-13T05:01:36.419Z"
       }
     },
     {
@@ -4261,7 +4902,7 @@
         "url": "https://cursor.com/changelog/remote-control-local-agents",
         "fetched": true,
         "savedAt": "2026-10-11T03:27:39.323Z",
-        "retranslatedAt": "2026-10-12T03:51:51.261Z"
+        "retranslatedAt": "2026-10-13T05:01:37.593Z"
       }
     },
     {
@@ -9367,6 +10008,83 @@
       }
     },
     {
+      "id": "sig-f86e7abd96",
+      "title": "ElevenAgents, now on the OpenAI Marketplace",
+      "oneLiner": "ElevenAgents Joins the OpenAI Marketplace as Launch Partner",
+      "summary": {
+        "oneSentence": "ElevenAgents Joins the OpenAI Marketplace as Launch Partner",
+        "bullets": [
+          "ElevenAgents Joins the OpenAI Marketplace as Launch Partner"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://elevenlabs.io/blog/elevenagents-now-on-the-openai-marketplace"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> Introducing Eleven v4 Meet Eleven v4, our most emotive model yet. With 3x credits included on Creator+ until October 12",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem; } Skip to content Products Solutions Customers Resources Enterprise Pricing Log in Sign up Contact sales Log in [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() Sign up Blog Product ElevenAgents, now on the OpenAI Marketplace Written by Min Kim Published Sep 29, 2026 Last updated Oct 12, 2026 Listen Listen to this article",
+        "Today, at OpenAI DevDay, the company launched Marketplace, a new platform for AI-powered tools for its enterprise customers. ElevenLabs is proud to be included as a launch partner for the marketplace. Eligible enterprise customers will be able to access ElevenAgents through the marketplace and apply their OpenAI commitment to purchases.",
+        "The marketplace directory is live today with ElevenAgents listed, and purchasing will be available soon. Interested teams can register through the directory now.",
+        "Building production-ready agents requires frontier reasoning, the best audio models that listen, understand, and respond like a human in real time, and a cohesive platform that provides integrations with your existing tools, knowledge bases, guardrails, and built-in analytics. ElevenAgents brings all of these layers together in one place, pairing OpenAI's frontier models with our vertically integrated conversational AI stack.",
+        "Teams at Stripe, Deutsche Telekom, and Klarna rely on ElevenAgents every day to resolve inbound support end to end, qualify leads, recover abandoned carts, and automate scheduling. ElevenAgents is the platform enterprises use to build, deploy, and monitor human-sounding agents in more than 90 languages with industry-leading accuracy and ultra-low latency across voice, chat, and email.",
+        "Across our enterprise ElevenAgents deployments, GPT models perform strongly on complex reasoning and reliable tool calling. Customers can now combine OpenAI frontier models with ElevenAgents’ real-time conversational platform under a single contract, making it faster and simpler to deploy AI agents at scale.",
+        "\"ElevenAgents combines OpenAI’s intelligence with our real-time, human-like voice agents to listen, reason, respond, and take action,” said Ashish Uchil, Head of BD & Partnerships at ElevenLabs. “Now this Marketplace makes it one easy purchase.”",
+        "ElevenAgents is available through the OpenAI Marketplace starting today. If you're an OpenAI enterprise customer, register your interest through the marketplace directory.",
+        ":focus-visible]:tw-outline-focus tw-rounded-sm\"> Webinar Recap: Give Your Text Chatbot a Voice That Sounds Human Category Product Date Jul 1, 2026 Introducing Procedures in ElevenAgents Category Product Date Jun 30, 2026 How we solve 22,000 support tickets every month with ElevenAgents Category Product Date Oct 13, 2026 Defining how AI agents interact with your business Category Product Date Oct 9, 2026 Create with the highest quality AI Audio",
+        "ElevenLabs ElevenCreative Developers LinkedIn ElevenLabs ElevenCreative GitHub YouTube Discord TikTok Instagram Facebook Reddit Company"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "ElevenAgents, now on the OpenAI Marketplace | ElevenLabs",
+      "originalLang": "en",
+      "date": "2026-09-29",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/elevenagents-now-on-the-openai-marketplace",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "ElevenAgents, now on the OpenAI Marketplace | ElevenLabs"
+      },
+      "raw": {
+        "title": "ElevenAgents, now on the OpenAI Marketplace",
+        "url": "https://elevenlabs.io/blog/elevenagents-now-on-the-openai-marketplace",
+        "fetched": true,
+        "savedAt": "2026-10-13T05:01:31.611Z"
+      }
+    },
+    {
       "id": "sig-cfe8e90040",
       "title": "我们如何为澳大利亚做得更好",
       "oneLiner": "OpenAI 对涉及澳大利亚政府网站的事件表示歉意，并概述了加强澳大利亚网络防御的更强有力的保障和支持。",
@@ -13604,7 +14322,7 @@
         "url": "https://cursor.com/changelog/rollouts-and-security-reviewer",
         "fetched": true,
         "savedAt": "2026-09-27T03:09:42.462Z",
-        "retranslatedAt": "2026-10-12T03:51:52.325Z"
+        "retranslatedAt": "2026-10-13T05:01:38.522Z"
       }
     },
     {
@@ -22729,7 +23447,7 @@
         "url": "https://cursor.com/changelog/projects",
         "fetched": true,
         "savedAt": "2026-09-12T02:41:59.708Z",
-        "retranslatedAt": "2026-10-12T03:51:53.424Z"
+        "retranslatedAt": "2026-10-13T05:01:39.462Z"
       }
     },
     {
@@ -28082,7 +28800,7 @@
         "url": "https://cursor.com/changelog/self-hosted-machines",
         "fetched": true,
         "savedAt": "2026-09-03T02:33:34.106Z",
-        "retranslatedAt": "2026-10-12T03:51:54.557Z"
+        "retranslatedAt": "2026-10-13T05:01:40.370Z"
       }
     },
     {
@@ -31091,142 +31809,6 @@
         "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
         "fetched": false,
         "savedAt": "2026-09-01T03:06:28.815Z"
-      }
-    },
-    {
-      "id": "sig-e99b0d4d4e",
-      "title": "Introducing Hy4 Preview",
-      "oneLiner": "Introducing Hy4 Preview New open weight text input (no vision) LLM from Chinese company Tencent toda",
-      "summary": {
-        "oneSentence": "Introducing Hy4 Preview New open weight text input (no vision) LLM from Chinese company Tencent today: 770B total parame",
-        "bullets": [
-          "Introducing Hy4 Preview New open weight text input (no vision) LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, 1.56TB on Hugging Face . T"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Aug/29/hy4/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Introducing Hy4 Preview New open weight text input (no vision) LLM from Chinese company Tencent today: 770B total parameters, 49B active parameters, 1M token context window, 1.56TB on Hugging Face . This is a big size increase from their previous Hy3 in July, which was 295B, 21B active, 256,000 context, 598GB. I recently started using model chat templates to better understand their capabilities. Here's Hy4's chat_template.jinja on Hugging Face, which includes this section: {% - if not reasoning_effort is defined %} {% - set reasoning_effort = 'high' %} {% - elif reasoning_effort not in [ 'high' , 'no_think' ] %} {% - if reasoning_effort is none %} {{- raise_exception('reasoning_effort error : None, should be no_think/high') }} {% - else %} {{- raise_exception('reasoning_effort error : ' + reasoning_effort + ', should be no_think/high') }} {% - endif %} {% - endif %} So it looks like there are just two reasoning effort levels: \"high\" (the default) and \"no_think\" (reason by disabled). I tried my \"Generate an SVG of a pelican riding a bicycle\" prompt with the default high reasoning via OpenRouter and got this : Quoting the reasoning trace: [...] Let's maybe add a helmet? It could improve riding theme, but may obscure head. Maybe a small cycling cap or helmet? The user didn't ask; can add red helmet? Might be cute. But pelican with big beak; a helmet might obscure. Better maybe no. Maybe add sunglasses? no. Maybe add water? no. It's interesting how the reasoning trace uses slightly truncated English, presumably because perfect grammar isn't useful or token efficient for hidden reasoning text. Tags: ai , generative-ai , llms , pelican-riding-a-bicycle , llm-reasoning , llm-release , ai-in-china"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Introducing Hy4 Preview",
-      "originalLang": "en",
-      "date": "2026-08-29",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Aug/29/hy4/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Introducing Hy4 Preview"
-      },
-      "raw": {
-        "title": "Introducing Hy4 Preview",
-        "url": "https://simonwillison.net/2026/Aug/29/hy4/",
-        "fetched": false,
-        "savedAt": "2026-08-30T03:05:05.067Z"
-      }
-    },
-    {
-      "id": "sig-5dcea7d65e",
-      "title": "[AINews] OpenAI shuts off Cursor",
-      "oneLiner": "Elon v Altman has a real consequence.",
-      "summary": {
-        "oneSentence": "Elon v Altman has a real consequence.",
-        "bullets": [
-          "Elon v Altman has a real consequence."
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://www.latent.space/p/ainews-openai-shuts-off-cursor"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Elon v Altman has a real consequence."
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "[AINews] OpenAI shuts off Cursor",
-      "originalLang": "en",
-      "date": "2026-08-29",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Latent Space",
-        "author": "swyx",
-        "url": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "[AINews] OpenAI shuts off Cursor"
-      },
-      "raw": {
-        "title": "[AINews] OpenAI shuts off Cursor",
-        "url": "https://www.latent.space/p/ainews-openai-shuts-off-cursor",
-        "fetched": false,
-        "savedAt": "2026-08-30T03:05:05.869Z"
       }
     }
   ]
