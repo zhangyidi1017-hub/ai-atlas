@@ -1,16 +1,23 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-13T05:01:41.172Z",
+  "updatedAt": "2026-10-14T03:08:30.652Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 410,
+  "itemCount": 418,
   "brief": {
-    "date": "2026-10-13",
-    "generatedAt": "2026-10-13T05:01:41.171Z",
-    "totalCount": 410,
+    "date": "2026-10-14",
+    "generatedAt": "2026-10-14T03:08:30.651Z",
+    "totalCount": 418,
     "todayCount": 1,
-    "headline": "今日 AI 信号 1 条 · 档案共 410 条",
+    "headline": "今日 AI 信号 1 条 · 档案共 418 条",
     "topUpdates": [
+      {
+        "id": "sig-b8b5f613d5",
+        "title": "Origin 应用市场 · Cursor",
+        "stars": 4,
+        "oneLiner": "Origin 现已与 20 多款应用集成，涵盖部署、CI、代码审查、安全、监控和项目管理等领域，合作伙伴包括 Cloudflare、Linear、Sentry 和 Socket Security。",
+        "readMinutes": 5
+      },
       {
         "id": "sig-ddd28519b3",
         "title": "推动人工智能采用的 4 种团队仪式 | Figma 博客",
@@ -38,39 +45,33 @@
         "stars": 4,
         "oneLiner": "新的 Pro 团队现在默认设置 30 天的部署保留期。",
         "readMinutes": 5
-      },
-      {
-        "id": "sig-bc0fa275ba",
-        "title": "现有 Pro 团队开始计费部署存储 - Vercel",
-        "stars": 4,
-        "oneLiner": "部署存储和功能 所有 Pro 团队的存储计费将从每月每 GB 0.10 美元开始。检查您的电子邮件，了解有关您的团队何时开始计费的详细信息。为了保持较低的存储成本，部署保留窗口也更改为 30 天。",
-        "readMinutes": 5
       }
     ],
     "sections": {
       "topUpdates": [
+        "sig-b8b5f613d5",
         "sig-ddd28519b3",
         "sig-28c245dbd5",
         "sig-418297e30b",
         "sig-3526dea681",
-        "sig-bc0fa275ba",
-        "sig-9c26fb37ef"
+        "sig-bc0fa275ba"
       ],
       "newReleases": [
+        "sig-b8b5f613d5",
         "sig-ecd4573e22",
         "sig-089c4ff63d",
         "sig-8e4f416112",
         "sig-fe5941ee46"
       ],
       "insights": [
+        "sig-b8b5f613d5",
         "sig-ddd28519b3",
         "sig-28c245dbd5",
         "sig-418297e30b",
         "sig-3526dea681",
         "sig-bc0fa275ba",
         "sig-9c26fb37ef",
-        "sig-0c25c55b04",
-        "sig-e4dd6c7c3d"
+        "sig-0c25c55b04"
       ],
       "emergingTrends": [],
       "newApis": [],
@@ -91,15 +92,15 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-10-13T05:01:41.172Z",
+    "generatedAt": "2026-10-14T03:08:30.652Z",
     "summary": "近 30 天共 269 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
-        "signal": "近 30 天 2 条相关更新",
+        "signal": "近 30 天 3 条相关更新",
         "examples": [
-          "本地智能体远程控制 · Cursor",
-          "Rollouts 与 Security Review · Cursor"
+          "Origin 应用市场 · Cursor",
+          "本地智能体远程控制 · Cursor"
         ]
       }
     ],
@@ -107,6 +108,92 @@
     "risingTags": []
   },
   "productUpdates": [
+    {
+      "id": "sig-58e4191fcf",
+      "title": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
+      "oneLiner": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept",
+      "date": "2026-10-14",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google DeepMind",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-b8b5f613d5",
+      "title": "Origin 应用市场 · Cursor",
+      "oneLiner": "Origin 现已与 20 多款应用集成，涵盖部署、CI、代码审查、安全、监控和项目管理等领域，合作伙伴包括 Cloudflare、Linear、Sentry 和 Socket Security。",
+      "date": "2026-10-13",
+      "productIds": [
+        "cursor"
+      ],
+      "source": "Cursor",
+      "tags": [
+        "Release"
+      ],
+      "stars": 4
+    },
+    {
+      "id": "sig-471508c04c",
+      "title": "Developing Gemini 4 Argon responsibly and safely",
+      "oneLiner": "Developing Gemini 4 Argon responsibly and safely",
+      "date": "2026-10-13",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google DeepMind",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-884ebf3c39",
+      "title": "Gemini 4 Argon for Robotics",
+      "oneLiner": "Gemini 4 Argon for Robotics",
+      "date": "2026-10-13",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google DeepMind",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-f174716114",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "oneLiner": "Gemini 4 Argon: Built to solve your hardest problems",
+      "date": "2026-10-13",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google DeepMind",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-c1e94fc831",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "oneLiner": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest",
+      "date": "2026-10-13",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google AI",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-ffc748cb8d",
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "oneLiner": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a",
+      "date": "2026-10-13",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
+    },
     {
       "id": "sig-edd58468d5",
       "title": "Sophos 借助 OpenAI Daybreak 将威胁调查时间缩短了 96%",
@@ -312,93 +399,176 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-3cbec84de8",
-      "title": "为人们使用人工智能的方式制作广告",
-      "oneLiner": "OpenAI 在 ChatGPT 中引入了一种新的视觉广告格式，并为广告商扩展了衡量工具、归因合作伙伴关系和品牌适合度。",
-      "date": "2026-10-05",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-8e206c4d9e",
-      "title": "GPT-6 系列模型指南",
-      "oneLiner": "了解初创公司如何选择 GPT-6 模型、调整推理工作、改进提示和技能、协调工具以及准备生产工作流程。",
-      "date": "2026-10-02",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-1122627a66",
-      "title": "我们于 2026 年 9 月公布的最新 AI 新闻",
-      "oneLiner": "以下是我们 9 月份以来一些最大的人工智能更新的回顾，包括 Gemini 4 Argon、Gemini 应用程序中的新连接应用程序和 WeatherNext 3。",
-      "date": "2026-10-02",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google AI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-a97398f76e",
-      "title": "Chatham 通过 OpenAI 扩展其资本市场专业知识",
-      "oneLiner": "Chatham Financial 使用 Codex 和 GPT-5.6 来构建技术并重新设计工作流程，将交易验证时间从 30 分钟缩短到 4 分钟以下。",
-      "date": "2026-10-02",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-7e67b43cf9",
-      "title": "永恒的补充",
-      "oneLiner": "先进的人工智能对于突破性想法背后的日常工作可能最重要。探索为什么执行力可以塑造下一个经济体和进步的步伐。",
-      "date": "2026-10-01",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-a80484c2d5",
-      "title": "艾伯森公司如何从内到外重新构想零售业",
-      "oneLiner": "Albertsons Cos. 正在使用 ChatGPT Enterprise 和 OpenAI API 来帮助团队更快地工作，并使数百万客户更轻松地购物。",
-      "date": "2026-10-01",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-3bba527585",
-      "title": "通过 ChatGPT Work，The Den 每周可以腾出 10-15 个小时来发展",
-      "oneLiner": "当开设新地点时，该社交俱乐部在 2 小时内（而不是 3 天）准备补助金申请，并在 3 小时内（而不是 4 天）准备酒牌材料。",
-      "date": "2026-10-01",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-58e4191fcf",
+      "title": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
+      "oneLiner": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept",
+      "summary": {
+        "oneSentence": "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scam",
+        "bullets": [
+          "Learn how Google DeepMind and GovTech Singapore uses lightweight on-device Gemma models to intercept conversational scams in private chats with zero cloud data egress."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "Share Copied The collaboration delivers an on-device scam detection model that helps protect citizens without compromising privacy.",
+        "Scams make up over half of Singapore’s reported crimes, and account for more than S$4 billion in losses since 2019. At the same time, scam tactics have shifted from simple phishing to complex social engineering, whereby attackers manipulate victims with convincing conversations before requesting money. Such scams now account for up to 80% of all losses.",
+        "To address this, Google DeepMind and the Government Technology Agency of Singapore (GovTech) have been working together as part of our National AI Partnership with the Singapore Government. This has allowed us to deliver an on-device scam detection model - optimized to run on typical smartphones in Singapore - to tackle an urgent safety challenge while preserving citizens' privacy.",
+        "Generic models often struggle with localised deception techniques, making scam detection harder. To address this, Google DeepMind's lightweight Gemma model was fine-tuned on local scam conversations. These ranged from impersonations of public institutions, banks, and local figures, to trending regional schemes, ensuring the model can distinguish benign social chatter from genuine manipulation.",
+        "This new model also processes conversation data on the device. Traditionally, threat detection relies on server-side scanning of messages in the cloud, but many messaging platforms are end-to-end encrypted - meaning they cannot inspect private conversations. People need a way to stay safe from fraud at the same time as keeping conversations private, and our solution is to bring the threat analysis to the device. This allows faster analysis of conversation patterns to detect manipulative intent and allow citizens to act before financial or credential exposure can occur.",
+        "Fighting scams shouldn't mean sacrificing personal privacy. Working with Google DeepMind, we're bringing advanced AI protection directly onto citizens' devices. This allows us to catch highly targeted, local scam attempts in real time while keeping personal communications completely private.",
+        "When the model detects manipulative conversational patterns, it triggers a real-time warning directly on the user's device advising them to pause and exercise caution before sharing sensitive information or funds.",
+        "Running a complex scam classifier model on modern smartphones is no easy task, with battery efficiency being a critical area of concern. To do this we're relying on a two-stage pipeline:",
+        "Presented at Singapore International Cyber Week (SICW 2026), this collaboration provides a model for messaging platforms balancing user protection with end-to-end encryption. Strict governance was maintained throughout development:",
+        "Sovereign Sandbox: Fine-tuning took place within GovTech's managed and maintained GCP environment, keeping training data isolated.",
+        "No Citizen Data: Training strictly excluded private or personally identifiable information, utilising anonymised datasets derived from scam reports and intelligence feeds.",
+        "Stress-Testing: The model was tested against synthetic dialogues and local corpora to cover diverse scam categories and evolving impersonation tactics.",
+        "The project demonstrates how AI can help messaging services counter criminality and shows safety nor privacy need be compromised by running protective AI directly on-device. It also shows how governments and model providers can work together to build tech for public good. Messaging platforms and operating system vendors can directly integrate these lightweight models to safeguard users locally, ensuring chat interactions remain secure without exposing private data."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
+      "originalLang": "en",
+      "date": "2026-10-14",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google DeepMind",
+        "author": "DeepMind",
+        "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+        "home": "https://deepmind.google/blog/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams"
+      },
+      "raw": {
+        "title": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
+        "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+        "fetched": true,
+        "savedAt": "2026-10-14T03:08:05.828Z"
+      }
+    },
+    {
+      "id": "sig-b8b5f613d5",
+      "title": "Origin 应用市场 · Cursor",
+      "oneLiner": "Origin 现已与 20 多款应用集成，涵盖部署、CI、代码审查、安全、监控和项目管理等领域，合作伙伴包括 Cloudflare、Linear、Sentry 和 Socket Security。",
+      "summary": {
+        "oneSentence": "Origin 现已与 20 多款应用集成，涵盖部署、CI、代码审查、安全、监控和项目管理等领域，合作伙伴包括 Cloudflare、Linear、Sentry 和 Socket Security。",
+        "bullets": [
+          "Origin 现已与 20 多款应用集成，涵盖部署、CI、代码审查、安全、监控和项目管理等领域，合作伙伴包括 Cloudflare、Linear、Sentry 和 Socket Security。",
+          "即日起，市场还将面向公众开放提交，任何构建开发者工具的团队都可以为 Origin 发布应用。",
+          "想构建 Origin 应用？不妨从 发布指南 和 Origin API 参考 入手。",
+          "Origin Apps 插件 还能基于实时的 Origin API 文档解答你的疑问，并为你现有的应用制定迁移到 Origin 的方案。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Cursor 官网发布：Origin 现已与 20 多款应用集成，涵盖部署、CI、代码审查、安全、监控和项目管理等领域，合作伙伴包括 Cloudflare、Linear、Sentry 和 Socket Security。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：cursor",
+        "actionItems": [
+          "阅读原文（中文）：https://cursor.com/changelog/origin-app-marketplace"
+        ]
+      },
+      "tags": [
+        "Release"
+      ],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "cursor"
+      ],
+      "content": [
+        "Origin 现已与 20 多款应用集成，涵盖部署、CI、代码审查、安全、监控和项目管理等领域，合作伙伴包括 Cloudflare、Linear、Sentry 和 Socket Security。",
+        "即日起，市场还将面向公众开放提交，任何构建开发者工具的团队都可以为 Origin 发布应用。",
+        "想构建 Origin 应用？不妨从 发布指南 和 Origin API 参考 入手。",
+        "Origin Apps 插件 还能基于实时的 Origin API 文档解答你的疑问，并为你现有的应用制定迁移到 Origin 的方案。"
+      ],
+      "highlights": [
+        "Origin 现已与 20 多款应用集成，涵盖部署、CI、代码审查、安全、监控和项目管理等领域，合作伙伴包括 Cloudflare、Linear、Sentry ",
+        "即日起，市场还将面向公众开放提交，任何构建开发者工具的团队都可以为 Origin 发布应用。",
+        "想构建 Origin 应用？不妨从 发布指南 和 Origin API 参考 入手。"
+      ],
+      "translated": false,
+      "translateMethod": "native",
+      "originalTitle": "Origin 应用市场 · Cursor",
+      "originalLang": "zh",
+      "date": "2026-10-13",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [
+        "cursor"
+      ],
+      "source": {
+        "type": "release",
+        "group": "company",
+        "name": "Cursor",
+        "author": "Cursor",
+        "url": "https://cursor.com/changelog/origin-app-marketplace",
+        "home": "https://cursor.com/changelog",
+        "lang": "zh",
+        "translated": false,
+        "translateMethod": "native",
+        "originalTitle": "Origin 应用市场 · Cursor"
+      },
+      "raw": {
+        "title": "Origin App Marketplace",
+        "url": "https://cursor.com/changelog/origin-app-marketplace",
+        "fetched": true,
+        "savedAt": "2026-10-14T03:08:22.474Z"
+      }
+    },
     {
       "id": "sig-2ff3dd6446",
       "title": "How we solve 22,000 support tickets every month with ElevenAgents",
@@ -477,6 +647,653 @@
         "url": "https://elevenlabs.io/blog/how-we-solve-22000-support-tickets-every-month-with-elevenagents",
         "fetched": true,
         "savedAt": "2026-10-13T05:01:26.712Z"
+      }
+    },
+    {
+      "id": "sig-471508c04c",
+      "title": "Developing Gemini 4 Argon responsibly and safely",
+      "oneLiner": "Developing Gemini 4 Argon responsibly and safely",
+      "summary": {
+        "oneSentence": "Developing Gemini 4 Argon responsibly and safely",
+        "bullets": [
+          "Developing Gemini 4 Argon responsibly and safely"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "Learn more about our approach to safety and security for Gemini 4 Argon.",
+        "Head of Gemini Security, Google DeepMind",
+        "Gemini 4 Argon is a step forward in what models can do — especially when it comes to deep work in complex, real-world tasks across domains including coding, finance, legal, cybersecurity, and science. Its cyberdefense capabilities are frontier-level and designed to give defenders an advantage over attackers. To maximize its potential, we first wanted cyber defenders to put it to work via our Fairwind Program , while our own security teams used it to scan critical systems inside and outside of Google.",
+        "This window of limited access showed why these capabilities matter. For instance, Wiz used Argon to uncover a critical bug in hospital software that previous models had missed, helping protect hundreds of thousands of patient records. Meanwhile, Google’s own security teams used Argon to find and patch bugs across internal software or open-source software. This included fixing foundational vulnerabilities affecting systems globally, which are going through our responsible disclosure process.",
+        "Today, we are beginning to roll out Argon broadly , as well as expanding our Fairwind Program to additional trusted cyber defenders. To do this well, we grappled with two big questions:",
+        "Our full Safety and Security Report systematically covers our set of defenses. Below are some highlights from how we approached these two questions for Gemini 4 Argon.",
+        "The same coding and reasoning improvements that enabled Argon to find and patch vulnerabilities also drove better performance on our cybersecurity tests — solving all 12 of the end-to-end simulated cyberattack scenarios, up from five in our previous generation. In biology evaluations, unguarded versions of the model also showed a much stronger ability to help troubleshoot complex lab procedures step by step. Following our Frontier Safety Framework , since we saw elevated capabilities in the cyber and biological domains, we put our next-generation set of frontier safeguards in place across both areas.",
+        "First, when it comes to potentially dangerous requests — from writing exploit code to helping with dangerous biological materials, Argon is significantly better at not fulfilling harmful requests than our previous models. On an adversarial set meant to stress test the model, violations reduced nearly twofold — also significantly better than previous Gemini models. Second, we wrap the model in three layers of real-time protection; this is to prevent determined attackers that might try to jailbreak (i.e. trick) the model by disguising a dangerous request as a harmless story or breaking it into dozens of small questions over several weeks. Here is how these protections work:",
+        "Combining real-time protection, faster fixes for new jailbreaks and enhanced monitoring for recurring misuse has made our systems better at preventing real-world harm. For instance, external bio jailbreak red teaming could only unlock less than 1% of bio sub-tasks we test for.",
+        "Misalignment can sometimes mean an agent deciding on its own to pursue a goal different to what was intended by the user. Because Argon is much better than earlier models at understanding the environment it is running in, we test carefully for that kind of behavior. For example, we ran realistic \"honeypot\" tests to see if the model would increase its ability to take covert actions, such as sabotaging safety monitoring. We didn't find any instances of that behavior.",
+        "But what we do see in practice today is something much more familiar: an agent trying too hard to finish the job it was given. When a resourceful assistant is told to get a task done and runs into a locked door, it can treat that obstacle as just another puzzle to solve.",
+        "This is why we trained Gemini 4 Argon to respect system boundaries, report negative findings honestly, and pause to ask for human confirmation. On coding benchmarks where models have no incentive to hold back, attempts to take a shortcut or cheat on the task dropped to just 2% on Gemini 4 Argon, our best performance for recent Gemini models.",
+        "And while this is a major step forward, when a model runs millions of complex tasks, even a rare misstep will eventually show up. As a second line of defense, we built an automated misalignment monitor that reads both the agent’s actions and its internal \"scratchpad\" (its step-by-step chain of thought) in real time, blocking severe boundary violations before they happen and flagging serious internal cases for human responders. (We continually harden our training and evaluation environments against potential escapes. You can read more about this in our agent control roadmap ). We run this monitor in our products, on our internal coding agents, during our training runs, and during our capability evaluations.",
+        "When training tasks were difficult or when training environments were flawed, our monitor caught the model, in rare instances, creatively attempting to game the test. The model attempted to escalate container privileges to alter grading scripts, read answers from the test runner's memory, and in one case it even crashed the evaluation sandbox to avoid getting scored for a failed run. While we use these catches to fix flawed tasks, we do not use them to otherwise intervene with the training process to avoid overfitting to the monitor."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Developing Gemini 4 Argon responsibly and safely",
+      "originalLang": "en",
+      "date": "2026-10-13",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google DeepMind",
+        "author": "DeepMind",
+        "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+        "home": "https://deepmind.google/blog/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Developing Gemini 4 Argon responsibly and safely"
+      },
+      "raw": {
+        "title": "Developing Gemini 4 Argon responsibly and safely",
+        "url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/",
+        "fetched": true,
+        "savedAt": "2026-10-14T03:08:08.247Z"
+      }
+    },
+    {
+      "id": "sig-884ebf3c39",
+      "title": "Gemini 4 Argon for Robotics",
+      "oneLiner": "Gemini 4 Argon for Robotics",
+      "summary": {
+        "oneSentence": "Gemini 4 Argon for Robotics",
+        "bullets": [
+          "Gemini 4 Argon for Robotics"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://deepmind.google/blog/gemini-4-argon-for-robotics/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "Gemini 4 Argon marks a step change in physical understanding, code generation, and visual-semantic reasoning—unlocking new workflows across the robotics stack and accelerating progress toward physical AGI.",
+        "You can see this leap in capability on the Embodied Reasoning (ERQA) benchmark , which tests a model's ability to understand and solve physical, spatial problems in 3D environments. Using pure reasoning, Argon scores 87%, outperforming every other frontier model.",
+        "As a general-purpose physical reasoning model, Argon can be applied across the entire robotics lifecycle. In this post, we share representative prompts for Argon across four key areas:",
+        "Argon controls a Boston Dynamics Spot® quadruped (12-DoF legs + 6-DoF arm) to learn a new skill: stepping on a foot-pedal trash bin to throw away soda cans. Argon creates an articulated MuJoCo digital twin of a foot-pedal trash bin to practice its moves before stepping on the physical pedal and dropping soda cans into the open bin.",
+        "Sorry, your browser doesn't support playback for this video",
+        "There's a Diet Coke can behind you and another on the black table on your left. Use the spot-mobile-manipulation skill to pick them up and trash them in the black foot-pedal bin. Before stepping down on the pedal, verify in the front cameras that your front-right foot target is centered on the pedal, and use a 2-agent verification swarm (foot-verifier and hand-verifier) to verify both the foot-pedal step and the 3D hand-in-bin alignment before releasing. Plain text Copied 2. Zero-shot control Argon controls a simple robotic arm to place a fallen mug upright and put the crumpled napkin inside. Argon reasons with a visual coordinate harness and action primitives to perform this task over several turns.",
+        "Sorry, your browser doesn't support playback for this video",
+        "[Attached: wrist_cam.png, obs.json] Task: Get the robot arm to reorient the mug upright and put the napkin inside the mug. ## Execution Discipline - Simply output 1 sentence observation followed immediately by your `curl` command (with `# Plan:` on Turn 1 and `# Thought:` on every turn). Everything needed is in `obs.json` and the calibrated reticle/grid drawn on `wrist_cam.png`. ## Visual Coordinate Reference (Annotated on wrist_cam.png) - `+X` (UP in image): Away from robot base | `-X` (DOWN): Towards robot base - `+Y` (LEFT in image): World left | `-Y` (RIGHT): World right - `+Z`: Height above table | `Yellow numbers`: World (X, Y) in centimetres (2 cm grid at `grid_z`) - `Cyan + crosshair`: Current 3D pinch center - `Cyan [ + ] brackets`: Current jaw opening and closing line - `Green line`: Current object long-axis orientation (`yaw_deg`: 0° = vertical along +X, 90° = horizontal along +Y) - `pitch_deg = 90°`: Straight down (-Z) top-down grasp/place; `pitch_deg < 60°`: Tilted coaxial approach along finger axis ## Closed-Loop Turn Workflow 1. Inspect current state & view `wrist_cam.png`: `curl -s http://127.0.0.1:8081/obs` (returns `ee_pos`, `holding`, `status`, `workspace`, `wrist_cam_path`). 2. Select VLM call granularity upfront on Turn 1: - Coarse (2–4 calls): `look_at` -> `grasp` -> `place` -> `done` - Pre-Grasp Hover Verify (4–7 calls): `look_at` -> `goto(z=0.04)` (verify cyan `[ + ]` brackets straddle target) -> `grasp` -> `place_until_contact` -> `done` - Fine Visual Servoing (8–20 calls): `look_at` -> `grasp` -> pre-pose `goto` -> closed-loop `move_by` / `move_until_contact` -> `done` 3. Send motion primitives (`POST /plan`) and verify visually after every turn in the updated `wrist_cam.png`. If `status == \"grasp_failed\"`, call `robot.look_at(...)` to re-observe and recover closed-loop. ## Code-as-Policies Primitives (`POST http://127.0.0.1:8081/plan`) robot.look_at(x=0.35, y=0.13, z=0.14, grid_z=0.015) x, y = robot.deproject(u=0.52, v=0.48, z_plane=0.015) robot.grasp(x=x, y=y, z=0.015, yaw_deg=-35, pitch_deg=90) robot.place(x=0.24, y=0.06, z=0.075) robot.place_until_contact(x=0.24, y=0.06, z=0.015, max_lag=0.012, relief=0.002) robot.goto(x=0.28, y=0.05, z=0.04, arc_z=0.14, pitch_deg=25, azimuth_deg=90, roll_deg=0, speed=0.10) robot.move_by(forward=0.025, dz=-0.002, dpitch_deg=-3, droll_deg=5, speed=0.04) robot.move_until_contact(dz=-0.06, speed=0.03, max_lag=0.012, relief=0.002) robot.open_gripper() / robot.close_gripper() / robot.home() / robot.done() Plain text Copied 3. Omni control Argon steers robots in the Gemini Omni World Model to rearrange five scattered Scrabble tiles ( G, R, A, N, O ) into a clean row spelling A - R - G - O - N . Instead of specifying one static prompt, Argon steers in a closed visual loop. It writes timestamped action prompts, inspecting intermediate rollout keyframes, and refining its prompts.",
+        "Sorry, your browser doesn't support playback for this video",
+        "Goal: {task_goal} You are steering a video world model (Gemini Omni) in an iterative visual feedback loop. Inspect the attached frames from the latest rollout and write the next timestamped action prompt for the video world model: - Break complex motions into one simple, single-direction action at a time. - Keep inactive hands retracted and avoid blocking the camera's view of objects in the workspace. - Explicitly state which areas of the workspace become empty after an object moves. - Use [MM:SS.mmm] timestamps for each action beat and wrap your output in <omni_prompt> tags. Example format (sample timestamps only, not the full prompt): <omni_prompt> [00:00.000] Character A's left hand rests at the side while the right hand reaches toward the target object. [00:02.500] Character A's right fingertips push the object smoothly into the center of the table, leaving its starting area empty. [00:05.000] Character A's right hand opens and retracts to the side so all placed objects remain in clear view of the camera. </omni_prompt> Plain text Copied Unlocking Real2Sim with Argon 1. Robot view to simulation Argon views a real robot teleoperation episode and develops a digital twin; it obtains or creates simulation assets that look and behave like the real objects upon contact with the dexterous hands. Argon tunes the assets and scenes to match sim visuals and contact events with those in the real recorded data in an iterative visual-reasoning loop.",
+        "Sorry, your browser doesn't support playback for this video",
+        "[Attached: robot_rollout_episode] Build a MuJoCo scene of the robot and reconstructed task objects. When each episode is replayed frame by frame, by driving the robot joints toward the logged observation.state with joint-space PD. Iterate using two verification objectives: (1) Visual match: MuJoCo renders from the head_left, left_wrist, and right_wrist cameras line up with, and look like, those real observations. (2) Physical match: the simulated contact force/torque on each Sharpa fingertip, in the sensor frame, matches the logged tactile_force in timing, magnitude and direction. What you can tune happens before simulation starts: (1) Static object assets: realistic geometry, collision shapes, mass, inertia, friction and joints, with appearance close to the real objects, plus the initial object poses at t = 0. (2) Offline-planned robot commands, changed only in frames where the real fingertips are near an object. Each command must stay within 0.55 rad (arm joints) and 0.65 rad (hand joints) of the logged teleop trajectory. Everywhere else, replay the logged trajectory unchanged. No sim cheating: task objects may move only through real MuJoCo contact with the robot hands and the environment (mj_step). Not allowed after t = 0: changing MjModel parameters; applying external forces or torques to objects; welds or equality constraints; feedforward torques beyond joint-space PD; setting or rolling back object qpos/qvel; disabling or excluding collisions; reporting contact forces that don't come from the MuJoCo solver (for example, copying the logged tactile readings). Immediately present the reconstructed scene and rollout results as an interactive HTML session viewer with one page per episode, showing: - At the bottom: A synced timeline (play, scrub, speed control) that drives every panel. - On the left panel: An interactive 3D Blender scene showing the simulated robot and objects, showing contact points and force arrows as replay progresses. - On the right panel: Real vs. sim camera views side by side for all 3 cameras. Real vs. sim finger force visualizations. Plain text Copied 2. Human view to simulation Given an egocentric human video of a manipulation task, Argon identifies the task-relevant objects, replaces crude bounding boxes with compound convex-decomposed meshes for concave containers, and retargets the human hand trajectory onto a 76-DoF bimanual humanoid with 22-DoF five-fingered hands in MuJoCo contact physics.",
+        "Sorry, your browser doesn't support playback for this video",
+        "[Attached: egocentric_human_video.mp4, candidate_sim_views.png, hand_3d_keypoints.json] You are building a physically solvable 500 Hz MuJoCo manipulation environment (`scene.xml`) and studio Blender render that faithfully reproduces the tabletop task shown in `egocentric_human_video.mp4` on a bimanual humanoid robot with 22-DoF dexterous five-fingered hands: 1. Scene Reconstruction & Camera Calibration: - Identify only the manipulation-relevant objects (the grasped target object and the receiving container or landmark) and triangulate their 3D tabletop coordinates from the egocentric camera intrinsics/extrinsics. - Replace crude bounding boxes with compound convex-decomposed 3D meshes so concave containers (nested bowls, recessed wooden trays, open bins) support physical interior placement. 2. 500 Hz Dexterous Motion-Fitting Stress Test: - Retarget the 3D human wrist and finger keypoints to the humanoid's 7-DoF arm and 22-DoF hand joints, and step the trajectory in MuJoCo at 500 Hz (dt = 0.002s) with zero kinematic weld constraints. - Verify opposing thumb-and-finger force closure, clean object lift (> 2 cm), and stable final placement inside or beside the target landmark. Plain text Copied 3. Sketch to simulation With Argon, a developer can snap a photo of a rough pen-and-paper sketch—showing an Apollo 2 humanoid throwing a ball along a parabolic arc to topple a 3-2-1 stack of boxes on a table—and have Argon automatically construct the GPU-accelerated mujoco_warp scene, synthesize a balanced 76-DoF whole-body and five-finger throw trajectory, verify 6/6 target knockdown in closed-loop physics, and export a Blender 4.5 Cycles render."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Gemini 4 Argon for Robotics- Google Developers Blog",
+      "originalLang": "en",
+      "date": "2026-10-13",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google DeepMind",
+        "author": "DeepMind",
+        "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+        "home": "https://deepmind.google/blog/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Gemini 4 Argon for Robotics- Google Developers Blog"
+      },
+      "raw": {
+        "title": "Gemini 4 Argon for Robotics",
+        "url": "https://deepmind.google/blog/gemini-4-argon-for-robotics/",
+        "fetched": true,
+        "savedAt": "2026-10-14T03:08:10.891Z"
+      }
+    },
+    {
+      "id": "sig-f174716114",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "oneLiner": "Gemini 4 Argon: Built to solve your hardest problems",
+      "summary": {
+        "oneSentence": "Gemini 4 Argon: Built to solve your hardest problems",
+        "bullets": [
+          "Gemini 4 Argon: Built to solve your hardest problems"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://deepmind.google/blog/introducing-gemini-4-argon/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "We’re giving developers, enterprises, scientists, and consumers access to our latest frontier model.",
+        "SVP, Google DeepMind and Chief AI Architect, Google",
+        "Gemini 4 Argon is now globally available today for developers and enterprises via the API in AI Studio and Gemini platform , for Google AI Ultra subscribers in Google Antigravity , and Google AI Ultra and Pro subscribers in the Gemini app and AI Mode in Search .",
+        "Argon excels at deep work in complex, real-world tasks across domains including coding, finance, legal, cybersecurity, and science. Its depth and precision across multi-step tasks leads Argon to outperform other frontier models on benchmarks across domains , ranking #1 on the Vals Index , which measures model performance across critical economic sectors like finance, coding, legal, and tax work.",
+        "The model launches today at an introductory price 1 of $2 per million input tokens and $10 per million output tokens (with cached input tokens at 95% off).",
+        "Teams at Google, across enterprises, and in the research community have already been using Argon to land significant impact across fields:",
+        "At Google, we’ve been using Argon on our hardest engineering problems. Over the past few weeks, software engineers have been shipping high-quality code faster than ever. Argon in Antigravity has helped teams increase agentic code submissions by more than 35% while reducing code rollbacks by nearly a third.",
+        "Argon built a highly detailed model of a Pagoda using multi-agent visual critique loops in Antigravity. The model autonomously sculpted a multi-building temple complex with photorealistic architecture, foliage and lighting in Blender.",
+        "Argon turned pictures of a real desk into a playable miniature racing game using a multi-agent loop in Antigravity. The desk objects, room and race track were modeled and collision-checked using Blender MCP, textured with Nano Banana, and wired with physics, custom shaders, and car engine audio from Gemini Omni Flash in Three.js. Try it now in Google AI Studio.",
+        "Argon in Antigravity wrote Python scripts to procedurally sculpt, rig, animate, and PBR-bake a complex 3D game using multi-agent visual critique loops then wired it for the web in Three.js with GLSL shaders, shatter physics, and a single-player AI. Try it now in Google AI Studio.",
+        "With zero external libraries and 100% pure Python, Argon wrote its own 3D ray-tracing engine with a custom video tool and audio mixer to build and document a sunlit library from scratch, producing, narrating, and assembling this video with Gemini 3.8 TTS voiceover and music by Lyria 3.5. View the source code .",
+        "Starting from a single Nano Banana image in Antigravity, Argon drives Blender MCP in an autonomous loop, aligning camera grids, sculpting Gothic architecture, and staging audio-reactive lighting, to create a finished 3D scene.",
+        "Argon combines frontier reasoning, deep visual perception, expanded domain knowledge, and stronger writing capabilities across legal, finance, science, and coding to help with high-stakes professional workflows. It communicates clearly, keeping you in the loop, and follows style instructions better than any of our previous Gemini models. Argon answers questions more directly with less hedging, doesn’t repeat itself more than necessary, and skips clichés throughout the responses.",
+        "Enterprise customers and startups in our early access program are already seeing strong wins with Argon."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Gemini 4 Argon: Built to solve your hardest problems",
+      "originalLang": "en",
+      "date": "2026-10-13",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google DeepMind",
+        "author": "DeepMind",
+        "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+        "home": "https://deepmind.google/blog/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Gemini 4 Argon: Built to solve your hardest problems"
+      },
+      "raw": {
+        "title": "Gemini 4 Argon: Built to solve your hardest problems",
+        "url": "https://deepmind.google/blog/introducing-gemini-4-argon/",
+        "fetched": true,
+        "savedAt": "2026-10-14T03:08:12.766Z"
+      }
+    },
+    {
+      "id": "sig-c1e94fc831",
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "oneLiner": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest",
+      "summary": {
+        "oneSentence": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+        "bullets": [
+          "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "We’re giving developers, enterprises, scientists, and consumers access to our latest frontier model.",
+        "SVP, Google DeepMind and Chief AI Architect, Google",
+        "Gemini 4 Argon is now globally available today for developers and enterprises via the API in AI Studio and Gemini platform , for Google AI Ultra subscribers in Google Antigravity , and Google AI Ultra and Pro subscribers in the Gemini app and AI Mode in Search .",
+        "Argon excels at deep work in complex, real-world tasks across domains including coding, finance, legal, cybersecurity, and science. Its depth and precision across multi-step tasks leads Argon to outperform other frontier models on benchmarks across domains , ranking #1 on the Vals Index , which measures model performance across critical economic sectors like finance, coding, legal, and tax work.",
+        "The model launches today at an introductory price 1 of $2 per million input tokens and $10 per million output tokens (with cached input tokens at 95% off).",
+        "Teams at Google, across enterprises, and in the research community have already been using Argon to land significant impact across fields:",
+        "At Google, we’ve been using Argon on our hardest engineering problems. Over the past few weeks, software engineers have been shipping high-quality code faster than ever. Argon in Antigravity has helped teams increase agentic code submissions by more than 35% while reducing code rollbacks by nearly a third.",
+        "Argon built a highly detailed model of a Pagoda using multi-agent visual critique loops in Antigravity. The model autonomously sculpted a multi-building temple complex with photorealistic architecture, foliage and lighting in Blender.",
+        "Argon turned pictures of a real desk into a playable miniature racing game using a multi-agent loop in Antigravity. The desk objects, room and race track were modeled and collision-checked using Blender MCP, textured with Nano Banana, and wired with physics, custom shaders, and car engine audio from Gemini Omni Flash in Three.js. Try it now in Google AI Studio.",
+        "Argon in Antigravity wrote Python scripts to procedurally sculpt, rig, animate, and PBR-bake a complex 3D game using multi-agent visual critique loops then wired it for the web in Three.js with GLSL shaders, shatter physics, and a single-player AI. Try it now in Google AI Studio.",
+        "With zero external libraries and 100% pure Python, Argon wrote its own 3D ray-tracing engine with a custom video tool and audio mixer to build and document a sunlit library from scratch, producing, narrating, and assembling this video with Gemini 3.8 TTS voiceover and music by Lyria 3.5. View the source code .",
+        "Starting from a single Nano Banana image in Antigravity, Argon drives Blender MCP in an autonomous loop, aligning camera grids, sculpting Gothic architecture, and staging audio-reactive lighting, to create a finished 3D scene.",
+        "Argon combines frontier reasoning, deep visual perception, expanded domain knowledge, and stronger writing capabilities across legal, finance, science, and coding to help with high-stakes professional workflows. It communicates clearly, keeping you in the loop, and follows style instructions better than any of our previous Gemini models. Argon answers questions more directly with less hedging, doesn’t repeat itself more than necessary, and skips clichés throughout the responses.",
+        "Enterprise customers and startups in our early access program are already seeing strong wins with Argon."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Gemini 4 Argon: Built to solve your hardest problems",
+      "originalLang": "en",
+      "date": "2026-10-13",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Gemini 4 Argon: Built to solve your hardest problems"
+      },
+      "raw": {
+        "title": "Gemini 4 Argon: Built to solve your hardest problems",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+        "fetched": true,
+        "savedAt": "2026-10-14T03:08:14.300Z"
+      }
+    },
+    {
+      "id": "sig-388078e82c",
+      "title": "Source material: Creative director Manon Macasaet’s spirituality shapes her process",
+      "oneLiner": "The creative behind Poison Candy Apple is inspired by Harajuku fashion, early internet Tumblr, old r",
+      "summary": {
+        "oneSentence": "The creative behind Poison Candy Apple is inspired by Harajuku fashion, early internet Tumblr, old rave graphics, and ki",
+        "bullets": [
+          "The creative behind Poison Candy Apple is inspired by Harajuku fashion, early internet Tumblr, old rave graphics, and kidrobots."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.figma.com/blog/source-material-manon-macasaet/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "The creative behind Poison Candy Apple is inspired by Harajuku fashion, early internet Tumblr, old rave graphics, and kidrobots.",
+        "Welcome to Source Material, a weekly series where the designers and creatives shaping culture share the references that shaped them. Our next guest is Manon Macasaet ( @mingblingbling ), a designer, artist, and creative director who founded fashion brand Poison Candy Apple .",
+        "After the shoot, we caught up with Manon about her creative process:",
+        "What were you making when you realized, “This could be my job”?",
+        "I realized this could be my job when I started my webseries “ STORY OF MY FUCKING LIFE .” It’s one of my more notable video projects, a crunk downtown New York Sesame Street that chronicled my life in 2020. It was a super well-rounded video series that helped me develop most of my visual language, creative direction, and team-building abilities. I need to bring it back.",
+        "What’s the first thing you do when you sit down to work?",
+        "It changes all the time. I try to set an intention, and sometimes I pray. I’m quite a spiritual person and need to feel clear-headed when I’m doing creative work.",
+        "What’s a design object you’d take to your grave?",
+        "My “Helter Skelter” book by Mika Ninagawa, it’s like my style bible.",
+        "Mika Ninagawa . She directed the movie “Helter Skelter,” which is like the OG version of “The Substance.” Or honestly, Spike Jonze . I wish I had directed “Jackass” so bad.",
+        "What current design trend are you tired of seeing?",
+        "This is a tough one, but when I was filming my web show I broke a lot of rules while sneaking into certain places to get certain shots. You gotta do what you gotta do.",
+        "What song do you put on to get out of a creative rut?",
+        "I’ve been listening to a lot of Snoopy library jazz to get in the zone lately."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Source Material: Creative Director Manon Macasaet’s Spirituality Shapes Her Process | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-10-13",
+      "categoryIds": [
+        "vertical-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/source-material-manon-macasaet/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Source Material: Creative Director Manon Macasaet’s Spirituality Shapes Her Process | Figma Blog"
+      },
+      "raw": {
+        "title": "Source material: Creative director Manon Macasaet’s spirituality shapes her process",
+        "url": "https://www.figma.com/blog/source-material-manon-macasaet/",
+        "fetched": true,
+        "savedAt": "2026-10-14T03:08:16.047Z"
+      }
+    },
+    {
+      "id": "sig-ffc748cb8d",
+      "title": "Higgsfield takes AI video from 1 minute to over 10",
+      "oneLiner": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a",
+      "summary": {
+        "oneSentence": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmm",
+        "bullets": [
+          "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/higgsfield-longer-videos-voice"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Higgsfield takes AI video from 1 minute to over 10",
+      "originalLang": "en",
+      "date": "2026-10-13",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Higgsfield takes AI video from 1 minute to over 10"
+      },
+      "raw": {
+        "title": "Higgsfield takes AI video from 1 minute to over 10",
+        "url": "https://openai.com/index/higgsfield-longer-videos-voice",
+        "fetched": false,
+        "savedAt": "2026-10-14T03:08:17.499Z"
+      }
+    },
+    {
+      "id": "sig-3696811ff3",
+      "title": "How to transcribe an interview: Accurate, speaker-labeled transcripts",
+      "oneLiner": "Learn how to transcribe an interview with AI, from verbatim vs. clean styles to speaker labels. Elev",
+      "summary": {
+        "oneSentence": "Learn how to transcribe an interview with AI, from verbatim vs. clean styles to speaker labels. ElevenCreative makes it ",
+        "bullets": [
+          "Learn how to transcribe an interview with AI, from verbatim vs. clean styles to speaker labels. ElevenCreative makes it easy to transcribe"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://elevenlabs.io/blog/how-to-transcribe-an-interview"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> Introducing Eleven v4 Meet Eleven v4, our most emotive model yet.",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem; } Skip to content Products Solutions Customers Resources Enterprise Pricing Log in Sign up Contact sales Log in [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() Learn more Sign up Blog Resources How to transcribe an interview: Accurate, speaker-labeled transcripts Written by Jack Limebear Published Oct 13, 2026 Listen Listen to this article",
+        "0:00 1.0x Learn more Sign up On this page",
+        "Manually transcribing an interview takes hours of work. When you’re up against an article deadline or working on a time-sensitive research study, you might not have those extra hours in your schedule. AI-powered speech to text tools transcribe interviews in minutes, freeing up time for editing and analysis.",
+        "In this guide, we’ll cover how to transcribe an interview accurately with AI. We’ll also explore tools, styles, and formatting to help you turn every audio interview into a usable written transcript.",
+        "Interviewers, whether for journalism or academic research, need to pull direct quotes from their transcripts. When interviews run for an hour or more, manual transcription isn't feasible, especially when you need a high level of accuracy.",
+        "Those quotes end up in published articles, reports, and citations. The transcript has to capture everything that’s said, without changing words or cutting anything out.",
+        "Business meetings are a different story. They tend to run shorter, and most teams only need the key points. Many rely on tools that summarize the meeting rather than produce a word-for-word record.",
+        "If you’re choosing interview transcription software, accuracy should come first, but it shouldn’t be the only item on your checklist. Here are the features that matter most.",
+        "When transcribing your interviews, there are two styles to choose from: verbatim or clean.",
+        "A verbatim transcript captures every single word and expression from your conversation, without changing or removing anything. This includes repetitions, false starts, and filler words like ‘um’ or 'uh.'",
+        "A clean transcript removes filler words and repetitions but keeps the original grammar and phrasing. Clean transcripts increase readability while preserving the original intent of the conversation.",
+        "For most interviews, verbatim transcripts are the best fit. Since they preserve the entire conversation, they meet the strict accuracy standards required for journalism, academic research, or law.",
+        "However, there are some situations where clean transcription is appropriate for interviews. Say you conducted an interview for your podcast, and you want to turn it into a Q&A blog post for your website. In that scenario, clean transcription provides publish-ready results."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "How to transcribe an interview with AI: Tips and features",
+      "originalLang": "en",
+      "date": "2026-10-13",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/how-to-transcribe-an-interview",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "How to transcribe an interview with AI: Tips and features"
+      },
+      "raw": {
+        "title": "How to transcribe an interview: Accurate, speaker-labeled transcripts",
+        "url": "https://elevenlabs.io/blog/how-to-transcribe-an-interview",
+        "fetched": true,
+        "savedAt": "2026-10-14T03:08:18.971Z"
+      }
+    },
+    {
+      "id": "sig-d23af6396b",
+      "title": "Baroness Campbell gives the UK Parliament’s first ever AI-voiced speech with ElevenLabs",
+      "oneLiner": "Baroness Campbell addressed the House of Lords in her own AI-recreated voice, a first for UK Parliam",
+      "summary": {
+        "oneSentence": "Baroness Campbell addressed the House of Lords in her own AI-recreated voice, a first for UK Parliament, built with Elev",
+        "bullets": [
+          "Baroness Campbell addressed the House of Lords in her own AI-recreated voice, a first for UK Parliament, built with ElevenLabs."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://elevenlabs.io/blog/first-ever-ai-voiced-speech-uk-parliament"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> Introducing Eleven v4 Meet Eleven v4, our most emotive model yet.",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem; } Skip to content Products Solutions Customers Resources Enterprise Pricing Log in Sign up Contact sales Log in [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() Sign up Blog Company Baroness Campbell gives the UK Parliament’s first ever AI-voiced speech with ElevenLabs Written by Mike Murphy Published Oct 13, 2026 Listen Listen to this article",
+        "0:00 1.0x When Jane Campbell was just one year old, she was diagnosed with spinal muscular atrophy. Despite this, Campbell established herself as one of the UK’s leading disability rights campaigners, and in 2007, she was made a life peer of the House of Lords, as Baroness Campbell of Surbiton.",
+        "Baroness Campbell’s condition has affected her ability to speak, with her voice gradually deteriorating over the years. Since 2012, she has relied on an assistant to help her deliver her speeches. But today, for the first time in years, Baroness Campbell addressed the House of Lords in her own voice.",
+        "Using an AI recreation of her voice, built by ElevenLabs, the Baroness was able to speak for herself to the House, on a subject that has been at the core of her years of campaigning, during the Second Reading of the Health Bill. She delivered her speech with her own voice using an emotional valence that she hasn’t been able to in decades. It’s the first time a peer or member of the UK Parliament has used an AI-generated voice to address either house of Parliament.",
+        "“I used AI to speak my own words, not to put words into my mouth. The speech, the arguments and the views are entirely mine,” Baroness Campbell said. “It’s my voice, my style, my words. A totally empowering experience.”",
+        "Baroness Campbell found our voice cloning technology on her own, and decided to use it to recreate her voice. By uploading old clips of her speaking, the Baroness created an AI voice that replicates the tone, rhythm, and pitch of her original voice. She then used our text-to-speech generator to create an audio version of her speech, which was then played through an assistive device in the House of Lords.",
+        "When the House of Lords’ Procedure Committee granted Baroness Campbell permission to bring her assistant into the Chamber to read for her in 2012, it was a departure from a rule dating back to 1707 that prohibited non-peers from “crossing the bar” and speaking in the House. Today’s AI-generated speech is the second time the Committee has granted an accommodation to the Baroness so that she could fully participate in parliamentary proceedings.",
+        "“Our chamber is full of diverse experts and trailblazers, like Baroness Campbell of Surbiton, all of whom should be able to contribute fully,” said Lord Forsyth of Drumlean, the Lord Speaker. “While there are justifiable concerns about some uses of AI, when used in this and many other ways, for good, we must recognize its capabilities and transformative potential.”",
+        "Baroness Campbell’s speech focused on Personal Health Budgets (PHBs), funds allocated to individuals in England to help support their health and wellbeing needs for treatments, equipment, and personal care. She maintained that PHBs must stay accessible to the disabled people who rely on them and be extended to others who could benefit.",
+        "“I depend upon a Personal Health Budget myself,” Baroness Campbell said. “I know from personal experience the difference that having control over the support you receive can make to living an independent life.”",
+        "Being able to converse in her own voice is one way that the Baroness has been able to use technology to help her live independently. Our technology has now been used to restore the voices of more than 11,000 people who have lost their voices through injury or illness. We have committed to help one million people living with voice loss around the world.",
+        "“Our voices carry a part of our identity, and losing the ability to use them can mean losing the ability to take part in the conversations that shape our lives,” said Mati Staniszewski, co-founder and CEO of ElevenLabs. “Baroness Campbell has spent decades advocating for disabled people, and we are proud that our technology can help her do exactly that in the House of Lords and beyond.”",
+        "If you or someone you know has lost their voice and wants to learn more, visit the ElevenLabs Impact Program page ."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "First AI-voiced speech delivered in UK's Parliament",
+      "originalLang": "en",
+      "date": "2026-10-13",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/first-ever-ai-voiced-speech-uk-parliament",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "First AI-voiced speech delivered in UK's Parliament"
+      },
+      "raw": {
+        "title": "Baroness Campbell gives the UK Parliament’s first ever AI-voiced speech with ElevenLabs",
+        "url": "https://elevenlabs.io/blog/first-ever-ai-voiced-speech-uk-parliament",
+        "fetched": true,
+        "savedAt": "2026-10-14T03:08:20.701Z"
       }
     },
     {
@@ -4902,7 +5719,7 @@
         "url": "https://cursor.com/changelog/remote-control-local-agents",
         "fetched": true,
         "savedAt": "2026-10-11T03:27:39.323Z",
-        "retranslatedAt": "2026-10-13T05:01:37.593Z"
+        "retranslatedAt": "2026-10-14T03:08:27.463Z"
       }
     },
     {
@@ -14322,7 +15139,7 @@
         "url": "https://cursor.com/changelog/rollouts-and-security-reviewer",
         "fetched": true,
         "savedAt": "2026-09-27T03:09:42.462Z",
-        "retranslatedAt": "2026-10-13T05:01:38.522Z"
+        "retranslatedAt": "2026-10-14T03:08:29.848Z"
       }
     },
     {
@@ -31657,158 +32474,6 @@
         "url": "https://simonwillison.net/2026/Aug/31/andrew-digby/",
         "fetched": false,
         "savedAt": "2026-09-01T03:06:28.013Z"
-      }
-    },
-    {
-      "id": "sig-7eb436fbc3",
-      "title": "MiniMax H3 和 H3 Max 在 AI Gateway - Vercel 上享受 50% 折扣",
-      "oneLiner": "与 MiniMax 合作，从 8 月 30 日到 9 月 13 日，MiniMax H3 和 H3 Max 在 AI Gateway 上享受 50% 的折扣。",
-      "summary": {
-        "oneSentence": "与 MiniMax 合作，从 8 月 30 日到 9 月 13 日，MiniMax H3 和 H3 Max 在 AI Gateway 上享受 50% 的折扣。",
-        "bullets": [
-          "与 MiniMax 合作，从 8 月 30 日到 9 月 13 日，MiniMax H3 和 H3 Max 在 AI Gateway 上享受 50% 的折扣。",
-          "折扣涵盖通过 AI Gateway 在模型支持的每个持续时间和每个宽高比下计费的请求。",
-          "H3 根据文本提示、起始图像、一对第一帧和最后一帧或参考图像、视频和音频生成 2K 视频。",
-          "H3 Max 以分辨率换取速度：它在 480p 和 768p 下渲染速度更快，并且需要文本提示或起始图像。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：与 MiniMax 合作，从 8 月 30 日到 9 月 13 日，MiniMax H3 和 H3 Max 在 AI Gateway 上享受 50% 的折扣。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/minimax-h3-and-h3-max-are-50-off-on-ai-gateway"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "与 MiniMax 合作，从 8 月 30 日到 9 月 13 日，MiniMax H3 和 H3 Max 在 AI Gateway 上享受 50% 的折扣。",
-        "折扣涵盖通过 AI Gateway 在模型支持的每个持续时间和每个宽高比下计费的请求。",
-        "H3 根据文本提示、起始图像、一对第一帧和最后一帧或参考图像、视频和音频生成 2K 视频。",
-        "H3 Max 以分辨率换取速度：它在 480p 和 768p 下渲染速度更快，并且需要文本提示或起始图像。",
-        "型号 ID（ minimax/minimax-h3 和 minimax/minimax-h3-max ）未更改，因此您已发送的请求可享受折扣价，无需更改代码：",
-        "1 从'ai'导入{experimental_generateVideo asgenerateVideo}； 2 3 const {videos}=awaitgenerateVideo({4model:'minimax/minimax-h3-max',5prompt:'旧金山周末早晨的日出。',6duration:5,7poll:{timeoutMs:600000},8});",
-        "渲染需要几分钟的时间，因此 poll 将生成作为后台作业运行，并发出简短的状态请求，直到它落地，而不是保持一个长请求打开。请参阅 Webhook 和启动和状态路由的异步生成。",
-        "将链接复制到标题 开始 在仪表板的 AI 网关部分创建 API 密钥，或首先从模型游乐场在浏览器中生成剪辑。",
-        "每种型号的当前价格均在定价页面上。您可以查看AI网关上所有可用的视频模型。"
-      ],
-      "highlights": [
-        "与 MiniMax 合作，从 8 月 30 日到 9 月 13 日，MiniMax H3 和 H3 Max 在 AI Gateway 上享受 50% 的折扣。",
-        "折扣涵盖通过 AI Gateway 在模型支持的每个持续时间和每个宽高比下计费的请求。",
-        "H3 根据文本提示、起始图像、一对第一帧和最后一帧或参考图像、视频和音频生成 2K 视频。"
-      ],
-      "translated": true,
-      "originalTitle": "MiniMax H3 and H3 Max are 50% off on AI Gateway - Vercel",
-      "originalLang": "en",
-      "date": "2026-08-30",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/minimax-h3-and-h3-max-are-50-off-on-ai-gateway",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "MiniMax H3 and H3 Max are 50% off on AI Gateway - Vercel"
-      },
-      "raw": {
-        "title": "MiniMax H3 and H3 Max are 50% off on AI Gateway",
-        "url": "https://vercel.com/changelog/minimax-h3-and-h3-max-are-50-off-on-ai-gateway",
-        "fetched": true,
-        "savedAt": "2026-08-31T02:58:28.605Z",
-        "retranslatedAt": "2026-09-01T03:06:36.530Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-517370741c",
-      "title": "Understanding ChatGPT Work",
-      "oneLiner": "OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is",
-      "summary": {
-        "oneSentence": "OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily ",
-        "bullets": [
-          "OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so fa"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "OpenAI announced ChatGPT Work on July 9th, and have been furiously iterating on it ever since. It is an extraordinarily confusing and very powerful product. Here's what I've figured out about it so far. ChatGPT Work is actually two products The more interesting version of ChatGPT Work is the one that runs in the cloud. This can be accessed via chatgpt.com or through the ChatGPT mobile apps. Let's call it Work Cloud . If you install the ChatGPT desktop app - the app that used to be called Codex - you gain access to a thing called ChatGPT Work that can access files and run programs directly on your computer. Let's call that one Work Local . This one feels more like regular Codex re-skinned to be less intimidating to non-software-developers. ( Update : Work Cloud is also available from the ChatGPT desktop app, via a Where should this chat run? dropdown.) For the rest of this article I'm going to talk exclusively about Work Cloud. Work is for paid subscribers only Right now, ChatGPT Work (in both flavors) is available only to $20/month and up subscribers. Free users and $8/month Go users do not have access. Work has features that aren't available in Chat The interface for accessing Work is a tab selector, which presents it as an alternative to Chat: The obvious question is when should I use Chat, and when should I use Work? OpenAI's official answer to that question is: Use Chat when you want an answer, explanation, brainstorm, or short draft. Use ChatGPT Work when you want ChatGPT to complete a task with a clear outcome, such as a brief, deck, analysis, recurring update, workflow, or file you can review and use. I find that almost entirely useless, because I've been using regular ChatGPT Chat for all of those task categories for years! The better question then is what features does Work have that are missing from Chat? After extensive experimentation I think I've mostly figured that out: Options to use Luna and Terra in place of Sol A code execution environment with Internet access A headless Chrome browser A persistent filesystem shared between sessions The ability to publish ChatGPT Sites The ability to run sub-agent sessions with Sol, Luna, and Terra Scheduled prompt automations (may be in ChatGPT Chat too) Model selection In Work, you get the option to pick GPT-5.6 Sol, Luna, or Terra, each with Light, Medium, High, Extra High, Max, or Ultra reasoning levels. You can also pick GPT-5.5 at Light, Medium, High, or Extra High. These look to be the same models that are available through the OpenAI API. Chat offers a different selection: 5.6 Instant, Medium, High, Extra High, and Pro (actually Extra High and Pro are only available for $100/month+ subscribers - $20/month subscribers cap out at High). It doesn't explain if those are Luna or Terra or Sol (I'm assuming Sol?). 5.6 Pro appears to be exclusive to Chat, with no equivalent in Work. My current understanding from using Codex is that Ultra is a special mode that more eagerly delegates to sub-agents. I believe ChatGPT Work sessions are billed against your Codex allowance, while ChatGPT Chat Sessions get their own, separate allowance. This may help explain the model availability differences. Code execution with Internet access! As a long-time fan of the Code Interpreter pattern - pioneered by OpenAI in 2023 - this is by far the most exciting feature of ChatGPT Work (Cloud) for me. The code execution environment can now talk to the rest of the internet! ChatGPT Chat can't do this - if you ask it to install additional software packages or interact with websites or APIs that access will be blocked by the container proxy. (Weirdly, back in January it grew the ability to install packages , but that doesn't seem to work any more. I wish they had better changelogs!) Claude's equivalent container has allowed restricted internet access since it launched last September . Claude can install packages from PYPI and NPM and clone repositories from GitHub. But that is about it: the allowlist of domains is very short. ChatGPT Work allows a whole lot more than that. It can be configured with a specific list of allowed domains, but the default appears to be open to all. This makes Work an incredibly useful tool. You can have it clone GitHub repositories, install their dependencies, then use them to interact with the rest of the web! A full, headless Chrome browser Another killer feature of ChatGPT Work is the browser tool . ChatGPT Work can launch a full Chrome instance, load websites, fill out forms, and take screenshots. \", followed by the reply \"Here's the screenshot of the live site:\" and an embedded screenshot of a website.\" style=\"max-width: 100%\" /> If a site requires sign in the browser can prompt you to take over and enter both passwords and 2FA codes, without round-tripping those credentials through the model itself. It can even run JavaScript against the DOM of loaded pages. I prompted: Load simonwillison.net in your browser and extract the headings using JavaScript ChatGPT Work fired up a browser instance and ran the code: await tab . playwright . evaluate ( ( ) => { return Array . from ( document . querySelectorAll ( \"h1,h2,h3,h4,h5,h6\" ) , heading => ( { level : heading . tagName . toLowerCase ( ) , text : heading . innerText . trim ( ) . replace ( / \\s + / g , \" \" ) , id : heading . id || null } ) ) ; } ) ; This feels a lot like my shot-scraper javascript tool, only now I can access it on my phone! A persistent, shared filesystem ChatGPT Chat gets a fresh filesystem for each chat session. These cannot be accessed from any other session. In ChatGPT Work each session gets its own scratch folder - named something like /workspace/scratch/e00a0a017944 - but each of those are persisted across sessions, so you can access files from previous chats. I have 171 folders in /workspace/scratch right now! As far as I can tell that /workspace volume is mounted to all Work sessions that are currently running - file edits from one can be instantly seen by the others. They don't seem to share the same process space though, and localhost servers running in one can't be accessed from another. ChatGPT Sites ChatGPT Work has the ability to build and deploy entire websites, using Cloudflare Workers. These can have HTML and JavaScript and can run server-side features too, including stateful features on top of Cloudflare D1 and R2. Here's a simple site I built with this feature: london-pelicans-in-her-piety.simonw.chatgpt.site My prompt was: Figure out all of the places in London with a pelican in her piety, then turn that into a JSON file and build a ChatGPT sites site about them (A pelican in her piety is a fascinating piece of medieval Christian imagery - once you know about them you'll find them all over the place.) These sites default to being private to the user that created them, but you can make them public and (on team plans) share them with other specific individuals. Sub-agents with Sol, Luna, and Terra There's not much to say about this one. ChatGPT Chat can't run sub-agents. ChatGPT Work can. This is very much a power-user feature: if you are running a complex project that can benefit from multiple parallel agents working together, Work can do that. Scheduled prompt automations Another feature that seems to have migrated from regular ChatGPT to ChatGPT Work at some point. You can prompt ChatGPT Work like this: run a search to see if Waymo have announced a launch date for Half Moon Bay every day at 8am This will schedule a prompt to run on that frequency. These prompts can decide that nothing interesting has happened, or they can decide to notify you of some new information. Update : Actually this seems to work in ChatGPT Chat as well. It's still worth noting here though, as it can be used in conjunction with other ChatGPT Work exclusive features. You can set a scheduled task to update a ChatGPT Site on an hourly basis, for example. Is this safe? An open question for me right now is how safe all of this stuff is. My lethal trifecta model warns about the risks inherent in any agent system that combines access to private data with exposure to untrusted content and a way to communicate stolen information back to an attacker. ChatGPT Work combines all three! I'd love to hear more from OpenAI about how they protect ChatGPT Work sessions against prompt injection attacks. I expect their answer is the same auto-review mechanism as Codex. OpenAI could make this a lot less confusing Figuring this all out took way more work than it should have. I think there are two key problems here: OpenAI explain Work in terms of what it's for, not what it actually does OpenAI still insist on hiding their system prompts and tools descriptions If the ChatGPT Work documentation included the exact system prompt and tool descriptions used by the agent I wouldn't have needed to write this post. A list of all the tools Shortly after publishing this article I had an idea. I started a fresh Work session and prompted: Build a site that lists every one of your tools - nearly grouped into categories - and for each one explain what it does. Try to exactly duplicate arguments and tool descriptions where possible. Design aesthetic should be technical docs, minimal flare Here's the site it built , which includes details of 223 registered tools - though 6 of those are from my own personal MCPs served via datasette-mcp . And a whole lot of Skills I noticed that the only browser-related tool in the list was web.run , which has methods for running searches, opening URLs, and clicking links, but didn't look like the full story in regards to headless browser automation. This made me suspicious that something was missing, so I told the ChatGPT Work session that built that tools reference site: Add full copies of every skill to the website (separate pages linked to from the homepage) It turns out ChatGPT Work uses a lot of skills - 44 in fact! The control-browser skill explains how the browser works: Run browser setup code through the Node REPL js tool. In this environment the callable tool id typically appears as mcp__node_repl__js . [...] The ability to interact directly with the browser is exposed through the browser-client runtime via the agent.browsers.* API. Before trying to interact with it, you MUST emit and read the complete documentation returned by await browser.documentation() in one go. So I told Work: Add the full output of await browser.documentation() to the bottom of the /skills/control-browser page And now you can read that on /skills/control-browser as well. A few more interesting Skills: documents for creating .docx files imagegen with tips on creating images with the image_gen tool pdf for both reading and rendering PDFs Spreadsheets for manipulating .xlsx , .xls , .csv , .tsv sites:sites-building for creating ChatGPT Sites openai-docs for answering questions about itself data-analytics:build-dashboard for building data dashboards Tags: ai , openai , generative-ai , chatgpt , llms , code-interpreter , lethal-trifecta , skills , general-agents"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Understanding ChatGPT Work",
-      "originalLang": "en",
-      "date": "2026-08-30",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Understanding ChatGPT Work"
-      },
-      "raw": {
-        "title": "Understanding ChatGPT Work",
-        "url": "https://simonwillison.net/2026/Aug/30/understanding-chatgpt-work/",
-        "fetched": false,
-        "savedAt": "2026-09-01T03:06:28.815Z"
       }
     }
   ]
