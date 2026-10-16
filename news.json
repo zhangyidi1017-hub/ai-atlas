@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-15T02:49:41.081Z",
+  "updatedAt": "2026-10-16T02:45:08.403Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 419,
+  "itemCount": 409,
   "brief": {
-    "date": "2026-10-15",
-    "generatedAt": "2026-10-15T02:49:41.080Z",
-    "totalCount": 419,
+    "date": "2026-10-16",
+    "generatedAt": "2026-10-16T02:45:08.401Z",
+    "totalCount": 409,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 419 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 409 条",
     "topUpdates": [
       {
         "id": "sig-58e4191fcf",
@@ -92,8 +92,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-10-15T02:49:41.081Z",
-    "summary": "近 30 天共 270 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-10-16T02:45:08.403Z",
+    "summary": "近 30 天共 268 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -108,6 +108,42 @@
     "risingTags": []
   },
   "productUpdates": [
+    {
+      "id": "sig-a72d1e4da6",
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "oneLiner": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosa",
+      "date": "2026-10-15",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-996b33c09a",
+      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+      "oneLiner": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+      "date": "2026-10-15",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google DeepMind",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-fa14b8f7db",
+      "title": "Teaching students to think and learn through questions",
+      "oneLiner": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can hel",
+      "date": "2026-10-15",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
+    },
     {
       "id": "sig-58e4191fcf",
       "title": "Google DeepMind 与新加坡政府合作构建用于诈骗检测的微调人工智能模型",
@@ -361,45 +397,794 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-0ca1450969",
-      "title": "GPT-6 和适合所有人的智能 UI",
-      "oneLiner": "GPT‑6 正在全球范围内通过智能 UI 在 ChatGPT 中推出，通过您可以直接探索和使用的视觉效果和交互式体验提供更快的响应。",
-      "date": "2026-10-07",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-4dd2900708",
-      "title": "EmbeddingGemma 2：开放、轻量级的多模态嵌入模型",
-      "oneLiner": "EmbeddingGemma 2 是最强大的设备上多模式嵌入模型，可将文本、图像、音频和视频的组合本地映射到统一的嵌入空间。",
-      "date": "2026-10-06",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google DeepMind",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-60ef2af305",
-      "title": "Atlassian 和 OpenAI 扩大合作伙伴关系，将企业知识转化为行动",
-      "oneLiner": "Atlassian 和 OpenAI 正在扩大合作伙伴关系，将前沿模型与企业知识联系起来，并帮助团队规划、构建和交付工作。",
-      "date": "2026-10-06",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-a72d1e4da6",
+      "title": "Bringing GPT-Rosalind to academic research labs",
+      "oneLiner": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosa",
+      "summary": {
+        "oneSentence": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to ad",
+        "bullets": [
+          "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/introducing-the-rosalind-academic-plan"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Bringing GPT-Rosalind to academic research labs",
+      "originalLang": "en",
+      "date": "2026-10-15",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Bringing GPT-Rosalind to academic research labs"
+      },
+      "raw": {
+        "title": "Bringing GPT-Rosalind to academic research labs",
+        "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+        "fetched": false,
+        "savedAt": "2026-10-16T02:44:44.893Z"
+      }
+    },
+    {
+      "id": "sig-996b33c09a",
+      "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+      "oneLiner": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+      "summary": {
+        "oneSentence": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
+        "bullets": [
+          "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://deepmind.google/blog/accelerating-antimicrobial-discovery/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "Pengfei Tian, Maxwell L. Bileschi, Zoi Tsangalidou, Sukhdeep Singh and Lucy J. Colwell",
+        "Share Copied New antibiotics are urgently needed to help with rising levels of antimicrobial resistance, but searching for new therapeutics is often a slow, labor-intensive process. With Google Antigravity, our agentic development platform, this process can now be made easier.",
+        "Google Antigravity provides an agentic science workbench that empowers biologists to discover, structurally evaluate, and prioritize promising targets quickly, compressing what used to be a fragmented search over multiple databases into a single session. It also helps researchers scan through millions of previously uncharacterized proteins in the UniProt database using ProtNLM, a model that predicts biological function from amino acid sequences.",
+        "This technical walkthrough shows how biologists used Google Antigravity to uncover a novel antimicrobial peptide candidate which has predicted activity against the pathogens involved in respiratory tract infections. The lead identified here is now undergoing wet-lab validation.",
+        "Rising antimicrobial resistance is one of the most pressing global health crises of our time and could result in an estimated 10 million annual deaths globally by 2050. To prevent this, we urgently need to discover novel therapeutics. Antimicrobial peptides (AMPs), particularly bacteriocins, offer a promising alternative to traditional antibiotics because they have naturally evolved to target fundamental vulnerabilities in competing bacteria, from cell envelopes to essential intracellular machinery, making it difficult for pathogens to develop resistance.",
+        "The exponential growth of genomic and metagenomic sequencing has populated global databases with billions of natural amino acid sequences. This pool of natural data has already produced globally used bacteriocins like Nisin, alongside recent genome-mined breakthroughs such as Darobactin, Dynobactin, and Lariocidin.",
+        "Many, however, remain locked within the unannotated \"dark matter\" of protein databases, with their function uncharacterized because they aren’t similar to known proteins. For example, the world's leading public resource of protein sequence and functional information, UniProt , holds millions of sequences with unknown functionality, transferred directly from genome sequencing projects.",
+        "To bridge this gap, Google developed ProtNLM (Protein Natural Language Model) , a deep learning model trained to directly read the underlying evolutionary “grammar” of amino acid sequences. This allows the model to predict biological function directly from raw protein sequences, enriching millions of previously unnamed UniProt entries with high-confidence functional labels.",
+        "Overview of the ProtNLM pipeline translating raw amino acid sequences into natural-language biological annotations for unreviewed UniProtKB/TrEMBL entries. The functional annotation scope of the system covers protein names, function comments, subcellular locations, and GO terms, in addition to keywords.",
+        "Scientific discovery is rarely a single step process; finding viable candidate proteins requires human intuition and iteration to incorporate new empirical evidence. Working in Antigravity, the researcher and AI agent begin by setting a focused biological goal: find and computationally validate novel AMPs in Streptococcus pseudopneumoniae . During an interactive, multi-turn session the researcher steers the scientific strategy, deciding which questions to ask and what evidence to collect, while the agent handles the heavy lifting of cross-database orchestration, structural analysis, and literature synthesis.",
+        "The agent queries the database and filters millions of entries down to a handful of candidates worthy of attention. Here, the agent finds a bacteriocin (Uniprot ID: A0A0U0D591 ) with a length of 97 amino acids from the Lactococcin 972 family.",
+        "To verify the novelty of this discovery, the researcher guides the agent to interrogate the candidate against curated knowledge in Swiss-Prot via the EMBL-EBI NCBI-BLAST service and confirm this peptide has no meaningful sequence homolog among manually reviewed proteins.",
+        "The researcher steers the analysis towards structural evidence. The agent retrieves the candidate’s 3D model from the AlphaFold Protein Structure Database, querying it against experimentally determined structures to identify remote homologs, and superimposing the models to assess similarity. Here, the structural evidence corroborates ProtNLM’s prediction by showing the candidate's fold closely matches an experimentally determined bacteriocin. The structure viewer in Antigravity allows this structural analysis to be seamlessly performed in one place.",
+        "Reading the biological context around a gene:"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+      "originalLang": "en",
+      "date": "2026-10-15",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google DeepMind",
+        "author": "DeepMind",
+        "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+        "home": "https://deepmind.google/blog/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Accelerating the search for antimicrobial peptides with Google Antigravity"
+      },
+      "raw": {
+        "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
+        "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
+        "fetched": true,
+        "savedAt": "2026-10-16T02:44:46.305Z"
+      }
+    },
+    {
+      "id": "sig-5a940ef01c",
+      "title": "Vercel Ship 2026 recap",
+      "oneLiner": "For a decade, Vercel has shaped how the web is built. Now, we’re doing the same for agents. The comp",
+      "summary": {
+        "oneSentence": "For a decade, Vercel has shaped how the web is built. Now, we’re doing the same for agents. The companies that win the n",
+        "bullets": [
+          "For a decade, Vercel has shaped how the web is built. Now, we’re doing the same for agents. The companies that win the next decade will build on infrastructure designed for agents from the start, and "
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/blog/vercel-ship-2026-recap"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "For a decade, Vercel has shaped how the web is built. Now, we’re doing the same for agents. The companies that win the next decade will build on infrastructure designed for agents from the start, and thousands of people gathered across London, Berlin, New York, Sydney, and San Francisco to do just that at Vercel Ship 2026.",
+        "Copy link to heading Agentic infrastructure Guillermo Rauch (CEO, Vercel) opened Ship SF with a vision for the next era of software and agentic infrastructure: interfaces generated for any task in front of you, agents that reproduce and fix bugs autonomously, and software that takes production context and continuously improves itself.",
+        "Vercel is where coding agents deploy software . When you ask your harness where to deploy, you get Vercel, because Vercel is built for the way agents work. We have over 200 CLI commands that your agent can use to operate our entire platform.",
+        "Vercel is where you build and deploy your own agents . We give you every tool you need to build and run apps and agents in production, securely, at scale.",
+        "Vercel itself is automated by agents . Vercel runs your apps in production, handling traffic, traces, observability, and anomalies. That data gives our agents the context they need to investigate autonomously, and then surface pull requests, not just alerts.",
+        "Vercel exists to put the full force of agentic infrastructure behind you, so that you, your agents, and your software can deploy and run faster than ever.",
+        "Copy link to heading Vercel is for shipping full-stack apps and agents In the next keynote, Malte Ubl (CTO, Vercel) showed how frontends, APIs, backend services, containers, MCP servers, and background workers can all run on Vercel, with support for custom runtimes and system dependencies.",
+        "He then announced that Python is now generally available on Vercel. Run FastAPI, Flask, or Django with standard CPython, PyPI dependencies, uv , and pyproject.toml . With Vercel Services, your frontend and backend deploy together, with previews of the full app.",
+        "Malte also introduced Vercel Daemons , now in public beta, for continuously running background workers. Deploy your code or container image, set the number of instances, and Vercel keeps them running and replaces them if they fail. Bring Celery, Dramatiq, Temporal workers, or your existing worker processes.",
+        "Copy link to heading Vercel is for shipping agents Tomo Occhino (CPO, Vercel) walked through the Agent Stack and its latest updates. The Agent Stack gives you everything you need to build, run, and scale agents in production.",
+        "eve , our open-source framework for building agents, now has persistent memory across sessions, extensions for installing tools and skills, and agent creation and deployment from the Vercel dashboard.",
+        "Vercel Connect is generally available, with more than 1,000 connectors. And MCP Events , now in public beta, lets agents respond to events from MCP servers. Connect handles subscriptions, renewals, and secure delivery.",
+        "AI Gateway now lets you set budgets for API keys, projects, individuals, and teams. You can also choose US-only inference to keep model processing in the United States, or enable Zero Data Retention so providers don’t retain your prompts or responses. He also introduced Vercel Token Pass , now in early access for Pro teams. Get $80 in GLM 5.3 and Kimi K3 token credit for $30/month, with more models coming soon.",
+        "Vercel Drives , now generally available for Sandbox, gives agents persistent workspaces. Code, data, and saved memory survive across runs, so you can change runtimes or compute without rebuilding the workspace."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Vercel Ship 2026 recap",
+      "originalLang": "en",
+      "date": "2026-10-15",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/vercel-ship-2026-recap",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Vercel Ship 2026 recap"
+      },
+      "raw": {
+        "title": "Vercel Ship 2026 recap",
+        "url": "https://vercel.com/blog/vercel-ship-2026-recap",
+        "fetched": true,
+        "savedAt": "2026-10-16T02:44:48.041Z"
+      }
+    },
+    {
+      "id": "sig-fa14b8f7db",
+      "title": "Teaching students to think and learn through questions",
+      "oneLiner": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can hel",
+      "summary": {
+        "oneSentence": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support a",
+        "bullets": [
+          "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/teaching-students-to-think-and-learn-through-questions"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Teaching students to think and learn through questions",
+      "originalLang": "en",
+      "date": "2026-10-15",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Teaching students to think and learn through questions"
+      },
+      "raw": {
+        "title": "Teaching students to think and learn through questions",
+        "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
+        "fetched": false,
+        "savedAt": "2026-10-16T02:44:49.636Z"
+      }
+    },
+    {
+      "id": "sig-82500a3e78",
+      "title": "SSML tags explained: How to control pauses, pronunciation, and pacing in text to speech",
+      "oneLiner": "SSML is the markup that controls pauses and pronunciation in text to speech. See key tags, code exam",
+      "summary": {
+        "oneSentence": "SSML is the markup that controls pauses and pronunciation in text to speech. See key tags, code examples, and ElevenLabs",
+        "bullets": [
+          "SSML is the markup that controls pauses and pronunciation in text to speech. See key tags, code examples, and ElevenLabs support, including Eleven v4."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://elevenlabs.io/blog/ssml-tags-explained"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> Introducing Eleven v4 Meet Eleven v4, our most emotive model yet.",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem; } Skip to content Products Solutions Customers Resources Enterprise Pricing Log in Sign up Contact sales Log in [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() Sign up Learn more Blog Resources SSML tags explained: How to control pauses, pronunciation, and pacing in text to speech Written by Jack Limebear Published Oct 15, 2026 Listen Listen to this article",
+        "0:00 1.0x Sign up Learn more On this page",
+        "Speech Synthesis Markup Language (SSML) is an XML-based markup language that wraps text in tags to tell a text to speech model how to speak it, including where to pause, how to pronounce a word, and which phrase to stress.",
+        "That control layer sits behind a lot of the AI speech you already hear. An interactive voice response (IVR) system reading back a confirmation number and an AI audiobook narrator pausing at the end of a chapter both rely on some version of it. If you've spent time customizing AI-generated speech, you've probably come across SSML.",
+        "SSML has been part of TTS technology for over two decades and is still a major part of how many providers deliver TTS. This guide explains what SSML is and exactly where it applies across ElevenLabs' model lineup, along with the improved Audio Tag system that Eleven v3 and Eleven v4 use to deliver leading natural-sounding text to speech.",
+        "Excited Playful Peaceful Amazed Anxious Frustrated Scared Tired Excited Playful Peaceful Amazed Anxious Frustrated Scared Tired Excited Playful Peaceful Amazed Anxious Frustrated Scared Tired Excited Playful Peaceful Amazed Anxious Frustrated Scared Tired Excited Playful Peaceful Amazed Anxious Frustrated Scared Tired Excited Playful Peaceful Amazed Anxious Frustrated Scared Tired Excited Playful Peaceful Amazed Anxious Frustrated Scared Tired Excited Playful Peaceful Amazed Anxious Frustrated Scared Tired [ ] Summary SSML is a W3C-rooted markup language used to control vocal pauses, emphasis, pronunciation, and pacing found in synthesized speech. ElevenLabs models, except for Eleven v3 and Eleven v4, support the SSML <break> tag for pauses up to 3 seconds. Eleven Flash v2 and Eleven Turbo v2 support the < phoneme > tag for custom English pronunciation. Eleven v3 and Eleven v4 do not support SSML at all. Instead, they use Audio Tags for bracketed, natural-language instruction such as [whispering] and [sighs] to control the flow of synthesized speech. WebSocket API controls SSML parsing through the enable_ssml_parsing parameter and sends SSML tags as complete messages to avoid added latency. Tags such as <prosody>, <say-as>, <sub>, <lang>, <voice> and <audio> aren't supported by ElevenLabs models, but each one has an equivalent: voice settings, text normalization, pronunciation dictionaries, multilingual models, separate voices and sound effects . What is SSML? SSML is a markup language that allows you to annotate written text with instructions for how a synthesis engine should speak it. The World Wide Web Consortium (W3C) developed it as a standard to extend beyond plain text to speech models. SSML offers explicit, machine-readable directions for how a passage should be pronounced, rather than relying on plain-text interpretation models.",
+        "SSML is not a unique markup that is siloed to any single provider. Amazon Polly and Microsoft Azure Speech both use SSML tags, such as <break> and <emphasis>, as their primary control mechanism. Most cloud text to speech platforms accept some version of the standard. SSML has been the default way to annotate speech long before generative voice models existed.",
+        "SSML remains a fundamental standard, while newer, model-specific controls develop alongside modern generative voice technologies. This vendor-neutral specification behind SSML lets providers implement common core tags. Providers can then layer their own extensions and restrictions on top of those core tags.",
+        "SSML implementations share a core set of tags that most people will search for when trying to control synthesized speech.",
+        "Each of these four tags will behave differently depending on the TTS model reading it. Some providers will support additional tags for prosody or speaking rate. A script written for one TTS provider won't behave the same as another, even if both claim SSML support, because coverage of the full tag set varies.",
+        "What varies most is which tags a given text to speech model actually processes, which is where ElevenLabs' implementation becomes specific.",
+        "SSML support through ElevenLabs isn't fully uniform. It depends on which model you select to generate the audio. The <break> tag is the most broadly supported element, and <phoneme> is available on a narrower set of models.",
+        "Older ElevenLabs TTS models, like Multilingual v2 , support the <break> tag for pauses up to three seconds. For example, an AI agent might say, \"Hold on, let me think,\" then use <break time=\"2.0s\" /> to create an audible pause before continuing with \"Alright, I know how to help.\" It’s the most common tag in many workflows, as it helps to simulate a more natural style of conversation."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "SSML Explained: Tags, examples, and ElevenLabs support",
+      "originalLang": "en",
+      "date": "2026-10-15",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/ssml-tags-explained",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "SSML Explained: Tags, examples, and ElevenLabs support"
+      },
+      "raw": {
+        "title": "SSML tags explained: How to control pauses, pronunciation, and pacing in text to speech",
+        "url": "https://elevenlabs.io/blog/ssml-tags-explained",
+        "fetched": true,
+        "savedAt": "2026-10-16T02:44:51.219Z"
+      }
+    },
+    {
+      "id": "sig-05fb2be54b",
+      "title": "Introducing Instant Soundtracks",
+      "oneLiner": "Introducing Instant Soundtracks, convert video to music and sound effects automatically.",
+      "summary": {
+        "oneSentence": "Introducing Instant Soundtracks, convert video to music and sound effects automatically.",
+        "bullets": [
+          "Introducing Instant Soundtracks, convert video to music and sound effects automatically."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://elevenlabs.io/blog/introducing-instant-soundtracks"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> Introducing Eleven v4 Meet Eleven v4, our most emotive model yet.",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem; } Skip to content Products Solutions Customers Resources Enterprise Pricing Log in Sign up Contact sales Log in [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() Sign up Blog Introducing Instant Soundtracks Written by Renee Zhang Published Oct 15, 2026 Listen Listen to this article",
+        "Generate a soundtrack and synchronized sound effects for any video you upload in ElevenCreative.",
+        "Add music and sound effects to any video in ElevenCreative Elevate any video you upload to ElevenCreative by generating sound effects alongside a soundtrack with Instant Soundtracks. The new update to ElevenCreative, launched today, allows you to upload a video, and the model scores it with original music, then analyzes the footage for sound effect cues, and generates sound effects aligned to those timestamps.",
+        "These generated effects are automatically placed on the timeline to match the video. The model watches the video for moments that call for an effect and places each one at the right timestamp, for example, a whoosh timed to the logo at the end of an ad.",
+        "Today’s update also brings better timing for short-form content, as well as more accurate mood switching across scenes. You can now also use your video's existing audio as a reference for the new score. The model can analyze the audio — its genre, crescendos, beats per minute, or instrumentation, for example — and use it to shape the new score. The result is music that matches the character of the original, rather than starting entirely from scratch.",
+        "In the ElevenCreative Music Video Editor, sound effects appear as separate layers, so you can review and adjust them independently of the soundtrack. You can also add in more effects, adjust timing, swap out the music, or refine individual moments without having to start over. When you’re happy with your creation, you can export directly from ElevenCreative.",
+        "Instant Soundtracks is designed for the pace of short-form video, with tighter timing around cuts, transitions, and on-screen actions. It can also shift the music’s mood across scenes. For example, if the vibe shifts from a fast-paced scene, the backing track might be EDM or R&B, but then moves to acoustic guitar for a slower, more intimate scene.",
+        "Instant Soundtracks is available immediately today. Here’s how to access it:",
+        "With separate_tracks=true, the API returns a .ZIP file with the music and SFX as separate files, so you can mix them downstream in your own pipeline or in Studio.",
+        "Supports up to 10 videos per request, combined up to 200 MB and 10 minutes of video.",
+        "Get started adding music and sound effects to your next video today .",
+        ":focus-visible]:tw-outline-focus tw-rounded-sm\"> Sonic branding: Building your brand identity through sound Category Resources Date Sep 8, 2026 What is prosody and how does it shape spoken language? Category Resources Date Aug 27, 2026 What is ADR in film? How dialogue is replaced and improved Category Resources Date Aug 26, 2026 SSML tags explained: How to control pauses, pronunciation, and pacing in text to speech Category Resources Date Oct 15, 2026 Create with the highest quality AI Audio",
+        "ElevenLabs ElevenCreative Developers LinkedIn ElevenLabs ElevenCreative GitHub YouTube Discord TikTok Instagram Facebook Reddit Company"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Introducing Instant Soundtracks",
+      "originalLang": "en",
+      "date": "2026-10-15",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/introducing-instant-soundtracks",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Introducing Instant Soundtracks"
+      },
+      "raw": {
+        "title": "Introducing Instant Soundtracks",
+        "url": "https://elevenlabs.io/blog/introducing-instant-soundtracks",
+        "fetched": true,
+        "savedAt": "2026-10-16T02:44:52.973Z"
+      }
+    },
+    {
+      "id": "sig-2447ad21d7",
+      "title": "Open weight takes 71.5% of tokens and 23% of spend",
+      "oneLiner": "AI Gateway Production Index — October 2026 Every month, AI Gateway routes tens of trillions of token",
+      "summary": {
+        "oneSentence": "AI Gateway Production Index — October 2026 Every month, AI Gateway routes tens of trillions of tokens between production",
+        "bullets": [
+          "AI Gateway Production Index — October 2026 Every month, AI Gateway routes tens of trillions of tokens between production applications and AI labs. That traffic gives us a view of what AI usage actuall"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/blog/ai-gateway-production-index-october-2026"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "AI Gateway Production Index — October 2026",
+        "Every month, AI Gateway routes tens of trillions of tokens between production applications and AI labs. That traffic gives us a view of what AI usage actually looks like in today's enterprise, and we publish it here monthly. See the Production Index reports from July , August , and September .",
+        "Copy link to heading October 2026 summary Open-weight models now process more than seven in ten gateway tokens and account for nearly one in four dollars. Their share of spend has more than quadrupled since June.",
+        "September’s gateway spend was about 13 times December’s, while the average price per token was 47% lower. Almost one in three teams changed their most-used lab in September, an index record.",
+        "Nearly 70% of September’s gateway spend on Chinese models went through US-based providers, up from less than 10% in December.",
+        "Jev was the fastest-adopted model in AI Gateway history, reaching 35% of paid teams in its first two weeks, but it accounted for just 0.27% of gateway spend over that same period. Opus 5.5 took more than one in ten gateway dollars in its own first two weeks, the largest spend share of any September model launch.",
+        "Copy link to heading Frontier spend up 900%, spend share down 22% In August, open-weight models processed the majority of AI Gateway token volume for the first time. The money is now following. Open weight’s share of spend has more than quadrupled over the last three months, from one in twenty gateway dollars in June to nearly one in four in September.",
+        "Open weight's growth is coming from both ends of its price range, and it mirrors the wider gateway. The cheapest models drive token growth, while the expensive models drive spend.",
+        "Led by Kimi K3, models priced at least four times the open-weight average cost per token accounted for about two-thirds of the increase in open-weight spend.",
+        "In contrast, DeepSeek-v4.1-Flash alone processed nearly half of all September tokens but took just 2.6% of spend. Its price per token was about a fifth of the open-weight average.",
+        "Customers are increasing budgets on both sides of the market. Since December, spend on frontier models has grown tenfold; spend on open-weight models has grown more than seventyfold.",
+        "In September, 68% of teams that put more money into open-weight models did the same for closed-weight models. And more than two in five teams already paying for frontier models spent more on them than in August, the highest share this year.",
+        "Spending on the frontier is still growing, but spending on alternatives is growing faster. A company can spend more with a frontier lab while relying on it for fewer workloads, so the lab gets more money, but a smaller part of the customer’s business.",
+        "Copy link to heading AI spend increases 13x while the cost per token halves Market share is changing hands inside a market that is getting much bigger and cheaper."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Open weight takes 71.5% of tokens and 23% of spend",
+      "originalLang": "en",
+      "date": "2026-10-15",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/ai-gateway-production-index-october-2026",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Open weight takes 71.5% of tokens and 23% of spend"
+      },
+      "raw": {
+        "title": "Open weight takes 71.5% of tokens and 23% of spend",
+        "url": "https://vercel.com/blog/ai-gateway-production-index-october-2026",
+        "fetched": true,
+        "savedAt": "2026-10-16T02:44:54.788Z"
+      }
+    },
+    {
+      "id": "sig-ca5b8a617b",
+      "title": "Vercel for Enterprise",
+      "oneLiner": "AI adoption in the enterprise is growing rapidly, and expanding beyond engineering users. In the las",
+      "summary": {
+        "oneSentence": "AI adoption in the enterprise is growing rapidly, and expanding beyond engineering users. In the last three months, toke",
+        "bullets": [
+          "AI adoption in the enterprise is growing rapidly, and expanding beyond engineering users. In the last three months, token usage by enterprise companies on AI Gateway has quadrupled, and OpenAI recentl"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/blog/vercel-for-enterprise"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "AI adoption in the enterprise is growing rapidly, and expanding beyond engineering users.",
+        "In the last three months, token usage by enterprise companies on AI Gateway has quadrupled, and OpenAI recently reported that from August 2025 to June 2026, non-developer Codex users grew 189x.",
+        "Our customers call these builders citizen developers. They know their part of the business better than anyone else, and with AI they can create the software they need to ship work faster and deliver better customer experiences.",
+        "Building has never been easier, but that also means that control and governance have never been harder. Employees are using AI tools whether they are approved or not , and if a citizen developer vibe codes a login page incorrectly, private data can reach the public internet.",
+        "Enterprise leaders have to figure out how to let everyone build, without giving up security or control.",
+        "Copy link to heading Enterprise Apps and Agents We built Enterprise Apps and Agents to solve these challenges at Vercel, and in June, we made it available to our customers. Enterprise Apps and Agents is a central control plane for governing every builder, app, agent, token, and dollar.",
+        "Bring Your Own Cloud (BYOC) on AWS is generally available, giving you the full Vercel developer experience, while keeping compute and data inside your AWS boundary.",
+        "Enterprise-Managed Authorization through Vercel Connect is launching in public beta, giving agents the ability to access connected services on behalf of employees through your IdP.",
+        "Copy link to heading A single control plane for governing enterprise AI Enterprise Apps and Agents gives you a single deployment destination for both engineers and citizen developers, with central governance over access, providers, models, data retention, token budgets, integrations, and policies, managed through your existing IdP.",
+        "Vercel centralizes AI governance so that company policies can be applied consistently across control domains.",
+        "Vercel Passport , Deployment Protection , and Vercel Firewall",
+        "Vercel Connect and Enterprise-Managed Authorization",
+        "AI Gateway , including US-only inference and budget controls",
+        "Apps and agents run on the same infrastructure that powers billions of production deployments, and Vercel gives you a single place for observability and security monitoring across every project, through analytics , audit logs , and the Security Dashboard ."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Vercel for Enterprise",
+      "originalLang": "en",
+      "date": "2026-10-15",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/vercel-for-enterprise",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Vercel for Enterprise"
+      },
+      "raw": {
+        "title": "Vercel for Enterprise",
+        "url": "https://vercel.com/blog/vercel-for-enterprise",
+        "fetched": true,
+        "savedAt": "2026-10-16T02:44:56.584Z"
+      }
+    },
+    {
+      "id": "sig-f666d4e485",
+      "title": "Introducing Vercel Drives: persistent storage for agents",
+      "oneLiner": "Agents often handle complex work that continues across runs. As that work evolves, they may need a n",
+      "summary": {
+        "oneSentence": "Agents often handle complex work that continues across runs. As that work evolves, they may need a new environment with ",
+        "bullets": [
+          "Agents often handle complex work that continues across runs. As that work evolves, they may need a new environment with different tools, runtimes, or compute. They should be able to continue working w"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/blog/introducing-vercel-drives-persistent-storage-for-agents"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Agents often handle complex work that continues across runs. As that work evolves, they may need a new environment with different tools, runtimes, or compute. They should be able to continue working with the same files when they change environments.",
+        "We built Vercel Drives to keep an agent’s files independent of its execution environment. It is now generally available for Vercel Sandbox . Agents can mount the same drive in a new environment configured for the next task and continue where they left off.",
+        "Copy link to heading Persisting state with a drive Create a drive once, then mount it when you create a sandbox. From the CLI:",
+        "1 sandbox drives get-or-create agent-workspace 2 sandbox create --mount agent-workspace:/workspace",
+        "1 import { Sandbox , Drive } from '@vercel/sandbox' ; 2 const drive = await Drive . getOrCreate ( { name : 'agent-workspace' } ) ; 3 const sandbox = await Sandbox . create ( { 4 mounts : { '/workspace' : drive } , 5 } ) ; 6 await sandbox . runCommand ( 'git' , [ 'clone' , repoUrl , '/workspace/repo' ] ) ;",
+        "In this example, everything under /workspace persists on the drive. Everything else belongs to the sandbox. The next sandbox that mounts the drive finds the repository, and anything else the agent wrote there, where the previous run left it.",
+        "The drive keeps the agent’s files independent of the sandbox running it. An agent can resume work in a new sandbox or switch runtimes without transferring its workspace. Other sandboxes can mount the same drive.",
+        "Copy link to heading Sharing state across sandboxes Agents can prepare files on a drive once and reuse them across sandboxes. If one agent builds a dataset on a drive, other agents can mount read-only copies to analyze the data or generate reports without rebuilding the dataset. They use the shared files as input and save their results separately.",
+        "Agents can also fork a drive to explore different approaches independently. Each fork starts with the drive’s contents and provides its own writable workspace. Agents can try different transformations of the dataset in parallel without changing the original or affecting one another. Forks don’t merge back into the original drive.",
+        "Copy link to heading Get started Vercel Drives is now generally available for Vercel Sandbox on all plans.",
+        "Drives default to 1 TiB, or 1 GiB on Hobby, with up to 16 TiB available. See the documentation for configuration, snapshots, and limits, or the changelog for what changed at GA.",
+        "Copy link to heading Resources Read the Vercel Drives guide",
+        "Deploy the Vercel Drives eve agent starter template in one click"
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Introducing Vercel Drives: persistent storage for agents",
+      "originalLang": "en",
+      "date": "2026-10-15",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/introducing-vercel-drives-persistent-storage-for-agents",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Introducing Vercel Drives: persistent storage for agents"
+      },
+      "raw": {
+        "title": "Introducing Vercel Drives: persistent storage for agents",
+        "url": "https://vercel.com/blog/introducing-vercel-drives-persistent-storage-for-agents",
+        "fetched": true,
+        "savedAt": "2026-10-16T02:44:58.355Z"
+      }
+    },
+    {
+      "id": "sig-ab543523eb",
+      "title": "Backends on Vercel: Python, containers, and Daemons",
+      "oneLiner": "Last year, we expanded zero-config support for Python and TypeScript backend frameworks. By this sum",
+      "summary": {
+        "oneSentence": "Last year, we expanded zero-config support for Python and TypeScript backend frameworks. By this summer, developers coul",
+        "bullets": [
+          "Last year, we expanded zero-config support for Python and TypeScript backend frameworks. By this summer, developers could deploy their frontend and backend together with Vercel Services and coordinate"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/blog/backends-on-vercel-python-containers-and-daemons"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Last year, we expanded zero-config support for Python and TypeScript backend frameworks. By this summer, developers could deploy their frontend and backend together with Vercel Services and coordinate background work with queues and durable workflows .",
+        "Today at Vercel Ship in San Francisco , we are expanding the backend workloads you can run on Vercel. Python on Vercel is now generally available, container support in Vercel Functions enables custom runtimes and system libraries, and we are introducing Vercel Daemons in Public Beta for background workers that pull work and stay running between jobs.",
+        "Copy link to heading Python is now generally available You can build your backend in Python with the Vercel infrastructure and development experience you know from your frontend, including local development, previews, and production deployments. Frameworks such as FastAPI, Flask, and Django run on standard CPython with your PyPI dependencies, while Vercel handles framework detection, builds, and scaling.",
+        "Already, 150,000 teams run Python backends on Vercel, including engineers at OpenAI, Polymarket, and Exa.",
+        "SDKs for Python let you use Vercel products from your application, whether you’re storing files in Vercel Blob , sending background jobs to Vercel Queues , coordinating durable steps with Vercel Workflows , running untrusted code in Vercel Sandbox , or streaming model responses and handling tool calls with the AI SDK for Python .",
+        "Delphi , which builds AI digital minds from books and talks, moved its Python backend from AWS ECS to Vercel. With ten engineers and no dedicated infrastructure role, the team ships to production more than 100 times a day and uses Queues to handle background jobs.",
+        "Visit the Python knowledge base for framework details and examples.",
+        "Copy link to heading Applications in any language with containers The Vercel container runtime lets you deploy applications written in any language, packaged with the OS libraries and executables they need. Since container support entered Public Beta, 5,000 teams have shipped 150,000 container deployments on Vercel.",
+        "Containers deploy as Vercel Functions on Fluid compute, scaling with traffic and using Active CPU pricing , which doesn’t charge for idle time spent waiting for API responses, database queries, or LLM inferencing. Vercel Services lets you develop and deploy your backend alongside your frontend, while Vercel CDN serves traffic on your domains, Vercel WAF protects it, logs help you investigate issues, and rollbacks restore earlier deployments.",
+        "For example, take a video app that uses a container for background processing, preparing a playback copy and thumbnail for each uploaded clip. This Dockerfile packages the Python processor, its dependencies, and ffmpeg to run with Daemons:",
+        "Dockerfile 1 FROM python:3.12-slim 2 RUN apt-get update \\ 3 && apt-get install -y --no-install-recommends ffmpeg \\ 4 && rm -rf /var/lib/apt/lists/* 5 WORKDIR /app 6 COPY requirements.txt . 7 RUN pip install --no-cache-dir -r requirements.txt 8 COPY processor.py . 9 CMD [ \"python\" , \"processor.py\" ] Package the Python video processor and ffmpeg in one image",
+        "When you deploy through Git or the Vercel CLI, Vercel builds the image and stores it in your Vercel Container Registry . Read our containerized Functions deployment guide to get started.",
+        "Copy link to heading Background workers with Vercel Daemons Vercel Daemons lets you deploy containers as continuously running background workers on Fluid compute. You choose the number of instances in each region, and Vercel maintains that capacity by restarting processes when they exit or crash.",
+        "Daemons launches with support for pull-based workloads, where your code requests work from another system and processes it as it becomes available. That could mean consuming queue messages or fetching pending jobs from a database."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Backends on Vercel: Python, containers, and Daemons",
+      "originalLang": "en",
+      "date": "2026-10-15",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/backends-on-vercel-python-containers-and-daemons",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Backends on Vercel: Python, containers, and Daemons"
+      },
+      "raw": {
+        "title": "Backends on Vercel: Python, containers, and Daemons",
+        "url": "https://vercel.com/blog/backends-on-vercel-python-containers-and-daemons",
+        "fetched": true,
+        "savedAt": "2026-10-16T02:45:00.109Z"
+      }
+    },
     {
       "id": "sig-58e4191fcf",
       "title": "Google DeepMind 与新加坡政府合作构建用于诈骗检测的微调人工智能模型",
@@ -1274,7 +2059,7 @@
         "url": "https://cursor.com/changelog/origin-app-marketplace",
         "fetched": true,
         "savedAt": "2026-10-14T03:08:22.474Z",
-        "retranslatedAt": "2026-10-15T02:49:01.936Z"
+        "retranslatedAt": "2026-10-16T02:45:01.198Z"
       }
     },
     {
@@ -31080,1525 +31865,6 @@
         "url": "https://simonwillison.net/2026/Sep/2/llm/",
         "fetched": false,
         "savedAt": "2026-09-08T02:36:35.204Z"
-      }
-    },
-    {
-      "id": "sig-66eabab697",
-      "title": "我们于 2026 年 8 月公布的最新 AI 新闻",
-      "oneLiner": "以下是我们自 8 月份以来的一些重大 AI 更新的回顾，包括发布 Gemini 3.7 Flash、Gemini 3.5 Transcribe 和全新 Pixel 11 系列设备。",
-      "summary": {
-        "oneSentence": "以下是我们自 8 月份以来的一些重大 AI 更新的回顾，包括发布 Gemini 3.7 Flash、Gemini 3.5 Transcribe 和全新 Pixel 11 系列设备。",
-        "bullets": [
-          "以下是我们自 8 月份以来的一些重大 AI 更新的回顾，包括发布 Gemini 3.7 Flash、Gemini 3.5 Transcribe 和全新 Pixel 11 系列设备。",
-          "您的浏览器不支持音频元素。",
-          "Google 2026 年 8 月的更新重点是通过 Pixel 11 系列等新硬件和 Gemini 3.7 Flash 等经济高效的型号使人工智能更加实用。您现在可以在 Gemini Live 中使用增强的生产力工具，访问面向学生的免费 AI 计划，并利用高级视频生成功能。立即探索这些新功能，看看它们如何简化您的日常任",
-          "20 多年来，我们投资于机器学习和人工智能研究、工具和基础设施，以打造让更多人的日常生活变得更美好的产品。 Google 的团队正在研究如何释放人工智能在医疗保健、危机应对和教育等广泛领域的优势。为了让您及时了解我们的进展，我们定期汇总 Google 的最新人工智能新闻。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 4,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Google AI 官网发布：以下是我们自 8 月份以来的一些重大 AI 更新的回顾，包括发布 Gemini 3.7 Flash、Gemini 3.5 Transcribe 和全新 Pixel 11 系列设备。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：gemini",
-        "actionItems": [
-          "阅读原文（英文）：https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "gemini"
-      ],
-      "content": [
-        "以下是我们自 8 月份以来的一些重大 AI 更新的回顾，包括发布 Gemini 3.7 Flash、Gemini 3.5 Transcribe 和全新 Pixel 11 系列设备。",
-        "您的浏览器不支持音频元素。",
-        "Google 2026 年 8 月的更新重点是通过 Pixel 11 系列等新硬件和 Gemini 3.7 Flash 等经济高效的型号使人工智能更加实用。您现在可以在 Gemini Live 中使用增强的生产力工具，访问面向学生的免费 AI 计划，并利用高级视频生成功能。立即探索这些新功能，看看它们如何简化您的日常任务和创意项目。",
-        "20 多年来，我们投资于机器学习和人工智能研究、工具和基础设施，以打造让更多人的日常生活变得更美好的产品。 Google 的团队正在研究如何释放人工智能在医疗保健、危机应对和教育等广泛领域的优势。为了让您及时了解我们的进展，我们定期汇总 Google 的最新人工智能新闻。",
-        "以下是我们 8 月份发布的一些人工智能公告的回顾。",
-        "8 月份，我们继续以负责任的方式推进人工智能的发展，使其对每个人（从软件开发人员和学生到创意人员和科学家）来说更快、更容易使用且真正实用。我们通过 Pixel 11 系列专为 Gemini 设计的强大新硬件、Gemini 3.7 Flash 等经济高效的开发者模型、在 Android 版 Chrome 中推出 Gemini 以及 Google Workspace 和 Gemini Live 中的免提语音工具，将智能直接带入人们的工作和生活场所。随着 Gemini 应用正式突破 10 亿月度用户，我们还扩大了我们的创意和科学足迹，引入了工作室品质的视频和音乐生成以及可预测天气模式和应对气候挑战的开源人工智能模型。总体而言，八月标志着人工智能的转变，它不仅在理论上强大，而且在日常现实中也很有用。",
-        "使用 Gemini 3.7 Flash 以更低的成本构建更好的代理。我们发布了 Gemini 3.7 Flash，作为我们迄今为止最智能的编码和代理模型。它在我们推出 3.6 Flash 后仅三周就发布了，在软件工程、知识工作和 Web 开发工作流程方面带来了重大改进 - 入门价格是原始 3.6 Flash 每百万代币成本的一半。",
-        "尝试专为 Gemini Intelligence 设计的全新 Pixel 11 系列。在 Made by Google 2026 上，我们推出了 Pixel 11、Pixel 11 Pro、Pixel 11 Pro XL 和 Pixel 11 Pro Fold。这些设备配备了主要的相机升级、增强的耐用性以及我们最快、最强大的芯片 Google Tensor G6，该芯片运行最新的 Gemini Nano 型号。 1 它们还专为 Gemini Intelligence 提供省时的个人帮助而设计。 2 查看 Made by Google 2026 的所有公告。",
-        "从我们的双子座一年开始新学期。我们为世界各地符合条件的大学生免费提供一年的 Google AI 计划，以及新的和增强的学习工具，以便学生可以充分利用本学年。我们还提供了一些工具来帮助教师和学生返回学校，包括专门的学生中心、新的教师主导工具以及 Gemini 中的 SAT 准备工具。",
-        "通过搜索提升您的学习水平。为了帮助您充满信心地开始新学期，我们在搜索中添加了新的人工智能驱动的学习功能——所有这些功能都是为了安全而设计的。通过这些更新，Search 可以帮助您通过交互式视觉效果掌握复杂的概念，为 SAT、ACT、GRE 和 LSAT 等考试生成练习测验，使用 Lens 逐步学习，并使用笔记本保持井井有条。"
-      ],
-      "highlights": [
-        "以下是我们自 8 月份以来的一些重大 AI 更新的回顾，包括发布 Gemini 3.7 Flash、Gemini 3.5 Transcribe 和全新 Pixe",
-        "您的浏览器不支持音频元素。",
-        "Google 2026 年 8 月的更新重点是通过 Pixel 11 系列等新硬件和 Gemini 3.7 Flash 等经济高效的型号使人工智能更加实用。您现"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "The latest AI news we announced in August 2026",
-      "originalLang": "en",
-      "date": "2026-09-01",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google AI",
-        "author": "Google",
-        "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
-        "home": "https://blog.google/technology/ai/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "The latest AI news we announced in August 2026"
-      },
-      "raw": {
-        "title": "The latest AI news we announced in August 2026",
-        "url": "https://blog.google/innovation-and-ai/technology/google-ai-updates-august-2026/",
-        "fetched": true,
-        "savedAt": "2026-09-02T02:26:25.671Z"
-      }
-    },
-    {
-      "id": "sig-dfd1ea2e55",
-      "title": "引入 Gemini 的代理视频理解",
-      "oneLiner": "我们用于视频分析的新代理功能可将令牌消耗减少高达 88%，将成本降低高达 66%，并将质量提高高达 7%。",
-      "summary": {
-        "oneSentence": "我们用于视频分析的新代理功能可将令牌消耗减少高达 88%，将成本降低高达 66%，并将质量提高高达 7%。",
-        "bullets": [
-          "我们用于视频分析的新代理功能可将令牌消耗减少高达 88%，将成本降低高达 66%，并将质量提高高达 7%。",
-          "您的浏览器不支持音频元素。",
-          "Google 刚刚推出了针对 Gemini 3.7 Flash、3.6 Flash 和 3.5 Flash-Lite 的代理视频理解功能。此功能允许模型动态扫描视频片段，从而提高准确性，同时将令牌使用量减少高达 88%，成本减少高达 66%。您今天可以通过在 Google AI Studio 或 Gemini Ente",
-          "今天，我们在最新型号上推出了代理视频理解功能：Gemini 3.7 Flash、3.6 Flash 和 3.5 Flash-Lite。这项新功能提高了准确性，同时大大减少了视频分析的令牌使用量和成本。与将代码执行与 Gemini 模型的本机图像理解相结合的代理视觉类似，代理视频理解使用 Gemini 的本机视频工具来提"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Google DeepMind 官网发布：我们用于视频分析的新代理功能可将令牌消耗减少高达 88%，将成本降低高达 66%，并将质量提高高达 7%。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：gemini",
-        "actionItems": [
-          "阅读原文（英文）：https://deepmind.google/blog/introducing-agentic-video-in-gemini/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "gemini"
-      ],
-      "content": [
-        "我们用于视频分析的新代理功能可将令牌消耗减少高达 88%，将成本降低高达 66%，并将质量提高高达 7%。",
-        "您的浏览器不支持音频元素。",
-        "Google 刚刚推出了针对 Gemini 3.7 Flash、3.6 Flash 和 3.5 Flash-Lite 的代理视频理解功能。此功能允许模型动态扫描视频片段，从而提高准确性，同时将令牌使用量减少高达 88%，成本减少高达 66%。您今天可以通过在 Google AI Studio 或 Gemini Enterprise Agent Platform 中将 API 配置设置为“agentic”来开始使用此功能。",
-        "今天，我们在最新型号上推出了代理视频理解功能：Gemini 3.7 Flash、3.6 Flash 和 3.5 Flash-Lite。这项新功能提高了准确性，同时大大减少了视频分析的令牌使用量和成本。与将代码执行与 Gemini 模型的本机图像理解相结合的代理视觉类似，代理视频理解使用 Gemini 的本机视频工具来提高性能并解锁视频处理的新功能，例如亚秒级时刻检索、更准确的异常检测、精确计数等。",
-        "该功能现已推出，可通过 Google AI Studio 和 Gemini Enterprise Agent Platform 中的 Gemini API 上传视频和 YouTube 视频。",
-        "与当前的“静态”处理不同，模型以固定的每秒帧速率（默认 1 FPS，可通过 API 调整）摄取视频，代理视频理解将模型的核心推理与本机视频工具配对，以动态搜索、扫描和检查跨视觉帧、音频和文字记录的目标视频片段。在标准视频分析基准中，具有代理视频理解功能的 Gemini 模型可将分析成本降低高达 66%，将令牌消耗降低高达 88%，同时将准确性提高高达 7%。",
-        "这些效率提升在长视频（从 10 分钟的操作指南到 90 分钟的讲座和多小时的录音）上尤其明显，其中静态处理迫使开发人员在高令牌成本或放弃关键细节的技术之间做出选择。",
-        "使用 Gemini 3.7 Flash 激活代理视频理解可将令牌消耗降低高达 88%，并将准确性提高高达 7%。",
-        "虽然这些收益涵盖了所有三种受支持的模型，但具有代理理解功能的 Gemini 3.7 Flash 提供了尽可能最佳的整体质量以及质量和成本效率的最佳组合，使其在视频理解测试模型中处于准确性与成本帕累托前沿。",
-        "使用代理视频理解将 Gemini 3.7 Flash 置于视频分析的准确性与成本帕累托前沿。"
-      ],
-      "highlights": [
-        "我们用于视频分析的新代理功能可将令牌消耗减少高达 88%，将成本降低高达 66%，并将质量提高高达 7%。",
-        "您的浏览器不支持音频元素。",
-        "Google 刚刚推出了针对 Gemini 3.7 Flash、3.6 Flash 和 3.5 Flash-Lite 的代理视频理解功能。此功能允许模型动态扫描"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Introducing agentic video understanding with Gemini",
-      "originalLang": "en",
-      "date": "2026-09-01",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google DeepMind",
-        "author": "DeepMind",
-        "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-        "home": "https://deepmind.google/blog/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Introducing agentic video understanding with Gemini"
-      },
-      "raw": {
-        "title": "Introducing agentic video understanding with Gemini",
-        "url": "https://deepmind.google/blog/introducing-agentic-video-in-gemini/",
-        "fetched": true,
-        "savedAt": "2026-09-02T02:26:32.186Z"
-      }
-    },
-    {
-      "id": "sig-3b5f2688fe",
-      "title": "AI原生企业如何将工作流程转化为运营能力",
-      "oneLiner": "Basis、Clay 和 Exa Labs 使用 AI 代理来改进入职、帐户管理和开发人员集成。看看企业领导者可以申请什么。",
-      "summary": {
-        "oneSentence": "Basis、Clay 和 Exa Labs 使用 AI 代理来改进入职、帐户管理和开发人员集成。看看企业领导者可以申请什么。",
-        "bullets": [
-          "Basis、Clay 和 Exa Labs 使用 AI 代理来改进入职、帐户管理和开发人员集成。看看企业领导者可以申请什么。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：Basis、Clay 和 Exa Labs 使用 AI 代理来改进入职、帐户管理和开发人员集成。看看企业领导者可以申请什么。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/ai-native-company-workflows"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "Basis、Clay 和 Exa Labs 使用 AI 代理来改进入职、帐户管理和开发人员集成。看看企业领导者可以申请什么。"
-      ],
-      "highlights": [
-        "Basis、Clay 和 Exa Labs 使用 AI 代理来改进入职、帐户管理和开发人员集成。看看企业领导者可以申请什么。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "How AI-native companies turn workflows into operating capability",
-      "originalLang": "en",
-      "date": "2026-09-01",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/ai-native-company-workflows",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "How AI-native companies turn workflows into operating capability"
-      },
-      "raw": {
-        "title": "How AI-native companies turn workflows into operating capability",
-        "url": "https://openai.com/index/ai-native-company-workflows",
-        "fetched": false,
-        "savedAt": "2026-09-02T02:26:33.521Z"
-      }
-    },
-    {
-      "id": "sig-77cd2a6a82",
-      "title": "尝试 Google 图片：在 Google Workspace 中轻松创建和编辑图片",
-      "oneLiner": "以无与伦比的精度生成、优化和共同创建图像。此外，即将推出的 Workspace 集成将允许您直接在 Google 幻灯片、文档和云端硬盘中创建和编辑。",
-      "summary": {
-        "oneSentence": "以无与伦比的精度生成、优化和共同创建图像。此外，即将推出的 Workspace 集成将允许您直接在 Google 幻灯片、文档和云端硬盘中创建和编辑。",
-        "bullets": [
-          "以无与伦比的精度生成、优化和共同创建图像。此外，即将推出的 Workspace 集成将允许您直接在 Google 幻灯片、文档和云端硬盘中创建和编辑。",
-          "您的浏览器不支持音频元素。",
-          "谷歌刚刚推出了一款名为 Google Pics 的新工具，它使用人工智能来帮助您创建和编辑图像。您可以使用它来发布社交媒体帖子或修复插图，而无需成为专业人士。它直接内置于文档和幻灯片等应用程序中，因此您无需切换选项卡即可完成工作。您甚至可以与朋友组队一起编辑同一张图像。",
-          "Google Pics——我们来自 Google Workspace 的图像创建和编辑工具——将在未来几周内向所有 Google AI Pro 和 Ultra 订阅者以及大多数 Workspace 企业客户推出。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Google AI 官网发布：以无与伦比的精度生成、优化和共同创建图像。此外，即将推出的 Workspace 集成将允许您直接在 Google 幻灯片、文档和云端硬盘中创建和编辑。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：gemini",
-        "actionItems": [
-          "阅读原文（英文）：https://blog.google/products-and-platforms/products/workspace/google-pics/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "gemini"
-      ],
-      "content": [
-        "以无与伦比的精度生成、优化和共同创建图像。此外，即将推出的 Workspace 集成将允许您直接在 Google 幻灯片、文档和云端硬盘中创建和编辑。",
-        "您的浏览器不支持音频元素。",
-        "谷歌刚刚推出了一款名为 Google Pics 的新工具，它使用人工智能来帮助您创建和编辑图像。您可以使用它来发布社交媒体帖子或修复插图，而无需成为专业人士。它直接内置于文档和幻灯片等应用程序中，因此您无需切换选项卡即可完成工作。您甚至可以与朋友组队一起编辑同一张图像。",
-        "Google Pics——我们来自 Google Workspace 的图像创建和编辑工具——将在未来几周内向所有 Google AI Pro 和 Ultra 订阅者以及大多数 Workspace 企业客户推出。",
-        "Pics 基于我们的 Nano Banana 图像生成和编辑模型而构建，无论您是设计海报、制作社交媒体帖子还是编辑数字插图，Pics 都能为您提供创建任何您想象的内容所需的控制。 Google Pics 将既是一个独立的产品，又会集成到 Workspace 应用程序中，从幻灯片、文档和云端硬盘开始，这样您就可以在已经工作的地方编辑图像。",
-        "Google Pics 包含一套经过微调的编辑功能，可让您生成图像并进行精确编辑，而不是从头开始。以下是您可以期待的一些功能：",
-        "观看如何使用 Google 图片中强大的编辑控件即时创建和优化自定义图形。",
-        "使用 Google 图片轻松设计和微调引人注目的社交媒体内容和数字公告。",
-        "每月有数百万用户通过 Workspace 产品与数十亿张图像进行交互。为了让这种体验更加无缝，我们将 Google 图片直接引入您已经使用的工具中。您不必在应用程序之间跳转来创建和共享视觉效果。现在，您可以随时随地利用强大的 AI 图像生成和编辑功能，无需复制、粘贴或切换选项卡。",
-        "了解如何在工作区应用程序（例如幻灯片、文档和即将推出的云端硬盘）中无缝编辑图像和产品模型，而无需切换选项卡。"
-      ],
-      "highlights": [
-        "以无与伦比的精度生成、优化和共同创建图像。此外，即将推出的 Workspace 集成将允许您直接在 Google 幻灯片、文档和云端硬盘中创建和编辑。",
-        "您的浏览器不支持音频元素。",
-        "谷歌刚刚推出了一款名为 Google Pics 的新工具，它使用人工智能来帮助您创建和编辑图像。您可以使用它来发布社交媒体帖子或修复插图，而无需成为专业人士。它"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Try Google Pics: Easy image creation and editing in Google Workspace",
-      "originalLang": "en",
-      "date": "2026-09-01",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google AI",
-        "author": "Google",
-        "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
-        "home": "https://blog.google/technology/ai/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Try Google Pics: Easy image creation and editing in Google Workspace"
-      },
-      "raw": {
-        "title": "Try Google Pics: Easy image creation and editing in Google Workspace",
-        "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
-        "fetched": true,
-        "savedAt": "2026-09-02T02:26:42.520Z"
-      }
-    },
-    {
-      "id": "sig-82a2d37f4f",
-      "title": "构建背后：Figma 的生成插件和着色器 | Figma 博客",
-      "oneLiner": "从今天开始，您将对生成插件和着色器有更多的创造性控制，以及与社区分享您所做的事情的方式。产品设计师 Rogie King 讲述了我们如何走到这一步的故事。",
-      "summary": {
-        "oneSentence": "从今天开始，您将对生成插件和着色器有更多的创造性控制，以及与社区分享您所做的事情的方式。产品设计师 Rogie King 讲述了我们如何走到这一步的故事。",
-        "bullets": [
-          "从今天开始，您将对生成插件和着色器有更多的创造性控制，以及与社区分享您所做的事情的方式。产品设计师 Rogie King 讲述了我们如何走到这一步的故事。",
-          "我们带来了 Figma 设计代理的生成插件和着色器，现在还提供自定义工具和更大的上下文提示，让您可以开始使用。定制工具、真实背景和技能让设计代理走得更远——因此画布上的最终效果实际上看起来就像你一样。",
-          "Figma 的 MCP 服务器将您的设计决策带入编写代码的工具中，因此构建的内容实际上与设计的内容相匹配。以下是每个构建产品的人可以解锁的东西。",
-          "这些更新是现在构建的缩影：与人工智能合作，在设计和代码之间流畅地移动，并在画布上一起工作。我想分享我们如何推出生成插件和着色器的故事，因为构建和交付这一愿景可以让我们了解设计现在的状况。以下是我们如何将这个想法付诸实践，将合适的团队聚集在一起，并做出比我们任何人单独都能完成的更大的事情。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Figma 官网发布：从今天开始，您将对生成插件和着色器有更多的创造性控制，以及与社区分享您所做的事情的方式。产品设计师 Rogie King 讲述了我们如何走到这一步的故事。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://www.figma.com/blog/how-we-built-generative-plugins-and-shaders/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "从今天开始，您将对生成插件和着色器有更多的创造性控制，以及与社区分享您所做的事情的方式。产品设计师 Rogie King 讲述了我们如何走到这一步的故事。",
-        "我们带来了 Figma 设计代理的生成插件和着色器，现在还提供自定义工具和更大的上下文提示，让您可以开始使用。定制工具、真实背景和技能让设计代理走得更远——因此画布上的最终效果实际上看起来就像你一样。",
-        "Figma 的 MCP 服务器将您的设计决策带入编写代码的工具中，因此构建的内容实际上与设计的内容相匹配。以下是每个构建产品的人可以解锁的东西。",
-        "这些更新是现在构建的缩影：与人工智能合作，在设计和代码之间流畅地移动，并在画布上一起工作。我想分享我们如何推出生成插件和着色器的故事，因为构建和交付这一愿景可以让我们了解设计现在的状况。以下是我们如何将这个想法付诸实践，将合适的团队聚集在一起，并做出比我们任何人单独都能完成的更大的事情。",
-        "在较高的层面上，着色器可让您在 Figma Design 中直观地操作图层，无论是作为填充还是效果。它们是非常强大的 GPU 程序，可以实时弯曲和改变像素。 2022 年，我构建了噪声和纹理插件，将这种魔力带到了画布上，但没有进一步集成的途径。",
-        "如果您想深入了解着色器的工作原理，Dan Hollick 在“制作软件”中的章节和 Patricio Gonzales 的交互式“着色器之书”都是很好的资源。",
-        "多年来我一直痴迷于将着色器的强大功能引入 Figma。但直到最近，法学硕士才让我更容易地展示（而不仅仅是“讲述”）我的愿景。首先，我编写了一个行为类似于 Figma 的 WebGPU 环境，您可以在其中将着色器效果添加到画布上的任何图层，包括矢量、3D 图层，甚至粒子系统。我专注于构建三个关键的东西：",
-        "虽然我们花了几个月的时间在 Figma Draw 中构建渐进式模糊，但用 Figma Draw 自己表达 Figma Draw 将更快、更简单的矢量编辑与强大的视觉表达工具结合在一起，因此各种类型的设计师都可以在不中断焦点的情况下将他们的愿景变为现实。",
-        "具有 2D 后处理流体位移着色器的 3D 嵌入式对象 在我的 WebGPU 环境中通过鼠标交互和物理提示进行布料模拟 我的第一个在渐变填充上提示着色器效果的原型之一 基于粒子引擎的提示 WebGPU 计算着色器 组建合适的团队 我向渲染和动画工程师 Yassir Solomah 求助，并提出了我的问题：这真的有效吗？我是否以正确的方式接近它？这辆坦克在 Figma 中有表现吗？毕竟，WebGPU 画布应用程序的 vivi 编码近似值与企业规模、平铺渲染的真实事物相去甚远。 （尝试制作一个高性能的无限画布。这看似具有挑战性，在网络上构建专业的设计工具我们对设计工具未来的愿景是任何人、任何地方都可以轻松使用工具和内容。",
-        "值得庆幸的是，Yassir 加入了。我们拆掉了 WebGL 2 片段着色器系统，并将其替换为 WebGPU 管道系统，因此着色器可以成为微型程序：渲染 3D 对象，并应用基于鼠标位置和时间的逻辑来控制图层内的视觉效果。通过这种架构，我们可以将图形生成脚本隔离在自己的沙箱中，同时充分利用 WebGPU 的强大功能。这意味着更安全的用户运行脚本、逻辑、粒子系统、计算着色器、3D 支持等。"
-      ],
-      "highlights": [
-        "从今天开始，您将对生成插件和着色器有更多的创造性控制，以及与社区分享您所做的事情的方式。产品设计师 Rogie King 讲述了我们如何走到这一步的故事。",
-        "我们带来了 Figma 设计代理的生成插件和着色器，现在还提供自定义工具和更大的上下文提示，让您可以开始使用。定制工具、真实背景和技能让设计代理走得更远——因此",
-        "Figma 的 MCP 服务器将您的设计决策带入编写代码的工具中，因此构建的内容实际上与设计的内容相匹配。以下是每个构建产品的人可以解锁的东西。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Behind the Build: Generative Plugins and Shaders at Figma | Figma Blog",
-      "originalLang": "en",
-      "date": "2026-09-01",
-      "categoryIds": [
-        "vertical-ui"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Figma",
-        "author": "Figma",
-        "url": "https://www.figma.com/blog/how-we-built-generative-plugins-and-shaders/",
-        "home": "https://www.figma.com/blog/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Behind the Build: Generative Plugins and Shaders at Figma | Figma Blog"
-      },
-      "raw": {
-        "title": "Behind the build: Generative plugins and shaders at Figma",
-        "url": "https://www.figma.com/blog/how-we-built-generative-plugins-and-shaders/",
-        "fetched": true,
-        "savedAt": "2026-09-02T02:26:53.635Z"
-      }
-    },
-    {
-      "id": "sig-309be27bdc",
-      "title": "通往阿斯特拉之路：关键能力和边境保障",
-      "oneLiner": "Astra 是第一个满足准备框架下关键网络安全能力阈值的 OpenAI 模型，具有更强的发布保障。",
-      "summary": {
-        "oneSentence": "Astra 是第一个满足准备框架下关键网络安全能力阈值的 OpenAI 模型，具有更强的发布保障。",
-        "bullets": [
-          "Astra 是第一个满足准备框架下关键网络安全能力阈值的 OpenAI 模型，具有更强的发布保障。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：Astra 是第一个满足准备框架下关键网络安全能力阈值的 OpenAI 模型，具有更强的发布保障。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/path-to-astra"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "Astra 是第一个满足准备框架下关键网络安全能力阈值的 OpenAI 模型，具有更强的发布保障。"
-      ],
-      "highlights": [
-        "Astra 是第一个满足准备框架下关键网络安全能力阈值的 OpenAI 模型，具有更强的发布保障。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Path to Astra: critical capabilities and frontier safeguards",
-      "originalLang": "en",
-      "date": "2026-09-01",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/path-to-astra",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Path to Astra: critical capabilities and frontier safeguards"
-      },
-      "raw": {
-        "title": "Path to Astra: critical capabilities and frontier safeguards",
-        "url": "https://openai.com/index/path-to-astra",
-        "fetched": false,
-        "savedAt": "2026-09-02T02:26:54.903Z"
-      }
-    },
-    {
-      "id": "sig-50e05f9b47",
-      "title": "医疗保健组织现在可以将 EHR 和其他行业数据连接到 ChatGPT",
-      "oneLiner": "ChatGPT 现在可以连接到可信的医疗数据，帮助临床医生安全地访问患者背景、医学研究等。",
-      "summary": {
-        "oneSentence": "ChatGPT 现在可以连接到可信的医疗数据，帮助临床医生安全地访问患者背景、医学研究等。",
-        "bullets": [
-          "ChatGPT 现在可以连接到可信的医疗数据，帮助临床医生安全地访问患者背景、医学研究等。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：ChatGPT 现在可以连接到可信的医疗数据，帮助临床医生安全地访问患者背景、医学研究等。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "ChatGPT 现在可以连接到可信的医疗数据，帮助临床医生安全地访问患者背景、医学研究等。"
-      ],
-      "highlights": [
-        "ChatGPT 现在可以连接到可信的医疗数据，帮助临床医生安全地访问患者背景、医学研究等。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-      "originalLang": "en",
-      "date": "2026-09-01",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT"
-      },
-      "raw": {
-        "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
-        "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
-        "fetched": false,
-        "savedAt": "2026-09-02T02:26:56.170Z"
-      }
-    },
-    {
-      "id": "sig-04abefa53c",
-      "title": "任意形状的计算",
-      "oneLiner": "现在，迭代速度由您配置应用程序或代理所需的计算机的速度决定。",
-      "summary": {
-        "oneSentence": "现在，迭代速度由您配置应用程序或代理所需的计算机的速度决定。",
-        "bullets": [
-          "现在，迭代速度由您配置应用程序或代理所需的计算机的速度决定。",
-          "工作负载的不同之处在于它们运行的​​时间长短、占用的内存量以及它们控制的环境量。以前这意味着每个作业都有不同的计算原语，因此产品迭代需要配置基础设施，而不仅仅是处理某个功能。",
-          "我们构建了 Vercel，这样您就不会遇到任何问题。计算层是一个任务简单的单一系统。承担任何工作负载，组装所需的机器，即时交换配置，并实时吸收突发容量。",
-          "首先在其上运行构建，然后是沙箱，现在是函数。如果您使用 Vercel 进行发货，那么您在不知不觉中就已经使用了 Fluid。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：现在，迭代速度由您配置应用程序或代理所需的计算机的速度决定。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/blog/fluid-compute-takes-any-shape"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "现在，迭代速度由您配置应用程序或代理所需的计算机的速度决定。",
-        "工作负载的不同之处在于它们运行的​​时间长短、占用的内存量以及它们控制的环境量。以前这意味着每个作业都有不同的计算原语，因此产品迭代需要配置基础设施，而不仅仅是处理某个功能。",
-        "我们构建了 Vercel，这样您就不会遇到任何问题。计算层是一个任务简单的单一系统。承担任何工作负载，组装所需的机器，即时交换配置，并实时吸收突发容量。",
-        "首先在其上运行构建，然后是沙箱，现在是函数。如果您使用 Vercel 进行发货，那么您在不知不觉中就已经使用了 Fluid。",
-        "流体计算现在每天运行超过 1500 万个构建，每周运行 2500 万个沙箱，每月运行 1 万亿个请求。",
-        "将链接复制到标题计算的历史过去，更改机器意味着手动更改它。你去电脑商店买了一个硬盘或一条内存条，然后自己更换。",
-        "然后，您可以在需要时租用裸机，并用它来服务网站、托管数据库或发送电子邮件。",
-        "然后，云可以让你请求一台具有任何你想要的配置的机器，选择它的操作系统，使用它，并在完成后将其扔掉。",
-        "对于代理商来说，即使是云端也太慢了。标准虚拟机的配置速度不够快，无法跟上其工作方式，但这正是 Fluid 的优势所在。",
-        "将链接复制到标题工作负载如何在 Fluid 上运行当工作负载进入时，Fluid 会组装一台机器以适应其形状。如果代理需要运行代码，Hive 会提供一个隔离的虚拟机，通常是一个已经预热的虚拟机，因此它可以立即准备就绪。您自己的映像作为环境在顶部启动。驱动器连接后，您的文件就位于您离开的位置，因为存储从未与计算机绑定。"
-      ],
-      "highlights": [
-        "现在，迭代速度由您配置应用程序或代理所需的计算机的速度决定。",
-        "工作负载的不同之处在于它们运行的​​时间长短、占用的内存量以及它们控制的环境量。以前这意味着每个作业都有不同的计算原语，因此产品迭代需要配置基础设施，而不仅仅是",
-        "我们构建了 Vercel，这样您就不会遇到任何问题。计算层是一个任务简单的单一系统。承担任何工作负载，组装所需的机器，即时交换配置，并实时吸收突发容量。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Compute that takes any shape",
-      "originalLang": "en",
-      "date": "2026-09-01",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/blog/fluid-compute-takes-any-shape",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Compute that takes any shape"
-      },
-      "raw": {
-        "title": "Compute that takes any shape",
-        "url": "https://vercel.com/blog/fluid-compute-takes-any-shape",
-        "fetched": true,
-        "savedAt": "2026-09-02T02:27:01.889Z"
-      }
-    },
-    {
-      "id": "sig-631a857c7a",
-      "title": "Gilbert + Tobin 律师事务所如何通过 OpenAI 管理和扩展人工智能",
-      "oneLiner": "了解 Gilbert + Tobin 如何将首席执行官主导的承诺、严格的治理和人员责任相结合，在整个公司范围内扩展 ChatGPT Enterprise 和 Codex。",
-      "summary": {
-        "oneSentence": "了解 Gilbert + Tobin 如何将首席执行官主导的承诺、严格的治理和人员责任相结合，在整个公司范围内扩展 ChatGPT Enterprise 和 Codex。",
-        "bullets": [
-          "了解 Gilbert + Tobin 如何将首席执行官主导的承诺、严格的治理和人员责任相结合，在整个公司范围内扩展 ChatGPT Enterprise 和 Codex。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：了解 Gilbert + Tobin 如何将首席执行官主导的承诺、严格的治理和人员责任相结合，在整个公司范围内扩展 ChatGPT Enterprise 和 Codex。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/gilbert-tobin"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "了解 Gilbert + Tobin 如何将首席执行官主导的承诺、严格的治理和人员责任相结合，在整个公司范围内扩展 ChatGPT Enterprise 和 Codex。"
-      ],
-      "highlights": [
-        "了解 Gilbert + Tobin 如何将首席执行官主导的承诺、严格的治理和人员责任相结合，在整个公司范围内扩展 ChatGPT Enterprise 和 C"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
-      "originalLang": "en",
-      "date": "2026-09-01",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/gilbert-tobin",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "How law firm Gilbert + Tobin governs and scales AI with OpenAI"
-      },
-      "raw": {
-        "title": "How law firm Gilbert + Tobin governs and scales AI with OpenAI",
-        "url": "https://openai.com/index/gilbert-tobin",
-        "fetched": false,
-        "savedAt": "2026-09-02T02:27:03.159Z"
-      }
-    },
-    {
-      "id": "sig-a1abafa8de",
-      "title": "《克劳德寓言 5.1》现已在 AI Gateway 上推出 - Vercel",
-      "oneLiner": "Anthropic 的 Claude Fable 5.1 现已在 AI Gateway 上提供。",
-      "summary": {
-        "oneSentence": "Anthropic 的 Claude Fable 5.1 现已在 AI Gateway 上提供。",
-        "bullets": [
-          "Anthropic 的 Claude Fable 5.1 现已在 AI Gateway 上提供。",
-          "与之前的 Claude 模型相比，Fable 5.1 的改进集中在长期、多阶段的工作上，例如代理编码、知识工作和需要多轮搜索和跟进的研究。",
-          "Anthropic 发布了《神鬼寓言 5.1》，启用了网络安全和生物安全分类器。允许在源代码中查找漏洞，但某些常规编码和调试仍可能被拒绝。为了确保在安全分类器被触发时请求仍然得到服务，请使用模型回退。",
-          "将模型数组添加到providerOptions.gateway，列出要尝试的模型。 AI Gateway 首先将请求发送到 Fable 5.1，如果 Anthropic 拒绝，则按顺序处理数组并返回第一个成功的模型的响应："
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Anthropic 的 Claude Fable 5.1 现已在 AI Gateway 上提供。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/claude-fable-5-1-now-available-on-ai-gateway"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Anthropic 的 Claude Fable 5.1 现已在 AI Gateway 上提供。",
-        "与之前的 Claude 模型相比，Fable 5.1 的改进集中在长期、多阶段的工作上，例如代理编码、知识工作和需要多轮搜索和跟进的研究。",
-        "Anthropic 发布了《神鬼寓言 5.1》，启用了网络安全和生物安全分类器。允许在源代码中查找漏洞，但某些常规编码和调试仍可能被拒绝。为了确保在安全分类器被触发时请求仍然得到服务，请使用模型回退。",
-        "将模型数组添加到providerOptions.gateway，列出要尝试的模型。 AI Gateway 首先将请求发送到 Fable 5.1，如果 Anthropic 拒绝，则按顺序处理数组并返回第一个成功的模型的响应：",
-        "API 克劳德代码 Hermes API API 克劳德代码 克劳德代码 Hermes Hermes 1 import {streamText } from 'ai' ; 2 3 const result = streamText ( { 4 model : 'anthropic/claude-fable-5.1' , 5prompt : '总结本季度报告并列出主要风险。' , 6providerOptions : { 7 gateway : { 8models : [ 'anthropic/claude-opus-5' , 'anthropic/claude-sonnet-5' ] , 9 } , 10 } , 11 } );代理副本 查看模型详细信息 ↗ 如果触发安全分类器，此请求将回退到 Opus 5，然后是 Sonnet 5。相同的模型选项适用于每种 AI Gateway API 格式，包括聊天完成、消息和 OpenAI 响应。",
-        "要在编码代理中使用它，请参阅编码代理指南 ，然后运行 ​​vercel ai-gatewaycoding-agents setup 以连接 Claude Code、Codex、OpenCode、Cursor、Pi 等代理，并在代理内选择 anthropic/claude-fable-5.1。",
-        "Anthropic 不支持《神鬼寓言 5.1》的零数据保留。提示和完成会保留 30 天，不会用于培训 Claude。",
-        "您可以查看AI网关上所有可用的语言模型。"
-      ],
-      "highlights": [
-        "Anthropic 的 Claude Fable 5.1 现已在 AI Gateway 上提供。",
-        "与之前的 Claude 模型相比，Fable 5.1 的改进集中在长期、多阶段的工作上，例如代理编码、知识工作和需要多轮搜索和跟进的研究。",
-        "Anthropic 发布了《神鬼寓言 5.1》，启用了网络安全和生物安全分类器。允许在源代码中查找漏洞，但某些常规编码和调试仍可能被拒绝。为了确保在安全分类器被"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Claude Fable 5.1 now available on AI Gateway - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-01",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/claude-fable-5-1-now-available-on-ai-gateway",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Claude Fable 5.1 now available on AI Gateway - Vercel"
-      },
-      "raw": {
-        "title": "Claude Fable 5.1 now available on AI Gateway",
-        "url": "https://vercel.com/changelog/claude-fable-5-1-now-available-on-ai-gateway",
-        "fetched": true,
-        "savedAt": "2026-09-02T02:27:09.491Z"
-      }
-    },
-    {
-      "id": "sig-d6b11fd3ea",
-      "title": "Qwen 3.8 Max 0902 现已在 AI 网关上可用 - Vercel",
-      "oneLiner": "阿里巴巴的Qwen 3.8 Max 0902现已在AI网关上架。",
-      "summary": {
-        "oneSentence": "阿里巴巴的Qwen 3.8 Max 0902现已在AI网关上架。",
-        "bullets": [
-          "阿里巴巴的Qwen 3.8 Max 0902现已在AI网关上架。",
-          "这是 Qwen 3.8 Max 的新快照，收益集中在大型项目的编码、无需监督的长期工作以及代理运行。视觉处理在图表和密集文档上更加准确。",
-          "要使用 Qwen 3.8 Max 0902，请将型号设置为 alibaba/qwen3.8-max-0902 ：",
-          "AI SDK Claude Code Codex Hermes 聊天完成 AI SDK AI SDK Claude Code Claude Code Claude Code Codex Codex Hermes Hermes 聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 "
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：阿里巴巴的Qwen 3.8 Max 0902现已在AI网关上架。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/qwen-3-8-max-0902-now-available-on-ai-gateway"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "阿里巴巴的Qwen 3.8 Max 0902现已在AI网关上架。",
-        "这是 Qwen 3.8 Max 的新快照，收益集中在大型项目的编码、无需监督的长期工作以及代理运行。视觉处理在图表和密集文档上更加准确。",
-        "要使用 Qwen 3.8 Max 0902，请将型号设置为 alibaba/qwen3.8-max-0902 ：",
-        "AI SDK Claude Code Codex Hermes 聊天完成 AI SDK AI SDK Claude Code Claude Code Claude Code Codex Codex Hermes Hermes 聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 3 const result = streamText({ 4 model: 'alibaba/qwen3.8-max-0902', 5prompt: '为结果端点添加分页。', 6 }) ;代理副本 查看模型详细信息 ↗ 带日期的 ID 会固定此快照，因此后续版本不会更改您的请求所针对的对象。",
-        "要在不更改代码的情况下将现有流量移至其上，请添加重写路由规则。网关透明地替换目标，因此仍然需要 alibaba/qwen3.8-max 的应用程序在新快照上运行：",
-        "vercel ai-gateway 规则添加 --type rewrite \\ --source alibaba/qwen3.8-max \\ --destination alibaba/qwen3.8-max-0902",
-        "要在编码代理中使用它，请参阅编码代理指南 ，然后运行 ​​vercel ai-gatewaycoding-agents setup 以连接 Claude Code、Codex、OpenCode、Cursor、Pi 等代理，并选择 alibaba/qwen3.8-max-0902 。",
-        "在模型游乐场中尝试 Qwen3.8-Max-0902。",
-        "您可以查看AI网关上所有可用的语言模型。"
-      ],
-      "highlights": [
-        "阿里巴巴的Qwen 3.8 Max 0902现已在AI网关上架。",
-        "这是 Qwen 3.8 Max 的新快照，收益集中在大型项目的编码、无需监督的长期工作以及代理运行。视觉处理在图表和密集文档上更加准确。",
-        "要使用 Qwen 3.8 Max 0902，请将型号设置为 alibaba/qwen3.8-max-0902 ："
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Qwen 3.8 Max 0902 now available on AI Gateway - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-01",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/qwen-3-8-max-0902-now-available-on-ai-gateway",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Qwen 3.8 Max 0902 now available on AI Gateway - Vercel"
-      },
-      "raw": {
-        "title": "Qwen 3.8 Max 0902 now available on AI Gateway",
-        "url": "https://vercel.com/changelog/qwen-3-8-max-0902-now-available-on-ai-gateway",
-        "fetched": true,
-        "savedAt": "2026-09-04T02:30:02.125Z"
-      }
-    },
-    {
-      "id": "sig-c0bf3557f9",
-      "title": "AWS PrivateLink 现已在专业版和企业版上推出 - Vercel",
-      "oneLiner": "AWS PrivateLink 现在作为高级网络的一部分可供专业团队和企业团队使用。它允许 Vercel Functions 和构建连接到 AWS 托管的服务，而无需通过公共互联网发送流量。",
-      "summary": {
-        "oneSentence": "AWS PrivateLink 现在作为高级网络的一部分可供专业团队和企业团队使用。它允许 Vercel Functions 和构建连接到 AWS 托管的服务，而无需通过公共互联网发送流量。",
-        "bullets": [
-          "AWS PrivateLink 现在作为高级网络的一部分可供专业团队和企业团队使用。它允许 Vercel Functions 和构建连接到 AWS 托管的服务，而无需通过公共互联网发送流量。",
-          "使用它来访问 AWS 托管的数据库，例如 RDS、Aurora 和 Neon； SaaS 服务，例如 Snowflake 和 MongoDB Atlas； AWS 网络负载均衡器背后的内部服务；以及通过网关端点的 S3 或 DynamoDB。",
-          "要配置 PrivateLink，请打开项目的网络设置并启用高级网络。选择“新建连接”，然后输入服务名称和区域。",
-          "该服务必须接受来自所有 AWS 委托人的连接，或将 Vercel 为您的团队提供的 IAM 角色列入白名单。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：AWS PrivateLink 现在作为高级网络的一部分可供专业团队和企业团队使用。它允许 Vercel Functions 和构建连接到 AWS 托管的服务，而无需通过公共互联网发送流量。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/aws-privatelink-is-now-available-on-pro-and-enterprise"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "AWS PrivateLink 现在作为高级网络的一部分可供专业团队和企业团队使用。它允许 Vercel Functions 和构建连接到 AWS 托管的服务，而无需通过公共互联网发送流量。",
-        "使用它来访问 AWS 托管的数据库，例如 RDS、Aurora 和 Neon； SaaS 服务，例如 Snowflake 和 MongoDB Atlas； AWS 网络负载均衡器背后的内部服务；以及通过网关端点的 S3 或 DynamoDB。",
-        "要配置 PrivateLink，请打开项目的网络设置并启用高级网络。选择“新建连接”，然后输入服务名称和区域。",
-        "该服务必须接受来自所有 AWS 委托人的连接，或将 Vercel 为您的团队提供的 IAM 角色列入白名单。",
-        "Vercel 创建连接并提供稳定的主机名。在您的函数和构建中使用此主机名来私下访问该服务。",
-        "第一个 AWS PrivateLink 连接包含在高级网络中。每个额外的连接费用为每月 30 美元。",
-        "PrivateLink 数据传输费用为每 GB 0.04 美元。",
-        "请参阅 AWS PrivateLink 文档了解更多信息。"
-      ],
-      "highlights": [
-        "AWS PrivateLink 现在作为高级网络的一部分可供专业团队和企业团队使用。它允许 Vercel Functions 和构建连接到 AWS 托管的服务，",
-        "使用它来访问 AWS 托管的数据库，例如 RDS、Aurora 和 Neon； SaaS 服务，例如 Snowflake 和 MongoDB Atlas； AW",
-        "要配置 PrivateLink，请打开项目的网络设置并启用高级网络。选择“新建连接”，然后输入服务名称和区域。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "AWS PrivateLink is now available on Pro and Enterprise - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-01",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/aws-privatelink-is-now-available-on-pro-and-enterprise",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "AWS PrivateLink is now available on Pro and Enterprise - Vercel"
-      },
-      "raw": {
-        "title": "AWS PrivateLink is now available on Pro and Enterprise",
-        "url": "https://vercel.com/changelog/aws-privatelink-is-now-available-on-pro-and-enterprise",
-        "fetched": true,
-        "savedAt": "2026-09-04T02:30:12.121Z"
-      }
-    },
-    {
-      "id": "sig-ab12481175",
-      "title": "Claude Fable 5.1 made me a really nice animated pelican",
-      "oneLiner": "Today is Claude Fable (and Mythos) 5.1 day . Anthropic say that Fable 5.1 \"sets a new standard for c",
-      "summary": {
-        "oneSentence": "Today is Claude Fable (and Mythos) 5.1 day . Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge wor",
-        "bullets": [
-          "Today is Claude Fable (and Mythos) 5.1 day . Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable "
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/1/claude-fable-5-1/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Today is Claude Fable (and Mythos) 5.1 day . Anthropic say that Fable 5.1 \"sets a new standard for coding, knowledge work, and long-running problem-solving tasks\". Their announcement spends a notable amount of time on scientific research, boasting of a 52.6% score on the brand new Terminal-Bench-Science 0.1 benchmark (first announced on August 27th ), up from 24.7% for Fable 5, 29.0% for Opus 5 and 22.4% for GPT-5.6 Sol. Other benchmarks show slightly improved scores, but none as impressive as the Science one. But how well can it pelican? Back in July I wrote about how I was losing faith in the pelican benchmark - its connection to how good the models were at other tasks didn't seem to hold as strongly as it did back in 2025 . The most interesting insights I get from it now are comparisons within model families, and particularly comparisons for the same prompt at different reasoning effort levels. Fable 5.1 has five reasoning levels: low, medium, high, xhigh, max - and no option to turn off reasoning entirely. I fixed an issue in llm-anthropic which caused reasoning traces not to be correctly recorded, then ran some prompts. Here's the full set of pelicans for all of the reasoning levels, each with the full reasoning transcript. I'll replicate them here: Low and medium, both without reasoning? Next, a bit of a mystery. This is what I got for effort low : The transcript doesn't show any summarized reasoning tokens, and the output token count is 1,998. With Claude that output token count includes reasoning tokens. It took 23.8 seconds and cost 10.017 cents . I bumped that up to medium and got this: Weirdly, that one also shows no reasoning text and used 1,977 output tokens - 21 tokens less than low . It took 23 seconds and cost 9.912 cents . So for this particular prompt (\"Generate an SVG of a pelican riding a bicycle\") Fable 5.1 appeared to skip reasoning entirely at both low and medium settings. High Here's high - 29.6 seconds, 2,612 output tokens, 13.087 cents : This one did do a bit of reasoning, summary here : I'm planning the SVG layout for a pelican riding a bicycle, with a sky and ground background, a bicycle with two spoked wheels, frame, seat and handlebars, and a white-bodied pelican with a long neck and orange beak positioned on top. Really not much difference from low and medium , though. Extra High At xhigh things got radically different. 36,767 output tokens, 7 minutes 51 seconds, $1.83 ! The reasoning trace is pretty lengthy , and includes details like this: Adding the eye, wings stretching down to the handlebar grip, orange legs reaching to the pedals, and a small tail feather, while keeping the pelican intentionally oversized compared to the bike for comic effect. [...] I'll accept the slight thickness as charming rather than overengineering it. Max Setting effort to max gave me the best pelican I've seen from any of Anthropic's models. 65,927 output tokens, 13 minutes and 54 seconds, $3.30 : There's a lot to like about this. The background is tasteful, the legs are clearly on either side of the frame, the feet are on the pedals, the wing is on the handlebars, the pelican has a cute blue hat and there's a basket with a fish. It's still not showing nearly the same level of flair as Gemini 3.7 Flash , but I didn't ask for flair - I asked for an SVG, and that's what I got. Some highlights from that reasoning trace : Adding pedal shapes near both feet, with the far foot on the second leg partially visible behind the frame. I'm considering whether to add a small scarf or cap for extra character, but leaning toward keeping it simple to avoid clutter. Now I'm debating a bicycle helmet on the head versus the pelican's signature crest—the beak and pouch already read clearly as \"pelican,\" so a helmet could reinforce the bicycle theme without losing identity, though it might compete with the crest for visual space. I realize the beak at (484,84) would overlap with the dome helmet, so I need to shrink the helmet so it only covers the top of the head, adjusting its arc endpoints to sit higher and narrower so the beak can attach cleanly at the front without collision. [...] I'm adding a darker tip region to represent the primary feathers, then reconsidering the trailing edge to include scalloped feather curves instead of one smooth line for a more natural look. [...] Now I'm checking the vent line placements on the helmet, making sure they sit far enough inside the helmet's edge given the stroke width and rounded caps, and confirming each vent stays within the helmet's circular boundary. [...] I decide skipping a handlebar bell and tire highlights since they're unnecessary additions. Now I'm reconsidering the front fork's curve — the current control point pulls the shape backward when it should bow forward for a proper rake, so I need to shift the control point rightward to fix the fork's lean. OK, let's animate it On Hacker News, swalsh commented on that Max pelican: Now that it's a solved benchmark, can we get the animated version? I didn't want to spend another $3 so I took the Max pelican and piped it into the default thinking level of High: llm logs -cx | llm -m claude-fable-5.1 -s ' animate this ' 6,121 input, 26,201 output = $1.37 . The result looked like this , exported here as video since some people have trouble viewing animated SVGs: Your browser does not support HTML5 video. The wheels in the video are rotating in the wrong direction, but I think that's an artifact of the conversion to MP4 - they seem to be going in the correct direction in the original SVG. Tags: ai , generative-ai , llms , anthropic , claude , pelican-riding-a-bicycle , llm-reasoning , llm-release"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Claude Fable 5.1 made me a really nice animated pelican",
-      "originalLang": "en",
-      "date": "2026-09-01",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Claude Fable 5.1 made me a really nice animated pelican"
-      },
-      "raw": {
-        "title": "Claude Fable 5.1 made me a really nice animated pelican",
-        "url": "https://simonwillison.net/2026/Sep/1/claude-fable-5-1/",
-        "fetched": false,
-        "savedAt": "2026-09-06T02:26:25.718Z"
-      }
-    },
-    {
-      "id": "sig-4060d5fb1d",
-      "title": "Codex bundles LibreOffice",
-      "oneLiner": "I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interestin",
-      "summary": {
-        "oneSentence": "I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex ",
-        "bullets": [
-          "I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex desktop app (since rebranded to just ChatGPT) has 1.7GB of stuff in there in a f"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/1/codex-libreoffice/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "I was poking around in my ~/.cache/ folder using OmniDiskSweeper when I spotted something interesting. The OpenAI Codex desktop app (since rebranded to just ChatGPT) has 1.7GB of stuff in there in a folder called codex-primary-runtime , including a full Python installation, a full Node.js installation, and native binaries for Poppler , git, and the LibreOffice open source office suite (which forked from OpenOffice.org in 2010): The ~/.cache/codex-runtimes/codex-primary-runtime/plugins/openai-primary-runtime/plugins/documents folder includes skills which tell Codex how to find and use those binaries. Tags: codex , generative-ai , openai , ai , llms , openoffice , open-source"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Codex bundles LibreOffice",
-      "originalLang": "en",
-      "date": "2026-09-01",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Codex bundles LibreOffice"
-      },
-      "raw": {
-        "title": "Codex bundles LibreOffice",
-        "url": "https://simonwillison.net/2026/Sep/1/codex-libreoffice/",
-        "fetched": false,
-        "savedAt": "2026-09-06T02:26:26.520Z"
-      }
-    },
-    {
-      "id": "sig-0cf425c452",
-      "title": "GeoJSON Map Viewer",
-      "oneLiner": "Tool: GeoJSON Map Viewer I was helping Natalie gather some maps of local political boundaries (for t",
-      "summary": {
-        "oneSentence": "Tool: GeoJSON Map Viewer I was helping Natalie gather some maps of local political boundaries (for the Granada Community",
-        "bullets": [
-          "Tool: GeoJSON Map Viewer I was helping Natalie gather some maps of local political boundaries (for the Granada Community Services District and the Midcoast Community Council ) and found a need to disp"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/1/geojson/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Tool: GeoJSON Map Viewer I was helping Natalie gather some maps of local political boundaries (for the Granada Community Services District and the Midcoast Community Council ) and found a need to display some GeoJSON files on a map and export that as a PNG. I asked GPT-5.6-Sol for suggestions of tools and it proactively built one. After some iterations using Claude Code for web and Fable 5.1 we got to this finished tool. As for the GeoJSON.. it turns out if you ask ChatGPT Work to provide boundaries for almost anything it will churn away extracting and combining files from different Government data sources and build exactly what you need. I got this polygon from: I want a polygon that represents the exact boundary of the El Granada GCSD And this one from: Get me a GeoJSON file for the boundary (or boundaries if that makes sense) for the MCC - Midcoast Community Council - that operates near Half Moon Bay CA Here's a link that displays both of them at the same time on the new GeoJSON map viewing tool. Tags: geospatial , tools , geojson , chatgpt"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "GeoJSON Map Viewer",
-      "originalLang": "en",
-      "date": "2026-09-01",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/1/geojson/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "GeoJSON Map Viewer"
-      },
-      "raw": {
-        "title": "GeoJSON Map Viewer",
-        "url": "https://simonwillison.net/2026/Sep/1/geojson/",
-        "fetched": false,
-        "savedAt": "2026-09-06T02:26:27.321Z"
-      }
-    },
-    {
-      "id": "sig-f632cad25f",
-      "title": "Quoting Tarn Adams",
-      "oneLiner": "They took the letters from me! I have to talk about dwarf behavior now. I can't even talk about dwar",
-      "summary": {
-        "oneSentence": "They took the letters from me! I have to talk about dwarf behavior now. I can't even talk about dwarf AI. It doesn't exi",
-        "bullets": [
-          "They took the letters from me! I have to talk about dwarf behavior now. I can't even talk about dwarf AI. It doesn't exist. It's dwarf behavior , and they misbehave sometimes &mdash; Tarn Adams , co-c"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/1/tarn-adams/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "They took the letters from me! I have to talk about dwarf behavior now. I can't even talk about dwarf AI. It doesn't exist. It's dwarf behavior , and they misbehave sometimes &mdash; Tarn Adams , co-creator of Dwarf Fortress Tags: ai , game-design"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Quoting Tarn Adams",
-      "originalLang": "en",
-      "date": "2026-09-01",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/1/tarn-adams/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Quoting Tarn Adams"
-      },
-      "raw": {
-        "title": "Quoting Tarn Adams",
-        "url": "https://simonwillison.net/2026/Sep/1/tarn-adams/",
-        "fetched": false,
-        "savedAt": "2026-09-07T02:23:39.251Z"
-      }
-    },
-    {
-      "id": "sig-b0705d7f30",
-      "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
-      "oneLiner": "Vercel’s AI SDK, Astro, Flue and tldraw are replacing drive-by community PRs with software factories",
-      "summary": {
-        "oneSentence": "Vercel’s AI SDK, Astro, Flue and tldraw are replacing drive-by community PRs with software factories, where teams of age",
-        "bullets": [
-          "Vercel’s AI SDK, Astro, Flue and tldraw are replacing drive-by community PRs with software factories, where teams of agents apply fixes and features."
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://www.latent.space/p/pr-not-welcome"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Vercel’s AI SDK, Astro, Flue and tldraw are replacing drive-by community PRs with software factories, where teams of agents apply fixes and features."
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
-      "originalLang": "en",
-      "date": "2026-09-01",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Latent Space",
-        "author": "swyx",
-        "url": "https://www.latent.space/p/pr-not-welcome",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors"
-      },
-      "raw": {
-        "title": "PRs NOT Welcome: How Top AI Open Source Projects Are Managing Thousands of Contributors",
-        "url": "https://www.latent.space/p/pr-not-welcome",
-        "fetched": false,
-        "savedAt": "2026-09-07T02:23:40.053Z"
-      }
-    },
-    {
-      "id": "sig-344c2bcd70",
-      "title": "datasette-mcp 0.2",
-      "oneLiner": "Release: datasette-mcp 0.2 \"rows\" from execute_sql is now an array of objects. Previously it was an ",
-      "summary": {
-        "oneSentence": "Release: datasette-mcp 0.2 \"rows\" from execute_sql is now an array of objects. Previously it was an array of arrays. Thi",
-        "bullets": [
-          "Release: datasette-mcp 0.2 \"rows\" from execute_sql is now an array of objects. Previously it was an array of arrays. This should help weaker models avoid losing track of which positional array element"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/1/datasette-mcp/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Release: datasette-mcp 0.2 \"rows\" from execute_sql is now an array of objects. Previously it was an array of arrays. This should help weaker models avoid losing track of which positional array element maps to which column. #1 Now depends on mcp>=2.1.1 . This is the first non-alpha release of the plugin. I'm confident it's ready as I've been using it quite a bit myself. Tags: datasette , model-context-protocol"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "datasette-mcp 0.2",
-      "originalLang": "en",
-      "date": "2026-09-01",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/1/datasette-mcp/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "datasette-mcp 0.2"
-      },
-      "raw": {
-        "title": "datasette-mcp 0.2",
-        "url": "https://simonwillison.net/2026/Sep/1/datasette-mcp/",
-        "fetched": false,
-        "savedAt": "2026-09-07T02:23:40.854Z"
-      }
-    },
-    {
-      "id": "sig-58319d71cb",
-      "title": "Python 3.15.0 candidate 2 is here!",
-      "oneLiner": "Python 3.15.0 candidate 2 is here! Hugo van Kemenade (release manager for Python 3.14 and 3.15) anno",
-      "summary": {
-        "oneSentence": "Python 3.15.0 candidate 2 is here! Hugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final rele",
-        "bullets": [
-          "Python 3.15.0 candidate 2 is here! Hugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final release candidate for Python 3.15, scheduled for release in October: Entering the re"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/1/python-315-rc-2/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Python 3.15.0 candidate 2 is here! Hugo van Kemenade (release manager for Python 3.14 and 3.15) announces the final release candidate for Python 3.15, scheduled for release in October: Entering the release candidate phase, only reviewed code changes which are clear bug fixes are allowed between this release candidate and the final release. [...] We strongly encourage maintainers of third-party Python projects to prepare their projects for 3.15 during this phase, and publish Python 3.15 wheels on PyPI to be ready for the final release of 3.15.0, and to help other projects do their own testing. Any binary wheels built against Python 3.15.0 release candidates will work with future versions of Python 3.15. Back in 2021 I found a bug in Python 3.10 by running my test suites against it... but I hadn't done this during the RC period, so that bug had already shipped! Since then I've always paid much closer attention to these RCs. The new RC isn't available for GitHub Actions just yet - keep an eye on actions/python-versions for that. For the moment though you can add this to a testing matrix: strategy : matrix : python-version : [\"3.14\", \"3.15\"] steps : - uses : actions/setup-python@v7 with : python-version : ${{ matrix.python-version }} allow-prereleases : true check-latest : true The allow-prereleases and check-latest flags mean that today this will test against RC1, and when RC2 lands it will automatically switch to that version (and then the stable version once that comes out.) Update : Datasette passes , sqlite-utils passes , LLM is currently blocked waiting for a 3.15 wheel for scikit-learn , which is optionally used in the test suite. Via @hugovk.dev Tags: open-source , python , github-actions"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Python 3.15.0 candidate 2 is here!",
-      "originalLang": "en",
-      "date": "2026-09-01",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/1/python-315-rc-2/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Python 3.15.0 candidate 2 is here!"
-      },
-      "raw": {
-        "title": "Python 3.15.0 candidate 2 is here!",
-        "url": "https://simonwillison.net/2026/Sep/1/python-315-rc-2/",
-        "fetched": false,
-        "savedAt": "2026-09-07T02:23:41.655Z"
-      }
-    },
-    {
-      "id": "sig-f8c2c13ce5",
-      "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
-      "oneLiner": "You can now create decent video faster than you watch it. This is the start of... something. We’re n",
-      "summary": {
-        "oneSentence": "You can now create decent video faster than you watch it. This is the start of... something. We’re not sure what.",
-        "bullets": [
-          "You can now create decent video faster than you watch it. This is the start of... something. We’re not sure what."
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "You can now create decent video faster than you watch it. This is the start of... something. We’re not sure what."
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
-      "originalLang": "en",
-      "date": "2026-09-01",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Latent Space",
-        "author": "swyx",
-        "url": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier"
-      },
-      "raw": {
-        "title": "[AINews] Fal’s H3 Max Live breaks the infinite videogen barrier",
-        "url": "https://www.latent.space/p/ainews-fals-h3-max-live-breaks-the",
-        "fetched": false,
-        "savedAt": "2026-09-07T02:23:42.457Z"
       }
     }
   ]
