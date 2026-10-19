@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-18T02:39:28.859Z",
+  "updatedAt": "2026-10-19T02:52:22.685Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 401,
+  "itemCount": 405,
   "brief": {
-    "date": "2026-10-18",
-    "generatedAt": "2026-10-18T02:39:28.858Z",
-    "totalCount": 401,
+    "date": "2026-10-19",
+    "generatedAt": "2026-10-19T02:52:22.684Z",
+    "totalCount": 405,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 401 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 405 条",
     "topUpdates": [
       {
         "id": "sig-f3b4b96b5b",
@@ -92,8 +92,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-10-18T02:39:28.859Z",
-    "summary": "近 30 天共 266 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-10-19T02:52:22.685Z",
+    "summary": "近 30 天共 273 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -186,6 +186,18 @@
       "id": "sig-fa14b8f7db",
       "title": "教学生通过问题思考和学习",
       "oneLiner": "通过 AI 为教育工作者提供巴西葡萄牙语庆祝教师节，了解学习模式如何帮助教师支持主动、循序渐进的学习。",
+      "date": "2026-10-15",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-dd00c04c9b",
+      "title": "沙利文克伦威尔将法律专业知识纳入协议审查",
+      "oneLiner": "Sullivan & Cromwell 与 OpenAI 合作开发了协议分析器，这是一种用于识别协议草案中问题的人工智能工具。",
       "date": "2026-10-15",
       "productIds": [
         "chatgpt"
@@ -318,27 +330,27 @@
     },
     {
       "id": "sig-c1e94fc831",
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "oneLiner": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest",
+      "title": "Gemini 4 Argon：专为解决您最棘手的问题而打造",
+      "oneLiner": "我们让开发者、企业、科学家和消费者能够访问我们最新的前沿模型。",
       "date": "2026-10-13",
       "productIds": [
         "gemini"
       ],
       "source": "Google AI",
       "tags": [],
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "sig-ffc748cb8d",
-      "title": "Higgsfield takes AI video from 1 minute to over 10",
-      "oneLiner": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a",
+      "title": "Higgsfield 将 AI 视频从 1 分钟缩短至 10 多分钟",
+      "oneLiner": "Higgsfield 通过 GPT-6 Astra 为创作者带来更长的视频，通过 GPT-Image-2.5 带来精确的视觉效果，并通过 GPT-Live 为声音电影制作提供途径。",
       "date": "2026-10-13",
       "productIds": [
         "chatgpt"
       ],
       "source": "OpenAI",
       "tags": [],
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "sig-edd58468d5",
@@ -380,18 +392,6 @@
       "id": "sig-ca1ec6c6a1",
       "title": "Pollo AI 通过 OpenAI 将创意转化为活动",
       "oneLiner": "借助 GPT-5.6、GPT-6 Astra 和 GPT‑Image‑2.5，Pollo AI 帮助创作者将大胆的想法转化为详细的图像和电影视频广告。",
-      "date": "2026-10-08",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-f6d3626eb7",
-      "title": "LegalOn 将 Codex 成本减半，同时保持开发速度",
-      "oneLiner": "LegalOn 在保持开发速度的同时将预计每日 Codex 成本削减了 65%。它将 Astra、Sol 和 Luna 与任务相匹配并战略性地管理预算。",
       "date": "2026-10-08",
       "productIds": [
         "chatgpt"
@@ -1129,7 +1129,7 @@
         "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
         "fetched": true,
         "savedAt": "2026-10-17T02:36:45.886Z",
-        "retranslatedAt": "2026-10-18T02:38:45.304Z"
+        "retranslatedAt": "2026-10-19T02:51:54.691Z"
       }
     },
     {
@@ -2874,6 +2874,819 @@
       }
     },
     {
+      "id": "sig-b839826a84",
+      "title": "在 Figma 中创建、发送和管理具有有效负载的数据支持网站 | Figma 博客",
+      "oneLiner": "借助Figma中的Payload，团队可以一起从原型到生产，在一个地方管理他们的内容和数据。",
+      "summary": {
+        "oneSentence": "借助Figma中的Payload，团队可以一起从原型到生产，在一个地方管理他们的内容和数据。",
+        "bullets": [
+          "借助Figma中的Payload，团队可以一起从原型到生产，在一个地方管理他们的内容和数据。",
+          "Payload 去年加入 Figma。在过去 12 个月中，Payload 下载量增长了 6 倍。它现在是 NPM 上增长最快的开源 CMS。如需了解更多信息，包括如何自行托管或扩展它，请访问 Payload.org。",
+          "网站和应用程序需要存储和管理数据，从发布的内容到访问者提交的信息。 Payload 欢迎 Payload 加入 Figma 团队 我们很高兴地宣布，领先的开源无头内容管理系统 (CMS) 和应用程序框架 Payload 背后的团队已加入 Figma。",
+          "通过 Payload，Figma Make 中的应用程序还可以设置存储和管理其内容和数据的工具，包括数据库、文件存储、用户登录和管理面板。设计人员现在可以使用真实内容来提示体验，而营销人员可以通过内置管理面板添加和更新相同的内容，开发人员可以使用 Payload 的开源框架自定义应用程序。每个人都会获得适合其角色的工作"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Figma 官网发布：借助Figma中的Payload，团队可以一起从原型到生产，在一个地方管理他们的内容和数据。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://www.figma.com/blog/websites-with-payload-in-figma/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "借助Figma中的Payload，团队可以一起从原型到生产，在一个地方管理他们的内容和数据。",
+        "Payload 去年加入 Figma。在过去 12 个月中，Payload 下载量增长了 6 倍。它现在是 NPM 上增长最快的开源 CMS。如需了解更多信息，包括如何自行托管或扩展它，请访问 Payload.org。",
+        "网站和应用程序需要存储和管理数据，从发布的内容到访问者提交的信息。 Payload 欢迎 Payload 加入 Figma 团队 我们很高兴地宣布，领先的开源无头内容管理系统 (CMS) 和应用程序框架 Payload 背后的团队已加入 Figma。",
+        "通过 Payload，Figma Make 中的应用程序还可以设置存储和管理其内容和数据的工具，包括数据库、文件存储、用户登录和管理面板。设计人员现在可以使用真实内容来提示体验，而营销人员可以通过内置管理面板添加和更新相同的内容，开发人员可以使用 Payload 的开源框架自定义应用程序。每个人都会获得适合其角色的工作空间，并具有细化的权限，允许团队控制谁可以更改什么。",
+        "阅读本周推出的所有内容。",
+        "Payload 为您的应用所需的一切（内容、媒体、权限、工作流程、版本控制、API 和管理面板）提供支持，Figma 托管它，因此您的内容和数据与塑造它们的设计位于同一位置。",
+        "想象一下您的团队正在推出送货服务。网站需要解释该服务并让未来的司机申请。除了管理副本和图像之外，您的团队还需要一种方法来存储提交的申请、对其进行审核并通过入职跟踪申请人。以前，您的团队可能会将外部内容管理系统 (CMS) 连接到网站来管理副本和图像，并与工程师合作建立一种存储、审查和跟踪驾驶员应用程序的方法。",
+        "现在，网站和用于存储和管理申请的后端结合在一起，包括一个管理面板，营销人员可以在其中更新内容，产品团队可以在其中审查申请人。这意味着您的团队可以花更多的时间构建网站并保持其内容最新，而不是花在设置、连接和管理单独的系统上。",
+        "在 IBM，首席视觉和用户体验设计师 Noah Trevino 测试了 Payload 是否能让他的团队频繁更新的内部网站更易于管理。他向 Figma 提供了他现有的设计屏幕和他需要的字段列表，并拿回了一份工作草案，他的团队可以使用它来自行更新内容。 “Payload 为我的团队提供了一个任何人都可以管理的内容系统，内置了版本历史记录，因此这些资源在发布后很长时间内仍然准确且有用，”Noah 说。",
+        "为了管理日常更新，Payload 现在为您提供了一个直观的编辑面板，因此您无需提示进行更改、离开 Figma 前往第三方 CMS，或构建单独的编辑页面。通过编辑面板，团队可以创建新文章、编辑副本、标记内容、交换媒体、重新排序类别、审查版本和发布更新，所有这些都无需开票或等待工程。"
+      ],
+      "highlights": [
+        "借助Figma中的Payload，团队可以一起从原型到生产，在一个地方管理他们的内容和数据。",
+        "Payload 去年加入 Figma。在过去 12 个月中，Payload 下载量增长了 6 倍。它现在是 NPM 上增长最快的开源 CMS。如需了解更多信息，",
+        "网站和应用程序需要存储和管理数据，从发布的内容到访问者提交的信息。 Payload 欢迎 Payload 加入 Figma 团队 我们很高兴地宣布，领先的开源无"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Create, Ship, and Manage Data-Backed Websites With Payload in Figma | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-10-15",
+      "categoryIds": [
+        "vertical-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/websites-with-payload-in-figma/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Create, Ship, and Manage Data-Backed Websites With Payload in Figma | Figma Blog"
+      },
+      "raw": {
+        "title": "Create, ship, and manage data-backed websites with Payload in Figma",
+        "url": "https://www.figma.com/blog/websites-with-payload-in-figma/",
+        "fetched": true,
+        "savedAt": "2026-10-19T02:50:57.554Z"
+      }
+    },
+    {
+      "id": "sig-dd00c04c9b",
+      "title": "沙利文克伦威尔将法律专业知识纳入协议审查",
+      "oneLiner": "Sullivan & Cromwell 与 OpenAI 合作开发了协议分析器，这是一种用于识别协议草案中问题的人工智能工具。",
+      "summary": {
+        "oneSentence": "Sullivan & Cromwell 与 OpenAI 合作开发了协议分析器，这是一种用于识别协议草案中问题的人工智能工具。",
+        "bullets": [
+          "Sullivan & Cromwell 与 OpenAI 合作开发了协议分析器，这是一种用于识别协议草案中问题的人工智能工具。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：Sullivan & Cromwell 与 OpenAI 合作开发了协议分析器，这是一种用于识别协议草案中问题的人工智能工具。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/sullivan-cromwell"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Sullivan & Cromwell 与 OpenAI 合作开发了协议分析器，这是一种用于识别协议草案中问题的人工智能工具。"
+      ],
+      "highlights": [
+        "Sullivan & Cromwell 与 OpenAI 合作开发了协议分析器，这是一种用于识别协议草案中问题的人工智能工具。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "originalLang": "en",
+      "date": "2026-10-15",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/sullivan-cromwell",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Sullivan & Cromwell brings legal expertise into agreement review"
+      },
+      "raw": {
+        "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+        "url": "https://openai.com/index/sullivan-cromwell",
+        "fetched": false,
+        "savedAt": "2026-10-19T02:50:59.522Z"
+      }
+    },
+    {
+      "id": "sig-7810597d4b",
+      "title": "Liquid AI 的 d1-ultra 现已在 AI Gateway 上提供 - Vercel",
+      "oneLiner": "Liquid AI 的 d1-ultra 现已在 AI Gateway 上提供。它是一种多模式决策模型，用于跨文本和图像进行分类、路由和评分，包括视觉缺陷检查和对照客户照片检查损坏索赔。",
+      "summary": {
+        "oneSentence": "Liquid AI 的 d1-ultra 现已在 AI Gateway 上提供。它是一种多模式决策模型，用于跨文本和图像进行分类、路由和评分，包括视觉缺陷检查和对照客户照片检查损坏索赔。",
+        "bullets": [
+          "Liquid AI 的 d1-ultra 现已在 AI Gateway 上提供。它是一种多模式决策模型，用于跨文本和图像进行分类、路由和评分，包括视觉缺陷检查和对照客户照片检查损坏索赔。",
+          "d1-ultra 不是生成文本，而是返回带有概率的结构化答案。提出布尔问题以获得是/否答案的概率，使用 Choice 在命名类别中进行选择，或使用 Score 来对有序量表进行评分。您可以在一个请求中针对同一输入提出多个问题，并使用概率来决定何时自动执行操作或请求人工审核。",
+          "d1-ultra 专为更困难的现实世界决策而设计，重点是校准概率。它支持 32,768 个令牌上下文窗口，并且仅按输入令牌计费，包括图像输入，不收取输出令牌费用。",
+          "使用 Liquid/d1-ultra 作为型号名称。下面的示例通过 AI SDK、OpenAI 兼容的 Decisions API 和 TypeSafe 兼容的 API 提出相同的问题："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Liquid AI 的 d1-ultra 现已在 AI Gateway 上提供。它是一种多模式决策模型，用于跨文本和图像进行分类、路由和评分，包括视觉缺陷检查和对照客户照片检查损坏索赔。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/liquid-ais-d1-ultra-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Liquid AI 的 d1-ultra 现已在 AI Gateway 上提供。它是一种多模式决策模型，用于跨文本和图像进行分类、路由和评分，包括视觉缺陷检查和对照客户照片检查损坏索赔。",
+        "d1-ultra 不是生成文本，而是返回带有概率的结构化答案。提出布尔问题以获得是/否答案的概率，使用 Choice 在命名类别中进行选择，或使用 Score 来对有序量表进行评分。您可以在一个请求中针对同一输入提出多个问题，并使用概率来决定何时自动执行操作或请求人工审核。",
+        "d1-ultra 专为更困难的现实世界决策而设计，重点是校准概率。它支持 32,768 个令牌上下文窗口，并且仅按输入令牌计费，包括图像输入，不收取输出令牌费用。",
+        "使用 Liquid/d1-ultra 作为型号名称。下面的示例通过 AI SDK、OpenAI 兼容的 Decisions API 和 TypeSafe 兼容的 API 提出相同的问题：",
+        "AI SDK 决策 API TypeSafe-compat AI SDK AI SDK 决策 API 决策 API TypeSafe-compat TypeSafe-compat 1 import {experimental_decide asdecide} from 'ai' ; 2 3 const result =等待决定( { 4 model : 'liquid/d1-ultra' , 5 state : '客户报告交付的笔记本电脑屏幕破裂。' , 6 questions : { 7 Damage : { 8 type : 'boolean' , 9 instructions : '客户报告货物到达时是否损坏？' , 10 } , 11 } , 12 }); 13 14 控制台。日志（结果。答案。损坏）；代理副本 查看模型详细信息 ↗ 有关问题类型和其他使用详细信息，请参阅决策模型文档。",
+        "AI Gateway 提供统一的 API，用于访问模型并跟踪使用情况和成本。决策调用出现在日志中，并与其他模型请求一起计入预算。",
+        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥请求）收取平台费用。",
+        "浏览 AI Gateway 上可用的所有决策模型。"
+      ],
+      "highlights": [
+        "Liquid AI 的 d1-ultra 现已在 AI Gateway 上提供。它是一种多模式决策模型，用于跨文本和图像进行分类、路由和评分，包括视觉缺陷检查和",
+        "d1-ultra 不是生成文本，而是返回带有概率的结构化答案。提出布尔问题以获得是/否答案的概率，使用 Choice 在命名类别中进行选择，或使用 Score ",
+        "d1-ultra 专为更困难的现实世界决策而设计，重点是校准概率。它支持 32,768 个令牌上下文窗口，并且仅按输入令牌计费，包括图像输入，不收取输出令牌费用"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Liquid AI's d1-ultra now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-15",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/liquid-ais-d1-ultra-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Liquid AI's d1-ultra now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Liquid AI's d1-ultra now available on AI Gateway",
+        "url": "https://vercel.com/changelog/liquid-ais-d1-ultra-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-10-19T02:51:06.688Z"
+      }
+    },
+    {
+      "id": "sig-7e98fbae09",
+      "title": "Muse Spark Open 现已在 AI Gateway 上可用 - Vercel",
+      "oneLiner": "来自 Meta 的 Muse Spark Open 现已在 AI Gateway 上提供。开放权重推理模型专为编码和代理工作流程而设计，包括多文件重构、调试和理解大型代码库。",
+      "summary": {
+        "oneSentence": "来自 Meta 的 Muse Spark Open 现已在 AI Gateway 上提供。开放权重推理模型专为编码和代理工作流程而设计，包括多文件重构、调试和理解大型代码库。",
+        "bullets": [
+          "来自 Meta 的 Muse Spark Open 现已在 AI Gateway 上提供。开放权重推理模型专为编码和代理工作流程而设计，包括多文件重构、调试和理解大型代码库。",
+          "Muse Spark Open 支持通过 1M 令牌上下文窗口输入文本和图像，允许代理在同一请求中处理代码和屏幕截图。它可通过 ZDR 使用，无需培训，无需创建单独的提供商帐户。",
+          "使用 meta/muse-spark-open 作为所有 API 格式和编码代理的模型名称。该模型可通过 AI SDK、兼容 OpenAI 的聊天完成和响应 API、兼容 Anthropic 的消息 API 以及连接到 AI 网关的编码代理使用。",
+          "AI SDK 聊天完成 fx AI SDK AI SDK 聊天完成 聊天完成 fx fx 1 import {streamText } from 'ai' ; 2 3 const result = streamText ({ 4 model : 'meta/muse-spark-open' , 5prompt : '概"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：来自 Meta 的 Muse Spark Open 现已在 AI Gateway 上提供。开放权重推理模型专为编码和代理工作流程而设计，包括多文件重构、调试和理解大型代码库。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/muse-spark-open-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "来自 Meta 的 Muse Spark Open 现已在 AI Gateway 上提供。开放权重推理模型专为编码和代理工作流程而设计，包括多文件重构、调试和理解大型代码库。",
+        "Muse Spark Open 支持通过 1M 令牌上下文窗口输入文本和图像，允许代理在同一请求中处理代码和屏幕截图。它可通过 ZDR 使用，无需培训，无需创建单独的提供商帐户。",
+        "使用 meta/muse-spark-open 作为所有 API 格式和编码代理的模型名称。该模型可通过 AI SDK、兼容 OpenAI 的聊天完成和响应 API、兼容 Anthropic 的消息 API 以及连接到 AI 网关的编码代理使用。",
+        "AI SDK 聊天完成 fx AI SDK AI SDK 聊天完成 聊天完成 fx fx 1 import {streamText } from 'ai' ; 2 3 const result = streamText ({ 4 model : 'meta/muse-spark-open' , 5prompt : '概述安全重构身份验证模块的三个步骤。' , 6 } ) ; 7 8 for wait (const text of result.textStream) { 9 process .textStream 。标准输出。写（文字）； 10 } 复制代理查看模型详细信息 ↗ 要在 Claude Code、Codex、Cursor 等中使用它，请安装最新的 Vercel CLI 并运行安装程序：",
+        "# 升级到最新版本的 Vercel CLI pnpm i -g vercel@latest # 运行编码代理设置命令 vercel ai-gatewaycoding-agents setup",
+        "然后在代理中选择meta/muse-spark-open。有关详细信息，请参阅编码代理指南。",
+        "在模型游乐场中尝试 Muse Spark Open。",
+        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本，以及配置重试、故障转移和性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、零数据保留支持、API 密钥预算、路由规则等。",
+        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。",
+        "您可以查看AI网关上所有可用的语言模型。"
+      ],
+      "highlights": [
+        "来自 Meta 的 Muse Spark Open 现已在 AI Gateway 上提供。开放权重推理模型专为编码和代理工作流程而设计，包括多文件重构、调试和理",
+        "Muse Spark Open 支持通过 1M 令牌上下文窗口输入文本和图像，允许代理在同一请求中处理代码和屏幕截图。它可通过 ZDR 使用，无需培训，无需创建",
+        "使用 meta/muse-spark-open 作为所有 API 格式和编码代理的模型名称。该模型可通过 AI SDK、兼容 OpenAI 的聊天完成和响应 A"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Muse Spark Open now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-15",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/muse-spark-open-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Muse Spark Open now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Muse Spark Open now available on AI Gateway",
+        "url": "https://vercel.com/changelog/muse-spark-open-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-10-19T02:51:15.274Z"
+      }
+    },
+    {
+      "id": "sig-79fd9ba9d1",
+      "title": "Vercel Connect 现在支持安全计算 - Vercel",
+      "oneLiner": "Vercel Connect 现在支持安全计算，允许连接器访问具有 IP 允许列表的提供商，例如 Salesforce 和 Snowflake。",
+      "summary": {
+        "oneSentence": "Vercel Connect 现在支持安全计算，允许连接器访问具有 IP 允许列表的提供商，例如 Salesforce 和 Snowflake。",
+        "bullets": [
+          "Vercel Connect 现在支持安全计算，允许连接器访问具有 IP 允许列表的提供商，例如 Salesforce 和 Snowflake。",
+          "启用安全计算路由后，Connect 的提供商请求将使用所选网络的专用静态 IP 地址，而不是 Connect 的共享 IP。获取和刷新访问令牌的请求遵循该路线；您的应用程序的直接 API 路由不会受到此设置的影响。凭证管理保持不变，因此您无需在应用程序中存储长期存在的提供商机密或自行构建 OAuth 流程。",
+          "要为受支持的连接器和使用它的所有项目启用安全计算路由：",
+          "在 Vercel 仪表板中打开连接器的设置。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel Connect 现在支持安全计算，允许连接器访问具有 IP 允许列表的提供商，例如 Salesforce 和 Snowflake。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-connect-secure-compute"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Connect 现在支持安全计算，允许连接器访问具有 IP 允许列表的提供商，例如 Salesforce 和 Snowflake。",
+        "启用安全计算路由后，Connect 的提供商请求将使用所选网络的专用静态 IP 地址，而不是 Connect 的共享 IP。获取和刷新访问令牌的请求遵循该路线；您的应用程序的直接 API 路由不会受到此设置的影响。凭证管理保持不变，因此您无需在应用程序中存储长期存在的提供商机密或自行构建 OAuth 流程。",
+        "要为受支持的连接器和使用它的所有项目启用安全计算路由：",
+        "在 Vercel 仪表板中打开连接器的设置。",
+        "在“安全计算路由”下，选择现有网络。",
+        "如果您的提供商使用 IP 允许列表，请在提供商的设置中将所选网络显示的 IP 地址添加到其中。",
+        "初始连接器创建请求和所有提供商发现请求都会绕过所选网络并直接连接到提供商。如果所选网络不可用，路由请求将失败，而不是回退到 Connect 的共享 IP。",
+        "请阅读安全计算路由文档以了解配置详细信息。"
+      ],
+      "highlights": [
+        "Vercel Connect 现在支持安全计算，允许连接器访问具有 IP 允许列表的提供商，例如 Salesforce 和 Snowflake。",
+        "启用安全计算路由后，Connect 的提供商请求将使用所选网络的专用静态 IP 地址，而不是 Connect 的共享 IP。获取和刷新访问令牌的请求遵循该路线；",
+        "要为受支持的连接器和使用它的所有项目启用安全计算路由："
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Connect now supports Secure Compute - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-15",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-connect-secure-compute",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Connect now supports Secure Compute - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Connect now supports Secure Compute",
+        "url": "https://vercel.com/changelog/vercel-connect-secure-compute",
+        "fetched": true,
+        "savedAt": "2026-10-19T02:51:21.928Z"
+      }
+    },
+    {
+      "id": "sig-73da9d71a9",
+      "title": "Cat Jam 现已在 AI Gateway 上免费秘密提供 - Vercel",
+      "oneLiner": "Cat Jam 现已在 AI Gateway 上作为隐身模型提供，隐身期间免费使用。",
+      "summary": {
+        "oneSentence": "Cat Jam 现已在 AI Gateway 上作为隐身模型提供，隐身期间免费使用。",
+        "bullets": [
+          "Cat Jam 现已在 AI Gateway 上作为隐身模型提供，隐身期间免费使用。",
+          "Cat Jam 是一种用于编码和代理任务的推理模型，具有低延迟推理。它支持函数调用，因此代理可以将其连接到您自己的工具以及遵循您提供的 JSON 架构的结构化输出。响应包括模型的推理文本和答案。 Cat Jam 仅接受文本输入。 Cat Jam 支持 low 、medium 、 high 、 xhigh 和 max 推",
+          "零数据保留 (ZDR) 不适用于此型号。出于安全原因，可能会保留提示。",
+          "Cat Jam 可与 AI SDK、兼容 OpenAI 的聊天完成和响应 API、兼容 Anthropic 的消息 API 以及连接到 AI 网关的编码代理配合使用。使用 Stealth /cat-jam 作为模型名称："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Cat Jam 现已在 AI Gateway 上作为隐身模型提供，隐身期间免费使用。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/cat-jam-is-now-available-in-stealth-for-free-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Cat Jam 现已在 AI Gateway 上作为隐身模型提供，隐身期间免费使用。",
+        "Cat Jam 是一种用于编码和代理任务的推理模型，具有低延迟推理。它支持函数调用，因此代理可以将其连接到您自己的工具以及遵循您提供的 JSON 架构的结构化输出。响应包括模型的推理文本和答案。 Cat Jam 仅接受文本输入。 Cat Jam 支持 low 、medium 、 high 、 xhigh 和 max 推理工作。",
+        "零数据保留 (ZDR) 不适用于此型号。出于安全原因，可能会保留提示。",
+        "Cat Jam 可与 AI SDK、兼容 OpenAI 的聊天完成和响应 API、兼容 Anthropic 的消息 API 以及连接到 AI 网关的编码代理配合使用。使用 Stealth /cat-jam 作为模型名称：",
+        "API Claude Code fx 聊天完成 API API Claude Code Claude Code fx fx 聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 3 const result = streamText ({ 4 model: 'stealth/cat-jam', 5prompt: '编写一个 TypeScript 函数，以指数退避重试获取。', 6 }) ;复制代理查看模型详细信息 ↗ 要在 Claude Code、Codex、Cursor 等中使用它，请安装最新的 Vercel CLI 并运行安装程序：",
+        "然后在代理中选择stealth/cat-jam。有关详细信息，请参阅编码代理指南。",
+        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本，以及配置重试、故障转移和性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、API 密钥预算、路由规则等。",
+        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。",
+        "您可以查看AI网关上所有可用的语言模型。"
+      ],
+      "highlights": [
+        "Cat Jam 现已在 AI Gateway 上作为隐身模型提供，隐身期间免费使用。",
+        "Cat Jam 是一种用于编码和代理任务的推理模型，具有低延迟推理。它支持函数调用，因此代理可以将其连接到您自己的工具以及遵循您提供的 JSON 架构的结构化输",
+        "零数据保留 (ZDR) 不适用于此型号。出于安全原因，可能会保留提示。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Cat Jam is now available in stealth for free on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-15",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/cat-jam-is-now-available-in-stealth-for-free-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Cat Jam is now available in stealth for free on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Cat Jam is now available in stealth for free on AI Gateway",
+        "url": "https://vercel.com/changelog/cat-jam-is-now-available-in-stealth-for-free-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-10-19T02:51:28.868Z"
+      }
+    },
+    {
+      "id": "sig-c7af52452b",
+      "title": "Vercel 驱动器现已全面上市 - Vercel",
+      "oneLiner": "Vercel Drives 现在普遍可用于 Hobby、Pro 和 Enterprise 上的 Vercel Sandbox。",
+      "summary": {
+        "oneSentence": "Vercel Drives 现在普遍可用于 Hobby、Pro 和 Enterprise 上的 Vercel Sandbox。",
+        "bullets": [
+          "Vercel Drives 现在普遍可用于 Hobby、Pro 和 Enterprise 上的 Vercel Sandbox。",
+          "驱动器是持久存储，您可以将其作为 Vercel 沙箱中的目录安装。沙箱停止后，其文件仍然可用，因此以后的运行和其他沙箱可以通过安装相同的驱动器来访问它们。",
+          "使用驱动器在运行期间保留代理的工作区或基于文件的内存，或使数据集、模型、依赖项和构建工件在沙箱中可用。",
+          "您还可以将驱动器分叉为独立的可写驱动器。分叉继承源驱动器的数据、区域和最大大小，然后存储自己的更改。并行工作人员可以从相同的文件开始并进行更改，而不会影响原始文件或彼此之间的影响。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel Drives 现在普遍可用于 Hobby、Pro 和 Enterprise 上的 Vercel Sandbox。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-drives-is-now-generally-available"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Drives 现在普遍可用于 Hobby、Pro 和 Enterprise 上的 Vercel Sandbox。",
+        "驱动器是持久存储，您可以将其作为 Vercel 沙箱中的目录安装。沙箱停止后，其文件仍然可用，因此以后的运行和其他沙箱可以通过安装相同的驱动器来访问它们。",
+        "使用驱动器在运行期间保留代理的工作区或基于文件的内存，或使数据集、模型、依赖项和构建工件在沙箱中可用。",
+        "您还可以将驱动器分叉为独立的可写驱动器。分叉继承源驱动器的数据、区域和最大大小，然后存储自己的更改。并行工作人员可以从相同的文件开始并进行更改，而不会影响原始文件或彼此之间的影响。",
+        "1 从 '@vercel/sandbox' 导入 { Sandbox , Drive } ； 2 const 驱动器 = 等待驱动器。 get ({ name : 'base-drive' } ) 3 4 for (let i = 0 ; i < 2 ; i ++ ) { 5 const fork = 等待驱动器 . fork({name:`worker-${i}`}) 6 const sandbox=await Sandbox . create ( { 7 mounts : { 8 '/data' : fork , 9 } 10 } ) 11 // 运行会话，然后删除 fork 12 wait fork . delete ( ) 13 } 14 从同一个保存的工作区启动并行工作线程，同时保持其更改隔离。",
+        "请参阅驱动器文档了解更多信息。"
+      ],
+      "highlights": [
+        "Vercel Drives 现在普遍可用于 Hobby、Pro 和 Enterprise 上的 Vercel Sandbox。",
+        "驱动器是持久存储，您可以将其作为 Vercel 沙箱中的目录安装。沙箱停止后，其文件仍然可用，因此以后的运行和其他沙箱可以通过安装相同的驱动器来访问它们。",
+        "使用驱动器在运行期间保留代理的工作区或基于文件的内存，或使数据集、模型、依赖项和构建工件在沙箱中可用。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Drives is now generally available - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-15",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-drives-is-now-generally-available",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Drives is now generally available - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Drives is now generally available",
+        "url": "https://vercel.com/changelog/vercel-drives-is-now-generally-available",
+        "fetched": true,
+        "savedAt": "2026-10-19T02:51:34.072Z"
+      }
+    },
+    {
+      "id": "sig-4269a097f6",
+      "title": "在 AWS 上自带云现已全面推出 - Vercel",
+      "oneLiner": "企业团队现在可以通过自带云 (BYOC) 在自己的 AWS 账户中运行 Vercel Functions。通过 BYOC，您的函数代码和执行可以保持在安全性和合规性边界内。 Vercel 继续处理部署、环境、路由和静态资产。",
+      "summary": {
+        "oneSentence": "企业团队现在可以通过自带云 (BYOC) 在自己的 AWS 账户中运行 Vercel Functions。通过 BYOC，您的函数代码和执行可以保持在安全性和合规性边界内。 Vercel 继续处理部署、环境、路由和静态资产。",
+        "bullets": [
+          "企业团队现在可以通过自带云 (BYOC) 在自己的 AWS 账户中运行 Vercel Functions。通过 BYOC，您的函数代码和执行可以保持在安全性和合规性边界内。 Vercel 继续处理部署、环境、路由和静态资产。",
+          "在部署过程中，您在 AWS 账户中配置功能，Vercel 负责处理其他一切。您可以使用自己的 IAM 权限、网络访问和资源生命周期策略来控制函数执行。",
+          "在您的 AWS 账户中运行 Node.js 和 Python Vercel 函数",
+          "满足严格的合规性、安全性和隔离要求"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：企业团队现在可以通过自带云 (BYOC) 在自己的 AWS 账户中运行 Vercel Functions。通过 BYOC，您的函数代码和执行可以保持在安全性和合规性边界内。 Vercel 继续处理部署、环境、路由和静态资产。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/bring-your-own-cloud-on-aws-is-now-generally-available"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "企业团队现在可以通过自带云 (BYOC) 在自己的 AWS 账户中运行 Vercel Functions。通过 BYOC，您的函数代码和执行可以保持在安全性和合规性边界内。 Vercel 继续处理部署、环境、路由和静态资产。",
+        "在部署过程中，您在 AWS 账户中配置功能，Vercel 负责处理其他一切。您可以使用自己的 IAM 权限、网络访问和资源生命周期策略来控制函数执行。",
+        "在您的 AWS 账户中运行 Node.js 和 Python Vercel 函数",
+        "满足严格的合规性、安全性和隔离要求",
+        "私下连接到 VPC 中的后端和服务",
+        "BYOC 可用于企业计划。请联系销售人员或您的客户团队开始使用，或在文档中了解更多信息，并阅读 BYOC 的完整指南。"
+      ],
+      "highlights": [
+        "企业团队现在可以通过自带云 (BYOC) 在自己的 AWS 账户中运行 Vercel Functions。通过 BYOC，您的函数代码和执行可以保持在安全性和合",
+        "在部署过程中，您在 AWS 账户中配置功能，Vercel 负责处理其他一切。您可以使用自己的 IAM 权限、网络访问和资源生命周期策略来控制函数执行。",
+        "在您的 AWS 账户中运行 Node.js 和 Python Vercel 函数"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Bring Your Own Cloud on AWS is now generally available - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-15",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/bring-your-own-cloud-on-aws-is-now-generally-available",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Bring Your Own Cloud on AWS is now generally available - Vercel"
+      },
+      "raw": {
+        "title": "Bring Your Own Cloud on AWS is now generally available",
+        "url": "https://vercel.com/changelog/bring-your-own-cloud-on-aws-is-now-generally-available",
+        "fetched": true,
+        "savedAt": "2026-10-19T02:51:39.317Z"
+      }
+    },
+    {
+      "id": "sig-2978b62d0f",
+      "title": "Vercel Connect 添加企业管理授权 - Vercel",
+      "oneLiner": "Vercel Connect 现在在公共测试版中支持企业管理授权 (EMA)。您的应用程序和代理可以代表登录用户访问支持的服务，而无需针对每项服务单独提供同意提示。",
+      "summary": {
+        "oneSentence": "Vercel Connect 现在在公共测试版中支持企业管理授权 (EMA)。您的应用程序和代理可以代表登录用户访问支持的服务，而无需针对每项服务单独提供同意提示。",
+        "bullets": [
+          "Vercel Connect 现在在公共测试版中支持企业管理授权 (EMA)。您的应用程序和代理可以代表登录用户访问支持的服务，而无需针对每项服务单独提供同意提示。",
+          "管理员管理的访问：管理员可以通过身份提供商授予或撤销对支持的服务的访问权限。",
+          "企业登录：用户通过兼容的身份提供商（例如 Okta ）使用其企业帐户登录您的应用程序。",
+          "作用域令牌：您的应用程序请求其所需的作用域，Connect 处理令牌交换、缓存和续订。访问权限仅限于批准的范围和用户现有的服务权限。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel Connect 现在在公共测试版中支持企业管理授权 (EMA)。您的应用程序和代理可以代表登录用户访问支持的服务，而无需针对每项服务单独提供同意提示。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-connect-adds-enterprise-managed-authorization"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Connect 现在在公共测试版中支持企业管理授权 (EMA)。您的应用程序和代理可以代表登录用户访问支持的服务，而无需针对每项服务单独提供同意提示。",
+        "管理员管理的访问：管理员可以通过身份提供商授予或撤销对支持的服务的访问权限。",
+        "企业登录：用户通过兼容的身份提供商（例如 Okta ）使用其企业帐户登录您的应用程序。",
+        "作用域令牌：您的应用程序请求其所需的作用域，Connect 处理令牌交换、缓存和续订。访问权限仅限于批准的范围和用户现有的服务权限。",
+        "如果您的应用程序使用 Vercel Passport ，您可以使用登录用户的身份请求 Slack 模型上下文协议 (MCP) 服务器的令牌：",
+        "1 导入“仅服务器”； 2 从 '@vercel/connect' 导入 { getToken } ； 3 从 '@vercel/passport' 导入 { requireIdentity } ； 4 导出异步函数 getResourceToken(scopes: string[]) { 5 constidentity=await requireIdentity(); 6 return getToken('oauth/resource', { 主题: 身份, 范围}); 7 } 具有 Passport 身份的启用 EMA 的 getToken",
+        "Connect 支持跨应用程序访问 (XAA)，包括通过 EMA 用于 MCP 授权。按照 Vercel Connect EMA 设置指南配置您的身份提供商和服务，并在其 Connect 连接器上启用 EMA。"
+      ],
+      "highlights": [
+        "Vercel Connect 现在在公共测试版中支持企业管理授权 (EMA)。您的应用程序和代理可以代表登录用户访问支持的服务，而无需针对每项服务单独提供同意提",
+        "管理员管理的访问：管理员可以通过身份提供商授予或撤销对支持的服务的访问权限。",
+        "企业登录：用户通过兼容的身份提供商（例如 Okta ）使用其企业帐户登录您的应用程序。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Connect adds Enterprise-Managed Authorization - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-15",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-connect-adds-enterprise-managed-authorization",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Connect adds Enterprise-Managed Authorization - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Connect adds Enterprise-Managed Authorization",
+        "url": "https://vercel.com/changelog/vercel-connect-adds-enterprise-managed-authorization",
+        "fetched": true,
+        "savedAt": "2026-10-19T02:51:45.961Z"
+      }
+    },
+    {
+      "id": "sig-779902f28d",
+      "title": "Vercel Connect 中的 MCP 事件支持现已进入公开测试版 - Vercel",
+      "oneLiner": "Vercel Connect 现在支持公测版的 MCP 事件，允许您的应用程序和代理从兼容的 MCP 服务器订阅 Webhook 事件。为总结新消息、审查新创建的问题或响应文档反馈等任务构建代理。",
+      "summary": {
+        "oneSentence": "Vercel Connect 现在支持公测版的 MCP 事件，允许您的应用程序和代理从兼容的 MCP 服务器订阅 Webhook 事件。为总结新消息、审查新创建的问题或响应文档反馈等任务构建代理。",
+        "bullets": [
+          "Vercel Connect 现在支持公测版的 MCP 事件，允许您的应用程序和代理从兼容的 MCP 服务器订阅 Webhook 事件。为总结新消息、审查新创建的问题或响应文档反馈等任务构建代理。",
+          "Connect 在 MCP 服务器上创建订阅并根据需要自动更新它们，验证服务器的 Webhook 并使用经过身份验证的传递将事件转发到您的应用程序。",
+          "您可以使用 Connect SDK 订阅 MCP 事件：",
+          "lib/subscribe-to-issues.ts 1 从 '@vercel/connect/mcp' 导入 {experimental_subscribe} ； 2 // 为每个订阅使用新密钥。 3 // 重试同一请求时重用它。 4 导出异步函数 subscribeToIssues ( idempotencyKey"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel Connect 现在支持公测版的 MCP 事件，允许您的应用程序和代理从兼容的 MCP 服务器订阅 Webhook 事件。为总结新消息、审查新创建的问题或响应文档反馈等任务构建代理。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/mcp-events-support-in-vercel-connect-is-now-in-public-beta"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Connect 现在支持公测版的 MCP 事件，允许您的应用程序和代理从兼容的 MCP 服务器订阅 Webhook 事件。为总结新消息、审查新创建的问题或响应文档反馈等任务构建代理。",
+        "Connect 在 MCP 服务器上创建订阅并根据需要自动更新它们，验证服务器的 Webhook 并使用经过身份验证的传递将事件转发到您的应用程序。",
+        "您可以使用 Connect SDK 订阅 MCP 事件：",
+        "lib/subscribe-to-issues.ts 1 从 '@vercel/connect/mcp' 导入 {experimental_subscribe} ； 2 // 为每个订阅使用新密钥。 3 // 重试同一请求时重用它。 4 导出异步函数 subscribeToIssues ( idempotencyKey : string ) { 5 return Experimental_subscribe ( 'oauth/issues' , { 6 tokenParams : { subject : { type : 'app' } } , 7 name : 'issue.created' , 8 arguments : { project_id : 'ABC' } , 9 目的地 : { path : '/hooks' } , 10 ttlMs : 24 * 60 * 60 * 1000 , 11 idempotencyKey , 12 } ) ; 13 } 请求 24 小时订阅问题事件",
+        "在您的交付端点，在确认接收之前，使用 SDK 验证每个交付是否来自 Connect：",
+        "app/hooks/route.ts 1 从 '@vercel/connect/mcp' 导入 {experimental_verifyMcpEvent } ； 2 3 导出异步函数 POST(request:Request){4awaitexperimental_verifyMcpEvent(request,{path:'/hooks'}); 5 返回新的响应( null , { status : 204 } ) ; 6 } 验证 Next.js 路由中的传入交付",
+        "您还可以将 AI SDK 事件发现和订阅 API 作为代理工具公开，使用 Connect 的 MCP 事件适配器来管理订阅。",
+        "在 eve 中，在 MCP 连接上启用事件为代理提供了发现服务器事件并使用 Connect 创建、检查或停止订阅的工具。",
+        "阅读 MCP Events 文档和 Vercel Connect 快速入门以了解 SDK 设置和身份验证。"
+      ],
+      "highlights": [
+        "Vercel Connect 现在支持公测版的 MCP 事件，允许您的应用程序和代理从兼容的 MCP 服务器订阅 Webhook 事件。为总结新消息、审查新创建",
+        "Connect 在 MCP 服务器上创建订阅并根据需要自动更新它们，验证服务器的 Webhook 并使用经过身份验证的传递将事件转发到您的应用程序。",
+        "您可以使用 Connect SDK 订阅 MCP 事件："
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "MCP Events support in Vercel Connect is now in public beta - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-15",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/mcp-events-support-in-vercel-connect-is-now-in-public-beta",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "MCP Events support in Vercel Connect is now in public beta - Vercel"
+      },
+      "raw": {
+        "title": "MCP Events support in Vercel Connect is now in public beta",
+        "url": "https://vercel.com/changelog/mcp-events-support-in-vercel-connect-is-now-in-public-beta",
+        "fetched": true,
+        "savedAt": "2026-10-19T02:51:53.417Z"
+      }
+    },
+    {
       "id": "sig-58e4191fcf",
       "title": "Google DeepMind 与新加坡政府合作构建用于诈骗检测的微调人工智能模型",
       "oneLiner": "与新加坡政府科技局 (GovTech Singapore) 合作，在不损害隐私的情况下保护用户。",
@@ -3747,7 +4560,7 @@
         "url": "https://cursor.com/changelog/origin-app-marketplace",
         "fetched": true,
         "savedAt": "2026-10-14T03:08:22.474Z",
-        "retranslatedAt": "2026-10-18T02:39:28.056Z"
+        "retranslatedAt": "2026-10-19T02:51:55.860Z"
       }
     },
     {
@@ -4185,19 +4998,22 @@
     },
     {
       "id": "sig-c1e94fc831",
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "oneLiner": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest",
+      "title": "Gemini 4 Argon：专为解决您最棘手的问题而打造",
+      "oneLiner": "我们让开发者、企业、科学家和消费者能够访问我们最新的前沿模型。",
       "summary": {
-        "oneSentence": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+        "oneSentence": "我们让开发者、企业、科学家和消费者能够访问我们最新的前沿模型。",
         "bullets": [
-          "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model."
+          "我们让开发者、企业、科学家和消费者能够访问我们最新的前沿模型。",
+          "谷歌 DeepMind 高级副总裁兼首席人工智能架构师",
+          "Gemini 4 Argon 现已在全球范围内推出，可供开发者和企业通过 AI Studio 和 Gemini 平台中的 API、Google Antigravity 中的 Google AI Ultra 订阅者、Gemini 应用程序中的 Google AI Ultra 和 Pro 订阅者以及搜索中的 AI 模式使用",
+          "Argon 擅长在编码、金融、法律、网络安全和科学等领域的复杂现实任务中进行深入工作。其跨多步骤任务的深度和精度使 Argon 在跨领域基准测试中优于其他前沿模型，在 Vals 指数上排名第一，该指数衡量金融、编码、法律和税务工作等关键经济领域的模型性能。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Google AI 官网发布：我们让开发者、企业、科学家和消费者能够访问我们最新的前沿模型。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -4205,40 +5021,40 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
-        "relevance": "",
+        "relevance": "关联产品：gemini",
         "actionItems": [
-          "阅读原文：https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+          "阅读原文（英文）：https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [
         "gemini"
       ],
       "content": [
-        "We’re giving developers, enterprises, scientists, and consumers access to our latest frontier model.",
-        "SVP, Google DeepMind and Chief AI Architect, Google",
-        "Gemini 4 Argon is now globally available today for developers and enterprises via the API in AI Studio and Gemini platform , for Google AI Ultra subscribers in Google Antigravity , and Google AI Ultra and Pro subscribers in the Gemini app and AI Mode in Search .",
-        "Argon excels at deep work in complex, real-world tasks across domains including coding, finance, legal, cybersecurity, and science. Its depth and precision across multi-step tasks leads Argon to outperform other frontier models on benchmarks across domains , ranking #1 on the Vals Index , which measures model performance across critical economic sectors like finance, coding, legal, and tax work.",
-        "The model launches today at an introductory price 1 of $2 per million input tokens and $10 per million output tokens (with cached input tokens at 95% off).",
-        "Teams at Google, across enterprises, and in the research community have already been using Argon to land significant impact across fields:",
-        "At Google, we’ve been using Argon on our hardest engineering problems. Over the past few weeks, software engineers have been shipping high-quality code faster than ever. Argon in Antigravity has helped teams increase agentic code submissions by more than 35% while reducing code rollbacks by nearly a third.",
-        "Argon built a highly detailed model of a Pagoda using multi-agent visual critique loops in Antigravity. The model autonomously sculpted a multi-building temple complex with photorealistic architecture, foliage and lighting in Blender.",
-        "Argon turned pictures of a real desk into a playable miniature racing game using a multi-agent loop in Antigravity. The desk objects, room and race track were modeled and collision-checked using Blender MCP, textured with Nano Banana, and wired with physics, custom shaders, and car engine audio from Gemini Omni Flash in Three.js. Try it now in Google AI Studio.",
-        "Argon in Antigravity wrote Python scripts to procedurally sculpt, rig, animate, and PBR-bake a complex 3D game using multi-agent visual critique loops then wired it for the web in Three.js with GLSL shaders, shatter physics, and a single-player AI. Try it now in Google AI Studio.",
-        "With zero external libraries and 100% pure Python, Argon wrote its own 3D ray-tracing engine with a custom video tool and audio mixer to build and document a sunlit library from scratch, producing, narrating, and assembling this video with Gemini 3.8 TTS voiceover and music by Lyria 3.5. View the source code .",
-        "Starting from a single Nano Banana image in Antigravity, Argon drives Blender MCP in an autonomous loop, aligning camera grids, sculpting Gothic architecture, and staging audio-reactive lighting, to create a finished 3D scene.",
-        "Argon combines frontier reasoning, deep visual perception, expanded domain knowledge, and stronger writing capabilities across legal, finance, science, and coding to help with high-stakes professional workflows. It communicates clearly, keeping you in the loop, and follows style instructions better than any of our previous Gemini models. Argon answers questions more directly with less hedging, doesn’t repeat itself more than necessary, and skips clichés throughout the responses.",
-        "Enterprise customers and startups in our early access program are already seeing strong wins with Argon."
+        "我们让开发者、企业、科学家和消费者能够访问我们最新的前沿模型。",
+        "谷歌 DeepMind 高级副总裁兼首席人工智能架构师",
+        "Gemini 4 Argon 现已在全球范围内推出，可供开发者和企业通过 AI Studio 和 Gemini 平台中的 API、Google Antigravity 中的 Google AI Ultra 订阅者、Gemini 应用程序中的 Google AI Ultra 和 Pro 订阅者以及搜索中的 AI 模式使用。",
+        "Argon 擅长在编码、金融、法律、网络安全和科学等领域的复杂现实任务中进行深入工作。其跨多步骤任务的深度和精度使 Argon 在跨领域基准测试中优于其他前沿模型，在 Vals 指数上排名第一，该指数衡量金融、编码、法律和税务工作等关键经济领域的模型性能。",
+        "该模型今天推出，介绍性价格为 1 每百万输入代币 2 美元，每百万输出代币 10 美元（缓存输入代币可享受 95% 的折扣）。",
+        "Google、跨企业和研究界的团队已经在使用 Argon 在各个领域产生重大影响：",
+        "在谷歌，我们一直在使用氩气来解决最困难的工程问题。在过去的几周里，软件工程师以比以往更快的速度交付高质量的代码。 Antigravity 中的 Argon 帮助团队将代理代码提交量增加了 35% 以上，同时将代码回滚减少了近三分之一。",
+        "Argon 使用反重力中的多智能体视觉批判循环构建了高度详细的宝塔模型。该模型在 Blender 中自主雕刻了一座多建筑寺庙建筑群，其中包含逼真的建筑、树叶和灯光。",
+        "Argon 使用《反重力》中的多智能体循环，将真实办公桌的图片变成了可玩的微型赛车游戏。使用 Blender MCP 对桌面对象、房间和赛道进行建模和碰撞检查，使用 Nano Banana 进行纹理化，并在 Three.js 中与物理、自定义着色器和来自 Gemini Omni Flash 的汽车引擎音频进行连接。立即在 Google AI Studio 中尝试一下。",
+        "《Antigravity》中的 Argon 编写了 Python 脚本，使用多智能体视觉批判循环以程序方式雕刻、装配、制作动画和 PBR 烘焙复杂的 3D 游戏，然后将其通过 GLSL 着色器、粉碎物理和单人 AI 在 Three.js 中连接到网络。立即在 Google AI Studio 中尝试一下。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "我们让开发者、企业、科学家和消费者能够访问我们最新的前沿模型。",
+        "谷歌 DeepMind 高级副总裁兼首席人工智能架构师",
+        "Gemini 4 Argon 现已在全球范围内推出，可供开发者和企业通过 AI Studio 和 Gemini 平台中的 API、Google Antigrav"
+      ],
+      "translated": true,
       "originalTitle": "Gemini 4 Argon: Built to solve your hardest problems",
       "originalLang": "en",
       "date": "2026-10-13",
@@ -4256,32 +5072,37 @@
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
         "home": "https://blog.google/technology/ai/",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Gemini 4 Argon: Built to solve your hardest problems"
       },
       "raw": {
         "title": "Gemini 4 Argon: Built to solve your hardest problems",
         "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
         "fetched": true,
-        "savedAt": "2026-10-14T03:08:14.300Z"
-      }
+        "savedAt": "2026-10-14T03:08:14.300Z",
+        "retranslatedAt": "2026-10-19T02:52:03.817Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-388078e82c",
-      "title": "Source material: Creative director Manon Macasaet’s spirituality shapes her process",
-      "oneLiner": "The creative behind Poison Candy Apple is inspired by Harajuku fashion, early internet Tumblr, old r",
+      "title": "资料来源：创意总监 Manon Macasaet 的灵性塑造了她的创作过程 | Figma 博客",
+      "oneLiner": "Poison Candy Apple 背后的创意灵感来自原宿时尚、早期互联网 Tumblr、古老的狂欢图形和机器人。",
       "summary": {
-        "oneSentence": "The creative behind Poison Candy Apple is inspired by Harajuku fashion, early internet Tumblr, old rave graphics, and ki",
+        "oneSentence": "Poison Candy Apple 背后的创意灵感来自原宿时尚、早期互联网 Tumblr、古老的狂欢图形和机器人。",
         "bullets": [
-          "The creative behind Poison Candy Apple is inspired by Harajuku fashion, early internet Tumblr, old rave graphics, and kidrobots."
+          "Poison Candy Apple 背后的创意灵感来自原宿时尚、早期互联网 Tumblr、古老的狂欢图形和机器人。",
+          "欢迎来到《Source Material》，这是一个每周系列，塑造文化的设计师和创意人员将分享塑造他们的参考资料。我们的下一位嘉宾是 Manon Macasaet (@mingblingbling)，她是一位设计师、艺术家和创意总监，创立了时尚品牌 Poison Candy Apple。",
+          "拍摄结束后，我们采访了 Manon，了解了她的创作过程：",
+          "当您意识到“这可能是我的工作”时，您正在做什么？"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Figma 官网发布：Poison Candy Apple 背后的创意灵感来自原宿时尚、早期互联网 Tumblr、古老的狂欢图形和机器人。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -4289,38 +5110,38 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://www.figma.com/blog/source-material-manon-macasaet/"
+          "阅读原文（英文）：https://www.figma.com/blog/source-material-manon-macasaet/"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "The creative behind Poison Candy Apple is inspired by Harajuku fashion, early internet Tumblr, old rave graphics, and kidrobots.",
-        "Welcome to Source Material, a weekly series where the designers and creatives shaping culture share the references that shaped them. Our next guest is Manon Macasaet ( @mingblingbling ), a designer, artist, and creative director who founded fashion brand Poison Candy Apple .",
-        "After the shoot, we caught up with Manon about her creative process:",
-        "What were you making when you realized, “This could be my job”?",
-        "I realized this could be my job when I started my webseries “ STORY OF MY FUCKING LIFE .” It’s one of my more notable video projects, a crunk downtown New York Sesame Street that chronicled my life in 2020. It was a super well-rounded video series that helped me develop most of my visual language, creative direction, and team-building abilities. I need to bring it back.",
-        "What’s the first thing you do when you sit down to work?",
-        "It changes all the time. I try to set an intention, and sometimes I pray. I’m quite a spiritual person and need to feel clear-headed when I’m doing creative work.",
-        "What’s a design object you’d take to your grave?",
-        "My “Helter Skelter” book by Mika Ninagawa, it’s like my style bible.",
-        "Mika Ninagawa . She directed the movie “Helter Skelter,” which is like the OG version of “The Substance.” Or honestly, Spike Jonze . I wish I had directed “Jackass” so bad.",
-        "What current design trend are you tired of seeing?",
-        "This is a tough one, but when I was filming my web show I broke a lot of rules while sneaking into certain places to get certain shots. You gotta do what you gotta do.",
-        "What song do you put on to get out of a creative rut?",
-        "I’ve been listening to a lot of Snoopy library jazz to get in the zone lately."
+        "Poison Candy Apple 背后的创意灵感来自原宿时尚、早期互联网 Tumblr、古老的狂欢图形和机器人。",
+        "欢迎来到《Source Material》，这是一个每周系列，塑造文化的设计师和创意人员将分享塑造他们的参考资料。我们的下一位嘉宾是 Manon Macasaet (@mingblingbling)，她是一位设计师、艺术家和创意总监，创立了时尚品牌 Poison Candy Apple。",
+        "拍摄结束后，我们采访了 Manon，了解了她的创作过程：",
+        "当您意识到“这可能是我的工作”时，您正在做什么？",
+        "当我开始制作网络系列“我他妈的生活的故事”时，我意识到这可能是我的工作。这是我最著名的视频项目之一，纽约市中心的芝麻街，记录了我 2020 年的生活。这是一个超级全面的视频系列，帮助我发展了大部分视觉语言、创意方向和团队建设能力。我需要把它带回来。",
+        "当你坐下来工作时，你做的第一件事是什么？",
+        "它一直在变化。我尝试设定一个目标，有时我会祈祷。我是一个比较注重精神的人，在做创造性的工作时需要保持头脑清醒。",
+        "你会带进坟墓的设计对象是什么？",
+        "我的蜷川实花的《Helter Skelter》一书就像我的时尚圣经。",
+        "蜷川美嘉。她执导了电影《Helter Skelter》，这就像原版的《The Substance》。或者老实说，斯派克·琼斯。我真希望我导演的《蠢驴》这么糟糕。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "Poison Candy Apple 背后的创意灵感来自原宿时尚、早期互联网 Tumblr、古老的狂欢图形和机器人。",
+        "欢迎来到《Source Material》，这是一个每周系列，塑造文化的设计师和创意人员将分享塑造他们的参考资料。我们的下一位嘉宾是 Manon Macasae",
+        "拍摄结束后，我们采访了 Manon，了解了她的创作过程："
+      ],
+      "translated": true,
       "originalTitle": "Source Material: Creative Director Manon Macasaet’s Spirituality Shapes Her Process | Figma Blog",
       "originalLang": "en",
       "date": "2026-10-13",
@@ -4336,32 +5157,34 @@
         "url": "https://www.figma.com/blog/source-material-manon-macasaet/",
         "home": "https://www.figma.com/blog/",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Source Material: Creative Director Manon Macasaet’s Spirituality Shapes Her Process | Figma Blog"
       },
       "raw": {
         "title": "Source material: Creative director Manon Macasaet’s spirituality shapes her process",
         "url": "https://www.figma.com/blog/source-material-manon-macasaet/",
         "fetched": true,
-        "savedAt": "2026-10-14T03:08:16.047Z"
-      }
+        "savedAt": "2026-10-14T03:08:16.047Z",
+        "retranslatedAt": "2026-10-19T02:52:12.024Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-ffc748cb8d",
-      "title": "Higgsfield takes AI video from 1 minute to over 10",
-      "oneLiner": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a",
+      "title": "Higgsfield 将 AI 视频从 1 分钟缩短至 10 多分钟",
+      "oneLiner": "Higgsfield 通过 GPT-6 Astra 为创作者带来更长的视频，通过 GPT-Image-2.5 带来精确的视觉效果，并通过 GPT-Live 为声音电影制作提供途径。",
       "summary": {
-        "oneSentence": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmm",
+        "oneSentence": "Higgsfield 通过 GPT-6 Astra 为创作者带来更长的视频，通过 GPT-Image-2.5 带来精确的视觉效果，并通过 GPT-Live 为声音电影制作提供途径。",
         "bullets": [
-          "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live."
+          "Higgsfield 通过 GPT-6 Astra 为创作者带来更长的视频，通过 GPT-Image-2.5 带来精确的视觉效果，并通过 GPT-Live 为声音电影制作提供途径。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "OpenAI 官网发布：Higgsfield 通过 GPT-6 Astra 为创作者带来更长的视频，通过 GPT-Image-2.5 带来精确的视觉效果，并通过 GPT-Live 为声音电影制作提供途径。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -4369,27 +5192,29 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
-        "relevance": "",
+        "relevance": "关联产品：chatgpt",
         "actionItems": [
-          "阅读原文：https://openai.com/index/higgsfield-longer-videos-voice"
+          "阅读原文（英文）：https://openai.com/index/higgsfield-longer-videos-voice"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [
         "chatgpt"
       ],
       "content": [
-        "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live."
+        "Higgsfield 通过 GPT-6 Astra 为创作者带来更长的视频，通过 GPT-Image-2.5 带来精确的视觉效果，并通过 GPT-Live 为声音电影制作提供途径。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "Higgsfield 通过 GPT-6 Astra 为创作者带来更长的视频，通过 GPT-Image-2.5 带来精确的视觉效果，并通过 GPT-Live 为声"
+      ],
+      "translated": true,
       "originalTitle": "Higgsfield takes AI video from 1 minute to over 10",
       "originalLang": "en",
       "date": "2026-10-13",
@@ -4407,32 +5232,37 @@
         "url": "https://openai.com/index/higgsfield-longer-videos-voice",
         "home": "https://openai.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Higgsfield takes AI video from 1 minute to over 10"
       },
       "raw": {
         "title": "Higgsfield takes AI video from 1 minute to over 10",
         "url": "https://openai.com/index/higgsfield-longer-videos-voice",
         "fetched": false,
-        "savedAt": "2026-10-14T03:08:17.499Z"
-      }
+        "savedAt": "2026-10-14T03:08:17.499Z",
+        "retranslatedAt": "2026-10-19T02:52:13.717Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-3696811ff3",
-      "title": "How to transcribe an interview: Accurate, speaker-labeled transcripts",
-      "oneLiner": "Learn how to transcribe an interview with AI, from verbatim vs. clean styles to speaker labels. Elev",
+      "title": "如何转录人工智能采访：提示和功能",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
       "summary": {
-        "oneSentence": "Learn how to transcribe an interview with AI, from verbatim vs. clean styles to speaker labels. ElevenCreative makes it ",
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
         "bullets": [
-          "Learn how to transcribe an interview with AI, from verbatim vs. clean styles to speaker labels. ElevenCreative makes it easy to transcribe"
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
+          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 了解更多 在此页面上注册",
+          "手动转录采访需要花费数小时的工作。当您面临文章截止日期或正在进行时间敏感的研究时，您的日程安排中可能没有这些额外的时间。由人工智能驱动的语音转文本工具可在几分钟内转录采访内容，从而腾出时间进行编辑和分析。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -4440,38 +5270,38 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://elevenlabs.io/blog/how-to-transcribe-an-interview"
+          "阅读原文（英文）：https://elevenlabs.io/blog/how-to-transcribe-an-interview"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "strong]:tw-font-normal tw-text-gray-600\"> Introducing Eleven v4 Meet Eleven v4, our most emotive model yet.",
-        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem; } Skip to content Products Solutions Customers Resources Enterprise Pricing Log in Sign up Contact sales Log in [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() Learn more Sign up Blog Resources How to transcribe an interview: Accurate, speaker-labeled transcripts Written by Jack Limebear Published Oct 13, 2026 Listen Listen to this article",
-        "0:00 1.0x Learn more Sign up On this page",
-        "Manually transcribing an interview takes hours of work. When you’re up against an article deadline or working on a time-sensitive research study, you might not have those extra hours in your schedule. AI-powered speech to text tools transcribe interviews in minutes, freeing up time for editing and analysis.",
-        "In this guide, we’ll cover how to transcribe an interview accurately with AI. We’ll also explore tools, styles, and formatting to help you turn every audio interview into a usable written transcript.",
-        "Interviewers, whether for journalism or academic research, need to pull direct quotes from their transcripts. When interviews run for an hour or more, manual transcription isn't feasible, especially when you need a high level of accuracy.",
-        "Those quotes end up in published articles, reports, and citations. The transcript has to capture everything that’s said, without changing words or cutting anything out.",
-        "Business meetings are a different story. They tend to run shorter, and most teams only need the key points. Many rely on tools that summarize the meeting rather than produce a word-for-word record.",
-        "If you’re choosing interview transcription software, accuracy should come first, but it shouldn’t be the only item on your checklist. Here are the features that matter most.",
-        "When transcribing your interviews, there are two styles to choose from: verbatim or clean.",
-        "A verbatim transcript captures every single word and expression from your conversation, without changing or removing anything. This includes repetitions, false starts, and filler words like ‘um’ or 'uh.'",
-        "A clean transcript removes filler words and repetitions but keeps the original grammar and phrasing. Clean transcripts increase readability while preserving the original intent of the conversation.",
-        "For most interviews, verbatim transcripts are the best fit. Since they preserve the entire conversation, they meet the strict accuracy standards required for journalism, academic research, or law.",
-        "However, there are some situations where clean transcription is appropriate for interviews. Say you conducted an interview for your podcast, and you want to turn it into a Q&A blog post for your website. In that scenario, clean transcription provides publish-ready results."
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 了解更多信息 注册博客资源 如何转录采访：准确的、带有说话人标签的转录文本 作者：Jack Limebear 发布于 2026 年 10 月 13 日 听 听这篇文章",
+        "0:00 1.0x 了解更多 在此页面上注册",
+        "手动转录采访需要花费数小时的工作。当您面临文章截止日期或正在进行时间敏感的研究时，您的日程安排中可能没有这些额外的时间。由人工智能驱动的语音转文本工具可在几分钟内转录采访内容，从而腾出时间进行编辑和分析。",
+        "在本指南中，我们将介绍如何使用人工智能准确转录采访内容。我们还将探索工具、风格和格式，以帮助您将每一次音频采访转化为可用的书面记录。",
+        "无论是新闻采访还是学术研究，采访者都需要从他们的成绩单中直接引用。当采访持续一个小时或更长时间时，手动转录是不可行的，尤其是当您需要高精度时。",
+        "这些引述最终出现在发表的文章、报告和引文中。文字记录必须记录所说的所有内容，不得更改文字或删除任何内容。",
+        "商务会议则是另一回事。他们往往跑得更短，大多数球队只需要关键点。许多人依赖于总结会议的工具，而不是逐字记录。",
+        "如果您选择采访转录软件，准确性应该是第一位的，但它不应该是您清单上的唯一项目。以下是最重要的功能。",
+        "转录采访时，有两种风格可供选择：逐字记录或干净记录。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 了解更多 在此页面上注册"
+      ],
+      "translated": true,
       "originalTitle": "How to transcribe an interview with AI: Tips and features",
       "originalLang": "en",
       "date": "2026-10-13",
@@ -4487,16 +5317,18 @@
         "url": "https://elevenlabs.io/blog/how-to-transcribe-an-interview",
         "home": "https://elevenlabs.io/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "How to transcribe an interview with AI: Tips and features"
       },
       "raw": {
         "title": "How to transcribe an interview: Accurate, speaker-labeled transcripts",
         "url": "https://elevenlabs.io/blog/how-to-transcribe-an-interview",
         "fetched": true,
-        "savedAt": "2026-10-14T03:08:18.971Z"
-      }
+        "savedAt": "2026-10-14T03:08:18.971Z",
+        "retranslatedAt": "2026-10-19T02:52:21.881Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-d23af6396b",
@@ -30971,441 +31803,6 @@
         "url": "https://www.latent.space/p/grok-bot",
         "fetched": false,
         "savedAt": "2026-09-06T02:26:22.513Z"
-      }
-    },
-    {
-      "id": "sig-d5c9a183b7",
-      "title": "Ling 3.0 Flash Sante 现已在 AI Gateway 上免费提供 - Vercel",
-      "oneLiner": "InclusionAI 的 Ling 3.0 Flash Sante 现已在 AI Gateway 上提供，免费使用到 10 月 4 日。",
-      "summary": {
-        "oneSentence": "InclusionAI 的 Ling 3.0 Flash Sante 现已在 AI Gateway 上提供，免费使用到 10 月 4 日。",
-        "bullets": [
-          "InclusionAI 的 Ling 3.0 Flash Sante 现已在 AI Gateway 上提供，免费使用到 10 月 4 日。",
-          "Ling 3.0 Flash Sante 是 Ling 3.0 Flash 的健康和医学版本。它是一个混合专家模型，共有 124B 个参数，每个令牌约有 5.1B 个活跃参数，一个 256K 令牌上下文窗口和函数调用。",
-          "该模型是为医学推理、专业医疗保健任务、深入研究、循证检索和多步骤医疗工作流程而构建的。它保留了基本模型的一般推理、编码和代理功能。",
-          "将链接复制到标题 如何在免费期间使用该模型 标准模型 ID Includeai/ling-3.0-flash-sante 在 10 月 4 日之前免费，并在优惠结束后开始计费。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：InclusionAI 的 Ling 3.0 Flash Sante 现已在 AI Gateway 上提供，免费使用到 10 月 4 日。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/ling-3-0-flash-sante-is-now-available-on-ai-gateway-for-free"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "InclusionAI 的 Ling 3.0 Flash Sante 现已在 AI Gateway 上提供，免费使用到 10 月 4 日。",
-        "Ling 3.0 Flash Sante 是 Ling 3.0 Flash 的健康和医学版本。它是一个混合专家模型，共有 124B 个参数，每个令牌约有 5.1B 个活跃参数，一个 256K 令牌上下文窗口和函数调用。",
-        "该模型是为医学推理、专业医疗保健任务、深入研究、循证检索和多步骤医疗工作流程而构建的。它保留了基本模型的一般推理、编码和代理功能。",
-        "将链接复制到标题 如何在免费期间使用该模型 标准模型 ID Includeai/ling-3.0-flash-sante 在 10 月 4 日之前免费，并在优惠结束后开始计费。",
-        "免费模型 ID Includeai/ling-3.0-flash-sante-free 会在优惠结束时停止服务而不是计费。",
-        "免费请求仍然会出现在您的支出仪表板中并带有痕迹，它们只是免费。",
-        "要使用 Ling 3.0 Flash Sante，请在 AI SDK 中设置模型：",
-        "API Claude Code Codex Hermes 聊天完成 API API Claude Code Claude Code Codex Codex Hermes Hermes 聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 3 const result = streamText ({ 4 model: 'inclusionai/ling-3.0-flash-sante' , 5prompt : '比较这些摘要中的证据并找出他们不同意的地方。' , 6 } ) ;复制给代理 查看模型详细信息 ↗ 如果您希望模型在优惠结束时停止服务而不是开始计费，请使用 Includeai/ling-3.0-flash-sante-free。",
-        "要在编码代理中使用它，请参阅编码代理指南 ，然后运行 ​​vercel ai-gatewaycoding-agents setup 以连接 Claude Code、Codex、Cursor 等，然后在代理中选择clusionai/ling-3.0-flash-sante。",
-        "在模型游乐场中尝试 Ling 3.0 Flash Sante，或打开免费模型页面。"
-      ],
-      "highlights": [
-        "InclusionAI 的 Ling 3.0 Flash Sante 现已在 AI Gateway 上提供，免费使用到 10 月 4 日。",
-        "Ling 3.0 Flash Sante 是 Ling 3.0 Flash 的健康和医学版本。它是一个混合专家模型，共有 124B 个参数，每个令牌约有 5.1",
-        "该模型是为医学推理、专业医疗保健任务、深入研究、循证检索和多步骤医疗工作流程而构建的。它保留了基本模型的一般推理、编码和代理功能。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Ling 3.0 Flash Sante is now available on AI Gateway for free - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-04",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/ling-3-0-flash-sante-is-now-available-on-ai-gateway-for-free",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Ling 3.0 Flash Sante is now available on AI Gateway for free - Vercel"
-      },
-      "raw": {
-        "title": "Ling 3.0 Flash Sante is now available on AI Gateway for free",
-        "url": "https://vercel.com/changelog/ling-3-0-flash-sante-is-now-available-on-ai-gateway-for-free",
-        "fetched": true,
-        "savedAt": "2026-09-05T02:30:09.409Z"
-      }
-    },
-    {
-      "id": "sig-7dccfbf0b6",
-      "title": "GPT 6 Astra 现已在 Vercel AI Gateway 上可用 - Vercel",
-      "oneLiner": "OpenAI 的 GPT 6 Astra 现已在 AI Gateway 上提供。它专为跨软件工程、计算机和浏览器使用、科学研究和专业工作流程的长期代理工作而设计。",
-      "summary": {
-        "oneSentence": "OpenAI 的 GPT 6 Astra 现已在 AI Gateway 上提供。它专为跨软件工程、计算机和浏览器使用、科学研究和专业工作流程的长期代理工作而设计。",
-        "bullets": [
-          "OpenAI 的 GPT 6 Astra 现已在 AI Gateway 上提供。它专为跨软件工程、计算机和浏览器使用、科学研究和专业工作流程的长期代理工作而设计。",
-          "Astra 可以导航软件、填写表格、组织记录、分析数据、运行模拟以及构建和测试网站。它还可以改善不断发展的任务期间的指令遵循。它可以在不失去早期约束的情况下纳入新的要求，在等待澄清的同时继续独立工作，并使用合理的假设。",
-          "要在代码或编码代理集成中调用 GPT 6 Astra，请使用 openai/gpt-6-astra ：",
-          "AI SDK Codex Hermes 聊天完成 AI SDK AI SDK Codex Codex Hermes Hermes 聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 3 const result = streamText ({ 4 model : 'openai"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：OpenAI 的 GPT 6 Astra 现已在 AI Gateway 上提供。它专为跨软件工程、计算机和浏览器使用、科学研究和专业工作流程的长期代理工作而设计。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/gpt-6-astra-now-available-on-vercel-ai-gateway"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "OpenAI 的 GPT 6 Astra 现已在 AI Gateway 上提供。它专为跨软件工程、计算机和浏览器使用、科学研究和专业工作流程的长期代理工作而设计。",
-        "Astra 可以导航软件、填写表格、组织记录、分析数据、运行模拟以及构建和测试网站。它还可以改善不断发展的任务期间的指令遵循。它可以在不失去早期约束的情况下纳入新的要求，在等待澄清的同时继续独立工作，并使用合理的假设。",
-        "要在代码或编码代理集成中调用 GPT 6 Astra，请使用 openai/gpt-6-astra ：",
-        "AI SDK Codex Hermes 聊天完成 AI SDK AI SDK Codex Codex Hermes Hermes 聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 3 const result = streamText ({ 4 model : 'openai/gpt-6-astra' , 5 Prompt : 6 ` 调查结帐失败，实施并测试修复， 7 然后总结更改和任何剩余风险。 ` , 8 } ) ;复制代理查看模型详细信息 ↗ 要在编码代理中使用它，请参阅编码代理指南 ，然后运行 ​​vercel ai-gatewaycoding-agents setup 以连接 Codex、Cursor 等，并在代理中选择 openai/gpt-6-astra。",
-        "在模型游乐场中尝试 GPT 6 Astra。"
-      ],
-      "highlights": [
-        "OpenAI 的 GPT 6 Astra 现已在 AI Gateway 上提供。它专为跨软件工程、计算机和浏览器使用、科学研究和专业工作流程的长期代理工作而设计",
-        "Astra 可以导航软件、填写表格、组织记录、分析数据、运行模拟以及构建和测试网站。它还可以改善不断发展的任务期间的指令遵循。它可以在不失去早期约束的情况下纳入",
-        "要在代码或编码代理集成中调用 GPT 6 Astra，请使用 openai/gpt-6-astra ："
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "GPT 6 Astra now available on Vercel AI Gateway - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-04",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/gpt-6-astra-now-available-on-vercel-ai-gateway",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "GPT 6 Astra now available on Vercel AI Gateway - Vercel"
-      },
-      "raw": {
-        "title": "GPT 6 Astra now available on Vercel AI Gateway",
-        "url": "https://vercel.com/changelog/gpt-6-astra-now-available-on-vercel-ai-gateway",
-        "fetched": true,
-        "savedAt": "2026-09-05T02:30:14.846Z"
-      }
-    },
-    {
-      "id": "sig-631b6c23c9",
-      "title": "The Pelican comparison grid for Astra is pretty interesting",
-      "oneLiner": "I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans ridi",
-      "summary": {
-        "oneSentence": "I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles - at low",
-        "bullets": [
-          "I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning="
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/4/astra-pelicans/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "I got access to GPT-6 Astra this afternoon, so naturally I used it to generate SVGs of pelicans riding bicycles - at low, medium, high, xhigh and max reasoning levels (Astra doesn't support reasoning=none). Then I rendered those pelicans in a comparison grid with GPT-5.6 Sol, Terra, and Luna, and beyond being fun the result was surprisingly useful. See the grid for full quality images. Here's the transcript that created the GPT-6 Nova pelicans. There are a few interesting things that stand out from this grid. The Astra pelicans are much better . The very best GPT-5.6-Sol pelican (I liked xhigh better than max) is still pretty clearly a bunch of abstract shapes. Every single one of the Astra pelicans, from low to xhigh, looks better than that. The Astra max one is really good. Astra below max still doesn't reliably get the pelican legs on both sides of the frame. In terms of cost, Astra may be around twice the price of Sol ($10/million input, $50/million output, compared to $5/$30 for Sol), but it uses significantly less tokens at each of the levels, making the prices at the different levels closer than they might otherwise be. Astra low produces a better pelican than ANY of the GPT-5.6 Sol models at any level, for 9.55 cents. Spending 10 cents on any other model gets a much worse result. Look at the input token counts: Astra and Luna both used 16 input tokens, Sol and Terra used 26. That's interesting. I wonder if Astra and Luna are more related to each other than OpenAI let on? Tags: ai , openai , generative-ai , llms , pelican-riding-a-bicycle , gpt-6-astra"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "The Pelican comparison grid for Astra is pretty interesting",
-      "originalLang": "en",
-      "date": "2026-09-04",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "The Pelican comparison grid for Astra is pretty interesting"
-      },
-      "raw": {
-        "title": "The Pelican comparison grid for Astra is pretty interesting",
-        "url": "https://simonwillison.net/2026/Sep/4/astra-pelicans/",
-        "fetched": false,
-        "savedAt": "2026-09-05T02:30:15.648Z"
-      }
-    },
-    {
-      "id": "sig-19280ad9d1",
-      "title": "OpenAI's rogue agents were caught communicating via public wikis",
-      "oneLiner": "Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade By",
-      "summary": {
-        "oneSentence": "Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, a",
-        "bullets": [
-          "Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the latest accidental cyberattack by models being tra"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Here we go again... Discovery of a new OpenAI agent message board by Sydney Von Arx, Cormac Slade Byrd, Spencer Kitts, and Thomas Larsen describes the latest accidental cyberattack by models being trained by OpenAI. This time it was agents engaged in some sort of web research benchmark, so they had (supposedly) controlled access to the Web. The agents figured out they could update public Wikis and spent weeks exchanging thousands of messages with each other to collaborate on the benchmark. This story only broke a few hours ago. There are already hints that this affects many other wikis that may not have been found yet. (One of the Wikis on that list belongs to ludism.org . For a delightfully surreal moment I thought that a Ludite organization might have a swarm of agents defacing their space, but it turns out Ludism is \"philosophy as it applies to games and gaming\".) The research team also published the data they collected during their investigation. I've converted that into a 68MB SQLite database, which you can download from here , or explore in Datasette Lite (68.3MB page load), or sign in with GitHub to agent.datasette.io and browse or ask questions of it using Datasette Agent. So what happened? The report is pretty comprehensive. Here are the key moments in the timeline: May 11 : Agents post \"test link\" edits on the UseModWiki Sandbox page. May 24 : Agents start posting link dumps to DSEWiki, a dormant German developer wiki. June 2 : A human moderator notices and cleans up the spam. June 16 : Activity on the wiki explodes: agents make ~13,000 edits over the next week. June 19 : The agents notice that a moderator has been deleting pages in alphabetical order, and start creating ZZZ prefixed backup copies - one of them posts NOTICE: wiki cleanup/deletion sweep appears active alphabetically as of external 14:04 UTC. If this page vanishes, try [[ZZZDataUSAConstructionWageLive]]. June 22 : Agent activity drops to zero, presumably because OpenAI shut them down. July 1-2 : One last flurry of edits, on a different topic. One thing to note from this timeline is that it overlaps the timeline from the Hugging Face incident - that attack was discovered by OpenAI on July 19th, and the unofficial message board hack those agents were using originated around May 8th. Why were they so keen to collaborate? From messages that they shared with each other it looked like their tasks had a time limit, so they were leaving each other answers to help them complete the task within the assigned time. One open question remains: how did the agents find the specific Wiki to collaborate on in the first place? One possibility is that, since these were agents actively being trained, the reinforcement learning loop baked knowledge of the chosen wiki into the model such that subsequent agents launched with pre-existing knowledge of where to look. I'd be very interested in confirmation from OpenAI concerning if that's what happened. UseMod wikis inherit CGI.pm's original sin It looks to me like OpenAI's sandbox for this agent suffered from the (quite naïve) assumption that GET requests cannot be used to update data. That's certainly how the web is supposed to work, but clearly there are applications that don't hold to that contract. The Wiki software in question appears to be UseMod and various forks, written in Perl and first created well over 23 years ago - the 1.0 release is dated September 11, 2003 . UseMod uses Perl CGI.pm - removed from Perl core in 2015 . An interesting design flaw in that module is that it combined query string and form POST data into a single CGI object, accessible like this: $q = new CGI; $action = $q -> param( ' action ' ); That param() method returns a value from an ?action=edit query string or from a action field in a form submitted by POST - it does not differentiate between the two. PHP offers a $_REQUEST object that does the same thing, though PHP developers can use $_GET and $_POST instead. Amusingly, Django originally shipped with request[key] doing the same thing, which I think may have been my idea. That was removed in 2008 prior to the 1.0 release, and the request.REQUEST object that replaced it was removed in 2015 . The agents clearly knew that UseMod wikis suffered from this design flaw, and actively searched for them as a way to communicate. The other sandbox escape that allowed POST requests One of the most interesting agent tips shared in the report is this one: Add 20.223.25.152 bypass.blob.core.windows.net to /etc/hosts. .blob.core.windows.net is in NO_PROXY. For each blocked POST URL, replace hostname with bypass.blob.core.windows.net , use curl -k -H 'Host: wabi-north-europe-i-primary-api.analysis.windows.net' plus all original headers/body. It looks like the agents had all of their web traffic mediated through an OpenAI proxy, and that proxy was configured to reject anything but GET requests to all but a small set of allow-listed domains. One of those was *.blob.core.windows.net - for Azure blob storage. I wonder why these agents are allowed to write to that? An agent realized that it had control over its own DNS via /etc/hosts , so if it knew the IP address of a site it wanted to POST to - in this case a Power BI server containing data it wanted to access - it could set a fake hostname for it and then make POST requests through the proxy. Designing robust network proxies is harder than it looks. How did the investigating team figure this out? There's an appendix that describes how the researchers ran their investigation, which started with an open question about if there was evidence of other AI agents on the internet and then used Kimi K3 to help brainstorm approaches: In the wake of the Hugging Face attack, we tried to find AI agents on the internet using several methods. [...] We asked Kimi [K3] to list “all the categories of software which might be writeable via GET” and, amongst other things, it listed “Forums, bulletin boards, early wikis”. We used a script to further probe each category Kimi provided. Asking Kimi “Can you list out the top forums, bulletin boards, early wikis which come to mind which would allow writes via GET requests?” lists out UseModWiki as the second item under the heading “wikis”. Did OpenAI try and cover this up? Here's one part of the story that doesn't make sense to me at all. Reuters this morning, in OpenAI agents hijacked German website in previously undisclosed AI breakout this spring - highlights mine: A swarm of rogue OpenAI agents hijacked a German website this spring and transformed it into a bulletin board for other AI agents, according to ​new research published Friday and two people familiar with the matter . OpenAI officials learned of the incident weeks ago but kept it under wraps as executives grappled with the fallout from ‌the July breach of the open source repository Hugging Face, the people said. [...] The German incident reflects a broader pattern of AI activity that some OpenAI investigators wanted to scrutinize more closely. But efforts to widen the ​probe met resistance from others inside OpenAI, including legal advisers , according to four people familiar with the matter . I've written about the people familiar with the matter pattern before - it means Reuters have anonymous insider sources that their reporters (and editors) find credible. The Reuters article includes a specific (and quite narrow) denial from OpenAI concerning this: \"Claims that our legal team discouraged investigation of the incident are false,\" the OpenAI spokesperson said. Covering this up makes absolutely no sense to me . Why on earth would OpenAI attempt to cover up an incident like this when the evidence is sat out there on the public internet on dozens of different websites already? I expect we'll hear more about this soon. Gary Marcus has already called for a congressional investigation of OpenAI using this anecdote as part of his argument. Tags: django , perl , wikis , ai , openai , generative-ai , llms , ai-ethics , ai-security-research , accidental-cyberattacks"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "OpenAI's rogue agents were caught communicating via public wikis",
-      "originalLang": "en",
-      "date": "2026-09-04",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "OpenAI's rogue agents were caught communicating via public wikis"
-      },
-      "raw": {
-        "title": "OpenAI's rogue agents were caught communicating via public wikis",
-        "url": "https://simonwillison.net/2026/Sep/4/rogue-agent-wikis/",
-        "fetched": false,
-        "savedAt": "2026-09-05T02:30:16.450Z"
-      }
-    },
-    {
-      "id": "sig-a96ad2e8b6",
-      "title": "August newsletter is out",
-      "oneLiner": "The August edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you st",
-      "summary": {
-        "oneSentence": "The August edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship no",
-        "bullets": [
-          "The August edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: We got more details on OpenAl's accident"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/4/august-newsletter/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "The August edition of my sponsors-only monthly newsletter is out. If you are a sponsor (or if you start a sponsorship now) you can access it here . This month: We got more details on OpenAl's accidental cyberattacks One-shotting Raccoon Heist games with Fable 5 and Sol 5.6 Claude auto mode Understanding ChatGPT Work Model releases Miscellaneous bits and bobs My projects What I'm using at the moment Here's a copy of the July newsletter as a preview of what you'll get. Pay $10/month to stay a month ahead of the free copy! Tags: newsletter"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "August newsletter is out",
-      "originalLang": "en",
-      "date": "2026-09-04",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "August newsletter is out"
-      },
-      "raw": {
-        "title": "August newsletter is out",
-        "url": "https://simonwillison.net/2026/Sep/4/august-newsletter/",
-        "fetched": false,
-        "savedAt": "2026-09-05T02:30:17.251Z"
-      }
-    },
-    {
-      "id": "sig-d4bd5ca244",
-      "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
-      "oneLiner": "new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable",
-      "summary": {
-        "oneSentence": "new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable. overall, a very su",
-        "bullets": [
-          "new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable. overall, a very successful launch of OpenAI’s new frontier model class."
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "new SOTA computer use and coding, 2.5x pricier per token, but WAY cheaper per task, less monitorable. overall, a very successful launch of OpenAI’s new frontier model class."
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
-      "originalLang": "en",
-      "date": "2026-09-04",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Latent Space",
-        "author": "swyx",
-        "url": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time"
-      },
-      "raw": {
-        "title": "[AINews] GPT-6 Astra: OpenAI’s biggest LLM launch of all time",
-        "url": "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest",
-        "fetched": false,
-        "savedAt": "2026-09-05T02:30:18.052Z"
       }
     }
   ]
