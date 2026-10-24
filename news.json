@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-23T02:58:53.145Z",
+  "updatedAt": "2026-10-24T02:55:48.124Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 416,
+  "itemCount": 414,
   "brief": {
-    "date": "2026-10-23",
-    "generatedAt": "2026-10-23T02:58:53.144Z",
-    "totalCount": 416,
-    "todayCount": 1,
-    "headline": "今日 AI 信号 1 条 · 档案共 416 条",
+    "date": "2026-10-24",
+    "generatedAt": "2026-10-24T02:55:48.123Z",
+    "totalCount": 414,
+    "todayCount": 0,
+    "headline": "今日 AI 信号 — 条 · 档案共 414 条",
     "topUpdates": [
       {
         "id": "sig-8f3ff79e84",
@@ -19,42 +19,42 @@
         "readMinutes": 5
       },
       {
-        "id": "sig-693a362689",
-        "title": "现在又有 8 个 TLD 有资格获得 Pro - Vercel 的免费域名",
+        "id": "sig-c9838a91f3",
+        "title": "团队试验代码层的 6 种方式 | Figma 博客",
         "stars": 4,
-        "oneLiner": "每个专业团队都可以申请一年的免费域名。该优惠现在包括 .co 、 .studio 、 .company 、 .info 、 .pro 、 .live 、 .digital 和 .agency ，使符合条件的 TLD 达到 16 个。",
+        "oneLiner": "现在代码层处于公开测试阶段，您可以将代码带到画布上。以下是六个团队如何使用它进行试验、让利益相关者保持一致并加快行动速度。",
         "readMinutes": 5
       },
       {
-        "id": "sig-27825e3003",
-        "title": "使用 Decisions API 构建响应速度更快的应用程序",
+        "id": "sig-2482b3033a",
+        "title": "Vercel CLI 添加支出管理 - Vercel",
         "stars": 4,
-        "oneLiner": "为任何应用做出快速、集中、低成本的决策。",
+        "oneLiner": "您现在可以从 Vercel CLI 查看和管理团队的支出管理预算。运行 vercel 预算，您或您运行的脚本和代理将取回您当前的支出和活动预算。",
         "readMinutes": 5
       },
       {
-        "id": "sig-5963bb5b3e",
-        "title": "Lufthansa Systems 如何使用 Figma Make 为驾驶舱制作逼真的地图原型 | Figma 博客",
+        "id": "sig-2663b0fc90",
+        "title": "从 Vercel MCP 发送反馈 - Vercel",
         "stars": 4,
-        "oneLiner": "飞行员依靠飞行软件来导航路线、查看空中交通、避免湍流等。为了给用户测试带来更多动态原型，Lufthansa Systems 转向 Figma Make。",
+        "oneLiner": "Vercel MCP 现在包括 Submit_feedback ，这是一个用于从代理或工具直接向 Vercel 团队发送错误报告、摩擦报告和功能请求的工具。",
         "readMinutes": 5
       },
       {
-        "id": "sig-e66e9796ba",
-        "title": "超越树木覆盖：绘制世界森林类型图",
+        "id": "sig-fc24742163",
+        "title": "Vercel Agent 如何安全访问生产环境",
         "stars": 4,
-        "oneLiner": "一张新的 10 米分辨率地图显示了世界上哪些森林是天然森林、人工森林或人工森林，以及它们如何随时间变化",
+        "oneLiner": "在生产系统上工作的代理需要获得许可才能执行操作。像“修复此部署”这样的请求不会预先告诉您它将采取哪些操作或需要什么访问权限。授予代理广泛的访问权限，错误可能会影响不相关的资源。每一步都请求批准，用户必须先批准各个操作，然后才能知道代理打算如",
         "readMinutes": 5
       }
     ],
     "sections": {
       "topUpdates": [
         "sig-8f3ff79e84",
-        "sig-693a362689",
-        "sig-27825e3003",
-        "sig-5963bb5b3e",
-        "sig-e66e9796ba",
-        "sig-02ccacdc25"
+        "sig-c9838a91f3",
+        "sig-2482b3033a",
+        "sig-2663b0fc90",
+        "sig-fc24742163",
+        "sig-28b762b1c7"
       ],
       "newReleases": [
         "sig-f50edeef79",
@@ -65,13 +65,13 @@
       ],
       "insights": [
         "sig-8f3ff79e84",
-        "sig-693a362689",
-        "sig-27825e3003",
-        "sig-5963bb5b3e",
-        "sig-e66e9796ba",
-        "sig-02ccacdc25",
-        "sig-63c31ca523",
-        "sig-7f47d88fd3"
+        "sig-c9838a91f3",
+        "sig-2482b3033a",
+        "sig-2663b0fc90",
+        "sig-fc24742163",
+        "sig-28b762b1c7",
+        "sig-298c8de07d",
+        "sig-83d800be9c"
       ],
       "emergingTrends": [],
       "newApis": [],
@@ -92,7 +92,7 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-10-23T02:58:53.145Z",
+    "generatedAt": "2026-10-24T02:55:48.124Z",
     "summary": "近 30 天共 264 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
@@ -108,6 +108,30 @@
     "risingTags": []
   },
   "productUpdates": [
+    {
+      "id": "sig-298c8de07d",
+      "title": "快速扩展在线存储以服务超过 10 亿 ChatGPT 用户（第二部分）",
+      "oneLiner": "了解 OpenAI 如何通过可靠的多租户、全局缓存和 Azure Cosmos DB 扩展 Habitat，为 ChatGPT 提供 12 倍的更快读取速度。",
+      "date": "2026-10-23",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-48e2274fdf",
+      "title": "确保我们的前沿模型训练环境的安全",
+      "oneLiner": "OpenAI 解释了我们如何加强对前沿模型训练和评估的遏制，包括离线环境和高计算红队。",
+      "date": "2026-10-23",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
     {
       "id": "sig-27825e3003",
       "title": "使用 Decisions API 构建响应速度更快的应用程序",
@@ -373,30 +397,6 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-dd00c04c9b",
-      "title": "沙利文克伦威尔将法律专业知识纳入协议审查",
-      "oneLiner": "Sullivan & Cromwell 与 OpenAI 合作开发了协议分析器，这是一种用于识别协议草案中问题的人工智能工具。",
-      "date": "2026-10-15",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-58e4191fcf",
-      "title": "Google DeepMind 与新加坡政府合作构建用于诈骗检测的微调人工智能模型",
-      "oneLiner": "与新加坡政府科技局 (GovTech Singapore) 合作，在不损害隐私的情况下保护用户。",
-      "date": "2026-10-14",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google DeepMind",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
@@ -482,6 +482,810 @@
         "url": "https://www.figma.com/blog/how-to-put-your-design-system-to-work-with-the-figma-agent/",
         "fetched": true,
         "savedAt": "2026-10-23T02:57:55.865Z"
+      }
+    },
+    {
+      "id": "sig-c9838a91f3",
+      "title": "团队试验代码层的 6 种方式 | Figma 博客",
+      "oneLiner": "现在代码层处于公开测试阶段，您可以将代码带到画布上。以下是六个团队如何使用它进行试验、让利益相关者保持一致并加快行动速度。",
+      "summary": {
+        "oneSentence": "现在代码层处于公开测试阶段，您可以将代码带到画布上。以下是六个团队如何使用它进行试验、让利益相关者保持一致并加快行动速度。",
+        "bullets": [
+          "现在代码层处于公开测试阶段，您可以将代码带到画布上。以下是六个团队如何使用它进行试验、让利益相关者保持一致并加快行动速度。",
+          "今天，当我们将代码与画布上的代码层一起引入画布设计时，代码层进入了公开测试版。现在，团队可以在画布上探索和构建由代码支持的原型。",
+          "Superside 是全球品牌的创意合作伙伴，运动设计主管 Leonardo Rica 希望探索使用代码层的交互式运动的新可能性。作为一个测试项目，莱昂纳多构建了一个交互式信用卡钱包的概念，允许用户滚动浏览一堆卡片，点击其中一张将其向前移动，然后将其翻转以查看其详细信息。 Leonardo 在 Figma 中设计了静态",
+          "现在，运动位于画布上，与您的组件、变量和团队位于同一个文件中，因此您的设计从第一天起就可以变得栩栩如生。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Figma 官网发布：现在代码层处于公开测试阶段，您可以将代码带到画布上。以下是六个团队如何使用它进行试验、让利益相关者保持一致并加快行动速度。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://www.figma.com/blog/6-ways-teams-are-experimenting-with-code-layers/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "现在代码层处于公开测试阶段，您可以将代码带到画布上。以下是六个团队如何使用它进行试验、让利益相关者保持一致并加快行动速度。",
+        "今天，当我们将代码与画布上的代码层一起引入画布设计时，代码层进入了公开测试版。现在，团队可以在画布上探索和构建由代码支持的原型。",
+        "Superside 是全球品牌的创意合作伙伴，运动设计主管 Leonardo Rica 希望探索使用代码层的交互式运动的新可能性。作为一个测试项目，莱昂纳多构建了一个交互式信用卡钱包的概念，允许用户滚动浏览一堆卡片，点击其中一张将其向前移动，然后将其翻转以查看其详细信息。 Leonardo 在 Figma 中设计了静态框架，向 Figma 代理询问产品设计师使用 Figma 代理进行工艺、速度和创意表达的 3 种方式。以下是 Uber、Granola 和 Atlassian 的团队如何使用现已普遍推出的 Figma 代理支持高质量、快速移动的工作。",
+        "现在，运动位于画布上，与您的组件、变量和团队位于同一个文件中，因此您的设计从第一天起就可以变得栩栩如生。",
+        "莱昂纳多没有一次性生成所有内容，而是分阶段构建。 “我首先把滚动功能做好了，然后添加了点击和翻转功能，而没有破坏已经起作用的功能，”他说。有一次，一张卡片滑回到堆叠中，短暂地出现在本应位于其顶部的卡片前面。莱昂纳多以单一、精确的提示描述了原因，Figma 代理“像魔法一样”修复了它。接下来，他看到了为品牌交互式动画系统提供支持的代码层，从滚动和点击行为到产品 UI 时刻，客户可以在开发之前体验到这些内容。",
+        "→ 为代码层提供硬数字：精确位置、尺寸和弹簧值",
+        "→ 分阶段构建。首先向右滚动，然后点击并翻转分层。",
+        "→ 当出现故障时，用一个准确的提示描述原因。",
+        "Miguel Wermuth 是戴尔的产品设计师，致力于为企业客户和 dell.com 购物者提供跨移动设备、平板电脑和台式机的客户帐户体验。由于戴尔的设计系统团队如何使用 Figma 代理减轻设计系统维护工作，Figma 的代理可以在您的设计系统中承担重复性工作，从维护库到自动化设计如何遵循它。在这里，我们分享一些让 Figma 代理发挥作用的方法。",
+        "一旦其他设计师批准了流程，Miguel 就会在代码层中构建它，以获得跨职能合作伙伴的认可，他们发现工作原型比一系列静态屏幕更容易遵循。在编辑时，他复制代码层以并排保留版本，这使得在替代方案之间进行选择比切换版本历史记录更容易。 “这就像你看着一堵墙，你看着 A，又看着 B，”米格尔说。工作原型也在审查周期中留下了深刻的印象：“当我向产品经理和业务利益相关者展示它时，我们得到了令人惊叹的因素。它非常实用。”"
+      ],
+      "highlights": [
+        "现在代码层处于公开测试阶段，您可以将代码带到画布上。以下是六个团队如何使用它进行试验、让利益相关者保持一致并加快行动速度。",
+        "今天，当我们将代码与画布上的代码层一起引入画布设计时，代码层进入了公开测试版。现在，团队可以在画布上探索和构建由代码支持的原型。",
+        "Superside 是全球品牌的创意合作伙伴，运动设计主管 Leonardo Rica 希望探索使用代码层的交互式运动的新可能性。作为一个测试项目，莱昂纳多构建"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "6 Ways Teams Are Experimenting With Code Layers | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-10-23",
+      "categoryIds": [
+        "vertical-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/6-ways-teams-are-experimenting-with-code-layers/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "6 Ways Teams Are Experimenting With Code Layers | Figma Blog"
+      },
+      "raw": {
+        "title": "6 ways teams are experimenting with code layers",
+        "url": "https://www.figma.com/blog/6-ways-teams-are-experimenting-with-code-layers/",
+        "fetched": true,
+        "savedAt": "2026-10-24T02:54:34.226Z"
+      }
+    },
+    {
+      "id": "sig-2482b3033a",
+      "title": "Vercel CLI 添加支出管理 - Vercel",
+      "oneLiner": "您现在可以从 Vercel CLI 查看和管理团队的支出管理预算。运行 vercel 预算，您或您运行的脚本和代理将取回您当前的支出和活动预算。",
+      "summary": {
+        "oneSentence": "您现在可以从 Vercel CLI 查看和管理团队的支出管理预算。运行 vercel 预算，您或您运行的脚本和代理将取回您当前的支出和活动预算。",
+        "bullets": [
+          "您现在可以从 Vercel CLI 查看和管理团队的支出管理预算。运行 vercel 预算，您或您运行的脚本和代理将取回您当前的支出和活动预算。",
+          "终端 1 $ vercel 预算 2 > 团队 my-team 未设置预算。当前支出为 63 .33 美元。使用 ` vercel --scope my-team Budgets set --amount <dollars>` 创建一个。 3 4 $ vercel 预算设置 --amount 200 --pause 5",
+          "将链接复制到标题查看、设置和删除预算 这与团队的计费设置中显示的按需预算相同。设定预算并不会自行停止使用。当支出达到 100% 时，--pause 标志会暂停所有项目的生产部署。",
+          "将链接复制到标题列出预算警报历史记录您现在可以查看预算警报历史记录。针对完整日志运行 vercel 预算警报，并使用 --since 、 --until 、 --limit 和 --json 进行过滤。裸露的 vercel 预算打印三个最近的警报。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：您现在可以从 Vercel CLI 查看和管理团队的支出管理预算。运行 vercel 预算，您或您运行的脚本和代理将取回您当前的支出和活动预算。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-cli-adds-spend-management"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "您现在可以从 Vercel CLI 查看和管理团队的支出管理预算。运行 vercel 预算，您或您运行的脚本和代理将取回您当前的支出和活动预算。",
+        "终端 1 $ vercel 预算 2 > 团队 my-team 未设置预算。当前支出为 63 .33 美元。使用 ` vercel --scope my-team Budgets set --amount <dollars>` 创建一个。 3 4 $ vercel 预算设置 --amount 200 --pause 5 > 将 my-team 团队中的所有项目暂停至 100% ($200)。生产部署变得不可用。 6 > 成功！ my-team 团队的预算已更新。 7 使用状态暂停 webhook 花费的范围金额 8 团队 $200 $63 .33 32% 活跃 是 — 9 10 $ vercel 预算 11 使用状态暂停 webhook 花费的范围金额 12 团队 $200 $63 .33 32% 活跃 是 — 13 14 $ vercel 预算删除 --是 15 > 成功！取消了 my-team 团队 200 美元的预算。",
+        "将链接复制到标题查看、设置和删除预算 这与团队的计费设置中显示的按需预算相同。设定预算并不会自行停止使用。当支出达到 100% 时，--pause 标志会暂停所有项目的生产部署。",
+        "将链接复制到标题列出预算警报历史记录您现在可以查看预算警报历史记录。针对完整日志运行 vercel 预算警报，并使用 --since 、 --until 、 --limit 和 --json 进行过滤。裸露的 vercel 预算打印三个最近的警报。",
+        "终端 1 $ vercel 预算警报 2 > 3 个团队预算警报 my-team 3 日期预算阈值 已配置预算金额行动 4 2026 -09-21 14 :33 UTC 团队 50 % $313 .33 $600 通知 5 2026 -09-19 23 :12 UTC 团队 100 % $313 .33 $250 通知，暂停 6 2026-09-19 02:35 UTC 团队 75 % $230 .00 $300 通知",
+        "管理预算需要所有者或计费角色。灵活承诺计划中的专业团队和企业团队可以免费使用支出管理。",
+        "完整参考现已在 vercel Budget CLI 参考中提供。了解有关支出管理的更多信息。"
+      ],
+      "highlights": [
+        "您现在可以从 Vercel CLI 查看和管理团队的支出管理预算。运行 vercel 预算，您或您运行的脚本和代理将取回您当前的支出和活动预算。",
+        "终端 1 $ vercel 预算 2 > 团队 my-team 未设置预算。当前支出为 63 .33 美元。使用 ` vercel --scope my-tea",
+        "将链接复制到标题查看、设置和删除预算 这与团队的计费设置中显示的按需预算相同。设定预算并不会自行停止使用。当支出达到 100% 时，--pause 标志会暂停所"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel CLI adds Spend Management - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-23",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-cli-adds-spend-management",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel CLI adds Spend Management - Vercel"
+      },
+      "raw": {
+        "title": "Vercel CLI adds Spend Management",
+        "url": "https://vercel.com/changelog/vercel-cli-adds-spend-management",
+        "fetched": true,
+        "savedAt": "2026-10-24T02:54:43.552Z"
+      }
+    },
+    {
+      "id": "sig-2663b0fc90",
+      "title": "从 Vercel MCP 发送反馈 - Vercel",
+      "oneLiner": "Vercel MCP 现在包括 Submit_feedback ，这是一个用于从代理或工具直接向 Vercel 团队发送错误报告、摩擦报告和功能请求的工具。",
+      "summary": {
+        "oneSentence": "Vercel MCP 现在包括 Submit_feedback ，这是一个用于从代理或工具直接向 Vercel 团队发送错误报告、摩擦报告和功能请求的工具。",
+        "bullets": [
+          "Vercel MCP 现在包括 Submit_feedback ，这是一个用于从代理或工具直接向 Vercel 团队发送错误报告、摩擦报告和功能请求的工具。",
+          "请您的代理以通俗易懂的语言提供反馈：",
+          "向 Vercel 发送反馈，指出部署错误未解释缺少哪个环境变量。",
+          "您的助手可以附加描述任务、预期行为以及问题所在的结构化上下文："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel MCP 现在包括 Submit_feedback ，这是一个用于从代理或工具直接向 Vercel 团队发送错误报告、摩擦报告和功能请求的工具。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/send-feedback-from-vercel-mcp"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel MCP 现在包括 Submit_feedback ，这是一个用于从代理或工具直接向 Vercel 团队发送错误报告、摩擦报告和功能请求的工具。",
+        "请您的代理以通俗易懂的语言提供反馈：",
+        "向 Vercel 发送反馈，指出部署错误未解释缺少哪个环境变量。",
+        "您的助手可以附加描述任务、预期行为以及问题所在的结构化上下文：",
+        "1 { 2 \"message\" : \"部署错误未命名缺失的环境变量\" , 3 \"context\" : { 4 \"tool\" : \"deploy_to_vercel\" , 5 \"task\" : \"部署预览\" , 6 \"expected\" : \"识别缺失变量的错误\" , 7 \"actual\" : \"在未命名变量的情况下构建失败\" , 8 \"type\" : \"bug\" 9 } 10 }",
+        "该工具需要登录，并且仅当您要求代理共享时才会发送反馈。",
+        "将您的代理连接到 Vercel MCP 并阅读 Submit_feedback 文档以开始使用。"
+      ],
+      "highlights": [
+        "Vercel MCP 现在包括 Submit_feedback ，这是一个用于从代理或工具直接向 Vercel 团队发送错误报告、摩擦报告和功能请求的工具。",
+        "请您的代理以通俗易懂的语言提供反馈：",
+        "向 Vercel 发送反馈，指出部署错误未解释缺少哪个环境变量。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Send feedback from the Vercel MCP - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-23",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/send-feedback-from-vercel-mcp",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Send feedback from the Vercel MCP - Vercel"
+      },
+      "raw": {
+        "title": "Send feedback from the Vercel MCP",
+        "url": "https://vercel.com/changelog/send-feedback-from-vercel-mcp",
+        "fetched": true,
+        "savedAt": "2026-10-24T02:54:52.027Z"
+      }
+    },
+    {
+      "id": "sig-fc24742163",
+      "title": "Vercel Agent 如何安全访问生产环境",
+      "oneLiner": "在生产系统上工作的代理需要获得许可才能执行操作。像“修复此部署”这样的请求不会预先告诉您它将采取哪些操作或需要什么访问权限。授予代理广泛的访问权限，错误可能会影响不相关的资源。每一步都请求批准，用户必须先批准各个操作，然后才能知道代理打算如",
+      "summary": {
+        "oneSentence": "在生产系统上工作的代理需要获得许可才能执行操作。像“修复此部署”这样的请求不会预先告诉您它将采取哪些操作或需要什么访问权限。授予代理广泛的访问权限，错误可能会影响不相关的资源。每一步都请求批准，用户必须先批准各个操作，然后才能知道代理打算如",
+        "bullets": [
+          "在生产系统上工作的代理需要获得许可才能执行操作。像“修复此部署”这样的请求不会预先告诉您它将采取哪些操作或需要什么访问权限。授予代理广泛的访问权限，错误可能会影响不相关的资源。每一步都请求批准，用户必须先批准各个操作，然后才能知道代理打算如何解决问题。重复的提示可以将审核变成点击批准的习惯。",
+          "Vercel Agent 首先调查问题，然后提出一个计划，显示它将做什么以及需要什么访问权限。批准该计划将授予执行该计划的附加权限，因此用户可以在授权任何更改之前查看建议的修复。",
+          "将链接复制到标题 计划确定权限 对于损坏的生产部署，Vercel Agent 可能会检查最近的部署和构建日志，然后将失败的部署与最后一个已知良好的部署进行比较。只读访问权限可以让调查自动运行。如果导致建议的重新部署，Vercel Agent 会请求用户可以在一项决定中审查和批准的计划中的额外访问权限。",
+          "访问权限由范围定义，范围是 Vercel 授权系统识别的命名功能。任何请求超出只读基线的访问权限的计划都会等待整体批准，包括它包含的任何只读任务。在此示例中，在 Vercel Agent 建议重新部署之前，调查在单独的只读计划下运行："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：在生产系统上工作的代理需要获得许可才能执行操作。像“修复此部署”这样的请求不会预先告诉您它将采取哪些操作或需要什么访问权限。授予代理广泛的访问权限，错误可能会影响不相关的资源。每一步都请求批准，用户必须先批准各个操作，然后才能知道代理打算如",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/how-vercel-agent-accesses-production-safely"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "在生产系统上工作的代理需要获得许可才能执行操作。像“修复此部署”这样的请求不会预先告诉您它将采取哪些操作或需要什么访问权限。授予代理广泛的访问权限，错误可能会影响不相关的资源。每一步都请求批准，用户必须先批准各个操作，然后才能知道代理打算如何解决问题。重复的提示可以将审核变成点击批准的习惯。",
+        "Vercel Agent 首先调查问题，然后提出一个计划，显示它将做什么以及需要什么访问权限。批准该计划将授予执行该计划的附加权限，因此用户可以在授权任何更改之前查看建议的修复。",
+        "将链接复制到标题 计划确定权限 对于损坏的生产部署，Vercel Agent 可能会检查最近的部署和构建日志，然后将失败的部署与最后一个已知良好的部署进行比较。只读访问权限可以让调查自动运行。如果导致建议的重新部署，Vercel Agent 会请求用户可以在一项决定中审查和批准的计划中的额外访问权限。",
+        "访问权限由范围定义，范围是 Vercel 授权系统识别的命名功能。任何请求超出只读基线的访问权限的计划都会等待整体批准，包括它包含的任何只读任务。在此示例中，在 Vercel Agent 建议重新部署之前，调查在单独的只读计划下运行：",
+        "检查最近的部署和构建日志，然后将失败的部署与上次成功的部署进行比较",
+        "示例计划及其涵盖的工作和要求的范围。",
+        "简短的只读查找可以在没有计划的情况下运行。对于较长时间的调查，Vercel Agent 会创建一个只读计划，以便用户可以在其自动运行时跟踪其任务和进度。",
+        "该计划将用户想要执行的操作与允许 Vercel Agent 执行的操作联系起来：",
+        "工作：Vercel Agent 建议实现的任务。",
+        "访问权限：这些任务所需的范围。"
+      ],
+      "highlights": [
+        "在生产系统上工作的代理需要获得许可才能执行操作。像“修复此部署”这样的请求不会预先告诉您它将采取哪些操作或需要什么访问权限。授予代理广泛的访问权限，错误可能会影",
+        "Vercel Agent 首先调查问题，然后提出一个计划，显示它将做什么以及需要什么访问权限。批准该计划将授予执行该计划的附加权限，因此用户可以在授权任何更改之",
+        "将链接复制到标题 计划确定权限 对于损坏的生产部署，Vercel Agent 可能会检查最近的部署和构建日志，然后将失败的部署与最后一个已知良好的部署进行比较。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How Vercel Agent accesses production safely",
+      "originalLang": "en",
+      "date": "2026-10-23",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/how-vercel-agent-accesses-production-safely",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How Vercel Agent accesses production safely"
+      },
+      "raw": {
+        "title": "How Vercel Agent accesses production safely",
+        "url": "https://vercel.com/blog/how-vercel-agent-accesses-production-safely",
+        "fetched": true,
+        "savedAt": "2026-10-24T02:55:04.251Z"
+      }
+    },
+    {
+      "id": "sig-28b762b1c7",
+      "title": "部署现在显示构建缓存大小 - Vercel",
+      "oneLiner": "部署摘要现在显示每个部署保存的构建缓存的大小以及它与构建机器的限制的接近程度。相同的信息位于版本 65.1.0 或更高版本上的带有 vercel inform 的 CLI 中，以及 get-deployment REST API 端点中。",
+      "summary": {
+        "oneSentence": "部署摘要现在显示每个部署保存的构建缓存的大小以及它与构建机器的限制的接近程度。相同的信息位于版本 65.1.0 或更高版本上的带有 vercel inform 的 CLI 中，以及 get-deployment REST API 端点中。",
+        "bullets": [
+          "部署摘要现在显示每个部署保存的构建缓存的大小以及它与构建机器的限制的接近程度。相同的信息位于版本 65.1.0 或更高版本上的带有 vercel inform 的 CLI 中，以及 get-deployment REST API 端点中。",
+          "上传构建缓存是计费构建时间，超过限制的缓存将被丢弃，因此下一次构建将在没有缓存的情况下开始。",
+          "默认情况下，在 10 月 21 日或之后构建的所有部署计划中都会启用此功能。请参阅文档中每个构建计算机的最大构建缓存大小。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：部署摘要现在显示每个部署保存的构建缓存的大小以及它与构建机器的限制的接近程度。相同的信息位于版本 65.1.0 或更高版本上的带有 vercel inform 的 CLI 中，以及 get-deployment REST API 端点中。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/deployments-now-show-build-cache-size"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "部署摘要现在显示每个部署保存的构建缓存的大小以及它与构建机器的限制的接近程度。相同的信息位于版本 65.1.0 或更高版本上的带有 vercel inform 的 CLI 中，以及 get-deployment REST API 端点中。",
+        "上传构建缓存是计费构建时间，超过限制的缓存将被丢弃，因此下一次构建将在没有缓存的情况下开始。",
+        "默认情况下，在 10 月 21 日或之后构建的所有部署计划中都会启用此功能。请参阅文档中每个构建计算机的最大构建缓存大小。"
+      ],
+      "highlights": [
+        "部署摘要现在显示每个部署保存的构建缓存的大小以及它与构建机器的限制的接近程度。相同的信息位于版本 65.1.0 或更高版本上的带有 vercel inform ",
+        "上传构建缓存是计费构建时间，超过限制的缓存将被丢弃，因此下一次构建将在没有缓存的情况下开始。",
+        "默认情况下，在 10 月 21 日或之后构建的所有部署计划中都会启用此功能。请参阅文档中每个构建计算机的最大构建缓存大小。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Deployments now show build cache size - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-23",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/deployments-now-show-build-cache-size",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Deployments now show build cache size - Vercel"
+      },
+      "raw": {
+        "title": "Deployments now show build cache size",
+        "url": "https://vercel.com/changelog/deployments-now-show-build-cache-size",
+        "fetched": true,
+        "savedAt": "2026-10-24T02:55:07.491Z"
+      }
+    },
+    {
+      "id": "sig-298c8de07d",
+      "title": "快速扩展在线存储以服务超过 10 亿 ChatGPT 用户（第二部分）",
+      "oneLiner": "了解 OpenAI 如何通过可靠的多租户、全局缓存和 Azure Cosmos DB 扩展 Habitat，为 ChatGPT 提供 12 倍的更快读取速度。",
+      "summary": {
+        "oneSentence": "了解 OpenAI 如何通过可靠的多租户、全局缓存和 Azure Cosmos DB 扩展 Habitat，为 ChatGPT 提供 12 倍的更快读取速度。",
+        "bullets": [
+          "了解 OpenAI 如何通过可靠的多租户、全局缓存和 Azure Cosmos DB 扩展 Habitat，为 ChatGPT 提供 12 倍的更快读取速度。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：了解 OpenAI 如何通过可靠的多租户、全局缓存和 Azure Cosmos DB 扩展 Habitat，为 ChatGPT 提供 12 倍的更快读取速度。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/scaling-storage-one-billion-users-part-two"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "了解 OpenAI 如何通过可靠的多租户、全局缓存和 Azure Cosmos DB 扩展 Habitat，为 ChatGPT 提供 12 倍的更快读取速度。"
+      ],
+      "highlights": [
+        "了解 OpenAI 如何通过可靠的多租户、全局缓存和 Azure Cosmos DB 扩展 Habitat，为 ChatGPT 提供 12 倍的更快读取速度。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+      "originalLang": "en",
+      "date": "2026-10-23",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)"
+      },
+      "raw": {
+        "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+        "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+        "fetched": false,
+        "savedAt": "2026-10-24T02:55:08.737Z"
+      }
+    },
+    {
+      "id": "sig-83d800be9c",
+      "title": "Vercel Connect 添加托管 Stripe API 密钥 - Vercel",
+      "oneLiner": "Vercel Connect 现在可以为每个代理或任务创建单独的受限 Stripe API 密钥。创建 Stripe 连接器时，您现在可以选择托管 API 密钥作为连接方法。",
+      "summary": {
+        "oneSentence": "Vercel Connect 现在可以为每个代理或任务创建单独的受限 Stripe API 密钥。创建 Stripe 连接器时，您现在可以选择托管 API 密钥作为连接方法。",
+        "bullets": [
+          "Vercel Connect 现在可以为每个代理或任务创建单独的受限 Stripe API 密钥。创建 Stripe 连接器时，您现在可以选择托管 API 密钥作为连接方法。",
+          "Vercel 在您的 Stripe 帐户中创建密钥，仅限于您选择的权限。现有的 MCP 和自带 API 密钥方法保持不变。",
+          "大多数应用程序和代理都在 Stripe 的默认密钥上运行，该密钥具有对帐户的完全访问权限。通过每个代理密钥，每个代理只能获得其工作所需的访问权限。例如，每日收入报告代理可以限制为对费用的只读访问，并且入职代理可以限制为对客户的写入访问。",
+          "Vercel 创建并存储密钥，因此无需粘贴密钥。您可以从连接器的设置中轮换它，而无需重新部署，并且在切换时旧密钥的有效期长达 24 小时。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel Connect 现在可以为每个代理或任务创建单独的受限 Stripe API 密钥。创建 Stripe 连接器时，您现在可以选择托管 API 密钥作为连接方法。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-connect-adds-managed-stripe-api-keys"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Connect 现在可以为每个代理或任务创建单独的受限 Stripe API 密钥。创建 Stripe 连接器时，您现在可以选择托管 API 密钥作为连接方法。",
+        "Vercel 在您的 Stripe 帐户中创建密钥，仅限于您选择的权限。现有的 MCP 和自带 API 密钥方法保持不变。",
+        "大多数应用程序和代理都在 Stripe 的默认密钥上运行，该密钥具有对帐户的完全访问权限。通过每个代理密钥，每个代理只能获得其工作所需的访问权限。例如，每日收入报告代理可以限制为对费用的只读访问，并且入职代理可以限制为对客户的写入访问。",
+        "Vercel 创建并存储密钥，因此无需粘贴密钥。您可以从连接器的设置中轮换它，而无需重新部署，并且在切换时旧密钥的有效期长达 24 小时。",
+        "将链接复制到标题 添加 Stripe 连接器 从连接器目录创建 Stripe 连接器，选择托管 API 密钥，选择其权限，并将其附加到您的项目。您还可以从 CLI 开始，它会打开浏览器来完成设置：",
+        "1 vercel connect create stripe --connection-method Managed-api-key --name acme-stripe 2 vercel connect Attach stripe/acme-stripe --project my-app --environment production 使用 Vercel CLI 添加 Stripe 连接器",
+        "1 从 'stripe' 导入 Stripe ； 2 从 '@vercel/connect' 导入 { getToken } ； 3 const key = wait getToken('stripe/acme-stripe', { 4 subject: { type: 'app'}, 5 }); 6 const stripe = new Stripe(key); 7 个 const 客户 = 等待 stripe 。顾客 。列表（{限制：10}）；使用连接器的 UID 调用 getToken 以在运行时获取受限密钥",
+        "首先，添加 Stripe 连接器或阅读文档。"
+      ],
+      "highlights": [
+        "Vercel Connect 现在可以为每个代理或任务创建单独的受限 Stripe API 密钥。创建 Stripe 连接器时，您现在可以选择托管 API 密钥",
+        "Vercel 在您的 Stripe 帐户中创建密钥，仅限于您选择的权限。现有的 MCP 和自带 API 密钥方法保持不变。",
+        "大多数应用程序和代理都在 Stripe 的默认密钥上运行，该密钥具有对帐户的完全访问权限。通过每个代理密钥，每个代理只能获得其工作所需的访问权限。例如，每日收入"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Connect adds managed Stripe API keys - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-23",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-connect-adds-managed-stripe-api-keys",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Connect adds managed Stripe API keys - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Connect adds managed Stripe API keys",
+        "url": "https://vercel.com/changelog/vercel-connect-adds-managed-stripe-api-keys",
+        "fetched": true,
+        "savedAt": "2026-10-24T02:55:17.487Z"
+      }
+    },
+    {
+      "id": "sig-7d37b86a4f",
+      "title": "Immobiliare.it 如何从一个会话代理转变为一个代理网络",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 联系销售人员 了解更多 在此页面上",
+          "Immobiliare.it 成立于 2005 年，是意大利最大的房地产平台，隶属于在意大利、西班牙、希腊、斯洛文尼亚、克罗地亚、塞尔维亚、卢森堡和塞浦路斯开展业务的集团。在意大利，该平台目前拥有超过 120 万个房源，其网站和应用程序每月吸引超过 5000 万次访问，并为超过 31,000 名房地产经纪人和开发商提供"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 4,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/immobiliare"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 联系销售人员 了解更多客户案例 Immobiliare.it 如何从一个会话代理转变为一个代理网络 作者：Jacob Simonov Alessandro Conca 发布于 2026 年 10 月 23 日 听 听这篇文章",
+        "0:00 1.0x 联系销售人员 了解更多 在此页面上",
+        "Immobiliare.it 成立于 2005 年，是意大利最大的房地产平台，隶属于在意大利、西班牙、希腊、斯洛文尼亚、克罗地亚、塞尔维亚、卢森堡和塞浦路斯开展业务的集团。在意大利，该平台目前拥有超过 120 万个房源，其网站和应用程序每月吸引超过 5000 万次访问，并为超过 31,000 名房地产经纪人和开发商提供服务。",
+        "Immobiliare.it 看到了使用对话式人工智能来改善整个市场互动的机会。买家需要快速回答他们的问题，卖家需要联系真正感兴趣的各方，房地产经纪人必须同时管理双方。该团队着手构建和编排互连的人工智能代理和子代理，以支持自然对话，同时为他们提供工具来理解代理行为、评估性能并不断改善每次交互的体验。",
+        "Immobiliare.it 首先使用对话式人工智能代理来支持每个房产列表。自然的语音质量至关重要，尤其是在意大利语和南欧市场的其他语言中，本地人的声音通常是呼叫者保持通话和挂断电话之间的区别。该团队还需要塑造代理行为、快速实验并了解真实对话中实际发生的情况。",
+        "十一名特工完成了一切。它在核心市场提供了一系列自然、纯正、带有地道当地口音的声音，以及用于座席开发、对话分析和工作流程编排的工具。",
+        "“构建代理很简单，但持续优化则复杂得多。ElevenLabs 为您提供了这两个阶段所需的所有工具，”Immobiliare.it 首席产品官 Paolo Sabatinelli 说道。 “我们更愿意投资于创造一种在最佳平台上构建代理的文化和专业知识。使用 ElevenAgents，您不需要成为经验丰富的开发人员。”",
+        "第一个经纪人上线了房源信息，日夜以正确的语言进行回复、回答问题、收集潜在客户信息并总结每次互动，以便房地产经纪人一眼就能看出潜在客户的热门程度。",
+        "超过 70% 的卖家选择了加入，早期结果验证了这一赌注。买家也更愿意通过语音分享个人详细信息，而不是通过文本，这会产生更高质量的潜在客户。"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 联系销售人员 了解更多 在此页面上"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How Immobiliare.it went from one conversational agent to an agentic network",
+      "originalLang": "en",
+      "date": "2026-10-23",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/immobiliare",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How Immobiliare.it went from one conversational agent to an agentic network"
+      },
+      "raw": {
+        "title": "How Immobiliare.it went from one conversational agent to an agentic network",
+        "url": "https://elevenlabs.io/blog/immobiliare",
+        "fetched": true,
+        "savedAt": "2026-10-24T02:55:26.596Z"
+      }
+    },
+    {
+      "id": "sig-48e2274fdf",
+      "title": "确保我们的前沿模型训练环境的安全",
+      "oneLiner": "OpenAI 解释了我们如何加强对前沿模型训练和评估的遏制，包括离线环境和高计算红队。",
+      "summary": {
+        "oneSentence": "OpenAI 解释了我们如何加强对前沿模型训练和评估的遏制，包括离线环境和高计算红队。",
+        "bullets": [
+          "OpenAI 解释了我们如何加强对前沿模型训练和评估的遏制，包括离线环境和高计算红队。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 解释了我们如何加强对前沿模型训练和评估的遏制，包括离线环境和高计算红队。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/securing-our-frontier-model-training-environment"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 解释了我们如何加强对前沿模型训练和评估的遏制，包括离线环境和高计算红队。"
+      ],
+      "highlights": [
+        "OpenAI 解释了我们如何加强对前沿模型训练和评估的遏制，包括离线环境和高计算红队。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Securing our frontier model training environment",
+      "originalLang": "en",
+      "date": "2026-10-23",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Securing our frontier model training environment"
+      },
+      "raw": {
+        "title": "Securing our frontier model training environment",
+        "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+        "fetched": false,
+        "savedAt": "2026-10-24T02:55:27.845Z"
+      }
+    },
+    {
+      "id": "sig-4d5fad5422",
+      "title": "Interfaze 如何在 Vercel 上处理每月 5000 万个请求 |客户 |韦尔塞尔",
+      "oneLiner": "将链接复制到标题 Interfaze on Vercel 每月 5000 万个请求",
+      "summary": {
+        "oneSentence": "将链接复制到标题 Interfaze on Vercel 每月 5000 万个请求",
+        "bullets": [
+          "将链接复制到标题 Interfaze on Vercel 每月 5000 万个请求",
+          "具有 AI Gateway 的一个后备层背后的多个模型提供商",
+          "Interfaze 为通用法学硕士无法处理的确定性工作构建模型：文档处理、OCR、对象检测、网页抓取、语音转文本和分类。",
+          "正如创始人 Yoeven Khemlani 所说，“大多数模型本质上都不是确定性的。当你起草一篇论文时，这很好。但当医院或法律团队需要处理文件时，你就不需要法学硕士了。”向法学硕士询问发票上的总额，你会得到一个数字，但没有简单的方法来检查它的来源。 Interfaze 的模型返回数字以及一个边界框，显示该数字来自页面上"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：将链接复制到标题 Interfaze on Vercel 每月 5000 万个请求",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/how-interfaze-serves-50-million-requests-a-month-on-vercel"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "将链接复制到标题 Interfaze on Vercel 每月 5000 万个请求",
+        "具有 AI Gateway 的一个后备层背后的多个模型提供商",
+        "Interfaze 为通用法学硕士无法处理的确定性工作构建模型：文档处理、OCR、对象检测、网页抓取、语音转文本和分类。",
+        "正如创始人 Yoeven Khemlani 所说，“大多数模型本质上都不是确定性的。当你起草一篇论文时，这很好。但当医院或法律团队需要处理文件时，你就不需要法学硕士了。”向法学硕士询问发票上的总额，你会得到一个数字，但没有简单的方法来检查它的来源。 Interfaze 的模型返回数字以及一个边界框，显示该数字来自页面上的位置，以及表示模型确定性的置信度分数。每个结果都可以被检查，并且模型仍然像法学硕士那样采取​​提示。",
+        "Interfaze 模型的所有内容都在 Vercel 上运行，包括后端。它涵盖每月服务 5000 万个请求的 API、执行模型编写的代码的沙箱，以及在第三方模型提供商出现故障时保持数据预处理运行的路由。",
+        "将链接复制到标题 后端不需要基础设施工作 Interfaze 的前端和后端都在 Vercel 上运行。后端处理对 Interfaze API 的每个请求，无论客户是调用模型还是上传文件。所有这些都作为无服务器函数在与前端相同的代码库中运行。当请求需要计算时，模型会将代码交给 Vercel Sandbox，后者单独运行它。无需建立单独的基础设施。",
+        "将链接复制到标题 流体计算可处理繁重的工作 可扩展性是 Yoeven 的首要要求。目标是为数百万用户提供模型服务，并且流体计算可以根据流量自行扩展。更繁重的工作也在那里进行。 Vercel 的内存和超时限制足够高，因此在 Puppeteer 上运行的 Interfaze 的网页抓取可以开箱即用。",
+        "将链接复制到标题 AI Gateway 使模型路由大规模可靠 Interfaze 通过第三方提供商托管的开源模型推动大量数据清理。单一提供商是一个薄弱环节。提供商达到速率限制或停机，当发生这种情况时，清理工作就会停止，除非流量转移到其他地方。",
+        "提供者也不能互换。其中两个可以声称拥有相同的开源模型，但以截然不同的质量提供服务。",
+        "当某个提供商出现故障或受到限制时，AI Gateway 会自动将请求失败并转移到下一个提供商。它还允许 Interfaze 选择哪个提供商为给定模型提供服务，这样团队就可以通过每个提供商运行相同的工作负载，查看哪个提供商表现良好，然后向那里发送流量。"
+      ],
+      "highlights": [
+        "将链接复制到标题 Interfaze on Vercel 每月 5000 万个请求",
+        "具有 AI Gateway 的一个后备层背后的多个模型提供商",
+        "Interfaze 为通用法学硕士无法处理的确定性工作构建模型：文档处理、OCR、对象检测、网页抓取、语音转文本和分类。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How Interfaze serves 50 million requests a month on Vercel | Customers | Vercel",
+      "originalLang": "en",
+      "date": "2026-10-23",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/how-interfaze-serves-50-million-requests-a-month-on-vercel",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How Interfaze serves 50 million requests a month on Vercel | Customers | Vercel"
+      },
+      "raw": {
+        "title": "How Interfaze serves 50 million requests a month on Vercel",
+        "url": "https://vercel.com/blog/how-interfaze-serves-50-million-requests-a-month-on-vercel",
+        "fetched": true,
+        "savedAt": "2026-10-24T02:55:41.230Z"
       }
     },
     {
@@ -3989,7 +4793,7 @@
         "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
         "fetched": true,
         "savedAt": "2026-10-17T02:36:45.886Z",
-        "retranslatedAt": "2026-10-23T02:58:48.052Z"
+        "retranslatedAt": "2026-10-24T02:55:42.410Z"
       }
     },
     {
@@ -7587,7 +8391,7 @@
         "url": "https://cursor.com/changelog/origin-app-marketplace",
         "fetched": true,
         "savedAt": "2026-10-14T03:08:22.474Z",
-        "retranslatedAt": "2026-10-23T02:58:49.163Z"
+        "retranslatedAt": "2026-10-24T02:55:43.672Z"
       }
     },
     {
@@ -13042,7 +13846,7 @@
         "url": "https://cursor.com/changelog/remote-control-local-agents",
         "fetched": true,
         "savedAt": "2026-10-11T03:27:39.323Z",
-        "retranslatedAt": "2026-10-23T02:58:50.199Z"
+        "retranslatedAt": "2026-10-24T02:55:44.856Z"
       }
     },
     {
@@ -22470,7 +23274,7 @@
         "url": "https://cursor.com/changelog/rollouts-and-security-reviewer",
         "fetched": true,
         "savedAt": "2026-09-27T03:09:42.462Z",
-        "retranslatedAt": "2026-10-23T02:58:51.365Z"
+        "retranslatedAt": "2026-10-24T02:55:46.095Z"
       }
     },
     {
@@ -31595,7 +32399,7 @@
         "url": "https://cursor.com/changelog/projects",
         "fetched": true,
         "savedAt": "2026-09-12T02:41:59.708Z",
-        "retranslatedAt": "2026-10-23T02:58:52.341Z"
+        "retranslatedAt": "2026-10-24T02:55:47.321Z"
       }
     },
     {
@@ -31925,974 +32729,6 @@
         "url": "https://vercel.com/changelog/vercel-sandbox-is-now-available-in-all-regions",
         "fetched": true,
         "savedAt": "2026-09-13T02:40:13.538Z"
-      }
-    },
-    {
-      "id": "sig-534907e0d3",
-      "title": "Paul Christiano 加入 OpenAI 基金会董事会",
-      "oneLiner": "Paul Christiano 加入 OpenAI 基金会董事会及其安全委员会，带来人工智能协调、安全和标准方面的经验。",
-      "summary": {
-        "oneSentence": "Paul Christiano 加入 OpenAI 基金会董事会及其安全委员会，带来人工智能协调、安全和标准方面的经验。",
-        "bullets": [
-          "Paul Christiano 加入 OpenAI 基金会董事会及其安全委员会，带来人工智能协调、安全和标准方面的经验。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：Paul Christiano 加入 OpenAI 基金会董事会及其安全委员会，带来人工智能协调、安全和标准方面的经验。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/paul-christiano-joins-openai-foundation-board"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "Paul Christiano 加入 OpenAI 基金会董事会及其安全委员会，带来人工智能协调、安全和标准方面的经验。"
-      ],
-      "highlights": [
-        "Paul Christiano 加入 OpenAI 基金会董事会及其安全委员会，带来人工智能协调、安全和标准方面的经验。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Paul Christiano joins OpenAI Foundation Board",
-      "originalLang": "en",
-      "date": "2026-09-09",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Paul Christiano joins OpenAI Foundation Board"
-      },
-      "raw": {
-        "title": "Paul Christiano joins OpenAI Foundation Board",
-        "url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-        "fetched": false,
-        "savedAt": "2026-09-10T02:39:51.501Z"
-      }
-    },
-    {
-      "id": "sig-b0dd0e34ba",
-      "title": "利用搜索中的新足球功能为比赛做好准备",
-      "oneLiner": "本赛季不错过任何一场比赛。我们对搜索的最新升级将实时游戏源和更深入的统计数据直接显示在您的屏幕上。另外，您现在可以连接您的 Fantasy Football 帐户，以获得针对您的名单的定制见解。",
-      "summary": {
-        "oneSentence": "本赛季不错过任何一场比赛。我们对搜索的最新升级将实时游戏源和更深入的统计数据直接显示在您的屏幕上。另外，您现在可以连接您的 Fantasy Football 帐户，以获得针对您的名单的定制见解。",
-        "bullets": [
-          "本赛季不错过任何一场比赛。我们对搜索的最新升级将实时游戏源和更深入的统计数据直接显示在您的屏幕上。另外，您现在可以连接您的 Fantasy Football 帐户，以获得针对您的名单的定制见解。",
-          "搜索产品管理高级总监",
-          "美国足球赛季正式开始，通过我们的最新升级，搜索已准备好成为您的终极比赛日指南。今天，我们推出了新功能，旨在帮助您更深入地了解每一刻，包括实时比赛动态、更详细的球员和联赛统计数据，以及链接您的 Fantasy Football 帐户以获取定制建议的功能。",
-          "没有人想错过一场改变比赛的比赛。现在，通过搜索中的新实时游戏动态，您可以了解所有动作并实时关注每场比赛的进展。要尝试一下，只需搜索正在进行的游戏并寻找红色的“实时”图标即可。您将看到迄今为止游戏的整体回顾，以及包含逐场更新、热门社交评论、关键视频亮点和人工智能洞察的动态时间线。职业足球的现场比赛直播现已在美国的手机上提"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Google AI 官网发布：本赛季不错过任何一场比赛。我们对搜索的最新升级将实时游戏源和更深入的统计数据直接显示在您的屏幕上。另外，您现在可以连接您的 Fantasy Football 帐户，以获得针对您的名单的定制见解。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：gemini",
-        "actionItems": [
-          "阅读原文（英文）：https://blog.google/products-and-platforms/products/search/football-features-google-search/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "gemini"
-      ],
-      "content": [
-        "本赛季不错过任何一场比赛。我们对搜索的最新升级将实时游戏源和更深入的统计数据直接显示在您的屏幕上。另外，您现在可以连接您的 Fantasy Football 帐户，以获得针对您的名单的定制见解。",
-        "搜索产品管理高级总监",
-        "美国足球赛季正式开始，通过我们的最新升级，搜索已准备好成为您的终极比赛日指南。今天，我们推出了新功能，旨在帮助您更深入地了解每一刻，包括实时比赛动态、更详细的球员和联赛统计数据，以及链接您的 Fantasy Football 帐户以获取定制建议的功能。",
-        "没有人想错过一场改变比赛的比赛。现在，通过搜索中的新实时游戏动态，您可以了解所有动作并实时关注每场比赛的进展。要尝试一下，只需搜索正在进行的游戏并寻找红色的“实时”图标即可。您将看到迄今为止游戏的整体回顾，以及包含逐场更新、热门社交评论、关键视频亮点和人工智能洞察的动态时间线。职业足球的现场比赛直播现已在美国的手机上提供英文版。本月晚些时候，我们还将推出对大学团队的支持，并将其提供给世界各地更多的人。",
-        "无论您是盯着电视屏幕还是在旅途中查看，搜索的新升级都可以让您更轻松地了解赛季进展情况。现在，当您搜索比赛时，您会看到一个新的轮播，可让您查看联盟中发生的其他比赛的得分，而无需单独搜索它们。",
-        "想看看你最喜欢的球员的表现如何吗？我们将在本赛季推出新的统计数据，向您展示联盟在传球达阵或冲球码数等方面的领先者，以及更详细的球员指标，如擒杀、掉球和接球后码数。很快，搜索还将向您展示谁最有希望赢得冠军，以及季后赛的分组。所有这些更新，包括新的对战轮播，都将在全球移动设备上提供。",
-        "当您在开球前设置梦幻阵容时，获得量身定制的建议可以帮助您做出正确的决定。现在，您可以将您的 Yahoo Fantasy 或 Sleeper 帐户与搜索相关联，并通过 AI 模式请求定制见解。",
-        "首先，只需向 AI 模式寻求有关您的幻想阵容的帮助，您就会看到一个安全链接您的幻想帐户的选项。连接后，搜索可以引入您的实时名单和所有联赛的背景信息，以帮助完成从开始/座位建议到放弃线目标的任何事情 - 无需手动数据输入或屏幕截图。您甚至可以要求 AI 模式评估您的选秀权或每周回顾整个联盟发生的事情。",
-        "我们为各个级别的奇幻粉丝打造了此功能，并且我们将在整个赛季中继续改进它。请务必使用每个回复上的“向上”或“向下”按钮通过人工智能模式向我们发送想法或反馈，并让我们知道如何做得更好。将 Fantasy Football 应用程序与搜索连接起来的功能现已在美国推出（英语版）。",
-        "准备好开球了吗？在搜索上尝试新的足球功能，并深入了解本赛季的每场比赛。"
-      ],
-      "highlights": [
-        "本赛季不错过任何一场比赛。我们对搜索的最新升级将实时游戏源和更深入的统计数据直接显示在您的屏幕上。另外，您现在可以连接您的 Fantasy Football 帐",
-        "搜索产品管理高级总监",
-        "美国足球赛季正式开始，通过我们的最新升级，搜索已准备好成为您的终极比赛日指南。今天，我们推出了新功能，旨在帮助您更深入地了解每一刻，包括实时比赛动态、更详细的球"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Get ready for the game with new football features in Search",
-      "originalLang": "en",
-      "date": "2026-09-09",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google AI",
-        "author": "Google",
-        "url": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
-        "home": "https://blog.google/technology/ai/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Get ready for the game with new football features in Search"
-      },
-      "raw": {
-        "title": "Get ready for the game with new football features in Search",
-        "url": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
-        "fetched": true,
-        "savedAt": "2026-09-10T02:39:59.930Z"
-      }
-    },
-    {
-      "id": "sig-e8269fc9a1",
-      "title": "逐帧重现70年爱情故事",
-      "oneLiner": "在短片《Love, Rendered》中了解电影制片人和 Google DeepMind 如何使用 AI 重现一对夫妇未记录的过去。",
-      "summary": {
-        "oneSentence": "在短片《Love, Rendered》中了解电影制片人和 Google DeepMind 如何使用 AI 重现一对夫妇未记录的过去。",
-        "bullets": [
-          "在短片《Love, Rendered》中了解电影制片人和 Google DeepMind 如何使用 AI 重现一对夫妇未记录的过去。",
-          "您的浏览器不支持音频元素。",
-          "纪录片《爱情，渲染》利用人工智能帮助一对失忆的夫妇重现他们过去珍贵的、未被记录的时刻。通过将图像修复与表演捕捉相结合，该团队将这对夫妇当前的举止映射到他们年轻时的自我上，以建立真实的视觉记忆。您可以通过要求 Gemini 应用程序来恢复您自己的家庭照片并为其着色来亲自尝试这项技术。",
-          "一部名为《爱情，渲染》的新纪录片利用人工智能帮助一对老年夫妇重现从未被摄像机捕捉到的珍贵记忆。工程师们利用旧照片和这对夫妇现在的举止，以令人难以置信的细节为他们年轻时的自己注入活力。该项目展示了技术如何像数字画笔一样帮助人们保留褪色的记忆。您甚至可以尝试使用 Gemini 应用程序恢复自己的家庭照片。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Google AI 官网发布：在短片《Love, Rendered》中了解电影制片人和 Google DeepMind 如何使用 AI 重现一对夫妇未记录的过去。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：gemini",
-        "actionItems": [
-          "阅读原文（英文）：https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "gemini"
-      ],
-      "content": [
-        "在短片《Love, Rendered》中了解电影制片人和 Google DeepMind 如何使用 AI 重现一对夫妇未记录的过去。",
-        "您的浏览器不支持音频元素。",
-        "纪录片《爱情，渲染》利用人工智能帮助一对失忆的夫妇重现他们过去珍贵的、未被记录的时刻。通过将图像修复与表演捕捉相结合，该团队将这对夫妇当前的举止映射到他们年轻时的自我上，以建立真实的视觉记忆。您可以通过要求 Gemini 应用程序来恢复您自己的家庭照片并为其着色来亲自尝试这项技术。",
-        "一部名为《爱情，渲染》的新纪录片利用人工智能帮助一对老年夫妇重现从未被摄像机捕捉到的珍贵记忆。工程师们利用旧照片和这对夫妇现在的举止，以令人难以置信的细节为他们年轻时的自己注入活力。该项目展示了技术如何像数字画笔一样帮助人们保留褪色的记忆。您甚至可以尝试使用 Gemini 应用程序恢复自己的家庭照片。",
-        "一部新的纪录片短片《Love, Rendered》探讨了记忆丧失和讲故事的力量，并展示了技术如何帮助重新点燃已经开始褪色的记忆。影片讲述了伯特·沙茨 (Burt Shatz) 和埃塞尔·沙茨 (Ethelle Shatz) 这对结婚 70 多年的夫妇如何应对伯特认知衰退的故事。在他逐渐淡化的记忆中，有一个是他们最珍贵的记忆：他们在克利夫兰的一所学生合作社见面的那一天。因为没有拍照或录像，这一天只存在于他们的脑海中。",
-        "当我担任电影的技术主管时，我知道这个项目在技术上非常复杂，在情感上要求很高。记忆丧失对我来说是个人的事情。我的祖父在去世前患有中风并丧失了记忆。上次我去看他时，我已经三十多岁了。他确信我还在上大学，并且很高兴我毕业了。那段苦乐参半的记忆从未离开过我。",
-        "这次经历让我想看看这项技术是否可以帮助我通过相同的媒介与家人建立更深入的联系。当这个项目开始时，我向父亲要了家庭旧照片。我在父母见面时的照片上测试了我们的图像修复，并使用我们的视频模型将它们制作成动画。看着我的父母在二十多岁的时候搬家，我真的明白了这些工具如何帮助防止最重要的事情溜走。",
-        "《爱，渲染》由奥斯卡金像奖提名电影制片人莉兹·加布斯执导，并与丹·科根和达伦·阿罗诺夫斯基共同制作。它是 Google DeepMind 和 Aronofsky 的创意企业 Primordial Soup 合作创建的。",
-        "莉兹和达伦看电影时都对记忆的弹性感到好奇。在执导纪录片《昏迷》时，莉兹看到当处于最低意识状态的患者听到熟悉的声音或看到亲人的图像时，功能磁共振成像扫描就会亮起。多年后，达伦看到了一位患有阿尔茨海默氏症的前芭蕾舞演员的镜头，她在听到《天鹅湖》后，本能地坐在轮椅上跳起了编排的舞蹈。",
-        "这些试金石引导创意团队进行回忆疗法，这是一种利用歌曲、家庭故事和老照片等感官线索来刺激记忆、激发对话和重新点燃情感联系的临床实践。但是当记忆不附加这些线索时会发生什么呢？"
-      ],
-      "highlights": [
-        "在短片《Love, Rendered》中了解电影制片人和 Google DeepMind 如何使用 AI 重现一对夫妇未记录的过去。",
-        "您的浏览器不支持音频元素。",
-        "纪录片《爱情，渲染》利用人工智能帮助一对失忆的夫妇重现他们过去珍贵的、未被记录的时刻。通过将图像修复与表演捕捉相结合，该团队将这对夫妇当前的举止映射到他们年轻时"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Recreating a 70-year love story frame by frame",
-      "originalLang": "en",
-      "date": "2026-09-09",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google AI",
-        "author": "Google",
-        "url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
-        "home": "https://blog.google/technology/ai/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Recreating a 70-year love story frame by frame"
-      },
-      "raw": {
-        "title": "Recreating a 70-year love story frame by frame",
-        "url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/",
-        "fetched": true,
-        "savedAt": "2026-09-10T02:40:05.754Z"
-      }
-    },
-    {
-      "id": "sig-9786c92a28",
-      "title": "人工智能政策窗口已打开。我们需要采取行动。",
-      "oneLiner": "Chris Lehane 认为，更强的人工智能能力需要更强的安全证据、共享标准和持久的政策行动，同时政策窗口保持开放。",
-      "summary": {
-        "oneSentence": "Chris Lehane 认为，更强的人工智能能力需要更强的安全证据、共享标准和持久的政策行动，同时政策窗口保持开放。",
-        "bullets": [
-          "Chris Lehane 认为，更强的人工智能能力需要更强的安全证据、共享标准和持久的政策行动，同时政策窗口保持开放。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：Chris Lehane 认为，更强的人工智能能力需要更强的安全证据、共享标准和持久的政策行动，同时政策窗口保持开放。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/ai-policy-window"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "Chris Lehane 认为，更强的人工智能能力需要更强的安全证据、共享标准和持久的政策行动，同时政策窗口保持开放。"
-      ],
-      "highlights": [
-        "Chris Lehane 认为，更强的人工智能能力需要更强的安全证据、共享标准和持久的政策行动，同时政策窗口保持开放。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "The AI policy window is open. We need to act.",
-      "originalLang": "en",
-      "date": "2026-09-09",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/ai-policy-window",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "The AI policy window is open. We need to act."
-      },
-      "raw": {
-        "title": "The AI policy window is open. We need to act.",
-        "url": "https://openai.com/index/ai-policy-window",
-        "fetched": false,
-        "savedAt": "2026-09-10T02:40:07.022Z"
-      }
-    },
-    {
-      "id": "sig-587a70348a",
-      "title": "GPT-6 Astra：下一代工作智能",
-      "oneLiner": "GPT-6 Astra 是 OpenAI 最强大的商业模型，具有先进的推理、计算机使用以及更强的写作和设计判断能力。",
-      "summary": {
-        "oneSentence": "GPT-6 Astra 是 OpenAI 最强大的商业模型，具有先进的推理、计算机使用以及更强的写作和设计判断能力。",
-        "bullets": [
-          "GPT-6 Astra 是 OpenAI 最强大的商业模型，具有先进的推理、计算机使用以及更强的写作和设计判断能力。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：GPT-6 Astra 是 OpenAI 最强大的商业模型，具有先进的推理、计算机使用以及更强的写作和设计判断能力。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/gpt-6-astra-next-generation-work"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "GPT-6 Astra 是 OpenAI 最强大的商业模型，具有先进的推理、计算机使用以及更强的写作和设计判断能力。"
-      ],
-      "highlights": [
-        "GPT-6 Astra 是 OpenAI 最强大的商业模型，具有先进的推理、计算机使用以及更强的写作和设计判断能力。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "GPT-6 Astra: The next generation in intelligence for work",
-      "originalLang": "en",
-      "date": "2026-09-09",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "GPT-6 Astra: The next generation in intelligence for work"
-      },
-      "raw": {
-        "title": "GPT-6 Astra: The next generation in intelligence for work",
-        "url": "https://openai.com/index/gpt-6-astra-next-generation-work",
-        "fetched": false,
-        "savedAt": "2026-09-10T02:40:08.253Z"
-      }
-    },
-    {
-      "id": "sig-3f133ea249",
-      "title": "Pro - Vercel 上的每个项目现在都可以使用密码保护",
-      "oneLiner": "专业团队现在可以为单个项目启用密码保护，每个项目每月 20 美元。启用后，密码保护要求访问者输入您设置的密码，然后才能查看项目的部署。",
-      "summary": {
-        "oneSentence": "专业团队现在可以为单个项目启用密码保护，每个项目每月 20 美元。启用后，密码保护要求访问者输入您设置的密码，然后才能查看项目的部署。",
-        "bullets": [
-          "专业团队现在可以为单个项目启用密码保护，每个项目每月 20 美元。启用后，密码保护要求访问者输入您设置的密码，然后才能查看项目的部署。",
-          "打开侧边栏中的安全性，选择部署保护，然后将其打开。禁用它以停止该项目的未来收费。",
-          "此前，密码保护只能通过每月 150 美元的团队级附加组件获得，该附加组件涵盖了每个项目。在文档中了解有关部署保护使用和定价的更多信息。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：专业团队现在可以为单个项目启用密码保护，每个项目每月 20 美元。启用后，密码保护要求访问者输入您设置的密码，然后才能查看项目的部署。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/password-protection-now-costs-20-per-project-per-month-on-pro"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "专业团队现在可以为单个项目启用密码保护，每个项目每月 20 美元。启用后，密码保护要求访问者输入您设置的密码，然后才能查看项目的部署。",
-        "打开侧边栏中的安全性，选择部署保护，然后将其打开。禁用它以停止该项目的未来收费。",
-        "此前，密码保护只能通过每月 150 美元的团队级附加组件获得，该附加组件涵盖了每个项目。在文档中了解有关部署保护使用和定价的更多信息。"
-      ],
-      "highlights": [
-        "专业团队现在可以为单个项目启用密码保护，每个项目每月 20 美元。启用后，密码保护要求访问者输入您设置的密码，然后才能查看项目的部署。",
-        "打开侧边栏中的安全性，选择部署保护，然后将其打开。禁用它以停止该项目的未来收费。",
-        "此前，密码保护只能通过每月 150 美元的团队级附加组件获得，该附加组件涵盖了每个项目。在文档中了解有关部署保护使用和定价的更多信息。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Password Protection is now available per project on Pro - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-09",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/password-protection-now-costs-20-per-project-per-month-on-pro",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Password Protection is now available per project on Pro - Vercel"
-      },
-      "raw": {
-        "title": "Password Protection is now available per project on Pro",
-        "url": "https://vercel.com/changelog/password-protection-now-costs-20-per-project-per-month-on-pro",
-        "fetched": true,
-        "savedAt": "2026-09-10T02:40:11.200Z"
-      }
-    },
-    {
-      "id": "sig-034bb34817",
-      "title": "免费保护每个计划的生产部署 - Vercel",
-      "oneLiner": "Vercel 身份验证现在可以保护项目中的所有部署（包括生产），并且每个计划都无需支付额外费用。以前，保护生产域需要每月 150 美元的高级部署保护附加组件。",
-      "summary": {
-        "oneSentence": "Vercel 身份验证现在可以保护项目中的所有部署（包括生产），并且每个计划都无需支付额外费用。以前，保护生产域需要每月 150 美元的高级部署保护附加组件。",
-        "bullets": [
-          "Vercel 身份验证现在可以保护项目中的所有部署（包括生产），并且每个计划都无需支付额外费用。以前，保护生产域需要每月 150 美元的高级部署保护附加组件。",
-          "启用后，访问者必须使用有权访问该项目的 Vercel 帐户登录。这使得它对于内部工具、私人仪表板和尚未准备好启动的网站非常有用。",
-          "从您的项目中，打开侧栏中的安全性，选择部署保护，然后从下拉列表中选择所有部署。",
-          "您还可以将其设置为团队默认值，这样每个新项目都会在为所有部署启用 Vercel 身份验证的情况下启动。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Vercel 身份验证现在可以保护项目中的所有部署（包括生产），并且每个计划都无需支付额外费用。以前，保护生产域需要每月 150 美元的高级部署保护附加组件。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/protect-production-deployments-for-free-on-every-plan"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Vercel 身份验证现在可以保护项目中的所有部署（包括生产），并且每个计划都无需支付额外费用。以前，保护生产域需要每月 150 美元的高级部署保护附加组件。",
-        "启用后，访问者必须使用有权访问该项目的 Vercel 帐户登录。这使得它对于内部工具、私人仪表板和尚未准备好启动的网站非常有用。",
-        "从您的项目中，打开侧栏中的安全性，选择部署保护，然后从下拉列表中选择所有部署。",
-        "您还可以将其设置为团队默认值，这样每个新项目都会在为所有部署启用 Vercel 身份验证的情况下启动。",
-        "现在，每个计划的部署保护例外都是免费的。使用例外将特定预览域公开，同时保护项目的其余部分。",
-        "专业团队现在可以为单个项目启用密码保护，而不是为整个团队购买密码保护。",
-        "请参阅部署保护文档了解更多信息。"
-      ],
-      "highlights": [
-        "Vercel 身份验证现在可以保护项目中的所有部署（包括生产），并且每个计划都无需支付额外费用。以前，保护生产域需要每月 150 美元的高级部署保护附加组件。",
-        "启用后，访问者必须使用有权访问该项目的 Vercel 帐户登录。这使得它对于内部工具、私人仪表板和尚未准备好启动的网站非常有用。",
-        "从您的项目中，打开侧栏中的安全性，选择部署保护，然后从下拉列表中选择所有部署。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Protect production deployments for free on every plan - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-09",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/protect-production-deployments-for-free-on-every-plan",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Protect production deployments for free on every plan - Vercel"
-      },
-      "raw": {
-        "title": "Protect production deployments for free on every plan",
-        "url": "https://vercel.com/changelog/protect-production-deployments-for-free-on-every-plan",
-        "fetched": true,
-        "savedAt": "2026-09-10T02:40:16.304Z"
-      }
-    },
-    {
-      "id": "sig-1cb85d08ad",
-      "title": "您现在可以从 CLI 读取和搜索变更日志 - Vercel",
-      "oneLiner": "您和您的代理现在可以使用 vercel Changelog 从终端读取和搜索 Vercel 变更日志源。",
-      "summary": {
-        "oneSentence": "您和您的代理现在可以使用 vercel Changelog 从终端读取和搜索 Vercel 变更日志源。",
-        "bullets": [
-          "您和您的代理现在可以使用 vercel Changelog 从终端读取和搜索 Vercel 变更日志源。",
-          "编码代理可以使用此命令来发现新的 Vercel 产品和功能，查找与您的项目相关的更新，并阅读完整的公告以告知他们的建议。",
-          "vercel 变更日志返回最新的五个变更日志以及完整的 Markdown 内容。您还可以设置结果数、使用关键字搜索所有变更日志以及访问脚本和代理的 JSON 输出。",
-          "1 # 返回最新的 5 个变更日志 2 vercel变更日志 3 4 # 设置结果数量 5 vercel变更日志 --limit 10 6 7 # 使用关键字搜索 8 vercel变更日志搜索“AI SDK” 9 10 # 将变更日志输出为 JSON 11 vercel变更日志 --json"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：您和您的代理现在可以使用 vercel Changelog 从终端读取和搜索 Vercel 变更日志源。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/you-can-now-read-and-search-changelogs-from-the-cli"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "您和您的代理现在可以使用 vercel Changelog 从终端读取和搜索 Vercel 变更日志源。",
-        "编码代理可以使用此命令来发现新的 Vercel 产品和功能，查找与您的项目相关的更新，并阅读完整的公告以告知他们的建议。",
-        "vercel 变更日志返回最新的五个变更日志以及完整的 Markdown 内容。您还可以设置结果数、使用关键字搜索所有变更日志以及访问脚本和代理的 JSON 输出。",
-        "1 # 返回最新的 5 个变更日志 2 vercel变更日志 3 4 # 设置结果数量 5 vercel变更日志 --limit 10 6 7 # 使用关键字搜索 8 vercel变更日志搜索“AI SDK” 9 10 # 将变更日志输出为 JSON 11 vercel变更日志 --json",
-        "将 Vercel CLI 更新到版本 59.6.0 或更高版本并运行 vercel changelog 以开始使用。请参阅 vercel 变更日志 --help 了解所有可用选项。"
-      ],
-      "highlights": [
-        "您和您的代理现在可以使用 vercel Changelog 从终端读取和搜索 Vercel 变更日志源。",
-        "编码代理可以使用此命令来发现新的 Vercel 产品和功能，查找与您的项目相关的更新，并阅读完整的公告以告知他们的建议。",
-        "vercel 变更日志返回最新的五个变更日志以及完整的 Markdown 内容。您还可以设置结果数、使用关键字搜索所有变更日志以及访问脚本和代理的 JSON 输"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "You can now read and search changelogs from the CLI - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-09",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/you-can-now-read-and-search-changelogs-from-the-cli",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "You can now read and search changelogs from the CLI - Vercel"
-      },
-      "raw": {
-        "title": "You can now read and search changelogs from the CLI",
-        "url": "https://vercel.com/changelog/you-can-now-read-and-search-changelogs-from-the-cli",
-        "fetched": true,
-        "savedAt": "2026-09-10T02:40:21.807Z"
-      }
-    },
-    {
-      "id": "sig-1d193413cb",
-      "title": "eve 代理的持久内存 - Vercel",
-      "oneLiner": "eve 代理现在可以保留跨会话的上下文并在未来的对话中使用它。",
-      "summary": {
-        "oneSentence": "eve 代理现在可以保留跨会话的上下文并在未来的对话中使用它。",
-        "bullets": [
-          "eve 代理现在可以保留跨会话的上下文并在未来的对话中使用它。",
-          "持久内存被组织成插槽。您可以在 agent/memory/ 下的文件中定义命名槽。每个槽指定一个提供者（用于存储和检索内存）和一个作用域（用于确定谁或什么共享内存）。例如，您可以为每个经过身份验证的用户保留单独的内存。",
-          "在每次转动之前，eve 都会检索相关记忆并将其添加到模型的上下文中。根据提供商的不同，内存可以在轮次后通过代理使用的工具或通过这两种方法自动更新。",
-          "要添加 eve 的内置文件内存提供程序，请运行："
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：eve 代理现在可以保留跨会话的上下文并在未来的对话中使用它。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/persistent-memory-for-eve-agents"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "eve 代理现在可以保留跨会话的上下文并在未来的对话中使用它。",
-        "持久内存被组织成插槽。您可以在 agent/memory/ 下的文件中定义命名槽。每个槽指定一个提供者（用于存储和检索内存）和一个作用域（用于确定谁或什么共享内存）。例如，您可以为每个经过身份验证的用户保留单独的内存。",
-        "在每次转动之前，eve 都会检索相关记忆并将其添加到模型的上下文中。根据提供商的不同，内存可以在轮次后通过代理使用的工具或通过这两种方法自动更新。",
-        "要添加 eve 的内置文件内存提供程序，请运行：",
-        "eve add memory/file 添加 eve 的内置文件内存提供程序。",
-        "该命令创建一个文件内存槽，其作用范围为每个经过身份验证的调用者：",
-        "agent/memory/file.ts 1 从“eve/memory”导入{defineMemory}； 2 从“eve/memory/file”导入{ fileMemory } ； 3 从 \"eve/memory/scope\" 导入 { byPrincipal } ； 4 5导出默认defineMemory（{6描述：“记住以前对话中的有用细节。”，7提供者：fileMemory（），8范围：byPrincipal，9}）;为每个经过身份验证的用户单独配置文件内存。",
-        "对于部署在 Vercel 上的代理，文件内存使用私有 Vercel Blob 存储，因此保存的内存在重新启动和部署后仍然存在。",
-        "其他受支持的内存提供程序包括 Supermemory、Upstash AgentKit 和 Kybernesis Arcana。您还可以通过构建自定义提供程序来连接另一个存储系统或内存服务。",
-        "阅读内存文档以选择提供商并开始使用。"
-      ],
-      "highlights": [
-        "eve 代理现在可以保留跨会话的上下文并在未来的对话中使用它。",
-        "持久内存被组织成插槽。您可以在 agent/memory/ 下的文件中定义命名槽。每个槽指定一个提供者（用于存储和检索内存）和一个作用域（用于确定谁或什么共享内",
-        "在每次转动之前，eve 都会检索相关记忆并将其添加到模型的上下文中。根据提供商的不同，内存可以在轮次后通过代理使用的工具或通过这两种方法自动更新。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Persistent memory for eve agents - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-09",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/persistent-memory-for-eve-agents",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Persistent memory for eve agents - Vercel"
-      },
-      "raw": {
-        "title": "Persistent memory for eve agents",
-        "url": "https://vercel.com/changelog/persistent-memory-for-eve-agents",
-        "fetched": true,
-        "savedAt": "2026-09-10T02:40:29.000Z"
-      }
-    },
-    {
-      "id": "sig-4abb458e8b",
-      "title": "v0 添加了电子邮件、身份验证、搜索和数据库的一键集成 - Vercel",
-      "oneLiner": "我们正致力于在 Vercel 集成和 v0 之间实现平等，从 Resend 、 Amazon OpenSearch 、 MongoDB Atlas 、 Algolia 和 Clerk 开始。使用您想要构建的内容提示 v0，当您的提示需要提供",
-      "summary": {
-        "oneSentence": "我们正致力于在 Vercel 集成和 v0 之间实现平等，从 Resend 、 Amazon OpenSearch 、 MongoDB Atlas 、 Algolia 和 Clerk 开始。使用您想要构建的内容提示 v0，当您的提示需要提供",
-        "bullets": [
-          "我们正致力于在 Vercel 集成和 v0 之间实现平等，从 Resend 、 Amazon OpenSearch 、 MongoDB Atlas 、 Algolia 和 Clerk 开始。使用您想要构建的内容提示 v0，当您的提示需要提供程序时，v0 会在聊天中呈现连接卡。",
-          "通过 v0 中的 Marketplace 集成，您可以获得：",
-          "在构建时连接：使用您想要创建的内容提示 v0，并内联连接所需的提供程序。",
-          "自动设置：连接后，v0 会处理所需的环境变量和配置。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：我们正致力于在 Vercel 集成和 v0 之间实现平等，从 Resend 、 Amazon OpenSearch 、 MongoDB Atlas 、 Algolia 和 Clerk 开始。使用您想要构建的内容提示 v0，当您的提示需要提供",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/v0-adds-one-click-integrations-for-email-auth-search-and-databases"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "我们正致力于在 Vercel 集成和 v0 之间实现平等，从 Resend 、 Amazon OpenSearch 、 MongoDB Atlas 、 Algolia 和 Clerk 开始。使用您想要构建的内容提示 v0，当您的提示需要提供程序时，v0 会在聊天中呈现连接卡。",
-        "通过 v0 中的 Marketplace 集成，您可以获得：",
-        "在构建时连接：使用您想要创建的内容提示 v0，并内联连接所需的提供程序。",
-        "自动设置：连接后，v0 会处理所需的环境变量和配置。",
-        "自动加载提供者技能：当您连接发布代理技能的提供者时，v0 会加载它们并生成遵循提供者推荐模式的代码。",
-        "特定于提供商的功能：例如，Resend 通过 React Email 组件添加事务性电子邮件。",
-        "首先，打开 v0 聊天并提示您要添加到堆栈中的内容。",
-        "尼古拉斯·蒙托内、赫迪·赞迪、乔·萨多夫斯基"
-      ],
-      "highlights": [
-        "我们正致力于在 Vercel 集成和 v0 之间实现平等，从 Resend 、 Amazon OpenSearch 、 MongoDB Atlas 、 Algo",
-        "通过 v0 中的 Marketplace 集成，您可以获得：",
-        "在构建时连接：使用您想要创建的内容提示 v0，并内联连接所需的提供程序。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "v0 adds one-click integrations for email, auth, search, and databases - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-09",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/v0-adds-one-click-integrations-for-email-auth-search-and-databases",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "v0 adds one-click integrations for email, auth, search, and databases - Vercel"
-      },
-      "raw": {
-        "title": "v0 adds one-click integrations for email, auth, search, and databases",
-        "url": "https://vercel.com/changelog/v0-adds-one-click-integrations-for-email-auth-search-and-databases",
-        "fetched": true,
-        "savedAt": "2026-09-10T02:40:38.530Z"
-      }
-    },
-    {
-      "id": "sig-c22114eab3",
-      "title": "DeepSeek V4.1 Flash 现已在 AI Gateway 上提供 - Vercel",
-      "oneLiner": "DeepSeek V4.1 Flash 现已在 AI Gateway 上提供，具有原生图像理解功能。",
-      "summary": {
-        "oneSentence": "DeepSeek V4.1 Flash 现已在 AI Gateway 上提供，具有原生图像理解功能。",
-        "bullets": [
-          "DeepSeek V4.1 Flash 现已在 AI Gateway 上提供，具有原生图像理解功能。",
-          "V4.1 Flash 具有视觉支持，并在同一请求中接受文本和图像，因此您可以提出有关屏幕截图的问题、阅读图表以及从视觉内容中提取信息。",
-          "该模型具有 100 万个令牌上下文窗口，支持多达 384,000 个令牌的响应，以及推理、工具使用和提示缓存。其新架构使用单独的组件处理输入并生成输出，从而减少了每个阶段所需的主动计算。",
-          "使用 deepseek/deepseek-v4.1-flash 作为模型名称："
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：DeepSeek V4.1 Flash 现已在 AI Gateway 上提供，具有原生图像理解功能。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/deepseek-v4-1-flash-now-available-on-ai-gateway"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "DeepSeek V4.1 Flash 现已在 AI Gateway 上提供，具有原生图像理解功能。",
-        "V4.1 Flash 具有视觉支持，并在同一请求中接受文本和图像，因此您可以提出有关屏幕截图的问题、阅读图表以及从视觉内容中提取信息。",
-        "该模型具有 100 万个令牌上下文窗口，支持多达 384,000 个令牌的响应，以及推理、工具使用和提示缓存。其新架构使用单独的组件处理输入并生成输出，从而减少了每个阶段所需的主动计算。",
-        "使用 deepseek/deepseek-v4.1-flash 作为模型名称：",
-        "其他 Claude Code Hermes 聊天完成 其他 其他 Claude Code Claude Code Hermes Hermes 聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 3 const result = streamText({ 4 model: 'deepseek/deepseek-v4.1-flash', 5prompt: '解释如何使数据库迁移安全回滚。', 6});复制代理查看模型详细信息 ↗ 要在 Claude Code、Codex、Cursor 等中使用它，请安装最新的 Vercel CLI 并运行安装程序：",
-        "npm i -g vercel@最新 vercel ai-gateway 设置",
-        "然后在代理中选择deepseek/deepseek-v4.1-flash。有关详细信息，请参阅编码代理指南。",
-        "在模型游乐场中尝试 DeepSeek V4.1 Flash。",
-        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本，以及配置重试、故障转移和性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、零数据保留支持、API 密钥预算、路由规则等。",
-        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。"
-      ],
-      "highlights": [
-        "DeepSeek V4.1 Flash 现已在 AI Gateway 上提供，具有原生图像理解功能。",
-        "V4.1 Flash 具有视觉支持，并在同一请求中接受文本和图像，因此您可以提出有关屏幕截图的问题、阅读图表以及从视觉内容中提取信息。",
-        "该模型具有 100 万个令牌上下文窗口，支持多达 384,000 个令牌的响应，以及推理、工具使用和提示缓存。其新架构使用单独的组件处理输入并生成输出，从而减少"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "DeepSeek V4.1 Flash now available on AI Gateway - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-09",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/deepseek-v4-1-flash-now-available-on-ai-gateway",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "DeepSeek V4.1 Flash now available on AI Gateway - Vercel"
-      },
-      "raw": {
-        "title": "DeepSeek V4.1 Flash now available on AI Gateway",
-        "url": "https://vercel.com/changelog/deepseek-v4-1-flash-now-available-on-ai-gateway",
-        "fetched": true,
-        "savedAt": "2026-09-13T02:40:24.625Z"
-      }
-    },
-    {
-      "id": "sig-a57fa19afa",
-      "title": "第18期：展示你的作品 | Figma 博客",
-      "oneLiner": "真正的合作并不总是让人舒服。",
-      "summary": {
-        "oneSentence": "真正的合作并不总是让人舒服。",
-        "bullets": [
-          "真正的合作并不总是让人舒服。",
-          "你必须愿意分享这个过程中混乱的部分——粗略的草图、未解决的问题——这样其他人就可以在这些想法的基础上进行构建。本着这种精神，我们将带您走进 Figma 的幕后，分享人工智能建筑的人性化一面。",
-          "想要下一期直接发送到您的收件箱吗？在这里注册。",
-          "1. 数字工具让制作精美的东西变得容易，但对于 Config 2026，我们的 Brand Studio 使用 Figma Make 来帮助创建一种完全不完美的视觉语言 数字工具，人类表达：Config 2026 背后的视觉标识 Figma 的 Brand Studio 设计了一场会议，捕捉了我们在使用 AI 工具时重"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Figma 官网发布：真正的合作并不总是让人舒服。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://www.figma.com/blog/show-your-work/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "真正的合作并不总是让人舒服。",
-        "你必须愿意分享这个过程中混乱的部分——粗略的草图、未解决的问题——这样其他人就可以在这些想法的基础上进行构建。本着这种精神，我们将带您走进 Figma 的幕后，分享人工智能建筑的人性化一面。",
-        "想要下一期直接发送到您的收件箱吗？在这里注册。",
-        "1. 数字工具让制作精美的东西变得容易，但对于 Config 2026，我们的 Brand Studio 使用 Figma Make 来帮助创建一种完全不完美的视觉语言 数字工具，人类表达：Config 2026 背后的视觉标识 Figma 的 Brand Studio 设计了一场会议，捕捉了我们在使用 AI 工具时重新混合和重塑的非常人性化的方式。",
-        "2. 我们都听说过人工智能如何转移责任，但这实际上是什么样的？一位工程师、设计师和产品经理分享了如何在 Figma 中构建嵌套文件夹让他们对自己的角色有了新的认识。 代码、工艺和嵌套文件夹的制作 从将代码视为提案到将交接转变为对话，以下是我们如何塑造一种交付嵌套文件夹的新工作方式。",
-        "3. 产品设计师 Rogie King 的使命是将着色器引入 Figma，但首先，他必须组建合适的团队。以下是交付生成工具所需的要素：无懈可击的宣传、原型优先的流程以及具有感染力的热情 构建背后：Figma 的生成插件和着色器 从今天开始，您将对生成插件和着色器有更多的创造性控制，以及与社区分享您所做的工作的方式。产品设计师 Rogie King 讲述了我们如何走到这一步的故事。",
-        "4. 我们构建了人工智能情绪指数来衡量行业正在发生的变化、我们对此的感受以及它对设计的未来意味着什么。研究员 Shane Johnston 详细分析了人工智能如何帮助理解大量数据 您如何实际衡量人工智能对设计的影响？ 2024 年，我们启动了一项研究，以了解人工智能将如何重塑设计和产品开发。现在，人工智能正在帮助我们运行它。",
-        "我同意选择加入 Figma 的邮件列表。 * 点击“订阅”即表示您同意我们的服务条款和隐私政策。",
-        "我们制造事物的方式正在发生变化，但我们制造它们的原因却始终如一——看到愿景变为现实的兴奋感。",
-        "在新模型和代理工具之间，设计的发生方式正在快速变化。"
-      ],
-      "highlights": [
-        "真正的合作并不总是让人舒服。",
-        "你必须愿意分享这个过程中混乱的部分——粗略的草图、未解决的问题——这样其他人就可以在这些想法的基础上进行构建。本着这种精神，我们将带您走进 Figma 的幕后，",
-        "想要下一期直接发送到您的收件箱吗？在这里注册。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Issue no.18: Show your work | Figma Blog",
-      "originalLang": "en",
-      "date": "2026-09-09",
-      "categoryIds": [
-        "vertical-ui"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Figma",
-        "author": "Figma",
-        "url": "https://www.figma.com/blog/show-your-work/",
-        "home": "https://www.figma.com/blog/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Issue no.18: Show your work | Figma Blog"
-      },
-      "raw": {
-        "title": "Issue no.18: Show your work",
-        "url": "https://www.figma.com/blog/show-your-work/",
-        "fetched": true,
-        "savedAt": "2026-09-21T02:52:26.612Z"
       }
     }
   ]
