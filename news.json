@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-24T02:55:48.124Z",
+  "updatedAt": "2026-10-25T02:47:59.499Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 414,
+  "itemCount": 410,
   "brief": {
-    "date": "2026-10-24",
-    "generatedAt": "2026-10-24T02:55:48.123Z",
-    "totalCount": 414,
+    "date": "2026-10-25",
+    "generatedAt": "2026-10-25T02:47:59.498Z",
+    "totalCount": 410,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 414 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 410 条",
     "topUpdates": [
       {
         "id": "sig-8f3ff79e84",
@@ -60,8 +60,7 @@
         "sig-f50edeef79",
         "sig-b8b5f613d5",
         "sig-ecd4573e22",
-        "sig-089c4ff63d",
-        "sig-8e4f416112"
+        "sig-089c4ff63d"
       ],
       "insights": [
         "sig-8f3ff79e84",
@@ -92,8 +91,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-10-24T02:55:48.124Z",
-    "summary": "近 30 天共 264 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-10-25T02:47:59.499Z",
+    "summary": "近 30 天共 262 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -124,6 +123,18 @@
       "id": "sig-48e2274fdf",
       "title": "确保我们的前沿模型训练环境的安全",
       "oneLiner": "OpenAI 解释了我们如何加强对前沿模型训练和评估的遏制，包括离线环境和高计算红队。",
+      "date": "2026-10-23",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-15c1f8ef7a",
+      "title": "OpenAI 与波兰 NSK 合作推进人工智能安全",
+      "oneLiner": "OpenAI 和波兰的 NASK 正在人工智能安全和技术研究方面开展合作，以加强保障措施并支持更具弹性的数字生态系统。",
       "date": "2026-10-23",
       "productIds": [
         "chatgpt"
@@ -265,6 +276,42 @@
       "stars": 4
     },
     {
+      "id": "sig-1778fb273d",
+      "title": "东南亚数字经济规模将达3680亿美元",
+      "oneLiner": "生成式人工智能现已成为 2.43 亿东南亚人日常生活的重要组成部分。请阅读我们的第 11 份东南亚电子经济报告，了解这将如何影响该地区的经济。",
+      "date": "2026-10-21",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google AI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-9201054eeb",
+      "title": "Cloudflare 通过 OpenAI 将漏洞发现与防御联系起来",
+      "oneLiner": "Cloudflare 使用 OpenAI Daybreak 来调查漏洞并提出修复方案以供审查。其开发人员使用 Codex 来加快构建速度并提高代码质量。",
+      "date": "2026-10-21",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-b2deaf97c9",
+      "title": "前沿人工智能的民主治理，第二部分：赋予网络防御者权力",
+      "oneLiner": "OpenAI 勾勒出一个蓝图，为网络防御者提供前沿人工智能、更强大的保障、现代化的网络安全和更具弹性的公共机构。",
+      "date": "2026-10-21",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
       "id": "sig-b3fcb2e42d",
       "title": "特许经营商利用 ChatGPT Work 将现金核对时间缩短 94%",
       "oneLiner": "Schlotzsky’s 和 Cinnabon 的一家独立特许经营商将菜单重新定价时间缩短了 95%，并建立了一个可以释放 10 万美元现金流的工作流程。",
@@ -348,54 +395,6 @@
       "tags": [
         "Release"
       ],
-      "stars": 4
-    },
-    {
-      "id": "sig-4a2f3ca18e",
-      "title": "Benefit Street Partners 通过 Codex 更快地回答问题",
-      "oneLiner": "Anant Kumar 构建了比较贷款估值和分析信贷协议的工具，使用 Codex 进行代码审查和更快的跟进。",
-      "date": "2026-10-16",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-a72d1e4da6",
-      "title": "将 GPT-Rosalind 引入学术研究实验室",
-      "oneLiner": "推出 Rosalind 学术计划，为符合条件的学术实验室提供 GPT-Rosalind 资助的访问权限和推进生命科学研究的工具。",
-      "date": "2026-10-15",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-996b33c09a",
-      "title": "利用 Google Antigravity 加速抗菌肽的搜索",
-      "oneLiner": "田鹏飞、Maxwell L. Bileschi、Zoi Tsangalidou、Sukhdeep Singh 和 Lucy J. Colwell",
-      "date": "2026-10-15",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google DeepMind",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-fa14b8f7db",
-      "title": "教学生通过问题思考和学习",
-      "oneLiner": "通过 AI 为教育工作者提供巴西葡萄牙语庆祝教师节，了解学习模式如何帮助教师支持主动、循序渐进的学习。",
-      "date": "2026-10-15",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
       "stars": 4
     }
   ],
@@ -1289,6 +1288,243 @@
       }
     },
     {
+      "id": "sig-f87cb036a6",
+      "title": "从 Vercel CLI 发送反馈 - Vercel",
+      "oneLiner": "Vercel CLI 现在包含 vercel Feedback ，它可以从您的终端向 Vercel 团队发送错误、摩擦报告和功能请求。",
+      "summary": {
+        "oneSentence": "Vercel CLI 现在包含 vercel Feedback ，它可以从您的终端向 Vercel 团队发送错误、摩擦报告和功能请求。",
+        "bullets": [
+          "Vercel CLI 现在包含 vercel Feedback ，它可以从您的终端向 Vercel 团队发送错误、摩擦报告和功能请求。",
+          "终端 1 vercel 反馈“错误没有解释如何解决问题”",
+          "编码代理还可以在遇到问题时发送反馈。将 vercel 反馈与 -f 或 --field 结合使用以将结构化上下文包含为键=值对。重复该标志来描述任务、预期行为以及出现的问题。",
+          "终端1 vercel反馈“错误没有解释正确的命令”\\ 2 -f产品= cli \\ 3 -f模型= gpt-6-astra \\ 4 -fharness = fx \\ 5 -f任务=“部署预览”\\ 6 -f预期=“创建预览部署”\\ 7 -f实际=“未知选项：--preview”\\ 8 -f type = bug 9 10 "
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel CLI 现在包含 vercel Feedback ，它可以从您的终端向 Vercel 团队发送错误、摩擦报告和功能请求。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/send-feedback-from-vercel-cli"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel CLI 现在包含 vercel Feedback ，它可以从您的终端向 Vercel 团队发送错误、摩擦报告和功能请求。",
+        "终端 1 vercel 反馈“错误没有解释如何解决问题”",
+        "编码代理还可以在遇到问题时发送反馈。将 vercel 反馈与 -f 或 --field 结合使用以将结构化上下文包含为键=值对。重复该标志来描述任务、预期行为以及出现的问题。",
+        "终端1 vercel反馈“错误没有解释正确的命令”\\ 2 -f产品= cli \\ 3 -f模型= gpt-6-astra \\ 4 -fharness = fx \\ 5 -f任务=“部署预览”\\ 6 -f预期=“创建预览部署”\\ 7 -f实际=“未知选项：--preview”\\ 8 -f type = bug 9 10 cat Notes.md |韦尔塞尔反馈-",
+        "更新到最新的 Vercel CLI 并阅读 vercel 反馈文档以开始使用。"
+      ],
+      "highlights": [
+        "Vercel CLI 现在包含 vercel Feedback ，它可以从您的终端向 Vercel 团队发送错误、摩擦报告和功能请求。",
+        "终端 1 vercel 反馈“错误没有解释如何解决问题”",
+        "编码代理还可以在遇到问题时发送反馈。将 vercel 反馈与 -f 或 --field 结合使用以将结构化上下文包含为键=值对。重复该标志来描述任务、预期行为以"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Send feedback from the Vercel CLI - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-23",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/send-feedback-from-vercel-cli",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Send feedback from the Vercel CLI - Vercel"
+      },
+      "raw": {
+        "title": "Send feedback from the Vercel CLI",
+        "url": "https://vercel.com/changelog/send-feedback-from-vercel-cli",
+        "fetched": true,
+        "savedAt": "2026-10-25T02:47:13.050Z"
+      }
+    },
+    {
+      "id": "sig-15c1f8ef7a",
+      "title": "OpenAI 与波兰 NSK 合作推进人工智能安全",
+      "oneLiner": "OpenAI 和波兰的 NASK 正在人工智能安全和技术研究方面开展合作，以加强保障措施并支持更具弹性的数字生态系统。",
+      "summary": {
+        "oneSentence": "OpenAI 和波兰的 NASK 正在人工智能安全和技术研究方面开展合作，以加强保障措施并支持更具弹性的数字生态系统。",
+        "bullets": [
+          "OpenAI 和波兰的 NASK 正在人工智能安全和技术研究方面开展合作，以加强保障措施并支持更具弹性的数字生态系统。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 和波兰的 NASK 正在人工智能安全和技术研究方面开展合作，以加强保障措施并支持更具弹性的数字生态系统。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/openai-nask-ai-safety-security-partnership"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 和波兰的 NASK 正在人工智能安全和技术研究方面开展合作，以加强保障措施并支持更具弹性的数字生态系统。"
+      ],
+      "highlights": [
+        "OpenAI 和波兰的 NASK 正在人工智能安全和技术研究方面开展合作，以加强保障措施并支持更具弹性的数字生态系统。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+      "originalLang": "en",
+      "date": "2026-10-23",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "OpenAI and Poland’s NASK partner to advance AI safety and security"
+      },
+      "raw": {
+        "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+        "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+        "fetched": false,
+        "savedAt": "2026-10-25T02:47:14.263Z"
+      }
+    },
+    {
+      "id": "sig-e707ae4f17",
+      "title": "Kimi K3.1 Pro 和 Kimi K3.1 Pro Highspeed 现已在 AI Gateway 中上市 - Vercel",
+      "oneLiner": "Moonshot AI 的 Kimi K3.1 Pro 现已在 AI Gateway 上提供，同时还有 Kimi K3.1 Pro Highspeed（用于交互式使用的更快版本）。",
+      "summary": {
+        "oneSentence": "Moonshot AI 的 Kimi K3.1 Pro 现已在 AI Gateway 上提供，同时还有 Kimi K3.1 Pro Highspeed（用于交互式使用的更快版本）。",
+        "bullets": [
+          "Moonshot AI 的 Kimi K3.1 Pro 现已在 AI Gateway 上提供，同时还有 Kimi K3.1 Pro Highspeed（用于交互式使用的更快版本）。",
+          "K3.1 Pro是Moonshot K3.1系列的首款型号。它建立在 Kimi K3 的基础上，在编码、3D 建模、财务分析和代理任务方面进行了改进，并保留了 1M 代币上下文窗口和图像输入。",
+          "对于编码，K3.1 Pro 可以处理从现有代码库中的小修复到构建完整项目的工作，包括包含多个步骤的长时间代理运行。它构建的前端页面和交互式场景具有比早期 Kimi 模型更强大的排版和动画。在金融领域，它可以从头到尾执行一项任务，例如构建具有可调整假设和情景的链接财务模型，或撰写基于源文档的研究。与早期的 Kimi 型号",
+          "Moonshot AI 计划在 11 月 4 日之前发布模型权重：随后将支持更多提供商。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Moonshot AI 的 Kimi K3.1 Pro 现已在 AI Gateway 上提供，同时还有 Kimi K3.1 Pro Highspeed（用于交互式使用的更快版本）。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/kimi-k3-1-pro-and-kimi-k3-1-pro-highspeed-are-available-now-in-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Moonshot AI 的 Kimi K3.1 Pro 现已在 AI Gateway 上提供，同时还有 Kimi K3.1 Pro Highspeed（用于交互式使用的更快版本）。",
+        "K3.1 Pro是Moonshot K3.1系列的首款型号。它建立在 Kimi K3 的基础上，在编码、3D 建模、财务分析和代理任务方面进行了改进，并保留了 1M 代币上下文窗口和图像输入。",
+        "对于编码，K3.1 Pro 可以处理从现有代码库中的小修复到构建完整项目的工作，包括包含多个步骤的长时间代理运行。它构建的前端页面和交互式场景具有比早期 Kimi 模型更强大的排版和动画。在金融领域，它可以从头到尾执行一项任务，例如构建具有可调整假设和情景的链接财务模型，或撰写基于源文档的研究。与早期的 Kimi 型号相比，K3.1 Pro 在困难提示中出现的事实错误更少。",
+        "Moonshot AI 计划在 11 月 4 日之前发布模型权重：随后将支持更多提供商。",
+        "通过 AI SDK 、 Chat Completions 、 Responses 和 Anthropic Messages API 或连接到 AI Gateway 的编码代理调用任一模型。对于 Highspeed，请使用 Moonshotai/kimi-k3.1-pro-highspeed 代替下面的型号名称。",
+        "使用 Moonshotai/kimi-k3.1-pro 作为型号名称：",
+        "API Claude Code Codex fx 聊天完成 API API Claude Code Claude Code Codex Codex fx fx 聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 3 const result = streamText ({ 4 model: 'moonshotai/kimi-k3.1-pro', 5 Prompt: '编写一个模拟参数书架的 Blender 脚本。', 6 }) ;复制代理查看模型详细信息 ↗ 要在 Claude Code、Codex、Cursor 等中使用它，请安装最新的 Vercel CLI 并运行安装程序：",
+        "然后在代理中选择moonshotai/kimi-k3.1-pro或moonshotai/kimi-k3.1-pro-highspeed。有关详细信息，请参阅编码代理指南。",
+        "在模型游乐场试用 Kimi K3.1 Pro。",
+        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本，以及配置重试、故障转移和性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、零数据保留支持、API 密钥预算、路由规则等。"
+      ],
+      "highlights": [
+        "Moonshot AI 的 Kimi K3.1 Pro 现已在 AI Gateway 上提供，同时还有 Kimi K3.1 Pro Highspeed（用于交互",
+        "K3.1 Pro是Moonshot K3.1系列的首款型号。它建立在 Kimi K3 的基础上，在编码、3D 建模、财务分析和代理任务方面进行了改进，并保留了 ",
+        "对于编码，K3.1 Pro 可以处理从现有代码库中的小修复到构建完整项目的工作，包括包含多个步骤的长时间代理运行。它构建的前端页面和交互式场景具有比早期 Kim"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Kimi K3.1 Pro and Kimi K3.1 Pro Highspeed are available now in AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-23",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/kimi-k3-1-pro-and-kimi-k3-1-pro-highspeed-are-available-now-in-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Kimi K3.1 Pro and Kimi K3.1 Pro Highspeed are available now in AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Kimi K3.1 Pro and Kimi K3.1 Pro Highspeed are available now in AI Gateway",
+        "url": "https://vercel.com/changelog/kimi-k3-1-pro-and-kimi-k3-1-pro-highspeed-are-available-now-in-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-10-25T02:47:22.412Z"
+      }
+    },
+    {
       "id": "sig-693a362689",
       "title": "现在又有 8 个 TLD 有资格获得 Pro - Vercel 的免费域名",
       "oneLiner": "每个专业团队都可以申请一年的免费域名。该优惠现在包括 .co 、 .studio 、 .company 、 .info 、 .pro 、 .live 、 .digital 和 .agency ，使符合条件的 TLD 达到 16 个。",
@@ -1924,6 +2160,87 @@
         "url": "https://openai.com/index/uber-chatgpt-work-rollout",
         "fetched": false,
         "savedAt": "2026-10-23T02:58:45.564Z"
+      }
+    },
+    {
+      "id": "sig-21efaf8a98",
+      "title": "使用 Vercel CLI 无需帐户即可部署 - Vercel",
+      "oneLiner": "您现在可以使用 Vercel CLI 将应用程序部署到 Vercel，而无需帐户。在登录并声明您的项目之前，使用实时 URL 可以更快地共享原型。",
+      "summary": {
+        "oneSentence": "您现在可以使用 Vercel CLI 将应用程序部署到 Vercel，而无需帐户。在登录并声明您的项目之前，使用实时 URL 可以更快地共享原型。",
+        "bullets": [
+          "您现在可以使用 Vercel CLI 将应用程序部署到 Vercel，而无需帐户。在登录并声明您的项目之前，使用实时 URL 可以更快地共享原型。",
+          "从未链接到 Vercel 的项目目录中，运行：",
+          "# 部署当前项目 vercel deploy --temporary # 部署单个文件 vercel deploy --temporary prototype.html 没有 Vercel 账户的情况下部署项目或单个文件",
+          "CLI 在需要时在本地构建您的项目，并返回您可以共享的部署 URL。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：您现在可以使用 Vercel CLI 将应用程序部署到 Vercel，而无需帐户。在登录并声明您的项目之前，使用实时 URL 可以更快地共享原型。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/deploy-without-an-account-using-vercel-cli"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "您现在可以使用 Vercel CLI 将应用程序部署到 Vercel，而无需帐户。在登录并声明您的项目之前，使用实时 URL 可以更快地共享原型。",
+        "从未链接到 Vercel 的项目目录中，运行：",
+        "# 部署当前项目 vercel deploy --temporary # 部署单个文件 vercel deploy --temporary prototype.html 没有 Vercel 账户的情况下部署项目或单个文件",
+        "CLI 在需要时在本地构建您的项目，并返回您可以共享的部署 URL。",
+        "临时部署使用专用的 tmp.now 域，与 vercel.app 分开，并在一小时后过期，除非声明。",
+        "要保持您的项目正常运行，请打开 CLI 输出中的声明链接并登录或创建帐户。保持此链接的私密性。",
+        "请阅读 Vercel CLI 文档以开始使用。"
+      ],
+      "highlights": [
+        "您现在可以使用 Vercel CLI 将应用程序部署到 Vercel，而无需帐户。在登录并声明您的项目之前，使用实时 URL 可以更快地共享原型。",
+        "从未链接到 Vercel 的项目目录中，运行：",
+        "# 部署当前项目 vercel deploy --temporary # 部署单个文件 vercel deploy --temporary prototype."
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Deploy without an account using Vercel CLI - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-22",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/deploy-without-an-account-using-vercel-cli",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Deploy without an account using Vercel CLI - Vercel"
+      },
+      "raw": {
+        "title": "Deploy without an account using Vercel CLI",
+        "url": "https://vercel.com/changelog/deploy-without-an-account-using-vercel-cli",
+        "fetched": true,
+        "savedAt": "2026-10-25T02:47:28.459Z"
       }
     },
     {
@@ -2777,6 +3094,401 @@
         "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data",
         "fetched": false,
         "savedAt": "2026-10-23T02:58:46.772Z"
+      }
+    },
+    {
+      "id": "sig-1778fb273d",
+      "title": "东南亚数字经济规模将达3680亿美元",
+      "oneLiner": "生成式人工智能现已成为 2.43 亿东南亚人日常生活的重要组成部分。请阅读我们的第 11 份东南亚电子经济报告，了解这将如何影响该地区的经济。",
+      "summary": {
+        "oneSentence": "生成式人工智能现已成为 2.43 亿东南亚人日常生活的重要组成部分。请阅读我们的第 11 份东南亚电子经济报告，了解这将如何影响该地区的经济。",
+        "bullets": [
+          "生成式人工智能现已成为 2.43 亿东南亚人日常生活的重要组成部分。请阅读我们的第 11 份东南亚电子经济报告，了解这将如何影响该地区的经济。",
+          "东南亚及南亚前沿市场董事总经理",
+          "您的浏览器不支持音频元素。",
+          "东南亚的数字经济正在蓬勃发展，生成式人工智能将推动增长，预计到 2035 年估值将达到 1 万亿美元。消费者越来越习惯使用人工智能来完成复杂的任务，这标志着向自主“代理商务”的转变。为了保持这一势头，该地区现在必须优先考虑扩大数据中心基础设施、提高能源效率和建立统一的数字贸易政策。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google AI 官网发布：生成式人工智能现已成为 2.43 亿东南亚人日常生活的重要组成部分。请阅读我们的第 11 份东南亚电子经济报告，了解这将如何影响该地区的经济。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "生成式人工智能现已成为 2.43 亿东南亚人日常生活的重要组成部分。请阅读我们的第 11 份东南亚电子经济报告，了解这将如何影响该地区的经济。",
+        "东南亚及南亚前沿市场董事总经理",
+        "您的浏览器不支持音频元素。",
+        "东南亚的数字经济正在蓬勃发展，生成式人工智能将推动增长，预计到 2035 年估值将达到 1 万亿美元。消费者越来越习惯使用人工智能来完成复杂的任务，这标志着向自主“代理商务”的转变。为了保持这一势头，该地区现在必须优先考虑扩大数据中心基础设施、提高能源效率和建立统一的数字贸易政策。",
+        "人工智能在东南亚发展得非常快，数百万人已经使用它来购物、旅行和管理资金。预计到 2035 年，科技繁荣将使该地区的数字经济价值超过 1 万亿美元。那里的人们开始充分信任人工智能，让它处理比较价格和为他们购买商品等任务。为了保持这种增长势头，该地区正在建设更多的数据中心并制定新的规则，以确保一切安全高效。",
+        "在东南亚，生成式人工智能已成为日常生活的重要组成部分，有 2.43 亿人（占劳动人口的 58%）积极使用，其扩展速度比移动互联网的推出速度快四倍。根据第 11 版年度电子经济 SEA 报告 1，这对该地区的经济产生重大影响。谷歌、淡马锡和贝恩公司在《构建智能经济》中发现，人工智能的广泛应用正在推动该地区的数字经济同比增长 17%，到 2026 年商品总价值 (GMV) 将达到 3,680 亿美元2。这使其坚定地有望在 2035 年突破 1 万亿美元。该报告使用代币 3 作为人工智能经济的新基准，预计该地区的数字经济将在 2026 年达到 3,680 亿美元。对代理商务的信心将推动未来五年区域人工智能的使用量激增 60 倍。",
+        "以下是今年《2026 年东南亚电子经济》报告的三个关键要点：",
+        "在数字经济中，人工智能正在重塑人们的生活、购物和出行方式。电子商务（GMV 为 226B 美元，同比增长 18%）奠定了这一转变的基础，因为购物者使用多模式发现和应用内助手自信地导航复杂的购买。这些个性化体验有机地推动转化率提高 10%，订单量提升高达 75%。",
+        "在在线旅游领域（GMV 为 590 亿美元，同比增长 10%），传统搜索引擎仍然是人们用来计划旅行的首要平台，而生成式人工智能已超越社交媒体，成为组织复杂行程的第二大常用工具。",
+        "在线媒体（收入 44B 美元，同比增长 22%）正在个性化内容源，并将受众与更相关的广告联系起来，随着商业媒体成为 40 亿美元的市场，质量参与度提升了 10 至 20%。"
+      ],
+      "highlights": [
+        "生成式人工智能现已成为 2.43 亿东南亚人日常生活的重要组成部分。请阅读我们的第 11 份东南亚电子经济报告，了解这将如何影响该地区的经济。",
+        "东南亚及南亚前沿市场董事总经理",
+        "您的浏览器不支持音频元素。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Southeast Asia’s digital economy to hit $368 billion",
+      "originalLang": "en",
+      "date": "2026-10-21",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Southeast Asia’s digital economy to hit $368 billion"
+      },
+      "raw": {
+        "title": "Southeast Asia’s digital economy to hit $368 billion",
+        "url": "https://blog.google/company-news/inside-google/around-the-globe/google-asia/e-conomy-sea-report-2026/",
+        "fetched": true,
+        "savedAt": "2026-10-25T02:47:36.570Z"
+      }
+    },
+    {
+      "id": "sig-9201054eeb",
+      "title": "Cloudflare 通过 OpenAI 将漏洞发现与防御联系起来",
+      "oneLiner": "Cloudflare 使用 OpenAI Daybreak 来调查漏洞并提出修复方案以供审查。其开发人员使用 Codex 来加快构建速度并提高代码质量。",
+      "summary": {
+        "oneSentence": "Cloudflare 使用 OpenAI Daybreak 来调查漏洞并提出修复方案以供审查。其开发人员使用 Codex 来加快构建速度并提高代码质量。",
+        "bullets": [
+          "Cloudflare 使用 OpenAI Daybreak 来调查漏洞并提出修复方案以供审查。其开发人员使用 Codex 来加快构建速度并提高代码质量。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：Cloudflare 使用 OpenAI Daybreak 来调查漏洞并提出修复方案以供审查。其开发人员使用 Codex 来加快构建速度并提高代码质量。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/cloudflare-cyber"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Cloudflare 使用 OpenAI Daybreak 来调查漏洞并提出修复方案以供审查。其开发人员使用 Codex 来加快构建速度并提高代码质量。"
+      ],
+      "highlights": [
+        "Cloudflare 使用 OpenAI Daybreak 来调查漏洞并提出修复方案以供审查。其开发人员使用 Codex 来加快构建速度并提高代码质量。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Cloudflare links vulnerability discovery to defense with OpenAI",
+      "originalLang": "en",
+      "date": "2026-10-21",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/cloudflare-cyber",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Cloudflare links vulnerability discovery to defense with OpenAI"
+      },
+      "raw": {
+        "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
+        "url": "https://openai.com/index/cloudflare-cyber",
+        "fetched": false,
+        "savedAt": "2026-10-25T02:47:38.258Z"
+      }
+    },
+    {
+      "id": "sig-b2deaf97c9",
+      "title": "前沿人工智能的民主治理，第二部分：赋予网络防御者权力",
+      "oneLiner": "OpenAI 勾勒出一个蓝图，为网络防御者提供前沿人工智能、更强大的保障、现代化的网络安全和更具弹性的公共机构。",
+      "summary": {
+        "oneSentence": "OpenAI 勾勒出一个蓝图，为网络防御者提供前沿人工智能、更强大的保障、现代化的网络安全和更具弹性的公共机构。",
+        "bullets": [
+          "OpenAI 勾勒出一个蓝图，为网络防御者提供前沿人工智能、更强大的保障、现代化的网络安全和更具弹性的公共机构。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 勾勒出一个蓝图，为网络防御者提供前沿人工智能、更强大的保障、现代化的网络安全和更具弹性的公共机构。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/empowering-cyber-defenders"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 勾勒出一个蓝图，为网络防御者提供前沿人工智能、更强大的保障、现代化的网络安全和更具弹性的公共机构。"
+      ],
+      "highlights": [
+        "OpenAI 勾勒出一个蓝图，为网络防御者提供前沿人工智能、更强大的保障、现代化的网络安全和更具弹性的公共机构。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+      "originalLang": "en",
+      "date": "2026-10-21",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/empowering-cyber-defenders",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Democratic governance of frontier AI, part II: Empowering cyber defenders"
+      },
+      "raw": {
+        "title": "Democratic governance of frontier AI, part II: Empowering cyber defenders",
+        "url": "https://openai.com/index/empowering-cyber-defenders",
+        "fetched": false,
+        "savedAt": "2026-10-25T02:47:39.829Z"
+      }
+    },
+    {
+      "id": "sig-2ab07a8a3b",
+      "title": "Baseten 的 Mammoth-1 和 Elephant-1 现已在 AI Gateway 上免费提供 - Vercel",
+      "oneLiner": "Baseten 的 Mammoth-1 和 Elephant-1 现已在 AI Gateway 上免费提供一周。免费访问截止日期为 10 月 27 日。这些决策模型对文本、路由请求进行分类，并根据您定义的标准对内容进行评分。",
+      "summary": {
+        "oneSentence": "Baseten 的 Mammoth-1 和 Elephant-1 现已在 AI Gateway 上免费提供一周。免费访问截止日期为 10 月 27 日。这些决策模型对文本、路由请求进行分类，并根据您定义的标准对内容进行评分。",
+        "bullets": [
+          "Baseten 的 Mammoth-1 和 Elephant-1 现已在 AI Gateway 上免费提供一周。免费访问截止日期为 10 月 27 日。这些决策模型对文本、路由请求进行分类，并根据您定义的标准对内容进行评分。",
+          "Mammoth-1 是较大的 27B 型号，而 Elephant-1 是较小的 9B 型号。 Mammoth-1 在 Jev 决策指数上排名第一，Elephant-1 在人工分析决策指数上并列第一。",
+          "两者都支持 16k-token 上下文窗口并返回选择、概率和分数。在一个请求中针对同一输入询问多个问题：使用选择问题选择支持团队，使用布尔问题检查退款请求，或使用分数问题评价紧急程度。您的应用程序选择自动执行操作或发送结果以供审核的概率阈值。",
+          "使用baseten/mammoth-1或baseten/elephant-1作为模型名称："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Baseten 的 Mammoth-1 和 Elephant-1 现已在 AI Gateway 上免费提供一周。免费访问截止日期为 10 月 27 日。这些决策模型对文本、路由请求进行分类，并根据您定义的标准对内容进行评分。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/basetens-mammoth-1-and-elephant-1-now-available-on-ai-gateway-for-free"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Baseten 的 Mammoth-1 和 Elephant-1 现已在 AI Gateway 上免费提供一周。免费访问截止日期为 10 月 27 日。这些决策模型对文本、路由请求进行分类，并根据您定义的标准对内容进行评分。",
+        "Mammoth-1 是较大的 27B 型号，而 Elephant-1 是较小的 9B 型号。 Mammoth-1 在 Jev 决策指数上排名第一，Elephant-1 在人工分析决策指数上并列第一。",
+        "两者都支持 16k-token 上下文窗口并返回选择、概率和分数。在一个请求中针对同一输入询问多个问题：使用选择问题选择支持团队，使用布尔问题检查退款请求，或使用分数问题评价紧急程度。您的应用程序选择自动执行操作或发送结果以供审核的概率阈值。",
+        "使用baseten/mammoth-1或baseten/elephant-1作为模型名称：",
+        "AI SDK 决策 API TypeSafe-compat AI SDK AI SDK 决策 API 决策 API TypeSafe-compat TypeSafe-compat 1 import {experimental_decide asdecide} from 'ai' ; 2 3 const result = waitdecide({ 4 model: 'baseten/mammoth-1' , 5 state: '我被扣了两次钱，请退还重复的钱。' , 6 questions : { 7 returned : { 8 type : 'boolean' , 9 instructions : '客户是否要求退款？' , 10 } , 11 } , 12 } ) ; 13 14 控制台。日志（结果。答案。退款）；代理副本 查看模型详细信息 ↗ 有关问题类型和其他使用详细信息，请参阅决策模型文档。",
+        "AI Gateway 提供统一的 API 用于访问模型并跟踪使用情况和成本。决策调用出现在日志中，并与其他模型请求一起计入预算。",
+        "浏览 AI Gateway 上可用的所有决策模型。"
+      ],
+      "highlights": [
+        "Baseten 的 Mammoth-1 和 Elephant-1 现已在 AI Gateway 上免费提供一周。免费访问截止日期为 10 月 27 日。这些决策",
+        "Mammoth-1 是较大的 27B 型号，而 Elephant-1 是较小的 9B 型号。 Mammoth-1 在 Jev 决策指数上排名第一，Elephan",
+        "两者都支持 16k-token 上下文窗口并返回选择、概率和分数。在一个请求中针对同一输入询问多个问题：使用选择问题选择支持团队，使用布尔问题检查退款请求，或使"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Baseten's Mammoth-1 and Elephant-1 now available on AI Gateway for free - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-21",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/basetens-mammoth-1-and-elephant-1-now-available-on-ai-gateway-for-free",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Baseten's Mammoth-1 and Elephant-1 now available on AI Gateway for free - Vercel"
+      },
+      "raw": {
+        "title": "Baseten's Mammoth-1 and Elephant-1 now available on AI Gateway for free",
+        "url": "https://vercel.com/changelog/basetens-mammoth-1-and-elephant-1-now-available-on-ai-gateway-for-free",
+        "fetched": true,
+        "savedAt": "2026-10-25T02:47:45.131Z"
+      }
+    },
+    {
+      "id": "sig-ee10f39a97",
+      "title": "跳过 monorepo 部署不再计入限制 - Vercel",
+      "oneLiner": "Vercel 在单一存储库中自动跳过的部署不再会计入您的部署速率限制。拥有 monorepos 的团队现在可以在相同的限制下获得更多的部署。",
+      "summary": {
+        "oneSentence": "Vercel 在单一存储库中自动跳过的部署不再会计入您的部署速率限制。拥有 monorepos 的团队现在可以在相同的限制下获得更多的部署。",
+        "bullets": [
+          "Vercel 在单一存储库中自动跳过的部署不再会计入您的部署速率限制。拥有 monorepos 的团队现在可以在相同的限制下获得更多的部署。",
+          "当项目的源代码和内部依赖项未更改时，Vercel 会跳过项目的部署，使用 Turborepo 的包图和锁定文件分析来确定提交影响哪些项目。",
+          "新的 monorepo 项目默认启用跳过。您可以在项目设置的“构建和部署”下为现有项目启用它。",
+          "了解有关跳过不受影响的项目和部署限制的更多信息。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel 在单一存储库中自动跳过的部署不再会计入您的部署速率限制。拥有 monorepos 的团队现在可以在相同的限制下获得更多的部署。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/skipped-monorepo-deployments-no-longer-count-against-limits"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel 在单一存储库中自动跳过的部署不再会计入您的部署速率限制。拥有 monorepos 的团队现在可以在相同的限制下获得更多的部署。",
+        "当项目的源代码和内部依赖项未更改时，Vercel 会跳过项目的部署，使用 Turborepo 的包图和锁定文件分析来确定提交影响哪些项目。",
+        "新的 monorepo 项目默认启用跳过。您可以在项目设置的“构建和部署”下为现有项目启用它。",
+        "了解有关跳过不受影响的项目和部署限制的更多信息。"
+      ],
+      "highlights": [
+        "Vercel 在单一存储库中自动跳过的部署不再会计入您的部署速率限制。拥有 monorepos 的团队现在可以在相同的限制下获得更多的部署。",
+        "当项目的源代码和内部依赖项未更改时，Vercel 会跳过项目的部署，使用 Turborepo 的包图和锁定文件分析来确定提交影响哪些项目。",
+        "新的 monorepo 项目默认启用跳过。您可以在项目设置的“构建和部署”下为现有项目启用它。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Skipped monorepo deployments no longer count against limits - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-21",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/skipped-monorepo-deployments-no-longer-count-against-limits",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Skipped monorepo deployments no longer count against limits - Vercel"
+      },
+      "raw": {
+        "title": "Skipped monorepo deployments no longer count against limits",
+        "url": "https://vercel.com/changelog/skipped-monorepo-deployments-no-longer-count-against-limits",
+        "fetched": true,
+        "savedAt": "2026-10-25T02:47:48.661Z"
       }
     },
     {
@@ -4067,6 +4779,84 @@
       }
     },
     {
+      "id": "sig-3005eb1ae0",
+      "title": "让每一条安全带都经久耐用",
+      "oneLiner": "0 20s 40s 1m 1m 20s pi 6.13s 代理.step 1.58s 聊天 anthropic/claude-opus-5.5-fast 1.57s 代理.step 27ms write_file 26ms 代理.step ",
+      "summary": {
+        "oneSentence": "0 20s 40s 1m 1m 20s pi 6.13s 代理.step 1.58s 聊天 anthropic/claude-opus-5.5-fast 1.57s 代理.step 27ms write_file 26ms 代理.step ",
+        "bullets": [
+          "0 20s 40s 1m 1m 20s pi 6.13s 代理.step 1.58s 聊天 anthropic/claude-opus-5.5-fast 1.57s 代理.step 27ms write_file 26ms 代理.step 1ms list_files 1ms 代理.step 1ms read_file",
+          "使用工作区工具读写/workspace下的文件。",
+          "用户将关于持久代理的简短俳句写入/workspace/haiku.md，然后列出工作区中的文件并读回俳句。",
+          "输出 write_file {\"path\":\"/workspace/haiku.md\",\"content\":\"状态持续一段时间\\n代理暂停然后恢复\\n内存持久\\n\"} 属性 agent.channel.audience public agent.channel.kind http agent.framework.nam"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：0 20s 40s 1m 1m 20s pi 6.13s 代理.step 1.58s 聊天 anthropic/claude-opus-5.5-fast 1.57s 代理.step 27ms write_file 26ms 代理.step ",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/making-every-harness-durable"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "0 20s 40s 1m 1m 20s pi 6.13s 代理.step 1.58s 聊天 anthropic/claude-opus-5.5-fast 1.57s 代理.step 27ms write_file 26ms 代理.step 1ms list_files 1ms 代理.step 1ms read_file 1ms 代理.step 2.13s 聊天anthropic/claude-opus-5.5-fast 720ms 聊天 anthropic/claude-opus-5.5-fast 1.18s agent.step 1ms edit_file 1ms agent.step 0ms read_file 0ms agent.step 1.34s 聊天 anthropic/claude-opus-5.5-fast 1.33s pi 4.21s agent.step 1.65s 聊天anthropic/claude-opus-5.5-fast 1.64s agent.step 2ms edit_file 2ms agent.step 1.2s 聊天 anthropic/claude-opus-5.5-fast 1.2s agent.step 1ms read_file 1ms agent.step 1.32s 聊天 anthropic/claude-opus-5.5-fast 1.31s claude-opus-5.5-fast 聊天指标 2 小时前开始 持续时间 1.57s 偏移 2ms 令牌 1.8K 输入 4 <1% 缓存写入 1.6K 90% 输出 181 10% 输入上下文 系统 您是 pi，一名编码代理。",
+        "使用工作区工具读写/workspace下的文件。",
+        "用户将关于持久代理的简短俳句写入/workspace/haiku.md，然后列出工作区中的文件并读回俳句。",
+        "输出 write_file {\"path\":\"/workspace/haiku.md\",\"content\":\"状态持续一段时间\\n代理暂停然后恢复\\n内存持久\\n\"} 属性 agent.channel.audience public agent.channel.kind http agent.framework.name Durable-harness agent.name pi agent.run.id wrun_01M4Y4FZZA6EA59FD301SYGYRN agent.run.type 会话agent.session.origin 通道agent.step.attempt 1agent.trace.content.input trueagent.trace.content.output trueagent.trace.schema.version 4agent.turn.id evnt_00000000000000000000000002 gen_ai.agent.name pi gen_ai.conversation.id wrun_01M4Y4FZZA6EA59FD301SYGYRN gen_ai.operation.name 聊天 gen_ai.response.model claude-opus-5-5 gen_ai.usage.cache_write.input_tokens 0 gen_ai.usage.input_tokens 4 gen_ai.usage.output_tokens 181"
+      ],
+      "highlights": [
+        "0 20s 40s 1m 1m 20s pi 6.13s 代理.step 1.58s 聊天 anthropic/claude-opus-5.5-fast 1.5",
+        "使用工作区工具读写/workspace下的文件。",
+        "用户将关于持久代理的简短俳句写入/workspace/haiku.md，然后列出工作区中的文件并读回俳句。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Making every harness durable",
+      "originalLang": "en",
+      "date": "2026-10-19",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/making-every-harness-durable",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Making every harness durable"
+      },
+      "raw": {
+        "title": "Making every harness durable",
+        "url": "https://vercel.com/blog/making-every-harness-durable",
+        "fetched": true,
+        "savedAt": "2026-10-25T02:47:52.632Z"
+      }
+    },
+    {
       "id": "sig-f3b4b96b5b",
       "title": "AI 网关日志现在显示会话关联性 - Vercel",
       "oneLiner": "AI Gateway 日志现在具有会话视图，该视图将请求分组到会话中，并显示会话关联性如何路由每个会话。每行显示运行会话的编码代理或应用程序，例如 Claude Code、Codex 或 Cursor，以及其成本、模型、提供程序以及每轮缓存",
@@ -4793,7 +5583,7 @@
         "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
         "fetched": true,
         "savedAt": "2026-10-17T02:36:45.886Z",
-        "retranslatedAt": "2026-10-24T02:55:42.410Z"
+        "retranslatedAt": "2026-10-25T02:47:53.926Z"
       }
     },
     {
@@ -8391,7 +9181,7 @@
         "url": "https://cursor.com/changelog/origin-app-marketplace",
         "fetched": true,
         "savedAt": "2026-10-14T03:08:22.474Z",
-        "retranslatedAt": "2026-10-24T02:55:43.672Z"
+        "retranslatedAt": "2026-10-25T02:47:55.257Z"
       }
     },
     {
@@ -13846,7 +14636,7 @@
         "url": "https://cursor.com/changelog/remote-control-local-agents",
         "fetched": true,
         "savedAt": "2026-10-11T03:27:39.323Z",
-        "retranslatedAt": "2026-10-24T02:55:44.856Z"
+        "retranslatedAt": "2026-10-25T02:47:56.389Z"
       }
     },
     {
@@ -23274,7 +24064,7 @@
         "url": "https://cursor.com/changelog/rollouts-and-security-reviewer",
         "fetched": true,
         "savedAt": "2026-09-27T03:09:42.462Z",
-        "retranslatedAt": "2026-10-24T02:55:46.095Z"
+        "retranslatedAt": "2026-10-25T02:47:57.497Z"
       }
     },
     {
@@ -31623,1112 +32413,6 @@
         "url": "https://simonwillison.net/2026/Sep/11/datasette-security/",
         "fetched": false,
         "savedAt": "2026-09-15T02:57:29.240Z"
-      }
-    },
-    {
-      "id": "sig-6dde567f1f",
-      "title": "GitHub Copilot 现已在 AI SDK 线束层 - Vercel 中可用",
-      "oneLiner": "AI SDK 线束层现在通过官方 @ai-sdk/harness-github-copilot 适配器支持 GitHub Copilot。利用线束层允许您的应用程序通过相同的 HarnessAgent 接口运行不同的编码代理，因此您可以在不",
-      "summary": {
-        "oneSentence": "AI SDK 线束层现在通过官方 @ai-sdk/harness-github-copilot 适配器支持 GitHub Copilot。利用线束层允许您的应用程序通过相同的 HarnessAgent 接口运行不同的编码代理，因此您可以在不",
-        "bullets": [
-          "AI SDK 线束层现在通过官方 @ai-sdk/harness-github-copilot 适配器支持 GitHub Copilot。利用线束层允许您的应用程序通过相同的 HarnessAgent 接口运行不同的编码代理，因此您可以在不更改应用程序代码的情况下切换代理。",
-          "1 从 '@ai-sdk/harness/agent' 导入 { HarnessAgent } ； 2 从 '@ai-sdk/harness-github-copilot' 导入 { githubCopilot } ； 3 4 const agent = new HarnessAgent ({ 5harness: gi",
-          "在底层，适配器使用 @ai-sdk/harness-acp 通过代理客户端协议 (ACP) 将 GitHub Copilot 连接到 HarnessAgent。",
-          "除了 GitHub Copilot 之外，现在支持的工具还包括 Claude Code、Cline、Codex、Cursor、Deep Agents、fx、Grok Build、OpenCode 和 Pi，更多工具即将推出。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：AI SDK 线束层现在通过官方 @ai-sdk/harness-github-copilot 适配器支持 GitHub Copilot。利用线束层允许您的应用程序通过相同的 HarnessAgent 接口运行不同的编码代理，因此您可以在不",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/github-copilot-ai-sdk-harness-adapter"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "AI SDK 线束层现在通过官方 @ai-sdk/harness-github-copilot 适配器支持 GitHub Copilot。利用线束层允许您的应用程序通过相同的 HarnessAgent 接口运行不同的编码代理，因此您可以在不更改应用程序代码的情况下切换代理。",
-        "1 从 '@ai-sdk/harness/agent' 导入 { HarnessAgent } ； 2 从 '@ai-sdk/harness-github-copilot' 导入 { githubCopilot } ； 3 4 const agent = new HarnessAgent ({ 5harness: githubCopilot, 6 });创建一个运行 GitHub Copilot 的 HarnessAgent。",
-        "在底层，适配器使用 @ai-sdk/harness-acp 通过代理客户端协议 (ACP) 将 GitHub Copilot 连接到 HarnessAgent。",
-        "除了 GitHub Copilot 之外，现在支持的工具还包括 Claude Code、Cline、Codex、Cursor、Deep Agents、fx、Grok Build、OpenCode 和 Pi，更多工具即将推出。",
-        "请阅读 GitHub Copilot 线束文档以开始使用。"
-      ],
-      "highlights": [
-        "AI SDK 线束层现在通过官方 @ai-sdk/harness-github-copilot 适配器支持 GitHub Copilot。利用线束层允许您的应用",
-        "1 从 '@ai-sdk/harness/agent' 导入 { HarnessAgent } ； 2 从 '@ai-sdk/harness-github-co",
-        "在底层，适配器使用 @ai-sdk/harness-acp 通过代理客户端协议 (ACP) 将 GitHub Copilot 连接到 HarnessAgent。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "GitHub Copilot is now available in the AI SDK harness layer - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-10",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/github-copilot-ai-sdk-harness-adapter",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "GitHub Copilot is now available in the AI SDK harness layer - Vercel"
-      },
-      "raw": {
-        "title": "GitHub Copilot is now available in the AI SDK harness layer",
-        "url": "https://vercel.com/changelog/github-copilot-ai-sdk-harness-adapter",
-        "fetched": true,
-        "savedAt": "2026-09-11T02:32:43.783Z"
-      }
-    },
-    {
-      "id": "sig-9fcb83950e",
-      "title": "FastAPI 前端和静态文件由 CDN 提供 - Vercel",
-      "oneLiner": "FastAPI 前端和静态文件（通过 app.frontend() 或 StaticFiles 提供）现在在构建时提升到 Vercel CDN。对这些路径的请求直接从 CDN 提供服务，无需调用 Vercel 函数。",
-      "summary": {
-        "oneSentence": "FastAPI 前端和静态文件（通过 app.frontend() 或 StaticFiles 提供）现在在构建时提升到 Vercel CDN。对这些路径的请求直接从 CDN 提供服务，无需调用 Vercel 函数。",
-        "bullets": [
-          "FastAPI 前端和静态文件（通过 app.frontend() 或 StaticFiles 提供）现在在构建时提升到 Vercel CDN。对这些路径的请求直接从 CDN 提供服务，无需调用 Vercel 函数。",
-          "1 应用 = FastAPI () 2 应用 .前端（“/”，目录=“dist”）3应用程序。 mount ( \"/assets\" , StaticFiles (directory = \"assets\" ) , name = \"assets\" ) Frontend 和 StaticFiles，均提升到 CDN。",
-          "FastAPI 按声明顺序评估路由。在 StaticFiles 挂载之前声明的路由优先于该路径上的任何 CDN 文件。该优先级被保留。",
-          "1 @应用程序。 get ( \"/static/manifest.json\" ) # 由 Vercel 函数提供 2 def manifest ( ) : . 。 。 3 个应用程序。 mount ( \"/static\" , StaticFiles (directory = \"static\" ) , name = \"s"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：FastAPI 前端和静态文件（通过 app.frontend() 或 StaticFiles 提供）现在在构建时提升到 Vercel CDN。对这些路径的请求直接从 CDN 提供服务，无需调用 Vercel 函数。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/fastapi-frontends-and-static-files-served-from-the-cdn"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "FastAPI 前端和静态文件（通过 app.frontend() 或 StaticFiles 提供）现在在构建时提升到 Vercel CDN。对这些路径的请求直接从 CDN 提供服务，无需调用 Vercel 函数。",
-        "1 应用 = FastAPI () 2 应用 .前端（“/”，目录=“dist”）3应用程序。 mount ( \"/assets\" , StaticFiles (directory = \"assets\" ) , name = \"assets\" ) Frontend 和 StaticFiles，均提升到 CDN。",
-        "FastAPI 按声明顺序评估路由。在 StaticFiles 挂载之前声明的路由优先于该路径上的任何 CDN 文件。该优先级被保留。",
-        "1 @应用程序。 get ( \"/static/manifest.json\" ) # 由 Vercel 函数提供 2 def manifest ( ) : . 。 。 3 个应用程序。 mount ( \"/static\" , StaticFiles (directory = \"static\" ) , name = \"static\" ) 优先于 StaticFiles 的路由。",
-        "提升的源目录保留在函数包中，以便应用程序可以在运行时从中读取。要排除它们并仅从 CDN 提供服务，请在 pyproject.toml 中设置 tool.vercel.fastapi.static.exclude = true 。",
-        "由于 CDN 无法运行依赖项检查，受依赖项保护的前端保留在该函数上。同样，位于中间件后面的静态文件也保留在该函数中。要覆盖此设置并始终升级到 CDN，请设置 tool.vercel.fastapi.static.cdn = true 。要完全选择退出 CDN，请将其设置为 false。",
-        "有关详细信息，请参阅 Vercel FastAPI 文档。"
-      ],
-      "highlights": [
-        "FastAPI 前端和静态文件（通过 app.frontend() 或 StaticFiles 提供）现在在构建时提升到 Vercel CDN。对这些路径的请求",
-        "1 应用 = FastAPI () 2 应用 .前端（“/”，目录=“dist”）3应用程序。 mount ( \"/assets\" , StaticFiles ",
-        "FastAPI 按声明顺序评估路由。在 StaticFiles 挂载之前声明的路由优先于该路径上的任何 CDN 文件。该优先级被保留。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "FastAPI frontends and static files served from the CDN - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-10",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/fastapi-frontends-and-static-files-served-from-the-cdn",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "FastAPI frontends and static files served from the CDN - Vercel"
-      },
-      "raw": {
-        "title": "FastAPI frontends and static files served from the CDN",
-        "url": "https://vercel.com/changelog/fastapi-frontends-and-static-files-served-from-the-cdn",
-        "fetched": true,
-        "savedAt": "2026-09-11T02:32:49.856Z"
-      }
-    },
-    {
-      "id": "sig-014159943e",
-      "title": "研究人员如何使用 Codex 和 ChatGPT 寻找新的抗菌分子",
-      "oneLiner": "César de la Fuente 的实验室使用 Codex 和 ChatGPT 搜索现存和灭绝的基因组，寻找抗耐药感染的候选抗菌药物。",
-      "summary": {
-        "oneSentence": "César de la Fuente 的实验室使用 Codex 和 ChatGPT 搜索现存和灭绝的基因组，寻找抗耐药感染的候选抗菌药物。",
-        "bullets": [
-          "César de la Fuente 的实验室使用 Codex 和 ChatGPT 搜索现存和灭绝的基因组，寻找抗耐药感染的候选抗菌药物。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：César de la Fuente 的实验室使用 Codex 和 ChatGPT 搜索现存和灭绝的基因组，寻找抗耐药感染的候选抗菌药物。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "César de la Fuente 的实验室使用 Codex 和 ChatGPT 搜索现存和灭绝的基因组，寻找抗耐药感染的候选抗菌药物。"
-      ],
-      "highlights": [
-        "César de la Fuente 的实验室使用 Codex 和 ChatGPT 搜索现存和灭绝的基因组，寻找抗耐药感染的候选抗菌药物。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-      "originalLang": "en",
-      "date": "2026-09-10",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules"
-      },
-      "raw": {
-        "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
-        "url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-        "fetched": false,
-        "savedAt": "2026-09-11T02:32:51.094Z"
-      }
-    },
-    {
-      "id": "sig-1852061b5c",
-      "title": "通过搜索为下一场大型比赛做准备的 3 种方法",
-      "oneLiner": "搜索可以帮助您通过量身定制的训练计划、自定义播放列表等为比赛日做好准备。",
-      "summary": {
-        "oneSentence": "搜索可以帮助您通过量身定制的训练计划、自定义播放列表等为比赛日做好准备。",
-        "bullets": [
-          "搜索可以帮助您通过量身定制的训练计划、自定义播放列表等为比赛日做好准备。",
-          "您的浏览器不支持音频元素。",
-          "跑步越来越受欢迎，您可以使用 Google 搜索的人工智能工具来简化您的比赛准备工作。使用 Canvas 工具制定个性化的训练计划，连接您的 YouTube Music 帐户以生成激励性的播放列表，并搜索适合您的预算和需求的特定装备。首先要求搜索根据您当地的路线和当前的健身水平量身定制定制计划。",
-          "随着人们寻找拔掉插头和接触草地的方法，与跑步相关的搜索量激增：“跑步俱乐部”、“如何选择跑鞋”和“如何训练马拉松”等搜索量今年达到了历史新高。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Google AI 官网发布：搜索可以帮助您通过量身定制的训练计划、自定义播放列表等为比赛日做好准备。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：gemini",
-        "actionItems": [
-          "阅读原文（英文）：https://blog.google/products-and-platforms/products/search/running-race-training-tips/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "gemini"
-      ],
-      "content": [
-        "搜索可以帮助您通过量身定制的训练计划、自定义播放列表等为比赛日做好准备。",
-        "您的浏览器不支持音频元素。",
-        "跑步越来越受欢迎，您可以使用 Google 搜索的人工智能工具来简化您的比赛准备工作。使用 Canvas 工具制定个性化的训练计划，连接您的 YouTube Music 帐户以生成激励性的播放列表，并搜索适合您的预算和需求的特定装备。首先要求搜索根据您当地的路线和当前的健身水平量身定制定制计划。",
-        "随着人们寻找拔掉插头和接触草地的方法，与跑步相关的搜索量激增：“跑步俱乐部”、“如何选择跑鞋”和“如何训练马拉松”等搜索量今年达到了历史新高。",
-        "参加比赛需要毅力、力量和（数量惊人的）组织能力。幸运的是，搜索的人工智能功能使您比以往更容易制定比赛计划。搜索可以通过以下三种方式帮助您冲过终点线。",
-        "Whether you’re a beginner or a seasoned runner with over a dozen races under your belt, having the right training plan is key to finishing the race.搜索中的人工智能模式可以帮助您制定策略并制定详细的计划。 Select the Canvas tool from the plus (+) menu and ask it to build a schedule for you, recommending cross-training and strength-building strategies.您还可以从网络上的网站和创作者那里发现新的观点。 Try asking, “Help me make a sub 4.5hr training plan for the Texas Marathon with different routes I can run around Montrose. I'm currently running 4x a week with my longest run typically being 7-9 miles.”",
-        "现在您已经选择了比赛并制定了计划，是时候上路了。许多跑步者都清楚，在比赛训练中——尤其是长距离训练——心理耐力与身体耐力同样重要。找到方法来应对无聊并在长期跑步中保持活力至关重要。如果您选择将您的 YouTube Music 帐户与搜索关联，您可以要求 AI 模式帮助您为跑步创建自定义播放列表，这样您就可以保持动力并随时随地聆听您最喜爱的艺术家的音乐。",
-        "有时，跑完长距离取决于拥有合适的鞋子和跑步装备，但很难缩小选择范围。搜索可以使赛前购物变得更加容易，让您可以搜索能够解决您的限制的产品，例如适合宽脚的公路鞋、80 美元以下的轻质水袋背心或防擦伤服装。使用包含超过 600 亿个产品列表的 Google 购物图谱，搜索可以向您展示量身定制的推荐、库存选项的并排比较，甚至是本地供货情况，帮助您找到自信比赛所需的确切装备。"
-      ],
-      "highlights": [
-        "搜索可以帮助您通过量身定制的训练计划、自定义播放列表等为比赛日做好准备。",
-        "您的浏览器不支持音频元素。",
-        "跑步越来越受欢迎，您可以使用 Google 搜索的人工智能工具来简化您的比赛准备工作。使用 Canvas 工具制定个性化的训练计划，连接您的 YouTube M"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "3 ways to prep for your next big race with Search",
-      "originalLang": "en",
-      "date": "2026-09-10",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google AI",
-        "author": "Google",
-        "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
-        "home": "https://blog.google/technology/ai/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "3 ways to prep for your next big race with Search"
-      },
-      "raw": {
-        "title": "3 ways to prep for your next big race with Search",
-        "url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips/",
-        "fetched": true,
-        "savedAt": "2026-09-11T02:32:55.870Z"
-      }
-    },
-    {
-      "id": "sig-4d4e7920d8",
-      "title": "现在每个人都可以将数据运用到工作中",
-      "oneLiner": "在 ChatGPT Work 中认识数据代理。使用自然语言连接公司数据、发现见解并通过 AI 构建交互式仪表板。",
-      "summary": {
-        "oneSentence": "在 ChatGPT Work 中认识数据代理。使用自然语言连接公司数据、发现见解并通过 AI 构建交互式仪表板。",
-        "bullets": [
-          "在 ChatGPT Work 中认识数据代理。使用自然语言连接公司数据、发现见解并通过 AI 构建交互式仪表板。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：在 ChatGPT Work 中认识数据代理。使用自然语言连接公司数据、发现见解并通过 AI 构建交互式仪表板。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/put-data-to-work"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "在 ChatGPT Work 中认识数据代理。使用自然语言连接公司数据、发现见解并通过 AI 构建交互式仪表板。"
-      ],
-      "highlights": [
-        "在 ChatGPT Work 中认识数据代理。使用自然语言连接公司数据、发现见解并通过 AI 构建交互式仪表板。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Now everyone can put data to work",
-      "originalLang": "en",
-      "date": "2026-09-10",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/put-data-to-work",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Now everyone can put data to work"
-      },
-      "raw": {
-        "title": "Now everyone can put data to work",
-        "url": "https://openai.com/index/put-data-to-work",
-        "fetched": false,
-        "savedAt": "2026-09-11T02:32:57.076Z"
-      }
-    },
-    {
-      "id": "sig-016c3ec9b7",
-      "title": "推出适用于金融服务的 ChatGPT",
-      "oneLiner": "推出适用于金融服务的 ChatGPT，将内置金融数据与 GPT-6 Astra 相结合，用于研究、建模和客户就绪材料。",
-      "summary": {
-        "oneSentence": "推出适用于金融服务的 ChatGPT，将内置金融数据与 GPT-6 Astra 相结合，用于研究、建模和客户就绪材料。",
-        "bullets": [
-          "推出适用于金融服务的 ChatGPT，将内置金融数据与 GPT-6 Astra 相结合，用于研究、建模和客户就绪材料。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：推出适用于金融服务的 ChatGPT，将内置金融数据与 GPT-6 Astra 相结合，用于研究、建模和客户就绪材料。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/introducing-chatgpt-financial-services"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "推出适用于金融服务的 ChatGPT，将内置金融数据与 GPT-6 Astra 相结合，用于研究、建模和客户就绪材料。"
-      ],
-      "highlights": [
-        "推出适用于金融服务的 ChatGPT，将内置金融数据与 GPT-6 Astra 相结合，用于研究、建模和客户就绪材料。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Introducing ChatGPT for Financial Services",
-      "originalLang": "en",
-      "date": "2026-09-10",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Introducing ChatGPT for Financial Services"
-      },
-      "raw": {
-        "title": "Introducing ChatGPT for Financial Services",
-        "url": "https://openai.com/index/introducing-chatgpt-financial-services",
-        "fetched": false,
-        "savedAt": "2026-09-11T02:32:58.286Z"
-      }
-    },
-    {
-      "id": "sig-1ef5285e67",
-      "title": "扩大联邦、州、地方和部落政府的人工智能访问和网络防御",
-      "oneLiner": "OpenAI 和 GSA 将为符合条件的联邦、州、地方和部落政府提供 0 美元许可费、50% 的使用费折扣以及扩大的网络防御支持。",
-      "summary": {
-        "oneSentence": "OpenAI 和 GSA 将为符合条件的联邦、州、地方和部落政府提供 0 美元许可费、50% 的使用费折扣以及扩大的网络防御支持。",
-        "bullets": [
-          "OpenAI 和 GSA 将为符合条件的联邦、州、地方和部落政府提供 0 美元许可费、50% 的使用费折扣以及扩大的网络防御支持。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：OpenAI 和 GSA 将为符合条件的联邦、州、地方和部落政府提供 0 美元许可费、50% 的使用费折扣以及扩大的网络防御支持。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/expanding-ai-access-us-government"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "OpenAI 和 GSA 将为符合条件的联邦、州、地方和部落政府提供 0 美元许可费、50% 的使用费折扣以及扩大的网络防御支持。"
-      ],
-      "highlights": [
-        "OpenAI 和 GSA 将为符合条件的联邦、州、地方和部落政府提供 0 美元许可费、50% 的使用费折扣以及扩大的网络防御支持。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
-      "originalLang": "en",
-      "date": "2026-09-10",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/expanding-ai-access-us-government",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Expanding AI access and cyber defense for federal, state, local, and tribal governments"
-      },
-      "raw": {
-        "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
-        "url": "https://openai.com/index/expanding-ai-access-us-government",
-        "fetched": false,
-        "savedAt": "2026-09-11T02:32:59.503Z"
-      }
-    },
-    {
-      "id": "sig-2b26a80665",
-      "title": "代理 API 简介",
-      "oneLiner": "使用 Agents API 构建和启动云代理，这是一项由 Codex 工具提供支持的托管服务，用于编排、长时间运行的会话和工具使用。",
-      "summary": {
-        "oneSentence": "使用 Agents API 构建和启动云代理，这是一项由 Codex 工具提供支持的托管服务，用于编排、长时间运行的会话和工具使用。",
-        "bullets": [
-          "使用 Agents API 构建和启动云代理，这是一项由 Codex 工具提供支持的托管服务，用于编排、长时间运行的会话和工具使用。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：使用 Agents API 构建和启动云代理，这是一项由 Codex 工具提供支持的托管服务，用于编排、长时间运行的会话和工具使用。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/introducing-the-agents-api"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "使用 Agents API 构建和启动云代理，这是一项由 Codex 工具提供支持的托管服务，用于编排、长时间运行的会话和工具使用。"
-      ],
-      "highlights": [
-        "使用 Agents API 构建和启动云代理，这是一项由 Codex 工具提供支持的托管服务，用于编排、长时间运行的会话和工具使用。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Introducing the Agents API",
-      "originalLang": "en",
-      "date": "2026-09-10",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/introducing-the-agents-api",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Introducing the Agents API"
-      },
-      "raw": {
-        "title": "Introducing the Agents API",
-        "url": "https://openai.com/index/introducing-the-agents-api",
-        "fetched": false,
-        "savedAt": "2026-09-11T02:33:00.712Z"
-      }
-    },
-    {
-      "id": "sig-4e410dad70",
-      "title": "使用 API 中的 GPT‑Live‑1 构建更自然的语音体验",
-      "oneLiner": "GPT‑Live‑1 为 API 带来了自然的全双工语音对话，具有更强大的指令遵循、自定义语音和电话支持。",
-      "summary": {
-        "oneSentence": "GPT‑Live‑1 为 API 带来了自然的全双工语音对话，具有更强大的指令遵循、自定义语音和电话支持。",
-        "bullets": [
-          "GPT‑Live‑1 为 API 带来了自然的全双工语音对话，具有更强大的指令遵循、自定义语音和电话支持。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：GPT‑Live‑1 为 API 带来了自然的全双工语音对话，具有更强大的指令遵循、自定义语音和电话支持。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/introducing-gpt-live-1-in-the-api"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "GPT‑Live‑1 为 API 带来了自然的全双工语音对话，具有更强大的指令遵循、自定义语音和电话支持。"
-      ],
-      "highlights": [
-        "GPT‑Live‑1 为 API 带来了自然的全双工语音对话，具有更强大的指令遵循、自定义语音和电话支持。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-      "originalLang": "en",
-      "date": "2026-09-10",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Build more natural voice experiences with GPT‑Live‑1 in the API"
-      },
-      "raw": {
-        "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
-        "url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-        "fetched": false,
-        "savedAt": "2026-09-11T02:33:01.913Z"
-      }
-    },
-    {
-      "id": "sig-8e4f416112",
-      "title": "Cursor 项目 · Cursor",
-      "oneLiner": "今天，我们在 Cursor 中推出「项目」。项目让你能够承接更大规模的工作，比如一项功能、一次迁移，或是一个完整的应用。它能在长达数月的工作中持续保持上下文，将任务委派给成千上万个子智能体，还能无需提示自动执行周期性工作。",
-      "summary": {
-        "oneSentence": "今天，我们在 Cursor 中推出「项目」。项目让你能够承接更大规模的工作，比如一项功能、一次迁移，或是一个完整的应用。它能在长达数月的工作中持续保持上下文，将任务委派给成千上万个子智能体，还能无需提示自动执行周期性工作。",
-        "bullets": [
-          "今天，我们在 Cursor 中推出「项目」。项目让你能够承接更大规模的工作，比如一项功能、一次迁移，或是一个完整的应用。它能在长达数月的工作中持续保持上下文，将任务委派给成千上万个子智能体，还能无需提示自动执行周期性工作。",
-          "在左侧导航栏中即可打开「项目」。项目中的协调智能体本身并不编写代码，而是负责规划工作、把工作委派给具体实现的智能体，并将完成的成果交回给你检查。协调智能体会代表你创建和管理智能体，并按工作需要并行运行任意多个智能体。",
-          "项目 在云端独立的计算机上运行，因此合上笔记本电脑也不会中断。当某项任务需要在你的机器上测试时，协调智能体会启动一个本地智能体在本机执行。",
-          "您不应该每次开始任务都得给智能体重新\"上手介绍\"一遍。每个 项目 都会维护一组文件，并在其智能体所使用的每台云端和本地机器之间保持同步。智能体会不断补充研究成果和 artifacts，以及它们对代码库的了解和您偏好的工作方式。比如，一旦某个智能体摸清了如何测试某项服务，之后的每个智能体都能直接复用这些说明。共享上下文会"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Cursor 官网发布：今天，我们在 Cursor 中推出「项目」。项目让你能够承接更大规模的工作，比如一项功能、一次迁移，或是一个完整的应用。它能在长达数月的工作中持续保持上下文，将任务委派给成千上万个子智能体，还能无需提示自动执行周期性工作。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：cursor",
-        "actionItems": [
-          "阅读原文（中文）：https://cursor.com/changelog/projects"
-        ]
-      },
-      "tags": [
-        "Release"
-      ],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "cursor"
-      ],
-      "content": [
-        "今天，我们在 Cursor 中推出「项目」。项目让你能够承接更大规模的工作，比如一项功能、一次迁移，或是一个完整的应用。它能在长达数月的工作中持续保持上下文，将任务委派给成千上万个子智能体，还能无需提示自动执行周期性工作。",
-        "在左侧导航栏中即可打开「项目」。项目中的协调智能体本身并不编写代码，而是负责规划工作、把工作委派给具体实现的智能体，并将完成的成果交回给你检查。协调智能体会代表你创建和管理智能体，并按工作需要并行运行任意多个智能体。",
-        "项目 在云端独立的计算机上运行，因此合上笔记本电脑也不会中断。当某项任务需要在你的机器上测试时，协调智能体会启动一个本地智能体在本机执行。",
-        "您不应该每次开始任务都得给智能体重新\"上手介绍\"一遍。每个 项目 都会维护一组文件，并在其智能体所使用的每台云端和本地机器之间保持同步。智能体会不断补充研究成果和 artifacts，以及它们对代码库的了解和您偏好的工作方式。比如，一旦某个智能体摸清了如何测试某项服务，之后的每个智能体都能直接复用这些说明。共享上下文会随 项目 一同积累，让协调智能体越用越高效。",
-        "你可以让协调智能体监听某个 Slack 频道、按计划运行，或跟踪你的所有 PR。这样它就能根据检测到的信号主动采取行动，无需等你发出提示。",
-        "连接 Slack 并将其指向缺陷上报频道，此后每当有新缺陷提交，它都会自动开始分派任务。"
-      ],
-      "highlights": [
-        "今天，我们在 Cursor 中推出「项目」。项目让你能够承接更大规模的工作，比如一项功能、一次迁移，或是一个完整的应用。它能在长达数月的工作中持续保持上下文，将",
-        "在左侧导航栏中即可打开「项目」。项目中的协调智能体本身并不编写代码，而是负责规划工作、把工作委派给具体实现的智能体，并将完成的成果交回给你检查。协调智能体会代表",
-        "项目 在云端独立的计算机上运行，因此合上笔记本电脑也不会中断。当某项任务需要在你的机器上测试时，协调智能体会启动一个本地智能体在本机执行。"
-      ],
-      "translated": false,
-      "translateMethod": "native",
-      "originalTitle": "Cursor 项目 · Cursor",
-      "originalLang": "zh",
-      "date": "2026-09-10",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [
-        "cursor"
-      ],
-      "source": {
-        "type": "release",
-        "group": "company",
-        "name": "Cursor",
-        "author": "Cursor",
-        "url": "https://cursor.com/changelog/projects",
-        "home": "https://cursor.com/changelog",
-        "lang": "zh",
-        "translated": false,
-        "translateMethod": "native",
-        "originalTitle": "Cursor 项目 · Cursor"
-      },
-      "raw": {
-        "title": "Cursor Projects",
-        "url": "https://cursor.com/changelog/projects",
-        "fetched": true,
-        "savedAt": "2026-09-12T02:41:59.708Z",
-        "retranslatedAt": "2026-10-24T02:55:47.321Z"
-      }
-    },
-    {
-      "id": "sig-bdbb4e88f6",
-      "title": "我们如何将 CDN 元数据查找延迟减少 91%",
-      "oneLiner": "对 Vercel 的每个请求都会经过我们的 CDN，该 CDN 平均每秒执行超过 8000 万条路由指令。这项工作的一部分是查找元数据以确定存在哪些路径以及如何为它们提供服务。当该元数据未缓存时，CDN 必须先获取它，然后才能提供响应。",
-      "summary": {
-        "oneSentence": "对 Vercel 的每个请求都会经过我们的 CDN，该 CDN 平均每秒执行超过 8000 万条路由指令。这项工作的一部分是查找元数据以确定存在哪些路径以及如何为它们提供服务。当该元数据未缓存时，CDN 必须先获取它，然后才能提供响应。",
-        "bullets": [
-          "对 Vercel 的每个请求都会经过我们的 CDN，该 CDN 平均每秒执行超过 8000 万条路由指令。这项工作的一部分是查找元数据以确定存在哪些路径以及如何为它们提供服务。当该元数据未缓存时，CDN 必须先获取它，然后才能提供响应。",
-          "我们过去一次在一个路径上获取和缓存元数据，仅检索每次查找所需的内容。这在当时看起来很高效，但大型部署可能包含数十万条路径，每个路径都有自己的缓存条目。每个新部署都会引入新的元数据，使得缓存错过了频繁部署的大型站点的经常性成本。",
-          "一次获取更多元数据可以使查找速度更快。通过将路径分组在一起，每次获取都可以填充缓存以供许多后续查找。但获取太多也会带来成本。通过生产实验，我们找到了一个平衡点，可以将 P99 元数据查找延迟减少 91%，并使部署速度更快。",
-          "将链接复制到标题 CDN 如何找到正确的路由 请求中的路径并不总是与为其提供服务的内容或功能的路径相匹配。框架路由规则将两者连接起来。例如，对 /blog/hello-world 的请求可能会解析为动态路由 /blog/[slug] 。对该页面的 React Server 组件有效负载的请求可能会解析为 /blog/["
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：对 Vercel 的每个请求都会经过我们的 CDN，该 CDN 平均每秒执行超过 8000 万条路由指令。这项工作的一部分是查找元数据以确定存在哪些路径以及如何为它们提供服务。当该元数据未缓存时，CDN 必须先获取它，然后才能提供响应。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/blog/how-we-cut-cdn-metadata-lookup-latency-by-91-percent"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "对 Vercel 的每个请求都会经过我们的 CDN，该 CDN 平均每秒执行超过 8000 万条路由指令。这项工作的一部分是查找元数据以确定存在哪些路径以及如何为它们提供服务。当该元数据未缓存时，CDN 必须先获取它，然后才能提供响应。",
-        "我们过去一次在一个路径上获取和缓存元数据，仅检索每次查找所需的内容。这在当时看起来很高效，但大型部署可能包含数十万条路径，每个路径都有自己的缓存条目。每个新部署都会引入新的元数据，使得缓存错过了频繁部署的大型站点的经常性成本。",
-        "一次获取更多元数据可以使查找速度更快。通过将路径分组在一起，每次获取都可以填充缓存以供许多后续查找。但获取太多也会带来成本。通过生产实验，我们找到了一个平衡点，可以将 P99 元数据查找延迟减少 91%，并使部署速度更快。",
-        "将链接复制到标题 CDN 如何找到正确的路由 请求中的路径并不总是与为其提供服务的内容或功能的路径相匹配。框架路由规则将两者连接起来。例如，对 /blog/hello-world 的请求可能会解析为动态路由 /blog/[slug] 。对该页面的 React Server 组件有效负载的请求可能会解析为 /blog/[slug].rsc 。当 CDN 应用这些规则时，它可能需要检查多个目标路径才能找到正确的响应。",
-        "该框架描述了构建过程中的这些路线。通过框架定义的基础设施，应用程序代码可以声明哪些输出是静态的、哪些需要 Functions 以及哪些响应可以缓存或重新生成。框架将该意图转换为构建输出 API 输出，Vercel 生成 CDN 读取的路由元数据。",
-        "在请求时，CDN 需要确定存在哪些目标路径并检索其元数据。我们添加到全局路由中的布隆过滤器排除了绝对不存在的路径。其余路径需要精确的元数据查找。",
-        "最初，我们将该元数据存储为每个目标路径的单独对象。 CDN 独立地获取和缓存每个对象。这对于不经常部署的小型项目非常有效。但每个新部署都会创建一组新的缓存键，因此每个路径的第一次查找都会错过缓存。",
-        "将链接复制到标题 按组获取元数据 为了减少缓存未命中，我们将许多路径的元数据分组到称为分片的文件中。我们限制了每个分片的大小，以控制查找必须获取的数据量。获取分片会将其所有路径的元数据放入缓存中，因此以后对这些路径的查找可以重用它。",
-        "每个分片还包含一个索引，使 CDN 可以定位单个路径的元数据，而无需解码、解压缩或解析其他条目。每次获取都会加热许多路径，而每次查找仍然只解析它需要的记录。",
-        "将链接复制到标题 获取更多内容而不解析更多内容 我们使用已用于 Vercel 的其他大型路由数据集的 JSONL 布局构建分片。 JSONL 每行存储一个 JSON 值。我们借用了批量重定向中排序的、交替的键值记录以及我们最初为 Bloom 过滤器构建的可直接寻址的 Base64 数据结构。"
-      ],
-      "highlights": [
-        "对 Vercel 的每个请求都会经过我们的 CDN，该 CDN 平均每秒执行超过 8000 万条路由指令。这项工作的一部分是查找元数据以确定存在哪些路径以及如何",
-        "我们过去一次在一个路径上获取和缓存元数据，仅检索每次查找所需的内容。这在当时看起来很高效，但大型部署可能包含数十万条路径，每个路径都有自己的缓存条目。每个新部署",
-        "一次获取更多元数据可以使查找速度更快。通过将路径分组在一起，每次获取都可以填充缓存以供许多后续查找。但获取太多也会带来成本。通过生产实验，我们找到了一个平衡点，"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "How we cut CDN metadata lookup latency by 91%",
-      "originalLang": "en",
-      "date": "2026-09-10",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/blog/how-we-cut-cdn-metadata-lookup-latency-by-91-percent",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "How we cut CDN metadata lookup latency by 91%"
-      },
-      "raw": {
-        "title": "How we cut CDN metadata lookup latency by 91%",
-        "url": "https://vercel.com/blog/how-we-cut-cdn-metadata-lookup-latency-by-91-percent",
-        "fetched": true,
-        "savedAt": "2026-09-12T02:42:12.049Z"
-      }
-    },
-    {
-      "id": "sig-93aab0bed5",
-      "title": "在 Vercel 上使用 OpenAI Agents API 进行构建 - Vercel",
-      "oneLiner": "现在，您可以使用 Vercel 上的 OpenAI Agents API 构建和部署长期运行的使用工具的代理。 OpenAI 管理代理循环和会话状态，而 Vercel 托管应用程序并将每个会话连接到 Vercel Sandbox 以执行代码",
-      "summary": {
-        "oneSentence": "现在，您可以使用 Vercel 上的 OpenAI Agents API 构建和部署长期运行的使用工具的代理。 OpenAI 管理代理循环和会话状态，而 Vercel 托管应用程序并将每个会话连接到 Vercel Sandbox 以执行代码",
-        "bullets": [
-          "现在，您可以使用 Vercel 上的 OpenAI Agents API 构建和部署长期运行的使用工具的代理。 OpenAI 管理代理循环和会话状态，而 Vercel 托管应用程序并将每个会话连接到 Vercel Sandbox 以执行代码和文件访问。",
-          "OpenAI 管理的代理循环和会话状态",
-          "通过签名的 OpenAI Webhook 和 Vercel 队列进行可靠的沙箱创建和重新连接",
-          "每个代理会话的隔离执行环境"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：现在，您可以使用 Vercel 上的 OpenAI Agents API 构建和部署长期运行的使用工具的代理。 OpenAI 管理代理循环和会话状态，而 Vercel 托管应用程序并将每个会话连接到 Vercel Sandbox 以执行代码",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/build-with-openai-agents-api-on-vercel"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "现在，您可以使用 Vercel 上的 OpenAI Agents API 构建和部署长期运行的使用工具的代理。 OpenAI 管理代理循环和会话状态，而 Vercel 托管应用程序并将每个会话连接到 Vercel Sandbox 以执行代码和文件访问。",
-        "OpenAI 管理的代理循环和会话状态",
-        "通过签名的 OpenAI Webhook 和 Vercel 队列进行可靠的沙箱创建和重新连接",
-        "每个代理会话的隔离执行环境",
-        "持久工作区，可在后续指令中保留文件",
-        "没有永远在线的工作人员的零扩展架构",
-        "按照分步指南构建和部署代理，或探索示例应用程序。"
-      ],
-      "highlights": [
-        "现在，您可以使用 Vercel 上的 OpenAI Agents API 构建和部署长期运行的使用工具的代理。 OpenAI 管理代理循环和会话状态，而 Ver",
-        "OpenAI 管理的代理循环和会话状态",
-        "通过签名的 OpenAI Webhook 和 Vercel 队列进行可靠的沙箱创建和重新连接"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Build with OpenAI Agents API on Vercel - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-10",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/build-with-openai-agents-api-on-vercel",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Build with OpenAI Agents API on Vercel - Vercel"
-      },
-      "raw": {
-        "title": "Build with OpenAI Agents API on Vercel",
-        "url": "https://vercel.com/changelog/build-with-openai-agents-api-on-vercel",
-        "fetched": true,
-        "savedAt": "2026-09-12T02:42:21.724Z"
-      }
-    },
-    {
-      "id": "sig-b3125c4e1e",
-      "title": "Tako 搜索在 9 月 30 日之前在 AI Gateway 上免费 - Vercel",
-      "oneLiner": "截至 9 月 30 日，Tako Search 仅在 AI Gateway 上免费。",
-      "summary": {
-        "oneSentence": "截至 9 月 30 日，Tako Search 仅在 AI Gateway 上免费。",
-        "bullets": [
-          "截至 9 月 30 日，Tako Search 仅在 AI Gateway 上免费。",
-          "它允许 AI 模型搜索 Tako 的精选数据和实时网络，按域或发布日期过滤网络结果，并使用结果通过当前信息、引文和可视化来回答问题。 9 月 30 日之后，搜索将按标准费率计费。",
-          "相同的集成适用于 AI Gateway 上的任何模型，因此您可以切换模型而无需更改搜索设置。您也不需要单独的 Tako 帐户或 API 密钥。",
-          "要将 Tako Search 与 AI SDK 结合使用，请将 gateway.tools.takoSearch() 添加到generateText或streamText请求中。然后模型可以在需要当前信息时调用它："
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：截至 9 月 30 日，Tako Search 仅在 AI Gateway 上免费。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "截至 9 月 30 日，Tako Search 仅在 AI Gateway 上免费。",
-        "它允许 AI 模型搜索 Tako 的精选数据和实时网络，按域或发布日期过滤网络结果，并使用结果通过当前信息、引文和可视化来回答问题。 9 月 30 日之后，搜索将按标准费率计费。",
-        "相同的集成适用于 AI Gateway 上的任何模型，因此您可以切换模型而无需更改搜索设置。您也不需要单独的 Tako 帐户或 API 密钥。",
-        "要将 Tako Search 与 AI SDK 结合使用，请将 gateway.tools.takoSearch() 添加到generateText或streamText请求中。然后模型可以在需要当前信息时调用它：",
-        "1 从 'ai' 导入 { gateway ,generateText } ； 2 3 const result = waitgenerateText({4model:'openai/gpt-5.6-terra',5prompt:'过去五年美国太阳能发电发生了怎样的变化？引用当前数据。',6tools:{7tako_search:gateway.tools.takoSearch(),8},9}); 10 控制台 .日志（结果。文本）；通过 Tako Search，让任何 AI Gateway 模型都能访问当前的 Web 和结构化数据。",
-        "在 AI Gateway 游乐场中尝试 Tako Search。有关配置和搜索选项，请参阅网络搜索文档。"
-      ],
-      "highlights": [
-        "截至 9 月 30 日，Tako Search 仅在 AI Gateway 上免费。",
-        "它允许 AI 模型搜索 Tako 的精选数据和实时网络，按域或发布日期过滤网络结果，并使用结果通过当前信息、引文和可视化来回答问题。 9 月 30 日之后，搜索",
-        "相同的集成适用于 AI Gateway 上的任何模型，因此您可以切换模型而无需更改搜索设置。您也不需要单独的 Tako 帐户或 API 密钥。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Tako Search is free on AI Gateway through September 30 - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-10",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Tako Search is free on AI Gateway through September 30 - Vercel"
-      },
-      "raw": {
-        "title": "Tako Search is free on AI Gateway through September 30",
-        "url": "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
-        "fetched": true,
-        "savedAt": "2026-09-13T02:40:04.096Z"
-      }
-    },
-    {
-      "id": "sig-4913b2df53",
-      "title": "Vercel 沙盒现已在所有地区推出 - Vercel",
-      "oneLiner": "Vercel Sandbox 现在可以在所有 20 个 Vercel 计算区域中运行，而以前只有 4 个。",
-      "summary": {
-        "oneSentence": "Vercel Sandbox 现在可以在所有 20 个 Vercel 计算区域中运行，而以前只有 4 个。",
-        "bullets": [
-          "Vercel Sandbox 现在可以在所有 20 个 Vercel 计算区域中运行，而以前只有 4 个。",
-          "在靠近数据库、存储和它们访问的其他服务的地方运行沙箱可以减少延迟。团队还可以将沙箱工作负载保留在批准的区域中，以支持数据驻留和区域处理要求。",
-          "iad1 仍然是默认区域。每个计划都可以选择区域。",
-          "专业团队和企业团队还可以配置故障转移区域。如果 Vercel 无法在主要区域中创建沙箱，它将按顺序尝试每个配置的故障转移区域。有数据驻留要求的团队可以将主要区域和故障转移区域限制在批准的地理位置。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Vercel Sandbox 现在可以在所有 20 个 Vercel 计算区域中运行，而以前只有 4 个。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/vercel-sandbox-is-now-available-in-all-regions"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Vercel Sandbox 现在可以在所有 20 个 Vercel 计算区域中运行，而以前只有 4 个。",
-        "在靠近数据库、存储和它们访问的其他服务的地方运行沙箱可以减少延迟。团队还可以将沙箱工作负载保留在批准的区域中，以支持数据驻留和区域处理要求。",
-        "iad1 仍然是默认区域。每个计划都可以选择区域。",
-        "专业团队和企业团队还可以配置故障转移区域。如果 Vercel 无法在主要区域中创建沙箱，它将按顺序尝试每个配置的故障转移区域。有数据驻留要求的团队可以将主要区域和故障转移区域限制在批准的地理位置。",
-        "从项目的 Settings > Sandboxes 为新沙箱设置默认区域。",
-        "1 从 '@vercel/sandbox' 导入 { Sandbox } ； 2 3 const sandbox =等待Sandbox。创建（{4名称：'my-sandbox'，5区域：'syd1'，6故障转移区域：['hkg1'，'sin1']，7}）;使用 SDK 在悉尼创建一个沙箱，将香港和新加坡作为故障转移区域。",
-        "sandbox create --name my-sandbox --region syd1 --failover-regions hkg1,sin1 使用 CLI 在悉尼创建一个沙箱，并将香港和新加坡作为故障转移区域。",
-        "创建时传递的区域会覆盖项目默认值。现有沙箱保留在创建它们的区域中。",
-        "活动 CPU 和预配置内存速率因地区而异。请参阅沙盒定价。",
-        "如果您使用 Sandbox SDK 或 CLI，请先将其更新到最新版本，然后再选择新支持的区域之一。在沙箱区域文档中了解区域选择、故障转移和 CLI 配置。"
-      ],
-      "highlights": [
-        "Vercel Sandbox 现在可以在所有 20 个 Vercel 计算区域中运行，而以前只有 4 个。",
-        "在靠近数据库、存储和它们访问的其他服务的地方运行沙箱可以减少延迟。团队还可以将沙箱工作负载保留在批准的区域中，以支持数据驻留和区域处理要求。",
-        "iad1 仍然是默认区域。每个计划都可以选择区域。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Vercel Sandbox is now available in all regions - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-10",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/vercel-sandbox-is-now-available-in-all-regions",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Vercel Sandbox is now available in all regions - Vercel"
-      },
-      "raw": {
-        "title": "Vercel Sandbox is now available in all regions",
-        "url": "https://vercel.com/changelog/vercel-sandbox-is-now-available-in-all-regions",
-        "fetched": true,
-        "savedAt": "2026-09-13T02:40:13.538Z"
       }
     }
   ]
