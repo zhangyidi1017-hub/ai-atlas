@@ -1,60 +1,60 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-26T02:45:19.919Z",
+  "updatedAt": "2026-10-27T03:20:35.792Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 406,
+  "itemCount": 410,
   "brief": {
-    "date": "2026-10-26",
-    "generatedAt": "2026-10-26T02:45:19.918Z",
-    "totalCount": 406,
+    "date": "2026-10-27",
+    "generatedAt": "2026-10-27T03:20:35.791Z",
+    "totalCount": 410,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 406 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 410 条",
     "topUpdates": [
       {
-        "id": "sig-8f3ff79e84",
-        "title": "如何让您的设计系统与 Figma Agent 配合使用 | Figma 博客",
+        "id": "sig-250e5d8f30",
+        "title": "Greptile 使用 GPT-6 Astra 使错误检测超越代码审查",
         "stars": 4,
-        "oneLiner": "您的设计系统可以帮助 Figma 代理了解定义您的产品的原则和指南。以下是如何使该上下文对代理有用。",
+        "oneLiner": "Greptile 如何使用 GPT-6 Astra 来测试用户工作流程，使用 Daybreak 来增强安全性，使用 Codex 来减少返工。",
         "readMinutes": 5
       },
       {
-        "id": "sig-c9838a91f3",
-        "title": "团队试验代码层的 6 种方式 | Figma 博客",
+        "id": "sig-2aa62c4cdc",
+        "title": "从 CLI 发现 Vercel Connect 上的 1000 多个服务 - Vercel",
         "stars": 4,
-        "oneLiner": "现在代码层处于公开测试阶段，您可以将代码带到画布上。以下是六个团队如何使用它进行试验、让利益相关者保持一致并加快行动速度。",
+        "oneLiner": "您和您的代理现在无需离开终端即可浏览和搜索 Vercel Connect 中提供的 1000 多种服务。 vercel connect discovery 按名称、别名、关键字和描述进行搜索。",
         "readMinutes": 5
       },
       {
-        "id": "sig-2482b3033a",
-        "title": "Vercel CLI 添加支出管理 - Vercel",
+        "id": "sig-817b7a2e27",
+        "title": "在 Vercel 沙盒上运行 Scale AI 的 AgentEnv 评估 - Vercel",
         "stars": 4,
-        "oneLiner": "您现在可以从 Vercel CLI 查看和管理团队的支出管理预算。运行 vercel 预算，您或您运行的脚本和代理将取回您当前的支出和活动预算。",
+        "oneLiner": "AgentEnv 是 Scale AI 的框架，用于根据任务测试代理并对其结果进行评分，现在在 Vercel Sandbox 上运行。 Vercel 提供程序在 AgentEnv 0.9.1334 及更高版本中提供，并在单独的沙箱中运行代理",
         "readMinutes": 5
       },
       {
-        "id": "sig-2663b0fc90",
-        "title": "从 Vercel MCP 发送反馈 - Vercel",
+        "id": "sig-be77c96c39",
+        "title": "我们最新的人工智能任务：绘制人类大脑图谱",
         "stars": 4,
-        "oneLiner": "Vercel MCP 现在包括 Submit_feedback ，这是一个用于从代理或工具直接向 Vercel 团队发送错误报告、摩擦报告和功能请求的工具。",
+        "oneLiner": "我们的人工智能探索系列的第三课“极地峰”，在深入研究神经科学的同时，教授学生关键的人工智能素养技能。",
         "readMinutes": 5
       },
       {
-        "id": "sig-fc24742163",
-        "title": "Vercel Agent 如何安全访问生产环境",
+        "id": "sig-f16aefe89a",
+        "title": "与学术界合作建立科学理解",
         "stars": 4,
-        "oneLiner": "在生产系统上工作的代理需要获得许可才能执行操作。像“修复此部署”这样的请求不会预先告诉您它将采取哪些操作或需要什么访问权限。授予代理广泛的访问权限，错误可能会影响不相关的资源。每一步都请求批准，用户必须先批准各个操作，然后才能知道代理打算如",
+        "oneLiner": "OpenAI 分享了挂谷猜想、指数时间假说和量子色动力学的模型结果，以及研究人员如何验证和构建它们。",
         "readMinutes": 5
       }
     ],
     "sections": {
       "topUpdates": [
-        "sig-8f3ff79e84",
-        "sig-c9838a91f3",
-        "sig-2482b3033a",
-        "sig-2663b0fc90",
-        "sig-fc24742163",
-        "sig-28b762b1c7"
+        "sig-250e5d8f30",
+        "sig-2aa62c4cdc",
+        "sig-817b7a2e27",
+        "sig-be77c96c39",
+        "sig-f16aefe89a",
+        "sig-1a1d4bf2fc"
       ],
       "newReleases": [
         "sig-f50edeef79",
@@ -63,14 +63,14 @@
         "sig-089c4ff63d"
       ],
       "insights": [
-        "sig-8f3ff79e84",
-        "sig-c9838a91f3",
-        "sig-2482b3033a",
-        "sig-2663b0fc90",
-        "sig-fc24742163",
-        "sig-28b762b1c7",
-        "sig-298c8de07d",
-        "sig-83d800be9c"
+        "sig-250e5d8f30",
+        "sig-2aa62c4cdc",
+        "sig-817b7a2e27",
+        "sig-be77c96c39",
+        "sig-f16aefe89a",
+        "sig-1a1d4bf2fc",
+        "sig-20e57ea60a",
+        "sig-64d59b55a8"
       ],
       "emergingTrends": [],
       "newApis": [],
@@ -91,8 +91,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-10-26T02:45:19.919Z",
-    "summary": "近 30 天共 271 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-10-27T03:20:35.792Z",
+    "summary": "近 30 天共 277 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -107,6 +107,90 @@
     "risingTags": []
   },
   "productUpdates": [
+    {
+      "id": "sig-250e5d8f30",
+      "title": "Greptile 使用 GPT-6 Astra 使错误检测超越代码审查",
+      "oneLiner": "Greptile 如何使用 GPT-6 Astra 来测试用户工作流程，使用 Daybreak 来增强安全性，使用 Codex 来减少返工。",
+      "date": "2026-10-26",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-be77c96c39",
+      "title": "我们最新的人工智能任务：绘制人类大脑图谱",
+      "oneLiner": "我们的人工智能探索系列的第三课“极地峰”，在深入研究神经科学的同时，教授学生关键的人工智能素养技能。",
+      "date": "2026-10-26",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google AI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-f16aefe89a",
+      "title": "与学术界合作建立科学理解",
+      "oneLiner": "OpenAI 分享了挂谷猜想、指数时间假说和量子色动力学的模型结果，以及研究人员如何验证和构建它们。",
+      "date": "2026-10-26",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-1a1d4bf2fc",
+      "title": "GPT-6.1 Sol 帮助 CodeRabbit 加强复杂代码库的安全性",
+      "oneLiner": "CodeRabbit 使用 GPT-6.1 Sol 来调查复杂代码库中的安全风险。其安全代理可帮助开发人员审查调查结果和建议的修复方案。",
+      "date": "2026-10-26",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-64d59b55a8",
+      "title": "ChatGPT 不断扩大的工作领域",
+      "oneLiner": "探索 OpenAI Signals 近 100 个国家/地区 165 项工作活动的数据，揭示人们如何使用 ChatGPT 进行工作以及使用情况如何随时间变化。",
+      "date": "2026-10-26",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-eb7708c5f5",
+      "title": "Fanatics 和 OpenAI 如何简化粉丝体验",
+      "oneLiner": "Fanatics 使用 OpenAI 帮助球迷通过 Shop the Look 完成比赛日服装。对大约 30,000 个 MLB 产品进行的测试显示，参与度提高了 10%。",
+      "date": "2026-10-26",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-8f2f08b6e1",
+      "title": "Ultrafast 如何将 OpenAI 的事件调查时间从几小时缩短至几分钟",
+      "oneLiner": "了解 OpenAI 工程师如何使用 Codex Ultrafast 在几分钟内调查事件。探索更快的安全分析、代码重构和日常工作流程。",
+      "date": "2026-10-26",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
     {
       "id": "sig-298c8de07d",
       "title": "快速扩展在线存储以服务超过 10 亿 ChatGPT 用户（第二部分）",
@@ -310,95 +394,784 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-b3fcb2e42d",
-      "title": "特许经营商利用 ChatGPT Work 将现金核对时间缩短 94%",
-      "oneLiner": "Schlotzsky’s 和 Cinnabon 的一家独立特许经营商将菜单重新定价时间缩短了 95%，并建立了一个可以释放 10 万美元现金流的工作流程。",
-      "date": "2026-10-20",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-a84b6a7bee",
-      "title": "Terminal X 与 GPT-6.1 的高级投资者判断相符 88.6%",
-      "oneLiner": "Terminal X 的评估代理根据 54 个标准的标准对输出进行评级，使用 GPT-6.1 Sol 捕获基金授权的 25% 的偏差。",
-      "date": "2026-10-20",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-dbaa902542",
-      "title": "OpenAI 收购 Orchestra Bio",
-      "oneLiner": "OpenAI 正在收购 Orchestra Bio，将人工智能驱动的操作引入生命科学研发，帮助生物制药团队加速药物开发并推进新疗法。",
-      "date": "2026-10-20",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-7a364f356a",
-      "title": "推进低资源编程语言的编码",
-      "oneLiner": "了解 OpenAI 如何通过针对软件工程、SQLite 和 COBOL 迁移的新评估，跨低资源编程语言改进 ChatGPT。",
-      "date": "2026-10-19",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-65442e7082",
-      "title": "Itaú 如何为其整个客户群构建生成式人工智能",
-      "oneLiner": "借助对话界面 ia.i 和 IARA 治理平台，Itaú 正在将其人工智能优先战略应用于巴西监管最严格的行业之一的客户和员工。",
-      "date": "2026-10-16",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-9db4940a53",
-      "title": "Stack Overflow for Agents 使用 ChatGPT 插件使注册人数增加了三倍",
-      "oneLiner": "两名工程师在几周内与 Codex 一起发布了 Stack Overflow for Agents，其 ChatGPT 插件帮助推动代理创建量增长了 10 倍。",
-      "date": "2026-10-16",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-f50edeef79",
-      "title": "云端智能体画布与环境改进 · Cursor",
-      "oneLiner": "云端智能体 现在可以在执行任务时构建交互式 画布 。画布完成后，只需发送链接即可与团队共享。",
-      "date": "2026-10-16",
-      "productIds": [
-        "cursor"
-      ],
-      "source": "Cursor",
-      "tags": [
-        "Release"
-      ],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-250e5d8f30",
+      "title": "Greptile 使用 GPT-6 Astra 使错误检测超越代码审查",
+      "oneLiner": "Greptile 如何使用 GPT-6 Astra 来测试用户工作流程，使用 Daybreak 来增强安全性，使用 Codex 来减少返工。",
+      "summary": {
+        "oneSentence": "Greptile 如何使用 GPT-6 Astra 来测试用户工作流程，使用 Daybreak 来增强安全性，使用 Codex 来减少返工。",
+        "bullets": [
+          "Greptile 如何使用 GPT-6 Astra 来测试用户工作流程，使用 Daybreak 来增强安全性，使用 Codex 来减少返工。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：Greptile 如何使用 GPT-6 Astra 来测试用户工作流程，使用 Daybreak 来增强安全性，使用 Codex 来减少返工。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/greptile-code-review-codex-astra"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Greptile 如何使用 GPT-6 Astra 来测试用户工作流程，使用 Daybreak 来增强安全性，使用 Codex 来减少返工。"
+      ],
+      "highlights": [
+        "Greptile 如何使用 GPT-6 Astra 来测试用户工作流程，使用 Daybreak 来增强安全性，使用 Codex 来减少返工。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+      "originalLang": "en",
+      "date": "2026-10-26",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/greptile-code-review-codex-astra",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Greptile takes bug detection beyond code review with GPT-6 Astra"
+      },
+      "raw": {
+        "title": "Greptile takes bug detection beyond code review with GPT-6 Astra",
+        "url": "https://openai.com/index/greptile-code-review-codex-astra",
+        "fetched": false,
+        "savedAt": "2026-10-27T03:19:53.262Z"
+      }
+    },
+    {
+      "id": "sig-2aa62c4cdc",
+      "title": "从 CLI 发现 Vercel Connect 上的 1000 多个服务 - Vercel",
+      "oneLiner": "您和您的代理现在无需离开终端即可浏览和搜索 Vercel Connect 中提供的 1000 多种服务。 vercel connect discovery 按名称、别名、关键字和描述进行搜索。",
+      "summary": {
+        "oneSentence": "您和您的代理现在无需离开终端即可浏览和搜索 Vercel Connect 中提供的 1000 多种服务。 vercel connect discovery 按名称、别名、关键字和描述进行搜索。",
+        "bullets": [
+          "您和您的代理现在无需离开终端即可浏览和搜索 Vercel Connect 中提供的 1000 多种服务。 vercel connect discovery 按名称、别名、关键字和描述进行搜索。",
+          "可以按类别、连接方法（例如 mcp 或 oauth ）或服务公开的产品来过滤结果。您还可以将结果限制为转发 Webhook 触发器的服务。 vercel connectcategories 列出了您可以过滤的类别 slugs。这两个命令都支持脚本和代理的 --format=json。",
+          "1 vercel connect discovery --category ai --category data 2 vercel connect discovery --connection-method mcp 3 vercel connect discovery --supports-triggers",
+          "然后，您可以在创建任何连接器时将服务名称传递给命令："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：您和您的代理现在无需离开终端即可浏览和搜索 Vercel Connect 中提供的 1000 多种服务。 vercel connect discovery 按名称、别名、关键字和描述进行搜索。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/discover-1000-services-on-vercel-connect-from-the-cli"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "您和您的代理现在无需离开终端即可浏览和搜索 Vercel Connect 中提供的 1000 多种服务。 vercel connect discovery 按名称、别名、关键字和描述进行搜索。",
+        "可以按类别、连接方法（例如 mcp 或 oauth ）或服务公开的产品来过滤结果。您还可以将结果限制为转发 Webhook 触发器的服务。 vercel connectcategories 列出了您可以过滤的类别 slugs。这两个命令都支持脚本和代理的 --format=json。",
+        "1 vercel connect discovery --category ai --category data 2 vercel connect discovery --connection-method mcp 3 vercel connect discovery --supports-triggers",
+        "然后，您可以在创建任何连接器时将服务名称传递给命令：",
+        "1 vercel connect create slack 通过 CLI 创建 slack 连接器。",
+        "更新到 CLI 版本 64.1.0 或更高版本即可开始使用，并阅读 Vercel Connect CLI 文档以了解更多信息。"
+      ],
+      "highlights": [
+        "您和您的代理现在无需离开终端即可浏览和搜索 Vercel Connect 中提供的 1000 多种服务。 vercel connect discovery 按名",
+        "可以按类别、连接方法（例如 mcp 或 oauth ）或服务公开的产品来过滤结果。您还可以将结果限制为转发 Webhook 触发器的服务。 vercel con",
+        "1 vercel connect discovery --category ai --category data 2 vercel connect discov"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Discover 1000+ services on Vercel Connect from the CLI - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-26",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/discover-1000-services-on-vercel-connect-from-the-cli",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Discover 1000+ services on Vercel Connect from the CLI - Vercel"
+      },
+      "raw": {
+        "title": "Discover 1000+ services on Vercel Connect from the CLI",
+        "url": "https://vercel.com/changelog/discover-1000-services-on-vercel-connect-from-the-cli",
+        "fetched": true,
+        "savedAt": "2026-10-27T03:19:59.837Z"
+      }
+    },
+    {
+      "id": "sig-817b7a2e27",
+      "title": "在 Vercel 沙盒上运行 Scale AI 的 AgentEnv 评估 - Vercel",
+      "oneLiner": "AgentEnv 是 Scale AI 的框架，用于根据任务测试代理并对其结果进行评分，现在在 Vercel Sandbox 上运行。 Vercel 提供程序在 AgentEnv 0.9.1334 及更高版本中提供，并在单独的沙箱中运行代理",
+      "summary": {
+        "oneSentence": "AgentEnv 是 Scale AI 的框架，用于根据任务测试代理并对其结果进行评分，现在在 Vercel Sandbox 上运行。 Vercel 提供程序在 AgentEnv 0.9.1334 及更高版本中提供，并在单独的沙箱中运行代理",
+        "bullets": [
+          "AgentEnv 是 Scale AI 的框架，用于根据任务测试代理并对其结果进行评分，现在在 Vercel Sandbox 上运行。 Vercel 提供程序在 AgentEnv 0.9.1334 及更高版本中提供，并在单独的沙箱中运行代理及其任务环境。",
+          "尝试使用 AgentEnv 示例在 Vercel Sandbox 上运行评估，并检查任务的分数和代理记录的操作。完成设置指南后，从克隆的存储库运行此命令。它使用您现有的 Vercel CLI 登录名：",
+          "./vercel-eval --scope YOUR_TEAM --project YOUR_PROJECT",
+          "将 YOUR_TEAM 替换为您的 Vercel 团队 slug，将 YOUR_PROJECT 替换为现有项目名称。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：AgentEnv 是 Scale AI 的框架，用于根据任务测试代理并对其结果进行评分，现在在 Vercel Sandbox 上运行。 Vercel 提供程序在 AgentEnv 0.9.1334 及更高版本中提供，并在单独的沙箱中运行代理",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/run-scale-ais-agentenv-evals-on-vercel-sandbox"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "AgentEnv 是 Scale AI 的框架，用于根据任务测试代理并对其结果进行评分，现在在 Vercel Sandbox 上运行。 Vercel 提供程序在 AgentEnv 0.9.1334 及更高版本中提供，并在单独的沙箱中运行代理及其任务环境。",
+        "尝试使用 AgentEnv 示例在 Vercel Sandbox 上运行评估，并检查任务的分数和代理记录的操作。完成设置指南后，从克隆的存储库运行此命令。它使用您现有的 Vercel CLI 登录名：",
+        "./vercel-eval --scope YOUR_TEAM --project YOUR_PROJECT",
+        "将 YOUR_TEAM 替换为您的 Vercel 团队 slug，将 YOUR_PROJECT 替换为现有项目名称。",
+        "请参阅沙盒生态系统文档了解更多信息。"
+      ],
+      "highlights": [
+        "AgentEnv 是 Scale AI 的框架，用于根据任务测试代理并对其结果进行评分，现在在 Vercel Sandbox 上运行。 Vercel 提供程序在",
+        "尝试使用 AgentEnv 示例在 Vercel Sandbox 上运行评估，并检查任务的分数和代理记录的操作。完成设置指南后，从克隆的存储库运行此命令。它使用",
+        "./vercel-eval --scope YOUR_TEAM --project YOUR_PROJECT"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Run Scale AI’s AgentEnv evals on Vercel Sandbox - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-26",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/run-scale-ais-agentenv-evals-on-vercel-sandbox",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Run Scale AI’s AgentEnv evals on Vercel Sandbox - Vercel"
+      },
+      "raw": {
+        "title": "Run Scale AI’s AgentEnv evals on Vercel Sandbox",
+        "url": "https://vercel.com/changelog/run-scale-ais-agentenv-evals-on-vercel-sandbox",
+        "fetched": true,
+        "savedAt": "2026-10-27T03:20:04.564Z"
+      }
+    },
+    {
+      "id": "sig-be77c96c39",
+      "title": "我们最新的人工智能任务：绘制人类大脑图谱",
+      "oneLiner": "我们的人工智能探索系列的第三课“极地峰”，在深入研究神经科学的同时，教授学生关键的人工智能素养技能。",
+      "summary": {
+        "oneSentence": "我们的人工智能探索系列的第三课“极地峰”，在深入研究神经科学的同时，教授学生关键的人工智能素养技能。",
+        "bullets": [
+          "我们的人工智能探索系列的第三课“极地峰”，在深入研究神经科学的同时，教授学生关键的人工智能素养技能。",
+          "您的浏览器不支持音频元素。",
+          "Google Research 和斯坦福学习加速器刚刚推出了“Polar Peaks”，这是一项互动探索项目，教 11 至 14 岁的学生如何使用人工智能绘制人类大脑图。该计划帮助学生练习数据清理和模型测试，同时强调技术中人工监督的必要性。您可以通过 Google AI Educator 系列访问新的教师培训模块，以帮",
+          "谷歌推出了一款名为“Polar Peaks”的新游戏，让你像科学家一样使用人工智能绘制人类大脑地图。您将学习如何解决现实世界的问题，同时发现如何负责任地使用人工智能。这是了解研究人员如何利用技术取得重大科学突破的有趣方式。老师甚至会接受特殊培训来帮助您在课堂上探索这些挑战。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google AI 官网发布：我们的人工智能探索系列的第三课“极地峰”，在深入研究神经科学的同时，教授学生关键的人工智能素养技能。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "我们的人工智能探索系列的第三课“极地峰”，在深入研究神经科学的同时，教授学生关键的人工智能素养技能。",
+        "您的浏览器不支持音频元素。",
+        "Google Research 和斯坦福学习加速器刚刚推出了“Polar Peaks”，这是一项互动探索项目，教 11 至 14 岁的学生如何使用人工智能绘制人类大脑图。该计划帮助学生练习数据清理和模型测试，同时强调技术中人工监督的必要性。您可以通过 Google AI Educator 系列访问新的教师培训模块，以帮助将这些课程带入您的课堂。",
+        "谷歌推出了一款名为“Polar Peaks”的新游戏，让你像科学家一样使用人工智能绘制人类大脑地图。您将学习如何解决现实世界的问题，同时发现如何负责任地使用人工智能。这是了解研究人员如何利用技术取得重大科学突破的有趣方式。老师甚至会接受特殊培训来帮助您在课堂上探索这些挑战。",
+        "今天，我们将推出人工智能任务系列中的第三个任务“极地峰”，该任务由 Google Research 和斯坦福学习加速器创建，旨在向学生传授人工智能的工作原理以及如何负责任地使用它。 AI Quests 邀请 11 至 14 岁的学生扮演 Google 研究人员的角色，解决人类面临的一些最大挑战。",
+        "迄今为止，已完成超过 400,000 个任务，并已本地化为 10 种语言。除了新任务之外，我们还发布了教师培训模块。",
+        "在前两个任务中，学生们受 Google 研究的洪水预报计划和糖尿病视网膜病变筛查人工智能模型的启发，解决洪水预报和眼部疾病检测问题。我们最新的任务“极地峰”让学生们前往神经科学的前沿，了解人工智能如何加速科学研究。",
+        "在游戏中导师的指导下，学生扫描并绘制大脑中的神经元图，以更好地了解游戏角色的记忆丧失情况。他们完成数据清理和模型测试等任务，亲身了解到人工智能需要仔细的人类监督和批判性思维。",
+        "这一探索的灵感来自我们十多年来对连接组学的研究：绘制大脑中神经网络的科学。完成任务后，学生们将听到两位研究人员讲述我们在现实世界中取得的突破，包括最近绘制的完整果蝇大脑图谱，这是迄今为止按神经元数量计算的最大大脑图谱。",
+        "教师在将任务变为现实并将其融入现有课堂课程方面发挥着关键作用。我们正在推出新的专用教师培训模块，以帮助教育工作者强化关键的人工智能素养概念，并使用人工智能任务进行学习和讨论。这些都是在 Google AI Educator 系列中推出的。任务 #1 和 #2 的模块可在此处访问。任务 #3 的培训模块将于下个月推出。"
+      ],
+      "highlights": [
+        "我们的人工智能探索系列的第三课“极地峰”，在深入研究神经科学的同时，教授学生关键的人工智能素养技能。",
+        "您的浏览器不支持音频元素。",
+        "Google Research 和斯坦福学习加速器刚刚推出了“Polar Peaks”，这是一项互动探索项目，教 11 至 14 岁的学生如何使用人工智能绘制人"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Our newest AI Quest: Mapping the human brain",
+      "originalLang": "en",
+      "date": "2026-10-26",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Our newest AI Quest: Mapping the human brain"
+      },
+      "raw": {
+        "title": "Our newest AI Quest: Mapping the human brain",
+        "url": "https://blog.google/products-and-platforms/products/education/ai-quests-polar-peaks/",
+        "fetched": true,
+        "savedAt": "2026-10-27T03:20:12.858Z"
+      }
+    },
+    {
+      "id": "sig-f16aefe89a",
+      "title": "与学术界合作建立科学理解",
+      "oneLiner": "OpenAI 分享了挂谷猜想、指数时间假说和量子色动力学的模型结果，以及研究人员如何验证和构建它们。",
+      "summary": {
+        "oneSentence": "OpenAI 分享了挂谷猜想、指数时间假说和量子色动力学的模型结果，以及研究人员如何验证和构建它们。",
+        "bullets": [
+          "OpenAI 分享了挂谷猜想、指数时间假说和量子色动力学的模型结果，以及研究人员如何验证和构建它们。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 分享了挂谷猜想、指数时间假说和量子色动力学的模型结果，以及研究人员如何验证和构建它们。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/building-scientific-understanding-with-academic-communities"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 分享了挂谷猜想、指数时间假说和量子色动力学的模型结果，以及研究人员如何验证和构建它们。"
+      ],
+      "highlights": [
+        "OpenAI 分享了挂谷猜想、指数时间假说和量子色动力学的模型结果，以及研究人员如何验证和构建它们。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Working with academic communities to build scientific understanding",
+      "originalLang": "en",
+      "date": "2026-10-26",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Working with academic communities to build scientific understanding"
+      },
+      "raw": {
+        "title": "Working with academic communities to build scientific understanding",
+        "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+        "fetched": false,
+        "savedAt": "2026-10-27T03:20:14.073Z"
+      }
+    },
+    {
+      "id": "sig-1a1d4bf2fc",
+      "title": "GPT-6.1 Sol 帮助 CodeRabbit 加强复杂代码库的安全性",
+      "oneLiner": "CodeRabbit 使用 GPT-6.1 Sol 来调查复杂代码库中的安全风险。其安全代理可帮助开发人员审查调查结果和建议的修复方案。",
+      "summary": {
+        "oneSentence": "CodeRabbit 使用 GPT-6.1 Sol 来调查复杂代码库中的安全风险。其安全代理可帮助开发人员审查调查结果和建议的修复方案。",
+        "bullets": [
+          "CodeRabbit 使用 GPT-6.1 Sol 来调查复杂代码库中的安全风险。其安全代理可帮助开发人员审查调查结果和建议的修复方案。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：CodeRabbit 使用 GPT-6.1 Sol 来调查复杂代码库中的安全风险。其安全代理可帮助开发人员审查调查结果和建议的修复方案。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/gpt-6-1-sol-coderabbit-code-security"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "CodeRabbit 使用 GPT-6.1 Sol 来调查复杂代码库中的安全风险。其安全代理可帮助开发人员审查调查结果和建议的修复方案。"
+      ],
+      "highlights": [
+        "CodeRabbit 使用 GPT-6.1 Sol 来调查复杂代码库中的安全风险。其安全代理可帮助开发人员审查调查结果和建议的修复方案。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "originalLang": "en",
+      "date": "2026-10-26",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases"
+      },
+      "raw": {
+        "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+        "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+        "fetched": false,
+        "savedAt": "2026-10-27T03:20:15.327Z"
+      }
+    },
+    {
+      "id": "sig-20e57ea60a",
+      "title": "文本转语音技术的工作原理",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 了解更多 获取 API 密钥 在此页面上",
+          "文本转语音 (TTS) 技术将书面文字转换为口语音频。系统首先计算出文本内容及其听起来如何，然后人工智能模型生成音频。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/how-text-to-speech-technology-works"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 了解更多信息 获取 API 密钥 博客资源 文本转语音技术的工作原理：从文本到自然语音 作者：Jack Limebear 发布于 2026 年 10 月 26 日 听 听这篇文章",
+        "0:00 1.0x 了解更多 获取 API 密钥 在此页面上",
+        "文本转语音 (TTS) 技术将书面文字转换为口语音频。系统首先计算出文本内容及其听起来如何，然后人工智能模型生成音频。",
+        "最初，TTS 引擎对文本输入进行标准化，并将其转换为计算机系统可以操作的数学标记和向量表示。接下来，该模型将这些数学结构转换为声音的数字表示，最后转换为音频输出。",
+        "在本文中，我们将探讨不同的文本转语音工具的工作原理，以及最新一代生成式人工智能神经语音合成如何提供迄今为止最自然的语音。",
+        "文本转语音的工作原理是分析书面文本，决定每个单词的发音，然后使用神经模型和声码器生成口语音频。",
+        "TTS大致分为两个阶段：",
+        "让我们更详细地分解 TTS 工作原理的组成部分。",
+        "TTS 过程的第一步是自然语言处理 (NLP)：清理、标记化和消除原始文本输入的歧义。它将文本分解为标记，即 TTS 引擎可以操作的单个书面语言单元。标记可能是整个单词、“子单词”单元或标点符号。"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 了解更多 获取 API 密钥 在此页面上"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How text to speech technology works",
+      "originalLang": "en",
+      "date": "2026-10-26",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/how-text-to-speech-technology-works",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How text to speech technology works"
+      },
+      "raw": {
+        "title": "How text to speech technology works: From text to natural voice",
+        "url": "https://elevenlabs.io/blog/how-text-to-speech-technology-works",
+        "fetched": true,
+        "savedAt": "2026-10-27T03:20:26.411Z"
+      }
+    },
+    {
+      "id": "sig-64d59b55a8",
+      "title": "ChatGPT 不断扩大的工作领域",
+      "oneLiner": "探索 OpenAI Signals 近 100 个国家/地区 165 项工作活动的数据，揭示人们如何使用 ChatGPT 进行工作以及使用情况如何随时间变化。",
+      "summary": {
+        "oneSentence": "探索 OpenAI Signals 近 100 个国家/地区 165 项工作活动的数据，揭示人们如何使用 ChatGPT 进行工作以及使用情况如何随时间变化。",
+        "bullets": [
+          "探索 OpenAI Signals 近 100 个国家/地区 165 项工作活动的数据，揭示人们如何使用 ChatGPT 进行工作以及使用情况如何随时间变化。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：探索 OpenAI Signals 近 100 个国家/地区 165 项工作活动的数据，揭示人们如何使用 ChatGPT 进行工作以及使用情况如何随时间变化。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/chatgpt-expanding-world-of-work"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "探索 OpenAI Signals 近 100 个国家/地区 165 项工作活动的数据，揭示人们如何使用 ChatGPT 进行工作以及使用情况如何随时间变化。"
+      ],
+      "highlights": [
+        "探索 OpenAI Signals 近 100 个国家/地区 165 项工作活动的数据，揭示人们如何使用 ChatGPT 进行工作以及使用情况如何随时间变化。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "ChatGPT’s expanding world of work",
+      "originalLang": "en",
+      "date": "2026-10-26",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "ChatGPT’s expanding world of work"
+      },
+      "raw": {
+        "title": "ChatGPT’s expanding world of work",
+        "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+        "fetched": false,
+        "savedAt": "2026-10-27T03:20:27.599Z"
+      }
+    },
+    {
+      "id": "sig-eb7708c5f5",
+      "title": "Fanatics 和 OpenAI 如何简化粉丝体验",
+      "oneLiner": "Fanatics 使用 OpenAI 帮助球迷通过 Shop the Look 完成比赛日服装。对大约 30,000 个 MLB 产品进行的测试显示，参与度提高了 10%。",
+      "summary": {
+        "oneSentence": "Fanatics 使用 OpenAI 帮助球迷通过 Shop the Look 完成比赛日服装。对大约 30,000 个 MLB 产品进行的测试显示，参与度提高了 10%。",
+        "bullets": [
+          "Fanatics 使用 OpenAI 帮助球迷通过 Shop the Look 完成比赛日服装。对大约 30,000 个 MLB 产品进行的测试显示，参与度提高了 10%。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：Fanatics 使用 OpenAI 帮助球迷通过 Shop the Look 完成比赛日服装。对大约 30,000 个 MLB 产品进行的测试显示，参与度提高了 10%。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/fanatics-streamline-fan-experience"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Fanatics 使用 OpenAI 帮助球迷通过 Shop the Look 完成比赛日服装。对大约 30,000 个 MLB 产品进行的测试显示，参与度提高了 10%。"
+      ],
+      "highlights": [
+        "Fanatics 使用 OpenAI 帮助球迷通过 Shop the Look 完成比赛日服装。对大约 30,000 个 MLB 产品进行的测试显示，参与度提高"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How Fanatics and OpenAI streamline the fan experience",
+      "originalLang": "en",
+      "date": "2026-10-26",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How Fanatics and OpenAI streamline the fan experience"
+      },
+      "raw": {
+        "title": "How Fanatics and OpenAI streamline the fan experience",
+        "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+        "fetched": false,
+        "savedAt": "2026-10-27T03:20:28.784Z"
+      }
+    },
+    {
+      "id": "sig-8f2f08b6e1",
+      "title": "Ultrafast 如何将 OpenAI 的事件调查时间从几小时缩短至几分钟",
+      "oneLiner": "了解 OpenAI 工程师如何使用 Codex Ultrafast 在几分钟内调查事件。探索更快的安全分析、代码重构和日常工作流程。",
+      "summary": {
+        "oneSentence": "了解 OpenAI 工程师如何使用 Codex Ultrafast 在几分钟内调查事件。探索更快的安全分析、代码重构和日常工作流程。",
+        "bullets": [
+          "了解 OpenAI 工程师如何使用 Codex Ultrafast 在几分钟内调查事件。探索更快的安全分析、代码重构和日常工作流程。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：了解 OpenAI 工程师如何使用 Codex Ultrafast 在几分钟内调查事件。探索更快的安全分析、代码重构和日常工作流程。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/openai-cut-incident-investigation"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "了解 OpenAI 工程师如何使用 Codex Ultrafast 在几分钟内调查事件。探索更快的安全分析、代码重构和日常工作流程。"
+      ],
+      "highlights": [
+        "了解 OpenAI 工程师如何使用 Codex Ultrafast 在几分钟内调查事件。探索更快的安全分析、代码重构和日常工作流程。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+      "originalLang": "en",
+      "date": "2026-10-26",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/openai-cut-incident-investigation",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How Ultrafast cut incident investigation from hours to minutes at OpenAI"
+      },
+      "raw": {
+        "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+        "url": "https://openai.com/index/openai-cut-incident-investigation",
+        "fetched": false,
+        "savedAt": "2026-10-27T03:20:29.980Z"
+      }
+    },
     {
       "id": "sig-4fe4a52829",
       "title": "[AINews] Kimi 3.1 Pro 104BA-2.8T: Fable-5.1-Class Open Weights narrows Closed-AI lead to 1 month... and Pro Highspeed API with 2-3× speed",
@@ -6203,7 +6976,7 @@
         "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
         "fetched": true,
         "savedAt": "2026-10-17T02:36:45.886Z",
-        "retranslatedAt": "2026-10-26T02:45:15.205Z"
+        "retranslatedAt": "2026-10-27T03:20:31.352Z"
       }
     },
     {
@@ -9801,7 +10574,7 @@
         "url": "https://cursor.com/changelog/origin-app-marketplace",
         "fetched": true,
         "savedAt": "2026-10-14T03:08:22.474Z",
-        "retranslatedAt": "2026-10-26T02:45:16.739Z"
+        "retranslatedAt": "2026-10-27T03:20:32.573Z"
       }
     },
     {
@@ -15340,7 +16113,7 @@
         "url": "https://cursor.com/changelog/remote-control-local-agents",
         "fetched": true,
         "savedAt": "2026-10-11T03:27:39.323Z",
-        "retranslatedAt": "2026-10-26T02:45:17.932Z"
+        "retranslatedAt": "2026-10-27T03:20:33.788Z"
       }
     },
     {
@@ -24768,7 +25541,7 @@
         "url": "https://cursor.com/changelog/rollouts-and-security-reviewer",
         "fetched": true,
         "savedAt": "2026-09-27T03:09:42.462Z",
-        "retranslatedAt": "2026-10-26T02:45:19.115Z"
+        "retranslatedAt": "2026-10-27T03:20:34.989Z"
       }
     },
     {
@@ -31681,414 +32454,6 @@
         "url": "https://simonwillison.net/2026/Sep/13/shot-scraper/",
         "fetched": false,
         "savedAt": "2026-09-14T02:55:13.243Z"
-      }
-    },
-    {
-      "id": "sig-3f37b0a02f",
-      "title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
-      "oneLiner": "Here's a neat thing I had ChatGPT Work with GPT-6 Astra (Max) do this morning: I live at . Figure ou",
-      "summary": {
-        "oneSentence": "Here's a neat thing I had ChatGPT Work with GPT-6 Astra (Max) do this morning: I live at . Figure out 5K and 10K running",
-        "bullets": [
-          "Here's a neat thing I had ChatGPT Work with GPT-6 Astra (Max) do this morning: I live at . Figure out 5K and 10K running routes from me that loop from my house. Use OSM data. It worked for 27 minutes "
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/12/astra-running-routes/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Here's a neat thing I had ChatGPT Work with GPT-6 Astra (Max) do this morning: I live at . Figure out 5K and 10K running routes from me that loop from my house. Use OSM data. It worked for 27 minutes and produced exactly what I'd asked for, as both an embedded visualization and downloadable GPX file and GeoJSON files. Here's that 5K route: When I asked it how it had created the route, it replied: I used Nominatim to locate the address and Overpass to download local OpenStreetMap roads and trails , then calculated the loops locally. Frustratingly, the actual code it ran and exact details of what it did weren't visible to me in the ChatGPT UI. I see this lack of transparency is an anti-feature. By the time I thought to ask for a copy of the Python code it had used, ChatGPT was unable to provide it. This appears to be because the thread had been compacted. I think any LLM system that uses compaction needs to both preserve the pre-compacted text and make that text available via agent tool calls, to protect against this kind of problem. As for displaying the map to me, that used the visualize skill . It created a file called /workspace/el-granada-5k-share.html to embed directly into the ChatGPT UI. Here's a copy of that HTML , which starts like this: div id =\" eg-share-loop \" > div class =\" viz-row \" > h3 > El Granada harbor loop h3 > span class =\" text-small \" > 5.1 km span > div > div id =\" eg-share-stage \" > div > div class =\" text-small text-muted \" > Map data © a href =\" https://www.openstreetmap.org/copyright \" target =\" _blank \" rel =\" noopener \" > OpenStreetMap contributors a > div > style > # eg-share-loop { width : 100 % ; } # eg-share-loop # eg-share-stage { width : 100 % ; margin : 8 px 0 ; } # eg-share-loop . eg-share-map { display : block; width : 100 % ; touch-action : none; } # eg-share-loop . eg-share-map text { fill : var ( --foreground ); font-size : 12 px ; font-weight : 400 ; } # eg-share-loop . eg-share-label { paint-order : stroke; stroke : var ( --background ); stroke-width : 3 px ; stroke-linejoin : round; } style > script type =\" application/json \" id =\" eg-share-data \" > { \"route\" : { \"type\" : \"LineString\" , \"coordinates\" : [ [ - 122.467425 , 37.4997753 ] . . . script > script src =\" https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js \" > script > script > (() => { const root=document.getElementById('eg-share-loop'); The element contains the full geometry needed to render both the running route and the map itself, using D3, which is loaded from an allow-listed CDN location described in this section of the visualize skill : External resources The CSP allows only cdnjs.cloudflare.com , esm.sh , cdn.jsdelivr.net , unpkg.com , fonts.googleapis.com , fonts.gstatic.com , and fonts.bunny.net . Other origins are blocked and fail silently. Tags: geospatial , ai , d3 , openai , generative-ai , chatgpt , llms , skills , gpt-6-astra"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Generating running routes with GPT-6 Astra and ChatGPT Work",
-      "originalLang": "en",
-      "date": "2026-09-12",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Generating running routes with GPT-6 Astra and ChatGPT Work"
-      },
-      "raw": {
-        "title": "Generating running routes with GPT-6 Astra and ChatGPT Work",
-        "url": "https://simonwillison.net/2026/Sep/12/astra-running-routes/",
-        "fetched": false,
-        "savedAt": "2026-09-13T02:40:55.843Z"
-      }
-    },
-    {
-      "id": "sig-86c07f5a75",
-      "title": "California Brown Pelican",
-      "oneLiner": "California Brown Pelican, in San Mateo County, CA, US The Pacifica Pier shut down at the start of Ju",
-      "summary": {
-        "oneSentence": "California Brown Pelican, in San Mateo County, CA, US The Pacifica Pier shut down at the start of June after a crack in ",
-        "bullets": [
-          "California Brown Pelican, in San Mateo County, CA, US The Pacifica Pier shut down at the start of June after a crack in the concrete walkway made access to the pier unsafe. It has since been entirely "
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/12/sighting-399708714/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "California Brown Pelican, in San Mateo County, CA, US The Pacifica Pier shut down at the start of June after a crack in the concrete walkway made access to the pier unsafe. It has since been entirely taken over by pelicans! Tags: wildlife"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "California Brown Pelican",
-      "originalLang": "en",
-      "date": "2026-09-12",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/12/sighting-399708714/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "California Brown Pelican"
-      },
-      "raw": {
-        "title": "California Brown Pelican",
-        "url": "https://simonwillison.net/2026/Sep/12/sighting-399708714/",
-        "fetched": false,
-        "savedAt": "2026-09-13T02:40:56.643Z"
-      }
-    },
-    {
-      "id": "sig-db19087c5b",
-      "title": "Quoting Paul Ford",
-      "oneLiner": "For a while, I must admit, it looked as if software developer roles like mine were done for. How cou",
-      "summary": {
-        "oneSentence": "For a while, I must admit, it looked as if software developer roles like mine were done for. How could we fight against ",
-        "bullets": [
-          "For a while, I must admit, it looked as if software developer roles like mine were done for. How could we fight against tireless robots? But our industry is slowly realizing that making truly cutting-"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/12/paul-ford/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "For a while, I must admit, it looked as if software developer roles like mine were done for. How could we fight against tireless robots? But our industry is slowly realizing that making truly cutting-edge software still requires humans to think and work together, to maximize their skill sets and to practice their respective crafts. A.I. can write very good software, but it also makes it easy to do someone else’s job badly, which is part of why all those projects fail. Now that everyone can code, it’s become clearer why many shouldn’t. &mdash; Paul Ford , A.I. Was Supposed to Give Us New Killer Apps. What Happened? Tags: paul-ford , generative-ai , deep-blue , ai , llms"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Quoting Paul Ford",
-      "originalLang": "en",
-      "date": "2026-09-12",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/12/paul-ford/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Quoting Paul Ford"
-      },
-      "raw": {
-        "title": "Quoting Paul Ford",
-        "url": "https://simonwillison.net/2026/Sep/12/paul-ford/",
-        "fetched": false,
-        "savedAt": "2026-09-13T02:40:57.444Z"
-      }
-    },
-    {
-      "id": "sig-46af3aa4b2",
-      "title": "The Rise of the Forward Deployed Engineer — and How To Do the Job Right",
-      "oneLiner": "Before co-founding Kepler, Vinoo Ganesh led Spark at Palantir and built Project Frontline — a pionee",
-      "summary": {
-        "oneSentence": "Before co-founding Kepler, Vinoo Ganesh led Spark at Palantir and built Project Frontline — a pioneering program for For",
-        "bullets": [
-          "Before co-founding Kepler, Vinoo Ganesh led Spark at Palantir and built Project Frontline — a pioneering program for Forward Deployed Engineers. He takes us through the best practices of FDEs."
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://www.latent.space/p/forward-deployed-engineer-best-practices"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Before co-founding Kepler, Vinoo Ganesh led Spark at Palantir and built Project Frontline — a pioneering program for Forward Deployed Engineers. He takes us through the best practices of FDEs."
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "The Rise of the Forward Deployed Engineer — and How To Do the Job Right",
-      "originalLang": "en",
-      "date": "2026-09-12",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Latent Space",
-        "author": "swyx",
-        "url": "https://www.latent.space/p/forward-deployed-engineer-best-practices",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "The Rise of the Forward Deployed Engineer — and How To Do the Job Right"
-      },
-      "raw": {
-        "title": "The Rise of the Forward Deployed Engineer — and How To Do the Job Right",
-        "url": "https://www.latent.space/p/forward-deployed-engineer-best-practices",
-        "fetched": false,
-        "savedAt": "2026-09-14T02:55:14.044Z"
-      }
-    },
-    {
-      "id": "sig-11def78bea",
-      "title": "[AINews] DeepSeek v4.1-Flash: 763B-P8B-D16B novel causal Encoder–Decoder architecture with vision marks the Return of the Whale",
-      "oneLiner": "We agree with Sebastian: this should have been DeepSeek v5",
-      "summary": {
-        "oneSentence": "We agree with Sebastian: this should have been DeepSeek v5",
-        "bullets": [
-          "We agree with Sebastian: this should have been DeepSeek v5"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "We agree with Sebastian: this should have been DeepSeek v5"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "[AINews] DeepSeek v4.1-Flash: 763B-P8B-D16B novel causal Encoder–Decoder architecture with vision marks the Return of the Whale",
-      "originalLang": "en",
-      "date": "2026-09-12",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Latent Space",
-        "author": "swyx",
-        "url": "https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "[AINews] DeepSeek v4.1-Flash: 763B-P8B-D16B novel causal Encoder–Decoder architecture with vision marks the Return of the Whale"
-      },
-      "raw": {
-        "title": "[AINews] DeepSeek v4.1-Flash: 763B-P8B-D16B novel causal Encoder–Decoder architecture with vision marks the Return of the Whale",
-        "url": "https://www.latent.space/p/ainews-deepseek-v41-flash-763b-p8b",
-        "fetched": false,
-        "savedAt": "2026-09-14T02:55:14.844Z"
-      }
-    },
-    {
-      "id": "sig-2ed54a20b8",
-      "title": "OpenAI agents attacked RubyGems back in May",
-      "oneLiner": "OpenAI agents carried out an undisclosed attack on RubyGems is a new bombshell report from Spencer K",
-      "summary": {
-        "oneSentence": "OpenAI agents carried out an undisclosed attack on RubyGems is a new bombshell report from Spencer Kitts, Thomas Larsen,",
-        "bullets": [
-          "OpenAI agents carried out an undisclosed attack on RubyGems is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx - three of the four authors of the report on the agent attac"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "OpenAI agents carried out an undisclosed attack on RubyGems is a new bombshell report from Spencer Kitts, Thomas Larsen, and Sydney Von Arx - three of the four authors of the report on the agent attack on disused wikis ( previously ) last week. This time they're noting that it looks very likely that an OpenAI agent swarm was behind an attack against the RubyGems package repository first reported on May 12th by Maciej Mensfeld of the RubyGems security team : We're dealing with a major malicious attack on @rubygems right now. Signups are paused for the time being. Hundreds of packages involved - mostly targeting us, but some carrying exploits. The team has been on this for hours. More details to follow once we're through it. Those packages turned out to carry some very suspicious patterns: Many of them included \"oai\" in their name, or the author field, or the fake email address they provided. The files they were accessing were similar in character to the files retrieved by the wiki agents, using similar tricks (r.jina.ai) - and OpenAI have confirmed the wiki agents were theirs. The code in the packages appeared to be LLM-authored. I find point 2 the most convincing, given what we learned from the wiki attack when it was analyzed in September. Many of the packages were exploiting the RubyDoc.info documentation build process to exfiltrate (public) data from UK government websites, presumably as part of an information gathering task similar to the research tasks processed by the wiki-exploiting agents. We know this because one agent helpfully left a comment: # malicious crawler/exfil for Southwark Jan 2026 docs via rubydoc.info worker They also attempted to steal API keys via an exploit that was patched over two months later - it's not clear if those attempts were successful. The thing that bothers me most about this incident is that the authors report that OpenAI had not disclosed to RubyGems that they were responsible for the attack prior to now. If that's true there are two options: After the Hugging Face and Wiki attacks OpenAI were still unable to review their previous logs and determine that they had previously attacked RubyGems. They knew about the attack on RubyGems and made the decision not to reach out to the RubyGems team about it. Both of these are bad! Given this incident, the Hugging Face situation , and the Wiki attack, the obvious question right now is how many more incidents like this are out there waiting to be discovered? Tags: ruby , security , ai , openai , generative-ai , llms , supply-chain , ai-ethics , accidental-cyberattacks"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "OpenAI agents attacked RubyGems back in May",
-      "originalLang": "en",
-      "date": "2026-09-12",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "OpenAI agents attacked RubyGems back in May"
-      },
-      "raw": {
-        "title": "OpenAI agents attacked RubyGems back in May",
-        "url": "https://simonwillison.net/2026/Sep/12/openai-agents-rubygems/",
-        "fetched": false,
-        "savedAt": "2026-09-14T02:55:15.645Z"
       }
     }
   ]
