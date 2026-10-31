@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-30T03:59:25.578Z",
+  "updatedAt": "2026-10-31T03:43:10.218Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 420,
+  "itemCount": 418,
   "brief": {
-    "date": "2026-10-30",
-    "generatedAt": "2026-10-30T03:59:25.577Z",
-    "totalCount": 420,
-    "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 420 条",
+    "date": "2026-10-31",
+    "generatedAt": "2026-10-31T03:43:10.217Z",
+    "totalCount": 418,
+    "todayCount": 1,
+    "headline": "今日 AI 信号 1 条 · 档案共 418 条",
     "topUpdates": [
       {
         "id": "sig-c3bc2bfc0c",
@@ -91,8 +91,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-10-30T03:59:25.578Z",
-    "summary": "近 30 天共 263 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-10-31T03:43:10.218Z",
+    "summary": "近 30 天共 260 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -107,6 +107,42 @@
     "risingTags": []
   },
   "productUpdates": [
+    {
+      "id": "sig-25cc4c9bb2",
+      "title": "Making it easier for websites to express AI training preferences",
+      "oneLiner": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training",
+      "date": "2026-10-30",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-c7606af40d",
+      "title": "Community safety report and new protections for teens",
+      "oneLiner": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventio",
+      "date": "2026-10-30",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
+    },
+    {
+      "id": "sig-d2282bcce1",
+      "title": "Fair use benefits everyone",
+      "oneLiner": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal ",
+      "date": "2026-10-30",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 3
+    },
     {
       "id": "sig-7bf0065ceb",
       "title": "更新后的模型规格，提供更强大、更有益的人工智能",
@@ -358,45 +394,772 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-ba6fa07d67",
-      "title": "Uber 通过 OpenAI 为所有员工带来 ChatGPT Work",
-      "oneLiner": "Uber 正在向 30,000 多名员工推出 ChatGPT Work，帮助团队研究、分析数据、创建演示文稿并完成复杂的工作流程。",
-      "date": "2026-10-22",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-2ed22a61b2",
-      "title": "通过一致的标准实现广泛的访问",
-      "oneLiner": "OpenAI 如何与分销合作伙伴合作，维护一致的保障措施、支持负责任的访问并明确我们的使用政策中的期望。",
-      "date": "2026-10-21",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-4ab93569e2",
-      "title": "AT&T 如何重新考虑与 OpenAI 合作的内部法律工作",
-      "oneLiner": "AT&T 正在与 OpenAI 合作，让法律知识更容易获取。了解其 LegalEdge 团队如何重新考虑吸收和扩大法律判断范围。",
-      "date": "2026-10-21",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-19776a7f1c",
+      "title": "The TL;DR on Figma Weave: Make your creative process repeatable",
+      "oneLiner": "Figma Weave brings AI generation and editing tools together into connected, reusable workflows, givi",
+      "summary": {
+        "oneSentence": "Figma Weave brings AI generation and editing tools together into connected, reusable workflows, giving you a process you",
+        "bullets": [
+          "Figma Weave brings AI generation and editing tools together into connected, reusable workflows, giving you a process your team can shape, refine, and repeat. Here’s what it unlocks for creative teams "
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://www.figma.com/blog/the-tldr-on-figma-weave/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Figma Weave brings AI generation and editing tools together into connected, reusable workflows, giving you a process your team can shape, refine, and repeat. Here’s what it unlocks for creative teams and how to get the most out of it.",
+        "Terms to know: Node : An individual building block of a workflow on the Weave canvas.",
+        "Workflow : Connected nodes that turn your starting material into a finished result.",
+        "Branch : A separate path in a workflow for exploring a different direction from the same starting point.",
+        "Weave tool: A workflow packaged so someone can run it without working with the underlying nodes.",
+        "The best work happens when you and your teammates can build on ideas together, from early exploration to final refinements, with room to contribute while the work is still taking shape. That’s the idea behind Figma Weave Connecting Figma and Weave Today, we’re announcing new ways your Weave creative workflows can live alongside your Figma frames.",
+        "The work you do in Weave comes together in nodes—building blocks for adding images and prompts, generating content, and making edits. Connected on the canvas, nodes show how the work came together and let you return to earlier nodes to make changes. You and your teammates can then adapt the same workflow across new products or formats so you can move faster without giving up creative control.",
+        "Whether you’re turning existing images into campaign videos or creating new product imagery without another photoshoot, Weave lets you spend less time translating between design and creative production and more time fine-tuning your vision.",
+        "Figma Weave keeps your team’s process visible and connected from start to finish. Here’s what that looks like in practice.",
+        "Launching a product collection and need imagery for different product variations but can't arrange a new photoshoot for every one.",
+        "Producing a campaign across channels and markets and need to adapt visuals for different formats while keeping a cohesive look.",
+        "Developing video work and need to generate shots from reference images or refine existing clips.",
+        "Weave gives you room to develop several ideas side by side, with each new direction building on work already on the canvas. Separate paths, called branches, let you try different prompts or edits from the same starting point while keeping the original available. You can also run the same prompt through different AI models and compare the results side by side, choosing the one that best fits the look or edit you’re after. Each version stays connected to the steps that produced it, so you can compare approaches or return to an earlier option before committing to a direction.",
+        "Say you’re developing a campaign for a hiking brand, starting with a photo of a backpack. You connect that photo to two AI image-editing nodes, prompting one to place it in a forest and the other on a mountain. From there, you might adjust the forest scene’s colors or turn the mountain scene into a short video. Both branches stay on the canvas as you develop them, so you can see how each direction could work for the campaign before committing."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "The TL;DR on Figma Weave: Make Your Creative Process Repeatable | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-10-31",
+      "categoryIds": [
+        "vertical-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/the-tldr-on-figma-weave/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "The TL;DR on Figma Weave: Make Your Creative Process Repeatable | Figma Blog"
+      },
+      "raw": {
+        "title": "The TL;DR on Figma Weave: Make your creative process repeatable",
+        "url": "https://www.figma.com/blog/the-tldr-on-figma-weave/",
+        "fetched": true,
+        "savedAt": "2026-10-31T03:42:49.903Z"
+      }
+    },
+    {
+      "id": "sig-6db6c0a822",
+      "title": "Introducing Geist Serif",
+      "oneLiner": "Geist started as a monospace typeface for developers, built for the editors and terminals where they",
+      "summary": {
+        "oneSentence": "Geist started as a monospace typeface for developers, built for the editors and terminals where they spend their day doi",
+        "bullets": [
+          "Geist started as a monospace typeface for developers, built for the editors and terminals where they spend their day doing their work. From there it grew into Geist Sans for product interfaces, and th"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/blog/introducing-geist-serif"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Geist started as a monospace typeface for developers, built for the editors and terminals where they spend their day doing their work. From there it grew into Geist Sans for product interfaces, and then into Geist Pixel, which was inspired by the grids of early computer screens.",
+        "Today, we're adding a new member to the family: Geist Serif .",
+        "Geist Serif is a high-contrast display serif built on the same foundations as Geist Sans, Geist Mono, and Geist Pixel. It has fine, saw-toothed serifs and sharp hairlines, and it was drawn to communicate messages powerfully both in the physical world and on the high-density screens on modern devices.",
+        "Copy link to heading Same system, new voice At Vercel, Geist Sans runs the product. For headlines, though, we wanted a second voice, one that belongs to the same system, instead of a stranger picked from a drop-down menu.",
+        "A lot of tech brands have moved away from clean sans-serifs to get some personality back, and many of them borrow from vintage computer ads. Geist Serif takes a different path: toward fashion, editorial design, and magazine headlines. It's our homage to the artists behind Rolling Stone and Harper's Bazaar .",
+        "From the beginning, each Geist family has read from a chapter of type history: the Swiss design movement, early terminal and DOS computing, and now editorial print.",
+        "Copy link to heading Display first Geist Serif began as a set of sketches by Evil Rabbit , which Andrés Briganti then expanded. The first letters already showed an expressive serif, in the spirit of typefaces like Victor Serif and Stanley.",
+        "When Mark Davis took over the drawings, we made the first release a display face for headlines, posters, and other large sizes, while work on the full family continued. Print has always struggled to hold fine hairlines and sharp serifs, but today's displays can handle a high level of detail. We wanted the new face to take full advantage of modern screens, so we thinned every downstroke by 50% and tightened the sidebearings to push the contrast as far as it would go.",
+        "Each serif has a wedge on one side and a curve on the other, so the proportions are classical and look beautiful in print, but the construction is new and optimized for digital devices.",
+        "Copy link to heading From the first prototype to today The first prototype of Geist Serif was shared on April 1, 2026. Here's the same word, Geist, in that prototype, compared with the display drawing shipping today.",
+        "Copy link to heading Geist grew teeth The goal was to honor our original intent and keep the serif closely tied to the sans, even when the letters sit on top of each other. Geist Serif’s stems match Geist Sans, and the two share widths and postures.",
+        "The saw-toothed serifs and high contrast give Geist an editorial voice. One phrase kept coming up as each character was drawn: “Geist grew teeth.”",
+        "Copy link to heading Four families, one x-height Geist Serif uses the same cap height and x-height as Geist Sans, so you can drop it into any Geist layout without moving a line. Mix Sans, Mono, Pixel, and Serif in the same sentence and every word looks the same size.",
+        "Copy link to heading Four variants, one axis Like Geist Pixel, Geist Serif has a variable axis that swaps the shape of every dot in the font, including those on i and j and in punctuation. The axis is called Element Shape ( ELSH ), and it gives you four variants: Regular with round dots (the default), Square, Triangle (a nod to the Vercel logo), and Heart."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Introducing Geist Serif",
+      "originalLang": "en",
+      "date": "2026-10-30",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/introducing-geist-serif",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Introducing Geist Serif"
+      },
+      "raw": {
+        "title": "Introducing Geist Serif",
+        "url": "https://vercel.com/blog/introducing-geist-serif",
+        "fetched": true,
+        "savedAt": "2026-10-31T03:42:51.529Z"
+      }
+    },
+    {
+      "id": "sig-bac9edc458",
+      "title": "Warm transfer vs cold transfer: choosing the right call",
+      "oneLiner": "Learn the difference between a warm transfer vs cold transfer, when to use each, and how AI voice ag",
+      "summary": {
+        "oneSentence": "Learn the difference between a warm transfer vs cold transfer, when to use each, and how AI voice agents hand calls to a",
+        "bullets": [
+          "Learn the difference between a warm transfer vs cold transfer, when to use each, and how AI voice agents hand calls to a human with full context."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://elevenlabs.io/blog/warm-transfer-vs-cold-transfer"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> Introducing Eleven v4 Meet Eleven v4, our most emotive model yet.",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem; } Skip to content Products Solutions Customers Resources Enterprise Pricing Log in Sign up Contact sales Log in [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() Contact sales Sign up Blog Resources Warm transfer vs cold transfer: choosing the right call Written by Jack Limebear Published Oct 30, 2026 Listen Listen to this article",
+        "0:00 1.0x Contact sales Sign up On this page",
+        "Call transfers are a decision about context: either the person picking up knows why the caller is on the line with a warm transfer, or the caller starts over with a cold transfer. The transfer type you choose shapes handle time and first-contact resolution, and it can even affect how callers rate their customer support experience.",
+        "In this article, we’ll examine the differences between a warm transfer and a cold transfer and offer guidance on choosing which type to use in customer support.",
+        "Build scalable customer support agents today",
+        "The core difference between a warm and cold transfer is how much information is passed along when the transfer is made. Warm transfers involve providing the receiving party with the caller’s context so they already understand any potential issues.",
+        "A cold transfer means the receiving party learns any context from the caller instead of the person making the transfer.",
+        "These transfer types also go by other names. A warm transfer may be referred to as a warm handoff or an attended transfer, while a cold transfer may be called a blind transfer.",
+        "A warm transfer in a call center is a handoff in which the receiving party gets context about the caller before connecting the two. The first operator, human or AI, passes along who is calling and what they need. The caller picks up the conversation where it left off.",
+        "Step four is the entire point. The context step is what makes a transfer warm. Remove it and the same sequence becomes a tepid or cold transfer.",
+        "A cold transfer connects the caller directly to the destination with zero advance notice to the receiving party. It is also called a blind transfer.",
+        "Cold transfers are faster because nobody waits for a briefing. The tradeoff is that the caller often has to re-explain their issue from scratch, which adds time on the second leg of the call and frustrates callers with complicated problems.",
+        "Deciding between a warm and cold transfer involves matching the type of transfer to the cost of losing context. Warm transfers take longer but are great if the type of issue means that losing context would frustrate the caller. Low-effort calls are less likely to cause issues and can use a cold transfer."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Warm transfer vs cold transfer: how to choose the right one",
+      "originalLang": "en",
+      "date": "2026-10-30",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/warm-transfer-vs-cold-transfer",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Warm transfer vs cold transfer: how to choose the right one"
+      },
+      "raw": {
+        "title": "Warm transfer vs cold transfer: choosing the right call",
+        "url": "https://elevenlabs.io/blog/warm-transfer-vs-cold-transfer",
+        "fetched": true,
+        "savedAt": "2026-10-31T03:42:53.477Z"
+      }
+    },
+    {
+      "id": "sig-626d6f539a",
+      "title": "TELUS Digital cut early cancellations by more than half with ElevenAgents",
+      "oneLiner": "TELUS Digital uses ElevenAgents to call new internet customers in their first 90 days, cutting early",
+      "summary": {
+        "oneSentence": "TELUS Digital uses ElevenAgents to call new internet customers in their first 90 days, cutting early cancellations by mo",
+        "bullets": [
+          "TELUS Digital uses ElevenAgents to call new internet customers in their first 90 days, cutting early cancellations by more than half"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://elevenlabs.io/blog/telus-digital-early-cancellations"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> Introducing Eleven v4 Meet Eleven v4, our most emotive model yet.",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem; } Skip to content Products Solutions Customers Resources Enterprise Pricing Log in Sign up Contact sales Log in [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() Contact Sales Learn More Customer Stories TELUS Digital cut early cancellations by more than half with ElevenAgents Written by Aghasaf Jabrayilov Published Oct 30, 2026 Listen Listen to this article",
+        "0:00 1.0x Contact Sales Learn More On this page",
+        "TELUS Digital is a global technology service provider and a business entity of TELUS, one of Canada’s largest communications companies, with C$20 billion in annual revenue and 21 million customer connections. Using ElevenAgents, TELUS Digital built an outbound voice agent for its customers, welcoming new home internet customers in their first 90 days.",
+        "Prior to the new agent, TELUS had found that new customers were most likely to cancel before anyone from the company had spoken to them, and outbound capacity for customer care didn’t exist. The digital agent now calls them proactively, explains their first bill, introduces self-serve tools, and prompts customers to claim bundling discounts. Among customers who received a call, 30-day cancellations were less than half the rate of the broader cohort of new customers who had activated. TELUS Digital is also a preferred implementation partner for ElevenAgents.",
+        "High-speed internet is one of TELUS’ highest-volume consumer products, adding 123,000 net new customers in 2025.",
+        "TELUS analyzed the first 90 days after a customer had activated a residential internet account and found four friction points that compounded into inbound call volume and early churn:",
+        "Most of these friction points could have been addressed early with a simple check-in call, but the capacity and economics of calling every new customer had proved difficult.",
+        "TELUS decided to build an outbound voice agent that would call every newly activated internet customer within their first weeks of service. The agent had to sound natural enough that customers would stay on the line. It also needed to be able to handle several tasks, including multi-step conversations that could branch on the customer’s answers, authenticate the customer and read live billing data mid-call, and meet TELUS’ security and compliance requirements for a customer-facing deployment in a regulated industry.",
+        "Between November 2025 and February 2026, TELUS Digital evaluated enterprise conversational AI platforms against five criteria: voice expressiveness and tone, agent framework flexibility for complex outbound flows, real-time emotional modulation, enterprise security and compliance, and response latency. TELUS Digital selected ElevenAgents over other vendors. Its platform produces expressive, natural speech with the low latency needed for an outbound call to feel like a conversation rather than a recording. In addition its agent framework supports branching flows, mid-call tool use, and handoff rules without custom orchestration.",
+        "TELUS Digital also had production evidence to draw on. It had already built its Fuel iX Agent Trainer on ElevenAgents, where new contact center associates rehearse realistic customer conversations before taking live calls. As of June 2026, the platform had completed more than 90,000 simulations and reduced onboarding time by 20%.",
+        "“We went into this pilot with a clear hypothesis: reach new customers early, before any frustration sets in, and you change the trajectory of that relationship,” said Jelena Bajic, Global Vice President, Global Operations Excellence, TELUS Communications. “The results proved it out: Early cancellations cut by more than half, along with very strong customer satisfaction, and our virtual agent connected with the right person at a rate on par with our best outbound agents. What this tells us is that the quality of the interaction matters as much as the timing, and ElevenLabs gave us both.”",
+        "The agent was designed, integrated, and governed as a single program. Every welcome call follows a structured but conversational flow:",
+        "Before ending, the agent shares a troubleshooting tip and collects a satisfaction rating."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "How TELUS Digital cut early cancellations by more than half",
+      "originalLang": "en",
+      "date": "2026-10-30",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/telus-digital-early-cancellations",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "How TELUS Digital cut early cancellations by more than half"
+      },
+      "raw": {
+        "title": "TELUS Digital cut early cancellations by more than half with ElevenAgents",
+        "url": "https://elevenlabs.io/blog/telus-digital-early-cancellations",
+        "fetched": true,
+        "savedAt": "2026-10-31T03:42:55.108Z"
+      }
+    },
+    {
+      "id": "sig-25cc4c9bb2",
+      "title": "Making it easier for websites to express AI training preferences",
+      "oneLiner": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training",
+      "summary": {
+        "oneSentence": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to part",
+        "bullets": [
+          "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/helping-websites-express-ai-training-preferences"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Making it easier for websites to express AI training preferences",
+      "originalLang": "en",
+      "date": "2026-10-30",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Making it easier for websites to express AI training preferences"
+      },
+      "raw": {
+        "title": "Making it easier for websites to express AI training preferences",
+        "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+        "fetched": false,
+        "savedAt": "2026-10-31T03:42:56.942Z"
+      }
+    },
+    {
+      "id": "sig-c7606af40d",
+      "title": "Community safety report and new protections for teens",
+      "oneLiner": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventio",
+      "summary": {
+        "oneSentence": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commit",
+        "bullets": [
+          "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/community-safety-report-and-new-protections-for-teens"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Community safety report and new protections for teens",
+      "originalLang": "en",
+      "date": "2026-10-30",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Community safety report and new protections for teens"
+      },
+      "raw": {
+        "title": "Community safety report and new protections for teens",
+        "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+        "fetched": false,
+        "savedAt": "2026-10-31T03:42:58.279Z"
+      }
+    },
+    {
+      "id": "sig-50643e98e1",
+      "title": "Simplifying runtime caching on Vercel",
+      "oneLiner": "Today, we’re bringing Data Cache into Runtime Cache, giving developers one product for data caching ",
+      "summary": {
+        "oneSentence": "Today, we’re bringing Data Cache into Runtime Cache, giving developers one product for data caching across frameworks an",
+        "bullets": [
+          "Today, we’re bringing Data Cache into Runtime Cache, giving developers one product for data caching across frameworks and APIs. If you use Next.js fetch caching or unstable_cache , you won’t need to c"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/blog/simplifying-runtime-caching-on-vercel"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Today, we’re bringing Data Cache into Runtime Cache, giving developers one product for data caching across frameworks and APIs. If you use Next.js fetch caching or unstable_cache , you won’t need to change your code. Pro and Enterprise projects will get larger storage allocations.",
+        "Runtime Cache lets your code reuse fetched or computed data across requests without operating a separate caching service. Over the past year, we’ve improved read performance during traffic bursts, increased storage budgets, and made cache usage easier to investigate.",
+        "Copy link to heading Why we built Runtime Cache Data Cache was originally launched as Vercel’s data caching service for the Next.js App Router, used by fetch caching and unstable_cache . Unlike CDN caching , which stores complete HTTP responses, Data Cache stores data your application uses to generate those responses. A product page, for example, can reuse cached catalog data while rendering a personalized response for each visitor.",
+        "We wanted developers to have access to that service without depending on Next.js. Last year, we introduced Runtime Cache with a direct API: getCache from @vercel/functions . Applications can use it for feature flag lookups in Routing Middleware, caching CMS content during builds, and data caching in SvelteKit and Nuxt apps.",
+        "Frameworks can expose this service through their own APIs, too. On Vercel, Next.js itself uses the Runtime Cache API for 'use cache: remote' , which caches function and component outputs.",
+        "Copy link to heading How Runtime Cache works The infrastructure behind Runtime Cache is a distributed caching service shared by many teams. A Go API handles requests, backed by Redis fleets in every Vercel region. Every hour, the service handles more than 440 million reads and moves more than 18 TB of data.",
+        "Each region has its own cache. A cache hit takes one round trip to the cache service in the region where your code runs. Vercel handles authentication with short-lived credentials, so you don’t need to manage API keys.",
+        "On a cache miss, your app or framework fetches or computes the value and writes it to that region’s cache. The service doesn’t check other regions for a cached copy.",
+        "Each cached entry stores its tags and write time. When the service reads an entry, it checks a separate tag store in the same region for those tags’ invalidation timestamps. If any tag was invalidated after the entry was written, the entry is stale.",
+        "For example, an application can tag all its cached product data with catalog . When the catalog changes, invalidating that tag writes a single timestamp, even if a million entries share the tag. The service doesn’t need to find and delete those entries individually.",
+        "The invalidation immediately updates the tag store in the region receiving the request. Vercel’s shared tag infrastructure, also used by the CDN , distributes the timestamp through the global push pipeline, typically reaching other regions within a few hundred milliseconds.",
+        "Your app or framework chooses what to cache and handles misses. Runtime Cache handles regional storage, authentication, and distributing tag invalidations across regions.",
+        "Copy link to heading What we’ve shipped Copy link to heading Faster reads during traffic bursts Checking whether an entry is still fresh adds a dependency to every cache hit. During traffic bursts, a slow shard in the tag store could delay reads even when the cached value was already available.",
+        "We added circuit breakers that let reads temporarily check freshness using tag timestamps cached in memory, so they can proceed without waiting for the slow shard to respond. During this fallback, a read can briefly treat recently invalidated data as fresh."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Simplifying runtime caching on Vercel",
+      "originalLang": "en",
+      "date": "2026-10-30",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/simplifying-runtime-caching-on-vercel",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Simplifying runtime caching on Vercel"
+      },
+      "raw": {
+        "title": "Simplifying runtime caching on Vercel",
+        "url": "https://vercel.com/blog/simplifying-runtime-caching-on-vercel",
+        "fetched": true,
+        "savedAt": "2026-10-31T03:42:59.932Z"
+      }
+    },
+    {
+      "id": "sig-5472860253",
+      "title": "Data Cache is moving to Runtime Cache",
+      "oneLiner": "Data Cache is exiting beta and moving to Runtime Cache . Next.js fetch caching and unstable_cache wi",
+      "summary": {
+        "oneSentence": "Data Cache is exiting beta and moving to Runtime Cache . Next.js fetch caching and unstable_cache will switch over on ev",
+        "bullets": [
+          "Data Cache is exiting beta and moving to Runtime Cache . Next.js fetch caching and unstable_cache will switch over on every version without code changes. On Pro, each project and environment gets its "
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/data-cache-is-moving-to-runtime-cache"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Data Cache is exiting beta and moving to Runtime Cache . Next.js fetch caching and unstable_cache will switch over on every version without code changes. On Pro, each project and environment gets its own Runtime Cache storage allocation, with 8x the space of Data Cache’s previous team-wide pool. Enterprise projects get 10x their previous Data Cache storage.",
+        "Once your team migrates, Data Cache reads and writes that were previously unbilled are charged at Runtime Cache pricing . Rates start at $0.40 per million read units and $4.00 per million write units, and vary by region.",
+        "Hobby teams get 1 million read units and 200,000 write units free each month across all projects. On Pro, usage draws from your $20 infrastructure credit each month, and anything beyond it is billed at regional rates. For Enterprise pricing, contact your account team.",
+        "Copy link to heading Migration Teams created on or after October 30, 2026 use Runtime Cache by default.",
+        "Hobby: We’ll migrate your team on November 29, 2026.",
+        "Pro: We’ll notify you of your migration date and when billing changes take effect.",
+        "Enterprise: Your account team will contact you with migration details.",
+        "Before you migrate, review your project's Data Cache usage in Observability . To cut unnecessary reads and writes, follow the optimization guide or copy the agent prompt into your coding agent. In the Runtime Cache dashboard, you can also select Optimize with Vercel Agent.",
+        "Starting October 30, existing Hobby and Pro teams can opt in early from your team's CDN settings . Runtime Cache pricing applies as soon as you opt in.",
+        "You can also disable fetch and unstable_cache caching in CDN settings, which sends more requests to your data sources but doesn’t stop your migration.",
+        "Read about the architecture and recent improvements in the blog post ."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Data Cache is moving to Runtime Cache - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-30",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/data-cache-is-moving-to-runtime-cache",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Data Cache is moving to Runtime Cache - Vercel"
+      },
+      "raw": {
+        "title": "Data Cache is moving to Runtime Cache",
+        "url": "https://vercel.com/changelog/data-cache-is-moving-to-runtime-cache",
+        "fetched": true,
+        "savedAt": "2026-10-31T03:43:01.532Z"
+      }
+    },
+    {
+      "id": "sig-d2282bcce1",
+      "title": "Fair use benefits everyone",
+      "oneLiner": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal ",
+      "summary": {
+        "oneSentence": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among other",
+        "bullets": [
+          "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation."
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://openai.com/index/fair-use-benefits-everyone"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Fair use benefits everyone",
+      "originalLang": "en",
+      "date": "2026-10-30",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/fair-use-benefits-everyone",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Fair use benefits everyone"
+      },
+      "raw": {
+        "title": "Fair use benefits everyone",
+        "url": "https://openai.com/index/fair-use-benefits-everyone",
+        "fetched": false,
+        "savedAt": "2026-10-31T03:43:03.100Z"
+      }
+    },
+    {
+      "id": "sig-477abb1de2",
+      "title": "Vercel Daemons can now call services with bindings",
+      "oneLiner": "Vercel Daemons can now call the services in their deployment through service bindings . Declare the ",
+      "summary": {
+        "oneSentence": "Vercel Daemons can now call the services in their deployment through service bindings . Declare the binding on the daemo",
+        "bullets": [
+          "Vercel Daemons can now call the services in their deployment through service bindings . Declare the binding on the daemon. It names the target service and the environment variable that receives the se"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文：https://vercel.com/changelog/vercel-daemons-can-now-call-services-with-bindings"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 3,
+        "reason": "待评分",
+        "readMinutes": 3
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Daemons can now call the services in their deployment through service bindings .",
+        "Declare the binding on the daemon. It names the target service and the environment variable that receives the service's URL:",
+        "vercel.toml 1 [ services.api ] 2 root = \"api/\" 3 entrypoint = \"main:app\" 4 5 [ daemons.worker ] 6 root = \"worker/\" 7 entrypoint = \"Dockerfile\" 8 instances = { iad1 = 1 } 9 10 [ [ daemons.worker.bindings ] ] 11 type = \"service\" 12 service = \"api\" 13 format = \"url\" 14 env = \"API_URL\" A daemon binding the api service, exposed to the worker as API_URL",
+        "The daemon calls that URL like any other HTTP endpoint. Vercel handles the internal routing, authentication, and TLS, and the service stays private:",
+        "worker/worker.ts 1 await fetch ( new URL ( 'jobs/next' , process . env . API_URL ) ) ; Calling the bound service from the daemon with a plain fetch",
+        "Bindings point one way: services can't bind to daemons. Each instance keeps calling the deployment that started it, even after a promotion or rollback.",
+        "Learn more about daemon service bindings in the docs ."
+      ],
+      "highlights": [],
+      "translated": false,
+      "originalTitle": "Vercel Daemons can now call services with bindings - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-30",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-daemons-can-now-call-services-with-bindings",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": false,
+        "translateMethod": null,
+        "originalTitle": "Vercel Daemons can now call services with bindings - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Daemons can now call services with bindings",
+        "url": "https://vercel.com/changelog/vercel-daemons-can-now-call-services-with-bindings",
+        "fetched": true,
+        "savedAt": "2026-10-31T03:43:04.861Z"
+      }
+    },
     {
       "id": "sig-c3bc2bfc0c",
       "title": "我们如何训练 Figma Fluent 编辑模型 | Figma 博客",
@@ -9404,7 +10167,7 @@
         "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
         "fetched": true,
         "savedAt": "2026-10-17T02:36:45.886Z",
-        "retranslatedAt": "2026-10-30T03:59:21.201Z"
+        "retranslatedAt": "2026-10-31T03:43:06.160Z"
       }
     },
     {
@@ -13002,7 +13765,7 @@
         "url": "https://cursor.com/changelog/origin-app-marketplace",
         "fetched": true,
         "savedAt": "2026-10-14T03:08:22.474Z",
-        "retranslatedAt": "2026-10-30T03:59:22.251Z"
+        "retranslatedAt": "2026-10-31T03:43:07.299Z"
       }
     },
     {
@@ -18541,7 +19304,7 @@
         "url": "https://cursor.com/changelog/remote-control-local-agents",
         "fetched": true,
         "savedAt": "2026-10-11T03:27:39.323Z",
-        "retranslatedAt": "2026-10-30T03:59:23.691Z"
+        "retranslatedAt": "2026-10-31T03:43:08.291Z"
       }
     },
     {
@@ -27969,7 +28732,7 @@
         "url": "https://cursor.com/changelog/rollouts-and-security-reviewer",
         "fetched": true,
         "savedAt": "2026-09-27T03:09:42.462Z",
-        "retranslatedAt": "2026-10-30T03:59:24.775Z"
+        "retranslatedAt": "2026-10-31T03:43:09.414Z"
       }
     },
     {
@@ -32377,936 +33140,6 @@
         "url": "https://vercel.com/changelog/custom-environments-support-for-marketplace-integrations",
         "fetched": true,
         "savedAt": "2026-09-20T02:56:16.674Z"
-      }
-    },
-    {
-      "id": "sig-2c9062d354",
-      "title": "Is Agentic 现在根据站点类型定制审核 - Vercel",
-      "oneLiner": "Is Agentic 报告现在允许您通过四种网站类型之一查看您的支票：文档和内容、业务、应用程序或商务。",
-      "summary": {
-        "oneSentence": "Is Agentic 报告现在允许您通过四种网站类型之一查看您的支票：文档和内容、业务、应用程序或商务。",
-        "bullets": [
-          "Is Agentic 报告现在允许您通过四种网站类型之一查看您的支票：文档和内容、业务、应用程序或商务。",
-          "例如，商务视图突出显示 x402、UCP 和 ACP 等支付和结账标准，而应用程序视图突出显示 API 发现、身份验证、错误处理和 SDK 支持。",
-          "您的分数在每个视图中都保持不变，并且您可以更改现有报告的视图而无需重新扫描。只有突出显示的检查会发生变化，因此您可以专注于对您的网站类型重要的事情，同时保持各个网站之间的分数具有可比性。",
-          "要设置默认视图，请将单个元标记添加到页面的 <head> ："
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Is Agentic 报告现在允许您通过四种网站类型之一查看您的支票：文档和内容、业务、应用程序或商务。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/is-agentic-report-categories"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Is Agentic 报告现在允许您通过四种网站类型之一查看您的支票：文档和内容、业务、应用程序或商务。",
-        "例如，商务视图突出显示 x402、UCP 和 ACP 等支付和结账标准，而应用程序视图突出显示 API 发现、身份验证、错误处理和 SDK 支持。",
-        "您的分数在每个视图中都保持不变，并且您可以更改现有报告的视图而无需重新扫描。只有突出显示的检查会发生变化，因此您可以专注于对您的网站类型重要的事情，同时保持各个网站之间的分数具有可比性。",
-        "要设置默认视图，请将单个元标记添加到页面的 <head> ：",
-        "<元名称=“is-agentic-site-type”内容=“应用程序”>",
-        "该标签仅设置读者首先看到的视图。它不会增加分数或改变您的分数。如果未声明类型，Is Agentic 会推断类型并显示它选择的类型。",
-        "在 is-agentic.com 上运行检查或阅读文档。"
-      ],
-      "highlights": [
-        "Is Agentic 报告现在允许您通过四种网站类型之一查看您的支票：文档和内容、业务、应用程序或商务。",
-        "例如，商务视图突出显示 x402、UCP 和 ACP 等支付和结账标准，而应用程序视图突出显示 API 发现、身份验证、错误处理和 SDK 支持。",
-        "您的分数在每个视图中都保持不变，并且您可以更改现有报告的视图而无需重新扫描。只有突出显示的检查会发生变化，因此您可以专注于对您的网站类型重要的事情，同时保持各个"
-      ],
-      "translated": true,
-      "originalTitle": "Is Agentic now tailors its audit by site type - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-16",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/is-agentic-report-categories",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Is Agentic now tailors its audit by site type - Vercel"
-      },
-      "raw": {
-        "title": "Is Agentic now tailors its audit by site type",
-        "url": "https://vercel.com/changelog/is-agentic-report-categories",
-        "fetched": true,
-        "savedAt": "2026-09-16T02:53:31.618Z",
-        "retranslatedAt": "2026-09-17T02:58:16.547Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-b795b01650",
-      "title": "业余爱好项目现在保留更少的部署以释放存储空间 - Vercel",
-      "oneLiner": "现在，业余爱好项目在 30 天保留期限后保留的部署较少。业余爱好团队可以获得 10GB 的部署存储。您保留的每个部署都会使用其中的一些，超过限制可能会阻止您进行部署，直到您释放一些。业余爱好团队的部署保留现在可以更快地删除旧部署，因此休眠项",
-      "summary": {
-        "oneSentence": "现在，业余爱好项目在 30 天保留期限后保留的部署较少。业余爱好团队可以获得 10GB 的部署存储。您保留的每个部署都会使用其中的一些，超过限制可能会阻止您进行部署，直到您释放一些。业余爱好团队的部署保留现在可以更快地删除旧部署，因此休眠项",
-        "bullets": [
-          "现在，业余爱好项目在 30 天保留期限后保留的部署较少。业余爱好团队可以获得 10GB 的部署存储。您保留的每个部署都会使用其中的一些，超过限制可能会阻止您进行部署，直到您释放一些。业余爱好团队的部署保留现在可以更快地删除旧部署，因此休眠项目不再保留活动项目所需的存储。",
-          "现在，每个 Hobby 项目都保留其 3 个最新的生产部署，以及 3 个任何类型的最新部署，无论其年龄如何。预览部署不再获得自己的保护。您当前的生产部署仍然不会被删除，并且别名和活动分支部署仍然受到保护。请参阅文档中的完整例外列表。",
-          "如果您的团队超过 10GB 限制，这些例外之外的部署现在将立即删除，而不是在 30 天后删除。",
-          "要保持在限制以下，请了解如何优化部署存储使用情况，或升级到 Pro（其中存储按每月每 GB 0.10 美元计费）。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：现在，业余爱好项目在 30 天保留期限后保留的部署较少。业余爱好团队可以获得 10GB 的部署存储。您保留的每个部署都会使用其中的一些，超过限制可能会阻止您进行部署，直到您释放一些。业余爱好团队的部署保留现在可以更快地删除旧部署，因此休眠项",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/hobby-projects-now-retain-fewer-deployments-to-free-up-storage"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "现在，业余爱好项目在 30 天保留期限后保留的部署较少。业余爱好团队可以获得 10GB 的部署存储。您保留的每个部署都会使用其中的一些，超过限制可能会阻止您进行部署，直到您释放一些。业余爱好团队的部署保留现在可以更快地删除旧部署，因此休眠项目不再保留活动项目所需的存储。",
-        "现在，每个 Hobby 项目都保留其 3 个最新的生产部署，以及 3 个任何类型的最新部署，无论其年龄如何。预览部署不再获得自己的保护。您当前的生产部署仍然不会被删除，并且别名和活动分支部署仍然受到保护。请参阅文档中的完整例外列表。",
-        "如果您的团队超过 10GB 限制，这些例外之外的部署现在将立即删除，而不是在 30 天后删除。",
-        "要保持在限制以下，请了解如何优化部署存储使用情况，或升级到 Pro（其中存储按每月每 GB 0.10 美元计费）。"
-      ],
-      "highlights": [
-        "现在，业余爱好项目在 30 天保留期限后保留的部署较少。业余爱好团队可以获得 10GB 的部署存储。您保留的每个部署都会使用其中的一些，超过限制可能会阻止您进行",
-        "现在，每个 Hobby 项目都保留其 3 个最新的生产部署，以及 3 个任何类型的最新部署，无论其年龄如何。预览部署不再获得自己的保护。您当前的生产部署仍然不会",
-        "如果您的团队超过 10GB 限制，这些例外之外的部署现在将立即删除，而不是在 30 天后删除。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Hobby projects now retain fewer deployments to free up storage - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-16",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/hobby-projects-now-retain-fewer-deployments-to-free-up-storage",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Hobby projects now retain fewer deployments to free up storage - Vercel"
-      },
-      "raw": {
-        "title": "Hobby projects now retain fewer deployments to free up storage",
-        "url": "https://vercel.com/changelog/hobby-projects-now-retain-fewer-deployments-to-free-up-storage",
-        "fetched": true,
-        "savedAt": "2026-09-17T02:57:20.864Z"
-      }
-    },
-    {
-      "id": "sig-bbe6c30a33",
-      "title": "我们报告模型失调的框架",
-      "oneLiner": "OpenAI 共享一个用于跟踪、调查和披露模型偏差的框架，以及六份关于意外或相关模型行为的报告。",
-      "summary": {
-        "oneSentence": "OpenAI 共享一个用于跟踪、调查和披露模型偏差的框架，以及六份关于意外或相关模型行为的报告。",
-        "bullets": [
-          "OpenAI 共享一个用于跟踪、调查和披露模型偏差的框架，以及六份关于意外或相关模型行为的报告。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：OpenAI 共享一个用于跟踪、调查和披露模型偏差的框架，以及六份关于意外或相关模型行为的报告。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/model-misalignment-reporting-framework"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "OpenAI 共享一个用于跟踪、调查和披露模型偏差的框架，以及六份关于意外或相关模型行为的报告。"
-      ],
-      "highlights": [
-        "OpenAI 共享一个用于跟踪、调查和披露模型偏差的框架，以及六份关于意外或相关模型行为的报告。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Our framework for reporting model misalignment",
-      "originalLang": "en",
-      "date": "2026-09-16",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/model-misalignment-reporting-framework",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Our framework for reporting model misalignment"
-      },
-      "raw": {
-        "title": "Our framework for reporting model misalignment",
-        "url": "https://openai.com/index/model-misalignment-reporting-framework",
-        "fetched": false,
-        "savedAt": "2026-09-17T02:57:22.164Z"
-      }
-    },
-    {
-      "id": "sig-ce7dce4b48",
-      "title": "安全计算和静态 IP 构建启动速度提高 64% - Vercel",
-      "oneLiner": "使用安全计算或静态 IP 的构建现在启动速度提高了 64%，从部署创建到构建开始的平均时间从 6.7 秒降至 2.4 秒。",
-      "summary": {
-        "oneSentence": "使用安全计算或静态 IP 的构建现在启动速度提高了 64%，从部署创建到构建开始的平均时间从 6.7 秒降至 2.4 秒。",
-        "bullets": [
-          "使用安全计算或静态 IP 的构建现在启动速度提高了 64%，从部署创建到构建开始的平均时间从 6.7 秒降至 2.4 秒。",
-          "以前，每个构建都会等待新的构建容器以其网络配置启动。这些构建现在使用预热的构建容器，并在构建开始时附加您的网络配置。",
-          "该改进会自动应用于使用安全计算或静态 IP 的构建，无需更改配置。",
-          "了解有关安全计算和静态 IP 的更多信息。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：使用安全计算或静态 IP 的构建现在启动速度提高了 64%，从部署创建到构建开始的平均时间从 6.7 秒降至 2.4 秒。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/secure-compute-and-static-ip-builds-start-64-faster"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "使用安全计算或静态 IP 的构建现在启动速度提高了 64%，从部署创建到构建开始的平均时间从 6.7 秒降至 2.4 秒。",
-        "以前，每个构建都会等待新的构建容器以其网络配置启动。这些构建现在使用预热的构建容器，并在构建开始时附加您的网络配置。",
-        "该改进会自动应用于使用安全计算或静态 IP 的构建，无需更改配置。",
-        "了解有关安全计算和静态 IP 的更多信息。"
-      ],
-      "highlights": [
-        "使用安全计算或静态 IP 的构建现在启动速度提高了 64%，从部署创建到构建开始的平均时间从 6.7 秒降至 2.4 秒。",
-        "以前，每个构建都会等待新的构建容器以其网络配置启动。这些构建现在使用预热的构建容器，并在构建开始时附加您的网络配置。",
-        "该改进会自动应用于使用安全计算或静态 IP 的构建，无需更改配置。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Secure Compute and Static IP builds start 64% faster - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-16",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/secure-compute-and-static-ip-builds-start-64-faster",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Secure Compute and Static IP builds start 64% faster - Vercel"
-      },
-      "raw": {
-        "title": "Secure Compute and Static IP builds start 64% faster",
-        "url": "https://vercel.com/changelog/secure-compute-and-static-ip-builds-start-64-faster",
-        "fetched": true,
-        "savedAt": "2026-09-17T02:57:28.672Z"
-      }
-    },
-    {
-      "id": "sig-2f9440b32d",
-      "title": "Mem0 加入 Vercel 市场 - Vercel",
-      "oneLiner": "Mem0 现已作为 Vercel Marketplace 上的本机集成提供，为您的 AI 代理和应用程序提供长期记忆。 Mem0 会记住跨会话的用户偏好、事实和上下文，因此您的应用程序不再从头开始。",
-      "summary": {
-        "oneSentence": "Mem0 现已作为 Vercel Marketplace 上的本机集成提供，为您的 AI 代理和应用程序提供长期记忆。 Mem0 会记住跨会话的用户偏好、事实和上下文，因此您的应用程序不再从头开始。",
-        "bullets": [
-          "Mem0 现已作为 Vercel Marketplace 上的本机集成提供，为您的 AI 代理和应用程序提供长期记忆。 Mem0 会记住跨会话的用户偏好、事实和上下文，因此您的应用程序不再从头开始。",
-          "从 Marketplace 安装，并在 Vercel 发票上集成计费，无需单独的帐户或密钥管理。",
-          "范围化的 Mem0 项目和 API 密钥会自动配置并作为环境变量添加到您的项目中，包括 MEM0_API_KEY 。",
-          "Mem0 提供有使用限制的免费计划以及每月 20 美元的更高容量计划。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Mem0 现已作为 Vercel Marketplace 上的本机集成提供，为您的 AI 代理和应用程序提供长期记忆。 Mem0 会记住跨会话的用户偏好、事实和上下文，因此您的应用程序不再从头开始。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/mem0-joins-the-vercel-marketplace"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Mem0 现已作为 Vercel Marketplace 上的本机集成提供，为您的 AI 代理和应用程序提供长期记忆。 Mem0 会记住跨会话的用户偏好、事实和上下文，因此您的应用程序不再从头开始。",
-        "从 Marketplace 安装，并在 Vercel 发票上集成计费，无需单独的帐户或密钥管理。",
-        "范围化的 Mem0 项目和 API 密钥会自动配置并作为环境变量添加到您的项目中，包括 MEM0_API_KEY 。",
-        "Mem0 提供有使用限制的免费计划以及每月 20 美元的更高容量计划。",
-        "要端到端地查看它，请部署 eve Memory Agent 模板，这是一个由 Mem0 提供支持的具有长期内存的 eve 代理。",
-        "在 Vercel Marketplace 上或通过 Vercel CLI 开始使用 Mem0，所有计划的客户均可使用。"
-      ],
-      "highlights": [
-        "Mem0 现已作为 Vercel Marketplace 上的本机集成提供，为您的 AI 代理和应用程序提供长期记忆。 Mem0 会记住跨会话的用户偏好、事实和",
-        "从 Marketplace 安装，并在 Vercel 发票上集成计费，无需单独的帐户或密钥管理。",
-        "范围化的 Mem0 项目和 API 密钥会自动配置并作为环境变量添加到您的项目中，包括 MEM0_API_KEY 。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Mem0 joins the Vercel Marketplace - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-16",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/mem0-joins-the-vercel-marketplace",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Mem0 joins the Vercel Marketplace - Vercel"
-      },
-      "raw": {
-        "title": "Mem0 joins the Vercel Marketplace",
-        "url": "https://vercel.com/changelog/mem0-joins-the-vercel-marketplace",
-        "fetched": true,
-        "savedAt": "2026-09-17T02:57:35.483Z"
-      }
-    },
-    {
-      "id": "sig-027811ca16",
-      "title": "帮助老年人在日常生活中使用人工智能",
-      "oneLiner": "OpenAI 和 AARP 正在为美国 10 个城市的 1,000 名老年人举办免费的动手实践 ChatGPT 研讨会，以安全地培养实用的 AI 技能。",
-      "summary": {
-        "oneSentence": "OpenAI 和 AARP 正在为美国 10 个城市的 1,000 名老年人举办免费的动手实践 ChatGPT 研讨会，以安全地培养实用的 AI 技能。",
-        "bullets": [
-          "OpenAI 和 AARP 正在为美国 10 个城市的 1,000 名老年人举办免费的动手实践 ChatGPT 研讨会，以安全地培养实用的 AI 技能。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：OpenAI 和 AARP 正在为美国 10 个城市的 1,000 名老年人举办免费的动手实践 ChatGPT 研讨会，以安全地培养实用的 AI 技能。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/helping-older-adults-use-ai-in-everyday-life"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "OpenAI 和 AARP 正在为美国 10 个城市的 1,000 名老年人举办免费的动手实践 ChatGPT 研讨会，以安全地培养实用的 AI 技能。"
-      ],
-      "highlights": [
-        "OpenAI 和 AARP 正在为美国 10 个城市的 1,000 名老年人举办免费的动手实践 ChatGPT 研讨会，以安全地培养实用的 AI 技能。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Helping older adults use AI in everyday life",
-      "originalLang": "en",
-      "date": "2026-09-16",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Helping older adults use AI in everyday life"
-      },
-      "raw": {
-        "title": "Helping older adults use AI in everyday life",
-        "url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life",
-        "fetched": false,
-        "savedAt": "2026-09-17T02:57:36.791Z"
-      }
-    },
-    {
-      "id": "sig-52752974ef",
-      "title": "利用人工智能重新构想广告",
-      "oneLiner": "探索 OpenAI 提供的全新人工智能广告体验，包括赞助代理、营销人员工具以及与 HubSpot 和 Shopify 的集成。",
-      "summary": {
-        "oneSentence": "探索 OpenAI 提供的全新人工智能广告体验，包括赞助代理、营销人员工具以及与 HubSpot 和 Shopify 的集成。",
-        "bullets": [
-          "探索 OpenAI 提供的全新人工智能广告体验，包括赞助代理、营销人员工具以及与 HubSpot 和 Shopify 的集成。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：探索 OpenAI 提供的全新人工智能广告体验，包括赞助代理、营销人员工具以及与 HubSpot 和 Shopify 的集成。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/reimagining-advertising-with-ai"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "探索 OpenAI 提供的全新人工智能广告体验，包括赞助代理、营销人员工具以及与 HubSpot 和 Shopify 的集成。"
-      ],
-      "highlights": [
-        "探索 OpenAI 提供的全新人工智能广告体验，包括赞助代理、营销人员工具以及与 HubSpot 和 Shopify 的集成。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Reimagining advertising with AI",
-      "originalLang": "en",
-      "date": "2026-09-16",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/reimagining-advertising-with-ai",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Reimagining advertising with AI"
-      },
-      "raw": {
-        "title": "Reimagining advertising with AI",
-        "url": "https://openai.com/index/reimagining-advertising-with-ai",
-        "fetched": false,
-        "savedAt": "2026-09-17T02:57:38.123Z"
-      }
-    },
-    {
-      "id": "sig-5f7e182a53",
-      "title": "如何将人工智能的使用与商业价值联系起来",
-      "oneLiner": "了解 ChatGPT Work 和 Codex 分析如何帮助团队了解 AI 的使用和支出、确定培训需求并将采用与业务成果联系起来。",
-      "summary": {
-        "oneSentence": "了解 ChatGPT Work 和 Codex 分析如何帮助团队了解 AI 的使用和支出、确定培训需求并将采用与业务成果联系起来。",
-        "bullets": [
-          "了解 ChatGPT Work 和 Codex 分析如何帮助团队了解 AI 的使用和支出、确定培训需求并将采用与业务成果联系起来。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：了解 ChatGPT Work 和 Codex 分析如何帮助团队了解 AI 的使用和支出、确定培训需求并将采用与业务成果联系起来。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/how-to-connect-ai-usage-to-business-value"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "了解 ChatGPT Work 和 Codex 分析如何帮助团队了解 AI 的使用和支出、确定培训需求并将采用与业务成果联系起来。"
-      ],
-      "highlights": [
-        "了解 ChatGPT Work 和 Codex 分析如何帮助团队了解 AI 的使用和支出、确定培训需求并将采用与业务成果联系起来。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "How to connect AI usage to business value",
-      "originalLang": "en",
-      "date": "2026-09-16",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "How to connect AI usage to business value"
-      },
-      "raw": {
-        "title": "How to connect AI usage to business value",
-        "url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value",
-        "fetched": false,
-        "savedAt": "2026-09-17T02:57:39.409Z"
-      }
-    },
-    {
-      "id": "sig-fb641d2993",
-      "title": "尝试这 5 个编织工具并分享您自己的 | Figma 博客",
-      "oneLiner": "Weave 工具的社区发布现已上线。这里有一些突出的工具，从将情绪板变成现实的房间模型到预览下一个指甲套装。",
-      "summary": {
-        "oneSentence": "Weave 工具的社区发布现已上线。这里有一些突出的工具，从将情绪板变成现实的房间模型到预览下一个指甲套装。",
-        "bullets": [
-          "Weave 工具的社区发布现已上线。这里有一些突出的工具，从将情绪板变成现实的房间模型到预览下一个指甲套装。",
-          "在 Config 2026 上，我们推出了 30 多个定制的 Weave 工具连接 Figma 和 Weave 今天，我们宣布您的 Weave 创意工作流程可以与 Figma 框架一起使用的新方式。",
-          "Figma 收购了 Weavy，这是一个将生成式人工智能和专业编辑工具带入开放画布的平台。该公司将以 Figma Weave 的名义帮助在 Figma 平台上构建图像、视频、动画、动作设计以及 VFX 媒体生成和编辑功能。",
-          "为 Figma 用户构建让我靠近那个十字路口，但为自己创建工具让我可以自由地漫步。因此，从第一批开始，我就为自己的工作流程构建了工具（其中一些只是为了好玩），以了解工具可以延伸多远。 Professional Headshot 将任何照片变成新的头像，Blue Embroidery 将文本提示渲染为蓝色十字绣插图，Br"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Figma 官网发布：Weave 工具的社区发布现已上线。这里有一些突出的工具，从将情绪板变成现实的房间模型到预览下一个指甲套装。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://www.figma.com/blog/try-these-5-weave-tools-and-share-your-own/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Weave 工具的社区发布现已上线。这里有一些突出的工具，从将情绪板变成现实的房间模型到预览下一个指甲套装。",
-        "在 Config 2026 上，我们推出了 30 多个定制的 Weave 工具连接 Figma 和 Weave 今天，我们宣布您的 Weave 创意工作流程可以与 Figma 框架一起使用的新方式。",
-        "Figma 收购了 Weavy，这是一个将生成式人工智能和专业编辑工具带入开放画布的平台。该公司将以 Figma Weave 的名义帮助在 Figma 平台上构建图像、视频、动画、动作设计以及 VFX 媒体生成和编辑功能。",
-        "为 Figma 用户构建让我靠近那个十字路口，但为自己创建工具让我可以自由地漫步。因此，从第一批开始，我就为自己的工作流程构建了工具（其中一些只是为了好玩），以了解工具可以延伸多远。 Professional Headshot 将任何照片变成新的头像，Blue Embroidery 将文本提示渲染为蓝色十字绣插图，Brand Stamp 将徽标压入任何颜色的浮雕蜡、铬或墨水密封件中。",
-        "从今天开始，任何使用 Wea​​ve 进行构建的人都可以将工具发布到 Figma 社区，以便直接在 Figma 设计画布上使用。我相信学习如何构建自己的最好方法是尝试其他人所做的事情。以下是已经在 Figma 社区上发布的一些我最喜欢的 Weave 工具。",
-        "创建者：Mallory Dean，设计师倡导者",
-        "编织工具：室内设计渲染情绪板",
-        "用途：将室内设计情绪板转变为逼真的 3D 房间渲染。该工具可读取您的颜色、材料、家具和照明，以最少的额外造型创建一个有凝聚力的空间。您还可以从内置房间类型和摄像机角度中进行选择来指导构图并使空间充满活力。",
-        "用 Mallory 自己的话说：“我喜欢使用 Figma 画布为我家中的空间制作情绪板。渲染工作流程是最后一个缺失的步骤，所以我构建了一个。我创建 Weave 工具的最大秘诀是依靠法学硕士来完成工作的两个部分：编写提示和构建节点。我咨询了一位法学硕士，以制定出使该工具最高效的设置，然后在构建过程中，我不断将结果作为反馈返回来指导我的修改。”",
-        "Moodboard 到客厅渲染 Moodboard 到厨房渲染 Moodboard 到卧室渲染 Moodboard 到庭院渲染 2. 将建筑照片转换为逼真的 3D 可视化 创建者：Yordan Vakarelov，建筑信息建模经理兼 AI 主管"
-      ],
-      "highlights": [
-        "Weave 工具的社区发布现已上线。这里有一些突出的工具，从将情绪板变成现实的房间模型到预览下一个指甲套装。",
-        "在 Config 2026 上，我们推出了 30 多个定制的 Weave 工具连接 Figma 和 Weave 今天，我们宣布您的 Weave 创意工作流程可以",
-        "Figma 收购了 Weavy，这是一个将生成式人工智能和专业编辑工具带入开放画布的平台。该公司将以 Figma Weave 的名义帮助在 Figma 平台上构"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Try These 5 Weave Tools—And Share Your Own | Figma Blog",
-      "originalLang": "en",
-      "date": "2026-09-16",
-      "categoryIds": [
-        "vertical-ui"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Figma",
-        "author": "Figma",
-        "url": "https://www.figma.com/blog/try-these-5-weave-tools-and-share-your-own/",
-        "home": "https://www.figma.com/blog/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Try These 5 Weave Tools—And Share Your Own | Figma Blog"
-      },
-      "raw": {
-        "title": "Try these 5 Weave tools—and share your own",
-        "url": "https://www.figma.com/blog/try-these-5-weave-tools-and-share-your-own/",
-        "fetched": true,
-        "savedAt": "2026-09-17T02:57:54.995Z"
-      }
-    },
-    {
-      "id": "sig-71646fffd9",
-      "title": "工人如何开启新的工作方式",
-      "oneLiner": "新的 OpenAI 经济研究展示了员工如何在传统角色之外使用人工智能，以及哪些新活动成为他们工作中经常出现的部分。",
-      "summary": {
-        "oneSentence": "新的 OpenAI 经济研究展示了员工如何在传统角色之外使用人工智能，以及哪些新活动成为他们工作中经常出现的部分。",
-        "bullets": [
-          "新的 OpenAI 经济研究展示了员工如何在传统角色之外使用人工智能，以及哪些新活动成为他们工作中经常出现的部分。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：新的 OpenAI 经济研究展示了员工如何在传统角色之外使用人工智能，以及哪些新活动成为他们工作中经常出现的部分。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/unlocking-new-ways-of-working"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "新的 OpenAI 经济研究展示了员工如何在传统角色之外使用人工智能，以及哪些新活动成为他们工作中经常出现的部分。"
-      ],
-      "highlights": [
-        "新的 OpenAI 经济研究展示了员工如何在传统角色之外使用人工智能，以及哪些新活动成为他们工作中经常出现的部分。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "How workers are unlocking new ways of working",
-      "originalLang": "en",
-      "date": "2026-09-16",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/unlocking-new-ways-of-working",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "How workers are unlocking new ways of working"
-      },
-      "raw": {
-        "title": "How workers are unlocking new ways of working",
-        "url": "https://openai.com/index/unlocking-new-ways-of-working",
-        "fetched": false,
-        "savedAt": "2026-09-17T02:57:56.259Z"
-      }
-    },
-    {
-      "id": "sig-19c86f9f82",
-      "title": "TypeSafe AI 的 Jev 现已在 AI Gateway 上可用 - Vercel",
-      "oneLiner": "来自 TypeSafe AI 的 Jev 现已在 AI Gateway 上提供。",
-      "summary": {
-        "oneSentence": "来自 TypeSafe AI 的 Jev 现已在 AI Gateway 上提供。",
-        "bullets": [
-          "来自 TypeSafe AI 的 Jev 现已在 AI Gateway 上提供。",
-          "Jev 是软件的概率决策模型：输入状态，输入选择、分数，然后输出布尔答案。",
-          "常规语言模型一次生成一个标记，然后应用程序对其进行解析和验证。 Jev 并行评估所有声明的问题，并直接返回键入的答案和概率。这消除了不必要的文本生成，并且可以轻松地自动执行明确的案例，同时路由不确定的案例进行审查。",
-          "TypeSafe 报告称，在工作流程评估中，Jev 的速度比 LLM 快 193.6 倍，成本低 444.6 倍。示例用例包括："
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：来自 TypeSafe AI 的 Jev 现已在 AI Gateway 上提供。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "来自 TypeSafe AI 的 Jev 现已在 AI Gateway 上提供。",
-        "Jev 是软件的概率决策模型：输入状态，输入选择、分数，然后输出布尔答案。",
-        "常规语言模型一次生成一个标记，然后应用程序对其进行解析和验证。 Jev 并行评估所有声明的问题，并直接返回键入的答案和概率。这消除了不必要的文本生成，并且可以轻松地自动执行明确的案例，同时路由不确定的案例进行审查。",
-        "TypeSafe 报告称，在工作流程评估中，Jev 的速度比 LLM 快 193.6 倍，成本低 444.6 倍。示例用例包括：",
-        "选择代理循环中的下一个工具或子代理",
-        "决定是继续、重试、询问用户还是停止",
-        "在采取行动之前对紧急程度或风险进行评分",
-        "验证模型输出并加强护栏。",
-        "AI SDK 7 通过实验性评估 API 公开 Jev。 Choice 选择一个选项，Score 对有序的评分标准进行评分，Boolean 估计 true 的概率。安装当前的AI SDK（AI SDK 7.0.105以上支持评估API）：",
-        "state ：要计算的共享字符串、对象或数组，以及"
-      ],
-      "highlights": [
-        "来自 TypeSafe AI 的 Jev 现已在 AI Gateway 上提供。",
-        "Jev 是软件的概率决策模型：输入状态，输入选择、分数，然后输出布尔答案。",
-        "常规语言模型一次生成一个标记，然后应用程序对其进行解析和验证。 Jev 并行评估所有声明的问题，并直接返回键入的答案和概率。这消除了不必要的文本生成，并且可以轻"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "TypeSafe AI's Jev now available on AI Gateway - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-16",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "TypeSafe AI's Jev now available on AI Gateway - Vercel"
-      },
-      "raw": {
-        "title": "TypeSafe AI's Jev now available on AI Gateway",
-        "url": "https://vercel.com/changelog/typesafe-ai-jev-now-available-on-ai-gateway",
-        "fetched": true,
-        "savedAt": "2026-09-17T02:58:06.954Z"
-      }
-    },
-    {
-      "id": "sig-973a91148c",
-      "title": "Hex 使用 GPT-6 Astra 将复杂的分析转化为可视化报告",
-      "oneLiner": "GPT-6 Astra 帮助 Hex 的数据代理将答案转化为员工自豪地分享的交互式可视化结果。",
-      "summary": {
-        "oneSentence": "GPT-6 Astra 帮助 Hex 的数据代理将答案转化为员工自豪地分享的交互式可视化结果。",
-        "bullets": [
-          "GPT-6 Astra 帮助 Hex 的数据代理将答案转化为员工自豪地分享的交互式可视化结果。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：GPT-6 Astra 帮助 Hex 的数据代理将答案转化为员工自豪地分享的交互式可视化结果。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/hex-gpt-6-astra"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "GPT-6 Astra 帮助 Hex 的数据代理将答案转化为员工自豪地分享的交互式可视化结果。"
-      ],
-      "highlights": [
-        "GPT-6 Astra 帮助 Hex 的数据代理将答案转化为员工自豪地分享的交互式可视化结果。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
-      "originalLang": "en",
-      "date": "2026-09-16",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/hex-gpt-6-astra",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Hex turns complex analysis into visual reports with GPT‑6 Astra"
-      },
-      "raw": {
-        "title": "Hex turns complex analysis into visual reports with GPT‑6 Astra",
-        "url": "https://openai.com/index/hex-gpt-6-astra",
-        "fetched": false,
-        "savedAt": "2026-09-20T02:56:17.946Z"
       }
     }
   ]
