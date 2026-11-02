@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-01T03:52:03.410Z",
+  "updatedAt": "2026-11-02T03:55:52.812Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 418,
+  "itemCount": 416,
   "brief": {
-    "date": "2026-11-01",
-    "generatedAt": "2026-11-01T03:52:03.408Z",
-    "totalCount": 418,
+    "date": "2026-11-02",
+    "generatedAt": "2026-11-02T03:55:52.811Z",
+    "totalCount": 416,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 418 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 416 条",
     "topUpdates": [
       {
         "id": "sig-19776a7f1c",
@@ -70,7 +70,7 @@
         "sig-25cc4c9bb2",
         "sig-c7606af40d",
         "sig-0798c0745a",
-        "sig-c3bc2bfc0c"
+        "sig-50643e98e1"
       ],
       "emergingTrends": [],
       "newApis": [],
@@ -91,8 +91,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-11-01T03:52:03.410Z",
-    "summary": "近 30 天共 258 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-11-02T03:55:52.812Z",
+    "summary": "近 30 天共 265 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -133,15 +133,15 @@
     },
     {
       "id": "sig-d2282bcce1",
-      "title": "Fair use benefits everyone",
-      "oneLiner": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal ",
+      "title": "合理使用使每个人受益",
+      "oneLiner": "OpenAI 分享了创作者、学者、无障碍倡导者和法律专家等人的法庭简报摘录，内容涉及合理使用如何支持人工智能培训和创新。",
       "date": "2026-10-30",
       "productIds": [
         "chatgpt"
       ],
       "source": "OpenAI",
       "tags": [],
-      "stars": 3
+      "stars": 4
     },
     {
       "id": "sig-7bf0065ceb",
@@ -207,6 +207,30 @@
       "id": "sig-75e2017ed4",
       "title": "OpenAI 和 ServiceNow 扩大跨企业工作流程的合作伙伴关系",
       "oneLiner": "OpenAI 和 ServiceNow 扩大了合作伙伴关系，将 OpenAI 模型和代理引入 ServiceNow，并将 ServiceNow 工作流程引入 ChatGPT 和 Codex。",
+      "date": "2026-10-28",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-0dc3cf0b7c",
+      "title": "公司的未来",
+      "oneLiner": "人工智能如何进入组织结构图——在我们之下、旁边和之间。",
+      "date": "2026-10-28",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-41c97fe8dc",
+      "title": "Legora正在构建法律工作代理操作系统",
+      "oneLiner": "了解 Legora 如何使用 OpenAI 模型、ChatGPT 和 Codex 来加速法律工作流程、扩大合同分析并使律师能够专注于更高价值的工作。",
       "date": "2026-10-28",
       "productIds": [
         "chatgpt"
@@ -368,30 +392,6 @@
         "chatgpt"
       ],
       "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-27825e3003",
-      "title": "使用 Decisions API 构建响应速度更快的应用程序",
-      "oneLiner": "为任何应用做出快速、集中、低成本的决策。",
-      "date": "2026-10-22",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-e66e9796ba",
-      "title": "超越树木覆盖：绘制世界森林类型图",
-      "oneLiner": "一张新的 10 米分辨率地图显示了世界上哪些森林是天然森林、人工森林或人工森林，以及它们如何随时间变化",
-      "date": "2026-10-22",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google DeepMind",
       "tags": [],
       "stars": 4
     }
@@ -973,19 +973,22 @@
     },
     {
       "id": "sig-50643e98e1",
-      "title": "Simplifying runtime caching on Vercel",
-      "oneLiner": "Today, we’re bringing Data Cache into Runtime Cache, giving developers one product for data caching ",
+      "title": "简化 Vercel 上的运行时缓存",
+      "oneLiner": "今天，我们将数据缓存引入运行时缓存，为开发人员提供了一款跨框架和 API 进行数据缓存的产品。如果您使用 Next.js 获取缓存或 stable_cache ，则无需更改代码。专业版和企业版项目将获得更大的存储分配。",
       "summary": {
-        "oneSentence": "Today, we’re bringing Data Cache into Runtime Cache, giving developers one product for data caching across frameworks an",
+        "oneSentence": "今天，我们将数据缓存引入运行时缓存，为开发人员提供了一款跨框架和 API 进行数据缓存的产品。如果您使用 Next.js 获取缓存或 stable_cache ，则无需更改代码。专业版和企业版项目将获得更大的存储分配。",
         "bullets": [
-          "Today, we’re bringing Data Cache into Runtime Cache, giving developers one product for data caching across frameworks and APIs. If you use Next.js fetch caching or unstable_cache , you won’t need to c"
+          "今天，我们将数据缓存引入运行时缓存，为开发人员提供了一款跨框架和 API 进行数据缓存的产品。如果您使用 Next.js 获取缓存或 stable_cache ，则无需更改代码。专业版和企业版项目将获得更大的存储分配。",
+          "运行时缓存允许您的代码跨请求重用获取或计算的数据，而无需操作单独的缓存服务。在过去的一年里，我们提高了流量突发期间的读取性能，增加了存储预算，并使缓存使用情况更容易调查。",
+          "将链接复制到标题为什么我们构建运行时缓存数据缓存最初是作为 Vercel 为 Next.js App Router 提供的数据缓存服务推出的，由 fetch 缓存和不稳定缓存使用。与存储完整 HTTP 响应的 CDN 缓存不同，数据缓存存储应用程序用于生成这些响应的数据。例如，产品页面可以重用缓存的目录数据，同时为每个",
+          "我们希望开发人员能够在不依赖 Next.js 的情况下访问该服务。去年，我们通过直接 API 引入了运行时缓存：来自 @vercel/functions 的 getCache 。应用程序可以将其用于路由中间件中的功能标志查找、构建期间缓存 CMS 内容以及 SvelteKit 和 Nuxt 应用程序中的数据缓存。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：今天，我们将数据缓存引入运行时缓存，为开发人员提供了一款跨框架和 API 进行数据缓存的产品。如果您使用 Next.js 获取缓存或 stable_cache ，则无需更改代码。专业版和企业版项目将获得更大的存储分配。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -993,38 +996,38 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://vercel.com/blog/simplifying-runtime-caching-on-vercel"
+          "阅读原文（英文）：https://vercel.com/blog/simplifying-runtime-caching-on-vercel"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "Today, we’re bringing Data Cache into Runtime Cache, giving developers one product for data caching across frameworks and APIs. If you use Next.js fetch caching or unstable_cache , you won’t need to change your code. Pro and Enterprise projects will get larger storage allocations.",
-        "Runtime Cache lets your code reuse fetched or computed data across requests without operating a separate caching service. Over the past year, we’ve improved read performance during traffic bursts, increased storage budgets, and made cache usage easier to investigate.",
-        "Copy link to heading Why we built Runtime Cache Data Cache was originally launched as Vercel’s data caching service for the Next.js App Router, used by fetch caching and unstable_cache . Unlike CDN caching , which stores complete HTTP responses, Data Cache stores data your application uses to generate those responses. A product page, for example, can reuse cached catalog data while rendering a personalized response for each visitor.",
-        "We wanted developers to have access to that service without depending on Next.js. Last year, we introduced Runtime Cache with a direct API: getCache from @vercel/functions . Applications can use it for feature flag lookups in Routing Middleware, caching CMS content during builds, and data caching in SvelteKit and Nuxt apps.",
-        "Frameworks can expose this service through their own APIs, too. On Vercel, Next.js itself uses the Runtime Cache API for 'use cache: remote' , which caches function and component outputs.",
-        "Copy link to heading How Runtime Cache works The infrastructure behind Runtime Cache is a distributed caching service shared by many teams. A Go API handles requests, backed by Redis fleets in every Vercel region. Every hour, the service handles more than 440 million reads and moves more than 18 TB of data.",
-        "Each region has its own cache. A cache hit takes one round trip to the cache service in the region where your code runs. Vercel handles authentication with short-lived credentials, so you don’t need to manage API keys.",
-        "On a cache miss, your app or framework fetches or computes the value and writes it to that region’s cache. The service doesn’t check other regions for a cached copy.",
-        "Each cached entry stores its tags and write time. When the service reads an entry, it checks a separate tag store in the same region for those tags’ invalidation timestamps. If any tag was invalidated after the entry was written, the entry is stale.",
-        "For example, an application can tag all its cached product data with catalog . When the catalog changes, invalidating that tag writes a single timestamp, even if a million entries share the tag. The service doesn’t need to find and delete those entries individually.",
-        "The invalidation immediately updates the tag store in the region receiving the request. Vercel’s shared tag infrastructure, also used by the CDN , distributes the timestamp through the global push pipeline, typically reaching other regions within a few hundred milliseconds.",
-        "Your app or framework chooses what to cache and handles misses. Runtime Cache handles regional storage, authentication, and distributing tag invalidations across regions.",
-        "Copy link to heading What we’ve shipped Copy link to heading Faster reads during traffic bursts Checking whether an entry is still fresh adds a dependency to every cache hit. During traffic bursts, a slow shard in the tag store could delay reads even when the cached value was already available.",
-        "We added circuit breakers that let reads temporarily check freshness using tag timestamps cached in memory, so they can proceed without waiting for the slow shard to respond. During this fallback, a read can briefly treat recently invalidated data as fresh."
+        "今天，我们将数据缓存引入运行时缓存，为开发人员提供了一款跨框架和 API 进行数据缓存的产品。如果您使用 Next.js 获取缓存或 stable_cache ，则无需更改代码。专业版和企业版项目将获得更大的存储分配。",
+        "运行时缓存允许您的代码跨请求重用获取或计算的数据，而无需操作单独的缓存服务。在过去的一年里，我们提高了流量突发期间的读取性能，增加了存储预算，并使缓存使用情况更容易调查。",
+        "将链接复制到标题为什么我们构建运行时缓存数据缓存最初是作为 Vercel 为 Next.js App Router 提供的数据缓存服务推出的，由 fetch 缓存和不稳定缓存使用。与存储完整 HTTP 响应的 CDN 缓存不同，数据缓存存储应用程序用于生成这些响应的数据。例如，产品页面可以重用缓存的目录数据，同时为每个访问者呈现个性化响应。",
+        "我们希望开发人员能够在不依赖 Next.js 的情况下访问该服务。去年，我们通过直接 API 引入了运行时缓存：来自 @vercel/functions 的 getCache 。应用程序可以将其用于路由中间件中的功能标志查找、构建期间缓存 CMS 内容以及 SvelteKit 和 Nuxt 应用程序中的数据缓存。",
+        "框架也可以通过自己的 API 公开此服务。在 Vercel 上，Next.js 本身使用运行时缓存 API 来执行 'use cache:remote' ，以缓存函数和组件输出。",
+        "将链接复制到标题 运行时缓存的工作原理 运行时缓存背后的基础设施是由许多团队共享的分布式缓存服务。 Go API 处理请求，由每个 Vercel 区域的 Redis 队列提供支持。该服务每小时处理超过 4.4 亿次读取并移动超过 18 TB 的数据。",
+        "每个区域都有自己的缓存。缓存命中需要到代码运行区域中的缓存服务进行一次往返。 Vercel 使用短期凭证处理身份验证，因此您无需管理 API 密钥。",
+        "当缓存未命中时，您的应用程序或框架会获取或计算该值并将其写入该区域的缓存。该服务不会检查其他区域的缓存副本。",
+        "每个缓存条目都存储其标签和写入时间。当服务读取条目时，它会检查同一区域中的单独标签存储以获取这些标签的失效时间戳。如果在写入条目后任何标签失效，则该条目已过时。",
+        "例如，应用程序可以使用 Catalog 标记其所有缓存的产品数据。当目录发生更改时，即使有一百万个条目共享该标签，使该标签无效也会写入单个时间戳。该服务不需要单独查找和删除这些条目。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "今天，我们将数据缓存引入运行时缓存，为开发人员提供了一款跨框架和 API 进行数据缓存的产品。如果您使用 Next.js 获取缓存或 stable_cache ",
+        "运行时缓存允许您的代码跨请求重用获取或计算的数据，而无需操作单独的缓存服务。在过去的一年里，我们提高了流量突发期间的读取性能，增加了存储预算，并使缓存使用情况更",
+        "将链接复制到标题为什么我们构建运行时缓存数据缓存最初是作为 Vercel 为 Next.js App Router 提供的数据缓存服务推出的，由 fetch 缓"
+      ],
+      "translated": true,
       "originalTitle": "Simplifying runtime caching on Vercel",
       "originalLang": "en",
       "date": "2026-10-30",
@@ -1040,32 +1043,37 @@
         "url": "https://vercel.com/blog/simplifying-runtime-caching-on-vercel",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Simplifying runtime caching on Vercel"
       },
       "raw": {
         "title": "Simplifying runtime caching on Vercel",
         "url": "https://vercel.com/blog/simplifying-runtime-caching-on-vercel",
         "fetched": true,
-        "savedAt": "2026-10-31T03:42:59.932Z"
-      }
+        "savedAt": "2026-10-31T03:42:59.932Z",
+        "retranslatedAt": "2026-11-02T03:55:29.918Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-5472860253",
-      "title": "Data Cache is moving to Runtime Cache",
-      "oneLiner": "Data Cache is exiting beta and moving to Runtime Cache . Next.js fetch caching and unstable_cache wi",
+      "title": "数据缓存正在转向运行时缓存 - Vercel",
+      "oneLiner": "数据缓存正在退出测试版并转向运行时缓存。 Next.js 获取缓存和不稳定缓存将在每个版本上切换，无需更改代码。在 Pro 上，每个项目和环境都有自己的运行时缓存存储分配，其空间是数据缓存之前团队范围池的 8 倍。企业项目获得的数据缓存存储",
       "summary": {
-        "oneSentence": "Data Cache is exiting beta and moving to Runtime Cache . Next.js fetch caching and unstable_cache will switch over on ev",
+        "oneSentence": "数据缓存正在退出测试版并转向运行时缓存。 Next.js 获取缓存和不稳定缓存将在每个版本上切换，无需更改代码。在 Pro 上，每个项目和环境都有自己的运行时缓存存储分配，其空间是数据缓存之前团队范围池的 8 倍。企业项目获得的数据缓存存储",
         "bullets": [
-          "Data Cache is exiting beta and moving to Runtime Cache . Next.js fetch caching and unstable_cache will switch over on every version without code changes. On Pro, each project and environment gets its "
+          "数据缓存正在退出测试版并转向运行时缓存。 Next.js 获取缓存和不稳定缓存将在每个版本上切换，无需更改代码。在 Pro 上，每个项目和环境都有自己的运行时缓存存储分配，其空间是数据缓存之前团队范围池的 8 倍。企业项目获得的数据缓存存储量是以前的 10 倍。",
+          "一旦您的团队迁移，以前未计费的数据缓存读取和写入将按运行时缓存定价收费。费率起价为每百万读取单位 0.40 美元和每百万写入单位 4.00 美元，并因地区而异。",
+          "业余爱好团队每月在所有项目中免费获得 100 万个读取单元和 200,000 个写入单元。在 Pro 上，使用量每月从您的 20 美元基础设施信用中扣除，超出的部分按地区费率计费。对于企业定价，请联系您的客户团队。",
+          "将链接复制到标题 2026 年 10 月 30 日或之后创建的迁移团队默认使用运行时缓存。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：数据缓存正在退出测试版并转向运行时缓存。 Next.js 获取缓存和不稳定缓存将在每个版本上切换，无需更改代码。在 Pro 上，每个项目和环境都有自己的运行时缓存存储分配，其空间是数据缓存之前团队范围池的 8 倍。企业项目获得的数据缓存存储",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -1073,35 +1081,38 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://vercel.com/changelog/data-cache-is-moving-to-runtime-cache"
+          "阅读原文（英文）：https://vercel.com/changelog/data-cache-is-moving-to-runtime-cache"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "Data Cache is exiting beta and moving to Runtime Cache . Next.js fetch caching and unstable_cache will switch over on every version without code changes. On Pro, each project and environment gets its own Runtime Cache storage allocation, with 8x the space of Data Cache’s previous team-wide pool. Enterprise projects get 10x their previous Data Cache storage.",
-        "Once your team migrates, Data Cache reads and writes that were previously unbilled are charged at Runtime Cache pricing . Rates start at $0.40 per million read units and $4.00 per million write units, and vary by region.",
-        "Hobby teams get 1 million read units and 200,000 write units free each month across all projects. On Pro, usage draws from your $20 infrastructure credit each month, and anything beyond it is billed at regional rates. For Enterprise pricing, contact your account team.",
-        "Copy link to heading Migration Teams created on or after October 30, 2026 use Runtime Cache by default.",
-        "Hobby: We’ll migrate your team on November 29, 2026.",
-        "Pro: We’ll notify you of your migration date and when billing changes take effect.",
-        "Enterprise: Your account team will contact you with migration details.",
-        "Before you migrate, review your project's Data Cache usage in Observability . To cut unnecessary reads and writes, follow the optimization guide or copy the agent prompt into your coding agent. In the Runtime Cache dashboard, you can also select Optimize with Vercel Agent.",
-        "Starting October 30, existing Hobby and Pro teams can opt in early from your team's CDN settings . Runtime Cache pricing applies as soon as you opt in.",
-        "You can also disable fetch and unstable_cache caching in CDN settings, which sends more requests to your data sources but doesn’t stop your migration.",
-        "Read about the architecture and recent improvements in the blog post ."
+        "数据缓存正在退出测试版并转向运行时缓存。 Next.js 获取缓存和不稳定缓存将在每个版本上切换，无需更改代码。在 Pro 上，每个项目和环境都有自己的运行时缓存存储分配，其空间是数据缓存之前团队范围池的 8 倍。企业项目获得的数据缓存存储量是以前的 10 倍。",
+        "一旦您的团队迁移，以前未计费的数据缓存读取和写入将按运行时缓存定价收费。费率起价为每百万读取单位 0.40 美元和每百万写入单位 4.00 美元，并因地区而异。",
+        "业余爱好团队每月在所有项目中免费获得 100 万个读取单元和 200,000 个写入单元。在 Pro 上，使用量每月从您的 20 美元基础设施信用中扣除，超出的部分按地区费率计费。对于企业定价，请联系您的客户团队。",
+        "将链接复制到标题 2026 年 10 月 30 日或之后创建的迁移团队默认使用运行时缓存。",
+        "Hobby：我们将于 2026 年 11 月 29 日迁移您的团队。",
+        "优点：我们会通知您迁移日期以及账单更改何时生效。",
+        "企业：您的客户团队将与您联系并提供迁移详细信息。",
+        "迁移之前，请在 Observability 中查看项目的数据缓存使用情况。要减少不必要的读取和写入，请遵循优化指南或将代理提示复制到编码代理中。在运行时缓存仪表板中，您还可以选择使用 Vercel Agent 优化。",
+        "从 10 月 30 日开始，现有的业余爱好团队和专业团队可以从团队的 CDN 设置中提前选择加入。一旦您选择加入，运行时缓存定价就会生效。",
+        "您还可以在 CDN 设置中禁用 fetch 和 stable_cache 缓存，这会向您的数据源发送更多请求，但不会停止迁移。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "数据缓存正在退出测试版并转向运行时缓存。 Next.js 获取缓存和不稳定缓存将在每个版本上切换，无需更改代码。在 Pro 上，每个项目和环境都有自己的运行时缓",
+        "一旦您的团队迁移，以前未计费的数据缓存读取和写入将按运行时缓存定价收费。费率起价为每百万读取单位 0.40 美元和每百万写入单位 4.00 美元，并因地区而异。",
+        "业余爱好团队每月在所有项目中免费获得 100 万个读取单元和 200,000 个写入单元。在 Pro 上，使用量每月从您的 20 美元基础设施信用中扣除，超出的"
+      ],
+      "translated": true,
       "originalTitle": "Data Cache is moving to Runtime Cache - Vercel",
       "originalLang": "en",
       "date": "2026-10-30",
@@ -1117,32 +1128,34 @@
         "url": "https://vercel.com/changelog/data-cache-is-moving-to-runtime-cache",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Data Cache is moving to Runtime Cache - Vercel"
       },
       "raw": {
         "title": "Data Cache is moving to Runtime Cache",
         "url": "https://vercel.com/changelog/data-cache-is-moving-to-runtime-cache",
         "fetched": true,
-        "savedAt": "2026-10-31T03:43:01.532Z"
-      }
+        "savedAt": "2026-10-31T03:43:01.532Z",
+        "retranslatedAt": "2026-11-02T03:55:37.139Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-d2282bcce1",
-      "title": "Fair use benefits everyone",
-      "oneLiner": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal ",
+      "title": "合理使用使每个人受益",
+      "oneLiner": "OpenAI 分享了创作者、学者、无障碍倡导者和法律专家等人的法庭简报摘录，内容涉及合理使用如何支持人工智能培训和创新。",
       "summary": {
-        "oneSentence": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among other",
+        "oneSentence": "OpenAI 分享了创作者、学者、无障碍倡导者和法律专家等人的法庭简报摘录，内容涉及合理使用如何支持人工智能培训和创新。",
         "bullets": [
-          "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation."
+          "OpenAI 分享了创作者、学者、无障碍倡导者和法律专家等人的法庭简报摘录，内容涉及合理使用如何支持人工智能培训和创新。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "OpenAI 官网发布：OpenAI 分享了创作者、学者、无障碍倡导者和法律专家等人的法庭简报摘录，内容涉及合理使用如何支持人工智能培训和创新。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -1150,27 +1163,29 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
-        "relevance": "",
+        "relevance": "关联产品：chatgpt",
         "actionItems": [
-          "阅读原文：https://openai.com/index/fair-use-benefits-everyone"
+          "阅读原文（英文）：https://openai.com/index/fair-use-benefits-everyone"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [
         "chatgpt"
       ],
       "content": [
-        "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation."
+        "OpenAI 分享了创作者、学者、无障碍倡导者和法律专家等人的法庭简报摘录，内容涉及合理使用如何支持人工智能培训和创新。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "OpenAI 分享了创作者、学者、无障碍倡导者和法律专家等人的法庭简报摘录，内容涉及合理使用如何支持人工智能培训和创新。"
+      ],
+      "translated": true,
       "originalTitle": "Fair use benefits everyone",
       "originalLang": "en",
       "date": "2026-10-30",
@@ -1188,32 +1203,37 @@
         "url": "https://openai.com/index/fair-use-benefits-everyone",
         "home": "https://openai.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Fair use benefits everyone"
       },
       "raw": {
         "title": "Fair use benefits everyone",
         "url": "https://openai.com/index/fair-use-benefits-everyone",
         "fetched": false,
-        "savedAt": "2026-10-31T03:43:03.100Z"
-      }
+        "savedAt": "2026-10-31T03:43:03.100Z",
+        "retranslatedAt": "2026-11-02T03:55:38.803Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-477abb1de2",
-      "title": "Vercel Daemons can now call services with bindings",
-      "oneLiner": "Vercel Daemons can now call the services in their deployment through service bindings . Declare the ",
+      "title": "Vercel 守护进程现在可以通过绑定调用服务 - Vercel",
+      "oneLiner": "Vercel 守护进程现在可以通过服务绑定调用其部署中的服务。",
       "summary": {
-        "oneSentence": "Vercel Daemons can now call the services in their deployment through service bindings . Declare the binding on the daemo",
+        "oneSentence": "Vercel 守护进程现在可以通过服务绑定调用其部署中的服务。",
         "bullets": [
-          "Vercel Daemons can now call the services in their deployment through service bindings . Declare the binding on the daemon. It names the target service and the environment variable that receives the se"
+          "Vercel 守护进程现在可以通过服务绑定调用其部署中的服务。",
+          "声明守护进程上的绑定。它命名目标服务和接收服务 URL 的环境变量：",
+          "vercel.toml 1 [ services.api ] 2 root = \"api/\" 3 入口点 = \"main:app\" 4 5 [ daemons.worker ] 6 root = \"worker/\" 7 入口点 = \"Dockerfile\" 8 实例 = { iad1 = 1 } 9 10 [ [ da",
+          "守护程序像任何其他 HTTP 端点一样调用该 URL。 Vercel 处理内部路由、身份验证和 TLS，并且服务保持私有："
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：Vercel 守护进程现在可以通过服务绑定调用其部署中的服务。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -1221,31 +1241,35 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://vercel.com/changelog/vercel-daemons-can-now-call-services-with-bindings"
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-daemons-can-now-call-services-with-bindings"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "Vercel Daemons can now call the services in their deployment through service bindings .",
-        "Declare the binding on the daemon. It names the target service and the environment variable that receives the service's URL:",
-        "vercel.toml 1 [ services.api ] 2 root = \"api/\" 3 entrypoint = \"main:app\" 4 5 [ daemons.worker ] 6 root = \"worker/\" 7 entrypoint = \"Dockerfile\" 8 instances = { iad1 = 1 } 9 10 [ [ daemons.worker.bindings ] ] 11 type = \"service\" 12 service = \"api\" 13 format = \"url\" 14 env = \"API_URL\" A daemon binding the api service, exposed to the worker as API_URL",
-        "The daemon calls that URL like any other HTTP endpoint. Vercel handles the internal routing, authentication, and TLS, and the service stays private:",
-        "worker/worker.ts 1 await fetch ( new URL ( 'jobs/next' , process . env . API_URL ) ) ; Calling the bound service from the daemon with a plain fetch",
-        "Bindings point one way: services can't bind to daemons. Each instance keeps calling the deployment that started it, even after a promotion or rollback.",
-        "Learn more about daemon service bindings in the docs ."
+        "Vercel 守护进程现在可以通过服务绑定调用其部署中的服务。",
+        "声明守护进程上的绑定。它命名目标服务和接收服务 URL 的环境变量：",
+        "vercel.toml 1 [ services.api ] 2 root = \"api/\" 3 入口点 = \"main:app\" 4 5 [ daemons.worker ] 6 root = \"worker/\" 7 入口点 = \"Dockerfile\" 8 实例 = { iad1 = 1 } 9 10 [ [ daemons.worker.bindings ] ] 11 类型 = \"服务\" 12 服务 = \"api\" 13 格式 = \"url\" 14 env = \"API_URL\" 绑定 api 服务的守护进程，作为 API_URL 暴露给工作人员",
+        "守护程序像任何其他 HTTP 端点一样调用该 URL。 Vercel 处理内部路由、身份验证和 TLS，并且服务保持私有：",
+        "worker/worker.ts 1 等待 fetch ( new URL ( 'jobs/next' , process . env . API_URL ) ) ;使用简单的提取从守护程序调用绑定服务",
+        "绑定指向一种方式：服务不能绑定到守护程序。每个实例都会不断调用启动它的部署，即使在升级或回滚之后也是如此。",
+        "在文档中了解有关守护程序服务绑定的更多信息。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "Vercel 守护进程现在可以通过服务绑定调用其部署中的服务。",
+        "声明守护进程上的绑定。它命名目标服务和接收服务 URL 的环境变量：",
+        "vercel.toml 1 [ services.api ] 2 root = \"api/\" 3 入口点 = \"main:app\" 4 5 [ daemons."
+      ],
+      "translated": true,
       "originalTitle": "Vercel Daemons can now call services with bindings - Vercel",
       "originalLang": "en",
       "date": "2026-10-30",
@@ -1261,32 +1285,37 @@
         "url": "https://vercel.com/changelog/vercel-daemons-can-now-call-services-with-bindings",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Vercel Daemons can now call services with bindings - Vercel"
       },
       "raw": {
         "title": "Vercel Daemons can now call services with bindings",
         "url": "https://vercel.com/changelog/vercel-daemons-can-now-call-services-with-bindings",
         "fetched": true,
-        "savedAt": "2026-10-31T03:43:04.861Z"
-      }
+        "savedAt": "2026-10-31T03:43:04.861Z",
+        "retranslatedAt": "2026-11-02T03:55:44.223Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-27a0aac113",
-      "title": "Add liveness checks to your Daemons",
-      "oneLiner": "Vercel Daemons now support configuring HTTP liveness checks. Start with an HTTP endpoint in your dae",
+      "title": "向您的守护进程添加活跃度检查 - Vercel",
+      "oneLiner": "Vercel 守护程序现在支持配置 HTTP 活动检查。",
       "summary": {
-        "oneSentence": "Vercel Daemons now support configuring HTTP liveness checks. Start with an HTTP endpoint in your daemon that reports its",
+        "oneSentence": "Vercel 守护程序现在支持配置 HTTP 活动检查。",
         "bullets": [
-          "Vercel Daemons now support configuring HTTP liveness checks. Start with an HTTP endpoint in your daemon that reports its health. Keep it lightweight so it responds quickly, and have it return an error"
+          "Vercel 守护程序现在支持配置 HTTP 活动检查。",
+          "从守护程序中报告其运行状况的 HTTP 端点开始。保持轻量级，以便快速响应，并在守护进程不再正常运行时返回错误状态：",
+          "index.js 1 让活着= true ; 2 3 startWorker({4 onConnectionError:() => {alive = false} 5 }) 6 7 require('http'). createServer((req, res)=>{8 res.statusCode = alive?2",
+          "守护进程配置现在接受指向该端点的 livenessProbe 值："
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：Vercel 守护程序现在支持配置 HTTP 活动检查。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -1294,31 +1323,35 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://vercel.com/changelog/add-liveness-checks-to-your-daemons"
+          "阅读原文（英文）：https://vercel.com/changelog/add-liveness-checks-to-your-daemons"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "Vercel Daemons now support configuring HTTP liveness checks.",
-        "Start with an HTTP endpoint in your daemon that reports its health. Keep it lightweight so it responds quickly, and have it return an error status when the daemon is no longer healthy:",
-        "index.js 1 let alive = true ; 2 3 startWorker ( { 4 onConnectionError : ( ) => { alive = false } 5 } ) 6 7 require ( 'http' ) . createServer ( ( req , res ) => { 8 res . statusCode = alive ? 200 : 500 ; 9 res . end ( ) ; 10 } ) . listen ( 1234 ) A minimal health endpoint that fails the check when the worker is no longer healthy",
-        "The daemon configuration now accepts a livenessProbe value pointing at that endpoint:",
-        "vercel.json 1 { 2 \"daemons\" : { 3 \"worker\" : { 4 \"root\" : \"worker/\" , 5 \"entrypoint\" : \"Dockerfile\" , 6 \"livenessProbe\" : { 7 \"httpGet\" : { \"port\" : 1234 , \"path\" : \"/health\" } 8 } 9 } 10 } 11 } A daemon with an HTTP liveness probe on port 1234",
-        "Vercel periodically requests the endpoint and restarts the daemon's container when the check fails, catching a daemon that is still running but no longer healthy.",
-        "Read the Daemon documentation for more information about liveness checks, including default values and the optional tuning fields."
+        "Vercel 守护程序现在支持配置 HTTP 活动检查。",
+        "从守护程序中报告其运行状况的 HTTP 端点开始。保持轻量级，以便快速响应，并在守护进程不再正常运行时返回错误状态：",
+        "index.js 1 让活着= true ; 2 3 startWorker({4 onConnectionError:() => {alive = false} 5 }) 6 7 require('http'). createServer((req, res)=>{8 res.statusCode = alive?200:500;9 res.end();10})。监听（1234）一个最小的健康端点，当工作线程不再健康时检查失败",
+        "守护进程配置现在接受指向该端点的 livenessProbe 值：",
+        "vercel.json 1 { 2 \"daemons\" : { 3 \"worker\" : { 4 \"root\" : \"worker/\" , 5 \"entrypoint\" : \"Dockerfile\" , 6 \"livenessProbe\" : { 7 \"httpGet\" : { \"port\" : 1234 , \"path\" : \"/health\" } 8 } 9 } 10 } 11 } A在端口 1234 上具有 HTTP 活动探针的守护进程",
+        "Vercel 定期请求端点，并在检查失败时重新启动守护程序的容器，捕获仍在运行但不再正常运行的守护程序。",
+        "阅读守护程序文档以获取有关活动检查的更多信息，包括默认值和可选的调整字段。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "Vercel 守护程序现在支持配置 HTTP 活动检查。",
+        "从守护程序中报告其运行状况的 HTTP 端点开始。保持轻量级，以便快速响应，并在守护进程不再正常运行时返回错误状态：",
+        "index.js 1 让活着= true ; 2 3 startWorker({4 onConnectionError:() => {alive = false"
+      ],
+      "translated": true,
       "originalTitle": "Add liveness checks to your Daemons - Vercel",
       "originalLang": "en",
       "date": "2026-10-30",
@@ -1334,16 +1367,18 @@
         "url": "https://vercel.com/changelog/add-liveness-checks-to-your-daemons",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Add liveness checks to your Daemons - Vercel"
       },
       "raw": {
         "title": "Add liveness checks to your Daemons",
         "url": "https://vercel.com/changelog/add-liveness-checks-to-your-daemons",
         "fetched": true,
-        "savedAt": "2026-11-01T03:50:43.625Z"
-      }
+        "savedAt": "2026-11-01T03:50:43.625Z",
+        "retranslatedAt": "2026-11-02T03:55:47.863Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-c3bc2bfc0c",
@@ -2713,19 +2748,22 @@
     },
     {
       "id": "sig-2a82b319b3",
-      "title": "Vercel Flags starts 7x faster and no longer extends function duration",
-      "oneLiner": "On Vercel, the Vercel Flags SDK now initializes faster on cold starts, and usage reporting no longer",
+      "title": "Vercel Flags 启动速度提高 7 倍，并且不再延长功能持续时间 - Vercel",
+      "oneLiner": "在 Vercel 上，Vercel Flags SDK 现在在冷启动时初始化速度更快，并且使用情况报告不再使函数在响应后保持运行。",
       "summary": {
-        "oneSentence": "On Vercel, the Vercel Flags SDK now initializes faster on cold starts, and usage reporting no longer keeps functions run",
+        "oneSentence": "在 Vercel 上，Vercel Flags SDK 现在在冷启动时初始化速度更快，并且使用情况报告不再使函数在响应后保持运行。",
         "bullets": [
-          "On Vercel, the Vercel Flags SDK now initializes faster on cold starts, and usage reporting no longer keeps functions running after the response. Faster cold starts Two changes speed up SDK initializat"
+          "在 Vercel 上，Vercel Flags SDK 现在在冷启动时初始化速度更快，并且使用情况报告不再使函数在响应后保持运行。",
+          "将链接复制到标题 更快的冷启动 两项更改加快了冷启动时 SDK 的初始化速度：",
+          "创建客户端后，SDK 就会加载并解析与您的部署捆绑在一起的标志数据文件，因此在您的代码评估其第一个标志之前它就已准备就绪。",
+          "现在，每个函数调用都包含当前的数据文件修订版本，因此 SDK 无需网络请求即可检查捆绑的数据文件是否是最新的。"
         ],
         "audience": "AI 产品学习者",
         "readMinutes": 3,
         "keywords": []
       },
       "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
+        "mainInsight": "Vercel AI 官网发布：在 Vercel 上，Vercel Flags SDK 现在在冷启动时初始化速度更快，并且使用情况报告不再使函数在响应后保持运行。",
         "whyNow": "",
         "problem": "",
         "trend": "",
@@ -2733,33 +2771,37 @@
         "outlook": ""
       },
       "learning": {
-        "whyImportant": "",
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
         "productDesign": "",
         "relevance": "",
         "actionItems": [
-          "阅读原文：https://vercel.com/changelog/vercel-flags-starts-7x-faster-and-no-longer-extends-function-duration"
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-flags-starts-7x-faster-and-no-longer-extends-function-duration"
         ]
       },
       "tags": [],
       "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
       },
       "affectedProductIds": [],
       "content": [
-        "On Vercel, the Vercel Flags SDK now initializes faster on cold starts, and usage reporting no longer keeps functions running after the response.",
-        "Copy link to heading Faster cold starts Two changes speed up SDK initialization on cold starts:",
-        "The SDK loads and parses the flags datafile bundled with your deployment as soon as the client is created, so it’s ready before your code evaluates its first flag.",
-        "Every function invocation now includes the current datafile revision, so the SDK can check whether the bundled datafile is up to date without a network request.",
-        "In internal testing, eliminating the network wait reduced p75 cold-start SDK initialization time from over 70 ms to 10 ms, roughly 7x faster.",
-        "After initialization, flag reads are effectively instant. Across cold and warm invocations, p99 flag-read latency is under 1 ms.",
-        "Copy link to heading Usage reporting no longer extends function duration The SDK previously used waitUntil for usage reporting, keeping functions running after the response was sent. It now passes usage events to the Vercel runtime, so reporting no longer adds to function duration.",
-        "Update @flags-sdk/vercel to version 1.5.3 or later and redeploy your application:",
-        "pnpm add @flags-sdk/vercel@latest Learn more in the Flags SDK documentation ."
+        "在 Vercel 上，Vercel Flags SDK 现在在冷启动时初始化速度更快，并且使用情况报告不再使函数在响应后保持运行。",
+        "将链接复制到标题 更快的冷启动 两项更改加快了冷启动时 SDK 的初始化速度：",
+        "创建客户端后，SDK 就会加载并解析与您的部署捆绑在一起的标志数据文件，因此在您的代码评估其第一个标志之前它就已准备就绪。",
+        "现在，每个函数调用都包含当前的数据文件修订版本，因此 SDK 无需网络请求即可检查捆绑的数据文件是否是最新的。",
+        "在内部测试中，消除网络等待将 p75 冷启动 SDK 初始化时间从 70 毫秒以上减少到 10 毫秒，大约快了 7 倍。",
+        "初始化后，标志读取实际上是即时的。在冷调用和热调用中，p99 标志读取延迟低于 1 毫秒。",
+        "将链接复制到标题 使用情况报告不再延长函数持续时间 SDK 之前使用 waitUntil 进行使用情况报告，从而在发送响应后保持函数运行。现在，它会将使用事件传递到 Vercel 运行时，因此报告不再增加函数持续时间。",
+        "将 @flags-sdk/vercel 更新到版本 1.5.3 或更高版本并重新部署您的应用程序：",
+        "pnpm add @flags-sdk/vercel@latest 在 Flags SDK 文档中了解更多信息。"
       ],
-      "highlights": [],
-      "translated": false,
+      "highlights": [
+        "在 Vercel 上，Vercel Flags SDK 现在在冷启动时初始化速度更快，并且使用情况报告不再使函数在响应后保持运行。",
+        "将链接复制到标题 更快的冷启动 两项更改加快了冷启动时 SDK 的初始化速度：",
+        "创建客户端后，SDK 就会加载并解析与您的部署捆绑在一起的标志数据文件，因此在您的代码评估其第一个标志之前它就已准备就绪。"
+      ],
+      "translated": true,
       "originalTitle": "Vercel Flags starts 7x faster and no longer extends function duration - Vercel",
       "originalLang": "en",
       "date": "2026-10-29",
@@ -2775,16 +2817,18 @@
         "url": "https://vercel.com/changelog/vercel-flags-starts-7x-faster-and-no-longer-extends-function-duration",
         "home": "https://vercel.com/blog",
         "lang": "en",
-        "translated": false,
-        "translateMethod": null,
+        "translated": true,
+        "translateMethod": "google",
         "originalTitle": "Vercel Flags starts 7x faster and no longer extends function duration - Vercel"
       },
       "raw": {
         "title": "Vercel Flags starts 7x faster and no longer extends function duration",
         "url": "https://vercel.com/changelog/vercel-flags-starts-7x-faster-and-no-longer-extends-function-duration",
         "fetched": true,
-        "savedAt": "2026-11-01T03:50:52.083Z"
-      }
+        "savedAt": "2026-11-01T03:50:52.083Z",
+        "retranslatedAt": "2026-11-02T03:55:52.008Z"
+      },
+      "translateMethod": "google"
     },
     {
       "id": "sig-5028d62dc0",
@@ -3612,6 +3656,807 @@
         "retranslatedAt": "2026-10-30T03:59:19.984Z"
       },
       "translateMethod": "google"
+    },
+    {
+      "id": "sig-0dc3cf0b7c",
+      "title": "公司的未来",
+      "oneLiner": "人工智能如何进入组织结构图——在我们之下、旁边和之间。",
+      "summary": {
+        "oneSentence": "人工智能如何进入组织结构图——在我们之下、旁边和之间。",
+        "bullets": [
+          "人工智能如何进入组织结构图——在我们之下、旁边和之间。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：人工智能如何进入组织结构图——在我们之下、旁边和之间。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/the-future-of-the-firm"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "人工智能如何进入组织结构图——在我们之下、旁边和之间。"
+      ],
+      "highlights": [
+        "人工智能如何进入组织结构图——在我们之下、旁边和之间。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "The future of the firm",
+      "originalLang": "en",
+      "date": "2026-10-28",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/the-future-of-the-firm",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "The future of the firm"
+      },
+      "raw": {
+        "title": "The future of the firm",
+        "url": "https://openai.com/index/the-future-of-the-firm",
+        "fetched": false,
+        "savedAt": "2026-11-02T03:54:32.691Z"
+      }
+    },
+    {
+      "id": "sig-01436ecab4",
+      "title": "Vercel 容器注册表现在支持 2 GB 压缩映像层 - Vercel",
+      "oneLiner": "Vercel 容器注册表现在支持每个压缩映像层从 500 MB 增加到 2 GB，从而允许推送更大的层而无需拆分它们。总图像大小限制仍为 15 GB。",
+      "summary": {
+        "oneSentence": "Vercel 容器注册表现在支持每个压缩映像层从 500 MB 增加到 2 GB，从而允许推送更大的层而无需拆分它们。总图像大小限制仍为 15 GB。",
+        "bullets": [
+          "Vercel 容器注册表现在支持每个压缩映像层从 500 MB 增加到 2 GB，从而允许推送更大的层而无需拆分它们。总图像大小限制仍为 15 GB。",
+          "较高的层限制对于具有大型工具链或依赖项集的图像非常有用，例如用于编码代理评估的自定义 Vercel 沙箱环境。",
+          "安装 Docker 和 Vercel CLI 后，从包含 Dockerfile 的目录运行以下命令：",
+          "vercel 链接 vercel vcr 登录 docker vercel vcr 构建 docker 。 --push 链接您的项目，验证 Docker，然后构建并推送映像。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel 容器注册表现在支持每个压缩映像层从 500 MB 增加到 2 GB，从而允许推送更大的层而无需拆分它们。总图像大小限制仍为 15 GB。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-container-registry-now-supports-2-gb-compressed-image-layers-new"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel 容器注册表现在支持每个压缩映像层从 500 MB 增加到 2 GB，从而允许推送更大的层而无需拆分它们。总图像大小限制仍为 15 GB。",
+        "较高的层限制对于具有大型工具链或依赖项集的图像非常有用，例如用于编码代理评估的自定义 Vercel 沙箱环境。",
+        "安装 Docker 和 Vercel CLI 后，从包含 Dockerfile 的目录运行以下命令：",
+        "vercel 链接 vercel vcr 登录 docker vercel vcr 构建 docker 。 --push 链接您的项目，验证 Docker，然后构建并推送映像。",
+        "阅读 Vercel 容器注册表入门指南来构建、推送和拉取您的第一个容器映像。"
+      ],
+      "highlights": [
+        "Vercel 容器注册表现在支持每个压缩映像层从 500 MB 增加到 2 GB，从而允许推送更大的层而无需拆分它们。总图像大小限制仍为 15 GB。",
+        "较高的层限制对于具有大型工具链或依赖项集的图像非常有用，例如用于编码代理评估的自定义 Vercel 沙箱环境。",
+        "安装 Docker 和 Vercel CLI 后，从包含 Dockerfile 的目录运行以下命令："
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Container Registry now supports 2 GB compressed image layers - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-28",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-container-registry-now-supports-2-gb-compressed-image-layers-new",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Container Registry now supports 2 GB compressed image layers - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Container Registry now supports 2 GB compressed image layers",
+        "url": "https://vercel.com/changelog/vercel-container-registry-now-supports-2-gb-compressed-image-layers-new",
+        "fetched": true,
+        "savedAt": "2026-11-02T03:54:36.815Z"
+      }
+    },
+    {
+      "id": "sig-41c97fe8dc",
+      "title": "Legora正在构建法律工作代理操作系统",
+      "oneLiner": "了解 Legora 如何使用 OpenAI 模型、ChatGPT 和 Codex 来加速法律工作流程、扩大合同分析并使律师能够专注于更高价值的工作。",
+      "summary": {
+        "oneSentence": "了解 Legora 如何使用 OpenAI 模型、ChatGPT 和 Codex 来加速法律工作流程、扩大合同分析并使律师能够专注于更高价值的工作。",
+        "bullets": [
+          "了解 Legora 如何使用 OpenAI 模型、ChatGPT 和 Codex 来加速法律工作流程、扩大合同分析并使律师能够专注于更高价值的工作。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：了解 Legora 如何使用 OpenAI 模型、ChatGPT 和 Codex 来加速法律工作流程、扩大合同分析并使律师能够专注于更高价值的工作。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/legora"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "了解 Legora 如何使用 OpenAI 模型、ChatGPT 和 Codex 来加速法律工作流程、扩大合同分析并使律师能够专注于更高价值的工作。"
+      ],
+      "highlights": [
+        "了解 Legora 如何使用 OpenAI 模型、ChatGPT 和 Codex 来加速法律工作流程、扩大合同分析并使律师能够专注于更高价值的工作。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Legora is building the agentic operating system for legal work",
+      "originalLang": "en",
+      "date": "2026-10-28",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/legora",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Legora is building the agentic operating system for legal work"
+      },
+      "raw": {
+        "title": "Legora is building the agentic operating system for legal work",
+        "url": "https://openai.com/index/legora",
+        "fetched": false,
+        "savedAt": "2026-11-02T03:54:38.701Z"
+      }
+    },
+    {
+      "id": "sig-4365c098a5",
+      "title": "在AI网关上引入虚拟模型",
+      "oneLiner": "今天，我们在AI网关上介绍虚拟模型。",
+      "summary": {
+        "oneSentence": "今天，我们在AI网关上介绍虚拟模型。",
+        "bullets": [
+          "今天，我们在AI网关上介绍虚拟模型。",
+          "虚拟模型是应用程序和开发人员使用的模型字符串和配置的抽象。使用单个虚拟模型 ID，您可以更改和更新模型、配置回退和优先级以及集中实施零数据保留。虚拟模型配置适用于使用 ID 的任何地方。",
+          "将虚拟模型 ID 分配给代理任务，并将其作为模型字符串传递到调用该任务的任何地方。然后，您可以在 AI Gateway 中更改虚拟模型 ID 背后的模型和设置，您的应用程序和代理将自动采用新配置，无需更改代码或重新部署。",
+          "将链接复制到标题 新模型使用相同的虚拟模型 ID 在过去 90 天内，AI Gateway 上提供了来自 10 多个实验室的 125 个新模型。加起来每周大约 10 个。 AI Gateway 已经使切换成为单线更改。您可以通过 ID 调用这些模型中的任何一个，AI Gateway 将每个请求路由到健康的提供者，并且在"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：今天，我们在AI网关上介绍虚拟模型。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/ai-gateway-virtual-models"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "今天，我们在AI网关上介绍虚拟模型。",
+        "虚拟模型是应用程序和开发人员使用的模型字符串和配置的抽象。使用单个虚拟模型 ID，您可以更改和更新模型、配置回退和优先级以及集中实施零数据保留。虚拟模型配置适用于使用 ID 的任何地方。",
+        "将虚拟模型 ID 分配给代理任务，并将其作为模型字符串传递到调用该任务的任何地方。然后，您可以在 AI Gateway 中更改虚拟模型 ID 背后的模型和设置，您的应用程序和代理将自动采用新配置，无需更改代码或重新部署。",
+        "将链接复制到标题 新模型使用相同的虚拟模型 ID 在过去 90 天内，AI Gateway 上提供了来自 10 多个实验室的 125 个新模型。加起来每周大约 10 个。 AI Gateway 已经使切换成为单线更改。您可以通过 ID 调用这些模型中的任何一个，AI Gateway 将每个请求路由到健康的提供者，并且在出现故障时可以回退到其他提供者。",
+        "这一行仍然存在于您的代码中，因此切换通常意味着重新部署。",
+        "虚拟模型将模型选择和配置移至 AI Gateway。您为任务创建一个 ID，例如 vmc/coding-agent ，然后配置模型及其应使用的设置：",
+        "vercel ai-gateway virtual-models createcoding-agent \\ --model anthropic/claude-opus-5.5 \\ --config '{\"speed\":\"fast\",\"zeroDataRetention\":true}' 然后，您可以在任务运行的任何地方使用该虚拟模型 ID 作为模型字符串：",
+        "从 'ai' 导入 {streamText} ； const result = streamText ( { model : 'vmc/coding-agent' ,prompt : '从此模块中删除已弃用的 API 调用。' , } ) ;对于 Claude Code 、 Codex 等编码代理，请使用 vercel ai-gateway setup 连接它们，然后在每个线束的模型选择器或配置中选择您的虚拟模型。",
+        "当有不同的模型可用时（包括来自另一提供商的模型），请编辑虚拟模型。每个调用 vmc/coding-agent 的应用程序和代理都会在几分钟内获取它，无需更改代码或部署：",
+        "vercel ai-gateway virtual-models editcoding-agent --model openai/gpt-6.1-sol 将链接复制到标题 为每个任务提供自己的模型 像支持票证分类这样的代理任务每小时可以运行数百次，并且需要便宜。其他任务，例如法律合同审查，可能每天只运行几次，但需要高水平的推理。"
+      ],
+      "highlights": [
+        "今天，我们在AI网关上介绍虚拟模型。",
+        "虚拟模型是应用程序和开发人员使用的模型字符串和配置的抽象。使用单个虚拟模型 ID，您可以更改和更新模型、配置回退和优先级以及集中实施零数据保留。虚拟模型配置适用",
+        "将虚拟模型 ID 分配给代理任务，并将其作为模型字符串传递到调用该任务的任何地方。然后，您可以在 AI Gateway 中更改虚拟模型 ID 背后的模型和设置，"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Introducing Virtual Models on AI Gateway",
+      "originalLang": "en",
+      "date": "2026-10-28",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/ai-gateway-virtual-models",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Introducing Virtual Models on AI Gateway"
+      },
+      "raw": {
+        "title": "Introducing Virtual Models on AI Gateway",
+        "url": "https://vercel.com/blog/ai-gateway-virtual-models",
+        "fetched": true,
+        "savedAt": "2026-11-02T03:54:46.725Z"
+      }
+    },
+    {
+      "id": "sig-1cbf72ccb7",
+      "title": "Vercel CI 简介",
+      "oneLiner": "编码代理提出的拉取请求比以往任何时候都多，每个拉取请求都在等待 CI，然后任何人都可以审查或合并它。大多数 CI 系统在每次推送时都会运行整个工作流程，甚至是一行更改。您的代理推动的越多，您等待 CI 的时间就越多。",
+      "summary": {
+        "oneSentence": "编码代理提出的拉取请求比以往任何时候都多，每个拉取请求都在等待 CI，然后任何人都可以审查或合并它。大多数 CI 系统在每次推送时都会运行整个工作流程，甚至是一行更改。您的代理推动的越多，您等待 CI 的时间就越多。",
+        "bullets": [
+          "编码代理提出的拉取请求比以往任何时候都多，每个拉取请求都在等待 CI，然后任何人都可以审查或合并它。大多数 CI 系统在每次推送时都会运行整个工作流程，甚至是一行更改。您的代理推动的越多，您等待 CI 的时间就越多。",
+          "今天，我们宣布推出 Vercel CI 测试版。它仅运行受代码更改影响的任务，并仅启动这些检查所需的计算，就像流体计算随流量扩展一样。",
+          "在 Vercel，我们的 CI 现在与我们的编码代理保持同步。从 git Push 到“CI 通过”的时间比以前快了 2-6 倍。",
+          "将链接复制到标题 工作原理 Vercel CI 使用 Turborepo 来了解您的任务以及哪些任务相互依赖。它读取 Turbo.json ，因此如果您已经在使用 Turborepo，则无需编写单独的 CI 配置。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：编码代理提出的拉取请求比以往任何时候都多，每个拉取请求都在等待 CI，然后任何人都可以审查或合并它。大多数 CI 系统在每次推送时都会运行整个工作流程，甚至是一行更改。您的代理推动的越多，您等待 CI 的时间就越多。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/introducing-vercel-ci"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "编码代理提出的拉取请求比以往任何时候都多，每个拉取请求都在等待 CI，然后任何人都可以审查或合并它。大多数 CI 系统在每次推送时都会运行整个工作流程，甚至是一行更改。您的代理推动的越多，您等待 CI 的时间就越多。",
+        "今天，我们宣布推出 Vercel CI 测试版。它仅运行受代码更改影响的任务，并仅启动这些检查所需的计算，就像流体计算随流量扩展一样。",
+        "在 Vercel，我们的 CI 现在与我们的编码代理保持同步。从 git Push 到“CI 通过”的时间比以前快了 2-6 倍。",
+        "将链接复制到标题 工作原理 Vercel CI 使用 Turborepo 来了解您的任务以及哪些任务相互依赖。它读取 Turbo.json ，因此如果您已经在使用 Turborepo，则无需编写单独的 CI 配置。",
+        "如果您还没有使用 Turborepo，请添加turbo.json 和turbo 包。它也适用于单包存储库。",
+        "然后标记您希望 Vercel CI 运行的任务。",
+        "Turbo.json 1 { 2 \"tasks\" : { 3 \"lint\" : { 4 \"tags\" : [ \"ci\" ] 5 } 6 } 7 } \"tags\": [\"ci\"] 就是您开始所需的全部内容。无需维护工作流程 YAML，CI 配置和 Turbo.json 之间没有偏差，并且远程缓存默认处于启用状态。",
+        "当您或您的代理推送代码时，Vercel CI 会根据更改确定需要运行哪些任务。输入未更改的任务来自缓存。其余任务均在自己的计算机上运行，​​由 Vercel 的计算层 Hive 提供支持，并在其依赖项完成后立即启动。",
+        "Vercel CI 为每个任务提供其所需的计算，仅此而已。",
+        "将链接复制到标题 在 Vercel 上运行 CI 要开始使用，请按照文档操作或从存储库提示您的代理："
+      ],
+      "highlights": [
+        "编码代理提出的拉取请求比以往任何时候都多，每个拉取请求都在等待 CI，然后任何人都可以审查或合并它。大多数 CI 系统在每次推送时都会运行整个工作流程，甚至是一",
+        "今天，我们宣布推出 Vercel CI 测试版。它仅运行受代码更改影响的任务，并仅启动这些检查所需的计算，就像流体计算随流量扩展一样。",
+        "在 Vercel，我们的 CI 现在与我们的编码代理保持同步。从 git Push 到“CI 通过”的时间比以前快了 2-6 倍。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Introducing Vercel CI",
+      "originalLang": "en",
+      "date": "2026-10-28",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/introducing-vercel-ci",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Introducing Vercel CI"
+      },
+      "raw": {
+        "title": "Introducing Vercel CI",
+        "url": "https://vercel.com/blog/introducing-vercel-ci",
+        "fetched": true,
+        "savedAt": "2026-11-02T03:54:54.937Z"
+      }
+    },
+    {
+      "id": "sig-7e4752d55b",
+      "title": "Vercel Agent 现在可以在寻呼之前验证警报 - Vercel",
+      "oneLiner": "Vercel Agent 现在可以在 Vercel 监视器发出的警报到达您的寻呼系统之前对其进行调查。为 Webhook 目标启用验证后，只有代理分类为“严重”的警报才会发送给该目标。",
+      "summary": {
+        "oneSentence": "Vercel Agent 现在可以在 Vercel 监视器发出的警报到达您的寻呼系统之前对其进行调查。为 Webhook 目标启用验证后，只有代理分类为“严重”的警报才会发送给该目标。",
+        "bullets": [
+          "Vercel Agent 现在可以在 Vercel 监视器发出的警报到达您的寻呼系统之前对其进行调查。为 Webhook 目标启用验证后，只有代理分类为“严重”的警报才会发送给该目标。",
+          "打开监视器的通知设置并为您的寻呼系统创建或链接 Webhook 目标，例如 Incident.io。",
+          "选择该目的地旁边的“仅限关键”。",
+          "您还可以使用 Vercel 监视器通知通过 Vercel CLI 配置通知目标。仅在链接或更新 Webhook 目标时添加 --ritic-only。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel Agent 现在可以在 Vercel 监视器发出的警报到达您的寻呼系统之前对其进行调查。为 Webhook 目标启用验证后，只有代理分类为“严重”的警报才会发送给该目标。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-agent-can-now-validate-alerts-before-paging-you"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Agent 现在可以在 Vercel 监视器发出的警报到达您的寻呼系统之前对其进行调查。为 Webhook 目标启用验证后，只有代理分类为“严重”的警报才会发送给该目标。",
+        "打开监视器的通知设置并为您的寻呼系统创建或链接 Webhook 目标，例如 Incident.io。",
+        "选择该目的地旁边的“仅限关键”。",
+        "您还可以使用 Vercel 监视器通知通过 Vercel CLI 配置通知目标。仅在链接或更新 Webhook 目标时添加 --ritic-only。",
+        "代理检查日志和指标以评估影响。例如，它可以识别不影响客户的运行状况检查错误，或确认影响结帐请求的持续 5xx 错误。您还可以向每个监视器添加上下文以指导代理的调查。",
+        "警报验证适用于具有 Observability Plus 的 Pro 和 Enterprise 计划。 Observability Plus 包括每个计费周期十次代理调查，其他调查单独计费。定制监控器扫描每 GB 数据的成本为 0.0035 美元。 Observability Plus 中仍包含内置警报。",
+        "请参阅警报 Webhook 文档了解更多信息。"
+      ],
+      "highlights": [
+        "Vercel Agent 现在可以在 Vercel 监视器发出的警报到达您的寻呼系统之前对其进行调查。为 Webhook 目标启用验证后，只有代理分类为“严重”",
+        "打开监视器的通知设置并为您的寻呼系统创建或链接 Webhook 目标，例如 Incident.io。",
+        "选择该目的地旁边的“仅限关键”。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Agent can now validate alerts before paging - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-28",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-agent-can-now-validate-alerts-before-paging-you",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Agent can now validate alerts before paging - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Agent can now validate alerts before paging",
+        "url": "https://vercel.com/changelog/vercel-agent-can-now-validate-alerts-before-paging-you",
+        "fetched": true,
+        "savedAt": "2026-11-02T03:55:00.052Z"
+      }
+    },
+    {
+      "id": "sig-8281c68801",
+      "title": "AI Gateway 现已提供虚拟模型 - Vercel",
+      "oneLiner": "虚拟模型现已在 AI Gateway 上提供。",
+      "summary": {
+        "oneSentence": "虚拟模型现已在 AI Gateway 上提供。",
+        "bullets": [
+          "虚拟模型现已在 AI Gateway 上提供。",
+          "虚拟模型是保存的配置，它告诉 AI Gateway 要使用哪个模型和设置。您的应用程序和代理使用自定义模型 ID 来调用它，例如 vmc/coding-agent 。您可以在 AI Gateway 中集中更改模型或设置，而无需重新部署应用程序或重新配置代理。",
+          "配置编码代理：设置推理工作、快速模式、提示缓存和其他选项，即使您的代理没有公开它们。",
+          "控制路由和合规性：选择提供商、配置后备模型并强制实施零数据保留等要求。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：虚拟模型现已在 AI Gateway 上提供。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/virtual-models-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "虚拟模型现已在 AI Gateway 上提供。",
+        "虚拟模型是保存的配置，它告诉 AI Gateway 要使用哪个模型和设置。您的应用程序和代理使用自定义模型 ID 来调用它，例如 vmc/coding-agent 。您可以在 AI Gateway 中集中更改模型或设置，而无需重新部署应用程序或重新配置代理。",
+        "配置编码代理：设置推理工作、快速模式、提示缓存和其他选项，即使您的代理没有公开它们。",
+        "控制路由和合规性：选择提供商、配置后备模型并强制实施零数据保留等要求。",
+        "属性支出：将自定义报告标签附加到使用虚拟模型的每个请求。",
+        "要创建虚拟模型，请打开虚拟模型页面并单击创建虚拟模型 。输入 slug，选择基础模型，配置您希望请求使用的设置，然后保存。",
+        "1 vercel ai-gateway virtual-models createcoding-agent \\ 2 --model anthropic/claude-opus-5.5 \\ 3 --config '{\"speed\":\"fast\",\"zeroDataRetention\":true}' 创建具有快速模式和零数据保留的可重用编码代理配置。",
+        "要使用虚拟模型，请将 AI SDK 或兼容 API 请求中的提供者模型 ID 替换为 vmc/<slug> ，例如 vmc/coding-agent 。",
+        "对于编码代理，如果需要，请使用 vercel ai-gateway 设置连接到 AI Gateway，然后在代理的模型选择器或配置中选择您的虚拟模型。",
+        "虚拟模型适用于 AI Gateway 上的每种模型类型。阅读发布文章中的示例或在虚拟模型文档中了解更多信息。"
+      ],
+      "highlights": [
+        "虚拟模型现已在 AI Gateway 上提供。",
+        "虚拟模型是保存的配置，它告诉 AI Gateway 要使用哪个模型和设置。您的应用程序和代理使用自定义模型 ID 来调用它，例如 vmc/coding-agen",
+        "配置编码代理：设置推理工作、快速模式、提示缓存和其他选项，即使您的代理没有公开它们。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Virtual models now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-28",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/virtual-models-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Virtual models now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Virtual models now available on AI Gateway",
+        "url": "https://vercel.com/changelog/virtual-models-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-11-02T03:55:07.667Z"
+      }
+    },
+    {
+      "id": "sig-80c2ca65a5",
+      "title": "在 Vercel Sandbox 上运行 Paseo 代理 - Vercel",
+      "oneLiner": "Paseo 现在支持使用 Vercel Sandbox 插件在云中运行 fx、Codex、Claude Code、OpenCode 和 Pi。",
+      "summary": {
+        "oneSentence": "Paseo 现在支持使用 Vercel Sandbox 插件在云中运行 fx、Codex、Claude Code、OpenCode 和 Pi。",
+        "bullets": [
+          "Paseo 现在支持使用 Vercel Sandbox 插件在云中运行 fx、Codex、Claude Code、OpenCode 和 Pi。",
+          "现在，您可以在笔记本电脑上从 Paseo 启动 Vercel Sandbox 中的代理，然后从手机连接以控制同一会话，即使您的笔记本电脑已关闭也是如此。停止沙箱会保存您的文件和对话历史记录，以便您可以从上次中断的地方继续。活动进程随着沙箱停止。",
+          "在设置过程中输入一次 Vercel AI Gateway 密钥。该插件将其重复用于会话中的模型请求，将密钥保留在沙箱之外。",
+          "首先，在“设置”→“Paseo 中的插件”中启用插件。然后安装插件："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Paseo 现在支持使用 Vercel Sandbox 插件在云中运行 fx、Codex、Claude Code、OpenCode 和 Pi。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/run-paseo-agents-on-vercel-sandbox"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Paseo 现在支持使用 Vercel Sandbox 插件在云中运行 fx、Codex、Claude Code、OpenCode 和 Pi。",
+        "现在，您可以在笔记本电脑上从 Paseo 启动 Vercel Sandbox 中的代理，然后从手机连接以控制同一会话，即使您的笔记本电脑已关闭也是如此。停止沙箱会保存您的文件和对话历史记录，以便您可以从上次中断的地方继续。活动进程随着沙箱停止。",
+        "在设置过程中输入一次 Vercel AI Gateway 密钥。该插件将其重复用于会话中的模型请求，将密钥保留在沙箱之外。",
+        "首先，在“设置”→“Paseo 中的插件”中启用插件。然后安装插件：",
+        "1 paseo 插件添加 vercel-labs/paseo-vercel-sandbox 在 Sandbox 文档、Paseo 插件列表和 Paseo 相关项目文档中了解更多信息。"
+      ],
+      "highlights": [
+        "Paseo 现在支持使用 Vercel Sandbox 插件在云中运行 fx、Codex、Claude Code、OpenCode 和 Pi。",
+        "现在，您可以在笔记本电脑上从 Paseo 启动 Vercel Sandbox 中的代理，然后从手机连接以控制同一会话，即使您的笔记本电脑已关闭也是如此。停止沙箱",
+        "在设置过程中输入一次 Vercel AI Gateway 密钥。该插件将其重复用于会话中的模型请求，将密钥保留在沙箱之外。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Run Paseo agents on Vercel Sandbox - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-28",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/run-paseo-agents-on-vercel-sandbox",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Run Paseo agents on Vercel Sandbox - Vercel"
+      },
+      "raw": {
+        "title": "Run Paseo agents on Vercel Sandbox",
+        "url": "https://vercel.com/changelog/run-paseo-agents-on-vercel-sandbox",
+        "fetched": true,
+        "savedAt": "2026-11-02T03:55:12.741Z"
+      }
+    },
+    {
+      "id": "sig-ffcf584788",
+      "title": "Particle-1 现已在 AI Gateway - Vercel 上提供",
+      "oneLiner": "Particle AI 的 Particle-1 现已在 AI Gateway 上提供。它在 DeepSeek V4.1 Flash 上进行了后训练，重点是使用更少的令牌完成软件工程任务。 Particle 将这些收获描述为更短的推理、更少",
+      "summary": {
+        "oneSentence": "Particle AI 的 Particle-1 现已在 AI Gateway 上提供。它在 DeepSeek V4.1 Flash 上进行了后训练，重点是使用更少的令牌完成软件工程任务。 Particle 将这些收获描述为更短的推理、更少",
+        "bullets": [
+          "Particle AI 的 Particle-1 现已在 AI Gateway 上提供。它在 DeepSeek V4.1 Flash 上进行了后训练，重点是使用更少的令牌完成软件工程任务。 Particle 将这些收获描述为更短的推理、更少的试验和修复轮次以及更集中的探索。",
+          "使用它来调试、规划代码更改以及分解多步骤工程问题。 Particle-1 有一个 1M 令牌上下文窗口，用于处理代码和扩展任务历史记录。",
+          "在您的环境中设置 AI_GATEWAY_API_KEY。使用粒子/粒子-1作为模型名称：",
+          "AI SDK fx 聊天完成 AI SDK AI SDK fx fx 聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 3 const result = streamText({ 4 model: 'article/article-1', 5prompt: '针对不稳定的 A"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Particle AI 的 Particle-1 现已在 AI Gateway 上提供。它在 DeepSeek V4.1 Flash 上进行了后训练，重点是使用更少的令牌完成软件工程任务。 Particle 将这些收获描述为更短的推理、更少",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/particle-1-is-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Particle AI 的 Particle-1 现已在 AI Gateway 上提供。它在 DeepSeek V4.1 Flash 上进行了后训练，重点是使用更少的令牌完成软件工程任务。 Particle 将这些收获描述为更短的推理、更少的试验和修复轮次以及更集中的探索。",
+        "使用它来调试、规划代码更改以及分解多步骤工程问题。 Particle-1 有一个 1M 令牌上下文窗口，用于处理代码和扩展任务历史记录。",
+        "在您的环境中设置 AI_GATEWAY_API_KEY。使用粒子/粒子-1作为模型名称：",
+        "AI SDK fx 聊天完成 AI SDK AI SDK fx fx 聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 3 const result = streamText({ 4 model: 'article/article-1', 5prompt: '针对不稳定的 API 重试循环提出三个修复建议。' 6 }) ; 7 8 for wait (const text of result.textStream) { 9 process .textStream 。标准输出。写（文字）； 10 } 复制代理查看模型详细信息 ↗ 要在 Claude Code、Codex、Cursor 等中使用它，请安装最新版本的 Vercel CLI 并运行安装程序：",
+        "npx vercel ai-gateway setup 然后在代理中选择粒子/粒子-1。有关详细信息，请参阅编码代理指南。",
+        "在模型游乐场中尝试 Particle-1。",
+        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本，以及配置重试、故障转移和性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、零数据保留支持、API 密钥预算、路由规则等。",
+        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。",
+        "您可以查看AI网关上所有可用的语言模型。"
+      ],
+      "highlights": [
+        "Particle AI 的 Particle-1 现已在 AI Gateway 上提供。它在 DeepSeek V4.1 Flash 上进行了后训练，重点是使用",
+        "使用它来调试、规划代码更改以及分解多步骤工程问题。 Particle-1 有一个 1M 令牌上下文窗口，用于处理代码和扩展任务历史记录。",
+        "在您的环境中设置 AI_GATEWAY_API_KEY。使用粒子/粒子-1作为模型名称："
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Particle-1 is now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-28",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/particle-1-is-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Particle-1 is now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Particle-1 is now available on AI Gateway",
+        "url": "https://vercel.com/changelog/particle-1-is-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-11-02T03:55:18.646Z"
+      }
+    },
+    {
+      "id": "sig-fb8bc41be7",
+      "title": "代理现在可以使用 Vercel CLI 启用 Web Analytics 和 Observability Plus - Vercel",
+      "oneLiner": "Vercel CLI 不再需要交互式终端来启用 Web Analytics 或 Observability Plus。代理现在可以为您的项目打开它们，而无需要求您自己运行命令。",
+      "summary": {
+        "oneSentence": "Vercel CLI 不再需要交互式终端来启用 Web Analytics 或 Observability Plus。代理现在可以为您的项目打开它们，而无需要求您自己运行命令。",
+        "bullets": [
+          "Vercel CLI 不再需要交互式终端来启用 Web Analytics 或 Observability Plus。代理现在可以为您的项目打开它们，而无需要求您自己运行命令。",
+          "首先，从链接的项目目录运行任一命令：",
+          "vercel 项目 web-analytics 启用 vercel 项目可观察性 启用 启用 Web Analytics 或 Observability Plus",
+          "团队必须已经订阅 Observability Plus 才能为项目启用它。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel CLI 不再需要交互式终端来启用 Web Analytics 或 Observability Plus。代理现在可以为您的项目打开它们，而无需要求您自己运行命令。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/agents-can-now-enable-web-analytics-and-observability-plus-with-vercel-cli"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel CLI 不再需要交互式终端来启用 Web Analytics 或 Observability Plus。代理现在可以为您的项目打开它们，而无需要求您自己运行命令。",
+        "首先，从链接的项目目录运行任一命令：",
+        "vercel 项目 web-analytics 启用 vercel 项目可观察性 启用 启用 Web Analytics 或 Observability Plus",
+        "团队必须已经订阅 Observability Plus 才能为项目启用它。",
+        "将 Vercel CLI 更新到版本 64.2.0 或更高版本，并在 Vercel CLI 项目文档中了解更多信息。"
+      ],
+      "highlights": [
+        "Vercel CLI 不再需要交互式终端来启用 Web Analytics 或 Observability Plus。代理现在可以为您的项目打开它们，而无需要求",
+        "首先，从链接的项目目录运行任一命令：",
+        "vercel 项目 web-analytics 启用 vercel 项目可观察性 启用 启用 Web Analytics 或 Observability Plu"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Agents can now enable Web Analytics and Observability Plus with Vercel CLI - Vercel",
+      "originalLang": "en",
+      "date": "2026-10-28",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/agents-can-now-enable-web-analytics-and-observability-plus-with-vercel-cli",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Agents can now enable Web Analytics and Observability Plus with Vercel CLI - Vercel"
+      },
+      "raw": {
+        "title": "Agents can now enable Web Analytics and Observability Plus with Vercel CLI",
+        "url": "https://vercel.com/changelog/agents-can-now-enable-web-analytics-and-observability-plus-with-vercel-cli",
+        "fetched": true,
+        "savedAt": "2026-11-02T03:55:22.982Z"
+      }
     },
     {
       "id": "sig-d42fb1eb33",
@@ -32210,952 +33055,6 @@
         "url": "https://www.latent.space/p/ainews-here-are-6-clones-of-jev-in",
         "fetched": false,
         "savedAt": "2026-09-21T02:52:31.420Z"
-      }
-    },
-    {
-      "id": "sig-2c23f7d128",
-      "title": "支出管理扩展到企业灵活承诺计划 - Vercel",
-      "oneLiner": "灵活承诺计划的企业团队现在可以使用 Pro 上已经提供的支出管理，无需额外费用。",
-      "summary": {
-        "oneSentence": "灵活承诺计划的企业团队现在可以使用 Pro 上已经提供的支出管理，无需额外费用。",
-        "bullets": [
-          "灵活承诺计划的企业团队现在可以使用 Pro 上已经提供的支出管理，无需额外费用。",
-          "您可以随时在支出管理设置中设置预算。",
-          "设置每个计费周期的预算，当团队的计量使用量接近或超过该预算时，支出管理可以发送电子邮件通知、触发 Webhook 或暂停所有项目的生产部署。该金额决定了从您的预付余额中扣除的计量使用量。设置金额并不会自行停止使用；暂停是选择加入，并且不会停止 AI Gateway 或 v0 的使用。",
-          "在支出管理文档中了解更多信息。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：灵活承诺计划的企业团队现在可以使用 Pro 上已经提供的支出管理，无需额外费用。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/spend-management-enterprise-flex"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "灵活承诺计划的企业团队现在可以使用 Pro 上已经提供的支出管理，无需额外费用。",
-        "您可以随时在支出管理设置中设置预算。",
-        "设置每个计费周期的预算，当团队的计量使用量接近或超过该预算时，支出管理可以发送电子邮件通知、触发 Webhook 或暂停所有项目的生产部署。该金额决定了从您的预付余额中扣除的计量使用量。设置金额并不会自行停止使用；暂停是选择加入，并且不会停止 AI Gateway 或 v0 的使用。",
-        "在支出管理文档中了解更多信息。"
-      ],
-      "highlights": [
-        "灵活承诺计划的企业团队现在可以使用 Pro 上已经提供的支出管理，无需额外费用。",
-        "您可以随时在支出管理设置中设置预算。",
-        "设置每个计费周期的预算，当团队的计量使用量接近或超过该预算时，支出管理可以发送电子邮件通知、触发 Webhook 或暂停所有项目的生产部署。该金额决定了从您的预"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Spend Management expands to Enterprise Flexible Commitment plans - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-18",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/spend-management-enterprise-flex",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Spend Management expands to Enterprise Flexible Commitment plans - Vercel"
-      },
-      "raw": {
-        "title": "Spend Management expands to Enterprise Flexible Commitment plans",
-        "url": "https://vercel.com/changelog/spend-management-enterprise-flex",
-        "fetched": true,
-        "savedAt": "2026-09-19T02:42:52.701Z"
-      }
-    },
-    {
-      "id": "sig-32ae7a203d",
-      "title": "mcp-handler 现已提供 WebMCP 支持 - Vercel",
-      "oneLiner": "mcp-handler 现在对 WebMCP 提供实验性支持，WebMCP 是提议的用于向浏览器内代理公开工具的 Web 标准。将单个脚本标签添加到您的站点，您现有的 MCP 工具也可以在那里使用。",
-      "summary": {
-        "oneSentence": "mcp-handler 现在对 WebMCP 提供实验性支持，WebMCP 是提议的用于向浏览器内代理公开工具的 Web 标准。将单个脚本标签添加到您的站点，您现有的 MCP 工具也可以在那里使用。",
-        "bullets": [
-          "mcp-handler 现在对 WebMCP 提供实验性支持，WebMCP 是提议的用于向浏览器内代理公开工具的 Web 标准。将单个脚本标签添加到您的站点，您现有的 MCP 工具也可以在那里使用。",
-          "通过将工具添加到experimental_webMcp对象来选择工具：",
-          "app/api/mcp/route.ts 从“mcp-handler”导入 { createMcpHandler } ； const handler = createMcpHandler ( ( server ) => { server . registerTool ( \"roll_dice\" , /* ... */ ",
-          "然后使用 ?webmcp-script 参数从 MCP 端点加载脚本："
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：mcp-handler 现在对 WebMCP 提供实验性支持，WebMCP 是提议的用于向浏览器内代理公开工具的 Web 标准。将单个脚本标签添加到您的站点，您现有的 MCP 工具也可以在那里使用。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/webmcp-mcp-handler"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "mcp-handler 现在对 WebMCP 提供实验性支持，WebMCP 是提议的用于向浏览器内代理公开工具的 Web 标准。将单个脚本标签添加到您的站点，您现有的 MCP 工具也可以在那里使用。",
-        "通过将工具添加到experimental_webMcp对象来选择工具：",
-        "app/api/mcp/route.ts 从“mcp-handler”导入 { createMcpHandler } ； const handler = createMcpHandler ( ( server ) => { server . registerTool ( \"roll_dice\" , /* ... */ ) ; } , {experimental_webMcp : { 工具 : [ \"roll_dice\" ] , } , } , ) ;导出 { 处理程序为 GET ，处理程序为 POST } ;",
-        "然后使用 ?webmcp-script 参数从 MCP 端点加载脚本：",
-        "<脚本src =“/api/mcp?webmcp-script”></脚本>",
-        "该脚本将这些工具注册到页面，并以登录用户的身份代理每个回调到 MCP 服务器，因此经过身份验证的工具无需浏览器端 OAuth 流程即可工作。",
-        "升级到 mcp-handler@2.2.0 并阅读文档以开始使用。"
-      ],
-      "highlights": [
-        "mcp-handler 现在对 WebMCP 提供实验性支持，WebMCP 是提议的用于向浏览器内代理公开工具的 Web 标准。将单个脚本标签添加到您的站点，您",
-        "通过将工具添加到experimental_webMcp对象来选择工具：",
-        "app/api/mcp/route.ts 从“mcp-handler”导入 { createMcpHandler } ； const handler = cre"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "WebMCP support now available in mcp-handler - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-18",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/webmcp-mcp-handler",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "WebMCP support now available in mcp-handler - Vercel"
-      },
-      "raw": {
-        "title": "WebMCP support now available in mcp-handler",
-        "url": "https://vercel.com/changelog/webmcp-mcp-handler",
-        "fetched": true,
-        "savedAt": "2026-09-19T02:42:59.981Z"
-      }
-    },
-    {
-      "id": "sig-dde4a4801d",
-      "title": "v0 现在从共享环境变量中读取 npm 凭据 - Vercel",
-      "oneLiner": "v0 现在使用 Vercel 上存储为共享环境变量的凭据从 npm 和自定义注册表安装私有包。",
-      "summary": {
-        "oneSentence": "v0 现在使用 Vercel 上存储为共享环境变量的凭据从 npm 和自定义注册表安装私有包。",
-        "bullets": [
-          "v0 现在使用 Vercel 上存储为共享环境变量的凭据从 npm 和自定义注册表安装私有包。",
-          "这使得团队可以更轻松地直接在 v0 中使用现有的设计系统、组件库和内部包进行构建。",
-          "首先，将以下内容之一添加为 Vercel 上的共享环境变量，范围为开发和/或预览：",
-          "对registry.npmjs.org 上托管的私有包使用 NPM_TOKEN 。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：v0 现在使用 Vercel 上存储为共享环境变量的凭据从 npm 和自定义注册表安装私有包。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/v0-now-reads-npm-credentials-from-shared-environment-variables"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "v0 现在使用 Vercel 上存储为共享环境变量的凭据从 npm 和自定义注册表安装私有包。",
-        "这使得团队可以更轻松地直接在 v0 中使用现有的设计系统、组件库和内部包进行构建。",
-        "首先，将以下内容之一添加为 Vercel 上的共享环境变量，范围为开发和/或预览：",
-        "对registry.npmjs.org 上托管的私有包使用 NPM_TOKEN 。",
-        "使用 NPM_RC 配置自定义或多个注册表。",
-        "NPM_RC 支持作用域注册表和对其他环境变量的引用。例如，为 GitHub Packages 配置组织范围（例如 @acme），或通过私有 JFrog Artifactory 注册表直接发送包请求。",
-        "凭证可以标记为敏感，v0 永远不会将它们暴露给模型或将它们写入沙箱文件系统。",
-        "您可以从 v0 中的“设置”→“集成”查看集成状态。",
-        "在私有依赖项文档中了解更多信息。"
-      ],
-      "highlights": [
-        "v0 现在使用 Vercel 上存储为共享环境变量的凭据从 npm 和自定义注册表安装私有包。",
-        "这使得团队可以更轻松地直接在 v0 中使用现有的设计系统、组件库和内部包进行构建。",
-        "首先，将以下内容之一添加为 Vercel 上的共享环境变量，范围为开发和/或预览："
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "v0 now reads npm credentials from shared environment variables - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-18",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/v0-now-reads-npm-credentials-from-shared-environment-variables",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "v0 now reads npm credentials from shared environment variables - Vercel"
-      },
-      "raw": {
-        "title": "v0 now reads npm credentials from shared environment variables",
-        "url": "https://vercel.com/changelog/v0-now-reads-npm-credentials-from-shared-environment-variables",
-        "fetched": true,
-        "savedAt": "2026-09-19T02:43:08.837Z"
-      }
-    },
-    {
-      "id": "sig-079e661c04",
-      "title": "新专家加入 Google 人工智能与经济团队",
-      "oneLiner": "诺贝尔奖获得者 Philippe Aghion、Ajay Agrawal 教授和领先研究人员加入 Google 的人工智能与经济计划，以扩大我们对人工智能对全球经济活动影响的科学理解。",
-      "summary": {
-        "oneSentence": "诺贝尔奖获得者 Philippe Aghion、Ajay Agrawal 教授和领先研究人员加入 Google 的人工智能与经济计划，以扩大我们对人工智能对全球经济活动影响的科学理解。",
-        "bullets": [
-          "诺贝尔奖获得者 Philippe Aghion、Ajay Agrawal 教授和领先研究人员加入 Google 的人工智能与经济计划，以扩大我们对人工智能对全球经济活动影响的科学理解。",
-          "StratOps 和特殊项目、技术与社会主管",
-          "首席经济学家办公室人工智能与经济主管",
-          "谷歌正在扩大其人工智能与经济研究计划，聘请世界一流的经济学家和学术顾问，以更好地跟踪人工智能如何影响就业和生产力。新任董事 Anu Madgavkar 和 Daniel Rock 将领导这项工作，重点关注全球人工智能采用、劳动力市场转变和企业发展。您可以在 ai.google/economy 上浏览他们的最新数据和研究"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Google AI 官网发布：诺贝尔奖获得者 Philippe Aghion、Ajay Agrawal 教授和领先研究人员加入 Google 的人工智能与经济计划，以扩大我们对人工智能对全球经济活动影响的科学理解。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：gemini",
-        "actionItems": [
-          "阅读原文（英文）：https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "gemini"
-      ],
-      "content": [
-        "诺贝尔奖获得者 Philippe Aghion、Ajay Agrawal 教授和领先研究人员加入 Google 的人工智能与经济计划，以扩大我们对人工智能对全球经济活动影响的科学理解。",
-        "StratOps 和特殊项目、技术与社会主管",
-        "首席经济学家办公室人工智能与经济主管",
-        "谷歌正在扩大其人工智能与经济研究计划，聘请世界一流的经济学家和学术顾问，以更好地跟踪人工智能如何影响就业和生产力。新任董事 Anu Madgavkar 和 Daniel Rock 将领导这项工作，重点关注全球人工智能采用、劳动力市场转变和企业发展。您可以在 ai.google/economy 上浏览他们的最新数据和研究出版物，了解这些见解如何影响未来的政策和劳动力培训。",
-        "谷歌正在聘请顶尖经济学家来研究人工智能如何改变我们的工作和经济。这些专家将跟踪人们如何使用人工智能工具来帮助企业和工人适应未来。通过分析这些数据，他们希望确保人工智能帮助每个人取得成功。您可以在他们的网站上查看他们的最新研究和发现。",
-        "我们最近推出了人工智能与经济 ATLAS v1.0 及其交互式开放访问网站，以了解人们如何在工作和日常生活中使用 Google 的人工智能工具。但跟踪采用模式只是一个开始。随着人工智能重塑工作、企业和日常生活，应对这一转变需要采用多学科方法，将细粒度数据与严格的经济调查结合起来。",
-        "为了进一步帮助组织、工人、研究人员和政策制定者理解这一复杂的转变，我们正在扩大我们的人工智能与经济研究计划，并欢迎世界一流的经济学家帮助建立和领导这项工作。",
-        "技术转变很少是瞬时的。我们的计划实时衡量和分析这种演变，重点关注核心领域，包括工作的未来、生产力和增长、全球技术传播以及人工智能对科学发现的影响。",
-        "执行这一范围的研究议程需要学术界、行业领导者和政策制定者之间的深入合作。为了扩大我们的科学能力并与这些不同的利益相关者更深入地接触，我们汇集了领先的外部顾问、访问学者和专门的研究项目领导。作为学术顾问和访问学者加入我们：",
-        "为了引导实证项目并整合我们议程中的见解，我们还引入了两位著名研究人员担任谷歌人工智能与经济研究项目的主任："
-      ],
-      "highlights": [
-        "诺贝尔奖获得者 Philippe Aghion、Ajay Agrawal 教授和领先研究人员加入 Google 的人工智能与经济计划，以扩大我们对人工智能对全球",
-        "StratOps 和特殊项目、技术与社会主管",
-        "首席经济学家办公室人工智能与经济主管"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "New experts join Google’s AI & Economy team",
-      "originalLang": "en",
-      "date": "2026-09-18",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google AI",
-        "author": "Google",
-        "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
-        "home": "https://blog.google/technology/ai/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "New experts join Google’s AI & Economy team"
-      },
-      "raw": {
-        "title": "New experts join Google’s AI & Economy team",
-        "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
-        "fetched": true,
-        "savedAt": "2026-09-19T02:43:21.530Z"
-      }
-    },
-    {
-      "id": "sig-13d62ca6fc",
-      "title": "与 Google 共同创造时尚的未来",
-      "oneLiner": "两位时装设计师在 Google Flow 中创建了自定义工具，以帮助纽约时装周进行布景设计和造型。",
-      "summary": {
-        "oneSentence": "两位时装设计师在 Google Flow 中创建了自定义工具，以帮助纽约时装周进行布景设计和造型。",
-        "bullets": [
-          "两位时装设计师在 Google Flow 中创建了自定义工具，以帮助纽约时装周进行布景设计和造型。",
-          "您的浏览器不支持音频元素。",
-          "Google 的 Envisioning Studio 与设计师 Jane Wade 和 Sergio Hudson 合作，使用 Google Flow 简化时装生产。这些人工智能工具帮助 Jane 以虚拟方式设计时装秀造型，并让 Sergio 在严格的预算内可视化他的时装秀。您现在可以使用简单的语言在 Google ",
-          "询问独立时装设计师他们实际上如何度过时间，“设计衣服”很少能得到答案。行政任务、工厂物流和供应商协调占据了他们大部分时间，留给设计的时间很少。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Google AI 官网发布：两位时装设计师在 Google Flow 中创建了自定义工具，以帮助纽约时装周进行布景设计和造型。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：gemini",
-        "actionItems": [
-          "阅读原文（英文）：https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "gemini"
-      ],
-      "content": [
-        "两位时装设计师在 Google Flow 中创建了自定义工具，以帮助纽约时装周进行布景设计和造型。",
-        "您的浏览器不支持音频元素。",
-        "Google 的 Envisioning Studio 与设计师 Jane Wade 和 Sergio Hudson 合作，使用 Google Flow 简化时装生产。这些人工智能工具帮助 Jane 以虚拟方式设计时装秀造型，并让 Sergio 在严格的预算内可视化他的时装秀。您现在可以使用简单的语言在 Google Flow 中构建自己的自定义设计工具，无需编码。",
-        "询问独立时装设计师他们实际上如何度过时间，“设计衣服”很少能得到答案。行政任务、工厂物流和供应商协调占据了他们大部分时间，留给设计的时间很少。",
-        "在纽约时装周之前，谷歌的设想工作室在谷歌实验室的支持下，着手简化创意工作流程，帮助设计师以更少的摩擦将雄心勃勃的时装秀愿景变为现实。",
-        "Google 工程师与设计师 Jane Wade 和 Sergio Hudson 并肩工作，使用我们的 AI 创意工作室 Google Flow 构建了两种专用工具来解决他们的特定挑战。 Jane 的 Google Flow 工具帮助她在制作实物样品之前创建了从头到脚平衡的外观。 Sergio 使用他的工具在工作室预算紧张的情况下举办了他的时装秀。",
-        "我们与 Jane 共同创建的 Google Flow 工具 Styling Suite 映射了她的 T 台模特造型的各个方面。设计团队的现场铸造和装配通常需要长达三天的时间。该工具使她能够在数字模型上设计头发、化妆品、配饰、鞋子和服装，然后进行虚拟造型。她能够在裁剪和缝制额外的衣服之前平衡每种外观并识别缺失的元素。",
-        "Sergio 的主要挑战是在不超出预算的情况下举办他的演出。过去，要求制作团队更换灯光和道具会增加总成本，因为每次设计修改都需要新的 3D 渲染。我们共同开发的 Google Flow 工具“跑道可视化”通过模拟他的跑道消除了来回的麻烦。它让他能够调整场地的设置，并用在预算范围内的选项更换灯光和道具。他还能够优化模特行走的路径，使他能够协调演出和观众体验。",
-        "这些合作的成果在纽约时装周的秀场上随处可见——而且还有更多创新的空间。",
-        "尽管时尚界对人工智能充满热情，但许多项目仍停留在理论测试阶段。人工智能可以通过共同开发在设计师现有流程中工作的工具，确保他们牢牢占据主导地位，从而使设计人员的生产流程更加顺畅。"
-      ],
-      "highlights": [
-        "两位时装设计师在 Google Flow 中创建了自定义工具，以帮助纽约时装周进行布景设计和造型。",
-        "您的浏览器不支持音频元素。",
-        "Google 的 Envisioning Studio 与设计师 Jane Wade 和 Sergio Hudson 合作，使用 Google Flow 简化时"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Co-creating the future of fashion with Google",
-      "originalLang": "en",
-      "date": "2026-09-18",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google AI",
-        "author": "Google",
-        "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
-        "home": "https://blog.google/technology/ai/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Co-creating the future of fashion with Google"
-      },
-      "raw": {
-        "title": "Co-creating the future of fashion with Google",
-        "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
-        "fetched": true,
-        "savedAt": "2026-09-19T02:43:31.493Z"
-      }
-    },
-    {
-      "id": "sig-a6bb14f964",
-      "title": "Jev 是 AI 网关历史上采用速度最快的模型",
-      "oneLiner": "在 AI Gateway 上发布后的 24 小时内，来自 TypeSafe AI 的 Jev 覆盖的付费团队数量是之前发布的任何模型的两倍多，使其成为网关历史上采用速度最快的模型。",
-      "summary": {
-        "oneSentence": "在 AI Gateway 上发布后的 24 小时内，来自 TypeSafe AI 的 Jev 覆盖的付费团队数量是之前发布的任何模型的两倍多，使其成为网关历史上采用速度最快的模型。",
-        "bullets": [
-          "在 AI Gateway 上发布后的 24 小时内，来自 TypeSafe AI 的 Jev 覆盖的付费团队数量是之前发布的任何模型的两倍多，使其成为网关历史上采用速度最快的模型。",
-          "Jev 在前 12 个小时内超越了所有其他对比车型，并在当天剩余时间里继续扩大领先优势。到 24 小时，近 13% 的付费团队正在使用它。这是 GPT-5.6 系列的 2 倍，是神鬼寓言 5.1 的 6 倍多。",
-          "Jev 的推出表明专业模型能够以多快的速度在生产中占据一席之地。在最近发布的产品中，它的首日采用率是无与伦比的；下一个考验是早期采用是否能够持续。",
-          "将链接复制到标题关于 Jev Jev 于 9 月 15 日推出，作为一种概率决策模型，旨在在软件内部做出结构化决策。应用程序向其发送上下文和一组问题。 Jev 并行评估这些问题，并返回输入的选项、分数或对错答案以及概率。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：在 AI Gateway 上发布后的 24 小时内，来自 TypeSafe AI 的 Jev 覆盖的付费团队数量是之前发布的任何模型的两倍多，使其成为网关历史上采用速度最快的模型。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/blog/ai-gateway-jev-model-launch"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "在 AI Gateway 上发布后的 24 小时内，来自 TypeSafe AI 的 Jev 覆盖的付费团队数量是之前发布的任何模型的两倍多，使其成为网关历史上采用速度最快的模型。",
-        "Jev 在前 12 个小时内超越了所有其他对比车型，并在当天剩余时间里继续扩大领先优势。到 24 小时，近 13% 的付费团队正在使用它。这是 GPT-5.6 系列的 2 倍，是神鬼寓言 5.1 的 6 倍多。",
-        "Jev 的推出表明专业模型能够以多快的速度在生产中占据一席之地。在最近发布的产品中，它的首日采用率是无与伦比的；下一个考验是早期采用是否能够持续。",
-        "将链接复制到标题关于 Jev Jev 于 9 月 15 日推出，作为一种概率决策模型，旨在在软件内部做出结构化决策。应用程序向其发送上下文和一组问题。 Jev 并行评估这些问题，并返回输入的选项、分数或对错答案以及概率。",
-        "与通用语言模型生成的文本不同，Jev 的答案采用代码可以直接使用的格式。开发人员可以使用它来：",
-        "决定工作流程是否应继续、重试、询问用户或停止",
-        "在采取行动之前对紧急程度或风险进行评分",
-        "验证模型输出、实施护栏或发送不确定的案例以供人工审核",
-        "在其自己的工作流程评估中，TypeSafe AI 报告称，Jev 比语言模型快 194 倍，便宜 445 倍。",
-        "请参阅 9 月 AI Gateway 生产指数以获取更多模型使用数据，或通过 AI Gateway 尝试 Jev。"
-      ],
-      "highlights": [
-        "在 AI Gateway 上发布后的 24 小时内，来自 TypeSafe AI 的 Jev 覆盖的付费团队数量是之前发布的任何模型的两倍多，使其成为网关历史上",
-        "Jev 在前 12 个小时内超越了所有其他对比车型，并在当天剩余时间里继续扩大领先优势。到 24 小时，近 13% 的付费团队正在使用它。这是 GPT-5.6 ",
-        "Jev 的推出表明专业模型能够以多快的速度在生产中占据一席之地。在最近发布的产品中，它的首日采用率是无与伦比的；下一个考验是早期采用是否能够持续。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Jev is the fastest-adopted model in AI Gateway history",
-      "originalLang": "en",
-      "date": "2026-09-18",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/blog/ai-gateway-jev-model-launch",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Jev is the fastest-adopted model in AI Gateway history"
-      },
-      "raw": {
-        "title": "Jev is the fastest-adopted model in AI Gateway history",
-        "url": "https://vercel.com/blog/ai-gateway-jev-model-launch",
-        "fetched": true,
-        "savedAt": "2026-09-19T02:43:43.813Z"
-      }
-    },
-    {
-      "id": "sig-1e27ee5e34",
-      "title": "与 Hacktron 和维护者一起复制、披露和修复 libheif 漏洞",
-      "oneLiner": "2026 年 8 月，Hacktron 报告了 Next.js 图像优化中的远程代码执行 (RCE) 漏洞。他们的调查发现，存在漏洞的代码并不在 Next.js 本身中，而是在 libheif 的上游，libheif 是 Next.js、I",
-      "summary": {
-        "oneSentence": "2026 年 8 月，Hacktron 报告了 Next.js 图像优化中的远程代码执行 (RCE) 漏洞。他们的调查发现，存在漏洞的代码并不在 Next.js 本身中，而是在 libheif 的上游，libheif 是 Next.js、I",
-        "bullets": [
-          "2026 年 8 月，Hacktron 报告了 Next.js 图像优化中的远程代码执行 (RCE) 漏洞。他们的调查发现，存在漏洞的代码并不在 Next.js 本身中，而是在 libheif 的上游，libheif 是 Next.js、ImageMagick、WordPress、sharp 和大部分网络使用的 AVI",
-          "在 Hacktron 通知我们后不久，我们与他们合作，针对当前的 Next.js 版本重现了 RCE，并将其披露给 Sharp、libvips 和 libheif 的维护者。然后，我们在 Vercel 上部署了平台范围的缓解措施，并开始与维护人员合作进行修复。",
-          "将链接复制到标题依赖链 Next.js 图像优化允许应用程序通过 <Image> 组件 ( next/image ) 调整图像大小和优化图像。对于 AVIF 图像，图像处理依赖链如下：",
-          "libvips 使用 libheif 解码图像"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：2026 年 8 月，Hacktron 报告了 Next.js 图像优化中的远程代码执行 (RCE) 漏洞。他们的调查发现，存在漏洞的代码并不在 Next.js 本身中，而是在 libheif 的上游，libheif 是 Next.js、I",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/blog/reproducing-disclosing-and-fixing-the-libheif-vulnerability-with-hacktron-and-the-maintainers"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "2026 年 8 月，Hacktron 报告了 Next.js 图像优化中的远程代码执行 (RCE) 漏洞。他们的调查发现，存在漏洞的代码并不在 Next.js 本身中，而是在 libheif 的上游，libheif 是 Next.js、ImageMagick、WordPress、sharp 和大部分网络使用的 AVIF 图像解码器。",
-        "在 Hacktron 通知我们后不久，我们与他们合作，针对当前的 Next.js 版本重现了 RCE，并将其披露给 Sharp、libvips 和 libheif 的维护者。然后，我们在 Vercel 上部署了平台范围的缓解措施，并开始与维护人员合作进行修复。",
-        "将链接复制到标题依赖链 Next.js 图像优化允许应用程序通过 <Image> 组件 ( next/image ) 调整图像大小和优化图像。对于 AVIF 图像，图像处理依赖链如下：",
-        "libvips 使用 libheif 解码图像",
-        "这意味着易受攻击的代码不在 Next.js 中，但仍然可以通过 Next.js 图像优化来访问。发送到图像优化端点的恶意 AVIF 图像将通过 Sharp 和 libvips 调用 libheif。",
-        "因此，一个明显的缓解措施是在 Next.js 中禁用 AVIF 优化。然后，恶意 AVIF 图像将停止在图像优化端点，而不是通过 Sharp 和 libvips 传递到 libheif。该漏洞不会向上游传播。",
-        "然而，仅缓解 Next.js 而没有上游修复，就会带来泄露问题。",
-        "将链接复制到标题 披露漏洞并协调上游修复 在我们与 Hacktron 合作成功重现该问题后，我们在 Vercel 上推出了平台范围的缓解措施，并联系了 Sharp、libvips 和 libheif 的维护者，披露了该漏洞并开始修复。",
-        "8 月 11-12 日：Hacktron 向 Vercel 报告了该问题； Hacktron 和 Vercel 通过有效的概念验证重现了 RCE。",
-        "8 月 13 日：Vercel 通过其图像优化服务应用了平台缓解措施。"
-      ],
-      "highlights": [
-        "2026 年 8 月，Hacktron 报告了 Next.js 图像优化中的远程代码执行 (RCE) 漏洞。他们的调查发现，存在漏洞的代码并不在 Next.js",
-        "在 Hacktron 通知我们后不久，我们与他们合作，针对当前的 Next.js 版本重现了 RCE，并将其披露给 Sharp、libvips 和 libhei",
-        "将链接复制到标题依赖链 Next.js 图像优化允许应用程序通过 <Image> 组件 ( next/image ) 调整图像大小和优化图像。对于 AVIF 图"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Reproducing, disclosing, and fixing the libheif vulnerability with Hacktron and the maintainers",
-      "originalLang": "en",
-      "date": "2026-09-18",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/blog/reproducing-disclosing-and-fixing-the-libheif-vulnerability-with-hacktron-and-the-maintainers",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Reproducing, disclosing, and fixing the libheif vulnerability with Hacktron and the maintainers"
-      },
-      "raw": {
-        "title": "Reproducing, disclosing, and fixing the libheif vulnerability with Hacktron and the maintainers",
-        "url": "https://vercel.com/blog/reproducing-disclosing-and-fixing-the-libheif-vulnerability-with-hacktron-and-the-maintainers",
-        "fetched": true,
-        "savedAt": "2026-09-19T02:43:55.196Z"
-      }
-    },
-    {
-      "id": "sig-32372f028b",
-      "title": "GLM 5.3 FlashX 现已在 AI Gateway 上可用 - Vercel",
-      "oneLiner": "GLM 5.3 FlashX 现已在 AI Gateway 上提供。",
-      "summary": {
-        "oneSentence": "GLM 5.3 FlashX 现已在 AI Gateway 上提供。",
-        "bullets": [
-          "GLM 5.3 FlashX 现已在 AI Gateway 上提供。",
-          "GLM 5.3 FlashX 是 Z.ai 多模态编码模型的高速服务选项，以每秒约 200 个令牌的速度提供推理，以实现更快的流式响应。",
-          "较高的服务速度对于编码代理、工具循环和用户等待生成输出的交互式应用程序非常有用。",
-          "在 API 格式和编码代理中使用 zai/glm-5.3-flashx："
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：GLM 5.3 FlashX 现已在 AI Gateway 上提供。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/glm-5-3-flashx-now-available-on-ai-gateway"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "GLM 5.3 FlashX 现已在 AI Gateway 上提供。",
-        "GLM 5.3 FlashX 是 Z.ai 多模态编码模型的高速服务选项，以每秒约 200 个令牌的速度提供推理，以实现更快的流式响应。",
-        "较高的服务速度对于编码代理、工具循环和用户等待生成输出的交互式应用程序非常有用。",
-        "在 API 格式和编码代理中使用 zai/glm-5.3-flashx：",
-        "API Claude Code 其他其他聊天完成 API API Claude Code Claude Code 其他其他其他聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 3 const result = streamText ({ 4 model : 'zai/glm-5.3-flashx' , 5prompt : '命名在部署延迟敏感 API 后要运行的三项检查' , 6 } ) ; 7 8 for wait (const text of result.textStream) { 9 process .textStream 。标准输出。写（文字）； 10 } 复制代理查看模型详细信息 ↗ 要在编码代理中使用它，请参阅编码代理指南 ，然后运行 ​​vercel ai-gateway setup 以创建密钥并配置支持的代理。在代理内选择zai/glm-5.3-flashx。",
-        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本，以及配置重试、故障转移和性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、API 密钥预算、路由规则等。",
-        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。",
-        "在模型游乐场中尝试 GLM-5.3-FlashX，或查看 AI Gateway 上可用的所有语言模型。"
-      ],
-      "highlights": [
-        "GLM 5.3 FlashX 现已在 AI Gateway 上提供。",
-        "GLM 5.3 FlashX 是 Z.ai 多模态编码模型的高速服务选项，以每秒约 200 个令牌的速度提供推理，以实现更快的流式响应。",
-        "较高的服务速度对于编码代理、工具循环和用户等待生成输出的交互式应用程序非常有用。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "GLM 5.3 FlashX now available on AI Gateway - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-18",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/glm-5-3-flashx-now-available-on-ai-gateway",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "GLM 5.3 FlashX now available on AI Gateway - Vercel"
-      },
-      "raw": {
-        "title": "GLM 5.3 FlashX now available on AI Gateway",
-        "url": "https://vercel.com/changelog/glm-5-3-flashx-now-available-on-ai-gateway",
-        "fetched": true,
-        "savedAt": "2026-09-19T02:44:04.208Z"
-      }
-    },
-    {
-      "id": "sig-559b0cf111",
-      "title": "澳大利亚青少年安全蓝图简介",
-      "oneLiner": "OpenAI 推出了澳大利亚青少年安全蓝图，这是一个六支柱路线图，旨在提供更安全的人工智能体验，保护年轻人并赋予他们权力。",
-      "summary": {
-        "oneSentence": "OpenAI 推出了澳大利亚青少年安全蓝图，这是一个六支柱路线图，旨在提供更安全的人工智能体验，保护年轻人并赋予他们权力。",
-        "bullets": [
-          "OpenAI 推出了澳大利亚青少年安全蓝图，这是一个六支柱路线图，旨在提供更安全的人工智能体验，保护年轻人并赋予他们权力。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：OpenAI 推出了澳大利亚青少年安全蓝图，这是一个六支柱路线图，旨在提供更安全的人工智能体验，保护年轻人并赋予他们权力。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/australian-youth-safety-blueprint"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "OpenAI 推出了澳大利亚青少年安全蓝图，这是一个六支柱路线图，旨在提供更安全的人工智能体验，保护年轻人并赋予他们权力。"
-      ],
-      "highlights": [
-        "OpenAI 推出了澳大利亚青少年安全蓝图，这是一个六支柱路线图，旨在提供更安全的人工智能体验，保护年轻人并赋予他们权力。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Introducing the Australian Youth Safety Blueprint",
-      "originalLang": "en",
-      "date": "2026-09-18",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/australian-youth-safety-blueprint",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Introducing the Australian Youth Safety Blueprint"
-      },
-      "raw": {
-        "title": "Introducing the Australian Youth Safety Blueprint",
-        "url": "https://openai.com/index/australian-youth-safety-blueprint",
-        "fetched": false,
-        "savedAt": "2026-09-20T02:55:05.858Z"
-      }
-    },
-    {
-      "id": "sig-a2b68d122f",
-      "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
-      "oneLiner": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI Gemini finally caught up on Fel",
-      "summary": {
-        "oneSentence": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI Gemini finally caught up on Felony Bench ! The hack",
-        "bullets": [
-          "Gemini Hacked Three Companies in First Known Breakout by Google’s AI Gemini finally caught up on Felony Bench ! The hacks, which the company confirmed on Friday, occurred in May as part of a test run "
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Gemini Hacked Three Companies in First Known Breakout by Google’s AI Gemini finally caught up on Felony Bench ! The hacks, which the company confirmed on Friday, occurred in May as part of a test run by the company Irregular, which was also involved in similar incidents disclosed by OpenAI, Anthropic and Meta. In one of the cases, the model guessed passwords until it gained access to a protected system. In the other two cases, the model found credentials in a public repository that allowed it to then access protected systems. In each case, the model ended the intrusion after determining it had accessed a real company’s systems, Google said. Gemini is apparently less determined than other models, and decided not to keep going. Google knew about these in July, but chose not to disclose them until the WSJ reached out, presumably based on a tip. Google said it didn’t consider the hacks to warrant public disclosure—because its model didn’t cause harm to the companies and ended each intrusion immediately upon determining it had hacked a real company rather than a simulated one. Tags: security , ai , generative-ai , llms , gemini , accidental-cyberattacks"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
-      "originalLang": "en",
-      "date": "2026-09-18",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI"
-      },
-      "raw": {
-        "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
-        "url": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/",
-        "fetched": false,
-        "savedAt": "2026-09-21T02:52:32.221Z"
-      }
-    },
-    {
-      "id": "sig-e3a6799112",
-      "title": "Note on 18th September 2026",
-      "oneLiner": "Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit li",
-      "summary": {
-        "oneSentence": "Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticis",
-        "bullets": [
-          "Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the recently opened Jurassic Pa"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the recently opened Jurassic Park. Skeptical geneticist: \"pfft, it's just frog DNA. And they deliberately let them eat people for the marketing.\" Tags: llms , ai , generative-ai"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Note on 18th September 2026",
-      "originalLang": "en",
-      "date": "2026-09-18",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Note on 18th September 2026"
-      },
-      "raw": {
-        "title": "Note on 18th September 2026",
-        "url": "https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/",
-        "fetched": false,
-        "savedAt": "2026-09-21T02:52:33.023Z"
-      }
-    },
-    {
-      "id": "sig-beaede86e1",
-      "title": "Quoting Thariq Shihipar",
-      "oneLiner": "We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no",
-      "summary": {
-        "oneSentence": "We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a fold",
-        "bullets": [
-          "We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. AGENTS.md support is built off of C"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/18/thariq-shihipar/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "We're adding support for AGENTS.md to Claude Code. Starting today in version 2.1.277, if there is no CLAUDE.md in a folder, Claude will check for and use AGENTS.md. AGENTS.md support is built off of Claude Code mods, our upcoming way to customize the Claude Code harness. This is a built-in mod, but you’ll be able to build custom versions of project instructions yourself as you’d like too. You can see the source for the mod here ! &mdash; Thariq Shihipar , there are more mods here Tags: thariq-shihipar , coding-agents , anthropic , claude-code , generative-ai , ai , llms"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Quoting Thariq Shihipar",
-      "originalLang": "en",
-      "date": "2026-09-18",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/18/thariq-shihipar/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Quoting Thariq Shihipar"
-      },
-      "raw": {
-        "title": "Quoting Thariq Shihipar",
-        "url": "https://simonwillison.net/2026/Sep/18/thariq-shihipar/",
-        "fetched": false,
-        "savedAt": "2026-09-21T02:52:33.824Z"
       }
     }
   ]
