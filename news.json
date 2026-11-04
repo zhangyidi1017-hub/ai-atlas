@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-03T04:57:36.380Z",
+  "updatedAt": "2026-11-04T04:29:04.270Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 423,
+  "itemCount": 430,
   "brief": {
-    "date": "2026-11-03",
-    "generatedAt": "2026-11-03T04:57:36.379Z",
-    "totalCount": 423,
-    "todayCount": 1,
-    "headline": "今日 AI 信号 1 条 · 档案共 423 条",
+    "date": "2026-11-04",
+    "generatedAt": "2026-11-04T04:29:04.269Z",
+    "totalCount": 430,
+    "todayCount": 0,
+    "headline": "今日 AI 信号 — 条 · 档案共 430 条",
     "topUpdates": [
       {
         "id": "sig-66a947a7e4",
@@ -19,42 +19,42 @@
         "readMinutes": 5
       },
       {
-        "id": "sig-d9f477ed4c",
-        "title": "现在可以使用 vercel.toml 配置项目 - Vercel",
+        "id": "sig-f537ef361e",
+        "title": "Vercel 安全审查现已推出公开测试版 - Vercel",
         "stars": 4,
-        "oneLiner": "Vercel 现在支持 vercel.toml，它允许您使用 TOML 配置格式来配置您的项目。支持与 vercel.json 中相同的所有配置属性，但它支持注释并且具有更扁平的结构。",
+        "oneLiner": "Vercel Security Review 现已针对专业团队和企业团队推出公开测试版。启用后，每次推送到连接的 GitHub 存储库时都会自动检查是否存在漏洞，并在漏洞仪表板中报告结果。",
         "readMinutes": 5
       },
       {
-        "id": "sig-9a0861c2e6",
-        "title": "Vercel MCP 现在支持客户端 ID 元数据文档 - Vercel",
+        "id": "sig-52e9b971e8",
+        "title": "Vercel CI 不再需要链接的 Vercel 项目 - Vercel",
         "stars": 4,
-        "oneLiner": "任何 MCP 客户端现在都可以请求连接到 Vercel MCP。您仍然登录并批准每个连接，但客户端不再需要先由 Vercel 审核。此前，Vercel 手动审核每个客户端及其重定向 URI 并将其列入白名单，列表中未列出的任何内容都会被拒绝",
+        "oneLiner": "Vercel CI 现在可以在没有 Vercel 项目的 GitHub 存储库上运行。到目前为止，您必须创建一个空项目才能连接存储库。",
         "readMinutes": 5
       },
       {
-        "id": "sig-6fd6ad7938",
-        "title": "用更大的错误赏金奖励防御者",
+        "id": "sig-7b04a568c5",
+        "title": "使用 Google Antigravity 进行代理化学信息学",
         "stars": 4,
-        "oneLiner": "OpenAI 正在提高安全漏洞赏金奖励，并为独立安全研究人员引入报告质量、忠诚度和优先活动奖金。",
+        "oneLiner": "Zoi Tsangalidou、张瑞杰、Sukhdeep Singh 和 Michael V. LeVine",
         "readMinutes": 5
       },
       {
-        "id": "sig-262cfa35f4",
-        "title": "准备下一次安全冲刺以强化 OpenAI",
+        "id": "sig-26c6032e1d",
+        "title": "加速物理世界的工程",
         "stars": 4,
-        "oneLiner": "OpenAI 正在与 Cathedral Systems 一起准备下一次内部安全冲刺，以使用 AI 测试和加强其防御能力。",
+        "oneLiner": "了解 ChatGPT 和 Codex 如何帮助工程师加速物理世界中的 CAD、PCB 设计、仿真和其他工作流程。",
         "readMinutes": 5
       }
     ],
     "sections": {
       "topUpdates": [
         "sig-66a947a7e4",
-        "sig-d9f477ed4c",
-        "sig-9a0861c2e6",
-        "sig-6fd6ad7938",
-        "sig-262cfa35f4",
-        "sig-b810030289"
+        "sig-f537ef361e",
+        "sig-52e9b971e8",
+        "sig-7b04a568c5",
+        "sig-26c6032e1d",
+        "sig-0e889c44fa"
       ],
       "newReleases": [
         "sig-f50edeef79",
@@ -64,13 +64,13 @@
       ],
       "insights": [
         "sig-66a947a7e4",
-        "sig-d9f477ed4c",
-        "sig-9a0861c2e6",
-        "sig-6fd6ad7938",
-        "sig-262cfa35f4",
-        "sig-b810030289",
-        "sig-553410a0ec",
-        "sig-6fcdcf1823"
+        "sig-f537ef361e",
+        "sig-52e9b971e8",
+        "sig-7b04a568c5",
+        "sig-26c6032e1d",
+        "sig-0e889c44fa",
+        "sig-a2357e701f",
+        "sig-08b710f1e7"
       ],
       "emergingTrends": [],
       "newApis": [],
@@ -91,8 +91,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-11-03T04:57:36.380Z",
-    "summary": "近 30 天共 274 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-11-04T04:29:04.270Z",
+    "summary": "近 30 天共 280 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -107,6 +107,66 @@
     "risingTags": []
   },
   "productUpdates": [
+    {
+      "id": "sig-7b04a568c5",
+      "title": "使用 Google Antigravity 进行代理化学信息学",
+      "oneLiner": "Zoi Tsangalidou、张瑞杰、Sukhdeep Singh 和 Michael V. LeVine",
+      "date": "2026-11-03",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google DeepMind",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-26c6032e1d",
+      "title": "加速物理世界的工程",
+      "oneLiner": "了解 ChatGPT 和 Codex 如何帮助工程师加速物理世界中的 CAD、PCB 设计、仿真和其他工作流程。",
+      "date": "2026-11-03",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-a2357e701f",
+      "title": "思科如何利用 OpenAI 以机器速度进行防御",
+      "oneLiner": "思科将网络智能与 OpenAI 模型相结合，增强企业安全性。了解它如何构建更具适应性的防御。",
+      "date": "2026-11-03",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-08b710f1e7",
+      "title": "Heimstaden 正在利用人工智能改变住宅房地产管理",
+      "oneLiner": "了解 Heimstaden 如何使用 OpenAI 的 ChatGPT Enterprise 和 Codex 来转变整个欧洲的物业管理、削减成本并赋予员工权力。",
+      "date": "2026-11-03",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-3d509e27ba",
+      "title": "OpenAI 任命 Jill Hazelbaker 为首席企业事务官",
+      "oneLiner": "Jill Hazelbaker 将加入 OpenAI，担任首席企业事务官，领导公司的全球传播和企业定位。",
+      "date": "2026-11-03",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
     {
       "id": "sig-6fd6ad7938",
       "title": "用更大的错误赏金奖励防御者",
@@ -334,66 +394,6 @@
       "source": "Google AI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-f16aefe89a",
-      "title": "与学术界合作建立科学理解",
-      "oneLiner": "OpenAI 分享了挂谷猜想、指数时间假说和量子色动力学的模型结果，以及研究人员如何验证和构建它们。",
-      "date": "2026-10-26",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-1a1d4bf2fc",
-      "title": "GPT-6.1 Sol 帮助 CodeRabbit 加强复杂代码库的安全性",
-      "oneLiner": "CodeRabbit 使用 GPT-6.1 Sol 来调查复杂代码库中的安全风险。其安全代理可帮助开发人员审查调查结果和建议的修复方案。",
-      "date": "2026-10-26",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-64d59b55a8",
-      "title": "ChatGPT 不断扩大的工作领域",
-      "oneLiner": "探索 OpenAI Signals 近 100 个国家/地区 165 项工作活动的数据，揭示人们如何使用 ChatGPT 进行工作以及使用情况如何随时间变化。",
-      "date": "2026-10-26",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-eb7708c5f5",
-      "title": "Fanatics 和 OpenAI 如何简化粉丝体验",
-      "oneLiner": "Fanatics 使用 OpenAI 帮助球迷通过 Shop the Look 完成比赛日服装。对大约 30,000 个 MLB 产品进行的测试显示，参与度提高了 10%。",
-      "date": "2026-10-26",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-8f2f08b6e1",
-      "title": "Ultrafast 如何将 OpenAI 的事件调查时间从几小时缩短至几分钟",
-      "oneLiner": "了解 OpenAI 工程师如何使用 Codex Ultrafast 在几分钟内调查事件。探索更快的安全分析、代码重构和日常工作流程。",
-      "date": "2026-10-26",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
@@ -479,6 +479,808 @@
         "url": "https://elevenlabs.io/blog/angle-health",
         "fetched": true,
         "savedAt": "2026-11-03T04:56:51.665Z"
+      }
+    },
+    {
+      "id": "sig-f537ef361e",
+      "title": "Vercel 安全审查现已推出公开测试版 - Vercel",
+      "oneLiner": "Vercel Security Review 现已针对专业团队和企业团队推出公开测试版。启用后，每次推送到连接的 GitHub 存储库时都会自动检查是否存在漏洞，并在漏洞仪表板中报告结果。",
+      "summary": {
+        "oneSentence": "Vercel Security Review 现已针对专业团队和企业团队推出公开测试版。启用后，每次推送到连接的 GitHub 存储库时都会自动检查是否存在漏洞，并在漏洞仪表板中报告结果。",
+        "bullets": [
+          "Vercel Security Review 现已针对专业团队和企业团队推出公开测试版。启用后，每次推送到连接的 GitHub 存储库时都会自动检查是否存在漏洞，并在漏洞仪表板中报告结果。",
+          "将链接复制到标题 触发审核的因素 当代码推送到连接的 GitHub 存储库时，安全审核会自动运行。由于审查是从推送事件而不是拉取请求开始的，因此也会审查直接推送到生产分支的情况和强制推送的情况。受单次推送影响的每个项目都会一起审查。",
+          "将链接复制到标题 发现内容包括 每个发现都记录项目、环境、分支和提交，以及摘要、建议的修复和 AI 生成的严重性评级。",
+          "安全审查为其审查的每个提交添加了自己的 GitHub 检查。当出现拉取请求时，它还会将发现结果作为链接回每个发现的评论评论发布。在公共存储库中，查找详细信息保留在仪表板中。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel Security Review 现已针对专业团队和企业团队推出公开测试版。启用后，每次推送到连接的 GitHub 存储库时都会自动检查是否存在漏洞，并在漏洞仪表板中报告结果。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-security-review-public-beta"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Security Review 现已针对专业团队和企业团队推出公开测试版。启用后，每次推送到连接的 GitHub 存储库时都会自动检查是否存在漏洞，并在漏洞仪表板中报告结果。",
+        "将链接复制到标题 触发审核的因素 当代码推送到连接的 GitHub 存储库时，安全审核会自动运行。由于审查是从推送事件而不是拉取请求开始的，因此也会审查直接推送到生产分支的情况和强制推送的情况。受单次推送影响的每个项目都会一起审查。",
+        "将链接复制到标题 发现内容包括 每个发现都记录项目、环境、分支和提交，以及摘要、建议的修复和 AI 生成的严重性评级。",
+        "安全审查为其审查的每个提交添加了自己的 GitHub 检查。当出现拉取请求时，它还会将发现结果作为链接回每个发现的评论评论发布。在公共存储库中，查找详细信息保留在仪表板中。",
+        "将链接复制到标题修复和解决方案 单击漏洞报告上的“使用 Vercel Agent 进行修复”会将发现结果交给 Vercel Agent，后者会提出修复建议并打开拉取请求供您查看。在您批准之前，任何内容都不会合并。",
+        "要使用编码代理修复结果，请使用 Vercel CLI 中的 vercel 安全漏洞，或将任何结果复制为 Markdown 或 JSON。",
+        "将链接复制到标题安全策略团队可以用简单的语言为所有项目或特定项目编写安全策略，以便为安全审查提供有关其构建方式的更多背景信息。在代理设置中设置团队策略，并在项目的安全设置中设置项目策略。",
+        "将链接复制到标题限制安全审查分析源代码。它不是安全审核，也不执行运行时或渗透测试。它可以帮助您发现漏洞，但不能保证您的应用程序没有漏洞。",
+        "将链接复制到标题“定价安全审查”按 Vercel 代理费率计费：提供商按基础代币费率进行推断，无加价，加上每百万代币 0.25 美元的 Vercel 代币费率（输入、缓存、输出）。每次推送到 GitHub 时都会进行审核，因此成本会随着推送频率和代码更改量而变化。",
+        "2026 年 11 月 10 日之前，安全审查免费，使用 Vercel Agent 进行的修复按 Vercel Agent 费率计费。"
+      ],
+      "highlights": [
+        "Vercel Security Review 现已针对专业团队和企业团队推出公开测试版。启用后，每次推送到连接的 GitHub 存储库时都会自动检查是否存在漏洞",
+        "将链接复制到标题 触发审核的因素 当代码推送到连接的 GitHub 存储库时，安全审核会自动运行。由于审查是从推送事件而不是拉取请求开始的，因此也会审查直接推送",
+        "将链接复制到标题 发现内容包括 每个发现都记录项目、环境、分支和提交，以及摘要、建议的修复和 AI 生成的严重性评级。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Security Review now in public beta - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-03",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-security-review-public-beta",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Security Review now in public beta - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Security Review now in public beta",
+        "url": "https://vercel.com/changelog/vercel-security-review-public-beta",
+        "fetched": true,
+        "savedAt": "2026-11-04T04:28:00.943Z"
+      }
+    },
+    {
+      "id": "sig-52e9b971e8",
+      "title": "Vercel CI 不再需要链接的 Vercel 项目 - Vercel",
+      "oneLiner": "Vercel CI 现在可以在没有 Vercel 项目的 GitHub 存储库上运行。到目前为止，您必须创建一个空项目才能连接存储库。",
+      "summary": {
+        "oneSentence": "Vercel CI 现在可以在没有 Vercel 项目的 GitHub 存储库上运行。到目前为止，您必须创建一个空项目才能连接存储库。",
+        "bullets": [
+          "Vercel CI 现在可以在没有 Vercel 项目的 GitHub 存储库上运行。到目前为止，您必须创建一个空项目才能连接存储库。",
+          "安装了可访问存储库的 Vercel GitHub 应用程序",
+          "您的 GitHub 帐户已连接到您的 Vercel 帐户",
+          "对存储库的写入或管理员权限"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel CI 现在可以在没有 Vercel 项目的 GitHub 存储库上运行。到目前为止，您必须创建一个空项目才能连接存储库。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-ci-no-longer-requires-a-linked-vercel-project"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel CI 现在可以在没有 Vercel 项目的 GitHub 存储库上运行。到目前为止，您必须创建一个空项目才能连接存储库。",
+        "安装了可访问存储库的 Vercel GitHub 应用程序",
+        "您的 GitHub 帐户已连接到您的 Vercel 帐户",
+        "对存储库的写入或管理员权限",
+        "然后，从存储库的克隆中运行：",
+        "1 vercel ci enable 为您的 CLI 设置的团队启用 CI。传递 --scope <team> 以使用不同的团队。从下一次推送开始，任务将按照存储库中的配置运行。",
+        "仅限私有 GitHub 存储库。尚不支持公共存储库和其他 Git 提供程序。",
+        "阅读 Vercel CI 文档以配置任务。"
+      ],
+      "highlights": [
+        "Vercel CI 现在可以在没有 Vercel 项目的 GitHub 存储库上运行。到目前为止，您必须创建一个空项目才能连接存储库。",
+        "安装了可访问存储库的 Vercel GitHub 应用程序",
+        "您的 GitHub 帐户已连接到您的 Vercel 帐户"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel CI no longer requires a linked Vercel project - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-03",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-ci-no-longer-requires-a-linked-vercel-project",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel CI no longer requires a linked Vercel project - Vercel"
+      },
+      "raw": {
+        "title": "Vercel CI no longer requires a linked Vercel project",
+        "url": "https://vercel.com/changelog/vercel-ci-no-longer-requires-a-linked-vercel-project",
+        "fetched": true,
+        "savedAt": "2026-11-04T04:28:10.131Z"
+      }
+    },
+    {
+      "id": "sig-7b04a568c5",
+      "title": "使用 Google Antigravity 进行代理化学信息学",
+      "oneLiner": "Zoi Tsangalidou、张瑞杰、Sukhdeep Singh 和 Michael V. LeVine",
+      "summary": {
+        "oneSentence": "Zoi Tsangalidou、张瑞杰、Sukhdeep Singh 和 Michael V. LeVine",
+        "bullets": [
+          "Zoi Tsangalidou、张瑞杰、Sukhdeep Singh 和 Michael V. LeVine",
+          "设计新药需要从图表、图形和文献中整理复杂的数据，训练预测模型，并提出候选分子进行合成——这一工作流程通常需要几天的时间才能完成一次迭代。",
+          "在这里，我们展示了 Google Antigravity 如何配备我们新的化学信息学技能，加速药物发现工作流程。使用现实世界的肺癌治疗方法，代理可以搜索数千种化合物，进行匹配的分子对分析，并在短短一个小时内提出具有合成路线的新型刚性大环化合物。",
+          "化学是科学领域最丰富的公共记录之一——涵盖期刊文章和供应商目录中的数百万个结构。它提供了将物理和数学与生命和环境科学联系起来的通用表示。分子及其转化无处不在，塑造着日常生活的世界。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google DeepMind 官网发布：Zoi Tsangalidou、张瑞杰、Sukhdeep Singh 和 Michael V. LeVine",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "Zoi Tsangalidou、张瑞杰、Sukhdeep Singh 和 Michael V. LeVine",
+        "设计新药需要从图表、图形和文献中整理复杂的数据，训练预测模型，并提出候选分子进行合成——这一工作流程通常需要几天的时间才能完成一次迭代。",
+        "在这里，我们展示了 Google Antigravity 如何配备我们新的化学信息学技能，加速药物发现工作流程。使用现实世界的肺癌治疗方法，代理可以搜索数千种化合物，进行匹配的分子对分析，并在短短一个小时内提出具有合成路线的新型刚性大环化合物。",
+        "化学是科学领域最丰富的公共记录之一——涵盖期刊文章和供应商目录中的数百万个结构。它提供了将物理和数学与生命和环境科学联系起来的通用表示。分子及其转化无处不在，塑造着日常生活的世界。",
+        "尽管化学信息学取得了数十年的进步，但化学家仍然花费太多时间来处理数据，这一过程因分子可以通过多种方式表示而变得复杂：从文本描述到图像或数据结构。相同的分子可以在论文中显示为 IUPAC 名称、专利中的马库什结构或目录中的结构数据文件 (SDF)。先进的化学信息学系统必须能够统一这些来源并处理其中可能出现的多种错误。这项任务没有犯错的余地——改变一个原子或键，你就描述了一种完全不同的化合物，使一种有前途的抑制剂或催化剂变得惰性。",
+        "为了让科学家专注于假设而不是数据争论，我们为 Google Antigravity 构建了一套化学信息学技能，将表面变成一个协作科学工作台，计算化学家和实验台化学家可以完全访问本地工具。",
+        "这些技能还创建了一种分工，其中底层语言模型处理工作流程编排、数据库导航和科学推理，而确定性化学工具则执行分子计算。这些技能以 RDKit 为基础，RDKit 是由全球贡献者社区二十多年来开发的基础开源化学信息学工具包，以及来自 ChEMBL 和 PubChem 的精选资源的连接器，将领域最佳实践直接编码到代理的工作流程中。",
+        "在本技术演练中，我们重点介绍一种提高药物效力的经典药物化学技术：刚性化。",
+        "药物分子可能很复杂，通常通过可旋转键连接多个子结构。这些键让分子扭曲成许多 3D 形状（构象），使其在溶液中“松软”。然而，为了结合其目标，软分子必须锁定为单一的活性形状。失去运动自由会带来熵损失，从而削弱结合亲和力并降低效力。",
+        "为了解决这个问题，药物化学家经常通过添加新键来使分子刚性化。由单个可旋转键连接的两个子结构可以扭曲成许多构象，但是添加第二个键将它们连接在一起极大地限制了它们在三维空间中的移动方式。通过将该键放置在正确的位置，化学家可以将分子锁定为结合其目标所需的确切形状。这种策略通常被称为“提前支付熵成本”，可以极大地提高效力。"
+      ],
+      "highlights": [
+        "Zoi Tsangalidou、张瑞杰、Sukhdeep Singh 和 Michael V. LeVine",
+        "设计新药需要从图表、图形和文献中整理复杂的数据，训练预测模型，并提出候选分子进行合成——这一工作流程通常需要几天的时间才能完成一次迭代。",
+        "在这里，我们展示了 Google Antigravity 如何配备我们新的化学信息学技能，加速药物发现工作流程。使用现实世界的肺癌治疗方法，代理可以搜索数千种化"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Agentic cheminformatics with Google Antigravity",
+      "originalLang": "en",
+      "date": "2026-11-03",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google DeepMind",
+        "author": "DeepMind",
+        "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+        "home": "https://deepmind.google/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Agentic cheminformatics with Google Antigravity"
+      },
+      "raw": {
+        "title": "Agentic cheminformatics with Google Antigravity",
+        "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+        "fetched": true,
+        "savedAt": "2026-11-04T04:28:20.115Z"
+      }
+    },
+    {
+      "id": "sig-26c6032e1d",
+      "title": "加速物理世界的工程",
+      "oneLiner": "了解 ChatGPT 和 Codex 如何帮助工程师加速物理世界中的 CAD、PCB 设计、仿真和其他工作流程。",
+      "summary": {
+        "oneSentence": "了解 ChatGPT 和 Codex 如何帮助工程师加速物理世界中的 CAD、PCB 设计、仿真和其他工作流程。",
+        "bullets": [
+          "了解 ChatGPT 和 Codex 如何帮助工程师加速物理世界中的 CAD、PCB 设计、仿真和其他工作流程。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：了解 ChatGPT 和 Codex 如何帮助工程师加速物理世界中的 CAD、PCB 设计、仿真和其他工作流程。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/accelerating-engineering-for-the-physical-world"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "了解 ChatGPT 和 Codex 如何帮助工程师加速物理世界中的 CAD、PCB 设计、仿真和其他工作流程。"
+      ],
+      "highlights": [
+        "了解 ChatGPT 和 Codex 如何帮助工程师加速物理世界中的 CAD、PCB 设计、仿真和其他工作流程。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Accelerating engineering for the physical world",
+      "originalLang": "en",
+      "date": "2026-11-03",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Accelerating engineering for the physical world"
+      },
+      "raw": {
+        "title": "Accelerating engineering for the physical world",
+        "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+        "fetched": false,
+        "savedAt": "2026-11-04T04:28:21.319Z"
+      }
+    },
+    {
+      "id": "sig-0e889c44fa",
+      "title": "什么是通话转录？企业实用指南",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 获取 API 密钥 了解更多 在此页面",
+          "通话转录是将电话或视频通话转换为书面文本的过程。这些电话通常充满了有价值的信息，并且有准确的书面记录，可以轻松找到参考数据。在客户支持等业务环境中，通话转录也有助于培训和合规性。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/what-is-call-transcription"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem; } 跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 获取 API 密钥 了解更多 博客资源 什么是通话转录？实用商业指南 由 Jack Limebear 撰写 2026 年 11 月 3 日出版 听 听这篇文章",
+        "0:00 1.0x 获取 API 密钥 了解更多 在此页面",
+        "通话转录是将电话或视频通话转换为书面文本的过程。这些电话通常充满了有价值的信息，并且有准确的书面记录，可以轻松找到参考数据。在客户支持等业务环境中，通话转录也有助于培训和合规性。",
+        "许多团队现在使用人工智能驱动的语音到文本转录来自动化该过程，而不是手动转录每个电话。在本文中，我们将详细介绍通话转录的工作原理、其重要性以及如何使用人工智能自动转录通话。",
+        "通话转录涉及将电话或视频通话转换为书面文本格式。通话记录准确记录了通话内容和通话时间。通过书面记录，您可以稍后查看通话内容，而无需收听整个音频文件。",
+        "此过程通常通过自动呼叫转录软件完成，但也可以手动完成。使用自动转录软件，该过程可以在通话期间或通话结束后不久实时发生。",
+        "通话转录是一个多步骤的过程。",
+        "通过这些步骤，您最终将获得可搜索的最终文字记录，并作为对话的数字记录。特别是如果公司想要一个活生生的记录语料库，并将其输入到人工智能工具中以获得大规模的建议或见解，那么拥有这些通话记录是非常宝贵的。",
+        "在业务环境中，上述步骤通常位于更大的管道中："
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 获取 API 密钥 了解更多 在此页面"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "What is call transcription? A practical guide for businesses",
+      "originalLang": "en",
+      "date": "2026-11-03",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/what-is-call-transcription",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "What is call transcription? A practical guide for businesses"
+      },
+      "raw": {
+        "title": "What is call transcription? A practical business guide",
+        "url": "https://elevenlabs.io/blog/what-is-call-transcription",
+        "fetched": true,
+        "savedAt": "2026-11-04T04:28:31.842Z"
+      }
+    },
+    {
+      "id": "sig-a2357e701f",
+      "title": "思科如何利用 OpenAI 以机器速度进行防御",
+      "oneLiner": "思科将网络智能与 OpenAI 模型相结合，增强企业安全性。了解它如何构建更具适应性的防御。",
+      "summary": {
+        "oneSentence": "思科将网络智能与 OpenAI 模型相结合，增强企业安全性。了解它如何构建更具适应性的防御。",
+        "bullets": [
+          "思科将网络智能与 OpenAI 模型相结合，增强企业安全性。了解它如何构建更具适应性的防御。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：思科将网络智能与 OpenAI 模型相结合，增强企业安全性。了解它如何构建更具适应性的防御。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/cisco-cyber"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "思科将网络智能与 OpenAI 模型相结合，增强企业安全性。了解它如何构建更具适应性的防御。"
+      ],
+      "highlights": [
+        "思科将网络智能与 OpenAI 模型相结合，增强企业安全性。了解它如何构建更具适应性的防御。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How Cisco defends at machine speed with OpenAI",
+      "originalLang": "en",
+      "date": "2026-11-03",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/cisco-cyber",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How Cisco defends at machine speed with OpenAI"
+      },
+      "raw": {
+        "title": "How Cisco defends at machine speed with OpenAI",
+        "url": "https://openai.com/index/cisco-cyber",
+        "fetched": false,
+        "savedAt": "2026-11-04T04:28:33.063Z"
+      }
+    },
+    {
+      "id": "sig-08b710f1e7",
+      "title": "Heimstaden 正在利用人工智能改变住宅房地产管理",
+      "oneLiner": "了解 Heimstaden 如何使用 OpenAI 的 ChatGPT Enterprise 和 Codex 来转变整个欧洲的物业管理、削减成本并赋予员工权力。",
+      "summary": {
+        "oneSentence": "了解 Heimstaden 如何使用 OpenAI 的 ChatGPT Enterprise 和 Codex 来转变整个欧洲的物业管理、削减成本并赋予员工权力。",
+        "bullets": [
+          "了解 Heimstaden 如何使用 OpenAI 的 ChatGPT Enterprise 和 Codex 来转变整个欧洲的物业管理、削减成本并赋予员工权力。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：了解 Heimstaden 如何使用 OpenAI 的 ChatGPT Enterprise 和 Codex 来转变整个欧洲的物业管理、削减成本并赋予员工权力。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/heimstaden"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "了解 Heimstaden 如何使用 OpenAI 的 ChatGPT Enterprise 和 Codex 来转变整个欧洲的物业管理、削减成本并赋予员工权力。"
+      ],
+      "highlights": [
+        "了解 Heimstaden 如何使用 OpenAI 的 ChatGPT Enterprise 和 Codex 来转变整个欧洲的物业管理、削减成本并赋予员工权力。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Heimstaden is changing residential real estate management with AI",
+      "originalLang": "en",
+      "date": "2026-11-03",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/heimstaden",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Heimstaden is changing residential real estate management with AI"
+      },
+      "raw": {
+        "title": "Heimstaden is changing residential real estate management with AI",
+        "url": "https://openai.com/index/heimstaden",
+        "fetched": false,
+        "savedAt": "2026-11-04T04:28:34.243Z"
+      }
+    },
+    {
+      "id": "sig-4782b364a7",
+      "title": "Zapier 如何使用 Vercel 在数小时内将想法转化为可用软件 |客户 |韦尔塞尔",
+      "oneLiner": "使用 v0 在两小时内将 Vercel Interactive 合作伙伴演示上的 Zapier 标题复制到标题，取代了可能需要数周时间的流程",
+      "summary": {
+        "oneSentence": "使用 v0 在两小时内将 Vercel Interactive 合作伙伴演示上的 Zapier 标题复制到标题，取代了可能需要数周时间的流程",
+        "bullets": [
+          "使用 v0 在两小时内将 Vercel Interactive 合作伙伴演示上的 Zapier 标题复制到标题，取代了可能需要数周时间的流程",
+          "三个内部应用程序的第一个版本，每个版本都在一天内构建",
+          "为 60 多名营销人员提供每日简报，无需单独收集相同信息",
+          "一个月内创建了 330 万个沙箱，隔离了 Zapier 人工智能工作负载背后的代码执行"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：使用 v0 在两小时内将 Vercel Interactive 合作伙伴演示上的 Zapier 标题复制到标题，取代了可能需要数周时间的流程",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/how-zapier-turns-ideas-into-working-software-in-hours-with-vercel"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "使用 v0 在两小时内将 Vercel Interactive 合作伙伴演示上的 Zapier 标题复制到标题，取代了可能需要数周时间的流程",
+        "三个内部应用程序的第一个版本，每个版本都在一天内构建",
+        "为 60 多名营销人员提供每日简报，无需单独收集相同信息",
+        "一个月内创建了 330 万个沙箱，隔离了 Zapier 人工智能工作负载背后的代码执行",
+        "在业界出现“代理”这个词之前，Zapier 就已经开始构建代理了。如今，Zapier 是人工智能编排平台，将人工智能连接到企业日常使用的工作流程、数据和系统。",
+        "自从几年前 Vercel 开始使用 Vercel 提供网络体验以来，Zapier 就一直是 Vercel 的客户。他们留下来并扩大规模，因为每个需要快速交付的团队都找到了相同的答案：速度，并且安全护栏已经就位。随着他们的成长，随着越来越多的团队发现该平台的新用途，他们对 Vercel 的采用也随之增加。如今，Vercel 支持工程、合作伙伴关系和营销领域的工作，从面向客户的人工智能到交互式合作伙伴演示和内部应用程序。",
+        "不同团队的需求有所不同，但首要任务是快速将有用的工作交到人们手中。后端工程师可以创建合作伙伴产品内部集成的交互式演示。在营销中，没有任何部署经验的前产品营销人员可以通过公司批准的环境共享包含敏感信息的工具，并在同事使用它们时不断改进它们。",
+        "扎皮尔的团队比以前行动更快、做得更多。当下一次发布时，必然会基于 Vercel 进行构建。",
+        "将链接复制到标题 从几周的原型工作到不到两小时的演示 每个合作伙伴 Zapier 签署的协议都扩展了客户可以实现自动化的功能。 Powered by Zapier 团队帮助这些合作伙伴成为产品，帮助 SaaS 和 AI 公司将 Zapier 的自动化功能直接嵌入到自己的工具中，以便用户无需离开合作伙伴的应用程序即可实现自动化。风险很高，因为 Zapier 依靠这个团队使其平台成为世界上所有软件的入口点。问题在于速度：组织外部的协作需要很长时间，每个原型都需要屏幕截图、设计时间和前端资源，而且合作伙伴可能需要数周时间才能看到任何可点击的内容。",
+        "借助 v0，团队可以在两个小时内创建完全交互式的多视图原型，在合作伙伴自己的产品中展示嵌入式 Zapier 体验。"
+      ],
+      "highlights": [
+        "使用 v0 在两小时内将 Vercel Interactive 合作伙伴演示上的 Zapier 标题复制到标题，取代了可能需要数周时间的流程",
+        "三个内部应用程序的第一个版本，每个版本都在一天内构建",
+        "为 60 多名营销人员提供每日简报，无需单独收集相同信息"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How Zapier turns ideas into working software in hours with Vercel | Customers | Vercel",
+      "originalLang": "en",
+      "date": "2026-11-03",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/how-zapier-turns-ideas-into-working-software-in-hours-with-vercel",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How Zapier turns ideas into working software in hours with Vercel | Customers | Vercel"
+      },
+      "raw": {
+        "title": "How Zapier turns ideas into working software in hours with Vercel",
+        "url": "https://vercel.com/blog/how-zapier-turns-ideas-into-working-software-in-hours-with-vercel",
+        "fetched": true,
+        "savedAt": "2026-11-04T04:28:45.300Z"
+      }
+    },
+    {
+      "id": "sig-c5a3653409",
+      "title": "Mercor 如何在一个平台上运送内部应用程序和数十亿生产代币 |客户 |韦尔塞尔",
+      "oneLiner": "将链接复制到标题 Mercor on Vercel Batch 作业从 12 小时减少到 2 小时",
+      "summary": {
+        "oneSentence": "将链接复制到标题 Mercor on Vercel Batch 作业从 12 小时减少到 2 小时",
+        "bullets": [
+          "将链接复制到标题 Mercor on Vercel Batch 作业从 12 小时减少到 2 小时",
+          "10 天内通过 AI Gateway 路由了 18M 请求和 63B 令牌",
+          "通过 Vercel Passport 在几秒钟内即可配置专家访问权限",
+          "由数百名内部构建者创建的 2,000 多个项目"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：将链接复制到标题 Mercor on Vercel Batch 作业从 12 小时减少到 2 小时",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/how-mercor-ships-internal-apps-and-billions-of-production-tokens-on-one-platform"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "将链接复制到标题 Mercor on Vercel Batch 作业从 12 小时减少到 2 小时",
+        "10 天内通过 AI Gateway 路由了 18M 请求和 63B 令牌",
+        "通过 Vercel Passport 在几秒钟内即可配置专家访问权限",
+        "由数百名内部构建者创建的 2,000 多个项目",
+        "Mercor 将数十万领域专家与前沿人工智能实验室联系起来，帮助这些实验室生成训练和评估领先模型所需的人类数据。它还运行大批量的自动评分作业来评估实验室和企业的模型。",
+        "即使个人评估或标记工作有 24 小时的截止日期，需求的爆发也会使模型流量在几天内达到峰值容量。由于交付时间有限，等待提供商速率限制的请求可能会使客户的截止日期面临风险。",
+        "Mercor 的业务团队还需要针对每次业务量身定制的应用程序，让专家无需等待核心平台的更改即可查看其任务和进度。",
+        "对于 Mercor 的安全主管 Aaron Brown 来说，让更多的人能够构建意味着可以更轻松地向他们提供所需的访问权限并跟踪他们的使用方式。 Mercor 使用 Vercel AI Gateway 来管理模型访问，并使用 Vercel Passport 来处理对其应用程序的安全访问。",
+        "将链接复制到标题当模型容量成为客户截止日期时，当需求激增时，Mercor 的直接集成和第三方网关组合无法为其开放模型工作负载提供足够的每分钟令牌容量。当请求达到提供商限制并进入重试队列时，时间敏感的批处理作业会持续超过 12 小时，占用客户 24 小时期限的一半以上。",
+        "当请求达到速率限制时，AI Gateway 提供了更多的推理能力和提供商之间的故障转移路由，帮助批处理工作继续进行，而不是在重试队列中等待。 Mercor 报告称，这些工作现在只需 2 到 3 小时即可完成，从而为客户留下了更多时间来完成其余工作。在 Gateway 上的前 10 天，该团队路由了 1800 万个请求和 630 亿个代币，没有达到速率限制。"
+      ],
+      "highlights": [
+        "将链接复制到标题 Mercor on Vercel Batch 作业从 12 小时减少到 2 小时",
+        "10 天内通过 AI Gateway 路由了 18M 请求和 63B 令牌",
+        "通过 Vercel Passport 在几秒钟内即可配置专家访问权限"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How Mercor ships internal apps and billions of production tokens on one platform | Customers | Vercel",
+      "originalLang": "en",
+      "date": "2026-11-03",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/how-mercor-ships-internal-apps-and-billions-of-production-tokens-on-one-platform",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How Mercor ships internal apps and billions of production tokens on one platform | Customers | Vercel"
+      },
+      "raw": {
+        "title": "How Mercor ships internal apps and billions of production tokens on one platform",
+        "url": "https://vercel.com/blog/how-mercor-ships-internal-apps-and-billions-of-production-tokens-on-one-platform",
+        "fetched": true,
+        "savedAt": "2026-11-04T04:28:57.736Z"
+      }
+    },
+    {
+      "id": "sig-3d509e27ba",
+      "title": "OpenAI 任命 Jill Hazelbaker 为首席企业事务官",
+      "oneLiner": "Jill Hazelbaker 将加入 OpenAI，担任首席企业事务官，领导公司的全球传播和企业定位。",
+      "summary": {
+        "oneSentence": "Jill Hazelbaker 将加入 OpenAI，担任首席企业事务官，领导公司的全球传播和企业定位。",
+        "bullets": [
+          "Jill Hazelbaker 将加入 OpenAI，担任首席企业事务官，领导公司的全球传播和企业定位。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：Jill Hazelbaker 将加入 OpenAI，担任首席企业事务官，领导公司的全球传播和企业定位。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Jill Hazelbaker 将加入 OpenAI，担任首席企业事务官，领导公司的全球传播和企业定位。"
+      ],
+      "highlights": [
+        "Jill Hazelbaker 将加入 OpenAI，担任首席企业事务官，领导公司的全球传播和企业定位。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+      "originalLang": "en",
+      "date": "2026-11-03",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer"
+      },
+      "raw": {
+        "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+        "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+        "fetched": false,
+        "savedAt": "2026-11-04T04:28:58.977Z"
       }
     },
     {
@@ -12624,7 +13426,7 @@
         "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
         "fetched": true,
         "savedAt": "2026-10-17T02:36:45.886Z",
-        "retranslatedAt": "2026-11-03T04:57:31.951Z"
+        "retranslatedAt": "2026-11-04T04:29:00.171Z"
       }
     },
     {
@@ -16222,7 +17024,7 @@
         "url": "https://cursor.com/changelog/origin-app-marketplace",
         "fetched": true,
         "savedAt": "2026-10-14T03:08:22.474Z",
-        "retranslatedAt": "2026-11-03T04:57:33.201Z"
+        "retranslatedAt": "2026-11-04T04:29:01.297Z"
       }
     },
     {
@@ -21761,7 +22563,7 @@
         "url": "https://cursor.com/changelog/remote-control-local-agents",
         "fetched": true,
         "savedAt": "2026-10-11T03:27:39.323Z",
-        "retranslatedAt": "2026-11-03T04:57:34.420Z"
+        "retranslatedAt": "2026-11-04T04:29:02.448Z"
       }
     },
     {
@@ -31189,7 +31991,7 @@
         "url": "https://cursor.com/changelog/rollouts-and-security-reviewer",
         "fetched": true,
         "savedAt": "2026-09-27T03:09:42.462Z",
-        "retranslatedAt": "2026-11-03T04:57:35.575Z"
+        "retranslatedAt": "2026-11-04T04:29:03.466Z"
       }
     },
     {
@@ -33434,210 +34236,6 @@
         "url": "https://vercel.com/changelog/mimo-v2-6-models-now-available-on-ai-gateway",
         "fetched": true,
         "savedAt": "2026-09-23T02:53:40.759Z"
-      }
-    },
-    {
-      "id": "sig-3db7829d04",
-      "title": "Quoting voxium",
-      "oneLiner": "It has been half a month since I started a new role at a big company. Nobody knows anything here. Th",
-      "summary": {
-        "oneSentence": "It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests",
-        "bullets": [
-          "It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made "
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/20/voxium/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "It has been half a month since I started a new role at a big company. Nobody knows anything here. The specs, code, tests, PRDs, tickets, resolution of those tickets, reports, etc., everything is made by Claude Code. Nobody on my team likes this. They are being forced to ship as much as they can. I have heard multiple times from higher management that pushing code is not a bottleneck, so why are we slow? People are working 12 to 13 hours a day just to press enter. Nobody is reading anything. Everyone, literally everyone, from an L1 to an L7 engineer here is doing the same thing. Talk to Claude. &mdash; voxium Tags: ai-misuse , llms , ai , generative-ai"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Quoting voxium",
-      "originalLang": "en",
-      "date": "2026-09-20",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/20/voxium/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Quoting voxium"
-      },
-      "raw": {
-        "title": "Quoting voxium",
-        "url": "https://simonwillison.net/2026/Sep/20/voxium/",
-        "fetched": false,
-        "savedAt": "2026-09-21T02:52:27.413Z"
-      }
-    },
-    {
-      "id": "sig-54ed4b673b",
-      "title": "llm-keys-ui 0.1",
-      "oneLiner": "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote",
-      "summary": {
-        "oneSentence": "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agent",
-        "bullets": [
-          "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agents on various machines while controlling them from my phone. Sometimes I use thos"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/20/llm-keys-ui/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Release: llm-keys-ui 0.1 This plugin solves a very specific problem. I've started using Codex Remote to run coding agents on various machines while controlling them from my phone. Sometimes I use those machines to hack on LLM projects, and occasionally that means I need to configure an API key. I don't like pasting API keys into agent sessions, so I wanted a way to get those keys onto a machine without pasting them into the ChatGPT app directly. With this plugin, I can tell Codex to run: uvx --with llm-keys-ui llm keys-ui --all Then have it tell me the URL - including local network or Tailscale device IPs - for an interface to save additional API keys. Then later it can use a command like llm keys get anthropic as part of a shell command when it needs to use a key. Tags: llm , coding-agents , codex"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "llm-keys-ui 0.1",
-      "originalLang": "en",
-      "date": "2026-09-20",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "llm-keys-ui 0.1"
-      },
-      "raw": {
-        "title": "llm-keys-ui 0.1",
-        "url": "https://simonwillison.net/2026/Sep/20/llm-keys-ui/",
-        "fetched": false,
-        "savedAt": "2026-09-21T02:52:28.216Z"
-      }
-    },
-    {
-      "id": "sig-69497bfa34",
-      "title": "datasette-explain 0.2.2",
-      "oneLiner": "Release: datasette-explain 0.2.2 Explain plans now work on read-only stored-query pages. I upgraded ",
-      "summary": {
-        "oneSentence": "Release: datasette-explain 0.2.2 Explain plans now work on read-only stored-query pages. I upgraded datasette.simonwilli",
-        "bullets": [
-          "Release: datasette-explain 0.2.2 Explain plans now work on read-only stored-query pages. I upgraded datasette.simonwillison.net to Datasette 1.0a40, which inspired me to ship a new version of this exp"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/20/datasette-explain/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Release: datasette-explain 0.2.2 Explain plans now work on read-only stored-query pages. I upgraded datasette.simonwillison.net to Datasette 1.0a40, which inspired me to ship a new version of this explain plugin. Tags: sqlite , datasette"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "datasette-explain 0.2.2",
-      "originalLang": "en",
-      "date": "2026-09-20",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/20/datasette-explain/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "datasette-explain 0.2.2"
-      },
-      "raw": {
-        "title": "datasette-explain 0.2.2",
-        "url": "https://simonwillison.net/2026/Sep/20/datasette-explain/",
-        "fetched": false,
-        "savedAt": "2026-09-21T02:52:29.017Z"
       }
     }
   ]
