@@ -1,60 +1,60 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-04T04:29:04.270Z",
+  "updatedAt": "2026-11-05T04:44:42.065Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 430,
+  "itemCount": 429,
   "brief": {
-    "date": "2026-11-04",
-    "generatedAt": "2026-11-04T04:29:04.269Z",
-    "totalCount": 430,
+    "date": "2026-11-05",
+    "generatedAt": "2026-11-05T04:44:42.064Z",
+    "totalCount": 429,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 430 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 429 条",
     "topUpdates": [
       {
-        "id": "sig-66a947a7e4",
-        "title": "Angle Health 通过 ElevenLabs 解决了 90% 的提供商呼叫",
+        "id": "sig-b488f28088",
+        "title": "工作流程实验室：使用 Figma 代理和代码层在画布上构建代码 | Figma 博客",
         "stars": 4,
-        "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "oneLiner": "将代码放到画布上为团队提供了一个共享空间，可以并排比较工作原型、完善方向并与队友就想法进行协作。此工作流程展示了设计人员如何使用代码层和 Figma 代理来探索新功能。",
         "readMinutes": 5
       },
       {
-        "id": "sig-f537ef361e",
-        "title": "Vercel 安全审查现已推出公开测试版 - Vercel",
+        "id": "sig-1ada682096",
+        "title": "Workflow SDK 添加幂等启动 - Vercel",
         "stars": 4,
-        "oneLiner": "Vercel Security Review 现已针对专业团队和企业团队推出公开测试版。启用后，每次推送到连接的 GitHub 存储库时都会自动检查是否存在漏洞，并在漏洞仪表板中报告结果。",
+        "oneLiner": "Workflow SDK 的 start() 函数现在可以在一个原子步骤中承认一次运行并声明一个挂钩。重复的工作流程启动会安全失败。原子开始取代了之前的 getHookByToken() -then- start() 模式，该模式在查找和开",
         "readMinutes": 5
       },
       {
-        "id": "sig-52e9b971e8",
-        "title": "Vercel CI 不再需要链接的 Vercel 项目 - Vercel",
+        "id": "sig-16f9590165",
+        "title": "Kimi K3.1 Pro 现在在 AI Gateway 上拥有更多 ZDR 提供商 - Vercel",
         "stars": 4,
-        "oneLiner": "Vercel CI 现在可以在没有 Vercel 项目的 GitHub 存储库上运行。到目前为止，您必须创建一个空项目才能连接存储库。",
+        "oneLiner": "Kimi K3.1 Pro 及其更高速度版本 Kimi K3.1 Pro Highspeed 现已在更多零数据保留 (ZDR) 提供商的 AI Gateway 上提供。直到今天，Moonshot AI 是唯一一家为这两种模型提供服务的提供商",
         "readMinutes": 5
       },
       {
-        "id": "sig-7b04a568c5",
-        "title": "使用 Google Antigravity 进行代理化学信息学",
+        "id": "sig-98d4c4a40e",
+        "title": "Figma 如何大规模管理沙箱 | Figma 博客",
         "stars": 4,
-        "oneLiner": "Zoi Tsangalidou、张瑞杰、Sukhdeep Singh 和 Michael V. LeVine",
+        "oneLiner": "Figma 的 AI 产品需要数以万计的沙箱才能安全地运行不受信任的代码。这就是我们构建 Nimbus 的原因：一个使沙箱快速、可靠且易于 Figma 产品团队和运营商管理的平台。",
         "readMinutes": 5
       },
       {
-        "id": "sig-26c6032e1d",
-        "title": "加速物理世界的工程",
+        "id": "sig-3a06f84c0f",
+        "title": "OpenAI 将收购 Pierre Computer Company, Inc.",
         "stars": 4,
-        "oneLiner": "了解 ChatGPT 和 Codex 如何帮助工程师加速物理世界中的 CAD、PCB 设计、仿真和其他工作流程。",
+        "oneLiner": "OpenAI 将收购 Pierre Computer Company，扩展 Codex 用于构建、理解和审查代码的工具。",
         "readMinutes": 5
       }
     ],
     "sections": {
       "topUpdates": [
-        "sig-66a947a7e4",
-        "sig-f537ef361e",
-        "sig-52e9b971e8",
-        "sig-7b04a568c5",
-        "sig-26c6032e1d",
-        "sig-0e889c44fa"
+        "sig-b488f28088",
+        "sig-1ada682096",
+        "sig-16f9590165",
+        "sig-98d4c4a40e",
+        "sig-3a06f84c0f",
+        "sig-dfaa3a3041"
       ],
       "newReleases": [
         "sig-f50edeef79",
@@ -63,14 +63,14 @@
         "sig-089c4ff63d"
       ],
       "insights": [
-        "sig-66a947a7e4",
-        "sig-f537ef361e",
-        "sig-52e9b971e8",
-        "sig-7b04a568c5",
-        "sig-26c6032e1d",
-        "sig-0e889c44fa",
-        "sig-a2357e701f",
-        "sig-08b710f1e7"
+        "sig-b488f28088",
+        "sig-1ada682096",
+        "sig-16f9590165",
+        "sig-98d4c4a40e",
+        "sig-3a06f84c0f",
+        "sig-dfaa3a3041",
+        "sig-a239c4a012",
+        "sig-e28316334a"
       ],
       "emergingTrends": [],
       "newApis": [],
@@ -91,12 +91,12 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-11-04T04:29:04.270Z",
-    "summary": "近 30 天共 280 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-11-05T04:44:42.065Z",
+    "summary": "近 30 天共 275 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
-        "signal": "近 30 天 3 条相关更新",
+        "signal": "近 30 天 2 条相关更新",
         "examples": [
           "云端智能体画布与环境改进 · Cursor",
           "Origin 应用市场 · Cursor"
@@ -107,6 +107,42 @@
     "risingTags": []
   },
   "productUpdates": [
+    {
+      "id": "sig-3a06f84c0f",
+      "title": "OpenAI 将收购 Pierre Computer Company, Inc.",
+      "oneLiner": "OpenAI 将收购 Pierre Computer Company，扩展 Codex 用于构建、理解和审查代码的工具。",
+      "date": "2026-11-04",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-a4f4c423c5",
+      "title": "减少一千条通往根的路径",
+      "oneLiner": "OpenAI 构建了一个自主管道，可以发现、验证并生成 Linux 内核中 948 个本地权限提升漏洞的补丁。",
+      "date": "2026-11-04",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-75679f5aa6",
+      "title": "Daybreak Red 现已在 AWS GovCloud（美国东部）推出",
+      "oneLiner": "Daybreak Red 通过 Amazon Bedrock 将 GPT-5.6 Cyber​​ 带给 AWS GovCloud（美国东部）的批准客户，以进行授权的网络安全工作。",
+      "date": "2026-11-04",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
     {
       "id": "sig-7b04a568c5",
       "title": "使用 Google Antigravity 进行代理化学信息学",
@@ -358,45 +394,816 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-8cb333260a",
-      "title": "Check Point 如何利用 Daybreak 加速漏洞研究",
-      "oneLiner": "借助 OpenAI Daybreak，Check Point 加快了新安全保护背后的研究速度，使其分析师能够更快地将漏洞情报转化为客户防御。",
-      "date": "2026-10-27",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-250e5d8f30",
-      "title": "Greptile 使用 GPT-6 Astra 使错误检测超越代码审查",
-      "oneLiner": "Greptile 如何使用 GPT-6 Astra 来测试用户工作流程，使用 Daybreak 来增强安全性，使用 Codex 来减少返工。",
-      "date": "2026-10-26",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-be77c96c39",
-      "title": "我们最新的人工智能任务：绘制人类大脑图谱",
-      "oneLiner": "我们的人工智能探索系列的第三课“极地峰”，在深入研究神经科学的同时，教授学生关键的人工智能素养技能。",
-      "date": "2026-10-26",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google AI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-b488f28088",
+      "title": "工作流程实验室：使用 Figma 代理和代码层在画布上构建代码 | Figma 博客",
+      "oneLiner": "将代码放到画布上为团队提供了一个共享空间，可以并排比较工作原型、完善方向并与队友就想法进行协作。此工作流程展示了设计人员如何使用代码层和 Figma 代理来探索新功能。",
+      "summary": {
+        "oneSentence": "将代码放到画布上为团队提供了一个共享空间，可以并排比较工作原型、完善方向并与队友就想法进行协作。此工作流程展示了设计人员如何使用代码层和 Figma 代理来探索新功能。",
+        "bullets": [
+          "将代码放到画布上为团队提供了一个共享空间，可以并排比较工作原型、完善方向并与队友就想法进行协作。此工作流程展示了设计人员如何使用代码层和 Figma 代理来探索新功能。",
+          "欢迎来到工作流程实验室，我们在这里展示了一个示例工作流程 工作流程实验室：与 Figma 的代理保持工作流程 了解要交给代理的工作本身就是一项技能。此工作流程展示了设计人员如何塑造新的临时访问功能，而 Figma 代理处理库更新、关键反馈和设计系统规范的初稿。",
+          "使用单独的氛围编码工具可以让探索感觉像是一项单独的练习，我们从设计师那里得知，他们希望有空间进行视觉构建、比较替代方案以及与团队一起研究想法。",
+          "代码层 在画布上与代码层一起设计 今天，代码层进入公开测试版。现在，团队可以在画布上探索和构建由代码支持的原型。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Figma 官网发布：将代码放到画布上为团队提供了一个共享空间，可以并排比较工作原型、完善方向并与队友就想法进行协作。此工作流程展示了设计人员如何使用代码层和 Figma 代理来探索新功能。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://www.figma.com/blog/workflow-lab-build-with-code-on-the-canvas-using-the-figma-agent-and-code-layers/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "将代码放到画布上为团队提供了一个共享空间，可以并排比较工作原型、完善方向并与队友就想法进行协作。此工作流程展示了设计人员如何使用代码层和 Figma 代理来探索新功能。",
+        "欢迎来到工作流程实验室，我们在这里展示了一个示例工作流程 工作流程实验室：与 Figma 的代理保持工作流程 了解要交给代理的工作本身就是一项技能。此工作流程展示了设计人员如何塑造新的临时访问功能，而 Figma 代理处理库更新、关键反馈和设计系统规范的初稿。",
+        "使用单独的氛围编码工具可以让探索感觉像是一项单独的练习，我们从设计师那里得知，他们希望有空间进行视觉构建、比较替代方案以及与团队一起研究想法。",
+        "代码层 在画布上与代码层一起设计 今天，代码层进入公开测试版。现在，团队可以在画布上探索和构建由代码支持的原型。",
+        "以下是 Uber、Granola 和 Atlassian 的团队如何利用 Figma 代理支持高质量、快速发展的工作，该代理现已普遍可用。",
+        "在 Figma 画布上详细了解代码的力量。",
+        "在此示例中，我们跟踪一位设计师，他们向名为 Pickup 的虚构市场应用程序添加了一个新按钮。该按钮允许用户在 Pickup 的地图视图中选择其送货地址，该地址已存在于应用程序中。设计师可以在单独的编码工具中探索不同的版本，并向团队发送链接以进行尝试。但在不同的地方探索不同的选择意味着比较细节和建立队友的想法需要更多的来回。为了更好地与团队合作，他们将应用程序的代码带到 Figma 画布上，在那里他们可以并排尝试替代方案，完善设计，并将不同团队成员探索的元素组合到一个工作原型中。",
+        "设计师首先将地图视图的代码作为代码层放到 Figma 画布上。这使他们能够在应用程序的现有地图屏幕上添加和测试交付功能。",
+        "创建代码层有多种方法：",
+        "如果您的 PRD 位于 Notion 中，请使用 Notion 连接器与 Figma 代理共享它，然后要求代理根据这些要求构建代码层。"
+      ],
+      "highlights": [
+        "将代码放到画布上为团队提供了一个共享空间，可以并排比较工作原型、完善方向并与队友就想法进行协作。此工作流程展示了设计人员如何使用代码层和 Figma 代理来探索",
+        "欢迎来到工作流程实验室，我们在这里展示了一个示例工作流程 工作流程实验室：与 Figma 的代理保持工作流程 了解要交给代理的工作本身就是一项技能。此工作流程展",
+        "使用单独的氛围编码工具可以让探索感觉像是一项单独的练习，我们从设计师那里得知，他们希望有空间进行视觉构建、比较替代方案以及与团队一起研究想法。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Workflow Lab: Build With Code on the Canvas Using the Figma Agent and Code Layers | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-11-04",
+      "categoryIds": [
+        "vertical-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/workflow-lab-build-with-code-on-the-canvas-using-the-figma-agent-and-code-layers/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Workflow Lab: Build With Code on the Canvas Using the Figma Agent and Code Layers | Figma Blog"
+      },
+      "raw": {
+        "title": "Workflow lab: Test ideas with code layers and the Figma agent",
+        "url": "https://www.figma.com/blog/workflow-lab-build-with-code-on-the-canvas-using-the-figma-agent-and-code-layers/",
+        "fetched": true,
+        "savedAt": "2026-11-05T04:43:26.910Z"
+      }
+    },
+    {
+      "id": "sig-1ada682096",
+      "title": "Workflow SDK 添加幂等启动 - Vercel",
+      "oneLiner": "Workflow SDK 的 start() 函数现在可以在一个原子步骤中承认一次运行并声明一个挂钩。重复的工作流程启动会安全失败。原子开始取代了之前的 getHookByToken() -then- start() 模式，该模式在查找和开",
+      "summary": {
+        "oneSentence": "Workflow SDK 的 start() 函数现在可以在一个原子步骤中承认一次运行并声明一个挂钩。重复的工作流程启动会安全失败。原子开始取代了之前的 getHookByToken() -then- start() 模式，该模式在查找和开",
+        "bullets": [
+          "Workflow SDK 的 start() 函数现在可以在一个原子步骤中承认一次运行并声明一个挂钩。重复的工作流程启动会安全失败。原子开始取代了之前的 getHookByToken() -then- start() 模式，该模式在查找和开始之间留下了记录的重复开始竞赛。",
+          "app/api/orders/route.ts 1 从“workflow/api”导入{resumeHook,start}； 2 从“工作流程/错误”导入 { HookConflictError } ； 3 从“./workflows/process-order”导入{processOrder}； 4 5 导出异步函数",
+          "将链接复制到标题 订阅运行内的消息 声明的 Hook 从运行被允许的那一刻起就存在，因此，resumeHook 甚至在运行开始执行之前就可以工作，并且早期的有效负载会按顺序缓冲和传递。在工作流程中，具有相同令牌的 createHook({ token }) 绑定到已声明的钩子：保证，不注册任何新内容，不添加任何步骤，并",
+          "workflows/process-order.ts 1 从“workflow”导入 { createHook } ； 2 3 type OrderUpdate = { 注意：字符串 } ; 4 5 导出异步函数 processOrder ( orderId : string , note : string ) { 6"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 4,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Workflow SDK 的 start() 函数现在可以在一个原子步骤中承认一次运行并声明一个挂钩。重复的工作流程启动会安全失败。原子开始取代了之前的 getHookByToken() -then- start() 模式，该模式在查找和开",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/atomic-start-hooks-in-the-workflow-sdk"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Workflow SDK 的 start() 函数现在可以在一个原子步骤中承认一次运行并声明一个挂钩。重复的工作流程启动会安全失败。原子开始取代了之前的 getHookByToken() -then- start() 模式，该模式在查找和开始之间留下了记录的重复开始竞赛。",
+        "app/api/orders/route.ts 1 从“workflow/api”导入{resumeHook,start}； 2 从“工作流程/错误”导入 { HookConflictError } ； 3 从“./workflows/process-order”导入{processOrder}； 4 5 导出异步函数 POST(request:Request){6const{orderId,note}=等待请求。 json(); 7 const token = ` order: ${ orderId } ` ; 8 9 try { 10 const run=await start(processOrder,[orderId,note],{11experimental_hook:{token},12}); 13 返回响应。 json({ runId : run .runId ,started : true } ) ; 14 } catch (error) { 15 if (!HookConflictError.is(error)) throw error; 16 // 将副本的有效负载路由到拥有令牌的运行 17 const hook = waitresumeHook ( token , { note } ) ; 18 返回响应。 json({ runId : hook . runId ,started : false } ) ; 19 } 20 } 幂等地启动运行并将副本的有效负载路由到已拥有令牌的运行",
+        "将链接复制到标题 订阅运行内的消息 声明的 Hook 从运行被允许的那一刻起就存在，因此，resumeHook 甚至在运行开始执行之前就可以工作，并且早期的有效负载会按顺序缓冲和传递。在工作流程中，具有相同令牌的 createHook({ token }) 绑定到已声明的钩子：保证，不注册任何新内容，不添加任何步骤，并将 getConflict() 解析为 null 。",
+        "workflows/process-order.ts 1 从“workflow”导入 { createHook } ； 2 3 type OrderUpdate = { 注意：字符串 } ; 4 5 导出异步函数 processOrder ( orderId : string , note : string ) { 6 \"使用工作流程\" ; 7 8等待recordNote(orderId, note); 9 10 // 绑定到开始时声明的钩子：不可能发生冲突，没有额外的步骤 11 const update = createHook < OrderUpdate > ( { token : ` order: ${ orderId } ` } ) ; 12 for wait (const update of update) { 13 wait recordNote(orderId, update.note); 14 } 15 } 绑定到运行中的 start Hook 以按顺序消耗有效负载",
+        "将链接复制到标题幂等性，无需额外代码该令牌是幂等性密钥，它来自您自己的域：订单 ID、发票 ID、导入 ID 或请求 ID。令牌本身就保证了幂等性。恰好有一个运行拥有它，重复的 start() 会抛出 HookConflictError 并携带所有者的冲突运行 ID，并且永远不会成为运行。工作流程根本不必打开挂钩，如果从不打开挂钩，则令牌只是一个幂等性密钥，运行会正常完成。",
+        "设置experimental_minRetention会在运行结束后保持令牌不可用，从start()开始计算，因此后期的重复仍然会被拒绝。",
+        "升级到工作流程 5.4.0 并阅读幂等性文档以开始使用。"
+      ],
+      "highlights": [
+        "Workflow SDK 的 start() 函数现在可以在一个原子步骤中承认一次运行并声明一个挂钩。重复的工作流程启动会安全失败。原子开始取代了之前的 get",
+        "app/api/orders/route.ts 1 从“workflow/api”导入{resumeHook,start}； 2 从“工作流程/错误”导入 { ",
+        "将链接复制到标题 订阅运行内的消息 声明的 Hook 从运行被允许的那一刻起就存在，因此，resumeHook 甚至在运行开始执行之前就可以工作，并且早期的有效"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Workflow SDK adds idempotent starts - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-04",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/atomic-start-hooks-in-the-workflow-sdk",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Workflow SDK adds idempotent starts - Vercel"
+      },
+      "raw": {
+        "title": "Workflow SDK adds idempotent starts",
+        "url": "https://vercel.com/changelog/atomic-start-hooks-in-the-workflow-sdk",
+        "fetched": true,
+        "savedAt": "2026-11-05T04:43:33.962Z"
+      }
+    },
+    {
+      "id": "sig-16f9590165",
+      "title": "Kimi K3.1 Pro 现在在 AI Gateway 上拥有更多 ZDR 提供商 - Vercel",
+      "oneLiner": "Kimi K3.1 Pro 及其更高速度版本 Kimi K3.1 Pro Highspeed 现已在更多零数据保留 (ZDR) 提供商的 AI Gateway 上提供。直到今天，Moonshot AI 是唯一一家为这两种模型提供服务的提供商",
+      "summary": {
+        "oneSentence": "Kimi K3.1 Pro 及其更高速度版本 Kimi K3.1 Pro Highspeed 现已在更多零数据保留 (ZDR) 提供商的 AI Gateway 上提供。直到今天，Moonshot AI 是唯一一家为这两种模型提供服务的提供商",
+        "bullets": [
+          "Kimi K3.1 Pro 及其更高速度版本 Kimi K3.1 Pro Highspeed 现已在更多零数据保留 (ZDR) 提供商的 AI Gateway 上提供。直到今天，Moonshot AI 是唯一一家为这两种模型提供服务的提供商。",
+          "K3.1 Pro 在编码、3D 建模和财务分析方面改进了早期的 Kimi 模型，并且可以进行从小修复到完整项目的长时间代理运行。两种模型都有一个 1M 令牌上下文窗口并接受图像输入，并且 Highspeed 适合交互式工作，例如编码代理，其中响应时间很重要。",
+          "通过 AI SDK 、 Chat Completions 、 Responses 和 Anthropic Messages API 或连接到 AI Gateway 的编码代理调用任一模型。对于 Highspeed，请使用 Moonshotai/kimi-k3.1-pro-highspeed 代替下面的型号名称。",
+          "使用 Moonshotai/kimi-k3.1-pro 作为型号名称："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Kimi K3.1 Pro 及其更高速度版本 Kimi K3.1 Pro Highspeed 现已在更多零数据保留 (ZDR) 提供商的 AI Gateway 上提供。直到今天，Moonshot AI 是唯一一家为这两种模型提供服务的提供商",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/kimi-k3-1-pro-now-has-more-zdr-providers-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Kimi K3.1 Pro 及其更高速度版本 Kimi K3.1 Pro Highspeed 现已在更多零数据保留 (ZDR) 提供商的 AI Gateway 上提供。直到今天，Moonshot AI 是唯一一家为这两种模型提供服务的提供商。",
+        "K3.1 Pro 在编码、3D 建模和财务分析方面改进了早期的 Kimi 模型，并且可以进行从小修复到完整项目的长时间代理运行。两种模型都有一个 1M 令牌上下文窗口并接受图像输入，并且 Highspeed 适合交互式工作，例如编码代理，其中响应时间很重要。",
+        "通过 AI SDK 、 Chat Completions 、 Responses 和 Anthropic Messages API 或连接到 AI Gateway 的编码代理调用任一模型。对于 Highspeed，请使用 Moonshotai/kimi-k3.1-pro-highspeed 代替下面的型号名称。",
+        "使用 Moonshotai/kimi-k3.1-pro 作为型号名称：",
+        "API Claude Code fx 聊天完成 API API Claude Code Claude Code fx fx 聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 3 const result = streamText ( { 4 model : 'moonshotai/kimi-k3.1-pro' , 5prompt : '编写一个从日志行编辑电子邮件地址的 Python 函数。' , 6providerOptions : { 7gateway : { 8zeroDataRetention : true , 9 } , 10 } , 11 } ) ;复制代理查看模型详细信息 ↗ 在网关提供程序选项中设置 ZeroDataRetention 需要 ZDR 来满足该请求。要为您的团队发送的每个请求（包括来自编码代理的请求）都需要它，请在 AI Gateway 仪表板设置中打开 ZDR。无论启用其中哪一项，AI Gateway 都仅路由至具有 ZDR 协议的提供商。如果模型没有可用的，则请求将失败，而不是转到没有模型的提供者。",
+        "要在 Claude Code、Codex、Cursor 等中使用它，请安装最新的 Vercel CLI 并运行安装程序：",
+        "# 升级到最新版本的 Vercel CLI pnpm i -g vercel@latest # 运行编码代理设置命令 vercel ai-gatewaycoding-agents setup 然后在代理中选择 Moonshotai/kimi-k3.1-pro 或 Moonshotai/kimi-k3.1-pro-highspeed。有关详细信息，请参阅编码代理指南。",
+        "在模型游乐场试用 Kimi K3.1 Pro。",
+        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本，以及配置重试、故障转移和性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、零数据保留支持、API 密钥预算、路由规则等。",
+        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。"
+      ],
+      "highlights": [
+        "Kimi K3.1 Pro 及其更高速度版本 Kimi K3.1 Pro Highspeed 现已在更多零数据保留 (ZDR) 提供商的 AI Gateway ",
+        "K3.1 Pro 在编码、3D 建模和财务分析方面改进了早期的 Kimi 模型，并且可以进行从小修复到完整项目的长时间代理运行。两种模型都有一个 1M 令牌上下",
+        "通过 AI SDK 、 Chat Completions 、 Responses 和 Anthropic Messages API 或连接到 AI Gatewa"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Kimi K3.1 Pro now has more ZDR providers on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-04",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/kimi-k3-1-pro-now-has-more-zdr-providers-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Kimi K3.1 Pro now has more ZDR providers on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Kimi K3.1 Pro now has more ZDR providers on AI Gateway",
+        "url": "https://vercel.com/changelog/kimi-k3-1-pro-now-has-more-zdr-providers-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-11-05T04:43:46.376Z"
+      }
+    },
+    {
+      "id": "sig-98d4c4a40e",
+      "title": "Figma 如何大规模管理沙箱 | Figma 博客",
+      "oneLiner": "Figma 的 AI 产品需要数以万计的沙箱才能安全地运行不受信任的代码。这就是我们构建 Nimbus 的原因：一个使沙箱快速、可靠且易于 Figma 产品团队和运营商管理的平台。",
+      "summary": {
+        "oneSentence": "Figma 的 AI 产品需要数以万计的沙箱才能安全地运行不受信任的代码。这就是我们构建 Nimbus 的原因：一个使沙箱快速、可靠且易于 Figma 产品团队和运营商管理的平台。",
+        "bullets": [
+          "Figma 的 AI 产品需要数以万计的沙箱才能安全地运行不受信任的代码。这就是我们构建 Nimbus 的原因：一个使沙箱快速、可靠且易于 Figma 产品团队和运营商管理的平台。",
+          "Figma 用户使用代理等 AI 工具的速度比以往任何时候都快 Figma 设计代理就在这里 从今天开始，直接在画布上使用专为 Figma 构建的代理。",
+          "今天，我们推出 Figma Make，这是一种新的应用程序提示功能，可帮助您快速探索、迭代和完善 — 无论是生成高保真原型还是深入设计和代码的细节。",
+          "在这个由三部分组成的系列中，我们的安全工程团队分享了部署和操作应用程序沙箱技术的实用技巧。首先：评估许多沙箱选项，以及如何考虑它们之间的权衡。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Figma 官网发布：Figma 的 AI 产品需要数以万计的沙箱才能安全地运行不受信任的代码。这就是我们构建 Nimbus 的原因：一个使沙箱快速、可靠且易于 Figma 产品团队和运营商管理的平台。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://www.figma.com/blog/how-figma-manages-sandboxes-at-scale/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Figma 的 AI 产品需要数以万计的沙箱才能安全地运行不受信任的代码。这就是我们构建 Nimbus 的原因：一个使沙箱快速、可靠且易于 Figma 产品团队和运营商管理的平台。",
+        "Figma 用户使用代理等 AI 工具的速度比以往任何时候都快 Figma 设计代理就在这里 从今天开始，直接在画布上使用专为 Figma 构建的代理。",
+        "今天，我们推出 Figma Make，这是一种新的应用程序提示功能，可帮助您快速探索、迭代和完善 — 无论是生成高保真原型还是深入设计和代码的细节。",
+        "在这个由三部分组成的系列中，我们的安全工程团队分享了部署和操作应用程序沙箱技术的实用技巧。首先：评估许多沙箱选项，以及如何考虑它们之间的权衡。",
+        "去年年底，随着 Figma 确定范围并交付更多人工智能功能，我们意识到我们很快将管理多个 Figma 产品中的数万个沙箱，所有沙箱都有不同的内存和网络权限要求。我们知道我们需要一种方法来大规模解决这些复杂性。",
+        "因此，我们构建了一个用于管理沙箱的集中式平台，我们称之为 Nimbus。通过简单的 API 接口，Nimbus 使 Figma 的任何工程师都可以轻松创建、重用、监控和删除沙箱。它处理所有特定于提供商的细节，例如资源分配和网络安全，因此我们的产品团队不必这样做，并且使我们能够灵活地添加新的提供商（或自行开发的基础设施），而无需团队更改其工作流程。",
+        "以下是 Nimbus 的工作原理，以及它在 Figma 中的用途。",
+        "为了请求沙箱，Figma 产品（例如代理）提供了一个配置文件，我们称之为命名空间。给定一个命名空间，Nimbus 控制平面会选择一个提供者，分配指定的资源，应用相关的网络和安全策略，并管理沙箱生命周期。",
+        "Nimbus 使用 sandbox-base 来配置每个沙箱，该基础映像为每个沙箱提供跨提供商的相同启动环境。在每个沙箱内，Nimbus 还运行 sandboxd，这是一个平台守护进程，用于启动和监督工作负载进程、管理网络侦听器和身份验证、运行运行状况检查、报告指标以及处理关闭。由于 sandboxd 拥有进程树，因此还提供对沙箱 CPU、内存和网络使用情况的可观察性，帮助团队监控资源消耗并诊断意外故障，例如内存不足崩溃。",
+        "我们设计 Nimbus 时考虑到以下要求："
+      ],
+      "highlights": [
+        "Figma 的 AI 产品需要数以万计的沙箱才能安全地运行不受信任的代码。这就是我们构建 Nimbus 的原因：一个使沙箱快速、可靠且易于 Figma 产品团队",
+        "Figma 用户使用代理等 AI 工具的速度比以往任何时候都快 Figma 设计代理就在这里 从今天开始，直接在画布上使用专为 Figma 构建的代理。",
+        "今天，我们推出 Figma Make，这是一种新的应用程序提示功能，可帮助您快速探索、迭代和完善 — 无论是生成高保真原型还是深入设计和代码的细节。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How Figma Manages Sandboxes at Scale | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-11-04",
+      "categoryIds": [
+        "vertical-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/how-figma-manages-sandboxes-at-scale/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How Figma Manages Sandboxes at Scale | Figma Blog"
+      },
+      "raw": {
+        "title": "How Figma manages sandboxes at scale",
+        "url": "https://www.figma.com/blog/how-figma-manages-sandboxes-at-scale/",
+        "fetched": true,
+        "savedAt": "2026-11-05T04:43:57.611Z"
+      }
+    },
+    {
+      "id": "sig-3a06f84c0f",
+      "title": "OpenAI 将收购 Pierre Computer Company, Inc.",
+      "oneLiner": "OpenAI 将收购 Pierre Computer Company，扩展 Codex 用于构建、理解和审查代码的工具。",
+      "summary": {
+        "oneSentence": "OpenAI 将收购 Pierre Computer Company，扩展 Codex 用于构建、理解和审查代码的工具。",
+        "bullets": [
+          "OpenAI 将收购 Pierre Computer Company，扩展 Codex 用于构建、理解和审查代码的工具。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 将收购 Pierre Computer Company，扩展 Codex 用于构建、理解和审查代码的工具。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/openai-to-acquire-pierre"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 将收购 Pierre Computer Company，扩展 Codex 用于构建、理解和审查代码的工具。"
+      ],
+      "highlights": [
+        "OpenAI 将收购 Pierre Computer Company，扩展 Codex 用于构建、理解和审查代码的工具。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "originalLang": "en",
+      "date": "2026-11-04",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/openai-to-acquire-pierre",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "OpenAI to acquire Pierre Computer Company, Inc."
+      },
+      "raw": {
+        "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+        "url": "https://openai.com/index/openai-to-acquire-pierre",
+        "fetched": false,
+        "savedAt": "2026-11-05T04:43:58.829Z"
+      }
+    },
+    {
+      "id": "sig-dfaa3a3041",
+      "title": "修复语音转文本准确性问题：原因和解决方案",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 获取 API 密钥 了解更多 在此页面",
+          "语音转文本 (STT) 的准确性取决于三个因素：音频的质量、人们说话的方式以及他们使用的词语。噪音和沉重的压缩会剥夺录音中的细节，即使是实力强劲的模特也会因重叠的声音或不熟悉的行话而苦苦挣扎。本指南展示了每个 STT 问题的根源以及如何解决它。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/fix-speech-to-text-accuracy-problems"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem; } 跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 获取 API 密钥 了解更多 博客资源 通过更智能的工作流程修复语音到文本的准确性问题 作者：Jack Limebear 发布于 2026 年 11 月 4 日 最后更新于 2026 年 11 月 5 日 收听 收听本文",
+        "0:00 1.0x 获取 API 密钥 了解更多 在此页面",
+        "语音转文本 (STT) 的准确性取决于三个因素：音频的质量、人们说话的方式以及他们使用的词语。噪音和沉重的压缩会剥夺录音中的细节，即使是实力强劲的模特也会因重叠的声音或不熟悉的行话而苦苦挣扎。本指南展示了每个 STT 问题的根源以及如何解决它。",
+        "抄写错误很少会保留在抄本中。临床记录中听错的药物名称或通话记录中错误的帐号会进入使用该文本的每个系统，从搜索和分析到根据所说内容采取行动的人工智能代理。准确性差也会增加审阅时间，因为必须有人手动查找并纠正错误。",
+        "好消息是大多数 STT 准确性问题都是可以解决的。其中许多修复只需要对现有配置或记录设置进行轻微更改，这意味着您无需更改模型设置即可解决问题。",
+        "您可能还会看到这个主题，称为语音识别准确性、ASR 准确性或转录准确性。语音转文本、语音识别和自动语音识别 (ASR) 都描述了将口头音频转换为书面文本的相同过程。无论您使用哪个术语，本指南中的修复均适用。",
+        "想象一下，有人要求你转录一位口音浓重的教授描述复杂的理论物理的录音，录音是在一家拥挤的餐厅里录制的，背景音乐和周围的聊天声。数字计算机系统本身并不适应声学变化。需要大量的培训和微调才能使 STT 有效发挥作用，虽然现代人工智能工具非常有效，但许多问题仍然会影响输出。但通过了解它们是什么，您可以在转录工作流程中解决它们。",
+        "语音转文本不准确的主要原因有以下三个：",
+        "每个原因都需要不同的解决方案，下面的部分将依次介绍。"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 获取 API 密钥 了解更多 在此页面"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Fix Speech to Text Accuracy Problems: Causes and Solutions",
+      "originalLang": "en",
+      "date": "2026-11-04",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/fix-speech-to-text-accuracy-problems",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Fix Speech to Text Accuracy Problems: Causes and Solutions"
+      },
+      "raw": {
+        "title": "Fix speech to text accuracy problems with a smarter workflow",
+        "url": "https://elevenlabs.io/blog/fix-speech-to-text-accuracy-problems",
+        "fetched": true,
+        "savedAt": "2026-11-05T04:44:11.258Z"
+      }
+    },
+    {
+      "id": "sig-a239c4a012",
+      "title": "人工智能语音代理定价：成本以及如何规划",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 了解更多 联系销售人员 本页",
+          "AI 语音代理定价取决于三个项目：运行代理的平台、为每次对话提供支持的大型语言模型 (LLM) 以及连接您的呼叫的电话提供商。大多数定价页面都会包含每月计划费用，但该费用仅涵盖这三项中的第一项。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/ai-voice-agent-pricing-guide"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem; } 跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 了解更多信息 联系销售人员 博客资源 AI 语音代理定价：您的业务成本 撰写者：Jack Limebear 发布于 2026 年 11 月 4 日 听 听这篇文章",
+        "0:00 1.0x 了解更多 联系销售人员 本页",
+        "AI 语音代理定价取决于三个项目：运行代理的平台、为每次对话提供支持的大型语言模型 (LLM) 以及连接您的呼叫的电话提供商。大多数定价页面都会包含每月计划费用，但该费用仅涵盖这三项中的第一项。",
+        "本指南介绍了 AI 语音代理定价的工作原理、每分钟价格的确定因素以及如何根据当前员工成本计算投资回报率。",
+        "我们自始至终都使用真实的 ElevenAgents 定价，因此您可以根据具体数字进行规划。",
+        "ElevenAgents 使用分层月度计划。每个层级都包含一定数量的通话分钟数、并发通话限制以及随团队规模扩展的功能。",
+        "工作流程构建器、知识库、小部件",
+        "10 个工作区座位、10 个专业语音克隆",
+        "自定义 DPA 和 SLA、HIPAA 客户的 BAA、自定义 SSO、大规模折扣"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 了解更多 联系销售人员 本页"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "AI voice agent pricing: What it costs and how to plan",
+      "originalLang": "en",
+      "date": "2026-11-04",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/ai-voice-agent-pricing-guide",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "AI voice agent pricing: What it costs and how to plan"
+      },
+      "raw": {
+        "title": "AI voice agent pricing: What it costs for your business",
+        "url": "https://elevenlabs.io/blog/ai-voice-agent-pricing-guide",
+        "fetched": true,
+        "savedAt": "2026-11-05T04:44:21.761Z"
+      }
+    },
+    {
+      "id": "sig-e28316334a",
+      "title": "ElevenAgents 与顶级联络中心平台集成",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 了解更多 联系本页的销售人员",
+          "企业现在可以在他们已经运行的联络中心、他们已经信任的呼叫流程中添加自然、响应迅速的语音代理。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 4,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/elevenagents-contact-center-integrations"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem; } 跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 了解更多信息 联系销售博客 产品 ElevenAgents 与领先的联络中心平台本地集成，提供企业就绪的座席 作者：Jacob Simonov Alanna Brown 发布于 2026 年 11 月 4 日 收听 收听本文",
+        "0:00 1.0x 了解更多 联系本页的销售人员",
+        "企业现在可以在他们已经运行的联络中心、他们已经信任的呼叫流程中添加自然、响应迅速的语音代理。",
+        "大多数企业花费了十年或更长时间来构建其联络中心堆栈。他们的电话、路由、合规记录和客户关系管理 (CRM) 系统均根据业务进行调整并接受监管机构的审核。每天都有成千上万的现场代理依赖该堆栈。",
+        "ElevenAgents 现在与四个领先的联络中心平台本地集成：NiCE CXone、Genesys Cloud、Amazon Connect 和 Five9。它们共同为全球大部分企业联络中心提供支持。对于任何其他平台，ElevenAgents 通过会话启动协议 (SIP) 进行连接。借助 ElevenAgents，企业可以解决重复呼叫并自动化手动工作，而无需更改底层堆栈。",
+        "CXone 是企业将人类和人工智能代理聚集在一起的地方，开放的生态系统使这种方式变得更加强大。我们与 ElevenLabs 的原生集成为联合客户提供了另一种方式来扩展其 CXone 环境，在他们已经运行的呼叫流程、路由和报告中进行扩展。",
+        "ElevenAgents 可以保持较短的响应时间，优雅地处理中断，并准确地理解呼叫者，即使有背景噪音、口音或复杂的字母数字信息。其核心是根据我们自己的音频研究构建的语音堆栈，将转录、语音和轮流调整为一个系统，我们的最新模型可以自动使用。企业可以从超过 17,000 种声音中进行选择，或者创建自己的品牌声音，支持 90 多种语言。 ElevenAgents 通过本机联络中心即服务 (CCaaS) 集成或标准 SIP 中继无缝连接到您的联络中心。它在您已经运行的呼叫流程中工作。您的联络中心在呼叫开始时将上下文传递给座席。然后，客服人员会验证呼叫者，完成任务，例如重新安排预约或提出索赔，并将结果记录在您的 CRM 中。",
+        "如果呼叫者询问某人，客服人员会通过您现有的路由并提供完整的上下文将呼叫转回，因此无需任何人重复。同一个代理还可以跨其他渠道工作，包括聊天。无论客户到达哪里，他们都会获得一致的体验。",
+        "经过深入评估后，我们选择 ElevenLabs 来原型设计、构建和托管我们的 AI 语音代理。 Genesys 已经是我们的电话平台，因此本机集成是我们做出决定的一个重要因素。它使我们能够在团队已经使用的系统的基础上进行构建，同时为患者保持自然的体验以及临床治理和安全医疗保健所需的体验，"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 了解更多 联系本页的销售人员"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "ElevenAgents integrates with top contact center platforms",
+      "originalLang": "en",
+      "date": "2026-11-04",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/elevenagents-contact-center-integrations",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "ElevenAgents integrates with top contact center platforms"
+      },
+      "raw": {
+        "title": "ElevenAgents integrates natively with leading contact center platforms to deliver enterprise-ready agents",
+        "url": "https://elevenlabs.io/blog/elevenagents-contact-center-integrations",
+        "fetched": true,
+        "savedAt": "2026-11-05T04:44:34.423Z"
+      }
+    },
+    {
+      "id": "sig-a4f4c423c5",
+      "title": "减少一千条通往根的路径",
+      "oneLiner": "OpenAI 构建了一个自主管道，可以发现、验证并生成 Linux 内核中 948 个本地权限提升漏洞的补丁。",
+      "summary": {
+        "oneSentence": "OpenAI 构建了一个自主管道，可以发现、验证并生成 Linux 内核中 948 个本地权限提升漏洞的补丁。",
+        "bullets": [
+          "OpenAI 构建了一个自主管道，可以发现、验证并生成 Linux 内核中 948 个本地权限提升漏洞的补丁。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 构建了一个自主管道，可以发现、验证并生成 Linux 内核中 948 个本地权限提升漏洞的补丁。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/a-thousand-fewer-paths-to-root"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 构建了一个自主管道，可以发现、验证并生成 Linux 内核中 948 个本地权限提升漏洞的补丁。"
+      ],
+      "highlights": [
+        "OpenAI 构建了一个自主管道，可以发现、验证并生成 Linux 内核中 948 个本地权限提升漏洞的补丁。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "A thousand fewer paths to root",
+      "originalLang": "en",
+      "date": "2026-11-04",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "A thousand fewer paths to root"
+      },
+      "raw": {
+        "title": "A thousand fewer paths to root",
+        "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+        "fetched": false,
+        "savedAt": "2026-11-05T04:44:35.607Z"
+      }
+    },
+    {
+      "id": "sig-75679f5aa6",
+      "title": "Daybreak Red 现已在 AWS GovCloud（美国东部）推出",
+      "oneLiner": "Daybreak Red 通过 Amazon Bedrock 将 GPT-5.6 Cyber​​ 带给 AWS GovCloud（美国东部）的批准客户，以进行授权的网络安全工作。",
+      "summary": {
+        "oneSentence": "Daybreak Red 通过 Amazon Bedrock 将 GPT-5.6 Cyber​​ 带给 AWS GovCloud（美国东部）的批准客户，以进行授权的网络安全工作。",
+        "bullets": [
+          "Daybreak Red 通过 Amazon Bedrock 将 GPT-5.6 Cyber​​ 带给 AWS GovCloud（美国东部）的批准客户，以进行授权的网络安全工作。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：Daybreak Red 通过 Amazon Bedrock 将 GPT-5.6 Cyber​​ 带给 AWS GovCloud（美国东部）的批准客户，以进行授权的网络安全工作。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/daybreak-red-aws-govcloud"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Daybreak Red 通过 Amazon Bedrock 将 GPT-5.6 Cyber​​ 带给 AWS GovCloud（美国东部）的批准客户，以进行授权的网络安全工作。"
+      ],
+      "highlights": [
+        "Daybreak Red 通过 Amazon Bedrock 将 GPT-5.6 Cyber​​ 带给 AWS GovCloud（美国东部）的批准客户，以进行授"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "originalLang": "en",
+      "date": "2026-11-04",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Daybreak Red is now available in AWS GovCloud (US-East)"
+      },
+      "raw": {
+        "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+        "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+        "fetched": false,
+        "savedAt": "2026-11-05T04:44:36.786Z"
+      }
+    },
     {
       "id": "sig-66a947a7e4",
       "title": "Angle Health 通过 ElevenLabs 解决了 90% 的提供商呼叫",
@@ -13426,7 +14233,7 @@
         "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
         "fetched": true,
         "savedAt": "2026-10-17T02:36:45.886Z",
-        "retranslatedAt": "2026-11-04T04:29:00.171Z"
+        "retranslatedAt": "2026-11-05T04:44:37.894Z"
       }
     },
     {
@@ -17024,7 +17831,7 @@
         "url": "https://cursor.com/changelog/origin-app-marketplace",
         "fetched": true,
         "savedAt": "2026-10-14T03:08:22.474Z",
-        "retranslatedAt": "2026-11-04T04:29:01.297Z"
+        "retranslatedAt": "2026-11-05T04:44:39.147Z"
       }
     },
     {
@@ -22563,7 +23370,7 @@
         "url": "https://cursor.com/changelog/remote-control-local-agents",
         "fetched": true,
         "savedAt": "2026-10-11T03:27:39.323Z",
-        "retranslatedAt": "2026-11-04T04:29:02.448Z"
+        "retranslatedAt": "2026-11-05T04:44:40.189Z"
       }
     },
     {
@@ -31991,7 +32798,7 @@
         "url": "https://cursor.com/changelog/rollouts-and-security-reviewer",
         "fetched": true,
         "savedAt": "2026-09-27T03:09:42.462Z",
-        "retranslatedAt": "2026-11-04T04:29:03.466Z"
+        "retranslatedAt": "2026-11-05T04:44:41.262Z"
       }
     },
     {
@@ -33369,873 +34176,6 @@
         "url": "https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b",
         "fetched": false,
         "savedAt": "2026-10-06T04:22:59.813Z"
-      }
-    },
-    {
-      "id": "sig-f96e48a90d",
-      "title": "资料来源：平面设计师 Aitana Picó 希望我们认识到不良趋势 | Figma 博客",
-      "oneLiner": "这位多学科设计师兼艺术家分享了她的“心理数据库”中的内容：一张令人不快的塔罗牌、一张下体 CD 和一个反复出现的关于空中丝绸的梦想。",
-      "summary": {
-        "oneSentence": "这位多学科设计师兼艺术家分享了她的“心理数据库”中的内容：一张令人不快的塔罗牌、一张下体 CD 和一个反复出现的关于空中丝绸的梦想。",
-        "bullets": [
-          "这位多学科设计师兼艺术家分享了她的“心理数据库”中的内容：一张令人不快的塔罗牌、一张下体 CD 和一个反复出现的关于空中丝绸的梦想。",
-          "欢迎来到《Source Material》，这是一个每周系列，塑造文化的设计师和创意人员将分享塑造他们的参考资料。我们的下一位嘉宾是 Aitana Picó，她是一位数字设计师、创意技术专家和视觉艺术家，居住在柏林和巴伦西亚之间。",
-          "拍摄结束后，我们采访了 Aitana，了解了她的创作过程：",
-          "当您意识到“这可能是我的工作”时，您正在做什么？"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Figma 官网发布：这位多学科设计师兼艺术家分享了她的“心理数据库”中的内容：一张令人不快的塔罗牌、一张下体 CD 和一个反复出现的关于空中丝绸的梦想。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://www.figma.com/blog/source-material-aitana-pico/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "这位多学科设计师兼艺术家分享了她的“心理数据库”中的内容：一张令人不快的塔罗牌、一张下体 CD 和一个反复出现的关于空中丝绸的梦想。",
-        "欢迎来到《Source Material》，这是一个每周系列，塑造文化的设计师和创意人员将分享塑造他们的参考资料。我们的下一位嘉宾是 Aitana Picó，她是一位数字设计师、创意技术专家和视觉艺术家，居住在柏林和巴伦西亚之间。",
-        "拍摄结束后，我们采访了 Aitana，了解了她的创作过程：",
-        "当您意识到“这可能是我的工作”时，您正在做什么？",
-        "小时候，当我画画时，有人问我长大后想做什么。我不知道“艺术家”这个词，所以我说的是“平面设计师”，所以我必须坚持这个词。",
-        "当你坐下来工作时，你做的第一件事是什么？",
-        "我写了一张大清单，列出了当天需要做的所有事情，然后对此感到非常紧张。",
-        "你会带进坟墓的设计对象是什么？",
-        "老实说，这可能是我的 iPhone。",
-        "任何人显然都有一个奇怪而复杂的内心世界，并且能够将其带入现实生活。我首先想到的是罗伯特·瓦利（Robert Valley）、梅森·林德罗斯（Mason Lindroth）和纳迪亚·李·科恩（Nadia Lee Cohen）。"
-      ],
-      "highlights": [
-        "这位多学科设计师兼艺术家分享了她的“心理数据库”中的内容：一张令人不快的塔罗牌、一张下体 CD 和一个反复出现的关于空中丝绸的梦想。",
-        "欢迎来到《Source Material》，这是一个每周系列，塑造文化的设计师和创意人员将分享塑造他们的参考资料。我们的下一位嘉宾是 Aitana Picó，她",
-        "拍摄结束后，我们采访了 Aitana，了解了她的创作过程："
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Source Material: Graphic Designer Aitana Picó Wants Us to Appreciate Bad Trends | Figma Blog",
-      "originalLang": "en",
-      "date": "2026-09-21",
-      "categoryIds": [
-        "vertical-ui"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Figma",
-        "author": "Figma",
-        "url": "https://www.figma.com/blog/source-material-aitana-pico/",
-        "home": "https://www.figma.com/blog/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Source Material: Graphic Designer Aitana Picó Wants Us to Appreciate Bad Trends | Figma Blog"
-      },
-      "raw": {
-        "title": "Source material: Graphic designer Aitana Picó wants us to appreciate bad trends",
-        "url": "https://www.figma.com/blog/source-material-aitana-pico/",
-        "fetched": true,
-        "savedAt": "2026-09-22T02:52:42.268Z"
-      }
-    },
-    {
-      "id": "sig-844d348445",
-      "title": "Vercel Connect 现在支持 Microsoft Teams - Vercel",
-      "oneLiner": "Vercel Connect 现在包含适用于 Microsoft Teams 的托管连接器。创建一个为您的组织提供一个由您的应用程序和代理运行的 Teams 机器人。人们可以在频道中@提及它或直接向其发送消息，您的代码会接收消息并作为机器人",
-      "summary": {
-        "oneSentence": "Vercel Connect 现在包含适用于 Microsoft Teams 的托管连接器。创建一个为您的组织提供一个由您的应用程序和代理运行的 Teams 机器人。人们可以在频道中@提及它或直接向其发送消息，您的代码会接收消息并作为机器人",
-        "bullets": [
-          "Vercel Connect 现在包含适用于 Microsoft Teams 的托管连接器。创建一个为您的组织提供一个由您的应用程序和代理运行的 Teams 机器人。人们可以在频道中@提及它或直接向其发送消息，您的代码会接收消息并作为机器人进行回复。",
-          "作为 Vercel 托管连接器 ，Vercel 在租户中注册 Entra 应用和 Azure Bot 资源，因此无需存储客户端密钥。拥有 Azure 订阅的租户管理员只需完成一次设置。传入的团队活动经过验证并作为连接触发器转发到您的项目。",
-          "从仪表板或 Vercel CLI 创建连接器：",
-          "vc connect create microsoft-teams --name acme-teams --triggers 创建启用触发器的 Teams 连接器"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Vercel Connect 现在包含适用于 Microsoft Teams 的托管连接器。创建一个为您的组织提供一个由您的应用程序和代理运行的 Teams 机器人。人们可以在频道中@提及它或直接向其发送消息，您的代码会接收消息并作为机器人",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/vercel-connect-microsoft-teams"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Vercel Connect 现在包含适用于 Microsoft Teams 的托管连接器。创建一个为您的组织提供一个由您的应用程序和代理运行的 Teams 机器人。人们可以在频道中@提及它或直接向其发送消息，您的代码会接收消息并作为机器人进行回复。",
-        "作为 Vercel 托管连接器 ，Vercel 在租户中注册 Entra 应用和 Azure Bot 资源，因此无需存储客户端密钥。拥有 Azure 订阅的租户管理员只需完成一次设置。传入的团队活动经过验证并作为连接触发器转发到您的项目。",
-        "从仪表板或 Vercel CLI 创建连接器：",
-        "vc connect create microsoft-teams --name acme-teams --triggers 创建启用触发器的 Teams 连接器",
-        "设置连接器后，您的代码仅在需要令牌时才请求令牌。将其与 @vercel/connect SDK、eve 通道或 Chat SDK 适配器一起使用：",
-        "app/lib/post-to-teams.ts 从 '@vercel/connect' 导入 { getToken } ；导出异步函数 POST(request:Request){ const Activity = 等待请求。 json(); const token = wait getToken ( 'microsoft-teams/acme-teams' , { 主题 : { type : 'app' } , 范围 : [ 'https://api.botframework.com/.default' ] , } ) ; const botFramework = 活动 .服务网址。替换(/\\/$/,'');等待获取（`${botFramework}/v3/conversations/${activity.conversations.id}/activities/${activity.id}`，{method：'POST'，headers：{授权：`Bearer${token}`，'Content-Type'：'application/json'，}，body：JSON.stringify（{type： '消息'，来自：活动，接收者：活动，对话：活动，回复ID，文本：'你好朋友。', } ) , } , );返回新的响应（null，{状态：200}）；接收转发的 Teams 消息并通过 Bot Framework API 作为机器人进行回复",
-        "每个令牌的范围都符合您的请求并自动刷新，因此无需手动旋转。连接器仅在您将其附加到的环境中工作，并且您可以随时使用 vc connect revoke-tokens 撤销访问权限。",
-        "阅读 Vercel Connect 文档，查看 Vercel Connect 目录中有关 Teams 连接器的详细信息，或创建 Teams 连接器以开始使用。"
-      ],
-      "highlights": [
-        "Vercel Connect 现在包含适用于 Microsoft Teams 的托管连接器。创建一个为您的组织提供一个由您的应用程序和代理运行的 Teams 机",
-        "作为 Vercel 托管连接器 ，Vercel 在租户中注册 Entra 应用和 Azure Bot 资源，因此无需存储客户端密钥。拥有 Azure 订阅的租户",
-        "从仪表板或 Vercel CLI 创建连接器："
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Vercel Connect now supports Microsoft Teams - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-21",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/vercel-connect-microsoft-teams",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Vercel Connect now supports Microsoft Teams - Vercel"
-      },
-      "raw": {
-        "title": "Vercel Connect now supports Microsoft Teams",
-        "url": "https://vercel.com/changelog/vercel-connect-microsoft-teams",
-        "fetched": true,
-        "savedAt": "2026-09-22T02:52:49.918Z"
-      }
-    },
-    {
-      "id": "sig-029191da85",
-      "title": "部署现在显示计费持续时间和 CPU 分钟数 - Vercel",
-      "oneLiner": "部署现在会在仪表板、 vcspect 和 REST API 中显示其计费持续时间和 CPU 分钟数。使用它来了解每个构建如何对您的使用做出贡献。",
-      "summary": {
-        "oneSentence": "部署现在会在仪表板、 vcspect 和 REST API 中显示其计费持续时间和 CPU 分钟数。使用它来了解每个构建如何对您的使用做出贡献。",
-        "bullets": [
-          "部署现在会在仪表板、 vcspect 和 REST API 中显示其计费持续时间和 CPU 分钟数。使用它来了解每个构建如何对您的使用做出贡献。",
-          "计费持续时间是构建和构建后时间的总和，四舍五入到下一整分钟。 CPU 分钟数是该数字乘以计算机的 vCPU 数。",
-          "要从 CLI 查看相同的细分，请使用 npm i -g vercel@latest 更新到版本 59.23.1 或更高版本，然后运行 ​​vcspect ：",
-          "1 vc 检查 <部署> 2 3 持续时间 4 5 构建持续时间 5m 9s 6 构建后持续时间 3m 21s 7 计费持续时间 9m 8 CPU 分钟使用量 270 分钟 ( 9m x 30vCPU )"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：部署现在会在仪表板、 vcspect 和 REST API 中显示其计费持续时间和 CPU 分钟数。使用它来了解每个构建如何对您的使用做出贡献。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/deployments-now-show-billable-duration-and-cpu-minutes"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "部署现在会在仪表板、 vcspect 和 REST API 中显示其计费持续时间和 CPU 分钟数。使用它来了解每个构建如何对您的使用做出贡献。",
-        "计费持续时间是构建和构建后时间的总和，四舍五入到下一整分钟。 CPU 分钟数是该数字乘以计算机的 vCPU 数。",
-        "要从 CLI 查看相同的细分，请使用 npm i -g vercel@latest 更新到版本 59.23.1 或更高版本，然后运行 ​​vcspect ：",
-        "1 vc 检查 <部署> 2 3 持续时间 4 5 构建持续时间 5m 9s 6 构建后持续时间 3m 21s 7 计费持续时间 9m 8 CPU 分钟使用量 270 分钟 ( 9m x 30vCPU )",
-        "在文档中了解有关构建机器和 CPU 分钟数的更多信息。"
-      ],
-      "highlights": [
-        "部署现在会在仪表板、 vcspect 和 REST API 中显示其计费持续时间和 CPU 分钟数。使用它来了解每个构建如何对您的使用做出贡献。",
-        "计费持续时间是构建和构建后时间的总和，四舍五入到下一整分钟。 CPU 分钟数是该数字乘以计算机的 vCPU 数。",
-        "要从 CLI 查看相同的细分，请使用 npm i -g vercel@latest 更新到版本 59.23.1 或更高版本，然后运行 ​​vcspect ："
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Deployments now show billable duration and CPU minutes - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-21",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/deployments-now-show-billable-duration-and-cpu-minutes",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Deployments now show billable duration and CPU minutes - Vercel"
-      },
-      "raw": {
-        "title": "Deployments now show billable duration and CPU minutes",
-        "url": "https://vercel.com/changelog/deployments-now-show-billable-duration-and-cpu-minutes",
-        "fetched": true,
-        "savedAt": "2026-09-22T02:52:54.100Z"
-      }
-    },
-    {
-      "id": "sig-a7ca59844a",
-      "title": "数学与人工智能顾问小组",
-      "oneLiner": "OpenAI 正在与一个独立的数学和人工智能咨询小组合作，指导新兴人工智能成果的审查和交流。",
-      "summary": {
-        "oneSentence": "OpenAI 正在与一个独立的数学和人工智能咨询小组合作，指导新兴人工智能成果的审查和交流。",
-        "bullets": [
-          "OpenAI 正在与一个独立的数学和人工智能咨询小组合作，指导新兴人工智能成果的审查和交流。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：OpenAI 正在与一个独立的数学和人工智能咨询小组合作，指导新兴人工智能成果的审查和交流。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/advisory-group-on-mathematics-and-ai"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "OpenAI 正在与一个独立的数学和人工智能咨询小组合作，指导新兴人工智能成果的审查和交流。"
-      ],
-      "highlights": [
-        "OpenAI 正在与一个独立的数学和人工智能咨询小组合作，指导新兴人工智能成果的审查和交流。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Advisory Group on Mathematics and Artificial Intelligence",
-      "originalLang": "en",
-      "date": "2026-09-21",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Advisory Group on Mathematics and Artificial Intelligence"
-      },
-      "raw": {
-        "title": "Advisory Group on Mathematics and Artificial Intelligence",
-        "url": "https://openai.com/index/advisory-group-on-mathematics-and-ai",
-        "fetched": false,
-        "savedAt": "2026-09-22T02:52:55.375Z"
-      }
-    },
-    {
-      "id": "sig-d37f5b2c59",
-      "title": "Higgsfield AI 在 GPT-6 Astra 的一天内发布了新的视频功能",
-      "oneLiner": "借助 GPT-6 Astra，Higgsfield AI 使小型企业能够更轻松地制作视频广告，并更快地将新的创意工具推向市场。",
-      "summary": {
-        "oneSentence": "借助 GPT-6 Astra，Higgsfield AI 使小型企业能够更轻松地制作视频广告，并更快地将新的创意工具推向市场。",
-        "bullets": [
-          "借助 GPT-6 Astra，Higgsfield AI 使小型企业能够更轻松地制作视频广告，并更快地将新的创意工具推向市场。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：借助 GPT-6 Astra，Higgsfield AI 使小型企业能够更轻松地制作视频广告，并更快地将新的创意工具推向市场。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/higgsfield-from-prompt-to-production-with-astra"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "借助 GPT-6 Astra，Higgsfield AI 使小型企业能够更轻松地制作视频广告，并更快地将新的创意工具推向市场。"
-      ],
-      "highlights": [
-        "借助 GPT-6 Astra，Higgsfield AI 使小型企业能够更轻松地制作视频广告，并更快地将新的创意工具推向市场。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-      "originalLang": "en",
-      "date": "2026-09-21",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Higgsfield AI ships new video features in a day with GPT-6 Astra"
-      },
-      "raw": {
-        "title": "Higgsfield AI ships new video features in a day with GPT-6 Astra",
-        "url": "https://openai.com/index/higgsfield-from-prompt-to-production-with-astra",
-        "fetched": false,
-        "savedAt": "2026-09-22T02:52:56.867Z"
-      }
-    },
-    {
-      "id": "sig-2c9792fbb1",
-      "title": "为人工智能下一阶段制定标准",
-      "oneLiner": "OpenAI 概述了共享全球人工智能标准的路径，呼吁协调评估、报告和治理以提高安全性。",
-      "summary": {
-        "oneSentence": "OpenAI 概述了共享全球人工智能标准的路径，呼吁协调评估、报告和治理以提高安全性。",
-        "bullets": [
-          "OpenAI 概述了共享全球人工智能标准的路径，呼吁协调评估、报告和治理以提高安全性。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：OpenAI 概述了共享全球人工智能标准的路径，呼吁协调评估、报告和治理以提高安全性。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/building-standards-next-phase-ai"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "OpenAI 概述了共享全球人工智能标准的路径，呼吁协调评估、报告和治理以提高安全性。"
-      ],
-      "highlights": [
-        "OpenAI 概述了共享全球人工智能标准的路径，呼吁协调评估、报告和治理以提高安全性。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Building standards for the next phase of AI",
-      "originalLang": "en",
-      "date": "2026-09-21",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/building-standards-next-phase-ai",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Building standards for the next phase of AI"
-      },
-      "raw": {
-        "title": "Building standards for the next phase of AI",
-        "url": "https://openai.com/index/building-standards-next-phase-ai",
-        "fetched": false,
-        "savedAt": "2026-09-22T02:52:58.068Z"
-      }
-    },
-    {
-      "id": "sig-530db518a7",
-      "title": "通过新的学习路径扩展 OpenAI Academy",
-      "oneLiner": "为员工、开发人员、领导者、教育工作者和学生探索新的 OpenAI Academy 学习路径，以构建和展示实用的 AI 技能。",
-      "summary": {
-        "oneSentence": "为员工、开发人员、领导者、教育工作者和学生探索新的 OpenAI Academy 学习路径，以构建和展示实用的 AI 技能。",
-        "bullets": [
-          "为员工、开发人员、领导者、教育工作者和学生探索新的 OpenAI Academy 学习路径，以构建和展示实用的 AI 技能。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：为员工、开发人员、领导者、教育工作者和学生探索新的 OpenAI Academy 学习路径，以构建和展示实用的 AI 技能。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/expanding-openai-academy-with-new-learning-paths"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "为员工、开发人员、领导者、教育工作者和学生探索新的 OpenAI Academy 学习路径，以构建和展示实用的 AI 技能。"
-      ],
-      "highlights": [
-        "为员工、开发人员、领导者、教育工作者和学生探索新的 OpenAI Academy 学习路径，以构建和展示实用的 AI 技能。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Expanding OpenAI Academy with new learning paths",
-      "originalLang": "en",
-      "date": "2026-09-21",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Expanding OpenAI Academy with new learning paths"
-      },
-      "raw": {
-        "title": "Expanding OpenAI Academy with new learning paths",
-        "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
-        "fetched": false,
-        "savedAt": "2026-09-22T02:52:59.291Z"
-      }
-    },
-    {
-      "id": "sig-d1749ba76a",
-      "title": "V7 如何为人工智能代理提供机构记忆",
-      "oneLiner": "使用 GPT-5.6，V7 将分散的公司文件转换为上下文代理，可用于完成复杂的、与源相关的工作。",
-      "summary": {
-        "oneSentence": "使用 GPT-5.6，V7 将分散的公司文件转换为上下文代理，可用于完成复杂的、与源相关的工作。",
-        "bullets": [
-          "使用 GPT-5.6，V7 将分散的公司文件转换为上下文代理，可用于完成复杂的、与源相关的工作。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：使用 GPT-5.6，V7 将分散的公司文件转换为上下文代理，可用于完成复杂的、与源相关的工作。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/v7"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "使用 GPT-5.6，V7 将分散的公司文件转换为上下文代理，可用于完成复杂的、与源相关的工作。"
-      ],
-      "highlights": [
-        "使用 GPT-5.6，V7 将分散的公司文件转换为上下文代理，可用于完成复杂的、与源相关的工作。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "How V7 gives AI agents institutional memory",
-      "originalLang": "en",
-      "date": "2026-09-21",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/v7",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "How V7 gives AI agents institutional memory"
-      },
-      "raw": {
-        "title": "How V7 gives AI agents institutional memory",
-        "url": "https://openai.com/index/v7",
-        "fetched": false,
-        "savedAt": "2026-09-22T02:53:00.485Z"
-      }
-    },
-    {
-      "id": "sig-65b6a9f6ff",
-      "title": "AI Gateway 现在支持 TypeSafe 客户端和 Jev 的 HTTP API - Vercel",
-      "oneLiner": "除了 AI SDK 之外，您现在还可以使用现有的 TypeSafe 客户端或 HTTP API 通过 AI Gateway 从 TypeSafe AI 调用 Jev。",
-      "summary": {
-        "oneSentence": "除了 AI SDK 之外，您现在还可以使用现有的 TypeSafe 客户端或 HTTP API 通过 AI Gateway 从 TypeSafe AI 调用 Jev。",
-        "bullets": [
-          "除了 AI SDK 之外，您现在还可以使用现有的 TypeSafe 客户端或 HTTP API 通过 AI Gateway 从 TypeSafe AI 调用 Jev。",
-          "TypeSafe 客户端：将现有 TypeSafe 客户端指向 AI Gateway，而不更改其评估调用。",
-          "HTTP API：直接从任何语言或框架调用 Jev。",
-          "AI SDK：使用 AI SDK 从 TypeScript 应用程序调用 Jev。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：除了 AI SDK 之外，您现在还可以使用现有的 TypeSafe 客户端或 HTTP API 通过 AI Gateway 从 TypeSafe AI 调用 Jev。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/ai-gateway-now-supports-typesafe-clients-and-http-api-for-jev"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "除了 AI SDK 之外，您现在还可以使用现有的 TypeSafe 客户端或 HTTP API 通过 AI Gateway 从 TypeSafe AI 调用 Jev。",
-        "TypeSafe 客户端：将现有 TypeSafe 客户端指向 AI Gateway，而不更改其评估调用。",
-        "HTTP API：直接从任何语言或框架调用 Jev。",
-        "AI SDK：使用 AI SDK 从 TypeScript 应用程序调用 Jev。",
-        "Jev 是软件的概率决策模型。状态进入，输入的答案会附带概率，因此没有生成的文本可供解析。请求通过所有三个路径上的 AI Gateway 进行计费，因此它们在使用情况和可观察性方面与其他模型调用一起显示。",
-        "将链接复制到标题 迁移现有 TypeSafe 客户端 更改基本 URL 和 API 密钥。您的 systemOne 调用、noul 问题和响应形状保持原样。",
-        "1 从 '@typesafe-ai/sdk' 导入 { TypeSafeClient } ； 2 3 const client = new TypeSafeClient ({ 4 apiKey : process .env .AI_GATEWAY_API_KEY , 5 baseURL : 'https://ai-gateway.vercel.sh/typesafe' , 6 } ) ; 7 8 const 结果 = 等待客户端。 systemOne ( { 9 state : '代理修复了结帐错误并且所有测试都通过了。' , 10 个问题 : { 11 continueWorking : { 12 type : 'noul' , 13 instructions : '代理应该采取另一步骤吗？' , 14 } , 15 } , 16 } ) ; 17 18 const 应该继续 = 结果。答案。继续工作。努尔 >= 0.8 ;将现有 TypeSafe 客户端连接到 AI Gateway，而不更改其评估调用。",
-        "将链接复制到标题开始新集成新集成将模型命名为 typesafe-ai/jev 并询问三种问题类型之一：布尔返回从 0 到 1 的概率，选择从您指定的一组选项中选择一个选项，并根据您定义的范围进行评分。此示例询问代理在修复错误并通过测试后是否应继续工作。",
-        "使用 HTTP API，POST 到 /v1/evaluate ：",
-        "1 curl https://ai-gateway.vercel.sh/v1/evaluate \\ 2 -H \"授权：承载 $AI_GATEWAY_API_KEY \" \\ 3 -H \"内容类型：application/json\" \\ 4 -d '{ 5 \"model\": \"typesafe-ai/jev\", 6 \"state\": \"代理修复了结帐错误并且所有测试都通过了。\", 7 \"questions\": { 8 \"continueWorking\": { 9 \"type\": \"boolean\", 10 \"instructions\": \"代理应该采取另一步骤吗？\" 11 } 12 } 13 }' 询问 Jev 代理是否应继续通过本机 HTTP API 工作。"
-      ],
-      "highlights": [
-        "除了 AI SDK 之外，您现在还可以使用现有的 TypeSafe 客户端或 HTTP API 通过 AI Gateway 从 TypeSafe AI 调用 J",
-        "TypeSafe 客户端：将现有 TypeSafe 客户端指向 AI Gateway，而不更改其评估调用。",
-        "HTTP API：直接从任何语言或框架调用 Jev。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "AI Gateway now supports TypeSafe clients and an HTTP API for Jev - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-21",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/ai-gateway-now-supports-typesafe-clients-and-http-api-for-jev",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "AI Gateway now supports TypeSafe clients and an HTTP API for Jev - Vercel"
-      },
-      "raw": {
-        "title": "AI Gateway now supports TypeSafe clients and an HTTP API for Jev",
-        "url": "https://vercel.com/changelog/ai-gateway-now-supports-typesafe-clients-and-http-api-for-jev",
-        "fetched": true,
-        "savedAt": "2026-09-22T02:53:10.152Z"
-      }
-    },
-    {
-      "id": "sig-f1e59e2446",
-      "title": "Grok 4.7 现已上市，AI Gateway、fx 和 eve 享受 40% 折扣 - Vercel",
-      "oneLiner": "SpaceXAI 的 Grok 4.7 现已在 AI Gateway 上提供，截至 9 月 27 日可享受 40% 的折扣。当您致电 spacexai/grok-4.7 时，折扣会自动生效。",
-      "summary": {
-        "oneSentence": "SpaceXAI 的 Grok 4.7 现已在 AI Gateway 上提供，截至 9 月 27 日可享受 40% 的折扣。当您致电 spacexai/grok-4.7 时，折扣会自动生效。",
-        "bullets": [
-          "SpaceXAI 的 Grok 4.7 现已在 AI Gateway 上提供，截至 9 月 27 日可享受 40% 的折扣。当您致电 spacexai/grok-4.7 时，折扣会自动生效。",
-          "Grok 4.7 具有 500K 令牌上下文窗口，支持低、中、高和 xhigh 推理级别，让您可以控制延迟和深度之间的权衡。",
-          "在调用模型的任何地方都使用 spacexai/grok-4.7。相同的 ID 可与 AI SDK 、兼容 OpenAI 的聊天完成 API 以及连接到 AI Gateway 的编码代理配合使用：",
-          "API Codex fx 聊天完成 API API Codex Codex fx fx 聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 3 const result = streamText ( { 4 model : 'spacexai/grok-4.7' , 5 Rea"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：SpaceXAI 的 Grok 4.7 现已在 AI Gateway 上提供，截至 9 月 27 日可享受 40% 的折扣。当您致电 spacexai/grok-4.7 时，折扣会自动生效。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/grok-4-7-now-available-and-40-off-on-ai-gateway-fx-eve"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "SpaceXAI 的 Grok 4.7 现已在 AI Gateway 上提供，截至 9 月 27 日可享受 40% 的折扣。当您致电 spacexai/grok-4.7 时，折扣会自动生效。",
-        "Grok 4.7 具有 500K 令牌上下文窗口，支持低、中、高和 xhigh 推理级别，让您可以控制延迟和深度之间的权衡。",
-        "在调用模型的任何地方都使用 spacexai/grok-4.7。相同的 ID 可与 AI SDK 、兼容 OpenAI 的聊天完成 API 以及连接到 AI Gateway 的编码代理配合使用：",
-        "API Codex fx 聊天完成 API API Codex Codex fx fx 聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 3 const result = streamText ( { 4 model : 'spacexai/grok-4.7' , 5 Reasoning : 'xhigh' , 6prompt : '调查失败的测试，找出根本原因，并提出修复方案。' , 7 } ) ;复制代理查看模型详细信息 ↗ 要在编码代理中使用 Grok 4.7，请安装最新的 Vercel CLI 并运行安装程序：",
-        "npm i -g vercel@最新 vercel ai-gateway 设置",
-        "然后在 fx 、 Cursor、Codex、Amp、OpenCode 或其他受支持的代理中选择 spacexai/grok-4.7。有关特定于代理的说明，请参阅编码代理指南。",
-        "要使用 Grok 4.7 和 xhigh 推理创建新的 eve 代理，请将相同的模型 ID 传递给初始值设定项：",
-        "npx eve@latest init grok-agent \\ --model spacexai/grok-4.7 \\ --reasoning xhigh",
-        "Grok 4.7 支持零数据保留并不允许即时培训。请求与其他模型一起显示在 AI Gateway 日志、自定义报告和预算中。",
-        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本，以及配置重试、故障转移和性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、API 密钥预算、路由规则等。"
-      ],
-      "highlights": [
-        "SpaceXAI 的 Grok 4.7 现已在 AI Gateway 上提供，截至 9 月 27 日可享受 40% 的折扣。当您致电 spacexai/grok",
-        "Grok 4.7 具有 500K 令牌上下文窗口，支持低、中、高和 xhigh 推理级别，让您可以控制延迟和深度之间的权衡。",
-        "在调用模型的任何地方都使用 spacexai/grok-4.7。相同的 ID 可与 AI SDK 、兼容 OpenAI 的聊天完成 API 以及连接到 AI G"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Grok 4.7 now available and 40% off on AI Gateway, fx, and eve - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-21",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/grok-4-7-now-available-and-40-off-on-ai-gateway-fx-eve",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Grok 4.7 now available and 40% off on AI Gateway, fx, and eve - Vercel"
-      },
-      "raw": {
-        "title": "Grok 4.7 now available and 40% off on AI Gateway, fx, and eve",
-        "url": "https://vercel.com/changelog/grok-4-7-now-available-and-40-off-on-ai-gateway-fx-eve",
-        "fetched": true,
-        "savedAt": "2026-09-22T02:53:19.424Z"
-      }
-    },
-    {
-      "id": "sig-314b860709",
-      "title": "MiMo V2.6 型号现已在 AI Gateway 上提供 - Vercel",
-      "oneLiner": "小米的MiMo V2.6 Pro、MiMo V2.6 Flash和MiMo V2.6 Pro UltraSpeed现已在AI Gateway上上市。",
-      "summary": {
-        "oneSentence": "小米的MiMo V2.6 Pro、MiMo V2.6 Flash和MiMo V2.6 Pro UltraSpeed现已在AI Gateway上上市。",
-        "bullets": [
-          "小米的MiMo V2.6 Pro、MiMo V2.6 Flash和MiMo V2.6 Pro UltraSpeed现已在AI Gateway上上市。",
-          "MiMo V2.6 将编码、推理和工具使用与原生文本、图像、音频和视频理解结合起来。其 1M 令牌上下文支持长存储库、工具跟踪和多会话代理工作，具有结构化输出和多达 128K 输出令牌。",
-          "xiaomi/mimo-v2.6-pro 是更大的稀疏专家混合检查点，总参数为 1.02T，每个令牌激活 42B，适用于复杂的软件工程和长时间运行的代理工作。",
-          "xiaomi/mimo-v2.6-flash 使用 309B 总参数并激活每个令牌 15B，使其成为多模式自动化和日常代理工作流程的更有效选择。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：小米的MiMo V2.6 Pro、MiMo V2.6 Flash和MiMo V2.6 Pro UltraSpeed现已在AI Gateway上上市。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/mimo-v2-6-models-now-available-on-ai-gateway"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "小米的MiMo V2.6 Pro、MiMo V2.6 Flash和MiMo V2.6 Pro UltraSpeed现已在AI Gateway上上市。",
-        "MiMo V2.6 将编码、推理和工具使用与原生文本、图像、音频和视频理解结合起来。其 1M 令牌上下文支持长存储库、工具跟踪和多会话代理工作，具有结构化输出和多达 128K 输出令牌。",
-        "xiaomi/mimo-v2.6-pro 是更大的稀疏专家混合检查点，总参数为 1.02T，每个令牌激活 42B，适用于复杂的软件工程和长时间运行的代理工作。",
-        "xiaomi/mimo-v2.6-flash 使用 309B 总参数并激活每个令牌 15B，使其成为多模式自动化和日常代理工作流程的更有效选择。",
-        "xiaomi/mimo-v2.6-pro-ultraspeed 以高达 20 倍的输出速度为 Pro 提供交互式和延迟敏感的工作流程，并具有相同的功能。",
-        "API Claude Code Codex fx 聊天完成 API API Claude Code Claude Code Codex Codex fx fx 聊天完成 聊天完成 1 import {generateText } from 'ai' ; 2 3 const { text } =awaitgenerateText({4model:'xiaomi/mimo-v2.6-pro',5prompt:'检查此迁移计划并确定任何缺失的步骤。',6}); 7 8 控制台。日志（文本）；复制代理查看型号详细信息 ↗ 要在编码代理中使用 MiMo V2.6，请安装最新的 Vercel CLI 并运行：",
-        "1 npm i -g vercel@latest 2 vercel ai-gateway 设置",
-        "然后在代理中选择 xiaomi/mimo-v2.6-pro 、 xiaomi/mimo-v2.6-flash 或 xiaomi/mimo-v2.6-pro-ultraspeed 。",
-        "在模型游乐场中尝试 MiMo V2.6 Pro 、 Flash 或 Pro UltraSpeed 。",
-        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本，以及配置重试、故障转移和性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、API 密钥预算、路由规则等。"
-      ],
-      "highlights": [
-        "小米的MiMo V2.6 Pro、MiMo V2.6 Flash和MiMo V2.6 Pro UltraSpeed现已在AI Gateway上上市。",
-        "MiMo V2.6 将编码、推理和工具使用与原生文本、图像、音频和视频理解结合起来。其 1M 令牌上下文支持长存储库、工具跟踪和多会话代理工作，具有结构化输出和",
-        "xiaomi/mimo-v2.6-pro 是更大的稀疏专家混合检查点，总参数为 1.02T，每个令牌激活 42B，适用于复杂的软件工程和长时间运行的代理工作。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "MiMo V2.6 models now available on AI Gateway - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-21",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/mimo-v2-6-models-now-available-on-ai-gateway",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "MiMo V2.6 models now available on AI Gateway - Vercel"
-      },
-      "raw": {
-        "title": "MiMo V2.6 models now available on AI Gateway",
-        "url": "https://vercel.com/changelog/mimo-v2-6-models-now-available-on-ai-gateway",
-        "fetched": true,
-        "savedAt": "2026-09-23T02:53:40.759Z"
       }
     }
   ]
