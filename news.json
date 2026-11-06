@@ -1,60 +1,60 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-05T04:44:42.065Z",
+  "updatedAt": "2026-11-06T04:43:33.310Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 429,
+  "itemCount": 427,
   "brief": {
-    "date": "2026-11-05",
-    "generatedAt": "2026-11-05T04:44:42.064Z",
-    "totalCount": 429,
-    "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 429 条",
+    "date": "2026-11-06",
+    "generatedAt": "2026-11-06T04:43:33.309Z",
+    "totalCount": 427,
+    "todayCount": 1,
+    "headline": "今日 AI 信号 1 条 · 档案共 427 条",
     "topUpdates": [
       {
-        "id": "sig-b488f28088",
-        "title": "工作流程实验室：使用 Figma 代理和代码层在画布上构建代码 | Figma 博客",
+        "id": "sig-1564a9d4f1",
+        "title": "Token Pass 积分现在自动应用于 AI Gateway - Vercel",
         "stars": 4,
-        "oneLiner": "将代码放到画布上为团队提供了一个共享空间，可以并排比较工作原型、完善方向并与队友就想法进行协作。此工作流程展示了设计人员如何使用代码层和 Figma 代理来探索新功能。",
+        "oneLiner": "令牌通行证信用现在自动适用于通过 AI Gateway 包含的模型使用，无论请求是使用 API 密钥、OIDC 令牌还是 fx 登录进行身份验证。不需要专用的 Token Pass API 密钥，但您仍然可以从仪表板或 CLI 创建一个仅适",
         "readMinutes": 5
       },
       {
-        "id": "sig-1ada682096",
-        "title": "Workflow SDK 添加幂等启动 - Vercel",
+        "id": "sig-c88b52d0b2",
+        "title": "Cult.fit 通过 Codex 增强运营能力",
         "stars": 4,
-        "oneLiner": "Workflow SDK 的 start() 函数现在可以在一个原子步骤中承认一次运行并声明一个挂钩。重复的工作流程启动会安全失败。原子开始取代了之前的 getHookByToken() -then- start() 模式，该模式在查找和开",
+        "oneLiner": "Cult.fit 正在使用 Codex 帮助跨职能团队构建工具、加快行动速度并改变工作完成方式。",
         "readMinutes": 5
       },
       {
-        "id": "sig-16f9590165",
-        "title": "Kimi K3.1 Pro 现在在 AI Gateway 上拥有更多 ZDR 提供商 - Vercel",
+        "id": "sig-825a50d1c0",
+        "title": "Gemini Omni 1.2 Flash：快速、经济高效，具有更长的剪辑",
         "stars": 4,
-        "oneLiner": "Kimi K3.1 Pro 及其更高速度版本 Kimi K3.1 Pro Highspeed 现已在更多零数据保留 (ZDR) 提供商的 AI Gateway 上提供。直到今天，Moonshot AI 是唯一一家为这两种模型提供服务的提供商",
+        "oneLiner": "Gemini Omni 1.2 Flash带来15秒片段，一致性更强，生成速度更快、性价比更高。",
         "readMinutes": 5
       },
       {
-        "id": "sig-98d4c4a40e",
-        "title": "Figma 如何大规模管理沙箱 | Figma 博客",
+        "id": "sig-b58fee4edb",
+        "title": "澳大利亚大学正在培养人工智能本土毕业生",
         "stars": 4,
-        "oneLiner": "Figma 的 AI 产品需要数以万计的沙箱才能安全地运行不受信任的代码。这就是我们构建 Nimbus 的原因：一个使沙箱快速、可靠且易于 Figma 产品团队和运营商管理的平台。",
+        "oneLiner": "澳大利亚大学正在扩大 ChatGPT 的使用范围，并将人工智能引入教学和学习，为学生成为人工智能劳动力做好准备。",
         "readMinutes": 5
       },
       {
-        "id": "sig-3a06f84c0f",
-        "title": "OpenAI 将收购 Pierre Computer Company, Inc.",
+        "id": "sig-63c3d56bc7",
+        "title": "Gemini Omni 1.2 Flash：快速、经济高效，具有更长的剪辑",
         "stars": 4,
-        "oneLiner": "OpenAI 将收购 Pierre Computer Company，扩展 Codex 用于构建、理解和审查代码的工具。",
+        "oneLiner": "Gemini Omni 1.2 Flash带来15秒片段，一致性更强，生成速度更快、性价比更高。",
         "readMinutes": 5
       }
     ],
     "sections": {
       "topUpdates": [
-        "sig-b488f28088",
-        "sig-1ada682096",
-        "sig-16f9590165",
-        "sig-98d4c4a40e",
-        "sig-3a06f84c0f",
-        "sig-dfaa3a3041"
+        "sig-1564a9d4f1",
+        "sig-c88b52d0b2",
+        "sig-825a50d1c0",
+        "sig-b58fee4edb",
+        "sig-63c3d56bc7",
+        "sig-176b4a361e"
       ],
       "newReleases": [
         "sig-f50edeef79",
@@ -63,14 +63,14 @@
         "sig-089c4ff63d"
       ],
       "insights": [
-        "sig-b488f28088",
-        "sig-1ada682096",
-        "sig-16f9590165",
-        "sig-98d4c4a40e",
-        "sig-3a06f84c0f",
-        "sig-dfaa3a3041",
-        "sig-a239c4a012",
-        "sig-e28316334a"
+        "sig-1564a9d4f1",
+        "sig-c88b52d0b2",
+        "sig-825a50d1c0",
+        "sig-b58fee4edb",
+        "sig-63c3d56bc7",
+        "sig-176b4a361e",
+        "sig-9a44a8aa72",
+        "sig-53c56afbaf"
       ],
       "emergingTrends": [],
       "newApis": [],
@@ -91,7 +91,7 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-11-05T04:44:42.065Z",
+    "generatedAt": "2026-11-06T04:43:33.310Z",
     "summary": "近 30 天共 275 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
@@ -107,6 +107,90 @@
     "risingTags": []
   },
   "productUpdates": [
+    {
+      "id": "sig-c88b52d0b2",
+      "title": "Cult.fit 通过 Codex 增强运营能力",
+      "oneLiner": "Cult.fit 正在使用 Codex 帮助跨职能团队构建工具、加快行动速度并改变工作完成方式。",
+      "date": "2026-11-05",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-825a50d1c0",
+      "title": "Gemini Omni 1.2 Flash：快速、经济高效，具有更长的剪辑",
+      "oneLiner": "Gemini Omni 1.2 Flash带来15秒片段，一致性更强，生成速度更快、性价比更高。",
+      "date": "2026-11-05",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google DeepMind",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-b58fee4edb",
+      "title": "澳大利亚大学正在培养人工智能本土毕业生",
+      "oneLiner": "澳大利亚大学正在扩大 ChatGPT 的使用范围，并将人工智能引入教学和学习，为学生成为人工智能劳动力做好准备。",
+      "date": "2026-11-05",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-63c3d56bc7",
+      "title": "Gemini Omni 1.2 Flash：快速、经济高效，具有更长的剪辑",
+      "oneLiner": "Gemini Omni 1.2 Flash带来15秒片段，一致性更强，生成速度更快、性价比更高。",
+      "date": "2026-11-05",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google AI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-53c56afbaf",
+      "title": "GPT-6 Cyber​​：推进一致的网络安全代理的前沿",
+      "oneLiner": "隆重推出 GPT-6 Cyber​​，这是 OpenAI 的网络安全模型，用于查找可利用的漏洞并开发修复程序，并经过培训以保持在授权范围内。",
+      "date": "2026-11-05",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-300d91101f",
+      "title": "Merge 利用 OpenAI 技术构建产品和业务工具",
+      "oneLiner": "Merge 使用 GPT-6 Astra、ChatGPT 和 Codex 来审查产品代码并支持营销。其团队还使用人工智能来计划高管晚宴并准备销售更新。",
+      "date": "2026-11-05",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-f935675761",
+      "title": "为负责任的人工智能基础设施设定新标准",
+      "oneLiner": "OpenAI 推出了国家社区契约和计算校园政策蓝图，以保护当地资源、创造就业机会并指导负责任的人工智能基础设施开发。",
+      "date": "2026-11-05",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
     {
       "id": "sig-3a06f84c0f",
       "title": "OpenAI 将收购 Pierre Computer Company, Inc.",
@@ -310,93 +394,799 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-6750c24614",
-      "title": "Credit Saison 在 ChatGPT Enterprise 试点中实现了 954% 的投资回报率",
-      "oneLiner": "Credit Saison 的 ChatGPT Enterprise 试点实现了 954% 的投资回报率。了解领导者和员工如何帮助将结果转化为全公司的采用。",
-      "date": "2026-10-29",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-b0da25ea6c",
-      "title": "Gemini 4 Carbon：我们的下一个前沿型号",
-      "oneLiner": "Gemini 4 Carbon 是我们最强大的型号，具有最先进的网络安全和长期能力。",
-      "date": "2026-10-28",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google DeepMind",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-75e2017ed4",
-      "title": "OpenAI 和 ServiceNow 扩大跨企业工作流程的合作伙伴关系",
-      "oneLiner": "OpenAI 和 ServiceNow 扩大了合作伙伴关系，将 OpenAI 模型和代理引入 ServiceNow，并将 ServiceNow 工作流程引入 ChatGPT 和 Codex。",
-      "date": "2026-10-28",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-0dc3cf0b7c",
-      "title": "公司的未来",
-      "oneLiner": "人工智能如何进入组织结构图——在我们之下、旁边和之间。",
-      "date": "2026-10-28",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-41c97fe8dc",
-      "title": "Legora正在构建法律工作代理操作系统",
-      "oneLiner": "了解 Legora 如何使用 OpenAI 模型、ChatGPT 和 Codex 来加速法律工作流程、扩大合同分析并使律师能够专注于更高价值的工作。",
-      "date": "2026-10-28",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-d42fb1eb33",
-      "title": "Retell 使用 OpenAI 模型帮助支持每月 1 亿次通话",
-      "oneLiner": "GPT-6 Astra 在 Retell 的语音代理基准测试中名列前茅，而 Codex 帮助其达到每名员工 160 万美元的年收入运行率。",
-      "date": "2026-10-27",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-a3a879144b",
-      "title": "OpenAI 扩大与 Oracle 的合作伙伴关系，将其应用程序引入 ChatGPT",
-      "oneLiner": "OpenAI 和 Oracle 正在扩大合作伙伴关系，将业务应用程序和 AI 代理引入 ChatGPT 并为新的 Oracle 产品提供支持。",
-      "date": "2026-10-27",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-1564a9d4f1",
+      "title": "Token Pass 积分现在自动应用于 AI Gateway - Vercel",
+      "oneLiner": "令牌通行证信用现在自动适用于通过 AI Gateway 包含的模型使用，无论请求是使用 API 密钥、OIDC 令牌还是 fx 登录进行身份验证。不需要专用的 Token Pass API 密钥，但您仍然可以从仪表板或 CLI 创建一个仅适",
+      "summary": {
+        "oneSentence": "令牌通行证信用现在自动适用于通过 AI Gateway 包含的模型使用，无论请求是使用 API 密钥、OIDC 令牌还是 fx 登录进行身份验证。不需要专用的 Token Pass API 密钥，但您仍然可以从仪表板或 CLI 创建一个仅适",
+        "bullets": [
+          "令牌通行证信用现在自动适用于通过 AI Gateway 包含的模型使用，无论请求是使用 API 密钥、OIDC 令牌还是 fx 登录进行身份验证。不需要专用的 Token Pass API 密钥，但您仍然可以从仪表板或 CLI 创建一个仅适用于特色模型和提供商的密钥。",
+          "当令牌通行证积分在计费周期内用完时，来自标准密钥或 OIDC 令牌的请求将回退到您团队的 AI Gateway 积分。令牌通行证密钥仍然会停止，直到下一个计费周期。",
+          "通过令牌通行证提供商提供服务的请求保持零数据保留 (ZDR)。后备请求遵循您团队的设置。启用团队范围的 ZDR 后，他们仅路由到 ZDR 提供商。",
+          "现在可供 Pro 团队的 Token Pass 订阅者使用。如果您在设置过程中创建了令牌通行证密钥，请切换到标准 API 密钥或 OIDC 令牌以获得后备。请参阅令牌通行证文档了解更多信息。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：令牌通行证信用现在自动适用于通过 AI Gateway 包含的模型使用，无论请求是使用 API 密钥、OIDC 令牌还是 fx 登录进行身份验证。不需要专用的 Token Pass API 密钥，但您仍然可以从仪表板或 CLI 创建一个仅适",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/token-pass-credit-now-applies-automatically-across-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "令牌通行证信用现在自动适用于通过 AI Gateway 包含的模型使用，无论请求是使用 API 密钥、OIDC 令牌还是 fx 登录进行身份验证。不需要专用的 Token Pass API 密钥，但您仍然可以从仪表板或 CLI 创建一个仅适用于特色模型和提供商的密钥。",
+        "当令牌通行证积分在计费周期内用完时，来自标准密钥或 OIDC 令牌的请求将回退到您团队的 AI Gateway 积分。令牌通行证密钥仍然会停止，直到下一个计费周期。",
+        "通过令牌通行证提供商提供服务的请求保持零数据保留 (ZDR)。后备请求遵循您团队的设置。启用团队范围的 ZDR 后，他们仅路由到 ZDR 提供商。",
+        "现在可供 Pro 团队的 Token Pass 订阅者使用。如果您在设置过程中创建了令牌通行证密钥，请切换到标准 API 密钥或 OIDC 令牌以获得后备。请参阅令牌通行证文档了解更多信息。"
+      ],
+      "highlights": [
+        "令牌通行证信用现在自动适用于通过 AI Gateway 包含的模型使用，无论请求是使用 API 密钥、OIDC 令牌还是 fx 登录进行身份验证。不需要专用的 ",
+        "当令牌通行证积分在计费周期内用完时，来自标准密钥或 OIDC 令牌的请求将回退到您团队的 AI Gateway 积分。令牌通行证密钥仍然会停止，直到下一个计费周",
+        "通过令牌通行证提供商提供服务的请求保持零数据保留 (ZDR)。后备请求遵循您团队的设置。启用团队范围的 ZDR 后，他们仅路由到 ZDR 提供商。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Token Pass credit now applies automatically across AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-06",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/token-pass-credit-now-applies-automatically-across-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Token Pass credit now applies automatically across AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Token Pass credit now applies automatically across AI Gateway",
+        "url": "https://vercel.com/changelog/token-pass-credit-now-applies-automatically-across-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-11-06T04:42:52.119Z"
+      }
+    },
+    {
+      "id": "sig-c88b52d0b2",
+      "title": "Cult.fit 通过 Codex 增强运营能力",
+      "oneLiner": "Cult.fit 正在使用 Codex 帮助跨职能团队构建工具、加快行动速度并改变工作完成方式。",
+      "summary": {
+        "oneSentence": "Cult.fit 正在使用 Codex 帮助跨职能团队构建工具、加快行动速度并改变工作完成方式。",
+        "bullets": [
+          "Cult.fit 正在使用 Codex 帮助跨职能团队构建工具、加快行动速度并改变工作完成方式。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：Cult.fit 正在使用 Codex 帮助跨职能团队构建工具、加快行动速度并改变工作完成方式。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/cultfit-builds-with-codex"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Cult.fit 正在使用 Codex 帮助跨职能团队构建工具、加快行动速度并改变工作完成方式。"
+      ],
+      "highlights": [
+        "Cult.fit 正在使用 Codex 帮助跨职能团队构建工具、加快行动速度并改变工作完成方式。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Cult.fit builds operational muscle with Codex",
+      "originalLang": "en",
+      "date": "2026-11-05",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/cultfit-builds-with-codex",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Cult.fit builds operational muscle with Codex"
+      },
+      "raw": {
+        "title": "Cult.fit builds operational muscle with Codex",
+        "url": "https://openai.com/index/cultfit-builds-with-codex",
+        "fetched": false,
+        "savedAt": "2026-11-06T04:42:53.318Z"
+      }
+    },
+    {
+      "id": "sig-825a50d1c0",
+      "title": "Gemini Omni 1.2 Flash：快速、经济高效，具有更长的剪辑",
+      "oneLiner": "Gemini Omni 1.2 Flash带来15秒片段，一致性更强，生成速度更快、性价比更高。",
+      "summary": {
+        "oneSentence": "Gemini Omni 1.2 Flash带来15秒片段，一致性更强，生成速度更快、性价比更高。",
+        "bullets": [
+          "Gemini Omni 1.2 Flash带来15秒片段，一致性更强，生成速度更快、性价比更高。",
+          "您的浏览器不支持音频元素。",
+          "我们正在推出 Gemini Omni 1.2 Flash，它提供原生 15 秒视频创建、改进的参考遵循性和多轮对话编辑。此更新可降低 30% 的成本，并为您的专业项目提供更好的一致性。您现在就可以开始在 Gemini API、Google Vids 和 Gemini for Business 中使用这些功能来大规模制作",
+          "今天，我们将推出 Gemini Omni 1.2 Flash，并使其在 Gemini API 和 Gemini for Business 上普遍可用。 Gemini Omni 1.2 Flash 引入了原生 15 秒视频创建、多轮对话编辑功能以及增强的参考跟踪功能。我们已将 Gemini Omni 1.1 的价格降低了"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google DeepMind 官网发布：Gemini Omni 1.2 Flash带来15秒片段，一致性更强，生成速度更快、性价比更高。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "Gemini Omni 1.2 Flash带来15秒片段，一致性更强，生成速度更快、性价比更高。",
+        "您的浏览器不支持音频元素。",
+        "我们正在推出 Gemini Omni 1.2 Flash，它提供原生 15 秒视频创建、改进的参考遵循性和多轮对话编辑。此更新可降低 30% 的成本，并为您的专业项目提供更好的一致性。您现在就可以开始在 Gemini API、Google Vids 和 Gemini for Business 中使用这些功能来大规模制作高质量的视频内容。",
+        "今天，我们将推出 Gemini Omni 1.2 Flash，并使其在 Gemini API 和 Gemini for Business 上普遍可用。 Gemini Omni 1.2 Flash 引入了原生 15 秒视频创建、多轮对话编辑功能以及增强的参考跟踪功能。我们已将 Gemini Omni 1.1 的价格降低了 30%，720p 视频的价格为每秒 0.07 美元。",
+        "除了价格较低之外，该工作流程还可以降低成本：您可以以 360p 或 720p 快速草稿，通过后续编辑修复细节，而不是重新生成整个剪辑，然后将您最好的创作升级到 1080p 或 4K。",
+        "您现在可以原生生成和编辑长达 15 秒的视频，而 Omni 1.1 的视频长度为 10 秒。您还可以以一秒为增量指定 3 到 15 秒的持续时间，为您提供讲述完整故事、创建产品解释或在一代中制作完整社交广告位的空间。",
+        "您可以结合角色、产品或风格图像、短动作剪辑（最多三秒）和音频提示来指导生成 - Omni 1.2 Flash 自始至终保留这些细节。面孔、服装、包装排版和品牌颜色在各个摄像机角度保持一致，从而可以轻松地将现有产品摄影或角色表转变为虚拟试穿剪辑、目录旋转和品牌视频广告。",
+        "Gemini Omni 1.2 Flash 将一张模特照片与三套服装的正面和背面产品照片相结合，生成 15 秒的 360 度旋转虚拟试穿序列并匹配剪裁，同时保持模特的身份和每件衣服的剪裁、悬垂和背部细节一致。",
+        "您可以从第一帧到最后一帧保持更强的角色、对象和场景一致性，同时减少运动和摄像机转换之间的视觉漂移或变形。无论您是在第一个和最后一个关键帧之间进行插值，还是扩展剪辑以构建更长的序列，产品、角色、道具和环境在每个镜头中都保持一致。",
+        "考虑到相同的静态工作室灯光展览海报和五层动画提示，Gemini Omni 1.1 Flash 与参考图像的匹配程度不如 1.2。 Gemini Omni 1.2 Flash 在六边形底座上升起的灰粉色天幕上按顺序逐层构建海报，组装罗纹玻璃、温暖的灯丝、多面水晶和用于 HALO、GLOW 和 LUMEN 的卷线字体，并在最终框架中一致地锁定每种材料、阴影和印刷细节。"
+      ],
+      "highlights": [
+        "Gemini Omni 1.2 Flash带来15秒片段，一致性更强，生成速度更快、性价比更高。",
+        "您的浏览器不支持音频元素。",
+        "我们正在推出 Gemini Omni 1.2 Flash，它提供原生 15 秒视频创建、改进的参考遵循性和多轮对话编辑。此更新可降低 30% 的成本，并为您的专"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "originalLang": "en",
+      "date": "2026-11-05",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google DeepMind",
+        "author": "DeepMind",
+        "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+        "home": "https://deepmind.google/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips"
+      },
+      "raw": {
+        "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+        "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
+        "fetched": true,
+        "savedAt": "2026-11-06T04:42:57.790Z"
+      }
+    },
+    {
+      "id": "sig-b58fee4edb",
+      "title": "澳大利亚大学正在培养人工智能本土毕业生",
+      "oneLiner": "澳大利亚大学正在扩大 ChatGPT 的使用范围，并将人工智能引入教学和学习，为学生成为人工智能劳动力做好准备。",
+      "summary": {
+        "oneSentence": "澳大利亚大学正在扩大 ChatGPT 的使用范围，并将人工智能引入教学和学习，为学生成为人工智能劳动力做好准备。",
+        "bullets": [
+          "澳大利亚大学正在扩大 ChatGPT 的使用范围，并将人工智能引入教学和学习，为学生成为人工智能劳动力做好准备。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：澳大利亚大学正在扩大 ChatGPT 的使用范围，并将人工智能引入教学和学习，为学生成为人工智能劳动力做好准备。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/australian-universities-ai-native-graduates"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "澳大利亚大学正在扩大 ChatGPT 的使用范围，并将人工智能引入教学和学习，为学生成为人工智能劳动力做好准备。"
+      ],
+      "highlights": [
+        "澳大利亚大学正在扩大 ChatGPT 的使用范围，并将人工智能引入教学和学习，为学生成为人工智能劳动力做好准备。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Australian universities are creating AI-native graduates",
+      "originalLang": "en",
+      "date": "2026-11-05",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Australian universities are creating AI-native graduates"
+      },
+      "raw": {
+        "title": "Australian universities are creating AI-native graduates",
+        "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+        "fetched": false,
+        "savedAt": "2026-11-06T04:42:59.005Z"
+      }
+    },
+    {
+      "id": "sig-63c3d56bc7",
+      "title": "Gemini Omni 1.2 Flash：快速、经济高效，具有更长的剪辑",
+      "oneLiner": "Gemini Omni 1.2 Flash带来15秒片段，一致性更强，生成速度更快、性价比更高。",
+      "summary": {
+        "oneSentence": "Gemini Omni 1.2 Flash带来15秒片段，一致性更强，生成速度更快、性价比更高。",
+        "bullets": [
+          "Gemini Omni 1.2 Flash带来15秒片段，一致性更强，生成速度更快、性价比更高。",
+          "您的浏览器不支持音频元素。",
+          "我们正在推出 Gemini Omni 1.2 Flash，它提供原生 15 秒视频创建、改进的参考遵循性和多轮对话编辑。此更新可降低 30% 的成本，并为您的专业项目提供更好的一致性。您现在就可以开始在 Gemini API、Google Vids 和 Gemini for Business 中使用这些功能来大规模制作",
+          "今天，我们将推出 Gemini Omni 1.2 Flash，并使其在 Gemini API 和 Gemini for Business 上普遍可用。 Gemini Omni 1.2 Flash 引入了原生 15 秒视频创建、多轮对话编辑功能以及增强的参考跟踪功能。我们已将 Gemini Omni 1.1 的价格降低了"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google AI 官网发布：Gemini Omni 1.2 Flash带来15秒片段，一致性更强，生成速度更快、性价比更高。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "Gemini Omni 1.2 Flash带来15秒片段，一致性更强，生成速度更快、性价比更高。",
+        "您的浏览器不支持音频元素。",
+        "我们正在推出 Gemini Omni 1.2 Flash，它提供原生 15 秒视频创建、改进的参考遵循性和多轮对话编辑。此更新可降低 30% 的成本，并为您的专业项目提供更好的一致性。您现在就可以开始在 Gemini API、Google Vids 和 Gemini for Business 中使用这些功能来大规模制作高质量的视频内容。",
+        "今天，我们将推出 Gemini Omni 1.2 Flash，并使其在 Gemini API 和 Gemini for Business 上普遍可用。 Gemini Omni 1.2 Flash 引入了原生 15 秒视频创建、多轮对话编辑功能以及增强的参考跟踪功能。我们已将 Gemini Omni 1.1 的价格降低了 30%，720p 视频的价格为每秒 0.07 美元。",
+        "除了价格较低之外，该工作流程还可以降低成本：您可以以 360p 或 720p 快速草稿，通过后续编辑修复细节，而不是重新生成整个剪辑，然后将您最好的创作升级到 1080p 或 4K。",
+        "您现在可以原生生成和编辑长达 15 秒的视频，而 Omni 1.1 的视频长度为 10 秒。您还可以以一秒为增量指定 3 到 15 秒的持续时间，为您提供讲述完整故事、创建产品解释或在一代中制作完整社交广告位的空间。",
+        "您可以结合角色、产品或风格图像、短动作剪辑（最多三秒）和音频提示来指导生成 - Omni 1.2 Flash 自始至终保留这些细节。面孔、服装、包装排版和品牌颜色在各个摄像机角度保持一致，从而可以轻松地将现有产品摄影或角色表转变为虚拟试穿剪辑、目录旋转和品牌视频广告。",
+        "Gemini Omni 1.2 Flash 将一张模特照片与三套服装的正面和背面产品照片相结合，生成 15 秒的 360 度旋转虚拟试穿序列并匹配剪裁，同时保持模特的身份和每件衣服的剪裁、悬垂和背部细节一致。",
+        "您可以从第一帧到最后一帧保持更强的角色、对象和场景一致性，同时减少运动和摄像机转换之间的视觉漂移或变形。无论您是在第一个和最后一个关键帧之间进行插值，还是扩展剪辑以构建更长的序列，产品、角色、道具和环境在每个镜头中都保持一致。",
+        "考虑到相同的静态工作室灯光展览海报和五层动画提示，Gemini Omni 1.1 Flash 与参考图像的匹配程度不如 1.2。 Gemini Omni 1.2 Flash 在六边形底座上升起的灰粉色天幕上按顺序逐层构建海报，组装罗纹玻璃、温暖的灯丝、多面水晶和用于 HALO、GLOW 和 LUMEN 的卷线字体，并在最终框架中一致地锁定每种材料、阴影和印刷细节。"
+      ],
+      "highlights": [
+        "Gemini Omni 1.2 Flash带来15秒片段，一致性更强，生成速度更快、性价比更高。",
+        "您的浏览器不支持音频元素。",
+        "我们正在推出 Gemini Omni 1.2 Flash，它提供原生 15 秒视频创建、改进的参考遵循性和多轮对话编辑。此更新可降低 30% 的成本，并为您的专"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+      "originalLang": "en",
+      "date": "2026-11-05",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips"
+      },
+      "raw": {
+        "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+        "fetched": true,
+        "savedAt": "2026-11-06T04:43:03.329Z"
+      }
+    },
+    {
+      "id": "sig-176b4a361e",
+      "title": "Vercel 时间表现已进入公开测试版 - Vercel",
+      "oneLiner": "Vercel Schedules 现已在所有计划中进行公开测试。在生产、预览或自定义环境中以循环节奏或在单个时间点运行任务。",
+      "summary": {
+        "oneSentence": "Vercel Schedules 现已在所有计划中进行公开测试。在生产、预览或自定义环境中以循环节奏或在单个时间点运行任务。",
+        "bullets": [
+          "Vercel Schedules 现已在所有计划中进行公开测试。在生产、预览或自定义环境中以循环节奏或在单个时间点运行任务。",
+          "vercel.json 中的计划可以针对私有 Vercel 函数、HTTP 路径或 Vercel 队列主题，并且在运行时创建的计划针对队列主题。任何计划都可以启用、禁用或按需运行，而无需重新部署。",
+          "vercel.json 1 { 2 \"时间表\" : { 3 \"清理\" : { 4 \"时间表\" : \"0 * * * *\" , 5 \"函数\" : \"api/cleanup.ts\" , 6 \"时区\" : \"美国/纽约\" 7 } 8 } , 9 \"函数\" : { 10 \"api/cleanup.ts\" : { 11 \"exp",
+          "添加 Schedule/v1beta 触发器使该函数成为私有函数。它没有公共 URL，只有 Vercel 调度基础设施可以调用它。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel Schedules 现已在所有计划中进行公开测试。在生产、预览或自定义环境中以循环节奏或在单个时间点运行任务。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-schedules-is-now-in-public-beta"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Schedules 现已在所有计划中进行公开测试。在生产、预览或自定义环境中以循环节奏或在单个时间点运行任务。",
+        "vercel.json 中的计划可以针对私有 Vercel 函数、HTTP 路径或 Vercel 队列主题，并且在运行时创建的计划针对队列主题。任何计划都可以启用、禁用或按需运行，而无需重新部署。",
+        "vercel.json 1 { 2 \"时间表\" : { 3 \"清理\" : { 4 \"时间表\" : \"0 * * * *\" , 5 \"函数\" : \"api/cleanup.ts\" , 6 \"时区\" : \"美国/纽约\" 7 } 8 } , 9 \"函数\" : { 10 \"api/cleanup.ts\" : { 11 \"experimentalTriggers\" : [ { \"type\" : \"schedule/v1beta\" } ] 12 } 13 } 14 } vercel.json 中的每小时静态计划，针对私有 Vercel 函数",
+        "添加 Schedule/v1beta 触发器使该函数成为私有函数。它没有公共 URL，只有 Vercel 调度基础设施可以调用它。",
+        "api/cleanup.ts 1 从 '@vercel/schedules' 导入 {handleSchedule } ； 2 3 export const POST=handleSchedule(async(metadata)=>{4console.log(`在${metadata.scheduledAt}处运行${metadata.name}`);5awaitdeleteExpiredRecords();6});使用@vercel/schedules 中的handleSchedule 处理调度调度",
+        "lib/schedules.ts 1 从 '@vercel/schedules' 导入 { Schedules } ； 2 3 等待时间表。 create ( { 4 名称 : 'daily-digest' , 5 目标 : { 主题 : '摘要' } , 6 表达式 : { 类型 : 'cron' , cron : '0 9 * * *' } , 7 时区 : 'America/Los_Angeles' , 8 负载 : { reportType : 'summary' } , 9 } ) ;在运行时创建调度到队列主题的计划",
+        "Schedules 是 Cron Jobs 的继承者。现有的 Cron 作业将继续工作，迁移指南介绍了如何将它们移至时间表。时间表还支持 Eve 中的动态时间表和 Nitro 项目中的实验性计划任务。",
+        "Vercel Schedules 的起价为每 100 万次运行 5 美元，专业版和企业版每 100 万次创作 10 美元。爱好包括每月 500 个时间表创建和 5,000 次运行。请阅读博客文章，了解有关 Schedules 如何工作的更多信息，然后开始使用 Schedules 文档。"
+      ],
+      "highlights": [
+        "Vercel Schedules 现已在所有计划中进行公开测试。在生产、预览或自定义环境中以循环节奏或在单个时间点运行任务。",
+        "vercel.json 中的计划可以针对私有 Vercel 函数、HTTP 路径或 Vercel 队列主题，并且在运行时创建的计划针对队列主题。任何计划都可以启",
+        "vercel.json 1 { 2 \"时间表\" : { 3 \"清理\" : { 4 \"时间表\" : \"0 * * * *\" , 5 \"函数\" : \"api/cle"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Schedules is now in public beta - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-05",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-schedules-is-now-in-public-beta",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Schedules is now in public beta - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Schedules is now in public beta",
+        "url": "https://vercel.com/changelog/vercel-schedules-is-now-in-public-beta",
+        "fetched": true,
+        "savedAt": "2026-11-06T04:43:12.830Z"
+      }
+    },
+    {
+      "id": "sig-9a44a8aa72",
+      "title": "SRT 文件指南：如何创建、编辑和打开 SRT 文件",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
+          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 获取 API 密钥 了解更多 在此页面",
+          "SRT 文件（SubRip 字幕文件）是一种纯文本文件，它将字幕存储为编号块，每个块将开始和结束时间戳与屏幕上显示的字幕文本配对。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/srt-file-guide"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 获取 API 密钥 了解更多 博客资源 SRT 文件指南：在视频中创建、编辑和使用字幕 作者：Jack Limebear 发布于 2026 年 11 月 5 日 收听 收听本文",
+        "0:00 1.0x 获取 API 密钥 了解更多 在此页面",
+        "SRT 文件（SubRip 字幕文件）是一种纯文本文件，它将字幕存储为编号块，每个块将开始和结束时间戳与屏幕上显示的字幕文本配对。",
+        "每天有数百万人在关闭声音的情况下观看视频。 Verizon 是 2019 年最早报告这一行为的公司之一，当时它发现 69% 的美国受访用户关闭了公共场所视频的声音。研究还发现，80% 的消费者更有可能观看带有字幕的整个视频。 2024 年的一项研究引用了 Verizon 的这些发现，并证实它们仍然成立。",
+        "难怪个人内容创作者和大型媒体团队都会优先考虑从社交媒体视频到广告和电影的所有内容的字幕。",
+        "您可以使用 ElevenCreative 制作工作室级音频、自动化字幕工作流程，并在几秒钟内将字幕添加到视频中。这不仅提高了参与度，还使听力障碍或聋哑人士以及说不同语言的人更容易观看视频。",
+        "This guide shows you how to use the SRT file format to create, edit, and add subtitles to your videos.您还将了解 SRT 文件格式的工作原理，了解如何在任何设备上打开该格式，并确定何时在 SRT 和 WebVTT 之间进行选择。",
+        "SubRip 字幕 (SRT) 文件是一种纯文本字幕格式，它将文本块与开始和结束时间戳配对。这个轻量级文件告诉视频播放器要在屏幕上显示什么字幕以及何时显示。创作者和媒体团队使用 SRT 文件格式向跨发布渠道分发的视频添加字幕。",
+        "SRT 文件格式得到广泛支持，并且独立于任何单一专有工具工作。其直接结果是，大多数工具可以轻松打开和解析这些文件。主要的流媒体平台和媒体播放器也具有处理它们的内置能力。这使得您可以轻松地为视频添加字幕，而无需受限于专有软件。"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模",
+        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 获取 API 密钥 了解更多 在此页面"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "SRT File Guide: How to Create, Edit, and Open SRT Files",
+      "originalLang": "en",
+      "date": "2026-11-05",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/srt-file-guide",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "SRT File Guide: How to Create, Edit, and Open SRT Files"
+      },
+      "raw": {
+        "title": "SRT file guide: Create, edit, and use subtitles in video",
+        "url": "https://elevenlabs.io/blog/srt-file-guide",
+        "fetched": true,
+        "savedAt": "2026-11-06T04:43:23.893Z"
+      }
+    },
+    {
+      "id": "sig-53c56afbaf",
+      "title": "GPT-6 Cyber​​：推进一致的网络安全代理的前沿",
+      "oneLiner": "隆重推出 GPT-6 Cyber​​，这是 OpenAI 的网络安全模型，用于查找可利用的漏洞并开发修复程序，并经过培训以保持在授权范围内。",
+      "summary": {
+        "oneSentence": "隆重推出 GPT-6 Cyber​​，这是 OpenAI 的网络安全模型，用于查找可利用的漏洞并开发修复程序，并经过培训以保持在授权范围内。",
+        "bullets": [
+          "隆重推出 GPT-6 Cyber​​，这是 OpenAI 的网络安全模型，用于查找可利用的漏洞并开发修复程序，并经过培训以保持在授权范围内。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：隆重推出 GPT-6 Cyber​​，这是 OpenAI 的网络安全模型，用于查找可利用的漏洞并开发修复程序，并经过培训以保持在授权范围内。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/introducing-gpt-6-cyber"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "隆重推出 GPT-6 Cyber​​，这是 OpenAI 的网络安全模型，用于查找可利用的漏洞并开发修复程序，并经过培训以保持在授权范围内。"
+      ],
+      "highlights": [
+        "隆重推出 GPT-6 Cyber​​，这是 OpenAI 的网络安全模型，用于查找可利用的漏洞并开发修复程序，并经过培训以保持在授权范围内。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+      "originalLang": "en",
+      "date": "2026-11-05",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/introducing-gpt-6-cyber",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents"
+      },
+      "raw": {
+        "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
+        "url": "https://openai.com/index/introducing-gpt-6-cyber",
+        "fetched": false,
+        "savedAt": "2026-11-06T04:43:25.081Z"
+      }
+    },
+    {
+      "id": "sig-300d91101f",
+      "title": "Merge 利用 OpenAI 技术构建产品和业务工具",
+      "oneLiner": "Merge 使用 GPT-6 Astra、ChatGPT 和 Codex 来审查产品代码并支持营销。其团队还使用人工智能来计划高管晚宴并准备销售更新。",
+      "summary": {
+        "oneSentence": "Merge 使用 GPT-6 Astra、ChatGPT 和 Codex 来审查产品代码并支持营销。其团队还使用人工智能来计划高管晚宴并准备销售更新。",
+        "bullets": [
+          "Merge 使用 GPT-6 Astra、ChatGPT 和 Codex 来审查产品代码并支持营销。其团队还使用人工智能来计划高管晚宴并准备销售更新。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：Merge 使用 GPT-6 Astra、ChatGPT 和 Codex 来审查产品代码并支持营销。其团队还使用人工智能来计划高管晚宴并准备销售更新。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/merge-builds-with-openai"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Merge 使用 GPT-6 Astra、ChatGPT 和 Codex 来审查产品代码并支持营销。其团队还使用人工智能来计划高管晚宴并准备销售更新。"
+      ],
+      "highlights": [
+        "Merge 使用 GPT-6 Astra、ChatGPT 和 Codex 来审查产品代码并支持营销。其团队还使用人工智能来计划高管晚宴并准备销售更新。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Merge builds product and business tools with OpenAI technology",
+      "originalLang": "en",
+      "date": "2026-11-05",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/merge-builds-with-openai",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Merge builds product and business tools with OpenAI technology"
+      },
+      "raw": {
+        "title": "Merge builds product and business tools with OpenAI technology",
+        "url": "https://openai.com/index/merge-builds-with-openai",
+        "fetched": false,
+        "savedAt": "2026-11-06T04:43:26.280Z"
+      }
+    },
+    {
+      "id": "sig-f935675761",
+      "title": "为负责任的人工智能基础设施设定新标准",
+      "oneLiner": "OpenAI 推出了国家社区契约和计算校园政策蓝图，以保护当地资源、创造就业机会并指导负责任的人工智能基础设施开发。",
+      "summary": {
+        "oneSentence": "OpenAI 推出了国家社区契约和计算校园政策蓝图，以保护当地资源、创造就业机会并指导负责任的人工智能基础设施开发。",
+        "bullets": [
+          "OpenAI 推出了国家社区契约和计算校园政策蓝图，以保护当地资源、创造就业机会并指导负责任的人工智能基础设施开发。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 推出了国家社区契约和计算校园政策蓝图，以保护当地资源、创造就业机会并指导负责任的人工智能基础设施开发。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/setting-new-standard-responsible-ai-infrastructure"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 推出了国家社区契约和计算校园政策蓝图，以保护当地资源、创造就业机会并指导负责任的人工智能基础设施开发。"
+      ],
+      "highlights": [
+        "OpenAI 推出了国家社区契约和计算校园政策蓝图，以保护当地资源、创造就业机会并指导负责任的人工智能基础设施开发。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Setting a new standard for responsible AI infrastructure",
+      "originalLang": "en",
+      "date": "2026-11-05",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Setting a new standard for responsible AI infrastructure"
+      },
+      "raw": {
+        "title": "Setting a new standard for responsible AI infrastructure",
+        "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+        "fetched": false,
+        "savedAt": "2026-11-06T04:43:27.475Z"
+      }
+    },
     {
       "id": "sig-b488f28088",
       "title": "工作流程实验室：使用 Figma 代理和代码层在画布上构建代码 | Figma 博客",
@@ -14233,7 +15023,7 @@
         "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
         "fetched": true,
         "savedAt": "2026-10-17T02:36:45.886Z",
-        "retranslatedAt": "2026-11-05T04:44:37.894Z"
+        "retranslatedAt": "2026-11-06T04:43:28.857Z"
       }
     },
     {
@@ -17831,7 +18621,7 @@
         "url": "https://cursor.com/changelog/origin-app-marketplace",
         "fetched": true,
         "savedAt": "2026-10-14T03:08:22.474Z",
-        "retranslatedAt": "2026-11-05T04:44:39.147Z"
+        "retranslatedAt": "2026-11-06T04:43:30.047Z"
       }
     },
     {
@@ -23370,7 +24160,7 @@
         "url": "https://cursor.com/changelog/remote-control-local-agents",
         "fetched": true,
         "savedAt": "2026-10-11T03:27:39.323Z",
-        "retranslatedAt": "2026-11-05T04:44:40.189Z"
+        "retranslatedAt": "2026-11-06T04:43:31.259Z"
       }
     },
     {
@@ -32798,7 +33588,7 @@
         "url": "https://cursor.com/changelog/rollouts-and-security-reviewer",
         "fetched": true,
         "savedAt": "2026-09-27T03:09:42.462Z",
-        "retranslatedAt": "2026-11-05T04:44:41.262Z"
+        "retranslatedAt": "2026-11-06T04:43:32.507Z"
       }
     },
     {
@@ -33288,894 +34078,6 @@
         "url": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
         "fetched": false,
         "savedAt": "2026-10-05T03:34:56.194Z"
-      }
-    },
-    {
-      "id": "sig-b6b1e4118c",
-      "title": "更好的 GPT-6 提示缓存",
-      "oneLiner": "了解 GPT-6 如何通过更高的缓存命中率、新的诊断、显式断点以及减少延迟和成本的控制来改进提示缓存。",
-      "summary": {
-        "oneSentence": "了解 GPT-6 如何通过更高的缓存命中率、新的诊断、显式断点以及减少延迟和成本的控制来改进提示缓存。",
-        "bullets": [
-          "了解 GPT-6 如何通过更高的缓存命中率、新的诊断、显式断点以及减少延迟和成本的控制来改进提示缓存。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：了解 GPT-6 如何通过更高的缓存命中率、新的诊断、显式断点以及减少延迟和成本的控制来改进提示缓存。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/better-prompt-caching-for-gpt-6"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "了解 GPT-6 如何通过更高的缓存命中率、新的诊断、显式断点以及减少延迟和成本的控制来改进提示缓存。"
-      ],
-      "highlights": [
-        "了解 GPT-6 如何通过更高的缓存命中率、新的诊断、显式断点以及减少延迟和成本的控制来改进提示缓存。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Better prompt caching for GPT-6",
-      "originalLang": "en",
-      "date": "2026-09-22",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Better prompt caching for GPT-6"
-      },
-      "raw": {
-        "title": "Better prompt caching for GPT-6",
-        "url": "https://openai.com/index/better-prompt-caching-for-gpt-6",
-        "fetched": false,
-        "savedAt": "2026-09-23T02:52:59.392Z"
-      }
-    },
-    {
-      "id": "sig-3d48e529ad",
-      "title": "GPT-6 Sol 和 Luna 简介",
-      "oneLiner": "了解一下 GPT-6 Sol 和 Luna，这两种型号将前沿智能带入日常工作，具有不同的功能和成本平衡。",
-      "summary": {
-        "oneSentence": "了解一下 GPT-6 Sol 和 Luna，这两种型号将前沿智能带入日常工作，具有不同的功能和成本平衡。",
-        "bullets": [
-          "了解一下 GPT-6 Sol 和 Luna，这两种型号将前沿智能带入日常工作，具有不同的功能和成本平衡。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：了解一下 GPT-6 Sol 和 Luna，这两种型号将前沿智能带入日常工作，具有不同的功能和成本平衡。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/introducing-gpt-6-sol-and-luna"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "了解一下 GPT-6 Sol 和 Luna，这两种型号将前沿智能带入日常工作，具有不同的功能和成本平衡。"
-      ],
-      "highlights": [
-        "了解一下 GPT-6 Sol 和 Luna，这两种型号将前沿智能带入日常工作，具有不同的功能和成本平衡。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Introducing GPT-6 Sol and Luna",
-      "originalLang": "en",
-      "date": "2026-09-22",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Introducing GPT-6 Sol and Luna"
-      },
-      "raw": {
-        "title": "Introducing GPT-6 Sol and Luna",
-        "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna",
-        "fetched": false,
-        "savedAt": "2026-09-23T02:53:00.723Z"
-      }
-    },
-    {
-      "id": "sig-ce45d8dc0f",
-      "title": "使用 GPT-6 Astra 并行将研究时间和成本减少一半",
-      "oneLiner": "与之前的模型相比，GPT-6 Astra 使 Parallel 的代理能够以一半的时间和成本来研究和综合劳动力市场数据。",
-      "summary": {
-        "oneSentence": "与之前的模型相比，GPT-6 Astra 使 Parallel 的代理能够以一半的时间和成本来研究和综合劳动力市场数据。",
-        "bullets": [
-          "与之前的模型相比，GPT-6 Astra 使 Parallel 的代理能够以一半的时间和成本来研究和综合劳动力市场数据。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：与之前的模型相比，GPT-6 Astra 使 Parallel 的代理能够以一半的时间和成本来研究和综合劳动力市场数据。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/parallel-cuts-time-and-cost-with-astra"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "与之前的模型相比，GPT-6 Astra 使 Parallel 的代理能够以一半的时间和成本来研究和综合劳动力市场数据。"
-      ],
-      "highlights": [
-        "与之前的模型相比，GPT-6 Astra 使 Parallel 的代理能够以一半的时间和成本来研究和综合劳动力市场数据。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Parallel cut research time and cost in half with GPT‑6 Astra",
-      "originalLang": "en",
-      "date": "2026-09-22",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Parallel cut research time and cost in half with GPT‑6 Astra"
-      },
-      "raw": {
-        "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
-        "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-        "fetched": false,
-        "savedAt": "2026-09-23T02:53:02.065Z"
-      }
-    },
-    {
-      "id": "sig-b4fb82cc13",
-      "title": "有效第三方评估的优先事项和原则",
-      "oneLiner": "OpenAI 概述了对前沿模型和保障措施进行严格、安全和独立的第三方人工智能安全评估的优先事项和原则。",
-      "summary": {
-        "oneSentence": "OpenAI 概述了对前沿模型和保障措施进行严格、安全和独立的第三方人工智能安全评估的优先事项和原则。",
-        "bullets": [
-          "OpenAI 概述了对前沿模型和保障措施进行严格、安全和独立的第三方人工智能安全评估的优先事项和原则。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：OpenAI 概述了对前沿模型和保障措施进行严格、安全和独立的第三方人工智能安全评估的优先事项和原则。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/priorities-principles-third-party-assessments"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "OpenAI 概述了对前沿模型和保障措施进行严格、安全和独立的第三方人工智能安全评估的优先事项和原则。"
-      ],
-      "highlights": [
-        "OpenAI 概述了对前沿模型和保障措施进行严格、安全和独立的第三方人工智能安全评估的优先事项和原则。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Priorities and principles for effective third party assessments",
-      "originalLang": "en",
-      "date": "2026-09-22",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/priorities-principles-third-party-assessments",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Priorities and principles for effective third party assessments"
-      },
-      "raw": {
-        "title": "Priorities and principles for effective third party assessments",
-        "url": "https://openai.com/index/priorities-principles-third-party-assessments",
-        "fetched": false,
-        "savedAt": "2026-09-23T02:53:03.396Z"
-      }
-    },
-    {
-      "id": "sig-c332c2aee6",
-      "title": "GPT-6 Sol 和 Luna 现已在 AI Gateway 上可用 - Vercel",
-      "oneLiner": "OpenAI 的 GPT-6 Sol 和 GPT-6 Luna 现已在 AI Gateway 上提供。",
-      "summary": {
-        "oneSentence": "OpenAI 的 GPT-6 Sol 和 GPT-6 Luna 现已在 AI Gateway 上提供。",
-        "bullets": [
-          "OpenAI 的 GPT-6 Sol 和 GPT-6 Luna 现已在 AI Gateway 上提供。",
-          "这两种模型都以比 GPT-6 Astra 更低的价格在专业工作、编码、计算机使用、事实性和通信方面带来了 GPT-6 的改进。",
-          "GPT-6 Sol ( openai/gpt-6-sol ) 适合复杂的专业工作流程和持续的编码任务，其中质量和迭代空间都很重要。",
-          "GPT-6 Luna ( openai/gpt-6-luna ) 是大容量代理工作流程、编码和日常任务的低成本选项。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：OpenAI 的 GPT-6 Sol 和 GPT-6 Luna 现已在 AI Gateway 上提供。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/gpt-6-sol-and-luna-now-available-on-ai-gateway"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "OpenAI 的 GPT-6 Sol 和 GPT-6 Luna 现已在 AI Gateway 上提供。",
-        "这两种模型都以比 GPT-6 Astra 更低的价格在专业工作、编码、计算机使用、事实性和通信方面带来了 GPT-6 的改进。",
-        "GPT-6 Sol ( openai/gpt-6-sol ) 适合复杂的专业工作流程和持续的编码任务，其中质量和迭代空间都很重要。",
-        "GPT-6 Luna ( openai/gpt-6-luna ) 是大容量代理工作流程、编码和日常任务的低成本选项。",
-        "Sol 和 Luna 都比 GPT-5.6 版本的沟通更直接，行话和低价值细节更少。它们还提高了事实可靠性，并且不太可能对编码任务期间完成的工作做出误导性的声明。",
-        "在 AI SDK 、兼容 OpenAI 的聊天完成 API 、兼容 OpenAI 的响应 API 以及连接到 AI 网关的编码代理中使用 openai/gpt-6-sol 和 openai/gpt-6-luna 。",
-        "API Codex fx 聊天完成 API API Codex Codex fx fx 聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 3 const result = streamText ({ 4 model : 'openai/gpt-6-sol' , 5 Prompt : 6 ` 调查结帐失败，实施并测试修复，7 然后总结更改和任何剩余风险。 ` , 8 } ) ;复制代理查看型号详细信息 ↗ 安装最新的 Vercel CLI 并将支持的编码代理连接到 AI Gateway：",
-        "1 npm i -g vercel@latest 2 vercel ai-gateway 设置",
-        "然后选择 openai/gpt-6-sol 进行更长或要求更高的编码工作，或者选择 openai/gpt-6-luna 当吞吐量是优先考虑的时候。",
-        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况以及配置重试、故障转移和路由。"
-      ],
-      "highlights": [
-        "OpenAI 的 GPT-6 Sol 和 GPT-6 Luna 现已在 AI Gateway 上提供。",
-        "这两种模型都以比 GPT-6 Astra 更低的价格在专业工作、编码、计算机使用、事实性和通信方面带来了 GPT-6 的改进。",
-        "GPT-6 Sol ( openai/gpt-6-sol ) 适合复杂的专业工作流程和持续的编码任务，其中质量和迭代空间都很重要。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "GPT-6 Sol and Luna now available on AI Gateway - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-22",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/gpt-6-sol-and-luna-now-available-on-ai-gateway",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "GPT-6 Sol and Luna now available on AI Gateway - Vercel"
-      },
-      "raw": {
-        "title": "GPT-6 Sol and Luna now available on AI Gateway",
-        "url": "https://vercel.com/changelog/gpt-6-sol-and-luna-now-available-on-ai-gateway",
-        "fetched": true,
-        "savedAt": "2026-09-23T02:53:13.046Z"
-      }
-    },
-    {
-      "id": "sig-88dfdf44a7",
-      "title": "Vercel Sandbox 驱动器现已进入公开测试版 - Vercel",
-      "oneLiner": "Vercel Sandbox 驱动器现已在 Hobby、Pro 和 Enterprise 上提供公开测试版。",
-      "summary": {
-        "oneSentence": "Vercel Sandbox 驱动器现已在 Hobby、Pro 和 Enterprise 上提供公开测试版。",
-        "bullets": [
-          "Vercel Sandbox 驱动器现已在 Hobby、Pro 和 Enterprise 上提供公开测试版。",
-          "驱动器是持久存储，您可以将其作为目录安装在 Vercel 沙箱中。它不绑定到单个沙箱，因此您可以在运行和不同的沙箱实例中重复使用相同的驱动器。",
-          "使用驱动器保留代理的工作区或磁盘内存，或重用数据集、模型和依赖关系树。",
-          "将链接复制到标题 创建并安装驱动器 创建或检索驱动器并将其安装在启动沙箱时的路径中。通过该路径上的沙箱文件系统读取和写入文件。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Vercel Sandbox 驱动器现已在 Hobby、Pro 和 Enterprise 上提供公开测试版。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/drives-for-vercel-sandbox-are-now-in-public-beta"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Vercel Sandbox 驱动器现已在 Hobby、Pro 和 Enterprise 上提供公开测试版。",
-        "驱动器是持久存储，您可以将其作为目录安装在 Vercel 沙箱中。它不绑定到单个沙箱，因此您可以在运行和不同的沙箱实例中重复使用相同的驱动器。",
-        "使用驱动器保留代理的工作区或磁盘内存，或重用数据集、模型和依赖关系树。",
-        "将链接复制到标题 创建并安装驱动器 创建或检索驱动器并将其安装在启动沙箱时的路径中。通过该路径上的沙箱文件系统读取和写入文件。",
-        "1 从 '@vercel/sandbox' 导入 { Sandbox , Drive } ； 2 3 const 工作区 = 等待 Drive 。 getOrCreate ({ 4 name : '代理工作空​​间', 5 } ) ; 6 7 const sandbox =等待沙箱。 create ({ 8 个安装: { '/data' : 工作空间 } , 9 } ) ;在 Vercel 沙箱中创建并安装驱动器。",
-        "沙箱停止后，存储在 /data 下的所有内容仍保留在驱动器上。",
-        "将链接复制到标题 跨沙箱共享驱动器数据 驱动器一次支持一个读写安装。写入驱动器后，多个沙箱可以通过安装时间点只读快照来同时读取该驱动器。",
-        "1 从 '@vercel/sandbox' 导入 { Sandbox , Drive } ； 2 3 const 工作区 = 等待 Drive 。 getOrCreate ({ 4 name : '代理工作空​​间', 5 } ) ; 6 7 // 驱动器必须至少被写入一次。 8 const [ reviewSandbox , testSandbox ] = 等待 Promise 。 all ( [ 9 Sandbox . create ( { 10 个挂载 : { '/data' : 工作空间 . snapshot ( ) } , 11 } ) , 12 Sandbox . create ( { 13 个挂载 : { '/data' : 工作空间 . snapshot ( ) } , 14 } ) , 15 ] ) ;为多个沙箱提供对驱动器的并发只读访问权限。",
-        "每个快照都反映了驱动器安装时的情况。稍后的写入不包括在内；安装新快照来访问它们。",
-        "将链接复制到标题限制和定价每个沙箱可以在不同的路径上安装最多四个驱动器。驱动器默认的最大大小为 1 TiB（Hobby 为 1 GiB），最多可配置为 16 TiB，并可根据要求提供更高的限制。"
-      ],
-      "highlights": [
-        "Vercel Sandbox 驱动器现已在 Hobby、Pro 和 Enterprise 上提供公开测试版。",
-        "驱动器是持久存储，您可以将其作为目录安装在 Vercel 沙箱中。它不绑定到单个沙箱，因此您可以在运行和不同的沙箱实例中重复使用相同的驱动器。",
-        "使用驱动器保留代理的工作区或磁盘内存，或重用数据集、模型和依赖关系树。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Drives for Vercel Sandbox are now in public beta - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-22",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/drives-for-vercel-sandbox-are-now-in-public-beta",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Drives for Vercel Sandbox are now in public beta - Vercel"
-      },
-      "raw": {
-        "title": "Drives for Vercel Sandbox are now in public beta",
-        "url": "https://vercel.com/changelog/drives-for-vercel-sandbox-are-now-in-public-beta",
-        "fetched": true,
-        "savedAt": "2026-09-23T02:53:21.031Z"
-      }
-    },
-    {
-      "id": "sig-7d11b8cd0b",
-      "title": "Claude Opus 5.5 现已在 AI Gateway 上可用 - Vercel",
-      "oneLiner": "Anthropic 的 Claude Opus 5.5 现已在 AI Gateway 上提供。它是对 Opus 5 的一步式改进，在代理编码、长时间运行的代理任务和知识工作方面取得了最大的进步。 Anthropic 指出，Opus 5.5 ",
-      "summary": {
-        "oneSentence": "Anthropic 的 Claude Opus 5.5 现已在 AI Gateway 上提供。它是对 Opus 5 的一步式改进，在代理编码、长时间运行的代理任务和知识工作方面取得了最大的进步。 Anthropic 指出，Opus 5.5 ",
-        "bullets": [
-          "Anthropic 的 Claude Opus 5.5 现已在 AI Gateway 上提供。它是对 Opus 5 的一步式改进，在代理编码、长时间运行的代理任务和知识工作方面取得了最大的进步。 Anthropic 指出，Opus 5.5 的性能与 Fable 5.1 的水平相当，但每项任务比 Opus 5 快约 30",
-          "从长远来看，Opus 5.5 也是一个更好的协作者。它以简单的语言报告它做了什么、发现了什么以及下一步需要什么，从而更容易监督跨多个步骤或在较长时间内进行的工作。",
-          "Opus 5.5 包括两项 API 更改，可以将以前有效的请求转变为 HTTP 400 错误：",
-          "思维总是具有适应性的。禁止思考或设置固定思考预算的请求将被拒绝。该模型决定对每个请求要考虑多少。使用努力和提示来引导其思维行为。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Anthropic 的 Claude Opus 5.5 现已在 AI Gateway 上提供。它是对 Opus 5 的一步式改进，在代理编码、长时间运行的代理任务和知识工作方面取得了最大的进步。 Anthropic 指出，Opus 5.5 ",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/claude-opus-5-5-now-available-on-ai-gateway"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Anthropic 的 Claude Opus 5.5 现已在 AI Gateway 上提供。它是对 Opus 5 的一步式改进，在代理编码、长时间运行的代理任务和知识工作方面取得了最大的进步。 Anthropic 指出，Opus 5.5 的性能与 Fable 5.1 的水平相当，但每项任务比 Opus 5 快约 30%，成本约 40%。",
-        "从长远来看，Opus 5.5 也是一个更好的协作者。它以简单的语言报告它做了什么、发现了什么以及下一步需要什么，从而更容易监督跨多个步骤或在较长时间内进行的工作。",
-        "Opus 5.5 包括两项 API 更改，可以将以前有效的请求转变为 HTTP 400 错误：",
-        "思维总是具有适应性的。禁止思考或设置固定思考预算的请求将被拒绝。该模型决定对每个请求要考虑多少。使用努力和提示来引导其思维行为。",
-        "强制使用工具已被淘汰。请求不能要求工具调用或强制使用特定工具。提示模型走向工具，然后捕捉并重试安全带中的未命中情况。如果您之前强制工具调用返回 JSON，请改用结构化输出。",
-        "在 AI SDK 、兼容 OpenAI 的聊天完成 API 、Anthropic 消息 API 以及连接到 AI 网关的编码代理中使用 anthropic/claude-opus-5.5。您还可以使用网关速度选项 r anthropic/claude-opus-5.5-fast 启用快速模式。该模型具有 1M 个令牌上下文窗口，返回最多 128K 个令牌，并具有 2026 年 6 月的知识截止日期。",
-        "API Claude Code fx 聊天完成 API API Claude Code Claude Code fx fx 聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 3 const result = streamText ( { 4 model : 'anthropic/claude-opus-5.5' , 5 Reasoning : 'medium' , 6prompt : '调查失败的测试，实施修复，并报告更改的内容。' , 7providerOptions : { 8 gateway : { 9 speed : 'fast' , 10 inferenceRegion : {scope : 'zone' , 地理区域: '我们' } , 11 } , 12 } , 13 } ) ;为代理复制 查看模型详细信息 ↗ 将链接复制到标题 区域推理和零数据保留 区域推理和零数据保留是选择加入的请求控件。此示例将推论推向 US 和 ZDR：",
-        "1 constregionalResult =streamText({2model:'anthropic/claude-opus-5.5',3prompt:'总结这个内部文档。',4providerOptions:{5gateway:{6inferenceRegion:{scope:'zone',geoRegion:'us'},7zeroDataRetention:true,8},9 } , 10 } );",
-        "将链接复制到标题 在编码代理中使用 Opus 5.5 安装最新的 Vercel CLI 并将支持的编码代理连接到 AI Gateway：",
-        "1 npm i -g vercel@latest 2 vercel ai-gateway 设置"
-      ],
-      "highlights": [
-        "Anthropic 的 Claude Opus 5.5 现已在 AI Gateway 上提供。它是对 Opus 5 的一步式改进，在代理编码、长时间运行的代理任",
-        "从长远来看，Opus 5.5 也是一个更好的协作者。它以简单的语言报告它做了什么、发现了什么以及下一步需要什么，从而更容易监督跨多个步骤或在较长时间内进行的工作",
-        "Opus 5.5 包括两项 API 更改，可以将以前有效的请求转变为 HTTP 400 错误："
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Claude Opus 5.5 now available on AI Gateway - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-22",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/claude-opus-5-5-now-available-on-ai-gateway",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Claude Opus 5.5 now available on AI Gateway - Vercel"
-      },
-      "raw": {
-        "title": "Claude Opus 5.5 now available on AI Gateway",
-        "url": "https://vercel.com/changelog/claude-opus-5-5-now-available-on-ai-gateway",
-        "fetched": true,
-        "savedAt": "2026-09-23T02:53:32.309Z"
-      }
-    },
-    {
-      "id": "sig-f526d76790",
-      "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
-      "oneLiner": "Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic relea",
-      "summary": {
-        "oneSentence": "Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 ",
-        "bullets": [
-          "Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Yesterday was Grok 4.7 ( pelicans ) and MiMo v2.6 Flash/Pro ( more pelicans ). Today Anthropic released Claude Opus 5.5 , and around an hour later OpenAI released GPT-6 Sol and GPT-6 Luna . It's going to take a while to get a good read on all of these new models, but here are my impressions so far. GPT-6 Sol and Luna are half the price of their GPT-5.6 equivalents GPT-5.6 Luna was already my favorite model for building applications against, because it combined excellent performance with being really cheap . Somehow GPT-6 Luna is half the price of that again - and GPT-6 Sol had a similar reduction compared to GPT-5.6 Sol. Here's what the pricing landscape looks like today: Model Input Cached input Output GPT-6 Luna $0.10/M $0.01/M $0.50/M GPT-5.6 Luna $0.20/M $0.02/M $1.20/M Grok 4.7 $2/M $0.50/M $6/M GPT-6 Sol $2/M $0.20/M $10/M GPT-5.6 Terra $2/M $0.20/M $12/M Claude Opus 5.5 $4/M $0.20/M $20/M GPT-5.6 Sol $4/M $0.40/M $20/M Claude Fable 5.1 $10/M $0.25/M $50/M GPT-6 Astra $10/M $1/M $50/M Note that GPT-5.6 has a scheduled 25% price increase for November, so GPT-6 is half the price of the promotional pricing for those models. (With GPT-5.6 Terra priced the same as GPT-6 Sol, any remaining reasons to use Terra just evaporated.) It's hard to overstate how competitive this pricing is. Grok 4.7 priced itself at $2/$6, less than half the price of GPT-5.6 Sol, but is now equally priced to GPT-6 Sol on input and closer on output. At $0.10/$0.50 GPT-6 Luna is one of the cheapest models OpenAI have ever released, beaten only by the far weaker GPT-4.1 Nano ($0.10/$0.40, April 2025) and GPT-5 Nano ($0.05/$0.40, August 2025). I rendered pelicans for GPT-6 Luna and for GPT-6 Sol , then I combined them all together in this comparison grid along with the GPT-5.6 pelicans. I like how you can instantly see that the 5.6 family chose bolder, brighter colors, while the 6 family is a lot more muted. I still think GPT-6 Astra on max produced the best pelican. Claude Opus 5.5 got a price cut too Opus 5.5 looks like it addresses the biggest complaints people had about Opus in terms of its communication style. Thariq Shihipar : Opus 5.5 is the result of your feedback. It communicates clearly, it's cheaper per token than Opus 5.0 with the intelligence of Fable 5.1 it's very token efficient and works across every effort level. It's also meant to be better at Blender . I'm looking forward to putting it through its paces there. Opus 4.5, 4.6, 4.7, 4.8, and 5 all shared the same price: $5/million tokens for input and $25/million for output. 5.5 is a 20% reduction - $4/million and $20/million. The price for cache reads fell 60%. That's significant for longer agentic conversations, where 90%+ of input tokens are processed at cached token prices. The new price for Opus 5.5 is the same as the price for GPT-5.6 Sol, but that was before OpenAI dropped their Sol prices by half. GPT-6 Astra and Claude Fable 5.1 are both priced at $10/million input and $50/million output. The price war currently affects the next tier of models below that. Anthropic say that Sonnet 5.5 and Haiku 5.5 are coming soon. It's going to be interesting to see if Haiku can regain its price competitiveness at the lower end, given current Haiku 4.5 is $1/$5 while the latest GPT-6 Luna is one tenth of that price at $0.10/$0.50. Claude Opus 5.5 max over-thinks to the point of breaking In a first for my \" Generate an SVG of a pelican riding a bicycle \" test, Claude Opus 5.5 at \"max\" thinking level failed to return a response! It started by calling this \"a classic test request\", and then thought really, really hard about what it was doing: This is a classic test request, so I want to plan out a well-composed pelican with its distinctive beak and pouch riding a bicycle with proper wheels, frame, and pedals, set against a simple sky and ground backdrop. [...] Verifying the shin length checks out at roughly 95.2, close enough. Now I'm working out the near leg path from hip to knee to ankle, then sketching the foot shape resting on the pedal — outlining the heel, toe tips, and sole contour with a path using lines and curves to sit naturally on the pedal surface around y=478-494. [...] I like the fish sticking prominently out of the basket with the pelican eyeing it as a fun detail worth keeping. I'm also confirming the eye placement near the bill base matches typical pelican anatomy, and considering giving it a slightly happier expression. [...] The far leg reads correctly as passing behind the frame, so I'm moving on to check the chainring teeth and confirm layer ordering—the far crank arm should be mostly hidden by the seat tube and chainring. I'm settling on the final SVG's width and height attributes alongside the viewBox to ensure proper scaling, noting there's no text so no font-family is needed. [...] I was so excited to see this pelican... but then it stopped . Opus 5.5 has a 128,000 maximum output token limit (as do the other Claude models), and it hit that while it was still reasoning about the SVG! I tried a second time and got the same result. This makes me suspect that \"max\" is effectively useless - if it over-thinks to breaking point on a stupid SVG prompt I don't trust it not to do the same for more interesting work. (Those two failures each cost me $2.56 and took nearly 20 minutes.) Fable 5.1 on \"max\" didn't over-think and did give me the best pelican I've seen from any Anthropic model. Here are the Opus 5.5 pelicans , excluding 5.5 max. I also built this comparison grid comparing them with pelicans by Opus 5, Fable 5.1, and Sonnet 5: Comparing different model vendors by how well they draw a pelican riding a bicycle may not make much sense now (if it ever did), but I'm still finding value in using them for comparisons of the same model families at different reasoning levels. I'm now using GPT-6 Sol and Claude Opus 5.5 as my default models in Codex and Claude Code. I've upgraded the Datasette Agent demo at agent.datasette.io to use GPT-6 Luna, and it seems to be fast and competent at both SQL queries and building HTML and JavaScript for Datasette Apps . Tags: ai , openai , generative-ai , llms , anthropic , claude , llm-pricing , pelican-riding-a-bicycle , gpt"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
-      "originalLang": "en",
-      "date": "2026-09-22",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war"
-      },
-      "raw": {
-        "title": "Claude Opus 5.5, GPT-6 Sol, GPT-6 Luna, and a new price war",
-        "url": "https://simonwillison.net/2026/Sep/22/opus-and-sol-and-luna/",
-        "fetched": false,
-        "savedAt": "2026-09-23T02:53:41.560Z"
-      }
-    },
-    {
-      "id": "sig-827f1b5fbc",
-      "title": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
-      "oneLiner": "We talked to Google’s Oscar winning “Giganerd” about automating science, solving climate change, and",
-      "summary": {
-        "oneSentence": "We talked to Google’s Oscar winning “Giganerd” about automating science, solving climate change, and how future generati",
-        "bullets": [
-          "We talked to Google’s Oscar winning “Giganerd” about automating science, solving climate change, and how future generations can contribute to science in the age of superintelligent AI"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://www.latent.space/p/john-platt"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "We talked to Google’s Oscar winning “Giganerd” about automating science, solving climate change, and how future generations can contribute to science in the age of superintelligent AI"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
-      "originalLang": "en",
-      "date": "2026-09-22",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Latent Space",
-        "author": "swyx",
-        "url": "https://www.latent.space/p/john-platt",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science"
-      },
-      "raw": {
-        "title": "🔬 An Oscar, Two Asteroids, and the Algorithm in Your sklearn: John Platt on AI for Science",
-        "url": "https://www.latent.space/p/john-platt",
-        "fetched": false,
-        "savedAt": "2026-09-23T02:53:42.361Z"
-      }
-    },
-    {
-      "id": "sig-0ec1b9d730",
-      "title": "llm 0.36",
-      "oneLiner": "Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for GPT-6 Luna . #1702 M",
-      "summary": {
-        "oneSentence": "Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for GPT-6 Luna . #1702 Model plugins can now",
-        "bullets": [
-          "Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for GPT-6 Luna . #1702 Model plugins can now declare supports_conversation = False for models that only accept single-turn p"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/22/llm/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Release: llm 0.36 New OpenAI models: gpt-6-sol for GPT-6 Sol and gpt-6-luna for GPT-6 Luna . #1702 Model plugins can now declare supports_conversation = False for models that only accept single-turn prompts. LLM raises llm.ConversationNotSupported when these models receive assistant or tool history, and llm chat rejects them before starting a session. See Models that do not support conversations . The first plugin to use this is llm-typesafe . #1692 Reasoning traces in the Markdown output of llm logs are now wrapped in tags. #1701 Plus bug fixes from five new contributors . Tags: openai , llm"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "llm 0.36",
-      "originalLang": "en",
-      "date": "2026-09-22",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/22/llm/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "llm 0.36"
-      },
-      "raw": {
-        "title": "llm 0.36",
-        "url": "https://simonwillison.net/2026/Sep/22/llm/",
-        "fetched": false,
-        "savedAt": "2026-10-05T03:34:56.995Z"
-      }
-    },
-    {
-      "id": "sig-df9ee5d27a",
-      "title": "Quoting @therealcornpop",
-      "oneLiner": "Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTub",
-      "summary": {
-        "oneSentence": "Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's",
-        "bullets": [
-          "Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of \"it's not X, it's Y\", or the rule of three, or "
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/22/therealcornpop/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Hey, you know it's like super obvious if you're using AI to write your scripts for TikTok and YouTube, right? [...] It's not just the general AI-isms of \"it's not X, it's Y\", or the rule of three, or the really weird broken staccato-like way of writing where you just say a lot of things with all these punctuation marks. and it sounds really deep, but it's not. It's the lack of anything . It's the lack of a definitive sort of spear of your voice. It's the fact I can tell you don't have opinions about the thing that you're talking about. &mdash; @therealcornpop , on TikTok Tags: tiktok , ai , ai-misuse"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Quoting @therealcornpop",
-      "originalLang": "en",
-      "date": "2026-09-22",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/22/therealcornpop/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Quoting @therealcornpop"
-      },
-      "raw": {
-        "title": "Quoting @therealcornpop",
-        "url": "https://simonwillison.net/2026/Sep/22/therealcornpop/",
-        "fetched": false,
-        "savedAt": "2026-10-05T03:34:57.797Z"
-      }
-    },
-    {
-      "id": "sig-20af5c3822",
-      "title": "[AINews] Xiaomi MiMo-V2.6-Pro 1T-A42B: the new top Open Weights model, trained for $3M",
-      "oneLiner": "crowning a new Chinese frontier lab",
-      "summary": {
-        "oneSentence": "crowning a new Chinese frontier lab",
-        "bullets": [
-          "crowning a new Chinese frontier lab"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "crowning a new Chinese frontier lab"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "[AINews] Xiaomi MiMo-V2.6-Pro 1T-A42B: the new top Open Weights model, trained for $3M",
-      "originalLang": "en",
-      "date": "2026-09-22",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Latent Space",
-        "author": "swyx",
-        "url": "https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "[AINews] Xiaomi MiMo-V2.6-Pro 1T-A42B: the new top Open Weights model, trained for $3M"
-      },
-      "raw": {
-        "title": "[AINews] Xiaomi MiMo-V2.6-Pro 1T-A42B: the new top Open Weights model, trained for $3M",
-        "url": "https://www.latent.space/p/ainews-xiaomi-mimo-v26-pro-1t-a42b",
-        "fetched": false,
-        "savedAt": "2026-10-06T04:22:59.813Z"
       }
     }
   ]
