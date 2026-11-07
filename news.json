@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-06T04:43:33.310Z",
+  "updatedAt": "2026-11-07T04:11:53.045Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 427,
+  "itemCount": 414,
   "brief": {
-    "date": "2026-11-06",
-    "generatedAt": "2026-11-06T04:43:33.309Z",
-    "totalCount": 427,
-    "todayCount": 1,
-    "headline": "今日 AI 信号 1 条 · 档案共 427 条",
+    "date": "2026-11-07",
+    "generatedAt": "2026-11-07T04:11:53.044Z",
+    "totalCount": 414,
+    "todayCount": 0,
+    "headline": "今日 AI 信号 — 条 · 档案共 414 条",
     "topUpdates": [
       {
         "id": "sig-1564a9d4f1",
@@ -19,58 +19,57 @@
         "readMinutes": 5
       },
       {
-        "id": "sig-c88b52d0b2",
-        "title": "Cult.fit 通过 Codex 增强运营能力",
+        "id": "sig-ca6f08fa82",
+        "title": "聊天 SDK 代理现在可以使用 json-render 流式传输生成 UI - Vercel",
         "stars": 4,
-        "oneLiner": "Cult.fit 正在使用 Codex 帮助跨职能团队构建工具、加快行动速度并改变工作完成方式。",
+        "oneLiner": "您现在可以使用 json-render 从 Chat SDK 代理流式传输生成 UI。",
         "readMinutes": 5
       },
       {
-        "id": "sig-825a50d1c0",
-        "title": "Gemini Omni 1.2 Flash：快速、经济高效，具有更长的剪辑",
+        "id": "sig-8d6a841a49",
+        "title": "AI Gateway 添加 DeepSeek 搜索和 Fetch 工具 - Vercel",
         "stars": 4,
-        "oneLiner": "Gemini Omni 1.2 Flash带来15秒片段，一致性更强，生成速度更快、性价比更高。",
+        "oneLiner": "DeepSeek Search 和 DeepSeek Fetch 现在可通过 AI Gateway 进行使用。搜索可查找包含标题、URL 和摘要的相关页面。 Fetch 以 Markdown 形式检索页面内容，供模型阅读。",
         "readMinutes": 5
       },
       {
-        "id": "sig-b58fee4edb",
-        "title": "澳大利亚大学正在培养人工智能本土毕业生",
+        "id": "sig-650a3346e5",
+        "title": "对话：迪伦·菲尔德 (Dylan Field) 和大卫·弗里德伯格 (David Friedberg) 谈人类在人工智能创造中的角色 | Figma 博客",
         "stars": 4,
-        "oneLiner": "澳大利亚大学正在扩大 ChatGPT 的使用范围，并将人工智能引入教学和学习，为学生成为人工智能劳动力做好准备。",
+        "oneLiner": "关于为什么设计是新的代码，塑造人工智能的创意输出，以及我们所做的事情背后的人类视觉和判断。",
         "readMinutes": 5
       },
       {
-        "id": "sig-63c3d56bc7",
-        "title": "Gemini Omni 1.2 Flash：快速、经济高效，具有更长的剪辑",
+        "id": "sig-fc7161ee6b",
+        "title": "Vercel CLI 现在可以将新项目设置为过期 - Vercel",
         "stars": 4,
-        "oneLiner": "Gemini Omni 1.2 Flash带来15秒片段，一致性更强，生成速度更快、性价比更高。",
+        "oneLiner": "现在，您可以将新项目设置为在使用 Vercel CLI 部署时过期。过期的项目会自动删除，因此原型、演示和测试应用程序不需要手动清理。",
         "readMinutes": 5
       }
     ],
     "sections": {
       "topUpdates": [
         "sig-1564a9d4f1",
-        "sig-c88b52d0b2",
-        "sig-825a50d1c0",
-        "sig-b58fee4edb",
-        "sig-63c3d56bc7",
-        "sig-176b4a361e"
+        "sig-ca6f08fa82",
+        "sig-8d6a841a49",
+        "sig-650a3346e5",
+        "sig-fc7161ee6b",
+        "sig-05a0335822"
       ],
       "newReleases": [
         "sig-f50edeef79",
         "sig-b8b5f613d5",
-        "sig-ecd4573e22",
-        "sig-089c4ff63d"
+        "sig-ecd4573e22"
       ],
       "insights": [
         "sig-1564a9d4f1",
-        "sig-c88b52d0b2",
-        "sig-825a50d1c0",
-        "sig-b58fee4edb",
-        "sig-63c3d56bc7",
-        "sig-176b4a361e",
-        "sig-9a44a8aa72",
-        "sig-53c56afbaf"
+        "sig-ca6f08fa82",
+        "sig-8d6a841a49",
+        "sig-650a3346e5",
+        "sig-fc7161ee6b",
+        "sig-05a0335822",
+        "sig-12839cc6c8",
+        "sig-39cf968ded"
       ],
       "emergingTrends": [],
       "newApis": [],
@@ -91,8 +90,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-11-06T04:43:33.310Z",
-    "summary": "近 30 天共 275 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-11-07T04:11:53.045Z",
+    "summary": "近 30 天共 272 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -107,6 +106,30 @@
     "risingTags": []
   },
   "productUpdates": [
+    {
+      "id": "sig-bc8f9eac19",
+      "title": "与 Hacktron 合作寻找 OpenAI 系统中的漏洞",
+      "oneLiner": "OpenAI 正在与 Hacktron 合作，寻找漏洞、测试与第三方服务的连接，并利用前沿人工智能加强防御。",
+      "date": "2026-11-06",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-cfd4354afa",
+      "title": "衡量人工智能代理如何处理日常湿实验室科学",
+      "oneLiner": "OpenAI 推出了 BioBasicsBench，这是一个包含 100 项任务的基准测试，用于衡量 AI 代理解释原始实验数据和处理日常湿实验室科学的能力。",
+      "date": "2026-11-06",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
     {
       "id": "sig-c88b52d0b2",
       "title": "Cult.fit 通过 Codex 增强运营能力",
@@ -370,30 +393,6 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-d28967fce9",
-      "title": "我们如何检测前沿模型错位",
-      "oneLiner": "OpenAI 使用分层监控来检测前沿模型错位和未经授权的代理行为，以便响应人员可以在事件升级之前进行干预。",
-      "date": "2026-10-29",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-2d99282896",
-      "title": "Ropes & Gray 如何开发用于交易尽职调查的人工智能",
-      "oneLiner": "Ropes & Gray 正在通过 OpenAI 开发用于交易尽职调查的人工智能。律师在向客户提供建议之前会审查分组文件、摘要和报告。",
-      "date": "2026-10-29",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
@@ -473,6 +472,817 @@
         "url": "https://vercel.com/changelog/token-pass-credit-now-applies-automatically-across-ai-gateway",
         "fetched": true,
         "savedAt": "2026-11-06T04:42:52.119Z"
+      }
+    },
+    {
+      "id": "sig-ca6f08fa82",
+      "title": "聊天 SDK 代理现在可以使用 json-render 流式传输生成 UI - Vercel",
+      "oneLiner": "您现在可以使用 json-render 从 Chat SDK 代理流式传输生成 UI。",
+      "summary": {
+        "oneSentence": "您现在可以使用 json-render 从 Chat SDK 代理流式传输生成 UI。",
+        "bullets": [
+          "您现在可以使用 json-render 从 Chat SDK 代理流式传输生成 UI。",
+          "通过组件的类型化目录，代理编写一个 JSON 规范，json-render 将其转换为聊天 SDK 卡。然后，每个适配器以其平台的本机格式发布卡片，例如 Slack 上的 Block Kit 和 Teams 上的 Adaptive Cards。",
+          "该目录涵盖表格、图表、按钮等，因此没有单独的工具可以为每种消息形状构建和维护。",
+          "lib/bot.ts 从“@json-render/core”导入{defineCatalog}；从“@json-render/chat”导入{ schema , standardComponentDefinitions , streamCard , } ；从“ai”导入{streamText}； const 目录=d"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：您现在可以使用 json-render 从 Chat SDK 代理流式传输生成 UI。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/json-render-and-chat-sdk-agents"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "您现在可以使用 json-render 从 Chat SDK 代理流式传输生成 UI。",
+        "通过组件的类型化目录，代理编写一个 JSON 规范，json-render 将其转换为聊天 SDK 卡。然后，每个适配器以其平台的本机格式发布卡片，例如 Slack 上的 Block Kit 和 Teams 上的 Adaptive Cards。",
+        "该目录涵盖表格、图表、按钮等，因此没有单独的工具可以为每种消息形状构建和维护。",
+        "lib/bot.ts 从“@json-render/core”导入{defineCatalog}；从“@json-render/chat”导入{ schema , standardComponentDefinitions , streamCard , } ；从“ai”导入{streamText}； const 目录=defineCatalog(模式,{组件:standardComponentDefinitions,});机器人。 onNewMention ( async ( thread , message ) => { const result = streamText ( { model : \"anthropic/claude-haiku-5.5\" , system : Catalog . Prompt ( ) , Prompt : message . text , } ) ;等待streamCard ( thread , result . textStream ) ; } ) ;当提到您的代理时，将生成的卡片流式传输到线程中。",
+        "将链接复制到标题“模型写入时流卡”，一旦其根元素有内容，streamCard 就会发布卡，并在新元素流入时更新消息。默认情况下，编辑最多每 500 毫秒发出一次，这与 Chat SDK 的流间隔相匹配。流结束后，消息将显示最终的、经过验证的卡片。",
+        "将链接复制到标题验证规范并强制执行平台限制 toCard 根据其组件架构检查每个元素的 props，并针对无效规范抛出 CardSpecError。每个问题都有自己的可读问题，因此您可以将列表发送回模型以获得更正的规范。",
+        "平台限制了单条消息可以容纳的内容，而聊天 SDK 适配器会降低超过这些上限的内容。例如，Slack 适配器将第二个表转换为代码块。通过限制来拒绝这些规范。",
+        "阅读文档以开始使用，或尝试游乐场。"
+      ],
+      "highlights": [
+        "您现在可以使用 json-render 从 Chat SDK 代理流式传输生成 UI。",
+        "通过组件的类型化目录，代理编写一个 JSON 规范，json-render 将其转换为聊天 SDK 卡。然后，每个适配器以其平台的本机格式发布卡片，例如 Sla",
+        "该目录涵盖表格、图表、按钮等，因此没有单独的工具可以为每种消息形状构建和维护。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Chat SDK agents can now stream generative UI with json-render - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-06",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/json-render-and-chat-sdk-agents",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Chat SDK agents can now stream generative UI with json-render - Vercel"
+      },
+      "raw": {
+        "title": "Chat SDK agents can now stream generative UI with json-render",
+        "url": "https://vercel.com/changelog/json-render-and-chat-sdk-agents",
+        "fetched": true,
+        "savedAt": "2026-11-07T04:10:22.879Z"
+      }
+    },
+    {
+      "id": "sig-8d6a841a49",
+      "title": "AI Gateway 添加 DeepSeek 搜索和 Fetch 工具 - Vercel",
+      "oneLiner": "DeepSeek Search 和 DeepSeek Fetch 现在可通过 AI Gateway 进行使用。搜索可查找包含标题、URL 和摘要的相关页面。 Fetch 以 Markdown 形式检索页面内容，供模型阅读。",
+      "summary": {
+        "oneSentence": "DeepSeek Search 和 DeepSeek Fetch 现在可通过 AI Gateway 进行使用。搜索可查找包含标题、URL 和摘要的相关页面。 Fetch 以 Markdown 形式检索页面内容，供模型阅读。",
+        "bullets": [
+          "DeepSeek Search 和 DeepSeek Fetch 现在可通过 AI Gateway 进行使用。搜索可查找包含标题、URL 和摘要的相关页面。 Fetch 以 Markdown 形式检索页面内容，供模型阅读。",
+          "使用一个 AI Gateway API 密钥，将这两种工具与任何支持工具调用的模型结合使用。不需要单独的 DeepSeek 帐户，并且在切换模型提供商时可以保留相同的工具。",
+          "这些助手在 AI SDK 6.0.321 及更高版本（v6）或 7.0.160 及更高版本（v7）中提供。使用 pnpm add ai@latest 进行更新并设置您的 AI_GATEWAY_API_KEY 。要结合搜索和页面检索，请在 tools 中传递两个帮助程序：",
+          "AI SDK AI SDK AI SDK 1 import { gateway , streamText } from 'ai' ; 2 const result = streamText ( { 3 model : 'deepseek/deepseek-v4.1-flash-1017' , 4prompt : '查找"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 4,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：DeepSeek Search 和 DeepSeek Fetch 现在可通过 AI Gateway 进行使用。搜索可查找包含标题、URL 和摘要的相关页面。 Fetch 以 Markdown 形式检索页面内容，供模型阅读。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/ai-gateway-adds-deepseek-search-and-fetch-tools"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "DeepSeek Search 和 DeepSeek Fetch 现在可通过 AI Gateway 进行使用。搜索可查找包含标题、URL 和摘要的相关页面。 Fetch 以 Markdown 形式检索页面内容，供模型阅读。",
+        "使用一个 AI Gateway API 密钥，将这两种工具与任何支持工具调用的模型结合使用。不需要单独的 DeepSeek 帐户，并且在切换模型提供商时可以保留相同的工具。",
+        "这些助手在 AI SDK 6.0.321 及更高版本（v6）或 7.0.160 及更高版本（v7）中提供。使用 pnpm add ai@latest 进行更新并设置您的 AI_GATEWAY_API_KEY 。要结合搜索和页面检索，请在 tools 中传递两个帮助程序：",
+        "AI SDK AI SDK AI SDK 1 import { gateway , streamText } from 'ai' ; 2 const result = streamText ( { 3 model : 'deepseek/deepseek-v4.1-flash-1017' , 4prompt : '查找最新的 Vercel AI Gateway 公告，获取并总结它。' , 5tools : { 6 deepseek_search : gateway .tools . deepseekSearch ( { count : 3 } ) , 7 deepseek_fetch :网关工具。 10 for wait (const text of result.textStream) { 11 process .textStream 。标准输出。写（文字）； 12 } 复制代理查看模型详细信息 ↗ 如果 DeepSeek 搜索失败，您还可以使用 DeepSeek Fetch 的替代搜索工具：",
+        "AI SDK AI SDK AI SDK 1 import { gateway , streamText } from 'ai' ; 2 const result = streamText ( { 3 model : 'zai/glm-5.3-flash' , 4 system : '出现错误时尝试 deepseek_search，然后 exa_search，然后parallel_search。搜索成功后，对结果 URL 使用 deepseek_fetch。' , 5prompt : '查找最新的 Vercel AI Gateway 公告，获取并总结它。' , 6 toolChoice : '必需'，7个工具：{8 deepseek_search：网关。{count：3}），9 deepseek_fetch：网关。10 exa_search：网关。exaSearch（{numResults：3}）。并行搜索（{maxResults：3}），12}，13}）； 14 for await(const text of result.textStream){ 15 process.textStream 。标准输出。写（文字）； 16 } 代理副本 查看模型详细信息 ↗ 搜索回退是模型导向的，因此提供程序顺序和重试限制是尽力而为。 DeepSeek Fetch 可以从任何这些搜索工具检索结果 URL。",
+        "每 1,000 个计费请求的搜索和获取费用为 0.75 美元。失败的请求、超时和空结果不收取任何工具费用。模型代币单独计费。",
+        "有关配置选项和定价详细信息，请参阅 DeepSeek Search 文档和 DeepSeek Fetch 文档。",
+        "AI Gateway 提供了一个 API，用于调用模型、跟踪使用情况和成本以及配置路由、重试和故障转移。您可以使用 AI Gateway API 密钥或携带您自己的提供商密钥。"
+      ],
+      "highlights": [
+        "DeepSeek Search 和 DeepSeek Fetch 现在可通过 AI Gateway 进行使用。搜索可查找包含标题、URL 和摘要的相关页面。 F",
+        "使用一个 AI Gateway API 密钥，将这两种工具与任何支持工具调用的模型结合使用。不需要单独的 DeepSeek 帐户，并且在切换模型提供商时可以保留",
+        "这些助手在 AI SDK 6.0.321 及更高版本（v6）或 7.0.160 及更高版本（v7）中提供。使用 pnpm add ai@latest 进行更新并"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "AI Gateway adds DeepSeek Search and Fetch tools - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-06",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/ai-gateway-adds-deepseek-search-and-fetch-tools",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "AI Gateway adds DeepSeek Search and Fetch tools - Vercel"
+      },
+      "raw": {
+        "title": "AI Gateway adds DeepSeek Search and Fetch tools",
+        "url": "https://vercel.com/changelog/ai-gateway-adds-deepseek-search-and-fetch-tools",
+        "fetched": true,
+        "savedAt": "2026-11-07T04:10:34.511Z"
+      }
+    },
+    {
+      "id": "sig-650a3346e5",
+      "title": "对话：迪伦·菲尔德 (Dylan Field) 和大卫·弗里德伯格 (David Friedberg) 谈人类在人工智能创造中的角色 | Figma 博客",
+      "oneLiner": "关于为什么设计是新的代码，塑造人工智能的创意输出，以及我们所做的事情背后的人类视觉和判断。",
+      "summary": {
+        "oneSentence": "关于为什么设计是新的代码，塑造人工智能的创意输出，以及我们所做的事情背后的人类视觉和判断。",
+        "bullets": [
+          "关于为什么设计是新的代码，塑造人工智能的创意输出，以及我们所做的事情背后的人类视觉和判断。",
+          "对话 Dylan Field Figma 联合创始人兼首席执行官 David Friedberg Ohalo Genetics 首席执行官； All-In 播客联合主持人 随着人工智能使将想法转化为可行产品变得更加容易，人类的创造力在哪里发挥作用？ Figma 联合创始人兼首席执行官 Dylan Field 最近与 A",
+          "在代理人工智能的世界中，曾经需要产品经理、设计师和工程师团队的工作越来越多地由人工智能来完成。您能否谈谈您对人工智能时代人类创造力的未来的看法？它在哪里发挥作用呢？",
+          "我们正在通过人工智能降低整个制作过程的门槛，无论是代码、动作、视频，凡是你能想到的。每个人都可以参与其中，并且[生产]更加民主化。我曾经相信人工智能会提高上限，你能够做比以前更伟大的事情。那是错误的。人工智能并没有提高天花板，而是人类在提高天花板。当创意人员和设计师选择大胆、投入时间并尝试做一些以前没有人做过的事情时，"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Figma 官网发布：关于为什么设计是新的代码，塑造人工智能的创意输出，以及我们所做的事情背后的人类视觉和判断。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://www.figma.com/blog/in-conversation-dylan-field-and-david-friedberg/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "关于为什么设计是新的代码，塑造人工智能的创意输出，以及我们所做的事情背后的人类视觉和判断。",
+        "对话 Dylan Field Figma 联合创始人兼首席执行官 David Friedberg Ohalo Genetics 首席执行官； All-In 播客联合主持人 随着人工智能使将想法转化为可行产品变得更加容易，人类的创造力在哪里发挥作用？ Figma 联合创始人兼首席执行官 Dylan Field 最近与 All-In Podcast 联合主持人兼 Ohalo Genetics 首席执行官 David Friedberg 一起探讨了这个问题。在他们更广泛的对话的摘录中，他们讨论了为什么设计和独特的观点很重要，产品构建者如何塑造人工智能生成的内容，以及让人工智能为我们思考和利用它来扩展我们能做的事情之间的选择。",
+        "在代理人工智能的世界中，曾经需要产品经理、设计师和工程师团队的工作越来越多地由人工智能来完成。您能否谈谈您对人工智能时代人类创造力的未来的看法？它在哪里发挥作用呢？",
+        "我们正在通过人工智能降低整个制作过程的门槛，无论是代码、动作、视频，凡是你能想到的。每个人都可以参与其中，并且[生产]更加民主化。我曾经相信人工智能会提高上限，你能够做比以前更伟大的事情。那是错误的。人工智能并没有提高天花板，而是人类在提高天花板。当创意人员和设计师选择大胆、投入时间并尝试做一些以前没有人做过的事情时，我们就会看到天花板上升。",
+        "在软件设计和产品领域，我们看到的软件数量比以往任何时候都呈指数级增长。我认为这说明了让自己与众不同的需要。你是怎么做到的？它不是代码，因为现在任何人都可以创建代码。这不再是困难的部分了。我的观点是设计就是新的代码。就是上面那一层。你必须让你的设计与众不同，并且你必须有自己的观点。",
+        "做一些新的事情就是人类的创造力吗？如果你没有做以前从未做过的事情，那么你就没有创造任何东西。你在模仿一些东西。但做新事就是创造。",
+        "是的。做一些独特的、能够突破的事情将会得到市场的回报。每个人都会看到它。我认为这种工作也会引起组织内部人们的关注。",
+        "拥有愿景和观点也很重要。我认为从使用人工智能开始构建是很棒的。它为您提供了解决空白画布问题的方法。然后你可以对此做出反应并说：“这些都是我不喜欢的事情。我将解决这些问题。”来来回回很有帮助。",
+        "但如果你有自己的愿景并且相信人工智能能够实现它，那么你就是通过人工智能的镜头来实现它的。所以你不会得到你想要的。现在，如果你能够从建造开始，你就可以使用该建筑作为一种思维方式。当你想用手思考和工作时，你也可以这样做，并在两者之间快速切换。这就是我们试图在 Figma 中实现的目标——使代码成为画布设计上的材质以及画布上的代码层。今天，代码层进入公开测试版。现在，团队可以在画布上探索和构建由代码支持的原型。",
+        "当创意人员和设计师选择大胆、投入时间并尝试做一些以前没有人做过的事情时，我们就会看到天花板上升。 “当创意人员和设计师选择大胆、投入时间并尝试做一些以前没有人做过的事情时，我们就会看到天花板上升。”Figma 联合创始人兼首席执行官 Dylan Field David F。我个人对人工智能如何重塑现有的艺术形式和媒体感到兴奋，让创作者能够构建随着人们与他们互动而改变的体验。创作者设定参数——对象、故事情节、叙事流程——但最终的体验是即时生成的，有点像电子游戏。"
+      ],
+      "highlights": [
+        "关于为什么设计是新的代码，塑造人工智能的创意输出，以及我们所做的事情背后的人类视觉和判断。",
+        "对话 Dylan Field Figma 联合创始人兼首席执行官 David Friedberg Ohalo Genetics 首席执行官； All-In 播客",
+        "在代理人工智能的世界中，曾经需要产品经理、设计师和工程师团队的工作越来越多地由人工智能来完成。您能否谈谈您对人工智能时代人类创造力的未来的看法？它在哪里发挥作用"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "In Conversation: Dylan Field and David Friedberg on the Human Role in Creating with AI | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-11-06",
+      "categoryIds": [
+        "vertical-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/in-conversation-dylan-field-and-david-friedberg/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "In Conversation: Dylan Field and David Friedberg on the Human Role in Creating with AI | Figma Blog"
+      },
+      "raw": {
+        "title": "In conversation: Dylan Field and David Friedberg on the human role in creating with AI",
+        "url": "https://www.figma.com/blog/in-conversation-dylan-field-and-david-friedberg/",
+        "fetched": true,
+        "savedAt": "2026-11-07T04:10:49.773Z"
+      }
+    },
+    {
+      "id": "sig-fc7161ee6b",
+      "title": "Vercel CLI 现在可以将新项目设置为过期 - Vercel",
+      "oneLiner": "现在，您可以将新项目设置为在使用 Vercel CLI 部署时过期。过期的项目会自动删除，因此原型、演示和测试应用程序不需要手动清理。",
+      "summary": {
+        "oneSentence": "现在，您可以将新项目设置为在使用 Vercel CLI 部署时过期。过期的项目会自动删除，因此原型、演示和测试应用程序不需要手动清理。",
+        "bullets": [
+          "现在，您可以将新项目设置为在使用 Vercel CLI 部署时过期。过期的项目会自动删除，因此原型、演示和测试应用程序不需要手动清理。",
+          "使用 --delete-project-after 和持续时间运行 vercel deploy：",
+          "# 一天后删除新项目 vercel deploy --delete-project-after 1d 部署一天后过期的新项目",
+          "支持的持续时间为 1h 、 1d 、 1w 、 2w 和 30d ，CLI 会打印项目到期时的日期和时间。该标志仅在 vercel deploy 创建项目时适用。如果您部署到带有该标志的现有项目，其过期时间不会更改，并且 CLI 会打印警告。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：现在，您可以将新项目设置为在使用 Vercel CLI 部署时过期。过期的项目会自动删除，因此原型、演示和测试应用程序不需要手动清理。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-cli-can-now-set-new-projects-to-expire"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "现在，您可以将新项目设置为在使用 Vercel CLI 部署时过期。过期的项目会自动删除，因此原型、演示和测试应用程序不需要手动清理。",
+        "使用 --delete-project-after 和持续时间运行 vercel deploy：",
+        "# 一天后删除新项目 vercel deploy --delete-project-after 1d 部署一天后过期的新项目",
+        "支持的持续时间为 1h 、 1d 、 1w 、 2w 和 30d ，CLI 会打印项目到期时的日期和时间。该标志仅在 vercel deploy 创建项目时适用。如果您部署到带有该标志的现有项目，其过期时间不会更改，并且 CLI 会打印警告。",
+        "要删除项目的过期时间，请运行 vercel project keep ：",
+        "vercel project keep my-project 删除项目的过期时间",
+        "将 Vercel CLI 更新到 v65.12.0 或更高版本以开始使用。在 vercel 部署文档中了解更多信息。"
+      ],
+      "highlights": [
+        "现在，您可以将新项目设置为在使用 Vercel CLI 部署时过期。过期的项目会自动删除，因此原型、演示和测试应用程序不需要手动清理。",
+        "使用 --delete-project-after 和持续时间运行 vercel deploy：",
+        "# 一天后删除新项目 vercel deploy --delete-project-after 1d 部署一天后过期的新项目"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel CLI can now set new projects to expire - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-06",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-cli-can-now-set-new-projects-to-expire",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel CLI can now set new projects to expire - Vercel"
+      },
+      "raw": {
+        "title": "Vercel CLI can now set new projects to expire",
+        "url": "https://vercel.com/changelog/vercel-cli-can-now-set-new-projects-to-expire",
+        "fetched": true,
+        "savedAt": "2026-11-07T04:10:58.081Z"
+      }
+    },
+    {
+      "id": "sig-05a0335822",
+      "title": "Vercel 追踪现已全面推出 - Vercel",
+      "oneLiner": "Vercel Tracing 现在普遍适用于所有计划。您现在可以从仪表板或 Vercel CLI 搜索和检查跟踪，新的 Next.js 项目默认会进行跟踪。定价与测试版相比没有变化。",
+      "summary": {
+        "oneSentence": "Vercel Tracing 现在普遍适用于所有计划。您现在可以从仪表板或 Vercel CLI 搜索和检查跟踪，新的 Next.js 项目默认会进行跟踪。定价与测试版相比没有变化。",
+        "bullets": [
+          "Vercel Tracing 现在普遍适用于所有计划。您现在可以从仪表板或 Vercel CLI 搜索和检查跟踪，新的 Next.js 项目默认会进行跟踪。定价与测试版相比没有变化。",
+          "将链接复制到标题 在仪表板中浏览和搜索跟踪 在测试版中，您只能从“日志”页面打开每个请求的跟踪。新的“跟踪”页面在一个位置显示项目或整个团队的每个跟踪和跨度。在 Spans 列表和 Traces 列表之间切换、过滤每个列表，并使用 Kibana 查询语言 (KQL) 进行搜索。实时模式会在新踪迹到达时对其进行流式传输。",
+          "虚构项目的示例跨度和跟踪。使用 KQL 搜索、过滤并打开跟踪。",
+          "将链接复制到标题 从 CLI 搜索跟踪 跟踪页面使用与 vercel traces search --query 相同的 KQL，因此仪表板中构建的查询在 CLI 中运行时不会发生变化。搜索涵盖团队中的每个项目，或带有 --project 标志的一个项目。使用 vercel Tracesspect <request-i"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel Tracing 现在普遍适用于所有计划。您现在可以从仪表板或 Vercel CLI 搜索和检查跟踪，新的 Next.js 项目默认会进行跟踪。定价与测试版相比没有变化。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-tracing-is-now-generally-available"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Tracing 现在普遍适用于所有计划。您现在可以从仪表板或 Vercel CLI 搜索和检查跟踪，新的 Next.js 项目默认会进行跟踪。定价与测试版相比没有变化。",
+        "将链接复制到标题 在仪表板中浏览和搜索跟踪 在测试版中，您只能从“日志”页面打开每个请求的跟踪。新的“跟踪”页面在一个位置显示项目或整个团队的每个跟踪和跨度。在 Spans 列表和 Traces 列表之间切换、过滤每个列表，并使用 Kibana 查询语言 (KQL) 进行搜索。实时模式会在新踪迹到达时对其进行流式传输。像 span.name:db* AND span.duration > 500 这样的查询会按名称和持续时间缩小数据库范围以减慢数据库范围。",
+        "虚构项目的示例跨度和跟踪。使用 KQL 搜索、过滤并打开跟踪。",
+        "将链接复制到标题 从 CLI 搜索跟踪 跟踪页面使用与 vercel traces search --query 相同的 KQL，因此仪表板中构建的查询在 CLI 中运行时不会发生变化。搜索涵盖团队中的每个项目，或带有 --project 标志的一个项目。使用 vercel Tracesspect <request-id> 检查单个跟踪，并使用 vercel Traces config 管理项目的采样规则。",
+        "终端 1 vercel 跟踪搜索 --query 'span.duration > 2000' 2 vercel 跟踪搜索 --status error --since 1h 查找跨度慢于两秒，然后是上一小时的每个错误。",
+        "将链接复制到标题 新 Next.js 项目的自动跟踪 在测试版中，在添加采样规则之前不会收集任何内容。从 Next.js 16.5 开始，在 Vercel 上创建的至少包含一个 Node.js 函数的新项目在首次成功构建后会打开跟踪。 Vercel 添加了一项采样规则，可跟踪所有环境中 100% 的请求，并在构建时注入检测，因此跟踪包括无需设置的 Next.js 框架跨度。要选择退出，请在“设置”→“跟踪”中删除所有采样规则。",
+        "将链接复制到标题 更长的保留时间 在测试版中，跟踪会跟随运行时日志保留时间。 Hobby 现在保留跟踪 3 天，而不是 1 小时，Pro 保留跟踪 14 天，而不是 1 天，Enterprise 保留跟踪 14 天，而不是 3 天。",
+        "阅读跟踪文档以了解更多信息。"
+      ],
+      "highlights": [
+        "Vercel Tracing 现在普遍适用于所有计划。您现在可以从仪表板或 Vercel CLI 搜索和检查跟踪，新的 Next.js 项目默认会进行跟踪。定价",
+        "将链接复制到标题 在仪表板中浏览和搜索跟踪 在测试版中，您只能从“日志”页面打开每个请求的跟踪。新的“跟踪”页面在一个位置显示项目或整个团队的每个跟踪和跨度。在",
+        "虚构项目的示例跨度和跟踪。使用 KQL 搜索、过滤并打开跟踪。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Tracing is now generally available - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-06",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-tracing-is-now-generally-available",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Tracing is now generally available - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Tracing is now generally available",
+        "url": "https://vercel.com/changelog/vercel-tracing-is-now-generally-available",
+        "fetched": true,
+        "savedAt": "2026-11-07T04:11:07.764Z"
+      }
+    },
+    {
+      "id": "sig-12839cc6c8",
+      "title": "将原始 ElevenMusic 曲目直接上传到 SoundCloud",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+          "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_hlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 我们推出了与 SoundCloud 的新集成，以帮助您聆听音乐。现在，您可以在 ElevenMusic 中创建曲目，并通过几个简单的步骤将其发布到 SoundCloud 上。",
+          "打开您的个人资料设置并转到链接帐户，然后连接您的 SoundCloud 帐户。从那里，打开您在 ElevenMusic 中创建的原始曲目，添加描述、流派和标签，然后单击“保存到 SoundCloud”。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 4,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/soundcloud"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_hlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 注册博客产品 将您的 ElevenMusic 作品直接分享到 SoundCloud 撰写者：Kendall White 发布于 2026 年 11 月 6 日 收听 收听本文",
+        "0:00 1.0x 我们推出了与 SoundCloud 的新集成，以帮助您聆听音乐。现在，您可以在 ElevenMusic 中创建曲目，并通过几个简单的步骤将其发布到 SoundCloud 上。",
+        "打开您的个人资料设置并转到链接帐户，然后连接您的 SoundCloud 帐户。从那里，打开您在 ElevenMusic 中创建的原始曲目，添加描述、流派和标签，然后单击“保存到 SoundCloud”。",
+        "就是这样。您的曲目会直接上传到您的 SoundCloud 个人资料中，供全世界聆听。",
+        "如果您是 SoundCloud Artist Pro 会员，您可以免费解锁三个月的 ElevenMusic。除非您取消，否则价格为 9.99 美元/月。 18 岁以上，截至 2027 年 10 月 31 日，适用条款。",
+        "立即开始在 ElevenMusic 上使用 SoundCloud 集成进行创作。",
+        "Kendall White 领导 ElevenMusic 的增长，她专注于该平台的用户获取和品牌知名度。在加入 ElevenLabs 之前，Kendall 在 Spotify 工作了七年，通过一系列品牌、产品、增长和合作伙伴活动帮助产品发展。",
+        ":focus-visible]:tw-outline-focus tw-rounded-sm\"> 网络研讨会回顾：使用 AI 类别创建完整的营销活动 产品日期 2026 年 9 月 21 日 作曲家：ElevenMusic 中的分段歌曲编辑 类别 产品日期 2026 年 8 月 25 日 Sounds on ElevenMusic：免费的 AI 声音和循环库 类别 产品日期 2026 年 8 月 13 日 介绍参考：声音控制for Music v2 类别 产品日期 2026 年 7 月 23 日 用最高品质的 AI 音频创作",
+        "ElevenLabs ElevenCreative 开发人员 LinkedIn ElevenLabs ElevenCreative GitHub YouTube Discord TikTok Instagram Facebook Reddit 公司"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为",
+        "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 我们推出了与 SoundCloud 的新集成，以帮助您聆听音乐。现在，您可以在 ElevenMusic 中创建曲目，并通过几个简单的步骤将其"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Upload original ElevenMusic tracks directly to SoundCloud",
+      "originalLang": "en",
+      "date": "2026-11-06",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/soundcloud",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Upload original ElevenMusic tracks directly to SoundCloud"
+      },
+      "raw": {
+        "title": "Share your ElevenMusic creations directly to SoundCloud",
+        "url": "https://elevenlabs.io/blog/soundcloud",
+        "fetched": true,
+        "savedAt": "2026-11-07T04:11:20.756Z"
+      }
+    },
+    {
+      "id": "sig-39cf968ded",
+      "title": "语音 AI 基础设施：2026 年堆栈和架构",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+          "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_hlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 了解更多 联系销售人员 本页",
+          "语音 AI 基础设施是一组模型、连接、工具和服务，可让 AI 代理监听呼叫、决定要做什么、在其他系统中采取行动并大声应答。而且，对于像 ElevenLabs 这样的领先提供商，所有这一切都发生在不到一秒的时间内。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/voice-ai-infrastructure-guide"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_hlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 了解更多信息 联系销售人员 博客资源 语音 AI 基础设施：2026 年堆栈解释 作者：Jack Limebear 发布于 2026 年 11 月 6 日 听 听这篇文章",
+        "0:00 1.0x 了解更多 联系销售人员 本页",
+        "语音 AI 基础设施是一组模型、连接、工具和服务，可让 AI 代理监听呼叫、决定要做什么、在其他系统中采取行动并大声应答。而且，对于像 ElevenLabs 这样的领先提供商，所有这一切都发生在不到一秒的时间内。",
+        "生产语音代理在多个层上运行，包括语音识别、轮流、大型语言模型、编排、工具、知识检索、语音合成、电话和监控。",
+        "本指南解释了工作语音代理背后的 AI 代理架构。每个部分都会转换层的功能、为什么它在更广泛的基础设施中很重要，以及 ElevenAgents 如何实现它，以 Eleven v4 作为示例语音层。",
+        "语音代理将音频转换为文本，根据输入进行推理，生成答案，然后将该响应转换回客户听到的音频。这一系列操作由强大的人工智能代理架构堆栈组成。",
+        "以下是 2026 年语音人工智能基础设施的主要层：",
+        "这些组件共同作用，在人工智能代理和呼叫客户之间创建实时对话。",
+        "流动不是一条直线。 ElevenAgents 在从语言模型接收到“足够的单词和逗号”后开始说话，这意味着音频在完整回复出现之前开始播放。收费呼叫和检索在转弯过程中进行。当代理生成语音时，中断可能会到来并由代理自然处理。"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为",
+        "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 了解更多 联系销售人员 本页"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Voice AI infrastructure: The 2026 stack and architecture",
+      "originalLang": "en",
+      "date": "2026-11-06",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/voice-ai-infrastructure-guide",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Voice AI infrastructure: The 2026 stack and architecture"
+      },
+      "raw": {
+        "title": "Voice AI infrastructure: The 2026 stack explained",
+        "url": "https://elevenlabs.io/blog/voice-ai-infrastructure-guide",
+        "fetched": true,
+        "savedAt": "2026-11-07T04:11:34.293Z"
+      }
+    },
+    {
+      "id": "sig-f5b8adcdd8",
+      "title": "广告引擎现在包括对本地化广告的人工审核",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+          "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_hlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "您的团队现在可以让 ElevenLabs 本地化专家和创意专家审核您在 Ads Engine 中制作的广告。通过新的变体和本地化来刷新和扩展您的创意，即使在您的团队中没有人会说该语言的市场中也是如此。",
+          "营销团队被要求向更多市场提供更多创意。每个广告的读起来和听起来都应该像在该市场中编写和表达的，并且看起来像该品牌制作的。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/ads-engine-human-review"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_hlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 联系销售博客 产品广告引擎添加了来自本地化专家和创意专家的人工审核 作者：Joel Ostdiek 发布于 2026 年 11 月 6 日 听 听这篇文章",
+        "您的团队现在可以让 ElevenLabs 本地化专家和创意专家审核您在 Ads Engine 中制作的广告。通过新的变体和本地化来刷新和扩展您的创意，即使在您的团队中没有人会说该语言的市场中也是如此。",
+        "营销团队被要求向更多市场提供更多创意。每个广告的读起来和听起来都应该像在该市场中编写和表达的，并且看起来像该品牌制作的。",
+        "这需要翻译人员、本地化专业人员和设计师，而许多团队都没有这些。所以一些品牌妥协了。他们在全球范围内投放原创语言广告，而不是进行本地化，或者在创意疲劳时减少变体。",
+        "Ads Engine 可以让品牌在不牺牲质量的情况下大规模、品牌化地制作变体和本地化。",
+        "ElevenCreative 中的广告引擎连接到您的广告平台，提取您现有的创意，并制作新的变体和本地化广告。它会翻译文本、调整图像并为广告中的视频配音。然后，人工参与审核人员可以在每个广告最终确定之前对其进行审核。完成的广告素材会返回给您的团队进行批准，或者广告引擎可以将其直接推送到您的广告平台。",
+        "审阅者是来自 ElevenProductions 的语言学家和本地化专业人士，ElevenProductions 是一个为媒体公司提供人工编辑配音的全球网络。他们与 ElevenLabs 内部的创意专家一起工作，确保每个客户的广告都符合品牌。",
+        "对于图片广告，广告引擎会翻译图片中的文本并使其适应您的品牌声音。对于 Google 搜索广告，它会翻译标题和描述，并调整每个广告的大小以适应 Google 的字符限制。",
+        "然后，语言学家可以检查每个翻译的准确性、风格和意图，因此每个本地化广告读起来就像是用该语言针对该市场编写的。"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为",
+        "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opaci",
+        "您的团队现在可以让 ElevenLabs 本地化专家和创意专家审核您在 Ads Engine 中制作的广告。通过新的变体和本地化来刷新和扩展您的创意，即使在您的"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Ads Engine now includes human review for localized ads",
+      "originalLang": "en",
+      "date": "2026-11-06",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/ads-engine-human-review",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Ads Engine now includes human review for localized ads"
+      },
+      "raw": {
+        "title": "Ads Engine adds human review from localization experts and creative specialists",
+        "url": "https://elevenlabs.io/blog/ads-engine-human-review",
+        "fetched": true,
+        "savedAt": "2026-11-07T04:11:45.451Z"
+      }
+    },
+    {
+      "id": "sig-bc8f9eac19",
+      "title": "与 Hacktron 合作寻找 OpenAI 系统中的漏洞",
+      "oneLiner": "OpenAI 正在与 Hacktron 合作，寻找漏洞、测试与第三方服务的连接，并利用前沿人工智能加强防御。",
+      "summary": {
+        "oneSentence": "OpenAI 正在与 Hacktron 合作，寻找漏洞、测试与第三方服务的连接，并利用前沿人工智能加强防御。",
+        "bullets": [
+          "OpenAI 正在与 Hacktron 合作，寻找漏洞、测试与第三方服务的连接，并利用前沿人工智能加强防御。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 正在与 Hacktron 合作，寻找漏洞、测试与第三方服务的连接，并利用前沿人工智能加强防御。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/partnering-with-hacktron"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 正在与 Hacktron 合作，寻找漏洞、测试与第三方服务的连接，并利用前沿人工智能加强防御。"
+      ],
+      "highlights": [
+        "OpenAI 正在与 Hacktron 合作，寻找漏洞、测试与第三方服务的连接，并利用前沿人工智能加强防御。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "originalLang": "en",
+      "date": "2026-11-06",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/partnering-with-hacktron",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems"
+      },
+      "raw": {
+        "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+        "url": "https://openai.com/index/partnering-with-hacktron",
+        "fetched": false,
+        "savedAt": "2026-11-07T04:11:46.675Z"
+      }
+    },
+    {
+      "id": "sig-cfd4354afa",
+      "title": "衡量人工智能代理如何处理日常湿实验室科学",
+      "oneLiner": "OpenAI 推出了 BioBasicsBench，这是一个包含 100 项任务的基准测试，用于衡量 AI 代理解释原始实验数据和处理日常湿实验室科学的能力。",
+      "summary": {
+        "oneSentence": "OpenAI 推出了 BioBasicsBench，这是一个包含 100 项任务的基准测试，用于衡量 AI 代理解释原始实验数据和处理日常湿实验室科学的能力。",
+        "bullets": [
+          "OpenAI 推出了 BioBasicsBench，这是一个包含 100 项任务的基准测试，用于衡量 AI 代理解释原始实验数据和处理日常湿实验室科学的能力。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 推出了 BioBasicsBench，这是一个包含 100 项任务的基准测试，用于衡量 AI 代理解释原始实验数据和处理日常湿实验室科学的能力。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 推出了 BioBasicsBench，这是一个包含 100 项任务的基准测试，用于衡量 AI 代理解释原始实验数据和处理日常湿实验室科学的能力。"
+      ],
+      "highlights": [
+        "OpenAI 推出了 BioBasicsBench，这是一个包含 100 项任务的基准测试，用于衡量 AI 代理解释原始实验数据和处理日常湿实验室科学的能力。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Measuring how AI agents handle everyday wet-lab science",
+      "originalLang": "en",
+      "date": "2026-11-06",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Measuring how AI agents handle everyday wet-lab science"
+      },
+      "raw": {
+        "title": "Measuring how AI agents handle everyday wet-lab science",
+        "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+        "fetched": false,
+        "savedAt": "2026-11-07T04:11:47.887Z"
       }
     },
     {
@@ -15023,7 +15833,7 @@
         "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
         "fetched": true,
         "savedAt": "2026-10-17T02:36:45.886Z",
-        "retranslatedAt": "2026-11-06T04:43:28.857Z"
+        "retranslatedAt": "2026-11-07T04:11:49.172Z"
       }
     },
     {
@@ -18621,7 +19431,7 @@
         "url": "https://cursor.com/changelog/origin-app-marketplace",
         "fetched": true,
         "savedAt": "2026-10-14T03:08:22.474Z",
-        "retranslatedAt": "2026-11-06T04:43:30.047Z"
+        "retranslatedAt": "2026-11-07T04:11:50.180Z"
       }
     },
     {
@@ -24160,7 +24970,7 @@
         "url": "https://cursor.com/changelog/remote-control-local-agents",
         "fetched": true,
         "savedAt": "2026-10-11T03:27:39.323Z",
-        "retranslatedAt": "2026-11-06T04:43:31.259Z"
+        "retranslatedAt": "2026-11-07T04:11:51.199Z"
       }
     },
     {
@@ -32261,1823 +33071,6 @@
         "url": "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses",
         "fetched": false,
         "savedAt": "2026-10-05T03:34:51.386Z"
-      }
-    },
-    {
-      "id": "sig-8a86c97089",
-      "title": "Google Beam 不断拓展新的地区、合作伙伴和客户",
-      "oneLiner": "我们正在将 Google Beam 扩展到五个新国家，与 Industrious 合作扩展网络，并证明我们对 Google 及其他领域的影响。",
-      "summary": {
-        "oneSentence": "我们正在将 Google Beam 扩展到五个新国家，与 Industrious 合作扩展网络，并证明我们对 Google 及其他领域的影响。",
-        "bullets": [
-          "我们正在将 Google Beam 扩展到五个新国家，与 Industrious 合作扩展网络，并证明我们对 Google 及其他领域的影响。",
-          "Google Beam 业务开发总监",
-          "您的浏览器不支持音频元素。",
-          "在 18 个合作伙伴和 HP 新硬件的支持下，Google Beam 正在将其全球覆盖范围扩展到 6 个国家。内部测试表明该技术改善了团队联系并减少了后续会议的需要。从 10 月开始，您可以在选定的 Industrious 地点预订和测试这些设备，看看它们如何增强您自己的专业会议。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Google AI 官网发布：我们正在将 Google Beam 扩展到五个新国家，与 Industrious 合作扩展网络，并证明我们对 Google 及其他领域的影响。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：gemini",
-        "actionItems": [
-          "阅读原文（英文）：https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "gemini"
-      ],
-      "content": [
-        "我们正在将 Google Beam 扩展到五个新国家，与 Industrious 合作扩展网络，并证明我们对 Google 及其他领域的影响。",
-        "Google Beam 业务开发总监",
-        "您的浏览器不支持音频元素。",
-        "在 18 个合作伙伴和 HP 新硬件的支持下，Google Beam 正在将其全球覆盖范围扩展到 6 个国家。内部测试表明该技术改善了团队联系并减少了后续会议的需要。从 10 月开始，您可以在选定的 Industrious 地点预订和测试这些设备，看看它们如何增强您自己的专业会议。",
-        "Google Beam 使用特殊的硬件让视频通话感觉就像你真的和某人在房间里一样。它正在扩展到更多国家，并与工作空间合作，以便更多的人可以使用它进行会议和采访。测试表明，使用这项技术可以帮助人们感觉联系更加紧密，沟通更加清晰。现在，各种规模的企业都可以预订这些设置，以使远程聊天感觉更加自然。",
-        "自成立之初，Google Beam 就一直由一个单一的愿景驱动：将人们聚集在一起，让他们能够体验真正的、面对面的联系，无论距离有多远。我们已经对早期用户（包括在我们自己的办公室）测试了 Beam，并展示了它如何帮助将日常会议转变为真实的联系时刻。",
-        "今天，我们宣布大幅扩展我们的全球足迹、关于我们经过验证的影响力的新数据，以及推出我们首个扩展网络。",
-        "我们正式扩大我们的全球影响力，Google Beam 设备已向美国、加拿大、英国、法国、德国和日本等六个国家的客户发货。支持此次部署的是一个由 18 个渠道合作伙伴组成的强大的全球生态系统，他们完全有能力部署和支持 Beam。",
-        "这种体验由我们的旗舰硬件合作伙伴 HP Dimension 和 Google Beam 提供，专为现代企业协作而打造。通过与 Google Meet 和 Zoom 无缝集成，Beam 可以提供组织所需的灵活性，同时帮助提升日常对话水平。",
-        "通过 Google 的广泛内部测试，我们了解了 Beam 对于招聘、人才发展和跨职能协作等领域的变革性作用。在最近一项为期八周的内部研究中，使用 Beam 的 Google 团队感觉彼此之间的联系增加了 50%，确保清楚理解他们的反馈变得容易 33%，并且后续会议的需求下降了 21%。所有这些都坚定了我们与客户一起为 Google 员工扩展 Beam 部署的信念。"
-      ],
-      "highlights": [
-        "我们正在将 Google Beam 扩展到五个新国家，与 Industrious 合作扩展网络，并证明我们对 Google 及其他领域的影响。",
-        "Google Beam 业务开发总监",
-        "您的浏览器不支持音频元素。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Google Beam expands with new regions, partners, and customers",
-      "originalLang": "en",
-      "date": "2026-09-23",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google AI",
-        "author": "Google",
-        "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
-        "home": "https://blog.google/technology/ai/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Google Beam expands with new regions, partners, and customers"
-      },
-      "raw": {
-        "title": "Google Beam expands with new regions, partners, and customers",
-        "url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/",
-        "fetched": true,
-        "savedAt": "2026-09-25T03:00:19.304Z"
-      }
-    },
-    {
-      "id": "sig-dc1e559760",
-      "title": "每个套餐均可无限量 Vercel Blob 存储 - Vercel",
-      "oneLiner": "您现在可以根据需要创建任意数量的 Vercel Blob 商店。之前 Hobby 上 100 个商店、Pro 上 500 个、Enterprise 上 1,000 个商店的限制不再适用。",
-      "summary": {
-        "oneSentence": "您现在可以根据需要创建任意数量的 Vercel Blob 商店。之前 Hobby 上 100 个商店、Pro 上 500 个、Enterprise 上 1,000 个商店的限制不再适用。",
-        "bullets": [
-          "您现在可以根据需要创建任意数量的 Vercel Blob 商店。之前 Hobby 上 100 个商店、Pro 上 500 个、Enterprise 上 1,000 个商店的限制不再适用。",
-          "Blob 存储创建现在与其他 Blob 高级操作一起计费，包括 put() 、 copy() 和 list() 调用。在 Pro 上，每百万美元为 5.00 美元。在 Hobby 上，它计入您每月获得的 2,000 次免费操作。删除商店是免费的。",
-          "每当您需要硬边界而不是路径名约定时，请创建一个新存储：",
-          "分离生产、暂存和预览数据，并为每个环境提供自己的凭据。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：您现在可以根据需要创建任意数量的 Vercel Blob 商店。之前 Hobby 上 100 个商店、Pro 上 500 个、Enterprise 上 1,000 个商店的限制不再适用。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/unlimited-vercel-blob-stores-on-every-plan"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "您现在可以根据需要创建任意数量的 Vercel Blob 商店。之前 Hobby 上 100 个商店、Pro 上 500 个、Enterprise 上 1,000 个商店的限制不再适用。",
-        "Blob 存储创建现在与其他 Blob 高级操作一起计费，包括 put() 、 copy() 和 list() 调用。在 Pro 上，每百万美元为 5.00 美元。在 Hobby 上，它计入您每月获得的 2,000 次免费操作。删除商店是免费的。",
-        "每当您需要硬边界而不是路径名约定时，请创建一个新存储：",
-        "分离生产、暂存和预览数据，并为每个环境提供自己的凭据。",
-        "在多租户应用程序中为每个客户创建一个商店，以便您可以在一次调用中导出或删除一个租户的数据。",
-        "为预览分支或迁移启动商店，然后在完成后将其删除。",
-        "存储、操作和数据传输仍然根据您使用的内容进行计费，因此将相同的数据分散到更多存储中的成本是相同的。",
-        "商店创建显示在使用页面上的 Blob 高级操作下和可观察性仪表板中。",
-        "请参阅 Vercel Blob 定价文档了解更多信息。"
-      ],
-      "highlights": [
-        "您现在可以根据需要创建任意数量的 Vercel Blob 商店。之前 Hobby 上 100 个商店、Pro 上 500 个、Enterprise 上 1,00",
-        "Blob 存储创建现在与其他 Blob 高级操作一起计费，包括 put() 、 copy() 和 list() 调用。在 Pro 上，每百万美元为 5.00 美",
-        "每当您需要硬边界而不是路径名约定时，请创建一个新存储："
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Unlimited Vercel Blob stores on every plan - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-23",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/unlimited-vercel-blob-stores-on-every-plan",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Unlimited Vercel Blob stores on every plan - Vercel"
-      },
-      "raw": {
-        "title": "Unlimited Vercel Blob stores on every plan",
-        "url": "https://vercel.com/changelog/unlimited-vercel-blob-stores-on-every-plan",
-        "fetched": true,
-        "savedAt": "2026-09-25T03:00:24.378Z"
-      }
-    },
-    {
-      "id": "sig-4c4abcff4a",
-      "title": "通过安全的服务器端内存推进私有人工智能计算",
-      "oneLiner": "我们的私有人工智能计算架构进行了技术更新，它将支持持久的、跨设备的人工智能内存，并符合设备上的隐私标准。",
-      "summary": {
-        "oneSentence": "我们的私有人工智能计算架构进行了技术更新，它将支持持久的、跨设备的人工智能内存，并符合设备上的隐私标准。",
-        "bullets": [
-          "我们的私有人工智能计算架构进行了技术更新，它将支持持久的、跨设备的人工智能内存，并符合设备上的隐私标准。",
-          "人工智能变得越来越有能力和直观——记住重要的事情，理解你周围的世界，并按照你的指示行事。隐私和信任是实现这一目标的核心，随着人工智能系统的发展，确保您的数据保持私密性并受到保护，以在您的设备上提供更持续的帮助。",
-          "今天，我们将分享如何将私有服务器端内存引入我们的私有人工智能计算平台。这一突破解决了现代人工智能中长期存在的难题：如何为助手提供跨设备的长期连续性，同时维护通常仅限于设备上处理的严格隐私标准。",
-          "凭借这项新技术功能，新的持久内存层将能够像云中的安全数字保管库一样发挥作用。在这种模式下，为您提供帮助所需的信息被密封在专用的加密存储中，而解锁信息所需的加密密钥则专门保存在您的个人设备上，确保其他任何人（甚至谷歌）都无法访问您的数据。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Google DeepMind 官网发布：我们的私有人工智能计算架构进行了技术更新，它将支持持久的、跨设备的人工智能内存，并符合设备上的隐私标准。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：gemini",
-        "actionItems": [
-          "阅读原文（英文）：https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "gemini"
-      ],
-      "content": [
-        "我们的私有人工智能计算架构进行了技术更新，它将支持持久的、跨设备的人工智能内存，并符合设备上的隐私标准。",
-        "人工智能变得越来越有能力和直观——记住重要的事情，理解你周围的世界，并按照你的指示行事。隐私和信任是实现这一目标的核心，随着人工智能系统的发展，确保您的数据保持私密性并受到保护，以在您的设备上提供更持续的帮助。",
-        "今天，我们将分享如何将私有服务器端内存引入我们的私有人工智能计算平台。这一突破解决了现代人工智能中长期存在的难题：如何为助手提供跨设备的长期连续性，同时维护通常仅限于设备上处理的严格隐私标准。",
-        "凭借这项新技术功能，新的持久内存层将能够像云中的安全数字保管库一样发挥作用。在这种模式下，为您提供帮助所需的信息被密封在专用的加密存储中，而解锁信息所需的加密密钥则专门保存在您的个人设备上，确保其他任何人（甚至谷歌）都无法访问您的数据。",
-        "下图显示了私有人工智能计算的更新将如何进行。当人工智能模型需要访问信息来帮助您时，经过身份验证的端到端加密通道会将您的设备连接到云中受保护的隔离环境。该空间或“安全飞地”会暂时解密隔离内存中的数据以处理请求，保存任何新上下文，并立即对其进行加密，从而使您的信息保持私密性，就像它从未离开过您的设备一样。",
-        "通过结合硬件强制安全飞地、加密通道和由设备派生加密密钥保护的每用户数据库，此架构可确保您的数据保持完全私密并处于您的控制之下。",
-        "这种演变对于满足人工智能时代的计算需求是必要的。本地设备处理历来是隐私的黄金标准，但前沿人工智能模型通常需要比任何一台设备所能提供的更多的计算能力。将先进的人工智能引入个人助理意味着解决如何利用云的力量，同时确保个人数据受到保护，就像它从未离开您的设备一样。",
-        "为此，我们之前推出了私有人工智能计算平台，允许用户在硬件隔离的云飞地中处理复杂的任务。到目前为止，该技术以及整个行业的类似解决方案都是严格的“无状态”，这意味着它会在任务结束时擦除所有上下文。让人工智能保存个人事实和偏好列表等解决方法不足以支持人们期望从个人人工智能中获得丰富、持续的体验。要实现这种级别的帮助，意味着需要为云规模的人工智能设计一种方法，以便随着时间的推移跨设备安全地保留上下文。",
-        "想象一下，在笔记本电脑上调出您之前通过智能眼镜查看的组装说明，或者恢复移动设备和网络之间的复杂对话。 Private AI Compute is designed to make that kind of seamless assistance possible – keeping the pieces it needs to remember safely locked away. But the user’s trust in that system’s privacy is also important.",
-        "建立信任始于透明度。这就是为什么除了更新的技术白皮书之外，我们还发布了服务器软件的防篡改公共记录。运行私人人工智能计算的设备将能够在发送任何个人数据之前验证我们的软件是否真实且未经更改。此外，我们还提供了技术方法的最新信息，包括一家领先的网络安全公司的独立审计结果。通过共享这些资源，我们邀请更广泛的隐私社区来验证私有人工智能计算的保护。"
-      ],
-      "highlights": [
-        "我们的私有人工智能计算架构进行了技术更新，它将支持持久的、跨设备的人工智能内存，并符合设备上的隐私标准。",
-        "人工智能变得越来越有能力和直观——记住重要的事情，理解你周围的世界，并按照你的指示行事。隐私和信任是实现这一目标的核心，随着人工智能系统的发展，确保您的数据保持",
-        "今天，我们将分享如何将私有服务器端内存引入我们的私有人工智能计算平台。这一突破解决了现代人工智能中长期存在的难题：如何为助手提供跨设备的长期连续性，同时维护通常"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Advancing Private AI Compute with secure, server-side memory",
-      "originalLang": "en",
-      "date": "2026-09-23",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google DeepMind",
-        "author": "DeepMind",
-        "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-        "home": "https://deepmind.google/blog/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Advancing Private AI Compute with secure, server-side memory"
-      },
-      "raw": {
-        "title": "Advancing Private AI Compute with secure, server-side memory",
-        "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-        "fetched": true,
-        "savedAt": "2026-09-25T03:00:32.773Z"
-      }
-    },
-    {
-      "id": "sig-9d02eeb8ce",
-      "title": "OpenAI 学院两年",
-      "oneLiner": "纪念 OpenAI 学院成立两周年，并将人工智能技能带给更多社区。",
-      "summary": {
-        "oneSentence": "纪念 OpenAI 学院成立两周年，并将人工智能技能带给更多社区。",
-        "bullets": [
-          "纪念 OpenAI 学院成立两周年，并将人工智能技能带给更多社区。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：纪念 OpenAI 学院成立两周年，并将人工智能技能带给更多社区。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/two-years-of-openai-academy"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "纪念 OpenAI 学院成立两周年，并将人工智能技能带给更多社区。"
-      ],
-      "highlights": [
-        "纪念 OpenAI 学院成立两周年，并将人工智能技能带给更多社区。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Two years of OpenAI Academy",
-      "originalLang": "en",
-      "date": "2026-09-23",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/two-years-of-openai-academy",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Two years of OpenAI Academy"
-      },
-      "raw": {
-        "title": "Two years of OpenAI Academy",
-        "url": "https://openai.com/index/two-years-of-openai-academy",
-        "fetched": false,
-        "savedAt": "2026-09-25T03:00:33.985Z"
-      }
-    },
-    {
-      "id": "sig-02a3eded78",
-      "title": "基于产品的学习的力量| Figma 博客",
-      "oneLiner": "拥有一个想法和将其变为现实之间有很大的区别，而学习就是在这个空间中进行的。以下是教师如何使用 Figma 为学生提供实践设计体验。",
-      "summary": {
-        "oneSentence": "拥有一个想法和将其变为现实之间有很大的区别，而学习就是在这个空间中进行的。以下是教师如何使用 Figma 为学生提供实践设计体验。",
-        "bullets": [
-          "拥有一个想法和将其变为现实之间有很大的区别，而学习就是在这个空间中进行的。以下是教师如何使用 Figma 为学生提供实践设计体验。",
-          "随着学生更多地接触平面设计、计算机科学和 STEM 课堂中的创意工具，学习的深度发生了变化。他们正在从基于项目的工作转向基于产品的工作，这意味着学生不再通过海报或幻灯片展示想法，而是自己构建事物，无论是应用程序、原型还是交互式体验。通过完成这项工作（而不仅仅是描述它），学生们可以锻炼出一组不同的肌肉，包括如何：",
-          "盖洛普的一项研究发现，46% 的 Z 世代学生表示，他们的学习兴趣是由实践活动驱动的，大约三分之一的人表示，他们通过现实世界的联系学习得最好。",
-          "如果您教授计算机科学并准备好桥接代码，开发模式使这成为可能。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Figma 官网发布：拥有一个想法和将其变为现实之间有很大的区别，而学习就是在这个空间中进行的。以下是教师如何使用 Figma 为学生提供实践设计体验。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://www.figma.com/blog/the-power-of-product-based-learning/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "拥有一个想法和将其变为现实之间有很大的区别，而学习就是在这个空间中进行的。以下是教师如何使用 Figma 为学生提供实践设计体验。",
-        "随着学生更多地接触平面设计、计算机科学和 STEM 课堂中的创意工具，学习的深度发生了变化。他们正在从基于项目的工作转向基于产品的工作，这意味着学生不再通过海报或幻灯片展示想法，而是自己构建事物，无论是应用程序、原型还是交互式体验。通过完成这项工作（而不仅仅是描述它），学生们可以锻炼出一组不同的肌肉，包括如何：",
-        "盖洛普的一项研究发现，46% 的 Z 世代学生表示，他们的学习兴趣是由实践活动驱动的，大约三分之一的人表示，他们通过现实世界的联系学习得最好。",
-        "如果您教授计算机科学并准备好桥接代码，开发模式使这成为可能。",
-        "借助Figma for Education，课堂可以免费访问Figma Design，学生可以超越抽象概念，学习在画布上设计、测试和迭代的机制。我们亲眼目睹，这使得工作变得更加有吸引力，并且课程最终也变得更加有力。以下是三间真实教室中的这种转变的样子，以及如何在今年秋天将其带入自己的课程中。",
-        "Figma Design：高中 CTE 课程必备课程是一门免费的、由 10 部分组成的课程，专为初中和高中教师而设计。视频教程和配套文件可帮助学生按照自己的进度学习基础知识。",
-        "Maddison Dorsey 在伊利诺伊州的一所 Title 1 高中教授平面设计，该校的每个学生都在 Chromebook 上工作。由于这些设备无法运行已安装的桌面软件，因此在浏览器中使用 Figma 是她课堂的自然选择，学生们在课堂上设计饮料罐包装、专辑封面、棋盘游戏和功能齐全的 Android 应用程序原型。无论设计是打印出来以便学生可以手动操作，还是他们可以实际点击的数字产品，创造有形事物的体验都会激发参与度、好奇心和创造力。",
-        "当全班同学在共享的Figma团队中工作时，学生们会按照专业团队的方式分配工作：一个人负责UI套件，另一个人负责构建屏幕，另一个人负责研究。这种结构也为富有成效的批评打开了大门。 “我最喜欢的一件事是他们在 FigJam 中发布他们正在做的事情，并使用便利贴互相批评，”麦迪森说。她可以实时查看谁在做什么，并在问题滚雪球之前发现问题，因此整个过程（而不仅仅是成品）都是学生获得反馈的机会。",
-        "能量饮料的包装模具 学生并肩在画布上工作，互相学习 提醒应用程序的用户流程 学习如何使用 Figma Design 中的钢笔工具进行说明 激励学生加倍努力 Kristine Monsada 在内华达州任教 6 至 8 年级。当她将 Figma Design 作为应用程序设计项目的一部分向学生介绍时，她惊讶地发现学生们如此迅速地掌握了它并将粗略的想法转变为工作原型。 “当我第一次演示 Figma 并向他们展示导航按钮如何将一个屏幕链接到另一个屏幕时，他们的反应是，‘哇，我们能做到吗？’”Kristine 说道。 “然后他们开始想，‘好吧，这感觉真的很真实。’”",
-        "画布让她的学生能够更进一步、更快地实现他们的想法。学生不再填写模板或在一个固定的矩形内工作，而是从一张空白画布开始，因此没有什么可以阻止想法超越最初的作业。她的一名学生正在为一家餐厅开展品牌项目，当时他决定他的应用程序还需要一个按钮来发出相机快门声、滚动视频、多个交互流和动画。这些元素都不是任务的一部分，但他还是在 YouTube 上花了几个小时来弄清楚如何构建它们。"
-      ],
-      "highlights": [
-        "拥有一个想法和将其变为现实之间有很大的区别，而学习就是在这个空间中进行的。以下是教师如何使用 Figma 为学生提供实践设计体验。",
-        "随着学生更多地接触平面设计、计算机科学和 STEM 课堂中的创意工具，学习的深度发生了变化。他们正在从基于项目的工作转向基于产品的工作，这意味着学生不再通过海报",
-        "盖洛普的一项研究发现，46% 的 Z 世代学生表示，他们的学习兴趣是由实践活动驱动的，大约三分之一的人表示，他们通过现实世界的联系学习得最好。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "The Power of Product-Based Learning | Figma Blog",
-      "originalLang": "en",
-      "date": "2026-09-23",
-      "categoryIds": [
-        "vertical-ui"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Figma",
-        "author": "Figma",
-        "url": "https://www.figma.com/blog/the-power-of-product-based-learning/",
-        "home": "https://www.figma.com/blog/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "The Power of Product-Based Learning | Figma Blog"
-      },
-      "raw": {
-        "title": "The power of product-based learning",
-        "url": "https://www.figma.com/blog/the-power-of-product-based-learning/",
-        "fetched": true,
-        "savedAt": "2026-09-25T03:00:39.891Z"
-      }
-    },
-    {
-      "id": "sig-be2314c629",
-      "title": "Gemini 3.8 文字转语音说你好",
-      "oneLiner": "Gemini 3.8 Flash TTS 和 Gemini 3.8 Flash-Lite TTS 是我们迄今为止最具表现力的音频生成模型。通过 Google AI Studio、Gemini API、Gemini Enterprise、Ge",
-      "summary": {
-        "oneSentence": "Gemini 3.8 Flash TTS 和 Gemini 3.8 Flash-Lite TTS 是我们迄今为止最具表现力的音频生成模型。通过 Google AI Studio、Gemini API、Gemini Enterprise、Ge",
-        "bullets": [
-          "Gemini 3.8 Flash TTS 和 Gemini 3.8 Flash-Lite TTS 是我们迄今为止最具表现力的音频生成模型。通过 Google AI Studio、Gemini API、Gemini Enterprise、Gemini Notebook 和 Google Vids 生成自定义角色声音和直接",
-          "研究科学研究主任，代表 Gemini 音频团队",
-          "谷歌刚刚推出了新的人工智能工具，可以让你从头开始创建和定制逼真的声音。您可以让这些声音听起来完全符合您的要求，从口音到情绪语气。它非常适合制作听起来像真人说话的有声读物、游戏或播客。此外，他们还添加了安全功能，以确保负责任地使用这些声音。",
-          "今天，我们向 Gemini 系列推出两种新的文本转语音模型，将语音生成从静态预设转变为动态创意工作室。这些模型使创作者、开发者和企业能够创造更丰富、更具表现力的音频体验，同时改善 Gemini Notebook 和 Google Vids 等产品的用户体验。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Google DeepMind 官网发布：Gemini 3.8 Flash TTS 和 Gemini 3.8 Flash-Lite TTS 是我们迄今为止最具表现力的音频生成模型。通过 Google AI Studio、Gemini API、Gemini Enterprise、Ge",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：gemini",
-        "actionItems": [
-          "阅读原文（英文）：https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "gemini"
-      ],
-      "content": [
-        "Gemini 3.8 Flash TTS 和 Gemini 3.8 Flash-Lite TTS 是我们迄今为止最具表现力的音频生成模型。通过 Google AI Studio、Gemini API、Gemini Enterprise、Gemini Notebook 和 Google Vids 生成自定义角色声音和直接场景对话。",
-        "研究科学研究主任，代表 Gemini 音频团队",
-        "谷歌刚刚推出了新的人工智能工具，可以让你从头开始创建和定制逼真的声音。您可以让这些声音听起来完全符合您的要求，从口音到情绪语气。它非常适合制作听起来像真人说话的有声读物、游戏或播客。此外，他们还添加了安全功能，以确保负责任地使用这些声音。",
-        "今天，我们向 Gemini 系列推出两种新的文本转语音模型，将语音生成从静态预设转变为动态创意工作室。这些模型使创作者、开发者和企业能够创造更丰富、更具表现力的音频体验，同时改善 Gemini Notebook 和 Google Vids 等产品的用户体验。",
-        "这些模型补充了我们快速增长的 Gemini Audio 系列，继 3.5 Live Translate 、 3.5 Transcribe 、 3.8 Live 和 3.8 Live Extended Thinking 之后。",
-        "从 30 种原始声音扩展到无限的库。无论您需要完全原创的角色声音还是始终如一的品牌大使，我们的 3.8 Flash TTS 模型都能为完整的声音工作室提供支持。这使您能够随时创建和使用富有表现力、听起来自然的声音，同时使开发人员和企业能够轻松构建自定义音频体验。",
-        "听听 Gemini 3.8 Flash TTS 如何生成来自墨尔本的充满活力的 DJ 声音。",
-        "听听 Gemini 3.8 Flash TTS 如何生成超细小、单调的机器人声音。",
-        "听听 Gemini 3.8 Flash TTS 如何让日本龙栩栩如生。",
-        "选择声音后，两种 TTS 模型都可以让您精确控制每行的传送方式。"
-      ],
-      "highlights": [
-        "Gemini 3.8 Flash TTS 和 Gemini 3.8 Flash-Lite TTS 是我们迄今为止最具表现力的音频生成模型。通过 Google A",
-        "研究科学研究主任，代表 Gemini 音频团队",
-        "谷歌刚刚推出了新的人工智能工具，可以让你从头开始创建和定制逼真的声音。您可以让这些声音听起来完全符合您的要求，从口音到情绪语气。它非常适合制作听起来像真人说话的"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Gemini 3.8 text-to-speech says hello",
-      "originalLang": "en",
-      "date": "2026-09-23",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google DeepMind",
-        "author": "DeepMind",
-        "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-        "home": "https://deepmind.google/blog/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Gemini 3.8 text-to-speech says hello"
-      },
-      "raw": {
-        "title": "Gemini 3.8 text-to-speech says hello",
-        "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
-        "fetched": true,
-        "savedAt": "2026-09-26T03:04:41.278Z"
-      }
-    },
-    {
-      "id": "sig-1d77064cbe",
-      "title": "OpenAI 将网络访问扩展到乌克兰用于民防",
-      "oneLiner": "OpenAI 正在将其 Daybreak 计划的访问范围扩大到乌克兰政府，以支持民用基础设施的网络防御。",
-      "summary": {
-        "oneSentence": "OpenAI 正在将其 Daybreak 计划的访问范围扩大到乌克兰政府，以支持民用基础设施的网络防御。",
-        "bullets": [
-          "OpenAI 正在将其 Daybreak 计划的访问范围扩大到乌克兰政府，以支持民用基础设施的网络防御。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：OpenAI 正在将其 Daybreak 计划的访问范围扩大到乌克兰政府，以支持民用基础设施的网络防御。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "OpenAI 正在将其 Daybreak 计划的访问范围扩大到乌克兰政府，以支持民用基础设施的网络防御。"
-      ],
-      "highlights": [
-        "OpenAI 正在将其 Daybreak 计划的访问范围扩大到乌克兰政府，以支持民用基础设施的网络防御。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "OpenAI extends cyber access to Ukraine for civilian defense",
-      "originalLang": "en",
-      "date": "2026-09-23",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "OpenAI extends cyber access to Ukraine for civilian defense"
-      },
-      "raw": {
-        "title": "OpenAI extends cyber access to Ukraine for civilian defense",
-        "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
-        "fetched": false,
-        "savedAt": "2026-09-26T03:04:43.976Z"
-      }
-    },
-    {
-      "id": "sig-01d4e543c9",
-      "title": "萨姆·奥尔特曼在联合国安理会的讲话",
-      "oneLiner": "OpenAI 首席执行官 Sam Altman 在联合国安理会的讲话中讨论了人工智能安全、人类控制和国际合作。",
-      "summary": {
-        "oneSentence": "OpenAI 首席执行官 Sam Altman 在联合国安理会的讲话中讨论了人工智能安全、人类控制和国际合作。",
-        "bullets": [
-          "OpenAI 首席执行官 Sam Altman 在联合国安理会的讲话中讨论了人工智能安全、人类控制和国际合作。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：OpenAI 首席执行官 Sam Altman 在联合国安理会的讲话中讨论了人工智能安全、人类控制和国际合作。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/sam-altman-un-security-council-remarks"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "OpenAI 首席执行官 Sam Altman 在联合国安理会的讲话中讨论了人工智能安全、人类控制和国际合作。"
-      ],
-      "highlights": [
-        "OpenAI 首席执行官 Sam Altman 在联合国安理会的讲话中讨论了人工智能安全、人类控制和国际合作。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Sam Altman’s remarks at the United Nations Security Council",
-      "originalLang": "en",
-      "date": "2026-09-23",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Sam Altman’s remarks at the United Nations Security Council"
-      },
-      "raw": {
-        "title": "Sam Altman’s remarks at the United Nations Security Council",
-        "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
-        "fetched": false,
-        "savedAt": "2026-09-26T03:04:47.284Z"
-      }
-    },
-    {
-      "id": "sig-f7558dc5c9",
-      "title": "Harvey 通过 GPT-6 Astra 将法律背景转化为更强大的草案",
-      "oneLiner": "GPT-6 Astra 生成更加结构化、上下文感知的法律文件，使律师能够专注于战略。",
-      "summary": {
-        "oneSentence": "GPT-6 Astra 生成更加结构化、上下文感知的法律文件，使律师能够专注于战略。",
-        "bullets": [
-          "GPT-6 Astra 生成更加结构化、上下文感知的法律文件，使律师能够专注于战略。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：GPT-6 Astra 生成更加结构化、上下文感知的法律文件，使律师能够专注于战略。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/harvey-from-context-to-confidence-with-astra"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "GPT-6 Astra 生成更加结构化、上下文感知的法律文件，使律师能够专注于战略。"
-      ],
-      "highlights": [
-        "GPT-6 Astra 生成更加结构化、上下文感知的法律文件，使律师能够专注于战略。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-      "originalLang": "en",
-      "date": "2026-09-23",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Harvey turns legal context into stronger drafts with GPT-6 Astra"
-      },
-      "raw": {
-        "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
-        "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
-        "fetched": false,
-        "savedAt": "2026-09-26T03:04:50.509Z"
-      }
-    },
-    {
-      "id": "sig-7357353a1f",
-      "title": "invideo 如何利用 GPT‑6 Astra 将颜色分级提高 3 倍",
-      "oneLiner": "借助 GPT‑6 Astra，invideo 计划可以更精确地进行编辑，将色彩校正和分级改进三倍，并在一天内生成 50 种自定义效果。",
-      "summary": {
-        "oneSentence": "借助 GPT‑6 Astra，invideo 计划可以更精确地进行编辑，将色彩校正和分级改进三倍，并在一天内生成 50 种自定义效果。",
-        "bullets": [
-          "借助 GPT‑6 Astra，invideo 计划可以更精确地进行编辑，将色彩校正和分级改进三倍，并在一天内生成 50 种自定义效果。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：借助 GPT‑6 Astra，invideo 计划可以更精确地进行编辑，将色彩校正和分级改进三倍，并在一天内生成 50 种自定义效果。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/invideo-builds-with-gpt-6-astra"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "借助 GPT‑6 Astra，invideo 计划可以更精确地进行编辑，将色彩校正和分级改进三倍，并在一天内生成 50 种自定义效果。"
-      ],
-      "highlights": [
-        "借助 GPT‑6 Astra，invideo 计划可以更精确地进行编辑，将色彩校正和分级改进三倍，并在一天内生成 50 种自定义效果。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "How invideo improves color grading 3x with GPT‑6 Astra",
-      "originalLang": "en",
-      "date": "2026-09-23",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "How invideo improves color grading 3x with GPT‑6 Astra"
-      },
-      "raw": {
-        "title": "How invideo improves color grading 3x with GPT‑6 Astra",
-        "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
-        "fetched": false,
-        "savedAt": "2026-09-26T03:04:52.519Z"
-      }
-    },
-    {
-      "id": "sig-7cff1964bf",
-      "title": "Ringg 的 AI 代理通过 OpenAI 解决了高达 65% 的客户呼叫",
-      "oneLiner": "使用 GPT-5.6，Ringg 为跨语音、聊天、WhatsApp 和网络的多语言代理提供支持，与 GPT-4.1 相比，成本降低了 90%。",
-      "summary": {
-        "oneSentence": "使用 GPT-5.6，Ringg 为跨语音、聊天、WhatsApp 和网络的多语言代理提供支持，与 GPT-4.1 相比，成本降低了 90%。",
-        "bullets": [
-          "使用 GPT-5.6，Ringg 为跨语音、聊天、WhatsApp 和网络的多语言代理提供支持，与 GPT-4.1 相比，成本降低了 90%。",
-          "对于选定的工作负载，与 GPT-4.1 相比成本更低",
-          "围绕客户结果构建代理平台 围绕客户结果构建代理平台 将每项任务路由到正确的 OpenAI 模型 使用生产评估来提高质量和成本 跨行业交付客户结果 将代理扩展到浏览器 围绕客户结果构建代理平台 将每项任务路由到正确的 OpenAI 模型 使用生产评估来提高质量和成本 跨行业交付客户结果 将代理扩展到浏览器 当呼叫量增加时",
-          "这些公司不仅难以接听更多电话，他们的客户服务代理还在与分散的手动系统作斗争，以帮助客户完成从购买保险到预约的任务。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：使用 GPT-5.6，Ringg 为跨语音、聊天、WhatsApp 和网络的多语言代理提供支持，与 GPT-4.1 相比，成本降低了 90%。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/ringg"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "使用 GPT-5.6，Ringg 为跨语音、聊天、WhatsApp 和网络的多语言代理提供支持，与 GPT-4.1 相比，成本降低了 90%。",
-        "对于选定的工作负载，与 GPT-4.1 相比成本更低",
-        "围绕客户结果构建代理平台 围绕客户结果构建代理平台 将每项任务路由到正确的 OpenAI 模型 使用生产评估来提高质量和成本 跨行业交付客户结果 将代理扩展到浏览器 围绕客户结果构建代理平台 将每项任务路由到正确的 OpenAI 模型 使用生产评估来提高质量和成本 跨行业交付客户结果 将代理扩展到浏览器 当呼叫量增加时，客户服务操作通常会通过增加人员来扩展，但这会增加每次交互的成本和复杂性。 Ringg ⁠（在新窗口中打开）是一个语音和聊天代理平台，在与印度大型消费企业合作时亲眼目睹了这个问题。",
-        "这些公司不仅难以接听更多电话，他们的客户服务代理还在与分散的手动系统作斗争，以帮助客户完成从购买保险到预约的任务。",
-        "这一经验促使 Ringg 构建了一个企业代理平台，以 GPT-5.6 等高效模型为核心，涵盖语音、聊天、WhatsApp 和网络。将合适的实时工作负载从 GPT-4.1 迁移到 GPT-5.6 可将模型成本降低约 90%，同时提供所需的质量和延迟。",
-        "Ringg 的客服人员现在每月处理超过 700 万个连接呼叫，其客户的平均客户满意度 (CSAT) 得分为 4.8。",
-        "围绕客户结果构建座席平台 对于座席来说，要完成客户请求，可能需要检查政策、检索帐户记录、安排预约、更新 CRM，或将对话转移给完整相关上下文的专家。",
-        "对于实时交互，Ringg 使用 GPT‑5.6 Luna 和其他模型来解释客户请求、选择工具并指导客户完成多步骤工作流程。 Ringg 的编排层跨 CRM、票务平台、支付系统、调度工具和内部 API 执行操作，在需要时将案例上报给人工并提供对话摘要。",
-        "Ringg 的知识系统将结构化过滤与跨数据集、PDF、CSV 和业务文档的语义检索相结合，帮助代理使用相关企业信息回答问题。",
-        "Ringg 还可以在专门的子代理之间划分工作，以进行资格认证、支持、验证、调度和升级。该平台协调这些步骤，同时通过语音、聊天、WhatsApp 和网络与客户保持一致的对话。"
-      ],
-      "highlights": [
-        "使用 GPT-5.6，Ringg 为跨语音、聊天、WhatsApp 和网络的多语言代理提供支持，与 GPT-4.1 相比，成本降低了 90%。",
-        "对于选定的工作负载，与 GPT-4.1 相比成本更低",
-        "围绕客户结果构建代理平台 围绕客户结果构建代理平台 将每项任务路由到正确的 OpenAI 模型 使用生产评估来提高质量和成本 跨行业交付客户结果 将代理扩展到浏"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-      "originalLang": "en",
-      "date": "2026-09-23",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/ringg",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI"
-      },
-      "raw": {
-        "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-        "url": "https://openai.com/index/ringg",
-        "fetched": true,
-        "savedAt": "2026-09-27T03:09:03.886Z"
-      }
-    },
-    {
-      "id": "sig-1d5a9cc2d9",
-      "title": "心理健康基准简介",
-      "oneLiner": "由 80 多名持证心理健康专家开发的开放基准，用于评估真实心理健康对话中的人工智能反应。",
-      "summary": {
-        "oneSentence": "由 80 多名持证心理健康专家开发的开放基准，用于评估真实心理健康对话中的人工智能反应。",
-        "bullets": [
-          "由 80 多名持证心理健康专家开发的开放基准，用于评估真实心理健康对话中的人工智能反应。",
-          "（在新窗口中打开） 加载中... 分享 支持所有情况下的心理健康 支持所有情况下的心理健康 与专家合作构建 模型性能 了解用户对心理健康的看法 使更好的心理健康评估成为共享资源 支持所有情况下的心理健康 与专家合作构建 模型的性能 了解用户对心理健康的看法 使更好的心理健康评估成为共享资源 人们在多种对话中求助于人工智",
-          "鉴于紧急情况对安全的重要性，该领域的大多数人工智能评估都主要关注紧急情况，并使用广泛的预定义标准来衡量成功。除了是否避免了不允许的反应之外，这在理解模型如何在全方位的心理健康对话中表现以及他们的反应与专家针对每种情况的指导的一致性方面留下了空白。评估模型如何处理这些不同情况对于构建积极支持人们长期福祉和安全的人工智能至",
-          "我们正在推出 MentalHealthBench，这是一个新的开放基准，用于衡量人工智能系统在现实心理健康对话中的反应。 MentalHealthBench 是与来自 22 个国家的 80 多名持有执照的心理健康专家组成的全球群体共同创建的。它评估模型在关键心理健康行为方面的能力，例如安全、寻找背景、保留用户代理以及在"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：由 80 多名持证心理健康专家开发的开放基准，用于评估真实心理健康对话中的人工智能反应。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/introducing-mentalhealthbench"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "由 80 多名持证心理健康专家开发的开放基准，用于评估真实心理健康对话中的人工智能反应。",
-        "（在新窗口中打开） 加载中... 分享 支持所有情况下的心理健康 支持所有情况下的心理健康 与专家合作构建 模型性能 了解用户对心理健康的看法 使更好的心理健康评估成为共享资源 支持所有情况下的心理健康 与专家合作构建 模型的性能 了解用户对心理健康的看法 使更好的心理健康评估成为共享资源 人们在多种对话中求助于人工智能：处理困难的关系、应对日常压力、支持他们关心的人或决定如何处理问题具有挑战性的情况。这些对话需要准确性、实际判断以及对人们能动性的尊重。每周有超过 10 亿人使用 ChatGPT，我们的研究重点是帮助模型谨慎响应各种需求，并将人们的安全和福祉放在第一位。",
-        "鉴于紧急情况对安全的重要性，该领域的大多数人工智能评估都主要关注紧急情况，并使用广泛的预定义标准来衡量成功。除了是否避免了不允许的反应之外，这在理解模型如何在全方位的心理健康对话中表现以及他们的反应与专家针对每种情况的指导的一致性方面留下了空白。评估模型如何处理这些不同情况对于构建积极支持人们长期福祉和安全的人工智能至关重要。",
-        "我们正在推出 MentalHealthBench，这是一个新的开放基准，用于衡量人工智能系统在现实心理健康对话中的反应。 MentalHealthBench 是与来自 22 个国家的 80 多名持有执照的心理健康专家组成的全球群体共同创建的。它评估模型在关键心理健康行为方面的能力，例如安全、寻找背景、保留用户代理以及在适当时提供可行的指导。我们公开发布它，以便其他研究人员可以检查这些方法，进行自己的评估，并在工作的基础上继续发展。",
-        "MentalHealthBench 的结果显示，人工智能系统在帮助人们应对心理健康状况方面正在稳步改进。虽然 ChatGPT 不能替代治疗或专业护理，但专家的见解可以帮助我们衡量人工智能模型的进展，这些模型能够以同理心做出反应，促进福祉，并引导人们获得现实世界的支持，例如本地化危机热线 ⁠ (在新窗口中打开) 或他们信任的人。",
-        "涉及幸福感、生活建议或其他心理健康场景的对话在主题、紧迫性和文化背景上可能存在很大差异。 MentalHealthBench 旨在捕捉这些现实场景和用户角色的广度。使用隐私保护技术，我们创建了综合心理健康对话，准确反映了人工智能在心理健康领域的现实使用模式。某些场景还包括有关合成用户的相关背景信息（例如最近失去家庭），因此我们可以评估模型是否使用该上下文来适当调整其响应。",
-        "MentalHealthBench 包括涉及成人、青少年、护理人员和临床医生的场景，跨多种语言和地区。这些对话涵盖多个主题，并涵盖了全方位的敏锐度：",
-        "非急性——可能涉及一些情绪成分的日常对话。",
-        "高敏锐度——谈话表明存在更严重的心理健康问题或严重的痛苦，但不是立即发生的紧急情况。",
-        "紧急情况——涉及心理健康紧急情况迹象或需要紧急现实世界支持的紧急安全问题的对话。"
-      ],
-      "highlights": [
-        "由 80 多名持证心理健康专家开发的开放基准，用于评估真实心理健康对话中的人工智能反应。",
-        "（在新窗口中打开） 加载中... 分享 支持所有情况下的心理健康 支持所有情况下的心理健康 与专家合作构建 模型性能 了解用户对心理健康的看法 使更好的心理健康",
-        "鉴于紧急情况对安全的重要性，该领域的大多数人工智能评估都主要关注紧急情况，并使用广泛的预定义标准来衡量成功。除了是否避免了不允许的反应之外，这在理解模型如何在全"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Introducing MentalHealthBench",
-      "originalLang": "en",
-      "date": "2026-09-23",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/introducing-mentalhealthbench",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Introducing MentalHealthBench"
-      },
-      "raw": {
-        "title": "Introducing MentalHealthBench",
-        "url": "https://openai.com/index/introducing-mentalhealthbench",
-        "fetched": true,
-        "savedAt": "2026-09-27T03:09:14.546Z"
-      }
-    },
-    {
-      "id": "sig-1dd9ce125c",
-      "title": "ChatGPT 广告扩展到东南亚和台湾",
-      "oneLiner": "ChatGPT 广告已扩展到亚洲的另外 7 个市场，目前已在 60 多个国家/地区推出。",
-      "summary": {
-        "oneSentence": "ChatGPT 广告已扩展到亚洲的另外 7 个市场，目前已在 60 多个国家/地区推出。",
-        "bullets": [
-          "ChatGPT 广告已扩展到亚洲的另外 7 个市场，目前已在 60 多个国家/地区推出。",
-          "(在新窗口中打开) 正在加载... 分享 ChatGPT 广告：新的营销渠道 ChatGPT 广告：新的营销渠道 以我们的广告原则为指导 构建全球广告平台 ChatGPT 广告：新的营销渠道 以我们的广告原则为指导 构建全球广告平台 从今天开始，ChatGPT 广告将开始在印度尼西亚、马来西亚、菲律宾、新加坡、泰国、越",
-          "广告商可以通过 OpenAI 广告解决方案团队、电通、Havas Media、Omnicom Media、Publicis Groupe 和 WPP 等代理合作伙伴以及技术合作伙伴访问 ChatGPT 广告。符合条件的企业还可以通过广告管理器 ⁠（在新窗口中打开）进行自助访问。",
-          "我们的使命是确保通用人工智能造福全人类，广告通过支持免费且低成本地访问 ChatGPT 来帮助实现情报获取的民主化。与我们现有的市场一样，广告将仅向 Free and Go 计划的用户展示。 Plus、Pro 和 Enterprise 订阅将保持无广告。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：ChatGPT 广告已扩展到亚洲的另外 7 个市场，目前已在 60 多个国家/地区推出。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "ChatGPT 广告已扩展到亚洲的另外 7 个市场，目前已在 60 多个国家/地区推出。",
-        "(在新窗口中打开) 正在加载... 分享 ChatGPT 广告：新的营销渠道 ChatGPT 广告：新的营销渠道 以我们的广告原则为指导 构建全球广告平台 ChatGPT 广告：新的营销渠道 以我们的广告原则为指导 构建全球广告平台 从今天开始，ChatGPT 广告将开始在印度尼西亚、马来西亚、菲律宾、新加坡、泰国、越南和台湾推出。在此之前，亚太地区已在澳大利亚、新西兰、日本、韩国和印度推出该产品，扩大了该地区各种规模企业的准入范围。",
-        "广告商可以通过 OpenAI 广告解决方案团队、电通、Havas Media、Omnicom Media、Publicis Groupe 和 WPP 等代理合作伙伴以及技术合作伙伴访问 ChatGPT 广告。符合条件的企业还可以通过广告管理器 ⁠（在新窗口中打开）进行自助访问。",
-        "我们的使命是确保通用人工智能造福全人类，广告通过支持免费且低成本地访问 ChatGPT 来帮助实现情报获取的民主化。与我们现有的市场一样，广告将仅向 Free and Go 计划的用户展示。 Plus、Pro 和 Enterprise 订阅将保持无广告。",
-        "人们带着目标来到 ChatGPT。他们可能正在计划一次旅行、为他们的业务选择软件或装修房屋。通过对话，人们解释他们想要完成什么、什么对他们重要以及他们面临的限制。",
-        "ChatGPT 广告为营销人员提供了在人们探索和评估他们的选择时接触他们的机会。通过介绍相关产品和服务，广告在刺激发现和影响决策的时刻非常有用。",
-        "保护人们对 ChatGPT 的信任是我们广告方法的基础。",
-        "在 OpenAI 广告原则的指导下，我们对广告商保密对话，并且绝不出售客户数据。 ChatGPT 中的广告始终带有清晰的标签，并与 ChatGPT 的答案分开，广告不会影响 ChatGPT 提供的答案。人们还可以控制广告个性化，为那些不想看到广告的人提供无广告付费计划。",
-        "我们的目标很简单：广告应该对人们追求目标和做出决策有用，同时对与我们一起做广告的企业也有效。",
-        "8 月底，我们宣布 ChatGPT 广告在推出后不到 200 天的时间内年化收入​​就达到了 10 亿美元。目前，数以万计的广告商在 ChatGPT 中投放广告，其中许多广告覆盖了多个国家/地区的受众。此次扩张为东南亚和台湾的更多企业带来了这一机会。根据今天的公告，ChatGPT 广告现已在 60 多个国家/地区推出 ⁠（在新窗口中打开）。"
-      ],
-      "highlights": [
-        "ChatGPT 广告已扩展到亚洲的另外 7 个市场，目前已在 60 多个国家/地区推出。",
-        "(在新窗口中打开) 正在加载... 分享 ChatGPT 广告：新的营销渠道 ChatGPT 广告：新的营销渠道 以我们的广告原则为指导 构建全球广告平台 Ch",
-        "广告商可以通过 OpenAI 广告解决方案团队、电通、Havas Media、Omnicom Media、Publicis Groupe 和 WPP 等代理合作"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "ChatGPT Ads expands to Southeast Asia and Taiwan",
-      "originalLang": "en",
-      "date": "2026-09-23",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "ChatGPT Ads expands to Southeast Asia and Taiwan"
-      },
-      "raw": {
-        "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
-        "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
-        "fetched": true,
-        "savedAt": "2026-09-27T03:09:24.734Z"
-      }
-    },
-    {
-      "id": "sig-73fafdf6f4",
-      "title": "Airbnb 扩大了对 GPT-6 Astra 和 OpenAI 前沿模型的访问",
-      "oneLiner": "根据一项新协议，Airbnb 将为其工程和产品开发团队提供更广泛的 OpenAI 前沿模型访问权限，包括 GPT‑6 Astra。",
-      "summary": {
-        "oneSentence": "根据一项新协议，Airbnb 将为其工程和产品开发团队提供更广泛的 OpenAI 前沿模型访问权限，包括 GPT‑6 Astra。",
-        "bullets": [
-          "根据一项新协议，Airbnb 将为其工程和产品开发团队提供更广泛的 OpenAI 前沿模型访问权限，包括 GPT‑6 Astra。",
-          "此次扩展建立在 Airbnb 对 Codex 的使用以及与 OpenAI 的长期合作的基础上。 Airbnb 工程师使用内部 AI 助手编写软件并创建由 Codex 和 GPT-5.6 Sol、Terra 和 Luna 等模型提供支持的远程 AI 代理。",
-          "新协议让 Airbnb 通过 OpenAI API 和 Amazon Bedrock 更广泛地访问 OpenAI 模型。它的出现正值开发商、建筑商和企业加速采用 GPT-6 Astra，其中许多人已经受益于 GPT-5.6 Terra 和 Luna 改进的性价比和效率。",
-          "Airbnb 早期使用 GPT-6 Astra 已显示出除编码之外的强大成果。 Astra 通过追踪硬错误、塑造系统设计和集思广益的工程方法，帮助 Airbnb 工程师加快工作速度。在一项涉及战略文档和其他非编码工作的测试中，一位 Airbnb 用户报告说，在 3-4 次传递中就达到了令人印象深刻的输出，而使用其他模型"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：根据一项新协议，Airbnb 将为其工程和产品开发团队提供更广泛的 OpenAI 前沿模型访问权限，包括 GPT‑6 Astra。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/airbnb-gpt-6-astra"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "根据一项新协议，Airbnb 将为其工程和产品开发团队提供更广泛的 OpenAI 前沿模型访问权限，包括 GPT‑6 Astra。",
-        "此次扩展建立在 Airbnb 对 Codex 的使用以及与 OpenAI 的长期合作的基础上。 Airbnb 工程师使用内部 AI 助手编写软件并创建由 Codex 和 GPT-5.6 Sol、Terra 和 Luna 等模型提供支持的远程 AI 代理。",
-        "新协议让 Airbnb 通过 OpenAI API 和 Amazon Bedrock 更广泛地访问 OpenAI 模型。它的出现正值开发商、建筑商和企业加速采用 GPT-6 Astra，其中许多人已经受益于 GPT-5.6 Terra 和 Luna 改进的性价比和效率。",
-        "Airbnb 早期使用 GPT-6 Astra 已显示出除编码之外的强大成果。 Astra 通过追踪硬错误、塑造系统设计和集思广益的工程方法，帮助 Airbnb 工程师加快工作速度。在一项涉及战略文档和其他非编码工作的测试中，一位 Airbnb 用户报告说，在 3-4 次传递中就达到了令人印象深刻的输出，而使用其他模型则需要 20 多轮。",
-        "Airbnb 还使用 OpenAI 模型来帮助支持搜索、欺诈预防、房客和房东支持以及保险索赔等方面的体验。在整个市场中深入使用人工智能和机器学习，有助于公司更好地了解客人的需求，识别潜在的欺诈性内容或索赔，在旅行计划发生变化时为客人提供帮助，并确保房东更快、更轻松地获得保险赔付。",
-        "随着 Airbnb 将更多旅行内容融入到一个应用程序中（涵盖房屋、服务、体验、机场接机、汽车租赁等），OpenAI 前沿模型可以为构建这些功能的团队提供更强大的工具，以更快地行动并探索接下来的发展。"
-      ],
-      "highlights": [
-        "根据一项新协议，Airbnb 将为其工程和产品开发团队提供更广泛的 OpenAI 前沿模型访问权限，包括 GPT‑6 Astra。",
-        "此次扩展建立在 Airbnb 对 Codex 的使用以及与 OpenAI 的长期合作的基础上。 Airbnb 工程师使用内部 AI 助手编写软件并创建由 Cod",
-        "新协议让 Airbnb 通过 OpenAI API 和 Amazon Bedrock 更广泛地访问 OpenAI 模型。它的出现正值开发商、建筑商和企业加速采用"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
-      "originalLang": "en",
-      "date": "2026-09-23",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/airbnb-gpt-6-astra",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models"
-      },
-      "raw": {
-        "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
-        "url": "https://openai.com/index/airbnb-gpt-6-astra",
-        "fetched": true,
-        "savedAt": "2026-09-27T03:09:31.363Z"
-      }
-    },
-    {
-      "id": "sig-09a0c6dbf1",
-      "title": "Grab 和 OpenAI 为东南亚带来实用的人工智能技能",
-      "oneLiner": "我们的第一个区域技能计划将帮助 30,000 名 Grab 司机、送货员和商家合作伙伴为他们的工作和业务培养实用的人工智能技能",
-      "summary": {
-        "oneSentence": "我们的第一个区域技能计划将帮助 30,000 名 Grab 司机、送货员和商家合作伙伴为他们的工作和业务培养实用的人工智能技能",
-        "bullets": [
-          "我们的第一个区域技能计划将帮助 30,000 名 Grab 司机、送货员和商家合作伙伴为他们的工作和业务培养实用的人工智能技能",
-          "在整个东南亚，商家每天都会做出有关销售、库存和促销的决策。一些在零工经济中工作的人正在探索自己的商业想法。人工智能可以帮助人们解决这些问题，但找到有用的方法来应用它需要练习。",
-          "这就是为什么我们今天要与东南亚领先的超级应用程序 Grab 一起推出 GO Forward with AI。在接下来的两年里，该计划将帮助东南亚 30,000 名 Grab 司机、送货员和商业合作伙伴培养他们在工作和业务中可以使用的技能。它从新加坡开始，将于今年晚些时候扩展到泰国、印度尼西亚和菲律宾，随后于 2027 ",
-          "此次合作将我们确保通用人工智能造福全人类的使命与 Grab 扩大东南亚经济机会的承诺结合在一起。它也是新加坡 OpenAI 的一部分，我们与当地合作伙伴合作，帮助这里更多的人和企业使用人工智能。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：我们的第一个区域技能计划将帮助 30,000 名 Grab 司机、送货员和商家合作伙伴为他们的工作和业务培养实用的人工智能技能",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/grab-openai-ai-skills-southeast-asia"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "我们的第一个区域技能计划将帮助 30,000 名 Grab 司机、送货员和商家合作伙伴为他们的工作和业务培养实用的人工智能技能",
-        "在整个东南亚，商家每天都会做出有关销售、库存和促销的决策。一些在零工经济中工作的人正在探索自己的商业想法。人工智能可以帮助人们解决这些问题，但找到有用的方法来应用它需要练习。",
-        "这就是为什么我们今天要与东南亚领先的超级应用程序 Grab 一起推出 GO Forward with AI。在接下来的两年里，该计划将帮助东南亚 30,000 名 Grab 司机、送货员和商业合作伙伴培养他们在工作和业务中可以使用的技能。它从新加坡开始，将于今年晚些时候扩展到泰国、印度尼西亚和菲律宾，随后于 2027 年扩展到马来西亚和越南。",
-        "此次合作将我们确保通用人工智能造福全人类的使命与 Grab 扩大东南亚经济机会的承诺结合在一起。它也是新加坡 OpenAI 的一部分，我们与当地合作伙伴合作，帮助这里更多的人和企业使用人工智能。",
-        "许多 Grab 合作伙伴已经对人工智能感兴趣。 Grab 对新加坡司机合作伙伴进行的一项调查显示，一半的 Grab 司机和送货合作伙伴表示他们使用人工智能工具。在那些没有这样做的人中，87% 的人表示他们愿意尝试。 ChatGPT 是他们最了解的工具。他们中的许多人表示他们希望发展现有业务或探索创办一项业务。",
-        "我们围绕许多人面临的决策设计了“GO Forward with AI”。司机或送货合作伙伴可以使用 ChatGPT 探索商业想法，思考如何使其脱颖而出，并制定开始计划。商家可以用它来寻找销售模式、计划促销或为需求变化做好准备。",
-        "在实践研讨会中，参与者还将尝试 ChatGPT Work 执行更大的任务，例如将销售数据转换为仪表板、构建简单的网站或制定扩展计划。他们将审查它产生的内容并做出随后的决定。",
-        "与国务部长符策祥、OpenAI 国际董事总经理 Oliver Jay、Grab 首席组织能力官 Ong Chin Yin、Grab 团队和女性司机合作伙伴一起在新加坡推出 GO Forward with AI。",
-        "Grab 和 OpenAI 有着共同的目标，即确保我们所服务的社区更容易获得人工智能的好处并更有意义。我们的合作伙伴对人工智能感到兴奋，但许多人正在寻求如何以与其工作、业务和愿望相关的方式应用人工智能的实用指导。该计划旨在建立这种信心，无论是帮助商家做出更明智的商业决策，还是为司机合作伙伴提供探索新商业理念和创造新增长机会的工具。",
-        "——Grab 首席组织能力官 Ong Chin Yin"
-      ],
-      "highlights": [
-        "我们的第一个区域技能计划将帮助 30,000 名 Grab 司机、送货员和商家合作伙伴为他们的工作和业务培养实用的人工智能技能",
-        "在整个东南亚，商家每天都会做出有关销售、库存和促销的决策。一些在零工经济中工作的人正在探索自己的商业想法。人工智能可以帮助人们解决这些问题，但找到有用的方法来应",
-        "这就是为什么我们今天要与东南亚领先的超级应用程序 Grab 一起推出 GO Forward with AI。在接下来的两年里，该计划将帮助东南亚 30,000 "
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Grab and OpenAI bring practical AI skills to Southeast Asia",
-      "originalLang": "en",
-      "date": "2026-09-23",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Grab and OpenAI bring practical AI skills to Southeast Asia"
-      },
-      "raw": {
-        "title": "Grab and OpenAI bring practical AI skills to Southeast Asia",
-        "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia",
-        "fetched": true,
-        "savedAt": "2026-09-27T03:09:41.196Z"
-      }
-    },
-    {
-      "id": "sig-089c4ff63d",
-      "title": "Rollouts 与 Security Review · Cursor",
-      "oneLiner": "今天，我们推出两个 Cursor bot，助你打通代码交付的最后一公里。Rollouts 会实时监控每一次变更的部署过程，并按环境报告其健康状况。Security Review 会在每个 PR 中报告可被利用的缺陷。",
-      "summary": {
-        "oneSentence": "今天，我们推出两个 Cursor bot，助你打通代码交付的最后一公里。Rollouts 会实时监控每一次变更的部署过程，并按环境报告其健康状况。Security Review 会在每个 PR 中报告可被利用的缺陷。",
-        "bullets": [
-          "今天，我们推出两个 Cursor bot，助你打通代码交付的最后一公里。Rollouts 会实时监控每一次变更的部署过程，并按环境报告其健康状况。Security Review 会在每个 PR 中报告可被利用的缺陷。",
-          "Rollouts 会为每个 PR 附加一个监控项，在变更部署过程中持续跟踪，并按环境报告变更的健康状况：已验证健康、检测到回归或无法确定。它是 Cursor 版的 Firetiger Change Monitors，基于 Bot Development Kit 重新构建。",
-          "在仪表盘中启用它，然后连接源代码管理、你的部署系统和遥测供应商。Rollouts 会从下一个 PR 开始监控。",
-          "PR 创建后，Rollouts 会读取 diff 及其涉及的系统，然后以 PR 评论的形式撰写一份监控规划。规划中会列出识别出的风险、此次变更预期达到的效果、将要检查的信号，以及可能导致变更难以确认的埋点缺口。你可以直接在 PR 中编辑该规划，Rollouts 会采用你修改后的版本。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Cursor 官网发布：今天，我们推出两个 Cursor bot，助你打通代码交付的最后一公里。Rollouts 会实时监控每一次变更的部署过程，并按环境报告其健康状况。Security Review 会在每个 PR 中报告可被利用的缺陷。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：cursor",
-        "actionItems": [
-          "阅读原文（中文）：https://cursor.com/changelog/rollouts-and-security-reviewer"
-        ]
-      },
-      "tags": [
-        "Release"
-      ],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "cursor"
-      ],
-      "content": [
-        "今天，我们推出两个 Cursor bot，助你打通代码交付的最后一公里。Rollouts 会实时监控每一次变更的部署过程，并按环境报告其健康状况。Security Review 会在每个 PR 中报告可被利用的缺陷。",
-        "Rollouts 会为每个 PR 附加一个监控项，在变更部署过程中持续跟踪，并按环境报告变更的健康状况：已验证健康、检测到回归或无法确定。它是 Cursor 版的 Firetiger Change Monitors，基于 Bot Development Kit 重新构建。",
-        "在仪表盘中启用它，然后连接源代码管理、你的部署系统和遥测供应商。Rollouts 会从下一个 PR 开始监控。",
-        "PR 创建后，Rollouts 会读取 diff 及其涉及的系统，然后以 PR 评论的形式撰写一份监控规划。规划中会列出识别出的风险、此次变更预期达到的效果、将要检查的信号，以及可能导致变更难以确认的埋点缺口。你可以直接在 PR 中编辑该规划，Rollouts 会采用你修改后的版本。",
-        "当该变更对应的提交触发部署事件时，Rollouts 会被唤醒，并基于你的日志、指标和链路追踪数据运行规划。它会分别跟踪每个环境，因此同一变更可能在预发布环境中验证通过，却仍在生产环境中被标记。Rollouts 会在检查变更是否达到预期效果的同时，关注错误信息和延迟信号，并在得出结论后将结果反馈到 PR 上。",
-        "当 Rollouts 检测到回归时，会指出疑似引发问题的变更，并通知其作者。根据配置，它还可以创建一个回滚 PR 供审查，或将发现的问题交给云端智能体修复。目前，Rollouts 还不会自行合并或回滚。",
-        "Rollouts 可连接 Origin 或 GitHub 进行源代码管理，连接你的持续交付系统以获取部署事件，并连接 Datadog 等遥测供应商以获取信号。功能开关集成即将推出。",
-        "Security Review 现已上线。它会结合整个代码库的上下文读取每个 PR，并发布一条审查评论，报告其中可被利用的缺陷。代码风格和质量问题仍由 Bugbot 负责。",
-        "Security Review 会检查 SQL、命令和模板等界面中的注入问题，以及身份验证和授权绕过，包括因代码重构而不再执行的检查。它还会标记提交到源代码中的密钥和凭证、SSRF 与未经验证的重定向、不安全的反序列化，以及引入已知漏洞的依赖变更。此外，它会追踪用户输入从何处进入，以及流经了哪些环节。",
-        "每个发现项都会标明严重级别、攻击路径和建议的修复方案。忽略某个发现项时注明原因，Security Review 就不会在该 PR 中再次报告它。"
-      ],
-      "highlights": [
-        "今天，我们推出两个 Cursor bot，助你打通代码交付的最后一公里。Rollouts 会实时监控每一次变更的部署过程，并按环境报告其健康状况。Securit",
-        "Rollouts 会为每个 PR 附加一个监控项，在变更部署过程中持续跟踪，并按环境报告变更的健康状况：已验证健康、检测到回归或无法确定。它是 Cursor 版",
-        "在仪表盘中启用它，然后连接源代码管理、你的部署系统和遥测供应商。Rollouts 会从下一个 PR 开始监控。"
-      ],
-      "translated": false,
-      "translateMethod": "native",
-      "originalTitle": "Rollouts 与 Security Review · Cursor",
-      "originalLang": "zh",
-      "date": "2026-09-23",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [
-        "cursor"
-      ],
-      "source": {
-        "type": "release",
-        "group": "company",
-        "name": "Cursor",
-        "author": "Cursor",
-        "url": "https://cursor.com/changelog/rollouts-and-security-reviewer",
-        "home": "https://cursor.com/changelog",
-        "lang": "zh",
-        "translated": false,
-        "translateMethod": "native",
-        "originalTitle": "Rollouts 与 Security Review · Cursor"
-      },
-      "raw": {
-        "title": "Rollouts and Security Review",
-        "url": "https://cursor.com/changelog/rollouts-and-security-reviewer",
-        "fetched": true,
-        "savedAt": "2026-09-27T03:09:42.462Z",
-        "retranslatedAt": "2026-11-06T04:43:32.507Z"
-      }
-    },
-    {
-      "id": "sig-8326b40544",
-      "title": "Gemini 3.8 文本转语音模型现已在 AI Gateway - Vercel 上提供",
-      "oneLiner": "Google 的 Gemini 3.8 Flash-Lite TTS 和 Gemini 3.8 Flash TTS 现已在 AI Gateway 上提供。",
-      "summary": {
-        "oneSentence": "Google 的 Gemini 3.8 Flash-Lite TTS 和 Gemini 3.8 Flash TTS 现已在 AI Gateway 上提供。",
-        "bullets": [
-          "Google 的 Gemini 3.8 Flash-Lite TTS 和 Gemini 3.8 Flash TTS 现已在 AI Gateway 上提供。",
-          "这两种模型都可以获取 100 多种语言的文本并生成语音。它们支持长篇叙述、交付控制和两人对话。",
-          "google/gemini-3.8-flash-lite-tts 适用于大容量语音生成，具有音调、节奏和逐行交付控制。",
-          "google/gemini-3.8-flash-tts 通过自然语言提示添加语音和角色设计，包括表演提示、口音和对话反应。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Google 的 Gemini 3.8 Flash-Lite TTS 和 Gemini 3.8 Flash TTS 现已在 AI Gateway 上提供。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/gemini-3-8-text-to-speech-models-now-available-on-ai-gateway"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Google 的 Gemini 3.8 Flash-Lite TTS 和 Gemini 3.8 Flash TTS 现已在 AI Gateway 上提供。",
-        "这两种模型都可以获取 100 多种语言的文本并生成语音。它们支持长篇叙述、交付控制和两人对话。",
-        "google/gemini-3.8-flash-lite-tts 适用于大容量语音生成，具有音调、节奏和逐行交付控制。",
-        "google/gemini-3.8-flash-tts 通过自然语言提示添加语音和角色设计，包括表演提示、口音和对话反应。",
-        "1 从'ai'导入{experimental_generateSpeech asgenerateSpeech}； 2 从 'node:fs/promises' 导入 { writeFile } ； 3 4 const result =等待generateSpeech ({ 5 model : 'google/gemini-3.8-flash-lite-tts' , 6 text : '欢迎来到音频版。' , 7 voice : 'Kore' , 8 outputFormat : 'wav' , 9 } ) ; 10 11 wait writeFile('speech.wav', result.audio.uint8Array);",
-        "在 Flash-Lite TTS Playground 或 Flash TTS Playground 中生成并收听语音。有关设置说明和更多代码示例，请参阅语音快速入门和文本转语音指南 。",
-        "AI Gateway 与其他模型一起提供一个用于语音生成的 API，并跟踪每个请求的使用情况和成本。您可以配置路由规则并携带自己的提供商密钥。"
-      ],
-      "highlights": [
-        "Google 的 Gemini 3.8 Flash-Lite TTS 和 Gemini 3.8 Flash TTS 现已在 AI Gateway 上提供。",
-        "这两种模型都可以获取 100 多种语言的文本并生成语音。它们支持长篇叙述、交付控制和两人对话。",
-        "google/gemini-3.8-flash-lite-tts 适用于大容量语音生成，具有音调、节奏和逐行交付控制。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Gemini 3.8 text-to-speech models now available on AI Gateway - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-23",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/gemini-3-8-text-to-speech-models-now-available-on-ai-gateway",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Gemini 3.8 text-to-speech models now available on AI Gateway - Vercel"
-      },
-      "raw": {
-        "title": "Gemini 3.8 text-to-speech models now available on AI Gateway",
-        "url": "https://vercel.com/changelog/gemini-3-8-text-to-speech-models-now-available-on-ai-gateway",
-        "fetched": true,
-        "savedAt": "2026-09-27T03:09:50.093Z"
-      }
-    },
-    {
-      "id": "sig-750e8b0007",
-      "title": "We just shipped support for the ugliest part of HTTP: Vary",
-      "oneLiner": "My comment on We just shipped support for the ugliest part of HTTP: Vary &mdash; Hacker News. I've b",
-      "summary": {
-        "oneSentence": "My comment on We just shipped support for the ugliest part of HTTP: Vary &mdash; Hacker News. I've been wanting this fro",
-        "bullets": [
-          "My comment on We just shipped support for the ugliest part of HTTP: Vary &mdash; Hacker News. I've been wanting this from Cloudflare for years . The classic problem here is if you do that thing where "
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/23/hn-49823961/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "My comment on We just shipped support for the ugliest part of HTTP: Vary &mdash; Hacker News. I've been wanting this from Cloudflare for years . The classic problem here is if you do that thing where user agents that send \"accept: text/html\" get HTML, while user agents that don't get JSON or some other format. This used to be impossible to deploy behind Cloudflare caching, because they ignored the Vary header on anything other than images - so you risked caching the JSON version and then serving it up to someone who was expecting HTML. (Independent of the Cloudflare feature I ended up deciding never to use that pattern, because I prefer having URL that predictably returns HTML or JSON - I add a .json suffix to my apps to serve JSON instead.) Tags: http , cloudflare"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "We just shipped support for the ugliest part of HTTP: Vary",
-      "originalLang": "en",
-      "date": "2026-09-23",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/23/hn-49823961/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "We just shipped support for the ugliest part of HTTP: Vary"
-      },
-      "raw": {
-        "title": "We just shipped support for the ugliest part of HTTP: Vary",
-        "url": "https://simonwillison.net/2026/Sep/23/hn-49823961/",
-        "fetched": false,
-        "savedAt": "2026-10-05T03:34:52.187Z"
-      }
-    },
-    {
-      "id": "sig-e9c1ddde45",
-      "title": "Gemini 3.8 TTS Playground",
-      "oneLiner": "Tool: Gemini 3.8 TTS Playground Google released two new Gemini text-to-speech models today - gemini-",
-      "summary": {
-        "oneSentence": "Tool: Gemini 3.8 TTS Playground Google released two new Gemini text-to-speech models today - gemini-3.8-flash-tts and ge",
-        "bullets": [
-          "Tool: Gemini 3.8 TTS Playground Google released two new Gemini text-to-speech models today - gemini-3.8-flash-tts and gemini-3.8-flash-lite-tts . They come with a library of over 2,000 voices, plus th"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/23/gemini-tts-playground/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Tool: Gemini 3.8 TTS Playground Google released two new Gemini text-to-speech models today - gemini-3.8-flash-tts and gemini-3.8-flash-lite-tts . They come with a library of over 2,000 voices, plus the ability to create a custom voice with \"just a 30-second audio sample of your voice or a voice you have the rights to use\". I vibe coded this bring-your-own-key playground interface with GPT-6 Astra, taking advantage of the open CORS policy of the underlying Gemini API. A notable feature of the API is that it makes it easy to define a full conversation between multiple characters, each with different voices and voice style instructions. Here's a short demo clip of a conversation between two pelicans debating if they should move to the Pacifica Pier . I had Claude 4.5 Opus write the script and generate a URL to render it using the tool . Your browser does not support the audio element. It took ~20 seconds to generate 1m 18s of audio using Gemini 3.8 Flash TTS (not the cheaper Flash-Lite), at a cost of 2.74 cents. Tags: text-to-speech , gemini"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Gemini 3.8 TTS Playground",
-      "originalLang": "en",
-      "date": "2026-09-23",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Gemini 3.8 TTS Playground"
-      },
-      "raw": {
-        "title": "Gemini 3.8 TTS Playground",
-        "url": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
-        "fetched": false,
-        "savedAt": "2026-10-05T03:34:52.988Z"
-      }
-    },
-    {
-      "id": "sig-ba339dfd75",
-      "title": "Shadow roots, explained with live examples",
-      "oneLiner": "Tool: Shadow roots, explained with live examples Prompt to Fable 5.1 Medium: Build an artifact to ex",
-      "summary": {
-        "oneSentence": "Tool: Shadow roots, explained with live examples Prompt to Fable 5.1 Medium: Build an artifact to explain shadow roots i",
-        "bullets": [
-          "Tool: Shadow roots, explained with live examples Prompt to Fable 5.1 Medium: Build an artifact to explain shadow roots in CSS with interactive examples Tags: css"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/23/shadow-roots/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Tool: Shadow roots, explained with live examples Prompt to Fable 5.1 Medium: Build an artifact to explain shadow roots in CSS with interactive examples Tags: css"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Shadow roots, explained with live examples",
-      "originalLang": "en",
-      "date": "2026-09-23",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/23/shadow-roots/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Shadow roots, explained with live examples"
-      },
-      "raw": {
-        "title": "Shadow roots, explained with live examples",
-        "url": "https://simonwillison.net/2026/Sep/23/shadow-roots/",
-        "fetched": false,
-        "savedAt": "2026-10-05T03:34:53.789Z"
-      }
-    },
-    {
-      "id": "sig-bd03d329b1",
-      "title": "🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
-      "oneLiner": "Radical Numerics is using biological chain-of-thought and multimodal perception to keep up with the ",
-      "summary": {
-        "oneSentence": "Radical Numerics is using biological chain-of-thought and multimodal perception to keep up with the bio-defense arms rac",
-        "bullets": [
-          "Radical Numerics is using biological chain-of-thought and multimodal perception to keep up with the bio-defense arms race, design new genomes and gain insights into biology itself."
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Radical Numerics is using biological chain-of-thought and multimodal perception to keep up with the bio-defense arms race, design new genomes and gain insights into biology itself."
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
-      "originalLang": "en",
-      "date": "2026-09-23",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Latent Space",
-        "author": "swyx",
-        "url": "https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)"
-      },
-      "raw": {
-        "title": "🔬Bio-security is an AI Arms Race - Eric Nguyen (CEO, Radical Numerics)",
-        "url": "https://www.latent.space/p/bio-security-is-an-ai-arms-race-eric",
-        "fetched": false,
-        "savedAt": "2026-10-05T03:34:54.591Z"
-      }
-    },
-    {
-      "id": "sig-62f29a5a45",
-      "title": "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%",
-      "oneLiner": "overshadowing more efficient GPT6 models from OpenAI",
-      "summary": {
-        "oneSentence": "overshadowing more efficient GPT6 models from OpenAI",
-        "bullets": [
-          "overshadowing more efficient GPT6 models from OpenAI"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://www.latent.space/p/ainews-claude-opus-55-the-new-default"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "overshadowing more efficient GPT6 models from OpenAI"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%",
-      "originalLang": "en",
-      "date": "2026-09-23",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Latent Space",
-        "author": "swyx",
-        "url": "https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%"
-      },
-      "raw": {
-        "title": "[AINews] Claude Opus 5.5, the new default model for AINews — and everybody cuts prices 40-50%",
-        "url": "https://www.latent.space/p/ainews-claude-opus-55-the-new-default",
-        "fetched": false,
-        "savedAt": "2026-10-05T03:34:55.392Z"
-      }
-    },
-    {
-      "id": "sig-75e3d066fe",
-      "title": "SF October 14th: A Birds of a Feather Session on Agentic Engineering",
-      "oneLiner": "SF October 14th: A Birds of a Feather Session on Agentic Engineering I'm hosting an evening event wi",
-      "summary": {
-        "oneSentence": "SF October 14th: A Birds of a Feather Session on Agentic Engineering I'm hosting an evening event with Jesse Vincent in ",
-        "bullets": [
-          "SF October 14th: A Birds of a Feather Session on Agentic Engineering I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and in"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "SF October 14th: A Birds of a Feather Session on Agentic Engineering I'm hosting an evening event with Jesse Vincent in San Francisco on Wednesday 14th October for people who are building weird and interesting things with and on top of coding agents. Think of it as an agentic show-and-tell: ​Compare notes with other builders and experimenters on things you’re trying, what you're learning, and what you haven’t figured out yet. We’re especially interested in work you haven’t discussed publicly, odd experiments, or unfinished projects that don’t have an obvious market. ​Expect one flowing conversation with an informal show-and-tell. Sharing something you’re working on is encouraged but no presentation is required. This isn't about product pitches, it's about much earlier explorations than that. This agentic AI stuff is weird! Let's celebrate and lean into that weirdness. Tags: events , ai , generative-ai , llms , coding-agents , jesse-vincent , agentic-engineering"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "SF October 14th: A Birds of a Feather Session on Agentic Engineering",
-      "originalLang": "en",
-      "date": "2026-09-23",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "SF October 14th: A Birds of a Feather Session on Agentic Engineering"
-      },
-      "raw": {
-        "title": "SF October 14th: A Birds of a Feather Session on Agentic Engineering",
-        "url": "https://simonwillison.net/2026/Sep/23/bof-agentic-engineering/",
-        "fetched": false,
-        "savedAt": "2026-10-05T03:34:56.194Z"
       }
     }
   ]
