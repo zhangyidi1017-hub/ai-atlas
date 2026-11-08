@@ -1,16 +1,23 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-07T04:11:53.045Z",
+  "updatedAt": "2026-11-08T03:54:55.650Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
   "itemCount": 414,
   "brief": {
-    "date": "2026-11-07",
-    "generatedAt": "2026-11-07T04:11:53.044Z",
+    "date": "2026-11-08",
+    "generatedAt": "2026-11-08T03:54:55.649Z",
     "totalCount": 414,
     "todayCount": 0,
     "headline": "今日 AI 信号 — 条 · 档案共 414 条",
     "topUpdates": [
+      {
+        "id": "sig-0c1cf97223",
+        "title": "DeepSeek V4.1 Flash 1017 Ultrafast 现已在 AI Gateway - Vercel 上提供",
+        "stars": 4,
+        "oneLiner": "DeepSeek V4.1 Flash 1017 Ultrafast 现已通过 Fireworks 在 AI Gateway 上提供。该模型每秒可以生成多达 1,000 个代币。",
+        "readMinutes": 5
+      },
       {
         "id": "sig-1564a9d4f1",
         "title": "Token Pass 积分现在自动应用于 AI Gateway - Vercel",
@@ -38,38 +45,33 @@
         "stars": 4,
         "oneLiner": "关于为什么设计是新的代码，塑造人工智能的创意输出，以及我们所做的事情背后的人类视觉和判断。",
         "readMinutes": 5
-      },
-      {
-        "id": "sig-fc7161ee6b",
-        "title": "Vercel CLI 现在可以将新项目设置为过期 - Vercel",
-        "stars": 4,
-        "oneLiner": "现在，您可以将新项目设置为在使用 Vercel CLI 部署时过期。过期的项目会自动删除，因此原型、演示和测试应用程序不需要手动清理。",
-        "readMinutes": 5
       }
     ],
     "sections": {
       "topUpdates": [
+        "sig-0c1cf97223",
         "sig-1564a9d4f1",
         "sig-ca6f08fa82",
         "sig-8d6a841a49",
         "sig-650a3346e5",
-        "sig-fc7161ee6b",
-        "sig-05a0335822"
+        "sig-fc7161ee6b"
       ],
       "newReleases": [
+        "sig-fd1a4c4700",
+        "sig-5d176638f1",
         "sig-f50edeef79",
         "sig-b8b5f613d5",
         "sig-ecd4573e22"
       ],
       "insights": [
+        "sig-0c1cf97223",
         "sig-1564a9d4f1",
         "sig-ca6f08fa82",
         "sig-8d6a841a49",
         "sig-650a3346e5",
         "sig-fc7161ee6b",
         "sig-05a0335822",
-        "sig-12839cc6c8",
-        "sig-39cf968ded"
+        "sig-12839cc6c8"
       ],
       "emergingTrends": [],
       "newApis": [],
@@ -90,15 +92,15 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-11-07T04:11:53.045Z",
-    "summary": "近 30 天共 272 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-11-08T03:54:55.650Z",
+    "summary": "近 30 天共 270 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
-        "signal": "近 30 天 2 条相关更新",
+        "signal": "近 30 天 4 条相关更新",
         "examples": [
-          "云端智能体画布与环境改进 · Cursor",
-          "Origin 应用市场 · Cursor"
+          "与智能体语音聊天 · Cursor",
+          "在 Cursor 中构建可上线运行的应用 · Cursor"
         ]
       }
     ],
@@ -128,6 +130,20 @@
       ],
       "source": "OpenAI",
       "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-fd1a4c4700",
+      "title": "与智能体语音聊天 · Cursor",
+      "oneLiner": "现在，你可以通过实时语音通话与智能体交流。直接说出你想要的更改，询问智能体正在做什么，并随着工作推进听取最新进展。",
+      "date": "2026-11-06",
+      "productIds": [
+        "cursor"
+      ],
+      "source": "Cursor",
+      "tags": [
+        "Release"
+      ],
       "stars": 4
     },
     {
@@ -212,6 +228,44 @@
       ],
       "source": "OpenAI",
       "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-1f9981de57",
+      "title": "Flipsnack 通过转化优化来增加产品注册量",
+      "oneLiner": "Flipsnack 的 ChatGPT 广告活动的重点是让人们尝试其产品，增加注册量，同时降低每次注册成本。",
+      "date": "2026-11-05",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-c0d7b08082",
+      "title": "富兰克林邓普顿使用 OpenAI 支持投资研究",
+      "oneLiner": "从股票研究开始，富兰克林邓普顿正在开发人工智能工作流程，以帮助投资组合经理比较研究观点并检查投资风险。",
+      "date": "2026-11-05",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-5d176638f1",
+      "title": "在 Cursor 中构建可上线运行的应用 · Cursor",
+      "oneLiner": "智能体降低了编写代码的成本，但用户构建的大多数应用和工具始终没能走出 localhost。",
+      "date": "2026-11-05",
+      "productIds": [
+        "cursor"
+      ],
+      "source": "Cursor",
+      "tags": [
+        "Release"
+      ],
       "stars": 4
     },
     {
@@ -345,57 +399,93 @@
       "source": "Google AI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-25cc4c9bb2",
-      "title": "让网站更容易表达人工智能训练偏好",
-      "oneLiner": "OpenAI 将尊重共享的 robots.txt 信号，以帮助网站运营商向参与的提供商传达他们的 AI 培训偏好。",
-      "date": "2026-10-30",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-c7606af40d",
-      "title": "社区安全报告和针对青少年的新保护",
-      "oneLiner": "OpenAI 正在通过扩大保障措施、早期干预以及对公共安全报告的新承诺来加强 ChatGPT 中的暴力预防。",
-      "date": "2026-10-30",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-d2282bcce1",
-      "title": "合理使用使每个人受益",
-      "oneLiner": "OpenAI 分享了创作者、学者、无障碍倡导者和法律专家等人的法庭简报摘录，内容涉及合理使用如何支持人工智能培训和创新。",
-      "date": "2026-10-30",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-7bf0065ceb",
-      "title": "更新后的模型规格，提供更强大、更有益的人工智能",
-      "oneLiner": "OpenAI 更新后的模型规范概述了五个核心价值观，以指导更强大的人工智能走向正确的判断、人类的代理和忠实于人类的意图。",
-      "date": "2026-10-29",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-0c1cf97223",
+      "title": "DeepSeek V4.1 Flash 1017 Ultrafast 现已在 AI Gateway - Vercel 上提供",
+      "oneLiner": "DeepSeek V4.1 Flash 1017 Ultrafast 现已通过 Fireworks 在 AI Gateway 上提供。该模型每秒可以生成多达 1,000 个代币。",
+      "summary": {
+        "oneSentence": "DeepSeek V4.1 Flash 1017 Ultrafast 现已通过 Fireworks 在 AI Gateway 上提供。该模型每秒可以生成多达 1,000 个代币。",
+        "bullets": [
+          "DeepSeek V4.1 Flash 1017 Ultrafast 现已通过 Fireworks 在 AI Gateway 上提供。该模型每秒可以生成多达 1,000 个代币。",
+          "Ultrafast 通过 Fireworks 的加速无服务器端点为 DeepSeek V4.1 Flash 的 10 月 17 日更新提供服务。它适用于交互式编码、推理和代理工作流程，其中应用程序需要生成输出并快速进入下一步。",
+          "该模型有一个 1M 令牌上下文窗口，用于处理大型代码库和长输入。它可以公开预览，没有等待室或会话时间限制。",
+          "通过将 deepseek/deepseek-v4.1-flash-1017-ultrafast 设置为模型名称来使用它："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：DeepSeek V4.1 Flash 1017 Ultrafast 现已通过 Fireworks 在 AI Gateway 上提供。该模型每秒可以生成多达 1,000 个代币。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/deepseek-v4-1-flash-1017-ultrafast-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "DeepSeek V4.1 Flash 1017 Ultrafast 现已通过 Fireworks 在 AI Gateway 上提供。该模型每秒可以生成多达 1,000 个代币。",
+        "Ultrafast 通过 Fireworks 的加速无服务器端点为 DeepSeek V4.1 Flash 的 10 月 17 日更新提供服务。它适用于交互式编码、推理和代理工作流程，其中应用程序需要生成输出并快速进入下一步。",
+        "该模型有一个 1M 令牌上下文窗口，用于处理大型代码库和长输入。它可以公开预览，没有等待室或会话时间限制。",
+        "通过将 deepseek/deepseek-v4.1-flash-1017-ultrafast 设置为模型名称来使用它：",
+        "AI SDK fx 聊天完成 AI SDK AI SDK fx fx 聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 3 const result = streamText ({ 4 model : 'deepseek/deepseek-v4.1-flash-1017-ultrafast' , 5prompt : '编写一个 TypeScript 帮助程序，通过退避重试失败的请求。' , 6 } ) ; 7 8 for wait (const text of result.textStream) { 9 process .textStream 。标准输出。写（文字）； 10 } 复制代理查看模型详细信息 ↗ 要在 Claude Code、Codex、Cursor 等中使用它，请安装最新的 Vercel CLI 并运行安装程序：",
+        "npx vercel ai-gateway setup 然后在代理中选择 deepseek/deepseek-v4.1-flash-1017-ultrafast。有关详细信息，请参阅编码代理指南。",
+        "在模型游乐场中尝试 DeepSeek V4.1 Flash 1017 Ultrafast。",
+        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本，以及配置重试、故障转移和性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、零数据保留支持、API 密钥预算、路由规则等。",
+        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。",
+        "您可以查看AI网关上所有可用的语言模型。"
+      ],
+      "highlights": [
+        "DeepSeek V4.1 Flash 1017 Ultrafast 现已通过 Fireworks 在 AI Gateway 上提供。该模型每秒可以生成多达 1",
+        "Ultrafast 通过 Fireworks 的加速无服务器端点为 DeepSeek V4.1 Flash 的 10 月 17 日更新提供服务。它适用于交互式编",
+        "该模型有一个 1M 令牌上下文窗口，用于处理大型代码库和长输入。它可以公开预览，没有等待室或会话时间限制。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "DeepSeek V4.1 Flash 1017 Ultrafast now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-07",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/deepseek-v4-1-flash-1017-ultrafast-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "DeepSeek V4.1 Flash 1017 Ultrafast now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "DeepSeek V4.1 Flash 1017 Ultrafast now available on AI Gateway",
+        "url": "https://vercel.com/changelog/deepseek-v4-1-flash-1017-ultrafast-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-11-08T03:54:05.461Z"
+      }
+    },
     {
       "id": "sig-1564a9d4f1",
       "title": "Token Pass 积分现在自动应用于 AI Gateway - Vercel",
@@ -1286,6 +1376,178 @@
       }
     },
     {
+      "id": "sig-fd1a4c4700",
+      "title": "与智能体语音聊天 · Cursor",
+      "oneLiner": "现在，你可以通过实时语音通话与智能体交流。直接说出你想要的更改，询问智能体正在做什么，并随着工作推进听取最新进展。",
+      "summary": {
+        "oneSentence": "现在，你可以通过实时语音通话与智能体交流。直接说出你想要的更改，询问智能体正在做什么，并随着工作推进听取最新进展。",
+        "bullets": [
+          "现在，你可以通过实时语音通话与智能体交流。直接说出你想要的更改，询问智能体正在做什么，并随着工作推进听取最新进展。",
+          "语音聊天可在智能体窗口、IDE、Web 端以及 Cursor iOS 版中使用。",
+          "当智能体处于空闲状态且聊天输入框为空时，点击标有 Start 语音聊天 的波形按钮。该按钮位于通常显示“发送”按钮的位置，旁边是用于听写的麦克风按钮。",
+          "在 iOS 上，你还可以说“Hey Siri, call Cursor”，与新的智能体发起通话，并通过锁屏界面上的实时活动静音或挂断。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Cursor 官网发布：现在，你可以通过实时语音通话与智能体交流。直接说出你想要的更改，询问智能体正在做什么，并随着工作推进听取最新进展。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：cursor",
+        "actionItems": [
+          "阅读原文（中文）：https://cursor.com/changelog/voice-chat"
+        ]
+      },
+      "tags": [
+        "Release"
+      ],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "cursor"
+      ],
+      "content": [
+        "现在，你可以通过实时语音通话与智能体交流。直接说出你想要的更改，询问智能体正在做什么，并随着工作推进听取最新进展。",
+        "语音聊天可在智能体窗口、IDE、Web 端以及 Cursor iOS 版中使用。",
+        "当智能体处于空闲状态且聊天输入框为空时，点击标有 Start 语音聊天 的波形按钮。该按钮位于通常显示“发送”按钮的位置，旁边是用于听写的麦克风按钮。",
+        "在 iOS 上，你还可以说“Hey Siri, call Cursor”，与新的智能体发起通话，并通过锁屏界面上的实时活动静音或挂断。",
+        "语音智能体会聆听、回应，并将编程任务交给你聊天中的智能体。在该智能体运行期间，你可以继续对话：询问某个差异中改了什么、查看某次运行的进展、搜索之前与该智能体的消息和通话，或在包含多个 worker 的项目中于各个 worker 之间切换。",
+        "编程智能体也会主动开口。它会在工作过程中播报简短的进度，完成后给出简要回答，因此你通常只会听到简短的更新，而不是完整的书面回复。",
+        "语音聊天基于 Grok Voice 运行。你可以在语音设置中选择多种声音，包括 Ara、Eve、Leo、Rex 和 Sal。开启隐私模式后，语音聊天将遵循零数据保留。",
+        "语音聊天与听写是两个独立的功能，听写在早期版本中称为 Voice Mode。听写仍会将你的语音转换为聊天输入框中的文字，在 IDE 中也仍可通过 Cmd+Shift+Space 切换。语音聊天则是一种双向对话，智能体会直接用语音回答。"
+      ],
+      "highlights": [
+        "现在，你可以通过实时语音通话与智能体交流。直接说出你想要的更改，询问智能体正在做什么，并随着工作推进听取最新进展。",
+        "语音聊天可在智能体窗口、IDE、Web 端以及 Cursor iOS 版中使用。",
+        "当智能体处于空闲状态且聊天输入框为空时，点击标有 Start 语音聊天 的波形按钮。该按钮位于通常显示“发送”按钮的位置，旁边是用于听写的麦克风按钮。"
+      ],
+      "translated": false,
+      "translateMethod": "native",
+      "originalTitle": "与智能体语音聊天 · Cursor",
+      "originalLang": "zh",
+      "date": "2026-11-06",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [
+        "cursor"
+      ],
+      "source": {
+        "type": "release",
+        "group": "company",
+        "name": "Cursor",
+        "author": "Cursor",
+        "url": "https://cursor.com/changelog/voice-chat",
+        "home": "https://cursor.com/changelog",
+        "lang": "zh",
+        "translated": false,
+        "translateMethod": "native",
+        "originalTitle": "与智能体语音聊天 · Cursor"
+      },
+      "raw": {
+        "title": "Voice Chat with Agents",
+        "url": "https://cursor.com/changelog/voice-chat",
+        "fetched": true,
+        "savedAt": "2026-11-08T03:54:06.689Z"
+      }
+    },
+    {
+      "id": "sig-c1198ca2bc",
+      "title": "来自 Humans& 的 & 符号现已在 AI Gateway 上可用 - Vercel",
+      "oneLiner": "Humans& 的 & 符号现已在 AI Gateway 上免费提供，截止日期为 2026 年 11 月 13 日。",
+      "summary": {
+        "oneSentence": "Humans& 的 & 符号现已在 AI Gateway 上免费提供，截止日期为 2026 年 11 月 13 日。",
+        "bullets": [
+          "Humans& 的 & 符号现已在 AI Gateway 上免费提供，截止日期为 2026 年 11 月 13 日。",
+          "& 符号是群组对话的模型。 Humans& 在 Z.ai 的开放权重 GLM 5.3 上构建了 Ampersand，并在模拟小组对话中通过强化学习对其进行训练，该对话运行长达数月的模拟时间。大多数聊天模型都是为一个人提出问题和模型回答问题而构建的。 & 符号经过训练可以参与多人之间的对话。它会读取每一条消息，包括那些不",
+          "它旨在了解个人和共同目标，帮助人们解决分歧，并识别贡献何时有用。这可能意味着提出一个澄清问题、分享相关背景，或者等待人们互相回应。",
+          "山姆：请注意，我星期五出去，开车去我姐姐家。亚历克斯：祝你旅途愉快！玛雅：周五 10 点我们三个人一起进行发射彩排。 & 符号：快速提示，Maya：Sam 说他周五要开车去他姐姐家，所以周五上午 10 点与所有三个人一起排练可能行不通。可能值得选择不同的时间，这样每个人都可以做到。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 4,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Humans& 的 & 符号现已在 AI Gateway 上免费提供，截止日期为 2026 年 11 月 13 日。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/humans-and-ampersand-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Humans& 的 & 符号现已在 AI Gateway 上免费提供，截止日期为 2026 年 11 月 13 日。",
+        "& 符号是群组对话的模型。 Humans& 在 Z.ai 的开放权重 GLM 5.3 上构建了 Ampersand，并在模拟小组对话中通过强化学习对其进行训练，该对话运行长达数月的模拟时间。大多数聊天模型都是为一个人提出问题和模型回答问题而构建的。 & 符号经过训练可以参与多人之间的对话。它会读取每一条消息，包括那些不是发给它的消息，并在每条消息之后决定是否回复或保持安静。",
+        "它旨在了解个人和共同目标，帮助人们解决分歧，并识别贡献何时有用。这可能意味着提出一个澄清问题、分享相关背景，或者等待人们互相回应。",
+        "山姆：请注意，我星期五出去，开车去我姐姐家。亚历克斯：祝你旅途愉快！玛雅：周五 10 点我们三个人一起进行发射彩排。 & 符号：快速提示，Maya：Sam 说他周五要开车去他姐姐家，所以周五上午 10 点与所有三个人一起排练可能行不通。可能值得选择不同的时间，这样每个人都可以做到。",
+        "您的应用程序将这些操作公开为调用者定义的函数工具。 send_message 提供贡献，而 pass 使对话保持安静，直到下一条人类消息。您的应用程序执行这两个工具并记录它们的结果。",
+        "通过 AI SDK 、兼容 OpenAI 的聊天完成 API 或编码代理来调用它。使用 humansand/&andsand- v0 .1 作为模型名称：",
+        "API 聊天完成 API API 聊天完成 聊天完成 1 import {generateText , tool } from 'ai' ; 2 从 'zod' 导入 { z } ； 3 4 const tools = { 5 send_message : tool ({ 6 description : '向群组对话发送消息。' , 7 inputSchema : z . object ({ content : z . string ( ) . trim ( ) . min ( 1 ) } ) . strict ( ) , 8 } ) , 9 pass : tool ({ 10 description : '保持安静，直到另一个人类消息到达。' , 11 inputSchema : z . strict ( ) , 12 } ) , 13 } ; 14 15 const { toolCalls } = waitgenerateText({ 16 model : ' humansand/ampersand-v0.1' , 17 tools , 18prompt : 'Maya：我更喜欢绿色。Leo：我更喜欢蓝色。问一个澄清问题。' , 19 } ) ; 20 21 控制台。 log(toolCalls[0]?.toolName,toolCalls[0]?.input);复制代理查看模型详细信息 ↗ 要在 Claude Code、Codex、Cursor 等中使用它，请安装最新的 Vercel CLI 并运行安装程序：",
+        "npx vercel ai-gateway setup 然后在代理中选择 humansand/ampersand- v0.1。有关详细信息，请参阅编码代理指南。",
+        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本，以及配置重试、故障转移和性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、API 密钥预算、路由规则等。",
+        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。"
+      ],
+      "highlights": [
+        "Humans& 的 & 符号现已在 AI Gateway 上免费提供，截止日期为 2026 年 11 月 13 日。",
+        "& 符号是群组对话的模型。 Humans& 在 Z.ai 的开放权重 GLM 5.3 上构建了 Ampersand，并在模拟小组对话中通过强化学习对其进行训练，",
+        "它旨在了解个人和共同目标，帮助人们解决分歧，并识别贡献何时有用。这可能意味着提出一个澄清问题、分享相关背景，或者等待人们互相回应。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Ampersand from Humans& now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-06",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/humans-and-ampersand-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Ampersand from Humans& now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Ampersand from Humans& now available on AI Gateway",
+        "url": "https://vercel.com/changelog/humans-and-ampersand-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-11-08T03:54:16.115Z"
+      }
+    },
+    {
       "id": "sig-c88b52d0b2",
       "title": "Cult.fit 通过 Codex 增强运营能力",
       "oneLiner": "Cult.fit 正在使用 Codex 帮助跨职能团队构建工具、加快行动速度并改变工作完成方式。",
@@ -1995,6 +2257,409 @@
         "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
         "fetched": false,
         "savedAt": "2026-11-06T04:43:27.475Z"
+      }
+    },
+    {
+      "id": "sig-5d4f7dc67c",
+      "title": "使用 ElevenAgents 将语音代理添加到您的 Unity 游戏",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+          "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_hlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 在 GitHub 上查看 阅读本页上的文档",
+          "玩家现在可以走到 Unity 游戏中的角色并大声与他们交谈。新的 ElevenAgents Unity SDK 将场景连接到 ElevenLabs 语音代理。它通过玩家的麦克风监听，通过 AudioSource 播放代理的声音，并通过 Conversation API 运行会话。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 4,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/unity-sdk-release"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_hlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 在 GitHub 上查看 阅读文档 博客产品 使用 ElevenAgents 为您的 Unity NPC 发声 撰写者：Tadas Petra 发布于 2026 年 11 月 5 日 最后更新于 2026 年 11 月 6 日 收听 收听本文",
+        "0:00 1.0x 在 GitHub 上查看 阅读本页上的文档",
+        "玩家现在可以走到 Unity 游戏中的角色并大声与他们交谈。新的 ElevenAgents Unity SDK 将场景连接到 ElevenLabs 语音代理。它通过玩家的麦克风监听，通过 AudioSource 播放代理的声音，并通过 Conversation API 运行会话。",
+        "相同的代码在编辑器、桌面版本和 WebGL 中运行，iOS、Android 和 XR 均处于测试阶段。",
+        "会话需要您在 ElevenLabs 仪表板中创建的代理 ID，该仪表板包含提示和语音。在我们的入门示例（包含在 SDK 中）中，角色周围的触发碰撞器会在玩家走进时打开会话，并在玩家走出时关闭会话：",
+        "私人对话 activeConversation； private void OnTriggerEnter(Collider other) => _ = StartTalkingAsync(); private void OnTriggerExit(Collider other) => _ = StopTalkingAsync();私有 async Awaitable StartTalkingAsync() { var options = new ConversationOptions { AgentId = agentId }; activeConversation = 等待 Conversation.StartSessionAsync(options); } private async Awaitable StopTalkingAsync() { if (activeConversation == null ) return ;等待 activeConversation.EndSession();活动对话 = null ;连接打开并且音频设备准备就绪后，StartSessionAsync 返回，并为构建目标选择正确的传输。如果会话已经结束，EndSession 不执行任何操作。",
+        "默认情况下，代理的语音以 2D 形式播放。将您自己的 AudioSource 作为 OutputAudioSource 传递，声音来自角色。",
+        "GetOutputVolume() 返回每个平台上代理的当前级别（从 0 到 1）。该示例使用它来使立方体在说话时摆动，并且它可以以相同的方式驱动嘴巴动画。",
+        "动态变量会在代理的提示和第一条消息中填充占位符，例如 {{mood}}，因此每个角色在会话开始时都可以发送自己的值。值可以是字符串、数字或布尔值。在示例中，黄色快乐立方体和红色愤怒立方体共享一个代理："
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为",
+        "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 在 GitHub 上查看 阅读本页上的文档"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Add a voice agent to your Unity game with ElevenAgents",
+      "originalLang": "en",
+      "date": "2026-11-05",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/unity-sdk-release",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Add a voice agent to your Unity game with ElevenAgents"
+      },
+      "raw": {
+        "title": "Give your Unity NPCs a voice with ElevenAgents",
+        "url": "https://elevenlabs.io/blog/unity-sdk-release",
+        "fetched": true,
+        "savedAt": "2026-11-08T03:54:25.736Z"
+      }
+    },
+    {
+      "id": "sig-1f9981de57",
+      "title": "Flipsnack 通过转化优化来增加产品注册量",
+      "oneLiner": "Flipsnack 的 ChatGPT 广告活动的重点是让人们尝试其产品，增加注册量，同时降低每次注册成本。",
+      "summary": {
+        "oneSentence": "Flipsnack 的 ChatGPT 广告活动的重点是让人们尝试其产品，增加注册量，同时降低每次注册成本。",
+        "bullets": [
+          "Flipsnack 的 ChatGPT 广告活动的重点是让人们尝试其产品，增加注册量，同时降低每次注册成本。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：Flipsnack 的 ChatGPT 广告活动的重点是让人们尝试其产品，增加注册量，同时降低每次注册成本。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/ads/customers/flipsnack"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Flipsnack 的 ChatGPT 广告活动的重点是让人们尝试其产品，增加注册量，同时降低每次注册成本。"
+      ],
+      "highlights": [
+        "Flipsnack 的 ChatGPT 广告活动的重点是让人们尝试其产品，增加注册量，同时降低每次注册成本。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Flipsnack grows product signups with conversion optimization",
+      "originalLang": "en",
+      "date": "2026-11-05",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/ads/customers/flipsnack",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Flipsnack grows product signups with conversion optimization"
+      },
+      "raw": {
+        "title": "Flipsnack grows product signups with conversion optimization",
+        "url": "https://openai.com/ads/customers/flipsnack",
+        "fetched": false,
+        "savedAt": "2026-11-08T03:54:26.988Z"
+      }
+    },
+    {
+      "id": "sig-c0d7b08082",
+      "title": "富兰克林邓普顿使用 OpenAI 支持投资研究",
+      "oneLiner": "从股票研究开始，富兰克林邓普顿正在开发人工智能工作流程，以帮助投资组合经理比较研究观点并检查投资风险。",
+      "summary": {
+        "oneSentence": "从股票研究开始，富兰克林邓普顿正在开发人工智能工作流程，以帮助投资组合经理比较研究观点并检查投资风险。",
+        "bullets": [
+          "从股票研究开始，富兰克林邓普顿正在开发人工智能工作流程，以帮助投资组合经理比较研究观点并检查投资风险。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：从股票研究开始，富兰克林邓普顿正在开发人工智能工作流程，以帮助投资组合经理比较研究观点并检查投资风险。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/franklin-templeton"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "从股票研究开始，富兰克林邓普顿正在开发人工智能工作流程，以帮助投资组合经理比较研究观点并检查投资风险。"
+      ],
+      "highlights": [
+        "从股票研究开始，富兰克林邓普顿正在开发人工智能工作流程，以帮助投资组合经理比较研究观点并检查投资风险。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Franklin Templeton uses OpenAI to support investment research",
+      "originalLang": "en",
+      "date": "2026-11-05",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/franklin-templeton",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Franklin Templeton uses OpenAI to support investment research"
+      },
+      "raw": {
+        "title": "Franklin Templeton uses OpenAI to support investment research",
+        "url": "https://openai.com/index/franklin-templeton",
+        "fetched": false,
+        "savedAt": "2026-11-08T03:54:28.940Z"
+      }
+    },
+    {
+      "id": "sig-5d176638f1",
+      "title": "在 Cursor 中构建可上线运行的应用 · Cursor",
+      "oneLiner": "智能体降低了编写代码的成本，但用户构建的大多数应用和工具始终没能走出 localhost。",
+      "summary": {
+        "oneSentence": "智能体降低了编写代码的成本，但用户构建的大多数应用和工具始终没能走出 localhost。",
+        "bullets": [
+          "智能体降低了编写代码的成本，但用户构建的大多数应用和工具始终没能走出 localhost。",
+          "现在，你可以直接在 Cursor 中构建可上线运行的应用，并通过链接分享给他人。描述你想创建的内容，剩下的都交给 Cursor：构建应用、配置数据库、设置身份验证，并完成部署。",
+          "有了这项新功能，你组织中的任何人现在都能为自己的工作打造实用工具，并分享给团队成员。更新 Cursor 即可尝试。",
+          "Cursor 会搭建网页应用的基础框架，按需启动 Postgres 数据库，配置基于 Cursor SSO 的身份验证，并准备好托管环境。如果应用需要连接你的系统 (例如数据仓库) ，Cursor 会向你索取所需的密钥。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Cursor 官网发布：智能体降低了编写代码的成本，但用户构建的大多数应用和工具始终没能走出 localhost。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：cursor",
+        "actionItems": [
+          "阅读原文（中文）：https://cursor.com/changelog/build-live-apps"
+        ]
+      },
+      "tags": [
+        "Release"
+      ],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "cursor"
+      ],
+      "content": [
+        "智能体降低了编写代码的成本，但用户构建的大多数应用和工具始终没能走出 localhost。",
+        "现在，你可以直接在 Cursor 中构建可上线运行的应用，并通过链接分享给他人。描述你想创建的内容，剩下的都交给 Cursor：构建应用、配置数据库、设置身份验证，并完成部署。",
+        "有了这项新功能，你组织中的任何人现在都能为自己的工作打造实用工具，并分享给团队成员。更新 Cursor 即可尝试。",
+        "Cursor 会搭建网页应用的基础框架，按需启动 Postgres 数据库，配置基于 Cursor SSO 的身份验证，并准备好托管环境。如果应用需要连接你的系统 (例如数据仓库) ，Cursor 会向你索取所需的密钥。",
+        "发布应用时，你只需选择一个唯一的域名，Cursor 就会为你生成一个可直接访问的在线链接。",
+        "在 Cursor 内部，销售、运营、法务、财务和工程等各个部门的用户都在构建内部应用。其中最实用的包括：",
+        "Cursor 可以从 Cursor Origin 和 GitHub 上的新建或现有代码仓库部署应用。对 GitLab 等其他 Git 供应商的支持即将推出。",
+        "发布应用时，Cursor 会运行确定性检查和智能体式安全检查，以发现常见问题，例如应用文件中写入的密钥或暴露的凭证。如果某项检查未通过，智能体会告诉你需要修复哪些内容。只有所有检查都通过，并且你明确发布应用后，应用才会上线。",
+        "团队管理员可以查看团队中的所有应用和密钥。他们还可以为安全审查添加自己的规则、批准被审查拦截的发布，并可取消发布任意应用。",
+        "检查通过后，Cursor 会将应用部署到你选择的 URL。之后，你可以将应用共享给指定人员、群组或整个团队，所有访问均需通过 Cursor 登录。使用个人套餐时，你还可以公开共享应用。"
+      ],
+      "highlights": [
+        "智能体降低了编写代码的成本，但用户构建的大多数应用和工具始终没能走出 localhost。",
+        "现在，你可以直接在 Cursor 中构建可上线运行的应用，并通过链接分享给他人。描述你想创建的内容，剩下的都交给 Cursor：构建应用、配置数据库、设置身份验",
+        "有了这项新功能，你组织中的任何人现在都能为自己的工作打造实用工具，并分享给团队成员。更新 Cursor 即可尝试。"
+      ],
+      "translated": false,
+      "translateMethod": "native",
+      "originalTitle": "在 Cursor 中构建可上线运行的应用 · Cursor",
+      "originalLang": "zh",
+      "date": "2026-11-05",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [
+        "cursor"
+      ],
+      "source": {
+        "type": "release",
+        "group": "company",
+        "name": "Cursor",
+        "author": "Cursor",
+        "url": "https://cursor.com/changelog/build-live-apps",
+        "home": "https://cursor.com/changelog",
+        "lang": "zh",
+        "translated": false,
+        "translateMethod": "native",
+        "originalTitle": "在 Cursor 中构建可上线运行的应用 · Cursor"
+      },
+      "raw": {
+        "title": "Build Live Apps in Cursor",
+        "url": "https://cursor.com/changelog/build-live-apps",
+        "fetched": true,
+        "savedAt": "2026-11-08T03:54:30.136Z"
+      }
+    },
+    {
+      "id": "sig-6fd883e8b0",
+      "title": "Gemini Omni 1.2 Flash 现已在 AI Gateway 上推出 - Vercel",
+      "oneLiner": "Google 的 Gemini Omni 1.2 Flash 现已在 AI Gateway 上提供。使用一个 API 密钥根据文本提示生成视频，无需单独的 Google 帐户。",
+      "summary": {
+        "oneSentence": "Google 的 Gemini Omni 1.2 Flash 现已在 AI Gateway 上提供。使用一个 API 密钥根据文本提示生成视频，无需单独的 Google 帐户。",
+        "bullets": [
+          "Google 的 Gemini Omni 1.2 Flash 现已在 AI Gateway 上提供。使用一个 API 密钥根据文本提示生成视频，无需单独的 Google 帐户。",
+          "Gemini Omni 1.2 Flash 生成带有原生音频的 3-15 秒视频，并使用最多六个参考图像编辑 3-15 秒源剪辑。每次通话将视频延长 3-10 秒，总共最多 30 秒，或者使用 previousInteractionId 在后续通话中优化生成的剪辑。输出支持 360p、720p、1080p 和 4K 1",
+          "将链接复制到标题生成视频使用 google/gemini-omni-1.2-flash 作为型号名称。此示例生成一个三秒的 360p 剪辑并将其保存为 video.mp4 ：",
+          "AI SDK AI SDK AI SDK 1 import { writeFile } from 'node:fs/promises' ; 2 从 'ai' 导入 {generateText} ； 3 4 const {files}=awaitgenerateText({5model:'google/gemini-om"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 4,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Google 的 Gemini Omni 1.2 Flash 现已在 AI Gateway 上提供。使用一个 API 密钥根据文本提示生成视频，无需单独的 Google 帐户。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/gemini-omni-1-2-flash-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Google 的 Gemini Omni 1.2 Flash 现已在 AI Gateway 上提供。使用一个 API 密钥根据文本提示生成视频，无需单独的 Google 帐户。",
+        "Gemini Omni 1.2 Flash 生成带有原生音频的 3-15 秒视频，并使用最多六个参考图像编辑 3-15 秒源剪辑。每次通话将视频延长 3-10 秒，总共最多 30 秒，或者使用 previousInteractionId 在后续通话中优化生成的剪辑。输出支持 360p、720p、1080p 和 4K 16:9 或 9:16。使用AI SDK中的generateText或streamText接收生成的视频作为文件。",
+        "将链接复制到标题生成视频使用 google/gemini-omni-1.2-flash 作为型号名称。此示例生成一个三秒的 360p 剪辑并将其保存为 video.mp4 ：",
+        "AI SDK AI SDK AI SDK 1 import { writeFile } from 'node:fs/promises' ; 2 从 'ai' 导入 {generateText} ； 3 4 const {files}=awaitgenerateText({5model:'google/gemini-omni-1.2-flash',6prompt:'一个红球滚过白桌子。',7providerOptions:{8google:{9responseModalities:['text','video'],10responseFormat:[11{type:'video' , 分辨率: '360p' , 持续时间: '3s' } , 12 ] , 13 } , 14 } , 15 } ) ; 16 17 const 视频 = 文件 . find( file => file .mediaType === 'video/mp4' ) ; 18 if (!video) throw new Error('没有返回 MP4 视频'); 19 20等待writeFile('video.mp4',video.uint8Array);复制代理查看模型详细信息 ↗ 将链接复制到标题 在流式响应中接收视频 使用 streamText ，读取 fullStream 以在生成的文件到达时对其进行处理。视频作为完整文件提供：",
+        "AI SDK AI SDK AI SDK 1 import { writeFile } from 'node:fs/promises' ; 2 从 'ai' 导入 {streamText} ； 3 4 const result = streamText ( { 5 model : 'google/gemini-omni-1.2-flash' , 6prompt : '一个红球滚过白桌子。' , 7providerOptions : { 8google : { 9responseModalities : [ 'text' , 'video' ] , 10responseFormat : [ 11 { type : 'video' , 分辨率: '360p' , 持续时间: '3s' } , 12 ] , 13 } , 14 } , 15 } ) ; 16 17 forawait(constpartofresult.fullStream){18if(part.type==='file'&&part.file.mediaType==='video/mp4'){19awaitwriteFile('video.mp4',part.file.uint8Array); 20 } else if (part.type === 'error') { 21 throw part.错误 ; 22 } 23 } 代理副本 查看模型详细信息 ↗ AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本，以及配置重试、故障转移和性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、零数据保留支持、API 密钥预算、路由规则等。",
+        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。",
+        "在 AI Gateway 模型目录中探索更多模型。"
+      ],
+      "highlights": [
+        "Google 的 Gemini Omni 1.2 Flash 现已在 AI Gateway 上提供。使用一个 API 密钥根据文本提示生成视频，无需单独的 Go",
+        "Gemini Omni 1.2 Flash 生成带有原生音频的 3-15 秒视频，并使用最多六个参考图像编辑 3-15 秒源剪辑。每次通话将视频延长 3-10 ",
+        "将链接复制到标题生成视频使用 google/gemini-omni-1.2-flash 作为型号名称。此示例生成一个三秒的 360p 剪辑并将其保存为 vide"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Gemini Omni 1.2 Flash now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-05",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/gemini-omni-1-2-flash-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Gemini Omni 1.2 Flash now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Gemini Omni 1.2 Flash now available on AI Gateway",
+        "url": "https://vercel.com/changelog/gemini-omni-1-2-flash-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-11-08T03:54:37.144Z"
       }
     },
     {
@@ -2802,6 +3467,169 @@
         "url": "https://openai.com/index/daybreak-red-aws-govcloud",
         "fetched": false,
         "savedAt": "2026-11-05T04:44:36.786Z"
+      }
+    },
+    {
+      "id": "sig-17be247b18",
+      "title": "Vercel 时间表简介",
+      "oneLiner": "Cron 作业对于需要定期进行的工作很有用。您可以使用它们来执行诸如按计划备份数据库或保持两个系统之间的数据同步等操作。",
+      "summary": {
+        "oneSentence": "Cron 作业对于需要定期进行的工作很有用。您可以使用它们来执行诸如按计划备份数据库或保持两个系统之间的数据同步等操作。",
+        "bullets": [
+          "Cron 作业对于需要定期进行的工作很有用。您可以使用它们来执行诸如按计划备份数据库或保持两个系统之间的数据同步等操作。",
+          "您在代码中定义它们一次，然后可以通过编辑它们的配置和重新部署来更新它们。但如今，代理随着工作的发展与用户进行交互，并且时间表需要实时更新。",
+          "我们构建了 Vercel 计划，允许代理和应用程序通过代码创建、更改或取消一次性和重复计划，而无需重新部署。",
+          "将链接复制到标题 什么是 Vercel 时间表？时间表建立在 Vercel Cron Jobs 使用的静态方法的基础上，但旨在让用户和代理在应用程序仍在运行时决定何时进行工作。时间表告诉 Vercel 何时触发任务以及将其发送到何处。您的应用程序提供执行该工作的代码。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Cron 作业对于需要定期进行的工作很有用。您可以使用它们来执行诸如按计划备份数据库或保持两个系统之间的数据同步等操作。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/introducing-vercel-schedules"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Cron 作业对于需要定期进行的工作很有用。您可以使用它们来执行诸如按计划备份数据库或保持两个系统之间的数据同步等操作。",
+        "您在代码中定义它们一次，然后可以通过编辑它们的配置和重新部署来更新它们。但如今，代理随着工作的发展与用户进行交互，并且时间表需要实时更新。",
+        "我们构建了 Vercel 计划，允许代理和应用程序通过代码创建、更改或取消一次性和重复计划，而无需重新部署。",
+        "将链接复制到标题 什么是 Vercel 时间表？时间表建立在 Vercel Cron Jobs 使用的静态方法的基础上，但旨在让用户和代理在应用程序仍在运行时决定何时进行工作。时间表告诉 Vercel 何时触发任务以及将其发送到何处。您的应用程序提供执行该工作的代码。",
+        "虚构项目的示例时间表和执行历史记录。",
+        "您可以将计划用于静态和动态作业：",
+        "静态计划将时间保留在 vercel.json 或构建输出 API 配置中，并在部署时同步。您可以使用它们来调用私有函数或 HTTP 路径，或将消息发送到 队列主题 。",
+        "动态计划允许您的应用程序在运行时通过 JS SDK 、 CLI 或 API 创建和管理计划。它们通过队列主题支持一次性和重复性工作。",
+        "您还可以在预览部署和自定义环境中测试计划的工作，然后再在生产中运行。",
+        "将链接复制到标题“时间表的工作原理”以这个示例为例：用户可以询问具有网络访问权限的代理，“明天早上，总结一下黑客新闻上的前五个故事。”传统的解决方案是将请求及其计划时间存储在数据库中，然后使用 cron 作业来检查到期的工作。"
+      ],
+      "highlights": [
+        "Cron 作业对于需要定期进行的工作很有用。您可以使用它们来执行诸如按计划备份数据库或保持两个系统之间的数据同步等操作。",
+        "您在代码中定义它们一次，然后可以通过编辑它们的配置和重新部署来更新它们。但如今，代理随着工作的发展与用户进行交互，并且时间表需要实时更新。",
+        "我们构建了 Vercel 计划，允许代理和应用程序通过代码创建、更改或取消一次性和重复计划，而无需重新部署。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Introducing Vercel Schedules",
+      "originalLang": "en",
+      "date": "2026-11-04",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/introducing-vercel-schedules",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Introducing Vercel Schedules"
+      },
+      "raw": {
+        "title": "Introducing Vercel Schedules",
+        "url": "https://vercel.com/blog/introducing-vercel-schedules",
+        "fetched": true,
+        "savedAt": "2026-11-08T03:54:45.397Z"
+      }
+    },
+    {
+      "id": "sig-1645154fca",
+      "title": "Vercel 令牌扫描扩展到更多公共来源 - Vercel",
+      "oneLiner": "Vercel 已与 Truffle Security 合作，扩大对公开暴露的 Vercel 代币的自动检测和撤销。",
+      "summary": {
+        "oneSentence": "Vercel 已与 Truffle Security 合作，扩大对公开暴露的 Vercel 代币的自动检测和撤销。",
+        "bullets": [
+          "Vercel 已与 Truffle Security 合作，扩大对公开暴露的 Vercel 代币的自动检测和撤销。",
+          "撤销暴露的凭据有助于防止对您的项目进行未经授权的访问，并防止因未经授权使用 Vercel Sandbox 和 Vercel AI Gateway 等服务而产生意外成本。如果您的令牌被撤销，您将收到我们发送的一封电子邮件，解释原因。",
+          "Truffle Security 报告公开来源中暴露的令牌，包括 GitHub、GitLab、Docker、npm、PyPI、Hugging Face、Android APK 和 Firefox 附加组件。 Vercel 已撤销 Truffle Security 报告的数百个令牌。",
+          "现在，一个单独的 Vercel 扫描器会检查公共网页的每个新的每月 Common Crawl 数据集，并自动撤销它发现的任何暴露的 Vercel 代币。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel 已与 Truffle Security 合作，扩大对公开暴露的 Vercel 代币的自动检测和撤销。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-token-scanning-expands-to-more-public-sources"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel 已与 Truffle Security 合作，扩大对公开暴露的 Vercel 代币的自动检测和撤销。",
+        "撤销暴露的凭据有助于防止对您的项目进行未经授权的访问，并防止因未经授权使用 Vercel Sandbox 和 Vercel AI Gateway 等服务而产生意外成本。如果您的令牌被撤销，您将收到我们发送的一封电子邮件，解释原因。",
+        "Truffle Security 报告公开来源中暴露的令牌，包括 GitHub、GitLab、Docker、npm、PyPI、Hugging Face、Android APK 和 Firefox 附加组件。 Vercel 已撤销 Truffle Security 报告的数百个令牌。",
+        "现在，一个单独的 Vercel 扫描器会检查公共网页的每个新的每月 Common Crawl 数据集，并自动撤销它发现的任何暴露的 Vercel 代币。",
+        "在访问令牌文档中了解有关创建令牌、设置令牌范围以及管理令牌的更多信息。"
+      ],
+      "highlights": [
+        "Vercel 已与 Truffle Security 合作，扩大对公开暴露的 Vercel 代币的自动检测和撤销。",
+        "撤销暴露的凭据有助于防止对您的项目进行未经授权的访问，并防止因未经授权使用 Vercel Sandbox 和 Vercel AI Gateway 等服务而产生意",
+        "Truffle Security 报告公开来源中暴露的令牌，包括 GitHub、GitLab、Docker、npm、PyPI、Hugging Face、Andr"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel token scanning expands to more public sources - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-04",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-token-scanning-expands-to-more-public-sources",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel token scanning expands to more public sources - Vercel"
+      },
+      "raw": {
+        "title": "Vercel token scanning expands to more public sources",
+        "url": "https://vercel.com/changelog/vercel-token-scanning-expands-to-more-public-sources",
+        "fetched": true,
+        "savedAt": "2026-11-08T03:54:51.437Z"
       }
     },
     {
@@ -15833,7 +16661,7 @@
         "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
         "fetched": true,
         "savedAt": "2026-10-17T02:36:45.886Z",
-        "retranslatedAt": "2026-11-07T04:11:49.172Z"
+        "retranslatedAt": "2026-11-08T03:54:52.643Z"
       }
     },
     {
@@ -19431,7 +20259,7 @@
         "url": "https://cursor.com/changelog/origin-app-marketplace",
         "fetched": true,
         "savedAt": "2026-10-14T03:08:22.474Z",
-        "retranslatedAt": "2026-11-07T04:11:50.180Z"
+        "retranslatedAt": "2026-11-08T03:54:53.716Z"
       }
     },
     {
@@ -24970,7 +25798,7 @@
         "url": "https://cursor.com/changelog/remote-control-local-agents",
         "fetched": true,
         "savedAt": "2026-10-11T03:27:39.323Z",
-        "retranslatedAt": "2026-11-07T04:11:51.199Z"
+        "retranslatedAt": "2026-11-08T03:54:54.847Z"
       }
     },
     {
@@ -32312,765 +33140,6 @@
         "url": "https://www.latent.space/p/runway",
         "fetched": false,
         "savedAt": "2026-09-28T03:06:21.128Z"
-      }
-    },
-    {
-      "id": "sig-573687e3b9",
-      "title": "现在如何打造出色的产品 | Figma 博客",
-      "oneLiner": "获得原型比以往任何时候都更容易。更艰巨的工作是在发布过程中保持速度、选择正确的方向并创造出脱颖而出的产品。这就是需要做的事情。",
-      "summary": {
-        "oneSentence": "获得原型比以往任何时候都更容易。更艰巨的工作是在发布过程中保持速度、选择正确的方向并创造出脱颖而出的产品。这就是需要做的事情。",
-        "bullets": [
-          "获得原型比以往任何时候都更容易。更艰巨的工作是在发布过程中保持速度、选择正确的方向并创造出脱颖而出的产品。这就是需要做的事情。",
-          "借助人工智能，您可以在几个小时内从编写提示变为可点击的内容。但快速实现这一目标并不意味着您已经构建了伟大的东西。一个完善的原型并不能帮助你解决一些大问题：这个方向是最好的还是第一个？感觉像我们吗？最重要的是：它真的值得建造吗？",
-          "能够很好地回答这些问题的团队在三个方面都很强大——速度、方向和差异化。他们在最后阶段不断前进，在押注一个方向之前权衡多个方向，并将结果塑造成只有他们才会做出的结果。",
-          "当前 80% 的工作很容易时，团队可能会在最后 20% 的工作中失去动力，因为原型可能感觉像是团队可以实际发布的东西。产品构建者可能会意识到，他们快速制作的原型实际上并没有使用他们的设计系统，或者当它从设计转变为代码时会产生额外的工作。挑战在于保持早期的速度如何快速走向正确的方向有了人工智能，速度变得很容易，但技术债务"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Figma 官网发布：获得原型比以往任何时候都更容易。更艰巨的工作是在发布过程中保持速度、选择正确的方向并创造出脱颖而出的产品。这就是需要做的事情。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://www.figma.com/blog/what-it-takes-to-build-great-products-now/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "获得原型比以往任何时候都更容易。更艰巨的工作是在发布过程中保持速度、选择正确的方向并创造出脱颖而出的产品。这就是需要做的事情。",
-        "借助人工智能，您可以在几个小时内从编写提示变为可点击的内容。但快速实现这一目标并不意味着您已经构建了伟大的东西。一个完善的原型并不能帮助你解决一些大问题：这个方向是最好的还是第一个？感觉像我们吗？最重要的是：它真的值得建造吗？",
-        "能够很好地回答这些问题的团队在三个方面都很强大——速度、方向和差异化。他们在最后阶段不断前进，在押注一个方向之前权衡多个方向，并将结果塑造成只有他们才会做出的结果。",
-        "当前 80% 的工作很容易时，团队可能会在最后 20% 的工作中失去动力，因为原型可能感觉像是团队可以实际发布的东西。产品构建者可能会意识到，他们快速制作的原型实际上并没有使用他们的设计系统，或者当它从设计转变为代码时会产生额外的工作。挑战在于保持早期的速度如何快速走向正确的方向有了人工智能，速度变得很容易，但技术债务也变得很容易。这就是为什么最好的团队不仅能快速交付产品，而且能快速交付产品。他们仔细考虑，高效构建，并使其脱颖而出。",
-        "了解 Sephora 技术高级副总裁 Sneha Narahalli 如何利用速度实现快速运输以外的目的。",
-        "随着产品的成型，团队不断迭代，从微小的视觉调整到功能行为方式的变化。最快的方法取决于您要解决的问题。例如，如果表单字段和按钮之间的空间太大，直接在 Figma 中调整间距可能比在提示中描述更改更快。在代码中进行其他更改会更快。如果您正在构建一个计算器，让用户根据有多少队友将使用该产品来估算价格，则无需为 10 人、20 人或 50 人设计单独的版本。您可以在代码中设置简单的计算，以便价格随着数字的变化而自动更新。",
-        "最大的速度提升来自于选择最快的方式来进行每种更改，而不是强制每项任务都通过相同的工作流程。在 Figma 中，这可能意味着根据您需要进行的更改在直接编辑、提示和代码之间切换。",
-        "通过可视化编辑和注释，Figma Make 正在弥合设计和代码之间的差距。选择要更改的任何元素，直接在属性面板中调整它，或使用注释编写上下文提示。",
-        "现在，您可以将 Figma Make 预览中的任何设计复制到设计画布，从而允许您编辑、迭代并进一步发挥您的想法。",
-        "从可视化编辑到上下文提示和协作，Figma Make 正在扩展团队使用代码进行设计的方式。"
-      ],
-      "highlights": [
-        "获得原型比以往任何时候都更容易。更艰巨的工作是在发布过程中保持速度、选择正确的方向并创造出脱颖而出的产品。这就是需要做的事情。",
-        "借助人工智能，您可以在几个小时内从编写提示变为可点击的内容。但快速实现这一目标并不意味着您已经构建了伟大的东西。一个完善的原型并不能帮助你解决一些大问题：这个方",
-        "能够很好地回答这些问题的团队在三个方面都很强大——速度、方向和差异化。他们在最后阶段不断前进，在押注一个方向之前权衡多个方向，并将结果塑造成只有他们才会做出的结"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "What It Takes to Build Great Products Now | Figma Blog",
-      "originalLang": "en",
-      "date": "2026-09-24",
-      "categoryIds": [
-        "vertical-ui"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Figma",
-        "author": "Figma",
-        "url": "https://www.figma.com/blog/what-it-takes-to-build-great-products-now/",
-        "home": "https://www.figma.com/blog/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "What It Takes to Build Great Products Now | Figma Blog"
-      },
-      "raw": {
-        "title": "What it takes to build great products now",
-        "url": "https://www.figma.com/blog/what-it-takes-to-build-great-products-now/",
-        "fetched": true,
-        "savedAt": "2026-09-25T02:59:44.789Z"
-      }
-    },
-    {
-      "id": "sig-e7107d9a76",
-      "title": "隆重推出 Gemini 3.8 Live with Live Avatar",
-      "oneLiner": "Gemini 3.8 Live with Live Avatar 为 Gemini 的对话式 AI 带来了实时视觉效果。通过将我们的实时对话功能与低延迟流视频原生结合，Live Avatar 为企业及其用户提供了更自然、直观的对话体验。",
-      "summary": {
-        "oneSentence": "Gemini 3.8 Live with Live Avatar 为 Gemini 的对话式 AI 带来了实时视觉效果。通过将我们的实时对话功能与低延迟流视频原生结合，Live Avatar 为企业及其用户提供了更自然、直观的对话体验。",
-        "bullets": [
-          "Gemini 3.8 Live with Live Avatar 为 Gemini 的对话式 AI 带来了实时视觉效果。通过将我们的实时对话功能与低延迟流视频原生结合，Live Avatar 为企业及其用户提供了更自然、直观的对话体验。",
-          "软件工程师，代表 Gemini Audio 团队",
-          "在上周 Gemini 3.8 Live 发布的势头基础上，今天我们很高兴推出带有 Live Avatar 的 Gemini 3.8 Live - 为我们的原生实时对话模型带来近乎实时的视觉效果。通过将近乎实时的视频生成与语音相结合，实时头像功能创造了一种以动态视觉角色来听、看、说的体验。",
-          "凭借精确的口型同步、自然的表情和流畅的轮流，Live Avatar 使企业能够以更互动的方式扩展其虚拟产品。无论是提供有吸引力的客户服务还是提供交互式演练，它都能将数字交换转变为更丰富、更易于访问的体验。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Google DeepMind 官网发布：Gemini 3.8 Live with Live Avatar 为 Gemini 的对话式 AI 带来了实时视觉效果。通过将我们的实时对话功能与低延迟流视频原生结合，Live Avatar 为企业及其用户提供了更自然、直观的对话体验。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：gemini",
-        "actionItems": [
-          "阅读原文（英文）：https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "gemini"
-      ],
-      "content": [
-        "Gemini 3.8 Live with Live Avatar 为 Gemini 的对话式 AI 带来了实时视觉效果。通过将我们的实时对话功能与低延迟流视频原生结合，Live Avatar 为企业及其用户提供了更自然、直观的对话体验。",
-        "软件工程师，代表 Gemini Audio 团队",
-        "在上周 Gemini 3.8 Live 发布的势头基础上，今天我们很高兴推出带有 Live Avatar 的 Gemini 3.8 Live - 为我们的原生实时对话模型带来近乎实时的视觉效果。通过将近乎实时的视频生成与语音相结合，实时头像功能创造了一种以动态视觉角色来听、看、说的体验。",
-        "凭借精确的口型同步、自然的表情和流畅的轮流，Live Avatar 使企业能够以更互动的方式扩展其虚拟产品。无论是提供有吸引力的客户服务还是提供交互式演练，它都能将数字交换转变为更丰富、更易于访问的体验。",
-        "从今天开始，Gemini 3.8 Live with Live Avatar 在 Gemini Enterprise 中可用。",
-        "了解 Gemini 3.8 Live with Live Avatar 如何支持各种角色，每个角色都有独特的外观、声音和表现力。",
-        "对话本质上是多模式的：我们听、看、说并使用面部表情进行交流。 Live Avatar 为企业代理带来了这些功能。通过同时处理视觉和音频输入，它可以生成丰富的对话，从而提供更全面的体验。",
-        "观看 Gemini 3.8 Live with Live Avatar 如何近乎实时地接收所看到和听到的内容，并以富有表现力的音频和视频进行响应，从而实现更自然的对话。",
-        "除了视觉效果之外，该功能还得到了 Gemini 先进推理的支持。通过异步工具调用，Live Avatar 可以在持续主动对话的同时触发工具调用并在后台获取数据，在处理复杂任务的同时确保对话流程不间断。",
-        "了解 Gemini 3.8 Live with Live Avatar 如何处理复杂的任务，例如在酒店为客人办理入住手续。在后台调用工具，同时对话继续不间断。"
-      ],
-      "highlights": [
-        "Gemini 3.8 Live with Live Avatar 为 Gemini 的对话式 AI 带来了实时视觉效果。通过将我们的实时对话功能与低延迟流视频原",
-        "软件工程师，代表 Gemini Audio 团队",
-        "在上周 Gemini 3.8 Live 发布的势头基础上，今天我们很高兴推出带有 Live Avatar 的 Gemini 3.8 Live - 为我们的原生实"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Introducing Gemini 3.8 Live with Live Avatar",
-      "originalLang": "en",
-      "date": "2026-09-24",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google DeepMind",
-        "author": "DeepMind",
-        "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-        "home": "https://deepmind.google/blog/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Introducing Gemini 3.8 Live with Live Avatar"
-      },
-      "raw": {
-        "title": "Introducing Gemini 3.8 Live with Live Avatar",
-        "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
-        "fetched": true,
-        "savedAt": "2026-09-25T02:59:50.461Z"
-      }
-    },
-    {
-      "id": "sig-c6bcfff275",
-      "title": "Vercel Bug 赏金计划现已公开",
-      "oneLiner": "2022 年，我们通过 HackerOne 启动了私人错误赏金计划。在过去的几年里，我们与 HackerOne 的 VIP 计划合作，完善了我们的流程、目标和范围，招募了数千名最优秀的研究人员，并强化了整个平台的安全性。",
-      "summary": {
-        "oneSentence": "2022 年，我们通过 HackerOne 启动了私人错误赏金计划。在过去的几年里，我们与 HackerOne 的 VIP 计划合作，完善了我们的流程、目标和范围，招募了数千名最优秀的研究人员，并强化了整个平台的安全性。",
-        "bullets": [
-          "2022 年，我们通过 HackerOne 启动了私人错误赏金计划。在过去的几年里，我们与 HackerOne 的 VIP 计划合作，完善了我们的流程、目标和范围，招募了数千名最优秀的研究人员，并强化了整个平台的安全性。",
-          "我们已将这些经验转化为几个公共赏金计划：",
-          "价值 100 万美元的 React2Shell 黑客挑战赛",
-          "价值 100 万美元的 Vercel Sandbox 黑客挑战赛"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：2022 年，我们通过 HackerOne 启动了私人错误赏金计划。在过去的几年里，我们与 HackerOne 的 VIP 计划合作，完善了我们的流程、目标和范围，招募了数千名最优秀的研究人员，并强化了整个平台的安全性。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/blog/the-vercel-bug-bounty-program-is-now-publicly-available"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "2022 年，我们通过 HackerOne 启动了私人错误赏金计划。在过去的几年里，我们与 HackerOne 的 VIP 计划合作，完善了我们的流程、目标和范围，招募了数千名最优秀的研究人员，并强化了整个平台的安全性。",
-        "我们已将这些经验转化为几个公共赏金计划：",
-        "价值 100 万美元的 React2Shell 黑客挑战赛",
-        "价值 100 万美元的 Vercel Sandbox 黑客挑战赛",
-        "今天，我们将私人和 OSS 赏金计划合并为一个公共 Vercel 漏洞赏金计划。",
-        "将链接复制到标题 为什么现在人工智能从根本上改变了错误赏金计划的性质，使有效和无效报告的数量呈指数级增加。一些公司的应对措施是转向私人项目。",
-        "在 Vercel，我们发现公开报告仍然呈现出真实、有价值的发现。人工智能使更广泛的研究人员能够发现漏洞，我们相信根据报告本身的优点来评估报告，因此公开我们的整个计划是合乎逻辑的选择。",
-        "为了准备公开发布，我们的安全工程团队简化了流程并构建了工具来过滤噪音并加快修复速度。我们改进了每一个步骤，从分类报告到交付和验证修复。",
-        "我们的团队和流程已经通过我们的私人计划和最近的几个大型公共计划进行了战斗测试。我们准备向公众开放一个全面的计划，并让最优秀的研究人员负责任地探索该平台的每个部分。",
-        "将链接复制到标题 涵盖内容 Vercel 平台上的所有产品和我们的开源项目现在都是我们统一公共计划的一部分。请阅读 HackerOne 上的范围页面，了解所涵盖内容的完整详细信息。"
-      ],
-      "highlights": [
-        "2022 年，我们通过 HackerOne 启动了私人错误赏金计划。在过去的几年里，我们与 HackerOne 的 VIP 计划合作，完善了我们的流程、目标和范",
-        "我们已将这些经验转化为几个公共赏金计划：",
-        "价值 100 万美元的 React2Shell 黑客挑战赛"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "The Vercel Bug Bounty Program is now publicly available",
-      "originalLang": "en",
-      "date": "2026-09-24",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/blog/the-vercel-bug-bounty-program-is-now-publicly-available",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "The Vercel Bug Bounty Program is now publicly available"
-      },
-      "raw": {
-        "title": "The Vercel Bug Bounty Program is now publicly available",
-        "url": "https://vercel.com/blog/the-vercel-bug-bounty-program-is-now-publicly-available",
-        "fetched": true,
-        "savedAt": "2026-09-25T02:59:58.486Z"
-      }
-    },
-    {
-      "id": "sig-9cc2427bef",
-      "title": "Klaviyo 如何在两周内在 Vercel 上发布 356 个内部应用程序 |客户 |韦尔塞尔",
-      "oneLiner": "将链接复制到 Vercel 上的 Klaviyo 标题 构建了用于发布内部应用程序的平台",
-      "summary": {
-        "oneSentence": "将链接复制到 Vercel 上的 Klaviyo 标题 构建了用于发布内部应用程序的平台",
-        "bullets": [
-          "将链接复制到 Vercel 上的 Klaviyo 标题 构建了用于发布内部应用程序的平台",
-          "两周内有 512 个构建者和 356 个上线应用程序",
-          "默认情况下，每个应用程序均采用 SSO 门控且私有",
-          "构建者在 3 分钟内将想法转变为实际应用"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：将链接复制到 Vercel 上的 Klaviyo 标题 构建了用于发布内部应用程序的平台",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/blog/how-klaviyo-shipped-356-internal-apps-in-two-weeks-on-vercel"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "将链接复制到 Vercel 上的 Klaviyo 标题 构建了用于发布内部应用程序的平台",
-        "两周内有 512 个构建者和 356 个上线应用程序",
-        "默认情况下，每个应用程序均采用 SSO 门控且私有",
-        "构建者在 3 分钟内将想法转变为实际应用",
-        "Klaviyo 是一款适用于超过 200,000 个品牌的 B2C CRM。它将营销、服务、代理和数据整合到一个平台中，以便品牌可以大规模提供客户体验。 Klaviyo 在 Vercel 上构建了一个用于发布内部应用程序的平台，然后通过公民开发者计划向每位员工开放。",
-        "在该计划实施的前两周，Klaviyo 的 2,000 多名员工中有 512 名在 Vercel 上部署了 356 个应用程序。其中，196 个是拥有自己数据库的全栈应用程序。现在交付软件的团队包括法律、营销和人力资源团队。 “Klaviyo 的下一个重大产品可能是营销人员的笔记本电脑，”高级首席人工智能架构师 Mohamed Ali 说道。",
-        "将链接复制到标题护栏而不是墙壁向数千名新建筑商开放部署使安全成为首要话题。确保他们安全的明显方法是广泛限制他们可以做的事情。克拉维约却走了另一条路。",
-        "员工不只是建立微型网站；他们还构建微型网站。他们在 Klaviyo 自己的数据库之上发布全栈应用程序，并且没有一个涉及公共网络。每个构建器都通过 Klaviyo 的身份提供商进行管理，Vercel 通过 Enterprise Managed Users 使之成为可能。",
-        "将链接复制到标题跨堆栈实施保护措施安全计算为 Vercel 部署提供了进入 Klaviyo 自己的基础设施的专用网络路径。该程序中内置的应用程序可以读取和写入 Klaviyo 的数据库，而无需通过公共互联网进行任何流量。这就是 Klaviyo 自带数据库发挥作用的原因。",
-        "除此之外，Vercel Passport 和 Klaviyo 的身份提供商为每个应用程序提供相同的访问默认值，构建者无需配置任何内容："
-      ],
-      "highlights": [
-        "将链接复制到 Vercel 上的 Klaviyo 标题 构建了用于发布内部应用程序的平台",
-        "两周内有 512 个构建者和 356 个上线应用程序",
-        "默认情况下，每个应用程序均采用 SSO 门控且私有"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "How Klaviyo shipped 356 internal apps in two weeks on Vercel  | Customers | Vercel",
-      "originalLang": "en",
-      "date": "2026-09-24",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/blog/how-klaviyo-shipped-356-internal-apps-in-two-weeks-on-vercel",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "How Klaviyo shipped 356 internal apps in two weeks on Vercel  | Customers | Vercel"
-      },
-      "raw": {
-        "title": "How Klaviyo shipped 356 internal apps in two weeks on Vercel",
-        "url": "https://vercel.com/blog/how-klaviyo-shipped-356-internal-apps-in-two-weeks-on-vercel",
-        "fetched": true,
-        "savedAt": "2026-09-25T03:00:08.027Z"
-      }
-    },
-    {
-      "id": "sig-87a5f976e6",
-      "title": "Vercel Connect 现在支持 TanStack AI - Vercel",
-      "oneLiner": "使用 TanStack AI 构建的代理现在可以通过 Vercel Connect 调用 OAuth 保护的 MCP 服务器，无需存储或轮换凭据。",
-      "summary": {
-        "oneSentence": "使用 TanStack AI 构建的代理现在可以通过 Vercel Connect 调用 OAuth 保护的 MCP 服务器，无需存储或轮换凭据。",
-        "bullets": [
-          "使用 TanStack AI 构建的代理现在可以通过 Vercel Connect 调用 OAuth 保护的 MCP 服务器，无需存储或轮换凭据。",
-          "新的 @vercel/connect/tanstack-ai 子路径导出 connectMCPTransport ，它采用 TanStack 传输配置并附加 Connect 支持的身份验证提供程序。该提供程序在每个 MCP 请求之前被调用，因此令牌始终是新鲜的。",
-          "从 '@tanstack/ai' 导入 { chat , toServerSentEventsResponse } ；从 '@tanstack/ai-mcp' 导入 { createMCPClient } ；从 '@tanstack/ai-vercel-gateway' 导入 { vercelGatewayText }",
-          "如果用户未授予访问权限，createMCPClient 将在模型运行之前失败并出现同意质询。使用 getConsentChallenge 捕获它并重定向到 Connect 的同意 URL。否则，工具调用中引发的同意错误将作为错误字符串到达​​模型，而不是作为重定向到达用户。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：使用 TanStack AI 构建的代理现在可以通过 Vercel Connect 调用 OAuth 保护的 MCP 服务器，无需存储或轮换凭据。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/vercel-connect-tanstack-ai"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "使用 TanStack AI 构建的代理现在可以通过 Vercel Connect 调用 OAuth 保护的 MCP 服务器，无需存储或轮换凭据。",
-        "新的 @vercel/connect/tanstack-ai 子路径导出 connectMCPTransport ，它采用 TanStack 传输配置并附加 Connect 支持的身份验证提供程序。该提供程序在每个 MCP 请求之前被调用，因此令牌始终是新鲜的。",
-        "从 '@tanstack/ai' 导入 { chat , toServerSentEventsResponse } ；从 '@tanstack/ai-mcp' 导入 { createMCPClient } ；从 '@tanstack/ai-vercel-gateway' 导入 { vercelGatewayText } ；从 '@vercel/connect/tanstack-ai' 导入 { connectMCPTransport , getConsentChallenge , } ；导出异步函数 POST(request:Request){const{messages}=await request。 json(); const userId = 等待 getUserId ( 请求 ) ;尝试{ const Linear =等待createMCPClient（{传输：connectMCPTransport（{类型：'http'，url：'https://mcp. Linear.app/mcp'}，'oauth/线性'，{主题：{类型：'用户'，id：userId } }，），}）； const Stream = chat ( { 适配器 : vercelGatewayText ( 'anthropic/claude-opus-5' ) , messages , mcp : { 客户端 : [ 线性 ] } , } ) ;返回服务器发送事件响应（流）； } catch ( err ) { constchallenge = getConsentChallenge ( err ) ; if (challenge) 返回 Response 。重定向(challenge.url,303);抛出错误；将 Linear MCP 客户端与每用户令牌连接，并在需要时重定向到同意。",
-        "如果用户未授予访问权限，createMCPClient 将在模型运行之前失败并出现同意质询。使用 getConsentChallenge 捕获它并重定向到 Connect 的同意 URL。否则，工具调用中引发的同意错误将作为错误字符串到达​​模型，而不是作为重定向到达用户。",
-        "请阅读 TanStack AI 集成文档以开始使用，或查看 Vercel Connect 支持的框架和适配器的完整列表。"
-      ],
-      "highlights": [
-        "使用 TanStack AI 构建的代理现在可以通过 Vercel Connect 调用 OAuth 保护的 MCP 服务器，无需存储或轮换凭据。",
-        "新的 @vercel/connect/tanstack-ai 子路径导出 connectMCPTransport ，它采用 TanStack 传输配置并附加 C",
-        "从 '@tanstack/ai' 导入 { chat , toServerSentEventsResponse } ；从 '@tanstack/ai-mcp' "
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Vercel Connect now supports TanStack AI - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-24",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/vercel-connect-tanstack-ai",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Vercel Connect now supports TanStack AI - Vercel"
-      },
-      "raw": {
-        "title": "Vercel Connect now supports TanStack AI",
-        "url": "https://vercel.com/changelog/vercel-connect-tanstack-ai",
-        "fetched": true,
-        "savedAt": "2026-09-25T03:00:12.859Z"
-      }
-    },
-    {
-      "id": "sig-414ec5ebf0",
-      "title": "Note on 24th September 2026",
-      "oneLiner": "The more time I spend working with coding agents, the more convinced I am that they make software en",
-      "summary": {
-        "oneSentence": "The more time I spend working with coding agents, the more convinced I am that they make software engineering even harde",
-        "bullets": [
-          "The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder. We can do amazing things with them, but unlocking their full potential requir"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/24/harder/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder. We can do amazing things with them, but unlocking their full potential requires extraordinary discipline and knowledge. Tags: coding-agents , ai , llms"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Note on 24th September 2026",
-      "originalLang": "en",
-      "date": "2026-09-24",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/24/harder/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Note on 24th September 2026"
-      },
-      "raw": {
-        "title": "Note on 24th September 2026",
-        "url": "https://simonwillison.net/2026/Sep/24/harder/",
-        "fetched": false,
-        "savedAt": "2026-09-28T03:06:21.929Z"
-      }
-    },
-    {
-      "id": "sig-e804eb39ba",
-      "title": "commit-rewriter 0.2",
-      "oneLiner": "Release: commit-rewriter 0.2 Support for branches other than the default branch. Use uvx commit-rewr",
-      "summary": {
-        "oneSentence": "Release: commit-rewriter 0.2 Support for branches other than the default branch. Use uvx commit-rewriter --branch other ",
-        "bullets": [
-          "Release: commit-rewriter 0.2 Support for branches other than the default branch. Use uvx commit-rewriter --branch other to run against another branch. #3 Tags: git"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/24/commit-rewriter/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Release: commit-rewriter 0.2 Support for branches other than the default branch. Use uvx commit-rewriter --branch other to run against another branch. #3 Tags: git"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "commit-rewriter 0.2",
-      "originalLang": "en",
-      "date": "2026-09-24",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/24/commit-rewriter/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "commit-rewriter 0.2"
-      },
-      "raw": {
-        "title": "commit-rewriter 0.2",
-        "url": "https://simonwillison.net/2026/Sep/24/commit-rewriter/",
-        "fetched": false,
-        "savedAt": "2026-09-28T03:06:22.731Z"
-      }
-    },
-    {
-      "id": "sig-afd37b587e",
-      "title": "datasette 1.0a41",
-      "oneLiner": "Release: datasette 1.0a41 Alec Garcia added support for OpenTelemetry to Datasette in this release. ",
-      "summary": {
-        "oneSentence": "Release: datasette 1.0a41 Alec Garcia added support for OpenTelemetry to Datasette in this release. I've also refactored",
-        "bullets": [
-          "Release: datasette 1.0a41 Alec Garcia added support for OpenTelemetry to Datasette in this release. I've also refactored all of Datasette's modal dialogs to a single Web Component, which is now docume"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/24/datasette/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Release: datasette 1.0a41 Alec Garcia added support for OpenTelemetry to Datasette in this release. I've also refactored all of Datasette's modal dialogs to a single Web Component, which is now documented for other plugins to use . Tags: javascript , datasette , web-components , alex-garcia , opentelemetry"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "datasette 1.0a41",
-      "originalLang": "en",
-      "date": "2026-09-24",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/24/datasette/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "datasette 1.0a41"
-      },
-      "raw": {
-        "title": "datasette 1.0a41",
-        "url": "https://simonwillison.net/2026/Sep/24/datasette/",
-        "fetched": false,
-        "savedAt": "2026-09-28T03:06:23.533Z"
-      }
-    },
-    {
-      "id": "sig-383cf544a6",
-      "title": "Foundries vs Navigators: Lowering the Cost of Science",
-      "oneLiner": "Guest Post: In science, thinking has gotten cheap but doing has not. This asymmetry is reshaping how",
-      "summary": {
-        "oneSentence": "Guest Post: In science, thinking has gotten cheap but doing has not. This asymmetry is reshaping how research companies ",
-        "bullets": [
-          "Guest Post: In science, thinking has gotten cheap but doing has not. This asymmetry is reshaping how research companies operate, largely inconspicuously."
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://www.latent.space/p/foundries-vs-navigators-lowering"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Guest Post: In science, thinking has gotten cheap but doing has not. This asymmetry is reshaping how research companies operate, largely inconspicuously."
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Foundries vs Navigators: Lowering the Cost of Science",
-      "originalLang": "en",
-      "date": "2026-09-24",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Latent Space",
-        "author": "swyx",
-        "url": "https://www.latent.space/p/foundries-vs-navigators-lowering",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Foundries vs Navigators: Lowering the Cost of Science"
-      },
-      "raw": {
-        "title": "Foundries vs Navigators: Lowering the Cost of Science",
-        "url": "https://www.latent.space/p/foundries-vs-navigators-lowering",
-        "fetched": false,
-        "savedAt": "2026-10-04T03:49:31.791Z"
-      }
-    },
-    {
-      "id": "sig-eb58386549",
-      "title": "[AINews] Meta Connect 2026: Muse glasses, voice, video, and Charm",
-      "oneLiner": "Team Zuck is absolutely on fire.",
-      "summary": {
-        "oneSentence": "Team Zuck is absolutely on fire.",
-        "bullets": [
-          "Team Zuck is absolutely on fire."
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Team Zuck is absolutely on fire."
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "[AINews] Meta Connect 2026: Muse glasses, voice, video, and Charm",
-      "originalLang": "en",
-      "date": "2026-09-24",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Latent Space",
-        "author": "swyx",
-        "url": "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "[AINews] Meta Connect 2026: Muse glasses, voice, video, and Charm"
-      },
-      "raw": {
-        "title": "[AINews] Meta Connect 2026: Muse glasses, voice, video, and Charm",
-        "url": "https://www.latent.space/p/ainews-meta-connect-2026-muse-glasses",
-        "fetched": false,
-        "savedAt": "2026-10-05T03:34:51.386Z"
       }
     }
   ]
