@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-08T03:54:55.650Z",
+  "updatedAt": "2026-11-09T04:08:57.091Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 414,
+  "itemCount": 412,
   "brief": {
-    "date": "2026-11-08",
-    "generatedAt": "2026-11-08T03:54:55.649Z",
-    "totalCount": 414,
+    "date": "2026-11-09",
+    "generatedAt": "2026-11-09T04:08:57.090Z",
+    "totalCount": 412,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 414 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 412 条",
     "topUpdates": [
       {
         "id": "sig-0c1cf97223",
@@ -92,8 +92,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-11-08T03:54:55.650Z",
-    "summary": "近 30 天共 270 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-11-09T04:08:57.091Z",
+    "summary": "近 30 天共 278 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -305,6 +305,30 @@
       "stars": 4
     },
     {
+      "id": "sig-0a437d67f2",
+      "title": "图像介绍 2.6",
+      "oneLiner": "Images 2.6 带来了更快的图像生成、GIF 创建、更精确的编辑以及跨 ChatGPT、Codex 和 API 的新 API 控件。",
+      "date": "2026-11-04",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-bf25be8f87",
+      "title": "DevRev 使用 GPT-6.1 Sol 提供自主自助服务",
+      "oneLiner": "DevRev 使用 GPT-6.1 Sol 为计算机和操作员提供动力，平衡企业服务的推理、速度和成本。",
+      "date": "2026-11-04",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
       "id": "sig-7b04a568c5",
       "title": "使用 Google Antigravity 进行代理化学信息学",
       "oneLiner": "Zoi Tsangalidou、张瑞杰、Sukhdeep Singh 和 Michael V. LeVine",
@@ -373,30 +397,6 @@
         "chatgpt"
       ],
       "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-262cfa35f4",
-      "title": "准备下一次安全冲刺以强化 OpenAI",
-      "oneLiner": "OpenAI 正在与 Cathedral Systems 一起准备下一次内部安全冲刺，以使用 AI 测试和加强其防御能力。",
-      "date": "2026-11-02",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-b810030289",
-      "title": "我们于 2026 年 10 月公布的最新 AI 新闻",
-      "oneLiner": "以下是我们 10 月份以来一些最大的人工智能更新的回顾，其中包括 Gemini 4 Argon 和 Carbon，以及我们新的世界模型 Genie 4。",
-      "date": "2026-11-02",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google AI",
       "tags": [],
       "stars": 4
     }
@@ -1460,7 +1460,8 @@
         "title": "Voice Chat with Agents",
         "url": "https://cursor.com/changelog/voice-chat",
         "fetched": true,
-        "savedAt": "2026-11-08T03:54:06.689Z"
+        "savedAt": "2026-11-08T03:54:06.689Z",
+        "retranslatedAt": "2026-11-09T04:08:51.802Z"
       }
     },
     {
@@ -2578,7 +2579,8 @@
         "title": "Build Live Apps in Cursor",
         "url": "https://cursor.com/changelog/build-live-apps",
         "fetched": true,
-        "savedAt": "2026-11-08T03:54:30.136Z"
+        "savedAt": "2026-11-08T03:54:30.136Z",
+        "retranslatedAt": "2026-11-09T04:08:52.869Z"
       }
     },
     {
@@ -3633,6 +3635,154 @@
       }
     },
     {
+      "id": "sig-0a437d67f2",
+      "title": "图像介绍 2.6",
+      "oneLiner": "Images 2.6 带来了更快的图像生成、GIF 创建、更精确的编辑以及跨 ChatGPT、Codex 和 API 的新 API 控件。",
+      "summary": {
+        "oneSentence": "Images 2.6 带来了更快的图像生成、GIF 创建、更精确的编辑以及跨 ChatGPT、Codex 和 API 的新 API 控件。",
+        "bullets": [
+          "Images 2.6 带来了更快的图像生成、GIF 创建、更精确的编辑以及跨 ChatGPT、Codex 和 API 的新 API 控件。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：Images 2.6 带来了更快的图像生成、GIF 创建、更精确的编辑以及跨 ChatGPT、Codex 和 API 的新 API 控件。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/introducing-images-2-6"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Images 2.6 带来了更快的图像生成、GIF 创建、更精确的编辑以及跨 ChatGPT、Codex 和 API 的新 API 控件。"
+      ],
+      "highlights": [
+        "Images 2.6 带来了更快的图像生成、GIF 创建、更精确的编辑以及跨 ChatGPT、Codex 和 API 的新 API 控件。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Introducing Images 2.6",
+      "originalLang": "en",
+      "date": "2026-11-04",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/introducing-images-2-6",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Introducing Images 2.6"
+      },
+      "raw": {
+        "title": "Introducing Images 2.6",
+        "url": "https://openai.com/index/introducing-images-2-6",
+        "fetched": false,
+        "savedAt": "2026-11-09T04:07:52.798Z"
+      }
+    },
+    {
+      "id": "sig-bf25be8f87",
+      "title": "DevRev 使用 GPT-6.1 Sol 提供自主自助服务",
+      "oneLiner": "DevRev 使用 GPT-6.1 Sol 为计算机和操作员提供动力，平衡企业服务的推理、速度和成本。",
+      "summary": {
+        "oneSentence": "DevRev 使用 GPT-6.1 Sol 为计算机和操作员提供动力，平衡企业服务的推理、速度和成本。",
+        "bullets": [
+          "DevRev 使用 GPT-6.1 Sol 为计算机和操作员提供动力，平衡企业服务的推理、速度和成本。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：DevRev 使用 GPT-6.1 Sol 为计算机和操作员提供动力，平衡企业服务的推理、速度和成本。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/devrev-enterprise-self-service"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "DevRev 使用 GPT-6.1 Sol 为计算机和操作员提供动力，平衡企业服务的推理、速度和成本。"
+      ],
+      "highlights": [
+        "DevRev 使用 GPT-6.1 Sol 为计算机和操作员提供动力，平衡企业服务的推理、速度和成本。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+      "originalLang": "en",
+      "date": "2026-11-04",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/devrev-enterprise-self-service",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "DevRev delivers autonomous self-service with GPT-6.1 Sol"
+      },
+      "raw": {
+        "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+        "url": "https://openai.com/index/devrev-enterprise-self-service",
+        "fetched": false,
+        "savedAt": "2026-11-09T04:07:54.133Z"
+      }
+    },
+    {
       "id": "sig-66a947a7e4",
       "title": "Angle Health 通过 ElevenLabs 解决了 90% 的提供商呼叫",
       "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
@@ -4519,6 +4669,252 @@
       }
     },
     {
+      "id": "sig-43dd043ed1",
+      "title": "OpenEvidence 如何扩展 65 万医生的医疗搜索 |客户 |韦尔塞尔",
+      "oneLiner": "复制链接到 Vercel 上的 OpenEvidence 标题 为 650,000 名医生提供医疗搜索服务",
+      "summary": {
+        "oneSentence": "复制链接到 Vercel 上的 OpenEvidence 标题 为 650,000 名医生提供医疗搜索服务",
+        "bullets": [
+          "复制链接到 Vercel 上的 OpenEvidence 标题 为 650,000 名医生提供医疗搜索服务",
+          "大约五分钟内完成生产部署",
+          "吸收流量峰值，无需额外的容量配置",
+          "通过流体计算将无服务器支出减少了 90%"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：复制链接到 Vercel 上的 OpenEvidence 标题 为 650,000 名医生提供医疗搜索服务",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/how-openevidence-scales-medical-search-for-doctors"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "复制链接到 Vercel 上的 OpenEvidence 标题 为 650,000 名医生提供医疗搜索服务",
+        "大约五分钟内完成生产部署",
+        "吸收流量峰值，无需额外的容量配置",
+        "通过流体计算将无服务器支出减少了 90%",
+        "独立更新面向医生和患者的应用程序",
+        "OpenEvidence 可以帮助医生在护理期间找到医学证据，无论他们是在重症监护查房时检查剂量，还是在附近没有专家的情况下处理其专业之外的病例。答案借鉴了同行评审的文献并包括引用，因此医生可以检查其背后的来源。",
+        "OpenEvidence 的小团队开始使用 Vercel 进行在线早期实验，并随着产品的发展保留该工作流程，依靠该平台来处理 Web 部署和容量。",
+        "将链接复制到标题 构建医生依赖的软件 当软件有助于为医疗决策提供信息时，风险是不同的。错误的答案可能会影响医生治疗患者的方式，而不可用的应用程序可能会在需要时切断对证据的访问。",
+        "2026 年 1 月，OpenEvidence 支持了超过 2000 万次临床咨询。该公司还报告称，到 2025 年，将有超过 1 亿美国人接受使用 OpenEvidence 的医生的治疗。",
+        "“老实说，生或死并不准确，”OpenEvidence 工程主管 Kush Khosla 说道。 “我们的工作环境是急诊室，他们确实需要知道发生了什么。正常运行时间对我们来说非常非常重要。”"
+      ],
+      "highlights": [
+        "复制链接到 Vercel 上的 OpenEvidence 标题 为 650,000 名医生提供医疗搜索服务",
+        "大约五分钟内完成生产部署",
+        "吸收流量峰值，无需额外的容量配置"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How OpenEvidence scales medical search for 650K doctors | Customers | Vercel",
+      "originalLang": "en",
+      "date": "2026-11-03",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/how-openevidence-scales-medical-search-for-doctors",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How OpenEvidence scales medical search for 650K doctors | Customers | Vercel"
+      },
+      "raw": {
+        "title": "How OpenEvidence scales medical search for 650K doctors",
+        "url": "https://vercel.com/blog/how-openevidence-scales-medical-search-for-doctors",
+        "fetched": true,
+        "savedAt": "2026-11-09T04:08:03.164Z"
+      }
+    },
+    {
+      "id": "sig-0d2095d107",
+      "title": "腾讯Hy4现已上线AI网关 - Vercel",
+      "oneLiner": "腾讯的 Hy4 现已在 AI Gateway 上发售，截至 2026 年 12 月 31 日可享受 50% 的折扣。",
+      "summary": {
+        "oneSentence": "腾讯的 Hy4 现已在 AI Gateway 上发售，截至 2026 年 12 月 31 日可享受 50% 的折扣。",
+        "bullets": [
+          "腾讯的 Hy4 现已在 AI Gateway 上发售，截至 2026 年 12 月 31 日可享受 50% 的折扣。",
+          "Hy4 支持推理、工具调用、结构化输出和图像输入，并具有 1M 令牌上下文窗口，可跨代码库或多个文档进行工作。",
+          "Hy4是首款具有视觉功能的Hy车型。它可以挑选出图像中的精细细节并读取复杂的图表。它还支持计算机在命令行和图形界面中的使用。与 Hy4 Preview 相比，它更严格地遵循指令，并且在长上下文、长时间运行的任务和深入研究方面做得更好。",
+          "AI SDK fx 聊天完成 AI SDK AI SDK fx fx 聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 const result = streamText({ 3 model: 'tencent/hy4', 4prompt: '通过三个简单步骤概述数据库迁移。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：腾讯的 Hy4 现已在 AI Gateway 上发售，截至 2026 年 12 月 31 日可享受 50% 的折扣。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/tencent-hy4-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "腾讯的 Hy4 现已在 AI Gateway 上发售，截至 2026 年 12 月 31 日可享受 50% 的折扣。",
+        "Hy4 支持推理、工具调用、结构化输出和图像输入，并具有 1M 令牌上下文窗口，可跨代码库或多个文档进行工作。",
+        "Hy4是首款具有视觉功能的Hy车型。它可以挑选出图像中的精细细节并读取复杂的图表。它还支持计算机在命令行和图形界面中的使用。与 Hy4 Preview 相比，它更严格地遵循指令，并且在长上下文、长时间运行的任务和深入研究方面做得更好。",
+        "AI SDK fx 聊天完成 AI SDK AI SDK fx fx 聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 const result = streamText({ 3 model: 'tencent/hy4', 4prompt: '通过三个简单步骤概述数据库迁移。', 5 }) ; 6 for wait (const text of result.textStream) { 7 process .textStream 。标准输出。写（文字）； 8 } 复制代理查看模型详细信息 ↗ 要在 Claude Code、Codex、Cursor 等中使用它，请安装最新的 Vercel CLI 并运行安装程序：",
+        "npx vercel ai-gateway setup 然后在代理中选择tencent/hy4。有关详细信息，请参阅编码代理指南。",
+        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本，以及配置重试、故障转移和性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、零数据保留支持、API 密钥预算、路由规则等。",
+        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。",
+        "您可以查看AI网关上所有可用的语言模型。"
+      ],
+      "highlights": [
+        "腾讯的 Hy4 现已在 AI Gateway 上发售，截至 2026 年 12 月 31 日可享受 50% 的折扣。",
+        "Hy4 支持推理、工具调用、结构化输出和图像输入，并具有 1M 令牌上下文窗口，可跨代码库或多个文档进行工作。",
+        "Hy4是首款具有视觉功能的Hy车型。它可以挑选出图像中的精细细节并读取复杂的图表。它还支持计算机在命令行和图形界面中的使用。与 Hy4 Preview 相比，它"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Tencent Hy4 now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-03",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/tencent-hy4-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Tencent Hy4 now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Tencent Hy4 now available on AI Gateway",
+        "url": "https://vercel.com/changelog/tencent-hy4-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-11-09T04:08:08.694Z"
+      }
+    },
+    {
+      "id": "sig-72f374bbc2",
+      "title": "使用 vercel doctor 诊断 Vercel CLI 设置问题 - Vercel",
+      "oneLiner": "Vercel CLI 现在包含 vercel doctor ，它会检查您的设置并显示修复它发现的每个问题的命令。",
+      "summary": {
+        "oneSentence": "Vercel CLI 现在包含 vercel doctor ，它会检查您的设置并显示修复它发现的每个问题的命令。",
+        "bullets": [
+          "Vercel CLI 现在包含 vercel doctor ，它会检查您的设置并显示修复它发现的每个问题的命令。",
+          "它会检查 CLI 版本和安装、您的登录名和当前团队、项目链接以及 vercel.json 中的项目配置。它还从 Vercel 状态页面报告活动事件。",
+          "每项检查都会报告“正常”、“警告”、“失败”或“已跳过”。当 vercel 升级无法更新已安装的 CLI 时，安装检查会显示 CLI 的运行位置以及如何重新安装它。",
+          "Doctor 无需登录或链接项目即可运行，并且它从不提示、登录或链接项目，因此编码代理可以在猜测修复之前运行它。添加 --json 以获取每个检查的状态和建议的命令作为结构化输出。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel CLI 现在包含 vercel doctor ，它会检查您的设置并显示修复它发现的每个问题的命令。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-cli-now-diagnoses-setup-problems-with-vercel-doctor"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel CLI 现在包含 vercel doctor ，它会检查您的设置并显示修复它发现的每个问题的命令。",
+        "它会检查 CLI 版本和安装、您的登录名和当前团队、项目链接以及 vercel.json 中的项目配置。它还从 Vercel 状态页面报告活动事件。",
+        "每项检查都会报告“正常”、“警告”、“失败”或“已跳过”。当 vercel 升级无法更新已安装的 CLI 时，安装检查会显示 CLI 的运行位置以及如何重新安装它。",
+        "Doctor 无需登录或链接项目即可运行，并且它从不提示、登录或链接项目，因此编码代理可以在猜测修复之前运行它。添加 --json 以获取每个检查的状态和建议的命令作为结构化输出。",
+        "vercel doctor --json CLI 设置使用 JSON 输出进行检查",
+        "更新到最新的 CLI 版本并运行 vercel doctor 来检查您的设置，或阅读 doctor 命令参考。"
+      ],
+      "highlights": [
+        "Vercel CLI 现在包含 vercel doctor ，它会检查您的设置并显示修复它发现的每个问题的命令。",
+        "它会检查 CLI 版本和安装、您的登录名和当前团队、项目链接以及 vercel.json 中的项目配置。它还从 Vercel 状态页面报告活动事件。",
+        "每项检查都会报告“正常”、“警告”、“失败”或“已跳过”。当 vercel 升级无法更新已安装的 CLI 时，安装检查会显示 CLI 的运行位置以及如何重新安装"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Diagnose Vercel CLI setup problems with vercel doctor - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-03",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-cli-now-diagnoses-setup-problems-with-vercel-doctor",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Diagnose Vercel CLI setup problems with vercel doctor - Vercel"
+      },
+      "raw": {
+        "title": "Diagnose Vercel CLI setup problems with vercel doctor",
+        "url": "https://vercel.com/changelog/vercel-cli-now-diagnoses-setup-problems-with-vercel-doctor",
+        "fetched": true,
+        "savedAt": "2026-11-09T04:08:14.050Z"
+      }
+    },
+    {
       "id": "sig-d9f477ed4c",
       "title": "现在可以使用 vercel.toml 配置项目 - Vercel",
       "oneLiner": "Vercel 现在支持 vercel.toml，它允许您使用 TOML 配置格式来配置您的项目。支持与 vercel.json 中相同的所有配置属性，但它支持注释并且具有更扁平的结构。",
@@ -5219,6 +5615,406 @@
         "url": "https://vercel.com/changelog/evaluate-vercel-flags-from-another-project-without-sharing-sdk-keys",
         "fetched": true,
         "savedAt": "2026-11-03T04:57:30.630Z"
+      }
+    },
+    {
+      "id": "sig-de4cf53f9d",
+      "title": "在 OpenAI 上扩展 Git",
+      "oneLiner": "OpenAI 如何构建 Pando，这是一个与 Git 兼容的后端，专为 Codex 实现的开发规模而设计。",
+      "summary": {
+        "oneSentence": "OpenAI 如何构建 Pando，这是一个与 Git 兼容的后端，专为 Codex 实现的开发规模而设计。",
+        "bullets": [
+          "OpenAI 如何构建 Pando，这是一个与 Git 兼容的后端，专为 Codex 实现的开发规模而设计。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 如何构建 Pando，这是一个与 Git 兼容的后端，专为 Codex 实现的开发规模而设计。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/scaling-git-at-openai"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 如何构建 Pando，这是一个与 Git 兼容的后端，专为 Codex 实现的开发规模而设计。"
+      ],
+      "highlights": [
+        "OpenAI 如何构建 Pando，这是一个与 Git 兼容的后端，专为 Codex 实现的开发规模而设计。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Scaling Git at OpenAI",
+      "originalLang": "en",
+      "date": "2026-11-02",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/scaling-git-at-openai",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Scaling Git at OpenAI"
+      },
+      "raw": {
+        "title": "Scaling Git at OpenAI",
+        "url": "https://openai.com/index/scaling-git-at-openai",
+        "fetched": false,
+        "savedAt": "2026-11-09T04:08:16.072Z"
+      }
+    },
+    {
+      "id": "sig-19244c7aa2",
+      "title": "电网保护者计划简介",
+      "oneLiner": "OpenAI 的电网保护者计划将与公用事业公司合作，帮助未来的计算园区支持电网可靠性并保护消费者的电力成本。",
+      "summary": {
+        "oneSentence": "OpenAI 的电网保护者计划将与公用事业公司合作，帮助未来的计算园区支持电网可靠性并保护消费者的电力成本。",
+        "bullets": [
+          "OpenAI 的电网保护者计划将与公用事业公司合作，帮助未来的计算园区支持电网可靠性并保护消费者的电力成本。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 的电网保护者计划将与公用事业公司合作，帮助未来的计算园区支持电网可靠性并保护消费者的电力成本。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/grid-protectors-program"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 的电网保护者计划将与公用事业公司合作，帮助未来的计算园区支持电网可靠性并保护消费者的电力成本。"
+      ],
+      "highlights": [
+        "OpenAI 的电网保护者计划将与公用事业公司合作，帮助未来的计算园区支持电网可靠性并保护消费者的电力成本。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Introducing the Grid Protectors Program",
+      "originalLang": "en",
+      "date": "2026-11-02",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/grid-protectors-program",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Introducing the Grid Protectors Program"
+      },
+      "raw": {
+        "title": "Introducing the Grid Protectors Program",
+        "url": "https://openai.com/index/grid-protectors-program",
+        "fetched": false,
+        "savedAt": "2026-11-09T04:08:18.376Z"
+      }
+    },
+    {
+      "id": "sig-d55ea9394e",
+      "title": "我们如何将 Hello Kitty® 和朋友们带到Figma | Figma 博客",
+      "oneLiner": "自 1974 年 Hello Kitty® 首次登上世界舞台以来，她和她的朋友们通过团结精神和贴心设计将一代又一代的粉丝联系在一起。以下是我们对工艺和社区的共同热爱如何塑造我们与 Sanrio® 在 FigJam 和世界各地的合作。",
+      "summary": {
+        "oneSentence": "自 1974 年 Hello Kitty® 首次登上世界舞台以来，她和她的朋友们通过团结精神和贴心设计将一代又一代的粉丝联系在一起。以下是我们对工艺和社区的共同热爱如何塑造我们与 Sanrio® 在 FigJam 和世界各地的合作。",
+        "bullets": [
+          "自 1974 年 Hello Kitty® 首次登上世界舞台以来，她和她的朋友们通过团结精神和贴心设计将一代又一代的粉丝联系在一起。以下是我们对工艺和社区的共同热爱如何塑造我们与 Sanrio® 在 FigJam 和世界各地的合作。",
+          "三丽鸥的旗舰角色 Hello Kitty 50 多年来一直是全球文化偶像。她于 1974 年诞生，并于 1975 年在一个小型乙烯基零钱包上首次亮相。多年来，其他熟悉的角色陆续出现，如今，三丽鸥更广阔的宇宙包括超过 450 个角色。",
+          "在 Sanrio®（Hello Kitty® 和 Friends 背后的公司），nakayoku 是一种指导理念。这种精神大致可以翻译为“每个人都和睦相处”，其根源在于这样一种信念：没有人能够在孤立中茁壮成长，分享快乐可以拉近人们的距离。 Figma 也秉持着同样的精神。 Figma 一直都是多人游戏，从浏览器中第一个",
+          "以下是我们今天推出的所有内容，旨在将团队和代理以及他们使用的设计、代码和环境引入 Figma 的全栈创意画布。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Figma 官网发布：自 1974 年 Hello Kitty® 首次登上世界舞台以来，她和她的朋友们通过团结精神和贴心设计将一代又一代的粉丝联系在一起。以下是我们对工艺和社区的共同热爱如何塑造我们与 Sanrio® 在 FigJam 和世界各地的合作。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://www.figma.com/blog/hello-kitty-and-friends-in-figma/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "自 1974 年 Hello Kitty® 首次登上世界舞台以来，她和她的朋友们通过团结精神和贴心设计将一代又一代的粉丝联系在一起。以下是我们对工艺和社区的共同热爱如何塑造我们与 Sanrio® 在 FigJam 和世界各地的合作。",
+        "三丽鸥的旗舰角色 Hello Kitty 50 多年来一直是全球文化偶像。她于 1974 年诞生，并于 1975 年在一个小型乙烯基零钱包上首次亮相。多年来，其他熟悉的角色陆续出现，如今，三丽鸥更广阔的宇宙包括超过 450 个角色。",
+        "在 Sanrio®（Hello Kitty® 和 Friends 背后的公司），nakayoku 是一种指导理念。这种精神大致可以翻译为“每个人都和睦相处”，其根源在于这样一种信念：没有人能够在孤立中茁壮成长，分享快乐可以拉近人们的距离。 Figma 也秉持着同样的精神。 Figma 一直都是多人游戏，从浏览器中第一个共享光标到现在在画布上使用代码进行设计设计以及画布上的代码层今天，代码层进入了公开测试版。现在，团队可以在画布上探索和构建由代码支持的原型。",
+        "以下是我们今天推出的所有内容，旨在将团队和代理以及他们使用的设计、代码和环境引入 Figma 的全栈创意画布。",
+        "Figma 社区体验主管 Jordan Scott 表示：“我们看到了三丽鸥将人们聚集在一起的方式与我们的工作方式之间的有机联系。”三丽鸥的角色将世界各地的粉丝联系在一起，这种团结感延伸到了角色本身，Hello Kitty® 成为了更大的朋友圈的一部分。 “Hello Kitty 更强大，因为她被所有角色包围着，”乔丹说。 “在 Figma 中，我们的工作变得更好，因为我们都在文件中，一起协作。”",
+        "Sanrio 精心设计的角色背后对细节的关注也很适合 Figma 的设计师社区。这就是为什么我们与 Sanrio 合作，将友谊和游戏带入 FigJam 及其他领域。从 11 月 1 日开始的一周内，Hello Kitty 和朋友们将与您一起参加 FigJam，您可以从 12 个 Sanrio 角色中选择一位来加入您的头脑风暴。庆祝活动还包括 11 月 6 日至 8 日在纽约市举办的免费快闪活动以纪念 Hello Kitty 的生日，以及世界各地的社区聚会。",
+        "要将 Hello Kitty 和朋友们介绍到您的画布上，只需单击工具栏中的 Hello Kitty 标志性蝴蝶结图标（如上图所示）来选择一个角色。每个角色都有自己的主题，因此您的光标、纸胶带和便利贴会发生变化以匹配。",
+        "FigJam 一直是朋友和同事可以聚集在一起通过音乐、创意邮票和表情符号等功能表达自己（及其反馈）的地方，使其成为 Hello Kitty 和 Friends 的完美家园。让每个角色在板上安顿下来需要花费很多心思，欢迎他们的团队得到了一些老朋友的帮助：FigPals 为 FigPals 找到一个永远的家向我们心爱的 FigPals 致敬，并以一种令人惊讶的方式让他们永远保持亲密关系。",
+        "→ 单击选择窗口中的角色即可更改其姿势。",
+        "→ 从您的社区个人资料中显示您最喜欢的三个角色中释放以 Sanrio® 为主题的五彩纸屑。"
+      ],
+      "highlights": [
+        "自 1974 年 Hello Kitty® 首次登上世界舞台以来，她和她的朋友们通过团结精神和贴心设计将一代又一代的粉丝联系在一起。以下是我们对工艺和社区的共同",
+        "三丽鸥的旗舰角色 Hello Kitty 50 多年来一直是全球文化偶像。她于 1974 年诞生，并于 1975 年在一个小型乙烯基零钱包上首次亮相。多年来，其",
+        "在 Sanrio®（Hello Kitty® 和 Friends 背后的公司），nakayoku 是一种指导理念。这种精神大致可以翻译为“每个人都和睦相处”，其"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How We Brought Hello Kitty® And Friends to Figma | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-11-02",
+      "categoryIds": [
+        "vertical-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/hello-kitty-and-friends-in-figma/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How We Brought Hello Kitty® And Friends to Figma | Figma Blog"
+      },
+      "raw": {
+        "title": "How we brought Hello Kitty® and Friends to Figma",
+        "url": "https://www.figma.com/blog/hello-kitty-and-friends-in-figma/",
+        "fetched": true,
+        "savedAt": "2026-11-09T04:08:28.180Z"
+      }
+    },
+    {
+      "id": "sig-2343b5e050",
+      "title": "Figma 和 Sanrio® 庆祝 Hello Kitty® 以及与朋友一起制作东西的乐趣 | Figma 博客",
+      "oneLiner": "为了庆祝 Hello Kitty® 的生日，Hello Kitty® 和朋友们将搬进 FigJam，并在纽约举办一场派对。",
+      "summary": {
+        "oneSentence": "为了庆祝 Hello Kitty® 的生日，Hello Kitty® 和朋友们将搬进 FigJam，并在纽约举办一场派对。",
+        "bullets": [
+          "为了庆祝 Hello Kitty® 的生日，Hello Kitty® 和朋友们将搬进 FigJam，并在纽约举办一场派对。",
+          "Figma（全栈创意画布）和 Sanrio®（流行文化偶像 Hello Kitty® 背后的全球生活方式品牌）携手庆祝一个简单的理念：与朋友一起让事情变得更好。从 11 月 1 日（Hello Kitty 的生日）开始的一周内，三丽鸥的角色们在 FigJam（Figma 的在线白板）中找到了归宿，用于协作，为头脑风暴、",
+          "这标志着三丽鸥首次与 Figma 整合，在团队精神和想象力比以往任何时候都更加重要的时代到来。两家公司对社区有着共同的承诺：Figma 是互联网上最具创意的社区之一，而 Hello Kitty 和 Friends 则以友谊为中心，互相支持，并在代际间传播善意。两人都相信最好的工作是一起完成的，并且有足够的发挥空间。",
+          "Figma 首席营销官 Nairi Hourdajian 表示：“Figma 是一个协作和表达的场所，为每个想法和将其变为现实所需的各种工具提供了空间。三丽鸥深受喜爱的角色在 Figma 中会感到宾至如归，周围的社区也同样关心工艺和创造力。” “这次合作有点怀旧，但很有趣，并提醒我们，有朋友在身边，制作东西会变得更好。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 4,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Figma 官网发布：为了庆祝 Hello Kitty® 的生日，Hello Kitty® 和朋友们将搬进 FigJam，并在纽约举办一场派对。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://www.figma.com/blog/figma-and-sanrio-celebrate-hello-kitty-and-friends/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "为了庆祝 Hello Kitty® 的生日，Hello Kitty® 和朋友们将搬进 FigJam，并在纽约举办一场派对。",
+        "Figma（全栈创意画布）和 Sanrio®（流行文化偶像 Hello Kitty® 背后的全球生活方式品牌）携手庆祝一个简单的理念：与朋友一起让事情变得更好。从 11 月 1 日（Hello Kitty 的生日）开始的一周内，三丽鸥的角色们在 FigJam（Figma 的在线白板）中找到了归宿，用于协作，为头脑风暴、小组项目以及介于两者之间的一切带来了一点卡哇伊色彩。 11 月 6 日至 8 日，派对将移师线下，在纽约市举办主题照相亭和免费快闪店，提供限量版礼物和惊喜。",
+        "这标志着三丽鸥首次与 Figma 整合，在团队精神和想象力比以往任何时候都更加重要的时代到来。两家公司对社区有着共同的承诺：Figma 是互联网上最具创意的社区之一，而 Hello Kitty 和 Friends 则以友谊为中心，互相支持，并在代际间传播善意。两人都相信最好的工作是一起完成的，并且有足够的发挥空间。",
+        "Figma 首席营销官 Nairi Hourdajian 表示：“Figma 是一个协作和表达的场所，为每个想法和将其变为现实所需的各种工具提供了空间。三丽鸥深受喜爱的角色在 Figma 中会感到宾至如归，周围的社区也同样关心工艺和创造力。” “这次合作有点怀旧，但很有趣，并提醒我们，有朋友在身边，制作东西会变得更好。”",
+        "Sanrio, Inc. 首席品牌官 Jill Koch 表示：“Hello Kitty 和朋友们一直致力于友谊、创造力以及将人们聚集在一起。我们与 Figma 的合作将这种精神带入了一个与我们一样热爱创造力和自我表达的社区。我们很高兴看到人们如何将自己喜欢的角色融入到自己的作品中，与他人建立联系，并为创作过程带来更多乐趣。”",
+        "以下是如何参与下周的乐趣：",
+        "FigJam 是一个在线白板，朋友们可以在这里聚在一起工作或娱乐，从破冰活动和贺卡到团队会议和聚会计划。截至 11 月 8 日，您可以从 FigJam 中的 12 个 Sanrio 好友中进行选择，包括 Hello Kitty、Pochacco™、My Melody™、Kuromi™、Cinnamoroll™、Pompompurin™ 等。选择一个角色，通过超可爱的光标、主题纸胶带、彩色便签和照相亭自拍框来改变 FigJam 体验。继续即兴创作，发现更多 Hello Kitty 和朋友们的惊喜。",
+        "Figma 的设计师与 Sanrio 密切合作，将每个角色的调色板和个性融入到产品中 我们如何将 Hello Kitty® 和朋友们带入 Figma 自 1974 年 Hello Kitty® 首次登上世界舞台以来，她和她的朋友们通过团结精神和贴心设计将一代又一代的粉丝联系在一起。以下是我们对工艺和社区的共同热爱如何塑造我们与 Sanrio® 在 FigJam 和世界各地的合作。",
+        "Hello Kitty 和朋友们也加入了 Figma 社区，创意人士可以在这里相互交流并分享他们的作品，包括设计模板、技能，甚至游戏。在一周内，您可以通过展示您最喜欢的三个角色并选择三丽鸥主题背景来个性化您的社区个人资料。浏览社区，在新的 Sanrio 游乐场文件中查找 FigJam 提示和技巧，设计着色书页面，并使用可爱的 Figma 幻灯片模板为您的下一次演示带来微笑。",
+        "这场庆祝活动在现实生活中令人感动。周末，Figma 和 Sanrio 将在纽约联合广场附近为 Hello Kitty 举办一场公共派对。在绿色的 Hello Kitty and Friends 卡车上享用值得刷屏的抹茶或草莓牛奶，然后前往车内收集神秘人物钥匙扣并在魅力吧定制它，然后与您的新朋友合影留念。还有更多派对礼品等待着您，包括每天为前 150 名参观者提供的限量版运动衫和补丁。"
+      ],
+      "highlights": [
+        "为了庆祝 Hello Kitty® 的生日，Hello Kitty® 和朋友们将搬进 FigJam，并在纽约举办一场派对。",
+        "Figma（全栈创意画布）和 Sanrio®（流行文化偶像 Hello Kitty® 背后的全球生活方式品牌）携手庆祝一个简单的理念：与朋友一起让事情变得更好。",
+        "这标志着三丽鸥首次与 Figma 整合，在团队精神和想象力比以往任何时候都更加重要的时代到来。两家公司对社区有着共同的承诺：Figma 是互联网上最具创意的社区"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Figma and Sanrio® Celebrate Hello Kitty® and the Joy of Making Things With Friends | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-11-02",
+      "categoryIds": [
+        "vertical-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/figma-and-sanrio-celebrate-hello-kitty-and-friends/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Figma and Sanrio® Celebrate Hello Kitty® and the Joy of Making Things With Friends | Figma Blog"
+      },
+      "raw": {
+        "title": "Figma and Sanrio® celebrate Hello Kitty® and the joy of making things with friends",
+        "url": "https://www.figma.com/blog/figma-and-sanrio-celebrate-hello-kitty-and-friends/",
+        "fetched": true,
+        "savedAt": "2026-11-09T04:08:41.641Z"
+      }
+    },
+    {
+      "id": "sig-42299793b6",
+      "title": "Vercel 安全审查简介",
+      "oneLiner": "今天，我们将推出 Vercel 安全审查的公开测试版。",
+      "summary": {
+        "oneSentence": "今天，我们将推出 Vercel 安全审查的公开测试版。",
+        "bullets": [
+          "今天，我们将推出 Vercel 安全审查的公开测试版。",
+          "安全审查是 Vercel Agent 中的一项新功能，与代码审查和调查一样。启用后，它会在每次推送到团队连接的 GitHub 存储库时扫描漏洞。",
+          "结果显示为拉取请求的评论，列在安全仪表板中，并可通过 CLI 获取。经您许可，Vercel Agent 还可以验证并推送修复结果。",
+          "将链接复制到标题 工作原理 安全审查由 GitHub 推送事件触发，包括直接推送到您的生产分支。在 monorepos 中，评论范围仅限于项目的根目录。它的工作原理如下："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：今天，我们将推出 Vercel 安全审查的公开测试版。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/vercel-security-review"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "今天，我们将推出 Vercel 安全审查的公开测试版。",
+        "安全审查是 Vercel Agent 中的一项新功能，与代码审查和调查一样。启用后，它会在每次推送到团队连接的 GitHub 存储库时扫描漏洞。",
+        "结果显示为拉取请求的评论，列在安全仪表板中，并可通过 CLI 获取。经您许可，Vercel Agent 还可以验证并推送修复结果。",
+        "将链接复制到标题 工作原理 安全审查由 GitHub 推送事件触发，包括直接推送到您的生产分支。在 monorepos 中，评论范围仅限于项目的根目录。它的工作原理如下：",
+        "您将代码推送到连接到 Vercel 项目的 GitHub 存储库。",
+        "一旦推送落地，安全审查就会扫描更改的代码是否存在漏洞，例如缺少授权检查或暴露的秘密。",
+        "结果将发布到安全仪表板。在私有和内部存储库上，安全审查还添加了对提交的 GitHub 检查以及对拉取请求的评论。",
+        "您可以通过单击仪表板中的“使用 Vercel Agent 修复”来修复结果，或使用 CLI 提取结果并让您自己的编码代理实施更改。",
+        "当后续安全审查不再检测到某个发现时，它会在仪表板中标记为不再检测到，并且 GitHub 评论将关闭。",
+        "每篇评论都会将推送与基础进行比较，并仅涵盖更改的内容。对于部署，基础是分支之前的部署，因此代理会根据已运行的内容检查更改。由于它仅扫描差异，因此安全审查可在几秒钟内完成，并且可以在每个预览和生产部署上运行。"
+      ],
+      "highlights": [
+        "今天，我们将推出 Vercel 安全审查的公开测试版。",
+        "安全审查是 Vercel Agent 中的一项新功能，与代码审查和调查一样。启用后，它会在每次推送到团队连接的 GitHub 存储库时扫描漏洞。",
+        "结果显示为拉取请求的评论，列在安全仪表板中，并可通过 CLI 获取。经您许可，Vercel Agent 还可以验证并推送修复结果。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Introducing Vercel Security Review",
+      "originalLang": "en",
+      "date": "2026-11-02",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/vercel-security-review",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Introducing Vercel Security Review"
+      },
+      "raw": {
+        "title": "Introducing Vercel Security Review",
+        "url": "https://vercel.com/blog/vercel-security-review",
+        "fetched": true,
+        "savedAt": "2026-11-09T04:08:50.396Z"
       }
     },
     {
@@ -16661,7 +17457,7 @@
         "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
         "fetched": true,
         "savedAt": "2026-10-17T02:36:45.886Z",
-        "retranslatedAt": "2026-11-08T03:54:52.643Z"
+        "retranslatedAt": "2026-11-09T04:08:53.992Z"
       }
     },
     {
@@ -20259,7 +21055,7 @@
         "url": "https://cursor.com/changelog/origin-app-marketplace",
         "fetched": true,
         "savedAt": "2026-10-14T03:08:22.474Z",
-        "retranslatedAt": "2026-11-08T03:54:53.716Z"
+        "retranslatedAt": "2026-11-09T04:08:55.050Z"
       }
     },
     {
@@ -25798,7 +26594,7 @@
         "url": "https://cursor.com/changelog/remote-control-local-agents",
         "fetched": true,
         "savedAt": "2026-10-11T03:27:39.323Z",
-        "retranslatedAt": "2026-11-08T03:54:54.847Z"
+        "retranslatedAt": "2026-11-09T04:08:56.288Z"
       }
     },
     {
@@ -32234,912 +33030,6 @@
         "url": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
         "fetched": false,
         "savedAt": "2026-09-27T03:09:50.894Z"
-      }
-    },
-    {
-      "id": "sig-d2d497e5ee",
-      "title": "Proaction 通过 Codex 将销售额提高了 60% 并节省了 75 多个小时",
-      "oneLiner": "借助 Codex、GPT-Live-1 和 GPT-6 Astra，Proaction 可以更快地构建、运营和销售现代车队管理。",
-      "summary": {
-        "oneSentence": "借助 Codex、GPT-Live-1 和 GPT-6 Astra，Proaction 可以更快地构建、运营和销售现代车队管理。",
-        "bullets": [
-          "借助 Codex、GPT-Live-1 和 GPT-6 Astra，Proaction 可以更快地构建、运营和销售现代车队管理。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：借助 Codex、GPT-Live-1 和 GPT-6 Astra，Proaction 可以更快地构建、运营和销售现代车队管理。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/proaction"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "借助 Codex、GPT-Live-1 和 GPT-6 Astra，Proaction 可以更快地构建、运营和销售现代车队管理。"
-      ],
-      "highlights": [
-        "借助 Codex、GPT-Live-1 和 GPT-6 Astra，Proaction 可以更快地构建、运营和销售现代车队管理。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-      "originalLang": "en",
-      "date": "2026-09-25",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/proaction",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Proaction boosts sales 60% and saves 75+ hours with Codex"
-      },
-      "raw": {
-        "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
-        "url": "https://openai.com/index/proaction",
-        "fetched": false,
-        "savedAt": "2026-09-26T03:03:36.574Z"
-      }
-    },
-    {
-      "id": "sig-475c6f6c38",
-      "title": "将图像从 GitHub Actions 推送到 Vercel 容器注册表 - Vercel",
-      "oneLiner": "现在，您可以将容器映像从 GitHub Actions 推送到 Vercel 容器注册表 (VCR)，而无需存储长期注册表凭据。",
-      "summary": {
-        "oneSentence": "现在，您可以将容器映像从 GitHub Actions 推送到 Vercel 容器注册表 (VCR)，而无需存储长期注册表凭据。",
-        "bullets": [
-          "现在，您可以将容器映像从 GitHub Actions 推送到 Vercel 容器注册表 (VCR)，而无需存储长期注册表凭据。",
-          "新的 vercel/vcr-action/login 操作使用 GitHub OIDC 对您的工作流程进行身份验证。它将工作流的 OIDC 令牌交换为短期 Vercel 访问令牌，然后使用该令牌登录 vcr.vercel.com 。当作业结束时，操作会注销并撤销 Vercel 令牌。",
-          "在 Vercel 团队中创建与 GitHub 存储库和工作流程匹配的 OIDC 策略，并授予对 VCR 的读写访问权限。",
-          "将 Vercel 团队 ID 存储为 GitHub 存储库变量，例如 VERCEL_TEAM_ID ，以及图像标签中使用的团队 slug、项目 slug 和存储库名称。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：现在，您可以将容器映像从 GitHub Actions 推送到 Vercel 容器注册表 (VCR)，而无需存储长期注册表凭据。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/vcr-login-github-action"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "现在，您可以将容器映像从 GitHub Actions 推送到 Vercel 容器注册表 (VCR)，而无需存储长期注册表凭据。",
-        "新的 vercel/vcr-action/login 操作使用 GitHub OIDC 对您的工作流程进行身份验证。它将工作流的 OIDC 令牌交换为短期 Vercel 访问令牌，然后使用该令牌登录 vcr.vercel.com 。当作业结束时，操作会注销并撤销 Vercel 令牌。",
-        "在 Vercel 团队中创建与 GitHub 存储库和工作流程匹配的 OIDC 策略，并授予对 VCR 的读写访问权限。",
-        "将 Vercel 团队 ID 存储为 GitHub 存储库变量，例如 VERCEL_TEAM_ID ，以及图像标签中使用的团队 slug、项目 slug 和存储库名称。",
-        "授予工作流程或作业 ID 令牌：写入权限。",
-        "然后在构建和推送图像之前添加登录步骤：",
-        "1 名称 : 推送到 VCR 2 3 上 : 4 推送 : 5 分支 : [ main ] 6 7 权限 : 8 内容 : 读取 9 id-token : 写入 10 11 作业 : 12 推送 : 13 运行 : ubuntu - 最新 14 步骤 : 15 - 使用 : actions/checkout@v4 16 17 - 使用 : docker/setup - buildx - action@v3 18 19 - 名称：登录 VCR 20 使用：vercel/vcr - action/login@v1 21 使用：22 团队：$ { { vars.VERCEL_TEAM_ID } } 23 24 - 名称：构建和推送 25 使用：docker/build - Push - action@v6 26 使用：27 上下文：。 28 个平台：linux/amd64 29 个出处： false 30 个标签：vcr.vercel.com/$ { { vars.VERCEL_TEAM_SLUG } } /$ { { vars.VERCEL_PROJECT_SLUG } } /$ { { vars.VCR_REPOSITORY } } ：最新 31 个输出： type=image 、 push=true 、 oci - mediatypes=true 、compression=zstd 、compression - level=3 、force - compression=true 使用 OIDC 进行身份验证，然后构建容器映像并将其从 GitHub Actions 推送到 VCR。",
-        "该操作默认对 Docker 进行身份验证。传递引擎以使用 Podman 或 Buildah 代替。",
-        "VCR 准备好 linux/amd64 映像后，您可以将其用作自定义 Vercel Sandbox 映像。在同一项目中，将其引用为 <repository>:<tag> 。",
-        "请参阅 VCR 文档和 GitHub Actions 指南了解更多信息。"
-      ],
-      "highlights": [
-        "现在，您可以将容器映像从 GitHub Actions 推送到 Vercel 容器注册表 (VCR)，而无需存储长期注册表凭据。",
-        "新的 vercel/vcr-action/login 操作使用 GitHub OIDC 对您的工作流程进行身份验证。它将工作流的 OIDC 令牌交换为短期 Ve",
-        "在 Vercel 团队中创建与 GitHub 存储库和工作流程匹配的 OIDC 策略，并授予对 VCR 的读写访问权限。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Push images to Vercel Container Registry from GitHub Actions - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-25",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/vcr-login-github-action",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Push images to Vercel Container Registry from GitHub Actions - Vercel"
-      },
-      "raw": {
-        "title": "Push images to Vercel Container Registry from GitHub Actions",
-        "url": "https://vercel.com/changelog/vcr-login-github-action",
-        "fetched": true,
-        "savedAt": "2026-09-26T03:03:50.951Z"
-      }
-    },
-    {
-      "id": "sig-9891eeb90b",
-      "title": "代理人技能状况",
-      "oneLiner": "七个月内，skills.sh 注册表增长到 100 万个代理技能，并记录了近 2.8 亿次安装。",
-      "summary": {
-        "oneSentence": "七个月内，skills.sh 注册表增长到 100 万个代理技能，并记录了近 2.8 亿次安装。",
-        "bullets": [
-          "七个月内，skills.sh 注册表增长到 100 万个代理技能，并记录了近 2.8 亿次安装。",
-          "技能为人工智能代理提供了针对特定工作的可重复使用的指令。代理有能力但一般；他们可以做很多工作，但他们不知道具体的个人、团队或公司是如何完成这些工作的。技能可以弥补缺失的上下文，并且可以像用普通语言编写的文件一样简单。",
-          "Anthropic 于 2025 年 10 月推出了 Agent Skills，Vercel 于三个月后推出了 Skills.sh 注册表。",
-          "该报告利用注册表中的汇总数据，通过其前一百万项技能来跟踪新市场：人们向代理教授什么、安装什么以及价值的走向。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：七个月内，skills.sh 注册表增长到 100 万个代理技能，并记录了近 2.8 亿次安装。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/blog/state-of-agent-skills"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "七个月内，skills.sh 注册表增长到 100 万个代理技能，并记录了近 2.8 亿次安装。",
-        "技能为人工智能代理提供了针对特定工作的可重复使用的指令。代理有能力但一般；他们可以做很多工作，但他们不知道具体的个人、团队或公司是如何完成这些工作的。技能可以弥补缺失的上下文，并且可以像用普通语言编写的文件一样简单。",
-        "Anthropic 于 2025 年 10 月推出了 Agent Skills，Vercel 于三个月后推出了 Skills.sh 注册表。",
-        "该报告利用注册表中的汇总数据，通过其前一百万项技能来跟踪新市场：人们向代理教授什么、安装什么以及价值的走向。",
-        "将链接复制到标题技能将专业知识转化为软件要编写技能，必须明确工作背后的一些判断，例如要遵循的步骤、什么是好的以及如何评估结果。代理及其工具已经提供了大部分底层功能，因此该技能只需提供特定于工作的判断和指令。",
-        "这使得技能的创建比传统软件更快、更容易。",
-        "Skills.sh 在七个月内达到了 100 万个技能。 GitHub 用了 27 个月才达到 100 万个存储库。 Apple 的 App Store 仅用了五年多的时间就拥有了 100 万个应用程序。 npm 花了九年多的时间才达到 100 万个包。",
-        "能够描述如何完成工作的人比通过编程来完成工作的人要多得多。一旦编写了技能，就可以分发和安装它，而无需为每个代理重写。技能将更多的创作者与软件的重用能力相结合，推动生态系统的爆炸性增长。",
-        "将链接复制到标题 哪些人正在教授代理 我们根据注册中心帮助代理完成的工作类型对注册中心最常用的技能进行了分类。这些技能加起来占所有安装的五分之四以上。发布的列表显示供应：作者向代理商提供的内容。安装量显示了需求：人们希望他们的代理学习什么。",
-        "供应偏向技术性。超过一半的列表教授软件工程、代理工作流程、数据、基础设施或安全性，其中仅软件工程就占了约四分之一。"
-      ],
-      "highlights": [
-        "七个月内，skills.sh 注册表增长到 100 万个代理技能，并记录了近 2.8 亿次安装。",
-        "技能为人工智能代理提供了针对特定工作的可重复使用的指令。代理有能力但一般；他们可以做很多工作，但他们不知道具体的个人、团队或公司是如何完成这些工作的。技能可以弥",
-        "Anthropic 于 2025 年 10 月推出了 Agent Skills，Vercel 于三个月后推出了 Skills.sh 注册表。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "State of agent skills",
-      "originalLang": "en",
-      "date": "2026-09-25",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/blog/state-of-agent-skills",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "State of agent skills"
-      },
-      "raw": {
-        "title": "State of agent skills",
-        "url": "https://vercel.com/blog/state-of-agent-skills",
-        "fetched": true,
-        "savedAt": "2026-09-26T03:04:02.317Z"
-      }
-    },
-    {
-      "id": "sig-759cd6098a",
-      "title": "Pixel Canary 现已在 AI Gateway 上免费秘密提供 - Vercel",
-      "oneLiner": "Pixel Canary 现已在 AI Gateway 上以 Stealth/pixel-canary 形式提供。在隐身状态下，它在有限的时间内免费。",
-      "summary": {
-        "oneSentence": "Pixel Canary 现已在 AI Gateway 上以 Stealth/pixel-canary 形式提供。在隐身状态下，它在有限的时间内免费。",
-        "bullets": [
-          "Pixel Canary 现已在 AI Gateway 上以 Stealth/pixel-canary 形式提供。在隐身状态下，它在有限的时间内免费。",
-          "Pixel Canary 擅长编码，包括构建应用程序和重构现有代码。它非常适合前端开发和移动应用程序设计，从响应式布局和应用程序屏幕到导航和交互组件。",
-          "在 Next.js 评估中，Pixel Canary 以 90.3% 的基准成功率与 GPT 6 Astra（高）并列，通过了 31 项任务中的 28 项。通过 AGENTS.md 提供的 Next.js 文档，它通过了 31 项任务中的 30 项 (96.8%)，在该设置中追平了排行榜的最高分。",
-          "它传递的任务涵盖 App Router 迁移、数据获取、图像和字体优化、缓存和视图转换，展示了其实现和更新 Web 界面背后的代码的能力。分数使用 pass@4：如果最多四次尝试中的任何一个成功，则任务通过。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Pixel Canary 现已在 AI Gateway 上以 Stealth/pixel-canary 形式提供。在隐身状态下，它在有限的时间内免费。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/pixel-canary-is-now-available-in-stealth-for-free-on-ai-gateway"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Pixel Canary 现已在 AI Gateway 上以 Stealth/pixel-canary 形式提供。在隐身状态下，它在有限的时间内免费。",
-        "Pixel Canary 擅长编码，包括构建应用程序和重构现有代码。它非常适合前端开发和移动应用程序设计，从响应式布局和应用程序屏幕到导航和交互组件。",
-        "在 Next.js 评估中，Pixel Canary 以 90.3% 的基准成功率与 GPT 6 Astra（高）并列，通过了 31 项任务中的 28 项。通过 AGENTS.md 提供的 Next.js 文档，它通过了 31 项任务中的 30 项 (96.8%)，在该设置中追平了排行榜的最高分。",
-        "它传递的任务涵盖 App Router 迁移、数据获取、图像和字体优化、缓存和视图转换，展示了其实现和更新 Web 界面背后的代码的能力。分数使用 pass@4：如果最多四次尝试中的任何一个成功，则任务通过。",
-        "ZDR 不适用于该模型，通过它发送的提示和响应可用于训练和模型改进。",
-        "首先，将 model 设置为 Stealth/pixel-canary ：",
-        "API Claude Code Codex fx 聊天完成 API API Claude Code Claude Code Codex Codex fx fx 聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 3 const result = streamText ({ 4 model : 'stealth/pixel-canary' , 5prompt : '在 Next.js 中构建适合移动设备的健身仪表板。' , 6 } ) ;复制代理查看模型详细信息 ↗ 要在编码代理中使用 Pixel Canary，请使用 Vercel CLI 运行设置命令：",
-        "1 npm i -g vercel@latest 2 vercel ai-gateway 设置",
-        "该命令检测已安装的代理、配置或重复使用 AI Gateway API 密钥，并配置它们与网关的连接。然后在代理的模型配置中选择“stealth/pixel-canary”。",
-        "AI Gateway 为调用模型提供统一的 API，内置使用情况和成本跟踪、API 密钥预算和路由规则。"
-      ],
-      "highlights": [
-        "Pixel Canary 现已在 AI Gateway 上以 Stealth/pixel-canary 形式提供。在隐身状态下，它在有限的时间内免费。",
-        "Pixel Canary 擅长编码，包括构建应用程序和重构现有代码。它非常适合前端开发和移动应用程序设计，从响应式布局和应用程序屏幕到导航和交互组件。",
-        "在 Next.js 评估中，Pixel Canary 以 90.3% 的基准成功率与 GPT 6 Astra（高）并列，通过了 31 项任务中的 28 项。通过"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Pixel Canary is now available in stealth for free on AI Gateway - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-25",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/pixel-canary-is-now-available-in-stealth-for-free-on-ai-gateway",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Pixel Canary is now available in stealth for free on AI Gateway - Vercel"
-      },
-      "raw": {
-        "title": "Pixel Canary is now available in stealth for free on AI Gateway",
-        "url": "https://vercel.com/changelog/pixel-canary-is-now-available-in-stealth-for-free-on-ai-gateway",
-        "fetched": true,
-        "savedAt": "2026-09-26T03:04:17.611Z"
-      }
-    },
-    {
-      "id": "sig-4b18a154dd",
-      "title": "Vercel Sandbox 现在支持内存可观察性 - Vercel",
-      "oneLiner": "Vercel Sandbox 可观察性现在包括内存使用数据。",
-      "summary": {
-        "oneSentence": "Vercel Sandbox 可观察性现在包括内存使用数据。",
-        "bullets": [
-          "Vercel Sandbox 可观察性现在包括内存使用数据。",
-          "您可以在仪表板中以及通过 CLI 通过 vercelmetrics 命令访问沙箱内存使用数据。",
-          "将链接复制到仪表板中的“沙箱可观察性内存”标题“内存使用情况”卡报告沙箱中的平均内存、P75 和 P95 内存，以及沙箱概述页面以及项目和团队级别页面上的现有 CPU 使用情况和数据传输指标。",
-          "在沙箱详细信息页面上，图表旨在通过以下方式显示沙箱运行到其内存上限的程度："
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Vercel Sandbox 可观察性现在包括内存使用数据。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/vercel-sandbox-now-supports-memory-observability"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Vercel Sandbox 可观察性现在包括内存使用数据。",
-        "您可以在仪表板中以及通过 CLI 通过 vercelmetrics 命令访问沙箱内存使用数据。",
-        "将链接复制到仪表板中的“沙箱可观察性内存”标题“内存使用情况”卡报告沙箱中的平均内存、P75 和 P95 内存，以及沙箱概述页面以及项目和团队级别页面上的现有 CPU 使用情况和数据传输指标。",
-        "在沙箱详细信息页面上，图表旨在通过以下方式显示沙箱运行到其内存上限的程度：",
-        "自动将 y 轴缩放到沙箱的内存限制",
-        "在该限制的 85% 处添加参考虚线",
-        "沙箱内存也可在可观测性查询生成器中用作沙箱使用事件的内存已使用字节度量。您可以针对它构建自定义查询并从图表创建警报。",
-        "将链接复制到标题 CLI 中的沙箱内存可观测性 沙箱可观测性数据也可以通过 Vercel CLI 通过 vercel.sandbox.memory_used_bytes 下的 vercelmetrics 命令获得。在链接项目中运行命令以获取特定于项目的数据，或附加 --all 以查看团队中所有项目的聚合数据。",
-        "沙箱关联的项目",
-        "内存使用情况图表，包含最小值、最大值和平均值"
-      ],
-      "highlights": [
-        "Vercel Sandbox 可观察性现在包括内存使用数据。",
-        "您可以在仪表板中以及通过 CLI 通过 vercelmetrics 命令访问沙箱内存使用数据。",
-        "将链接复制到仪表板中的“沙箱可观察性内存”标题“内存使用情况”卡报告沙箱中的平均内存、P75 和 P95 内存，以及沙箱概述页面以及项目和团队级别页面上的现有 "
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Vercel Sandbox now supports memory observability - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-25",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/vercel-sandbox-now-supports-memory-observability",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Vercel Sandbox now supports memory observability - Vercel"
-      },
-      "raw": {
-        "title": "Vercel Sandbox now supports memory observability",
-        "url": "https://vercel.com/changelog/vercel-sandbox-now-supports-memory-observability",
-        "fetched": true,
-        "savedAt": "2026-09-26T03:04:29.594Z"
-      }
-    },
-    {
-      "id": "sig-f9ce264e59",
-      "title": "Vercel Marketplace 数据库浏览器现在支持 Redis - Vercel",
-      "oneLiner": "您现在可以使用 Marketplace 数据库浏览器直接在 Vercel 仪表板中运行 Redis 命令、浏览键和检查值。",
-      "summary": {
-        "oneSentence": "您现在可以使用 Marketplace 数据库浏览器直接在 Vercel 仪表板中运行 Redis 命令、浏览键和检查值。",
-        "bullets": [
-          "您现在可以使用 Marketplace 数据库浏览器直接在 Vercel 仪表板中运行 Redis 命令、浏览键和检查值。",
-          "Vercel Marketplace 中的 Redis 和 Upstash for Redis 集成均受支持，因此您不再需要 redis-cli 或单独的数据库 UI。",
-          "从您的项目中，打开基础架构 > 存储并选择 Redis 数据库。数据库页面现在包含两个新选项卡：",
-          "CLI：运行 Redis 命令并检查结果。通过用换行符或分号分隔来运行多个命令，并支持 MULTI / EXEC 事务。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：您现在可以使用 Marketplace 数据库浏览器直接在 Vercel 仪表板中运行 Redis 命令、浏览键和检查值。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/vercel-marketplace-database-browser-now-supports-redis"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "您现在可以使用 Marketplace 数据库浏览器直接在 Vercel 仪表板中运行 Redis 命令、浏览键和检查值。",
-        "Vercel Marketplace 中的 Redis 和 Upstash for Redis 集成均受支持，因此您不再需要 redis-cli 或单独的数据库 UI。",
-        "从您的项目中，打开基础架构 > 存储并选择 Redis 数据库。数据库页面现在包含两个新选项卡：",
-        "CLI：运行 Redis 命令并检查结果。通过用换行符或分号分隔来运行多个命令，并支持 MULTI / EXEC 事务。",
-        "浏览器：浏览平面列表中的键或按前缀分组，并按类型或模式过滤它们。选择一个密钥来检查其值和元数据，包括其类型、TTL、编码和大小。支持的值类型包括字符串、JSON、哈希、列表、集合和排序集合。",
-        "这些选项卡当前仅对具有所有者角色的团队成员可用。请参阅 Marketplace 存储文档了解更多信息。"
-      ],
-      "highlights": [
-        "您现在可以使用 Marketplace 数据库浏览器直接在 Vercel 仪表板中运行 Redis 命令、浏览键和检查值。",
-        "Vercel Marketplace 中的 Redis 和 Upstash for Redis 集成均受支持，因此您不再需要 redis-cli 或单独的数据库",
-        "从您的项目中，打开基础架构 > 存储并选择 Redis 数据库。数据库页面现在包含两个新选项卡："
-      ],
-      "translated": true,
-      "originalTitle": "Vercel Marketplace database browser now supports Redis - Vercel",
-      "originalLang": "en",
-      "date": "2026-09-25",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/vercel-marketplace-database-browser-now-supports-redis",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Vercel Marketplace database browser now supports Redis - Vercel"
-      },
-      "raw": {
-        "title": "Vercel Marketplace database browser now supports Redis",
-        "url": "https://vercel.com/changelog/vercel-marketplace-database-browser-now-supports-redis",
-        "fetched": true,
-        "savedAt": "2026-09-29T03:45:52.947Z",
-        "retranslatedAt": "2026-10-01T03:39:33.021Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-69f2b5ec7d",
-      "title": "Wayfair 通过 OpenAI 提高目录准确性和支持速度",
-      "oneLiner": "Wayfair 使用 OpenAI 模型来改善电子商务支持和产品目录准确性，自动进行票证分类并大规模增强数百万个产品属性。",
-      "summary": {
-        "oneSentence": "Wayfair 使用 OpenAI 模型来改善电子商务支持和产品目录准确性，自动进行票证分类并大规模增强数百万个产品属性。",
-        "bullets": [
-          "Wayfair 使用 OpenAI 模型来改善电子商务支持和产品目录准确性，自动进行票证分类并大规模增强数百万个产品属性。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：Wayfair 使用 OpenAI 模型来改善电子商务支持和产品目录准确性，自动进行票证分类并大规模增强数百万个产品属性。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/wayfair"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "Wayfair 使用 OpenAI 模型来改善电子商务支持和产品目录准确性，自动进行票证分类并大规模增强数百万个产品属性。"
-      ],
-      "highlights": [
-        "Wayfair 使用 OpenAI 模型来改善电子商务支持和产品目录准确性，自动进行票证分类并大规模增强数百万个产品属性。"
-      ],
-      "translated": true,
-      "originalTitle": "Wayfair boosts catalog accuracy and support speed with OpenAI",
-      "originalLang": "en",
-      "date": "2026-09-25",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/wayfair",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Wayfair boosts catalog accuracy and support speed with OpenAI"
-      },
-      "raw": {
-        "title": "Wayfair boosts catalog accuracy and support speed with OpenAI",
-        "url": "https://openai.com/index/wayfair",
-        "fetched": false,
-        "savedAt": "2026-10-06T04:22:55.808Z",
-        "retranslatedAt": "2026-10-10T03:54:17.993Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-30b26e0786",
-      "title": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
-      "oneLiner": "In 2023 most people doubted that there could be more than 1 or 2 frontier model labs. Now there are ",
-      "summary": {
-        "oneSentence": "In 2023 most people doubted that there could be more than 1 or 2 frontier model labs. Now there are dozens.... and Strip",
-        "bullets": [
-          "In 2023 most people doubted that there could be more than 1 or 2 frontier model labs. Now there are dozens.... and Stripe just bought the best known one for $7B."
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://www.latent.space/p/openrouter"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "In 2023 most people doubted that there could be more than 1 or 2 frontier model labs. Now there are dozens.... and Stripe just bought the best known one for $7B."
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
-      "originalLang": "en",
-      "date": "2026-09-25",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Latent Space",
-        "author": "swyx",
-        "url": "https://www.latent.space/p/openrouter",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha"
-      },
-      "raw": {
-        "title": "OpenRouter: from Seed to Stripe — with OpenRouter’s Alex Atallah & AMP’s Anjney Midha",
-        "url": "https://www.latent.space/p/openrouter",
-        "fetched": false,
-        "savedAt": "2026-09-27T03:09:51.694Z"
-      }
-    },
-    {
-      "id": "sig-5bff2e7c4a",
-      "title": "Quoting John Gruber",
-      "oneLiner": "Muse is getting a lot of attention — including mine — because it’s both groundbreaking technically (",
-      "summary": {
-        "oneSentence": "Muse is getting a lot of attention — including mine — because it’s both groundbreaking technically (each user gets their",
-        "bullets": [
-          "Muse is getting a lot of attention — including mine — because it’s both groundbreaking technically (each user gets their own entire persistent Linux VM running in Meta’s cloud) and because it’s packag"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/25/john-gruber/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Muse is getting a lot of attention — including mine — because it’s both groundbreaking technically (each user gets their own entire persistent Linux VM running in Meta’s cloud) and because it’s packaged in an easy-to-install easy-to-use way. It’s literally presented as a cute mascot . It’s the first consumer-accessible agentic AI system, and Meta has truly done an amazing job with that. But it’s a genuinely open question whether consumers have any understanding what this means. If you buy a power saw that can cut your fingers off, you are almost certainly aware that you are buying a power saw that can sever your fingers. [...] I don’t think people realize how powerful — and thus dangerous — Muse is, especially if it’s running on your Mac. &mdash; John Gruber , Muse Looks Cute, but Looks are Deceiving Tags: meta , ai , llms , general-agents , generative-ai , john-gruber , muse-agent , muse"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Quoting John Gruber",
-      "originalLang": "en",
-      "date": "2026-09-25",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/25/john-gruber/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Quoting John Gruber"
-      },
-      "raw": {
-        "title": "Quoting John Gruber",
-        "url": "https://simonwillison.net/2026/Sep/25/john-gruber/",
-        "fetched": false,
-        "savedAt": "2026-09-27T03:09:52.495Z"
-      }
-    },
-    {
-      "id": "sig-658e36b5c1",
-      "title": "[AINews] The Future of Latent Space",
-      "oneLiner": "A quiet day lets us discuss the work behind the scenes - now open for business!",
-      "summary": {
-        "oneSentence": "A quiet day lets us discuss the work behind the scenes - now open for business!",
-        "bullets": [
-          "A quiet day lets us discuss the work behind the scenes - now open for business!"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://www.latent.space/p/ainews-the-future-of-latent-space"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "A quiet day lets us discuss the work behind the scenes - now open for business!"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "[AINews] The Future of Latent Space",
-      "originalLang": "en",
-      "date": "2026-09-25",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Latent Space",
-        "author": "swyx",
-        "url": "https://www.latent.space/p/ainews-the-future-of-latent-space",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "[AINews] The Future of Latent Space"
-      },
-      "raw": {
-        "title": "[AINews] The Future of Latent Space",
-        "url": "https://www.latent.space/p/ainews-the-future-of-latent-space",
-        "fetched": false,
-        "savedAt": "2026-09-28T03:06:19.526Z"
-      }
-    },
-    {
-      "id": "sig-28f369bbea",
-      "title": "Northern Gannet, Great Blue Heron, California Brown Pelican",
-      "oneLiner": "Northern Gannet, Great Blue Heron, California Brown Pelican, in Monterey Bay National Marine Sanctua",
-      "summary": {
-        "oneSentence": "Northern Gannet, Great Blue Heron, California Brown Pelican, in Monterey Bay National Marine Sanctuary, CA, US, CA New 2",
-        "bullets": [
-          "Northern Gannet, Great Blue Heron, California Brown Pelican, in Monterey Bay National Marine Sanctuary, CA, US, CA New 200-800mm Canon EF lens got me my best photo of Morris yet. They really like hang"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/25/sighting-403293902/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Northern Gannet, Great Blue Heron, California Brown Pelican, in Monterey Bay National Marine Sanctuary, CA, US, CA New 200-800mm Canon EF lens got me my best photo of Morris yet. They really like hanging out under that sign in the harbor! Tags: photography , wildlife"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Northern Gannet, Great Blue Heron, California Brown Pelican",
-      "originalLang": "en",
-      "date": "2026-09-25",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/25/sighting-403293902/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Northern Gannet, Great Blue Heron, California Brown Pelican"
-      },
-      "raw": {
-        "title": "Northern Gannet, Great Blue Heron, California Brown Pelican",
-        "url": "https://simonwillison.net/2026/Sep/25/sighting-403293902/",
-        "fetched": false,
-        "savedAt": "2026-09-28T03:06:20.327Z"
-      }
-    },
-    {
-      "id": "sig-6c1df0eaae",
-      "title": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
-      "oneLiner": "GWM Worlds 2 uses persistent context and timed actions to steer a world model generating video and a",
-      "summary": {
-        "oneSentence": "GWM Worlds 2 uses persistent context and timed actions to steer a world model generating video and audio in real time.",
-        "bullets": [
-          "GWM Worlds 2 uses persistent context and timed actions to steer a world model generating video and audio in real time."
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://www.latent.space/p/runway"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "GWM Worlds 2 uses persistent context and timed actions to steer a world model generating video and audio in real time."
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
-      "originalLang": "en",
-      "date": "2026-09-25",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Latent Space",
-        "author": "swyx",
-        "url": "https://www.latent.space/p/runway",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds"
-      },
-      "raw": {
-        "title": "Runway’s WorldPrompt and the Engineering of Real-Time Worlds",
-        "url": "https://www.latent.space/p/runway",
-        "fetched": false,
-        "savedAt": "2026-09-28T03:06:21.128Z"
       }
     }
   ]
