@@ -1,60 +1,60 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-09T04:08:57.091Z",
+  "updatedAt": "2026-11-10T05:39:21.513Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 412,
+  "itemCount": 421,
   "brief": {
-    "date": "2026-11-09",
-    "generatedAt": "2026-11-09T04:08:57.090Z",
-    "totalCount": 412,
+    "date": "2026-11-10",
+    "generatedAt": "2026-11-10T05:39:21.512Z",
+    "totalCount": 421,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 412 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 421 条",
     "topUpdates": [
       {
-        "id": "sig-0c1cf97223",
-        "title": "DeepSeek V4.1 Flash 1017 Ultrafast 现已在 AI Gateway - Vercel 上提供",
+        "id": "sig-7e73342e7e",
+        "title": "立即使用 Figma Agent 的 6 种简单方法 | Figma 博客",
         "stars": 4,
-        "oneLiner": "DeepSeek V4.1 Flash 1017 Ultrafast 现已通过 Fireworks 在 AI Gateway 上提供。该模型每秒可以生成多达 1,000 个代币。",
+        "oneLiner": "从使设计更具表现力和自动化繁琐的工作，到在画布上探索更多可能性，以下是使用 Figma 代理进一步推动设计师前进的六种方法。",
         "readMinutes": 5
       },
       {
-        "id": "sig-1564a9d4f1",
-        "title": "Token Pass 积分现在自动应用于 AI Gateway - Vercel",
+        "id": "sig-3545a23fc2",
+        "title": "Vercel Sandbox 快照创建速度现在提高了 10 倍 - Vercel",
         "stars": 4,
-        "oneLiner": "令牌通行证信用现在自动适用于通过 AI Gateway 包含的模型使用，无论请求是使用 API 密钥、OIDC 令牌还是 fx 登录进行身份验证。不需要专用的 Token Pass API 密钥，但您仍然可以从仪表板或 CLI 创建一个仅适",
+        "oneLiner": "Vercel Sandbox 现在创建快照的速度提高了 10 倍。拍摄快照的中位时间低于 0.4 秒，低于 4.4 秒。快照恢复速度也提高了 50%，从 p50 的 500 毫秒提高到 250 毫秒。",
         "readMinutes": 5
       },
       {
-        "id": "sig-ca6f08fa82",
-        "title": "聊天 SDK 代理现在可以使用 json-render 流式传输生成 UI - Vercel",
+        "id": "sig-9c331579e2",
+        "title": "ChatGPT Enterprise 现已在 AWS Marketplace 中提供",
         "stars": 4,
-        "oneLiner": "您现在可以使用 json-render 从 Chat SDK 代理流式传输生成 UI。",
+        "oneLiner": "ChatGPT Enterprise 现已通过 AWS Marketplace 提供，帮助组织通过现有的 AWS 采购和计费关系简化采购。",
         "readMinutes": 5
       },
       {
-        "id": "sig-8d6a841a49",
-        "title": "AI Gateway 添加 DeepSeek 搜索和 Fetch 工具 - Vercel",
+        "id": "sig-f37b680abc",
+        "title": "控制室：一个中央系统，用于跟踪和停止我们研究基础设施中的模型工作负载",
         "stars": 4,
-        "oneLiner": "DeepSeek Search 和 DeepSeek Fetch 现在可通过 AI Gateway 进行使用。搜索可查找包含标题、URL 和摘要的相关页面。 Fetch 以 Markdown 形式检索页面内容，供模型阅读。",
+        "oneLiner": "了解 OpenAI 的控制室如何跟踪我们研究基础设施中的模型工作负载，并在出现安全问题时快速阻止它们。",
         "readMinutes": 5
       },
       {
-        "id": "sig-650a3346e5",
-        "title": "对话：迪伦·菲尔德 (Dylan Field) 和大卫·弗里德伯格 (David Friedberg) 谈人类在人工智能创造中的角色 | Figma 博客",
+        "id": "sig-c0887ea342",
+        "title": "什么是 API 端点？实用指南",
         "stars": 4,
-        "oneLiner": "关于为什么设计是新的代码，塑造人工智能的创意输出，以及我们所做的事情背后的人类视觉和判断。",
+        "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
         "readMinutes": 5
       }
     ],
     "sections": {
       "topUpdates": [
-        "sig-0c1cf97223",
-        "sig-1564a9d4f1",
-        "sig-ca6f08fa82",
-        "sig-8d6a841a49",
-        "sig-650a3346e5",
-        "sig-fc7161ee6b"
+        "sig-7e73342e7e",
+        "sig-3545a23fc2",
+        "sig-9c331579e2",
+        "sig-f37b680abc",
+        "sig-c0887ea342",
+        "sig-278448d5d2"
       ],
       "newReleases": [
         "sig-fd1a4c4700",
@@ -64,14 +64,14 @@
         "sig-ecd4573e22"
       ],
       "insights": [
-        "sig-0c1cf97223",
-        "sig-1564a9d4f1",
-        "sig-ca6f08fa82",
-        "sig-8d6a841a49",
-        "sig-650a3346e5",
-        "sig-fc7161ee6b",
-        "sig-05a0335822",
-        "sig-12839cc6c8"
+        "sig-7e73342e7e",
+        "sig-3545a23fc2",
+        "sig-9c331579e2",
+        "sig-f37b680abc",
+        "sig-c0887ea342",
+        "sig-278448d5d2",
+        "sig-23b94c6976",
+        "sig-932fe34bad"
       ],
       "emergingTrends": [],
       "newApis": [],
@@ -92,8 +92,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-11-09T04:08:57.091Z",
-    "summary": "近 30 天共 278 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-11-10T05:39:21.513Z",
+    "summary": "近 30 天共 287 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -108,6 +108,54 @@
     "risingTags": []
   },
   "productUpdates": [
+    {
+      "id": "sig-9c331579e2",
+      "title": "ChatGPT Enterprise 现已在 AWS Marketplace 中提供",
+      "oneLiner": "ChatGPT Enterprise 现已通过 AWS Marketplace 提供，帮助组织通过现有的 AWS 采购和计费关系简化采购。",
+      "date": "2026-11-09",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-f37b680abc",
+      "title": "控制室：一个中央系统，用于跟踪和停止我们研究基础设施中的模型工作负载",
+      "oneLiner": "了解 OpenAI 的控制室如何跟踪我们研究基础设施中的模型工作负载，并在出现安全问题时快速阻止它们。",
+      "date": "2026-11-09",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-23b94c6976",
+      "title": "CodeRabbit 扩展了代理软件开发并将交付量增加了 20 倍",
+      "oneLiner": "CodeRabbit 使用 OpenAI 模型来管理和信任 AI 生成的代码，并使用 Codex 通过相同的工程团队交付 20 倍的软件。",
+      "date": "2026-11-09",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-932fe34bad",
+      "title": "Kuken Industries 在几分钟内搜索 70 年的图纸",
+      "oneLiner": "Kuken Industries 使用 OpenAI API 搜索 70 年来的冷却塔图纸。工程师只需 4.5 分钟即可找到维修图纸，而这一时间则缩短为近一个小时。",
+      "date": "2026-11-09",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
     {
       "id": "sig-bc8f9eac19",
       "title": "与 Hacktron 合作寻找 OpenAI 系统中的漏洞",
@@ -351,57 +399,795 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-a2357e701f",
-      "title": "思科如何利用 OpenAI 以机器速度进行防御",
-      "oneLiner": "思科将网络智能与 OpenAI 模型相结合，增强企业安全性。了解它如何构建更具适应性的防御。",
-      "date": "2026-11-03",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-08b710f1e7",
-      "title": "Heimstaden 正在利用人工智能改变住宅房地产管理",
-      "oneLiner": "了解 Heimstaden 如何使用 OpenAI 的 ChatGPT Enterprise 和 Codex 来转变整个欧洲的物业管理、削减成本并赋予员工权力。",
-      "date": "2026-11-03",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-3d509e27ba",
-      "title": "OpenAI 任命 Jill Hazelbaker 为首席企业事务官",
-      "oneLiner": "Jill Hazelbaker 将加入 OpenAI，担任首席企业事务官，领导公司的全球传播和企业定位。",
-      "date": "2026-11-03",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-6fd6ad7938",
-      "title": "用更大的错误赏金奖励防御者",
-      "oneLiner": "OpenAI 正在提高安全漏洞赏金奖励，并为独立安全研究人员引入报告质量、忠诚度和优先活动奖金。",
-      "date": "2026-11-02",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-7e73342e7e",
+      "title": "立即使用 Figma Agent 的 6 种简单方法 | Figma 博客",
+      "oneLiner": "从使设计更具表现力和自动化繁琐的工作，到在画布上探索更多可能性，以下是使用 Figma 代理进一步推动设计师前进的六种方法。",
+      "summary": {
+        "oneSentence": "从使设计更具表现力和自动化繁琐的工作，到在画布上探索更多可能性，以下是使用 Figma 代理进一步推动设计师前进的六种方法。",
+        "bullets": [
+          "从使设计更具表现力和自动化繁琐的工作，到在画布上探索更多可能性，以下是使用 Figma 代理进一步推动设计师前进的六种方法。",
+          "Figma 代理 Figma 设计代理就在这里 从今天开始，直接在画布上使用专为 Figma 构建的代理。",
+          "当会议或设计评审期间反馈大量涌入时，可能很难对其进行综合，确定哪些内容值得采取行动，并保留相关背景。使用连接器，您可以将会议记录或记录从 Granola、Notion 或 Google Drive 等工具引入 Figma 代理，并提示它在相关设计旁边添加反馈。这意味着您可以在会议期间专注于对话，知道您已经掌握了将讨论转",
+          "尝试一下：单击客服人员聊天框中的 +，打开连接器，然后连接会议记录或记录所在的应用程序。然后分享链接并提示代理：根据此记录中的暴击反馈注释此设计。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Figma 官网发布：从使设计更具表现力和自动化繁琐的工作，到在画布上探索更多可能性，以下是使用 Figma 代理进一步推动设计师前进的六种方法。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://www.figma.com/blog/6-easy-ways-to-use-the-figma-agent-right-now/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "从使设计更具表现力和自动化繁琐的工作，到在画布上探索更多可能性，以下是使用 Figma 代理进一步推动设计师前进的六种方法。",
+        "Figma 代理 Figma 设计代理就在这里 从今天开始，直接在画布上使用专为 Figma 构建的代理。",
+        "当会议或设计评审期间反馈大量涌入时，可能很难对其进行综合，确定哪些内容值得采取行动，并保留相关背景。使用连接器，您可以将会议记录或记录从 Granola、Notion 或 Google Drive 等工具引入 Figma 代理，并提示它在相关设计旁边添加反馈。这意味着您可以在会议期间专注于对话，知道您已经掌握了将讨论转化为下一步所需的信息。",
+        "尝试一下：单击客服人员聊天框中的 +，打开连接器，然后连接会议记录或记录所在的应用程序。然后分享链接并提示代理：根据此记录中的暴击反馈注释此设计。",
+        "技能是一组可重复使用的指令，您可以在 Figma 代理中使用斜线 ( / ) 命令触发。要使用 Figma 社区中的技能，请打开技能页面并单击“保存”，然后在代理的提示框中键入 / 将其选中。您还可以创建自己的工作流程来捕获您想要重复或与团队共享的工作流程。",
+        "当 Figma 文件中的评论堆积如山时，Figma 代理可以帮助您总结反馈并提出更新建议，将分散的评论转化为后续步骤。查看建议后，您还可以让代理将您同意的更改直接应用到您的设计中。",
+        "尝试一下：选择带有评论的框架，然后提示代理：总结对这些设计的反馈并提出更新建议。",
+        "要组织反馈，请尝试使用一项技能——一组可供客服人员重复使用的指令。使用 / 评论 - 尝试-考虑技巧将反馈组织成要做、尝试和考虑的事情。添加技能，然后提示代理：使用 /comments-do-try-consider 对此设计的评论进行排序，并将摘要添加到旁边的新框架中。",
+        "与 Figma 代理合作构建自定义着色器，为您的设计提供独特的外观。着色器（由代码支持的效果或填充）可以为设计提供独特的风格，例如液态金属、颗粒、玻璃变形或全息纹理。假设您想要创建一个自定义着色器，为您的照片提供颗粒感、复古的外观。您可以直接向座席描述效果，并通过提示进行完善。如果您是着色器新手，/shader-starter 技能可以帮助您入门。然后，您可以提示代理将效果应用到其他照片，包括来自连接的 Google 云端硬盘文件夹的图像。",
+        "尝试一下：在您的设计中选择一张照片，然后提示代理：创建一个自定义着色器，使这张照片具有颗粒感、复古的外观。"
+      ],
+      "highlights": [
+        "从使设计更具表现力和自动化繁琐的工作，到在画布上探索更多可能性，以下是使用 Figma 代理进一步推动设计师前进的六种方法。",
+        "Figma 代理 Figma 设计代理就在这里 从今天开始，直接在画布上使用专为 Figma 构建的代理。",
+        "当会议或设计评审期间反馈大量涌入时，可能很难对其进行综合，确定哪些内容值得采取行动，并保留相关背景。使用连接器，您可以将会议记录或记录从 Granola、Not"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "6 Easy Ways to Use the Figma Agent Right Now | Figma Blog",
+      "originalLang": "en",
+      "date": "2026-11-09",
+      "categoryIds": [
+        "vertical-ui"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Figma",
+        "author": "Figma",
+        "url": "https://www.figma.com/blog/6-easy-ways-to-use-the-figma-agent-right-now/",
+        "home": "https://www.figma.com/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "6 Easy Ways to Use the Figma Agent Right Now | Figma Blog"
+      },
+      "raw": {
+        "title": "6 easy ways to use the Figma agent right now",
+        "url": "https://www.figma.com/blog/6-easy-ways-to-use-the-figma-agent-right-now/",
+        "fetched": true,
+        "savedAt": "2026-11-10T05:38:39.491Z"
+      }
+    },
+    {
+      "id": "sig-3545a23fc2",
+      "title": "Vercel Sandbox 快照创建速度现在提高了 10 倍 - Vercel",
+      "oneLiner": "Vercel Sandbox 现在创建快照的速度提高了 10 倍。拍摄快照的中位时间低于 0.4 秒，低于 4.4 秒。快照恢复速度也提高了 50%，从 p50 的 500 毫秒提高到 250 毫秒。",
+      "summary": {
+        "oneSentence": "Vercel Sandbox 现在创建快照的速度提高了 10 倍。拍摄快照的中位时间低于 0.4 秒，低于 4.4 秒。快照恢复速度也提高了 50%，从 p50 的 500 毫秒提高到 250 毫秒。",
+        "bullets": [
+          "Vercel Sandbox 现在创建快照的速度提高了 10 倍。拍摄快照的中位时间低于 0.4 秒，低于 4.4 秒。快照恢复速度也提高了 50%，从 p50 的 500 毫秒提高到 250 毫秒。",
+          "现在可以通过重复使用 Vercel Hive 快照 (VHS) 格式中的帧来写入和恢复快照。 VHS 现在以更有效的方式索引数据，这意味着可以并行完成更多的读写操作。快照现在可以与用户数据并行恢复更多沙箱基础映像，从而整体上加快操作速度。",
+          "持久沙箱（默认情况下）会在会话停止时自动生成快照并从最新快照恢复。这适用于所有新快照，无需配置任何内容。现有快照保留以前的格式。",
+          "在快照文档中了解更多信息。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel Sandbox 现在创建快照的速度提高了 10 倍。拍摄快照的中位时间低于 0.4 秒，低于 4.4 秒。快照恢复速度也提高了 50%，从 p50 的 500 毫秒提高到 250 毫秒。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-sandbox-snapshot-creation-is-now-up-to-10x-faster"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Sandbox 现在创建快照的速度提高了 10 倍。拍摄快照的中位时间低于 0.4 秒，低于 4.4 秒。快照恢复速度也提高了 50%，从 p50 的 500 毫秒提高到 250 毫秒。",
+        "现在可以通过重复使用 Vercel Hive 快照 (VHS) 格式中的帧来写入和恢复快照。 VHS 现在以更有效的方式索引数据，这意味着可以并行完成更多的读写操作。快照现在可以与用户数据并行恢复更多沙箱基础映像，从而整体上加快操作速度。",
+        "持久沙箱（默认情况下）会在会话停止时自动生成快照并从最新快照恢复。这适用于所有新快照，无需配置任何内容。现有快照保留以前的格式。",
+        "在快照文档中了解更多信息。"
+      ],
+      "highlights": [
+        "Vercel Sandbox 现在创建快照的速度提高了 10 倍。拍摄快照的中位时间低于 0.4 秒，低于 4.4 秒。快照恢复速度也提高了 50%，从 p50",
+        "现在可以通过重复使用 Vercel Hive 快照 (VHS) 格式中的帧来写入和恢复快照。 VHS 现在以更有效的方式索引数据，这意味着可以并行完成更多的读写",
+        "持久沙箱（默认情况下）会在会话停止时自动生成快照并从最新快照恢复。这适用于所有新快照，无需配置任何内容。现有快照保留以前的格式。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Sandbox snapshot creation is now up to 10x faster - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-09",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-sandbox-snapshot-creation-is-now-up-to-10x-faster",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Sandbox snapshot creation is now up to 10x faster - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Sandbox snapshot creation is now up to 10x faster",
+        "url": "https://vercel.com/changelog/vercel-sandbox-snapshot-creation-is-now-up-to-10x-faster",
+        "fetched": true,
+        "savedAt": "2026-11-10T05:38:43.387Z"
+      }
+    },
+    {
+      "id": "sig-9c331579e2",
+      "title": "ChatGPT Enterprise 现已在 AWS Marketplace 中提供",
+      "oneLiner": "ChatGPT Enterprise 现已通过 AWS Marketplace 提供，帮助组织通过现有的 AWS 采购和计费关系简化采购。",
+      "summary": {
+        "oneSentence": "ChatGPT Enterprise 现已通过 AWS Marketplace 提供，帮助组织通过现有的 AWS 采购和计费关系简化采购。",
+        "bullets": [
+          "ChatGPT Enterprise 现已通过 AWS Marketplace 提供，帮助组织通过现有的 AWS 采购和计费关系简化采购。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：ChatGPT Enterprise 现已通过 AWS Marketplace 提供，帮助组织通过现有的 AWS 采购和计费关系简化采购。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/chatgpt-enterprise-aws-marketplace"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "ChatGPT Enterprise 现已通过 AWS Marketplace 提供，帮助组织通过现有的 AWS 采购和计费关系简化采购。"
+      ],
+      "highlights": [
+        "ChatGPT Enterprise 现已通过 AWS Marketplace 提供，帮助组织通过现有的 AWS 采购和计费关系简化采购。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "ChatGPT Enterprise now available in AWS Marketplace",
+      "originalLang": "en",
+      "date": "2026-11-09",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "ChatGPT Enterprise now available in AWS Marketplace"
+      },
+      "raw": {
+        "title": "ChatGPT Enterprise now available in AWS Marketplace",
+        "url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+        "fetched": false,
+        "savedAt": "2026-11-10T05:38:44.622Z"
+      }
+    },
+    {
+      "id": "sig-f37b680abc",
+      "title": "控制室：一个中央系统，用于跟踪和停止我们研究基础设施中的模型工作负载",
+      "oneLiner": "了解 OpenAI 的控制室如何跟踪我们研究基础设施中的模型工作负载，并在出现安全问题时快速阻止它们。",
+      "summary": {
+        "oneSentence": "了解 OpenAI 的控制室如何跟踪我们研究基础设施中的模型工作负载，并在出现安全问题时快速阻止它们。",
+        "bullets": [
+          "了解 OpenAI 的控制室如何跟踪我们研究基础设施中的模型工作负载，并在出现安全问题时快速阻止它们。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：了解 OpenAI 的控制室如何跟踪我们研究基础设施中的模型工作负载，并在出现安全问题时快速阻止它们。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/control-room"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "了解 OpenAI 的控制室如何跟踪我们研究基础设施中的模型工作负载，并在出现安全问题时快速阻止它们。"
+      ],
+      "highlights": [
+        "了解 OpenAI 的控制室如何跟踪我们研究基础设施中的模型工作负载，并在出现安全问题时快速阻止它们。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "originalLang": "en",
+      "date": "2026-11-09",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/control-room",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Control Room: A central system to track and stop model workloads across our research infrastructure"
+      },
+      "raw": {
+        "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+        "url": "https://openai.com/index/control-room",
+        "fetched": false,
+        "savedAt": "2026-11-10T05:38:45.850Z"
+      }
+    },
+    {
+      "id": "sig-c0887ea342",
+      "title": "什么是 API 端点？实用指南",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
+          "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_hlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 获取 API 密钥 了解更多 在此页面",
+          "API（应用程序编程接口）端点是 API 接收请求并发回响应的特定 URL。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/what-is-an-api-endpoint"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
+        "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_hlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 获取 API 密钥 了解更多 博客资源 什么是 API 端点？连接软件指南 作者：Jack Limebear 发布日期：2026 年 11 月 9 日 最后更新日期：2026 年 11 月 10 日 听 听这篇文章",
+        "0:00 1.0x 获取 API 密钥 了解更多 在此页面",
+        "API（应用程序编程接口）端点是 API 接收请求并发回响应的特定 URL。",
+        "API 端点充当应用程序连接到服务器以请求数据或运行命令的确切 Web 地址。虽然传统架构仍在使用，但现代应用程序依赖 REST API 来处理跨不同服务的 HTTP 请求。",
+        "本指南介绍了端点如何处理请求、如何格式化调用以及如何在生产环境中维护 API 端点安全。我们还将向您展示如何使用 ElevenAPI 干净地连接您的系统，并交付可用于生产的音频工作流程。",
+        "API 端点是 API 用于接收请求和返回响应的数字位置。客户端应用程序使用绑定到此端点的特定 URL 来访问服务器资源。",
+        "每个端点路由通过将 HTTP 方法与资源路径配对来处理不同的交互。客户端向该路由发送请求，服务器在发送带有状态代码的响应之前处理数据。",
+        "例如，当应用程序请求用户元数据或提交数据负载时，它会向 API 服务器上托管的指定端点 URL 发送 HTTP 请求。",
+        "虽然术语 API、API 端点和 URL 经常一起使用，但它们代表软件架构的不同组件。"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模",
+        "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 获取 API 密钥 了解更多 在此页面"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "What Is an API Endpoint? A Practical Guide",
+      "originalLang": "en",
+      "date": "2026-11-09",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/what-is-an-api-endpoint",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "What Is an API Endpoint? A Practical Guide"
+      },
+      "raw": {
+        "title": "What is an API endpoint? A guide to connected software",
+        "url": "https://elevenlabs.io/blog/what-is-an-api-endpoint",
+        "fetched": true,
+        "savedAt": "2026-11-10T05:38:53.451Z"
+      }
+    },
+    {
+      "id": "sig-278448d5d2",
+      "title": "介绍 ElevenAgents Campaign Manager |十一实验室",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
+          "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_hlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 查看 ElevenAgents 联系销售人员 在此页面",
+          "开展外拨营销活动的团队知道，联系和转换联系人需要的不仅仅是列表和拨号器。它需要在正确的时间进行跟进，清楚地了解每个联系人的立场，并控制每个呼叫的保留。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 4,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/elevenagents-campaign-manager"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
+        "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_hlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 查看 ElevenAgents 联系销售博客 产品 ElevenAgents 营销经理负责与每个联系人取得成果 作者：Janpreet Khabra Eli Goodman 发布于 2026 年 11 月 9 日 听 听这篇文章",
+        "0:00 1.0x 查看 ElevenAgents 联系销售人员 在此页面",
+        "开展外拨营销活动的团队知道，联系和转换联系人需要的不仅仅是列表和拨号器。它需要在正确的时间进行跟进，清楚地了解每个联系人的立场，并控制每个呼叫的保留。",
+        "这就是我们推出 ElevenAgents Campaign Manager 的原因，它旨在帮助运营外呼的团队在销售、保留、患者护理、收款、客户服务和招聘方面取得成果。给它你的联系人和结果，例如合格的潜在客户或已确认的预约，它会智能地运行活动以达到目标，随着时间的推移跟踪每个联系人并在接触之间携带上下文。",
+        "取消静音 联系并转化更多联系人 借助 Campaign Manager，您的客服人员可以在您设置的时间内呼叫联系人，并将之前互动的背景信息带入每个呼叫中​​。根据呼叫是否被应答或转到语音信箱，它可能会稍后重试，预订该人要求的时间，或者转移到帐户中的另一个号码或其他人。一旦达到结果或客户要求停止，它就会停止。",
+        "以一家开展续订活动的电信公司为例。代理在周二下午致电订户，但没有得到答复，并安排在您的呼叫窗口内重试。第二次尝试时，她接起电话并说她的女儿负责管理家庭计划。代理人确认女儿已在该帐户中，然后给她打电话，并引导她完成续订。",
+        "Campaign Manager 已与保险、银行、电子商务和其他行业的客户进行测试，运行实时对外营销活动。保险公司使用它来处理整个每日潜在客户列表，并让代理重试无法联系到的联系人。一家欧洲银行正在接触可能对其新信用卡计划、合格利息感兴趣的潜在客户，并将完成每笔销售所需的背景信息移交给客户关系经理。",
+        "过去，我们通常一天会接通 50% 到 60% 的潜在客户。借助 ElevenAgents Campaign Manager，我们完成了 100%，并且语音邮件检测比我们以前的系统要好得多。",
+        "通过全面的活动分析，销售经理可以知道哪些潜在客户是合格的、哪些潜在客户正在处理中、哪些潜在客户今天需要销售代表；保留主管可以查看哪些客户已续订、哪些客户仍在飞行中以及哪些客户要求回电。"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模",
+        "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 查看 ElevenAgents 联系销售人员 在此页面"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Introducing ElevenAgents Campaign Manager | ElevenLabs",
+      "originalLang": "en",
+      "date": "2026-11-09",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/elevenagents-campaign-manager",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Introducing ElevenAgents Campaign Manager | ElevenLabs"
+      },
+      "raw": {
+        "title": "ElevenAgents Campaign Manager works every contact to an outcome",
+        "url": "https://elevenlabs.io/blog/elevenagents-campaign-manager",
+        "fetched": true,
+        "savedAt": "2026-11-10T05:39:01.484Z"
+      }
+    },
+    {
+      "id": "sig-23b94c6976",
+      "title": "CodeRabbit 扩展了代理软件开发并将交付量增加了 20 倍",
+      "oneLiner": "CodeRabbit 使用 OpenAI 模型来管理和信任 AI 生成的代码，并使用 Codex 通过相同的工程团队交付 20 倍的软件。",
+      "summary": {
+        "oneSentence": "CodeRabbit 使用 OpenAI 模型来管理和信任 AI 生成的代码，并使用 Codex 通过相同的工程团队交付 20 倍的软件。",
+        "bullets": [
+          "CodeRabbit 使用 OpenAI 模型来管理和信任 AI 生成的代码，并使用 Codex 通过相同的工程团队交付 20 倍的软件。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：CodeRabbit 使用 OpenAI 模型来管理和信任 AI 生成的代码，并使用 Codex 通过相同的工程团队交付 20 倍的软件。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/coderabbit-codex-daybreak"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "CodeRabbit 使用 OpenAI 模型来管理和信任 AI 生成的代码，并使用 Codex 通过相同的工程团队交付 20 倍的软件。"
+      ],
+      "highlights": [
+        "CodeRabbit 使用 OpenAI 模型来管理和信任 AI 生成的代码，并使用 Codex 通过相同的工程团队交付 20 倍的软件。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "CodeRabbit scales agentic software development and ships 20x more",
+      "originalLang": "en",
+      "date": "2026-11-09",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/coderabbit-codex-daybreak",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "CodeRabbit scales agentic software development and ships 20x more"
+      },
+      "raw": {
+        "title": "CodeRabbit scales agentic software development and ships 20x more",
+        "url": "https://openai.com/index/coderabbit-codex-daybreak",
+        "fetched": false,
+        "savedAt": "2026-11-10T05:39:02.728Z"
+      }
+    },
+    {
+      "id": "sig-932fe34bad",
+      "title": "Kuken Industries 在几分钟内搜索 70 年的图纸",
+      "oneLiner": "Kuken Industries 使用 OpenAI API 搜索 70 年来的冷却塔图纸。工程师只需 4.5 分钟即可找到维修图纸，而这一时间则缩短为近一个小时。",
+      "summary": {
+        "oneSentence": "Kuken Industries 使用 OpenAI API 搜索 70 年来的冷却塔图纸。工程师只需 4.5 分钟即可找到维修图纸，而这一时间则缩短为近一个小时。",
+        "bullets": [
+          "Kuken Industries 使用 OpenAI API 搜索 70 年来的冷却塔图纸。工程师只需 4.5 分钟即可找到维修图纸，而这一时间则缩短为近一个小时。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：Kuken Industries 使用 OpenAI API 搜索 70 年来的冷却塔图纸。工程师只需 4.5 分钟即可找到维修图纸，而这一时间则缩短为近一个小时。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/kuken"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Kuken Industries 使用 OpenAI API 搜索 70 年来的冷却塔图纸。工程师只需 4.5 分钟即可找到维修图纸，而这一时间则缩短为近一个小时。"
+      ],
+      "highlights": [
+        "Kuken Industries 使用 OpenAI API 搜索 70 年来的冷却塔图纸。工程师只需 4.5 分钟即可找到维修图纸，而这一时间则缩短为近一个小"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Kuken Industries searches 70 years of drawings in minutes",
+      "originalLang": "en",
+      "date": "2026-11-09",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/kuken",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Kuken Industries searches 70 years of drawings in minutes"
+      },
+      "raw": {
+        "title": "Kuken Industries searches 70 years of drawings in minutes",
+        "url": "https://openai.com/index/kuken",
+        "fetched": false,
+        "savedAt": "2026-11-10T05:39:03.949Z"
+      }
+    },
+    {
+      "id": "sig-ff1e884cda",
+      "title": "决策模型处理了 26% 的请求； Anthropic 现在以 2:1 赢得新队伍",
+      "oneLiner": "AI 网关生产指数 — 2026 年 11 月",
+      "summary": {
+        "oneSentence": "AI 网关生产指数 — 2026 年 11 月",
+        "bullets": [
+          "AI 网关生产指数 — 2026 年 11 月",
+          "每个月，AI Gateway 在生产应用程序和 AI 实验室之间路由超过 100 万亿个代币。这些流量让我们了解了当今企业和初创企业在语言、决策、语音、图像和视频模型方面的人工智能使用情况。我们每月在此发布。请参阅八月、九月和十月的生产指数报告。",
+          "将链接复制到标题 2026 年 11 月 摘要 在六周内，决策模型增长到四分之一的网关请求，同时占每一美元支出的半美分。十月份，接近三分之一的付费团队使用了它。在每月处理超过 100 亿个代币的团队中，十分之七使用决策模型。",
+          "10 月份，大约 11% 的付费团队使用语音模型，高于 7 月份的 4%。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：AI 网关生产指数 — 2026 年 11 月",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/ai-gateway-production-index-november-2026"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "AI 网关生产指数 — 2026 年 11 月",
+        "每个月，AI Gateway 在生产应用程序和 AI 实验室之间路由超过 100 万亿个代币。这些流量让我们了解了当今企业和初创企业在语言、决策、语音、图像和视频模型方面的人工智能使用情况。我们每月在此发布。请参阅八月、九月和十月的生产指数报告。",
+        "将链接复制到标题 2026 年 11 月 摘要 在六周内，决策模型增长到四分之一的网关请求，同时占每一美元支出的半美分。十月份，接近三分之一的付费团队使用了它。在每月处理超过 100 亿个代币的团队中，十分之七使用决策模型。",
+        "10 月份，大约 11% 的付费团队使用语音模型，高于 7 月份的 4%。",
+        "OpenAI 和 Anthropic 现在在付费团队中所占的份额大致相同，而 10 月份的新团队选择 Anthropic 的比例几乎是二比一。与此同时，自去年 12 月以来，OpenAI 的网关支出份额增加了三分之二。",
+        "超过一半的语言模型请求发送给了不到两个月的模型，而这一数字从不到十分之三增加到了。在典型模型使用高峰后的一个月内，使用该模型的团队中有四分之三已经离开。",
+        "将链接复制到标题 决策模型占所有请求的 26% 生产 AI 分为两个工作：生成和判断。直到最近，当软件需要进行快速调用时，团队可以使用廉价但严格的固定规则，或者智能但缓慢且昂贵的语言模型。",
+        "决策模型现在是第三种选择。它们对选项进行分类、评分或选择，而不是生成文本，每个请求的成本约为语言模型的七十分之一。",
+        "他们于 9 月中旬抵达 AI Gateway，现在有来自 8 个不同供应商的 15 种决策模型。 10 月份，AI Gateway 上近三分之一的付费团队使用了决策模型。大约 11% 的付费团队使用决策模型，但没有向文本生成模型发送单个请求。",
+        "决策模型的每个代币成本要低得多，而且给出的答案也非常简短，因此，尽管他们在 10 月份收到了大约四分之一的网关请求，但它们只占总支出的 0.53%。"
+      ],
+      "highlights": [
+        "AI 网关生产指数 — 2026 年 11 月",
+        "每个月，AI Gateway 在生产应用程序和 AI 实验室之间路由超过 100 万亿个代币。这些流量让我们了解了当今企业和初创企业在语言、决策、语音、图像和视",
+        "将链接复制到标题 2026 年 11 月 摘要 在六周内，决策模型增长到四分之一的网关请求，同时占每一美元支出的半美分。十月份，接近三分之一的付费团队使用了它。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Decision models take 26% of requests; Anthropic now wins new teams 2:1",
+      "originalLang": "en",
+      "date": "2026-11-09",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/ai-gateway-production-index-november-2026",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Decision models take 26% of requests; Anthropic now wins new teams 2:1"
+      },
+      "raw": {
+        "title": "Decision models take 26% of requests; Anthropic now wins new teams 2:1",
+        "url": "https://vercel.com/blog/ai-gateway-production-index-november-2026",
+        "fetched": true,
+        "savedAt": "2026-11-10T05:39:11.661Z"
+      }
+    },
+    {
+      "id": "sig-d9a12df5a5",
+      "title": "GLM 5.3 Flash 现已在 Token Pass 中提供 - Vercel",
+      "oneLiner": "Token Pass 现在包括 GLM 5.3 Flash，以及 Kimi K3、GLM 5.3 和 DeepSeek V4.1 Flash（即将推出更多型号）。 GLM 5.3 Flash 是 Z.ai 的原生多模式编码模型，具有 1M ",
+      "summary": {
+        "oneSentence": "Token Pass 现在包括 GLM 5.3 Flash，以及 Kimi K3、GLM 5.3 和 DeepSeek V4.1 Flash（即将推出更多型号）。 GLM 5.3 Flash 是 Z.ai 的原生多模式编码模型，具有 1M ",
+        "bullets": [
+          "Token Pass 现在包括 GLM 5.3 Flash，以及 Kimi K3、GLM 5.3 和 DeepSeek V4.1 Flash（即将推出更多型号）。 GLM 5.3 Flash 是 Z.ai 的原生多模式编码模型，具有 1M 令牌上下文窗口。",
+          "Token Pass 是 Pro 团队每月 30 美元的订阅，每月提供 80 美元的积分，并通过 AI Gateway 运行。将其与任何编码代理（例如 fx 、 Pi 、 Cline 、命令代码等）一起使用，或者使用 AI SDK 构建您自己的代理，默认情况下启用零数据保留。",
+          "从团队 AI Gateway 仪表板的“令牌通行证”页面添加 GLM 5.3 Flash，或阅读“令牌通行证”文档进行设置。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Token Pass 现在包括 GLM 5.3 Flash，以及 Kimi K3、GLM 5.3 和 DeepSeek V4.1 Flash（即将推出更多型号）。 GLM 5.3 Flash 是 Z.ai 的原生多模式编码模型，具有 1M ",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/glm-5-3-flash-is-now-available-in-token-pass"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Token Pass 现在包括 GLM 5.3 Flash，以及 Kimi K3、GLM 5.3 和 DeepSeek V4.1 Flash（即将推出更多型号）。 GLM 5.3 Flash 是 Z.ai 的原生多模式编码模型，具有 1M 令牌上下文窗口。",
+        "Token Pass 是 Pro 团队每月 30 美元的订阅，每月提供 80 美元的积分，并通过 AI Gateway 运行。将其与任何编码代理（例如 fx 、 Pi 、 Cline 、命令代码等）一起使用，或者使用 AI SDK 构建您自己的代理，默认情况下启用零数据保留。",
+        "从团队 AI Gateway 仪表板的“令牌通行证”页面添加 GLM 5.3 Flash，或阅读“令牌通行证”文档进行设置。"
+      ],
+      "highlights": [
+        "Token Pass 现在包括 GLM 5.3 Flash，以及 Kimi K3、GLM 5.3 和 DeepSeek V4.1 Flash（即将推出更多型号）",
+        "Token Pass 是 Pro 团队每月 30 美元的订阅，每月提供 80 美元的积分，并通过 AI Gateway 运行。将其与任何编码代理（例如 fx 、",
+        "从团队 AI Gateway 仪表板的“令牌通行证”页面添加 GLM 5.3 Flash，或阅读“令牌通行证”文档进行设置。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "GLM 5.3 Flash is now available in Token Pass - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-09",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/glm-5-3-flash-is-now-available-in-token-pass",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "GLM 5.3 Flash is now available in Token Pass - Vercel"
+      },
+      "raw": {
+        "title": "GLM 5.3 Flash is now available in Token Pass",
+        "url": "https://vercel.com/changelog/glm-5-3-flash-is-now-available-in-token-pass",
+        "fetched": true,
+        "savedAt": "2026-11-10T05:39:15.087Z"
+      }
+    },
     {
       "id": "sig-0c1cf97223",
       "title": "DeepSeek V4.1 Flash 1017 Ultrafast 现已在 AI Gateway - Vercel 上提供",
@@ -1461,7 +2247,7 @@
         "url": "https://cursor.com/changelog/voice-chat",
         "fetched": true,
         "savedAt": "2026-11-08T03:54:06.689Z",
-        "retranslatedAt": "2026-11-09T04:08:51.802Z"
+        "retranslatedAt": "2026-11-10T05:39:16.281Z"
       }
     },
     {
@@ -2580,7 +3366,7 @@
         "url": "https://cursor.com/changelog/build-live-apps",
         "fetched": true,
         "savedAt": "2026-11-08T03:54:30.136Z",
-        "retranslatedAt": "2026-11-09T04:08:52.869Z"
+        "retranslatedAt": "2026-11-10T05:39:17.327Z"
       }
     },
     {
@@ -17457,7 +18243,7 @@
         "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
         "fetched": true,
         "savedAt": "2026-10-17T02:36:45.886Z",
-        "retranslatedAt": "2026-11-09T04:08:53.992Z"
+        "retranslatedAt": "2026-11-10T05:39:18.554Z"
       }
     },
     {
@@ -21055,7 +21841,7 @@
         "url": "https://cursor.com/changelog/origin-app-marketplace",
         "fetched": true,
         "savedAt": "2026-10-14T03:08:22.474Z",
-        "retranslatedAt": "2026-11-09T04:08:55.050Z"
+        "retranslatedAt": "2026-11-10T05:39:19.564Z"
       }
     },
     {
@@ -26594,7 +27380,7 @@
         "url": "https://cursor.com/changelog/remote-control-local-agents",
         "fetched": true,
         "savedAt": "2026-10-11T03:27:39.323Z",
-        "retranslatedAt": "2026-11-09T04:08:56.288Z"
+        "retranslatedAt": "2026-11-10T05:39:20.710Z"
       }
     },
     {
@@ -32962,74 +33748,6 @@
         "url": "https://simonwillison.net/2026/Sep/27/bluesky-bot-check/",
         "fetched": false,
         "savedAt": "2026-09-28T03:06:18.725Z"
-      }
-    },
-    {
-      "id": "sig-ffc80d14a5",
-      "title": "Kākāpō Party",
-      "oneLiner": "Tool: Kākāpō Party I presented a closing keynote for the WeAreDevelopers World Congress North Americ",
-      "summary": {
-        "oneSentence": "Tool: Kākāpō Party I presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a ST",
-        "bullets": [
-          "Tool: Kākāpō Party I presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a STAR moment I decided to weave in references to the record breaking kākāpō breedin"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Sep/26/kakapo-party/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Tool: Kākāpō Party I presented a closing keynote for the WeAreDevelopers World Congress North America yesterday. As a STAR moment I decided to weave in references to the record breaking kākāpō breeding season we had in 2026. For my closing slide I wanted to celebrate, and I had seen some buzz around how good Claude Opus 5.5 was at creating pixel art animations. So I rounded up three Kakapo photos from Google image search and dropped them into Claude with this prompt: Here are some photos of kakapo parrots just to remind you what they look like I need you to make an animation in animated pixel art on HTML 5 canvas of obviously pixel art kakapo jumping up and down having a party with confetti and suchlike - there should be at least 20 of them Here's the transcript , and this is the resulting page . It's pretty great! I wanted to embed it in a Keynote presentation file, so I downloaded the HTML and told a local Claude Code session: Make me a video of file:///Users/simon/Downloads/kakapo-party.html - you need to load it in a browser and click on it a few times to get the confetti effect, the video should be 15s long don't start clicking until 3s in make sure several clicks are spread around the clickable area Claude Code used Playwright ( transcript here ) and produced this video, which was exactly what I needed for my final slide: Your browser does not support HTML5 video. Here's the full Playwright script it used, which was pleasingly short: # /// script # dependencies = [\"playwright\"] # /// import time from playwright . sync_api import sync_playwright W , H = 1280 , 720 # Canvas fills the viewport; spread clicks across corners, edges and centre clicks = [ ( 3.0 , 640 , 360 ), # centre ( 4.2 , 160 , 120 ), # top-left ( 5.4 , 1120 , 120 ), # top-right ( 6.6 , 180 , 600 ), # bottom-left ( 7.8 , 1100 , 600 ), # bottom-right ( 9.0 , 640 , 100 ), # top-centre ( 10.0 , 380 , 380 ), # mid-left ( 11.0 , 900 , 380 ), # mid-right ( 12.2 , 640 , 620 ), # bottom-centre ( 13.2 , 640 , 300 ), # finale centre ] with sync_playwright () as p : b = p . chromium . launch () ctx = b . new_context ( viewport = { \"width\" : W , \"height\" : H }, record_video_dir = \"vids\" , record_video_size = { \"width\" : W , \"height\" : H }) page = ctx . new_page () t0 = time . time () page . goto ( \"file:///Users/simon/Downloads/kakapo-party.html\" ) for t , x , y in clicks : time . sleep ( max ( 0 , t - ( time . time () - t0 ))) page . mouse . click ( x , y ) time . sleep ( max ( 0 , 16.0 - ( time . time () - t0 ))) ctx . close (); b . close () Tags: animation , speaking , ai , kakapo , playwright , generative-ai , llms , anthropic , claude , claude-code"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Kākāpō Party",
-      "originalLang": "en",
-      "date": "2026-09-26",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Kākāpō Party"
-      },
-      "raw": {
-        "title": "Kākāpō Party",
-        "url": "https://simonwillison.net/2026/Sep/26/kakapo-party/",
-        "fetched": false,
-        "savedAt": "2026-09-27T03:09:50.894Z"
       }
     }
   ]
