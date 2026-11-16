@@ -1,16 +1,37 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-15T04:23:19.694Z",
+  "updatedAt": "2026-11-16T04:22:12.154Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 410,
+  "itemCount": 408,
   "brief": {
-    "date": "2026-11-15",
-    "generatedAt": "2026-11-15T04:23:19.693Z",
-    "totalCount": 410,
+    "date": "2026-11-16",
+    "generatedAt": "2026-11-16T04:22:12.154Z",
+    "totalCount": 408,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 410 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 408 条",
     "topUpdates": [
+      {
+        "id": "sig-87d7014c15",
+        "title": "在晶格上定义标准模型的一步",
+        "stars": 4,
+        "oneLiner": "探索标准模型的候选非微扰晶格定义，以及 GPT-6 Astra 如何帮助将这个想法转化为详细的证明。",
+        "readMinutes": 5
+      },
+      {
+        "id": "sig-4b0fc5b701",
+        "title": "我们的新科学博客",
+        "stars": 4,
+        "oneLiner": "OpenAI 科学博客分享了研究人员使用人工智能推进科学发现的新发现、实用方法和第一手资料。",
+        "readMinutes": 5
+      },
+      {
+        "id": "sig-0d9461929c",
+        "title": "Qwen4-Max 现已在 AI 网关上可用 - Vercel",
+        "stars": 4,
+        "oneLiner": "阿里巴巴的Qwen4-Max现已在AI Gateway上上线。它是 Qwen4 系列中的第一个模型：具有原生视觉和 1M 代币上下文窗口的推理模型，专为编码、专业工作和长时间运行的代理任务而构建。",
+        "readMinutes": 5
+      },
       {
         "id": "sig-3199ec5d7e",
         "title": "守护进程现在可以将跟踪发送到 Vercel Tracing - Vercel",
@@ -24,37 +45,16 @@
         "stars": 4,
         "oneLiner": "人工智能可以为我们完成创作过程的哪些部分，而我们坚持保留哪些部分？",
         "readMinutes": 5
-      },
-      {
-        "id": "sig-e7df57a427",
-        "title": "Token Pass 现在包含 150 美元的代币，每月 30 美元 - Vercel",
-        "stars": 4,
-        "oneLiner": "Vercel 代币通行证现在包括每月 150 美元的代币（原为 80 美元），而每个团队每月 30 美元。",
-        "readMinutes": 5
-      },
-      {
-        "id": "sig-5bf4951adb",
-        "title": "ChatGPT 钱包简介",
-        "stars": 4,
-        "oneLiner": "隆重推出 ChatGPT 钱包，这是 ChatGPT Work、Codex 和dots 中的代理在用户批准和现有卡保护的情况下完成购买的安全方式。",
-        "readMinutes": 5
-      },
-      {
-        "id": "sig-98fa1e92ab",
-        "title": "开源 TTS 与付费 API：如何选择合适的",
-        "stars": 4,
-        "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
-        "readMinutes": 5
       }
     ],
     "sections": {
       "topUpdates": [
+        "sig-87d7014c15",
+        "sig-4b0fc5b701",
+        "sig-0d9461929c",
         "sig-3199ec5d7e",
         "sig-a2e44c4025",
-        "sig-e7df57a427",
-        "sig-5bf4951adb",
-        "sig-98fa1e92ab",
-        "sig-cb5a4d17df"
+        "sig-e7df57a427"
       ],
       "newReleases": [
         "sig-fd1a4c4700",
@@ -64,14 +64,14 @@
         "sig-ecd4573e22"
       ],
       "insights": [
+        "sig-87d7014c15",
+        "sig-4b0fc5b701",
+        "sig-0d9461929c",
         "sig-3199ec5d7e",
         "sig-a2e44c4025",
         "sig-e7df57a427",
         "sig-5bf4951adb",
-        "sig-98fa1e92ab",
-        "sig-cb5a4d17df",
-        "sig-610b94d694",
-        "sig-d1318183fe"
+        "sig-98fa1e92ab"
       ],
       "emergingTrends": [],
       "newApis": [],
@@ -92,8 +92,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-11-15T04:23:19.694Z",
-    "summary": "近 30 天共 267 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-11-16T04:22:12.154Z",
+    "summary": "近 30 天共 275 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -108,6 +108,30 @@
     "risingTags": []
   },
   "productUpdates": [
+    {
+      "id": "sig-87d7014c15",
+      "title": "在晶格上定义标准模型的一步",
+      "oneLiner": "探索标准模型的候选非微扰晶格定义，以及 GPT-6 Astra 如何帮助将这个想法转化为详细的证明。",
+      "date": "2026-11-15",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-4b0fc5b701",
+      "title": "我们的新科学博客",
+      "oneLiner": "OpenAI 科学博客分享了研究人员使用人工智能推进科学发现的新发现、实用方法和第一手资料。",
+      "date": "2026-11-15",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
     {
       "id": "sig-5bf4951adb",
       "title": "ChatGPT 钱包简介",
@@ -371,33 +395,241 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-9c331579e2",
-      "title": "ChatGPT Enterprise 现已在 AWS Marketplace 中提供",
-      "oneLiner": "ChatGPT Enterprise 现已通过 AWS Marketplace 提供，帮助组织通过现有的 AWS 采购和计费关系简化采购。",
-      "date": "2026-11-09",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-f37b680abc",
-      "title": "控制室：一个中央系统，用于跟踪和停止我们研究基础设施中的模型工作负载",
-      "oneLiner": "了解 OpenAI 的控制室如何跟踪我们研究基础设施中的模型工作负载，并在出现安全问题时快速阻止它们。",
-      "date": "2026-11-09",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-87d7014c15",
+      "title": "在晶格上定义标准模型的一步",
+      "oneLiner": "探索标准模型的候选非微扰晶格定义，以及 GPT-6 Astra 如何帮助将这个想法转化为详细的证明。",
+      "summary": {
+        "oneSentence": "探索标准模型的候选非微扰晶格定义，以及 GPT-6 Astra 如何帮助将这个想法转化为详细的证明。",
+        "bullets": [
+          "探索标准模型的候选非微扰晶格定义，以及 GPT-6 Astra 如何帮助将这个想法转化为详细的证明。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：探索标准模型的候选非微扰晶格定义，以及 GPT-6 Astra 如何帮助将这个想法转化为详细的证明。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/step-toward-defining-the-standard-model"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "探索标准模型的候选非微扰晶格定义，以及 GPT-6 Astra 如何帮助将这个想法转化为详细的证明。"
+      ],
+      "highlights": [
+        "探索标准模型的候选非微扰晶格定义，以及 GPT-6 Astra 如何帮助将这个想法转化为详细的证明。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "A step toward defining the Standard Model on a lattice",
+      "originalLang": "en",
+      "date": "2026-11-15",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "A step toward defining the Standard Model on a lattice"
+      },
+      "raw": {
+        "title": "A step toward defining the Standard Model on a lattice",
+        "url": "https://openai.com/index/step-toward-defining-the-standard-model",
+        "fetched": false,
+        "savedAt": "2026-11-16T04:21:19.760Z"
+      }
+    },
+    {
+      "id": "sig-4b0fc5b701",
+      "title": "我们的新科学博客",
+      "oneLiner": "OpenAI 科学博客分享了研究人员使用人工智能推进科学发现的新发现、实用方法和第一手资料。",
+      "summary": {
+        "oneSentence": "OpenAI 科学博客分享了研究人员使用人工智能推进科学发现的新发现、实用方法和第一手资料。",
+        "bullets": [
+          "OpenAI 科学博客分享了研究人员使用人工智能推进科学发现的新发现、实用方法和第一手资料。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 科学博客分享了研究人员使用人工智能推进科学发现的新发现、实用方法和第一手资料。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/our-new-blog-for-science"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 科学博客分享了研究人员使用人工智能推进科学发现的新发现、实用方法和第一手资料。"
+      ],
+      "highlights": [
+        "OpenAI 科学博客分享了研究人员使用人工智能推进科学发现的新发现、实用方法和第一手资料。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Our new blog for science",
+      "originalLang": "en",
+      "date": "2026-11-15",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/our-new-blog-for-science",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Our new blog for science"
+      },
+      "raw": {
+        "title": "Our new blog for science",
+        "url": "https://openai.com/index/our-new-blog-for-science",
+        "fetched": false,
+        "savedAt": "2026-11-16T04:21:20.954Z"
+      }
+    },
+    {
+      "id": "sig-0d9461929c",
+      "title": "Qwen4-Max 现已在 AI 网关上可用 - Vercel",
+      "oneLiner": "阿里巴巴的Qwen4-Max现已在AI Gateway上上线。它是 Qwen4 系列中的第一个模型：具有原生视觉和 1M 代币上下文窗口的推理模型，专为编码、专业工作和长时间运行的代理任务而构建。",
+      "summary": {
+        "oneSentence": "阿里巴巴的Qwen4-Max现已在AI Gateway上上线。它是 Qwen4 系列中的第一个模型：具有原生视觉和 1M 代币上下文窗口的推理模型，专为编码、专业工作和长时间运行的代理任务而构建。",
+        "bullets": [
+          "阿里巴巴的Qwen4-Max现已在AI Gateway上上线。它是 Qwen4 系列中的第一个模型：具有原生视觉和 1M 代币上下文窗口的推理模型，专为编码、专业工作和长时间运行的代理任务而构建。",
+          "Qwen4-Max更擅长使用专业工具。它可以在 Blender 中构建 3D 场景，并在 Unity、Unreal Engine 和 Godot 中构建可玩的游戏，运行它构建的内容并使用视觉反馈来修复相机、动画和照明问题。对于财务、法律和医疗保健工作，它可以调用许多 MCP 工具，处理大量文档和图像，并生成引用其来源的",
+          "对于长时间运行的任务，该模型会尽早提供可用的第一个版本，然后在后续版本中对其进行改进，因此您可以在工作完成之前查看进度并更改方向。阿里巴巴正在为此工作流程开源一个 Live Delivery 插件。与之前的 Qwen Max 模型相比，Qwen4-Max 使用更少的令牌来完成相同的任务，并且默认编写更安全的代码，注入、",
+          "使用alibaba/qwen4-max作为型号名称："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：阿里巴巴的Qwen4-Max现已在AI Gateway上上线。它是 Qwen4 系列中的第一个模型：具有原生视觉和 1M 代币上下文窗口的推理模型，专为编码、专业工作和长时间运行的代理任务而构建。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/qwen4-max-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "阿里巴巴的Qwen4-Max现已在AI Gateway上上线。它是 Qwen4 系列中的第一个模型：具有原生视觉和 1M 代币上下文窗口的推理模型，专为编码、专业工作和长时间运行的代理任务而构建。",
+        "Qwen4-Max更擅长使用专业工具。它可以在 Blender 中构建 3D 场景，并在 Unity、Unreal Engine 和 Godot 中构建可玩的游戏，运行它构建的内容并使用视觉反馈来修复相机、动画和照明问题。对于财务、法律和医疗保健工作，它可以调用许多 MCP 工具，处理大量文档和图像，并生成引用其来源的电子表格、幻灯片和报告。",
+        "对于长时间运行的任务，该模型会尽早提供可用的第一个版本，然后在后续版本中对其进行改进，因此您可以在工作完成之前查看进度并更改方向。阿里巴巴正在为此工作流程开源一个 Live Delivery 插件。与之前的 Qwen Max 模型相比，Qwen4-Max 使用更少的令牌来完成相同的任务，并且默认编写更安全的代码，注入、内存安全和访问控制漏洞更少。",
+        "使用alibaba/qwen4-max作为型号名称：",
+        "AI SDK fx 聊天完成 AI SDK AI SDK fx fx 聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 3 const result = streamText({ 4 model: 'alibaba/qwen4-max', 5prompt: '勾勒出一个自顶向下益智游戏的戈多原型。', 6 }); 7 8 for wait (const text of result.textStream) { 9 process .textStream 。标准输出。写（文字）； 10 } 复制代理查看模型详细信息 ↗ 要在 Claude Code、Codex、Cursor 等中使用它，请安装最新的 Vercel CLI 并运行安装程序：",
+        "npx vercel ai-gateway setup 然后在代理中选择alibaba/qwen4-max。有关详细信息，请参阅编码代理指南。",
+        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本，以及配置重试、故障转移和性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、零数据保留支持、API 密钥预算、路由规则等。",
+        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。",
+        "您可以查看AI网关上所有可用的语言模型。",
+        "选择一个堆栈并完成其背后的决策，并使用精心策划的文档、指南、模板和课程来帮助您构建。"
+      ],
+      "highlights": [
+        "阿里巴巴的Qwen4-Max现已在AI Gateway上上线。它是 Qwen4 系列中的第一个模型：具有原生视觉和 1M 代币上下文窗口的推理模型，专为编码、专",
+        "Qwen4-Max更擅长使用专业工具。它可以在 Blender 中构建 3D 场景，并在 Unity、Unreal Engine 和 Godot 中构建可玩的游",
+        "对于长时间运行的任务，该模型会尽早提供可用的第一个版本，然后在后续版本中对其进行改进，因此您可以在工作完成之前查看进度并更改方向。阿里巴巴正在为此工作流程开源一"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Qwen4-Max now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-15",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/qwen4-max-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Qwen4-Max now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Qwen4-Max now available on AI Gateway",
+        "url": "https://vercel.com/changelog/qwen4-max-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-11-16T04:21:32.577Z"
+      }
+    },
     {
       "id": "sig-3199ec5d7e",
       "title": "守护进程现在可以将跟踪发送到 Vercel Tracing - Vercel",
@@ -3755,6 +3987,88 @@
       }
     },
     {
+      "id": "sig-ce36778b27",
+      "title": "Gemini Decision 1 现已在 AI Gateway - Vercel 上提供",
+      "oneLiner": "Google 的 Gemini Decision 1 现已在 AI Gateway 上提供。多模式决策模型适用于文本、图像、音频、视频和 PDF 文档，返回布尔概率、选择和分数。使用它来路由请求、检查策略、过滤代理工具或对结果进行排名，而无",
+      "summary": {
+        "oneSentence": "Google 的 Gemini Decision 1 现已在 AI Gateway 上提供。多模式决策模型适用于文本、图像、音频、视频和 PDF 文档，返回布尔概率、选择和分数。使用它来路由请求、检查策略、过滤代理工具或对结果进行排名，而无",
+        "bullets": [
+          "Google 的 Gemini Decision 1 现已在 AI Gateway 上提供。多模式决策模型适用于文本、图像、音频、视频和 PDF 文档，返回布尔概率、选择和分数。使用它来路由请求、检查策略、过滤代理工具或对结果进行排名，而无需生成输出令牌。",
+          "将 google/gemini-decision-1 与 AI SDK、TypeSafe 兼容 API 或 Decisions API 结合使用。",
+          "AI SDK 7 支持 PDF、音频和视频输入。兼容 TypeSafe 的 API 和 Decisions API 支持文本和图像输入。",
+          "AI SDK TypeSafe 兼容决策 API AI SDK AI SDK TypeSafe 兼容 TypeSafe 兼容决策 API 决策 API 1 import {experimental_decide asdecide} from 'ai' ; 2 3 const result =等待决定( { 4 mode"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Google 的 Gemini Decision 1 现已在 AI Gateway 上提供。多模式决策模型适用于文本、图像、音频、视频和 PDF 文档，返回布尔概率、选择和分数。使用它来路由请求、检查策略、过滤代理工具或对结果进行排名，而无",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/gemini-decision-1-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Google 的 Gemini Decision 1 现已在 AI Gateway 上提供。多模式决策模型适用于文本、图像、音频、视频和 PDF 文档，返回布尔概率、选择和分数。使用它来路由请求、检查策略、过滤代理工具或对结果进行排名，而无需生成输出令牌。",
+        "将 google/gemini-decision-1 与 AI SDK、TypeSafe 兼容 API 或 Decisions API 结合使用。",
+        "AI SDK 7 支持 PDF、音频和视频输入。兼容 TypeSafe 的 API 和 Decisions API 支持文本和图像输入。",
+        "AI SDK TypeSafe 兼容决策 API AI SDK AI SDK TypeSafe 兼容 TypeSafe 兼容决策 API 决策 API 1 import {experimental_decide asdecide} from 'ai' ; 2 3 const result =等待决定( { 4 model : 'google/gemini-decision-1' , 5 state : '我被收取了两次费用。请退还重复的费用。' , 6 questions : { 7 requestsRefund : { 8 type : 'boolean' , 9 instructions : '客户是否要求退款？' , 10 } , 11 } , 12 } ）； 13 14 控制台。日志（结果。答案。请求退款）；复制给代理 查看模型详细信息 ↗ AI Gateway 提供了一种统一的方式来访问模型并跟踪使用情况和成本。决策调用出现在日志中，并与其他模型请求一起计入预算。",
+        "请参阅选择、分数和布尔问题的决策文档。要选择决策模型，请浏览可用模型或阅读我们的决策模型指南。",
+        "选择一个堆栈并完成其背后的决策，并使用精心策划的文档、指南、模板和课程来帮助您构建。",
+        "使用编码代理的即用型提示构建应用程序、扩展代理或改进您的项目。",
+        "浏览提示库·阅读Markdown索引"
+      ],
+      "highlights": [
+        "Google 的 Gemini Decision 1 现已在 AI Gateway 上提供。多模式决策模型适用于文本、图像、音频、视频和 PDF 文档，返回布尔",
+        "将 google/gemini-decision-1 与 AI SDK、TypeSafe 兼容 API 或 Decisions API 结合使用。",
+        "AI SDK 7 支持 PDF、音频和视频输入。兼容 TypeSafe 的 API 和 Decisions API 支持文本和图像输入。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Gemini Decision 1 now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-11",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/gemini-decision-1-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Gemini Decision 1 now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Gemini Decision 1 now available on AI Gateway",
+        "url": "https://vercel.com/changelog/gemini-decision-1-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-11-16T04:21:39.193Z"
+      }
+    },
+    {
       "id": "sig-ac5a661efb",
       "title": "Gemini Intelligence：新功能，适用于更多设备",
       "oneLiner": "Gemini Intelligence 现已在更多设备上使用，包括 Motorola Signature 27 和 Pixel 10。了解这些设备上的扩展功能如何帮助您完成更多工作。",
@@ -4489,6 +4803,474 @@
         "url": "https://openai.com/index/introducing-businesses-chatgpt",
         "fetched": false,
         "savedAt": "2026-11-11T04:13:14.238Z"
+      }
+    },
+    {
+      "id": "sig-51d2fad240",
+      "title": "打开人工智能天气模型背后的数据集",
+      "oneLiner": "我们正在发布 PARDIG 和 SatWeave，以帮助研究人员和开发人员构建新的天气、水文和气候应用程序。",
+      "summary": {
+        "oneSentence": "我们正在发布 PARDIG 和 SatWeave，以帮助研究人员和开发人员构建新的天气、水文和气候应用程序。",
+        "bullets": [
+          "我们正在发布 PARDIG 和 SatWeave，以帮助研究人员和开发人员构建新的天气、水文和气候应用程序。",
+          "了解和预测地球的天气和水循环始于我们现在对地球的观察程度。卫星和地面仪器持续、详细地监测地球。但将这些原始测量结果转化为连贯的全球图像并使其快速可用是一项重大的科学和工程挑战。",
+          "今天，我们发布了两个基础数据集 SatWeave 和 PARDIG，以支持全球社区构建天气、水文和气候应用程序。这两个数据集对于我们最近发布的 WeatherNext 3 模型的进步至关重要。 SatWeave 是地球静止卫星图像的全球镶嵌图，为模型提供了正在形成的云层和风暴的实时视图。 PARDIG 是一个基于人工智",
+          "SatWeave 结合了覆盖全球不同地区的五颗卫星的图像：GOES-East 和 GOES-West、Meteosat 0 和 Meteosat 印度洋以及 Himawari。由于每个都使用不同的地图投影、文件格式、传感器和扫描时间表（从10到30分钟不等），因此很难形成连贯的全球地图。大多数现有的全球组合都放弃了不兼"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google DeepMind 官网发布：我们正在发布 PARDIG 和 SatWeave，以帮助研究人员和开发人员构建新的天气、水文和气候应用程序。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "我们正在发布 PARDIG 和 SatWeave，以帮助研究人员和开发人员构建新的天气、水文和气候应用程序。",
+        "了解和预测地球的天气和水循环始于我们现在对地球的观察程度。卫星和地面仪器持续、详细地监测地球。但将这些原始测量结果转化为连贯的全球图像并使其快速可用是一项重大的科学和工程挑战。",
+        "今天，我们发布了两个基础数据集 SatWeave 和 PARDIG，以支持全球社区构建天气、水文和气候应用程序。这两个数据集对于我们最近发布的 WeatherNext 3 模型的进步至关重要。 SatWeave 是地球静止卫星图像的全球镶嵌图，为模型提供了正在形成的云层和风暴的实时视图。 PARDIG 是一个基于人工智能的全球降水数据集，用于训练模型的降水预测。我们正在提供两个数据集的历史档案和实时反馈，以便研究人员和开发人员可以在建模和下游应用程序中使用它们。",
+        "SatWeave 结合了覆盖全球不同地区的五颗卫星的图像：GOES-East 和 GOES-West、Meteosat 0 和 Meteosat 印度洋以及 Himawari。由于每个都使用不同的地图投影、文件格式、传感器和扫描时间表（从10到30分钟不等），因此很难形成连贯的全球地图。大多数现有的全球组合都放弃了不兼容的方面，仅提供四个或更少的频道，或者每隔几个小时更新一次。",
+        "SatWeave 将六颗地球静止卫星的观测数据融合到 17 个可见光、水蒸气和红外通道的全球镶嵌图中。",
+        "SatWeave 每小时更新一次，因此允许 WeatherNext 3 生成新的全球预测，这与根据每六小时刷新一次的分析数据初始化的模型形成鲜明对比。我们将发布每小时一次的实时直播，以及跨越十多年的历史档案。",
+        "虽然我们在 WeatherNext 3 的中期天气预报中使用了 SatWeave，但我们渴望与更广泛的研究和开发者社区一起探索太阳能和野火监测等预报应用。",
+        "降水影响着一切，从我们的食物和水供应到洪水和干旱的风险，但在全球范围内准确追踪降水仍然是一项重大挑战。虽然地面雷达和密集的雨量计网络提供高质量的数据，但它们并不总是可用或在所有地区都有良好的覆盖范围。",
+        "为了帮助弥补这一差距，我们开发了 PARDIG（降水人工智能再分析：密集推断 GPM）。 PARDIG 基于类似于 WeatherNext 3 的 AI 架构构建，直接根据 NASA 全球降水测量 (GPM) 核心天文台的稀疏星载雷达观测数据进行训练，使用 SatWeave 图像和 ECMWF 的大气场作为输入。结果是高度准确的全球降水图，时间分辨率为 15 分钟，分辨率约为 10 公里，更新平均延迟约为 5 小时。",
+        "2025 年 7 月德克萨斯州丘陵地区山洪爆发期间的每小时降雨量，将地面 NOAA MRMS 雷达（左，约 1 公里）与近实时 PARDIG（中，约 10 公里）和 IMERG-Final（右，约 10 公里）进行比较。"
+      ],
+      "highlights": [
+        "我们正在发布 PARDIG 和 SatWeave，以帮助研究人员和开发人员构建新的天气、水文和气候应用程序。",
+        "了解和预测地球的天气和水循环始于我们现在对地球的观察程度。卫星和地面仪器持续、详细地监测地球。但将这些原始测量结果转化为连贯的全球图像并使其快速可用是一项重大的",
+        "今天，我们发布了两个基础数据集 SatWeave 和 PARDIG，以支持全球社区构建天气、水文和气候应用程序。这两个数据集对于我们最近发布的 WeatherN"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Opening the datasets behind our AI weather models",
+      "originalLang": "en",
+      "date": "2026-11-10",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google DeepMind",
+        "author": "DeepMind",
+        "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+        "home": "https://deepmind.google/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Opening the datasets behind our AI weather models"
+      },
+      "raw": {
+        "title": "Opening the datasets behind our AI weather models",
+        "url": "https://deepmind.google/blog/opening-the-datasets-behind-our-ai-weather-models/",
+        "fetched": true,
+        "savedAt": "2026-11-16T04:21:50.667Z"
+      }
+    },
+    {
+      "id": "sig-01a8528fa1",
+      "title": "缩小人工智能在教育指导方面的差距",
+      "oneLiner": "ThinkYoung 的新研究和来自 OpenAI 欧洲、中东和非洲教育合作伙伴关系的经验教训，涉及支持教师、人工智能素养和独立学习。",
+      "summary": {
+        "oneSentence": "ThinkYoung 的新研究和来自 OpenAI 欧洲、中东和非洲教育合作伙伴关系的经验教训，涉及支持教师、人工智能素养和独立学习。",
+        "bullets": [
+          "ThinkYoung 的新研究和来自 OpenAI 欧洲、中东和非洲教育合作伙伴关系的经验教训，涉及支持教师、人工智能素养和独立学习。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：ThinkYoung 的新研究和来自 OpenAI 欧洲、中东和非洲教育合作伙伴关系的经验教训，涉及支持教师、人工智能素养和独立学习。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/closing-ai-guidance-gap-education"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "ThinkYoung 的新研究和来自 OpenAI 欧洲、中东和非洲教育合作伙伴关系的经验教训，涉及支持教师、人工智能素养和独立学习。"
+      ],
+      "highlights": [
+        "ThinkYoung 的新研究和来自 OpenAI 欧洲、中东和非洲教育合作伙伴关系的经验教训，涉及支持教师、人工智能素养和独立学习。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Closing the AI guidance gap in education",
+      "originalLang": "en",
+      "date": "2026-11-10",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Closing the AI guidance gap in education"
+      },
+      "raw": {
+        "title": "Closing the AI guidance gap in education",
+        "url": "https://openai.com/index/closing-ai-guidance-gap-education",
+        "fetched": false,
+        "savedAt": "2026-11-16T04:21:51.880Z"
+      }
+    },
+    {
+      "id": "sig-4e3e5904c8",
+      "title": "新加坡航空利用 OpenAI 技术提升旅行和工作水平",
+      "oneLiner": "了解新加坡航空如何使用 OpenAI 模型和 API 来增强客户支持、旅行发现和员工工作效率，从而将 Kris 聊天机器人的 CSAT 提高一倍。",
+      "summary": {
+        "oneSentence": "了解新加坡航空如何使用 OpenAI 模型和 API 来增强客户支持、旅行发现和员工工作效率，从而将 Kris 聊天机器人的 CSAT 提高一倍。",
+        "bullets": [
+          "了解新加坡航空如何使用 OpenAI 模型和 API 来增强客户支持、旅行发现和员工工作效率，从而将 Kris 聊天机器人的 CSAT 提高一倍。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：了解新加坡航空如何使用 OpenAI 模型和 API 来增强客户支持、旅行发现和员工工作效率，从而将 Kris 聊天机器人的 CSAT 提高一倍。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/singapore-airlines-travel-work"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "了解新加坡航空如何使用 OpenAI 模型和 API 来增强客户支持、旅行发现和员工工作效率，从而将 Kris 聊天机器人的 CSAT 提高一倍。"
+      ],
+      "highlights": [
+        "了解新加坡航空如何使用 OpenAI 模型和 API 来增强客户支持、旅行发现和员工工作效率，从而将 Kris 聊天机器人的 CSAT 提高一倍。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Singapore Airlines elevates travel & work with OpenAI technology",
+      "originalLang": "en",
+      "date": "2026-11-10",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/singapore-airlines-travel-work",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Singapore Airlines elevates travel & work with OpenAI technology"
+      },
+      "raw": {
+        "title": "Singapore Airlines elevates travel & work with OpenAI technology",
+        "url": "https://openai.com/index/singapore-airlines-travel-work",
+        "fetched": false,
+        "savedAt": "2026-11-16T04:21:53.083Z"
+      }
+    },
+    {
+      "id": "sig-3588ceed41",
+      "title": "前沿工作：人工智能对自由职业的影响",
+      "oneLiner": "OpenAI 和 Upwork 的新研究发现，对自由职业、新技能组合以及人工智能相关项目的预算和时间的需求正在发生变化。",
+      "summary": {
+        "oneSentence": "OpenAI 和 Upwork 的新研究发现，对自由职业、新技能组合以及人工智能相关项目的预算和时间的需求正在发生变化。",
+        "bullets": [
+          "OpenAI 和 Upwork 的新研究发现，对自由职业、新技能组合以及人工智能相关项目的预算和时间的需求正在发生变化。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：OpenAI 和 Upwork 的新研究发现，对自由职业、新技能组合以及人工智能相关项目的预算和时间的需求正在发生变化。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/ai-effect-on-freelance-work"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "OpenAI 和 Upwork 的新研究发现，对自由职业、新技能组合以及人工智能相关项目的预算和时间的需求正在发生变化。"
+      ],
+      "highlights": [
+        "OpenAI 和 Upwork 的新研究发现，对自由职业、新技能组合以及人工智能相关项目的预算和时间的需求正在发生变化。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Work at the Frontier: AI’s effect on freelance work",
+      "originalLang": "en",
+      "date": "2026-11-10",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/ai-effect-on-freelance-work",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Work at the Frontier: AI’s effect on freelance work"
+      },
+      "raw": {
+        "title": "Work at the Frontier: AI’s effect on freelance work",
+        "url": "https://openai.com/index/ai-effect-on-freelance-work",
+        "fetched": false,
+        "savedAt": "2026-11-16T04:21:54.274Z"
+      }
+    },
+    {
+      "id": "sig-1ff74ee2cb",
+      "title": "Cogent 与 OpenAI 为企业打造网络防御工厂",
+      "oneLiner": "Cogent 将 OpenAI 模型与企业环境相结合，帮助通过代理自动修复漏洞。",
+      "summary": {
+        "oneSentence": "Cogent 将 OpenAI 模型与企业环境相结合，帮助通过代理自动修复漏洞。",
+        "bullets": [
+          "Cogent 将 OpenAI 模型与企业环境相结合，帮助通过代理自动修复漏洞。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：Cogent 将 OpenAI 模型与企业环境相结合，帮助通过代理自动修复漏洞。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/cogent-security"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Cogent 将 OpenAI 模型与企业环境相结合，帮助通过代理自动修复漏洞。"
+      ],
+      "highlights": [
+        "Cogent 将 OpenAI 模型与企业环境相结合，帮助通过代理自动修复漏洞。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Cogent and OpenAI build cyber defense factories for enterprises",
+      "originalLang": "en",
+      "date": "2026-11-10",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/cogent-security",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Cogent and OpenAI build cyber defense factories for enterprises"
+      },
+      "raw": {
+        "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+        "url": "https://openai.com/index/cogent-security",
+        "fetched": false,
+        "savedAt": "2026-11-16T04:21:55.474Z"
+      }
+    },
+    {
+      "id": "sig-39585ac01d",
+      "title": "MiniMax H3 Image 和 Highspeed 现已在 AI Gateway 上提供 - Vercel",
+      "oneLiner": "MiniMax H3 Image 和 MiniMax H3 Image Highspeed 现已在 AI Gateway 上提供。使用一个 API 密钥从文本生成图像或编辑现有图像，无需单独的 MiniMax 帐户。",
+      "summary": {
+        "oneSentence": "MiniMax H3 Image 和 MiniMax H3 Image Highspeed 现已在 AI Gateway 上提供。使用一个 API 密钥从文本生成图像或编辑现有图像，无需单独的 MiniMax 帐户。",
+        "bullets": [
+          "MiniMax H3 Image 和 MiniMax H3 Image Highspeed 现已在 AI Gateway 上提供。使用一个 API 密钥从文本生成图像或编辑现有图像，无需单独的 MiniMax 帐户。",
+          "两种型号都支持自定义尺寸和宽高比，包括 2K 和 4K 输出。使用文本提示创建产品视觉效果或插图，然后将图像传回并附有更改颜色、主题或构图的说明。高速变体通过相同的生成和编辑选项提供更快的生成速度。",
+          "使用 minimax/minimax-h3-image 或 minimax/minimax-h3-image-highspeed 作为模型名称：",
+          "AI SDK AI CLI AI SDK AI SDK AI CLI AI CLI 1 import { writeFile } from 'node:fs/promises' ; 2 从 'ai' 导入 {generateImage} ； 3 4 const { image } = wait generatedIma"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：MiniMax H3 Image 和 MiniMax H3 Image Highspeed 现已在 AI Gateway 上提供。使用一个 API 密钥从文本生成图像或编辑现有图像，无需单独的 MiniMax 帐户。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/minimax-h3-image-and-highspeed-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "MiniMax H3 Image 和 MiniMax H3 Image Highspeed 现已在 AI Gateway 上提供。使用一个 API 密钥从文本生成图像或编辑现有图像，无需单独的 MiniMax 帐户。",
+        "两种型号都支持自定义尺寸和宽高比，包括 2K 和 4K 输出。使用文本提示创建产品视觉效果或插图，然后将图像传回并附有更改颜色、主题或构图的说明。高速变体通过相同的生成和编辑选项提供更快的生成速度。",
+        "使用 minimax/minimax-h3-image 或 minimax/minimax-h3-image-highspeed 作为模型名称：",
+        "AI SDK AI CLI AI SDK AI SDK AI CLI AI CLI 1 import { writeFile } from 'node:fs/promises' ; 2 从 'ai' 导入 {generateImage} ； 3 4 const { image } = wait generatedImage ( { 5 model : 'minimax/minimax-h3-image' , 6 Prompt : '阳光照射的木桌上有一个蓝色陶瓷花瓶，上面有野花。' , 7 size : '2048x2048' , 8 maxRetries : 0 , 9providerOptions : { minimax : { outputFormat : 'png' } } , 10 } ); 11 12等待writeFile('image.png',image.uint8Array);复制给代理查看模型详细信息 ↗ 要编辑生成的图像，请将其连同指令一起传回：",
+        "AI SDK AI SDK AI SDK 1 const { image :editedImage } =awaitgenerateImage({2model:'minimax/minimax-h3-image',3prompt:{4text:'将花瓶更改为赤土陶器并保留花朵和设置。',5image:[image.uint8Array],6},7size:'2048x2048' , 8 maxRetries : 0 , 9providerOptions : { minimax : { outputFormat : 'png' } } , 10 } ) ; 11 12等待writeFile('edited-image.png',editedImage.uint8Array);复制给代理 查看模型详细信息 ↗ 两种模型还支持 OpenAI 兼容的 /v1/images/ Generations 和 /v1/images/edits 路由。有关详细信息，请参阅图像生成指南。",
+        "在模型游乐场中尝试 MiniMax H3 Image。",
+        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本以及使用一个 API 密钥管理访问。在仪表板中查看请求和支出。",
+        "AI Gateway 反映了提供商的定价，没有加价，也没有推理平台费用。详情请参见AI网关定价。",
+        "您可以查看AI网关上所有可用的图像模型。",
+        "选择一个堆栈并完成其背后的决策，并使用精心策划的文档、指南、模板和课程来帮助您构建。"
+      ],
+      "highlights": [
+        "MiniMax H3 Image 和 MiniMax H3 Image Highspeed 现已在 AI Gateway 上提供。使用一个 API 密钥从文本生",
+        "两种型号都支持自定义尺寸和宽高比，包括 2K 和 4K 输出。使用文本提示创建产品视觉效果或插图，然后将图像传回并附有更改颜色、主题或构图的说明。高速变体通过相",
+        "使用 minimax/minimax-h3-image 或 minimax/minimax-h3-image-highspeed 作为模型名称："
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "MiniMax H3 Image and Highspeed now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-10",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/minimax-h3-image-and-highspeed-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "MiniMax H3 Image and Highspeed now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "MiniMax H3 Image and Highspeed now available on AI Gateway",
+        "url": "https://vercel.com/changelog/minimax-h3-image-and-highspeed-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-11-16T04:22:05.531Z"
       }
     },
     {
@@ -6336,7 +7118,7 @@
         "url": "https://cursor.com/changelog/voice-chat",
         "fetched": true,
         "savedAt": "2026-11-08T03:54:06.689Z",
-        "retranslatedAt": "2026-11-15T04:23:14.678Z"
+        "retranslatedAt": "2026-11-16T04:22:06.761Z"
       }
     },
     {
@@ -7455,7 +8237,7 @@
         "url": "https://cursor.com/changelog/build-live-apps",
         "fetched": true,
         "savedAt": "2026-11-08T03:54:30.136Z",
-        "retranslatedAt": "2026-11-15T04:23:15.663Z"
+        "retranslatedAt": "2026-11-16T04:22:07.797Z"
       }
     },
     {
@@ -22332,7 +23114,7 @@
         "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
         "fetched": true,
         "savedAt": "2026-10-17T02:36:45.886Z",
-        "retranslatedAt": "2026-11-15T04:23:16.790Z"
+        "retranslatedAt": "2026-11-16T04:22:09.015Z"
       }
     },
     {
@@ -25930,7 +26712,7 @@
         "url": "https://cursor.com/changelog/origin-app-marketplace",
         "fetched": true,
         "savedAt": "2026-10-14T03:08:22.474Z",
-        "retranslatedAt": "2026-11-15T04:23:17.850Z"
+        "retranslatedAt": "2026-11-16T04:22:10.141Z"
       }
     },
     {
@@ -31469,7 +32251,7 @@
         "url": "https://cursor.com/changelog/remote-control-local-agents",
         "fetched": true,
         "savedAt": "2026-10-11T03:27:39.323Z",
-        "retranslatedAt": "2026-11-15T04:23:18.891Z"
+        "retranslatedAt": "2026-11-16T04:22:11.352Z"
       }
     },
     {
@@ -32272,929 +33054,6 @@
         "url": "https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/",
         "fetched": false,
         "savedAt": "2026-10-05T03:34:50.586Z"
-      }
-    },
-    {
-      "id": "sig-8e206c4d9e",
-      "title": "GPT-6 系列模型指南",
-      "oneLiner": "了解初创公司如何选择 GPT-6 模型、调整推理工作、改进提示和技能、协调工具以及准备生产工作流程。",
-      "summary": {
-        "oneSentence": "了解初创公司如何选择 GPT-6 模型、调整推理工作、改进提示和技能、协调工具以及准备生产工作流程。",
-        "bullets": [
-          "了解初创公司如何选择 GPT-6 模型、调整推理工作、改进提示和技能、协调工具以及准备生产工作流程。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：了解初创公司如何选择 GPT-6 模型、调整推理工作、改进提示和技能、协调工具以及准备生产工作流程。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/practical-guide-building-gpt-6"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "了解初创公司如何选择 GPT-6 模型、调整推理工作、改进提示和技能、协调工具以及准备生产工作流程。"
-      ],
-      "highlights": [
-        "了解初创公司如何选择 GPT-6 模型、调整推理工作、改进提示和技能、协调工具以及准备生产工作流程。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "A model guide for the GPT-6 family",
-      "originalLang": "en",
-      "date": "2026-10-02",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/practical-guide-building-gpt-6",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "A model guide for the GPT-6 family"
-      },
-      "raw": {
-        "title": "A model guide for the GPT-6 family",
-        "url": "https://openai.com/index/practical-guide-building-gpt-6",
-        "fetched": false,
-        "savedAt": "2026-10-03T03:22:15.129Z"
-      }
-    },
-    {
-      "id": "sig-1122627a66",
-      "title": "我们于 2026 年 9 月公布的最新 AI 新闻",
-      "oneLiner": "以下是我们 9 月份以来一些最大的人工智能更新的回顾，包括 Gemini 4 Argon、Gemini 应用程序中的新连接应用程序和 WeatherNext 3。",
-      "summary": {
-        "oneSentence": "以下是我们 9 月份以来一些最大的人工智能更新的回顾，包括 Gemini 4 Argon、Gemini 应用程序中的新连接应用程序和 WeatherNext 3。",
-        "bullets": [
-          "以下是我们 9 月份以来一些最大的人工智能更新的回顾，包括 Gemini 4 Argon、Gemini 应用程序中的新连接应用程序和 WeatherNext 3。",
-          "您的浏览器不支持音频元素。",
-          "谷歌刚刚发布了一系列新的人工智能更新，包括用于解决复杂问题的强大的 Gemini 4 Argon 模型。他们添加了一些很酷的功能，例如更好的语音工具、音乐生成以及将您喜爱的应用程序直接连接到 Gemini 的方法。他们还利用人工智能帮助科学家绘制 DNA 地图、从太空追踪气候变化，甚至研究果蝇大脑。另外，您现在可以在 ",
-          "20 多年来，我们投资于机器学习和人工智能研究、工具和基础设施，以打造让更多人的日常生活变得更美好的产品。 Google 的团队正在研究如何释放人工智能在医疗保健、危机应对和教育等广泛领域的优势。为了让您及时了解我们的进展，我们定期汇总 Google 的最新人工智能新闻。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 4,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Google AI 官网发布：以下是我们 9 月份以来一些最大的人工智能更新的回顾，包括 Gemini 4 Argon、Gemini 应用程序中的新连接应用程序和 WeatherNext 3。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：gemini",
-        "actionItems": [
-          "阅读原文（英文）：https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "gemini"
-      ],
-      "content": [
-        "以下是我们 9 月份以来一些最大的人工智能更新的回顾，包括 Gemini 4 Argon、Gemini 应用程序中的新连接应用程序和 WeatherNext 3。",
-        "您的浏览器不支持音频元素。",
-        "谷歌刚刚发布了一系列新的人工智能更新，包括用于解决复杂问题的强大的 Gemini 4 Argon 模型。他们添加了一些很酷的功能，例如更好的语音工具、音乐生成以及将您喜爱的应用程序直接连接到 Gemini 的方法。他们还利用人工智能帮助科学家绘制 DNA 地图、从太空追踪气候变化，甚至研究果蝇大脑。另外，您现在可以在 Windows 上使用 Gemini 或查看他们的新 Googlebook 笔记本电脑。",
-        "20 多年来，我们投资于机器学习和人工智能研究、工具和基础设施，以打造让更多人的日常生活变得更美好的产品。 Google 的团队正在研究如何释放人工智能在医疗保健、危机应对和教育等广泛领域的优势。为了让您及时了解我们的进展，我们定期汇总 Google 的最新人工智能新闻。",
-        "以下是我们 9 月份发布的一些人工智能公告的回顾。",
-        "九月的头条新闻是 Gemini 4 Argon，我们最新的前沿型号。它采用先进的推理和 100 万个代币的输出限制，旨在应对复杂的挑战，尤其是在网络安全防御方面。此次发布为 Google AI 的活跃月份画上了句号，其中包括 Gemini 3.8 Flash 和 3.8 Flash Cyber​​。我们还通过 Gemini 3.8 Live 引入了富有表现力的语音模型，使 Googlebook 可供预订，并将 Gemini 应用程序引入了 Windows。除了日常工具之外，我们还通过在 AlphaGenome Atlas 中绘制人类 DNA、从太空跟踪全球甲烷以及启动 Project Suncatcher 来测试在轨机器学习硬件，标志着重大科学里程碑。作为一个不错的奖励，我们很高兴看到我们的团队在设计更好的 AI 界面方面所做的工作被 Fast Company 评为 2026 年度设计公司。",
-        "了解 Gemini 4 Argon：我们的下一个前沿智能时代。 Gemini 4 Argon 旨在为最困难的问题带来先进的推理。 Argon 采用行业领先的 100 万代币产出限制，擅长编码、网络安全防御等重型工作负载，以及金融研究和法律起草等知识工作以及自主网络安全修补。在这一级别安全地释放前沿能力需要采取分阶段的方法，Argon 目前正在通过 Fairwind 计划向值得信赖的网络防御者推出。我们正在积极收集早期测试人员的反馈，以迭代护栏，然后再将可用性扩展到开发人员、企业和消费者。",
-        "使用 Gemini 3.8 Flash 和 3.8 Flash Cyber​​ 获取下一代智能代理和网络安全。 Gemini 3.8 提供了我们最好的推理和编码性能，但速度和成本与 3.7 Flash 相同。 Gemini 3.8 Flash 在长期软件工程、多步骤问题解决和代理工作流程方面带来了巨大的进步。除此之外，Gemini 3.8 Flash Cyber​​ 还为防御者提供了前沿级自主漏洞发现和自动代码修补功能——可通过我们新的 Fairwind 计划向值得信赖的组织提供。",
-        "与 Gemini 3.8 Live 和 3.8 Live Extended Thinking 进行自然对话。我们推出了两种快速的自然语言音频模型：用于日常对话的 Gemini 3.8 Live 和 Gemini 3.8 Live Extended Thinking，这是一款顶级的语音到语音模型，用于多步骤推理，没有任何延迟。两者都已面向 Google AI Studio 和 Gemini API 中的开发人员以及 Search Live、Gemini Live 和 Google Workspace 中的每个人推出，您可以在 Gmail、Docs 和 Keep 中使用语音完成工作。",
-        "向 Gemini 3.8 Flash-Lite TTS 和 Gemini 3.8 Flash TTS 问好。我们最具表现力的文本转语音模型可让您通过简单的文本提示生成自定义语音、直接场景对话等。现在，您不再需要从固定的静态预设列表中进行选择，而是可以使用动态创意工作室来构建语音优先应用程序并提升音频体验，并在 Gemini Notebook 和 Google Vids 等产品上推出。"
-      ],
-      "highlights": [
-        "以下是我们 9 月份以来一些最大的人工智能更新的回顾，包括 Gemini 4 Argon、Gemini 应用程序中的新连接应用程序和 WeatherNext 3",
-        "您的浏览器不支持音频元素。",
-        "谷歌刚刚发布了一系列新的人工智能更新，包括用于解决复杂问题的强大的 Gemini 4 Argon 模型。他们添加了一些很酷的功能，例如更好的语音工具、音乐生成以"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "The latest AI news we announced in September 2026",
-      "originalLang": "en",
-      "date": "2026-10-02",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google AI",
-        "author": "Google",
-        "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
-        "home": "https://blog.google/technology/ai/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "The latest AI news we announced in September 2026"
-      },
-      "raw": {
-        "title": "The latest AI news we announced in September 2026",
-        "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
-        "fetched": true,
-        "savedAt": "2026-10-03T03:22:23.224Z"
-      }
-    },
-    {
-      "id": "sig-87859686ea",
-      "title": "Python 工程师的 Jev",
-      "oneLiner": "根本不可能不听说杰夫。似乎每个人都在以某种方式修改它，从使用它做出交易决策（可能会出现什么问题？）到用它生成 UI（也许我们正在做一些事情！）。",
-      "summary": {
-        "oneSentence": "根本不可能不听说杰夫。似乎每个人都在以某种方式修改它，从使用它做出交易决策（可能会出现什么问题？）到用它生成 UI（也许我们正在做一些事情！）。",
-        "bullets": [
-          "根本不可能不听说杰夫。似乎每个人都在以某种方式修改它，从使用它做出交易决策（可能会出现什么问题？）到用它生成 UI（也许我们正在做一些事情！）。",
-          "Jev是一种新型的人工智能模型。你向它提供数据并询问它一组多项选择题，它会给出答案以及它对每个问题的信心程度。就像任何其他模型一样，Jev 可能也会犯错误，但它会让错误变得更快。 ​",
-          "​底线是：Jev 是为做出狭隘决策而设计的。您需要测试它对于您的用例是否足够准确。",
-          "Vercel 的 Python 团队的工作是让 Python 开发人员能够轻松地修改 Jev 等。欢迎最新版本的 Python AI SDK 发布。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：根本不可能不听说杰夫。似乎每个人都在以某种方式修改它，从使用它做出交易决策（可能会出现什么问题？）到用它生成 UI（也许我们正在做一些事情！）。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/blog/jev-for-python-engineers"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "根本不可能不听说杰夫。似乎每个人都在以某种方式修改它，从使用它做出交易决策（可能会出现什么问题？）到用它生成 UI（也许我们正在做一些事情！）。",
-        "Jev是一种新型的人工智能模型。你向它提供数据并询问它一组多项选择题，它会给出答案以及它对每个问题的信心程度。就像任何其他模型一样，Jev 可能也会犯错误，但它会让错误变得更快。 ​",
-        "​底线是：Jev 是为做出狭隘决策而设计的。您需要测试它对于您的用例是否足够准确。",
-        "Vercel 的 Python 团队的工作是让 Python 开发人员能够轻松地修改 Jev 等。欢迎最新版本的 Python AI SDK 发布。",
-        "使用 uv add ai 安装它以使用新的实验性评估（）API，它直接与 Jev 的神经系统对话。然后创建一个 AI Gateway key ，设置 AI_GATEWAY_API_KEY ，并尝试这个完整的示例：",
-        "1 导入 asyncio 2 3 导入 ai 4 从 ai 导入。 ops importexperimental as jev 5 6 async def main() : 7 结果=await jev .评估 ( 8 ai . get_model ( \"typesafe-ai/jev\" ) , 9 \"你是尼尔·德格拉斯·泰森\" , 10 { \"bigger\" : jev . ChoiceQuestion ( 11 个指令 = \"太阳和地球哪个更大？\" , 12 个标准 = { \"Sun\" : None , \"Earth\" : None } , 13 ) } , 14 ) 15 print ( result . value [ \"bigger\" ] ) 16 17 if __name__ == \"__main__\" : 18 asyncio . run ( main ( ) ) 让我们从 Jev 不可能出错的事情开始。",
-        "现在，我想用几个例子来解释 Jev 是什么以及如何让它为您服务。一种是好的，一种是笨的。问杰夫哪个是哪个。让我们玩得开心吧！",
-        "将链接复制到标题 Jev ELI5 Jev 是通用分类器。",
-        "分类器是古老机器学习的经典原语。假设您想要一个垃圾邮件过滤器。您对大量电子邮件训练分类器，每封电子邮件都标记为垃圾邮件或非垃圾邮件，它会学会判断新收到的电子邮件是否看起来像垃圾邮件。",
-        "问题是，对于每个新的分类任务，您都必须收集并标记新数据，然后在其上训练新的分类器以调整该任务的权重。但你知道还有什么东西有重量吗？大语言模型！因此，Jev 背后的团队想出了如何将法学硕士转变为不需要针对特定​​领域进行训练的分类器，因为它已经接受了广泛的人类知识的训练。"
-      ],
-      "highlights": [
-        "根本不可能不听说杰夫。似乎每个人都在以某种方式修改它，从使用它做出交易决策（可能会出现什么问题？）到用它生成 UI（也许我们正在做一些事情！）。",
-        "Jev是一种新型的人工智能模型。你向它提供数据并询问它一组多项选择题，它会给出答案以及它对每个问题的信心程度。就像任何其他模型一样，Jev 可能也会犯错误，但它",
-        "​底线是：Jev 是为做出狭隘决策而设计的。您需要测试它对于您的用例是否足够准确。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Jev for Python engineers",
-      "originalLang": "en",
-      "date": "2026-10-02",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/blog/jev-for-python-engineers",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Jev for Python engineers"
-      },
-      "raw": {
-        "title": "Jev for Python engineers",
-        "url": "https://vercel.com/blog/jev-for-python-engineers",
-        "fetched": true,
-        "savedAt": "2026-10-03T03:22:30.986Z"
-      }
-    },
-    {
-      "id": "sig-0f97007af3",
-      "title": "Rogo 如何在 Vercel 上 5 分钟内将代理编写的代码交付到生产环境 |客户 |韦尔塞尔",
-      "oneLiner": "将链接复制到标题 Rogo 在 Vercel 上的单月部署次数超过 73,000 次",
-      "summary": {
-        "oneSentence": "将链接复制到标题 Rogo 在 Vercel 上的单月部署次数超过 73,000 次",
-        "bullets": [
-          "将链接复制到标题 Rogo 在 Vercel 上的单月部署次数超过 73,000 次",
-          "代理编写的代码在 5 分钟内即可投入生产",
-          "6 个生产人工智能代理自动化从客户流失分析到交易台的工作",
-          "通过 AI SDK 上的代理群，在生产事件期间实现零手动分类"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：将链接复制到标题 Rogo 在 Vercel 上的单月部署次数超过 73,000 次",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/blog/how-rogo-ships-agent-written-code-to-production-in-5-minutes-on-vercel"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "将链接复制到标题 Rogo 在 Vercel 上的单月部署次数超过 73,000 次",
-        "代理编写的代码在 5 分钟内即可投入生产",
-        "6 个生产人工智能代理自动化从客户流失分析到交易台的工作",
-        "通过 AI SDK 上的代理群，在生产事件期间实现零手动分类",
-        "Rogo 构建了 Felix，这是一个人工智能代理，可以为全球大多数最大的金融机构生成套牌、财务模型和报告。 Rogo 团队正在 Vercel 上重新架构其内部应用程序，代理编写的代码可在 5 分钟内交付。当生产中发生事件时，AI SDK 上的大量代理会进行分类并修复它们，而无需人工干预。因此，该团队现在每月推进超过 73,000 次部署。"
-      ],
-      "highlights": [
-        "将链接复制到标题 Rogo 在 Vercel 上的单月部署次数超过 73,000 次",
-        "代理编写的代码在 5 分钟内即可投入生产",
-        "6 个生产人工智能代理自动化从客户流失分析到交易台的工作"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "How Rogo ships agent-written code to production in 5 minutes on Vercel | Customers | Vercel",
-      "originalLang": "en",
-      "date": "2026-10-02",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/blog/how-rogo-ships-agent-written-code-to-production-in-5-minutes-on-vercel",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "How Rogo ships agent-written code to production in 5 minutes on Vercel | Customers | Vercel"
-      },
-      "raw": {
-        "title": "How Rogo ships agent-written code to production in 5 minutes on Vercel",
-        "url": "https://vercel.com/blog/how-rogo-ships-agent-written-code-to-production-in-5-minutes-on-vercel",
-        "fetched": true,
-        "savedAt": "2026-10-03T03:22:35.570Z"
-      }
-    },
-    {
-      "id": "sig-a97398f76e",
-      "title": "Chatham 通过 OpenAI 扩展其资本市场专业知识",
-      "oneLiner": "Chatham Financial 使用 Codex 和 GPT-5.6 来构建技术并重新设计工作流程，将交易验证时间从 30 分钟缩短到 4 分钟以下。",
-      "summary": {
-        "oneSentence": "Chatham Financial 使用 Codex 和 GPT-5.6 来构建技术并重新设计工作流程，将交易验证时间从 30 分钟缩短到 4 分钟以下。",
-        "bullets": [
-          "Chatham Financial 使用 Codex 和 GPT-5.6 来构建技术并重新设计工作流程，将交易验证时间从 30 分钟缩短到 4 分钟以下。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：Chatham Financial 使用 Codex 和 GPT-5.6 来构建技术并重新设计工作流程，将交易验证时间从 30 分钟缩短到 4 分钟以下。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/chatham-financial"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "Chatham Financial 使用 Codex 和 GPT-5.6 来构建技术并重新设计工作流程，将交易验证时间从 30 分钟缩短到 4 分钟以下。"
-      ],
-      "highlights": [
-        "Chatham Financial 使用 Codex 和 GPT-5.6 来构建技术并重新设计工作流程，将交易验证时间从 30 分钟缩短到 4 分钟以下。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Chatham scales its capital markets expertise with OpenAI",
-      "originalLang": "en",
-      "date": "2026-10-02",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/chatham-financial",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Chatham scales its capital markets expertise with OpenAI"
-      },
-      "raw": {
-        "title": "Chatham scales its capital markets expertise with OpenAI",
-        "url": "https://openai.com/index/chatham-financial",
-        "fetched": false,
-        "savedAt": "2026-10-03T03:22:36.803Z"
-      }
-    },
-    {
-      "id": "sig-bd4255a4df",
-      "title": "如何使用 Eleven v4 在 AI 配音中添加暂停",
-      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-      "summary": {
-        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-        "bullets": [
-          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root ",
-          "0:00 1.0x Discover v4 在此页面上注册",
-          "借助 AI 文本转语音模型，交付就是一切。虽然声音的质量和对韵律的理解大有帮助，但如果没有时机，句子就会支离破碎。一句台词后的额外节拍或长时间的沉默有助于创建高质量的输出。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 4,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://elevenlabs.io/blog/how-to-add-pauses-in-ai-voiceover"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 探索 v4 注册博客资源 如何使用 Eleven v4 在 AI 配音中添加停顿 作者：Jack Limebear 发布于 2026 年 10 月 2 日 最后更新于 2026 年 10 月 3 日 收听 听这篇文章",
-        "0:00 1.0x Discover v4 在此页面上注册",
-        "借助 AI 文本转语音模型，交付就是一切。虽然声音的质量和对韵律的理解大有帮助，但如果没有时机，句子就会支离破碎。一句台词后的额外节拍或长时间的沉默有助于创建高质量的输出。",
-        "通用文本转语音工具让停顿变得偶然。一代人可能会捕捉到你正在寻找的东西，但在你下次点击重生时它就会消失。 11 v4 提供了改进的再生工作流程，使之成为过去。在脚本中轻松微调个别台词或短语。",
-        "而且，为了从一开始就构建最好的脚本，Eleven v4 为您提供了三种将 AI 配音中的停顿直接构建到文本中的方法。以下是每种方法的作用以及何时应该使用它们。",
-        "兴奋 玩耍 平静 惊讶 焦虑 沮丧 害怕 疲倦 兴奋 玩耍 平静 惊讶 焦虑 沮丧 害怕 疲倦 兴奋 玩耍 平静 惊讶 焦虑 沮丧 害怕 疲倦 兴奋 玩耍 平静 惊讶 焦虑 沮丧 害怕 疲倦 兴奋 玩耍 平静 惊讶 焦虑 沮丧 害怕 疲倦 兴奋 玩耍 平静惊讶 焦虑 沮丧 害怕 疲倦 兴奋 俏皮 平静 惊讶 焦虑 沮丧 害怕 疲倦 兴奋 俏皮 平静 惊讶 焦虑 沮丧 害怕 疲倦 [ ] 摘要 SSML 标签在 11 v4 中不起作用。该系统使用音频标签，您可以将舞台指示（例如[长时间停顿]或[耳语]）直接写入脚本中。改变标点符号可以改变句子的节奏，用破折号、省略号和短句塑造 TTS 输出的声音。要编写有效的停顿，请将它们放在人类演讲者自然停止的地方。编写长格式音频时，请始终使用相同的暂停约定，以帮助保持输出的一致性。与早期型号相比有何变化？早期的 ElevenLabs 模型（例如 Multilingual v2）支持 SSML 语法。您可以在句子中的停顿处写入类似于 <break time=”2.0s” /> 的结构，以添加 2 秒的停顿。 11 v4 延续了 11 v3 中引入的方法，用更直观的替代方案音频标签替换 SSML 标签。",
-        "对于作家来说，这种替代使得在人工智能画外音中创建停顿变得更加容易。您不必知道要使用什么确切的 SSML 标记，只需用简单的语言编写，[暂停] 和 [长暂停] 就会为您完成工作。这些标签成为模型的方向，对它们做出反应并使用场景的上下文来创建细致入微的最终性能。停顿的确切长度适合当时的情况，而不是预先定义的机械沉默间隙。",
-        "虽然这不是本文的重点，但您还可以使用音频标签通过改变段落中的情感来创建情感文本到语音输出。",
-        "11 v4 为您提供了三种在 AI 配音中添加暂停的方法。"
-      ],
-      "highlights": [
-        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感",
-        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opaci",
-        "0:00 1.0x Discover v4 在此页面上注册"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "How to add pauses in AI voiceover with Eleven v4",
-      "originalLang": "en",
-      "date": "2026-10-02",
-      "categoryIds": [
-        "vertical-audio"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "ElevenLabs",
-        "author": "ElevenLabs",
-        "url": "https://elevenlabs.io/blog/how-to-add-pauses-in-ai-voiceover",
-        "home": "https://elevenlabs.io/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "How to add pauses in AI voiceover with Eleven v4"
-      },
-      "raw": {
-        "title": "How to add pauses in AI voiceover with Eleven v4",
-        "url": "https://elevenlabs.io/blog/how-to-add-pauses-in-ai-voiceover",
-        "fetched": true,
-        "savedAt": "2026-10-12T03:50:29.734Z"
-      }
-    },
-    {
-      "id": "sig-c1f01a607a",
-      "title": "欧洲最大的保险公司之一如何推出人工智能代理",
-      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-      "summary": {
-        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-        "bullets": [
-          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root ",
-          "0:00 1.0x 观看直播 在此页面",
-          "当事情进展顺利时，保险客户很少打电话。他们在发生事故后、提出索赔或在真正的危机中打电话。这种对话决定了接下来的一切，而且通常是客户与保险公司唯一真正的互动。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://elevenlabs.io/blog/webinar-recap-how-one-of-europes-largest-insurers-got-ai-agents-into-production"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 观看现场会议博客产品网络研讨会回顾：欧洲最大的保险公司之一如何将人工智能代理投入生产 作者：Anna Neely 发布于 2026 年 10 月 2 日 最后更新于 2026 年 10 月 5 日 收听 收听这篇文章",
-        "0:00 1.0x 观看直播 在此页面",
-        "当事情进展顺利时，保险客户很少打电话。他们在发生事故后、提出索赔或在真正的危机中打电话。这种对话决定了接下来的一切，而且通常是客户与保险公司唯一真正的互动。",
-        "Admiral 每年在英国、意大利、法国和西班牙处理数百万次此类对话。现在，他们正在使用人工智能代理来帮助处理这些问题，同时保持合规性。",
-        "在本次网络研讨会中，Admiral 的团队向我们介绍了他们是如何做到这一点的：选择第一个用例，在第零天获得法律和合规性，从工作原型到生产变更，现在只需数小时而不是数周即可交付。",
-        "Admiral 的第一个生产用例是其英国贷款业务的结算报价，这是一个有意控制的起点，而不是列表中最难的问题。坎帕将这种方法描述为在扩张之前选择一个国家和一个业务线进行试验。",
-        "Neely 说，这是将达到生产的部署与停滞的部署区分开来的模式：用例必须足够窄，以便在现实的时间表上解决，但又足够复杂，以便实际运行围绕它的系统。和解报价之所以有效，是因为对话的路径数量有限，同时仍然涉及电话和后端集成，足以证明架构，而无需尝试立即解决所有问题。",
-        "Admiral 的领导明确表示，人工智能代理应该提高合规性和测试标准，而不是降低。 Kampa 直接指出：验证标准必须比以前更严格，因为代理脱离脚本或违反规则的风险与人类代理做出判断的风险不同。",
-        "该标准体现在团队早期做出的三项承诺中："
-      ],
-      "highlights": [
-        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感",
-        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opaci",
-        "0:00 1.0x 观看直播 在此页面"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "How One of Europe's Largest Insurers Launch AI Agents",
-      "originalLang": "en",
-      "date": "2026-10-02",
-      "categoryIds": [
-        "vertical-audio"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "ElevenLabs",
-        "author": "ElevenLabs",
-        "url": "https://elevenlabs.io/blog/webinar-recap-how-one-of-europes-largest-insurers-got-ai-agents-into-production",
-        "home": "https://elevenlabs.io/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "How One of Europe's Largest Insurers Launch AI Agents"
-      },
-      "raw": {
-        "title": "Webinar Recap: How One of Europe's Largest Insurers Got AI Agents into Production",
-        "url": "https://elevenlabs.io/blog/webinar-recap-how-one-of-europes-largest-insurers-got-ai-agents-into-production",
-        "fetched": true,
-        "savedAt": "2026-10-12T03:50:40.730Z"
-      }
-    },
-    {
-      "id": "sig-b7b9686f0a",
-      "title": "Banner Health 选择 11 个代理进行患者安排",
-      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-      "summary": {
-        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-        "bullets": [
-          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root ",
-          "0:00 1.0x 对于许多患者来说，护理从电话开始。 ElevenLabs 使第一步变得毫不费力：对话语音代理可以帮助患者安排护理并在对话需要时引入 Banner 团队成员。",
-          "Banner Health 现已部署 11 个面向患者呼叫处理的代理，该公司是美国最大的完全一体化非营利医疗系统之一。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://elevenlabs.io/blog/banner-health"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 注册客户案例 ElevenLabs 为 Banner Health 的患者访问提供 AI 语音代理支持 作者：John Durovsik 发布于 2026 年 10 月 2 日 听 听这篇文章",
-        "0:00 1.0x 对于许多患者来说，护理从电话开始。 ElevenLabs 使第一步变得毫不费力：对话语音代理可以帮助患者安排护理并在对话需要时引入 Banner 团队成员。",
-        "Banner Health 现已部署 11 个面向患者呼叫处理的代理，该公司是美国最大的完全一体化非营利医疗系统之一。",
-        "Banner Health 执行副总裁兼首席技术官 Michael J. Reagin 表示：“患者不必等待才能安排护理。” “我们的目标始终是让联系我们的第一步尽可能简单。”",
-        "Reagin 补充道：“这种部署意味着可以全天候接听电话，通过一次对话即可预订预约，并且当患者需要时，Banner 团队成员始终可以到达。” “这是我们的患者应得的体验。”",
-        "初始部署已上线，从初级保健调度开始，其中 ElevenAgents：",
-        "对于患者来说，改变很简单。无论上午 10 点还是晚上 10 点打电话，电话都会得到接听。对于班纳的患者访问团队来说，这意味着有时间为患者和最需要他们的电话服务。",
-        "卫生系统在安全性、隐私性和可靠性方面设定了很高的标准。班纳的要求更高，而这次部署就是为了满足这个要求而设计的。每个代理都在 Banner 的 AI 治理框架内运行，具有企业级安全性和 HIPAA 合规性。",
-        "“我们部署的每个人工智能系统都始于同一个问题：这是否能让我们的患者获得更安全、更容易获得、更值得信赖的护理？” Banner Health 高级副总裁兼首席人工智能、数据和基础设施官 John Rares Almasan 表示。 “此次部署清除了这一障碍，每次对话中都内置人工升级、完全符合 HIPAA 要求以及实时监督，使我们能够不断改善体验。"
-      ],
-      "highlights": [
-        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感",
-        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opaci",
-        "0:00 1.0x 对于许多患者来说，护理从电话开始。 ElevenLabs 使第一步变得毫不费力：对话语音代理可以帮助患者安排护理并在对话需要时引入 Bann"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Banner Health Selects ElevenAgents for Patient Scheduling",
-      "originalLang": "en",
-      "date": "2026-10-02",
-      "categoryIds": [
-        "vertical-audio"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "ElevenLabs",
-        "author": "ElevenLabs",
-        "url": "https://elevenlabs.io/blog/banner-health",
-        "home": "https://elevenlabs.io/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Banner Health Selects ElevenAgents for Patient Scheduling"
-      },
-      "raw": {
-        "title": "ElevenLabs powers AI voice agents for patient access at Banner Health",
-        "url": "https://elevenlabs.io/blog/banner-health",
-        "fetched": true,
-        "savedAt": "2026-10-12T03:50:50.670Z"
-      }
-    },
-    {
-      "id": "sig-d1b287482a",
-      "title": "Academia is for Ambition — Alex Zhang, MIT",
-      "oneLiner": "We catch up with RLM first author Alex Zhang, MIT PhD, on Jev, PhD masxing, and the future of harnes",
-      "summary": {
-        "oneSentence": "We catch up with RLM first author Alex Zhang, MIT PhD, on Jev, PhD masxing, and the future of harnesses.",
-        "bullets": [
-          "We catch up with RLM first author Alex Zhang, MIT PhD, on Jev, PhD masxing, and the future of harnesses."
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://www.latent.space/p/rlm"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "We catch up with RLM first author Alex Zhang, MIT PhD, on Jev, PhD masxing, and the future of harnesses."
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Academia is for Ambition — Alex Zhang, MIT",
-      "originalLang": "en",
-      "date": "2026-10-02",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Latent Space",
-        "author": "swyx",
-        "url": "https://www.latent.space/p/rlm",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Academia is for Ambition — Alex Zhang, MIT"
-      },
-      "raw": {
-        "title": "Academia is for Ambition — Alex Zhang, MIT",
-        "url": "https://www.latent.space/p/rlm",
-        "fetched": false,
-        "savedAt": "2026-10-02T03:38:30.164Z"
-      }
-    },
-    {
-      "id": "sig-d81483cb0d",
-      "title": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
-      "oneLiner": "After leading Meta’s Llama models, Ahmad Al-Dahle is now transforming Airbnb with AI — from how its ",
-      "summary": {
-        "oneSentence": "After leading Meta’s Llama models, Ahmad Al-Dahle is now transforming Airbnb with AI — from how its teams develop produc",
-        "bullets": [
-          "After leading Meta’s Llama models, Ahmad Al-Dahle is now transforming Airbnb with AI — from how its teams develop products to how it serves guests."
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://www.latent.space/p/airbnb"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "After leading Meta’s Llama models, Ahmad Al-Dahle is now transforming Airbnb with AI — from how its teams develop products to how it serves guests."
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
-      "originalLang": "en",
-      "date": "2026-10-02",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Latent Space",
-        "author": "swyx",
-        "url": "https://www.latent.space/p/airbnb",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience"
-      },
-      "raw": {
-        "title": "Inside-Out AI: Rebuilding Airbnb Behind the Scenes and Across the Guest Experience",
-        "url": "https://www.latent.space/p/airbnb",
-        "fetched": false,
-        "savedAt": "2026-10-03T03:22:40.507Z"
-      }
-    },
-    {
-      "id": "sig-22b95dcb28",
-      "title": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
-      "oneLiner": "the minimalist harness goes stable... and TypeScript!",
-      "summary": {
-        "oneSentence": "the minimalist harness goes stable... and TypeScript!",
-        "bullets": [
-          "the minimalist harness goes stable... and TypeScript!"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "the minimalist harness goes stable... and TypeScript!"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
-      "originalLang": "en",
-      "date": "2026-10-02",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Latent Space",
-        "author": "swyx",
-        "url": "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc",
-        "home": "https://www.latent.space/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "[AINews] Pi 1.0, Pi Durable, and AIE NYC"
-      },
-      "raw": {
-        "title": "[AINews] Pi 1.0, Pi Durable, and AIE NYC",
-        "url": "https://www.latent.space/p/ainews-pi-10-pi-durable-and-aie-nyc",
-        "fetched": false,
-        "savedAt": "2026-10-03T03:22:41.306Z"
-      }
-    },
-    {
-      "id": "sig-da9bc33d3f",
-      "title": "Rex's Dino Store",
-      "oneLiner": "Museum: Rex's Dino Store Located just before the turnstiles in the Grand Army Plaza subway station a",
-      "summary": {
-        "oneSentence": "Museum: Rex's Dino Store Located just before the turnstiles in the Grand Army Plaza subway station at the north end of B",
-        "bullets": [
-          "Museum: Rex's Dino Store Located just before the turnstiles in the Grand Army Plaza subway station at the north end of Brooklyn's Prospect Park is this former newsstand which is now operated by a dino"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Oct/2/rex-s-dino-store/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Museum: Rex's Dino Store Located just before the turnstiles in the Grand Army Plaza subway station at the north end of Brooklyn's Prospect Park is this former newsstand which is now operated by a dinosaur. The density of dinosaur puns is exceptional . Tags: art , new-york"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Rex's Dino Store",
-      "originalLang": "en",
-      "date": "2026-10-02",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Rex's Dino Store"
-      },
-      "raw": {
-        "title": "Rex's Dino Store",
-        "url": "https://simonwillison.net/2026/Oct/2/rex-s-dino-store/",
-        "fetched": false,
-        "savedAt": "2026-10-04T03:49:26.183Z"
       }
     }
   ]
