@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-17T06:06:27.945Z",
+  "updatedAt": "2026-11-18T05:35:32.959Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 415,
+  "itemCount": 424,
   "brief": {
-    "date": "2026-11-17",
-    "generatedAt": "2026-11-17T06:06:27.943Z",
-    "totalCount": 415,
-    "todayCount": 1,
-    "headline": "今日 AI 信号 1 条 · 档案共 415 条",
+    "date": "2026-11-18",
+    "generatedAt": "2026-11-18T05:35:32.959Z",
+    "totalCount": 424,
+    "todayCount": 0,
+    "headline": "今日 AI 信号 — 条 · 档案共 424 条",
     "topUpdates": [
       {
         "id": "sig-2bd9a2245c",
@@ -19,42 +19,42 @@
         "readMinutes": 5
       },
       {
-        "id": "sig-41bae8ef55",
-        "title": "1Password 如何使用 Figma Make | Figma 博客",
+        "id": "sig-0f9ff34a8a",
+        "title": "新团队的标准构建转向基于使用情况的计费 - Vercel",
         "stars": 4,
-        "oneLiner": "从自动填充到 AI 代理批准，每次 1Password 交互都很重要。以下是设计团队如何使用 Figma Make 来设计用户信任的时刻。",
+        "oneLiner": "从今天开始，新的专业版和企业版团队不再包含标准构建槽。这使得标准构建与其他构建机器采用相同的基于使用的计费模型。",
         "readMinutes": 5
       },
       {
-        "id": "sig-f26f2a4dfd",
-        "title": "扩大科学家使用人工智能的机会",
+        "id": "sig-4a9343b2b4",
+        "title": "Vercel Blob 现在支持 TTL 进行自动删除 - Vercel",
         "stars": 4,
-        "oneLiner": "我们正在扩展针对学术研究人员的 ChatGPT 计划，为全球 200,000 名研究人员提供免费访问我们的前沿模型的机会。",
+        "oneLiner": "Vercel Blob 现在可以自动删除 Blob。当您写入 blob 时传递 ttlDays，它会在上传后多少天（从 1 到 730 天）被删除。 TTL 从 Blob 的上传日期开始计算。",
         "readMinutes": 5
       },
       {
-        "id": "sig-b1c71d0787",
-        "title": "通过新工具和支持加强打击网上儿童性虐待",
+        "id": "sig-549a77347d",
+        "title": "GPT-6.2 Astra 和 Sol 简介",
         "stars": 4,
-        "oneLiner": "新工具、实用指南和伙伴关系将有助于预防、发现和应对网上儿童性剥削和性虐待。",
+        "oneLiner": "（在新窗口中打开） GPT-6.2 Sol：我们日常工作的首选模型 GPT-6.2 Sol：我们日常工作的首选模型 符合行业标准的专业输出 计算机使用和交互式网页设计 具有更简洁代码风格的高效工作流程 网络安全功能 安全性和一致性 定价和可",
         "readMinutes": 5
       },
       {
-        "id": "sig-46ba19789d",
-        "title": "Hy4 Flash 现已在 AI Gateway 上提供 50% 折扣 - Vercel",
+        "id": "sig-357d085ae0",
+        "title": "让双子座为你工作",
         "stars": 4,
-        "oneLiner": "腾讯的 Hy4 Flash 现已在 AI Gateway 上提供，截至 2026 年 11 月 29 日，输入、缓存输入和输出代币可享受 50% 的介绍性折扣。",
+        "oneLiner": "双子座现在可以打电话、支付账单并完成任务。",
         "readMinutes": 5
       }
     ],
     "sections": {
       "topUpdates": [
         "sig-2bd9a2245c",
-        "sig-41bae8ef55",
-        "sig-f26f2a4dfd",
-        "sig-b1c71d0787",
-        "sig-46ba19789d",
-        "sig-717626b76e"
+        "sig-0f9ff34a8a",
+        "sig-4a9343b2b4",
+        "sig-549a77347d",
+        "sig-357d085ae0",
+        "sig-9729e350f3"
       ],
       "newReleases": [
         "sig-fd1a4c4700",
@@ -65,13 +65,13 @@
       ],
       "insights": [
         "sig-2bd9a2245c",
-        "sig-41bae8ef55",
-        "sig-f26f2a4dfd",
-        "sig-b1c71d0787",
-        "sig-46ba19789d",
-        "sig-717626b76e",
-        "sig-f891bd93f3",
-        "sig-587e227a3e"
+        "sig-0f9ff34a8a",
+        "sig-4a9343b2b4",
+        "sig-549a77347d",
+        "sig-357d085ae0",
+        "sig-9729e350f3",
+        "sig-b9fccc282f",
+        "sig-b22006398e"
       ],
       "emergingTrends": [],
       "newApis": [],
@@ -92,8 +92,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-11-17T06:06:27.945Z",
-    "summary": "近 30 天共 285 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-11-18T05:35:32.959Z",
+    "summary": "近 30 天共 287 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -108,6 +108,54 @@
     "risingTags": []
   },
   "productUpdates": [
+    {
+      "id": "sig-549a77347d",
+      "title": "GPT-6.2 Astra 和 Sol 简介",
+      "oneLiner": "（在新窗口中打开） GPT-6.2 Sol：我们日常工作的首选模型 GPT-6.2 Sol：我们日常工作的首选模型 符合行业标准的专业输出 计算机使用和交互式网页设计 具有更简洁代码风格的高效工作流程 网络安全功能 安全性和一致性 定价和可",
+      "date": "2026-11-17",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-357d085ae0",
+      "title": "让双子座为你工作",
+      "oneLiner": "双子座现在可以打电话、支付账单并完成任务。",
+      "date": "2026-11-17",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google AI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-c6c361c53b",
+      "title": "介绍用于销售的 ChatGPT",
+      "oneLiner": "通过全新的销售体验和 30 多个新的和扩展的合作伙伴插件，帮助每个卖家缩短销售周期，从找到合适的帐户到履行客户承诺。",
+      "date": "2026-11-17",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-590cb0b9c5",
+      "title": "利用人工智能加强北约和盟国的网络防御",
+      "oneLiner": "分享 加强北约的网络防御 加强北约的网络防御 支持盟国政府 加强北约的网络防御 支持盟国政府 政府和国家网络机构保护人民、公共服务和经济所依赖的系统。通过 Daybreak，我们将先进的人工智能交给值得信赖的防御者来执行授权的安全工作，从审",
+      "date": "2026-11-17",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
     {
       "id": "sig-f26f2a4dfd",
       "title": "扩大科学家使用人工智能的机会",
@@ -347,54 +395,6 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-8c999d6885",
-      "title": "JioStar 5 亿用户规模 AI 发现首席架构师",
-      "oneLiner": "JioStar 的 Vijay Seshadri 解释了 5 亿用户规模的人工智能发现。阅读他关于评估、护栏和将人工智能投入生产的课程。",
-      "date": "2026-11-11",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-ac5a661efb",
-      "title": "Gemini Intelligence：新功能，适用于更多设备",
-      "oneLiner": "Gemini Intelligence 现已在更多设备上使用，包括 Motorola Signature 27 和 Pixel 10。了解这些设备上的扩展功能如何帮助您完成更多工作。",
-      "date": "2026-11-10",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google AI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-0b2e1c02de",
-      "title": "Gemini 4 Carbon 现已上市",
-      "oneLiner": "开发者、企业、科学家和消费者现在可以尝试我们最新的前沿模型。",
-      "date": "2026-11-10",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google DeepMind",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-c5fffc8a0c",
-      "title": "我们正在使 Adob​​e 的创意和生产力工具更接近您的日常 Google 应用程序。",
-      "oneLiner": "今天在 Adob​​e MAX 上，我们宣布将扩大与 Adob​​e 的合作伙伴关系。",
-      "date": "2026-11-10",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google AI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
@@ -480,6 +480,845 @@
         "url": "https://elevenlabs.io/blog/postnord",
         "fetched": true,
         "savedAt": "2026-11-17T06:05:25.472Z"
+      }
+    },
+    {
+      "id": "sig-0f9ff34a8a",
+      "title": "新团队的标准构建转向基于使用情况的计费 - Vercel",
+      "oneLiner": "从今天开始，新的专业版和企业版团队不再包含标准构建槽。这使得标准构建与其他构建机器采用相同的基于使用的计费模型。",
+      "summary": {
+        "oneSentence": "从今天开始，新的专业版和企业版团队不再包含标准构建槽。这使得标准构建与其他构建机器采用相同的基于使用的计费模型。",
+        "bullets": [
+          "从今天开始，新的专业版和企业版团队不再包含标准构建槽。这使得标准构建与其他构建机器采用相同的基于使用的计费模型。",
+          "在 Pro 上，标准构建每构建分钟花费 0.014 美元，并且您的每月使用积分适用于构建使用。企业费率遵循您的合同。对于此更改所涵盖的团队，从弹性切换到标准后，标准构建仍然是可计费的。",
+          "在团队设置或项目设置中选择构建机器，或阅读有关管理构建的更多信息。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：从今天开始，新的专业版和企业版团队不再包含标准构建槽。这使得标准构建与其他构建机器采用相同的基于使用的计费模型。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/standard-build-billing-new-teams"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "从今天开始，新的专业版和企业版团队不再包含标准构建槽。这使得标准构建与其他构建机器采用相同的基于使用的计费模型。",
+        "在 Pro 上，标准构建每构建分钟花费 0.014 美元，并且您的每月使用积分适用于构建使用。企业费率遵循您的合同。对于此更改所涵盖的团队，从弹性切换到标准后，标准构建仍然是可计费的。",
+        "在团队设置或项目设置中选择构建机器，或阅读有关管理构建的更多信息。"
+      ],
+      "highlights": [
+        "从今天开始，新的专业版和企业版团队不再包含标准构建槽。这使得标准构建与其他构建机器采用相同的基于使用的计费模型。",
+        "在 Pro 上，标准构建每构建分钟花费 0.014 美元，并且您的每月使用积分适用于构建使用。企业费率遵循您的合同。对于此更改所涵盖的团队，从弹性切换到标准后，",
+        "在团队设置或项目设置中选择构建机器，或阅读有关管理构建的更多信息。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Standard builds move to usage-based billing for new teams - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-17",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/standard-build-billing-new-teams",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Standard builds move to usage-based billing for new teams - Vercel"
+      },
+      "raw": {
+        "title": "Standard builds move to usage-based billing for new teams",
+        "url": "https://vercel.com/changelog/standard-build-billing-new-teams",
+        "fetched": true,
+        "savedAt": "2026-11-18T05:34:00.747Z"
+      }
+    },
+    {
+      "id": "sig-4a9343b2b4",
+      "title": "Vercel Blob 现在支持 TTL 进行自动删除 - Vercel",
+      "oneLiner": "Vercel Blob 现在可以自动删除 Blob。当您写入 blob 时传递 ttlDays，它会在上传后多少天（从 1 到 730 天）被删除。 TTL 从 Blob 的上传日期开始计算。",
+      "summary": {
+        "oneSentence": "Vercel Blob 现在可以自动删除 Blob。当您写入 blob 时传递 ttlDays，它会在上传后多少天（从 1 到 730 天）被删除。 TTL 从 Blob 的上传日期开始计算。",
+        "bullets": [
+          "Vercel Blob 现在可以自动删除 Blob。当您写入 blob 时传递 ttlDays，它会在上传后多少天（从 1 到 730 天）被删除。 TTL 从 Blob 的上传日期开始计算。",
+          "对您可能会自行删除的 blob 使用 TTL，例如会话记录、导出和临时上传。",
+          "ttlDays 适用于 put() 、 copy() 、 putImage() 、分段上传和预签名上传 URL。现在，每个写入结果和 head() 响应都包含 expiresAt ，因此您可以知道何时需要删除 blob。",
+          "1 从 '@vercel/blob' 导入 { put , setTtl } ； 2 3 // 上传 7 天后删除此导出 4 const blob = wait put ( 'exports/report.csv' , csv , { 5 access : 'private' , 6 ttlDays : 7 , 7 }"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel Blob 现在可以自动删除 Blob。当您写入 blob 时传递 ttlDays，它会在上传后多少天（从 1 到 730 天）被删除。 TTL 从 Blob 的上传日期开始计算。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-blob-now-supports-ttls-for-automatic-deletion"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Blob 现在可以自动删除 Blob。当您写入 blob 时传递 ttlDays，它会在上传后多少天（从 1 到 730 天）被删除。 TTL 从 Blob 的上传日期开始计算。",
+        "对您可能会自行删除的 blob 使用 TTL，例如会话记录、导出和临时上传。",
+        "ttlDays 适用于 put() 、 copy() 、 putImage() 、分段上传和预签名上传 URL。现在，每个写入结果和 head() 响应都包含 expiresAt ，因此您可以知道何时需要删除 blob。",
+        "1 从 '@vercel/blob' 导入 { put , setTtl } ； 2 3 // 上传 7 天后删除此导出 4 const blob = wait put ( 'exports/report.csv' , csv , { 5 access : 'private' , 6 ttlDays : 7 , 7 } ) ; 8 9 控制台。日志（blob。expiresAt）； // 2026-11-24T00:00:00.000Z 10 11 // 稍后改变主意：延长至 30 天，或使用 null 清除它 12 wait setTtl ( blob . url , { ttlDays : 30 } ) ; 13await setTtl(blob.url,{ttlDays:null}); setTtl() 更改或删除您已有的 blob 的 TTL、一个 URL 或一次最多 1,000 个，而无需重新上传它们。",
+        "在 Vercel CLI 65.16.0 及更高版本中，将 --ttl-days 传递给 vercel blob put 、 put-image 、 copy 或 presign ，并在现有 blob 上使用 vercel blob set-ttl。",
+        "1 vercel blob put report.csv --ttl-days 7 2 vercel blob set-ttl导出/a.csv导出/b.csv --ttl-days 30 3 vercel blob set-ttl导出/a.csv --clear-ttl 设置 TTL 每启动 60 天需要花费一次高级操作（在写入之上）。 7 天的 TTL 费用为 1，730 天的最长费用为 13。清除 TTL 和删除本身都是免费的。您可以在“可观察性”选项卡的“Blob”部分中跟踪 TTL 操作。",
+        "请参阅 Vercel Blob 文档了解更多信息。"
+      ],
+      "highlights": [
+        "Vercel Blob 现在可以自动删除 Blob。当您写入 blob 时传递 ttlDays，它会在上传后多少天（从 1 到 730 天）被删除。 TTL 从",
+        "对您可能会自行删除的 blob 使用 TTL，例如会话记录、导出和临时上传。",
+        "ttlDays 适用于 put() 、 copy() 、 putImage() 、分段上传和预签名上传 URL。现在，每个写入结果和 head() 响应都包含 "
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Blob now supports TTLs for automatic deletion - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-17",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-blob-now-supports-ttls-for-automatic-deletion",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Blob now supports TTLs for automatic deletion - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Blob now supports TTLs for automatic deletion",
+        "url": "https://vercel.com/changelog/vercel-blob-now-supports-ttls-for-automatic-deletion",
+        "fetched": true,
+        "savedAt": "2026-11-18T05:34:12.136Z"
+      }
+    },
+    {
+      "id": "sig-549a77347d",
+      "title": "GPT-6.2 Astra 和 Sol 简介",
+      "oneLiner": "（在新窗口中打开） GPT-6.2 Sol：我们日常工作的首选模型 GPT-6.2 Sol：我们日常工作的首选模型 符合行业标准的专业输出 计算机使用和交互式网页设计 具有更简洁代码风格的高效工作流程 网络安全功能 安全性和一致性 定价和可",
+      "summary": {
+        "oneSentence": "（在新窗口中打开） GPT-6.2 Sol：我们日常工作的首选模型 GPT-6.2 Sol：我们日常工作的首选模型 符合行业标准的专业输出 计算机使用和交互式网页设计 具有更简洁代码风格的高效工作流程 网络安全功能 安全性和一致性 定价和可",
+        "bullets": [
+          "（在新窗口中打开） GPT-6.2 Sol：我们日常工作的首选模型 GPT-6.2 Sol：我们日常工作的首选模型 符合行业标准的专业输出 计算机使用和交互式网页设计 具有更简洁代码风格的高效工作流程 网络安全功能 安全性和一致性 定价和可用性 GPT-6.2 Sol：我们日常工作的首选模型 符合行业标准的专业输出 计",
+          "GPT-6.2 Astra 为复杂专业工作中的人工智能设定了新的质量标准。它的幻灯片、电子表格和文档读起来不太像人工智能，而是更严格地遵循您提供的模板和您所在领域的惯例。它编写更清晰的代码并构建外观和工作效果更好的前端，特别是对于网站、游戏和 3D 设计。",
+          "在测试多步骤专业工作的 Agents’ Last Exam 中，GPT-6.2 Astra 创下了新高，比 GPT-6 Astra 高出 5.2 分，而成本却不到 GPT-6 Astra 的三分之一，比 Claude Fable 5.2 领先 5.5 分，而成本仅为 GPT-6 Astra 的 5%。",
+          "代理商的最后考试评估长期专业工作流程的模型。 《神鬼寓言 5.2》的排行榜结果排除了使用后备模型的九项任务。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：（在新窗口中打开） GPT-6.2 Sol：我们日常工作的首选模型 GPT-6.2 Sol：我们日常工作的首选模型 符合行业标准的专业输出 计算机使用和交互式网页设计 具有更简洁代码风格的高效工作流程 网络安全功能 安全性和一致性 定价和可",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/introducing-gpt-6-2-astra-sol"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "（在新窗口中打开） GPT-6.2 Sol：我们日常工作的首选模型 GPT-6.2 Sol：我们日常工作的首选模型 符合行业标准的专业输出 计算机使用和交互式网页设计 具有更简洁代码风格的高效工作流程 网络安全功能 安全性和一致性 定价和可用性 GPT-6.2 Sol：我们日常工作的首选模型 符合行业标准的专业输出 计算机使用和交互式网页设计 具有更简洁代码风格的高效工作流程 网络安全功能 安全和一致性定价和供货情况 我们正在推出 GPT-6.2 Astra，这是我们为您最困难的项目设计的新前沿模型，以及 GPT-6.2 Sol，我们为日常工作设计的高效、多功能模型。两种模型都能以更少的输出令牌在要求较高的任务上提供更好的结果，因此您可以在使用限制内完成更多工作。对于企业和开发人员来说，这意味着以规模化的成本实现前沿性能。",
+        "GPT-6.2 Astra 为复杂专业工作中的人工智能设定了新的质量标准。它的幻灯片、电子表格和文档读起来不太像人工智能，而是更严格地遵循您提供的模板和您所在领域的惯例。它编写更清晰的代码并构建外观和工作效果更好的前端，特别是对于网站、游戏和 3D 设计。",
+        "在测试多步骤专业工作的 Agents’ Last Exam 中，GPT-6.2 Astra 创下了新高，比 GPT-6 Astra 高出 5.2 分，而成本却不到 GPT-6 Astra 的三分之一，比 Claude Fable 5.2 领先 5.5 分，而成本仅为 GPT-6 Astra 的 5%。",
+        "代理商的最后考试评估长期专业工作流程的模型。 《神鬼寓言 5.2》的排行榜结果排除了使用后备模型的九项任务。",
+        "我们相信 GPT-6.2 Astra 对于科学家来说是世界上最好的模型。它为 Terminal-Bench-Science 0.1 设定了新的高度，该版本测试模型在终端中执行科学工作的能力。 GPT-6.2 Astra 的得分比 GPT-6 Astra 高 9 个百分点，而成本却不到 GPT-6 Astra 的三分之一。它还创下了 Vals 科学指数的新高，该指数要求模型解释真实的生物数据并进行实验以推断模拟系统的工作原理。",
+        "在 API 中，GPT-6.2 Astra 的输入和输出代币价格比 GPT-6 Astra 低 20%，缓存输入有 60% 的折扣（输入 8 美元，缓存输入 0.40 美元，输出 40 美元，均为每百万代币）。 GPT-6.2 Sol 保留 GPT-6.1 Sol 的 API 代币价格。在多个基准测试中，这两种模型都接近或优于其他领先模型，而每项任务的成本仅为其一小部分。",
+        "与 GPT-6.1 Sol 相比，GPT-6.2 Sol 更智能、更高效，可让您在相同的付费套餐中完成更多任务。它通过多步骤代理工作流程提供支持，书写清晰自然，并且协作直观。 OpenAI 的许多员工都将其用作技术和非技术任务的默认模型。",
+        "在 Cognition 的 FrontierCode 2.0 中，GPT-6.2 Sol 与 GPT-6.2 Astra 相差不到 0.5 个点，成本约为 GPT-6.2 Astra 的五分之一（均为最大值）。",
+        "FrontierCode 2.0 评估对实际代码库的更改是否满足维护者的合并标准。",
+        "它的速度和智能也使其成为人们在工作之外求助于人工智能的重要任务的理想选择。在我们最近发布的 LifeVal ⁠ 评估（衡量具有挑战性的日常任务的性能）中，GPT-6.2 Sol 的得分超过了 GPT-6 Astra，成本约为 GPT-6 Astra 的七分之一。"
+      ],
+      "highlights": [
+        "（在新窗口中打开） GPT-6.2 Sol：我们日常工作的首选模型 GPT-6.2 Sol：我们日常工作的首选模型 符合行业标准的专业输出 计算机使用和交互式网",
+        "GPT-6.2 Astra 为复杂专业工作中的人工智能设定了新的质量标准。它的幻灯片、电子表格和文档读起来不太像人工智能，而是更严格地遵循您提供的模板和您所在领",
+        "在测试多步骤专业工作的 Agents’ Last Exam 中，GPT-6.2 Astra 创下了新高，比 GPT-6 Astra 高出 5.2 分，而成本却不"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Introducing GPT-6.2 Astra and Sol",
+      "originalLang": "en",
+      "date": "2026-11-17",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Introducing GPT-6.2 Astra and Sol"
+      },
+      "raw": {
+        "title": "Introducing GPT-6.2 Astra and Sol",
+        "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+        "fetched": true,
+        "savedAt": "2026-11-18T05:34:18.854Z"
+      }
+    },
+    {
+      "id": "sig-357d085ae0",
+      "title": "让双子座为你工作",
+      "oneLiner": "双子座现在可以打电话、支付账单并完成任务。",
+      "summary": {
+        "oneSentence": "双子座现在可以打电话、支付账单并完成任务。",
+        "bullets": [
+          "双子座现在可以打电话、支付账单并完成任务。",
+          "实验室、Gemini 应用程序和 AI Studio 副总裁",
+          "您的浏览器不支持音频元素。",
+          "我们正在更新 Gemini 以处理复杂的任务，例如安排约会、管理账单和购买杂货。通过连接到您的电子邮件、日历和付款方式，Gemini 可以节省您的时间，同时在隔离环境中保证您的数据安全。您现在就可以尝试这些新功能，方法是在 Gemini 应用程序中将切换开关从“聊天”切换为“任务”，在 Android 或 iOS 上给"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google AI 官网发布：双子座现在可以打电话、支付账单并完成任务。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "双子座现在可以打电话、支付账单并完成任务。",
+        "实验室、Gemini 应用程序和 AI Studio 副总裁",
+        "您的浏览器不支持音频元素。",
+        "我们正在更新 Gemini 以处理复杂的任务，例如安排约会、管理账单和购买杂货。通过连接到您的电子邮件、日历和付款方式，Gemini 可以节省您的时间，同时在隔离环境中保证您的数据安全。您现在就可以尝试这些新功能，方法是在 Gemini 应用程序中将切换开关从“聊天”切换为“任务”，在 Android 或 iOS 上给我们发短信，或者将电子邮件转发到 gemini@google.com。",
+        "实验室、Gemini 应用程序和 AI Studio 副总裁 Josh Woodward 解释说，Gemini 现在可以处理日常任务，例如安排约会、管理杂货清单和分析账单。通过连接到您的 Google 应用程序，它可以使用您现有的信息安全地完成家务。您可以通过将 Gemini 应用程序切换到任务模式、发短信或转发电子邮件来激活这些功能。此更新可帮助您通过管理日历、购物和家庭组织来节省时间。",
+        "最好的助手了解您并帮助您完成工作。今天，您现在可以将更多任务交给双子座并继续您的一天。我们为那些在一天中的所有课程、会议和放学期间有堆积如山的任务的人构建了它。我们的目标是让 Gemini 为您节省时间和金钱。",
+        "从现在开始，此更新将免费向美国、日本、韩国、加拿大、澳大利亚和印度的数亿用户免费推出，使用我们新的 Gemini 4 Hydrogen 模型。我们还推出了一系列高级功能，从美国开始。",
+        "如果您的电子邮件、日历、密码、照片、文件和支付卡已经在 Google 生态系统中，那么 Gemini 是您作为个人助理的最佳选择，因为这些敏感数据已经安全地存储在 Google 中，您无需将其发送到其他地方。",
+        "最近，我们的小型货车的检查引擎灯亮了。啊。我拉出 Gemini 并告诉它：“我们的小型货车已逾期进行服务预约。请致电最近的两家经销商，了解如何在下个月左右的周五早上进行预约。”",
+        "因为 Gemini 已经通过个人智能知道我们驾驶的是 2019 款本田奥德赛以及我们住的地方，所以它在 Google 地图上找到了最近的商店，并立即将这两家商店称为 1 。值得庆幸的是，我不必忍受任何等待音乐的痛苦。 Gemini 完成了这项工作，在我的 Google 日历中找到了我空闲的时间，并在不到五分钟的时间内添加了周五清晨的约会。完毕。 （在经销商方面，Gemini 立即透露这是一个人工智能。企业可以随时选择退出，而且 Gemini 不会透露我的付款或私人帐户信息，除非我这么说。）"
+      ],
+      "highlights": [
+        "双子座现在可以打电话、支付账单并完成任务。",
+        "实验室、Gemini 应用程序和 AI Studio 副总裁",
+        "您的浏览器不支持音频元素。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Put Gemini to work for you",
+      "originalLang": "en",
+      "date": "2026-11-17",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Put Gemini to work for you"
+      },
+      "raw": {
+        "title": "Put Gemini to work for you",
+        "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+        "fetched": true,
+        "savedAt": "2026-11-18T05:34:29.688Z"
+      }
+    },
+    {
+      "id": "sig-9729e350f3",
+      "title": "从客户问题到完成交易",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+          "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_hlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 观看直播 在此页面",
+          "顾客不会直线购买。他们改变日期和预算，中途提出问题，并期望下一步能得到答案。表格和过滤器使他们重新开始。语音人工智能助手则不然。它在一次对话中搜索、回答、调整并完成交易。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 4,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/retail-ai-assistant-webinar-recap"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_hlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 观看直播会议 博客产品 人工智能零售助手：从客户问题到完成交易 作者：Pieter Peeters 发布于 2026 年 11 月 17 日 收听 收听本文",
+        "0:00 1.0x 观看直播 在此页面",
+        "顾客不会直线购买。他们改变日期和预算，中途提出问题，并期望下一步能得到答案。表格和过滤器使他们重新开始。语音人工智能助手则不然。它在一次对话中搜索、回答、调整并完成交易。",
+        "在我们最近的网络研讨会中，Pieter Peeters (GTM)、Boning Kong (FDE) 和 Shana Inch (GTM) 展示了基于 ElevenAgents 构建的 AI 代理如何处理真实的酒店预订对话、表现出色的代理与令人失望的代理的区别以及团队如何从试点转向生产。",
+        "顾客不会直线预订或购买。一个请求从在运河附近住两晚开始，变成三晚，然后变成日历上已经有的旅行。在商店里，购物篮从菜谱开始，按照通常的订单增长，最后在结账时结束。表单和过滤器太静态了。每一次改变都会迫使客户重新开始或离开。每一次变化都会迫使客户重新开始或离开，这就是 70% 的在线购物车、结账和预订被放弃的部分原因。",
+        "Choosing is the hard part. Few customers know which filter to set.他们知道自己想要什么：博物馆附近安静的酒店，每晚 400 欧元以下，四人份的食谱，靠近学校的家。一个好的助手会提出下一个问题，缩小选择范围并推荐一个。 It also knows the customer.",
+        "支持遵循相同的模式。有问题的顾客不需要电话菜单或排队。他们希望用自己的语言解决问题，并在助理无法完成任务时将其交给具有完整背景的人员。需求也忽略了办公时间。在 SevenRooms，其语音 AI 处理的电话中有五分之一是在下班后打来的。语音信箱无法接听他们：80% 的呼叫者在拨打电话时没有留下任何信息就挂断了电话。美国 Marchex 研究所的数据显示，七分之一的电话失败、无人接听或被放弃。",
+        "压力促使人们发声。在 ElevenLabs 对 98 人进行的一项研究中，85% 的人更喜欢通过语音聊天来重新预订已取消的航班，并将解决速度和同理心列为他们的首要原因。聊天适用于简短的问题，但在运行两个渠道的数百个生产代理中，一旦对话持续超过两分钟，语音的成功率就会提高 29%。许多团队首先自动执行聊天或电子邮件，最后添加语音。根据我们的经验，立即从语音提升指标开始。",
+        "人工智能零售助理在生产中提供的服务人工智能助理首先在客户需要帮助选择、订购或修复某些东西的情况下获得回报：目录很长的商店、过滤器太多的预订网站、不断增长的支持队列。 ElevenAgents 的业务涵盖酒店、旅游、零售、商业和市场，客户已在五个领域发布了结果。"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为",
+        "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 观看直播 在此页面"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Go from customer questions to completed transactions",
+      "originalLang": "en",
+      "date": "2026-11-17",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/retail-ai-assistant-webinar-recap",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Go from customer questions to completed transactions"
+      },
+      "raw": {
+        "title": "The AI retail assistant: from customer question to completed transaction",
+        "url": "https://elevenlabs.io/blog/retail-ai-assistant-webinar-recap",
+        "fetched": true,
+        "savedAt": "2026-11-18T05:34:42.773Z"
+      }
+    },
+    {
+      "id": "sig-b9fccc282f",
+      "title": "什么是WebRTC？实时网络通信的工作原理",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+          "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_hlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 联系销售人员 了解更多 在此页面上",
+          "如今，无缝网络通信感觉毫不费力。但构建低延迟视频或语音流应用程序曾经是开发人员面临的主要障碍。用户必须应对掉帧、音频延迟和中断等影响交互的问题。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/what-is-webrtc"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_hlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 联系销售人员 了解更多 博客资源 什么是 WebRTC？实时网络通信指南 作者：Jack Limebear 发布时间：2026 年 11 月 17 日 听 听这篇文章",
+        "0:00 1.0x 联系销售人员 了解更多 在此页面上",
+        "如今，无缝网络通信感觉毫不费力。但构建低延迟视频或语音流应用程序曾经是开发人员面临的主要障碍。用户必须应对掉帧、音频延迟和中断等影响交互的问题。",
+        "WebRTC 通过启用低延迟点对点数据流来帮助开发人员解决实时网络通信中的缺陷。自 2011 年推出以来，包括 Chrome、Safari 和 Firefox 在内的主要浏览器都采用了 WebRTC。如今，WebRTC 支持浏览器和 Web 应用程序中的实时通信。",
+        "本文探讨了 WebRTC 的工作原理、其用例、安全注意事项以及它与其他 Web 通信技术的比较。",
+        "WebRTC 是一种免费的开源通信技术，可实现网络浏览器之间的点对点实时流传输。通过WebRTC，用户可以直接交换视频、音频和数据，无需下载插件或中间软件。",
+        "与传统的客户端-服务器流式传输不同，只要存在直接路径，WebRTC 就可以在对等点之间直接发送媒体。仅当无法直接连接或有两个以上参与者加入时，中继 (TURN) 服务器和媒体服务器才会介入。这使得 WebRTC 能够提供低延迟的实时媒体。",
+        "现代网络浏览器默认支持 WebRTC。 WebRTC 是 W3C 和 IETF 的开放标准，它公开 JavaScript API，使您可以访问摄像头和麦克风、创建数据通道并将媒体内容传送到目的地。",
+        "由于其简单性，开发人员使用 WebRTC 来支持各种 Web 应用程序，包括电话会议、视频和音频流、实时转录和屏幕共享。"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为",
+        "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 联系销售人员 了解更多 在此页面上"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "What is WebRTC? How real-time web communication works",
+      "originalLang": "en",
+      "date": "2026-11-17",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/what-is-webrtc",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "What is WebRTC? How real-time web communication works"
+      },
+      "raw": {
+        "title": "What is WebRTC? A guide to real-time web communication",
+        "url": "https://elevenlabs.io/blog/what-is-webrtc",
+        "fetched": true,
+        "savedAt": "2026-11-18T05:34:50.866Z"
+      }
+    },
+    {
+      "id": "sig-b22006398e",
+      "title": "Scribe v3 Live Medical：医疗保健代理的转录",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+          "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_hlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "语音代理根据实时通话中听到的内容采取行动。当患者说他们服用西他列汀治疗糖尿病时，代理人可以将其添加到他们的药物清单中，以供临床医生审查。但药品名称很容易听错。在我们的测试中，我们看到一个语音模型将西格列汀转录为西酞普兰，一种抗抑郁药。对于许多人来说，这些电话是联系他们的护理团队的第一步，只有正确听到他们的声音，客服人员",
+          "今天，ElevenLabs 发布了 Scribe v3 Live Medical，它将医疗转录带入实时通话中。它基于我们最新的实时语音转文本模型 Scribe v3 Live 构建，并针对临床语言进行了优化。现已在 ElevenAgents 中提供。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 4,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/scribe-v3-live-medical"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_hlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 注册博客 产品 Scribe v3 Live Medical 帮助对话代理正确获取临床详细信息 作者：John Durovsik 发布于 2026 年 11 月 17 日 听 听这篇文章",
+        "语音代理根据实时通话中听到的内容采取行动。当患者说他们服用西他列汀治疗糖尿病时，代理人可以将其添加到他们的药物清单中，以供临床医生审查。但药品名称很容易听错。在我们的测试中，我们看到一个语音模型将西格列汀转录为西酞普兰，一种抗抑郁药。对于许多人来说，这些电话是联系他们的护理团队的第一步，只有正确听到他们的声音，客服人员才能提供帮助。",
+        "今天，ElevenLabs 发布了 Scribe v3 Live Medical，它将医疗转录带入实时通话中。它基于我们最新的实时语音转文本模型 Scribe v3 Live 构建，并针对临床语言进行了优化。现已在 ElevenAgents 中提供。",
+        "ElevenLabs 已经为录制的音频提供医疗转录，例如听写和访问录音。但医疗团队构建的大部分内容都是实时运行的，从日程安排和医疗信息热线到电话资格检查和索赔后续行动。这些电话迫不及待地等待录音结束。",
+        "药物名称和剂量很少出现在日常言语中，因此一般实时模型更容易出错。 Scribe v3 Live Medical 是我们为代理构建的第一个医疗转录，将 Scribe v2 Medical 的临床重点带入实时对话中。在我们对 PriMock57（一套公开的模拟现场医生就诊）的测试中，Scribe v3 Live Medical 的错误比我们评估的任何其他医疗模型都要少。",
+        "Scribe v3 Live Medical 专为患者、会员和提供者的呼叫而设计，其中的详细信息是临床的，例如服用药物、事先授权的程序或后续呼叫中的症状。许多医疗保健代理还处理完全没有临床详细信息的电话，例如重新安排预约或询问办公时间。 Scribe v3 Live Medical 提高了临床细节的准确性，并保持了日常语音的准确性，因此团队可以在每次通话中使用它。",
+        "医疗保健团队最多可以添加 10,000 个自己的术语，只有当呼叫者似乎说出其中一个术语时，Scribe v3 Live Medical 才会在列表中绘制。对于区域卫生系统来说，这足以加载其所在位置的每个提供者和诊所名称，或者对于制药公司来说，可以按品牌和通用名称加载其完整的产品组合。加载自定义术语列表后，Scribe v3 Live Medical 在我们的测试中将医学术语错误减少了 48%。",
+        "来电者经常会读取会员 ID 或出生日期，并在卡片上找到这些数字时在数字组之间暂停。将每次暂停视为回合结束的代理会在中间号码中跳跃，呼叫者必须重新开始。 Scribe v3 Live Medical 可以识别号码何时尚未完成，因此代理会等待剩余号码然后再回复。",
+        "患者和护理人员可以在通话中切换语言，例如，以便更轻松地用母语描述症状。 Scribe v3 Live Medical 支持 90 多种语言并遵循这些切换，因此第二语言的语音会被转录而不是被丢弃。"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为",
+        "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opaci",
+        "语音代理根据实时通话中听到的内容采取行动。当患者说他们服用西他列汀治疗糖尿病时，代理人可以将其添加到他们的药物清单中，以供临床医生审查。但药品名称很容易听错。在"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Scribe v3 Live Medical: transcription for healthcare agents",
+      "originalLang": "en",
+      "date": "2026-11-17",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/scribe-v3-live-medical",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Scribe v3 Live Medical: transcription for healthcare agents"
+      },
+      "raw": {
+        "title": "Scribe v3 Live Medical helps conversational agents get clinical details right",
+        "url": "https://elevenlabs.io/blog/scribe-v3-live-medical",
+        "fetched": true,
+        "savedAt": "2026-11-18T05:35:00.923Z"
+      }
+    },
+    {
+      "id": "sig-c6c361c53b",
+      "title": "介绍用于销售的 ChatGPT",
+      "oneLiner": "通过全新的销售体验和 30 多个新的和扩展的合作伙伴插件，帮助每个卖家缩短销售周期，从找到合适的帐户到履行客户承诺。",
+      "summary": {
+        "oneSentence": "通过全新的销售体验和 30 多个新的和扩展的合作伙伴插件，帮助每个卖家缩短销售周期，从找到合适的帐户到履行客户承诺。",
+        "bullets": [
+          "通过全新的销售体验和 30 多个新的和扩展的合作伙伴插件，帮助每个卖家缩短销售周期，从找到合适的帐户到履行客户承诺。",
+          "（在新窗口中打开） 了解更多 分享 每个卖家的起点 每个卖家的起点 将您的销售流程连接到 ChatGPT 每个销售团队的用例 在正确的帐户中建立管道 为每个买家提供更有说服力的案例 通过明确的后续步骤保持交易进展 查看您的管道面临风险的地方 销售团队如何利用 ChatGPT 获胜 入门 每个卖家的起点 将您的销售流程连",
+          "OpenAI 的新销售插件为您提供了日常销售工作的现成工作流程，从决定要寻求哪些客户到准备电话和起草后续工作。当每个人都对客户有共同的了解时，销售团队才能发挥最佳效果。哪些账户值得关注？买家需要什么才能继续前进？哪些交易需要关注，为什么？答案通常来自团队成员、勘探工具、客户电话和 CRM。将这些信息整合在一起可以让团队",
+          "ChatGPT for Sales 将您的工具、客户背景和销售工作流程整合到一处。它还使您的团队可以访问合作伙伴插件，因此 ChatGPT 可以使用现有工具中的客户上​​下文来帮助推动机会。选择适合您的销售流程的合作伙伴插件。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：通过全新的销售体验和 30 多个新的和扩展的合作伙伴插件，帮助每个卖家缩短销售周期，从找到合适的帐户到履行客户承诺。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/introducing-chatgpt-for-sales"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "通过全新的销售体验和 30 多个新的和扩展的合作伙伴插件，帮助每个卖家缩短销售周期，从找到合适的帐户到履行客户承诺。",
+        "（在新窗口中打开） 了解更多 分享 每个卖家的起点 每个卖家的起点 将您的销售流程连接到 ChatGPT 每个销售团队的用例 在正确的帐户中建立管道 为每个买家提供更有说服力的案例 通过明确的后续步骤保持交易进展 查看您的管道面临风险的地方 销售团队如何利用 ChatGPT 获胜 入门 每个卖家的起点 将您的销售流程连接到 ChatGPT 每个销售团队的用例 在正确的帐户中构建管道 为每个买家提供更有力的案例 通过清晰的后续步骤保持交易进展 查看位置您的渠道面临风险 销售团队如何利用 ChatGPT 取胜 入门 我们推出 ChatGPT for Sales 是为了帮助每个销售团队更好地了解客户，减少繁忙工作的时间，并达成更多交易。它包括我们新的销售插件，为卖家提供专门的技能，以及 ChatGPT 中的 30 多个新的和增强的合作伙伴插件，因此您可以使用团队已经依赖的工具中的信息来准备通话、定制建议并更快地跟进。",
+        "OpenAI 的新销售插件为您提供了日常销售工作的现成工作流程，从决定要寻求哪些客户到准备电话和起草后续工作。当每个人都对客户有共同的了解时，销售团队才能发挥最佳效果。哪些账户值得关注？买家需要什么才能继续前进？哪些交易需要关注，为什么？答案通常来自团队成员、勘探工具、客户电话和 CRM。将这些信息整合在一起可以让团队有更多时间做出明智的决策并履行客户承诺。这要从你每天所做的工作开始。",
+        "ChatGPT for Sales 将您的工具、客户背景和销售工作流程整合到一处。它还使您的团队可以访问合作伙伴插件，因此 ChatGPT 可以使用现有工具中的客户上​​下文来帮助推动机会。选择适合您的销售流程的合作伙伴插件。",
+        "创建内容并装备卖家。通过 Confluence、Guru 和 Seismic 了解您的销售流程和最新产品更新。使用 ChatGPT Voice 排练推介并练习处理异议。使用 ChatGPT Slides、Gamma、Figma 或 Canva 构建定制演示文稿，或使用 ChatGPT 站点创建交互式演示或 ROI 计算器。",
+        "管理账户并推进交易。汇集来自 Salesforce、HubSpot、Close CRM 或星期一 CRM 的客户上下文，以准备通话、审查客户承诺并计划后续步骤。",
+        "寻找并吸引买家。将来自 Apollo、Clay 和 Common Room 的帐户信号与 ChatGPT 的网络研究相结合，以了解帐户的变化并确定联系的原因。使用 Outreach 或 Salesloft 来规划您的外展活动。",
+        "将客户对话转化为行动。使用 ChatGPT、Gong、Otter.ai 或 Granola 中会议插件的通话记录来了解买家的优先事项、捕获商定的后续步骤并起草后续行动。",
+        "跟踪绩效和现货交易风险。使用 Backstory 中的信号来识别需要关注的交易。使用 ChatGPT 或 Hex 中的数据插件分析互联销售数据，以解释管道中发生的变化以及下一步关注的重点。",
+        "准备报价和协议。当买家准备好继续前进时，引入 Docusign、Ironclad、PandaDoc 或 ServiceNow CPQ 来帮助准备报价和协议。"
+      ],
+      "highlights": [
+        "通过全新的销售体验和 30 多个新的和扩展的合作伙伴插件，帮助每个卖家缩短销售周期，从找到合适的帐户到履行客户承诺。",
+        "（在新窗口中打开） 了解更多 分享 每个卖家的起点 每个卖家的起点 将您的销售流程连接到 ChatGPT 每个销售团队的用例 在正确的帐户中建立管道 为每个买家",
+        "OpenAI 的新销售插件为您提供了日常销售工作的现成工作流程，从决定要寻求哪些客户到准备电话和起草后续工作。当每个人都对客户有共同的了解时，销售团队才能发挥最"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Introducing ChatGPT for Sales",
+      "originalLang": "en",
+      "date": "2026-11-17",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Introducing ChatGPT for Sales"
+      },
+      "raw": {
+        "title": "Introducing ChatGPT for Sales",
+        "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+        "fetched": true,
+        "savedAt": "2026-11-18T05:35:13.601Z"
+      }
+    },
+    {
+      "id": "sig-a0add2ea0b",
+      "title": "仅拉请求预设现在可用于预览版本 - Vercel",
+      "oneLiner": "新的“忽略构建步骤”预设可让您在没有开放拉取请求的情况下跳过分支的预览构建。具有开放拉取请求的分支的生产部署和预览继续构建。",
+      "summary": {
+        "oneSentence": "新的“忽略构建步骤”预设可让您在没有开放拉取请求的情况下跳过分支的预览构建。具有开放拉取请求的分支的生产部署和预览继续构建。",
+        "bullets": [
+          "新的“忽略构建步骤”预设可让您在没有开放拉取请求的情况下跳过分支的预览构建。具有开放拉取请求的分支的生产部署和预览继续构建。",
+          "在 GitHub 和 GitLab 项目中，在消耗任何构建 CPU 分钟数之前会取消跳过的预览部署。",
+          "要启用此功能，请打开项目的 Deployments > Configuration 。在“忽略的构建步骤”下，从“行为”菜单中选择“仅构建拉取请求的预览”，然后单击“保存”。",
+          "在忽略的构建步骤文档中了解更多信息。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：新的“忽略构建步骤”预设可让您在没有开放拉取请求的情况下跳过分支的预览构建。具有开放拉取请求的分支的生产部署和预览继续构建。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/pull-request-only-preset-now-available-for-preview-builds"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "新的“忽略构建步骤”预设可让您在没有开放拉取请求的情况下跳过分支的预览构建。具有开放拉取请求的分支的生产部署和预览继续构建。",
+        "在 GitHub 和 GitLab 项目中，在消耗任何构建 CPU 分钟数之前会取消跳过的预览部署。",
+        "要启用此功能，请打开项目的 Deployments > Configuration 。在“忽略的构建步骤”下，从“行为”菜单中选择“仅构建拉取请求的预览”，然后单击“保存”。",
+        "在忽略的构建步骤文档中了解更多信息。"
+      ],
+      "highlights": [
+        "新的“忽略构建步骤”预设可让您在没有开放拉取请求的情况下跳过分支的预览构建。具有开放拉取请求的分支的生产部署和预览继续构建。",
+        "在 GitHub 和 GitLab 项目中，在消耗任何构建 CPU 分钟数之前会取消跳过的预览部署。",
+        "要启用此功能，请打开项目的 Deployments > Configuration 。在“忽略的构建步骤”下，从“行为”菜单中选择“仅构建拉取请求的预览”，然后"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Pull-request-only preset now available for preview builds - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-17",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/pull-request-only-preset-now-available-for-preview-builds",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Pull-request-only preset now available for preview builds - Vercel"
+      },
+      "raw": {
+        "title": "Pull-request-only preset now available for preview builds",
+        "url": "https://vercel.com/changelog/pull-request-only-preset-now-available-for-preview-builds",
+        "fetched": true,
+        "savedAt": "2026-11-18T05:35:19.133Z"
+      }
+    },
+    {
+      "id": "sig-590cb0b9c5",
+      "title": "利用人工智能加强北约和盟国的网络防御",
+      "oneLiner": "分享 加强北约的网络防御 加强北约的网络防御 支持盟国政府 加强北约的网络防御 支持盟国政府 政府和国家网络机构保护人民、公共服务和经济所依赖的系统。通过 Daybreak，我们将先进的人工智能交给值得信赖的防御者来执行授权的安全工作，从审",
+      "summary": {
+        "oneSentence": "分享 加强北约的网络防御 加强北约的网络防御 支持盟国政府 加强北约的网络防御 支持盟国政府 政府和国家网络机构保护人民、公共服务和经济所依赖的系统。通过 Daybreak，我们将先进的人工智能交给值得信赖的防御者来执行授权的安全工作，从审",
+        "bullets": [
+          "分享 加强北约的网络防御 加强北约的网络防御 支持盟国政府 加强北约的网络防御 支持盟国政府 政府和国家网络机构保护人民、公共服务和经济所依赖的系统。通过 Daybreak，我们将先进的人工智能交给值得信赖的防御者来执行授权的安全工作，从审查软件和调查可疑活动到验证漏洞以及开发和测试修复程序。",
+          "OpenAI 与北约通信和信息局 (NCIA) 合作，为北约核心机构提供先进的网络安全模型，帮助保护盟军网络。作为这项工作的一部分，北约每月使用多达 3000 亿个原始输入和输出代币。",
+          "北约对 OpenAI 工具的早期使用表明，有能力的网络防御者如何将前沿模型付诸实践，支持北约维护其成员国自由和安全的使命。它还有助于加强负责全天候保护盟军网络的跨国团队的网络专业知识，并创造有益于整个欧洲和更广泛联盟的防御者的经验教训。",
+          "OpenAI 还支持 ⁠（在新窗口中打开）2026 年交叉剑演习。该演习由北约合作网络防御卓越中心 (CCDCOE) 组织，包括一个新的培训流程，参与者在技术环境中使用 OpenAI Daybreak 构建、部署和评估用于网络作战的人工智能代理。培训将参与者与人工智能代理一起作为操作员，重点是维持人类监督。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：分享 加强北约的网络防御 加强北约的网络防御 支持盟国政府 加强北约的网络防御 支持盟国政府 政府和国家网络机构保护人民、公共服务和经济所依赖的系统。通过 Daybreak，我们将先进的人工智能交给值得信赖的防御者来执行授权的安全工作，从审",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/strengthening-nato-allied-cyber-defences-ai"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "分享 加强北约的网络防御 加强北约的网络防御 支持盟国政府 加强北约的网络防御 支持盟国政府 政府和国家网络机构保护人民、公共服务和经济所依赖的系统。通过 Daybreak，我们将先进的人工智能交给值得信赖的防御者来执行授权的安全工作，从审查软件和调查可疑活动到验证漏洞以及开发和测试修复程序。",
+        "OpenAI 与北约通信和信息局 (NCIA) 合作，为北约核心机构提供先进的网络安全模型，帮助保护盟军网络。作为这项工作的一部分，北约每月使用多达 3000 亿个原始输入和输出代币。",
+        "北约对 OpenAI 工具的早期使用表明，有能力的网络防御者如何将前沿模型付诸实践，支持北约维护其成员国自由和安全的使命。它还有助于加强负责全天候保护盟军网络的跨国团队的网络专业知识，并创造有益于整个欧洲和更广泛联盟的防御者的经验教训。",
+        "OpenAI 还支持 ⁠（在新窗口中打开）2026 年交叉剑演习。该演习由北约合作网络防御卓越中心 (CCDCOE) 组织，包括一个新的培训流程，参与者在技术环境中使用 OpenAI Daybreak 构建、部署和评估用于网络作战的人工智能代理。培训将参与者与人工智能代理一起作为操作员，重点是维持人类监督。",
+        "OpenAI 仍然完全致力于北约负责任地采用人工智能的原则，并提供安全可靠的解决方案。",
+        "除了北约之外，我们已经向欧洲的防御者提供了对我们网络模型的访问，包括欧盟的 ENISA 以及法国 (ANSSI)、德国和波兰的国家网络机构。",
+        "乌克兰数字化转型部正在使用 OpenAI 的 Daybreak 工具来加强民用基础设施的网络防御。该计划旨在帮助乌克兰团队更快地识别软件漏洞并开发和测试修复程序，从而支持防御者在持续的网络攻击中保护基本服务。",
+        "欧盟网络机构 ENISA 使用我们的模型识别了欧盟机构使用的软件中的四个漏洞，并针对所有四个漏洞发布了修复程序（1 ⁠（在新窗口中打开）、⁠（在新窗口中打开）2 ⁠（在新窗口中打开）、⁠（在新窗口中打开）3 ⁠（在新窗口中打开）、⁠（在新窗口中打开）4 ⁠（在新窗口中打开） ）。 ENISA 和 CERT-EU 的 11 月联合报告（在新窗口中打开）还描述了对使用前沿模型（包括通过 Daybreak 访问的 OpenAI 模型）和包括 Codex 安全插件在内的工具的 27 个软件项目的审查。在测试的模型中，软件维护人员评估的 88 个潜在问题中有 95% 被确认为真实问题，这证明了人工智能与人类专业知识相结合的价值。",
+        "CERT Polska 使用 OpenAI 模型帮助识别 MikroTik RouterOS ⁠（在新窗口中打开）中的六个漏洞，并与供应商协调披露。研究人员指导了这项工作，在真实系统上测试了结果并验证了其影响，人工智能加速了分析和潜在漏洞的探索。 MikroTik 发布了修复程序，CERT Polska 确认修复程序阻止了其观察到的攻击，为网络运营商提供了保护受影响设备的具体方法。",
+        "我们将继续与政府、国家网络机构和国际合作伙伴合作，将前沿人工智能能力转变为更强大、更安全、更有弹性的系统，帮助防御者发现弱点，更快地修复它们，并保护人们每天依赖的服务。"
+      ],
+      "highlights": [
+        "分享 加强北约的网络防御 加强北约的网络防御 支持盟国政府 加强北约的网络防御 支持盟国政府 政府和国家网络机构保护人民、公共服务和经济所依赖的系统。通过 Da",
+        "OpenAI 与北约通信和信息局 (NCIA) 合作，为北约核心机构提供先进的网络安全模型，帮助保护盟军网络。作为这项工作的一部分，北约每月使用多达 3000 ",
+        "北约对 OpenAI 工具的早期使用表明，有能力的网络防御者如何将前沿模型付诸实践，支持北约维护其成员国自由和安全的使命。它还有助于加强负责全天候保护盟军网络的"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Strengthening NATO and allied cyber defenses with AI",
+      "originalLang": "en",
+      "date": "2026-11-17",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Strengthening NATO and allied cyber defenses with AI"
+      },
+      "raw": {
+        "title": "Strengthening NATO and allied cyber defenses with AI",
+        "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+        "fetched": true,
+        "savedAt": "2026-11-18T05:35:26.216Z"
       }
     },
     {
@@ -7930,7 +8769,7 @@
         "url": "https://cursor.com/changelog/voice-chat",
         "fetched": true,
         "savedAt": "2026-11-08T03:54:06.689Z",
-        "retranslatedAt": "2026-11-17T06:06:22.167Z"
+        "retranslatedAt": "2026-11-18T05:35:27.420Z"
       }
     },
     {
@@ -9049,7 +9888,7 @@
         "url": "https://cursor.com/changelog/build-live-apps",
         "fetched": true,
         "savedAt": "2026-11-08T03:54:30.136Z",
-        "retranslatedAt": "2026-11-17T06:06:23.214Z"
+        "retranslatedAt": "2026-11-18T05:35:28.726Z"
       }
     },
     {
@@ -23926,7 +24765,7 @@
         "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
         "fetched": true,
         "savedAt": "2026-10-17T02:36:45.886Z",
-        "retranslatedAt": "2026-11-17T06:06:24.654Z"
+        "retranslatedAt": "2026-11-18T05:35:29.927Z"
       }
     },
     {
@@ -27524,7 +28363,7 @@
         "url": "https://cursor.com/changelog/origin-app-marketplace",
         "fetched": true,
         "savedAt": "2026-10-14T03:08:22.474Z",
-        "retranslatedAt": "2026-11-17T06:06:26.017Z"
+        "retranslatedAt": "2026-11-18T05:35:30.949Z"
       }
     },
     {
@@ -33063,7 +33902,7 @@
         "url": "https://cursor.com/changelog/remote-control-local-agents",
         "fetched": true,
         "savedAt": "2026-10-11T03:27:39.323Z",
-        "retranslatedAt": "2026-11-17T06:06:27.141Z"
+        "retranslatedAt": "2026-11-18T05:35:32.156Z"
       }
     },
     {
@@ -33594,74 +34433,6 @@
         "url": "https://simonwillison.net/2026/Oct/5/felix-rieseberg/",
         "fetched": false,
         "savedAt": "2026-10-06T04:22:56.609Z"
-      }
-    },
-    {
-      "id": "sig-88d553ae09",
-      "title": "Qwen3.8 27B addition in words",
-      "oneLiner": "Research: Qwen3.8 27B addition in words Colin Frasier posted on Bluesky about an experiment he ran o",
-      "summary": {
-        "oneSentence": "Research: Qwen3.8 27B addition in words Colin Frasier posted on Bluesky about an experiment he ran over two years ago us",
-        "bullets": [
-          "Research: Qwen3.8 27B addition in words Colin Frasier posted on Bluesky about an experiment he ran over two years ago using GPT-4o to see how well it could \"compute the sum but return the answer in wo"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Research: Qwen3.8 27B addition in words Colin Frasier posted on Bluesky about an experiment he ran over two years ago using GPT-4o to see how well it could \"compute the sum but return the answer in words\" across increasingly large numbers. Here's the chart he shared of those results: I'm confident GPT-4o didn't cheat and use a calculator, especially since it got so many of the calculations wrong, but I was inspired to run the experiment again on local hardware (a DGX Spark) to explore the effect in a fully controlled environment. I pasted his image into a Codex Remote session (GPT-6 Astra) and had it run the same experiment using Qwen3.8-27B-Q4_K_M.gguf . Here's the result for a run of 30 attempts per combination with reasoning disabled: Then I ran it again with reasoning enabled. This took a lot longer per pair, so instead of running 30 samples per square I ran just one - which results in a much less visually appealing heatmap since each square is either 100% or 0%: It got the right answer in 167 out of 169 attempts, and since these were one-shot I'm confident a second run would produce different results here. Here's a version of the report that includes the reasoning traces from some of those larger calculations, which include text like this: Wait, let me redo this more carefully. 4,299,366,105,622 6,088,794,067,970 Let me align them: 4 2 9 9 3 6 6 1 0 5 6 2 2 6 0 8 8 7 9 4 0 6 7 9 7 0 Adding from right to left: Position 1 (units): 2 + 0 = 2 Position 2 (tens): 2 + 7 = 9 Position 3 (hundreds): 6 + 9 = 15, write 5, carry 1 Tags: mathematics , ai , generative-ai , local-llms , llms , qwen , llm-reasoning , dgx-spark"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Qwen3.8 27B addition in words",
-      "originalLang": "en",
-      "date": "2026-10-04",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Qwen3.8 27B addition in words"
-      },
-      "raw": {
-        "title": "Qwen3.8 27B addition in words",
-        "url": "https://simonwillison.net/2026/Oct/4/qwen38-addition-in-words/",
-        "fetched": false,
-        "savedAt": "2026-10-06T04:22:57.411Z"
       }
     }
   ]
