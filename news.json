@@ -1,77 +1,76 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-19T05:33:11.753Z",
+  "updatedAt": "2026-11-20T05:20:11.995Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 430,
+  "itemCount": 425,
   "brief": {
-    "date": "2026-11-19",
-    "generatedAt": "2026-11-19T05:33:11.752Z",
-    "totalCount": 430,
+    "date": "2026-11-20",
+    "generatedAt": "2026-11-20T05:20:11.994Z",
+    "totalCount": 425,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 430 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 425 条",
     "topUpdates": [
       {
-        "id": "sig-0c3c8b23c6",
-        "title": "Gemini 4 Neon 简介",
+        "id": "sig-57728669e0",
+        "title": "在 Gemini API 中引入工具检索",
         "stars": 4,
-        "oneLiner": "通过复杂的软件工程、知识工作和科学工作流程快速完成端到端任务，带来前沿级智能。",
+        "oneLiner": "工具检索现已在 Gemini Interactions API 中提供预览版。按需加载工具参数模式，而不是在每个提示中发送完整的工具库，旨在减少输入标记并在代理扩展时保持工具选择的准确性。",
         "readMinutes": 5
       },
       {
-        "id": "sig-d9feaf25bc",
-        "title": "来源资料：创意总监 Chase Rutherford 谈什么让某些东西成为标志性的 | Figma 博客",
+        "id": "sig-c3e7758a23",
+        "title": "沃尔特·艾萨克森 (Walter Isaacson) 谈人工智能时代的好奇心和创造力。",
         "stars": 4,
-        "oneLiner": "从互联网蜉蝣和时尚到现成的图像、物品和文化奇特，蔡斯探索了我们周围的事物如何被拆解、重新语境化并变成新的东西。",
+        "oneLiner": "关于人工智能时代的创造力，列奥纳多·达·芬奇、本杰明·富兰克林和阿达·洛夫莱斯教给我们什么？",
         "readMinutes": 5
       },
       {
-        "id": "sig-652211f5c0",
-        "title": "精灵 4 现已推出",
+        "id": "sig-acdbbdc597",
+        "title": "AI语音客服可以同时处理多少个电话？",
         "stars": 4,
-        "oneLiner": "为 Google AI Ultra 订阅者探索全新的 Project Genie 体验，其中包括 Genie 4、Project Genie 代理和社区图库。",
+        "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
         "readMinutes": 5
       },
       {
-        "id": "sig-03ca256a4a",
-        "title": "Gemini 应用程序现在可在内存较低的 Android 设备上使用。",
+        "id": "sig-b94a8ee76a",
+        "title": "Candid Health 如何通过 ElevenAgents 实现付款人呼叫自动化",
         "stars": 4,
-        "oneLiner": "对于全球数亿人来说，低内存 Android 设备是他们与互联网、教育和商务的日常联系。",
+        "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
         "readMinutes": 5
       },
       {
-        "id": "sig-62e894a99d",
-        "title": "什么是矢量数据库？人工智能搜索如何找到意义",
+        "id": "sig-6687f7be62",
+        "title": "OpenAI 的 Performance Factory 如何保持 ChatGPT 快速",
         "stars": 4,
-        "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "oneLiner": "了解 OpenAI 如何构建 Performance Factory，这是一个由 Codex 支持的工作流程系统，可以发现并修复性能问题，以帮助保持 ChatGPT 的快速运行。",
         "readMinutes": 5
       }
     ],
     "sections": {
       "topUpdates": [
-        "sig-0c3c8b23c6",
-        "sig-d9feaf25bc",
-        "sig-652211f5c0",
-        "sig-03ca256a4a",
-        "sig-62e894a99d",
-        "sig-f3cfa8572a"
+        "sig-57728669e0",
+        "sig-c3e7758a23",
+        "sig-acdbbdc597",
+        "sig-b94a8ee76a",
+        "sig-6687f7be62",
+        "sig-2510f3b7e9"
       ],
       "newReleases": [
         "sig-fd1a4c4700",
         "sig-5d176638f1",
         "sig-f50edeef79",
-        "sig-b8b5f613d5",
-        "sig-ecd4573e22"
+        "sig-b8b5f613d5"
       ],
       "insights": [
-        "sig-0c3c8b23c6",
-        "sig-d9feaf25bc",
-        "sig-652211f5c0",
-        "sig-03ca256a4a",
-        "sig-62e894a99d",
-        "sig-f3cfa8572a",
-        "sig-e683d40fba",
-        "sig-9fa731b0ef"
+        "sig-57728669e0",
+        "sig-c3e7758a23",
+        "sig-acdbbdc597",
+        "sig-b94a8ee76a",
+        "sig-6687f7be62",
+        "sig-2510f3b7e9",
+        "sig-4b08ec5026",
+        "sig-cb99e2baa6"
       ],
       "emergingTrends": [],
       "newApis": [],
@@ -92,8 +91,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-11-19T05:33:11.753Z",
-    "summary": "近 30 天共 287 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-11-20T05:20:11.995Z",
+    "summary": "近 30 天共 281 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -108,6 +107,90 @@
     "risingTags": []
   },
   "productUpdates": [
+    {
+      "id": "sig-57728669e0",
+      "title": "在 Gemini API 中引入工具检索",
+      "oneLiner": "工具检索现已在 Gemini Interactions API 中提供预览版。按需加载工具参数模式，而不是在每个提示中发送完整的工具库，旨在减少输入标记并在代理扩展时保持工具选择的准确性。",
+      "date": "2026-11-19",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google AI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-c3e7758a23",
+      "title": "沃尔特·艾萨克森 (Walter Isaacson) 谈人工智能时代的好奇心和创造力。",
+      "oneLiner": "关于人工智能时代的创造力，列奥纳多·达·芬奇、本杰明·富兰克林和阿达·洛夫莱斯教给我们什么？",
+      "date": "2026-11-19",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google AI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-6687f7be62",
+      "title": "OpenAI 的 Performance Factory 如何保持 ChatGPT 快速",
+      "oneLiner": "了解 OpenAI 如何构建 Performance Factory，这是一个由 Codex 支持的工作流程系统，可以发现并修复性能问题，以帮助保持 ChatGPT 的快速运行。",
+      "date": "2026-11-19",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-4b08ec5026",
+      "title": "部署黎明红",
+      "oneLiner": "使用 Daybreak Red 探索用于监督安全调查的参考架构，包括安全控制、设置和监控。",
+      "date": "2026-11-19",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-cb99e2baa6",
+      "title": "查看 PR 扫描的实际应用",
+      "oneLiner": "观看 PR 扫描的演练，并了解演示者如何在拉取请求工作流程中审查扫描结果。",
+      "date": "2026-11-19",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-e29ac258c0",
+      "title": "探索 Codex 安全插件",
+      "oneLiner": "观看 Codex 安全插件的演示并查看实际工作流程，从入门到查看录制中显示的结果。",
+      "date": "2026-11-19",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-a2fb003440",
+      "title": "开始使用黎明蓝",
+      "oneLiner": "观看 Daybreak Blue 的入门演练，详细了解设置体验以及如何开始。",
+      "date": "2026-11-19",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
     {
       "id": "sig-0c3c8b23c6",
       "title": "Gemini 4 Neon 简介",
@@ -311,93 +394,796 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-5bf4951adb",
-      "title": "ChatGPT 钱包简介",
-      "oneLiner": "隆重推出 ChatGPT 钱包，这是 ChatGPT Work、Codex 和dots 中的代理在用户批准和现有卡保护的情况下完成购买的安全方式。",
-      "date": "2026-11-13",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-d1318183fe",
-      "title": "Shield 帮助技术人员使用 OpenAI 移交遗留门户工作",
-      "oneLiner": "Shield 使用 OpenAI 帮助 IT 技术人员在旧门户中移交工作。其 Forge 代理可以导航系统，以便技术人员可以专注于需要他们判断的问题。",
-      "date": "2026-11-13",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-f28f90d289",
-      "title": "Gilbert + Tobin 用人工智能重新思考法律业务",
-      "oneLiner": "与 Gilbert + Tobin 合伙人兼首席执行官 Sam Nickless 的对话。",
-      "date": "2026-11-12",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-5b0f73df89",
-      "title": "Amplitude 如何利用 OpenAI 在 1-2 天内改进产品",
-      "oneLiner": "Amplitude 的主动产品代理 Wave 主要基于 OpenAI 模型构建，可确定要构建的内容、帮助团队通过编码代理交付变更并衡量影响。",
-      "date": "2026-11-12",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-4bad5afe01",
-      "title": "Gemini 4 氢简介",
-      "oneLiner": "氢为每个人带来尖端智能。",
-      "date": "2026-11-12",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google DeepMind",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-459a57b475",
-      "title": "Google 搜索借助 Gemini 4 Hydrogen 进行重大升级",
-      "oneLiner": "您的浏览器不支持音频元素。",
-      "date": "2026-11-12",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google AI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-90d7922370",
-      "title": "Gondola 团队利用 Codex 打造更多产品，收入翻倍",
-      "oneLiner": "Gondola 帮助创意人员获得认可并获得聘用，Codex 将其首席工程师的产出提高了 50%，而 ChatGPT 则简化了日常工作。",
-      "date": "2026-11-12",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-57728669e0",
+      "title": "在 Gemini API 中引入工具检索",
+      "oneLiner": "工具检索现已在 Gemini Interactions API 中提供预览版。按需加载工具参数模式，而不是在每个提示中发送完整的工具库，旨在减少输入标记并在代理扩展时保持工具选择的准确性。",
+      "summary": {
+        "oneSentence": "工具检索现已在 Gemini Interactions API 中提供预览版。按需加载工具参数模式，而不是在每个提示中发送完整的工具库，旨在减少输入标记并在代理扩展时保持工具选择的准确性。",
+        "bullets": [
+          "工具检索现已在 Gemini Interactions API 中提供预览版。按需加载工具参数模式，而不是在每个提示中发送完整的工具库，旨在减少输入标记并在代理扩展时保持工具选择的准确性。",
+          "您的浏览器不支持音频元素。",
+          "我们正在 Gemini API 中启动工具检索，以帮助您的代理更有效地管理大型工具库。通过仅在需要时加载参数架构，您可以减少复杂任务的延迟和输入令牌成本。您现在可以在 Interactions API 中尝试此功能，方法是添加 tool_search 工具并在请求中将 defer_loading 设置为 true。",
+          "我们引入工具检索来帮助开发人员更有效地管理大量软件工具。现在，您的代理不再需要立即加载每个工具，而是让一个库处于备用状态，并且仅提取任务所需的特定详细信息。这可以减少数据使用、提高性能并提高准确性。您今天就可以开始在我们最新的 Gemini 模型中使用此功能来构建功能更强大、响应更快的应用程序。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 4,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google AI 官网发布：工具检索现已在 Gemini Interactions API 中提供预览版。按需加载工具参数模式，而不是在每个提示中发送完整的工具库，旨在减少输入标记并在代理扩展时保持工具选择的准确性。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "工具检索现已在 Gemini Interactions API 中提供预览版。按需加载工具参数模式，而不是在每个提示中发送完整的工具库，旨在减少输入标记并在代理扩展时保持工具选择的准确性。",
+        "您的浏览器不支持音频元素。",
+        "我们正在 Gemini API 中启动工具检索，以帮助您的代理更有效地管理大型工具库。通过仅在需要时加载参数架构，您可以减少复杂任务的延迟和输入令牌成本。您现在可以在 Interactions API 中尝试此功能，方法是添加 tool_search 工具并在请求中将 defer_loading 设置为 true。",
+        "我们引入工具检索来帮助开发人员更有效地管理大量软件工具。现在，您的代理不再需要立即加载每个工具，而是让一个库处于备用状态，并且仅提取任务所需的特定详细信息。这可以减少数据使用、提高性能并提高准确性。您今天就可以开始在我们最新的 Gemini 模型中使用此功能来构建功能更强大、响应更快的应用程序。",
+        "今天，我们在 Gemini API 中推出工具检索，可在 Interactions API 中预览。",
+        "当代理连接到数十个甚至数百个工具时，在每个请求上发送每个完整参数架构的速度会很快增加。随着候选列表的增长，它会增加输入令牌数量、增加延迟并降低工具选择的准确性。工具检索使您的代理可以将其完整工具库保持在备用状态，并且仅在当前任务需要时才加载参数模式。",
+        "要打开工具检索，请将 tool_search 工具添加到您的请求中，并在要保留的工具上设置 defer_loading: true 。该模型仍然可以看到每个延迟工具的名称和描述，因此它知道可用的内容，但参数模式与上下文无关。当模型需要工具时，它会通过名称请求该工具，API 加载完整架构，模型调用函数，所有这些都在同一个请求中。",
+        "from google import genai client = genai.Client() tools = [ {\"type\": \"tool_search\"}, { \"type\": \"function\", \"name\": \"issue_refund\", \"description\": \"将订单退款至原始付款方式。\", \"defer_loading\": True, \"parameters\": { \"type\": \"object\", \"properties\": { \"order_id\": {\"type\": \"string\"}, \"amount\": {\"type\": \"number\"}, }, \"required\": [\"order_id\", \"amount\"], }, }, # ... 50 多个其他延迟函数（保留常用工具未延迟）] interaction = client.interactions.create( model=\"gemini-4-Hydrogen\", input=\"订单 A-1042 到达时已损坏。请退款 40 美元。\", tools=tools, ) 在该单个 API 内调用，模型搜索 issues_refund ，API 加载其架构，并且模型发出 function_call 。所有三个步骤都出现在interaction.steps中，使得在调试工具名称或描述时可以轻松检查模型考虑的工具：",
+        "\"steps\": [ { \"type\": \"tool_search_call\", \"id\": \"tsc_7f2a\", \"arguments\": {\"function_names\": [\"issue_refund\"]}, \"signature\": \"...\" }, { \"type\": \"tool_search_result\", \"call_id\": \"tsc_7f2a\", \"result\": [{\"type\": \"function\", \"name\": \"issue_refund\", \"parameters\": {...}}], \"signature\": \"...\" }, { \"type\": \"function_call\", \"id\": \"fc_91c3\", \"name\": \"issue_refund\", \"arguments\": {\"order_id\": \"A-1042\", \"amount\": 40} } ] 从这里开始，这是正常的函数调用：您的代码运行退款并发回一个 function_result 。",
+        "无需构建或托管索引。 Gemini 在服务器上运行搜索，因此对代码的唯一更改是新工具和您想要推迟的工具上的标志。您可以将最常用的工具放在前面并推迟长尾。"
+      ],
+      "highlights": [
+        "工具检索现已在 Gemini Interactions API 中提供预览版。按需加载工具参数模式，而不是在每个提示中发送完整的工具库，旨在减少输入标记并在代理",
+        "您的浏览器不支持音频元素。",
+        "我们正在 Gemini API 中启动工具检索，以帮助您的代理更有效地管理大型工具库。通过仅在需要时加载参数架构，您可以减少复杂任务的延迟和输入令牌成本。您现在"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Introducing Tool Retrieval in the Gemini API",
+      "originalLang": "en",
+      "date": "2026-11-19",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Introducing Tool Retrieval in the Gemini API"
+      },
+      "raw": {
+        "title": "Introducing Tool Retrieval in the Gemini API",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+        "fetched": true,
+        "savedAt": "2026-11-20T05:19:34.817Z"
+      }
+    },
+    {
+      "id": "sig-c3e7758a23",
+      "title": "沃尔特·艾萨克森 (Walter Isaacson) 谈人工智能时代的好奇心和创造力。",
+      "oneLiner": "关于人工智能时代的创造力，列奥纳多·达·芬奇、本杰明·富兰克林和阿达·洛夫莱斯教给我们什么？",
+      "summary": {
+        "oneSentence": "关于人工智能时代的创造力，列奥纳多·达·芬奇、本杰明·富兰克林和阿达·洛夫莱斯教给我们什么？",
+        "bullets": [
+          "关于人工智能时代的创造力，列奥纳多·达·芬奇、本杰明·富兰克林和阿达·洛夫莱斯教给我们什么？",
+          "在我们最新一集的《技术与社会对话》中，肯特·沃克与传记作家兼历史学家沃尔特·艾萨克森坐下来讨论为什么历史上最大的突破始终是一项团队运动。他们研究了为什么当信息就在你的口袋里时，好奇心和人类判断力比以往任何时候都更加重要。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google AI 官网发布：关于人工智能时代的创造力，列奥纳多·达·芬奇、本杰明·富兰克林和阿达·洛夫莱斯教给我们什么？",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "关于人工智能时代的创造力，列奥纳多·达·芬奇、本杰明·富兰克林和阿达·洛夫莱斯教给我们什么？",
+        "在我们最新一集的《技术与社会对话》中，肯特·沃克与传记作家兼历史学家沃尔特·艾萨克森坐下来讨论为什么历史上最大的突破始终是一项团队运动。他们研究了为什么当信息就在你的口袋里时，好奇心和人类判断力比以往任何时候都更加重要。"
+      ],
+      "highlights": [
+        "关于人工智能时代的创造力，列奥纳多·达·芬奇、本杰明·富兰克林和阿达·洛夫莱斯教给我们什么？",
+        "在我们最新一集的《技术与社会对话》中，肯特·沃克与传记作家兼历史学家沃尔特·艾萨克森坐下来讨论为什么历史上最大的突破始终是一项团队运动。他们研究了为什么当信息就"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Walter Isaacson on curiosity and creativity in the AI age.",
+      "originalLang": "en",
+      "date": "2026-11-19",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Walter Isaacson on curiosity and creativity in the AI age."
+      },
+      "raw": {
+        "title": "Walter Isaacson on curiosity and creativity in the AI age.",
+        "url": "https://blog.google/innovation-and-ai/technology/ai/dialogues-walter-isaacson/",
+        "fetched": true,
+        "savedAt": "2026-11-20T05:19:36.455Z"
+      }
+    },
+    {
+      "id": "sig-acdbbdc597",
+      "title": "AI语音客服可以同时处理多少个电话？",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
+          "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_hlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 联系销售人员 了解更多 在此页面上",
+          "AI 语音代理可以处理的呼叫总数取决于三个因素：您的计划的并发限制、您的电话中继容量以及您的语言模型和 CRM 集成的响应速度。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/how-many-calls-can-an-ai-voice-agent-handle"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
+        "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_hlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 联系销售人员 了解更多 博客资源 人工智能语音代理可以大规模处理多少个呼叫？作者：Jack Limebear 发表于 2026 年 11 月 19 日 听 听这篇文章",
+        "0:00 1.0x 联系销售人员 了解更多 在此页面上",
+        "AI 语音代理可以处理的呼叫总数取决于三个因素：您的计划的并发限制、您的电话中继容量以及您的语言模型和 CRM 集成的响应速度。",
+        "ElevenAgents 可根据您的计划进行扩展。虽然免费套餐的并发数从 4 个调用开始，但商务版的并发数可扩展到 40 个，而企业客户的并发数则更高。突发定价还可以让您在高需求时刻暂时将上限提高到三倍。",
+        "结合低延迟模型和透明的 AI 语音代理每分钟定价，ElevenAgents 为您的团队提供大规模交付快速、可靠的客户体验所需的技术。让我们了解更多。",
+        "人类团队只需配备更多人员即可处理呼叫并发，每个员工一次接一个电话。为了减少等待时间，呼叫中心需要扩大代表人数，这会增加运营费用。",
+        "要了解人工智能语音代理可以处理多少个并发呼叫，您需要考虑几个因素。",
+        "您遇到的大多数代理平台都会提供总分钟数。虽然这可以深入了解您的流量潜力，但它并不能透露您当前的配置如何处理传入客户呼叫瓶颈。",
+        "代理并发性是您可以同时运行多少个调用的决定因素。"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模",
+        "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 联系销售人员 了解更多 在此页面上"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How many calls can an AI voice agent handle at once?",
+      "originalLang": "en",
+      "date": "2026-11-19",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/how-many-calls-can-an-ai-voice-agent-handle",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How many calls can an AI voice agent handle at once?"
+      },
+      "raw": {
+        "title": "How many calls can an AI voice agent handle at scale?",
+        "url": "https://elevenlabs.io/blog/how-many-calls-can-an-ai-voice-agent-handle",
+        "fetched": true,
+        "savedAt": "2026-11-20T05:19:45.059Z"
+      }
+    },
+    {
+      "id": "sig-b94a8ee76a",
+      "title": "Candid Health 如何通过 ElevenAgents 实现付款人呼叫自动化",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
+          "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_hlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 11 个医疗保健代理 联系销售人员 在此页面",
+          "Candid Health 是一个收入周期管理 (RCM) 平台，为美国一些最大的医疗保健组织提供支持。当索赔需要拨打电话时，计费者可能会在一次通话上花费 10 分钟到一个小时。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 4,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/candid-health"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模型。",
+        "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_hlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 用于医疗保健的 ElevenAgents 联系销售客户案例 Candid Health 如何使用 ElevenAgents 自动执行付款人呼叫 撰写者：John Durovsik 发布于 2026 年 11 月 19 日 听 听这篇文章",
+        "0:00 1.0x 11 个医疗保健代理 联系销售人员 在此页面",
+        "Candid Health 是一个收入周期管理 (RCM) 平台，为美国一些最大的医疗保健组织提供支持。当索赔需要拨打电话时，计费者可能会在一次通话上花费 10 分钟到一个小时。",
+        "Candid 使用 ElevenAgents 来处理这些电话、调查被拒绝的索赔并验证患者的资格，以便计费者有时间进行更复杂的工作。",
+        "发现索赔错误并防止拒绝 在最初的部署中，Candid Health 使用 ElevenAgents 处理了 12,860 个呼叫，每月节省了超过 850 个小时的员工时间。客服人员解决了 59% 的试点呼叫。仅当发现索赔被拒绝的原因并确定下一步解决问题时，呼叫才算已解决。即使对于经验丰富的记账员来说，从一个付款人电话中获得这两种服务也是很困难的。",
+        "我们故意为成功设定了很高的标准，因为获得部分答案并不能真正帮助我们的账单人。我们需要代理处理整个电话，从了解索赔被拒绝的原因到弄清楚下一步该做什么。事实上，他们可以在超过一半的情况下做到这一点，尤其是这么早，超出了我们的预期。",
+        "坎迪德设立特工是为了调查否认的事实，而不是为了对他们提出上诉。每个问题都遵循部署到 ElevenAgents 的详细询问协议，在某些情况下，这些问题导致付款人代表发现错误并重新处理索赔。",
+        "这些电话还暴露了上游的问题。一项调查显示，提供商在服务之日未获得付款人的认证。解决像这样的上游问题可以防止该客户未来数十次（如果不是数百次）被拒绝。",
+        "Candid Health 联合创始人兼首席运营官 Doug Proctor 表示：“致电保险公司要求拒绝索赔似乎很容易，但实际上却很难。每个细节都很重要。” “ElevenAgents 帮助我们将 10 倍或 100 倍计费者所知道的调查技术进行编纂和标准化，然后将其扩展到整个企业。”"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，这是我们迄今为止最激动人心的模",
+        "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 11 个医疗保健代理 联系销售人员 在此页面"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How Candid Health automates payer calls with ElevenAgents",
+      "originalLang": "en",
+      "date": "2026-11-19",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/candid-health",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How Candid Health automates payer calls with ElevenAgents"
+      },
+      "raw": {
+        "title": "How Candid Health automates payer calls with ElevenAgents",
+        "url": "https://elevenlabs.io/blog/candid-health",
+        "fetched": true,
+        "savedAt": "2026-11-20T05:19:52.128Z"
+      }
+    },
+    {
+      "id": "sig-6687f7be62",
+      "title": "OpenAI 的 Performance Factory 如何保持 ChatGPT 快速",
+      "oneLiner": "了解 OpenAI 如何构建 Performance Factory，这是一个由 Codex 支持的工作流程系统，可以发现并修复性能问题，以帮助保持 ChatGPT 的快速运行。",
+      "summary": {
+        "oneSentence": "了解 OpenAI 如何构建 Performance Factory，这是一个由 Codex 支持的工作流程系统，可以发现并修复性能问题，以帮助保持 ChatGPT 的快速运行。",
+        "bullets": [
+          "了解 OpenAI 如何构建 Performance Factory，这是一个由 Codex 支持的工作流程系统，可以发现并修复性能问题，以帮助保持 ChatGPT 的快速运行。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：了解 OpenAI 如何构建 Performance Factory，这是一个由 Codex 支持的工作流程系统，可以发现并修复性能问题，以帮助保持 ChatGPT 的快速运行。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "了解 OpenAI 如何构建 Performance Factory，这是一个由 Codex 支持的工作流程系统，可以发现并修复性能问题，以帮助保持 ChatGPT 的快速运行。"
+      ],
+      "highlights": [
+        "了解 OpenAI 如何构建 Performance Factory，这是一个由 Codex 支持的工作流程系统，可以发现并修复性能问题，以帮助保持 ChatG"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "originalLang": "en",
+      "date": "2026-11-19",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How OpenAI’s Performance Factory keeps ChatGPT fast"
+      },
+      "raw": {
+        "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+        "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+        "fetched": false,
+        "savedAt": "2026-11-20T05:19:53.323Z"
+      }
+    },
+    {
+      "id": "sig-2510f3b7e9",
+      "title": "Vercel 计费 CLI 现已推出 - Vercel",
+      "oneLiner": "您现在可以使用 Vercel CLI 检查团队的账单概览、查看和下载发票以及预览即将发生的费用。所有计费命令（包括使用情况、合同和预算）现在都分组在 vercel billing 下。",
+      "summary": {
+        "oneSentence": "您现在可以使用 Vercel CLI 检查团队的账单概览、查看和下载发票以及预览即将发生的费用。所有计费命令（包括使用情况、合同和预算）现在都分组在 vercel billing 下。",
+        "bullets": [
+          "您现在可以使用 Vercel CLI 检查团队的账单概览、查看和下载发票以及预览即将发生的费用。所有计费命令（包括使用情况、合同和预算）现在都分组在 vercel billing 下。",
+          "所有计划均提供账单概览和发票历史记录，具体取决于您团队现有的账单权限。即将推出的发票估算需要有效的付费订阅。",
+          "将链接复制到标题 计费概述 检查您团队的计划、计费状态、计费周期、到期余额和逾期发票：",
+          "# 查看当前团队的账单 vercel 账单概述 # 查看特定团队的账单 vercel 账单概述 --scope < team > 在 CLI 65.17.0 及更高版本中，此概述还包括配置的发票详细信息，例如您的账单地址、税号和采购订单。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：您现在可以使用 Vercel CLI 检查团队的账单概览、查看和下载发票以及预览即将发生的费用。所有计费命令（包括使用情况、合同和预算）现在都分组在 vercel billing 下。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-billing-cli-is-now-available"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "您现在可以使用 Vercel CLI 检查团队的账单概览、查看和下载发票以及预览即将发生的费用。所有计费命令（包括使用情况、合同和预算）现在都分组在 vercel billing 下。",
+        "所有计划均提供账单概览和发票历史记录，具体取决于您团队现有的账单权限。即将推出的发票估算需要有效的付费订阅。",
+        "将链接复制到标题 计费概述 检查您团队的计划、计费状态、计费周期、到期余额和逾期发票：",
+        "# 查看当前团队的账单 vercel 账单概述 # 查看特定团队的账单 vercel 账单概述 --scope < team > 在 CLI 65.17.0 及更高版本中，此概述还包括配置的发票详细信息，例如您的账单地址、税号和采购订单。",
+        "将链接复制到标题发票和即将收取的费用 使用 vercel 计费发票查看发票、下载 PDF 并预览即将收取的费用。对于检查和下载，将 <INVOICE_ID> 替换为列表输出中的完整发票 ID：",
+        "# 列出最近的三张发票 vercel billing Invoices list --limit 3 # 检查发票 vercel billing Invoices Inspection < INVOICE_ID > # 下载与 PDF 版本相同的发票 Vercel Billing Invoices 下载 <INVOICE_ID > # 预览下一张发票及其行项目 Vercel Billing Invoices 即将发生的费用是估算值，在计费周期结束之前可能会发生变化。",
+        "对于脚本和代理，请将 --json 添加到 vercel 计费概述或任何 vercel 计费发票子命令中以实现结构化输出。",
+        "现有的使用情况、合同和预算命令现在也使用相同的前缀：",
+        "vercel 合约 → vercel 计费合约",
+        "以前的命令名称继续作为别名使用。"
+      ],
+      "highlights": [
+        "您现在可以使用 Vercel CLI 检查团队的账单概览、查看和下载发票以及预览即将发生的费用。所有计费命令（包括使用情况、合同和预算）现在都分组在 verce",
+        "所有计划均提供账单概览和发票历史记录，具体取决于您团队现有的账单权限。即将推出的发票估算需要有效的付费订阅。",
+        "将链接复制到标题 计费概述 检查您团队的计划、计费状态、计费周期、到期余额和逾期发票："
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Billing CLI is now available - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-19",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-billing-cli-is-now-available",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Billing CLI is now available - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Billing CLI is now available",
+        "url": "https://vercel.com/changelog/vercel-billing-cli-is-now-available",
+        "fetched": true,
+        "savedAt": "2026-11-20T05:20:00.902Z"
+      }
+    },
+    {
+      "id": "sig-4b08ec5026",
+      "title": "部署黎明红",
+      "oneLiner": "使用 Daybreak Red 探索用于监督安全调查的参考架构，包括安全控制、设置和监控。",
+      "summary": {
+        "oneSentence": "使用 Daybreak Red 探索用于监督安全调查的参考架构，包括安全控制、设置和监控。",
+        "bullets": [
+          "使用 Daybreak Red 探索用于监督安全调查的参考架构，包括安全控制、设置和监控。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：使用 Daybreak Red 探索用于监督安全调查的参考架构，包括安全控制、设置和监控。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/business/learn/deploying-daybreak-red"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "使用 Daybreak Red 探索用于监督安全调查的参考架构，包括安全控制、设置和监控。"
+      ],
+      "highlights": [
+        "使用 Daybreak Red 探索用于监督安全调查的参考架构，包括安全控制、设置和监控。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Deploying Daybreak Red",
+      "originalLang": "en",
+      "date": "2026-11-19",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/business/learn/deploying-daybreak-red",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Deploying Daybreak Red"
+      },
+      "raw": {
+        "title": "Deploying Daybreak Red",
+        "url": "https://openai.com/business/learn/deploying-daybreak-red",
+        "fetched": false,
+        "savedAt": "2026-11-20T05:20:02.132Z"
+      }
+    },
+    {
+      "id": "sig-cb99e2baa6",
+      "title": "查看 PR 扫描的实际应用",
+      "oneLiner": "观看 PR 扫描的演练，并了解演示者如何在拉取请求工作流程中审查扫描结果。",
+      "summary": {
+        "oneSentence": "观看 PR 扫描的演练，并了解演示者如何在拉取请求工作流程中审查扫描结果。",
+        "bullets": [
+          "观看 PR 扫描的演练，并了解演示者如何在拉取请求工作流程中审查扫描结果。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：观看 PR 扫描的演练，并了解演示者如何在拉取请求工作流程中审查扫描结果。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/business/learn/pr-scans-demo"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "观看 PR 扫描的演练，并了解演示者如何在拉取请求工作流程中审查扫描结果。"
+      ],
+      "highlights": [
+        "观看 PR 扫描的演练，并了解演示者如何在拉取请求工作流程中审查扫描结果。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "See PR scans in action",
+      "originalLang": "en",
+      "date": "2026-11-19",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/business/learn/pr-scans-demo",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "See PR scans in action"
+      },
+      "raw": {
+        "title": "See PR scans in action",
+        "url": "https://openai.com/business/learn/pr-scans-demo",
+        "fetched": false,
+        "savedAt": "2026-11-20T05:20:03.334Z"
+      }
+    },
+    {
+      "id": "sig-e29ac258c0",
+      "title": "探索 Codex 安全插件",
+      "oneLiner": "观看 Codex 安全插件的演示并查看实际工作流程，从入门到查看录制中显示的结果。",
+      "summary": {
+        "oneSentence": "观看 Codex 安全插件的演示并查看实际工作流程，从入门到查看录制中显示的结果。",
+        "bullets": [
+          "观看 Codex 安全插件的演示并查看实际工作流程，从入门到查看录制中显示的结果。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：观看 Codex 安全插件的演示并查看实际工作流程，从入门到查看录制中显示的结果。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/business/learn/codex-security-plugin-demo"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "观看 Codex 安全插件的演示并查看实际工作流程，从入门到查看录制中显示的结果。"
+      ],
+      "highlights": [
+        "观看 Codex 安全插件的演示并查看实际工作流程，从入门到查看录制中显示的结果。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Explore the Codex Security Plugin",
+      "originalLang": "en",
+      "date": "2026-11-19",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Explore the Codex Security Plugin"
+      },
+      "raw": {
+        "title": "Explore the Codex Security Plugin",
+        "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+        "fetched": false,
+        "savedAt": "2026-11-20T05:20:04.536Z"
+      }
+    },
+    {
+      "id": "sig-a2fb003440",
+      "title": "开始使用黎明蓝",
+      "oneLiner": "观看 Daybreak Blue 的入门演练，详细了解设置体验以及如何开始。",
+      "summary": {
+        "oneSentence": "观看 Daybreak Blue 的入门演练，详细了解设置体验以及如何开始。",
+        "bullets": [
+          "观看 Daybreak Blue 的入门演练，详细了解设置体验以及如何开始。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：观看 Daybreak Blue 的入门演练，详细了解设置体验以及如何开始。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/business/learn/daybreak-blue-onboarding-demo"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "观看 Daybreak Blue 的入门演练，详细了解设置体验以及如何开始。"
+      ],
+      "highlights": [
+        "观看 Daybreak Blue 的入门演练，详细了解设置体验以及如何开始。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Get started with Daybreak Blue",
+      "originalLang": "en",
+      "date": "2026-11-19",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Get started with Daybreak Blue"
+      },
+      "raw": {
+        "title": "Get started with Daybreak Blue",
+        "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+        "fetched": false,
+        "savedAt": "2026-11-20T05:20:05.747Z"
+      }
+    },
     {
       "id": "sig-0c3c8b23c6",
       "title": "Gemini 4 Neon 简介",
@@ -9573,7 +10359,7 @@
         "url": "https://cursor.com/changelog/voice-chat",
         "fetched": true,
         "savedAt": "2026-11-08T03:54:06.689Z",
-        "retranslatedAt": "2026-11-19T05:33:06.840Z"
+        "retranslatedAt": "2026-11-20T05:20:06.867Z"
       }
     },
     {
@@ -10692,7 +11478,7 @@
         "url": "https://cursor.com/changelog/build-live-apps",
         "fetched": true,
         "savedAt": "2026-11-08T03:54:30.136Z",
-        "retranslatedAt": "2026-11-19T05:33:07.842Z"
+        "retranslatedAt": "2026-11-20T05:20:07.943Z"
       }
     },
     {
@@ -25569,7 +26355,7 @@
         "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
         "fetched": true,
         "savedAt": "2026-10-17T02:36:45.886Z",
-        "retranslatedAt": "2026-11-19T05:33:08.890Z"
+        "retranslatedAt": "2026-11-20T05:20:09.066Z"
       }
     },
     {
@@ -29167,7 +29953,7 @@
         "url": "https://cursor.com/changelog/origin-app-marketplace",
         "fetched": true,
         "savedAt": "2026-10-14T03:08:22.474Z",
-        "retranslatedAt": "2026-11-19T05:33:09.916Z"
+        "retranslatedAt": "2026-11-20T05:20:10.102Z"
       }
     },
     {
@@ -33726,1215 +34512,6 @@
         "url": "https://vercel.com/changelog/timestamp-attributes-are-now-supported-in-vercel-flags",
         "fetched": true,
         "savedAt": "2026-10-11T03:27:36.827Z"
-      }
-    },
-    {
-      "id": "sig-4dd2900708",
-      "title": "EmbeddingGemma 2：开放、轻量级的多模态嵌入模型",
-      "oneLiner": "EmbeddingGemma 2 是最强大的设备上多模式嵌入模型，可将文本、图像、音频和视频的组合本地映射到统一的嵌入空间。",
-      "summary": {
-        "oneSentence": "EmbeddingGemma 2 是最强大的设备上多模式嵌入模型，可将文本、图像、音频和视频的组合本地映射到统一的嵌入空间。",
-        "bullets": [
-          "EmbeddingGemma 2 是最强大的设备上多模式嵌入模型，可将文本、图像、音频和视频的组合本地映射到统一的嵌入空间。",
-          "您的浏览器不支持音频元素。",
-          "我们去年推出了 EmbeddingGemma，为高质量文本嵌入提供轻量级选项，帮助您的应用程序直接在消​​费类硬件上组织、搜索和连接信息。开发者社区的反应超出了我们的预期。下载量超过 2000 万次，构建者已使用它来支持更智能的设备上搜索工具和隐私优先的检索增强生成 (RAG) 管道。",
-          "今天，我们推出 EmbeddingGemma 2，超越文本范围，将代码、图像、视频和音频统一到共享嵌入空间中。 EmbeddingGemma 2 基于 Gemma 4 架构构建，并在商业许可的 Apache 2.0 许可证下发布，拥有 7.4 亿个参数，非常适合设备上推理。它可以帮助从语音备忘录中查找特定的视频剪辑，或"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Google DeepMind 官网发布：EmbeddingGemma 2 是最强大的设备上多模式嵌入模型，可将文本、图像、音频和视频的组合本地映射到统一的嵌入空间。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：gemini",
-        "actionItems": [
-          "阅读原文（英文）：https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "gemini"
-      ],
-      "content": [
-        "EmbeddingGemma 2 是最强大的设备上多模式嵌入模型，可将文本、图像、音频和视频的组合本地映射到统一的嵌入空间。",
-        "您的浏览器不支持音频元素。",
-        "我们去年推出了 EmbeddingGemma，为高质量文本嵌入提供轻量级选项，帮助您的应用程序直接在消​​费类硬件上组织、搜索和连接信息。开发者社区的反应超出了我们的预期。下载量超过 2000 万次，构建者已使用它来支持更智能的设备上搜索工具和隐私优先的检索增强生成 (RAG) 管道。",
-        "今天，我们推出 EmbeddingGemma 2，超越文本范围，将代码、图像、视频和音频统一到共享嵌入空间中。 EmbeddingGemma 2 基于 Gemma 4 架构构建，并在商业许可的 Apache 2.0 许可证下发布，拥有 7.4 亿个参数，非常适合设备上推理。它可以帮助从语音备忘录中查找特定的视频剪辑，或根据文本查询搜索数小时的录音，所有这些都由单个本机多模式模型处理。",
-        "EmbeddingGemma 2 采用与 Gemini Embedding 模型相同的技术构建，具有：",
-        "EmbeddingGemma 2 与 EmbeddingGemma 强大的多语言文本性能相匹配，同时代码性能显着提高了 9.92 点（在 MTEB 代码中，从 68.76 到 78.68），使其非常适合本地代码库索引、语义代码搜索和编码代理检索。在图像、视频、文档和音频方面，它为 1B 以下模型的每参数质量设立了新标准，甚至比一些专业模型的性能还要好两倍以上。",
-        "在 EmbeddingGemma 2 模型卡中查找完整的评估指标和模型信息。",
-        "EmbeddingGemma 2 直接为边缘硬件带来强大的功能。在本地生成嵌入有助于确保数据隐私、减少管道延迟，并使开发人员能够构建完全离线工作的跨模式搜索和检索。",
-        "当与 Gemma 4 等生成模型配合使用时，EmbeddingGemma 2 支持设备上的 RAG 管道来理解复杂的多模态数据。由于 EmbeddingGemma 2 基于 Gemma 4 构建，并共享其文本分词器和音频编码器，因此开发人员可以在统一的管道中同时运行这两个模型，并降低组合总内存占用量。",
-        "使用文本或图像根据语义相似性在媒体库中查找最匹配的内容。在 Google AI Edge Gallery 的即时媒体搜索中尝试一下。"
-      ],
-      "highlights": [
-        "EmbeddingGemma 2 是最强大的设备上多模式嵌入模型，可将文本、图像、音频和视频的组合本地映射到统一的嵌入空间。",
-        "您的浏览器不支持音频元素。",
-        "我们去年推出了 EmbeddingGemma，为高质量文本嵌入提供轻量级选项，帮助您的应用程序直接在消​​费类硬件上组织、搜索和连接信息。开发者社区的反应超出了"
-      ],
-      "translated": true,
-      "originalTitle": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-      "originalLang": "en",
-      "date": "2026-10-06",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google DeepMind",
-        "author": "DeepMind",
-        "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-        "home": "https://deepmind.google/blog/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "EmbeddingGemma 2: an open, lightweight multimodal embedding model"
-      },
-      "raw": {
-        "title": "EmbeddingGemma 2: an open, lightweight multimodal embedding model",
-        "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
-        "fetched": true,
-        "savedAt": "2026-10-07T03:49:00.288Z",
-        "retranslatedAt": "2026-10-08T04:03:34.376Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-61b4e13810",
-      "title": "AI Gateway 添加基于置信度的决策回退 - Vercel",
-      "oneLiner": "当主要模型的答案达到您设置的置信度条件时，AI Gateway 现在可以将决策请求升级为后备模型。",
-      "summary": {
-        "oneSentence": "当主要模型的答案达到您设置的置信度条件时，AI Gateway 现在可以将决策请求升级为后备模型。",
-        "bullets": [
-          "当主要模型的答案达到您设置的置信度条件时，AI Gateway 现在可以将决策请求升级为后备模型。",
-          "条件可以组合，因此升级可能取决于多个信号。您已经在模型中列出的普通模型名称会不断捕获彻底的错误，因此现有的后备不受影响。置信条件包括选择问题和分数问题。相反，布尔问题在概率范围内升级。",
-          "通过向providerOptions.gateway.models添加一个条件对象来设置后备。没有它的请求将保留其现有行为。",
-          "1 从 '@ai-sdk/gateway' 导入 { gateway } ； 2 从'ai'导入{experimental_decide asdecide}； 3 const result =等待决定({4 model: gateway.decisionModel('typesafe-ai/jev'), 5 state"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：当主要模型的答案达到您设置的置信度条件时，AI Gateway 现在可以将决策请求升级为后备模型。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/confidence-based-decision-fallbacks"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "当主要模型的答案达到您设置的置信度条件时，AI Gateway 现在可以将决策请求升级为后备模型。",
-        "条件可以组合，因此升级可能取决于多个信号。您已经在模型中列出的普通模型名称会不断捕获彻底的错误，因此现有的后备不受影响。置信条件包括选择问题和分数问题。相反，布尔问题在概率范围内升级。",
-        "通过向providerOptions.gateway.models添加一个条件对象来设置后备。没有它的请求将保留其现有行为。",
-        "1 从 '@ai-sdk/gateway' 导入 { gateway } ； 2 从'ai'导入{experimental_decide asdecide}； 3 const result =等待决定({4 model: gateway.decisionModel('typesafe-ai/jev'), 5 state: '我被收取了两次费用，现在应用程序将无法加载。', 6 个问题: { 7 Intent: { 8 type: 'choice', 9 instructions: '哪个团队应该处理这个问题？', 10 criteria: { billing: '收费和退款' , 技术 : '错误和中断' } , 11 } , 12 } , 13 providerOptions : { 14 gateway : { 15 models : [ { model : 'openai/gpt-6-astra' , when : { Question : 'intent' ,confidenceBelow : 0.6 } } ] , 16 } , 17 } , 18 } ); 19 控制台。 log(结果.答案.意图.选择);将不确定的答案升级为具有置信条件的后备模型",
-        "省略问题，条件会检查匹配类型的每个问题，因此当任何选项或分数答案低于 0.6 时，{confidenceBelow: 0.6} 会升级。",
-        "由于触发的回退会运行第二个决策，因此它会对两个阶段进行计费。",
-        "在决策回退文档中了解更多信息，或者查看它们在实践中映射 CSV 列和标记 UI 副本以进行翻译审核的情况。"
-      ],
-      "highlights": [
-        "当主要模型的答案达到您设置的置信度条件时，AI Gateway 现在可以将决策请求升级为后备模型。",
-        "条件可以组合，因此升级可能取决于多个信号。您已经在模型中列出的普通模型名称会不断捕获彻底的错误，因此现有的后备不受影响。置信条件包括选择问题和分数问题。相反，布",
-        "通过向providerOptions.gateway.models添加一个条件对象来设置后备。没有它的请求将保留其现有行为。"
-      ],
-      "translated": true,
-      "originalTitle": "AI Gateway adds confidence-based decision fallbacks - Vercel",
-      "originalLang": "en",
-      "date": "2026-10-06",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/confidence-based-decision-fallbacks",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "AI Gateway adds confidence-based decision fallbacks - Vercel"
-      },
-      "raw": {
-        "title": "AI Gateway adds confidence-based decision fallbacks",
-        "url": "https://vercel.com/changelog/confidence-based-decision-fallbacks",
-        "fetched": true,
-        "savedAt": "2026-10-07T03:49:01.938Z",
-        "retranslatedAt": "2026-10-08T04:03:40.339Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-60ef2af305",
-      "title": "Atlassian 和 OpenAI 扩大合作伙伴关系，将企业知识转化为行动",
-      "oneLiner": "Atlassian 和 OpenAI 正在扩大合作伙伴关系，将前沿模型与企业知识联系起来，并帮助团队规划、构建和交付工作。",
-      "summary": {
-        "oneSentence": "Atlassian 和 OpenAI 正在扩大合作伙伴关系，将前沿模型与企业知识联系起来，并帮助团队规划、构建和交付工作。",
-        "bullets": [
-          "Atlassian 和 OpenAI 正在扩大合作伙伴关系，将前沿模型与企业知识联系起来，并帮助团队规划、构建和交付工作。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：Atlassian 和 OpenAI 正在扩大合作伙伴关系，将前沿模型与企业知识联系起来，并帮助团队规划、构建和交付工作。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/atlassian-partnership"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "Atlassian 和 OpenAI 正在扩大合作伙伴关系，将前沿模型与企业知识联系起来，并帮助团队规划、构建和交付工作。"
-      ],
-      "highlights": [
-        "Atlassian 和 OpenAI 正在扩大合作伙伴关系，将前沿模型与企业知识联系起来，并帮助团队规划、构建和交付工作。"
-      ],
-      "translated": true,
-      "originalTitle": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-      "originalLang": "en",
-      "date": "2026-10-06",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/atlassian-partnership",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action"
-      },
-      "raw": {
-        "title": "Atlassian and OpenAI expand partnership to turn enterprise knowledge into action",
-        "url": "https://openai.com/index/atlassian-partnership",
-        "fetched": false,
-        "savedAt": "2026-10-07T03:49:03.524Z",
-        "retranslatedAt": "2026-10-08T04:03:41.580Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-5f1818618f",
-      "title": "产品设计师使用 Figma 代理的 3 种方式 | Figma 博客",
-      "oneLiner": "以下是 Uber、Granola 和 Atlassian 的团队如何利用 Figma 代理支持高质量、快速发展的工作，该代理现已普遍可用。",
-      "summary": {
-        "oneSentence": "以下是 Uber、Granola 和 Atlassian 的团队如何利用 Figma 代理支持高质量、快速发展的工作，该代理现已普遍可用。",
-        "bullets": [
-          "以下是 Uber、Granola 和 Atlassian 的团队如何利用 Figma 代理支持高质量、快速发展的工作，该代理现已普遍可用。",
-          "目录 Uber 如何扩展设计系统文档 Granola 如何自信地设计 Atlassian 如何操作运动 目录 Uber 如何扩展设计系统文档 Granola 如何自信地设计 Atlassian 如何操作运动 自我们首次推出 Figma 代理以来 Figma 设计代理就在这里 从今天开始，直接在画布上使用为 Figma ",
-          "提示让您开始。定制工具、真实背景和技能使设计代理走得更远，因此画布上的最终效果实际上看起来像您。",
-          "从今天开始，您将对生成插件和着色器有更多的创造性控制，以及与社区分享您所做的事情的方式。产品设计师 Rogie King 讲述了我们如何走到这一步的故事。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Figma 官网发布：以下是 Uber、Granola 和 Atlassian 的团队如何利用 Figma 代理支持高质量、快速发展的工作，该代理现已普遍可用。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://www.figma.com/blog/3-ways-product-designers-use-the-figma-agent/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "以下是 Uber、Granola 和 Atlassian 的团队如何利用 Figma 代理支持高质量、快速发展的工作，该代理现已普遍可用。",
-        "目录 Uber 如何扩展设计系统文档 Granola 如何自信地设计 Atlassian 如何操作运动 目录 Uber 如何扩展设计系统文档 Granola 如何自信地设计 Atlassian 如何操作运动 自我们首次推出 Figma 代理以来 Figma 设计代理就在这里 从今天开始，直接在画布上使用为 Figma 构建的代理。",
-        "提示让您开始。定制工具、真实背景和技能使设计代理走得更远，因此画布上的最终效果实际上看起来像您。",
-        "从今天开始，您将对生成插件和着色器有更多的创造性控制，以及与社区分享您所做的事情的方式。产品设计师 Rogie King 讲述了我们如何走到这一步的故事。",
-        "使用指南告诉代理您的团队如何使用其设计系统。例如，您可能会说，“仅将红色用于诸如删除之类的操作，而不仅仅是为了装饰。”当产品构建者要求代理使用该库设计某些东西时，它会自动获取这些指令。",
-        "如今，Figma 代理已结束测试版，并进行了多项改进，包括输出质量。新代理更擅长遵循指令并处理长时间运行的任务。事实上，它在我们与专业设计师进行的人工评分评估中胜出约 60% 以上。除了提高质量之外，我们还推出了新功能，让您：",
-        "正如我们从 Uber、Granola 和 Atlassian 团队那里听到的那样，在他们已经工作的地方拥有代理意味着他们不需要重新发明流程或在工具之间切换，从而使他们能够在提升工艺的同时更快地行动。",
-        "/create-color ：将填充、描边、阴影和渐变映射到其标记",
-        "/create-anatomy ：绘制组件和子组件的解剖图",
-        "/create-api ：获取 API 概述和配置示例"
-      ],
-      "highlights": [
-        "以下是 Uber、Granola 和 Atlassian 的团队如何利用 Figma 代理支持高质量、快速发展的工作，该代理现已普遍可用。",
-        "目录 Uber 如何扩展设计系统文档 Granola 如何自信地设计 Atlassian 如何操作运动 目录 Uber 如何扩展设计系统文档 Granola 如",
-        "提示让您开始。定制工具、真实背景和技能使设计代理走得更远，因此画布上的最终效果实际上看起来像您。"
-      ],
-      "translated": true,
-      "originalTitle": "3 Ways Product Designers Use the Figma agent | Figma Blog",
-      "originalLang": "en",
-      "date": "2026-10-06",
-      "categoryIds": [
-        "vertical-ui"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Figma",
-        "author": "Figma",
-        "url": "https://www.figma.com/blog/3-ways-product-designers-use-the-figma-agent/",
-        "home": "https://www.figma.com/blog/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "3 Ways Product Designers Use the Figma agent | Figma Blog"
-      },
-      "raw": {
-        "title": "3 ways product designers use the Figma agent for craft, speed, and creative expression",
-        "url": "https://www.figma.com/blog/3-ways-product-designers-use-the-figma-agent/",
-        "fetched": true,
-        "savedAt": "2026-10-07T03:49:05.230Z",
-        "retranslatedAt": "2026-10-08T04:03:49.687Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-0dc98d29ca",
-      "title": "工作流程实验室：与 Figma 的 Agent 保持流畅 | Figma 博客",
-      "oneLiner": "知道要交给代理人什么工作本身就是一项技能。此工作流程展示了设计人员如何塑造新的临时访问功能，而 Figma 代理处理库更新、关键反馈和设计系统规范的初稿。",
-      "summary": {
-        "oneSentence": "知道要交给代理人什么工作本身就是一项技能。此工作流程展示了设计人员如何塑造新的临时访问功能，而 Figma 代理处理库更新、关键反馈和设计系统规范的初稿。",
-        "bullets": [
-          "知道要交给代理人什么工作本身就是一项技能。此工作流程展示了设计人员如何塑造新的临时访问功能，而 Figma 代理处理库更新、关键反馈和设计系统规范的初稿。",
-          "欢迎来到工作流实验室，我们在这里展示了一个示例工作流程 工作流实验室：使用代理在设计和代码之间移动 编码代理正在重塑开发人员的构建方式，但它们的效果取决于所提供的输入。此工作流程探讨了上下文如何使代码和画布保持同步。",
-          "工具：Figma 代理、注释和注释、库、变量",
-          "技能：/repair-library-usage、/compliance-review、/document-component-enhancement"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Figma 官网发布：知道要交给代理人什么工作本身就是一项技能。此工作流程展示了设计人员如何塑造新的临时访问功能，而 Figma 代理处理库更新、关键反馈和设计系统规范的初稿。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://www.figma.com/blog/workflow-lab-staying-in-the-flow-with-the-figma-agent/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "知道要交给代理人什么工作本身就是一项技能。此工作流程展示了设计人员如何塑造新的临时访问功能，而 Figma 代理处理库更新、关键反馈和设计系统规范的初稿。",
-        "欢迎来到工作流实验室，我们在这里展示了一个示例工作流程 工作流实验室：使用代理在设计和代码之间移动 编码代理正在重塑开发人员的构建方式，但它们的效果取决于所提供的输入。此工作流程探讨了上下文如何使代码和画布保持同步。",
-        "工具：Figma 代理、注释和注释、库、变量",
-        "技能：/repair-library-usage、/compliance-review、/document-component-enhancement",
-        "团队：设计师、设计系统团队、安全与合规合作伙伴",
-        "要解决的问题：如果 Figma 代理处理繁忙的工作，而您专注于深度设计工作怎么办？",
-        "在设计工作流程中使用人工智能意味着不断问一个问题：什么需要我的判断，什么只需要做什么？这听起来很明显，直到您到达最后期限并且您仍然希望每个产品和设计电话都是您的。作为 Offtrail（一款用于当地户外聚会的虚构应用程序）的设计师，您将了解如何以及何时将某些东西交给 Figma 代理，从清理过时的组件到为设计系统团队起草规范。",
-        "Offtrail 权限设置目前不提供让某人主持单个活动的方法，因此团队希望添加在活动后过期的临时主持人权限。设计者简要介绍：更新权限体验，让某人在有限的时间内作为主持人加入，显示访问何时结束，并为群组管理员提供管理方式。",
-        "现有的权限体验已经需要更新。某些框架使用当前的组件和变量，而其他框架则携带已弃用的实例或有人手动覆盖的值。由于临时访问流程建立在这些屏幕上，因此设计人员需要在进一步操作之前将其更新。",
-        "维护是设计工作。更换旧组件或修复变量绑定并不像生成新屏幕那么引人注目。但在产品中重复进行时，这些小决策决定了设计系统是保持一致还是慢慢地变成多个共享名称的系统。代理商可以进行集中检查和重复维修。设计者仍然决定例外的含义。"
-      ],
-      "highlights": [
-        "知道要交给代理人什么工作本身就是一项技能。此工作流程展示了设计人员如何塑造新的临时访问功能，而 Figma 代理处理库更新、关键反馈和设计系统规范的初稿。",
-        "欢迎来到工作流实验室，我们在这里展示了一个示例工作流程 工作流实验室：使用代理在设计和代码之间移动 编码代理正在重塑开发人员的构建方式，但它们的效果取决于所提供",
-        "工具：Figma 代理、注释和注释、库、变量"
-      ],
-      "translated": true,
-      "originalTitle": "Workflow Lab: Staying in the Flow with Figma’s Agent | Figma Blog",
-      "originalLang": "en",
-      "date": "2026-10-06",
-      "categoryIds": [
-        "vertical-ui"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Figma",
-        "author": "Figma",
-        "url": "https://www.figma.com/blog/workflow-lab-staying-in-the-flow-with-the-figma-agent/",
-        "home": "https://www.figma.com/blog/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Workflow Lab: Staying in the Flow with Figma’s Agent | Figma Blog"
-      },
-      "raw": {
-        "title": "Workflow lab: Staying in the flow with Figma’s agent",
-        "url": "https://www.figma.com/blog/workflow-lab-staying-in-the-flow-with-the-figma-agent/",
-        "fetched": true,
-        "savedAt": "2026-10-07T03:49:07.040Z",
-        "retranslatedAt": "2026-10-08T04:03:57.868Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-246d0120ea",
-      "title": "如何使用 Figma Agent 减轻设计系统维护 | Figma 博客",
-      "oneLiner": "Figma 的代理可以在您的设计系统中承担重复性工作，从维护库到自动化设计如何遵循它。在这里，我们分享一些让 Figma 代理发挥作用的方法。",
-      "summary": {
-        "oneSentence": "Figma 的代理可以在您的设计系统中承担重复性工作，从维护库到自动化设计如何遵循它。在这里，我们分享一些让 Figma 代理发挥作用的方法。",
-        "bullets": [
-          "Figma 的代理可以在您的设计系统中承担重复性工作，从维护库到自动化设计如何遵循它。在这里，我们分享一些让 Figma 代理发挥作用的方法。",
-          "每个设计系统都依赖于必要但容易推迟的维护，例如清理命名、检查令牌使用情况、更新过时的文档以及查找产品偏离库的位置。随着团队的行动速度比以往任何时候都快，很难看出设计在哪里与系统不同步。代理的输出取决于它所给出的上下文。 为什么您应该关心设计上下文随着开发人员越来越多地使用代理编码工具，设计文件的结构和清晰度比以往任何时",
-          "现在，Figma 代理 Figma 设计代理就在这里 从今天开始，直接在画布上使用专为 Figma 构建的代理。",
-          "设计系统文档在产品开发过程中为不同的受众提供服务，从试图选择正确组件的设计人员到寻找移交所需内容的开发人员。从本质上讲，文档阐明了系统的使用方式，这使得团队能够一致地应用它并保持高质量。该代理可以帮助您创建该文档并随着您的设计系统的发展进行更新。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Figma 官网发布：Figma 的代理可以在您的设计系统中承担重复性工作，从维护库到自动化设计如何遵循它。在这里，我们分享一些让 Figma 代理发挥作用的方法。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://www.figma.com/blog/figma-agent-and-design-systems/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Figma 的代理可以在您的设计系统中承担重复性工作，从维护库到自动化设计如何遵循它。在这里，我们分享一些让 Figma 代理发挥作用的方法。",
-        "每个设计系统都依赖于必要但容易推迟的维护，例如清理命名、检查令牌使用情况、更新过时的文档以及查找产品偏离库的位置。随着团队的行动速度比以往任何时候都快，很难看出设计在哪里与系统不同步。代理的输出取决于它所给出的上下文。 为什么您应该关心设计上下文随着开发人员越来越多地使用代理编码工具，设计文件的结构和清晰度比以往任何时候都更加重要。通过深思熟虑地组织您的工作，您可以帮助您的开发人员同行更高效、更准确地构建。",
-        "现在，Figma 代理 Figma 设计代理就在这里 从今天开始，直接在画布上使用专为 Figma 构建的代理。",
-        "设计系统文档在产品开发过程中为不同的受众提供服务，从试图选择正确组件的设计人员到寻找移交所需内容的开发人员。从本质上讲，文档阐明了系统的使用方式，这使得团队能够一致地应用它并保持高质量。该代理可以帮助您创建该文档并随着您的设计系统的发展进行更新。",
-        "文档是最容易落后的事情之一。一旦您确定了组件应该如何工作，代理就可以帮助起草文档来解释它应该如何使用和表现。",
-        "例如，Uber 产品设计师 Ian Guisard 使用代理和一组技能 尝试这 10 项技能，并展示您自己的技能 现在您可以直接在 Figma 中为我们的代理编写技能，以将您的观点付诸实践。这里有 10 个我们最喜欢的，可以帮助您入门。",
-        "这为开发人员提供了他们所需的详细信息，而无需深入 Figma 文件或返回给设计人员进行澄清。部分文档工作的自动化有助于团队专注于改进系统，而不是花费宝贵的时间手动更新每个规范。",
-        "随着产品构建速度越来越快，越来越难以发现设计与系统不同步的地方。该代理可以帮助找到这些差距并更新设计以在不一致蔓延之前使用当前的组件和令牌。",
-        "根据您的设计系统检查设计可能非常耗时。单个屏幕可以使用来自多个库的组件和令牌，让您可以跟踪每个库的来源。代理可以帮助指出这些情况，这样您就不必进行手动审核。",
-        "例如，假设构建结帐屏幕的设计人员从头开始创建“保存以供稍后使用”按钮，而不是使用设计系统的现有按钮组件。代理可以根据设计库检查该屏幕，标记该按钮是否重复系统现有的按钮/辅助组件，并指出它是否使用硬编码的颜色或间距值而不是当前标记。这使设计人员有机会在设计继续之前交换生产组件和令牌。"
-      ],
-      "highlights": [
-        "Figma 的代理可以在您的设计系统中承担重复性工作，从维护库到自动化设计如何遵循它。在这里，我们分享一些让 Figma 代理发挥作用的方法。",
-        "每个设计系统都依赖于必要但容易推迟的维护，例如清理命名、检查令牌使用情况、更新过时的文档以及查找产品偏离库的位置。随着团队的行动速度比以往任何时候都快，很难看出",
-        "现在，Figma 代理 Figma 设计代理就在这里 从今天开始，直接在画布上使用专为 Figma 构建的代理。"
-      ],
-      "translated": true,
-      "originalTitle": "How to Lighten Design System Upkeep With the Figma Agent | Figma Blog",
-      "originalLang": "en",
-      "date": "2026-10-06",
-      "categoryIds": [
-        "vertical-ui"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Figma",
-        "author": "Figma",
-        "url": "https://www.figma.com/blog/figma-agent-and-design-systems/",
-        "home": "https://www.figma.com/blog/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "How to Lighten Design System Upkeep With the Figma Agent | Figma Blog"
-      },
-      "raw": {
-        "title": "How to lighten design system upkeep with the Figma agent",
-        "url": "https://www.figma.com/blog/figma-agent-and-design-systems/",
-        "fetched": true,
-        "savedAt": "2026-10-07T03:49:08.706Z",
-        "retranslatedAt": "2026-10-08T04:04:05.011Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-342677ae7e",
-      "title": "Jump Trading 如何利用 ChatGPT 扩大量化研究规模",
-      "oneLiner": "Jump Trading 使用 OpenAI 来扩展定量研究。了解运行时间较长的 AI 工作流程如何将多个数据源与人工审核相结合。",
-      "summary": {
-        "oneSentence": "Jump Trading 使用 OpenAI 来扩展定量研究。了解运行时间较长的 AI 工作流程如何将多个数据源与人工审核相结合。",
-        "bullets": [
-          "Jump Trading 使用 OpenAI 来扩展定量研究。了解运行时间较长的 AI 工作流程如何将多个数据源与人工审核相结合。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：Jump Trading 使用 OpenAI 来扩展定量研究。了解运行时间较长的 AI 工作流程如何将多个数据源与人工审核相结合。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/jump-trading"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "Jump Trading 使用 OpenAI 来扩展定量研究。了解运行时间较长的 AI 工作流程如何将多个数据源与人工审核相结合。"
-      ],
-      "highlights": [
-        "Jump Trading 使用 OpenAI 来扩展定量研究。了解运行时间较长的 AI 工作流程如何将多个数据源与人工审核相结合。"
-      ],
-      "translated": true,
-      "originalTitle": "How Jump Trading is scaling quant research with ChatGPT",
-      "originalLang": "en",
-      "date": "2026-10-06",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/jump-trading",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "How Jump Trading is scaling quant research with ChatGPT"
-      },
-      "raw": {
-        "title": "How Jump Trading is scaling quant research with ChatGPT",
-        "url": "https://openai.com/index/jump-trading",
-        "fetched": false,
-        "savedAt": "2026-10-07T03:49:10.300Z",
-        "retranslatedAt": "2026-10-09T04:08:32.899Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-47b9255d8f",
-      "title": "分享AI数学进展",
-      "oneLiner": "OpenAI 通过内部前沿模型发布了关于数学中开放问题的新结果，并在 GitHub 上分享了精益证明形式化和研究细节。",
-      "summary": {
-        "oneSentence": "OpenAI 通过内部前沿模型发布了关于数学中开放问题的新结果，并在 GitHub 上分享了精益证明形式化和研究细节。",
-        "bullets": [
-          "OpenAI 通过内部前沿模型发布了关于数学中开放问题的新结果，并在 GitHub 上分享了精益证明形式化和研究细节。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：OpenAI 通过内部前沿模型发布了关于数学中开放问题的新结果，并在 GitHub 上分享了精益证明形式化和研究细节。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/sharing-ai-progress-in-mathematics"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "OpenAI 通过内部前沿模型发布了关于数学中开放问题的新结果，并在 GitHub 上分享了精益证明形式化和研究细节。"
-      ],
-      "highlights": [
-        "OpenAI 通过内部前沿模型发布了关于数学中开放问题的新结果，并在 GitHub 上分享了精益证明形式化和研究细节。"
-      ],
-      "translated": true,
-      "originalTitle": "Sharing AI progress in mathematics",
-      "originalLang": "en",
-      "date": "2026-10-06",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Sharing AI progress in mathematics"
-      },
-      "raw": {
-        "title": "Sharing AI progress in mathematics",
-        "url": "https://openai.com/index/sharing-ai-progress-in-mathematics",
-        "fetched": false,
-        "savedAt": "2026-10-07T03:49:11.729Z",
-        "retranslatedAt": "2026-10-09T04:08:34.462Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-b3859f0901",
-      "title": "什么是对话智能：企业指南",
-      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-      "summary": {
-        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-        "bullets": [
-          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root ",
-          "0:00 1.0x 了解更多 获取 API 密钥 在此页面上",
-          "在大多数销售和支持对话中，所讨论的大部分内容很少在对话之外使用。通话发生后，有人在 CRM 中将其标记为已完成，并且对话最终会作为录音文件而不会再次审阅。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://elevenlabs.io/blog/what-is-conversation-intelligence"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 了解更多信息 获取 API 密钥 博客资源 什么是对话智能？企业指南 作者：Jack Limebear 发布于 2026 年 10 月 6 日 最后更新于 2026 年 10 月 7 日 听 听这篇文章",
-        "0:00 1.0x 了解更多 获取 API 密钥 在此页面上",
-        "在大多数销售和支持对话中，所讨论的大部分内容很少在对话之外使用。通话发生后，有人在 CRM 中将其标记为已完成，并且对话最终会作为录音文件而不会再次审阅。",
-        "对话智能是防止这种情况发生的一层。其目标是捕获对话、转录并应用人工智能分析，将其转化为您可以使用并与团队和管理层共享的内部资源。这为公司提供了每次对话期间所说内容的记录，并按情绪、反对意见和行动项目进行标记，而不仅仅是选定的对话进行内部审查。",
-        "本指南介绍了对话智能是什么、它的工作原理以及它最常用的地方，以便您可以开始将其应用到您自己与客户的对话中。",
-        "对话智能是一种记录和转录客户对话的软件，然后使用人工智能将其转化为结构化见解，例如情绪、主题、行动项目和反对意见。这种智能建立在两层之上，即准确的转录和从对话记录中读取含义的解释层。",
-        "情报的解释层是将其与录音或普通文字记录区分开来的。例如，通话录音通常仅保留音频，而文字记录则使相同的音频可读。对话智能通过确定发言者、讨论的主题、悬而未决的问题以及对话如何与其目标保持一致来增强分析。",
-        "为了进一步分解实践中的情况，让我们对一个场景使用一次销售电话。对话智能系统将执行以下操作：",
-        "在整个企业中，团队在对话智能中应用相同的模式。收入团队在销售电话中运行它，支持人员在服务交互中使用它，合规部门在受监管的对话中运行它以确保数据隐私得到维护，产品团队使用它来更好地了解客户反馈以改进产品。"
-      ],
-      "highlights": [
-        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感",
-        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opaci",
-        "0:00 1.0x 了解更多 获取 API 密钥 在此页面上"
-      ],
-      "translated": true,
-      "originalTitle": "What is conversation intelligence: A guide for enterprises",
-      "originalLang": "en",
-      "date": "2026-10-06",
-      "categoryIds": [
-        "vertical-audio"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "ElevenLabs",
-        "author": "ElevenLabs",
-        "url": "https://elevenlabs.io/blog/what-is-conversation-intelligence",
-        "home": "https://elevenlabs.io/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "What is conversation intelligence: A guide for enterprises"
-      },
-      "raw": {
-        "title": "What is conversation intelligence? A guide for businesses",
-        "url": "https://elevenlabs.io/blog/what-is-conversation-intelligence",
-        "fetched": true,
-        "savedAt": "2026-10-07T03:49:13.214Z",
-        "retranslatedAt": "2026-10-09T04:08:41.887Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-cdc5b82bfe",
-      "title": "ElevenAgents Architect：改进代理的专家合作伙伴",
-      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-      "summary": {
-        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-        "bullets": [
-          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root ",
-          "0:00 1.0x 尝试架构师联系销售人员在此页面上",
-          "在 ElevenLabs，我们正在构建人与技术之间、组织与其所服务的人之间的接口层，无论是企业与其客户、雇主及其员工，还是政府及其居民。我们的客户已经用自然对话取代了电话树和僵化的聊天机器人。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://elevenlabs.io/blog/elevenagents-architect"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 尝试架构师 联系销售博客 产品介绍 ElevenAgents 架构师 作者：Angelo Giacco Eli Goodman 发布于 2026 年 10 月 6 日 听 听这篇文章",
-        "0:00 1.0x 尝试架构师联系销售人员在此页面上",
-        "在 ElevenLabs，我们正在构建人与技术之间、组织与其所服务的人之间的接口层，无论是企业与其客户、雇主及其员工，还是政府及其居民。我们的客户已经用自然对话取代了电话树和僵化的聊天机器人。",
-        "今天，我们为代理背后的人员提供了相同的对话界面。 ElevenAgents Architect 是我们新的内置专家，只需通过交谈或打字即可帮助您的团队启动和改进代理。",
-        "构建和改进的专家合作伙伴 借助 ElevenAgents Architect，您的团队可以解决一般性问题，例如“如何改进退款解决方案？” — 在一次谈话中找到根本原因和更好的代理人。",
-        "ElevenAgents Architect 了解 ElevenAgents 中所有可能的配置选项、它们如何交互以及知识库、提示、工作流程、语音设置、程序、护栏、工具和模拟的最佳实践。",
-        "这种理解意味着它几乎可以对你发出的任何信号采取行动。您可以向其提供失败的测试、升级高峰或 ElevenAgents Spotlight 的发现，它会分析记录、表面见解并发现需要改进的领域。然后，ElevenAgents Architect 会提出更改并编写模拟，以便您可以放心地进行部署。",
-        "架构师在从健康保险线路到患者安排的各个方面改进您的代理 - 在对话中发现机会并实施变更。",
-        "ElevenAgents Architect 针对各种呼叫（从卡激活到欺诈警报）调整您的代理。在这里，失败的测试变成了修复程序，起草并准备好进行审查。"
-      ],
-      "highlights": [
-        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感",
-        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opaci",
-        "0:00 1.0x 尝试架构师联系销售人员在此页面上"
-      ],
-      "translated": true,
-      "originalTitle": "ElevenAgents Architect: An expert partner to improve agents",
-      "originalLang": "en",
-      "date": "2026-10-06",
-      "categoryIds": [
-        "vertical-audio"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "ElevenLabs",
-        "author": "ElevenLabs",
-        "url": "https://elevenlabs.io/blog/elevenagents-architect",
-        "home": "https://elevenlabs.io/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "ElevenAgents Architect: An expert partner to improve agents"
-      },
-      "raw": {
-        "title": "Introducing ElevenAgents Architect",
-        "url": "https://elevenlabs.io/blog/elevenagents-architect",
-        "fetched": true,
-        "savedAt": "2026-10-07T03:49:14.857Z",
-        "retranslatedAt": "2026-10-09T04:08:51.446Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-9964af802e",
-      "title": "通过 Ironclad 促进计算机的使用",
-      "oneLiner": "了解 OpenAI 和 Ironclad 如何在复杂的合同工作流程上培训和评估 AI 代理，以促进计算机在专业工作中的使用。",
-      "summary": {
-        "oneSentence": "了解 OpenAI 和 Ironclad 如何在复杂的合同工作流程上培训和评估 AI 代理，以促进计算机在专业工作中的使用。",
-        "bullets": [
-          "了解 OpenAI 和 Ironclad 如何在复杂的合同工作流程上培训和评估 AI 代理，以促进计算机在专业工作中的使用。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：了解 OpenAI 和 Ironclad 如何在复杂的合同工作流程上培训和评估 AI 代理，以促进计算机在专业工作中的使用。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/advancing-computer-use-with-ironclad"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "了解 OpenAI 和 Ironclad 如何在复杂的合同工作流程上培训和评估 AI 代理，以促进计算机在专业工作中的使用。"
-      ],
-      "highlights": [
-        "了解 OpenAI 和 Ironclad 如何在复杂的合同工作流程上培训和评估 AI 代理，以促进计算机在专业工作中的使用。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Advancing computer use with Ironclad",
-      "originalLang": "en",
-      "date": "2026-10-06",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Advancing computer use with Ironclad"
-      },
-      "raw": {
-        "title": "Advancing computer use with Ironclad",
-        "url": "https://openai.com/index/advancing-computer-use-with-ironclad",
-        "fetched": false,
-        "savedAt": "2026-10-11T03:27:38.148Z"
-      }
-    },
-    {
-      "id": "sig-ecd4573e22",
-      "title": "本地智能体远程控制 · Cursor",
-      "oneLiner": "您现在可以在 Cursor iOS 应用中查看并回复电脑上正在运行的本地智能体。",
-      "summary": {
-        "oneSentence": "您现在可以在 Cursor iOS 应用中查看并回复电脑上正在运行的本地智能体。",
-        "bullets": [
-          "您现在可以在 Cursor iOS 应用中查看并回复电脑上正在运行的本地智能体。",
-          "下载 Cursor iOS 应用并登录。你账户中的电脑会自动显示在应用中。在应用中点按你的电脑，然后在 Cursor 桌面应用中批准配对请求。你的本地智能体会以列表形式显示，点按任意一个即可查看它正在做什么，或向它发送消息。",
-          "远程控制不会把你的智能体转移到别处。智能体仍在你的电脑上运行，App 只是与它建立连接。你的电脑需要保持开机和联网，远程控制才能正常使用。",
-          "如需在您离开时防止电脑进入睡眠状态，请在 Cursor 桌面端设置的 远程控制 中开启“Keep this computer awake”。电脑需接通电源并保持合盖打开状态。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Cursor 官网发布：您现在可以在 Cursor iOS 应用中查看并回复电脑上正在运行的本地智能体。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：cursor",
-        "actionItems": [
-          "阅读原文（中文）：https://cursor.com/changelog/remote-control-local-agents"
-        ]
-      },
-      "tags": [
-        "Release"
-      ],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "cursor"
-      ],
-      "content": [
-        "您现在可以在 Cursor iOS 应用中查看并回复电脑上正在运行的本地智能体。",
-        "下载 Cursor iOS 应用并登录。你账户中的电脑会自动显示在应用中。在应用中点按你的电脑，然后在 Cursor 桌面应用中批准配对请求。你的本地智能体会以列表形式显示，点按任意一个即可查看它正在做什么，或向它发送消息。",
-        "远程控制不会把你的智能体转移到别处。智能体仍在你的电脑上运行，App 只是与它建立连接。你的电脑需要保持开机和联网，远程控制才能正常使用。",
-        "如需在您离开时防止电脑进入睡眠状态，请在 Cursor 桌面端设置的 远程控制 中开启“Keep this computer awake”。电脑需接通电源并保持合盖打开状态。",
-        "远程控制 默认开启，企业组织除外。企业管理员可以在 Org settings > Security and identity > 远程控制 中开启此功能。"
-      ],
-      "highlights": [
-        "您现在可以在 Cursor iOS 应用中查看并回复电脑上正在运行的本地智能体。",
-        "下载 Cursor iOS 应用并登录。你账户中的电脑会自动显示在应用中。在应用中点按你的电脑，然后在 Cursor 桌面应用中批准配对请求。你的本地智能体会以",
-        "远程控制不会把你的智能体转移到别处。智能体仍在你的电脑上运行，App 只是与它建立连接。你的电脑需要保持开机和联网，远程控制才能正常使用。"
-      ],
-      "translated": false,
-      "translateMethod": "native",
-      "originalTitle": "本地智能体远程控制 · Cursor",
-      "originalLang": "zh",
-      "date": "2026-10-06",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [
-        "cursor"
-      ],
-      "source": {
-        "type": "release",
-        "group": "company",
-        "name": "Cursor",
-        "author": "Cursor",
-        "url": "https://cursor.com/changelog/remote-control-local-agents",
-        "home": "https://cursor.com/changelog",
-        "lang": "zh",
-        "translated": false,
-        "translateMethod": "native",
-        "originalTitle": "本地智能体远程控制 · Cursor"
-      },
-      "raw": {
-        "title": "Remote control for local agents",
-        "url": "https://cursor.com/changelog/remote-control-local-agents",
-        "fetched": true,
-        "savedAt": "2026-10-11T03:27:39.323Z",
-        "retranslatedAt": "2026-11-19T05:33:10.950Z"
-      }
-    },
-    {
-      "id": "sig-8b62db9813",
-      "title": "Nano Banana 2.1 现已在 AI Gateway 上推出 - Vercel",
-      "oneLiner": "来自 Google 的 Nano Banana 2.1 现已在 AI Gateway 上提供，名称为 google/gemini-nano-banana-2.1 。",
-      "summary": {
-        "oneSentence": "来自 Google 的 Nano Banana 2.1 现已在 AI Gateway 上提供，名称为 google/gemini-nano-banana-2.1 。",
-        "bullets": [
-          "来自 Google 的 Nano Banana 2.1 现已在 AI Gateway 上提供，名称为 google/gemini-nano-banana-2.1 。",
-          "与早期的 Nano Banana 型号相比，它改进了图像生成和编辑，包括产品重新上下文化、基于蒙版和墨水的编辑以及真实性。实际上，这意味着将产品放置在新场景中，将编辑限制在屏蔽或标记区域，并更准确地描绘现实世界的主题。",
-          "它还可以渲染逼真的肤色、细致的材质、锐利的灯光和连贯的背景，同时保持闪存层的延迟和成本。",
-          "设置 AI_GATEWAY_API_KEY ，然后通过 AI SDK 、OpenAI 兼容的聊天完成 API 或 AI CLI 使用模型："
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：来自 Google 的 Nano Banana 2.1 现已在 AI Gateway 上提供，名称为 google/gemini-nano-banana-2.1 。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/nano-banana-2-1-now-available-on-ai-gateway"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "来自 Google 的 Nano Banana 2.1 现已在 AI Gateway 上提供，名称为 google/gemini-nano-banana-2.1 。",
-        "与早期的 Nano Banana 型号相比，它改进了图像生成和编辑，包括产品重新上下文化、基于蒙版和墨水的编辑以及真实性。实际上，这意味着将产品放置在新场景中，将编辑限制在屏蔽或标记区域，并更准确地描绘现实世界的主题。",
-        "它还可以渲染逼真的肤色、细致的材质、锐利的灯光和连贯的背景，同时保持闪存层的延迟和成本。",
-        "设置 AI_GATEWAY_API_KEY ，然后通过 AI SDK 、OpenAI 兼容的聊天完成 API 或 AI CLI 使用模型：",
-        "API 聊天完成 AI CLI API API 聊天完成 聊天完成 AI CLI AI CLI 1 import {generateText } from 'ai' ; 2 3 const result = waitgenerateText({4model:'google/gemini-nano-banana-2.1',5prompt:'白色背景上陶瓷咖啡杯的工作室照片。',6});复制给代理 查看模型详细信息 ↗ 在 imagen.sh 或模型游乐场中尝试 Nano Banana 2.1。有关其他配置和编辑示例，请参阅图像生成文档。",
-        "浏览AI Gateway上所有可用的图像模型。"
-      ],
-      "highlights": [
-        "来自 Google 的 Nano Banana 2.1 现已在 AI Gateway 上提供，名称为 google/gemini-nano-banana-2.1",
-        "与早期的 Nano Banana 型号相比，它改进了图像生成和编辑，包括产品重新上下文化、基于蒙版和墨水的编辑以及真实性。实际上，这意味着将产品放置在新场景中，",
-        "它还可以渲染逼真的肤色、细致的材质、锐利的灯光和连贯的背景，同时保持闪存层的延迟和成本。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Nano Banana 2.1 now available on AI Gateway - Vercel",
-      "originalLang": "en",
-      "date": "2026-10-06",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/nano-banana-2-1-now-available-on-ai-gateway",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Nano Banana 2.1 now available on AI Gateway - Vercel"
-      },
-      "raw": {
-        "title": "Nano Banana 2.1 now available on AI Gateway",
-        "url": "https://vercel.com/changelog/nano-banana-2-1-now-available-on-ai-gateway",
-        "fetched": true,
-        "savedAt": "2026-10-11T03:27:45.155Z"
-      }
-    },
-    {
-      "id": "sig-e262ace024",
-      "title": "Mistral Large 4 现已在 AI Gateway 上提供 - Vercel",
-      "oneLiner": "Mistral Large 4 现已在 AI Gateway 上提供。开放权重、原生多模态模型将推理与文本和图像理解结合起来。它对于网络防御、制造和财务工作流程非常有用。",
-      "summary": {
-        "oneSentence": "Mistral Large 4 现已在 AI Gateway 上提供。开放权重、原生多模态模型将推理与文本和图像理解结合起来。它对于网络防御、制造和财务工作流程非常有用。",
-        "bullets": [
-          "Mistral Large 4 现已在 AI Gateway 上提供。开放权重、原生多模态模型将推理与文本和图像理解结合起来。它对于网络防御、制造和财务工作流程非常有用。",
-          "您可以使用一个 API 密钥通过 AI Gateway 访问该模型，而无需创建单独的 Mistral 帐户。",
-          "将 Mistral Large 4 (mistral/mistral-large-4) 与 AI SDK、OpenAI 兼容的聊天完成 API、响应 API 或 Anthropic Messages API 结合使用。您也可以在连接到AI网关的编码代理中选择它。",
-          "API Claude Code fx 聊天完成消息 API API API Claude Code Claude Code fx fx 聊天完成 聊天完成消息 API 消息 API 1 import {streamText } from 'ai' ; 2 const result = streamText ({ 3 m"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Mistral Large 4 现已在 AI Gateway 上提供。开放权重、原生多模态模型将推理与文本和图像理解结合起来。它对于网络防御、制造和财务工作流程非常有用。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/mistral-large-4-now-available-on-ai-gateway"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Mistral Large 4 现已在 AI Gateway 上提供。开放权重、原生多模态模型将推理与文本和图像理解结合起来。它对于网络防御、制造和财务工作流程非常有用。",
-        "您可以使用一个 API 密钥通过 AI Gateway 访问该模型，而无需创建单独的 Mistral 帐户。",
-        "将 Mistral Large 4 (mistral/mistral-large-4) 与 AI SDK、OpenAI 兼容的聊天完成 API、响应 API 或 Anthropic Messages API 结合使用。您也可以在连接到AI网关的编码代理中选择它。",
-        "API Claude Code fx 聊天完成消息 API API API Claude Code Claude Code fx fx 聊天完成 聊天完成消息 API 消息 API 1 import {streamText } from 'ai' ; 2 const result = streamText ({ 3 model : 'mistral/mistral-large-4' , 4prompt : '修复失败的测试并验证更改。' , 5 } ) ;复制代理查看模型详细信息 ↗ 对于编码代理，运行 npx vercel ai-gateway setup 并在代理的模型设置中选择 milstra/mistral-large-4。",
-        "在模型游乐场中尝试 Mistral Large 4，或浏览模型目录。",
-        "AI Gateway 提供了一个 API，用于调用模型、跟踪使用情况和成本以及配置路由、重试和故障转移。您可以使用 AI Gateway API 密钥或携带您自己的提供商密钥。"
-      ],
-      "highlights": [
-        "Mistral Large 4 现已在 AI Gateway 上提供。开放权重、原生多模态模型将推理与文本和图像理解结合起来。它对于网络防御、制造和财务工作流程",
-        "您可以使用一个 API 密钥通过 AI Gateway 访问该模型，而无需创建单独的 Mistral 帐户。",
-        "将 Mistral Large 4 (mistral/mistral-large-4) 与 AI SDK、OpenAI 兼容的聊天完成 API、响应 API 或"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Mistral Large 4 now available on AI Gateway - Vercel",
-      "originalLang": "en",
-      "date": "2026-10-06",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/mistral-large-4-now-available-on-ai-gateway",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Mistral Large 4 now available on AI Gateway - Vercel"
-      },
-      "raw": {
-        "title": "Mistral Large 4 now available on AI Gateway",
-        "url": "https://vercel.com/changelog/mistral-large-4-now-available-on-ai-gateway",
-        "fetched": true,
-        "savedAt": "2026-10-11T03:27:50.558Z"
-      }
-    },
-    {
-      "id": "sig-a8157c50a9",
-      "title": "Open Source as We Know It Is Dead",
-      "oneLiner": "Article URL: https://jross.me/open-source-as-we-know-it-is-dead/ Comments URL: https://news.ycombina",
-      "summary": {
-        "oneSentence": "Article URL: https://jross.me/open-source-as-we-know-it-is-dead/ Comments URL: https://news.ycombinator.com/item?id=4997",
-        "bullets": [
-          "Article URL: https://jross.me/open-source-as-we-know-it-is-dead/ Comments URL: https://news.ycombinator.com/item?id=49973839 Points: 12 # Comments: 1"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://jross.me/open-source-as-we-know-it-is-dead/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Article URL: https://jross.me/open-source-as-we-know-it-is-dead/ Comments URL: https://news.ycombinator.com/item?id=49973839 Points: 12 # Comments: 1"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Open Source as We Know It Is Dead",
-      "originalLang": "en",
-      "date": "2026-10-06",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "news",
-        "group": "trending",
-        "name": "Hacker News",
-        "author": "HN",
-        "url": "https://jross.me/open-source-as-we-know-it-is-dead/",
-        "home": "https://news.ycombinator.com/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Open Source as We Know It Is Dead"
-      },
-      "raw": {
-        "title": "Open Source as We Know It Is Dead",
-        "url": "https://jross.me/open-source-as-we-know-it-is-dead/",
-        "fetched": false,
-        "savedAt": "2026-10-06T04:23:00.615Z"
       }
     }
   ]
