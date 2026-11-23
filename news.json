@@ -1,16 +1,23 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-22T04:40:16.843Z",
+  "updatedAt": "2026-11-23T05:17:35.970Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 422,
+  "itemCount": 420,
   "brief": {
-    "date": "2026-11-22",
-    "generatedAt": "2026-11-22T04:40:16.842Z",
-    "totalCount": 422,
+    "date": "2026-11-23",
+    "generatedAt": "2026-11-23T05:17:35.969Z",
+    "totalCount": 420,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 422 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 420 条",
     "topUpdates": [
+      {
+        "id": "sig-de5cd1a6d5",
+        "title": "困惑与智慧",
+        "stars": 4,
+        "oneLiner": "作者：Jakub Pachocki，OpenAI 首席科学家",
+        "readMinutes": 5
+      },
       {
         "id": "sig-696f65e665",
         "title": "工作流程实验室：使用规格和 Figma Agent 将上下文转化为计划 | Figma 博客",
@@ -38,23 +45,16 @@
         "stars": 4,
         "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
         "readMinutes": 5
-      },
-      {
-        "id": "sig-e8758b64c9",
-        "title": "Fundación Televisa 使用 ElevenAgents 来扩展 POSiBLE",
-        "stars": 4,
-        "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
-        "readMinutes": 5
       }
     ],
     "sections": {
       "topUpdates": [
+        "sig-de5cd1a6d5",
         "sig-696f65e665",
         "sig-6668009dba",
         "sig-c101e9e832",
         "sig-d0d32febab",
-        "sig-e8758b64c9",
-        "sig-52c6915bc7"
+        "sig-e8758b64c9"
       ],
       "newReleases": [
         "sig-fd1a4c4700",
@@ -63,14 +63,14 @@
         "sig-b8b5f613d5"
       ],
       "insights": [
+        "sig-de5cd1a6d5",
         "sig-696f65e665",
         "sig-6668009dba",
         "sig-c101e9e832",
         "sig-d0d32febab",
         "sig-e8758b64c9",
         "sig-52c6915bc7",
-        "sig-3ea993db7e",
-        "sig-36ed532998"
+        "sig-3ea993db7e"
       ],
       "emergingTrends": [],
       "newApis": [],
@@ -91,8 +91,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-11-22T04:40:16.843Z",
-    "summary": "近 30 天共 272 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-11-23T05:17:35.970Z",
+    "summary": "近 30 天共 280 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -107,6 +107,18 @@
     "risingTags": []
   },
   "productUpdates": [
+    {
+      "id": "sig-de5cd1a6d5",
+      "title": "困惑与智慧",
+      "oneLiner": "作者：Jakub Pachocki，OpenAI 首席科学家",
+      "date": "2026-11-22",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
     {
       "id": "sig-3ea993db7e",
       "title": "打击对抗性蒸馏",
@@ -382,21 +394,97 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-590cb0b9c5",
-      "title": "利用人工智能加强北约和盟国的网络防御",
-      "oneLiner": "分享 加强北约的网络防御 加强北约的网络防御 支持盟国政府 加强北约的网络防御 支持盟国政府 政府和国家网络机构保护人民、公共服务和经济所依赖的系统。通过 Daybreak，我们将先进的人工智能交给值得信赖的防御者来执行授权的安全工作，从审",
-      "date": "2026-11-17",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-de5cd1a6d5",
+      "title": "困惑与智慧",
+      "oneLiner": "作者：Jakub Pachocki，OpenAI 首席科学家",
+      "summary": {
+        "oneSentence": "作者：Jakub Pachocki，OpenAI 首席科学家",
+        "bullets": [
+          "作者：Jakub Pachocki，OpenAI 首席科学家",
+          "从远处看，现代人工智能的构建方式似乎与过去几十年软件的构建方式类似：使用针对特定功能的多种技术。确实有多种方法，但它们不是从头开始设计某些东西，而是主要利用来自更简单且难以解释的过程的智能：在非常大的数据语料库上训练压缩器（或者等效地，预测器）。 1",
+          "我相信跟踪训练更好的压缩器的进展速度是理解人工智能进步弧线的关键。在这篇文章中，我主张建立困惑度（或等效的交叉熵损失）作为模型开发人员之间进行比较并告知共享安全标准的指标。作为第一步，我为 OpenAI 的预训练进度提供了更多的透明度。发布我们的内部困惑度测量结果需要考虑一些因素；它让竞争对手更清楚地了解我们的立场，但",
+          "人工智能开发的一个简化但基本信息丰富的观点是，首先构建一台大型计算机，然后使用它在大型非结构化数据集上预训练模型（压缩器），然后在不同的环境中应用各种技术（例如提示、微调或强化学习）以激发该模型的潜在功能。算法的进步可能会模糊训练阶段之间的区别，但我们仍然可以将具有难以预测的突发能力的人工智能的创建（我之前称之为“外星"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 5,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：作者：Jakub Pachocki，OpenAI 首席科学家",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/perplexity-and-intelligence"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "作者：Jakub Pachocki，OpenAI 首席科学家",
+        "从远处看，现代人工智能的构建方式似乎与过去几十年软件的构建方式类似：使用针对特定功能的多种技术。确实有多种方法，但它们不是从头开始设计某些东西，而是主要利用来自更简单且难以解释的过程的智能：在非常大的数据语料库上训练压缩器（或者等效地，预测器）。 1",
+        "我相信跟踪训练更好的压缩器的进展速度是理解人工智能进步弧线的关键。在这篇文章中，我主张建立困惑度（或等效的交叉熵损失）作为模型开发人员之间进行比较并告知共享安全标准的指标。作为第一步，我为 OpenAI 的预训练进度提供了更多的透明度。发布我们的内部困惑度测量结果需要考虑一些因素；它让竞争对手更清楚地了解我们的立场，但这种担忧被整个行业建立共享安全措施的紧迫性所压倒。 OpenAI 希望这能够成为为未来的配速工作建立共享科学基础的一步。",
+        "人工智能开发的一个简化但基本信息丰富的观点是，首先构建一台大型计算机，然后使用它在大型非结构化数据集上预训练模型（压缩器），然后在不同的环境中应用各种技术（例如提示、微调或强化学习）以激发该模型的潜在功能。算法的进步可能会模糊训练阶段之间的区别，但我们仍然可以将具有难以预测的突发能力的人工智能的创建（我之前称之为“外星人思维”）与随后的有针对性的诱导区分开来。",
+        "多年来，我们衡量这一关键“情报基础”进展的主要方式一直保持非常稳定——我们一直在保留的数据集上跟踪模型的复杂性。 2 , 3 困惑度衡量模型预测下一个标记的平均程度；较低的困惑度意味着更好的预测。本博文开头的图显示了从 GPT-3.5 开始，我们的模型的该指标是如何演变的。",
+        "主要由这一指标描述的模型的功能范围是惊人的。 GPT-2 在旧数据集 4 上设置了最先进的新困惑度，可以说是第一个能够一致地制定连贯文本段落的模型。下一个重大飞跃是 GPT-3，它能够在给出一些任务示例的情况下进行学习。 GPT-3.5 在我们当前的主要评估数据集上的对数困惑度约为 0.99，能够进行流畅的对话，并构成了原始 ChatGPT 的基础。 GPT-4 的得分约为 0.91，能够熟练有效地利用思维链推理，这推动了后续有针对性地激发这种能力并创建现代推理模型。现在，当我们的损失已降至 0.8 以下时，我们看到了网络安全和数学等领域变革能力的出现。我想再次强调的是，一旦满足这些精确的困惑度阈值，这些能力就会出现，这一点根本不清楚——它们从根本上可以被视为这一指标进展中的新兴潜在能力。",
+        "随着人工智能的快速发展，我们衡量下游能力的范围和方式可能会迅速改变。在大多数现代基准上评估 GPT-2 和 GPT-3 没有什么意义；当时使用的基准在 GPT-4 附近基本饱和。相比之下，我相信关注预训练的进展可能会提供有用的信息。",
+        "进步速度的一个特殊变化来自于人工智能对其自身发展的贡献越来越大。最常讨论的指标围绕人工智能在开发周期的各个阶段增强和取代人类研究人员；最终的拐点是“完全递归自我改进”，该过程将完全自动化，无需人工监督。除了考虑这种状态是我们为了维持人类控制而显然应该避免的事情之外，我发现这个一般框架遗漏了一些至关重要的东西。人工智能参与开发过程的一个关键部分：预训练的算法研究，可能会带来潜在的改变。",
+        "最近，我们在另一个领域目睹了前所未有的加速。一年多来，我们一直在向我们的模型提出数学中的开放问题，作为评估模型的方法之一。一旦我们升级到对数困惑度 ~0.76 的模型，它就开始产生突破性的结果。对于我们许多以前在数学和相关领域工作过的人来说，看到我们长期思考的问题在一个 Slack 线程中一个接一个地得到解决，感觉非常超现实。经历过这些，我们可以进行推断——这种突然的转变在深度学习研究中也是合理的。虽然这个领域更多地依赖于实验，但多年来简单的见解一直被忽视。因此，到 2027 年，我们可以想象看到类似的基础预训练进步 5 。虽然我预计人工智能也将极大地促进对齐和监控方面的进展，但我认为进展不太可能快到足以实现预训练的全部潜在加速。",
+        "鉴于新的令人惊讶的能力出现的主要方式是压缩方面的进步，无论开发过程的自动化程度如何，植根于困惑的衡量标准都可以为我们提供通用智能的共同基准。从最近的进展推断，当我们进入~0.68-0.7 log-perplexity 窗口时，我们应该期待进一步的变革能力。我不知道这些功能是什么，我们今天可能不会测试它们。与此同时，我们还应该预期当前占主导地位的一致性审计形式将进一步退化⁠（在新窗口中打开），并且评估和培训意识将进一步提高。我认为前沿模型开发人员应该共同努力建立共享规范，以在首次使用此类模型时评估这些模型和红队安全案例，包括共享透明度标准。我进一步提出了基于困惑度和其他测量的共同限制，开发人员承诺在我们理解和监控人工智能行为的能力达到某个具体里程碑（例如开发 CoT 监视器的继任者）之前不会跨越这些限制。也就是说，我想要一个行业标准，规定开发的第一个限制，通过我们可以跨实验室跟踪的一些关键指标来衡量，以及在超越它之前我们具体需要实现什么。我希望这能引导建立一个共同框架来设定连续的限制并加快进一步的发展步伐。"
+      ],
+      "highlights": [
+        "作者：Jakub Pachocki，OpenAI 首席科学家",
+        "从远处看，现代人工智能的构建方式似乎与过去几十年软件的构建方式类似：使用针对特定功能的多种技术。确实有多种方法，但它们不是从头开始设计某些东西，而是主要利用来自",
+        "我相信跟踪训练更好的压缩器的进展速度是理解人工智能进步弧线的关键。在这篇文章中，我主张建立困惑度（或等效的交叉熵损失）作为模型开发人员之间进行比较并告知共享安全"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Perplexity and Intelligence",
+      "originalLang": "en",
+      "date": "2026-11-22",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/perplexity-and-intelligence",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Perplexity and Intelligence"
+      },
+      "raw": {
+        "title": "Perplexity and Intelligence",
+        "url": "https://openai.com/index/perplexity-and-intelligence",
+        "fetched": true,
+        "savedAt": "2026-11-23T05:16:11.309Z"
+      }
+    },
     {
       "id": "sig-696f65e665",
       "title": "工作流程实验室：使用规格和 Figma Agent 将上下文转化为计划 | Figma 博客",
@@ -3675,6 +3763,331 @@
       }
     },
     {
+      "id": "sig-28be48dfcb",
+      "title": "Vercel X 简介",
+      "oneLiner": "今天，我们推出 Vercel X，这是一个为处于创意和种子前阶段的人工智能创始人提供为期六周的加速器。",
+      "summary": {
+        "oneSentence": "今天，我们推出 Vercel X，这是一个为处于创意和种子前阶段的人工智能创始人提供为期六周的加速器。",
+        "bullets": [
+          "今天，我们推出 Vercel X，这是一个为处于创意和种子前阶段的人工智能创始人提供为期六周的加速器。",
+          "加入我们旧金山总部的 40 个团队，与 Vercel 的产品负责人、设计师和工程师一起构建。",
+          "该计划不收取参与股权，并提供来自 Vercel、AWS、Anthropic、OpenAI 和其他合作伙伴的超过 900 万美元的计划范围内的积分池。",
+          "申请截止日期为2026年11月29日。该计划的运行时间为2027年1月19日至3月2日。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：今天，我们推出 Vercel X，这是一个为处于创意和种子前阶段的人工智能创始人提供为期六周的加速器。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/vercel-x"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "今天，我们推出 Vercel X，这是一个为处于创意和种子前阶段的人工智能创始人提供为期六周的加速器。",
+        "加入我们旧金山总部的 40 个团队，与 Vercel 的产品负责人、设计师和工程师一起构建。",
+        "该计划不收取参与股权，并提供来自 Vercel、AWS、Anthropic、OpenAI 和其他合作伙伴的超过 900 万美元的计划范围内的积分池。",
+        "申请截止日期为2026年11月29日。该计划的运行时间为2027年1月19日至3月2日。",
+        "首届成员群组 00 Vercel 已与来自世界各地三个加速器群组的 100 多个早期团队合作。校友包括 Rex、Alloy Robotics、Interfaze、Cervo 和 Hacktron。 Interfaze 和 Rex 得到了 Y Combinator 的支持，Cervo 被 Altana Technologies 收购。",
+        "将链接复制到标题 为什么选择 Vercel X？如果您正在申请 Vercel X，您可能有一个无法停止思考的想法或项目。下一步是弄清楚你正在构建什么以及它是为谁构建的。",
+        "我们认为您可以通过 Vercel 方式度过这一难关：深入了解您的客户、快速发货并不断迭代以实现卓越。",
+        "技术指导：Vercel 设计、产品和工程团队的实践研讨会和产品反馈。",
+        "合作伙伴积分：在构建和测试产品时，将积分用于托管、计算和建模 API 使用。",
+        "创始人社区：一群处于同一阶段的人工智能创始人，每周与行业领袖进行炉边谈话。"
+      ],
+      "highlights": [
+        "今天，我们推出 Vercel X，这是一个为处于创意和种子前阶段的人工智能创始人提供为期六周的加速器。",
+        "加入我们旧金山总部的 40 个团队，与 Vercel 的产品负责人、设计师和工程师一起构建。",
+        "该计划不收取参与股权，并提供来自 Vercel、AWS、Anthropic、OpenAI 和其他合作伙伴的超过 900 万美元的计划范围内的积分池。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Introducing Vercel X",
+      "originalLang": "en",
+      "date": "2026-11-18",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/vercel-x",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Introducing Vercel X"
+      },
+      "raw": {
+        "title": "Introducing Vercel X",
+        "url": "https://vercel.com/blog/vercel-x",
+        "fetched": true,
+        "savedAt": "2026-11-23T05:16:19.528Z"
+      }
+    },
+    {
+      "id": "sig-b2962b123e",
+      "title": "Gemini 4 Neon 现已在 AI Gateway 上可用 - Vercel",
+      "oneLiner": "Google 的 Gemini 4 Neon 现已在 AI Gateway 上提供。",
+      "summary": {
+        "oneSentence": "Google 的 Gemini 4 Neon 现已在 AI Gateway 上提供。",
+        "bullets": [
+          "Google 的 Gemini 4 Neon 现已在 AI Gateway 上提供。",
+          "Gemini 4 Neon 是对早期、更轻的 Gemini 4 型号的重大升级，其输出质量接近 Google 较大的 Gemini 4 型号，并且响应速度更快。它专为编码、代理工作流程和多步骤任务而构建。",
+          "该模型接受文本、图像、视频和文档，并具有 1M 令牌上下文窗口。它支持工具调用、结构化输出、以 Google 搜索和 Google 地图为基础，以及四个推理级别：低、中、高和 xhigh。",
+          "使用 google/gemini-4-neon 作为模型 ID："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Google 的 Gemini 4 Neon 现已在 AI Gateway 上提供。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/gemini-4-neon-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Google 的 Gemini 4 Neon 现已在 AI Gateway 上提供。",
+        "Gemini 4 Neon 是对早期、更轻的 Gemini 4 型号的重大升级，其输出质量接近 Google 较大的 Gemini 4 型号，并且响应速度更快。它专为编码、代理工作流程和多步骤任务而构建。",
+        "该模型接受文本、图像、视频和文档，并具有 1M 令牌上下文窗口。它支持工具调用、结构化输出、以 Google 搜索和 Google 地图为基础，以及四个推理级别：低、中、高和 xhigh。",
+        "使用 google/gemini-4-neon 作为模型 ID：",
+        "AI SDK fx Claude 代码聊天完成 AI SDK AI SDK fx Claude 代码 Claude 代码聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 3 const result = streamText ({ 4 model : 'google/gemini-4-neon' , 5prompt : '编写一个消除异步调用的 TypeScript 函数。' , 6 } ) ; 7 8 for wait (const text of result.textStream) { 9 process .textStream 。标准输出。写（文字）； 10 } 复制代理查看模型详细信息 ↗ 要在 Codex、Cursor 或其他受支持的代理中使用 Gemini 4 Neon，请参阅编码代理指南 。",
+        "在模型游乐场中尝试 Gemini 4 Neon，或探索所有语言模型。"
+      ],
+      "highlights": [
+        "Google 的 Gemini 4 Neon 现已在 AI Gateway 上提供。",
+        "Gemini 4 Neon 是对早期、更轻的 Gemini 4 型号的重大升级，其输出质量接近 Google 较大的 Gemini 4 型号，并且响应速度更快。",
+        "该模型接受文本、图像、视频和文档，并具有 1M 令牌上下文窗口。它支持工具调用、结构化输出、以 Google 搜索和 Google 地图为基础，以及四个推理级别"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Gemini 4 Neon now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-18",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/gemini-4-neon-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Gemini 4 Neon now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Gemini 4 Neon now available on AI Gateway",
+        "url": "https://vercel.com/changelog/gemini-4-neon-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-11-23T05:16:28.400Z"
+      }
+    },
+    {
+      "id": "sig-b9910b6efa",
+      "title": "Vercel Drives 现在读取文件的速度提高了 6 倍 - Vercel",
+      "oneLiner": "Vercel Drives 现在读取文件的速度提高了 6 倍。",
+      "summary": {
+        "oneSentence": "Vercel Drives 现在读取文件的速度提高了 6 倍。",
+        "bullets": [
+          "Vercel Drives 现在读取文件的速度提高了 6 倍。",
+          "此更新提高了冷读性能。新的预读算法使用应用程序的访问模式在需要之前从持久存储中加载数据，从而减少代码等待的时间。",
+          "所有驱动器都会自动获取此更新，无需升级 SDK 或更改配置。阅读定价不变。",
+          "请参阅 Vercel Drives 文档了解更多信息。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Vercel Drives 现在读取文件的速度提高了 6 倍。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/vercel-drives-now-reads-files-up-to-6x-faster"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Vercel Drives 现在读取文件的速度提高了 6 倍。",
+        "此更新提高了冷读性能。新的预读算法使用应用程序的访问模式在需要之前从持久存储中加载数据，从而减少代码等待的时间。",
+        "所有驱动器都会自动获取此更新，无需升级 SDK 或更改配置。阅读定价不变。",
+        "请参阅 Vercel Drives 文档了解更多信息。"
+      ],
+      "highlights": [
+        "Vercel Drives 现在读取文件的速度提高了 6 倍。",
+        "此更新提高了冷读性能。新的预读算法使用应用程序的访问模式在需要之前从持久存储中加载数据，从而减少代码等待的时间。",
+        "所有驱动器都会自动获取此更新，无需升级 SDK 或更改配置。阅读定价不变。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Vercel Drives now reads files up to 6x faster - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-18",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/vercel-drives-now-reads-files-up-to-6x-faster",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Vercel Drives now reads files up to 6x faster - Vercel"
+      },
+      "raw": {
+        "title": "Vercel Drives now reads files up to 6x faster",
+        "url": "https://vercel.com/changelog/vercel-drives-now-reads-files-up-to-6x-faster",
+        "fetched": true,
+        "savedAt": "2026-11-23T05:16:33.742Z"
+      }
+    },
+    {
+      "id": "sig-a70ba91551",
+      "title": "单秒静态部署现在支持更多资产 - Vercel",
+      "oneLiner": "即时部署让您可以在大约一秒内将符合条件的静态站点部署到 Vercel，无需构建步骤。它们现在支持 CSS、图像、字体和其他资源以及 HTML 和 Markdown。",
+      "summary": {
+        "oneSentence": "即时部署让您可以在大约一秒内将符合条件的静态站点部署到 Vercel，无需构建步骤。它们现在支持 CSS、图像、字体和其他资源以及 HTML 和 Markdown。",
+        "bullets": [
+          "即时部署让您可以在大约一秒内将符合条件的静态站点部署到 Vercel，无需构建步骤。它们现在支持 CSS、图像、字体和其他资源以及 HTML 和 Markdown。",
+          "通过 Vercel CLI 或 REST API 部署登陆页面及其样式表和图像，或由编码代理创建的报告。使用 CLI，运行：",
+          "1 vercel deploy ./my-static-site 2 检查 https://vercel.com/acme/my-static-site/8smhGjsosANjMqstetZ2CBb35fbB 3 预览 https://my-static-site-j7xexfrjw-acme.vercel.app ",
+          "样式和数据：CSS、JSON、XML、纯文本和 Web 清单"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：即时部署让您可以在大约一秒内将符合条件的静态站点部署到 Vercel，无需构建步骤。它们现在支持 CSS、图像、字体和其他资源以及 HTML 和 Markdown。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/single-second-static-deployments-now-support-more-assets"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "即时部署让您可以在大约一秒内将符合条件的静态站点部署到 Vercel，无需构建步骤。它们现在支持 CSS、图像、字体和其他资源以及 HTML 和 Markdown。",
+        "通过 Vercel CLI 或 REST API 部署登陆页面及其样式表和图像，或由编码代理创建的报告。使用 CLI，运行：",
+        "1 vercel deploy ./my-static-site 2 检查 https://vercel.com/acme/my-static-site/8smhGjsosANjMqstetZ2CBb35fbB 3 预览 https://my-static-site-j7xexfrjw-acme.vercel.app 4 ✓ 1 秒内准备就绪 使用 Vercel CLI 一秒内部署静态站点。",
+        "样式和数据：CSS、JSON、XML、纯文本和 Web 清单",
+        "图片：SVG、PNG、JPEG、GIF、WebP、AVIF 和 ICO",
+        "文档和媒体：PDF、MP4、WebM、MP3、WAV 和 OGG",
+        "即时部署支持最多 100 个文件，总大小为 25 MB 或更小。 Vercel 会自动检测合格的部署，无需进行配置。",
+        "超出这些限制、包含 JavaScript 或其他不受支持的文件或由 Git 触发的部署仍会像以前一样构建。这同样适用于具有框架预设、自定义构建设置、根级 package.json 或 Vercel 配置文件（例如 vercel.json ）或 public/ 目录的项目。",
+        "此更新正在所有计划中推出。在部署文档中了解更多信息。"
+      ],
+      "highlights": [
+        "即时部署让您可以在大约一秒内将符合条件的静态站点部署到 Vercel，无需构建步骤。它们现在支持 CSS、图像、字体和其他资源以及 HTML 和 Markdow",
+        "通过 Vercel CLI 或 REST API 部署登陆页面及其样式表和图像，或由编码代理创建的报告。使用 CLI，运行：",
+        "1 vercel deploy ./my-static-site 2 检查 https://vercel.com/acme/my-static-site/8sm"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Single-second static deployments now support more assets - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-18",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/single-second-static-deployments-now-support-more-assets",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Single-second static deployments now support more assets - Vercel"
+      },
+      "raw": {
+        "title": "Single-second static deployments now support more assets",
+        "url": "https://vercel.com/changelog/single-second-static-deployments-now-support-more-assets",
+        "fetched": true,
+        "savedAt": "2026-11-23T05:16:42.883Z"
+      }
+    },
+    {
       "id": "sig-2bd9a2245c",
       "title": "Yahoo Scout 如何与 ElevenAgents 进行对话",
       "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
@@ -4595,6 +5008,432 @@
         "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
         "fetched": true,
         "savedAt": "2026-11-18T05:35:26.216Z"
+      }
+    },
+    {
+      "id": "sig-3cb0c02797",
+      "title": "Speed Insights 现在测量软导航 - Vercel",
+      "oneLiner": "Speed Insights 现在可测量软导航：无需完全重新加载即可更新页面内容的客户端路由更改。这意味着您现在可以跟踪用户浏览您的应用程序时的性能，而不仅仅是整页加载。",
+      "summary": {
+        "oneSentence": "Speed Insights 现在可测量软导航：无需完全重新加载即可更新页面内容的客户端路由更改。这意味着您现在可以跟踪用户浏览您的应用程序时的性能，而不仅仅是整页加载。",
+        "bullets": [
+          "Speed Insights 现在可测量软导航：无需完全重新加载即可更新页面内容的客户端路由更改。这意味着您现在可以跟踪用户浏览您的应用程序时的性能，而不仅仅是整页加载。",
+          "Speed Insights 捕获 LCP、FCP、INP 和 CLS 以进行软导航，并将这些测量结果包含在您的真实体验分数中。由于没有新文档请求，因此未捕获 TTFB。",
+          "默认情况下，所有使用 Speed Insights 的项目都会启用软导航跟踪，无需执行任何操作。它可以在基于 Chromium 的浏览器中与 Next.js、SvelteKit 和 Nuxt 等现代 Web 框架配合使用。",
+          "在项目的 Speed Insights 仪表板 中，使用新的导航类型过滤器来查看“全部”、“硬”或“软”导航数据。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Speed Insights 现在可测量软导航：无需完全重新加载即可更新页面内容的客户端路由更改。这意味着您现在可以跟踪用户浏览您的应用程序时的性能，而不仅仅是整页加载。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/speed-insights-now-measures-soft-navigations"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Speed Insights 现在可测量软导航：无需完全重新加载即可更新页面内容的客户端路由更改。这意味着您现在可以跟踪用户浏览您的应用程序时的性能，而不仅仅是整页加载。",
+        "Speed Insights 捕获 LCP、FCP、INP 和 CLS 以进行软导航，并将这些测量结果包含在您的真实体验分数中。由于没有新文档请求，因此未捕获 TTFB。",
+        "默认情况下，所有使用 Speed Insights 的项目都会启用软导航跟踪，无需执行任何操作。它可以在基于 Chromium 的浏览器中与 Next.js、SvelteKit 和 Nuxt 等现代 Web 框架配合使用。",
+        "在项目的 Speed Insights 仪表板 中，使用新的导航类型过滤器来查看“全部”、“硬”或“软”导航数据。",
+        "软导航事件计入 Speed Insights Plus 的使用量。对于在此版本之前启用 Plus 的现有项目，软导航中的 Speed Insights 事件直到 12 月 1 日才会计费。对于新启用 Plus 的项目，这些事件从一开始就计费。",
+        "要禁用软导航跟踪，请在应用程序代码中将 softNavs 设置为 false 并重新部署。此选项需要 @vercel/speed-insights 版本 2.1.0 或更高版本：",
+        "1 < SpeedInsights softNavs = { false } /> 2 // 或 3 insertSpeedInsights ( { softNavs : false } ) ;禁用应用程序中的软导航跟踪。",
+        "请参阅 Speed Insights 文档了解更多信息。"
+      ],
+      "highlights": [
+        "Speed Insights 现在可测量软导航：无需完全重新加载即可更新页面内容的客户端路由更改。这意味着您现在可以跟踪用户浏览您的应用程序时的性能，而不仅仅是",
+        "Speed Insights 捕获 LCP、FCP、INP 和 CLS 以进行软导航，并将这些测量结果包含在您的真实体验分数中。由于没有新文档请求，因此未捕获 ",
+        "默认情况下，所有使用 Speed Insights 的项目都会启用软导航跟踪，无需执行任何操作。它可以在基于 Chromium 的浏览器中与 Next.js、S"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Speed Insights now measures soft navigations - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-17",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/speed-insights-now-measures-soft-navigations",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Speed Insights now measures soft navigations - Vercel"
+      },
+      "raw": {
+        "title": "Speed Insights now measures soft navigations",
+        "url": "https://vercel.com/changelog/speed-insights-now-measures-soft-navigations",
+        "fetched": true,
+        "savedAt": "2026-11-23T05:16:50.528Z"
+      }
+    },
+    {
+      "id": "sig-58da9c66b1",
+      "title": "为智利推出 OpenAI",
+      "oneLiner": "让人工智能在智利发挥作用 让人工智能在智利发挥作用 关于 OpenAI for Nations 让人工智能在智利发挥作用 关于 OpenAI for Nations 今天，我们将与智利政府合作，在科学、技术、知识和创新部的领导下推出 Ope",
+      "summary": {
+        "oneSentence": "让人工智能在智利发挥作用 让人工智能在智利发挥作用 关于 OpenAI for Nations 让人工智能在智利发挥作用 关于 OpenAI for Nations 今天，我们将与智利政府合作，在科学、技术、知识和创新部的领导下推出 Ope",
+        "bullets": [
+          "让人工智能在智利发挥作用 让人工智能在智利发挥作用 关于 OpenAI for Nations 让人工智能在智利发挥作用 关于 OpenAI for Nations 今天，我们将与智利政府合作，在科学、技术、知识和创新部的领导下推出 OpenAI for Chile，以支持在公共管理中负责任地采用人工智能，培养公务员技",
+          "该伙伴关系建立在智利国家人工智能政策和行动计划⁠（在新窗口中打开）的基础上，支持人才开发、研究和负责任的采用。",
+          "该谅解备忘录是在加州 Semafor 硅谷与世界会议期间签署的，由 Ximena Lincolao 部长代表智利领导该协议。",
+          "该合作伙伴关系得到了美国商务部美国 SI 出口计划 ⁠（在新窗口中打开）的支持，OpenAI 是该计划的主要合作伙伴，帮助智利通过公共部门创新、技能开发和创业精神推进其人工智能雄心。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：让人工智能在智利发挥作用 让人工智能在智利发挥作用 关于 OpenAI for Nations 让人工智能在智利发挥作用 关于 OpenAI for Nations 今天，我们将与智利政府合作，在科学、技术、知识和创新部的领导下推出 Ope",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/introducing-openai-for-chile"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "让人工智能在智利发挥作用 让人工智能在智利发挥作用 关于 OpenAI for Nations 让人工智能在智利发挥作用 关于 OpenAI for Nations 今天，我们将与智利政府合作，在科学、技术、知识和创新部的领导下推出 OpenAI for Chile，以支持在公共管理中负责任地采用人工智能，培养公务员技能，并帮助当地初创公司开发有用的人工智能应用程序。",
+        "该伙伴关系建立在智利国家人工智能政策和行动计划⁠（在新窗口中打开）的基础上，支持人才开发、研究和负责任的采用。",
+        "该谅解备忘录是在加州 Semafor 硅谷与世界会议期间签署的，由 Ximena Lincolao 部长代表智利领导该协议。",
+        "该合作伙伴关系得到了美国商务部美国 SI 出口计划 ⁠（在新窗口中打开）的支持，OpenAI 是该计划的主要合作伙伴，帮助智利通过公共部门创新、技能开发和创业精神推进其人工智能雄心。",
+        "此次合作将探索该部委行政流程中的技术采用，包括 OpenAI 对采用新模型的潜在支持，以及为该部委人员提供建议和培训。",
+        "对于公务员来说，该合作伙伴关系将探索针对其角色的实用人工智能素养、技能提升和再培训。活动可以包括研讨会和培训师培训方法，涵盖人工智能工具的有效使用、检查输出、保护敏感信息和维持人工监督。",
+        "为了支持智利的人工智能创业和创新生态系统，合作伙伴将探索相关 OpenAI 项目和技术、实践学习、技术指导和指导。合作还可以将企业家与公共机构、大学和其他当地合作伙伴联系起来，开发支持智利经济发展和公共服务优先事项的应用程序。",
+        "由部委和 OpenAI 代表组成的联合工作组预计将商定优先事项和初步工作计划，其中包括每项活动的领导、里程碑和成功衡量标准。",
+        "具体活动、资格、资源和技术获取将另行商定。谅解备忘录未做出任何投资或采购承诺。活动将受到适当的隐私、信息安全和负责任使用保障措施的约束。",
+        "智利 OpenAI 是国家 OpenAI 的一部分，这是我们的全球倡议，旨在帮助各国利用人工智能推进其国家优先事项、增强经济并扩大机会。我们与政府和当地合作伙伴合作，将人工智能的潜力转化为造福人民的实际利益。"
+      ],
+      "highlights": [
+        "让人工智能在智利发挥作用 让人工智能在智利发挥作用 关于 OpenAI for Nations 让人工智能在智利发挥作用 关于 OpenAI for Natio",
+        "该伙伴关系建立在智利国家人工智能政策和行动计划⁠（在新窗口中打开）的基础上，支持人才开发、研究和负责任的采用。",
+        "该谅解备忘录是在加州 Semafor 硅谷与世界会议期间签署的，由 Ximena Lincolao 部长代表智利领导该协议。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Introducing OpenAI for Chile",
+      "originalLang": "en",
+      "date": "2026-11-17",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/introducing-openai-for-chile",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Introducing OpenAI for Chile"
+      },
+      "raw": {
+        "title": "Introducing OpenAI for Chile",
+        "url": "https://openai.com/index/introducing-openai-for-chile",
+        "fetched": true,
+        "savedAt": "2026-11-23T05:17:00.985Z"
+      }
+    },
+    {
+      "id": "sig-0604bc2b50",
+      "title": "Astra for Law 在法律情报方面处于领先地位",
+      "oneLiner": "我们最新的型号配置在多个基准测试中获得了领先分数。每个 ChatGPT Enterprise 客户现在都可以请求访问权限。",
+      "summary": {
+        "oneSentence": "我们最新的型号配置在多个基准测试中获得了领先分数。每个 ChatGPT Enterprise 客户现在都可以请求访问权限。",
+        "bullets": [
+          "我们最新的型号配置在多个基准测试中获得了领先分数。每个 ChatGPT Enterprise 客户现在都可以请求访问权限。",
+          "分享 Harvey LAB-AA 中的第一名 Harvey LAB-AA 中的最佳表现者 Vals AI 法律研究台上的最佳表现者 律师如何使用 Astra for Law 将 Astra for Law 引入您的实践 Harvey LAB-AA 中的第一名 Vals AI 法律研究台中的最佳表现者 律师如何使用 As",
+          "Astra for Law 是我们最新、最强大的前沿模型 GPT-6.2 Astra 的模型配置。它将 GPT-6.2 Astra 与扩展的法律搜索索引以及研究问题、权衡权威和撰写答案的说明相结合。今天的配置在 LAB-AA 测试中获得满分的频率比亚军 GPT‑6.2 Astra 高出近 40%。",
+          "自从我们于 9 月份向一小部分公司（包括 Cooley ⁠、Ropes & Gray ⁠ 和 Sullivan & Cromwell ⁠）介绍 Astra for Law 以来，我们的研究团队迅速进行了创新，以改进其法律推理并将其法律搜索索引扩大了三分之一以上。在 Vals AI 的法律研究平台 ⁠ (opens in"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 4,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：我们最新的型号配置在多个基准测试中获得了领先分数。每个 ChatGPT Enterprise 客户现在都可以请求访问权限。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/astra-law-6-2"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "我们最新的型号配置在多个基准测试中获得了领先分数。每个 ChatGPT Enterprise 客户现在都可以请求访问权限。",
+        "分享 Harvey LAB-AA 中的第一名 Harvey LAB-AA 中的最佳表现者 Vals AI 法律研究台上的最佳表现者 律师如何使用 Astra for Law 将 Astra for Law 引入您的实践 Harvey LAB-AA 中的第一名 Vals AI 法律研究台中的最佳表现者 律师如何使用 Astra for Law 将 Astra for Law 带到您的实践中 今天，我们发布了 Harvey 上最先进的更新版 Astra for Law LAB-AA 和 Vals AI 法律研究台的顶尖表现者。我们还允许所有 ChatGPT Enterprise 客户通过可信访问计划（包括通过 API）请求访问。",
+        "Astra for Law 是我们最新、最强大的前沿模型 GPT-6.2 Astra 的模型配置。它将 GPT-6.2 Astra 与扩展的法律搜索索引以及研究问题、权衡权威和撰写答案的说明相结合。今天的配置在 LAB-AA 测试中获得满分的频率比亚军 GPT‑6.2 Astra 高出近 40%。",
+        "自从我们于 9 月份向一小部分公司（包括 Cooley ⁠、Ropes & Gray ⁠ 和 Sullivan & Cromwell ⁠）介绍 Astra for Law 以来，我们的研究团队迅速进行了创新，以改进其法律推理并将其法律搜索索引扩大了三分之一以上。在 Vals AI 的法律研究平台 ⁠ (opens in a new window) 上，通过每项检查的研究答案的比例在不到两个月的时间内从约 46% 上升至 53.8%。",
+        "随着世界变得越来越复杂，律师扮演着越来越重要的角色。他们塑造了我们所依赖的几乎每一个体系：他们谈判推动商业发展的协议，在法庭上捍卫人民的权利，并起草我们赖以生存的法律。这就是为什么我们将法律作为 OpenAI 的研究重点：将最好的情报交给最好的律师。",
+        "哈维的法律代理基准 (LAB) 测试模型是否可以自始至终承担法律任务。 LAB-AA ⁠（在新窗口中打开）是人工分析的该测试版本。它在 Harvey 开发的 24 个法律领域的 120 项任务中测试了模型——从起草证词大纲到审查商业租赁，再到制定收购中所有权变更的策略。为了获得满分，答案必须满足作业的所有要求，而不能产生幻觉，即提出不受源文件支持的实质性主张。",
+        "Astra for Law 排名第一，20.8% 的作业获得满分，领先于 GPT-6.2 Astra 的 15.0% 和 Muse Wonder Full 的 13.1%。",
+        "Astra for Law 以 20.8% 排名第一，获得满分的频率比得分最高的非 OpenAI 模型 Muse Wonder Full 多出约 59%。",
+        "Astra for Law 也获得了最高分，每次作业的输出比评估中得分最高的非 OpenAI 模型少了 54%，平均每次作业约 64,000 个输出标记，而 Muse Wonder Full 的输出标记为 139,000 个。对于按使用量付费的法律团队来说，这可能意味着保持在预算之内和超出预算之间的区别。",
+        "每个点都是一个模型配置。更高意味着更多作业获得满分；更左边意味着更少的输出标记，其中包括模型在推理和写入时生成的文本。 Astra for Law 平均每次作业输出约 64,000 个代币，并获得 20.8% 的满分，而 Muse Wonder Full 则为 139,000 个和 13.1%。没有显示的配置使用更少的输出标记与 Astra for Law 的得分相匹配。"
+      ],
+      "highlights": [
+        "我们最新的型号配置在多个基准测试中获得了领先分数。每个 ChatGPT Enterprise 客户现在都可以请求访问权限。",
+        "分享 Harvey LAB-AA 中的第一名 Harvey LAB-AA 中的最佳表现者 Vals AI 法律研究台上的最佳表现者 律师如何使用 Astra f",
+        "Astra for Law 是我们最新、最强大的前沿模型 GPT-6.2 Astra 的模型配置。它将 GPT-6.2 Astra 与扩展的法律搜索索引以及研究"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Astra for Law leads in legal intelligence",
+      "originalLang": "en",
+      "date": "2026-11-17",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/astra-law-6-2",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Astra for Law leads in legal intelligence"
+      },
+      "raw": {
+        "title": "Astra for Law leads in legal intelligence",
+        "url": "https://openai.com/index/astra-law-6-2",
+        "fetched": true,
+        "savedAt": "2026-11-23T05:17:10.891Z"
+      }
+    },
+    {
+      "id": "sig-e91d533d72",
+      "title": "介绍前夕 1.0",
+      "oneLiner": "今天，我们宣布推出 eve 1.0，这是一个用于构建生产就绪代理的开源框架。",
+      "summary": {
+        "oneSentence": "今天，我们宣布推出 eve 1.0，这是一个用于构建生产就绪代理的开源框架。",
+        "bullets": [
+          "今天，我们宣布推出 eve 1.0，这是一个用于构建生产就绪代理的开源框架。",
+          "自 6 月份公开预览以来，我们一直与早期采用者合作，为 1.0 做好准备，发布了 230 多个版本并合并了数千个拉取请求。在此版本中，eve 现已普遍可用。",
+          "我们已经变得更快、扩展了集成并提高了可观察性。安全控制可让您决定哪些操作需要批准以及收集哪些数据。我们还使编码代理更容易构建，并通过严格的评估套件来衡量体验。",
+          "在处理您的线束和基础设施后，您和您的代理可以专注于构建。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：今天，我们宣布推出 eve 1.0，这是一个用于构建生产就绪代理的开源框架。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/eve-is-now-generally-available"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "今天，我们宣布推出 eve 1.0，这是一个用于构建生产就绪代理的开源框架。",
+        "自 6 月份公开预览以来，我们一直与早期采用者合作，为 1.0 做好准备，发布了 230 多个版本并合并了数千个拉取请求。在此版本中，eve 现已普遍可用。",
+        "我们已经变得更快、扩展了集成并提高了可观察性。安全控制可让您决定哪些操作需要批准以及收集哪些数据。我们还使编码代理更容易构建，并通过严格的评估套件来衡量体验。",
+        "在处理您的线束和基础设施后，您和您的代理可以专注于构建。",
+        "将链接复制到标题 在您拥有的工具上构建生产代理 eve 中的工具是调用模型、运行工具并将工作委派给子代理的循环。您选择模型、添加或替换工具、编辑说明，并决定哪些操作需要批准。开源 Workflow SDK 在代理运行时保存进度，因此它可以在崩溃后从最后完成的步骤中恢复。内置多人游戏会话和代理间呼叫。",
+        "对于托管托管，请将您的 eve 代理部署到 Vercel。 Vercel Workflows 处理持久执行，Vercel Sandbox 独立运行代理生成的代码。",
+        "构建将请求转化为经过测试的拉取请求的软件工厂、回答业务数据问题的公司大脑或产品中面向客户的代理。",
+        "数以千计的企业已经为内部和面向客户的代理投入生产。 Rillet 于前夕建立了一个软件工厂，接收客户请求，将其转换为规范，测试更改，并打开 PR 供人工审核。 Rillet 在三个月内将运费提高了两倍。 Clay 构建了 monty，一个数据代理，可以在 Slack 中回答员工的问题。仅仅两个多月后，公司就有 30-40% 的员工每周都使用它。",
+        "Lindy 的代理框架综述将 eve 命名为“最适合持久后端代理”。",
+        "将链接复制到标题 在多人代理会话中进行协作 多人游戏允许多人在一个共享会话中与代理一起工作。 eve 会跟踪谁说了什么，并将批准和登录定向给正确的人。您可以为每个用户或整个团队设置内存。"
+      ],
+      "highlights": [
+        "今天，我们宣布推出 eve 1.0，这是一个用于构建生产就绪代理的开源框架。",
+        "自 6 月份公开预览以来，我们一直与早期采用者合作，为 1.0 做好准备，发布了 230 多个版本并合并了数千个拉取请求。在此版本中，eve 现已普遍可用。",
+        "我们已经变得更快、扩展了集成并提高了可观察性。安全控制可让您决定哪些操作需要批准以及收集哪些数据。我们还使编码代理更容易构建，并通过严格的评估套件来衡量体验。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Introducing eve 1.0",
+      "originalLang": "en",
+      "date": "2026-11-17",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/eve-is-now-generally-available",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Introducing eve 1.0"
+      },
+      "raw": {
+        "title": "Introducing eve 1.0",
+        "url": "https://vercel.com/blog/eve-is-now-generally-available",
+        "fetched": true,
+        "savedAt": "2026-11-23T05:17:20.448Z"
+      }
+    },
+    {
+      "id": "sig-ea2cc6d3ea",
+      "title": "Decision-1.1 现已在 AI Gateway - Vercel 上提供",
+      "oneLiner": "Microsoft AI 的 Decision-1.1 现已在 AI Gateway 上提供。它比 Decision-1 更准确、校准更好、速度更快。",
+      "summary": {
+        "oneSentence": "Microsoft AI 的 Decision-1.1 现已在 AI Gateway 上提供。它比 Decision-1 更准确、校准更好、速度更快。",
+        "bullets": [
+          "Microsoft AI 的 Decision-1.1 现已在 AI Gateway 上提供。它比 Decision-1 更准确、校准更好、速度更快。",
+          "对于路由支持请求、选择哪个模型应处理请求、选择工作流程中的下一步或对 AI 响应进行评分等任务，决策模型会返回结构化答案，而不是自由格式的文本。",
+          "布尔值：条件为真的概率",
+          "选择：选定的类别和每个选项的概率"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Microsoft AI 的 Decision-1.1 现已在 AI Gateway 上提供。它比 Decision-1 更准确、校准更好、速度更快。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/decision-1-1-now-available-on-ai-gateway"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Microsoft AI 的 Decision-1.1 现已在 AI Gateway 上提供。它比 Decision-1 更准确、校准更好、速度更快。",
+        "对于路由支持请求、选择哪个模型应处理请求、选择工作流程中的下一步或对 AI 响应进行评分等任务，决策模型会返回结构化答案，而不是自由格式的文本。",
+        "布尔值：条件为真的概率",
+        "选择：选定的类别和每个选项的概率",
+        "分数：按照您定义的等级进行的数字评分",
+        "多个问题可以在一个请求中共享相同的输入。更好的校准意味着模型的概率会跟踪其正确的频率，因此您的应用程序可以设置何时采取行动的阈值、标记案例以供审查或升级。",
+        "Decision-1.1 接受与 Decision-1 相同的请求格式。要进行切换，请将模型 ID 更改为 microsoft/decision-1.1 。",
+        "通过 AI SDK、兼容 OpenAI 的决策 API 或 AI CLI 调用它。以下示例需要适用于 TypeScript 的 ai 7.0.128 或更高版本，或者适用于 Python 的 OpenAI Python SDK 3.26.0 或更高版本。",
+        "AI SDK 决策 API AI SDK AI SDK 决策 API 决策 API 1 import {experimental_decide asdecide} from 'ai' ; 2 3 const {answers}=awaitdecide({4model:'microsoft/decision-1.1',5state:'我为一个订单收取了两次费用。',6个问题:{7department:{8type:'choice',9instructions:'哪个团队应该处理这个问题？',10 criteria:{11billing:'收费和退款', 12 技术：“错误和中断”, 13 } , 14 } , 15 } , 16 }) ; 17 18 控制台。日志(答案.部门.选择);代理副本 查看模型详细信息 ↗ 决策请求出现在请求日志中，计入预算并支持决策回退。",
+        "在模型游乐场中尝试 Decision-1.1，或者参阅决策模型文档以了解请求格式和问题类型。"
+      ],
+      "highlights": [
+        "Microsoft AI 的 Decision-1.1 现已在 AI Gateway 上提供。它比 Decision-1 更准确、校准更好、速度更快。",
+        "对于路由支持请求、选择哪个模型应处理请求、选择工作流程中的下一步或对 AI 响应进行评分等任务，决策模型会返回结构化答案，而不是自由格式的文本。",
+        "布尔值：条件为真的概率"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Decision-1.1 now available on AI Gateway - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-17",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/decision-1-1-now-available-on-ai-gateway",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Decision-1.1 now available on AI Gateway - Vercel"
+      },
+      "raw": {
+        "title": "Decision-1.1 now available on AI Gateway",
+        "url": "https://vercel.com/changelog/decision-1-1-now-available-on-ai-gateway",
+        "fetched": true,
+        "savedAt": "2026-11-23T05:17:30.108Z"
       }
     },
     {
@@ -12045,7 +12884,7 @@
         "url": "https://cursor.com/changelog/voice-chat",
         "fetched": true,
         "savedAt": "2026-11-08T03:54:06.689Z",
-        "retranslatedAt": "2026-11-22T04:40:12.967Z"
+        "retranslatedAt": "2026-11-23T05:17:31.215Z"
       }
     },
     {
@@ -13164,7 +14003,7 @@
         "url": "https://cursor.com/changelog/build-live-apps",
         "fetched": true,
         "savedAt": "2026-11-08T03:54:30.136Z",
-        "retranslatedAt": "2026-11-22T04:40:14.012Z"
+        "retranslatedAt": "2026-11-23T05:17:32.466Z"
       }
     },
     {
@@ -28041,7 +28880,7 @@
         "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
         "fetched": true,
         "savedAt": "2026-10-17T02:36:45.886Z",
-        "retranslatedAt": "2026-11-22T04:40:15.021Z"
+        "retranslatedAt": "2026-11-23T05:17:34.002Z"
       }
     },
     {
@@ -31639,7 +32478,7 @@
         "url": "https://cursor.com/changelog/origin-app-marketplace",
         "fetched": true,
         "savedAt": "2026-10-14T03:08:22.474Z",
-        "retranslatedAt": "2026-11-22T04:40:16.041Z"
+        "retranslatedAt": "2026-11-23T05:17:35.167Z"
       }
     },
     {
@@ -33398,972 +34237,6 @@
         "url": "https://simonwillison.net/2026/Oct/10/python-actions/",
         "fetched": false,
         "savedAt": "2026-10-13T05:01:36.419Z"
-      }
-    },
-    {
-      "id": "sig-28c245dbd5",
-      "title": "推出品牌套件",
-      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-      "summary": {
-        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-        "bullets": [
-          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root ",
-          "Brand Kit 是 ElevenCreative 的一个新系统，可将上下文从提示中移至您的工作流程中。一旦设定，它就会塑造每一代人。",
-          "使用生成工具保持品牌形象通常意味着在每个提示中重新描述您的视觉形象。每个团队成员都有不同的描述，并且人员和项目之间的一致性被打破。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://elevenlabs.io/blog/introducing-brand-kit"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 注册博客 产品介绍品牌套件 作者：Renee Zhu 发布于 2026 年 10 月 9 日 最后更新于 2026 年 10 月 8 日 听 听这篇文章",
-        "Brand Kit 是 ElevenCreative 的一个新系统，可将上下文从提示中移至您的工作流程中。一旦设定，它就会塑造每一代人。",
-        "使用生成工具保持品牌形象通常意味着在每个提示中重新描述您的视觉形象。每个团队成员都有不同的描述，并且人员和项目之间的一致性被打破。",
-        "品牌套件将您的视觉识别作为工作空间中的单个对象。您的所有颜色、字体、徽标、参考图像和规则现在都可以在图像和视频、流程和 ElevenCreative 代理的任何提示中进行标记，帮助您生成品牌图像和视频",
-        "添加您的资产并设置如何应用您的品牌的规则非常简单。",
-        "颜色和字体定义您的调色板和版式，您可以存储徽标以及如何使用它们的规则。参考图像向模特展示您的视觉世界，包括您的摄影风格、构图和品牌氛围。通过您定义的规则，您可以捕获调色板本身无法捕获的内容：您的身份如何应用，以及您的品牌从不做什么。",
-        "在图像和视频、流程或代理中输入 @ 以标记您的套件。你的资产和规则将塑造这一代人。相同的套件适用于每个表面，因此图像和视频中的产品图像以及流程中的完整管道都遵循相同的准则。",
-        "套件位于您的工作空间中。团队中的每个人都可以遵循相同的指导方针，从而在整个组织中实现更高的品牌一致性。",
-        "对于代理机构和多品牌团队，您可以为与您合作的每个品牌或客户创建一个工具包，并在工作时在它们之间切换。"
-      ],
-      "highlights": [
-        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感",
-        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opaci",
-        "Brand Kit 是 ElevenCreative 的一个新系统，可将上下文从提示中移至您的工作流程中。一旦设定，它就会塑造每一代人。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Introducing Brand Kit",
-      "originalLang": "en",
-      "date": "2026-10-09",
-      "categoryIds": [
-        "vertical-audio"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "ElevenLabs",
-        "author": "ElevenLabs",
-        "url": "https://elevenlabs.io/blog/introducing-brand-kit",
-        "home": "https://elevenlabs.io/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Introducing Brand Kit"
-      },
-      "raw": {
-        "title": "Introducing Brand Kit",
-        "url": "https://elevenlabs.io/blog/introducing-brand-kit",
-        "fetched": true,
-        "savedAt": "2026-10-09T04:07:55.460Z"
-      }
-    },
-    {
-      "id": "sig-418297e30b",
-      "title": "代理商现在可以使用 Vercel CLI 购买域名 - Vercel",
-      "oneLiner": "您的代理现在可以使用 Vercel CLI 购买域名。",
-      "summary": {
-        "oneSentence": "您的代理现在可以使用 Vercel CLI 购买域名。",
-        "bullets": [
-          "您的代理现在可以使用 Vercel CLI 购买域名。",
-          "使用 vercel CLI 为该网站购买一个域名，例如“shipsf26” 提示您的代理搜索并购买域名。",
-          "代理通过 vercel 域搜索发现候选者，通过 vercel 域检查和 vercel 域价格检查可用性和注册商定价，并通过 vercel 域购买启动购买。",
-          "购买决定本身就由您决定。以非交互方式运行，vercel 域名购买会返回结构化、机器可读的错误和建议的下一个命令，因此代理会将确认信息交还给您，禁止其在未经您批准的情况下花钱。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：您的代理现在可以使用 Vercel CLI 购买域名。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/agents-can-now-buy-domains-with-the-vercel-cli"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "您的代理现在可以使用 Vercel CLI 购买域名。",
-        "使用 vercel CLI 为该网站购买一个域名，例如“shipsf26” 提示您的代理搜索并购买域名。",
-        "代理通过 vercel 域搜索发现候选者，通过 vercel 域检查和 vercel 域价格检查可用性和注册商定价，并通过 vercel 域购买启动购买。",
-        "购买决定本身就由您决定。以非交互方式运行，vercel 域名购买会返回结构化、机器可读的错误和建议的下一个命令，因此代理会将确认信息交还给您，禁止其在未经您批准的情况下花钱。",
-        "您可以在交互式终端或仪表板中确认价格、自动续订选择以及注册人联系方式。",
-        "CLI 提供了面向代理的技能，涵盖发现、定价和购买工作流程，因此代理将遵循完整的顺序，而无需被告知步骤。"
-      ],
-      "highlights": [
-        "您的代理现在可以使用 Vercel CLI 购买域名。",
-        "使用 vercel CLI 为该网站购买一个域名，例如“shipsf26” 提示您的代理搜索并购买域名。",
-        "代理通过 vercel 域搜索发现候选者，通过 vercel 域检查和 vercel 域价格检查可用性和注册商定价，并通过 vercel 域购买启动购买。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Agents can now buy domains with the Vercel CLI - Vercel",
-      "originalLang": "en",
-      "date": "2026-10-09",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/agents-can-now-buy-domains-with-the-vercel-cli",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Agents can now buy domains with the Vercel CLI - Vercel"
-      },
-      "raw": {
-        "title": "Agents can now buy domains with the Vercel CLI",
-        "url": "https://vercel.com/changelog/agents-can-now-buy-domains-with-the-vercel-cli",
-        "fetched": true,
-        "savedAt": "2026-10-10T03:53:05.950Z"
-      }
-    },
-    {
-      "id": "sig-3526dea681",
-      "title": "新的专业团队现在默认保留 30 天的部署保留 - Vercel",
-      "oneLiner": "新的 Pro 团队现在默认设置 30 天的部署保留期。",
-      "summary": {
-        "oneSentence": "新的 Pro 团队现在默认设置 30 天的部署保留期。",
-        "bullets": [
-          "新的 Pro 团队现在默认设置 30 天的部署保留期。",
-          "编码代理加速了开发，增加了部署频率和存储的部署历史记录的数量。较短的保留时间可以保留最近的历史记录，同时限制较旧的历史记录及其存储成本。",
-          "当您需要更多历史记录进行检查或回滚时，您可以在团队设置中选择更长的保留期。部署存储和功能存储的费用均为每月每 GB 0.10 美元。根据您的保留策略，较旧的部署可能会被删除。已删除的部署无法恢复或用于回滚。",
-          "查看部署保留策略和存储优化指南。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：新的 Pro 团队现在默认设置 30 天的部署保留期。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/new-pro-teams-now-default-to-30-day-deployment-retention"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "新的 Pro 团队现在默认设置 30 天的部署保留期。",
-        "编码代理加速了开发，增加了部署频率和存储的部署历史记录的数量。较短的保留时间可以保留最近的历史记录，同时限制较旧的历史记录及其存储成本。",
-        "当您需要更多历史记录进行检查或回滚时，您可以在团队设置中选择更长的保留期。部署存储和功能存储的费用均为每月每 GB 0.10 美元。根据您的保留策略，较旧的部署可能会被删除。已删除的部署无法恢复或用于回滚。",
-        "查看部署保留策略和存储优化指南。"
-      ],
-      "highlights": [
-        "新的 Pro 团队现在默认设置 30 天的部署保留期。",
-        "编码代理加速了开发，增加了部署频率和存储的部署历史记录的数量。较短的保留时间可以保留最近的历史记录，同时限制较旧的历史记录及其存储成本。",
-        "当您需要更多历史记录进行检查或回滚时，您可以在团队设置中选择更长的保留期。部署存储和功能存储的费用均为每月每 GB 0.10 美元。根据您的保留策略，较旧的部署"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "New Pro teams now default to 30-day deployment retention - Vercel",
-      "originalLang": "en",
-      "date": "2026-10-09",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/new-pro-teams-now-default-to-30-day-deployment-retention",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "New Pro teams now default to 30-day deployment retention - Vercel"
-      },
-      "raw": {
-        "title": "New Pro teams now default to 30-day deployment retention",
-        "url": "https://vercel.com/changelog/new-pro-teams-now-default-to-30-day-deployment-retention",
-        "fetched": true,
-        "savedAt": "2026-10-10T03:53:10.061Z"
-      }
-    },
-    {
-      "id": "sig-bc0fa275ba",
-      "title": "现有 Pro 团队开始计费部署存储 - Vercel",
-      "oneLiner": "部署存储和功能 所有 Pro 团队的存储计费将从每月每 GB 0.10 美元开始。检查您的电子邮件，了解有关您的团队何时开始计费的详细信息。为了保持较低的存储成本，部署保留窗口也更改为 30 天。",
-      "summary": {
-        "oneSentence": "部署存储和功能 所有 Pro 团队的存储计费将从每月每 GB 0.10 美元开始。检查您的电子邮件，了解有关您的团队何时开始计费的详细信息。为了保持较低的存储成本，部署保留窗口也更改为 30 天。",
-        "bullets": [
-          "部署存储和功能 所有 Pro 团队的存储计费将从每月每 GB 0.10 美元开始。检查您的电子邮件，了解有关您的团队何时开始计费的详细信息。为了保持较低的存储成本，部署保留窗口也更改为 30 天。",
-          "从 10 月 23 日开始，超过 30 天的部署将被删除，除非您在此之前在保留设置中选择退出。已设置为 30 天或更短的保留设置保持不变。",
-          "将链接复制到标题 控制您的部署存储 使用部署保留策略查看预生产、生产、取消和错误部署的保留期。较短的周期会减少存储的历史记录，并且已删除的部署无法用于回滚。",
-          "请参阅使用页面上的每个项目的部署存储和功能存储。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：部署存储和功能 所有 Pro 团队的存储计费将从每月每 GB 0.10 美元开始。检查您的电子邮件，了解有关您的团队何时开始计费的详细信息。为了保持较低的存储成本，部署保留窗口也更改为 30 天。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/deployment-storage-pricing-expands-to-existing-teams"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "部署存储和功能 所有 Pro 团队的存储计费将从每月每 GB 0.10 美元开始。检查您的电子邮件，了解有关您的团队何时开始计费的详细信息。为了保持较低的存储成本，部署保留窗口也更改为 30 天。",
-        "从 10 月 23 日开始，超过 30 天的部署将被删除，除非您在此之前在保留设置中选择退出。已设置为 30 天或更短的保留设置保持不变。",
-        "将链接复制到标题 控制您的部署存储 使用部署保留策略查看预生产、生产、取消和错误部署的保留期。较短的周期会减少存储的历史记录，并且已删除的部署无法用于回滚。",
-        "请参阅使用页面上的每个项目的部署存储和功能存储。",
-        "通过删除不必要的构建文件、将大型资产移动到 Vercel Blob 以及缩小函数包来减少未来的部署大小。"
-      ],
-      "highlights": [
-        "部署存储和功能 所有 Pro 团队的存储计费将从每月每 GB 0.10 美元开始。检查您的电子邮件，了解有关您的团队何时开始计费的详细信息。为了保持较低的存储成",
-        "从 10 月 23 日开始，超过 30 天的部署将被删除，除非您在此之前在保留设置中选择退出。已设置为 30 天或更短的保留设置保持不变。",
-        "将链接复制到标题 控制您的部署存储 使用部署保留策略查看预生产、生产、取消和错误部署的保留期。较短的周期会减少存储的历史记录，并且已删除的部署无法用于回滚。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Deployment Storage billing begins for existing Pro teams - Vercel",
-      "originalLang": "en",
-      "date": "2026-10-09",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/deployment-storage-pricing-expands-to-existing-teams",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Deployment Storage billing begins for existing Pro teams - Vercel"
-      },
-      "raw": {
-        "title": "Deployment Storage billing begins for existing Pro teams",
-        "url": "https://vercel.com/changelog/deployment-storage-pricing-expands-to-existing-teams",
-        "fetched": true,
-        "savedAt": "2026-10-10T03:53:15.216Z"
-      }
-    },
-    {
-      "id": "sig-9c26fb37ef",
-      "title": "Sightlines 第 3 期：提高团队如何使用 AI 的标准 | Figma 博客",
-      "oneLiner": "如何推动人工智能的采用并就构建内容做出更好的决策？",
-      "summary": {
-        "oneSentence": "如何推动人工智能的采用并就构建内容做出更好的决策？",
-        "bullets": [
-          "如何推动人工智能的采用并就构建内容做出更好的决策？",
-          "无论是在高管简报网络研讨会还是在领导力集体活动中，我们一直在与产品、设计和工程领域的领导者交谈，以了解他们在人工智能相关方面面临的最大障碍。本月，我们将重点讨论一个不断出现的问题：如何弥合人工智能的承诺与其实际影响之间的差距？",
-          "人工智能可以帮助团队更快地行动，但这并不会自动带来更好的工作。只有当团队朝着正确的方向前进时，速度才有价值。领导者应该设定这样的期望：团队使用人工智能不仅是为了更快地交付，而且是为了探索更多方向，在提交之前解决边缘案例，并完善细节，使产品明显属于他们自己。",
-          "更深入：现在构建优秀产品需要什么 现在构建优秀产品需要什么 获得原型比以往任何时候都更容易。更艰巨的工作是在发布过程中保持速度、选择正确的方向并创造出脱颖而出的产品。这就是需要做的事情。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Figma 官网发布：如何推动人工智能的采用并就构建内容做出更好的决策？",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://www.figma.com/blog/sightlines-issue-no3/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "如何推动人工智能的采用并就构建内容做出更好的决策？",
-        "无论是在高管简报网络研讨会还是在领导力集体活动中，我们一直在与产品、设计和工程领域的领导者交谈，以了解他们在人工智能相关方面面临的最大障碍。本月，我们将重点讨论一个不断出现的问题：如何弥合人工智能的承诺与其实际影响之间的差距？",
-        "人工智能可以帮助团队更快地行动，但这并不会自动带来更好的工作。只有当团队朝着正确的方向前进时，速度才有价值。领导者应该设定这样的期望：团队使用人工智能不仅是为了更快地交付，而且是为了探索更多方向，在提交之前解决边缘案例，并完善细节，使产品明显属于他们自己。",
-        "更深入：现在构建优秀产品需要什么 现在构建优秀产品需要什么 获得原型比以往任何时候都更容易。更艰巨的工作是在发布过程中保持速度、选择正确的方向并创造出脱颖而出的产品。这就是需要做的事情。",
-        "个人人工智能的熟练程度只能让你走到这一步。为了推动整个团队采用人工智能，领导者需要将学习和实验作为一种共享实践。以下是实现这一目标的几种方法：",
-        "更深入：构建人工智能原生组织的指南",
-        "在领导力集体活动中，本月有几句话让我们印象深刻：",
-        "“当领导层看起来只关心快速行动时，这是一个不好的信号。我们试图明确表示，速度不是目标。当然，我们希望快速行动，但如果我们行动太快而出货却很慢，那就不好了。” Ian Silber，OpenAI 产品设计主管",
-        "“我听人们说‘我没有时间玩人工智能工具，我有可交付成果。’作为管理者，我们能做的第一件事就是为我们的团队创造时间来发挥、犯错误并解决问题。” Gui Seiz，Figma 人工智能产品设计总监",
-        "作为管理者，[我们应该]为我们的团队创造时间来发挥、犯错误并解决问题。 “作为管理者，[我们应该]为我们的团队创造时间来发挥、犯错误并解决问题。” Figma 人工智能产品设计总监 Gui Seiz 让对话继续下去："
-      ],
-      "highlights": [
-        "如何推动人工智能的采用并就构建内容做出更好的决策？",
-        "无论是在高管简报网络研讨会还是在领导力集体活动中，我们一直在与产品、设计和工程领域的领导者交谈，以了解他们在人工智能相关方面面临的最大障碍。本月，我们将重点讨论",
-        "人工智能可以帮助团队更快地行动，但这并不会自动带来更好的工作。只有当团队朝着正确的方向前进时，速度才有价值。领导者应该设定这样的期望：团队使用人工智能不仅是为了"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Sightlines Issue No.3: Raise the Bar for How Teams Use AI | Figma Blog",
-      "originalLang": "en",
-      "date": "2026-10-09",
-      "categoryIds": [
-        "vertical-ui"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Figma",
-        "author": "Figma",
-        "url": "https://www.figma.com/blog/sightlines-issue-no3/",
-        "home": "https://www.figma.com/blog/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Sightlines Issue No.3: Raise the Bar for How Teams Use AI | Figma Blog"
-      },
-      "raw": {
-        "title": "Sightlines issue no.3: Raise the bar for how teams use AI",
-        "url": "https://www.figma.com/blog/sightlines-issue-no3/",
-        "fetched": true,
-        "savedAt": "2026-10-10T03:53:26.959Z"
-      }
-    },
-    {
-      "id": "sig-0c25c55b04",
-      "title": "什么是语音活动检测 (VAD) 及其工作原理",
-      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-      "summary": {
-        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-        "bullets": [
-          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root ",
-          "0:00 1.0x 了解更多 在此页面上注册",
-          "语音活动检测可对短的、毫秒长的音频帧是否包含人类语音进行分类。它用于许多数字音频处理应用，包括转录、电话和语音代理。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://elevenlabs.io/blog/what-is-voice-activity-detection"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 了解更多信息 注册博客资源 什么是语音活动检测及其工作原理？作者：Jack Limebear 发表于 2026 年 10 月 9 日 听 听这篇文章",
-        "0:00 1.0x 了解更多 在此页面上注册",
-        "语音活动检测可对短的、毫秒长的音频帧是否包含人类语音进行分类。它用于许多数字音频处理应用，包括转录、电话和语音代理。",
-        "在本文中，我们将探讨语音活动检测的作用、不作用以及它如何适应关键企业应用程序。",
-        "语音活动检测 (VAD) 是一种软件过程，可对称为帧的小音频块是否包含语音进行分类。 VAD 算法每秒在音频流上运行数十到数百次，并根据是否检测到语音返回二进制“是”或“否”响应。",
-        "它们用于更广泛的数字音频管道，例如电信或语音转录。它们告诉其他下游系统，如 ASR/STT、LLM 和转弯规划器，是主动监听音频流还是待命。",
-        "VAD 与自动语音识别 (ASR) 不同。 VAD 系统所做的就是输出关于是否检测到语音的概率是或否响应。它不输出实际的单词。它的主要功能是告诉下游系统是否处理给定的音频帧。",
-        "VAD 算法针对音频流运行，并对给定音频帧（通常为 10-30 毫秒）是否包含语音做出是/否决定。",
-        "它们以五阶段循环连续运行："
-      ],
-      "highlights": [
-        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感",
-        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opaci",
-        "0:00 1.0x 了解更多 在此页面上注册"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "What is voice activity detection (VAD) and how it works",
-      "originalLang": "en",
-      "date": "2026-10-09",
-      "categoryIds": [
-        "vertical-audio"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "ElevenLabs",
-        "author": "ElevenLabs",
-        "url": "https://elevenlabs.io/blog/what-is-voice-activity-detection",
-        "home": "https://elevenlabs.io/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "What is voice activity detection (VAD) and how it works"
-      },
-      "raw": {
-        "title": "What is voice activity detection and how does it work?",
-        "url": "https://elevenlabs.io/blog/what-is-voice-activity-detection",
-        "fetched": true,
-        "savedAt": "2026-10-10T03:53:39.859Z"
-      }
-    },
-    {
-      "id": "sig-e4dd6c7c3d",
-      "title": "定义人工智能代理如何与您的业务交互",
-      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-      "summary": {
-        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-        "bullets": [
-          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root ",
-          "0:00 1.0x 联系销售人员 请参阅本页的 11 个代理商",
-          "接到企业和政府的电话中，越来越多的人不是人。他们是为个人跑腿的私人人工智能代理，确认订单或检查索赔的商业代理，偶尔还会冒充客户的克隆声音。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://elevenlabs.io/blog/synthetic-voice-detection-and-personal-agent-protocol"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感人的模型。Creator+ 包含 3 倍积分，截止 10 月 12 日",
-        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 联系销售人员 请参阅 ElevenAgents 博客产品 定义 AI 代理如何与您的企业交互 作者：Marco Mancini Jonatan von Martens 发布于 2026 年 10 月 9 日 听 听这篇文章",
-        "0:00 1.0x 联系销售人员 请参阅本页的 11 个代理商",
-        "接到企业和政府的电话中，越来越多的人不是人。他们是为个人跑腿的私人人工智能代理，确认订单或检查索赔的商业代理，偶尔还会冒充客户的克隆声音。",
-        "今天，我们在 ElevenAgents 中发布了合成语音检测功能，以便企业可以判断谁在通话中并做出相应的响应。我们还作为设计合作伙伴加入个人代理协议工作组，以帮助定义人工智能代理和企业应如何识别自己并相互交互。",
-        "合成语音检测会在通话的前几秒内分析呼叫者的语音并返回确定结果：是人为生成的还是 AI 生成的。从那里，你的规则决定会发生什么。",
-        "您可以设置的规则的一些示例：",
-        "合成语音检测在 ElevenAgents 内部的实时音频流上运行，检查人类听众不会注意到但软件可以注意到的痕迹。使用 ElevenLabs 生成的所有音频都带有水印，但其他来源的音频通常没有，因此检测不依赖于水印。",
-        "我们正在努力为代理与企业交互设计新标准，并且我们很高兴能够作为 Meta 和 Sierra 领导的工作组的一部分为个人代理协议做出贡献。该协议的开发目的是定义个人代理人如何向企业表明自己的身份、代表谁以及可以代表该人做什么。",
-        "企业使用 ElevenLabs 跨多种文本和语音渠道部署代理：电话、网站、应用内体验、电子邮件、WhatsApp、短信等。我们的目标是确保覆盖所有渠道，以便客户可以定义他们如何通过每个界面与个人代理交互。"
-      ],
-      "highlights": [
-        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 认识 Eleven v4，这是我们迄今为止最感",
-        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opaci",
-        "0:00 1.0x 联系销售人员 请参阅本页的 11 个代理商"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Defining how AI agents interact with your business",
-      "originalLang": "en",
-      "date": "2026-10-09",
-      "categoryIds": [
-        "vertical-audio"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "ElevenLabs",
-        "author": "ElevenLabs",
-        "url": "https://elevenlabs.io/blog/synthetic-voice-detection-and-personal-agent-protocol",
-        "home": "https://elevenlabs.io/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Defining how AI agents interact with your business"
-      },
-      "raw": {
-        "title": "Defining how AI agents interact with your business",
-        "url": "https://elevenlabs.io/blog/synthetic-voice-detection-and-personal-agent-protocol",
-        "fetched": true,
-        "savedAt": "2026-10-10T03:53:52.159Z"
-      }
-    },
-    {
-      "id": "sig-edd58468d5",
-      "title": "Sophos 借助 OpenAI Daybreak 将威胁调查时间缩短了 96%",
-      "oneLiner": "了解 Sophos 如何使用 OpenAI 的 Daybreak 将网络威胁调查时间缩短 96%，并自动处理 52% 的 MDR 案例，同时保留人工监督。",
-      "summary": {
-        "oneSentence": "了解 Sophos 如何使用 OpenAI 的 Daybreak 将网络威胁调查时间缩短 96%，并自动处理 52% 的 MDR 案例，同时保留人工监督。",
-        "bullets": [
-          "了解 Sophos 如何使用 OpenAI 的 Daybreak 将网络威胁调查时间缩短 96%，并自动处理 52% 的 MDR 案例，同时保留人工监督。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：了解 Sophos 如何使用 OpenAI 的 Daybreak 将网络威胁调查时间缩短 96%，并自动处理 52% 的 MDR 案例，同时保留人工监督。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/sophos"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "了解 Sophos 如何使用 OpenAI 的 Daybreak 将网络威胁调查时间缩短 96%，并自动处理 52% 的 MDR 案例，同时保留人工监督。"
-      ],
-      "highlights": [
-        "了解 Sophos 如何使用 OpenAI 的 Daybreak 将网络威胁调查时间缩短 96%，并自动处理 52% 的 MDR 案例，同时保留人工监督。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-      "originalLang": "en",
-      "date": "2026-10-09",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/sophos",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak"
-      },
-      "raw": {
-        "title": "Sophos cuts threat investigation time by 96% with OpenAI Daybreak",
-        "url": "https://openai.com/index/sophos",
-        "fetched": false,
-        "savedAt": "2026-10-10T03:53:53.399Z"
-      }
-    },
-    {
-      "id": "sig-90995f7dbc",
-      "title": "Asana 在使用 GPT-6.1 Sol 的浏览器测试中将模型成本降低了 76 倍",
-      "oneLiner": "在 Codex 中使用 GPT-6 Astra，Asana 使其浏览器代理的成本降低了 76 倍，测试速度提高了 5 倍，从而为客户提供功能更强大的模型。",
-      "summary": {
-        "oneSentence": "在 Codex 中使用 GPT-6 Astra，Asana 使其浏览器代理的成本降低了 76 倍，测试速度提高了 5 倍，从而为客户提供功能更强大的模型。",
-        "bullets": [
-          "在 Codex 中使用 GPT-6 Astra，Asana 使其浏览器代理的成本降低了 76 倍，测试速度提高了 5 倍，从而为客户提供功能更强大的模型。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：在 Codex 中使用 GPT-6 Astra，Asana 使其浏览器代理的成本降低了 76 倍，测试速度提高了 5 倍，从而为客户提供功能更强大的模型。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/asana-browser-agent"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "在 Codex 中使用 GPT-6 Astra，Asana 使其浏览器代理的成本降低了 76 倍，测试速度提高了 5 倍，从而为客户提供功能更强大的模型。"
-      ],
-      "highlights": [
-        "在 Codex 中使用 GPT-6 Astra，Asana 使其浏览器代理的成本降低了 76 倍，测试速度提高了 5 倍，从而为客户提供功能更强大的模型。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-      "originalLang": "en",
-      "date": "2026-10-09",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/asana-browser-agent",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol"
-      },
-      "raw": {
-        "title": "Asana cuts model costs 76x in browser tests with GPT-6.1 Sol",
-        "url": "https://openai.com/index/asana-browser-agent",
-        "fetched": false,
-        "savedAt": "2026-10-10T03:53:54.654Z"
-      }
-    },
-    {
-      "id": "sig-019aa04ab2",
-      "title": "Rillet 如何利用 Vercel 上的 AI 代理将发货速度提高 3 倍 |客户 |韦尔塞尔",
-      "oneLiner": "将链接复制到 Vercel 上的 Rillet 标题 在 Vercel 上部署前夕代理后，三个月内运费增加了三倍",
-      "summary": {
-        "oneSentence": "将链接复制到 Vercel 上的 Rillet 标题 在 Vercel 上部署前夕代理后，三个月内运费增加了三倍",
-        "bullets": [
-          "将链接复制到 Vercel 上的 Rillet 标题 在 Vercel 上部署前夕代理后，三个月内运费增加了三倍",
-          "两人团队在前 4 个月内就售出了 800 多张线性门票",
-          "通过企业托管用户、SSO 和目录同步进行构建器访问",
-          "在短短两小时内完成客户请求的生产变更"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：将链接复制到 Vercel 上的 Rillet 标题 在 Vercel 上部署前夕代理后，三个月内运费增加了三倍",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/blog/how-rillet-ships-3-faster-with-ai-agents-on-vercel"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "将链接复制到 Vercel 上的 Rillet 标题 在 Vercel 上部署前夕代理后，三个月内运费增加了三倍",
-        "两人团队在前 4 个月内就售出了 800 多张线性门票",
-        "通过企业托管用户、SSO 和目录同步进行构建器访问",
-        "在短短两小时内完成客户请求的生产变更",
-        "让每个构建者都可以通过 AI Gateway 访问模型",
-        "Rillet 是一个人工智能原生企业资源规划 (ERP) 平台。他们的人工智能代理在实时总账中进行会计工作，并得到人工批准和完整的审计跟踪。 Rillet 为 600 多家客户提供服务，努力实现零日结账，减少月底结账所需的时间。",
-        "帮助客户近乎实时结帐的产品需要一个能够快速响应他们的请求的团队。 Anthony Liang 领导着 Rillet 的两人前端团队，该团队仅在几个月前成立，并领导推动代理在内部工作流程中工作，从交付客户修复到审查代码。",
-        "该团队使用 eve 构建代理并在 Vercel 上运行它们，使用 Vercel Connect 使它们能够访问 Slack 和 Linear，而 AI Gateway 则路由他们的模型请求。",
-        "复制链接到标题 标准化每个内部代理 Anthony 自 GPT-3.5 时代以来一直在构建人工智能应用程序，并评估了市场上几乎所有代理框架，从主要模型提供商的 SDK 到开源生态系统。每个都给了他模型循环的原语，但让他决定指令的位置、工具如何注册以及代理如何到达 Slack 和 GitHub。",
-        "安东尼可以为自己的代理人做出这些选择，但他希望 Rillet 的每个人都可以遵循惯例，包括那些从未接触过 TypeScript 的人。"
-      ],
-      "highlights": [
-        "将链接复制到 Vercel 上的 Rillet 标题 在 Vercel 上部署前夕代理后，三个月内运费增加了三倍",
-        "两人团队在前 4 个月内就售出了 800 多张线性门票",
-        "通过企业托管用户、SSO 和目录同步进行构建器访问"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "How Rillet ships 3× faster with AI agents on Vercel | Customers | Vercel",
-      "originalLang": "en",
-      "date": "2026-10-09",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/blog/how-rillet-ships-3-faster-with-ai-agents-on-vercel",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "How Rillet ships 3× faster with AI agents on Vercel | Customers | Vercel"
-      },
-      "raw": {
-        "title": "How Rillet ships 3× faster with AI agents on Vercel",
-        "url": "https://vercel.com/blog/how-rillet-ships-3-faster-with-ai-agents-on-vercel",
-        "fetched": true,
-        "savedAt": "2026-10-10T03:54:05.236Z"
-      }
-    },
-    {
-      "id": "sig-84f0e3fa35",
-      "title": "Microsoft Decision-1 现已在 AI Gateway 上可用 - Vercel",
-      "oneLiner": "Microsoft 的 Decision-1 现已在 AI Gateway 上提供。它回答有关概率、选择和分数的文本的键入问题。它可用于对支持请求进行分类、选择工作流程中的下一步或根据评分标准评估人工智能响应。",
-      "summary": {
-        "oneSentence": "Microsoft 的 Decision-1 现已在 AI Gateway 上提供。它回答有关概率、选择和分数的文本的键入问题。它可用于对支持请求进行分类、选择工作流程中的下一步或根据评分标准评估人工智能响应。",
-        "bullets": [
-          "Microsoft 的 Decision-1 现已在 AI Gateway 上提供。它回答有关概率、选择和分数的文本的键入问题。它可用于对支持请求进行分类、选择工作流程中的下一步或根据评分标准评估人工智能响应。",
-          "该模型可以回答是/否问题，在命名类别中进行选择，或者根据一组有序的标准对输入进行评分。多个问题可以在一个请求中共享相同的输入。选择和评分答案包括每个选项的概率，因此您的应用程序可以决定何时采取行动或发送不确定的结果以供审核。",
-          "通过 AI SDK 决策 API、兼容 OpenAI 的决策 API 或兼容 TypeSafe 的 API 调用 Decision-1。您只需要一个 AI Gateway API 密钥，无需单独的 Azure 帐户或部署。",
-          "首先，请在请求中使用 microsoft/microsoft-decision-1 作为模型名称："
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Microsoft 的 Decision-1 现已在 AI Gateway 上提供。它回答有关概率、选择和分数的文本的键入问题。它可用于对支持请求进行分类、选择工作流程中的下一步或根据评分标准评估人工智能响应。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/microsoft-decision-1-now-available-on-ai-gateway"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Microsoft 的 Decision-1 现已在 AI Gateway 上提供。它回答有关概率、选择和分数的文本的键入问题。它可用于对支持请求进行分类、选择工作流程中的下一步或根据评分标准评估人工智能响应。",
-        "该模型可以回答是/否问题，在命名类别中进行选择，或者根据一组有序的标准对输入进行评分。多个问题可以在一个请求中共享相同的输入。选择和评分答案包括每个选项的概率，因此您的应用程序可以决定何时采取行动或发送不确定的结果以供审核。",
-        "通过 AI SDK 决策 API、兼容 OpenAI 的决策 API 或兼容 TypeSafe 的 API 调用 Decision-1。您只需要一个 AI Gateway API 密钥，无需单独的 Azure 帐户或部署。",
-        "首先，请在请求中使用 microsoft/microsoft-decision-1 作为模型名称：",
-        "API 决策 API TypeSafe-compat API API 决策 API 决策 API TypeSafe-compat TypeSafe-compat 1 import {experimental_decide asdecide} from 'ai' ; 2 3 const result =等待决定({ 4 model : 'microsoft/microsoft-decision-1' , 5 state : '我的发票付款失败，我立即需要帮助。' , 6 questions : { 7 team : { 8 type : 'choice' , 9 instructions : '哪个团队应该处理请求？' , 10 criteria : { 11 billing : '付款和发票问题' , 12 技术：“软件和集成问题”, 13 } , 14 } , 15 } , 16 }) ; 17 18 控制台。日志（结果。答案。团队）；复制给代理 查看模型详细信息 ↗ AI Gateway 提供了一种统一的方式来访问模型并跟踪使用情况和成本。决策调用出现在日志中，并与其他模型请求一起计入预算。",
-        "请参阅选择、分数和布尔问题的决策文档。要选择决策模型，请浏览可用模型或阅读我们的决策模型指南。"
-      ],
-      "highlights": [
-        "Microsoft 的 Decision-1 现已在 AI Gateway 上提供。它回答有关概率、选择和分数的文本的键入问题。它可用于对支持请求进行分类、选择",
-        "该模型可以回答是/否问题，在命名类别中进行选择，或者根据一组有序的标准对输入进行评分。多个问题可以在一个请求中共享相同的输入。选择和评分答案包括每个选项的概率，",
-        "通过 AI SDK 决策 API、兼容 OpenAI 的决策 API 或兼容 TypeSafe 的 API 调用 Decision-1。您只需要一个 AI Ga"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Microsoft Decision-1 now available on AI Gateway - Vercel",
-      "originalLang": "en",
-      "date": "2026-10-09",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/microsoft-decision-1-now-available-on-ai-gateway",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Microsoft Decision-1 now available on AI Gateway - Vercel"
-      },
-      "raw": {
-        "title": "Microsoft Decision-1 now available on AI Gateway",
-        "url": "https://vercel.com/changelog/microsoft-decision-1-now-available-on-ai-gateway",
-        "fetched": true,
-        "savedAt": "2026-10-11T03:26:59.444Z"
-      }
-    },
-    {
-      "id": "sig-8bbfde4eec",
-      "title": "Liquid AI 的 d1 在 AI Gateway - Vercel 上可用",
-      "oneLiner": "Liquid d1 现已在 AI Gateway 上提供。",
-      "summary": {
-        "oneSentence": "Liquid d1 现已在 AI Gateway 上提供。",
-        "bullets": [
-          "Liquid d1 现已在 AI Gateway 上提供。",
-          "d1 是一个决策模型，用于根据键入的问题评估共享状态，以进行分类、路由和评分。它返回带有概率的结构化答案，而不生成文本标记。",
-          "d1 还具有视觉支持：该模型可以回答有关图像的键入问题，以进行视觉分类、检查和评​​分。",
-          "通过 AI SDK 决策 API 、 OpenAI 兼容决策 API 或 TypeSafe 兼容 API 使用 Liquid/d1 。这些示例询问支持代理是否发放退款："
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：Liquid d1 现已在 AI Gateway 上提供。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/liquid-ai-d1-is-available-on-ai-gateway"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Liquid d1 现已在 AI Gateway 上提供。",
-        "d1 是一个决策模型，用于根据键入的问题评估共享状态，以进行分类、路由和评分。它返回带有概率的结构化答案，而不生成文本标记。",
-        "d1 还具有视觉支持：该模型可以回答有关图像的键入问题，以进行视觉分类、检查和评​​分。",
-        "通过 AI SDK 决策 API 、 OpenAI 兼容决策 API 或 TypeSafe 兼容 API 使用 Liquid/d1 。这些示例询问支持代理是否发放退款：",
-        "API TypeSafe-compat 决策 API API API TypeSafe-compat TypeSafe-compat 决策 API 决策 API 1 import {experimental_decide asdecide} from 'ai' ; 2 3 const result = waitdecide({ 4 model: 'liquid/d1' , 5 state : '支持代理向客户发放全额退款。' , 6 questions : { 7 returned : { 8 type : 'boolean' , 9 instructions : '退款了吗？' , 10 } , 11 } , 12 } ) ; 13 14 控制台。 log(结果.答案.退款);为代理复制 查看模型详细信息 ↗ 将链接复制到标题 图像输入 此示例读取名为 square.png 的本地 PNG 并询问它显示哪种颜色：",
-        "AI SDK TypeSafe-compat AI SDK AI SDK TypeSafe-compat TypeSafe-compat 1 import { readFileSync } from 'node:fs' ; 2 从'ai'导入{experimental_decide asdecide}； 3 4 const image = readFileSync('./square.png')。 toString('base64'); 5 6 const result =等待决定( { 7 model : 'liquid/d1' , 8 state : [ 9 { 10 type : 'json' , 11 value : [ 12 '正方形是什么颜色？' , 13 { 14 type : 'image_url' , 15 image_url : { url : ` data:image/png;base64, ${ image } ` } , 16 } , 17 ] , 18 } , 19 ] , 20 个问题 : { 21 颜色 : { 22 类型 : '选择' , 23 说明 : '正方形是什么颜色？' , 24 个条件 : { 红色 : null , 蓝色 : null , 绿色 : null } , 25 } , 26 } , 27 } ); 28 29 控制台。 log(结果.答案.颜色);复制给代理 查看模型详细信息 ↗ AI Gateway 提供了一种统一的方式来访问模型并跟踪使用情况和成本。决策调用出现在日志中，并与其他模型请求一起计入预算。",
-        "请参阅选择、分数和布尔问题的决策文档。要选择决策模型，请浏览可用模型或阅读我们的决策模型指南。"
-      ],
-      "highlights": [
-        "Liquid d1 现已在 AI Gateway 上提供。",
-        "d1 是一个决策模型，用于根据键入的问题评估共享状态，以进行分类、路由和评分。它返回带有概率的结构化答案，而不生成文本标记。",
-        "d1 还具有视觉支持：该模型可以回答有关图像的键入问题，以进行视觉分类、检查和评​​分。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Liquid AI's d1 is available on AI Gateway - Vercel",
-      "originalLang": "en",
-      "date": "2026-10-09",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/liquid-ai-d1-is-available-on-ai-gateway",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Liquid AI's d1 is available on AI Gateway - Vercel"
-      },
-      "raw": {
-        "title": "Liquid AI's d1 is available on AI Gateway",
-        "url": "https://vercel.com/changelog/liquid-ai-d1-is-available-on-ai-gateway",
-        "fetched": true,
-        "savedAt": "2026-10-11T03:27:05.384Z"
       }
     }
   ]
