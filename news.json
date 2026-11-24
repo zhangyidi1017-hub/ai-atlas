@@ -1,47 +1,47 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-23T05:17:35.970Z",
+  "updatedAt": "2026-11-24T07:58:16.896Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
-  "itemCount": 420,
+  "itemCount": 428,
   "brief": {
-    "date": "2026-11-23",
-    "generatedAt": "2026-11-23T05:17:35.969Z",
-    "totalCount": 420,
+    "date": "2026-11-24",
+    "generatedAt": "2026-11-24T07:58:16.895Z",
+    "totalCount": 428,
     "todayCount": 0,
-    "headline": "今日 AI 信号 — 条 · 档案共 420 条",
+    "headline": "今日 AI 信号 — 条 · 档案共 428 条",
     "topUpdates": [
       {
-        "id": "sig-de5cd1a6d5",
-        "title": "困惑与智慧",
+        "id": "sig-1d0c151fef",
+        "title": "OpenAI 和 Cisco 推出 Shirudo",
         "stars": 4,
-        "oneLiner": "作者：Jakub Pachocki，OpenAI 首席科学家",
+        "oneLiner": "开源运行时，可帮助操作员保护正在运行的 Linux 系统，无需等待补丁或重新启动",
         "readMinutes": 5
       },
       {
-        "id": "sig-696f65e665",
-        "title": "工作流程实验室：使用规格和 Figma Agent 将上下文转化为计划 | Figma 博客",
+        "id": "sig-c5903c8754",
+        "title": "更适合您的 Google 搜索",
         "stars": 4,
-        "oneLiner": "将分散的上下文带到画布上可以帮助团队将他们需要构建的图表、设计和技术决策连接到一个地方。此工作流程展示了 Specs 和 Figma 代理如何为该上下文提供容器，以便轻松实施。",
+        "oneLiner": "通过安全地选择将 Google 钱包、云端硬盘和 Gemini 应用连接到 AI 模式下的个人智能，获得更有用的搜索响应。",
         "readMinutes": 5
       },
       {
-        "id": "sig-6668009dba",
-        "title": "视频广告变体和 AI 本地化 |广告引擎",
+        "id": "sig-9dddeb89e4",
+        "title": "通过代理和形式验证寻找更快的量子算法",
+        "stars": 4,
+        "oneLiner": "谢尔盖·希罗博科夫、本·贾德伯格和瑞安·巴布什",
+        "readMinutes": 5
+      },
+      {
+        "id": "sig-bbe25ab304",
+        "title": "如何为您的用例选择最佳的语音转文本 API",
         "stars": 4,
         "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
         "readMinutes": 5
       },
       {
-        "id": "sig-c101e9e832",
-        "title": "Vercel Functions 现在支持高达 20MiB 的请求正文 - Vercel",
-        "stars": 4,
-        "oneLiner": "Vercel Functions 现在在公共 Beta 版中接受高达 20MiB 的入站请求正文，高于 4.5MB。",
-        "readMinutes": 5
-      },
-      {
-        "id": "sig-d0d32febab",
-        "title": "如何修复文本转语音准确性问题和 API 错误",
+        "id": "sig-0dd0b35c7b",
+        "title": "ElevenMusic 与 ElevenCreative：使用哪种音乐工具",
         "stars": 4,
         "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
         "readMinutes": 5
@@ -49,12 +49,12 @@
     ],
     "sections": {
       "topUpdates": [
-        "sig-de5cd1a6d5",
-        "sig-696f65e665",
-        "sig-6668009dba",
-        "sig-c101e9e832",
-        "sig-d0d32febab",
-        "sig-e8758b64c9"
+        "sig-1d0c151fef",
+        "sig-c5903c8754",
+        "sig-9dddeb89e4",
+        "sig-bbe25ab304",
+        "sig-0dd0b35c7b",
+        "sig-f8a4e02f42"
       ],
       "newReleases": [
         "sig-fd1a4c4700",
@@ -63,14 +63,14 @@
         "sig-b8b5f613d5"
       ],
       "insights": [
-        "sig-de5cd1a6d5",
-        "sig-696f65e665",
-        "sig-6668009dba",
-        "sig-c101e9e832",
-        "sig-d0d32febab",
-        "sig-e8758b64c9",
-        "sig-52c6915bc7",
-        "sig-3ea993db7e"
+        "sig-1d0c151fef",
+        "sig-c5903c8754",
+        "sig-9dddeb89e4",
+        "sig-bbe25ab304",
+        "sig-0dd0b35c7b",
+        "sig-f8a4e02f42",
+        "sig-680b35173b",
+        "sig-accfeb9908"
       ],
       "emergingTrends": [],
       "newApis": [],
@@ -91,8 +91,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-11-23T05:17:35.970Z",
-    "summary": "近 30 天共 280 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-11-24T07:58:16.896Z",
+    "summary": "近 30 天共 290 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -107,6 +107,66 @@
     "risingTags": []
   },
   "productUpdates": [
+    {
+      "id": "sig-1d0c151fef",
+      "title": "OpenAI 和 Cisco 推出 Shirudo",
+      "oneLiner": "开源运行时，可帮助操作员保护正在运行的 Linux 系统，无需等待补丁或重新启动",
+      "date": "2026-11-23",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-c5903c8754",
+      "title": "更适合您的 Google 搜索",
+      "oneLiner": "通过安全地选择将 Google 钱包、云端硬盘和 Gemini 应用连接到 AI 模式下的个人智能，获得更有用的搜索响应。",
+      "date": "2026-11-23",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google AI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-9dddeb89e4",
+      "title": "通过代理和形式验证寻找更快的量子算法",
+      "oneLiner": "谢尔盖·希罗博科夫、本·贾德伯格和瑞安·巴布什",
+      "date": "2026-11-23",
+      "productIds": [
+        "gemini"
+      ],
+      "source": "Google DeepMind",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-f8a4e02f42",
+      "title": "内部法律的互联智能",
+      "oneLiner": "观看 OpenAI 的 Stacey Wang 和 Craig Bruney、LECG 的 Mary O’Carroll 和 Cooley 的 Richard Segal 探索 AI 如何帮助内部法律团队连接业务环境、构建可重复使用的工作流",
+      "date": "2026-11-23",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
+    {
+      "id": "sig-680b35173b",
+      "title": "Richpanel 帮助公司在 30 天内自动化实现 50% 的支持",
+      "oneLiner": "Richpanel 使用 GPT-6 Astra 和 GPT-6.1 Sol 为其 AI 支持代理配备工具和程序，并使用 GPT-6 Luna 进行对话。",
+      "date": "2026-11-23",
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": "OpenAI",
+      "tags": [],
+      "stars": 4
+    },
     {
       "id": "sig-de5cd1a6d5",
       "title": "困惑与智慧",
@@ -334,69 +394,853 @@
       "source": "OpenAI",
       "tags": [],
       "stars": 4
-    },
-    {
-      "id": "sig-c7d3ecb006",
-      "title": "利用 OpenAI 模型推进芯片设计",
-      "oneLiner": "改进 Jalapeño 的计算模块 我们与 AMD 的合作 优化 RISC-V 内核 根据规范设计 RISC-V 内核 下一步是什么 改进 Jalapeo 的计算模块 我们与 AMD 的合作 优化 RISC-V 内核 根据规范设计 RISC",
-      "date": "2026-11-18",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-6cab9c8cd3",
-      "title": "Le Groupe Figaro 和 OpenAI 合作将 Le Figaro 新闻带入 ChatGPT",
-      "oneLiner": "此次合作将使《费加罗报》的新闻报道可以通过摘要和摘录（包括潜在故事的链接）在 ChatGPT 中被发现。",
-      "date": "2026-11-18",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-549a77347d",
-      "title": "GPT-6.2 Astra 和 Sol 简介",
-      "oneLiner": "（在新窗口中打开） GPT-6.2 Sol：我们日常工作的首选模型 GPT-6.2 Sol：我们日常工作的首选模型 符合行业标准的专业输出 计算机使用和交互式网页设计 具有更简洁代码风格的高效工作流程 网络安全功能 安全性和一致性 定价和可",
-      "date": "2026-11-17",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-357d085ae0",
-      "title": "让双子座为你工作",
-      "oneLiner": "双子座现在可以打电话、支付账单并完成任务。",
-      "date": "2026-11-17",
-      "productIds": [
-        "gemini"
-      ],
-      "source": "Google AI",
-      "tags": [],
-      "stars": 4
-    },
-    {
-      "id": "sig-c6c361c53b",
-      "title": "介绍用于销售的 ChatGPT",
-      "oneLiner": "通过全新的销售体验和 30 多个新的和扩展的合作伙伴插件，帮助每个卖家缩短销售周期，从找到合适的帐户到履行客户承诺。",
-      "date": "2026-11-17",
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": "OpenAI",
-      "tags": [],
-      "stars": 4
     }
   ],
   "items": [
+    {
+      "id": "sig-1d0c151fef",
+      "title": "OpenAI 和 Cisco 推出 Shirudo",
+      "oneLiner": "开源运行时，可帮助操作员保护正在运行的 Linux 系统，无需等待补丁或重新启动",
+      "summary": {
+        "oneSentence": "开源运行时，可帮助操作员保护正在运行的 Linux 系统，无需等待补丁或重新启动",
+        "bullets": [
+          "开源运行时，可帮助操作员保护正在运行的 Linux 系统，无需等待补丁或重新启动",
+          "分享 Shirudo 的工作原理 Shirudo 的工作原理 重新思考基础设施 开放式构建 Shirudo 工作原理 重新思考基础设施 开放式构建 OpenAI 和 Cisco 推出了 Shirudo，这是一个开源运行时，可帮助团队在推出补丁时保护 Linux 系统。在受控测试 ⁠（在新窗口中打开）中，Codex 生成",
+          "我们邀请整个行业的开发人员、安全研究人员和基础设施运营商来帮助进一步开发该项目。该项目汇集了 OpenAI 的前沿人工智能、安全和基础设施研究以及思科的基础设施和安全专业知识，以帮助保护人们每天依赖的系统。",
+          "测试和部署补丁仍可能需要数天或数周的时间。同时保护服务可能具有挑战性，因为漏洞利用和合法请求可能依赖于相同的 Linux 操作。完全阻止该操作可能会使服务脱机。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：开源运行时，可帮助操作员保护正在运行的 Linux 系统，无需等待补丁或重新启动",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/introducing-shirudo"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "开源运行时，可帮助操作员保护正在运行的 Linux 系统，无需等待补丁或重新启动",
+        "分享 Shirudo 的工作原理 Shirudo 的工作原理 重新思考基础设施 开放式构建 Shirudo 工作原理 重新思考基础设施 开放式构建 OpenAI 和 Cisco 推出了 Shirudo，这是一个开源运行时，可帮助团队在推出补丁时保护 Linux 系统。在受控测试 ⁠（在新窗口中打开）中，Codex 生成的防护罩阻止了针对正在运行的 Elasticsearch 服务的 Java4Shell 漏洞利用尝试，而无需重新启动。",
+        "我们邀请整个行业的开发人员、安全研究人员和基础设施运营商来帮助进一步开发该项目。该项目汇集了 OpenAI 的前沿人工智能、安全和基础设施研究以及思科的基础设施和安全专业知识，以帮助保护人们每天依赖的系统。",
+        "测试和部署补丁仍可能需要数天或数周的时间。同时保护服务可能具有挑战性，因为漏洞利用和合法请求可能依赖于相同的 Linux 操作。完全阻止该操作可能会使服务脱机。",
+        "Shirudo（日语中的“盾牌”）旨在帮助安全团队进行这种权衡。团队可以测试称为防护罩的临时保护措施是否可以阻止暴露漏洞的行为，同时允许合法请求通过。一旦操作员批准了防护罩，就可以在服务继续运行的同时进行部署。",
+        "Shirudo 使用 eBPF，这是一种 Linux 技术，允许小程序在操作系统内的特定点运行。这使得观察可疑活动并对正在运行的系统应用有针对性的安全保护成为可能。",
+        "监护代理如何使用 eBPF 观察和保护正在运行的系统。",
+        "OpenAI 和 Cisco 正在围绕四个核心功能设计 Shirudo：",
+        "实时保护：eBPF 防护罩可以阻止易受攻击的代码路径，而无需重新启动系统。安全团队可以在实施之前监控提议的防护措施将如何影响应用程序。",
+        "以机器速度进行防御：OpenAI 和思科正在设计 Shirudo，为代理提供可编程控制来调查漏洞、开发有针对性的防护罩，并验证其针对漏洞和实际工作负载的有效性。安全团队控制部署的内容。"
+      ],
+      "highlights": [
+        "开源运行时，可帮助操作员保护正在运行的 Linux 系统，无需等待补丁或重新启动",
+        "分享 Shirudo 的工作原理 Shirudo 的工作原理 重新思考基础设施 开放式构建 Shirudo 工作原理 重新思考基础设施 开放式构建 OpenAI",
+        "我们邀请整个行业的开发人员、安全研究人员和基础设施运营商来帮助进一步开发该项目。该项目汇集了 OpenAI 的前沿人工智能、安全和基础设施研究以及思科的基础设施"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "OpenAI and Cisco introduce Shirudo",
+      "originalLang": "en",
+      "date": "2026-11-23",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/introducing-shirudo",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "OpenAI and Cisco introduce Shirudo"
+      },
+      "raw": {
+        "title": "OpenAI and Cisco introduce Shirudo",
+        "url": "https://openai.com/index/introducing-shirudo",
+        "fetched": true,
+        "savedAt": "2026-11-24T07:57:21.314Z"
+      }
+    },
+    {
+      "id": "sig-c5903c8754",
+      "title": "更适合您的 Google 搜索",
+      "oneLiner": "通过安全地选择将 Google 钱包、云端硬盘和 Gemini 应用连接到 AI 模式下的个人智能，获得更有用的搜索响应。",
+      "summary": {
+        "oneSentence": "通过安全地选择将 Google 钱包、云端硬盘和 Gemini 应用连接到 AI 模式下的个人智能，获得更有用的搜索响应。",
+        "bullets": [
+          "通过安全地选择将 Google 钱包、云端硬盘和 Gemini 应用连接到 AI 模式下的个人智能，获得更有用的搜索响应。",
+          "您的浏览器不支持音频元素。",
+          "我们正在将 Google 钱包和云端硬盘添加到个人智能中，从而使搜索能够根据您的支出、文档和聊天内容提供答案。这些更新可帮助您管理财务、组织项目并维护整个搜索线程的上下文。您可以通过访问您的搜索个性化设置来选择连接这些应用程序，您可以在其中保留对数据的控制，并可以随时调整您的首选项。",
+          "Google 搜索产品副总裁 Robby Stein 解释说，您现在可以将 Google 钱包和云端硬盘等应用连接到搜索，以获得更加个性化的结果。当您选择加入时，搜索会使用您自己的文档、消费习惯和最近的活动来提供量身定制的答案。这可以帮助您跟踪财务目标、组织项目信息并继续研究任务，而无需重复自己。您仍然可以掌控一切，并"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google AI 官网发布：通过安全地选择将 Google 钱包、云端硬盘和 Gemini 应用连接到 AI 模式下的个人智能，获得更有用的搜索响应。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "通过安全地选择将 Google 钱包、云端硬盘和 Gemini 应用连接到 AI 模式下的个人智能，获得更有用的搜索响应。",
+        "您的浏览器不支持音频元素。",
+        "我们正在将 Google 钱包和云端硬盘添加到个人智能中，从而使搜索能够根据您的支出、文档和聊天内容提供答案。这些更新可帮助您管理财务、组织项目并维护整个搜索线程的上下文。您可以通过访问您的搜索个性化设置来选择连接这些应用程序，您可以在其中保留对数据的控制，并可以随时调整您的首选项。",
+        "Google 搜索产品副总裁 Robby Stein 解释说，您现在可以将 Google 钱包和云端硬盘等应用连接到搜索，以获得更加个性化的结果。当您选择加入时，搜索会使用您自己的文档、消费习惯和最近的活动来提供量身定制的答案。这可以帮助您跟踪财务目标、组织项目信息并继续研究任务，而无需重复自己。您仍然可以掌控一切，并可以随时在您的设置中管理这些连接。",
+        "最有用的搜索体验将世界上丰富的信息与与您独特相关的见解结合在一起。如今，搜索变得更加定制化，能够将更多应用程序连接到个人智能 - 我们正在引入更多与个人相关的响应，因此您可以更轻松地找到您需要的内容。",
+        "从今天开始，您可以选择在 AI 模式下将 Google 钱包安全地连接到个人智能，并在未来几周内支持 Drive 和 Gemini 应用程序 - 将您的支出、文档和聊天的背景信息直接带到搜索中。这些应用程序与 Gmail、日历和照片一起，根据您的个人情况提供更加量身定制的响应。",
+        "要将您的应用程序连接到 AI 模式下的 Personal Intelligence，请打开“搜索个性化”，选择“连接的应用程序”，然后选择要连接的应用程序。您可以选择是否以及何时选择加入，并且可以随时打开或关闭这些连接。您始终可以控制个性化设置，很快您还可以通过任何定制响应下方的“个性化”图标查看 AI 模式使用的上下文。如果您想编辑任何内容，只需让 AI 模式知道要更改的内容，例如在帖子中回复“我不再是素食主义者”。",
+        "您还将开始在 AI 概述和 AI 模式中看到更多针对您最近的搜索上下文量身定制的个人相关回复。因此，如果您一直在研究和计划旅行，您可以在新的搜索线程中从上次停下的地方继续，而无需重新开始或重复搜索。与往常一样，您可以随时在搜索设置中调整或关闭个性化设置。",
+        "订阅我们的时事通讯，了解产品更新、活动信息、特别优惠等。",
+        "检查您的收件箱以确认您的订阅。"
+      ],
+      "highlights": [
+        "通过安全地选择将 Google 钱包、云端硬盘和 Gemini 应用连接到 AI 模式下的个人智能，获得更有用的搜索响应。",
+        "您的浏览器不支持音频元素。",
+        "我们正在将 Google 钱包和云端硬盘添加到个人智能中，从而使搜索能够根据您的支出、文档和聊天内容提供答案。这些更新可帮助您管理财务、组织项目并维护整个搜索线"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "A more tailored Google Search that’s uniquely yours",
+      "originalLang": "en",
+      "date": "2026-11-23",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google AI",
+        "author": "Google",
+        "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+        "home": "https://blog.google/technology/ai/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "A more tailored Google Search that’s uniquely yours"
+      },
+      "raw": {
+        "title": "A more tailored Google Search that’s uniquely yours",
+        "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/",
+        "fetched": true,
+        "savedAt": "2026-11-24T07:57:27.421Z"
+      }
+    },
+    {
+      "id": "sig-9dddeb89e4",
+      "title": "通过代理和形式验证寻找更快的量子算法",
+      "oneLiner": "谢尔盖·希罗博科夫、本·贾德伯格和瑞安·巴布什",
+      "summary": {
+        "oneSentence": "谢尔盖·希罗博科夫、本·贾德伯格和瑞安·巴布什",
+        "bullets": [
+          "谢尔盖·希罗博科夫、本·贾德伯格和瑞安·巴布什",
+          "如何使用代理团队和形式验证改进用于聚变能量、化学和酶建模的量子算法",
+          "量子计算机很快就能解决经典超级计算机无法解决的问题。然而，有一个问题：即使使用最好的量子算法，一些重要的应用程序仍然需要比早期量子硬件能够支持的资源更多的资源。",
+          "在一篇新论文中，我们使用 Gemini 4 代理团队来改进众所周知的量子算法，创建高效的量子电路。这些优化电路是量子计算机如何执行算法的指令，有一天可以帮助我们进行模拟，解决从聚变能到药物设计等复杂的科学挑战。为了帮助社区以这项工作为基础，我们在 GitHub 上开源了精益库、问题规范和经过验证的解决方案。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Google DeepMind 官网发布：谢尔盖·希罗博科夫、本·贾德伯格和瑞安·巴布什",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：gemini",
+        "actionItems": [
+          "阅读原文（英文）：https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "gemini"
+      ],
+      "content": [
+        "谢尔盖·希罗博科夫、本·贾德伯格和瑞安·巴布什",
+        "如何使用代理团队和形式验证改进用于聚变能量、化学和酶建模的量子算法",
+        "量子计算机很快就能解决经典超级计算机无法解决的问题。然而，有一个问题：即使使用最好的量子算法，一些重要的应用程序仍然需要比早期量子硬件能够支持的资源更多的资源。",
+        "在一篇新论文中，我们使用 Gemini 4 代理团队来改进众所周知的量子算法，创建高效的量子电路。这些优化电路是量子计算机如何执行算法的指令，有一天可以帮助我们进行模拟，解决从聚变能到药物设计等复杂的科学挑战。为了帮助社区以这项工作为基础，我们在 GitHub 上开源了精益库、问题规范和经过验证的解决方案。",
+        "因为我们无法在经典计算机或当今的小型量子处理器上测试资源密集型量子电路，所以我们必须证明它们在数学上可以工作。我们的代理团队使用正式定理证明器 Lean 证明了每个结果。",
+        "使用代理团队改进量子算法 对于每个问题，我们都分配独立的代理团队寻找算法改进的任务。然后，在输入共享笔记本之前，使用精益验证这些想法。每四个小时，每个团队的代理都会召开一次虚拟会议，进行交易、辩论和比较想法。随着时间的推移，团队产生了更有效的想法，计算成本逐渐下降，直到实验完成。",
+        "我们选择专注于有一天可能影响人类面临的一些最大挑战的应用，例如清洁能源和药物设计，但我们的方法并不局限于这些问题领域。",
+        "在科学模拟中运行这些算法仍然需要比第一台纠错量子计算机可能提供的更多的计算资源，但这些改进是显着的。",
+        "我们也对找到它们的方式感到兴奋。我们在精益中为量子算法构建了一个新的开源库，可供协作代理团队使用，因此他们的想法得到了数学正确性保证的支持。然后，我们可以通过为我们的代理团队指定问题来设定研究方向并监督他们的进展。我们对量子算法的了解，结合我们建立代理团队的方式，带来了真正的科学成果。",
+        "同样的方法还可以加速量子计算研究的其他方面以及更广泛的科学发现。经过验证的人工智能搜索压缩了曾经需要数年手动设计的工作，使研究人员能够专注于选择问题和解释结果。"
+      ],
+      "highlights": [
+        "谢尔盖·希罗博科夫、本·贾德伯格和瑞安·巴布什",
+        "如何使用代理团队和形式验证改进用于聚变能量、化学和酶建模的量子算法",
+        "量子计算机很快就能解决经典超级计算机无法解决的问题。然而，有一个问题：即使使用最好的量子算法，一些重要的应用程序仍然需要比早期量子硬件能够支持的资源更多的资源。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Finding faster quantum algorithms with agents and formal verification",
+      "originalLang": "en",
+      "date": "2026-11-23",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "gemini"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Google DeepMind",
+        "author": "DeepMind",
+        "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+        "home": "https://deepmind.google/blog/",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Finding faster quantum algorithms with agents and formal verification"
+      },
+      "raw": {
+        "title": "Finding faster quantum algorithms with agents and formal verification",
+        "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+        "fetched": true,
+        "savedAt": "2026-11-24T07:57:35.308Z"
+      }
+    },
+    {
+      "id": "sig-bbe25ab304",
+      "title": "如何为您的用例选择最佳的语音转文本 API",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+          "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_hlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "0:00 1.0x 获取 API 密钥 了解更多 在此页面",
+          "通过语音转文本 API，您可以将音频转录功能添加到您已经使用的应用程序和系统中。这些 API 在各个行业都有用例。它们有助于转录客户服务电话、为视频添加字幕、记录会议记录，甚至创建临床文档。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/choose-the-best-speech-to-text-api"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_hlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 获取 API 密钥 了解更多信息 博客资源 如何为您的用例选择最佳的语音转文本 API 撰写者：Jack Limebear 发布于 2026 年 11 月 23 日 听 听这篇文章",
+        "0:00 1.0x 获取 API 密钥 了解更多 在此页面",
+        "通过语音转文本 API，您可以将音频转录功能添加到您已经使用的应用程序和系统中。这些 API 在各个行业都有用例。它们有助于转录客户服务电话、为视频添加字幕、记录会议记录，甚至创建临床文档。",
+        "有如此多的语音转文本 API 可供选择，最适合您组织的选择将取决于您的目标。一些团队优先考虑高准确率或低延迟，而另一些团队则重视多语言支持。以下是为您的项目选择语音转文本 API 时需要考虑的事项。",
+        "语音转文本准确率可能会因底层音频的质量而异，因此 API 可能无法始终达到其基准分数。不要完全依赖基准来做出决定，而是使用适合您计划用例的真实语音来测试 API。",
+        "当您测试 API 时，请监控单词错误率以确定输出是否足够准确以满足您的需求。您还需要权衡准确性和成本来决定哪个 API 适合您。",
+        "如果您身处医疗保健、法律或金融等受到严格监管的行业，您可能更愿意为能够提供始终如一的高精度的 API 支付更多费用，而无论音频质量如何。但是，如果您的预算有限，您可能会选择牺牲一些准确性来提高负担能力。",
+        "选择语音转文本 API 时要考虑的另一个因素是延迟，即音频和转录之间的延迟长度。评估 API 选项时，请在真实通话条件下运行延迟测试，而不仅仅是转录示例音频。",
+        "如果您使用 API 实时转录会议或客户通话，这是一个特别重要的考虑因素。如果延迟太高，模型转录语音的速度将比实际情况慢得多，从而导致用户体验不佳。"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为",
+        "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opaci",
+        "0:00 1.0x 获取 API 密钥 了解更多 在此页面"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How to choose the best speech to text API for your use case",
+      "originalLang": "en",
+      "date": "2026-11-23",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/choose-the-best-speech-to-text-api",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How to choose the best speech to text API for your use case"
+      },
+      "raw": {
+        "title": "How to choose the best speech to text API for your use case",
+        "url": "https://elevenlabs.io/blog/choose-the-best-speech-to-text-api",
+        "fetched": true,
+        "savedAt": "2026-11-24T07:57:42.024Z"
+      }
+    },
+    {
+      "id": "sig-0dd0b35c7b",
+      "title": "ElevenMusic 与 ElevenCreative：使用哪种音乐工具",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+          "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_hlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root ",
+          "ElevenLabs 通过 ElevenMusic 和 ElevenCreative 提供音乐生成服务。 ElevenMusic 是我们用于创作、发现、混音和分享音乐的消费者应用程序。 Music on ElevenCreative 专为需要创建、管理、发布、许可和下载人工智能生成音乐的创作者和企业而设计。",
+          "虽然两者都使用相同的底层技术，但它们是针对不同的受众和用例而设计的。本文介绍了每种产品的用途以及何时使用每种产品。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 4,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/elevenmusic-vs-elevencreative"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_hlfiv5ubsnitupfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 注册 博客资源 ElevenMusic 与 ElevenCreative 中的音乐：我需要哪一个？作者：Kendall White 发表于 2026 年 11 月 23 日 听 听这篇文章",
+        "ElevenLabs 通过 ElevenMusic 和 ElevenCreative 提供音乐生成服务。 ElevenMusic 是我们用于创作、发现、混音和分享音乐的消费者应用程序。 Music on ElevenCreative 专为需要创建、管理、发布、许可和下载人工智能生成音乐的创作者和企业而设计。",
+        "虽然两者都使用相同的底层技术，但它们是针对不同的受众和用例而设计的。本文介绍了每种产品的用途以及何时使用每种产品。",
+        "ElevenMusic 是一款用于创作录音室品质歌曲的独立应用程序。 ElevenMusic 是一款专为创作歌曲而打造的 AI 音乐生成器，其工具可让您控制所制作音乐的每个部分。开始是免费的，然后 Pro 版每月 9.99 美元，付款与您的 ElevenLabs 计划积分分开。",
+        "如果您的目标是创作一首完整的歌曲，ElevenMusic 就是您的起点。在提示中描述您想要的声音或上传您已经制作的曲目，然后逐节编辑和重新混音，直到它正是您想要的。 ElevenMusic 采用艺术家、唱片公司和出版商的授权音乐构建。",
+        "ElevenCreative 是 ElevenLabs 的语音、音效、视频和音乐创意平台，供内容创作者、工作室和开发人员使用。音乐生成是众多工具中的一种，旨在将音乐添加到视频、广告和其他项目中。它是免费开始的，付费级别使用您的 ElevenLabs 计划中包含的积分。",
+        "如果您需要音乐来配合视频、广告、歌曲或游戏，请使用 ElevenCreative。它的音乐工具可以生成任何风格和您选择的长度的歌曲，并使用编辑工具来完善它们。 Music in ElevenCreative 已获得几乎所有商业用例的许可。",
+        "ElevenMusic 是围绕歌曲构建的。你打开应用程序，输入一些关于你想要的情绪、流派或故事的单词，然后就可以获得包含人声、歌词和制作的成品曲目。",
+        "该体验专为音乐家、业余爱好者以及任何有自己想听的歌曲想法的人而设计。"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为",
+        "html:has([data-nav-cover=\"_R_hlfiv5ubsnitupfivb_\"][data-open]:not([style*=\"opaci",
+        "ElevenLabs 通过 ElevenMusic 和 ElevenCreative 提供音乐生成服务。 ElevenMusic 是我们用于创作、发现、混音和分"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "ElevenMusic vs. ElevenCreative: Which music tool to use",
+      "originalLang": "en",
+      "date": "2026-11-23",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/elevenmusic-vs-elevencreative",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "ElevenMusic vs. ElevenCreative: Which music tool to use"
+      },
+      "raw": {
+        "title": "ElevenMusic vs. music in ElevenCreative: which do I need?",
+        "url": "https://elevenlabs.io/blog/elevenmusic-vs-elevencreative",
+        "fetched": true,
+        "savedAt": "2026-11-24T07:57:48.747Z"
+      }
+    },
+    {
+      "id": "sig-f8a4e02f42",
+      "title": "内部法律的互联智能",
+      "oneLiner": "观看 OpenAI 的 Stacey Wang 和 Craig Bruney、LECG 的 Mary O’Carroll 和 Cooley 的 Richard Segal 探索 AI 如何帮助内部法律团队连接业务环境、构建可重复使用的工作流",
+      "summary": {
+        "oneSentence": "观看 OpenAI 的 Stacey Wang 和 Craig Bruney、LECG 的 Mary O’Carroll 和 Cooley 的 Richard Segal 探索 AI 如何帮助内部法律团队连接业务环境、构建可重复使用的工作流",
+        "bullets": [
+          "观看 OpenAI 的 Stacey Wang 和 Craig Bruney、LECG 的 Mary O’Carroll 和 Cooley 的 Richard Segal 探索 AI 如何帮助内部法律团队连接业务环境、构建可重复使用的工作流程并从外部顾问那里获得更多收益。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：观看 OpenAI 的 Stacey Wang 和 Craig Bruney、LECG 的 Mary O’Carroll 和 Cooley 的 Richard Segal 探索 AI 如何帮助内部法律团队连接业务环境、构建可重复使用的工作流",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/business/learn/connected-intelligence-for-in-house-legal"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "观看 OpenAI 的 Stacey Wang 和 Craig Bruney、LECG 的 Mary O’Carroll 和 Cooley 的 Richard Segal 探索 AI 如何帮助内部法律团队连接业务环境、构建可重复使用的工作流程并从外部顾问那里获得更多收益。"
+      ],
+      "highlights": [
+        "观看 OpenAI 的 Stacey Wang 和 Craig Bruney、LECG 的 Mary O’Carroll 和 Cooley 的 Richard "
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Connected intelligence for in-house legal",
+      "originalLang": "en",
+      "date": "2026-11-23",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Connected intelligence for in-house legal"
+      },
+      "raw": {
+        "title": "Connected intelligence for in-house legal",
+        "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+        "fetched": true,
+        "savedAt": "2026-11-24T07:57:50.255Z"
+      }
+    },
+    {
+      "id": "sig-680b35173b",
+      "title": "Richpanel 帮助公司在 30 天内自动化实现 50% 的支持",
+      "oneLiner": "Richpanel 使用 GPT-6 Astra 和 GPT-6.1 Sol 为其 AI 支持代理配备工具和程序，并使用 GPT-6 Luna 进行对话。",
+      "summary": {
+        "oneSentence": "Richpanel 使用 GPT-6 Astra 和 GPT-6.1 Sol 为其 AI 支持代理配备工具和程序，并使用 GPT-6 Luna 进行对话。",
+        "bullets": [
+          "Richpanel 使用 GPT-6 Astra 和 GPT-6.1 Sol 为其 AI 支持代理配备工具和程序，并使用 GPT-6 Luna 进行对话。",
+          "分享 构建人工智能支持的工具和程序 构建人工智能支持的工具和程序 在支持运营中平衡情报和成本 提高联络中心自动化和客户满意度 构建人工智能支持的工具和程序 在支持运营中平衡情报和成本 提高联络中心自动化和客户满意度 除了知道如何回答客户的请求之外，人工智能支持代理还需要能够执行解决方案。为此，他们需要获得正确的工具和说",
+          "Richpanel 首席执行官 Amit RG 表示，人工支持代理可以使用 20 或 30 种工具来为客户提供服务，而他们遵循的程序可能永远不会被写下来。",
+          "Richpanel ⁠（在新窗口中打开）解决了使用 OpenAI 模型设置 AI 支持代理采取行动和处理客户对话所需的工具和程序的问题。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：Richpanel 使用 GPT-6 Astra 和 GPT-6.1 Sol 为其 AI 支持代理配备工具和程序，并使用 GPT-6 Luna 进行对话。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/business/customer-stories/richpanel-ai-customer-support"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "Richpanel 使用 GPT-6 Astra 和 GPT-6.1 Sol 为其 AI 支持代理配备工具和程序，并使用 GPT-6 Luna 进行对话。",
+        "分享 构建人工智能支持的工具和程序 构建人工智能支持的工具和程序 在支持运营中平衡情报和成本 提高联络中心自动化和客户满意度 构建人工智能支持的工具和程序 在支持运营中平衡情报和成本 提高联络中心自动化和客户满意度 除了知道如何回答客户的请求之外，人工智能支持代理还需要能够执行解决方案。为此，他们需要获得正确的工具和说明。",
+        "Richpanel 首席执行官 Amit RG 表示，人工支持代理可以使用 20 或 30 种工具来为客户提供服务，而他们遵循的程序可能永远不会被写下来。",
+        "Richpanel ⁠（在新窗口中打开）解决了使用 OpenAI 模型设置 AI 支持代理采取行动和处理客户对话所需的工具和程序的问题。",
+        "“情报不再是瓶颈。一切都围绕着它。”",
+        "部署支持代理通常需要前沿部署的工程师将代理连接到客户的系统并定义其工作方式。阿米特看到许多公司没有多余的工程师，他问自己：“如果那个前沿部署的工程师本身就是人工智能代理怎么办？”",
+        "因此，Richpanel 构建了它：一个 AI 管理器来处理代理设置。客户开始称其为 Boss AI。它编写程序并定义 Richpanel 的一线支持代理、副驾驶和质量保证代理如何调用他们所需的工具。",
+        "Richpanel 将 GPT-6 Astra 和 GPT-6.1 Sol 用于 Boss AI，在构建其他代理将遵循的工具和程序时优先考虑准确性。",
+        "Richpanel 设计的一线代理可以处理数十万个对话，使每次交互的成本成为模型选择的重要组成部分。它使用 GPT-6 Luna 和其他 OpenAI 模型来完成这项工作。阿米特表示，Richpanel 对其副驾驶和质量保证人员采取了同样的方法。",
+        "“重要的是成本和智能之间的平衡，”阿米特说。 Richpanel 的客户可能已经在使用低成本的外包支持。在此出发点上，自动化运营必须具有经济意义。"
+      ],
+      "highlights": [
+        "Richpanel 使用 GPT-6 Astra 和 GPT-6.1 Sol 为其 AI 支持代理配备工具和程序，并使用 GPT-6 Luna 进行对话。",
+        "分享 构建人工智能支持的工具和程序 构建人工智能支持的工具和程序 在支持运营中平衡情报和成本 提高联络中心自动化和客户满意度 构建人工智能支持的工具和程序 在支",
+        "Richpanel 首席执行官 Amit RG 表示，人工支持代理可以使用 20 或 30 种工具来为客户提供服务，而他们遵循的程序可能永远不会被写下来。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Richpanel helps companies automate 50% of support in 30 days",
+      "originalLang": "en",
+      "date": "2026-11-23",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Richpanel helps companies automate 50% of support in 30 days"
+      },
+      "raw": {
+        "title": "Richpanel helps companies automate 50% of support in 30 days",
+        "url": "https://openai.com/business/customer-stories/richpanel-ai-customer-support",
+        "fetched": true,
+        "savedAt": "2026-11-24T07:57:55.872Z"
+      }
+    },
+    {
+      "id": "sig-accfeb9908",
+      "title": "AI Gateway 现在运行金丝雀 ZDR 审核 - Vercel",
+      "oneLiner": "AI Gateway 现在针对推理提供程序运行金丝雀审核，以检测何时在推理路径之外读取提示内容。",
+      "summary": {
+        "oneSentence": "AI Gateway 现在针对推理提供程序运行金丝雀审核，以检测何时在推理路径之外读取提示内容。",
+        "bullets": [
+          "AI Gateway 现在针对推理提供程序运行金丝雀审核，以检测何时在推理路径之外读取提示内容。",
+          "合同零数据保留 (ZDR) 协议和时间点安全审核确定了提供商应如何处理您的数据，但生产基础设施不断变化。金丝雀审计在顶部添加了一个检测层。",
+          "创建其他地方不存在的唯一 URL，每个 URL 都私下映射到特定的提供程序、模型和审计运行。",
+          "通过正常推理路径发送包含这些 URL 的提示，并为涵盖的提供者请求 ZDR，并将非 ZDR 对包含为阳性对照。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：AI Gateway 现在针对推理提供程序运行金丝雀审核，以检测何时在推理路径之外读取提示内容。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/ai-gateway-now-runs-canary-zdr-audits"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "AI Gateway 现在针对推理提供程序运行金丝雀审核，以检测何时在推理路径之外读取提示内容。",
+        "合同零数据保留 (ZDR) 协议和时间点安全审核确定了提供商应如何处理您的数据，但生产基础设施不断变化。金丝雀审计在顶部添加了一个检测层。",
+        "创建其他地方不存在的唯一 URL，每个 URL 都私下映射到特定的提供程序、模型和审计运行。",
+        "通过正常推理路径发送包含这些 URL 的提示，并为涵盖的提供者请求 ZDR，并将非 ZDR 对包含为阳性对照。",
+        "留意交通情况。 ZDR 提供程序不应保留、检查或爬网提示内容，因此金丝雀 URL 不应接收请求。",
+        "记录对金丝雀 URL 的任何请求，识别提供商、模型并运行以进行调查。",
+        "金丝雀审计是 ZDR 合同协议和独立审计的补充，而不是取代它们。",
+        "在文档中阅读有关 AI Gateway 安全性和合规性措施的更多信息。"
+      ],
+      "highlights": [
+        "AI Gateway 现在针对推理提供程序运行金丝雀审核，以检测何时在推理路径之外读取提示内容。",
+        "合同零数据保留 (ZDR) 协议和时间点安全审核确定了提供商应如何处理您的数据，但生产基础设施不断变化。金丝雀审计在顶部添加了一个检测层。",
+        "创建其他地方不存在的唯一 URL，每个 URL 都私下映射到特定的提供程序、模型和审计运行。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "AI Gateway now runs canary ZDR audits - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-23",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/ai-gateway-now-runs-canary-zdr-audits",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "AI Gateway now runs canary ZDR audits - Vercel"
+      },
+      "raw": {
+        "title": "AI Gateway now runs canary ZDR audits",
+        "url": "https://vercel.com/changelog/ai-gateway-now-runs-canary-zdr-audits",
+        "fetched": true,
+        "savedAt": "2026-11-24T07:58:02.859Z"
+      }
+    },
+    {
+      "id": "sig-b3f3b6186f",
+      "title": "Kazunari Hanao 加入 Vercel 担任日本地区经理",
+      "oneLiner": "Kazunari Hanao 已加入 Vercel，担任日本地区经理，常驻东京。他的任命是我们对日本市场持续投资的一部分，包括扩大本地团队的计划。",
+      "summary": {
+        "oneSentence": "Kazunari Hanao 已加入 Vercel，担任日本地区经理，常驻东京。他的任命是我们对日本市场持续投资的一部分，包括扩大本地团队的计划。",
+        "bullets": [
+          "Kazunari Hanao 已加入 Vercel，担任日本地区经理，常驻东京。他的任命是我们对日本市场持续投资的一部分，包括扩大本地团队的计划。",
+          "日本开发者是 Next.js 的早期采用者。如今，Vercel 在日本的客户包括三菱商事株式会社、富士通有限公司、U-NEXT CO., Ltd. 和 DeNA Co., Ltd.，以及 SANU Inc. 和 Reiwa Travel, Inc. 等初创公司。",
+          "Kazunari 在过去十年中一直在日本建立和领导软件业务。在加入 Vercel 之前，他曾在 Pendo 担任 Pendo Japan 总裁。在此之前，他建立了 HashiCorp 的日本业务，并在东京 Pivotal 担任销售领导职务近五年。",
+          "我向他询问了在日本的机会以及他加入 Vercel 的决定。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Kazunari Hanao 已加入 Vercel，担任日本地区经理，常驻东京。他的任命是我们对日本市场持续投资的一部分，包括扩大本地团队的计划。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/kazunari-hanao-joins-vercel-as-country-manager-japan"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Kazunari Hanao 已加入 Vercel，担任日本地区经理，常驻东京。他的任命是我们对日本市场持续投资的一部分，包括扩大本地团队的计划。",
+        "日本开发者是 Next.js 的早期采用者。如今，Vercel 在日本的客户包括三菱商事株式会社、富士通有限公司、U-NEXT CO., Ltd. 和 DeNA Co., Ltd.，以及 SANU Inc. 和 Reiwa Travel, Inc. 等初创公司。",
+        "Kazunari 在过去十年中一直在日本建立和领导软件业务。在加入 Vercel 之前，他曾在 Pendo 担任 Pendo Japan 总裁。在此之前，他建立了 HashiCorp 的日本业务，并在东京 Pivotal 担任销售领导职务近五年。",
+        "我向他询问了在日本的机会以及他加入 Vercel 的决定。",
+        "将链接复制到标题 为什么您对 Vercel 在日本的未来持乐观态度？日本正处于软件构建方式的转折点。该国拥有创新型公司和才华横溢的开发人员，但复杂的企业 IT 环境正在减缓前沿人工智能的采用，以至于企业无法捕捉其价值。",
+        "Vercel 的机会是帮助日本企业从实验转向生产，并安全、可靠、高效地大规模运行人工智能应用程序。人工智能的成本、治理和安全性已成为业务优先事项，而不仅仅是技术优先事项。我最近遇到的几乎每一位 CXO 都在解决这些问题。",
+        "将链接复制到标题 您对在 Vercel 工作感兴趣的是什么？我一直被能够简化复杂性并帮助企业更快发展的技术所吸引。 Vercel 感觉就像是这一点的自然延续，具有更大的潜力。 AI 正在改变整个软件开发生命周期，Vercel 真正有机会成为下一代应用程序的基础平台。",
+        "最终说服我的是愿景、开发者至上的文化，以及在日本从头开始构建东西的机会。我喜欢创建企业，将人才聚集在一起，并创造一个让团队感到有能力解决难题的环境。 Vercel 让我有机会用我相信的技术来做到这一点。",
+        "将链接复制到标题 您在为跨国公司在日本建立业务方面学到了什么？建立成功的企业不仅仅是增加收入。首先将合适的人员聚集在一起，将他们团结在一个共同的目标周围，赢得客户和合作伙伴的信任，并建立一种让每个团队成员都有主人翁感的文化。",
+        "我还了解到将全球创新与日本客户的特定需求联系起来有多么重要。在我们的第一次会议上，Guillermo 和我谈到了未来，日本无数的数字服务都在 Vercel 上运行，人们每天都会体验到它的价值，无论他们是否意识到。 “Vercel Everywhere”是我想要打造的未来。"
+      ],
+      "highlights": [
+        "Kazunari Hanao 已加入 Vercel，担任日本地区经理，常驻东京。他的任命是我们对日本市场持续投资的一部分，包括扩大本地团队的计划。",
+        "日本开发者是 Next.js 的早期采用者。如今，Vercel 在日本的客户包括三菱商事株式会社、富士通有限公司、U-NEXT CO., Ltd. 和 DeNA",
+        "Kazunari 在过去十年中一直在日本建立和领导软件业务。在加入 Vercel 之前，他曾在 Pendo 担任 Pendo Japan 总裁。在此之前，他建立"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Kazunari Hanao joins Vercel as Country Manager, Japan",
+      "originalLang": "en",
+      "date": "2026-11-23",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/kazunari-hanao-joins-vercel-as-country-manager-japan",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Kazunari Hanao joins Vercel as Country Manager, Japan"
+      },
+      "raw": {
+        "title": "Kazunari Hanao joins Vercel as Country Manager, Japan",
+        "url": "https://vercel.com/blog/kazunari-hanao-joins-vercel-as-country-manager-japan",
+        "fetched": true,
+        "savedAt": "2026-11-24T07:58:10.842Z"
+      }
+    },
+    {
+      "id": "sig-fc864a1234",
+      "title": "Vercel日本法人の代表に花尾和成が就任いたしました",
+      "oneLiner": "（本記事は、 英語版の就任発表 の日本語訳に、花尾本人の就任のご挨拶を加えたものです。）",
+      "summary": {
+        "oneSentence": "（本記事は、 英語版の就任発表 の日本語訳に、花尾本人の就任のご挨拶を加えたものです。）",
+        "bullets": [
+          "（本記事は、 英語版の就任発表 の日本語訳に、花尾本人の就任のご挨拶を加えたものです。）",
+          "Vercel日本法人の代表に、 花尾和成 が就任いたしました（東京拠点）。今後、Vercelは花尾とともに国内のチームを拡充し、日本市場への投資をさらに進めていきます。",
+          "弊社が10年以上前に公開したNext.jsを、日本の開発者の皆さまはいち早く使い始めてくださいました。そして現在、日本では三菱商事、富士通、U-NEXT、ディー・エヌ・エーといった大企業から、SANUや令和トラベルといったスタートアップまで、幅広い企業にVercelをご利用いただいています。",
+          "花尾はこの10年間、日本でソフトウェア企業の運営にリーダーシップを発揮してきました。前職ではPendoの日本法人社長を務め、それ以前にはHashiCorpの日本事業を立ち上げ、Pivotalの東京オフィスで営業部門を統括しました。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：（本記事は、 英語版の就任発表 の日本語訳に、花尾本人の就任のご挨拶を加えたものです。）",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（中文）：https://vercel.com/blog/ja-kazunari-hanao-joins-vercel-as-country-manager-japan"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "（本記事は、 英語版の就任発表 の日本語訳に、花尾本人の就任のご挨拶を加えたものです。）",
+        "Vercel日本法人の代表に、 花尾和成 が就任いたしました（東京拠点）。今後、Vercelは花尾とともに国内のチームを拡充し、日本市場への投資をさらに進めていきます。",
+        "弊社が10年以上前に公開したNext.jsを、日本の開発者の皆さまはいち早く使い始めてくださいました。そして現在、日本では三菱商事、富士通、U-NEXT、ディー・エヌ・エーといった大企業から、SANUや令和トラベルといったスタートアップまで、幅広い企業にVercelをご利用いただいています。",
+        "花尾はこの10年間、日本でソフトウェア企業の運営にリーダーシップを発揮してきました。前職ではPendoの日本法人社長を務め、それ以前にはHashiCorpの日本事業を立ち上げ、Pivotalの東京オフィスで営業部門を統括しました。",
+        "このたび、Vercelの日本法人代表に就任いたしました花尾和成です。私は20年以上IT業界に身を置き、そのうち10年以上は、開発者が開発そのものに集中できるようにするプロダクトに携わってまいりました。この経験を活かし、日本の開発者の皆さまと、その先にあるビジネスの価値を最大化することに貢献してまいります。",
+        "Vercelには、CEOのギシェルモ・ラウチを筆頭に、日本を好きなメンバーが数多くいます。こうした仲間の後押しを受けながら素晴らしいチームをつくり、Vercelが日本市場にとってかけがえのない存在となることを目指します。そして究極的には、直接的にも間接的にも、Vercelが日本のあらゆる場所で使われている世界を実現したいと考えています。",
+        "ここからは、私（Nick Bogaty, CRO）が聞き手を務めた花尾へのインタビューをお届けします。日本市場にどのような可能性を感じているのか、Vercelへの入社を決めた理由とあわせて伺いました。",
+        "Copy link to heading Vercelが日本でさらに成長できるとお考えなのは、なぜですか？ 日本のソフトウェア開発は、まさに転換期を迎えています。日本には革新的な企業が多く、高い技術力を持つ開発者の皆さまが活躍されています。一方で、多くの企業では既存のシステムが複雑になり、最先端のAIの導入がなかなか進んでいません。その結果、AIを十分に活用できていないケースもあります。",
+        "日本企業がAIのポテンシャルを引き出すには、AIを試す段階から本番運用へ進む必要があります。Vercelは、その一歩を後押しできると考えています。AIアプリケーションを大規模に、安全かつ安定して、効率よく運用できるよう支える。これはまさに、Vercelが強みを発揮できる領域です。",
+        "そして、AIにかかるコストをどう管理するか、どんなルールで運用するか、セキュリティをどう確保するか。いまやどれも技術部門だけでなく、経営陣にとっても優先課題です。最近お会いした経営幹部の方々も、こうした課題に取り組んでいると口をそろえておっしゃっていました。この点でも、Vercelは日本企業の力になれると考えています。"
+      ],
+      "highlights": [
+        "（本記事は、 英語版の就任発表 の日本語訳に、花尾本人の就任のご挨拶を加えたものです。）",
+        "Vercel日本法人の代表に、 花尾和成 が就任いたしました（東京拠点）。今後、Vercelは花尾とともに国内のチームを拡充し、日本市場への投資をさらに進めてい",
+        "弊社が10年以上前に公開したNext.jsを、日本の開発者の皆さまはいち早く使い始めてくださいました。そして現在、日本では三菱商事、富士通、U-NEXT、ディー"
+      ],
+      "translated": false,
+      "translateMethod": "native",
+      "originalTitle": "Vercel日本法人の代表に花尾和成が就任いたしました",
+      "originalLang": "zh",
+      "date": "2026-11-23",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/ja-kazunari-hanao-joins-vercel-as-country-manager-japan",
+        "home": "https://vercel.com/blog",
+        "lang": "zh",
+        "translated": false,
+        "translateMethod": "native",
+        "originalTitle": "Vercel日本法人の代表に花尾和成が就任いたしました"
+      },
+      "raw": {
+        "title": "Vercel日本法人の代表に花尾和成が就任いたしました",
+        "url": "https://vercel.com/blog/ja-kazunari-hanao-joins-vercel-as-country-manager-japan",
+        "fetched": true,
+        "savedAt": "2026-11-24T07:58:11.721Z"
+      }
+    },
     {
       "id": "sig-de5cd1a6d5",
       "title": "困惑与智慧",
@@ -12884,7 +13728,7 @@
         "url": "https://cursor.com/changelog/voice-chat",
         "fetched": true,
         "savedAt": "2026-11-08T03:54:06.689Z",
-        "retranslatedAt": "2026-11-23T05:17:31.215Z"
+        "retranslatedAt": "2026-11-24T07:58:12.974Z"
       }
     },
     {
@@ -14003,7 +14847,7 @@
         "url": "https://cursor.com/changelog/build-live-apps",
         "fetched": true,
         "savedAt": "2026-11-08T03:54:30.136Z",
-        "retranslatedAt": "2026-11-23T05:17:32.466Z"
+        "retranslatedAt": "2026-11-24T07:58:13.949Z"
       }
     },
     {
@@ -28880,7 +29724,7 @@
         "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
         "fetched": true,
         "savedAt": "2026-10-17T02:36:45.886Z",
-        "retranslatedAt": "2026-11-23T05:17:34.002Z"
+        "retranslatedAt": "2026-11-24T07:58:15.015Z"
       }
     },
     {
@@ -32478,7 +33322,7 @@
         "url": "https://cursor.com/changelog/origin-app-marketplace",
         "fetched": true,
         "savedAt": "2026-10-14T03:08:22.474Z",
-        "retranslatedAt": "2026-11-23T05:17:35.167Z"
+        "retranslatedAt": "2026-11-24T07:58:16.092Z"
       }
     },
     {
@@ -34085,158 +34929,6 @@
         "url": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
         "fetched": false,
         "savedAt": "2026-10-13T05:01:35.618Z"
-      }
-    },
-    {
-      "id": "sig-ddd28519b3",
-      "title": "推动人工智能采用的 4 种团队仪式 | Figma 博客",
-      "oneLiner": "将人工智能的影响力从个人生产力提升提升到团队范围内的胜利，需要满足人们的需求。以下是 Figma、Sephora、Mercari 和 Atlassian 的团队如何让人们更轻松地利用人工智能驱动真正的价值。",
-      "summary": {
-        "oneSentence": "将人工智能的影响力从个人生产力提升提升到团队范围内的胜利，需要满足人们的需求。以下是 Figma、Sephora、Mercari 和 Atlassian 的团队如何让人们更轻松地利用人工智能驱动真正的价值。",
-        "bullets": [
-          "将人工智能的影响力从个人生产力提升提升到团队范围内的胜利，需要满足人们的需求。以下是 Figma、Sephora、Mercari 和 Atlassian 的团队如何让人们更轻松地利用人工智能驱动真正的价值。",
-          "如今，许多人工智能实验都被孤立在单独的工作流程中：一些熟练的高级用户改进了自己的工作流程，而不太流畅的产品构建者人工智能流畅度并不是终点线超过 90% 的产品构建者表示人工智能技能对于他们未来的成功至关重要。但如果我们把注意力集中在错误的事情上怎么办？",
-          "为了促进整个团队的采用，团队需要创建以同行支持为中心的论坛，初学者和熟练的从业者都可以在低压环境中学习、练习和完善人工智能技能。这里有四个例子，从小型研究小组到原型优先的批评，团队已经取得了成功。",
-          "了解有关推动整个组织采用 AI 的更多信息。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Figma 官网发布：将人工智能的影响力从个人生产力提升提升到团队范围内的胜利，需要满足人们的需求。以下是 Figma、Sephora、Mercari 和 Atlassian 的团队如何让人们更轻松地利用人工智能驱动真正的价值。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://www.figma.com/blog/4-team-rituals-that-drive-ai-adoption/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "将人工智能的影响力从个人生产力提升提升到团队范围内的胜利，需要满足人们的需求。以下是 Figma、Sephora、Mercari 和 Atlassian 的团队如何让人们更轻松地利用人工智能驱动真正的价值。",
-        "如今，许多人工智能实验都被孤立在单独的工作流程中：一些熟练的高级用户改进了自己的工作流程，而不太流畅的产品构建者人工智能流畅度并不是终点线超过 90% 的产品构建者表示人工智能技能对于他们未来的成功至关重要。但如果我们把注意力集中在错误的事情上怎么办？",
-        "为了促进整个团队的采用，团队需要创建以同行支持为中心的论坛，初学者和熟练的从业者都可以在低压环境中学习、练习和完善人工智能技能。这里有四个例子，从小型研究小组到原型优先的批评，团队已经取得了成功。",
-        "了解有关推动整个组织采用 AI 的更多信息。",
-        "Figma 的设计运营经理 Jake Geller 发起了一个他称之为“AI Collective”的研究小组试点，以帮助设计师发展他们的 AI 技能。 “设计团队的技术熟练程度和人工智能熟练程度存在很大差异，”他说。 “我们希望提高基线并支持每个人。”为了了解这种支持应该是什么样子，杰克询问设计师他们希望发展哪些技能以及什么样的环境可以帮助他们最好地学习。",
-        "他们的兴趣各不相同，有些人希望深入并熟练使用 Figma Make 工作流实验室等工具：直接使用 Figma Make 部署设计从设计到代码的交接不一定是一条单向路。此工作流程展示了设计人员如何将代码库连接到 Figma Make，直接进行更改，并使整个团队接受审查 - 直至 PR。",
-        "Weave 工具的社区发布现已上线。这里有一些突出的工具，从将情绪板变成现实的房间模型到预览下一个指甲套装。",
-        "目标：通过实践练习和同行的支持，让人工智能不太熟练的设计师加快步伐。",
-        "形式：杰克成立了五个由同行领导的研究小组，由设计师选择的主题组织起来。一些设计师自愿领导，而其他参与者则选择加入哪个小组。每个小组在六周内每周会面一小时，并使用 Slack 在会议之间保持对话。领导者使用了灵活的计划模板，建议每项技能 20 分钟的教学时间和 40 分钟的练习时间。",
-        "要点：一个具体的目标，比如学习如何构建 Figma 插件，可以通过为参与者提供一些具体的工作目标来使学习更具吸引力和影响力。同行主导的支持让提问和摆脱困境变得更加容易。"
-      ],
-      "highlights": [
-        "将人工智能的影响力从个人生产力提升提升到团队范围内的胜利，需要满足人们的需求。以下是 Figma、Sephora、Mercari 和 Atlassian 的团队",
-        "如今，许多人工智能实验都被孤立在单独的工作流程中：一些熟练的高级用户改进了自己的工作流程，而不太流畅的产品构建者人工智能流畅度并不是终点线超过 90% 的产品构",
-        "为了促进整个团队的采用，团队需要创建以同行支持为中心的论坛，初学者和熟练的从业者都可以在低压环境中学习、练习和完善人工智能技能。这里有四个例子，从小型研究小组到"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "4 Team Rituals That Drive AI Adoption | Figma Blog",
-      "originalLang": "en",
-      "date": "2026-10-10",
-      "categoryIds": [
-        "vertical-ui"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Figma",
-        "author": "Figma",
-        "url": "https://www.figma.com/blog/4-team-rituals-that-drive-ai-adoption/",
-        "home": "https://www.figma.com/blog/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "4 Team Rituals That Drive AI Adoption | Figma Blog"
-      },
-      "raw": {
-        "title": "4 team rituals that drive AI adoption",
-        "url": "https://www.figma.com/blog/4-team-rituals-that-drive-ai-adoption/",
-        "fetched": true,
-        "savedAt": "2026-10-10T03:53:02.131Z"
-      }
-    },
-    {
-      "id": "sig-ffe9771dd0",
-      "title": "Python 3.15.0 added to actions/python-versions",
-      "oneLiner": "Python 3.15.0 added to actions/python-versions Bit of a niche link, but I've been waiting for this f",
-      "summary": {
-        "oneSentence": "Python 3.15.0 added to actions/python-versions Bit of a niche link, but I've been waiting for this for a couple of days ",
-        "bullets": [
-          "Python 3.15.0 added to actions/python-versions Bit of a niche link, but I've been waiting for this for a couple of days - I even told ChatGPT to check for it: Clone https://github.com/actions/python-v"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "待 AI 分析（请配置 DEEPSEEK_API_KEY）",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文：https://simonwillison.net/2026/Oct/10/python-actions/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 3,
-        "reason": "待评分",
-        "readMinutes": 3
-      },
-      "affectedProductIds": [],
-      "content": [
-        "Python 3.15.0 added to actions/python-versions Bit of a niche link, but I've been waiting for this for a couple of days - I even told ChatGPT to check for it: Clone https://github.com/actions/python-versions and git pull once an hour until they add the stable 3.15 - then tell me about it Now that this has landed, you can add \"3.15\" to a GitHub Actions testing matrix to run tests against the new Python 3.15.0 release . Tags: github , python , github-actions , chatgpt"
-      ],
-      "highlights": [],
-      "translated": false,
-      "originalTitle": "Python 3.15.0 added to actions/python-versions",
-      "originalLang": "en",
-      "date": "2026-10-10",
-      "categoryIds": [
-        "llm",
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "community",
-        "name": "Simon Willison",
-        "author": "Simon Willison",
-        "url": "https://simonwillison.net/2026/Oct/10/python-actions/",
-        "home": "https://simonwillison.net/",
-        "lang": "en",
-        "translated": false,
-        "translateMethod": null,
-        "originalTitle": "Python 3.15.0 added to actions/python-versions"
-      },
-      "raw": {
-        "title": "Python 3.15.0 added to actions/python-versions",
-        "url": "https://simonwillison.net/2026/Oct/10/python-actions/",
-        "fetched": false,
-        "savedAt": "2026-10-13T05:01:36.419Z"
       }
     }
   ]
