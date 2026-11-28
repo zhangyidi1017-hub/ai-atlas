@@ -1,16 +1,30 @@
 {
   "version": 2,
-  "updatedAt": "2026-11-27T06:16:12.837Z",
+  "updatedAt": "2026-11-28T05:56:01.908Z",
   "pipeline": "ai-os-agent-v2",
   "analyzed": false,
   "itemCount": 437,
   "brief": {
-    "date": "2026-11-27",
-    "generatedAt": "2026-11-27T06:16:12.836Z",
+    "date": "2026-11-28",
+    "generatedAt": "2026-11-28T05:56:01.906Z",
     "totalCount": 437,
     "todayCount": 0,
     "headline": "今日 AI 信号 — 条 · 档案共 437 条",
     "topUpdates": [
+      {
+        "id": "sig-caab37d61c",
+        "title": "代理间通信：人工智能代理如何协作",
+        "stars": 4,
+        "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "readMinutes": 5
+      },
+      {
+        "id": "sig-e60e9d4684",
+        "title": "使用 ElevenCreative 刷新您的黑色星期五广告",
+        "stars": 4,
+        "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "readMinutes": 5
+      },
       {
         "id": "sig-c964590617",
         "title": "什么是人工智能转录：它是如何工作的和用例",
@@ -31,30 +45,16 @@
         "stars": 4,
         "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，我们迄今为止最激动人心的模型。",
         "readMinutes": 5
-      },
-      {
-        "id": "sig-4398de60e3",
-        "title": "使用语音人工智能代理修复政府大门",
-        "stars": 4,
-        "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重推出 11 v4 来认识一下 11 v4，我们迄今为止最激动人心的模型。",
-        "readMinutes": 5
-      },
-      {
-        "id": "sig-09c5623a3d",
-        "title": "Cozey 如何将其运营商转变为 Vercel 上的软件构建者 - 客户",
-        "stars": 4,
-        "oneLiner": "工程以外的员工（包括仓库、财务和支持人员）现在正在构建应用程序并将其部署到 Vercel",
-        "readMinutes": 5
       }
     ],
     "sections": {
       "topUpdates": [
+        "sig-caab37d61c",
+        "sig-e60e9d4684",
         "sig-c964590617",
         "sig-fe1c4d089b",
         "sig-022420567f",
-        "sig-4398de60e3",
-        "sig-09c5623a3d",
-        "sig-fa796b45d6"
+        "sig-4398de60e3"
       ],
       "newReleases": [
         "sig-fd1a4c4700",
@@ -62,14 +62,14 @@
         "sig-f50edeef79"
       ],
       "insights": [
+        "sig-caab37d61c",
+        "sig-e60e9d4684",
         "sig-c964590617",
         "sig-fe1c4d089b",
         "sig-022420567f",
         "sig-4398de60e3",
         "sig-09c5623a3d",
-        "sig-fa796b45d6",
-        "sig-064cde63a4",
-        "sig-8d6c7c64bc"
+        "sig-fa796b45d6"
       ],
       "emergingTrends": [],
       "newApis": [],
@@ -90,8 +90,8 @@
   },
   "whatsChanging": {
     "periodDays": 30,
-    "generatedAt": "2026-11-27T06:16:12.837Z",
-    "summary": "近 30 天共 280 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
+    "generatedAt": "2026-11-28T05:56:01.908Z",
+    "summary": "近 30 天共 272 条 AI 信号。越来越多产品在做 MCP 集成、Browser Agent、Memory 层与 Coding Agent。",
     "trends": [
       {
         "name": "Release",
@@ -396,6 +396,174 @@
     }
   ],
   "items": [
+    {
+      "id": "sig-caab37d61c",
+      "title": "代理间通信：人工智能代理如何协作",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+          "(function(){var s=document.currentScript&&document.currentScript.parentElement;if(!s)return;try{var m=JSON.parse(s.getAttribute(\"data-banner-rules\"));var f=(fun",
+          "0:00 1.0x 了解更多 联系销售人员 本页",
+          "代理间通信是人工智能代理根据人类用户和系统的请求进行通信和协作的结构化过程。 Agent2Agent (A2A) 协议，也称为代理到代理协议，是此操作的主要开放标准。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 4,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/what-is-agent-to-agent-communication"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "(function(){var s=document.currentScript&&document.currentScript.parentElement;if(!s)return;try{var m=JSON.parse(s.getAttribute(\"data-banner-rules\"));var f=(function j(a,b){for(var c={},d=a.split(\"; \"),e=0;e =e.endsAt)继续;if(void 0===e.flag){if(void 0!==e.show)return{picked:e.show,exposures:c};继续}var f=b.flags[e.flag];if(void 0!==f){if(void 0===e.variants){if(\"true\"===f&&void 0!==e.show)return{picked:e.show,exposures:c};继续}if(Object.prototype.hasOwnProperty.call(e.variants,f)){c.push({flag:e.flag,variant:f});var g=e.variants[f];if(\"next\"!==g)return{picked:g,exposures:c}}}}return{picked:\"none\",exposures:c}})(m,{flags:f,now:Date.now()}).picked));}catch(e){}})() html:has([data-nav-cover=\"_R_13av5ubsnpf5ropfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_13av5ubsnpf5ropfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 了解更多信息 联系销售人员 博客资源 代理间通信：AI 代理如何协同工作 作者：Jack Limebear 发布于 2026 年 11 月 27 日 收听 收听本文",
+        "0:00 1.0x 了解更多 联系销售人员 本页",
+        "代理间通信是人工智能代理根据人类用户和系统的请求进行通信和协作的结构化过程。 Agent2Agent (A2A) 协议，也称为代理到代理协议，是此操作的主要开放标准。",
+        "模型上下文协议 (MCP) 是一个类似的开放标准，但旨在通过通用接口将 AI 代理连接到外部工具和数据存储库。 MCP 帮助客户服务代理访问知识库、CRM 系统、预订系统以及促进一线联系所需的其他工具。",
+        "代理间通信是人工智能代理发现彼此能力、委派任务以及交换上下文和数据以执行更大、持续的多步骤任务的标准化方法。其目的是促进人工智能代理之间进行协调，而无需人类操作员来回传输工作负载或尝试强制通用大型语言模型（LLM）来处理需要足够专业知识和并发活动以拉紧其上下文窗口的工作负载。",
+        "A2A和MCP等开放标准有助于解决两个问题：孤立的资源和系统集成中的M x N瓶颈。",
+        "当您可以将代理配置为在特定子域或工作范围内运行时，代理 AI 效果最佳。这有助于将上下文窗口保持在可管理的容差范围内。然而，这需要将它们彼此隔离，这意味着要么依赖人工操作员来促进系统之间的通信，要么依赖定制的网络集成，这会产生自己的问题。",
+        "当没有通用通信标准的情况下，M 个 AI 代理需要 N 个点对点 API 来连接外部资源时，就会出现 M x N 问题。大规模管理 M x N 脆弱集成很快就会变得不可持续。",
+        "可行的代理对代理网络需要展示四个关键功能："
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为",
+        "(function(){var s=document.currentScript&&document.currentScript.parentElement;i",
+        "0:00 1.0x 了解更多 联系销售人员 本页"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Agent-to-Agent Communication: How AI Agents Collaborate",
+      "originalLang": "en",
+      "date": "2026-11-27",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/what-is-agent-to-agent-communication",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Agent-to-Agent Communication: How AI Agents Collaborate"
+      },
+      "raw": {
+        "title": "Agent-to-agent communication: How AI agents work together",
+        "url": "https://elevenlabs.io/blog/what-is-agent-to-agent-communication",
+        "fetched": true,
+        "savedAt": "2026-11-28T05:54:24.903Z"
+      }
+    },
+    {
+      "id": "sig-e60e9d4684",
+      "title": "使用 ElevenCreative 刷新您的黑色星期五广告",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+          "(function(){var s=document.currentScript&&document.currentScript.parentElement;if(!s)return;try{var m=JSON.parse(s.getAttribute(\"data-banner-rules\"));var f=(fun",
+          "0:00 1.0x 观看完整会议 在此页面",
+          "您在黑色星期五的创意中投入了大量精力，并且希望它尽可能发挥作用。问题是它能持续多久。像 Meta 和 Google 这样的广告平台现在依靠创意本身来寻找买家，因此一个团队可以发布的不同广告的数量限制了它可以盈利的支出。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 5,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/webinar-recap-refresh-your-black-friday-ads-with-elevencreative"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "(function(){var s=document.currentScript&&document.currentScript.parentElement;if(!s)return;try{var m=JSON.parse(s.getAttribute(\"data-banner-rules\"));var f=(function j(a,b){for(var c={},d=a.split(\"; \"),e=0;e =e.endsAt)继续;if(void 0===e.flag){if(void 0!==e.show)return{picked:e.show,exposures:c};继续}var f=b.flags[e.flag];if(void 0!==f){if(void 0===e.variants){if(\"true\"===f&&void 0!==e.show)return{picked:e.show,exposures:c};继续}if(Object.prototype.hasOwnProperty.call(e.variants,f)){c.push({flag:e.flag,variant:f});var g=e.variants[f];if(\"next\"!==g)return{picked:g,exposures:c}}}}return{picked:\"none\",exposures:c}})(m,{flags:f,now:Date.now()}).picked));}catch(e){}})() html:has([data-nav-cover=\"_R_13av5ubsnpf5ropfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_13av5ubsnpf5ropfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 观看完整会议博客产品网络研讨会回顾：利用 ElevenCreative 刷新您的黑色星期五广告 作者：Joel Ostdiek Jan Emmanuele Gabe Michael 发布于 2026 年 11 月 27 日 收听 收听本文",
+        "0:00 1.0x 观看完整会议 在此页面",
+        "您在黑色星期五的创意中投入了大量精力，并且希望它尽可能发挥作用。问题是它能持续多久。像 Meta 和 Google 这样的广告平台现在依靠创意本身来寻找买家，因此一个团队可以发布的不同广告的数量限制了它可以盈利的支出。",
+        "在关于黑色星期五和网络星期一刷新广告的现场研讨会中，ElevenLabs 的创意部署前线人员 Gabe Michael 和 ElevenLabs 的部署策略师 Jan Emmanuele 详细介绍了为什么创意制作是旺季的瓶颈，以及永远在线的替代方案是什么样的。这篇文章涵盖了他们分享的内容以及从现在到一月份如何应用它们。",
+        "广告平台的定位变得更加广泛。平台不是通过狭窄的受众设置来完成工作，而是阅读广告并决定谁应该看到它。看起来和听起来几乎相同的广告会被视为一个单一的想法，因此对一个概念进行 10 次细微的调整不会给你带来什么新的影响力或洞察力。",
+        "获胜的广告很少见且难以预测。每周发布一些新广告的团队在获胜者之间等待很长时间，而发布更多广告的团队则更快地找到获胜者。这就是为什么最强大的品牌比其他品牌测试的创意要多得多，也是为什么获胜者往往是团队中没人会选择的广告。",
+        "旺季压缩了这一切。 11 月和 12 月的很大一部分在线支出发生在网络周的五天中，每个品牌都在该窗口对相同的购物者进行竞价。您的热门广告将会被看到，但它们会被同一个人一遍又一遍地看到。每次重复观看，尚未转化的人就不太可能采取行动。",
+        "发射后的几周更加困难。团队必须发现哪些广告已经失效，在效果下降之前更换它们，并将有效的广告延续到 12 月和 1 月。",
+        "人们对使用自己语言的广告反应更好。但许多团队仍然只使用一种语言，因为每种新语言过去都意味着一个新的生产周期，有自己的预算和周转时间。"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为",
+        "(function(){var s=document.currentScript&&document.currentScript.parentElement;i",
+        "0:00 1.0x 观看完整会议 在此页面"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Refresh Your Black Friday ads With ElevenCreative",
+      "originalLang": "en",
+      "date": "2026-11-27",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/webinar-recap-refresh-your-black-friday-ads-with-elevencreative",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Refresh Your Black Friday ads With ElevenCreative"
+      },
+      "raw": {
+        "title": "Webinar recap: Refresh your Black Friday ads with ElevenCreative",
+        "url": "https://elevenlabs.io/blog/webinar-recap-refresh-your-black-friday-ads-with-elevencreative",
+        "fetched": true,
+        "savedAt": "2026-11-28T05:54:36.097Z"
+      }
+    },
     {
       "id": "sig-c964590617",
       "title": "什么是人工智能转录：它是如何工作的和用例",
@@ -2996,7 +3164,7 @@
         "url": "https://vercel.com/blog/ja-kazunari-hanao-joins-vercel-as-country-manager-japan",
         "fetched": true,
         "savedAt": "2026-11-24T07:58:11.721Z",
-        "retranslatedAt": "2026-11-27T06:16:07.888Z"
+        "retranslatedAt": "2026-11-28T05:55:57.976Z"
       }
     },
     {
@@ -9495,6 +9663,697 @@
         "url": "https://elevenlabs.io/blog/autotorino-agents",
         "fetched": true,
         "savedAt": "2026-11-17T06:06:21.117Z"
+      }
+    },
+    {
+      "id": "sig-d1737df71a",
+      "title": "更多之年：200,000 美元用于您下一步的创作",
+      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+      "summary": {
+        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "bullets": [
+          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+          "(function(){var s=document.currentScript&&document.currentScript.parentElement;if(!s)return;try{var m=JSON.parse(s.getAttribute(\"data-banner-rules\"));var f=(fun",
+          "在你看到角色的脸之前，声音可以介绍他们。声音可以让平凡的场景变得陌生。一张图片可以暗示一个世界，几秒钟的视频可以把你带入其中。",
+          "今天，ElevenLabs 推出 The Year of More，这是一项奖金为 200,000 美元的 ElevenCreative 竞赛。它向免费和付费用户开放，50,000 美元的大奖将于 2026 年 12 月 1 日公布。语音是 ElevenLabs 的起点，创作者现在可以使用 ElevenCreative"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 5,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://elevenlabs.io/blog/the-year-of-more"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
+        "(function(){var s=document.currentScript&&document.currentScript.parentElement;if(!s)return;try{var m=JSON.parse(s.getAttribute(\"data-banner-rules\"));var f=(function j(a,b){for(var c={},d=a.split(\"; \"),e=0;e =e.endsAt)继续;if(void 0===e.flag){if(void 0!==e.show)return{picked:e.show,exposures:c};继续}var f=b.flags[e.flag];if(void 0!==f){if(void 0===e.variants){if(\"true\"===f&&void 0!==e.show)return{picked:e.show,exposures:c};继续}if(Object.prototype.hasOwnProperty.call(e.variants,f)){c.push({flag:e.flag,variant:f});var g=e.variants[f];if(\"next\"!==g)return{picked:g,exposures:c}}}}return{picked:\"none\",exposures:c}})(m,{flags:f,now:Date.now()}).picked));}catch(e){}})() html:has([data-nav-cover=\"_R_13av5ubsnpf5ropfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_13av5ubsnpf5ropfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem;跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 注册博客 更多之年：为您接下来的创作赢得 200,000 美元 作者：Andi Bucescu Renee Zhu 发布于 2026 年 11 月 16 日 最后更新于 2026 年 11 月 18 日 听 听这篇文章",
+        "在你看到角色的脸之前，声音可以介绍他们。声音可以让平凡的场景变得陌生。一张图片可以暗示一个世界，几秒钟的视频可以把你带入其中。",
+        "今天，ElevenLabs 推出 The Year of More，这是一项奖金为 200,000 美元的 ElevenCreative 竞赛。它向免费和付费用户开放，50,000 美元的大奖将于 2026 年 12 月 1 日公布。语音是 ElevenLabs 的起点，创作者现在可以使用 ElevenCreative 在单个成品中处理图像、视频和音频。",
+        "简介很简单：用图像或视频创建一些东西，以显示 ElevenCreative 不仅仅是声音。这可以是围绕一行对话构建的短片、您想象的产品的广告，或者是一系列无文字讲述故事的图像。您可以从声音开始并围绕它构建一个世界，或者从视觉开始并找出它听起来应该是什么样子。",
+        "将这些作为起点，然后将它们带到任何您想要的地方。工具是流程的一部分，但创造性的决定是您的。角色的表达、剪辑的时机以及场景下的声音赋予了作品一个观点。",
+        "Year of More 对免费和付费用户开放，无需购买即可进入。评委们将于 11 月 20 日、11 月 25 日和 11 月 30 日选出 5 名获奖者，每人奖金为 10,000 美元，并于 12 月 1 日宣布大奖为 50,000 美元。提交截止日期为太平洋时间 11 月 30 日晚上 11:59。官方竞赛规则涵盖资格、评审标准、奖品详情和提交截止日期。",
+        "无论您是在尝试一种新的格式，还是最终形成一个已经酝酿数月的想法，我们都很乐意看到您的成果。",
+        "提交表格后，您的参赛作品才算完成。竞赛页面有水印、完整说明、规则和提交表格。",
+        "除了竞争之外，11 月 16 日至 12 月 1 日期间，ElevenCreative 黑色星期五优惠为符合条件的订阅者提供高达 55% 的年度计划折扣。Creator 年度计划价格为 99 美元，折扣 55%。新的 Pro 订阅者可享受包年套餐 55% 的折扣，而转为包年套餐的包月 Pro 订阅者可享受 50% 的折扣。"
+      ],
+      "highlights": [
+        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为",
+        "(function(){var s=document.currentScript&&document.currentScript.parentElement;i",
+        "在你看到角色的脸之前，声音可以介绍他们。声音可以让平凡的场景变得陌生。一张图片可以暗示一个世界，几秒钟的视频可以把你带入其中。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "The Year of More: $200,000 for What you Create Next",
+      "originalLang": "en",
+      "date": "2026-11-16",
+      "categoryIds": [
+        "vertical-audio"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "ElevenLabs",
+        "author": "ElevenLabs",
+        "url": "https://elevenlabs.io/blog/the-year-of-more",
+        "home": "https://elevenlabs.io/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "The Year of More: $200,000 for What you Create Next"
+      },
+      "raw": {
+        "title": "The Year of More: $200,000 for what you create next",
+        "url": "https://elevenlabs.io/blog/the-year-of-more",
+        "fetched": true,
+        "savedAt": "2026-11-28T05:54:47.064Z"
+      }
+    },
+    {
+      "id": "sig-f054a54f82",
+      "title": "Revolut 如何在不降低标准的情况下提高雄心",
+      "oneLiner": "借助 OpenAI 模型和 Codex，Revolut 为其团队提供了更多空间来解决从软件工程到金融犯罪的复杂问题。",
+      "summary": {
+        "oneSentence": "借助 OpenAI 模型和 Codex，Revolut 为其团队提供了更多空间来解决从软件工程到金融犯罪的复杂问题。",
+        "bullets": [
+          "借助 OpenAI 模型和 Codex，Revolut 为其团队提供了更多空间来解决从软件工程到金融犯罪的复杂问题。",
+          "减少从任务开始到功能合并的编码时间",
+          "将七年的设计文档转化为人工智能可读的背景",
+          "通过 Codex 进行安全代码审查，节省成本"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：借助 OpenAI 模型和 Codex，Revolut 为其团队提供了更多空间来解决从软件工程到金融犯罪的复杂问题。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/business/customer-stories/revolut"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "借助 OpenAI 模型和 Codex，Revolut 为其团队提供了更多空间来解决从软件工程到金融犯罪的复杂问题。",
+        "减少从任务开始到功能合并的编码时间",
+        "将七年的设计文档转化为人工智能可读的背景",
+        "通过 Codex 进行安全代码审查，节省成本",
+        "共享 日常行动更快 日常行动更快 从规模满足影响力的地方开始 委托实施，而不是问责制 在系统中建立信任 结果一目了然 领导力课程 下一步是什么 日常行动更快 从规模满足影响力的地方开始 委托实施，而不是问责制 在系统中建立信任 结果概览 领导力经验教训 下一步行动 日常行动更快 Revolut ⁠ (在新窗口中打开) 旨在挑战人们与金钱互动的方式。这一雄心现已覆盖 40 多个市场、80 万家企业以及过去 12 个月增长了 23% 的消费者群。",
+        "再加上公司文化要求小型、精干的团队能够快速行动，因此事实证明 ChatGPT 和 Codex 是天生的搭档也就不足为奇了。",
+        "Revolut 全球业务营销主管 Kim Maniovich 表示：“对高素质 Revolut 人员的完美描述是能够快速识别问题、推断解决方案、设计四种方案、确定这四种方案中最好的一种，然后将其推向市场。”",
+        "“与 OpenAI 合作使我们能够以极其精简、经济高效且真正适合我们独特工作方式的方式构建许多此类解决方案。”",
+        "但更快的行动只是机遇的一部分。对于 Revolut 来说，更大的问题是，当有才华的人花更少的时间在完成工作的机制上，而花更多的时间来解决可能从根本上改变金融服务的问题时，会发生什么。",
+        "随着 Revolut 的发展，保护客户的复杂性也随之增加。根据一份报告 ⁠（在新窗口中打开），全球超过一半的成年人报告称在 2025 年遭遇过诈骗。"
+      ],
+      "highlights": [
+        "借助 OpenAI 模型和 Codex，Revolut 为其团队提供了更多空间来解决从软件工程到金融犯罪的复杂问题。",
+        "减少从任务开始到功能合并的编码时间",
+        "将七年的设计文档转化为人工智能可读的背景"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "How Revolut raises ambition without lowering the bar",
+      "originalLang": "en",
+      "date": "2026-11-16",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/business/customer-stories/revolut",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "How Revolut raises ambition without lowering the bar"
+      },
+      "raw": {
+        "title": "How Revolut raises ambition without lowering the bar",
+        "url": "https://openai.com/business/customer-stories/revolut",
+        "fetched": true,
+        "savedAt": "2026-11-28T05:54:56.759Z"
+      }
+    },
+    {
+      "id": "sig-91e58e2ea9",
+      "title": "LVMH 媒体部门宣布与 OpenAI 建立战略合作伙伴关系",
+      "oneLiner": "分享此消息最初由 LVMH 媒体部门分享，可在此处阅读 ⁠（在新窗口中打开）。",
+      "summary": {
+        "oneSentence": "分享此消息最初由 LVMH 媒体部门分享，可在此处阅读 ⁠（在新窗口中打开）。",
+        "bullets": [
+          "分享此消息最初由 LVMH 媒体部门分享，可在此处阅读 ⁠（在新窗口中打开）。",
+          "巴黎，2026 年 11 月 16 日——LVMH 集团媒体部门和 OpenAI 宣布签署战略协议，支持该部门所有出版物中人工智能的新用途，并通过 ChatGPT 使他们的新闻报道更容易获取。该协议包括向媒体部门的团队部署 OpenAI 工具和 ChatGPT Enterprise，使他们能够开发适合其日常工作的 AI",
+          "他们的共同目标是让整个媒体部门的团队能够试验和开发人工智能的实际用途，以支持新闻业和高质量的报道。",
+          "人工智能是一种强大的工具，当在新闻编辑室中使用时，记者能够专注于其职业的核心：调查、分析和写作。团队将能够探索文档研究、文档比较和初步翻译等应用。目标是让他们能够投入更多时间进行实地调查报告、分析和报告。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：分享此消息最初由 LVMH 媒体部门分享，可在此处阅读 ⁠（在新窗口中打开）。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/lvmh-media-division-partnership"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "分享此消息最初由 LVMH 媒体部门分享，可在此处阅读 ⁠（在新窗口中打开）。",
+        "巴黎，2026 年 11 月 16 日——LVMH 集团媒体部门和 OpenAI 宣布签署战略协议，支持该部门所有出版物中人工智能的新用途，并通过 ChatGPT 使他们的新闻报道更容易获取。该协议包括向媒体部门的团队部署 OpenAI 工具和 ChatGPT Enterprise，使他们能够开发适合其日常工作的 AI 应用程序。",
+        "他们的共同目标是让整个媒体部门的团队能够试验和开发人工智能的实际用途，以支持新闻业和高质量的报道。",
+        "人工智能是一种强大的工具，当在新闻编辑室中使用时，记者能够专注于其职业的核心：调查、分析和写作。团队将能够探索文档研究、文档比较和初步翻译等应用。目标是让他们能够投入更多时间进行实地调查报告、分析和报告。",
+        "此外，在日益拥挤的信息环境中，个性化已成为首要任务。人工智能是开发和提供满足客户、读者和广告商需求的产品和服务的重要工具，有助于吸引和留住他们并增加出版物的收入。",
+        "这一合作伙伴关系是一项全公司范围内的举措，还增强了 LVMH 集团媒体部门内容在 ChatGPT 中的展示，提供摘要和摘录以回答相关用户问题，识别其来源并包括原始文章的直接链接。该合作伙伴关系将扩展到该部门的所有出版物，并支持整个组织的角色演变：简化运营、提高效率、鼓励创新和创造力，为明天的出版物做好准备。此次推出将得到针对每个人的用例量身定制的培训的支持。",
+        "LVMH集团的媒体部门Groupe Les Echos-Le Parisien汇集了17个媒体品牌，涵盖新闻、财经、文化、遗产、艺术和音乐。该公司拥有 1,800 名员工，其中包括近 700 名记者，每月覆盖法国超过 2,700 万人。",
+        "集团旗下媒体品牌：Boursier.com ⁠ (在新窗口中打开)、Capital Finance、Challenges、Connaissance des Arts、Historia、Investir、La Lettre de l’Expansion、L’Agefi、Le Parisien、Aujourd’hui en France、Les Echos、L’Opinion、medici.tv ⁠ (在新窗口中打开)、Mezzo、Mieux Vivre Votre 《银色》、《巴黎竞赛画报》、《古典广播电台》。",
+        "集团旗下展览和出版社：Citadelles & Mazenod、Fine Arts Paris、In Fine、Salon du Dessin。"
+      ],
+      "highlights": [
+        "分享此消息最初由 LVMH 媒体部门分享，可在此处阅读 ⁠（在新窗口中打开）。",
+        "巴黎，2026 年 11 月 16 日——LVMH 集团媒体部门和 OpenAI 宣布签署战略协议，支持该部门所有出版物中人工智能的新用途，并通过 ChatGP",
+        "他们的共同目标是让整个媒体部门的团队能够试验和开发人工智能的实际用途，以支持新闻业和高质量的报道。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "originalLang": "en",
+      "date": "2026-11-16",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/lvmh-media-division-partnership",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "LVMH’s Media Division announces strategic partnership with OpenAI"
+      },
+      "raw": {
+        "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+        "url": "https://openai.com/index/lvmh-media-division-partnership",
+        "fetched": true,
+        "savedAt": "2026-11-28T05:55:06.516Z"
+      }
+    },
+    {
+      "id": "sig-ebd9eb9496",
+      "title": "我们第一阶段的嵌入式评估",
+      "oneLiner": "我们的试点嵌入式评估员 我们的试点嵌入式评估员 Apollo Research Goodfire METR Transluce 嵌入式评估协议 范围界定和迭代 安全的现场环境 监督和争议解决 员工讨论和认证 冲突披露和冷静期 发布和负责任的",
+      "summary": {
+        "oneSentence": "我们的试点嵌入式评估员 我们的试点嵌入式评估员 Apollo Research Goodfire METR Transluce 嵌入式评估协议 范围界定和迭代 安全的现场环境 监督和争议解决 员工讨论和认证 冲突披露和冷静期 发布和负责任的",
+        "bullets": [
+          "我们的试点嵌入式评估员 我们的试点嵌入式评估员 Apollo Research Goodfire METR Transluce 嵌入式评估协议 范围界定和迭代 安全的现场环境 监督和争议解决 员工讨论和认证 冲突披露和冷静期 发布和负责任的披露期 展望未来 我们的试点嵌入式评估员 Apollo Research Goo",
+          "嵌入式评估使独立专家能够深入访问实验室的内部模型和系统，以评估模型的一致性和保护措施在较长时间内的有效性，特别是与我们的安全案例相关的情况。根据每次评估的需求，评估人员可以访问我们的研究人员使用的一些相同的内部资源，包括模型检查点、源代码、培训和评估数据、监控系统、技术文档以及与负责工作的研究人员和工程师的讨论。这种访",
+          "我们的初步评估重点是培训和内部使用期间模型的一致性和保障措施，以补充我们的安全案例。它们建立在我们第三方评估的优先事项和原则以及与第三方评估人员多年的合作基础上，包括最近对我们的内部监控系统进行的试点评估 ⁠ (在新窗口中打开) 以及深入的内部访问以及对拥抱脸事件的调查 ⁠ (在新窗口中打开)。在接下来的几个月里，我们",
+          "在这次试点评估中，Apollo Research ⁠（在新窗口中打开）将评估模型是否会秘密地违背开发者的意图，以及我们的防护措施是否会检测到此类行为。借鉴培训、安全测试和内部使用的证据。 Apollo 将分两个阶段评估四项索赔："
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：我们的试点嵌入式评估员 我们的试点嵌入式评估员 Apollo Research Goodfire METR Transluce 嵌入式评估协议 范围界定和迭代 安全的现场环境 监督和争议解决 员工讨论和认证 冲突披露和冷静期 发布和负责任的",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/our-first-phase-of-embedded-assessments"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "我们的试点嵌入式评估员 我们的试点嵌入式评估员 Apollo Research Goodfire METR Transluce 嵌入式评估协议 范围界定和迭代 安全的现场环境 监督和争议解决 员工讨论和认证 冲突披露和冷静期 发布和负责任的披露期 展望未来 我们的试点嵌入式评估员 Apollo Research Goodfire METR Transluce 嵌入式评估协议 范围界定和迭代 安全的现场环境 监督和争议解决 员工讨论和认证 冲突披露和冷静休息期 发布和负责任的披露期 展望未来 我们已与四家独立评估机构（Apollo Research、METR、Transluce 和 Goodfire）签署了嵌入式评估第一阶段的协议。随着人工智能能力的快速发展和潜在风险的增加，独立评估的公开报告可以让人们更清楚地了解实验室如何评估和管理这些风险。",
+        "嵌入式评估使独立专家能够深入访问实验室的内部模型和系统，以评估模型的一致性和保护措施在较长时间内的有效性，特别是与我们的安全案例相关的情况。根据每次评估的需求，评估人员可以访问我们的研究人员使用的一些相同的内部资源，包括模型检查点、源代码、培训和评估数据、监控系统、技术文档以及与负责工作的研究人员和工程师的讨论。这种访问为评估人员提供了证据和背景，以进行独立评估并发现我们可能未预料到的失败。",
+        "我们的初步评估重点是培训和内部使用期间模型的一致性和保障措施，以补充我们的安全案例。它们建立在我们第三方评估的优先事项和原则以及与第三方评估人员多年的合作基础上，包括最近对我们的内部监控系统进行的试点评估 ⁠ (在新窗口中打开) 以及深入的内部访问以及对拥抱脸事件的调查 ⁠ (在新窗口中打开)。在接下来的几个月里，我们将利用我们学到的知识来深化与独立专家的合作。这些努力也支持我们根据《白宫超级情报协议》做出的承诺，我们同意对我们的安全控制进行独立评估。这些合作有助于为整个行业的独立评估和公共透明度制定更强有力的共享标准。",
+        "在这次试点评估中，Apollo Research ⁠（在新窗口中打开）将评估模型是否会秘密地违背开发者的意图，以及我们的防护措施是否会检测到此类行为。借鉴培训、安全测试和内部使用的证据。 Apollo 将分两个阶段评估四项索赔：",
+        "培训并没有激励颠覆。",
+        "强烈的评价和红队不会引发颠覆。",
+        "模型在内部使用过程中没有尝试颠覆。",
+        "颠覆背后的推理是可以察觉的。",
+        "在阿波罗评估的第一阶段，我们将提供对选定的公开和未发布的模型和训练检查点、相关训练数据和评估结果、训练干预记录、监控系统和标记行为的访问权限，以及可以提供背景信息的研究人员以及进行独立测试所需的工具和计算。",
+        "Goodfire ⁠（在新窗口中打开）将嵌入可解释性研究人员并使用 Goodfire 平台来分析模型内部结构。他们评估的主要目标是训练运行监控、调试和对齐。他们评估的主要受众是内部 OpenAI 研究人员，他们将利用他们的发现来改进安全性。随着合作的进展，Goodfire 还将发布经验和发现。"
+      ],
+      "highlights": [
+        "我们的试点嵌入式评估员 我们的试点嵌入式评估员 Apollo Research Goodfire METR Transluce 嵌入式评估协议 范围界定和迭代 ",
+        "嵌入式评估使独立专家能够深入访问实验室的内部模型和系统，以评估模型的一致性和保护措施在较长时间内的有效性，特别是与我们的安全案例相关的情况。根据每次评估的需求，",
+        "我们的初步评估重点是培训和内部使用期间模型的一致性和保障措施，以补充我们的安全案例。它们建立在我们第三方评估的优先事项和原则以及与第三方评估人员多年的合作基础上"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Our first phase of embedded assessments",
+      "originalLang": "en",
+      "date": "2026-11-16",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Our first phase of embedded assessments"
+      },
+      "raw": {
+        "title": "Our first phase of embedded assessments",
+        "url": "https://openai.com/index/our-first-phase-of-embedded-assessments",
+        "fetched": true,
+        "savedAt": "2026-11-28T05:55:16.584Z"
+      }
+    },
+    {
+      "id": "sig-358edf6171",
+      "title": "AI 网关现支持私有推理 - Vercel",
+      "oneLiner": "Private Inference 将您自己的模型端点连接到 AI Gateway 。",
+      "summary": {
+        "oneSentence": "Private Inference 将您自己的模型端点连接到 AI Gateway 。",
+        "bullets": [
+          "Private Inference 将您自己的模型端点连接到 AI Gateway 。",
+          "运行微调、自托管或预发布模型的企业过去需要单独的密钥、客户端代码和日志。这些模型现在可以通过与目录模型相同的身份验证、SDK 和 API 以及可观察性来运行，因此您的团队使用的每个模型都在一个位置进行管理。",
+          "在私有模型和目录模型之间切换：通过聊天完成、响应或消息调用私有模型。 AI Gateway 将每个请求转换为端点的格式，因此切换仅更改模型 ID。",
+          "将模型范围限制在您的团队范围内：只有您的 Vercel 团队可以查看或调用私有模型，并且它们不会在公共目录中列出。凭证以加密方式存储，您可以为每个提供商启用零数据保留。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：Private Inference 将您自己的模型端点连接到 AI Gateway 。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/changelog/ai-gateway-now-supports-private-inference"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "Private Inference 将您自己的模型端点连接到 AI Gateway 。",
+        "运行微调、自托管或预发布模型的企业过去需要单独的密钥、客户端代码和日志。这些模型现在可以通过与目录模型相同的身份验证、SDK 和 API 以及可观察性来运行，因此您的团队使用的每个模型都在一个位置进行管理。",
+        "在私有模型和目录模型之间切换：通过聊天完成、响应或消息调用私有模型。 AI Gateway 将每个请求转换为端点的格式，因此切换仅更改模型 ID。",
+        "将模型范围限制在您的团队范围内：只有您的 Vercel 团队可以查看或调用私有模型，并且它们不会在公共目录中列出。凭证以加密方式存储，您可以为每个提供商启用零数据保留。",
+        "连接编码代理：在连接到 AI Gateway 的 Claude Code、Codex、Cursor 和其他编码代理中使用私有模型。",
+        "一起监控流量：在日志、跟踪消耗和自定义报告中查看私有模型请求以及目录流量。可观察性图表按私有模型细分请求、代币和第一个代币的时间。",
+        "配置回退：如果您的专用端点出现故障，可以选择回退到目录模型。",
+        "首先，打开“私有推理”页面并将您的端点添加为私有提供商。输入其基本 URL，选择其 API 格式，然后添加其凭据。然后添加它所服务的模型。",
+        "您还可以使用 Vercel CLI 版本 65.16.0 或更高版本注册提供程序和模型：",
+        "1 # 将您的端点作为私有提供商连接 2 vercel ai-gateway private-inferenceproviders create acme-vllm \\ 3 --base-url https://vllm.example.com/v1 4 5 # 将端点的模型公开为 private/support-fine-tune 6 vercel ai-gateway private-inference models create support-fine-tune \\ 7 --provider acme-vllm \\ 8 --api-model acme/support-llama-ft 使用其私有/<slug> ID 调用模型："
+      ],
+      "highlights": [
+        "Private Inference 将您自己的模型端点连接到 AI Gateway 。",
+        "运行微调、自托管或预发布模型的企业过去需要单独的密钥、客户端代码和日志。这些模型现在可以通过与目录模型相同的身份验证、SDK 和 API 以及可观察性来运行，因",
+        "在私有模型和目录模型之间切换：通过聊天完成、响应或消息调用私有模型。 AI Gateway 将每个请求转换为端点的格式，因此切换仅更改模型 ID。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "AI Gateway now supports Private Inference - Vercel",
+      "originalLang": "en",
+      "date": "2026-11-16",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/changelog/ai-gateway-now-supports-private-inference",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "AI Gateway now supports Private Inference - Vercel"
+      },
+      "raw": {
+        "title": "AI Gateway now supports Private Inference",
+        "url": "https://vercel.com/changelog/ai-gateway-now-supports-private-inference",
+        "fetched": true,
+        "savedAt": "2026-11-28T05:55:26.464Z"
+      }
+    },
+    {
+      "id": "sig-b0ded74e06",
+      "title": "为医疗团队推进计算机使用代理",
+      "oneLiner": "从患者消息到 MRI 授权请求 从患者消息到 MRI 授权请求 评估有用性、安全性和成本 与医疗机构一起开发计算机使用 患者数据安全和代理控制 计算机使用代理入门 从患者消息到 MRI 授权请求 评估有用性、安全性和成本 与医疗机构一起开发",
+      "summary": {
+        "oneSentence": "从患者消息到 MRI 授权请求 从患者消息到 MRI 授权请求 评估有用性、安全性和成本 与医疗机构一起开发计算机使用 患者数据安全和代理控制 计算机使用代理入门 从患者消息到 MRI 授权请求 评估有用性、安全性和成本 与医疗机构一起开发",
+        "bullets": [
+          "从患者消息到 MRI 授权请求 从患者消息到 MRI 授权请求 评估有用性、安全性和成本 与医疗机构一起开发计算机使用 患者数据安全和代理控制 计算机使用代理入门 从患者消息到 MRI 授权请求 评估有用性、安全性和成本 与医疗机构一起开发计算机使用 患者数据安全性和代理控制 开始使用计算机使用代理 医疗保健是分散的，",
+          "计算机使用代理通过单击、键入和在应用程序之间移动来执行多步骤工作流程。在医疗保健领域，这使得人工智能能够帮助完成已经使用的软件团队中的重复工作流程。",
+          "今天，我们将分享衡量临床和管理工作流程中模型性能、安全性和成本的新结果。我们还分享了与 Abridge、Ambience、Cigna Healthcare 和 CVS Health 等领先医疗保健组织合作的方式，以在授权请求、转诊、出院计划和就诊之间的外展方面推进和应用计算机使用。",
+          "医疗保健团队、开发人员和个人临床医生现在可以通过 OpenAI API、ChatGPT for Healthcare 和 ChatGPT for Clinicians 访问这些功能。组织可以支持符合 HIPAA 的工作流程、配置审批和代理访问并记录审核日志以实现安全部署。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：从患者消息到 MRI 授权请求 从患者消息到 MRI 授权请求 评估有用性、安全性和成本 与医疗机构一起开发计算机使用 患者数据安全和代理控制 计算机使用代理入门 从患者消息到 MRI 授权请求 评估有用性、安全性和成本 与医疗机构一起开发",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/advancing-computer-use-for-healthcare-teams"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "从患者消息到 MRI 授权请求 从患者消息到 MRI 授权请求 评估有用性、安全性和成本 与医疗机构一起开发计算机使用 患者数据安全和代理控制 计算机使用代理入门 从患者消息到 MRI 授权请求 评估有用性、安全性和成本 与医疗机构一起开发计算机使用 患者数据安全性和代理控制 开始使用计算机使用代理 医疗保健是分散的，团队通常需要在患者之前在系统之间手动移动信息可以获得护理。例如，当临床医生推荐 MRI 时，保险公司所需的信息可能位于患者的医疗记录中，但团队成员仍然需要检索该信息并将其输入到单独的门户中以完成授权请求。",
+        "计算机使用代理通过单击、键入和在应用程序之间移动来执行多步骤工作流程。在医疗保健领域，这使得人工智能能够帮助完成已经使用的软件团队中的重复工作流程。",
+        "今天，我们将分享衡量临床和管理工作流程中模型性能、安全性和成本的新结果。我们还分享了与 Abridge、Ambience、Cigna Healthcare 和 CVS Health 等领先医疗保健组织合作的方式，以在授权请求、转诊、出院计划和就诊之间的外展方面推进和应用计算机使用。",
+        "医疗保健团队、开发人员和个人临床医生现在可以通过 OpenAI API、ChatGPT for Healthcare 和 ChatGPT for Clinicians 访问这些功能。组织可以支持符合 HIPAA 的工作流程、配置审批和代理访问并记录审核日志以实现安全部署。",
+        "为了展示计算机使用代理如何帮助临床医生和授权专家处理同一 MRI 请求，我们使用合成患者数据构建了一个演示。一名患者向临床医生发送有关腰痛的信息。计算机使用代理会审查患者的就诊记录、物理治疗记录和电子病历中先前的成像。它起草一份 MRI 命令、一份就诊记录以及给患者的答复，供临床医生审查。然后，代理人使用相同的记录在保险公司的门户中准备事先授权请求，以供授权专家审核。",
+        "我们针对临床医生在 EHR 收件箱中处理的任务评估了 GPT-6 Astra。这些任务由医生输入决定，要求 Astra 执行多步骤工作流程，旨在测试纵向患者背景的临床推理和复杂界面的导航。评审员检查了模型的行为以及它产生的注释、命令和患者消息，评估这项工作在任务背景下是否有帮助和临床安全。",
+        "通过评估模型工作中的不准确、遗漏或行为是否可能导致患者伤害来评估临床安全性。总体而言，325 项审核任务中 99% 被评为安全。医生按照五分制对有用性进行评分，在 646 项评估中，93% 选择“非常有帮助”或“非常有帮助”。",
+        "我们还评估了计算机使用代理执行行政任务的能力，例如事先授权、上诉和医疗设备订单。在 HealthAdminBench（在新窗口中打开）（斯坦福大学研究人员衡量常见管理工作流程性能的独立基准）上，GPT-6 Astra 获得了 94.3% 的可用评分，而 GPT-6 Luna 获得了 91.8%，尽管每项任务的成本降低了 98%，为 8.5 美分。两种模型均以最大推理努力进行评估。这些结果表明，在为大容量管理工作流程提供功能强大、价格实惠的代理方面取得了进展。",
+        "我们的合作伙伴构建了用于数百个卫生系统的软件，协调全球会员的护理，并为数亿患者提供护理。以下示例展示了组织如何开发、试点和部署计算机应用程序以节省时间、解决关键问题和改善患者护理。",
+        "CVS Health 正在使用 OpenAI 的计算机使用功能来自动化跨临床系统的重复性工作，包括发送文档、处理转诊和支持专家咨询。代理导航现有应用程序以完成 API 不完全支持的步骤。"
+      ],
+      "highlights": [
+        "从患者消息到 MRI 授权请求 从患者消息到 MRI 授权请求 评估有用性、安全性和成本 与医疗机构一起开发计算机使用 患者数据安全和代理控制 计算机使用代理入",
+        "计算机使用代理通过单击、键入和在应用程序之间移动来执行多步骤工作流程。在医疗保健领域，这使得人工智能能够帮助完成已经使用的软件团队中的重复工作流程。",
+        "今天，我们将分享衡量临床和管理工作流程中模型性能、安全性和成本的新结果。我们还分享了与 Abridge、Ambience、Cigna Healthcare 和 "
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Advancing computer-use agents for healthcare teams",
+      "originalLang": "en",
+      "date": "2026-11-16",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Advancing computer-use agents for healthcare teams"
+      },
+      "raw": {
+        "title": "Advancing computer-use agents for healthcare teams",
+        "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams",
+        "fetched": true,
+        "savedAt": "2026-11-28T05:55:37.126Z"
+      }
+    },
+    {
+      "id": "sig-cfcc7acb02",
+      "title": "通过 ChatGPT for Healthcare 推动护理发展的更多方式",
+      "oneLiner": "引入计算机使用代理、新的医疗保健模型配置以及跨医疗保健软件工作以完成实际工作的新医疗保健插件。",
+      "summary": {
+        "oneSentence": "引入计算机使用代理、新的医疗保健模型配置以及跨医疗保健软件工作以完成实际工作的新医疗保健插件。",
+        "bullets": [
+          "引入计算机使用代理、新的医疗保健模型配置以及跨医疗保健软件工作以完成实际工作的新医疗保健插件。",
+          "共享 通过计算机使用代理在整个医疗保健系统中推进工作 通过计算机使用代理在整个医疗保健系统中推进工作 更强大的临床答案，无处不在的团队工作 将医疗保健工具纳入一个对话 可用性和后续步骤 利用计算机使用代理在整个医疗保健系统中推进工作 更强有力的临床答案，无处不在的团队工作 将医疗保健工具纳入一个对话 可用性和后续步骤 ",
+          "今天，我们将分享计算机使用方面的进步，帮助人工智能代理在现有的医疗保健软件上执行多步骤工作。我们还在改进可信临床搜索查找、评估和引用医学证据的方式。 Responses API 中的新医疗保健模型配置使开发人员可以在自己的应用程序中构建可信的临床搜索。我们正在通过 20 多个新插件扩展我们的医疗保健插件生态系统。",
+          "这些功能共同帮助医疗团队找到他们需要的信息，根据医学证据做出决策，并在他们已经使用的系统上执行后续步骤。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "OpenAI 官网发布：引入计算机使用代理、新的医疗保健模型配置以及跨医疗保健软件工作以完成实际工作的新医疗保健插件。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "关联产品：chatgpt",
+        "actionItems": [
+          "阅读原文（英文）：https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [
+        "chatgpt"
+      ],
+      "content": [
+        "引入计算机使用代理、新的医疗保健模型配置以及跨医疗保健软件工作以完成实际工作的新医疗保健插件。",
+        "共享 通过计算机使用代理在整个医疗保健系统中推进工作 通过计算机使用代理在整个医疗保健系统中推进工作 更强大的临床答案，无处不在的团队工作 将医疗保健工具纳入一个对话 可用性和后续步骤 利用计算机使用代理在整个医疗保健系统中推进工作 更强有力的临床答案，无处不在的团队工作 将医疗保健工具纳入一个对话 可用性和后续步骤 医疗保健团队需要将来自 EHR、医院政策、调度系统和付款人门户的信息拼凑起来，以提供护理和管理运营。通过 ChatGPT for Healthcare，我们将团队已经使用的工具和他们所需的医学证据整合到一个平台中，以帮助他们花更少的时间浏览系统，而将更多的时间花在照顾患者上。",
+        "今天，我们将分享计算机使用方面的进步，帮助人工智能代理在现有的医疗保健软件上执行多步骤工作。我们还在改进可信临床搜索查找、评估和引用医学证据的方式。 Responses API 中的新医疗保健模型配置使开发人员可以在自己的应用程序中构建可信的临床搜索。我们正在通过 20 多个新插件扩展我们的医疗保健插件生态系统。",
+        "这些功能共同帮助医疗团队找到他们需要的信息，根据医学证据做出决策，并在他们已经使用的系统上执行后续步骤。",
+        "组织通常需要在断开连接的系统之间移动信息，以准备文档、协调护理和完成管理任务。计算机使用代理可以通过导航团队已使用的软件来帮助完成这些步骤：阅读屏幕、单击、键入以及在应用程序之间移动。",
+        "今天，我们将分享医疗保健计算机使用代理的进展，包括用于临床和管理工作流程的更强大、更安全和更实惠的模型，以及用于安全部署的访问控制和审核日志。我们还与正在部署代理的医疗机构（包括 Abridge、Ambience、Cigna Healthcare 和 CVS Health）分享我们的工作，以处理转诊、在系统之间移动文档以及汇集护理团队所需的信息。在下面的演示中，临床医生使用 ChatGPT 应用程序中的语音来请求帮助以跟进 MRI 请求。代理人审查图表并起草订单和患者答复以供审查。",
+        "医疗保健组织可以从跨越现有应用程序的工作流程开始，设置代理可以访问哪些应用程序，并为哪些步骤需要人工审核建立明确的控制。为了支持涉及受保护健康信息的符合 HIPAA 的工作流程，组织必须将其 BAA 涵盖的合格服务与 OpenAI 结合使用，应用所需的安全和保留设置，并将保护扩展到连接的系统。与 ChatGPT for Healthcare 共享的内容不用于训练模型。",
+        "详细了解我们的计算机使用研究、客户案例和演示，请参阅为医疗保健团队推进计算机使用代理 ⁠ 。",
+        "我们正在改进 ChatGPT for Healthcare 和 ChatGPT for Clinicians 中的可信临床搜索，包括 ChatGPT 如何查找、评估和引用医学证据。这些更新可帮助临床医生将相关证据与临床问题联系起来，并将其转化为实际的后续步骤，并附上可供检查的引文。",
+        "为了衡量这些更新的影响，在盲目评估中，医生审查了多个专业对现实临床问题的回答，包括多轮对话。在 1300 多条评论中，医生在评估的所有八个维度（包括事实正确性、安全性、可操作性和来源权威性）上对更新后的体验给予了更高的评价。"
+      ],
+      "highlights": [
+        "引入计算机使用代理、新的医疗保健模型配置以及跨医疗保健软件工作以完成实际工作的新医疗保健插件。",
+        "共享 通过计算机使用代理在整个医疗保健系统中推进工作 通过计算机使用代理在整个医疗保健系统中推进工作 更强大的临床答案，无处不在的团队工作 将医疗保健工具纳入一",
+        "今天，我们将分享计算机使用方面的进步，帮助人工智能代理在现有的医疗保健软件上执行多步骤工作。我们还在改进可信临床搜索查找、评估和引用医学证据的方式。 Respo"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "More ways to move care forward with ChatGPT for Healthcare",
+      "originalLang": "en",
+      "date": "2026-11-16",
+      "categoryIds": [
+        "llm"
+      ],
+      "productIds": [
+        "chatgpt"
+      ],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "OpenAI",
+        "author": "OpenAI",
+        "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+        "home": "https://openai.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "More ways to move care forward with ChatGPT for Healthcare"
+      },
+      "raw": {
+        "title": "More ways to move care forward with ChatGPT for Healthcare",
+        "url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+        "fetched": true,
+        "savedAt": "2026-11-28T05:55:47.427Z"
+      }
+    },
+    {
+      "id": "sig-65e8ce3656",
+      "title": "代理也是用户，因此您的软件需要评估",
+      "oneLiner": "代理现在是软件的用户，代表人们做工作。无论您是构建代理还是其使用的软件（API、CLI、MCP 服务器、SDK），评估都为您提供了一种衡量工作完成情况的方法。",
+      "summary": {
+        "oneSentence": "代理现在是软件的用户，代表人们做工作。无论您是构建代理还是其使用的软件（API、CLI、MCP 服务器、SDK），评估都为您提供了一种衡量工作完成情况的方法。",
+        "bullets": [
+          "代理现在是软件的用户，代表人们做工作。无论您是构建代理还是其使用的软件（API、CLI、MCP 服务器、SDK），评估都为您提供了一种衡量工作完成情况的方法。",
+          "代理商可能错过了 101 号高速公路上的发布视频和广告牌，但他们仍然会经历与人类相同的渠道来查找和使用产品：发现、选择、访问和成功。",
+          "您可以为此漏斗的任何阶段构建评估。在这里，我们将重点关注最后一个阶段，成功：代理是否正确完成用户的任务。",
+          "这比听起来更难检查。当用户想要一杯冰拿铁时，客服人员可以“成功”订购一杯热拿铁。该请求有效，因此可观察性堆栈中的日志看起来不错。而且由于 LLM 输出在运行之间有所不同，因此一项良好的手动测试无法告诉您修复是否有效。您需要在更改之前和之后重复相同的任务并对结果进行评分。"
+        ],
+        "audience": "AI 产品学习者",
+        "readMinutes": 3,
+        "keywords": []
+      },
+      "insight": {
+        "mainInsight": "Vercel AI 官网发布：代理现在是软件的用户，代表人们做工作。无论您是构建代理还是其使用的软件（API、CLI、MCP 服务器、SDK），评估都为您提供了一种衡量工作完成情况的方法。",
+        "whyNow": "",
+        "problem": "",
+        "trend": "",
+        "differentiation": "",
+        "outlook": ""
+      },
+      "learning": {
+        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
+        "productDesign": "",
+        "relevance": "",
+        "actionItems": [
+          "阅读原文（英文）：https://vercel.com/blog/agent-evals"
+        ]
+      },
+      "tags": [],
+      "importance": {
+        "stars": 4,
+        "reason": "官网一手发布",
+        "readMinutes": 5
+      },
+      "affectedProductIds": [],
+      "content": [
+        "代理现在是软件的用户，代表人们做工作。无论您是构建代理还是其使用的软件（API、CLI、MCP 服务器、SDK），评估都为您提供了一种衡量工作完成情况的方法。",
+        "代理商可能错过了 101 号高速公路上的发布视频和广告牌，但他们仍然会经历与人类相同的渠道来查找和使用产品：发现、选择、访问和成功。",
+        "您可以为此漏斗的任何阶段构建评估。在这里，我们将重点关注最后一个阶段，成功：代理是否正确完成用户的任务。",
+        "这比听起来更难检查。当用户想要一杯冰拿铁时，客服人员可以“成功”订购一杯热拿铁。该请求有效，因此可观察性堆栈中的日志看起来不错。而且由于 LLM 输出在运行之间有所不同，因此一项良好的手动测试无法告诉您修复是否有效。您需要在更改之前和之后重复相同的任务并对结果进行评分。",
+        "这就是评估，一个运行多次并评分的测试。以下是我们如何构建一个。",
+        "将链接复制到标题代理测试金字塔如果测试询问“它有效吗？”，则评估会询问“它多久有效一次，效果如何？”",
+        "我们根据代理软件测试通常需要多少个 LLM 调用对它们进行分组：确定性测试 (0)、单轮评估 (1) 和 E2E 评估（整个任务中 2+）。事实证明，这是构建它们的工作量、运行它们所需的时间以及运行它们的成本的一个很好的指标。就像在实际测试金字塔中一样，廉价且快速的测试应该构成测试套件的大部分。",
+        "要使用金字塔，请从您想要捕获的问题开始，然后选择可以捕获它的最低层。对于成功来说，这是最重要的。一轮评估检查单个决策，例如代理首先运行哪个命令。但成功取决于整个步骤的顺序（例如搜索咖啡馆→根据用户条件过滤→下拿铁订单）。每一项本身看起来都是合理的，但智能体仍然可能得到错误的结果。",
+        "端到端评估让代理在环境中完成整个任务，然后检查最终结果是否满足用户的要求。您可能已经见过一些；最流行的编码基准（例如 SWE-bench 和 Terminal-Bench）是 E2E 评估。",
+        "将链接复制到标题示例 假设您拥有 SF Beans，这是一个用于在旧金山订购咖啡的 API。让代理访问您的服务的最佳方法之一是通过 CLI，因此您要传送 sfbean。"
+      ],
+      "highlights": [
+        "代理现在是软件的用户，代表人们做工作。无论您是构建代理还是其使用的软件（API、CLI、MCP 服务器、SDK），评估都为您提供了一种衡量工作完成情况的方法。",
+        "代理商可能错过了 101 号高速公路上的发布视频和广告牌，但他们仍然会经历与人类相同的渠道来查找和使用产品：发现、选择、访问和成功。",
+        "您可以为此漏斗的任何阶段构建评估。在这里，我们将重点关注最后一个阶段，成功：代理是否正确完成用户的任务。"
+      ],
+      "translated": true,
+      "translateMethod": "google",
+      "originalTitle": "Agents are users, so your software needs evals",
+      "originalLang": "en",
+      "date": "2026-11-16",
+      "categoryIds": [
+        "agent-code"
+      ],
+      "productIds": [],
+      "source": {
+        "type": "blog",
+        "group": "company",
+        "name": "Vercel AI",
+        "author": "Vercel",
+        "url": "https://vercel.com/blog/agent-evals",
+        "home": "https://vercel.com/blog",
+        "lang": "en",
+        "translated": true,
+        "translateMethod": "google",
+        "originalTitle": "Agents are users, so your software needs evals"
+      },
+      "raw": {
+        "title": "Agents are users, so your software needs evals",
+        "url": "https://vercel.com/blog/agent-evals",
+        "fetched": true,
+        "savedAt": "2026-11-28T05:55:56.600Z"
       }
     },
     {
@@ -16217,7 +17076,7 @@
         "url": "https://cursor.com/changelog/voice-chat",
         "fetched": true,
         "savedAt": "2026-11-08T03:54:06.689Z",
-        "retranslatedAt": "2026-11-27T06:16:09.087Z"
+        "retranslatedAt": "2026-11-28T05:55:59.098Z"
       }
     },
     {
@@ -17336,7 +18195,7 @@
         "url": "https://cursor.com/changelog/build-live-apps",
         "fetched": true,
         "savedAt": "2026-11-08T03:54:30.136Z",
-        "retranslatedAt": "2026-11-27T06:16:10.046Z"
+        "retranslatedAt": "2026-11-28T05:56:00.131Z"
       }
     },
     {
@@ -32213,7 +33072,7 @@
         "url": "https://cursor.com/changelog/cloud-agent-canvases-and-environments",
         "fetched": true,
         "savedAt": "2026-10-17T02:36:45.886Z",
-        "retranslatedAt": "2026-11-27T06:16:11.027Z"
+        "retranslatedAt": "2026-11-28T05:56:01.104Z"
       }
     },
     {
@@ -34936,798 +35795,6 @@
         "retranslatedAt": "2026-10-21T02:56:41.053Z"
       },
       "translateMethod": "google"
-    },
-    {
-      "id": "sig-58e4191fcf",
-      "title": "Google DeepMind 与新加坡政府合作构建用于诈骗检测的微调人工智能模型",
-      "oneLiner": "与新加坡政府科技局 (GovTech Singapore) 合作，在不损害隐私的情况下保护用户。",
-      "summary": {
-        "oneSentence": "与新加坡政府科技局 (GovTech Singapore) 合作，在不损害隐私的情况下保护用户。",
-        "bullets": [
-          "与新加坡政府科技局 (GovTech Singapore) 合作，在不损害隐私的情况下保护用户。",
-          "投资欺诈、虚假工作机会和冒充公职人员等诈骗行为占新加坡举报犯罪案件的一半以上，自 2019 年以来造成的损失超过 40 亿新元。与此同时，诈骗策略已从简单的网络钓鱼转向复杂的社会工程，攻击者在索要金钱之前通过令人信服的对话来操纵受害者。目前此类诈骗造成的损失高达 80%。",
-          "为了解决这个问题，Google DeepMind 和新加坡政府技术局 (GovTech Singapore) 一直在合作，作为我们与新加坡政府国家人工智能合作伙伴关系的一部分。我们共同微调了保护隐私的设备上诈骗检测模型。",
-          "通用模型经常与本地欺骗技术作斗争，使得诈骗检测变得更加困难。为了解决这个问题，Google 的轻量级 Gemma 模型针对本地诈骗对话进行了微调。其中包括模仿公共机构、银行和当地人物，以及流行的区域计划。这确保了微调模型在部署在公民安装的应用程序中时能够区分良性社交聊天和真正的操纵。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Google DeepMind 官网发布：与新加坡政府科技局 (GovTech Singapore) 合作，在不损害隐私的情况下保护用户。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：gemini",
-        "actionItems": [
-          "阅读原文（英文）：https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "gemini"
-      ],
-      "content": [
-        "与新加坡政府科技局 (GovTech Singapore) 合作，在不损害隐私的情况下保护用户。",
-        "投资欺诈、虚假工作机会和冒充公职人员等诈骗行为占新加坡举报犯罪案件的一半以上，自 2019 年以来造成的损失超过 40 亿新元。与此同时，诈骗策略已从简单的网络钓鱼转向复杂的社会工程，攻击者在索要金钱之前通过令人信服的对话来操纵受害者。目前此类诈骗造成的损失高达 80%。",
-        "为了解决这个问题，Google DeepMind 和新加坡政府技术局 (GovTech Singapore) 一直在合作，作为我们与新加坡政府国家人工智能合作伙伴关系的一部分。我们共同微调了保护隐私的设备上诈骗检测模型。",
-        "通用模型经常与本地欺骗技术作斗争，使得诈骗检测变得更加困难。为了解决这个问题，Google 的轻量级 Gemma 模型针对本地诈骗对话进行了微调。其中包括模仿公共机构、银行和当地人物，以及流行的区域计划。这确保了微调模型在部署在公民安装的应用程序中时能够区分良性社交聊天和真正的操纵。",
-        "与依赖云中服务器端消息扫描的传统威胁检测不同，该模型可以直接在设备上处理对话数据。当集成到应用程序中时，这将允许更快地分析对话模式，以检测操纵意图，并帮助公民在财务或凭证暴露发生之前采取行动。",
-        "该模型在应用程序中的推出将与新加坡政府合作仔细分阶段和开发。部署后，该模型将只能根据该应用程序的使用条款在用户同意的情况下访问设备上的对话。由于该模型完全在设备上运行，新加坡政府和谷歌都无法通过其部署访问用户的对话。",
-        "打击诈骗不应该意味着牺牲个人隐私。我们与 Google DeepMind 合作，将先进的人工智能保护直接带到公民的设备上。这使我们能够实时捕获高度针对性的本地诈骗企图，同时保持个人通信的私密性。",
-        "当模型检测到操纵性对话模式时，它会直接在用户设备上触发实时警告，建议他们在共享敏感信息或资金之前暂停并谨慎行事。",
-        "在现代智能手机上运行复杂的诈骗分类器模型并非易事，电池效率是一个值得关注的关键领域。为此，我们依靠两阶段管道：",
-        "这项合作在新加坡国际网络周 (SICW 2026) 上展示，为消息传递平台提供了一个平衡用户保护与端到端加密的模型。在整个开发过程中保持严格的治理："
-      ],
-      "highlights": [
-        "与新加坡政府科技局 (GovTech Singapore) 合作，在不损害隐私的情况下保护用户。",
-        "投资欺诈、虚假工作机会和冒充公职人员等诈骗行为占新加坡举报犯罪案件的一半以上，自 2019 年以来造成的损失超过 40 亿新元。与此同时，诈骗策略已从简单的网络",
-        "为了解决这个问题，Google DeepMind 和新加坡政府技术局 (GovTech Singapore) 一直在合作，作为我们与新加坡政府国家人工智能合作伙"
-      ],
-      "translated": true,
-      "originalTitle": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection",
-      "originalLang": "en",
-      "date": "2026-10-14",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "gemini"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Google DeepMind",
-        "author": "DeepMind",
-        "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-        "home": "https://deepmind.google/blog/",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Google DeepMind and Singapore Government collaborate to build fine-tuned AI model for scam detection"
-      },
-      "raw": {
-        "title": "Google DeepMind and Singapore Government announce new AI tool to protect citizens against scams",
-        "url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-        "fetched": true,
-        "savedAt": "2026-10-14T03:08:05.828Z",
-        "retranslatedAt": "2026-10-15T02:49:00.880Z"
-      },
-      "translateMethod": "google"
-    },
-    {
-      "id": "sig-a0e0fec2c2",
-      "title": "Amp 让 AI 代理能够通过 OpenAI 模型超越代码进行工作",
-      "oneLiner": "了解 Amp 如何利用 GPT-6 Astra、Ultrafast、GPT-Live-1 和 ChatGPT 登录来拓展代理功能的前沿。",
-      "summary": {
-        "oneSentence": "了解 Amp 如何利用 GPT-6 Astra、Ultrafast、GPT-Live-1 和 ChatGPT 登录来拓展代理功能的前沿。",
-        "bullets": [
-          "了解 Amp 如何利用 GPT-6 Astra、Ultrafast、GPT-Live-1 和 ChatGPT 登录来拓展代理功能的前沿。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：了解 Amp 如何利用 GPT-6 Astra、Ultrafast、GPT-Live-1 和 ChatGPT 登录来拓展代理功能的前沿。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/amp-beyond-coding"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "了解 Amp 如何利用 GPT-6 Astra、Ultrafast、GPT-Live-1 和 ChatGPT 登录来拓展代理功能的前沿。"
-      ],
-      "highlights": [
-        "了解 Amp 如何利用 GPT-6 Astra、Ultrafast、GPT-Live-1 和 ChatGPT 登录来拓展代理功能的前沿。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Amp puts AI agents to work beyond code with OpenAI models",
-      "originalLang": "en",
-      "date": "2026-10-14",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/amp-beyond-coding",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Amp puts AI agents to work beyond code with OpenAI models"
-      },
-      "raw": {
-        "title": "Amp puts AI agents to work beyond code with OpenAI models",
-        "url": "https://openai.com/index/amp-beyond-coding",
-        "fetched": false,
-        "savedAt": "2026-10-15T02:47:55.079Z"
-      }
-    },
-    {
-      "id": "sig-24cc989c02",
-      "title": "SentinelOne 将恶意软件分析时间从几周缩短到几小时",
-      "oneLiner": "借助 OpenAI Daybreak，SentinelOne 将数周的恶意软件分析时间缩短为数小时，从而创造了调查更多威胁的能力。",
-      "summary": {
-        "oneSentence": "借助 OpenAI Daybreak，SentinelOne 将数周的恶意软件分析时间缩短为数小时，从而创造了调查更多威胁的能力。",
-        "bullets": [
-          "借助 OpenAI Daybreak，SentinelOne 将数周的恶意软件分析时间缩短为数小时，从而创造了调查更多威胁的能力。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：借助 OpenAI Daybreak，SentinelOne 将数周的恶意软件分析时间缩短为数小时，从而创造了调查更多威胁的能力。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/sentinelone"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "借助 OpenAI Daybreak，SentinelOne 将数周的恶意软件分析时间缩短为数小时，从而创造了调查更多威胁的能力。"
-      ],
-      "highlights": [
-        "借助 OpenAI Daybreak，SentinelOne 将数周的恶意软件分析时间缩短为数小时，从而创造了调查更多威胁的能力。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "SentinelOne cuts malware analysis from weeks to hours",
-      "originalLang": "en",
-      "date": "2026-10-14",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/sentinelone",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "SentinelOne cuts malware analysis from weeks to hours"
-      },
-      "raw": {
-        "title": "SentinelOne cuts malware analysis from weeks to hours",
-        "url": "https://openai.com/index/sentinelone",
-        "fetched": false,
-        "savedAt": "2026-10-15T02:47:56.384Z"
-      }
-    },
-    {
-      "id": "sig-5902f8702f",
-      "title": "音频深度伪造检测：它是如何工作的以及如何验证",
-      "oneLiner": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
-      "summary": {
-        "oneSentence": "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
-        "bullets": [
-          "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
-          "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root ",
-          "0:00 1.0x 注册 了解更多 在此页面上",
-          "音频深度伪造检测是分析语音音频以确定语音是否真实的过程。生成深度赝品的人工智能语音合成器越来越容易使用。在公共生活和商业中，快速识别您听到的演讲是真实的还是被不良演员操纵的变得很重要。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "ElevenLabs 官网发布：strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://elevenlabs.io/blog/audio-deepfake-detection-guide"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为止最激动人心的模型。",
-        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opacity\"])) [data-navbar=\"_R_dlfiv5ubsnitmpfivb_\"] .nav-topbar-item{opacity:0} :root { --header-height: 4rem; } 跳至内容 产品 解决方案 客户资源 企业定价 登录 注册 联系销售人员 登录 [data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedout\"]{display:none}[data-nav-variant=\"loggedin\"] [data-nav-cta=\"loggedin\"]{display:contents} (function(){var c=document.cookie;var p=document.currentScript.parentElement;if(c.indexOf('xi_website_user=')!==-1){p.dataset.navVariant='loggedin';}})() 注册 了解更多 博客资源 音频 Deepfake 检测：工作原理以及如何验证 ElevenLabs 音频 作者：Jack Limebear 发布于 2026 年 10 月 14 日 听 听这篇文章",
-        "0:00 1.0x 注册 了解更多 在此页面上",
-        "音频深度伪造检测是分析语音音频以确定语音是否真实的过程。生成深度赝品的人工智能语音合成器越来越容易使用。在公共生活和商业中，快速识别您听到的演讲是真实的还是被不良演员操纵的变得很重要。",
-        "在本文中，我们将探讨音频深度伪造检测的工作原理、不同类型的检测、它们的优点和缺点，以及如何将深度伪造检测集成到大规模欺诈检测堆栈中。",
-        "检查音频是否是用 ElevenLabs 生成的",
-        "音频深度伪造检测是确定语音音频是否由人工智能生成或操纵的过程。",
-        "深度伪造是由生成式人工智能应用程序创建的任何形式的媒体（最常见的是图像、视频或音频），其目的是歪曲某人的言论或行为。音频深度伪造有许多恶意用例。它们可用于欺诈、试图访问个人账户、政治宣传或在家庭纠纷中秘密冒充配偶或家庭成员。",
-        "根据目前的趋势，音频深度伪造诈骗的受害者最有可能是：",
-        "不幸的是，人类并不是可靠的深度伪造检测器。在受控的研究环境中，人们识别它们的能力并不比偶然更好，而且这项研究是从 2024 年开始的。从那时起，生成媒体已经变得更加复杂。"
-      ],
-      "highlights": [
-        "strong]:tw-font-normal tw-text-gray-600\"> 隆重介绍 Eleven v4 来认识一下 Eleven v4，这是我们迄今为",
-        "html:has([data-nav-cover=\"_R_dlfiv5ubsnitmpfivb_\"][data-open]:not([style*=\"opaci",
-        "0:00 1.0x 注册 了解更多 在此页面上"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Audio deepfake detection: how it works and how to verify",
-      "originalLang": "en",
-      "date": "2026-10-14",
-      "categoryIds": [
-        "vertical-audio"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "ElevenLabs",
-        "author": "ElevenLabs",
-        "url": "https://elevenlabs.io/blog/audio-deepfake-detection-guide",
-        "home": "https://elevenlabs.io/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Audio deepfake detection: how it works and how to verify"
-      },
-      "raw": {
-        "title": "Audio deepfake detection: How it works & how to verify ElevenLabs audio",
-        "url": "https://elevenlabs.io/blog/audio-deepfake-detection-guide",
-        "fetched": true,
-        "savedAt": "2026-10-15T02:48:08.661Z"
-      }
-    },
-    {
-      "id": "sig-e181547094",
-      "title": "Third Moment Research 如何运行 10,000 个代理长达 36 个小时以上",
-      "oneLiner": "借助用于网络安全的 GPT-6 Astra 和 GPT-6.1 Sol、Codex 和 Daybreak，该 AI 实验室构建了能够持续关注并随着使用不断改进的代理。",
-      "summary": {
-        "oneSentence": "借助用于网络安全的 GPT-6 Astra 和 GPT-6.1 Sol、Codex 和 Daybreak，该 AI 实验室构建了能够持续关注并随着使用不断改进的代理。",
-        "bullets": [
-          "借助用于网络安全的 GPT-6 Astra 和 GPT-6.1 Sol、Codex 和 Daybreak，该 AI 实验室构建了能够持续关注并随着使用不断改进的代理。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：借助用于网络安全的 GPT-6 Astra 和 GPT-6.1 Sol、Codex 和 Daybreak，该 AI 实验室构建了能够持续关注并随着使用不断改进的代理。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/third-moment-research"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "借助用于网络安全的 GPT-6 Astra 和 GPT-6.1 Sol、Codex 和 Daybreak，该 AI 实验室构建了能够持续关注并随着使用不断改进的代理。"
-      ],
-      "highlights": [
-        "借助用于网络安全的 GPT-6 Astra 和 GPT-6.1 Sol、Codex 和 Daybreak，该 AI 实验室构建了能够持续关注并随着使用不断改进的"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "How Third Moment Research runs 10,000 agents for 36+ hours",
-      "originalLang": "en",
-      "date": "2026-10-14",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/third-moment-research",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "How Third Moment Research runs 10,000 agents for 36+ hours"
-      },
-      "raw": {
-        "title": "How Third Moment Research runs 10,000 agents for 36+ hours",
-        "url": "https://openai.com/index/third-moment-research",
-        "fetched": false,
-        "savedAt": "2026-10-15T02:48:09.879Z"
-      }
-    },
-    {
-      "id": "sig-7d10f0ddfe",
-      "title": "Block 如何利用 OpenAI 技术构建人工智能驱动的安全",
-      "oneLiner": "Block 正在利用 OpenAI 构建人工智能驱动的安全性。其安全团队可以更快地调查威胁并在几分钟内提出补丁建议。",
-      "summary": {
-        "oneSentence": "Block 正在利用 OpenAI 构建人工智能驱动的安全性。其安全团队可以更快地调查威胁并在几分钟内提出补丁建议。",
-        "bullets": [
-          "Block 正在利用 OpenAI 构建人工智能驱动的安全性。其安全团队可以更快地调查威胁并在几分钟内提出补丁建议。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：Block 正在利用 OpenAI 构建人工智能驱动的安全性。其安全团队可以更快地调查威胁并在几分钟内提出补丁建议。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/block-ai-powered-security"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "Block 正在利用 OpenAI 构建人工智能驱动的安全性。其安全团队可以更快地调查威胁并在几分钟内提出补丁建议。"
-      ],
-      "highlights": [
-        "Block 正在利用 OpenAI 构建人工智能驱动的安全性。其安全团队可以更快地调查威胁并在几分钟内提出补丁建议。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "How Block is building AI-powered security with OpenAI technology",
-      "originalLang": "en",
-      "date": "2026-10-14",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/block-ai-powered-security",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "How Block is building AI-powered security with OpenAI technology"
-      },
-      "raw": {
-        "title": "How Block is building AI-powered security with OpenAI technology",
-        "url": "https://openai.com/index/block-ai-powered-security",
-        "fetched": false,
-        "savedAt": "2026-10-15T02:48:11.126Z"
-      }
-    },
-    {
-      "id": "sig-eda9fd244d",
-      "title": "价值 100 万美元的 Vercel 沙盒挑战赛的调查结果",
-      "oneLiner": "8 月份，我们针对 Vercel Sandbox 发起了价值 100 万美元的黑客挑战赛，邀请安全研究人员尝试逃离 Vercel Sandbox。我们还与网络安全专家 Trail of Bits 协调，审查源代码和安全架构。",
-      "summary": {
-        "oneSentence": "8 月份，我们针对 Vercel Sandbox 发起了价值 100 万美元的黑客挑战赛，邀请安全研究人员尝试逃离 Vercel Sandbox。我们还与网络安全专家 Trail of Bits 协调，审查源代码和安全架构。",
-        "bullets": [
-          "8 月份，我们针对 Vercel Sandbox 发起了价值 100 万美元的黑客挑战赛，邀请安全研究人员尝试逃离 Vercel Sandbox。我们还与网络安全专家 Trail of Bits 协调，审查源代码和安全架构。",
-          "发现一个 Linux 内核零日漏洞",
-          "没有报告显示任何人访问 Vercel Sandbox 中的客户数据。最严重的发现是上游 Linux 内核的缺陷。",
-          "将链接复制到标题 内核零日 该计划最重要的报告在第三天到达。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：8 月份，我们针对 Vercel Sandbox 发起了价值 100 万美元的黑客挑战赛，邀请安全研究人员尝试逃离 Vercel Sandbox。我们还与网络安全专家 Trail of Bits 协调，审查源代码和安全架构。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/blog/findings-from-the-1-million-dollar-vercel-sandbox-challenge"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "8 月份，我们针对 Vercel Sandbox 发起了价值 100 万美元的黑客挑战赛，邀请安全研究人员尝试逃离 Vercel Sandbox。我们还与网络安全专家 Trail of Bits 协调，审查源代码和安全架构。",
-        "发现一个 Linux 内核零日漏洞",
-        "没有报告显示任何人访问 Vercel Sandbox 中的客户数据。最严重的发现是上游 Linux 内核的缺陷。",
-        "将链接复制到标题 内核零日 该计划最重要的报告在第三天到达。",
-        "Paulos Yibelo (pwn.ai) 是一位 HackerOne 研究员，他在没有特殊访问权限的标准沙箱中工作，发现 Linux 内核的网络堆栈存在缺陷。 Paulos 发现从 microVM 内部发送的特制数据包会引发三种不同的攻击：",
-        "将链接复制到标题泄漏主机内存在第一次攻击中，来自主机（您的沙箱与其他租户共享的计算机）的内存显示在来宾通过互联网发送的数据包中。只要客人继续发送，这种情况就可以连续发生。",
-        "此攻击针对 Vercel 生产沙箱进行了演示。",
-        "将链接复制到标题 使主机崩溃并在主机上执行代码 研究人员还发现，通过发送特定数据包，他们可能会危害主机。",
-        "首先，通过发送两个数据包，研究人员使主机崩溃，关闭其上运行的每个沙箱。其次，利用相同的缺陷，他们能够在主机上以完全管理员权限运行命令，突破沙箱的隔离边界。",
-        "与数据包相关的崩溃和代码执行攻击在研究人员自己的与 Vercel Sandbox 配置匹配的 KVM 和 Firecracker 机器上进行了演示。"
-      ],
-      "highlights": [
-        "8 月份，我们针对 Vercel Sandbox 发起了价值 100 万美元的黑客挑战赛，邀请安全研究人员尝试逃离 Vercel Sandbox。我们还与网络安",
-        "发现一个 Linux 内核零日漏洞",
-        "没有报告显示任何人访问 Vercel Sandbox 中的客户数据。最严重的发现是上游 Linux 内核的缺陷。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Findings from the $1M Vercel Sandbox challenge",
-      "originalLang": "en",
-      "date": "2026-10-14",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/blog/findings-from-the-1-million-dollar-vercel-sandbox-challenge",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Findings from the $1M Vercel Sandbox challenge"
-      },
-      "raw": {
-        "title": "Findings from the $1M Vercel Sandbox challenge",
-        "url": "https://vercel.com/blog/findings-from-the-1-million-dollar-vercel-sandbox-challenge",
-        "fetched": true,
-        "savedAt": "2026-10-15T02:48:22.983Z"
-      }
-    },
-    {
-      "id": "sig-2f3282e483",
-      "title": "欧盟人工智能的下一章是代理",
-      "oneLiner": "新的分析显示了欧盟企业和小型企业中代理人工智能的采用如何增长，以及更深入的使用可以释放更多价值。",
-      "summary": {
-        "oneSentence": "新的分析显示了欧盟企业和小型企业中代理人工智能的采用如何增长，以及更深入的使用可以释放更多价值。",
-        "bullets": [
-          "新的分析显示了欧盟企业和小型企业中代理人工智能的采用如何增长，以及更深入的使用可以释放更多价值。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "OpenAI 官网发布：新的分析显示了欧盟企业和小型企业中代理人工智能的采用如何增长，以及更深入的使用可以释放更多价值。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "关联产品：chatgpt",
-        "actionItems": [
-          "阅读原文（英文）：https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [
-        "chatgpt"
-      ],
-      "content": [
-        "新的分析显示了欧盟企业和小型企业中代理人工智能的采用如何增长，以及更深入的使用可以释放更多价值。"
-      ],
-      "highlights": [
-        "新的分析显示了欧盟企业和小型企业中代理人工智能的采用如何增长，以及更深入的使用可以释放更多价值。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "The EU’s next chapter in AI is agentic",
-      "originalLang": "en",
-      "date": "2026-10-14",
-      "categoryIds": [
-        "llm"
-      ],
-      "productIds": [
-        "chatgpt"
-      ],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "OpenAI",
-        "author": "OpenAI",
-        "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-        "home": "https://openai.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "The EU’s next chapter in AI is agentic"
-      },
-      "raw": {
-        "title": "The EU’s next chapter in AI is agentic",
-        "url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic",
-        "fetched": false,
-        "savedAt": "2026-10-15T02:48:24.210Z"
-      }
-    },
-    {
-      "id": "sig-9d844e6ac1",
-      "title": "Amazon S3 加入 Vercel 市场 - Vercel",
-      "oneLiner": "您现在可以通过 Vercel Marketplace 创建和连接 Amazon S3 资源，而无需离开 Vercel 项目仪表板。",
-      "summary": {
-        "oneSentence": "您现在可以通过 Vercel Marketplace 创建和连接 Amazon S3 资源，而无需离开 Vercel 项目仪表板。",
-        "bullets": [
-          "您现在可以通过 Vercel Marketplace 创建和连接 Amazon S3 资源，而无需离开 Vercel 项目仪表板。",
-          "Amazon S3 Marketplace 集成会自动添加连接详细信息作为环境变量，并让您可以管理应用程序基础设施的资源，并提供指向 AWS 的链接以进行更深入的配置。身份验证使用短期 OIDC 凭证，而不存储静态 AWS 密钥。",
-          "Amazon S3 还提供 v0 版本，它可以预置资源、配置连接并根据提示生成代码。",
-          "lib/s3.ts 1 从 '@vercel/aws' 导入 { createS3 } ； 2 const os = createS3(); S3 客户端通过 Vercel OIDC 进行身份验证，没有静态 AWS 密钥。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：您现在可以通过 Vercel Marketplace 创建和连接 Amazon S3 资源，而无需离开 Vercel 项目仪表板。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/amazon-s3-joins-the-vercel-marketplace"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "您现在可以通过 Vercel Marketplace 创建和连接 Amazon S3 资源，而无需离开 Vercel 项目仪表板。",
-        "Amazon S3 Marketplace 集成会自动添加连接详细信息作为环境变量，并让您可以管理应用程序基础设施的资源，并提供指向 AWS 的链接以进行更深入的配置。身份验证使用短期 OIDC 凭证，而不存储静态 AWS 密钥。",
-        "Amazon S3 还提供 v0 版本，它可以预置资源、配置连接并根据提示生成代码。",
-        "lib/s3.ts 1 从 '@vercel/aws' 导入 { createS3 } ； 2 const os = createS3(); S3 客户端通过 Vercel OIDC 进行身份验证，没有静态 AWS 密钥。",
-        "app/api/upload/route.ts 1 从 \"@aws-sdk/client-s3\" 导入 { PutObjectCommand } ； 2 从“@/lib/s3”导入{s3}； 3 4 导出异步函数 POST(request:Request){ 5 const formData=await request。表单数据(); 6 const 文件 = formData 。获取（“文件”）； 7 8 if (!(file instanceof File)) { 9 返回响应。 json ( { error : \"需要一个文件。\" } , { status : 400 } ) ; 10 } 11 12 等待 s3 。 send ( 13 new PutObjectCommand ( { 14 Bucket : process . env . S3_BUCKET_NAME ! , 15 Key : file . name , 16 Body : Buffer . from (await file . arrayBuffer ( ) ) , 17 ContentType : file . type || \"application/octet-stream\" , 18 } ) , 19 ) ; 20 21 返回响应。 json ( { key : 文件 . name } ) ; 22 } 将来自多部分表单请求的文件上传到您的 S3 存储桶。",
-        "Vercel Blob 为应用程序文件上传提供公共和私有存储，并具有靠近最终用户的内置缓存和 CDN 交付。选择现有 AWS 工作流程的 Amazon S3 集成、使用 S3 Tables 对托管 Iceberg 表进行分析，或使用 S3 Vectors 进行向量存储和搜索。",
-        "开始使用 Vercel Marketplace。通过 Vercel 创建新的 AWS 账户即可获得 100 美元的积分，有效期为六个月，或链接现有账户并从 Vercel 仪表板管理您的计划和使用情况。链接帐户仅支持通过 Vercel 创建的新存储桶。请阅读 AWS 公告以获取示例和设置详细信息。"
-      ],
-      "highlights": [
-        "您现在可以通过 Vercel Marketplace 创建和连接 Amazon S3 资源，而无需离开 Vercel 项目仪表板。",
-        "Amazon S3 Marketplace 集成会自动添加连接详细信息作为环境变量，并让您可以管理应用程序基础设施的资源，并提供指向 AWS 的链接以进行更深入",
-        "Amazon S3 还提供 v0 版本，它可以预置资源、配置连接并根据提示生成代码。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Amazon S3 joins the Vercel Marketplace - Vercel",
-      "originalLang": "en",
-      "date": "2026-10-14",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/amazon-s3-joins-the-vercel-marketplace",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Amazon S3 joins the Vercel Marketplace - Vercel"
-      },
-      "raw": {
-        "title": "Amazon S3 joins the Vercel Marketplace",
-        "url": "https://vercel.com/changelog/amazon-s3-joins-the-vercel-marketplace",
-        "fetched": true,
-        "savedAt": "2026-10-15T02:48:32.656Z"
-      }
-    },
-    {
-      "id": "sig-77a359dae7",
-      "title": "Nemotron 3.5 Lightning 现已在 AI Gateway 上免费提供 - Vercel",
-      "oneLiner": "NVIDIA 的 Nemotron 3.5 Lightning 现已在 AI Gateway 上免费提供，名称为 nvidia/nemotron-3.5-lightning-free ，由 NVIDIA 提供服务。",
-      "summary": {
-        "oneSentence": "NVIDIA 的 Nemotron 3.5 Lightning 现已在 AI Gateway 上免费提供，名称为 nvidia/nemotron-3.5-lightning-free ，由 NVIDIA 提供服务。",
-        "bullets": [
-          "NVIDIA 的 Nemotron 3.5 Lightning 现已在 AI Gateway 上免费提供，名称为 nvidia/nemotron-3.5-lightning-free ，由 NVIDIA 提供服务。",
-          "Nemotron 3.5 Lightning 是一种开放权重推理和聊天模型，适用于长期运行的代理、子代理工作、聊天机器人和 RAG 系统。该模型有 30B 个参数，每个令牌有 3B 个活跃参数，采用混合专家混合设计，将 Mamba-2 和 MoE 层与一些注意力层交错在一起。它具有1M令牌上下文窗口，支持工具调用和结构",
-          "注意：提供商可能会保留模型改进的提示。",
-          "通过 AI SDK 、聊天完成、响应和消息 API 或连接到 AI 网关的编码代理调用 Nemotron 3.5 Lightning。"
-        ],
-        "audience": "AI 产品学习者",
-        "readMinutes": 3,
-        "keywords": []
-      },
-      "insight": {
-        "mainInsight": "Vercel AI 官网发布：NVIDIA 的 Nemotron 3.5 Lightning 现已在 AI Gateway 上免费提供，名称为 nvidia/nemotron-3.5-lightning-free ，由 NVIDIA 提供服务。",
-        "whyNow": "",
-        "problem": "",
-        "trend": "",
-        "differentiation": "",
-        "outlook": ""
-      },
-      "learning": {
-        "whyImportant": "官方一手信息，适合了解产品方向与能力边界。",
-        "productDesign": "",
-        "relevance": "",
-        "actionItems": [
-          "阅读原文（英文）：https://vercel.com/changelog/nemotron-3-5-lightning-now-available-on-ai-gateway-for-free"
-        ]
-      },
-      "tags": [],
-      "importance": {
-        "stars": 4,
-        "reason": "官网一手发布",
-        "readMinutes": 5
-      },
-      "affectedProductIds": [],
-      "content": [
-        "NVIDIA 的 Nemotron 3.5 Lightning 现已在 AI Gateway 上免费提供，名称为 nvidia/nemotron-3.5-lightning-free ，由 NVIDIA 提供服务。",
-        "Nemotron 3.5 Lightning 是一种开放权重推理和聊天模型，适用于长期运行的代理、子代理工作、聊天机器人和 RAG 系统。该模型有 30B 个参数，每个令牌有 3B 个活跃参数，采用混合专家混合设计，将 Mamba-2 和 MoE 层与一些注意力层交错在一起。它具有1M令牌上下文窗口，支持工具调用和结构化输出。",
-        "注意：提供商可能会保留模型改进的提示。",
-        "通过 AI SDK 、聊天完成、响应和消息 API 或连接到 AI 网关的编码代理调用 Nemotron 3.5 Lightning。",
-        "使用 nvidia/nemotron-3.5-lightning-free 作为型号名称：",
-        "API Claude Code fx 聊天完成 API API Claude Code Claude Code fx fx 聊天完成 聊天完成 1 import {streamText } from 'ai' ; 2 3 const result = streamText ({ 4 model : 'nvidia/nemotron-3.5-lightning-free' , 5prompt : '编写一个 TypeScript 函数，以指数退避重试失败的获取。' , 6 }) ;复制代理查看模型详细信息 ↗ 要在 Claude Code、Codex、Cursor 等中使用它，请安装最新的 Vercel CLI 并运行安装程序：",
-        "然后在代理中选择nvidia/nemotron-3.5-lightning-free。有关详细信息，请参阅编码代理指南。",
-        "AI Gateway 提供统一的 API，用于调用模型、跟踪使用情况和成本，以及配置重试、故障转移和性能优化，以实现高于提供商的正常运行时间。它包括内置的自定义报告、API 密钥预算、路由规则等。",
-        "AI Gateway 反映了提供商的定价，没有加价，并且不会就推理（包括自带密钥 (BYOK) 请求）收取平台费用。",
-        "您可以查看AI网关上所有可用的语言模型。"
-      ],
-      "highlights": [
-        "NVIDIA 的 Nemotron 3.5 Lightning 现已在 AI Gateway 上免费提供，名称为 nvidia/nemotron-3.5-lig",
-        "Nemotron 3.5 Lightning 是一种开放权重推理和聊天模型，适用于长期运行的代理、子代理工作、聊天机器人和 RAG 系统。该模型有 30B 个参",
-        "注意：提供商可能会保留模型改进的提示。"
-      ],
-      "translated": true,
-      "translateMethod": "google",
-      "originalTitle": "Nemotron 3.5 Lightning now available on AI Gateway for free - Vercel",
-      "originalLang": "en",
-      "date": "2026-10-14",
-      "categoryIds": [
-        "agent-code"
-      ],
-      "productIds": [],
-      "source": {
-        "type": "blog",
-        "group": "company",
-        "name": "Vercel AI",
-        "author": "Vercel",
-        "url": "https://vercel.com/changelog/nemotron-3-5-lightning-now-available-on-ai-gateway-for-free",
-        "home": "https://vercel.com/blog",
-        "lang": "en",
-        "translated": true,
-        "translateMethod": "google",
-        "originalTitle": "Nemotron 3.5 Lightning now available on AI Gateway for free - Vercel"
-      },
-      "raw": {
-        "title": "Nemotron 3.5 Lightning now available on AI Gateway for free",
-        "url": "https://vercel.com/changelog/nemotron-3-5-lightning-now-available-on-ai-gateway-for-free",
-        "fetched": true,
-        "savedAt": "2026-10-15T02:48:43.275Z"
-      }
     }
   ]
 }
